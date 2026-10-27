@@ -21,6 +21,11 @@ OUTCOMES = {"supports", "contradicts"}
 BY_RE = re.compile(r"^(model|human|source):\S.*$")
 
 
+def default_match(label):
+    """Short or all-caps labels (R, Go, AWS) must match case-exactly; longer ones ignore case."""
+    return "exact_case" if len(label) <= 3 or (label.isupper() and len(label) <= 5) else "word_ci"
+
+
 def norm(label):
     return re.sub(r"\s+", " ", unicodedata.normalize("NFKC", label).strip()).lower()
 

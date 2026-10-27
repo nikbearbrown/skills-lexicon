@@ -1,0 +1,201 @@
+"""Check model answers and save the good ones as machine-drafted entries. Nothing is saved unless the whole dictionary still validates.
+
+    python3 -I tools/ingest.py work --model-id claude-sonnet-5-5 --run 2026-10-27-pilot [--dry-run]
+
+The operator names the model (--model-id) and the run; the model's own claim about who it is is never used.
+Claims a model marked basis "guess" are dropped, as are relations to ids that do not exist.
+Answers that fail go to work/rejected/ with the reasons; "not a skill" and "unsure" go to data/term-decisions.json
+so the same term is not asked again.
+"""
+import argparse
+import copy
+import datetime
+import json
+import re
+import sys
+from pathlib import Path
+
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+import lexicon as L  # noqa: E402
+
+DECISIONS = {"new", "variant_of", "not_a_skill", "unsure"}
+BASIS = {"posting", "general-knowledge", "guess"}
+NOTE_MAX = 200
+
+
+def slugify(name, taken):
+    base = re.sub(r"[^a-z0-9]+", "-", name.lower()).strip("-") or "entry"
+    key, n = base, 2
+    while key in taken:
+        key, n = f"{base}-{n}", n + 1
+    return key
+
+
+def evidence(field, by, run, today, basis, quote):
+    note = f"basis: {basis}"
+    if basis == "posting" and quote:
+        note += f"; quote: {quote}"[:NOTE_MAX]
+    return {"field": field, "by": by, "action": "drafted", "date": today, "run": run, "note": note}
+
+
+def build_new(resp, req, entries, by, run, today):
+    """Return (entry, dropped notes). Raises ValueError when the answer cannot be used at all."""
+    e = resp.get("entry")
+    if not isinstance(e, dict):
+        raise ValueError("decision is 'new' but there is no entry")
+    for k in ("preferred_name", "kind", "definition"):
+        if not isinstance(e.get(k), str) or not e[k].strip():
+            raise ValueError(f"entry.{k} is missing")
+    ids = {x["id"] for x in entries}
+    quote = (req.get("quotes") or [{}])[0].get("quote", "")
+    dropped, ev = [], []
+    dbasis = e.get("definition_basis")
+    if dbasis not in BASIS or dbasis == "guess":
+        raise ValueError("definition_basis must be 'posting' or 'general-knowledge'; a guessed definition is not kept")
+    out = {"id": f"skill:{max(int(x['id'][6:]) for x in entries) + 1:04d}", "preferred_name": e["preferred_name"].strip(),
+           "kind": e["kind"].strip(), "definition": e["definition"].strip()}
+    out["key"] = slugify(out["preferred_name"], {x.get("key") for x in entries})
+    if L.default_match(out["preferred_name"]) != "word_ci":
+        out["name_match"] = L.default_match(out["preferred_name"])
+    ev += [evidence("definition", by, run, today, dbasis, quote), evidence("kind", by, run, today, f"{dbasis} (with the definition)", quote)]
+    variants, seen = [], {L.norm(out["preferred_name"])}
+    term = req["term"]
+    if L.norm(term) not in seen:
+        variants.append({"label": term, "match": L.default_match(term)})
+        seen.add(L.norm(term))
+        ev.append({"field": f"variant:{L.norm(term)}", "by": by, "action": "drafted", "date": today, "run": run,
+                   "note": ("observed in postings; the model chose the canonical name; quote: " + quote)[:NOTE_MAX]})
+    for v in e.get("variants") or []:
+        lab, b = (v.get("label") or "").strip(), v.get("basis")
+        if not lab or L.norm(lab) in seen:
+            continue
+        if b not in BASIS or b == "guess":
+            dropped.append(f"variant {lab!r}: basis {b!r}")
+            continue
+        variants.append({"label": lab, "match": L.default_match(lab)})
+        seen.add(L.norm(lab))
+        ev.append(evidence(f"variant:{L.norm(lab)}", by, run, today, b, quote))
+    rels = []
+    for r in e.get("relations") or []:
+        t, tgt, b = r.get("type"), r.get("target"), r.get("basis")
+        if t not in L.REL_TYPES or tgt not in ids:
+            dropped.append(f"relation {t} -> {tgt}: unknown type or target")
+        elif b not in BASIS or b == "guess":
+            dropped.append(f"relation {t} -> {tgt}: basis {b!r}")
+        else:
+            rels.append({"type": t, "target": tgt})
+            ev.append(evidence(f"relation:{t}:{tgt}", by, run, today, b, quote))
+    verbs = []
+    for v in e.get("verbs") or []:
+        w, b = (v.get("verb") or "").strip(), v.get("basis")
+        if not w or L.norm(w) in {L.norm(x) for x in verbs}:
+            continue
+        if b not in BASIS or b == "guess":
+            dropped.append(f"verb {w!r}: basis {b!r}")
+            continue
+        verbs.append(w)
+        ev.append(evidence(f"verb:{L.norm(w)}", by, run, today, b, quote))
+    out.update({"variants": variants, "relations": rels, "verbs": verbs, "status": "machine-drafted",
+                "provenance": {"source": f"drafted by {by}, run {run}, from job postings", "date": today, "reviewed_by": None},
+                "evidence": ev})
+    return out, dropped
+
+
+def add_variant(resp, req, entries, by, run, today):
+    tid = resp.get("variant_of")
+    tgt = next((x for x in entries if x["id"] == tid), None)
+    if tgt is None:
+        raise ValueError(f"variant_of {tid!r} does not exist")
+    if tgt["status"] == "reviewed":
+        raise ValueError(f"{tid} is reviewed; adding a claim would unreview it, so propose it as a pull request")
+    term = req["term"]
+    quote = (req.get("quotes") or [{}])[0].get("quote", "")
+    tgt.setdefault("variants", []).append({"label": term, "match": L.default_match(term)})
+    tgt.setdefault("evidence", []).append(
+        {"field": f"variant:{L.norm(term)}", "by": by, "action": "drafted", "date": today, "run": run,
+         "note": ("same concept as " + tgt["preferred_name"] + ", seen in postings; quote: " + quote)[:NOTE_MAX]})
+    return tgt
+
+
+def clean(e):
+    return {k: v for k, v in e.items() if not k.startswith("_")}
+
+
+def ingest(work, root, by, run, today, dry=False):
+    root, work = Path(root), Path(work)
+    entries, errs = L.load(root / "entries")
+    if errs + L.validate(entries):
+        raise SystemExit("dictionary does not validate before ingest; fix it first")
+    dec_path = root / "data" / "term-decisions.json"
+    decisions = json.loads(dec_path.read_text("utf-8")) if dec_path.exists() else []
+    report = {"new": [], "variant": [], "not_a_skill": [], "unsure": [], "rejected": [], "dropped_claims": 0}
+    for rp in sorted((work / "responses").glob("*.json")):
+        name = rp.name
+        req_p = work / "requests" / name
+        if not req_p.exists() or (work / "done" / name).exists():
+            continue
+        req = json.loads(req_p.read_text("utf-8"))
+        try:
+            resp = json.loads(rp.read_text("utf-8"))
+            if resp.get("decision") not in DECISIONS:
+                raise ValueError(f"decision must be one of {sorted(DECISIONS)}")
+            if resp["decision"] in ("not_a_skill", "unsure"):
+                decisions.append({"term": req["term"], "decision": resp["decision"], "by": by, "run": run, "date": today,
+                                  "reason": str(resp.get("reason", ""))[:200]})
+                report[resp["decision"]].append(req["term"])
+                outcome = None
+            else:
+                trial = copy.deepcopy(entries)
+                if resp["decision"] == "new":
+                    new, dropped = build_new(resp, req, trial, by, run, today)
+                    new["_file"] = new["key"] + ".json"
+                    trial.append(new)
+                    report["dropped_claims"] += len(dropped)
+                    label = new["preferred_name"]
+                else:
+                    tgt = add_variant(resp, req, trial, by, run, today)
+                    new, dropped, label = tgt, [], f"{req['term']} -> {tgt['preferred_name']}"
+                problems = L.validate(trial)
+                if problems:
+                    raise ValueError("; ".join(problems[:4]))
+                entries = trial
+                report["new" if resp["decision"] == "new" else "variant"].append(label)
+                outcome = new
+        except (ValueError, KeyError, TypeError) as e:
+            report["rejected"].append((req["term"], str(e)))
+            if not dry:
+                (work / "rejected").mkdir(parents=True, exist_ok=True)
+                (work / "rejected" / name).write_text(json.dumps({"errors": str(e), "request": req["term"]}, indent=1) + "\n", "utf-8")
+            continue
+        if not dry:
+            (work / "done").mkdir(parents=True, exist_ok=True)
+            (work / "done" / name).write_text("{}\n", "utf-8")
+            if outcome:
+                (root / "entries" / outcome["_file"]).write_text(
+                    json.dumps(clean(outcome), indent=1, ensure_ascii=False) + "\n", "utf-8")
+    if not dry and decisions:
+        dec_path.parent.mkdir(exist_ok=True)
+        dec_path.write_text(json.dumps(decisions, indent=1, ensure_ascii=False) + "\n", "utf-8")
+    return report
+
+
+def main(argv=None):
+    ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
+    ap.add_argument("work")
+    ap.add_argument("--model-id", required=True)
+    ap.add_argument("--run", required=True)
+    ap.add_argument("--root", default=str(L.ROOT))
+    ap.add_argument("--dry-run", action="store_true")
+    ap.add_argument("--date", default=datetime.date.today().isoformat())
+    a = ap.parse_args(argv)
+    r = ingest(a.work, a.root, "model:" + a.model_id, a.run, a.date, a.dry_run)
+    print(("DRY RUN: nothing written. " if a.dry_run else "") +
+          f"new {len(r['new'])}, variants {len(r['variant'])}, not a skill {len(r['not_a_skill'])}, "
+          f"unsure {len(r['unsure'])}, rejected {len(r['rejected'])}, claims dropped {r['dropped_claims']}")
+    for term, why in r["rejected"]:
+        print(f"  rejected {term!r}: {why}")
+    return 0
+
+
+if __name__ == "__main__":
+    sys.exit(main())
