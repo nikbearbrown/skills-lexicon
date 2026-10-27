@@ -91,6 +91,36 @@ class Extract(unittest.TestCase):
         self.assertTrue((root / "w" / "records.jsonl").exists() and (root / "w" / "candidates.json").exists())
 
 
+class Noise(unittest.TestCase):
+    def terms(self, ads):
+        return {c["term"] for c in X.process(ads, L.load()[0])[1]}
+
+    def test_boilerplate_lists_are_not_candidates(self):
+        t = self.terms([{"id": "a", "text": "We do not discriminate, including on gender identity, sexual orientation or age.\n"
+                                            "Benefits including dental, vision and a 401k match."}])
+        self.assertFalse({"gender identity", "sexual orientation", "dental", "vision"} & t)
+
+    def test_ci_cd_is_one_term_and_and_or_is_not_a_term(self):
+        t = self.terms([{"id": "a", "text": "You know CI/CD and/or similar tooling."}])
+        self.assertIn("CI/CD", t)
+        self.assertFalse({"CI", "CD", "and/or"} & t)
+
+    def test_headings_and_recruiter_tags_are_ignored(self):
+        t = self.terms([{"id": "a", "text": "ABOUT THE ROLE\nWHAT YOU WILL DO\nApply now. #LI-Remote"}])
+        self.assertFalse({"ABOUT", "ROLE", "WHAT", "LI", "Remote"} & t)
+
+    def test_ordinary_capitalised_words_are_dropped_by_the_corpus(self):
+        ads = [{"id": "a", "text": "We use Kubernetes and the Engineer role. Our engineer will use tools."},
+               {"id": "b", "text": "Experience with Terraform. Each engineer matters; an engineer leads."}]
+        t = self.terms(ads)
+        self.assertIn("Kubernetes", t)
+        self.assertNotIn("Engineer", t)
+
+    def test_plain_words_outside_a_skill_sentence_are_dropped(self):
+        t = self.terms([{"id": "a", "text": "Our office is in San Francisco near Market Street."}])
+        self.assertFalse({"San", "Francisco", "Market", "Street"} & t)
+
+
 class Requests(unittest.TestCase):
     def test_request_is_self_contained(self):
         entries, _ = L.load()
@@ -105,6 +135,13 @@ class Requests(unittest.TestCase):
         entries, _ = L.load()
         near = M.nearest("PostgreSQL 15", [{"quote": "run PostgreSQL databases"}], entries)
         self.assertEqual(near[0]["id"], "skill:0082")
+
+    def test_nearest_uses_cooccurrence_not_stray_words(self):
+        entries, _ = L.load()
+        near = M.nearest("Kubernetes", [{"quote": "Experience with infrastructure systems, security, and AWS or React"}], entries)
+        names = {n["name"] for n in near}
+        self.assertTrue({"Amazon Web Services", "React"} <= names)        # AWS and React appear in the quote
+        self.assertFalse({"Cybersecurity", "Operating systems"} & names)  # only a stray word in common
 
     def test_min_postings_filters(self):
         entries, _ = L.load()

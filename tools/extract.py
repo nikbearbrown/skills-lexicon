@@ -20,9 +20,15 @@ import lexicon as L  # noqa: E402
 QUOTE_MAX = 200
 CUE = re.compile(r"(?:experience (?:with|in|using)|proficien\w+ (?:in|with)|knowledge of|familiarity with|"
                  r"skilled in|expertise in|such as|including|e\.g\.|i\.e\.)\s*:?\s*([^.;\n]{3,200})", re.I)
-TECH = re.compile(r"(?<![\w.])(?:[A-Z][a-z]+(?:[A-Z][a-z0-9]+)+|[A-Z][a-z]+[A-Z]{2,}[a-z]*|[A-Z][A-Z0-9]{1,5}|"
-                  r"[A-Za-z][A-Za-z0-9]*(?:\+\+|#|\.js|\.NET)|[A-Za-z]{2,}/[A-Za-z]{2,})(?![\w])")
-CAPS_STOP = {"US", "USA", "UK", "EU", "EEO", "EOE", "AM", "PM", "CEO", "CTO", "CFO", "VP", "HR", "PTO", "ID", "OK",
+TECH = re.compile(r"(?<![\w.])(?:[A-Za-z]{2,}/[A-Za-z]{2,}|[A-Z][a-z]+(?:[A-Z][a-z0-9]+)+|[A-Z][a-z]+[A-Z]{2,}[a-z]*|[A-Z][A-Z0-9]{1,5}|"
+                  r"[A-Za-z][A-Za-z0-9]*(?:\+\+|#|\.js|\.NET))(?![\w])")
+TAGS = re.compile(r"#LI-\w+|#[A-Z]{2,}-\w+")                # recruiter tags such as #LI-Remote
+SKILL_CONTEXT = re.compile(r"\b(?:experience|knowledge|proficien\w*|familiar\w*|skills?|expertise|using|uses?|stack|tools?|"
+                           r"technolog\w*|frameworks?|languages?|built (?:with|on)|work(?:ing)? with|such as|including|e\.g\.)\b", re.I)
+BOILERPLATE = re.compile(r"\b(?:race|religion|gender|sexual orientation|national origin|veteran|disabilit\w*|equal opportunity|"
+                         r"discriminat\w*|affirmative action|dental|medical|insurance|401\(?k|pto|paid time off|parental leave|benefits)\b", re.I)
+MAX_LOWER_SHARE = 0.10   # a plain capitalised word that is often seen in lower case is an ordinary word (Engineer, Team)
+CAPS_STOP = {"USD", "LI", "ABOUT", "WHAT", "WHO", "WHY", "HOW", "NOTE", "NOTICE", "EQUAL", "GDPR", "CCPA", "COVID", "DEI","US", "USA", "UK", "EU", "EEO", "EOE", "AM", "PM", "CEO", "CTO", "CFO", "VP", "HR", "PTO", "ID", "OK",
              "II", "III", "IV", "NYC", "LLC", "INC", "FAQ", "FTE", "PDF", "ASAP", "TBD", "ETC", "AND", "THE", "FOR",
              "WITH", "YOU", "OUR", "WE", "ALL", "NOT", "MAY", "CAN", "NEW"}
 PLAIN = re.compile(r"(?<![\w.])[A-Z][a-z]{2,}(?![\w])")     # Kubernetes, Terraform: capitalised, not at a sentence start
@@ -68,19 +74,31 @@ def known_spans(text, forms):
     return sorted(kept)
 
 
+def shouty(line):
+    """A heading such as 'ABOUT THE ROLE': mostly capitals, several words."""
+    letters = [c for c in line if c.isalpha()]
+    return len(line.split()) > 2 and letters and sum(c.isupper() for c in letters) / len(letters) > 0.6
+
+
 def candidate_terms(text):
-    """Terms that look like skills: tech-shaped tokens, plus items in lists after cues like 'experience with'."""
+    """term -> (start, end, rule). Rules: tech-shaped tokens; plain capitalised words in a skill-like sentence; list items after cues."""
+    text = TAGS.sub(" ", text)
     found = {}
     for m in TECH.finditer(text):
         t = m.group(0)
-        if t.upper() in CAPS_STOP and t == t.upper():
+        line = text[text.rfind("\n", 0, m.start()) + 1:(text.find("\n", m.end()) if text.find("\n", m.end()) != -1 else len(text))]
+        if (t.upper() in CAPS_STOP and t == t.upper()) or shouty(line):
             continue
-        found.setdefault(t, (m.start(), m.end()))
+        if "/" in t and not any(c.isupper() for c in t):
+            continue                                            # and/or, client/server
+        found.setdefault(t, (m.start(), m.end(), "tech"))
     for m in PLAIN.finditer(text):
         before = text[:m.start()].rstrip(" \t-–•*")
-        if before and before[-1] not in ".!?:\n" and m.group(0) not in found:
-            found[m.group(0)] = (m.start(), m.end())
+        if before and before[-1] not in ".!?:\n" and m.group(0) not in found and SKILL_CONTEXT.search(sentence(text, m.start(), m.end())):
+            found[m.group(0)] = (m.start(), m.end(), "plain")
     for cm in CUE.finditer(text):
+        if BOILERPLATE.search(sentence(text, cm.start(), cm.end())):
+            continue                                            # equal-opportunity and benefits lists are not skills
         base = cm.start(1)
         for part in re.finditer(r"[^,;]+", cm.group(1)):
             for piece in re.split(r"\s+(?:and|or)\s+", part.group(0)):
@@ -89,7 +107,7 @@ def candidate_terms(text):
                 if not (1 <= len(words) <= 4) or words[0].lower() in ITEM_STOP or len(item) < 2:
                     continue
                 at = text.find(item, base)
-                found.setdefault(item, (at, at + len(item)) if at != -1 else (base, base))
+                found.setdefault(item, (at, at + len(item), "cue") if at != -1 else (base, base, "cue"))
     return found
 
 
@@ -104,6 +122,8 @@ def process(postings, entries, decisions=None):
     decisions = decisions or {}
     known_norms = set(index["variants"])
     records, cand = [], {}
+    lower = Counter(w for p in postings for w in re.findall(r"(?<![\w.])[a-z]{3,}(?![\w])", p.get("text") or ""))
+    plain_seen = Counter(m.group(0) for p in postings for m in PLAIN.finditer(p.get("text") or ""))
     for p in postings:
         text = p.get("text") or ""
         spans = known_spans(text, forms)
@@ -121,8 +141,10 @@ def process(postings, entries, decisions=None):
                 if t not in up:
                     up.append(t)
         rec["rolled_up"] = sorted(up)
-        for term, (a, b) in candidate_terms(text).items():
+        for term, (a, b, rule) in candidate_terms(text).items():
             n = L.norm(term)
+            if rule == "plain" and lower[n] > MAX_LOWER_SHARE * (lower[n] + plain_seen[term]):
+                continue
             if n in known_norms or n in decisions or any(a < s[1] and s[0] < b for s in spans):
                 continue
             d = cand.setdefault(n, {"term": term, "surface": Counter(), "postings": [], "quotes": []})

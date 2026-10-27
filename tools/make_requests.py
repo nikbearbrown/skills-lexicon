@@ -28,18 +28,22 @@ def instructions(path=SKILL):
 
 
 def nearest(term, quotes, entries, k=8):
-    words = set(re.findall(r"[a-z0-9+#.]{3,}", " ".join(q["quote"] for q in quotes).lower()))
+    """Entries that are close in spelling, or that appear in the same quote as the term (AWS next to GCP).
+    Shared stray words are not enough: an irrelevant neighbour invites a false relation."""
+    blob = " ".join(q["quote"] for q in quotes)
     scored = []
     for e in entries:
         if e["status"] == "deprecated":
             continue
         names = [e["preferred_name"]] + [v["label"] for v in e.get("variants", [])]
         sim = max(difflib.SequenceMatcher(None, L.norm(term), L.norm(n)).ratio() for n in names)
-        overlap = len(words & set(re.findall(r"[a-z0-9+#.]{3,}", (e["preferred_name"] + " " + e["definition"]).lower())))
-        scored.append((sim + 0.05 * min(overlap, 4), e))
+        cooc = any(re.search(r"(?<![\w])" + re.escape(n) + r"(?![\w])", blob, 0 if len(n) <= 3 else re.I) for n in names)
+        score = sim + (0.6 if cooc else 0)
+        if score >= 0.6:
+            scored.append((score, e))
     scored.sort(key=lambda x: -x[0])
     return [{"id": e["id"], "name": e["preferred_name"], "kind": e["kind"], "definition": e["definition"],
-             "variants": [v["label"] for v in e.get("variants", [])]} for s, e in scored[:k] if s > 0.15]
+             "variants": [v["label"] for v in e.get("variants", [])]} for s, e in scored[:k]]
 
 
 def slug(term):
