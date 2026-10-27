@@ -1,0 +1,60 @@
+# Entry format
+
+One file per concept: `entries/<key>.json`. The validator (`tools/lexicon.py`) is the authority; this page explains the fields.
+
+| Field | Required | Meaning |
+|---|---|---|
+| `id` | yes | Stable id, `skill:NNNN`. Never reused. |
+| `key` | no | Short slug; if present it must match the file name. |
+| `preferred_name` | yes | The canonical name. Use the official spelling (PostgreSQL, not Postgres). |
+| `kind` | yes | Lower-case words joined by hyphens, e.g. `programming-language`, `method`, `tool`. |
+| `definition` | yes | One plain sentence. |
+| `name_match` | no | `word_ci` (default) or `exact_case`. Use `exact_case` for short names like `R` or `Go`. |
+| `needs_context` | no | Context tags that must be present for the name and variants to match (e.g. `["finance"]`). |
+| `name_ambiguous` | no | `true` if another concept shares this name and context cannot separate them. |
+| `variants` | no | Other ways of writing it: `{label, match, needs_context?, ambiguous?}`. Abbreviations, spelling and punctuation variants, product names that mean the same thing. |
+| `relations` | no | `{type, target, rolls_up?, source?}`. See below. |
+| `verbs` | no | What an ad asks you to do with it (query, deploy, maintain). |
+| `status` | yes | `machine-drafted`, `proposed`, `reviewed`, `deprecated`. |
+| `provenance` | yes | `{source, date, reviewed_by}`. |
+| `evidence` | see below | Who said what, and what checked it, per claim. |
+| `replacements` | if deprecated | Ids that replace this entry. |
+| `notes` | no | Reasoning a reviewer needs, including open disagreements. |
+
+## Relations
+
+Stored on one side only; the index derives the inverse.
+
+| Stored type | Read as | Derived inverse |
+|---|---|---|
+| `broader` | the target is a broader concept (PostgreSQL → SQL) | `narrower` |
+| `part_of` | this is a part of the target (PL/pgSQL → PostgreSQL) | `has_part` |
+| `related` | linked but not the same and not broader | `related` |
+| `contrast` | commonly set against the target (NoSQL ↔ SQL). Not a strict antonym. | `contrast` |
+
+`rolls_up` (only on `broader` and `part_of`): `true` means a mention of this concept also counts toward the target. Unset means no: count the direct mention only. A reviewer decides, and shows both counts.
+
+## Evidence (provenance per claim)
+
+A claim is one assertion: `kind`, `definition`, each variant, each relation, each verb. Its key is:
+`kind`, `definition`, `variant:<normalized label>`, `relation:<type>:<target id>`, `verb:<normalized verb>`.
+
+Each evidence record is `{field, by, action, date, outcome?, ref?, note?, run?}`:
+
+| `action` | `by` | Meaning |
+|---|---|---|
+| `drafted` | `model:<model id>` or `human:<name>` | Someone proposed this claim. For a model, put the prompt version or run id in `run`, and the posting sentence it saw in `note`. |
+| `checked` | `human:<name>` or `model:<model id>` | Someone checked it. `outcome` is `supports` or `contradicts`. |
+| `matched_source` | `source:<name>` | The claim was matched to an outside record. Needs `ref` (URL, code or ad id) and an `outcome`. |
+
+What counts: only a person's `checked`+`supports`, or a `matched_source`+`supports`, backs a claim. A model checking a model's claim is recorded and visible but never backs it, because two models can share one mistake.
+
+## Rules the validator enforces
+
+- A `machine-drafted` entry has a `drafted` record for every claim.
+- A `reviewed` entry has a backing record for every claim, a named `reviewed_by`, and no `contradicts` record outstanding. To resolve a contradiction, change the claim or remove it; the history stays in git.
+- Evidence must point at a claim that exists in the entry.
+
+- Two concepts may share a surface form only if their `needs_context` differ, or both mark it ambiguous. Related is not synonym.
+- Relation targets exist; no self-relations; no loops in `broader`/`part_of`.
+- A `deprecated` entry names its replacements.

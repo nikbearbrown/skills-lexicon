@@ -1,0 +1,26 @@
+{
+ "id": "skill:0015",
+ "key": "tool-use",
+ "preferred_name": "Agent tool use",
+ "kind": "skill",
+ "definition": "Connecting an agent to bounded external capabilities.",
+ "variants": [
+  {
+   "label": "Tool Use and Function Calling",
+   "match": "word_ci"
+  },
+  {
+   "label": "function calling",
+   "match": "word_ci"
+  }
+ ],
+ "relations": [],
+ "verbs": [],
+ "status": "proposed",
+ "provenance": {
+  "source": "imported from the jobs.humanitarians.ai skills registry 2026-10-24.proposed.2",
+  "date": "2026-10-24",
+  "review": "Awaiting taxonomy owner review",
+  "reviewed_by": null
+ }
+}

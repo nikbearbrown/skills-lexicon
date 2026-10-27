@@ -1,0 +1,26 @@
+{
+ "id": "skill:0011",
+ "key": "fine-tuning",
+ "preferred_name": "Model fine-tuning",
+ "kind": "method",
+ "definition": "Adapting model parameters to selected tasks or examples.",
+ "variants": [
+  {
+   "label": "fine-tuning",
+   "match": "word_ci"
+  },
+  {
+   "label": "instruction fine-tuning",
+   "match": "word_ci"
+  }
+ ],
+ "relations": [],
+ "verbs": [],
+ "status": "proposed",
+ "provenance": {
+  "source": "imported from the jobs.humanitarians.ai skills registry 2026-10-24.proposed.2",
+  "date": "2026-10-24",
+  "review": "Awaiting taxonomy owner review",
+  "reviewed_by": null
+ }
+}

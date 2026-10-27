@@ -1,0 +1,22 @@
+{
+ "id": "skill:0005",
+ "key": "provenance",
+ "preferred_name": "Data provenance",
+ "kind": "skill",
+ "definition": "Tracing data and claims to their sources and transformations.",
+ "variants": [
+  {
+   "label": "lineage",
+   "match": "word_ci"
+  }
+ ],
+ "relations": [],
+ "verbs": [],
+ "status": "proposed",
+ "provenance": {
+  "source": "imported from the jobs.humanitarians.ai skills registry 2026-10-24.proposed.2",
+  "date": "2026-10-24",
+  "review": "Awaiting taxonomy owner review",
+  "reviewed_by": null
+ }
+}

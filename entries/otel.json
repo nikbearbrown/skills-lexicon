@@ -1,0 +1,22 @@
+{
+ "id": "skill:0034",
+ "key": "otel",
+ "preferred_name": "OpenTelemetry",
+ "kind": "tool",
+ "definition": "Instrumentation tooling; related to observability, not a synonym.",
+ "variants": [],
+ "relations": [
+  {
+   "type": "related",
+   "target": "skill:0007"
+  }
+ ],
+ "verbs": [],
+ "status": "proposed",
+ "provenance": {
+  "source": "imported from the jobs.humanitarians.ai skills registry 2026-10-24.proposed.2",
+  "date": "2026-10-24",
+  "review": "Awaiting taxonomy owner review",
+  "reviewed_by": null
+ }
+}

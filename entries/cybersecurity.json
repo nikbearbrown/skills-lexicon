@@ -1,0 +1,22 @@
+{
+ "id": "skill:0065",
+ "key": "cybersecurity",
+ "preferred_name": "Cybersecurity",
+ "kind": "knowledge",
+ "definition": "Protecting information and systems from security threats.",
+ "variants": [
+  {
+   "label": "network security",
+   "match": "word_ci"
+  }
+ ],
+ "relations": [],
+ "verbs": [],
+ "status": "proposed",
+ "provenance": {
+  "source": "imported from the jobs.humanitarians.ai skills registry 2026-10-24.proposed.2",
+  "date": "2026-10-24",
+  "review": "Awaiting taxonomy owner review; no external ontology mapping asserted",
+  "reviewed_by": null
+ }
+}

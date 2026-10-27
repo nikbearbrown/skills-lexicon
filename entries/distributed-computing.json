@@ -1,0 +1,22 @@
+{
+ "id": "skill:0067",
+ "key": "distributed-computing",
+ "preferred_name": "Distributed computing",
+ "kind": "knowledge",
+ "definition": "Coordinating computation across multiple networked systems.",
+ "variants": [
+  {
+   "label": "distributed systems",
+   "match": "word_ci"
+  }
+ ],
+ "relations": [],
+ "verbs": [],
+ "status": "proposed",
+ "provenance": {
+  "source": "imported from the jobs.humanitarians.ai skills registry 2026-10-24.proposed.2",
+  "date": "2026-10-24",
+  "review": "Awaiting taxonomy owner review; no external ontology mapping asserted",
+  "reviewed_by": null
+ }
+}

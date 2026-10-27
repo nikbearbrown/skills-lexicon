@@ -1,0 +1,26 @@
+{
+ "id": "skill:0055",
+ "key": "user-experience-design",
+ "preferred_name": "User experience design",
+ "kind": "skill",
+ "definition": "Designing interactions around user needs and usability.",
+ "variants": [
+  {
+   "label": "UX design",
+   "match": "word_ci"
+  },
+  {
+   "label": "user experience",
+   "match": "word_ci"
+  }
+ ],
+ "relations": [],
+ "verbs": [],
+ "status": "proposed",
+ "provenance": {
+  "source": "imported from the jobs.humanitarians.ai skills registry 2026-10-24.proposed.2",
+  "date": "2026-10-24",
+  "review": "Awaiting taxonomy owner review; no external ontology mapping asserted",
+  "reviewed_by": null
+ }
+}

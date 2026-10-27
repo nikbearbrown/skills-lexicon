@@ -1,0 +1,22 @@
+{
+ "id": "skill:0014",
+ "key": "agent-evaluation",
+ "preferred_name": "Agent evaluation",
+ "kind": "skill",
+ "definition": "Testing agent outcomes, traces and boundary conditions.",
+ "variants": [
+  {
+   "label": "Agent Evaluation and Benchmarking",
+   "match": "word_ci"
+  }
+ ],
+ "relations": [],
+ "verbs": [],
+ "status": "proposed",
+ "provenance": {
+  "source": "imported from the jobs.humanitarians.ai skills registry 2026-10-24.proposed.2",
+  "date": "2026-10-24",
+  "review": "Awaiting taxonomy owner review",
+  "reviewed_by": null
+ }
+}

@@ -1,0 +1,28 @@
+{
+ "id": "skill:0036",
+ "key": "php7",
+ "preferred_name": "PHP 7",
+ "kind": "programming-language",
+ "definition": "Version-specific PHP concept; not all versions of PHP.",
+ "name_match": "exact_case",
+ "variants": [
+  {
+   "label": "PHP7",
+   "match": "exact_case"
+  }
+ ],
+ "relations": [
+  {
+   "type": "broader",
+   "target": "skill:0035"
+  }
+ ],
+ "verbs": [],
+ "status": "proposed",
+ "provenance": {
+  "source": "imported from the jobs.humanitarians.ai skills registry 2026-10-24.proposed.2",
+  "date": "2026-10-24",
+  "review": "Awaiting taxonomy owner review",
+  "reviewed_by": null
+ }
+}

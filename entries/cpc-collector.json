@@ -1,0 +1,27 @@
+{
+ "id": "skill:0031",
+ "key": "cpc-collector",
+ "preferred_name": "Certified Professional Collector",
+ "kind": "credential",
+ "definition": "A collection credential; distinct from the coding credential.",
+ "variants": [
+  {
+   "label": "CPC",
+   "match": "exact_case",
+   "ambiguous": true
+  },
+  {
+   "label": "Certified Professional Collector (CPC)",
+   "match": "word_ci"
+  }
+ ],
+ "relations": [],
+ "verbs": [],
+ "status": "proposed",
+ "provenance": {
+  "source": "imported from the jobs.humanitarians.ai skills registry 2026-10-24.proposed.2",
+  "date": "2026-10-24",
+  "review": "Awaiting taxonomy owner review",
+  "reviewed_by": null
+ }
+}

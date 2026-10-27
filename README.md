@@ -1,0 +1,28 @@
+# Skills lexicon
+
+## Executive summary
+
+**What it is.** A shared dictionary of skills, tools and abilities as they appear in job ads and on resumes. Each concept has one canonical name, the other ways people write it, and its relations to other concepts (broader, part of, related, contrast). It is built so others can add to it and correct it.
+
+**Why it exists.** To count skills in job postings you have to know that "Postgres" and "PostgreSQL" are one skill, that "Swift" can mean two things, and that PostgreSQL is a kind of SQL. The counts on the explorer are only as good as this dictionary.
+
+**State.** First pass, local only. 84 entries: 81 imported from the jobs.humanitarians.ai skills registry (status `proposed`) and 3 drafted examples (status `machine-drafted`, written from general knowledge with no source checked). Nothing is `reviewed`: of 248 claims, none is backed by a human check or a matched source yet. 25 tests pass.
+
+**Licence and owner.** MIT, copyright Humanitarians AI Incorporated (see `LICENSE`). **Not decided yet:** who reviews entries.
+
+## How it works
+
+- One JSON file per concept in `entries/`. Format: [docs/ENTRY-FORMAT.md](docs/ENTRY-FORMAT.md).
+- Synonyms and spelling variants are not entries. They are `variants` of the canonical entry.
+- Relations connect concept to concept. Roll-up (a mention of PostgreSQL also counting toward SQL) is an explicit, per-link choice, off by default.
+- Every claim can carry evidence: who drafted it (a named model and run, or a person), who checked it, and which outside source it was matched to. A model agreeing with a model never counts as a check; a person's check or a matched source does.
+- Status: `machine-drafted`, `proposed`, `reviewed`, `deprecated`. Only `reviewed` entries should feed published counts.
+- `python3 -I tools/lexicon.py validate` checks every entry. `python3 -I tools/lexicon.py index` builds `build/index.json`, the surface-form lookup the extractor reads. `python3 -I tests/test_lexicon.py` runs the tests.
+
+## Known limits
+
+- The 81 imported concepts were written to resolve course tags, so their variants are thin for matching real ads.
+- Relations imported from the registry carry no roll-up decision and no source.
+- The three drafted entries have not been checked against any source.
+- NanoLex was the format model; its entries appear model-written and are not used as a source here.
+- No prior-art check against ESCO, O*NET technology skills or Lightcast has been done.

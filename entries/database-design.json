@@ -1,0 +1,26 @@
+{
+ "id": "skill:0047",
+ "key": "database-design",
+ "preferred_name": "Database design",
+ "kind": "skill",
+ "definition": "Designing database structures and constraints.",
+ "variants": [
+  {
+   "label": "database management",
+   "match": "word_ci"
+  },
+  {
+   "label": "relational databases",
+   "match": "word_ci"
+  }
+ ],
+ "relations": [],
+ "verbs": [],
+ "status": "proposed",
+ "provenance": {
+  "source": "imported from the jobs.humanitarians.ai skills registry 2026-10-24.proposed.2",
+  "date": "2026-10-24",
+  "review": "Awaiting taxonomy owner review; no external ontology mapping asserted",
+  "reviewed_by": null
+ }
+}

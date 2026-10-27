@@ -1,0 +1,26 @@
+{
+ "id": "skill:0064",
+ "key": "computer-networking",
+ "preferred_name": "Computer networking",
+ "kind": "knowledge",
+ "definition": "Understanding communication and interconnection of computing systems.",
+ "variants": [
+  {
+   "label": "data networking",
+   "match": "word_ci"
+  },
+  {
+   "label": "network protocols",
+   "match": "word_ci"
+  }
+ ],
+ "relations": [],
+ "verbs": [],
+ "status": "proposed",
+ "provenance": {
+  "source": "imported from the jobs.humanitarians.ai skills registry 2026-10-24.proposed.2",
+  "date": "2026-10-24",
+  "review": "Awaiting taxonomy owner review; no external ontology mapping asserted",
+  "reviewed_by": null
+ }
+}

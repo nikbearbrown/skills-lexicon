@@ -1,0 +1,22 @@
+{
+ "id": "skill:0009",
+ "key": "blast-radius",
+ "preferred_name": "Blast radius analysis",
+ "kind": "skill",
+ "definition": "Assessing the bounded scope and impact of a failure or action.",
+ "variants": [
+  {
+   "label": "blast radius",
+   "match": "word_ci"
+  }
+ ],
+ "relations": [],
+ "verbs": [],
+ "status": "proposed",
+ "provenance": {
+  "source": "imported from the jobs.humanitarians.ai skills registry 2026-10-24.proposed.2",
+  "date": "2026-10-24",
+  "review": "Awaiting taxonomy owner review",
+  "reviewed_by": null
+ }
+}

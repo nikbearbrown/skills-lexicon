@@ -1,0 +1,22 @@
+{
+ "id": "skill:0004",
+ "key": "validation",
+ "preferred_name": "Data validation",
+ "kind": "skill",
+ "definition": "Checking data constraints, populations and transformations.",
+ "variants": [
+  {
+   "label": "data quality",
+   "match": "word_ci"
+  }
+ ],
+ "relations": [],
+ "verbs": [],
+ "status": "proposed",
+ "provenance": {
+  "source": "imported from the jobs.humanitarians.ai skills registry 2026-10-24.proposed.2",
+  "date": "2026-10-24",
+  "review": "Awaiting taxonomy owner review",
+  "reviewed_by": null
+ }
+}

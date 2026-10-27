@@ -1,0 +1,22 @@
+{
+ "id": "skill:0080",
+ "key": "user-interface-design",
+ "preferred_name": "User interface design",
+ "kind": "skill",
+ "definition": "Designing the visible controls and presentation of interactive software.",
+ "variants": [
+  {
+   "label": "UI design",
+   "match": "word_ci"
+  }
+ ],
+ "relations": [],
+ "verbs": [],
+ "status": "proposed",
+ "provenance": {
+  "source": "imported from the jobs.humanitarians.ai skills registry 2026-10-24.proposed.2",
+  "date": "2026-10-24",
+  "review": "Awaiting taxonomy owner review; no external ontology mapping asserted",
+  "reviewed_by": null
+ }
+}

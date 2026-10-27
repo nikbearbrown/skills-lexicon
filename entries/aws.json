@@ -1,0 +1,22 @@
+{
+ "id": "skill:0019",
+ "key": "aws",
+ "preferred_name": "Amazon Web Services",
+ "kind": "platform",
+ "definition": "A cloud-services platform; product-specific skills remain distinct.",
+ "variants": [
+  {
+   "label": "AWS",
+   "match": "exact_case"
+  }
+ ],
+ "relations": [],
+ "verbs": [],
+ "status": "proposed",
+ "provenance": {
+  "source": "imported from the jobs.humanitarians.ai skills registry 2026-10-24.proposed.2",
+  "date": "2026-10-24",
+  "review": "Awaiting taxonomy owner review",
+  "reviewed_by": null
+ }
+}

@@ -1,0 +1,30 @@
+{
+ "id": "skill:0020",
+ "key": "react",
+ "preferred_name": "React",
+ "kind": "library",
+ "definition": "A user-interface library; not synonymous with React Native.",
+ "variants": [
+  {
+   "label": "React.js",
+   "match": "word_ci"
+  },
+  {
+   "label": "React.js (Javascript Library Library)",
+   "match": "word_ci"
+  },
+  {
+   "label": "Reactjs",
+   "match": "word_ci"
+  }
+ ],
+ "relations": [],
+ "verbs": [],
+ "status": "proposed",
+ "provenance": {
+  "source": "imported from the jobs.humanitarians.ai skills registry 2026-10-24.proposed.2",
+  "date": "2026-10-24",
+  "review": "Awaiting taxonomy owner review",
+  "reviewed_by": null
+ }
+}

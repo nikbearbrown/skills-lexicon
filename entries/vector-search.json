@@ -1,0 +1,26 @@
+{
+ "id": "skill:0013",
+ "key": "vector-search",
+ "preferred_name": "Vector search",
+ "kind": "method",
+ "definition": "Retrieving items using vector representations and a similarity measure.",
+ "variants": [
+  {
+   "label": "semantic search",
+   "match": "word_ci"
+  },
+  {
+   "label": "vector databases",
+   "match": "word_ci"
+  }
+ ],
+ "relations": [],
+ "verbs": [],
+ "status": "proposed",
+ "provenance": {
+  "source": "imported from the jobs.humanitarians.ai skills registry 2026-10-24.proposed.2",
+  "date": "2026-10-24",
+  "review": "Awaiting taxonomy owner review",
+  "reviewed_by": null
+ }
+}

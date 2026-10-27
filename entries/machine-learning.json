@@ -1,0 +1,22 @@
+{
+ "id": "skill:0037",
+ "key": "machine-learning",
+ "preferred_name": "Machine learning",
+ "kind": "method",
+ "definition": "Building and evaluating models that learn patterns from data.",
+ "variants": [
+  {
+   "label": "ML",
+   "match": "exact_case"
+  }
+ ],
+ "relations": [],
+ "verbs": [],
+ "status": "proposed",
+ "provenance": {
+  "source": "imported from the jobs.humanitarians.ai skills registry 2026-10-24.proposed.2",
+  "date": "2026-10-24",
+  "review": "Awaiting taxonomy owner review; no external ontology mapping asserted",
+  "reviewed_by": null
+ }
+}

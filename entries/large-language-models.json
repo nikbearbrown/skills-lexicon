@@ -1,0 +1,26 @@
+{
+ "id": "skill:0040",
+ "key": "large-language-models",
+ "preferred_name": "Large language models",
+ "kind": "knowledge",
+ "definition": "Understanding and applying large models of language.",
+ "variants": [
+  {
+   "label": "LLMs",
+   "match": "word_ci"
+  },
+  {
+   "label": "LLM",
+   "match": "exact_case"
+  }
+ ],
+ "relations": [],
+ "verbs": [],
+ "status": "proposed",
+ "provenance": {
+  "source": "imported from the jobs.humanitarians.ai skills registry 2026-10-24.proposed.2",
+  "date": "2026-10-24",
+  "review": "Awaiting taxonomy owner review; no external ontology mapping asserted",
+  "reviewed_by": null
+ }
+}

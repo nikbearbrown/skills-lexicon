@@ -1,0 +1,26 @@
+{
+ "id": "skill:0002",
+ "key": "algorithms",
+ "preferred_name": "Algorithm analysis",
+ "kind": "skill",
+ "definition": "Reasoning about correctness, time and space complexity.",
+ "variants": [
+  {
+   "label": "Analysis Of Algorithms",
+   "match": "word_ci"
+  },
+  {
+   "label": "complexity analysis",
+   "match": "word_ci"
+  }
+ ],
+ "relations": [],
+ "verbs": [],
+ "status": "proposed",
+ "provenance": {
+  "source": "imported from the jobs.humanitarians.ai skills registry 2026-10-24.proposed.2",
+  "date": "2026-10-24",
+  "review": "Awaiting taxonomy owner review",
+  "reviewed_by": null
+ }
+}

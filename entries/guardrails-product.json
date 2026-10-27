@@ -1,0 +1,23 @@
+{
+ "id": "skill:0033",
+ "key": "guardrails-product",
+ "preferred_name": "Guardrails AI",
+ "kind": "library",
+ "definition": "A named software product, distinct from the generic guardrail concept.",
+ "variants": [
+  {
+   "label": "Guardrails",
+   "match": "word_ci",
+   "ambiguous": true
+  }
+ ],
+ "relations": [],
+ "verbs": [],
+ "status": "proposed",
+ "provenance": {
+  "source": "imported from the jobs.humanitarians.ai skills registry 2026-10-24.proposed.2",
+  "date": "2026-10-24",
+  "review": "Awaiting taxonomy owner review",
+  "reviewed_by": null
+ }
+}

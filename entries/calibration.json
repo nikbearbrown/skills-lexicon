@@ -1,0 +1,26 @@
+{
+ "id": "skill:0006",
+ "key": "calibration",
+ "preferred_name": "Probability calibration",
+ "kind": "skill",
+ "definition": "Comparing predictive confidence with observed outcomes.",
+ "variants": [
+  {
+   "label": "calibration",
+   "match": "word_ci"
+  },
+  {
+   "label": "Brier score",
+   "match": "word_ci"
+  }
+ ],
+ "relations": [],
+ "verbs": [],
+ "status": "proposed",
+ "provenance": {
+  "source": "imported from the jobs.humanitarians.ai skills registry 2026-10-24.proposed.2",
+  "date": "2026-10-24",
+  "review": "Awaiting taxonomy owner review",
+  "reviewed_by": null
+ }
+}
