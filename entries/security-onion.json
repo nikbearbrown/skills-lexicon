@@ -1,0 +1,82 @@
+{
+ "id": "ddfo4ab44g",
+ "preferred_name": "Security Onion",
+ "kind": "platform",
+ "definition": "A free Linux distribution for network security monitoring, intrusion detection, log management and threat hunting.",
+ "key": "security-onion",
+ "certification": false,
+ "variants": [
+  {
+   "label": "Security Onion (Intrusion Detection System)",
+   "match": "word_ci"
+  }
+ ],
+ "relations": [
+  {
+   "type": "related",
+   "target": "uuer0jxuof"
+  }
+ ],
+ "verbs": [],
+ "status": "machine-drafted",
+ "provenance": {
+  "source": "drafted by model:claude-sonnet-5-5, run 2026-10-29-round-07-a4, from the name in the legacy tag list alone; no posting or outside source checked",
+  "date": "2026-10-29",
+  "reviewed_by": null,
+  "legacy_tag": {
+   "sources": [
+    {
+     "file": "data/skills_tags.csv",
+     "rows": [
+      3512
+     ],
+     "class": "Skill"
+    }
+   ],
+   "class": "Skill",
+   "in_lists": []
+  }
+ },
+ "evidence": [
+  {
+   "field": "definition",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-29",
+   "run": "2026-10-29-round-07-a4",
+   "note": "basis: general-knowledge"
+  },
+  {
+   "field": "kind",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-29",
+   "run": "2026-10-29-round-07-a4",
+   "note": "basis: general-knowledge (with the definition)"
+  },
+  {
+   "field": "variant:security onion (intrusion detection system)",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-29",
+   "run": "2026-10-29-round-07-a4",
+   "note": "listed in the legacy tag list; the model chose the canonical name"
+  },
+  {
+   "field": "relation:related:uuer0jxuof",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-29",
+   "run": "2026-10-29-round-07-a4",
+   "note": "basis: general-knowledge"
+  },
+  {
+   "field": "certification",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-29",
+   "run": "2026-10-29-round-07-a4",
+   "note": "basis: general-knowledge"
+  }
+ ]
+}

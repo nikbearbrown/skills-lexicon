@@ -6998,5 +6998,445 @@
   "run": "2026-10-29-round-07-a3",
   "date": "2026-10-29",
   "reason": "An unrecognised acronym, and nothing known says what it stands for."
+ },
+ {
+  "term": "Screenshots",
+  "decision": "not_a_skill",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-07-a4",
+  "date": "2026-10-29",
+  "reason": "A generic noun for a captured image of a screen, not a distinct skill."
+ },
+ {
+  "term": "Sdn",
+  "decision": "unsure",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-07-a4",
+  "date": "2026-10-29",
+  "reason": "Abbreviation with several meanings (for example software-defined networking) and no context to choose between them."
+ },
+ {
+  "term": "Seafood",
+  "decision": "not_a_skill",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-07-a4",
+  "date": "2026-10-29",
+  "reason": "A generic food word, not a skill."
+ },
+ {
+  "term": "Secondary Source",
+  "decision": "unsure",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-07-a4",
+  "date": "2026-10-29",
+  "reason": "A research term for a type of document; it is not clear it names a skill rather than a kind of material."
+ },
+ {
+  "term": "Secretion",
+  "decision": "not_a_skill",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-07-a4",
+  "date": "2026-10-29",
+  "reason": "A biological process (release of substances by cells or glands), not a skill."
+ },
+ {
+  "term": "Security Level Management",
+  "decision": "unsure",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-07-a4",
+  "date": "2026-10-29",
+  "reason": "Not a standard term; it could mean access-control clearance levels or alert severity levels, and the name alone does not say which."
+ },
+ {
+  "term": "Security Liaison Officer",
+  "decision": "not_a_skill",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-07-a4",
+  "date": "2026-10-29",
+  "reason": "A job title, not a skill."
+ },
+ {
+  "term": "Security Vision",
+  "decision": "unsure",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-07-a4",
+  "date": "2026-10-29",
+  "reason": "Could be a vendor product or a vision-related phrase; the name alone does not say which."
+ },
+ {
+  "term": "Seim (Language)",
+  "decision": "unsure",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-07-a4",
+  "date": "2026-10-29",
+  "reason": "I do not know for certain which language this names; it may be a small language of Papua New Guinea."
+ },
+ {
+  "term": "Selection Rule",
+  "decision": "unsure",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-07-a4",
+  "date": "2026-10-29",
+  "reason": "Used in several fields (for example quantum mechanics and data processing) with different meanings, and no context is given."
+ },
+ {
+  "term": "Self-Discharger",
+  "decision": "unsure",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-07-a4",
+  "date": "2026-10-29",
+  "reason": "Unclear whether this means a battery that loses charge by itself or a patient who leaves care; neither is a recognised skill term."
+ },
+ {
+  "term": "Self-Harm",
+  "decision": "not_a_skill",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-07-a4",
+  "date": "2026-10-29",
+  "reason": "A behaviour or clinical symptom, not a skill."
+ },
+ {
+  "term": "Semicolon",
+  "decision": "not_a_skill",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-07-a4",
+  "date": "2026-10-29",
+  "reason": "A punctuation mark, not a skill."
+ },
+ {
+  "term": "Service Delivery",
+  "decision": "unsure",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-07-a4",
+  "date": "2026-10-29",
+  "reason": "A broad business term used in IT, health care and consulting with different meanings; the name alone does not fix one."
+ },
+ {
+  "term": "Service Development Studio",
+  "decision": "unsure",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-07-a4",
+  "date": "2026-10-29",
+  "reason": "I cannot tell which product or vendor this names."
+ },
+ {
+  "term": "Service Excellence - Health Care",
+  "decision": "unsure",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-07-a4",
+  "date": "2026-10-29",
+  "reason": "Could be a training programme, a quality standard or a general aim; the name alone does not say which."
+ },
+ {
+  "term": "Service Quality",
+  "decision": "unsure",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-07-a4",
+  "date": "2026-10-29",
+  "reason": "A broad management and telecoms term with different meanings (customer service quality, quality of service); the name alone does not fix one."
+ },
+ {
+  "term": "Servient Estate",
+  "decision": "not_a_skill",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-07-a4",
+  "date": "2026-10-29",
+  "reason": "A property-law term for land burdened by an easement, not a skill or field."
+ },
+ {
+  "term": "Setenv",
+  "decision": "unsure",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-07-a4",
+  "date": "2026-10-29",
+  "reason": "Probably the name of a shell command or script (csh setenv, Tomcat setenv.sh), not clearly a skill."
+ },
+ {
+  "term": "Setup Deployment",
+  "decision": "unsure",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-07-a4",
+  "date": "2026-10-29",
+  "reason": "Vague phrase that could mean installer projects, software rollout or something else."
+ },
+ {
+  "term": "Shake",
+  "decision": "unsure",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-07-a4",
+  "date": "2026-10-29",
+  "reason": "Could be the SHAKE hash functions, a drink or a motion; no context."
+ },
+ {
+  "term": "Shama (Language)",
+  "decision": "unsure",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-07-a4",
+  "date": "2026-10-29",
+  "reason": "I do not know for certain which language this names."
+ },
+ {
+  "term": "Shareholder",
+  "decision": "not_a_skill",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-07-a4",
+  "date": "2026-10-29",
+  "reason": "A person or company that owns shares, not a skill."
+ },
+ {
+  "term": "Shareholder Value",
+  "decision": "not_a_skill",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-07-a4",
+  "date": "2026-10-29",
+  "reason": "A finance concept, not a skill."
+ },
+ {
+  "term": "Shilajit",
+  "decision": "not_a_skill",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-07-a4",
+  "date": "2026-10-29",
+  "reason": "A natural substance used in Ayurvedic medicine, not a skill."
+ },
+ {
+  "term": "Shortening",
+  "decision": "not_a_skill",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-07-a4",
+  "date": "2026-10-29",
+  "reason": "A generic word (a baking fat, among other senses), not a skill."
+ },
+ {
+  "term": "Siege",
+  "decision": "unsure",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-07-a4",
+  "date": "2026-10-29",
+  "reason": "Could be the HTTP load-testing tool, a game or the military term; no context."
+ },
+ {
+  "term": "Sign In Enterprise (Software)",
+  "decision": "unsure",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-07-a4",
+  "date": "2026-10-29",
+  "reason": "May be a visitor-management product, but I cannot confirm what it is."
+ },
+ {
+  "term": "Signalling Systems",
+  "decision": "unsure",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-07-a4",
+  "date": "2026-10-29",
+  "reason": "Could mean telephone, railway or other signalling; the name alone does not say which."
+ },
+ {
+  "term": "Simple Form",
+  "decision": "unsure",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-07-a4",
+  "date": "2026-10-29",
+  "reason": "Could be the Rails simple_form gem or a plain description of a form; no context."
+ },
+ {
+  "term": "Simplex",
+  "decision": "unsure",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-07-a4",
+  "date": "2026-10-29",
+  "reason": "Could mean the simplex method, simplex communication, a company or a geometric shape; no context."
+ },
+ {
+  "term": "Simplified Disaster Recovery",
+  "decision": "unsure",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-07-a4",
+  "date": "2026-10-29",
+  "reason": "Not a standard term; I cannot tell if it names a method, a product or a loose phrase."
+ },
+ {
+  "term": "Skill",
+  "decision": "not_a_skill",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-07-a4",
+  "date": "2026-10-29",
+  "reason": "A generic word, not a particular skill."
+ },
+ {
+  "term": "Skinning",
+  "decision": "unsure",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-07-a4",
+  "date": "2026-10-29",
+  "reason": "Could mean animal skinning, 3D character skinning or interface skinning; no context."
+ },
+ {
+  "term": "Slam Life Assessment Method (Engineering Test)",
+  "decision": "unsure",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-07-a4",
+  "date": "2026-10-29",
+  "reason": "I do not recognise this method."
+ },
+ {
+  "term": "Sluice",
+  "decision": "unsure",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-07-a4",
+  "date": "2026-10-29",
+  "reason": "Could mean a sluice gate, a water channel or a gold-mining sluice box."
+ },
+ {
+  "term": "Smartbook",
+  "decision": "unsure",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-07-a4",
+  "date": "2026-10-29",
+  "reason": "Could be an adaptive learning product or a type of laptop; no context."
+ },
+ {
+  "term": "Smartstream (Software)",
+  "decision": "unsure",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-07-a4",
+  "date": "2026-10-29",
+  "reason": "The name could refer to a financial-software vendor or to other products; I cannot confirm which."
+ },
+ {
+  "term": "SmartTest",
+  "decision": "unsure",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-07-a4",
+  "date": "2026-10-29",
+  "reason": "I cannot tell which product this names; several tools use the name."
+ },
+ {
+  "term": "Smds",
+  "decision": "unsure",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-07-a4",
+  "date": "2026-10-29",
+  "reason": "Ambiguous acronym; it could be a telecom data service or something else."
+ },
+ {
+  "term": "Smoothing",
+  "decision": "unsure",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-07-a4",
+  "date": "2026-10-29",
+  "reason": "Used in statistics, sanding, graphics and cosmetics with different meanings; no context."
+ },
+ {
+  "term": "Snowplow",
+  "decision": "unsure",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-07-a4",
+  "date": "2026-10-29",
+  "reason": "Could be the Snowplow event-data platform or the snow-clearing vehicle; no context."
+ },
+ {
+  "term": "Social Media Content",
+  "decision": "unsure",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-07-a4",
+  "date": "2026-10-29",
+  "reason": "A noun for the material itself; it may mean creating, curating or managing it."
+ },
+ {
+  "term": "Social Media Profiles",
+  "decision": "not_a_skill",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-07-a4",
+  "date": "2026-10-29",
+  "reason": "A noun for accounts on social platforms, not a skill."
+ },
+ {
+  "term": "Social Media Sharing",
+  "decision": "not_a_skill",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-07-a4",
+  "date": "2026-10-29",
+  "reason": "An everyday action of users, not a skill."
+ },
+ {
+  "term": "Social Media Trends",
+  "decision": "unsure",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-07-a4",
+  "date": "2026-10-29",
+  "reason": "A changing subject rather than a stable skill, though some postings ask for awareness of it."
+ },
+ {
+  "term": "Social Perception",
+  "decision": "unsure",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-07-a4",
+  "date": "2026-10-29",
+  "reason": "Could be the psychology concept or the O*NET skill Social Perceptiveness; I am not sure they are the same."
+ },
+ {
+  "term": "Software Interfaces",
+  "decision": "unsure",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-07-a4",
+  "date": "2026-10-29",
+  "reason": "Could mean APIs, user interfaces or hardware-software interfaces; no context."
+ },
+ {
+  "term": "Software Sensor",
+  "decision": "unsure",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-07-a4",
+  "date": "2026-10-29",
+  "reason": "Possibly a soft or virtual sensor in process control, or a monitoring probe in software; no context."
+ },
+ {
+  "term": "Solar Power Plants In The Mojave Desert",
+  "decision": "not_a_skill",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-07-a4",
+  "date": "2026-10-29",
+  "reason": "The title of an article about particular places, not a skill."
+ },
+ {
+  "term": "Sorce Intranets",
+  "decision": "unsure",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-07-a4",
+  "date": "2026-10-29",
+  "reason": "I cannot tell what this names; it may be a misspelling."
+ },
+ {
+  "term": "Source Server",
+  "decision": "unsure",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-07-a4",
+  "date": "2026-10-29",
+  "reason": "Could be Microsoft's debugger source server, a game server or a generic phrase; no context."
+ },
+ {
+  "term": "Spartan",
+  "decision": "unsure",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-07-a4",
+  "date": "2026-10-29",
+  "reason": "Could be an FPGA family, a CSS framework, a sports name or a race; no context."
+ },
+ {
+  "term": "Spatial Net",
+  "decision": "unsure",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-07-a4",
+  "date": "2026-10-29",
+  "reason": "I cannot tell what this names."
+ },
+ {
+  "term": "Specialized Skill",
+  "decision": "not_a_skill",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-07-a4",
+  "date": "2026-10-29",
+  "reason": "A generic phrase, not a named certification, despite the legacy certification list."
  }
 ]

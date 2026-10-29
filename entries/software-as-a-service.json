@@ -16,6 +16,10 @@
   {
    "label": "SaaS",
    "match": "word_ci"
+  },
+  {
+   "label": "Software As A Services",
+   "match": "word_ci"
   }
  ],
  "relations": [],
@@ -137,6 +141,14 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "2026-10-29-review-2c-opus"
+  },
+  {
+   "field": "variant:software as a services",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-29",
+   "run": "2026-10-29-round-07-a4",
+   "note": "same concept as Software as a service, listed in the legacy tag list"
   }
  ]
 }
