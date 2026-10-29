@@ -14,3 +14,12 @@ The answers themselves are already in the lexicon as evidence (`entries/`) and v
 | `review3_certification_answers.py`, `review3_certification_dump.py` | a reviewer's answers for the certification review packets | `answers/pNNN.json`, then `tools/check_claims.py apply` |
 
 Anything written this way is a model's opinion from general knowledge, with no source checked. See `docs/SCHEMAS.md` for what counts as evidence.
+
+## Everything else the drafting agents and reviewers wrote
+
+Under `rounds/` and `review/` are the scripts each drafting agent and each reviewer wrote in its own scratch folder, copied as they were:
+
+- `rounds/round-NN-aM/` (`round-01` to `round-09`): the scripts agent M of round NN used to write its answers, with the path they had under `work/` below that. The first pilot run's is `rounds/agent1/`.
+- `review/rN/`: the scripts the reviewers of review N used to write their answers (`r1` to `r4`). Review 4 is the second-model check of the certifications, languages and abilities drafted in rounds 8 and 9.
+
+They are kept for the record and are not meant to be run again: each has one batch of answers typed in as data, and the paths are those of the machine they ran on. They contain no credentials. Some hold a few lines of a model's working notes.

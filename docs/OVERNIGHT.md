@@ -67,12 +67,24 @@ Drafted entries per round are in `data/skills_batch_*.md`. Rounds 6 to 9 used 20
 
 Every certification, language and ability entry drafted from the tag lists has now been checked once by a different model. The contradictions are listed in `docs/REVIEW-FLAGS.md` (100 records on 84 entries; about 70 of them are short forms judged ambiguous, such as CWE, AMT, AHM or CSSD, which should not be variants). The 1,796 skill entries drafted in rounds 1 to 7 have not had a second-model check; the skill entries drafted before round 1 and the registry skills did, in reviews 1 and 2.
 
+## Reviews of the rounds 8 and 9 entries (second model)
+
+| Review | Model, effort | Entries | Supports | Contradicts |
+|---|---|---|---|---|
+| review-4a-opus (certifications 1 to 120 of the unchecked set) | claude-opus-5-5, xhigh | 120 | 594 | 1 |
+| review-4b-opus (certifications 121 to 240) | claude-opus-5-5, xhigh | 120 | 688 | 0 |
+| review-4c-opus (certifications 241 to 360) | claude-opus-5-5, xhigh | 120 | 736 | 0 |
+| review-4d-opus (certifications 361 to 432, languages 1 to 40, abilities 2) | claude-opus-5-5, xhigh | 114 | 646 | 4 |
+| review-4e-opus (languages 41 to 170) | claude-opus-5-5, xhigh | 130 | 700 | 1 |
+
+That is 604 entries and 6 contradictions (about 1 per 100), against 2 to 27 per 100 entries in the earlier reviews (mostly 4 to 10). Do not read this as the new entries being better. Most of the 432 certifications are degrees and certificates written from a template ("Master's in X", "PhD in X"), where one definition and one `certification_scope` fit every entry and the reviewer, a more agreeable role than the drafter, had nothing to catch. The reviewers' own reports say as much ("every entry follows one template"). The signal is in the `unsure` and `no` votes, which are many: associate transfer degrees and niche doctorates that listings rarely name (review 4a alone gave 18 `no` and 25 `unsure` votes on 120 entries, and 4e one more `unsure` on a dialect). Contradictions are listed in `docs/REVIEW-FLAGS.md`.
+
 ## End state
 
 - **3688 entries**: 2472 skill, 859 certification, 290 language, 67 ability (52 of them O*NET).
 - **15880 claims**; 104 are backed by a matched source (the O*NET abilities) and none by a person.
-- **5742 votes** in the ledger, each with model and effort.
+- **6346 votes** in the ledger, each with model and effort.
 - **No tag is unresolved.** 1,162 tags got no entry: 564 were judged not a skill and 598 left unsure by the drafting model. The unsure ones could be re-drafted by a stronger model.
-- **Second-model check:** 2,134 skills, 432 certifications, 170 languages and 2 abilities have none yet (the skills drafted in rounds 1 to 9, and the certifications, languages and abilities drafted in rounds 8 and 9).
+- **Second-model check:** every certification, language and ability has had one. 2,134 skills have none yet (the skills drafted in rounds 1 to 9).
 - 133 tests pass. Nothing has been merged to `main`; this branch is `overnight-1`.
 - Spend: reported $73.04 for the main session after round 10. An earlier estimate added $61.76 for subagents on top (about $135), which the credit meter contradicts: the meter read $74 used ($176 of $250 left, expiring 2026-11-05) when the session reported $65.06, so it follows the session figure plus about $9 and does not add anything like the subagent estimate. From here the session figure plus $9 is the cost basis; `scripts/subagent_cost.py` over-counts.
