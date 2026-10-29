@@ -13,6 +13,10 @@
   {
    "label": "CPCT/A",
    "match": "word_ci"
+  },
+  {
+   "label": "Certified Patient Care Technician/Associate/Nurse Technician",
+   "match": "word_ci"
   }
  ],
  "relations": [],
@@ -85,6 +89,14 @@
    "date": "2026-10-29",
    "run": "2026-10-29-round-02-a4",
    "note": "basis: general-knowledge"
+  },
+  {
+   "field": "variant:certified patient care technician/associate/nurse technician",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-29",
+   "run": "2026-10-29-round-03-a1",
+   "note": "same concept as Certified Patient Care Technician, listed in the legacy tag list"
   }
  ]
 }

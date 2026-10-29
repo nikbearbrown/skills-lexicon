@@ -1,0 +1,81 @@
+{
+ "id": "vrm9lzl1br",
+ "preferred_name": "Commissioning, qualification and validation",
+ "kind": "method",
+ "definition": "Engineering activities, common in pharmaceutical manufacturing, that verify and document that facilities, equipment and systems are installed correctly and perform as intended.",
+ "key": "commissioning-qualification-and-validation",
+ "certification": false,
+ "variants": [
+  {
+   "label": "Commissioning, Qualification, Validation (CQV)",
+   "match": "word_ci"
+  },
+  {
+   "label": "CQV",
+   "match": "exact_case"
+  }
+ ],
+ "relations": [],
+ "verbs": [],
+ "status": "machine-drafted",
+ "provenance": {
+  "source": "drafted by model:claude-sonnet-5-5, run 2026-10-29-round-03-a1, from the name in the legacy tag list alone; no posting or outside source checked",
+  "date": "2026-10-29",
+  "reviewed_by": null,
+  "legacy_tag": {
+   "sources": [
+    {
+     "file": "data/skills_tags.csv",
+     "rows": [
+      912
+     ],
+     "class": "Skill"
+    }
+   ],
+   "class": "Skill",
+   "in_lists": []
+  }
+ },
+ "evidence": [
+  {
+   "field": "definition",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-29",
+   "run": "2026-10-29-round-03-a1",
+   "note": "basis: general-knowledge"
+  },
+  {
+   "field": "kind",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-29",
+   "run": "2026-10-29-round-03-a1",
+   "note": "basis: general-knowledge (with the definition)"
+  },
+  {
+   "field": "variant:commissioning, qualification, validation (cqv)",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-29",
+   "run": "2026-10-29-round-03-a1",
+   "note": "listed in the legacy tag list; the model chose the canonical name"
+  },
+  {
+   "field": "variant:cqv",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-29",
+   "run": "2026-10-29-round-03-a1",
+   "note": "basis: general-knowledge"
+  },
+  {
+   "field": "certification",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-29",
+   "run": "2026-10-29-round-03-a1",
+   "note": "basis: general-knowledge"
+  }
+ ]
+}

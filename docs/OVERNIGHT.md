@@ -30,3 +30,5 @@ A reviewer is more agreeable than a drafter, so a high rate of `supports` is wea
 **Canary test of the reviewer.** Twenty certification entries, eight with a deliberately wrong definition or kind (wrong issuer, a master's degree called doctoral, an endorsement given the wrong meaning), twelve untouched. The Opus reviewer contradicted all 8 planted errors and none of the 12 untouched entries. The planted errors were blatant, so this shows the reviewer is not simply agreeing; it does not show it would catch subtle errors. The canary entries were never in the repository.
 
 Reviewer notes on the brief (not yet acted on): abbreviations such as DL, PG, RAG, LLM and ASIC were marked bad variants because they mean other things in listings; misspelled variants were marked bad; `knowledge` versus `standard` for standards documents (ARP4754, ASC 340, NFPA 70E, TL 9000) was contradicted.
+
+| round 03 | 03-a1, 03-a2, 03-a3, 03-a4 | 273 new | 8 variants | 49 not a skill | 58 unsure | 12 rejected | 1050 entries in all |

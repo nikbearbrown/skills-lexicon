@@ -2550,5 +2550,213 @@
   "run": "2026-10-29-round-03-a2",
   "date": "2026-10-29",
   "reason": "A job title (or an interface element of a content system), not a skill."
+ },
+ {
+  "term": "Chrysler LH Platform",
+  "decision": "not_a_skill",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-03-a1",
+  "date": "2026-10-29",
+  "reason": "A car manufacturer's vehicle platform (a product line), not a skill, tool or method."
+ },
+ {
+  "term": "Cisco Softwares",
+  "decision": "not_a_skill",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-03-a1",
+  "date": "2026-10-29",
+  "reason": "A vendor name plus a generic word, an umbrella over many unrelated products rather than one tool."
+ },
+ {
+  "term": "Citrix RallyDev",
+  "decision": "unsure",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-03-a1",
+  "date": "2026-10-29",
+  "reason": "RallyDev is Rally's agile project-management tool, but Citrix is not its vendor, so the tag looks mis-joined."
+ },
+ {
+  "term": "Civil Designer",
+  "decision": "not_a_skill",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-03-a1",
+  "date": "2026-10-29",
+  "reason": "A job title; none of the nearest entries is the same concept."
+ },
+ {
+  "term": "Civil War",
+  "decision": "not_a_skill",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-03-a1",
+  "date": "2026-10-29",
+  "reason": "A historical event whose meaning depends on the country, not a skill."
+ },
+ {
+  "term": "Class Members",
+  "decision": "not_a_skill",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-03-a1",
+  "date": "2026-10-29",
+  "reason": "A generic phrase with no single skill meaning (class action members, or fields and methods of a programming class)."
+ },
+ {
+  "term": "Cleaning Agent",
+  "decision": "not_a_skill",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-03-a1",
+  "date": "2026-10-29",
+  "reason": "A generic substance, not a skill, tool or method."
+ },
+ {
+  "term": "Clickable",
+  "decision": "not_a_skill",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-03-a1",
+  "date": "2026-10-29",
+  "reason": "A generic interface word, not a skill."
+ },
+ {
+  "term": "Client-specific Sales",
+  "decision": "unsure",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-03-a1",
+  "date": "2026-10-29",
+  "reason": "Unclear whether it means account-based selling or simply selling to one named client."
+ },
+ {
+  "term": "Clinical Nurse Specialists (CNS)",
+  "decision": "not_a_skill",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-03-a1",
+  "date": "2026-10-29",
+  "reason": "An advanced-practice nursing job title, not a skill; the specific certification already has its own entry."
+ },
+ {
+  "term": "Clinical Team Lead",
+  "decision": "not_a_skill",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-03-a1",
+  "date": "2026-10-29",
+  "reason": "A job title."
+ },
+ {
+  "term": "Clinical Works",
+  "decision": "unsure",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-03-a1",
+  "date": "2026-10-29",
+  "reason": "Probably eClinicalWorks electronic health record software, but the name is ambiguous and I am not sure."
+ },
+ {
+  "term": "Clip Arts",
+  "decision": "not_a_skill",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-03-a1",
+  "date": "2026-10-29",
+  "reason": "A generic type of ready-made image, not a skill or tool."
+ },
+ {
+  "term": "Clipboard",
+  "decision": "not_a_skill",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-03-a1",
+  "date": "2026-10-29",
+  "reason": "A generic object or interface element, not a skill."
+ },
+ {
+  "term": "Co-Counselling",
+  "decision": "unsure",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-03-a1",
+  "date": "2026-10-29",
+  "reason": "Could mean peer co-counselling (taking turns as counsellor) or two counsellors working together, and I cannot tell which."
+ },
+ {
+  "term": "Coaching and Athletic Training",
+  "decision": "unsure",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-03-a1",
+  "date": "2026-10-29",
+  "reason": "Joins two separate concepts, sports coaching and athletic training, and athletic training already has its own entry."
+ },
+ {
+  "term": "Coder Certification",
+  "decision": "unsure",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-03-a1",
+  "date": "2026-10-29",
+  "reason": "Too generic: it could mean a medical coding certification from AAPC or AHIMA, or something else."
+ },
+ {
+  "term": "Cognition Processing",
+  "decision": "unsure",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-03-a1",
+  "date": "2026-10-29",
+  "reason": "Unclear whether it means cognitive processing in psychology, Cognitive Processing Therapy, or something else."
+ },
+ {
+  "term": "Collaborative Research Network",
+  "decision": "not_a_skill",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-03-a1",
+  "date": "2026-10-29",
+  "reason": "A name for a kind of organisation or programme, not a skill."
+ },
+ {
+  "term": "Color Blindness",
+  "decision": "not_a_skill",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-03-a1",
+  "date": "2026-10-29",
+  "reason": "A vision condition, not a skill."
+ },
+ {
+  "term": "Coloring",
+  "decision": "unsure",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-03-a1",
+  "date": "2026-10-29",
+  "reason": "Could mean hair colouring, colouring in illustration, or something else, and the tag gives no context."
+ },
+ {
+  "term": "Comat Technologies",
+  "decision": "not_a_skill",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-03-a1",
+  "date": "2026-10-29",
+  "reason": "A company name."
+ },
+ {
+  "term": "Commercial Aviation",
+  "decision": "not_a_skill",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-03-a1",
+  "date": "2026-10-29",
+  "reason": "An industry sector, not a skill."
+ },
+ {
+  "term": "Commercial Construction",
+  "decision": "not_a_skill",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-03-a1",
+  "date": "2026-10-29",
+  "reason": "An industry sector, not a skill."
+ },
+ {
+  "term": "Communication Certificates",
+  "decision": "unsure",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-03-a1",
+  "date": "2026-10-29",
+  "reason": "Too generic: it could mean a university communication certificate or a specific certification."
+ },
+ {
+  "term": "Communications",
+  "decision": "unsure",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-03-a1",
+  "date": "2026-10-29",
+  "reason": "Could mean communication skills, a communications department, public relations or telecommunications."
  }
 ]

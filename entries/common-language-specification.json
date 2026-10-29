@@ -1,0 +1,57 @@
+{
+ "id": "x1qzxo9lhl",
+ "preferred_name": "Common Language Specification",
+ "kind": "standard",
+ "definition": "A set of rules in Microsoft's .NET Framework that languages must follow so that code written in one .NET language can be used from another.",
+ "key": "common-language-specification",
+ "certification": false,
+ "notes": "The model says this is not a language; the legacy list/class says it is. It is a rule set for .NET language interoperability, not a language.",
+ "variants": [],
+ "relations": [],
+ "verbs": [],
+ "status": "machine-drafted",
+ "provenance": {
+  "source": "drafted by model:claude-sonnet-5-5, run 2026-10-29-round-03-a1, from the name in the legacy tag list alone; no posting or outside source checked",
+  "date": "2026-10-29",
+  "reviewed_by": null,
+  "legacy_tag": {
+   "sources": [
+    {
+     "file": "data/skills_tags.csv",
+     "rows": [
+      914
+     ],
+     "class": "Language"
+    }
+   ],
+   "class": "Language",
+   "in_lists": []
+  }
+ },
+ "evidence": [
+  {
+   "field": "definition",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-29",
+   "run": "2026-10-29-round-03-a1",
+   "note": "basis: general-knowledge"
+  },
+  {
+   "field": "kind",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-29",
+   "run": "2026-10-29-round-03-a1",
+   "note": "basis: general-knowledge (with the definition)"
+  },
+  {
+   "field": "certification",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-29",
+   "run": "2026-10-29-round-03-a1",
+   "note": "basis: general-knowledge"
+  }
+ ]
+}
