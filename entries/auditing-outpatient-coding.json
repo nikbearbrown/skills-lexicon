@@ -1,0 +1,66 @@
+{
+ "id": "dm8qwd9j0u",
+ "preferred_name": "Auditing outpatient coding",
+ "kind": "skill",
+ "definition": "Reviewing the diagnosis and procedure codes assigned to outpatient (ambulatory) encounters to check that they are accurate, supported by the record and compliant with coding rules.",
+ "key": "auditing-outpatient-coding",
+ "certification": false,
+ "variants": [],
+ "relations": [],
+ "verbs": [],
+ "status": "machine-drafted",
+ "provenance": {
+  "source": "drafted by model:claude-sonnet-5-5, run 2026-10-29-round-01-a3, from the name in the legacy tag list alone; no posting or outside source checked",
+  "date": "2026-10-29",
+  "reviewed_by": null,
+  "legacy_tag": {
+   "sources": [
+    {
+     "file": "data/skills_tags.csv",
+     "rows": [
+      344
+     ],
+     "class": "Certification"
+    },
+    {
+     "file": "data/skills-certification.csv",
+     "rows": [
+      131
+     ],
+     "class": "Certification"
+    }
+   ],
+   "class": "Certification",
+   "in_lists": [
+    "certification"
+   ]
+  }
+ },
+ "evidence": [
+  {
+   "field": "definition",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-29",
+   "run": "2026-10-29-round-01-a3",
+   "note": "basis: general-knowledge"
+  },
+  {
+   "field": "kind",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-29",
+   "run": "2026-10-29-round-01-a3",
+   "note": "basis: general-knowledge (with the definition)"
+  },
+  {
+   "field": "certification",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-29",
+   "run": "2026-10-29-round-01-a3",
+   "note": "basis: general-knowledge; disagrees with the legacy list/class: The tag names an activity, not a credential, and I know no certification with this exact name.",
+   "flag": "disagrees_with_legacy"
+  }
+ ]
+}

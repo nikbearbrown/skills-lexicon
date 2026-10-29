@@ -91,21 +91,22 @@ def votes_for(root, entries):
     return out
 
 
-def collect(root, run):
+def collect(root, runs):
     entries, errs = L.load(Path(root) / "entries")
     if errs:
         raise SystemExit("; ".join(errs))
-    new = [e for e in entries if f"run {run}," in e["provenance"]["source"]]
+    runs = [runs] if isinstance(runs, str) else list(runs)
+    new = [e for e in entries if any(f"run {r}," in e["provenance"]["source"] for r in runs)]
     new_ids = {e["id"] for e in new}
     added = []
     for e in entries:
         if e["id"] in new_ids:
             continue
         for ev in e.get("evidence", []):
-            if ev.get("run") == run and ev["field"].startswith("variant:"):
+            if ev.get("run") in runs and ev["field"].startswith("variant:"):
                 added.append({"term": ev["field"][8:], "added_to": e["id"], "name": e["preferred_name"], "note": ev.get("note", "")})
     dec_path = Path(root) / "data" / "term-decisions.json"
-    decisions = [d for d in json.loads(dec_path.read_text("utf-8")) if d.get("run") == run] if dec_path.exists() else []
+    decisions = [d for d in json.loads(dec_path.read_text("utf-8")) if d.get("run") in runs] if dec_path.exists() else []
     rows = {L.norm(g["term"]): g for g in T.read_tags(root, [T.TAGS] + list(T.LISTS.values()))}
 
     def with_rows(d):
@@ -133,8 +134,10 @@ def batch_number(root, run):
     return max(nums, default=0) + 1
 
 
-def build(root, run):
-    c = collect(root, run)
+def build(root, runs):
+    runs_ = [runs] if isinstance(runs, str) else list(runs)
+    run = ", ".join(runs_)
+    c = collect(root, runs_)
     if not c["new"]:
         raise SystemExit(f"no entries were drafted in run {run!r}")
     n = batch_number(root, run)
@@ -230,7 +233,7 @@ def render_md(doc, names):
 
 def main(argv=None):
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
-    ap.add_argument("run")
+    ap.add_argument("run", nargs="+", help="one or more run labels; several make one combined batch")
     ap.add_argument("--root", default=str(L.ROOT))
     a = ap.parse_args(argv)
     doc, stem = build(a.root, a.run)

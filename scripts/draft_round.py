@@ -24,9 +24,10 @@ import tags_to_candidates as T  # noqa: E402
 BASE = Path("/home/user/rounds")
 
 
-def prepare(round_id, agents, size, root=L.ROOT):
+def prepare(round_id, agents, size, root=L.ROOT, unsure=False):
+    every = T.read_tags(root, [T.TAGS] + list(T.LISTS.values()))
     done = T.resolved(root)
-    groups = [g for g in T.read_tags(root, [T.TAGS] + list(T.LISTS.values())) if L.norm(g["term"]) not in done]
+    groups = T.unsure_pool(root, every) if unsure else [g for g in every if L.norm(g["term"]) not in done]
     out = []
     for i in range(1, agents + 1):
         chosen = groups[(i - 1) * size:i * size]
@@ -36,7 +37,7 @@ def prepare(round_id, agents, size, root=L.ROOT):
         if d.exists():
             raise SystemExit(f"{d} exists; use a new round id")
         shutil.copytree(root, d, ignore=shutil.ignore_patterns(".git", "work", "__pycache__"))
-        T.main([str(d / "work"), "--root", str(d), "--first", str(size), "--offset", str((i - 1) * size)])
+        T.main([str(d / "work"), "--root", str(d), "--first", str(size), "--offset", str((i - 1) * size)] + (["--unsure"] if unsure else []))
         M.main([str(d / "work"), "--root", str(d), "--min-postings", "0"])
         out.append((i, len(chosen), d))
     print(f"{len(groups)} unresolved tags; prepared {len(out)} agents")
@@ -63,6 +64,7 @@ def main(argv=None):
     p.add_argument("round")
     p.add_argument("--agents", type=int, default=3)
     p.add_argument("--size", type=int, default=100)
+    p.add_argument("--unsure", action="store_true", help="tags a model only answered unsure to, for a second model")
     c = sub.add_parser("collect")
     c.add_argument("round")
     c.add_argument("--agent", type=int, required=True)
@@ -71,7 +73,7 @@ def main(argv=None):
     c.add_argument("--dry-run", action="store_true")
     a = ap.parse_args(argv)
     if a.cmd == "prepare":
-        prepare(a.round, a.agents, a.size)
+        prepare(a.round, a.agents, a.size, unsure=a.unsure)
     else:
         collect(a.round, a.agent, a.model_id, a.effort, dry=a.dry_run)
     return 0

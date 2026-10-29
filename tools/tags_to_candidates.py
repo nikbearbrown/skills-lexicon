@@ -58,6 +58,22 @@ def resolved(root):
     return seen
 
 
+def unsure_pool(root, groups):
+    """Tags a model only ever answered "unsure" to, with no entry yet and fewer than two model votes: worth asking another model."""
+    root = Path(root)
+    dec = root / "data" / "term-decisions.json"
+    unsure = {L.norm(d["term"]) for d in json.loads(dec.read_text("utf-8")) if d["decision"] == "unsure"} if dec.exists() else set()
+    entries, _ = L.load(root / "entries")
+    forms = {L.norm(fm["label"]) for e in entries for fm in L.forms(e)}
+    votes = {}
+    ap = root / "data" / "assessments.jsonl"
+    for line in (ap.read_text("utf-8").splitlines() if ap.exists() else []):
+        v = json.loads(line)
+        if v["assessor"]["type"] == "model":
+            votes[v["key"]] = votes.get(v["key"], 0) + 1
+    return [g for g in groups if L.norm(g["term"]) in unsure and L.norm(g["term"]) not in forms and votes.get(L.norm(g["term"]), 0) < 2]
+
+
 def origin(g):
     cl = classes(g)
     o = {"sources": [{"file": s["file"], "rows": s["rows"], "class": "/".join(sorted(set(s["classes"])))}
@@ -98,6 +114,7 @@ def main(argv=None):
     ap.add_argument("--quota", default="", help="Class=N,... for --sample, e.g. Skill=75,Certification=15,Language=10")
     ap.add_argument("--first", type=int, help="the first N unresolved tags in file order")
     ap.add_argument("--offset", type=int, default=0, help="with --first: skip this many unresolved tags first, so parallel runs get different tags")
+    ap.add_argument("--unsure", action="store_true", help="only tags a model has answered unsure to and nobody has drafted yet")
     ap.add_argument("--pool", choices=["tags", "all"], default="all",
                     help="draw from skills_tags.csv only, or from all three lists (default)")
     a = ap.parse_args(argv)
@@ -106,6 +123,8 @@ def main(argv=None):
     every = read_tags(a.root, [TAGS] + list(LISTS.values()))
     done = resolved(a.root)
     groups = [g for g in every if L.norm(g["term"]) not in done and (a.pool == "all" or TAGS in g["sources"])]
+    if a.unsure:
+        groups = unsure_pool(a.root, every)
     if a.first:
         chosen = groups[a.offset:a.offset + a.first]
     else:

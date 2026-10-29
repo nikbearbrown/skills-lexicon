@@ -454,5 +454,389 @@
   "run": "2026-10-29-batch-002",
   "date": "2026-10-29",
   "reason": "I cannot confirm what this banking software is or who makes it."
+ },
+ {
+  "term": "Anemia",
+  "decision": "not_a_skill",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-01-a2",
+  "date": "2026-10-29",
+  "reason": "A medical condition, not a skill."
+ },
+ {
+  "term": "Anti-Money Laundering Professional Certification",
+  "decision": "unsure",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-01-a2",
+  "date": "2026-10-29",
+  "reason": "Reads as a family of anti-money-laundering certifications from several bodies rather than one identifiable credential, so the issuer is unclear."
+ },
+ {
+  "term": "Apache",
+  "decision": "unsure",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-01-a2",
+  "date": "2026-10-29",
+  "reason": "Alone it could mean the Apache HTTP Server, the Apache Software Foundation or any of its many projects."
+ },
+ {
+  "term": "AppBuilder",
+  "decision": "unsure",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-01-a2",
+  "date": "2026-10-29",
+  "reason": "Several unrelated products are called AppBuilder, and nothing here says which one is meant."
+ },
+ {
+  "term": "Appendto",
+  "decision": "not_a_skill",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-01-a2",
+  "date": "2026-10-29",
+  "reason": "The name of a jQuery-focused company and of a jQuery method, not a skill."
+ },
+ {
+  "term": "Application Analytics",
+  "decision": "unsure",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-01-a2",
+  "date": "2026-10-29",
+  "reason": "Could mean usage analytics for apps, application performance analytics or a vendor product, and the tag alone does not say which."
+ },
+ {
+  "term": "Application End",
+  "decision": "unsure",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-01-a2",
+  "date": "2026-10-29",
+  "reason": "A fragment I cannot match to any known skill, tool or method."
+ },
+ {
+  "term": "Applied Marketing",
+  "decision": "unsure",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-01-a2",
+  "date": "2026-10-29",
+  "reason": "Reads as a course or programme label, and I cannot tell which defined skill it names beyond marketing in general."
+ },
+ {
+  "term": "Appreciative",
+  "decision": "not_a_skill",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-01-a2",
+  "date": "2026-10-29",
+  "reason": "A generic adjective, not a skill."
+ },
+ {
+  "term": "Appworld",
+  "decision": "unsure",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-01-a2",
+  "date": "2026-10-29",
+  "reason": "Could be a benchmark for AI agents, an app store or some other product, and nothing here says which."
+ },
+ {
+  "term": "Arbitrage Trading Program",
+  "decision": "unsure",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-01-a2",
+  "date": "2026-10-29",
+  "reason": "Could be an arbitrage trading strategy or a named investment product, and the tag does not say which."
+ },
+ {
+  "term": "Armadillo",
+  "decision": "unsure",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-01-a2",
+  "date": "2026-10-29",
+  "reason": "Armadillo names both a C++ linear algebra library and a line of embedded boards, and is also an animal, so I cannot tell which is meant."
+ },
+ {
+  "term": "Armed Guard",
+  "decision": "not_a_skill",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-01-a2",
+  "date": "2026-10-29",
+  "reason": "A job title for a security role, not a skill."
+ },
+ {
+  "term": "Arrow Security",
+  "decision": "unsure",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-01-a2",
+  "date": "2026-10-29",
+  "reason": "Looks like a company or product name, and I cannot identify it as a skill or tool."
+ },
+ {
+  "term": "Artisan",
+  "decision": "unsure",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-01-a2",
+  "date": "2026-10-29",
+  "reason": "An everyday word for a craftsperson and also the name of Laravel's command-line tool, so I cannot tell which is meant."
+ },
+ {
+  "term": "Asset Analytics",
+  "decision": "unsure",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-01-a2",
+  "date": "2026-10-29",
+  "reason": "Could refer to analytics on physical assets, financial assets or a vendor product, and the tag does not say which."
+ },
+ {
+  "term": "Assigned Amount Units",
+  "decision": "unsure",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-01-a3",
+  "date": "2026-10-29",
+  "reason": "Names a Kyoto Protocol emissions unit (an instrument), and it is unclear whether a posting wants it as a skill; left for a person."
+ },
+ {
+  "term": "Associate Electronics Technician",
+  "decision": "unsure",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-01-a3",
+  "date": "2026-10-29",
+  "reason": "Could be an associate-level electronics technician certification or just a job title; the tag alone does not say which."
+ },
+ {
+  "term": "Associate Project Management",
+  "decision": "unsure",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-01-a3",
+  "date": "2026-10-29",
+  "reason": "Could mean PMI's CAPM, an associate degree in project management, or an associate-level job; the tag alone does not say which."
+ },
+ {
+  "term": "Association Of Professional Notaries",
+  "decision": "not_a_skill",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-01-a3",
+  "date": "2026-10-29",
+  "reason": "An association (an organisation), not a skill."
+ },
+ {
+  "term": "Audio Equipments",
+  "decision": "unsure",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-01-a3",
+  "date": "2026-10-29",
+  "reason": "A generic category of hardware; unclear whether the skill meant is operating, setting up or maintaining audio gear."
+ },
+ {
+  "term": "Audiography",
+  "decision": "unsure",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-01-a3",
+  "date": "2026-10-29",
+  "reason": "I am not sure what this is; it may be a rare term for hearing testing (audiometry) but I cannot confirm that."
+ },
+ {
+  "term": "Audit Process Tools",
+  "decision": "not_a_skill",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-01-a3",
+  "date": "2026-10-29",
+  "reason": "A generic phrase that names no specific tool or method."
+ },
+ {
+  "term": "Audit Processes",
+  "decision": "unsure",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-01-a3",
+  "date": "2026-10-29",
+  "reason": "Close to auditing or knowledge of audit procedures, but I cannot say it is exactly the same concept as Auditing."
+ },
+ {
+  "term": "Audit Schedules",
+  "decision": "not_a_skill",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-01-a3",
+  "date": "2026-10-29",
+  "reason": "A generic work item (a plan or document), not a skill in itself."
+ },
+ {
+  "term": "Auditing Wireless Networks Certification",
+  "decision": "unsure",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-01-a3",
+  "date": "2026-10-29",
+  "reason": "Possibly a wireless-auditing certification such as GIAC's GAWN, but the tag is only a descriptive phrase and the issuer is unclear."
+ },
+ {
+  "term": "Auditor'S Report",
+  "decision": "unsure",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-01-a3",
+  "date": "2026-10-29",
+  "reason": "Names a document type (the auditor's opinion on financial statements); unclear whether it is wanted as a skill, so left for a person."
+ },
+ {
+  "term": "Aura Framework",
+  "decision": "unsure",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-01-a3",
+  "date": "2026-10-29",
+  "reason": "Could be Salesforce's Aura (Lightning) component framework or the unrelated Aura.js library; the tag alone does not say which."
+ },
+ {
+  "term": "Autism",
+  "decision": "not_a_skill",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-01-a3",
+  "date": "2026-10-29",
+  "reason": "A medical condition, not a skill."
+ },
+ {
+  "term": "Autobahn",
+  "decision": "unsure",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-01-a3",
+  "date": "2026-10-29",
+  "reason": "Could be the German motorway system or the Autobahn WebSocket/WAMP libraries; the tag alone does not say which."
+ },
+ {
+  "term": "Autodesk Developer Network",
+  "decision": "not_a_skill",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-01-a3",
+  "date": "2026-10-29",
+  "reason": "A vendor developer programme (an organisation), not a skill."
+ },
+ {
+  "term": "Autolayout",
+  "decision": "unsure",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-01-a3",
+  "date": "2026-10-29",
+  "reason": "Could be Apple's Auto Layout, Figma's auto layout or automatic chip layout; the tag alone does not say which."
+ },
+ {
+  "term": "Automated Hacking Machines",
+  "decision": "unsure",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-01-a3",
+  "date": "2026-10-29",
+  "reason": "I do not know what this refers to."
+ },
+ {
+  "term": "Automatic File Distributor",
+  "decision": "unsure",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-01-a3",
+  "date": "2026-10-29",
+  "reason": "I do not know what this refers to; it may be a product or just a descriptive phrase."
+ },
+ {
+  "term": "Automatic Property Extraction",
+  "decision": "unsure",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-01-a3",
+  "date": "2026-10-29",
+  "reason": "I do not know what this refers to; it could be a programming or a data-extraction term."
+ },
+ {
+  "term": "Automation Clips",
+  "decision": "unsure",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-01-a3",
+  "date": "2026-10-29",
+  "reason": "Possibly a feature of music software such as FL Studio, or something else; I cannot tell whether it is a skill."
+ },
+ {
+  "term": "Automation Controls",
+  "decision": "unsure",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-01-a3",
+  "date": "2026-10-29",
+  "reason": "Could mean industrial automation and control systems or software-automation controls; the tag alone does not say which."
+ },
+ {
+  "term": "Auxiliary Air Control Valves (AAC)",
+  "decision": "not_a_skill",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-01-a3",
+  "date": "2026-10-29",
+  "reason": "A physical engine component, not a skill."
+ },
+ {
+  "term": "Avaya (Telecommunications)",
+  "decision": "not_a_skill",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-01-a3",
+  "date": "2026-10-29",
+  "reason": "A company; its products (for example Avaya Aura) would be separate entries."
+ },
+ {
+  "term": "Aviation Digital",
+  "decision": "unsure",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-01-a3",
+  "date": "2026-10-29",
+  "reason": "I do not know what this refers to."
+ },
+ {
+  "term": "Aviation Technology",
+  "decision": "not_a_skill",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-01-a3",
+  "date": "2026-10-29",
+  "reason": "A broad industry or field label, not a specific skill."
+ },
+ {
+  "term": "Azari (Language)",
+  "decision": "unsure",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-01-a3",
+  "date": "2026-10-29",
+  "reason": "Azari can mean Azerbaijani (Azeri) or a different, extinct Iranian language of the same region; the tag alone does not say which."
+ },
+ {
+  "term": "Back Pressures",
+  "decision": "unsure",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-01-a3",
+  "date": "2026-10-29",
+  "reason": "Could be backpressure (flow control) in software streams or back pressure in engines and fluid systems; the tag alone does not say which."
+ },
+ {
+  "term": "Bahasa (Language)",
+  "decision": "unsure",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-01-a3",
+  "date": "2026-10-29",
+  "reason": "'Bahasa' just means 'language'; in postings it means Indonesian or Malay, and the tag alone does not say which."
+ },
+ {
+  "term": "Bakeries",
+  "decision": "not_a_skill",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-01-a3",
+  "date": "2026-10-29",
+  "reason": "A type of business or place, not a skill."
+ },
+ {
+  "term": "Bali Action Plan",
+  "decision": "unsure",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-01-a3",
+  "date": "2026-10-29",
+  "reason": "Names a UN climate-negotiation decision document; unclear whether it is wanted as a skill, so left for a person."
+ },
+ {
+  "term": "BIPOC",
+  "decision": "not_a_skill",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-01-a3",
+  "date": "2026-10-29",
+  "reason": "A demographic term (Black, Indigenous and People of Color), not a skill."
+ },
+ {
+  "term": "BIRCH",
+  "decision": "unsure",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-01-a3",
+  "date": "2026-10-29",
+  "reason": "Could be the BIRCH clustering algorithm, but the tag alone does not say so; it is also a tree and other things."
  }
 ]

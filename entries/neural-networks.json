@@ -7,7 +7,12 @@
  "preferred_name": "Neural networks",
  "kind": "knowledge",
  "definition": "Designing and reasoning about networks of learned computational units.",
- "variants": [],
+ "variants": [
+  {
+   "label": "Artificial Neural Networks",
+   "match": "word_ci"
+  }
+ ],
  "relations": [],
  "verbs": [],
  "status": "proposed",
@@ -16,5 +21,15 @@
   "date": "2026-10-24",
   "review": "Awaiting taxonomy owner review; no external ontology mapping asserted",
   "reviewed_by": null
- }
+ },
+ "evidence": [
+  {
+   "field": "variant:artificial neural networks",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-29",
+   "run": "2026-10-29-round-01-a2",
+   "note": "same concept as Neural networks, listed in the legacy tag list"
+  }
+ ]
 }
