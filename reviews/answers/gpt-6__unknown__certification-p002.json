@@ -1,0 +1,1214 @@
+{
+  "reviewer": {
+    "model": "gpt-6",
+    "effort": "unknown",
+    "date": "2026-10-29"
+  },
+  "packet": "certification/p002",
+  "answers": [
+    {
+      "key": "basic-automotive-maintenance-certificate",
+      "claims": {
+        "definition": {
+          "verdict": "supports"
+        },
+        "kind": {
+          "verdict": "supports"
+        },
+        "certification": {
+          "verdict": "supports"
+        },
+        "certification_scope": {
+          "verdict": "supports"
+        }
+      },
+      "variants": {
+        "ok": [
+          "Basic Automotive Maintenance Certificates"
+        ],
+        "bad": []
+      },
+      "relations": {
+        "ok": [],
+        "bad": []
+      },
+      "job_listing_vote": {
+        "answer": "yes"
+      }
+    },
+    {
+      "key": "basic-life-support",
+      "claims": {
+        "definition": {
+          "verdict": "supports"
+        },
+        "kind": {
+          "verdict": "supports"
+        },
+        "certification": {
+          "verdict": "supports"
+        },
+        "certification_scope": {
+          "verdict": "supports"
+        }
+      },
+      "variants": {
+        "ok": [
+          "Basic Life Support certification"
+        ],
+        "bad": []
+      },
+      "relations": {
+        "ok": [
+          "related:advanced-cardiovascular-life-support"
+        ],
+        "bad": []
+      },
+      "job_listing_vote": {
+        "answer": "yes"
+      }
+    },
+    {
+      "key": "basic-life-support-instructor-certification",
+      "claims": {
+        "definition": {
+          "verdict": "supports"
+        },
+        "kind": {
+          "verdict": "supports"
+        },
+        "certification": {
+          "verdict": "supports"
+        },
+        "certification_scope": {
+          "verdict": "supports"
+        }
+      },
+      "variants": {
+        "ok": [
+          "Basic Life Support (BLS) Instructor Certification"
+        ],
+        "bad": []
+      },
+      "relations": {
+        "ok": [],
+        "bad": []
+      },
+      "job_listing_vote": {
+        "answer": "yes"
+      }
+    },
+    {
+      "key": "board-certified-behavior-analyst",
+      "claims": {
+        "definition": {
+          "verdict": "supports"
+        },
+        "kind": {
+          "verdict": "supports"
+        },
+        "certification": {
+          "verdict": "supports"
+        },
+        "certification_scope": {
+          "verdict": "supports"
+        }
+      },
+      "variants": {
+        "ok": [
+          "BCBA"
+        ],
+        "bad": []
+      },
+      "relations": {
+        "ok": [],
+        "bad": []
+      },
+      "job_listing_vote": {
+        "answer": "yes"
+      }
+    },
+    {
+      "key": "board-certified-pharmacotherapy-specialist",
+      "claims": {
+        "definition": {
+          "verdict": "supports"
+        },
+        "kind": {
+          "verdict": "supports"
+        },
+        "certification": {
+          "verdict": "supports"
+        },
+        "certification_scope": {
+          "verdict": "supports"
+        }
+      },
+      "variants": {
+        "ok": [
+          "Board Certified Pharmacotherapy Specialist (BCPS)",
+          "BCPS"
+        ],
+        "bad": []
+      },
+      "relations": {
+        "ok": [],
+        "bad": []
+      },
+      "job_listing_vote": {
+        "answer": "yes"
+      }
+    },
+    {
+      "key": "board-certified-specialist-in-gerontological-nutrition",
+      "claims": {
+        "definition": {
+          "verdict": "supports"
+        },
+        "kind": {
+          "verdict": "supports"
+        },
+        "certification": {
+          "verdict": "supports"
+        },
+        "certification_scope": {
+          "verdict": "supports"
+        }
+      },
+      "variants": {
+        "ok": [
+          "Certified Specialist in Gerontological Nutrition"
+        ],
+        "bad": []
+      },
+      "relations": {
+        "ok": [],
+        "bad": []
+      },
+      "job_listing_vote": {
+        "answer": "yes"
+      }
+    },
+    {
+      "key": "board-certified-specialist-in-renal-nutrition",
+      "claims": {
+        "definition": {
+          "verdict": "supports"
+        },
+        "kind": {
+          "verdict": "supports"
+        },
+        "certification": {
+          "verdict": "supports"
+        },
+        "certification_scope": {
+          "verdict": "supports"
+        }
+      },
+      "variants": {
+        "ok": [],
+        "bad": []
+      },
+      "relations": {
+        "ok": [],
+        "bad": []
+      },
+      "job_listing_vote": {
+        "answer": "yes"
+      }
+    },
+    {
+      "key": "board-certified-specialist-in-sports-dietetics",
+      "claims": {
+        "definition": {
+          "verdict": "supports"
+        },
+        "kind": {
+          "verdict": "supports"
+        },
+        "certification": {
+          "verdict": "supports"
+        },
+        "certification_scope": {
+          "verdict": "supports"
+        }
+      },
+      "variants": {
+        "ok": [
+          "Certified Specialist in Sports Dietetics",
+          "CSSD"
+        ],
+        "bad": []
+      },
+      "relations": {
+        "ok": [],
+        "bad": []
+      },
+      "job_listing_vote": {
+        "answer": "yes"
+      }
+    },
+    {
+      "key": "board-certified-transplant-pharmacist",
+      "claims": {
+        "definition": {
+          "verdict": "supports"
+        },
+        "kind": {
+          "verdict": "supports"
+        },
+        "certification": {
+          "verdict": "supports"
+        },
+        "certification_scope": {
+          "verdict": "supports"
+        }
+      },
+      "variants": {
+        "ok": [
+          "Board Certified Transplant Pharmacist (BCTXP)",
+          "BCTXP"
+        ],
+        "bad": []
+      },
+      "relations": {
+        "ok": [],
+        "bad": []
+      },
+      "job_listing_vote": {
+        "answer": "yes"
+      }
+    },
+    {
+      "key": "boating-license",
+      "claims": {
+        "definition": {
+          "verdict": "supports"
+        },
+        "kind": {
+          "verdict": "supports"
+        },
+        "certification": {
+          "verdict": "supports"
+        },
+        "certification_scope": {
+          "verdict": "supports"
+        }
+      },
+      "variants": {
+        "ok": [
+          "Boating licence"
+        ],
+        "bad": []
+      },
+      "relations": {
+        "ok": [],
+        "bad": []
+      },
+      "job_listing_vote": {
+        "answer": "yes"
+      }
+    },
+    {
+      "key": "boom-lift-certification",
+      "claims": {
+        "definition": {
+          "verdict": "supports"
+        },
+        "kind": {
+          "verdict": "supports"
+        },
+        "certification": {
+          "verdict": "supports"
+        },
+        "certification_scope": {
+          "verdict": "supports"
+        }
+      },
+      "variants": {
+        "ok": [],
+        "bad": []
+      },
+      "relations": {
+        "ok": [
+          "broader:aerial-lift-certification"
+        ],
+        "bad": []
+      },
+      "job_listing_vote": {
+        "answer": "yes"
+      }
+    },
+    {
+      "key": "ccna-security",
+      "claims": {
+        "definition": {
+          "verdict": "supports",
+          "note": "This describes the credential correctly, but CCNA Security was retired in 2020."
+        },
+        "kind": {
+          "verdict": "supports"
+        },
+        "certification": {
+          "verdict": "supports"
+        },
+        "certification_scope": {
+          "verdict": "supports"
+        }
+      },
+      "variants": {
+        "ok": [
+          "Cisco Certified Network Associate- Security",
+          "Cisco Certified Network Associate Security"
+        ],
+        "bad": []
+      },
+      "relations": {
+        "ok": [
+          "related:ccnp-security"
+        ],
+        "bad": []
+      },
+      "job_listing_vote": {
+        "answer": "yes"
+      }
+    },
+    {
+      "key": "ccnp-security",
+      "claims": {
+        "definition": {
+          "verdict": "supports"
+        },
+        "kind": {
+          "verdict": "supports"
+        },
+        "certification": {
+          "verdict": "supports"
+        },
+        "certification_scope": {
+          "verdict": "supports"
+        }
+      },
+      "variants": {
+        "ok": [
+          "CISCO Certified Network Professional - Security",
+          "Cisco Certified Network Professional Security"
+        ],
+        "bad": []
+      },
+      "relations": {
+        "ok": [],
+        "bad": []
+      },
+      "job_listing_vote": {
+        "answer": "yes"
+      }
+    },
+    {
+      "key": "certificate-of-advanced-graduate-study",
+      "claims": {
+        "definition": {
+          "verdict": "supports"
+        },
+        "kind": {
+          "verdict": "supports"
+        },
+        "certification": {
+          "verdict": "supports"
+        },
+        "certification_scope": {
+          "verdict": "supports"
+        }
+      },
+      "variants": {
+        "ok": [
+          "Certificate Of Advanced Graduate Study (CAGS)",
+          "CAGS",
+          "Certificate of Advanced Graduate Studies"
+        ],
+        "bad": []
+      },
+      "relations": {
+        "ok": [],
+        "bad": []
+      },
+      "job_listing_vote": {
+        "answer": "yes"
+      }
+    },
+    {
+      "key": "certificate-of-clinical-competence-in-speech-language-pathology",
+      "claims": {
+        "definition": {
+          "verdict": "supports"
+        },
+        "kind": {
+          "verdict": "supports"
+        },
+        "certification": {
+          "verdict": "supports"
+        },
+        "certification_scope": {
+          "verdict": "supports"
+        }
+      },
+      "variants": {
+        "ok": [
+          "Certificate Of Clinical Competence In Speech-Language Pathology (CCC-SLP)",
+          "CCC-SLP"
+        ],
+        "bad": []
+      },
+      "relations": {
+        "ok": [],
+        "bad": []
+      },
+      "job_listing_vote": {
+        "answer": "yes"
+      }
+    },
+    {
+      "key": "certification-in-neurophysiologic-intraoperative-monitoring",
+      "claims": {
+        "definition": {
+          "verdict": "supports",
+          "note": "ABRET awards CNIM; the issuer is omitted from an otherwise accurate description."
+        },
+        "kind": {
+          "verdict": "supports"
+        },
+        "certification": {
+          "verdict": "supports"
+        },
+        "certification_scope": {
+          "verdict": "supports"
+        }
+      },
+      "variants": {
+        "ok": [
+          "Certification in Neurophysiologic Intraoperative Monitoring (CNIM)",
+          "CNIM"
+        ],
+        "bad": []
+      },
+      "relations": {
+        "ok": [
+          "related:american-board-of-neurophysiologic-monitoring-certification"
+        ],
+        "bad": []
+      },
+      "job_listing_vote": {
+        "answer": "yes"
+      }
+    },
+    {
+      "key": "certification-in-transportation-and-logistics",
+      "claims": {
+        "definition": {
+          "verdict": "supports",
+          "note": "This is the historical CTL credential associated with AST&L and later APICS; its issuer and retirement status are omitted."
+        },
+        "kind": {
+          "verdict": "supports"
+        },
+        "certification": {
+          "verdict": "supports"
+        },
+        "certification_scope": {
+          "verdict": "supports"
+        }
+      },
+      "variants": {
+        "ok": [],
+        "bad": []
+      },
+      "relations": {
+        "ok": [],
+        "bad": []
+      },
+      "job_listing_vote": {
+        "answer": "yes"
+      }
+    },
+    {
+      "key": "certified-addictions-registered-nurse",
+      "claims": {
+        "definition": {
+          "verdict": "supports"
+        },
+        "kind": {
+          "verdict": "supports"
+        },
+        "certification": {
+          "verdict": "supports"
+        },
+        "certification_scope": {
+          "verdict": "supports"
+        }
+      },
+      "variants": {
+        "ok": [
+          "CARN"
+        ],
+        "bad": []
+      },
+      "relations": {
+        "ok": [],
+        "bad": []
+      },
+      "job_listing_vote": {
+        "answer": "yes"
+      }
+    },
+    {
+      "key": "certified-alcoholism-and-drug-abuse-counselor",
+      "claims": {
+        "definition": {
+          "verdict": "supports"
+        },
+        "kind": {
+          "verdict": "supports"
+        },
+        "certification": {
+          "verdict": "supports"
+        }
+      },
+      "variants": {
+        "ok": [],
+        "bad": []
+      },
+      "relations": {
+        "ok": [],
+        "bad": []
+      },
+      "job_listing_vote": {
+        "answer": "yes"
+      }
+    },
+    {
+      "key": "certified-ambulatory-perianesthesia-nurse",
+      "claims": {
+        "definition": {
+          "verdict": "supports"
+        },
+        "kind": {
+          "verdict": "supports"
+        },
+        "certification": {
+          "verdict": "supports"
+        },
+        "certification_scope": {
+          "verdict": "supports"
+        }
+      },
+      "variants": {
+        "ok": [],
+        "bad": []
+      },
+      "relations": {
+        "ok": [],
+        "bad": []
+      },
+      "job_listing_vote": {
+        "answer": "yes"
+      }
+    },
+    {
+      "key": "certified-analytics-professional",
+      "claims": {
+        "definition": {
+          "verdict": "supports"
+        },
+        "kind": {
+          "verdict": "supports"
+        },
+        "certification": {
+          "verdict": "supports"
+        },
+        "certification_scope": {
+          "verdict": "supports"
+        }
+      },
+      "variants": {
+        "ok": [],
+        "bad": []
+      },
+      "relations": {
+        "ok": [],
+        "bad": []
+      },
+      "job_listing_vote": {
+        "answer": "yes"
+      }
+    },
+    {
+      "key": "certified-apartment-manager",
+      "claims": {
+        "definition": {
+          "verdict": "supports"
+        },
+        "kind": {
+          "verdict": "supports"
+        },
+        "certification": {
+          "verdict": "supports"
+        },
+        "certification_scope": {
+          "verdict": "supports"
+        }
+      },
+      "variants": {
+        "ok": [],
+        "bad": []
+      },
+      "relations": {
+        "ok": [],
+        "bad": []
+      },
+      "job_listing_vote": {
+        "answer": "yes"
+      }
+    },
+    {
+      "key": "certified-associate-in-project-management",
+      "claims": {
+        "definition": {
+          "verdict": "supports"
+        },
+        "kind": {
+          "verdict": "supports"
+        },
+        "certification": {
+          "verdict": "supports"
+        },
+        "certification_scope": {
+          "verdict": "supports"
+        }
+      },
+      "variants": {
+        "ok": [],
+        "bad": [
+          {
+            "label": "Certified Associate Project Management",
+            "note": "The formal credential title is Certified Associate in Project Management; the omitted in makes this malformed."
+          }
+        ]
+      },
+      "relations": {
+        "ok": [
+          "related:project-management"
+        ],
+        "bad": []
+      },
+      "job_listing_vote": {
+        "answer": "yes"
+      }
+    },
+    {
+      "key": "certified-associate-in-python-programming",
+      "claims": {
+        "definition": {
+          "verdict": "supports"
+        },
+        "kind": {
+          "verdict": "supports"
+        },
+        "certification": {
+          "verdict": "supports"
+        },
+        "certification_scope": {
+          "verdict": "supports"
+        }
+      },
+      "variants": {
+        "ok": [],
+        "bad": []
+      },
+      "relations": {
+        "ok": [],
+        "bad": []
+      },
+      "job_listing_vote": {
+        "answer": "yes"
+      }
+    },
+    {
+      "key": "certified-asthma-educator",
+      "claims": {
+        "definition": {
+          "verdict": "supports"
+        },
+        "kind": {
+          "verdict": "supports"
+        },
+        "certification": {
+          "verdict": "supports"
+        },
+        "certification_scope": {
+          "verdict": "supports"
+        }
+      },
+      "variants": {
+        "ok": [
+          "AE-C"
+        ],
+        "bad": []
+      },
+      "relations": {
+        "ok": [
+          "related:asthma-education"
+        ],
+        "bad": []
+      },
+      "job_listing_vote": {
+        "answer": "yes"
+      }
+    },
+    {
+      "key": "certified-bariatric-nurse",
+      "claims": {
+        "definition": {
+          "verdict": "supports"
+        },
+        "kind": {
+          "verdict": "supports"
+        },
+        "certification": {
+          "verdict": "supports"
+        },
+        "certification_scope": {
+          "verdict": "supports"
+        }
+      },
+      "variants": {
+        "ok": [],
+        "bad": []
+      },
+      "relations": {
+        "ok": [],
+        "bad": []
+      },
+      "job_listing_vote": {
+        "answer": "yes"
+      }
+    },
+    {
+      "key": "certified-bath-designer",
+      "claims": {
+        "definition": {
+          "verdict": "supports",
+          "note": "This is a legacy NKBA designation; current combined kitchen-and-bath credentials should be distinguished."
+        },
+        "kind": {
+          "verdict": "supports"
+        },
+        "certification": {
+          "verdict": "supports"
+        },
+        "certification_scope": {
+          "verdict": "supports"
+        }
+      },
+      "variants": {
+        "ok": [],
+        "bad": []
+      },
+      "relations": {
+        "ok": [],
+        "bad": []
+      },
+      "job_listing_vote": {
+        "answer": "yes"
+      }
+    },
+    {
+      "key": "certified-biomedical-equipment-technician",
+      "claims": {
+        "definition": {
+          "verdict": "supports",
+          "note": "AAMI's credentialing organization awards CBET; naming it would make the definition more informative."
+        },
+        "kind": {
+          "verdict": "supports"
+        },
+        "certification": {
+          "verdict": "supports"
+        },
+        "certification_scope": {
+          "verdict": "supports"
+        }
+      },
+      "variants": {
+        "ok": [
+          "CBET"
+        ],
+        "bad": []
+      },
+      "relations": {
+        "ok": [],
+        "bad": []
+      },
+      "job_listing_vote": {
+        "answer": "yes"
+      }
+    },
+    {
+      "key": "certified-breast-care-nurse",
+      "claims": {
+        "definition": {
+          "verdict": "supports"
+        },
+        "kind": {
+          "verdict": "supports"
+        },
+        "certification": {
+          "verdict": "supports"
+        },
+        "certification_scope": {
+          "verdict": "supports"
+        }
+      },
+      "variants": {
+        "ok": [
+          "CBCN"
+        ],
+        "bad": []
+      },
+      "relations": {
+        "ok": [],
+        "bad": []
+      },
+      "job_listing_vote": {
+        "answer": "yes"
+      }
+    },
+    {
+      "key": "certified-cardiographic-technician",
+      "claims": {
+        "definition": {
+          "verdict": "supports"
+        },
+        "kind": {
+          "verdict": "supports"
+        },
+        "certification": {
+          "verdict": "supports"
+        },
+        "certification_scope": {
+          "verdict": "supports"
+        }
+      },
+      "variants": {
+        "ok": [],
+        "bad": []
+      },
+      "relations": {
+        "ok": [],
+        "bad": []
+      },
+      "job_listing_vote": {
+        "answer": "yes"
+      }
+    },
+    {
+      "key": "certified-case-manager",
+      "claims": {
+        "definition": {
+          "verdict": "supports"
+        },
+        "kind": {
+          "verdict": "supports"
+        },
+        "certification": {
+          "verdict": "supports"
+        },
+        "certification_scope": {
+          "verdict": "supports"
+        }
+      },
+      "variants": {
+        "ok": [],
+        "bad": []
+      },
+      "relations": {
+        "ok": [],
+        "bad": []
+      },
+      "job_listing_vote": {
+        "answer": "yes"
+      }
+    },
+    {
+      "key": "certified-child-life-specialist",
+      "claims": {
+        "definition": {
+          "verdict": "supports",
+          "note": "The Child Life Certification Commission administers the credential within the ACLP organizational context."
+        },
+        "kind": {
+          "verdict": "supports"
+        },
+        "certification": {
+          "verdict": "supports"
+        },
+        "certification_scope": {
+          "verdict": "supports"
+        }
+      },
+      "variants": {
+        "ok": [
+          "CCLS"
+        ],
+        "bad": []
+      },
+      "relations": {
+        "ok": [],
+        "bad": []
+      },
+      "job_listing_vote": {
+        "answer": "yes"
+      }
+    },
+    {
+      "key": "certified-clinical-hemodialysis-technician",
+      "claims": {
+        "definition": {
+          "verdict": "supports"
+        },
+        "kind": {
+          "verdict": "supports"
+        },
+        "certification": {
+          "verdict": "supports"
+        },
+        "certification_scope": {
+          "verdict": "supports"
+        }
+      },
+      "variants": {
+        "ok": [
+          "CCHT"
+        ],
+        "bad": []
+      },
+      "relations": {
+        "ok": [],
+        "bad": []
+      },
+      "job_listing_vote": {
+        "answer": "yes"
+      }
+    },
+    {
+      "key": "certified-clinical-medical-assistant",
+      "claims": {
+        "definition": {
+          "verdict": "supports"
+        },
+        "kind": {
+          "verdict": "supports"
+        },
+        "certification": {
+          "verdict": "supports"
+        },
+        "certification_scope": {
+          "verdict": "supports"
+        }
+      },
+      "variants": {
+        "ok": [
+          "CCMA"
+        ],
+        "bad": []
+      },
+      "relations": {
+        "ok": [],
+        "bad": []
+      },
+      "job_listing_vote": {
+        "answer": "yes"
+      }
+    },
+    {
+      "key": "certified-clinical-research-associate",
+      "claims": {
+        "definition": {
+          "verdict": "supports"
+        },
+        "kind": {
+          "verdict": "supports"
+        },
+        "certification": {
+          "verdict": "supports"
+        },
+        "certification_scope": {
+          "verdict": "supports"
+        }
+      },
+      "variants": {
+        "ok": [
+          "CCRA"
+        ],
+        "bad": []
+      },
+      "relations": {
+        "ok": [],
+        "bad": []
+      },
+      "job_listing_vote": {
+        "answer": "yes"
+      }
+    },
+    {
+      "key": "certified-clinical-transplant-coordinator",
+      "claims": {
+        "definition": {
+          "verdict": "supports"
+        },
+        "kind": {
+          "verdict": "supports"
+        },
+        "certification": {
+          "verdict": "supports"
+        },
+        "certification_scope": {
+          "verdict": "supports"
+        }
+      },
+      "variants": {
+        "ok": [
+          "CCTC"
+        ],
+        "bad": [
+          {
+            "label": "Certified Clinical Transplant Coordinators",
+            "note": "This plural denotes multiple credential holders rather than the singular credential title."
+          }
+        ]
+      },
+      "relations": {
+        "ok": [],
+        "bad": []
+      },
+      "job_listing_vote": {
+        "answer": "yes"
+      }
+    },
+    {
+      "key": "certified-coding-associate",
+      "claims": {
+        "definition": {
+          "verdict": "supports"
+        },
+        "kind": {
+          "verdict": "supports"
+        },
+        "certification": {
+          "verdict": "supports"
+        },
+        "certification_scope": {
+          "verdict": "supports"
+        }
+      },
+      "variants": {
+        "ok": [],
+        "bad": []
+      },
+      "relations": {
+        "ok": [],
+        "bad": []
+      },
+      "job_listing_vote": {
+        "answer": "yes"
+      }
+    },
+    {
+      "key": "certified-coding-specialist",
+      "claims": {
+        "definition": {
+          "verdict": "supports"
+        },
+        "kind": {
+          "verdict": "supports"
+        },
+        "certification": {
+          "verdict": "supports"
+        },
+        "certification_scope": {
+          "verdict": "supports"
+        }
+      },
+      "variants": {
+        "ok": [],
+        "bad": []
+      },
+      "relations": {
+        "ok": [],
+        "bad": []
+      },
+      "job_listing_vote": {
+        "answer": "yes"
+      }
+    },
+    {
+      "key": "certified-continence-care-nurse",
+      "claims": {
+        "definition": {
+          "verdict": "supports"
+        },
+        "kind": {
+          "verdict": "supports"
+        },
+        "certification": {
+          "verdict": "supports"
+        },
+        "certification_scope": {
+          "verdict": "supports"
+        }
+      },
+      "variants": {
+        "ok": [
+          "CCCN"
+        ],
+        "bad": []
+      },
+      "relations": {
+        "ok": [],
+        "bad": []
+      },
+      "job_listing_vote": {
+        "answer": "yes"
+      }
+    },
+    {
+      "key": "certified-control-systems-technician",
+      "claims": {
+        "definition": {
+          "verdict": "supports"
+        },
+        "kind": {
+          "verdict": "supports"
+        },
+        "certification": {
+          "verdict": "supports"
+        },
+        "certification_scope": {
+          "verdict": "supports"
+        }
+      },
+      "variants": {
+        "ok": [
+          "CCST"
+        ],
+        "bad": []
+      },
+      "relations": {
+        "ok": [],
+        "bad": []
+      },
+      "job_listing_vote": {
+        "answer": "yes"
+      }
+    }
+  ]
+}

@@ -1,0 +1,1217 @@
+{
+  "reviewer": {
+    "model": "gpt-6",
+    "effort": "unknown",
+    "date": "2026-10-29"
+  },
+  "packet": "certification/p004",
+  "answers": [
+    {
+      "key": "certified-network-defense-architect",
+      "claims": {
+        "definition": {
+          "verdict": "contradicts",
+          "note": "EC-Council's CNDA focuses on ethical hacking and penetration testing for government personnel, not general network architecture."
+        },
+        "kind": {
+          "verdict": "supports"
+        },
+        "certification": {
+          "verdict": "supports"
+        },
+        "certification_scope": {
+          "verdict": "supports"
+        }
+      },
+      "variants": {
+        "ok": [],
+        "bad": [
+          {
+            "label": "Certified Network Defense Architecture",
+            "note": "Architecture is a discipline; the credential title certifies an Architect."
+          }
+        ]
+      },
+      "relations": {
+        "ok": [],
+        "bad": []
+      },
+      "job_listing_vote": {
+        "answer": "yes"
+      }
+    },
+    {
+      "key": "certified-neuroscience-registered-nurse",
+      "claims": {
+        "definition": {
+          "verdict": "supports"
+        },
+        "kind": {
+          "verdict": "supports"
+        },
+        "certification": {
+          "verdict": "supports"
+        },
+        "certification_scope": {
+          "verdict": "supports"
+        }
+      },
+      "variants": {
+        "ok": [
+          "CNRN"
+        ],
+        "bad": []
+      },
+      "relations": {
+        "ok": [],
+        "bad": []
+      },
+      "job_listing_vote": {
+        "answer": "yes"
+      }
+    },
+    {
+      "key": "certified-novell-salesperson",
+      "claims": {
+        "definition": {
+          "verdict": "supports"
+        },
+        "kind": {
+          "verdict": "supports"
+        },
+        "certification": {
+          "verdict": "supports"
+        },
+        "certification_scope": {
+          "verdict": "supports"
+        }
+      },
+      "variants": {
+        "ok": [],
+        "bad": []
+      },
+      "relations": {
+        "ok": [],
+        "bad": []
+      },
+      "job_listing_vote": {
+        "answer": "yes"
+      }
+    },
+    {
+      "key": "certified-nurse-manager-and-leader",
+      "claims": {
+        "definition": {
+          "verdict": "supports"
+        },
+        "kind": {
+          "verdict": "supports"
+        },
+        "certification": {
+          "verdict": "supports"
+        },
+        "certification_scope": {
+          "verdict": "supports"
+        }
+      },
+      "variants": {
+        "ok": [
+          "CNML"
+        ],
+        "bad": []
+      },
+      "relations": {
+        "ok": [],
+        "bad": []
+      },
+      "job_listing_vote": {
+        "answer": "yes"
+      }
+    },
+    {
+      "key": "certified-nurse-midwife",
+      "claims": {
+        "definition": {
+          "verdict": "supports"
+        },
+        "kind": {
+          "verdict": "supports"
+        },
+        "certification": {
+          "verdict": "supports"
+        },
+        "certification_scope": {
+          "verdict": "supports"
+        }
+      },
+      "variants": {
+        "ok": [
+          "CNM"
+        ],
+        "bad": [
+          {
+            "label": "Nurse Midwife",
+            "note": "This is a professional role and does not by itself specify AMCB certification."
+          }
+        ]
+      },
+      "relations": {
+        "ok": [],
+        "bad": []
+      },
+      "job_listing_vote": {
+        "answer": "yes"
+      }
+    },
+    {
+      "key": "certified-nursing-assistant",
+      "claims": {
+        "definition": {
+          "verdict": "supports"
+        },
+        "kind": {
+          "verdict": "supports"
+        },
+        "certification": {
+          "verdict": "supports"
+        },
+        "certification_scope": {
+          "verdict": "supports"
+        }
+      },
+      "variants": {
+        "ok": [
+          "Certified Nurse Assistant",
+          "CNA"
+        ],
+        "bad": []
+      },
+      "relations": {
+        "ok": [],
+        "bad": []
+      },
+      "job_listing_vote": {
+        "answer": "yes"
+      }
+    },
+    {
+      "key": "certified-occupancy-specialist",
+      "claims": {
+        "definition": {
+          "verdict": "supports"
+        },
+        "kind": {
+          "verdict": "supports"
+        },
+        "certification": {
+          "verdict": "supports"
+        }
+      },
+      "variants": {
+        "ok": [
+          "Certified Occupancy Specialist (COS)"
+        ],
+        "bad": []
+      },
+      "relations": {
+        "ok": [],
+        "bad": []
+      },
+      "job_listing_vote": {
+        "answer": "yes"
+      }
+    },
+    {
+      "key": "certified-occupational-health-nurse",
+      "claims": {
+        "definition": {
+          "verdict": "supports"
+        },
+        "kind": {
+          "verdict": "supports"
+        },
+        "certification": {
+          "verdict": "supports"
+        },
+        "certification_scope": {
+          "verdict": "supports"
+        }
+      },
+      "variants": {
+        "ok": [
+          "COHN"
+        ],
+        "bad": []
+      },
+      "relations": {
+        "ok": [],
+        "bad": []
+      },
+      "job_listing_vote": {
+        "answer": "yes"
+      }
+    },
+    {
+      "key": "certified-ostomy-care-nurse",
+      "claims": {
+        "definition": {
+          "verdict": "supports"
+        },
+        "kind": {
+          "verdict": "supports"
+        },
+        "certification": {
+          "verdict": "supports"
+        },
+        "certification_scope": {
+          "verdict": "supports"
+        }
+      },
+      "variants": {
+        "ok": [
+          "COCN"
+        ],
+        "bad": []
+      },
+      "relations": {
+        "ok": [],
+        "bad": []
+      },
+      "job_listing_vote": {
+        "answer": "yes"
+      }
+    },
+    {
+      "key": "certified-outpatient-coder",
+      "claims": {
+        "definition": {
+          "verdict": "supports"
+        },
+        "kind": {
+          "verdict": "supports"
+        },
+        "certification": {
+          "verdict": "supports"
+        },
+        "certification_scope": {
+          "verdict": "supports"
+        }
+      },
+      "variants": {
+        "ok": [],
+        "bad": []
+      },
+      "relations": {
+        "ok": [
+          "related:cpc-coder"
+        ],
+        "bad": []
+      },
+      "job_listing_vote": {
+        "answer": "yes"
+      }
+    },
+    {
+      "key": "certified-patient-care-technician",
+      "claims": {
+        "definition": {
+          "verdict": "supports"
+        },
+        "kind": {
+          "verdict": "supports"
+        },
+        "certification": {
+          "verdict": "supports"
+        }
+      },
+      "variants": {
+        "ok": [
+          "Certified Patient Care Technician/Assistant",
+          "CPCT/A",
+          "Certified Patient Care Technician/Associate/Nurse Technician"
+        ],
+        "bad": []
+      },
+      "relations": {
+        "ok": [],
+        "bad": []
+      },
+      "job_listing_vote": {
+        "answer": "yes"
+      }
+    },
+    {
+      "key": "certified-pediatric-emergency-nurse",
+      "claims": {
+        "definition": {
+          "verdict": "supports"
+        },
+        "kind": {
+          "verdict": "supports"
+        },
+        "certification": {
+          "verdict": "supports"
+        },
+        "certification_scope": {
+          "verdict": "supports"
+        }
+      },
+      "variants": {
+        "ok": [
+          "CPEN"
+        ],
+        "bad": []
+      },
+      "relations": {
+        "ok": [],
+        "bad": []
+      },
+      "job_listing_vote": {
+        "answer": "yes"
+      }
+    },
+    {
+      "key": "certified-pediatric-hematology-oncology-nurse",
+      "claims": {
+        "definition": {
+          "verdict": "supports"
+        },
+        "kind": {
+          "verdict": "supports"
+        },
+        "certification": {
+          "verdict": "supports"
+        },
+        "certification_scope": {
+          "verdict": "supports"
+        }
+      },
+      "variants": {
+        "ok": [
+          "CPHON"
+        ],
+        "bad": [
+          {
+            "label": "Certified Pediatric Oncology Nurse",
+            "note": "CPON is a distinct legacy oncology credential; CPHON explicitly adds hematology."
+          },
+          {
+            "label": "CPON",
+            "note": "CPON refers to the separate legacy pediatric oncology credential, not CPHON."
+          }
+        ]
+      },
+      "relations": {
+        "ok": [],
+        "bad": []
+      },
+      "job_listing_vote": {
+        "answer": "yes"
+      }
+    },
+    {
+      "key": "certified-pediatric-nurse",
+      "claims": {
+        "definition": {
+          "verdict": "supports"
+        },
+        "kind": {
+          "verdict": "supports"
+        },
+        "certification": {
+          "verdict": "supports"
+        },
+        "certification_scope": {
+          "verdict": "supports"
+        }
+      },
+      "variants": {
+        "ok": [],
+        "bad": []
+      },
+      "relations": {
+        "ok": [],
+        "bad": []
+      },
+      "job_listing_vote": {
+        "answer": "yes"
+      }
+    },
+    {
+      "key": "certified-perioperative-nurse-cnor",
+      "claims": {
+        "definition": {
+          "verdict": "supports"
+        },
+        "kind": {
+          "verdict": "supports"
+        },
+        "certification": {
+          "verdict": "supports"
+        },
+        "certification_scope": {
+          "verdict": "supports"
+        }
+      },
+      "variants": {
+        "ok": [
+          "CNOR Certification",
+          "CNOR"
+        ],
+        "bad": []
+      },
+      "relations": {
+        "ok": [],
+        "bad": []
+      },
+      "job_listing_vote": {
+        "answer": "yes"
+      }
+    },
+    {
+      "key": "certified-physician-practice-manager",
+      "claims": {
+        "definition": {
+          "verdict": "supports"
+        },
+        "kind": {
+          "verdict": "supports"
+        },
+        "certification": {
+          "verdict": "supports"
+        },
+        "certification_scope": {
+          "verdict": "supports"
+        }
+      },
+      "variants": {
+        "ok": [
+          "CPPM"
+        ],
+        "bad": []
+      },
+      "relations": {
+        "ok": [],
+        "bad": []
+      },
+      "job_listing_vote": {
+        "answer": "yes"
+      }
+    },
+    {
+      "key": "certified-plastic-surgical-nurse",
+      "claims": {
+        "definition": {
+          "verdict": "supports"
+        },
+        "kind": {
+          "verdict": "supports"
+        },
+        "certification": {
+          "verdict": "supports"
+        },
+        "certification_scope": {
+          "verdict": "supports"
+        }
+      },
+      "variants": {
+        "ok": [
+          "CPSN"
+        ],
+        "bad": []
+      },
+      "relations": {
+        "ok": [],
+        "bad": []
+      },
+      "job_listing_vote": {
+        "answer": "yes"
+      }
+    },
+    {
+      "key": "certified-pool-spa-operator",
+      "claims": {
+        "definition": {
+          "verdict": "supports"
+        },
+        "kind": {
+          "verdict": "supports"
+        },
+        "certification": {
+          "verdict": "supports"
+        },
+        "certification_scope": {
+          "verdict": "supports"
+        }
+      },
+      "variants": {
+        "ok": [
+          "Certified Pool and Spa Operator"
+        ],
+        "bad": []
+      },
+      "relations": {
+        "ok": [],
+        "bad": []
+      },
+      "job_listing_vote": {
+        "answer": "yes"
+      }
+    },
+    {
+      "key": "certified-professional-biller",
+      "claims": {
+        "definition": {
+          "verdict": "supports"
+        },
+        "kind": {
+          "verdict": "supports"
+        },
+        "certification": {
+          "verdict": "supports"
+        },
+        "certification_scope": {
+          "verdict": "supports"
+        }
+      },
+      "variants": {
+        "ok": [
+          "Certified Professional Biller (CPB)"
+        ],
+        "bad": []
+      },
+      "relations": {
+        "ok": [
+          "related:cpc-coder"
+        ],
+        "bad": []
+      },
+      "job_listing_vote": {
+        "answer": "yes"
+      }
+    },
+    {
+      "key": "certified-professional-compliance-officer",
+      "claims": {
+        "definition": {
+          "verdict": "supports"
+        },
+        "kind": {
+          "verdict": "supports"
+        },
+        "certification": {
+          "verdict": "supports"
+        },
+        "certification_scope": {
+          "verdict": "supports"
+        }
+      },
+      "variants": {
+        "ok": [
+          "CPCO"
+        ],
+        "bad": []
+      },
+      "relations": {
+        "ok": [
+          "related:cpc-coder"
+        ],
+        "bad": []
+      },
+      "job_listing_vote": {
+        "answer": "yes"
+      }
+    },
+    {
+      "key": "certified-professional-geologist",
+      "claims": {
+        "definition": {
+          "verdict": "supports"
+        },
+        "kind": {
+          "verdict": "supports"
+        },
+        "certification": {
+          "verdict": "supports"
+        },
+        "certification_scope": {
+          "verdict": "supports"
+        }
+      },
+      "variants": {
+        "ok": [
+          "CPG"
+        ],
+        "bad": []
+      },
+      "relations": {
+        "ok": [],
+        "bad": []
+      },
+      "job_listing_vote": {
+        "answer": "yes"
+      }
+    },
+    {
+      "key": "certified-professional-in-healthcare-information-and-management-systems",
+      "claims": {
+        "definition": {
+          "verdict": "supports"
+        },
+        "kind": {
+          "verdict": "supports"
+        },
+        "certification": {
+          "verdict": "supports"
+        },
+        "certification_scope": {
+          "verdict": "supports"
+        }
+      },
+      "variants": {
+        "ok": [
+          "CPHIMS"
+        ],
+        "bad": []
+      },
+      "relations": {
+        "ok": [],
+        "bad": []
+      },
+      "job_listing_vote": {
+        "answer": "yes"
+      }
+    },
+    {
+      "key": "certified-professional-in-healthcare-quality",
+      "claims": {
+        "definition": {
+          "verdict": "supports",
+          "note": "NAHQ awards CPHQ; the otherwise accurate definition omits the issuer."
+        },
+        "kind": {
+          "verdict": "supports"
+        },
+        "certification": {
+          "verdict": "supports"
+        },
+        "certification_scope": {
+          "verdict": "supports"
+        }
+      },
+      "variants": {
+        "ok": [
+          "CPHQ"
+        ],
+        "bad": []
+      },
+      "relations": {
+        "ok": [],
+        "bad": []
+      },
+      "job_listing_vote": {
+        "answer": "yes"
+      }
+    },
+    {
+      "key": "certified-professional-in-healthcare-risk-management",
+      "claims": {
+        "definition": {
+          "verdict": "supports"
+        },
+        "kind": {
+          "verdict": "supports"
+        },
+        "certification": {
+          "verdict": "supports"
+        },
+        "certification_scope": {
+          "verdict": "supports"
+        }
+      },
+      "variants": {
+        "ok": [
+          "CPHRM"
+        ],
+        "bad": []
+      },
+      "relations": {
+        "ok": [],
+        "bad": []
+      },
+      "job_listing_vote": {
+        "answer": "yes"
+      }
+    },
+    {
+      "key": "certified-professional-manager",
+      "claims": {
+        "definition": {
+          "verdict": "contradicts",
+          "note": "ICPM's credential is Certified Manager (CM), not Certified Professional Manager."
+        },
+        "kind": {
+          "verdict": "supports"
+        },
+        "certification": {
+          "verdict": "unsure",
+          "note": "I cannot confirm an official credential with this exact title and the stated issuer."
+        },
+        "certification_scope": {
+          "verdict": "unsure",
+          "note": "The mismatch between credential title and issuer prevents a confident scope judgment."
+        }
+      },
+      "variants": {
+        "ok": [],
+        "bad": []
+      },
+      "relations": {
+        "ok": [],
+        "bad": []
+      },
+      "job_listing_vote": {
+        "answer": "unsure",
+        "reason": "The stated ICPM issuer awards Certified Manager; I cannot confirm this exact title."
+      }
+    },
+    {
+      "key": "certified-professional-medical-services-management",
+      "claims": {
+        "definition": {
+          "verdict": "supports"
+        },
+        "kind": {
+          "verdict": "supports"
+        },
+        "certification": {
+          "verdict": "supports"
+        },
+        "certification_scope": {
+          "verdict": "supports"
+        }
+      },
+      "variants": {
+        "ok": [
+          "CPMSM"
+        ],
+        "bad": [
+          {
+            "label": "Certified Professional Medical Services Manager",
+            "note": "The NAMSS credential title ends in Management, not Manager."
+          }
+        ]
+      },
+      "relations": {
+        "ok": [],
+        "bad": []
+      },
+      "job_listing_vote": {
+        "answer": "yes"
+      }
+    },
+    {
+      "key": "certified-professional-of-occupancy",
+      "claims": {
+        "definition": {
+          "verdict": "supports"
+        },
+        "kind": {
+          "verdict": "supports"
+        },
+        "certification": {
+          "verdict": "supports"
+        },
+        "certification_scope": {
+          "verdict": "supports"
+        }
+      },
+      "variants": {
+        "ok": [],
+        "bad": []
+      },
+      "relations": {
+        "ok": [],
+        "bad": []
+      },
+      "job_listing_vote": {
+        "answer": "yes"
+      }
+    },
+    {
+      "key": "certified-projects-director",
+      "claims": {
+        "definition": {
+          "verdict": "supports",
+          "note": "IPMA Level A also covers complex project direction; the exact title depends on the project, programme or portfolio path."
+        },
+        "kind": {
+          "verdict": "supports"
+        },
+        "certification": {
+          "verdict": "supports"
+        }
+      },
+      "variants": {
+        "ok": [
+          "IPMA Level A"
+        ],
+        "bad": []
+      },
+      "relations": {
+        "ok": [],
+        "bad": []
+      },
+      "job_listing_vote": {
+        "answer": "yes"
+      }
+    },
+    {
+      "key": "certified-property-manager",
+      "claims": {
+        "definition": {
+          "verdict": "supports"
+        },
+        "kind": {
+          "verdict": "supports"
+        },
+        "certification": {
+          "verdict": "supports"
+        },
+        "certification_scope": {
+          "verdict": "supports"
+        }
+      },
+      "variants": {
+        "ok": [],
+        "bad": []
+      },
+      "relations": {
+        "ok": [],
+        "bad": []
+      },
+      "job_listing_vote": {
+        "answer": "yes"
+      }
+    },
+    {
+      "key": "certified-public-housing-manager",
+      "claims": {
+        "definition": {
+          "verdict": "supports"
+        },
+        "kind": {
+          "verdict": "supports"
+        },
+        "certification": {
+          "verdict": "supports"
+        },
+        "certification_scope": {
+          "verdict": "unsure",
+          "note": "Several housing organizations offer PHM-related credentials; this generic title does not establish a unique issuer."
+        }
+      },
+      "variants": {
+        "ok": [
+          "Certified Public Housing Manager (PHM)"
+        ],
+        "bad": []
+      },
+      "relations": {
+        "ok": [
+          "related:assisted-housing-manager-ahm"
+        ],
+        "bad": []
+      },
+      "job_listing_vote": {
+        "answer": "yes"
+      }
+    },
+    {
+      "key": "certified-radiology-nurse",
+      "claims": {
+        "definition": {
+          "verdict": "supports"
+        },
+        "kind": {
+          "verdict": "supports"
+        },
+        "certification": {
+          "verdict": "supports"
+        }
+      },
+      "variants": {
+        "ok": [],
+        "bad": []
+      },
+      "relations": {
+        "ok": [],
+        "bad": []
+      },
+      "job_listing_vote": {
+        "answer": "yes"
+      }
+    },
+    {
+      "key": "certified-registered-nurse-first-assistant",
+      "claims": {
+        "definition": {
+          "verdict": "contradicts",
+          "note": "CRNFA moved from CCI to National Assistant at Surgery Certification; the issuer attribution is outdated."
+        },
+        "kind": {
+          "verdict": "supports"
+        },
+        "certification": {
+          "verdict": "supports"
+        },
+        "certification_scope": {
+          "verdict": "supports"
+        }
+      },
+      "variants": {
+        "ok": [
+          "CRNFA"
+        ],
+        "bad": []
+      },
+      "relations": {
+        "ok": [],
+        "bad": []
+      },
+      "job_listing_vote": {
+        "answer": "yes"
+      }
+    },
+    {
+      "key": "certified-registered-nurse-infusion",
+      "claims": {
+        "definition": {
+          "verdict": "supports"
+        },
+        "kind": {
+          "verdict": "supports"
+        },
+        "certification": {
+          "verdict": "supports"
+        },
+        "certification_scope": {
+          "verdict": "supports"
+        }
+      },
+      "variants": {
+        "ok": [
+          "CRNI"
+        ],
+        "bad": []
+      },
+      "relations": {
+        "ok": [],
+        "bad": []
+      },
+      "job_listing_vote": {
+        "answer": "yes"
+      }
+    },
+    {
+      "key": "certified-rehabilitation-registered-nurse",
+      "claims": {
+        "definition": {
+          "verdict": "supports"
+        },
+        "kind": {
+          "verdict": "supports"
+        },
+        "certification": {
+          "verdict": "supports"
+        },
+        "certification_scope": {
+          "verdict": "supports"
+        }
+      },
+      "variants": {
+        "ok": [
+          "CRRN"
+        ],
+        "bad": []
+      },
+      "relations": {
+        "ok": [],
+        "bad": []
+      },
+      "job_listing_vote": {
+        "answer": "yes"
+      }
+    },
+    {
+      "key": "certified-residential-specialist",
+      "claims": {
+        "definition": {
+          "verdict": "supports"
+        },
+        "kind": {
+          "verdict": "supports"
+        },
+        "certification": {
+          "verdict": "supports"
+        },
+        "certification_scope": {
+          "verdict": "supports"
+        }
+      },
+      "variants": {
+        "ok": [],
+        "bad": []
+      },
+      "relations": {
+        "ok": [],
+        "bad": []
+      },
+      "job_listing_vote": {
+        "answer": "yes"
+      }
+    },
+    {
+      "key": "certified-rhythm-analysis-technician",
+      "claims": {
+        "definition": {
+          "verdict": "supports"
+        },
+        "kind": {
+          "verdict": "supports"
+        },
+        "certification": {
+          "verdict": "supports"
+        }
+      },
+      "variants": {
+        "ok": [],
+        "bad": []
+      },
+      "relations": {
+        "ok": [],
+        "bad": []
+      },
+      "job_listing_vote": {
+        "answer": "yes"
+      }
+    },
+    {
+      "key": "certified-risk-adjustment-coder",
+      "claims": {
+        "definition": {
+          "verdict": "supports"
+        },
+        "kind": {
+          "verdict": "supports"
+        },
+        "certification": {
+          "verdict": "supports"
+        },
+        "certification_scope": {
+          "verdict": "supports"
+        }
+      },
+      "variants": {
+        "ok": [],
+        "bad": []
+      },
+      "relations": {
+        "ok": [
+          "related:cpc-coder"
+        ],
+        "bad": []
+      },
+      "job_listing_vote": {
+        "answer": "yes"
+      }
+    },
+    {
+      "key": "certified-senior-project-manager",
+      "claims": {
+        "definition": {
+          "verdict": "supports"
+        },
+        "kind": {
+          "verdict": "supports"
+        },
+        "certification": {
+          "verdict": "supports"
+        }
+      },
+      "variants": {
+        "ok": [
+          "IPMA Level B"
+        ],
+        "bad": []
+      },
+      "relations": {
+        "ok": [],
+        "bad": []
+      },
+      "job_listing_vote": {
+        "answer": "yes"
+      }
+    },
+    {
+      "key": "certified-software-test-engineer",
+      "claims": {
+        "definition": {
+          "verdict": "supports"
+        },
+        "kind": {
+          "verdict": "supports"
+        },
+        "certification": {
+          "verdict": "supports"
+        },
+        "certification_scope": {
+          "verdict": "supports"
+        }
+      },
+      "variants": {
+        "ok": [
+          "CSTE"
+        ],
+        "bad": []
+      },
+      "relations": {
+        "ok": [
+          "related:testing"
+        ],
+        "bad": []
+      },
+      "job_listing_vote": {
+        "answer": "yes"
+      }
+    },
+    {
+      "key": "certified-specialist-of-wine",
+      "claims": {
+        "definition": {
+          "verdict": "supports"
+        },
+        "kind": {
+          "verdict": "supports"
+        },
+        "certification": {
+          "verdict": "supports"
+        },
+        "certification_scope": {
+          "verdict": "supports"
+        }
+      },
+      "variants": {
+        "ok": [],
+        "bad": []
+      },
+      "relations": {
+        "ok": [],
+        "bad": []
+      },
+      "job_listing_vote": {
+        "answer": "yes"
+      }
+    }
+  ]
+}

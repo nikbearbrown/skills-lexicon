@@ -1,0 +1,1226 @@
+{
+  "reviewer": {
+    "model": "gpt-6",
+    "effort": "unknown",
+    "date": "2026-10-29"
+  },
+  "packet": "certification/p003",
+  "answers": [
+    {
+      "key": "certified-correctional-nurse",
+      "claims": {
+        "definition": {
+          "verdict": "supports",
+          "note": "The recognized ACA title is Certified Corrections Nurse; the definition omits the issuer."
+        },
+        "kind": {
+          "verdict": "supports"
+        },
+        "certification": {
+          "verdict": "supports"
+        },
+        "certification_scope": {
+          "verdict": "supports"
+        }
+      },
+      "variants": {
+        "ok": [
+          "Certified Corrections Nurse"
+        ],
+        "bad": []
+      },
+      "relations": {
+        "ok": [],
+        "bad": []
+      },
+      "job_listing_vote": {
+        "answer": "yes"
+      }
+    },
+    {
+      "key": "certified-culinary-administrator",
+      "claims": {
+        "definition": {
+          "verdict": "supports"
+        },
+        "kind": {
+          "verdict": "supports"
+        },
+        "certification": {
+          "verdict": "supports"
+        },
+        "certification_scope": {
+          "verdict": "supports"
+        }
+      },
+      "variants": {
+        "ok": [],
+        "bad": [
+          {
+            "label": "Certified Culinary Administration",
+            "note": "Administration is an activity; the credential certifies an Administrator."
+          }
+        ]
+      },
+      "relations": {
+        "ok": [
+          "broader:american-culinary-federation-certification"
+        ],
+        "bad": []
+      },
+      "job_listing_vote": {
+        "answer": "yes"
+      }
+    },
+    {
+      "key": "certified-diabetes-care-and-education-specialist",
+      "claims": {
+        "definition": {
+          "verdict": "supports"
+        },
+        "kind": {
+          "verdict": "supports"
+        },
+        "certification": {
+          "verdict": "supports"
+        },
+        "certification_scope": {
+          "verdict": "supports"
+        }
+      },
+      "variants": {
+        "ok": [
+          "Certified Diabetes Educator",
+          "CDCES"
+        ],
+        "bad": []
+      },
+      "relations": {
+        "ok": [],
+        "bad": []
+      },
+      "job_listing_vote": {
+        "answer": "yes"
+      }
+    },
+    {
+      "key": "certified-dialysis-nurse",
+      "claims": {
+        "definition": {
+          "verdict": "supports"
+        },
+        "kind": {
+          "verdict": "supports"
+        },
+        "certification": {
+          "verdict": "supports"
+        },
+        "certification_scope": {
+          "verdict": "supports"
+        }
+      },
+      "variants": {
+        "ok": [],
+        "bad": []
+      },
+      "relations": {
+        "ok": [],
+        "bad": []
+      },
+      "job_listing_vote": {
+        "answer": "yes"
+      }
+    },
+    {
+      "key": "certified-diversity-recruiter",
+      "claims": {
+        "definition": {
+          "verdict": "supports"
+        },
+        "kind": {
+          "verdict": "supports"
+        },
+        "certification": {
+          "verdict": "supports"
+        },
+        "certification_scope": {
+          "verdict": "supports"
+        }
+      },
+      "variants": {
+        "ok": [
+          "Certified Diversity Recruiter (CDR)"
+        ],
+        "bad": []
+      },
+      "relations": {
+        "ok": [],
+        "bad": []
+      },
+      "job_listing_vote": {
+        "answer": "yes"
+      }
+    },
+    {
+      "key": "certified-documentation-integrity-practitioner",
+      "claims": {
+        "definition": {
+          "verdict": "supports"
+        },
+        "kind": {
+          "verdict": "supports"
+        },
+        "certification": {
+          "verdict": "supports"
+        },
+        "certification_scope": {
+          "verdict": "supports"
+        }
+      },
+      "variants": {
+        "ok": [
+          "Certified Documentation Improvement Practitioner",
+          "CDIP",
+          "Certified Documentation Integrity Practitioner (CDIP)"
+        ],
+        "bad": []
+      },
+      "relations": {
+        "ok": [],
+        "bad": []
+      },
+      "job_listing_vote": {
+        "answer": "yes"
+      }
+    },
+    {
+      "key": "certified-energy-manager",
+      "claims": {
+        "definition": {
+          "verdict": "supports"
+        },
+        "kind": {
+          "verdict": "supports"
+        },
+        "certification": {
+          "verdict": "supports"
+        },
+        "certification_scope": {
+          "verdict": "supports"
+        }
+      },
+      "variants": {
+        "ok": [],
+        "bad": []
+      },
+      "relations": {
+        "ok": [],
+        "bad": []
+      },
+      "job_listing_vote": {
+        "answer": "yes"
+      }
+    },
+    {
+      "key": "certified-first-responder",
+      "claims": {
+        "definition": {
+          "verdict": "supports"
+        },
+        "kind": {
+          "verdict": "supports"
+        },
+        "certification": {
+          "verdict": "supports"
+        },
+        "certification_scope": {
+          "verdict": "supports"
+        }
+      },
+      "variants": {
+        "ok": [],
+        "bad": []
+      },
+      "relations": {
+        "ok": [],
+        "bad": []
+      },
+      "job_listing_vote": {
+        "answer": "yes"
+      }
+    },
+    {
+      "key": "certified-flight-registered-nurse",
+      "claims": {
+        "definition": {
+          "verdict": "contradicts",
+          "note": "CFRN is the flight-nursing credential; BCEN has a separate Certified Transport Registered Nurse credential for ground transport."
+        },
+        "kind": {
+          "verdict": "supports"
+        },
+        "certification": {
+          "verdict": "supports"
+        },
+        "certification_scope": {
+          "verdict": "supports"
+        }
+      },
+      "variants": {
+        "ok": [
+          "CFRN"
+        ],
+        "bad": []
+      },
+      "relations": {
+        "ok": [],
+        "bad": []
+      },
+      "job_listing_vote": {
+        "answer": "yes"
+      }
+    },
+    {
+      "key": "certified-foot-care-nurse",
+      "claims": {
+        "definition": {
+          "verdict": "supports"
+        },
+        "kind": {
+          "verdict": "supports"
+        },
+        "certification": {
+          "verdict": "supports"
+        },
+        "certification_scope": {
+          "verdict": "supports"
+        }
+      },
+      "variants": {
+        "ok": [
+          "CFCN"
+        ],
+        "bad": []
+      },
+      "relations": {
+        "ok": [],
+        "bad": []
+      },
+      "job_listing_vote": {
+        "answer": "yes"
+      }
+    },
+    {
+      "key": "certified-forensic-computer-examiner",
+      "claims": {
+        "definition": {
+          "verdict": "supports"
+        },
+        "kind": {
+          "verdict": "supports"
+        },
+        "certification": {
+          "verdict": "supports"
+        },
+        "certification_scope": {
+          "verdict": "supports"
+        }
+      },
+      "variants": {
+        "ok": [
+          "CFCE"
+        ],
+        "bad": [
+          {
+            "label": "Certified Forensic Computer Examination",
+            "note": "Examination names an activity, while the credential certifies an Examiner."
+          }
+        ]
+      },
+      "relations": {
+        "ok": [],
+        "bad": []
+      },
+      "job_listing_vote": {
+        "answer": "yes"
+      }
+    },
+    {
+      "key": "certified-forklift-operator",
+      "claims": {
+        "definition": {
+          "verdict": "supports"
+        },
+        "kind": {
+          "verdict": "supports"
+        },
+        "certification": {
+          "verdict": "supports"
+        },
+        "certification_scope": {
+          "verdict": "supports"
+        }
+      },
+      "variants": {
+        "ok": [],
+        "bad": []
+      },
+      "relations": {
+        "ok": [],
+        "bad": []
+      },
+      "job_listing_vote": {
+        "answer": "yes"
+      }
+    },
+    {
+      "key": "certified-gastroenterology-registered-nurse",
+      "claims": {
+        "definition": {
+          "verdict": "supports"
+        },
+        "kind": {
+          "verdict": "supports"
+        },
+        "certification": {
+          "verdict": "supports"
+        },
+        "certification_scope": {
+          "verdict": "supports"
+        }
+      },
+      "variants": {
+        "ok": [
+          "CGRN"
+        ],
+        "bad": []
+      },
+      "relations": {
+        "ok": [],
+        "bad": []
+      },
+      "job_listing_vote": {
+        "answer": "yes"
+      }
+    },
+    {
+      "key": "certified-health-data-analyst",
+      "claims": {
+        "definition": {
+          "verdict": "supports"
+        },
+        "kind": {
+          "verdict": "supports"
+        },
+        "certification": {
+          "verdict": "supports"
+        },
+        "certification_scope": {
+          "verdict": "supports"
+        }
+      },
+      "variants": {
+        "ok": [
+          "CHDA"
+        ],
+        "bad": []
+      },
+      "relations": {
+        "ok": [],
+        "bad": []
+      },
+      "job_listing_vote": {
+        "answer": "yes"
+      }
+    },
+    {
+      "key": "certified-hemodialysis-technician",
+      "claims": {
+        "definition": {
+          "verdict": "supports"
+        },
+        "kind": {
+          "verdict": "supports"
+        },
+        "certification": {
+          "verdict": "supports"
+        },
+        "certification_scope": {
+          "verdict": "supports"
+        }
+      },
+      "variants": {
+        "ok": [],
+        "bad": []
+      },
+      "relations": {
+        "ok": [],
+        "bad": []
+      },
+      "job_listing_vote": {
+        "answer": "yes"
+      }
+    },
+    {
+      "key": "certified-histotechnician",
+      "claims": {
+        "definition": {
+          "verdict": "supports"
+        },
+        "kind": {
+          "verdict": "supports"
+        },
+        "certification": {
+          "verdict": "supports"
+        },
+        "certification_scope": {
+          "verdict": "supports"
+        }
+      },
+      "variants": {
+        "ok": [
+          "Certified Histotechnician (HT-ASCP)",
+          "HT(ASCP)"
+        ],
+        "bad": []
+      },
+      "relations": {
+        "ok": [],
+        "bad": []
+      },
+      "job_listing_vote": {
+        "answer": "yes"
+      }
+    },
+    {
+      "key": "certified-histotechnologist",
+      "claims": {
+        "definition": {
+          "verdict": "supports"
+        },
+        "kind": {
+          "verdict": "supports"
+        },
+        "certification": {
+          "verdict": "supports"
+        },
+        "certification_scope": {
+          "verdict": "supports"
+        }
+      },
+      "variants": {
+        "ok": [
+          "Certified Histotechnologist (HTL-ASCP)",
+          "HTL(ASCP)"
+        ],
+        "bad": []
+      },
+      "relations": {
+        "ok": [],
+        "bad": []
+      },
+      "job_listing_vote": {
+        "answer": "yes"
+      }
+    },
+    {
+      "key": "certified-hospice-and-palliative-care-administrator",
+      "claims": {
+        "definition": {
+          "verdict": "supports",
+          "note": "This describes a legacy HPCC credential; availability to new applicants should be distinguished from existing certification."
+        },
+        "kind": {
+          "verdict": "supports"
+        },
+        "certification": {
+          "verdict": "supports"
+        },
+        "certification_scope": {
+          "verdict": "supports"
+        }
+      },
+      "variants": {
+        "ok": [
+          "CHPCA"
+        ],
+        "bad": []
+      },
+      "relations": {
+        "ok": [
+          "related:advanced-certified-hospice-and-palliative-nurse"
+        ],
+        "bad": []
+      },
+      "job_listing_vote": {
+        "answer": "yes"
+      }
+    },
+    {
+      "key": "certified-hospice-and-palliative-licensed-nurse",
+      "claims": {
+        "definition": {
+          "verdict": "supports"
+        },
+        "kind": {
+          "verdict": "supports"
+        },
+        "certification": {
+          "verdict": "supports"
+        },
+        "certification_scope": {
+          "verdict": "supports"
+        }
+      },
+      "variants": {
+        "ok": [
+          "CHPLN"
+        ],
+        "bad": []
+      },
+      "relations": {
+        "ok": [
+          "related:advanced-certified-hospice-and-palliative-nurse"
+        ],
+        "bad": []
+      },
+      "job_listing_vote": {
+        "answer": "yes"
+      }
+    },
+    {
+      "key": "certified-hospice-and-palliative-nurse",
+      "claims": {
+        "definition": {
+          "verdict": "supports"
+        },
+        "kind": {
+          "verdict": "supports"
+        },
+        "certification": {
+          "verdict": "supports"
+        },
+        "certification_scope": {
+          "verdict": "supports"
+        }
+      },
+      "variants": {
+        "ok": [
+          "CHPN"
+        ],
+        "bad": [
+          {
+            "label": "Certified Hospice And Palliative Nurses (CHPN)",
+            "note": "The credential title is singular Nurse; this plural denotes multiple holders."
+          }
+        ]
+      },
+      "relations": {
+        "ok": [
+          "related:advanced-certified-hospice-and-palliative-nurse"
+        ],
+        "bad": []
+      },
+      "job_listing_vote": {
+        "answer": "yes"
+      }
+    },
+    {
+      "key": "certified-hospice-and-palliative-nursing-assistant",
+      "claims": {
+        "definition": {
+          "verdict": "supports"
+        },
+        "kind": {
+          "verdict": "supports"
+        },
+        "certification": {
+          "verdict": "supports"
+        },
+        "certification_scope": {
+          "verdict": "supports"
+        }
+      },
+      "variants": {
+        "ok": [
+          "CHPNA"
+        ],
+        "bad": []
+      },
+      "relations": {
+        "ok": [
+          "related:advanced-certified-hospice-and-palliative-nurse"
+        ],
+        "bad": []
+      },
+      "job_listing_vote": {
+        "answer": "yes"
+      }
+    },
+    {
+      "key": "certified-in-logistics-transportation-and-distribution",
+      "claims": {
+        "definition": {
+          "verdict": "supports"
+        },
+        "kind": {
+          "verdict": "supports"
+        },
+        "certification": {
+          "verdict": "supports"
+        },
+        "certification_scope": {
+          "verdict": "supports"
+        }
+      },
+      "variants": {
+        "ok": [
+          "Certified In Logistics, Transportation And Distribution (CLTD)",
+          "CLTD"
+        ],
+        "bad": []
+      },
+      "relations": {
+        "ok": [],
+        "bad": []
+      },
+      "job_listing_vote": {
+        "answer": "yes"
+      }
+    },
+    {
+      "key": "certified-in-public-health",
+      "claims": {
+        "definition": {
+          "verdict": "contradicts",
+          "note": "CPH eligibility also includes experienced public-health workers without a public-health degree; restricting it to graduates is misleading."
+        },
+        "kind": {
+          "verdict": "supports"
+        },
+        "certification": {
+          "verdict": "supports"
+        },
+        "certification_scope": {
+          "verdict": "supports"
+        }
+      },
+      "variants": {
+        "ok": [
+          "Certified In Public Health (CPH)"
+        ],
+        "bad": []
+      },
+      "relations": {
+        "ok": [],
+        "bad": []
+      },
+      "job_listing_vote": {
+        "answer": "yes"
+      }
+    },
+    {
+      "key": "certified-industrial-hygienist",
+      "claims": {
+        "definition": {
+          "verdict": "supports",
+          "note": "The Board for Global EHS Credentialing administers CIH; the issuer is omitted."
+        },
+        "kind": {
+          "verdict": "supports"
+        },
+        "certification": {
+          "verdict": "supports"
+        },
+        "certification_scope": {
+          "verdict": "supports"
+        }
+      },
+      "variants": {
+        "ok": [
+          "CIH"
+        ],
+        "bad": []
+      },
+      "relations": {
+        "ok": [],
+        "bad": []
+      },
+      "job_listing_vote": {
+        "answer": "yes"
+      }
+    },
+    {
+      "key": "certified-information-privacy-professional",
+      "claims": {
+        "definition": {
+          "verdict": "supports"
+        },
+        "kind": {
+          "verdict": "supports"
+        },
+        "certification": {
+          "verdict": "supports"
+        },
+        "certification_scope": {
+          "verdict": "supports"
+        }
+      },
+      "variants": {
+        "ok": [],
+        "bad": []
+      },
+      "relations": {
+        "ok": [],
+        "bad": []
+      },
+      "job_listing_vote": {
+        "answer": "yes"
+      }
+    },
+    {
+      "key": "certified-information-systems-auditor",
+      "claims": {
+        "definition": {
+          "verdict": "supports"
+        },
+        "kind": {
+          "verdict": "supports"
+        },
+        "certification": {
+          "verdict": "supports"
+        },
+        "certification_scope": {
+          "verdict": "supports"
+        }
+      },
+      "variants": {
+        "ok": [],
+        "bad": [
+          {
+            "label": "Certified Information System Auditor (CISA)",
+            "note": "The official title uses Systems, not System."
+          }
+        ]
+      },
+      "relations": {
+        "ok": [],
+        "bad": []
+      },
+      "job_listing_vote": {
+        "answer": "yes"
+      }
+    },
+    {
+      "key": "certified-inpatient-coder",
+      "claims": {
+        "definition": {
+          "verdict": "supports"
+        },
+        "kind": {
+          "verdict": "supports"
+        },
+        "certification": {
+          "verdict": "supports"
+        },
+        "certification_scope": {
+          "verdict": "supports"
+        }
+      },
+      "variants": {
+        "ok": [],
+        "bad": []
+      },
+      "relations": {
+        "ok": [
+          "related:cpc-coder"
+        ],
+        "bad": []
+      },
+      "job_listing_vote": {
+        "answer": "yes"
+      }
+    },
+    {
+      "key": "certified-insurance-counselor",
+      "claims": {
+        "definition": {
+          "verdict": "supports",
+          "note": "The National Alliance name is historical; the organization now uses Risk & Insurance Education Alliance."
+        },
+        "kind": {
+          "verdict": "supports"
+        },
+        "certification": {
+          "verdict": "supports"
+        },
+        "certification_scope": {
+          "verdict": "supports"
+        }
+      },
+      "variants": {
+        "ok": [],
+        "bad": [
+          {
+            "label": "Certified Insurance Counselors",
+            "note": "This denotes multiple holders rather than the singular credential."
+          }
+        ]
+      },
+      "relations": {
+        "ok": [],
+        "bad": []
+      },
+      "job_listing_vote": {
+        "answer": "yes"
+      }
+    },
+    {
+      "key": "certified-insurance-service-representative",
+      "claims": {
+        "definition": {
+          "verdict": "supports",
+          "note": "The National Alliance name is historical; the organization now uses Risk & Insurance Education Alliance."
+        },
+        "kind": {
+          "verdict": "supports"
+        },
+        "certification": {
+          "verdict": "supports"
+        },
+        "certification_scope": {
+          "verdict": "supports"
+        }
+      },
+      "variants": {
+        "ok": [
+          "CISR"
+        ],
+        "bad": [
+          {
+            "label": "Certified Insurance Service Representatives",
+            "note": "This denotes multiple holders rather than the singular credential."
+          }
+        ]
+      },
+      "relations": {
+        "ok": [],
+        "bad": []
+      },
+      "job_listing_vote": {
+        "answer": "yes"
+      }
+    },
+    {
+      "key": "certified-irb-manager",
+      "claims": {
+        "definition": {
+          "verdict": "unsure",
+          "note": "I recognize Certified IRB Professional, but cannot confirm a separate Certified IRB Manager credential."
+        },
+        "kind": {
+          "verdict": "unsure",
+          "note": "I cannot confirm that this exact title denotes an established credential."
+        },
+        "certification": {
+          "verdict": "unsure",
+          "note": "I cannot identify an official body attesting this exact credential title."
+        },
+        "certification_scope": {
+          "verdict": "unsure",
+          "note": "Without identifying the credential and issuer, I cannot establish single-issuer scope."
+        }
+      },
+      "variants": {
+        "ok": [],
+        "bad": []
+      },
+      "relations": {
+        "ok": [],
+        "bad": []
+      },
+      "job_listing_vote": {
+        "answer": "unsure",
+        "reason": "I cannot confidently identify the exact IRB Manager credential as written."
+      }
+    },
+    {
+      "key": "certified-irrigation-designer",
+      "claims": {
+        "definition": {
+          "verdict": "supports"
+        },
+        "kind": {
+          "verdict": "supports"
+        },
+        "certification": {
+          "verdict": "supports"
+        },
+        "certification_scope": {
+          "verdict": "supports"
+        }
+      },
+      "variants": {
+        "ok": [],
+        "bad": []
+      },
+      "relations": {
+        "ok": [],
+        "bad": []
+      },
+      "job_listing_vote": {
+        "answer": "yes"
+      }
+    },
+    {
+      "key": "certified-labview-developer",
+      "claims": {
+        "definition": {
+          "verdict": "supports"
+        },
+        "kind": {
+          "verdict": "supports"
+        },
+        "certification": {
+          "verdict": "supports"
+        },
+        "certification_scope": {
+          "verdict": "supports"
+        }
+      },
+      "variants": {
+        "ok": [],
+        "bad": []
+      },
+      "relations": {
+        "ok": [],
+        "bad": []
+      },
+      "job_listing_vote": {
+        "answer": "yes"
+      }
+    },
+    {
+      "key": "certified-managed-care-nurse",
+      "claims": {
+        "definition": {
+          "verdict": "supports"
+        },
+        "kind": {
+          "verdict": "supports"
+        },
+        "certification": {
+          "verdict": "supports"
+        },
+        "certification_scope": {
+          "verdict": "supports"
+        }
+      },
+      "variants": {
+        "ok": [
+          "CMCN"
+        ],
+        "bad": []
+      },
+      "relations": {
+        "ok": [],
+        "bad": []
+      },
+      "job_listing_vote": {
+        "answer": "yes"
+      }
+    },
+    {
+      "key": "certified-management-accountant",
+      "claims": {
+        "definition": {
+          "verdict": "supports"
+        },
+        "kind": {
+          "verdict": "supports"
+        },
+        "certification": {
+          "verdict": "supports"
+        },
+        "certification_scope": {
+          "verdict": "supports"
+        }
+      },
+      "variants": {
+        "ok": [],
+        "bad": []
+      },
+      "relations": {
+        "ok": [],
+        "bad": []
+      },
+      "job_listing_vote": {
+        "answer": "yes"
+      }
+    },
+    {
+      "key": "certified-medical-assistant",
+      "claims": {
+        "definition": {
+          "verdict": "supports"
+        },
+        "kind": {
+          "verdict": "supports"
+        },
+        "certification": {
+          "verdict": "supports"
+        },
+        "certification_scope": {
+          "verdict": "supports"
+        }
+      },
+      "variants": {
+        "ok": [
+          "CMA (AAMA)",
+          "Certified Medical Assistant (CMA)"
+        ],
+        "bad": []
+      },
+      "relations": {
+        "ok": [],
+        "bad": []
+      },
+      "job_listing_vote": {
+        "answer": "yes"
+      }
+    },
+    {
+      "key": "certified-medical-billing-and-coding-specialist",
+      "claims": {
+        "definition": {
+          "verdict": "supports"
+        },
+        "kind": {
+          "verdict": "supports"
+        },
+        "certification": {
+          "verdict": "supports"
+        }
+      },
+      "variants": {
+        "ok": [],
+        "bad": []
+      },
+      "relations": {
+        "ok": [],
+        "bad": []
+      },
+      "job_listing_vote": {
+        "answer": "yes"
+      }
+    },
+    {
+      "key": "certified-medical-laboratory-assistant",
+      "claims": {
+        "definition": {
+          "verdict": "supports"
+        },
+        "kind": {
+          "verdict": "supports"
+        },
+        "certification": {
+          "verdict": "supports"
+        }
+      },
+      "variants": {
+        "ok": [],
+        "bad": []
+      },
+      "relations": {
+        "ok": [],
+        "bad": []
+      },
+      "job_listing_vote": {
+        "answer": "yes"
+      }
+    },
+    {
+      "key": "certified-medical-surgical-registered-nurse",
+      "claims": {
+        "definition": {
+          "verdict": "supports"
+        },
+        "kind": {
+          "verdict": "supports"
+        },
+        "certification": {
+          "verdict": "supports"
+        },
+        "certification_scope": {
+          "verdict": "supports"
+        }
+      },
+      "variants": {
+        "ok": [
+          "CMSRN"
+        ],
+        "bad": []
+      },
+      "relations": {
+        "ok": [],
+        "bad": []
+      },
+      "job_listing_vote": {
+        "answer": "yes"
+      }
+    },
+    {
+      "key": "certified-music-therapist",
+      "claims": {
+        "definition": {
+          "verdict": "supports"
+        },
+        "kind": {
+          "verdict": "supports"
+        },
+        "certification": {
+          "verdict": "supports"
+        }
+      },
+      "variants": {
+        "ok": [],
+        "bad": []
+      },
+      "relations": {
+        "ok": [],
+        "bad": []
+      },
+      "job_listing_vote": {
+        "answer": "yes"
+      }
+    },
+    {
+      "key": "certified-nephrology-nurse",
+      "claims": {
+        "definition": {
+          "verdict": "supports"
+        },
+        "kind": {
+          "verdict": "supports"
+        },
+        "certification": {
+          "verdict": "supports"
+        },
+        "certification_scope": {
+          "verdict": "supports"
+        }
+      },
+      "variants": {
+        "ok": [],
+        "bad": []
+      },
+      "relations": {
+        "ok": [],
+        "bad": []
+      },
+      "job_listing_vote": {
+        "answer": "yes"
+      }
+    }
+  ]
+}

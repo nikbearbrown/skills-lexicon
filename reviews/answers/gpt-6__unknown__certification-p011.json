@@ -1,0 +1,916 @@
+{
+  "reviewer": {
+    "model": "gpt-6",
+    "effort": "unknown",
+    "date": "2026-10-29"
+  },
+  "packet": "certification/p011",
+  "answers": [
+    {
+      "key": "security-certified-network-architect",
+      "claims": {
+        "definition": {
+          "verdict": "supports",
+          "note": "This describes the legacy Security Certified Program credential."
+        },
+        "kind": {
+          "verdict": "supports"
+        },
+        "certification": {
+          "verdict": "supports"
+        },
+        "certification_scope": {
+          "verdict": "supports"
+        }
+      },
+      "variants": {
+        "ok": [
+          "SCNA"
+        ],
+        "bad": [
+          {
+            "label": "Security Certified Network Architecture",
+            "note": "The credential title ends in Architect, not Architecture."
+          }
+        ]
+      },
+      "relations": {
+        "ok": [],
+        "bad": []
+      },
+      "job_listing_vote": {
+        "answer": "yes"
+      }
+    },
+    {
+      "key": "security-check-sc-clearance",
+      "claims": {
+        "definition": {
+          "verdict": "supports"
+        },
+        "kind": {
+          "verdict": "supports"
+        },
+        "certification": {
+          "verdict": "supports"
+        },
+        "certification_scope": {
+          "verdict": "supports"
+        }
+      },
+      "variants": {
+        "ok": [
+          "Security Check (SC)",
+          "SC clearance"
+        ],
+        "bad": []
+      },
+      "relations": {
+        "ok": [],
+        "bad": []
+      },
+      "job_listing_vote": {
+        "answer": "yes"
+      }
+    },
+    {
+      "key": "senior-certified-welding-inspector",
+      "claims": {
+        "definition": {
+          "verdict": "supports"
+        },
+        "kind": {
+          "verdict": "supports"
+        },
+        "certification": {
+          "verdict": "supports"
+        },
+        "certification_scope": {
+          "verdict": "supports"
+        }
+      },
+      "variants": {
+        "ok": [
+          "SCWI"
+        ],
+        "bad": []
+      },
+      "relations": {
+        "ok": [],
+        "bad": []
+      },
+      "job_listing_vote": {
+        "answer": "yes"
+      }
+    },
+    {
+      "key": "series-22-direct-participation-programs-limited-representative",
+      "claims": {
+        "definition": {
+          "verdict": "supports",
+          "note": "Passing the examination alone does not confer registration; other regulatory and firm requirements apply."
+        },
+        "kind": {
+          "verdict": "supports"
+        },
+        "certification": {
+          "verdict": "supports"
+        },
+        "certification_scope": {
+          "verdict": "supports"
+        }
+      },
+      "variants": {
+        "ok": [
+          "Series 22 Direct Participation (Limited Partnerships) License",
+          "Series 22"
+        ],
+        "bad": []
+      },
+      "relations": {
+        "ok": [],
+        "bad": []
+      },
+      "job_listing_vote": {
+        "answer": "yes"
+      }
+    },
+    {
+      "key": "series-24-general-securities-principal",
+      "claims": {
+        "definition": {
+          "verdict": "supports",
+          "note": "Passing the examination alone does not confer registration; other regulatory and firm requirements apply."
+        },
+        "kind": {
+          "verdict": "supports"
+        },
+        "certification": {
+          "verdict": "supports"
+        },
+        "certification_scope": {
+          "verdict": "supports"
+        }
+      },
+      "variants": {
+        "ok": [
+          "Series 24 General Securities Principal License",
+          "Series 24"
+        ],
+        "bad": []
+      },
+      "relations": {
+        "ok": [],
+        "bad": []
+      },
+      "job_listing_vote": {
+        "answer": "yes"
+      }
+    },
+    {
+      "key": "series-26-investment-company-and-variable-contracts-products-principal",
+      "claims": {
+        "definition": {
+          "verdict": "supports",
+          "note": "Passing the examination alone does not confer registration; other regulatory and firm requirements apply."
+        },
+        "kind": {
+          "verdict": "supports"
+        },
+        "certification": {
+          "verdict": "supports"
+        },
+        "certification_scope": {
+          "verdict": "supports"
+        }
+      },
+      "variants": {
+        "ok": [
+          "Series 26 Investment Company And Variable Contracts Products Principal License",
+          "Series 26"
+        ],
+        "bad": []
+      },
+      "relations": {
+        "ok": [],
+        "bad": []
+      },
+      "job_listing_vote": {
+        "answer": "yes"
+      }
+    },
+    {
+      "key": "series-27-financial-and-operations-principal",
+      "claims": {
+        "definition": {
+          "verdict": "supports",
+          "note": "Passing the examination alone does not confer registration; other regulatory and firm requirements apply."
+        },
+        "kind": {
+          "verdict": "supports"
+        },
+        "certification": {
+          "verdict": "supports"
+        },
+        "certification_scope": {
+          "verdict": "supports"
+        }
+      },
+      "variants": {
+        "ok": [
+          "Series 27 Financial And Operations Principal License",
+          "Series 27"
+        ],
+        "bad": []
+      },
+      "relations": {
+        "ok": [],
+        "bad": []
+      },
+      "job_listing_vote": {
+        "answer": "yes"
+      }
+    },
+    {
+      "key": "series-3-national-commodity-futures",
+      "claims": {
+        "definition": {
+          "verdict": "supports"
+        },
+        "kind": {
+          "verdict": "contradicts",
+          "note": "The definition names an examination, not the registration or credential obtained after satisfying all requirements."
+        },
+        "certification": {
+          "verdict": "contradicts",
+          "note": "The Series 3 examination itself is not NFA registration or a licence."
+        },
+        "certification_scope": {
+          "verdict": "contradicts",
+          "note": "An examination's sponsor is not an issuer of a standalone credential with this name."
+        }
+      },
+      "variants": {
+        "ok": [
+          "Series 3"
+        ],
+        "bad": [
+          {
+            "label": "Series 3 National Exchange License",
+            "note": "National Exchange is not the examination's name, and the exam itself is not a licence."
+          }
+        ]
+      },
+      "relations": {
+        "ok": [],
+        "bad": []
+      },
+      "job_listing_vote": {
+        "answer": "yes"
+      }
+    },
+    {
+      "key": "series-31-futures-managed-funds",
+      "claims": {
+        "definition": {
+          "verdict": "supports"
+        },
+        "kind": {
+          "verdict": "contradicts",
+          "note": "The definition names an examination rather than an awarded registration or credential."
+        },
+        "certification": {
+          "verdict": "contradicts",
+          "note": "Passing Series 31 does not itself award a licence or registration."
+        },
+        "certification_scope": {
+          "verdict": "contradicts",
+          "note": "An examination's sponsor is not an issuer of a standalone credential with this name."
+        }
+      },
+      "variants": {
+        "ok": [
+          "Series 31"
+        ],
+        "bad": [
+          {
+            "label": "Series 31 Futures : Managed Funds License",
+            "note": "The examination itself is not a licence."
+          }
+        ]
+      },
+      "relations": {
+        "ok": [],
+        "bad": []
+      },
+      "job_listing_vote": {
+        "answer": "yes"
+      }
+    },
+    {
+      "key": "series-4-registered-options-principal",
+      "claims": {
+        "definition": {
+          "verdict": "supports",
+          "note": "Passing the examination alone does not confer registration; other requirements apply."
+        },
+        "kind": {
+          "verdict": "supports"
+        },
+        "certification": {
+          "verdict": "supports"
+        },
+        "certification_scope": {
+          "verdict": "supports"
+        }
+      },
+      "variants": {
+        "ok": [
+          "Series 4 Registered Options Principal License",
+          "Series 4"
+        ],
+        "bad": []
+      },
+      "relations": {
+        "ok": [],
+        "bad": []
+      },
+      "job_listing_vote": {
+        "answer": "yes"
+      }
+    },
+    {
+      "key": "series-52-municipal-securities-representative",
+      "claims": {
+        "definition": {
+          "verdict": "supports"
+        },
+        "kind": {
+          "verdict": "contradicts",
+          "note": "The definition names a qualification examination rather than the resulting registration."
+        },
+        "certification": {
+          "verdict": "contradicts",
+          "note": "The Series 52 examination itself is not a licence or registration."
+        },
+        "certification_scope": {
+          "verdict": "contradicts",
+          "note": "Exam ownership and administration do not establish issuance of a standalone credential."
+        }
+      },
+      "variants": {
+        "ok": [
+          "Series 52"
+        ],
+        "bad": [
+          {
+            "label": "Series 52 Municipal Securities Representative License",
+            "note": "The exam is distinct from the resulting registration or licence."
+          }
+        ]
+      },
+      "relations": {
+        "ok": [],
+        "bad": []
+      },
+      "job_listing_vote": {
+        "answer": "yes"
+      }
+    },
+    {
+      "key": "series-53-municipal-securities-principal",
+      "claims": {
+        "definition": {
+          "verdict": "supports"
+        },
+        "kind": {
+          "verdict": "contradicts",
+          "note": "The definition names a qualification examination rather than the resulting registration."
+        },
+        "certification": {
+          "verdict": "contradicts",
+          "note": "The Series 53 examination itself is not a licence or registration."
+        },
+        "certification_scope": {
+          "verdict": "contradicts",
+          "note": "Exam ownership and administration do not establish issuance of a standalone credential."
+        }
+      },
+      "variants": {
+        "ok": [
+          "Series 53"
+        ],
+        "bad": [
+          {
+            "label": "Series 53 Municipal Securities Principal License",
+            "note": "The exam is distinct from the resulting registration or licence."
+          }
+        ]
+      },
+      "relations": {
+        "ok": [],
+        "bad": []
+      },
+      "job_listing_vote": {
+        "answer": "yes"
+      }
+    },
+    {
+      "key": "series-55-equity-trader-limited-representative",
+      "claims": {
+        "definition": {
+          "verdict": "supports",
+          "note": "This is the historical qualification; Series 55 was replaced by Series 57 in 2016."
+        },
+        "kind": {
+          "verdict": "supports"
+        },
+        "certification": {
+          "verdict": "supports"
+        },
+        "certification_scope": {
+          "verdict": "supports"
+        }
+      },
+      "variants": {
+        "ok": [
+          "Series 55 Equity Trader : Limited Representative License",
+          "Series 55"
+        ],
+        "bad": []
+      },
+      "relations": {
+        "ok": [],
+        "bad": []
+      },
+      "job_listing_vote": {
+        "answer": "yes"
+      }
+    },
+    {
+      "key": "series-56-proprietary-trader",
+      "claims": {
+        "definition": {
+          "verdict": "contradicts",
+          "note": "Series 56 was a CBOE proprietary-trader qualification, not a FINRA-origin credential; it was replaced by Series 57."
+        },
+        "kind": {
+          "verdict": "supports"
+        },
+        "certification": {
+          "verdict": "supports"
+        },
+        "certification_scope": {
+          "verdict": "supports"
+        }
+      },
+      "variants": {
+        "ok": [
+          "Series 56 Proprietary Trader Qualification License",
+          "Series 56"
+        ],
+        "bad": []
+      },
+      "relations": {
+        "ok": [],
+        "bad": []
+      },
+      "job_listing_vote": {
+        "answer": "yes"
+      }
+    },
+    {
+      "key": "series-6-investment-company-and-variable-contracts-products-representative",
+      "claims": {
+        "definition": {
+          "verdict": "supports",
+          "note": "Passing the examination alone does not confer registration; other requirements apply."
+        },
+        "kind": {
+          "verdict": "supports"
+        },
+        "certification": {
+          "verdict": "supports"
+        },
+        "certification_scope": {
+          "verdict": "supports"
+        }
+      },
+      "variants": {
+        "ok": [
+          "Series 6 Investment Company And Variable Contracts License (Mutual Funds/Variable Annuities)",
+          "Series 6"
+        ],
+        "bad": []
+      },
+      "relations": {
+        "ok": [],
+        "bad": []
+      },
+      "job_listing_vote": {
+        "answer": "yes"
+      }
+    },
+    {
+      "key": "series-63-uniform-securities-agent-state-law",
+      "claims": {
+        "definition": {
+          "verdict": "supports"
+        },
+        "kind": {
+          "verdict": "contradicts",
+          "note": "Series 63 is an examination, not the state registration awarded separately."
+        },
+        "certification": {
+          "verdict": "contradicts",
+          "note": "Passing the examination alone does not grant a securities licence or registration."
+        },
+        "certification_scope": {
+          "verdict": "contradicts",
+          "note": "NASAA's uniform exam is not separately issued by each state; state registrations are distinct."
+        }
+      },
+      "variants": {
+        "ok": [
+          "Series 63"
+        ],
+        "bad": [
+          {
+            "label": "Series 63 Uniform Securities Agent State Law License",
+            "note": "The examination is not itself a state licence."
+          }
+        ]
+      },
+      "relations": {
+        "ok": [],
+        "bad": []
+      },
+      "job_listing_vote": {
+        "answer": "yes"
+      }
+    },
+    {
+      "key": "series-65-uniform-investment-adviser-law",
+      "claims": {
+        "definition": {
+          "verdict": "supports"
+        },
+        "kind": {
+          "verdict": "contradicts",
+          "note": "Series 65 is an examination, not investment-adviser registration itself."
+        },
+        "certification": {
+          "verdict": "contradicts",
+          "note": "Passing the examination alone does not grant investment-adviser registration."
+        },
+        "certification_scope": {
+          "verdict": "contradicts",
+          "note": "NASAA's uniform exam is not separately issued by each state; state registrations are distinct."
+        }
+      },
+      "variants": {
+        "ok": [
+          "Series 65"
+        ],
+        "bad": [
+          {
+            "label": "Series 65 Uniform Registered Investment Adviser Law License (RIA)",
+            "note": "The exam does not confer RIA registration and is not itself a licence."
+          }
+        ]
+      },
+      "relations": {
+        "ok": [],
+        "bad": []
+      },
+      "job_listing_vote": {
+        "answer": "yes"
+      }
+    },
+    {
+      "key": "series-66-uniform-combined-state-law",
+      "claims": {
+        "definition": {
+          "verdict": "supports"
+        },
+        "kind": {
+          "verdict": "contradicts",
+          "note": "Series 66 is an examination, not the state registration awarded separately."
+        },
+        "certification": {
+          "verdict": "contradicts",
+          "note": "Passing Series 66 alone does not confer registration and does not replace the required Series 7 qualification."
+        },
+        "certification_scope": {
+          "verdict": "contradicts",
+          "note": "The uniform examination is distinct from the separately issued state registrations."
+        }
+      },
+      "variants": {
+        "ok": [
+          "Series 66"
+        ],
+        "bad": [
+          {
+            "label": "Series 66 Uniform Investment Adviser : Combined State Laws License (Combined 63 And 65)",
+            "note": "This conflates the combined state-law examination with an awarded licence."
+          }
+        ]
+      },
+      "relations": {
+        "ok": [],
+        "bad": []
+      },
+      "job_listing_vote": {
+        "answer": "yes"
+      }
+    },
+    {
+      "key": "series-7-general-securities-representative",
+      "claims": {
+        "definition": {
+          "verdict": "supports",
+          "note": "Passing the examination alone does not confer registration; SIE and other requirements apply."
+        },
+        "kind": {
+          "verdict": "supports"
+        },
+        "certification": {
+          "verdict": "supports"
+        },
+        "certification_scope": {
+          "verdict": "supports"
+        }
+      },
+      "variants": {
+        "ok": [
+          "Series 7 General Securities Representative License (Stockbroker)",
+          "Series 7"
+        ],
+        "bad": []
+      },
+      "relations": {
+        "ok": [],
+        "bad": []
+      },
+      "job_listing_vote": {
+        "answer": "yes"
+      }
+    },
+    {
+      "key": "series-79-investment-banking-representative",
+      "claims": {
+        "definition": {
+          "verdict": "supports",
+          "note": "Passing the examination alone does not confer registration; other requirements apply."
+        },
+        "kind": {
+          "verdict": "supports"
+        },
+        "certification": {
+          "verdict": "supports"
+        },
+        "certification_scope": {
+          "verdict": "supports"
+        }
+      },
+      "variants": {
+        "ok": [
+          "Series 79 Investment Banking License",
+          "Series 79"
+        ],
+        "bad": []
+      },
+      "relations": {
+        "ok": [],
+        "bad": []
+      },
+      "job_listing_vote": {
+        "answer": "yes"
+      }
+    },
+    {
+      "key": "series-86-research-analyst-analysis",
+      "claims": {
+        "definition": {
+          "verdict": "supports"
+        },
+        "kind": {
+          "verdict": "contradicts",
+          "note": "Series 86 is one part of an examination pair, not an independently awarded credential."
+        },
+        "certification": {
+          "verdict": "contradicts",
+          "note": "Series 86 alone does not confer research-analyst registration; Series 87 and other requirements also apply."
+        },
+        "certification_scope": {
+          "verdict": "contradicts",
+          "note": "An exam module is not itself a separately issued credential."
+        }
+      },
+      "variants": {
+        "ok": [
+          "Series 86 Research Analyst : Securities Analysis",
+          "Series 86"
+        ],
+        "bad": []
+      },
+      "relations": {
+        "ok": [],
+        "bad": []
+      },
+      "job_listing_vote": {
+        "answer": "yes"
+      }
+    },
+    {
+      "key": "series-9-general-securities-sales-supervisor-options-module",
+      "claims": {
+        "definition": {
+          "verdict": "contradicts",
+          "note": "Series 9 is the options module of the Series 9/10 qualification; passing it alone does not confer supervisor registration."
+        },
+        "kind": {
+          "verdict": "contradicts",
+          "note": "This is one examination module, not an independently awarded credential."
+        },
+        "certification": {
+          "verdict": "contradicts",
+          "note": "Series 9 alone does not establish the general securities sales supervisor registration."
+        },
+        "certification_scope": {
+          "verdict": "contradicts",
+          "note": "An examination module is not itself a separately issued credential."
+        }
+      },
+      "variants": {
+        "ok": [
+          "Series 9"
+        ],
+        "bad": [
+          {
+            "label": "Series 9 General Securities Sales Supervisor License : Options",
+            "note": "Series 9 is one exam module and does not independently confer this registration."
+          }
+        ]
+      },
+      "relations": {
+        "ok": [],
+        "bad": []
+      },
+      "job_listing_vote": {
+        "answer": "yes"
+      }
+    },
+    {
+      "key": "series-99-operations-professional",
+      "claims": {
+        "definition": {
+          "verdict": "supports",
+          "note": "Passing the examination alone does not confer registration; other requirements apply."
+        },
+        "kind": {
+          "verdict": "supports"
+        },
+        "certification": {
+          "verdict": "supports"
+        },
+        "certification_scope": {
+          "verdict": "supports"
+        }
+      },
+      "variants": {
+        "ok": [
+          "Series 99"
+        ],
+        "bad": []
+      },
+      "relations": {
+        "ok": [],
+        "bad": []
+      },
+      "job_listing_vote": {
+        "answer": "yes"
+      }
+    },
+    {
+      "key": "servsafe-alcohol",
+      "claims": {
+        "definition": {
+          "verdict": "supports"
+        },
+        "kind": {
+          "verdict": "supports"
+        },
+        "certification": {
+          "verdict": "supports"
+        },
+        "certification_scope": {
+          "verdict": "supports"
+        }
+      },
+      "variants": {
+        "ok": [],
+        "bad": []
+      },
+      "relations": {
+        "ok": [],
+        "bad": []
+      },
+      "job_listing_vote": {
+        "answer": "yes"
+      }
+    },
+    {
+      "key": "six-sigma-black-belt",
+      "claims": {
+        "definition": {
+          "verdict": "supports"
+        },
+        "kind": {
+          "verdict": "supports"
+        },
+        "certification": {
+          "verdict": "supports"
+        },
+        "certification_scope": {
+          "verdict": "supports"
+        }
+      },
+      "variants": {
+        "ok": [
+          "Six Sigma Black Belt Certification"
+        ],
+        "bad": []
+      },
+      "relations": {
+        "ok": [],
+        "bad": []
+      },
+      "job_listing_vote": {
+        "answer": "yes"
+      }
+    },
+    {
+      "key": "six-sigma-green-belt",
+      "claims": {
+        "definition": {
+          "verdict": "supports"
+        },
+        "kind": {
+          "verdict": "supports"
+        },
+        "certification": {
+          "verdict": "supports"
+        },
+        "certification_scope": {
+          "verdict": "supports"
+        }
+      },
+      "variants": {
+        "ok": [
+          "Six Sigma Green Belt Certification"
+        ],
+        "bad": []
+      },
+      "relations": {
+        "ok": [],
+        "bad": []
+      },
+      "job_listing_vote": {
+        "answer": "yes"
+      }
+    },
+    {
+      "key": "specialist-in-blood-banking",
+      "claims": {
+        "definition": {
+          "verdict": "supports"
+        },
+        "kind": {
+          "verdict": "supports"
+        },
+        "certification": {
+          "verdict": "supports"
+        },
+        "certification_scope": {
+          "verdict": "supports"
+        }
+      },
+      "variants": {
+        "ok": [
+          "Specialist in Blood Banking (SBB-ASCP)",
+          "SBB(ASCP)"
+        ],
+        "bad": []
+      },
+      "relations": {
+        "ok": [],
+        "bad": []
+      },
+      "job_listing_vote": {
+        "answer": "yes"
+      }
+    }
+  ]
+}
