@@ -169,7 +169,9 @@
   ],
   "official_name": "Doctor of Public Health (DrPH)",
   "acronym": "DrPH",
-  "level": "doctoral (professional doctorate)",
+  "level": {
+   "label": "doctoral (professional doctorate)"
+  },
   "requirements": "Usually a master's in public health plus several years of public health experience (examples: at least 3 years at Georgia, 6 at Harvard); an applied capstone or doctoral project. Wikipedia notes that more schools now accept students without a master's.",
   "specificity": "specific-credential",
   "fields": [

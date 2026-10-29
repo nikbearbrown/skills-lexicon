@@ -167,7 +167,9 @@
    }
   ],
   "official_name": "FAA remote pilot certificate with a small UAS rating (14 CFR Part 107), in the United States; other countries use different names",
-  "level": "entry",
+  "level": {
+   "label": "entry"
+  },
   "requirements": "US: at least 16 years old; able to read, speak, write and understand English; pass the initial aeronautical knowledge exam (Unmanned Aircraft General - Small) or, for Part 61 pilots with a recent flight review, an FAA online small UAS course; TSA security vetting; suitable physical and mental condition.",
   "specificity": "specific-credential",
   "fields": [

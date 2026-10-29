@@ -162,7 +162,9 @@
   ],
   "official_name": "Safety Trained Supervisor (STS)",
   "acronym": "STS",
-  "level": "supervisory (below the professional-level CSP)",
+  "level": {
+   "label": "supervisory (below the professional-level CSP)"
+  },
   "requirements": "30 hours of safety, health and environmental training plus one of: two years of supervisory experience, four years of work experience, an associate degree or higher in a related field, or a two-year trade or apprenticeship programme; then pass the STS exam (100 multiple-choice questions per third-party sources; $185 exam fee per BCSP summary).",
   "specificity": "specific-credential",
   "fields": [

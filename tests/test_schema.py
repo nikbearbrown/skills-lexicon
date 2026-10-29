@@ -31,7 +31,7 @@ GOOD = {
         "issuers": [{"name": "American College of Surgeons", "type": "professional-body", "country": "US",
                      "url": "https://www.facs.org/", "wikidata": "Q466113"}],
         "fields": [{"label": "trauma care"}, {"label": "Medicine", "scheme": "isced-f-2013", "code": "0912"}],
-        "level": "professional", "requirements": "Physicians, physician assistants and nurse practitioners.",
+        "level": {"label": "Professional", "scheme": "vendor-ladder", "rank": 2, "of": 3}, "requirements": "Physicians, physician assistants and nurse practitioners.",
         "renewal": {"required": True, "period_months": 48},
         "jurisdiction": ["US", "INT"], "wikidata": "Q4686912",
         "wikipedia": {"title": "Advanced trauma life support", "page_id": 1, "dump": "enwiki-20261001", "match": "redirect"},
@@ -103,6 +103,13 @@ class Schema(unittest.TestCase):
         self.assertTrue(self.mutate(lambda d: d["credential"]["sources"][0].update(snippet="x" * 201)))
         self.assertTrue(self.mutate(lambda d: d["credential"]["wikipedia"].update(dump="enwiki-latest")))
 
+    def test_a_level_is_a_label_in_a_ladder(self):
+        self.assertEqual(self.mutate(lambda d: d["credential"].update(level={"label": "Level I", "scheme": "dod-8570-iam", "rank": 1, "of": 3})), [])
+        self.assertEqual(self.mutate(lambda d: d["credential"].update(level={"label": "Master's"})), [])
+        self.assertTrue(self.mutate(lambda d: d["credential"].update(level="professional")))            # a bare string is the old form
+        self.assertTrue(self.mutate(lambda d: d["credential"].update(level={"rank": 1})))                # needs a label
+        self.assertTrue(self.mutate(lambda d: d["credential"].update(level={"label": "L", "rank": 0})))
+
     def test_a_coded_field_needs_its_code(self):
         self.assertTrue(self.mutate(lambda d: d["credential"]["fields"][1].pop("code")))
 
@@ -159,6 +166,14 @@ class EntryAndEvidence(unittest.TestCase):
         self.assertTrue(self.evok(by="Bear"))
         self.assertTrue(self.evok(note="x" * 201))
         self.assertTrue(self.evok(match={"dataset": "d", "method": "guess"}))
+
+    def test_language_type_is_human_or_programming(self):
+        base = {"id": "a1b2c3d4e5", "preferred_name": "A", "kind": "human-language", "definition": "d", "status": "proposed",
+                "provenance": {"source": "s", "date": "2026-10-29"}}
+        for v in ("human", "programming"):
+            self.assertEqual([x.message for x in self.ve.iter_errors({**base, "language_type": v})], [], v)
+        for v in ("spoken", "other", "markup"):
+            self.assertTrue([x.message for x in self.ve.iter_errors({**base, "language_type": v})], v)
 
     def test_entry_rules(self):
         base = {"id": "a1b2c3d4e5", "preferred_name": "A", "kind": "skill", "definition": "d", "status": "reviewed",

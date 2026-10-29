@@ -609,7 +609,7 @@ Every claim below carries a marker: ○ drafted by a model, not yet checked · �
 - **Definition:** A markup syntax from Microsoft for embedding C# or Visual Basic code in HTML to generate web pages on the server. ○ _general-knowledge_
 - **Kind:** markup-language ○ _general-knowledge (with the definition)_
 - **Certification:** no ○ _general-knowledge_
-- **Language type:** other ○ _general-knowledge; no legacy list/class says so_ ⚠ the legacy lists/class do not say so, check it
+- **Language type:** programming ○ _general-knowledge; no legacy list/class says so_ ⚠ the legacy lists/class do not say so, check it
 - **Verb:** write ○ _general-knowledge_
 
 ## ASP.NET Web API

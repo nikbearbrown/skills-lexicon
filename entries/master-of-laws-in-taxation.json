@@ -158,7 +158,9 @@
   ],
   "official_name": "Master of Laws in Taxation (LL.M. in Taxation)",
   "acronym": "LL.M. (Tax)",
-  "level": "postgraduate (master's)",
+  "level": {
+   "label": "postgraduate (master's)"
+  },
   "requirements": "Varies by school. Example: SMU asks for a J.D. from an ABA-accredited school; UBC's non-thesis degree needs 30 credits including a 6-credit tax foundations course; a Temple-style programme asks for a basic income tax course.",
   "specificity": "specific-credential",
   "fields": [

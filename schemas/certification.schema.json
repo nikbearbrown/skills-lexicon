@@ -53,7 +53,7 @@
           "description": "The field or fields of work or study the credential belongs to.",
           "items": { "$ref": "#/$defs/field" }
         },
-        "level": { "type": "string", "minLength": 1, "description": "For example entry, professional, advanced, associate, bachelor, master, doctoral. Free text in v0." },
+        "level": { "$ref": "#/$defs/level" },
         "specificity": {
           "enum": ["specific-credential", "requirement-level", "generic-programme", "occupation"],
           "description": "specific-credential: one named credential. requirement-level: a level that several credentials can satisfy (DoD IAM Level I). generic-programme: a type of programme many colleges run (a certificate in welding). occupation: a job, not a credential."
@@ -112,6 +112,19 @@
       },
       "if": { "required": ["scheme"], "properties": { "scheme": { "not": { "const": "free-text" } } } },
       "then": { "required": ["code"] }
+    },
+    "level": {
+      "type": "object",
+      "description": "Where the credential sits in a ladder of levels: Level I of DoD IAM Levels I to III; Associate in a vendor's Associate, Professional, Expert; a master's degree among degrees. A level is part of the credential, so a leveled scheme is still certifications.",
+      "additionalProperties": false,
+      "required": ["label"],
+      "properties": {
+        "label": { "type": "string", "minLength": 1, "description": "As the issuer or standard names it: Level I, Associate, Professional, Master's." },
+        "scheme": { "type": "string", "minLength": 1, "description": "The ladder it belongs to: an issuer's own (dod-8570-iam) or a general one (isced-2011, eqf)." },
+        "rank": { "type": "integer", "minimum": 1, "description": "Position in that ladder, 1 being the lowest." },
+        "of": { "type": "integer", "minimum": 1, "description": "How many levels the ladder has, when known." },
+        "code": { "type": "string", "minLength": 1, "description": "The ladder's own code for the level, such as 7 in ISCED 2011." }
+      }
     },
     "renewal": {
       "type": "object",

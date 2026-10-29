@@ -194,7 +194,9 @@
   ],
   "official_name": "American Board of Medical Laboratory Immunology (ABMLI) certification",
   "acronym": "ABMLI",
-  "level": "doctoral-level (laboratory director)",
+  "level": {
+   "label": "doctoral-level (laboratory director)"
+  },
   "requirements": "Doctoral-level immunologists per the ASM page summary. The exam is no longer offered to new applicants, so current eligibility rules were not shown.",
   "specificity": "specific-credential",
   "status": "closed-to-new-candidates",

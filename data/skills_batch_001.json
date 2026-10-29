@@ -1685,7 +1685,9 @@
     ],
     "official_name": "Adult-Gerontology Acute Care Nurse Practitioner Certification (AGACNP-BC) from ANCC; the parallel AACN credential is ACNPC-AG",
     "acronym": "AGACNP-BC (ANCC); ACNPC-AG (AACN)",
-    "level": "advanced practice (graduate-prepared nurse practitioner); the certification exam itself is described as entry-level for the NP role",
+    "level": {
+     "label": "advanced practice (graduate-prepared nurse practitioner); the certification exam itself is described as entry-level for the NP role"
+    },
     "requirements": "Per secondary sources: a current RN/APRN licence plus a master's or higher from an accredited adult-gerontology acute care NP programme, then the certifier's exam. One Wikipedia-derived summary mentions at least 500 clinical hours. I did not see the ANCC eligibility page itself.",
     "specificity": "specific-credential",
     "fields": [
@@ -1891,7 +1893,9 @@
     ],
     "official_name": "Advanced Trauma Life Support (ATLS)",
     "acronym": "ATLS",
-    "level": "provider course for physicians and advanced practice providers",
+    "level": {
+     "label": "provider course for physicians and advanced practice providers"
+    },
     "requirements": "Standard course: didactics, skills stations and testing over two days; a blended option (mATLS) moves much of the lecture content to online modules. Per course pages summarised in the results.",
     "specificity": "specific-credential",
     "fields": [
@@ -2119,7 +2123,9 @@
     ],
     "official_name": "American Board of Medical Laboratory Immunology (ABMLI) certification",
     "acronym": "ABMLI",
-    "level": "doctoral-level (laboratory director)",
+    "level": {
+     "label": "doctoral-level (laboratory director)"
+    },
     "requirements": "Doctoral-level immunologists per the ASM page summary. The exam is no longer offered to new applicants, so current eligibility rules were not shown.",
     "specificity": "specific-credential",
     "status": "closed-to-new-candidates",
@@ -2403,7 +2409,7 @@
    "definition": "An indigenous language of the Andes spoken mainly in Bolivia, Peru and Chile.",
    "key": "aymara",
    "certification": false,
-   "language_type": "spoken",
+   "language_type": "human",
    "variants": [
     {
      "label": "Aymara (Language)",
@@ -3016,7 +3022,9 @@
     ],
     "official_name": "Certified Forensic Computer Examiner (CFCE)",
     "acronym": "CFCE",
-    "level": "professional",
+    "level": {
+     "label": "professional"
+    },
     "requirements": "IACIS membership; 72 hours of computer/digital forensics training (the two-week IACIS Basic Computer Forensic Examiner course satisfies this); peer review phase (four scenario-based problems) then certification phase (practical exercise plus written exam).",
     "specificity": "specific-credential",
     "fields": [
@@ -3212,7 +3220,9 @@
     ],
     "official_name": "Certified Pediatric Emergency Nurse (CPEN)",
     "acronym": "CPEN",
-    "level": "specialty (professional)",
+    "level": {
+     "label": "specialty (professional)"
+    },
     "requirements": "Examination; BCEN pages (as summarised) recommend about two years of pediatric emergency nursing experience but do not require it.",
     "specificity": "specific-credential",
     "fields": [
@@ -3409,7 +3419,9 @@
     ],
     "official_name": "Certified Professional Geologist (CPG)",
     "acronym": "CPG",
-    "level": "professional",
+    "level": {
+     "label": "professional"
+    },
     "requirements": "Bachelor's or higher in geological sciences with at least 36 semester hours of geology; 8 years of professional geological work (7 with a master's, 5 with a PhD); three sponsors, two of them CPGs; review by section and national screening committees.",
     "specificity": "specific-credential",
     "fields": [
@@ -4206,7 +4218,9 @@
     ],
     "official_name": "Doctor of Physical Therapy (DPT)",
     "acronym": "DPT",
-    "level": "doctoral (entry-level professional doctorate)",
+    "level": {
+     "label": "doctoral (entry-level professional doctorate)"
+    },
     "requirements": "Typically 3 to 4 years after a bachelor's degree; most programmes ask for the GRE (per Wikipedia summary). A degree from a CAPTE-accredited programme is needed to be eligible for the NPTE licensing exam.",
     "specificity": "specific-credential",
     "fields": [
@@ -4403,7 +4417,9 @@
     ],
     "official_name": "Doctor of Public Health (DrPH)",
     "acronym": "DrPH",
-    "level": "doctoral (professional doctorate)",
+    "level": {
+     "label": "doctoral (professional doctorate)"
+    },
     "requirements": "Usually a master's in public health plus several years of public health experience (examples: at least 3 years at Georgia, 6 at Harvard); an applied capstone or doctoral project. Wikipedia notes that more schools now accept students without a master's.",
     "specificity": "specific-credential",
     "fields": [
@@ -4765,7 +4781,9 @@
      }
     ],
     "official_name": "FAA remote pilot certificate with a small UAS rating (14 CFR Part 107), in the United States; other countries use different names",
-    "level": "entry",
+    "level": {
+     "label": "entry"
+    },
     "requirements": "US: at least 16 years old; able to read, speak, write and understand English; pass the initial aeronautical knowledge exam (Unmanned Aircraft General - Small) or, for Part 61 pilots with a recent flight review, an FAA online small UAS course; TSA security vetting; suitable physical and mental condition.",
     "specificity": "specific-credential",
     "fields": [
@@ -5149,7 +5167,7 @@
    "definition": "A Romance language spoken in France and many other countries.",
    "key": "french",
    "certification": false,
-   "language_type": "spoken",
+   "language_type": "human",
    "variants": [
     {
      "label": "French Languages",
@@ -5463,7 +5481,12 @@
     ],
     "official_name": "Information Assurance Management (IAM) Level I, a workforce category and level in the US DoD 8570 framework (being replaced by DoD 8140)",
     "acronym": "IAM Level I",
-    "level": "Level I (described as the computing-environment tier)",
+    "level": {
+     "label": "Level I",
+     "scheme": "dod-8570-iam",
+     "rank": 1,
+     "of": 3
+    },
     "requirements": "Hold one approved baseline certification for IAM Level I. Training-provider lists name Security+ CE, CND and Cloud+, and disagree on CGRC versus CAP. Nothing from an official DoD page was returned.",
     "specificity": "requirement-level",
     "status": "being-replaced",
@@ -6009,7 +6032,7 @@
    "definition": "An Indo-Aryan language spoken mainly in the Indian state of Maharashtra.",
    "key": "marathi",
    "certification": false,
-   "language_type": "spoken",
+   "language_type": "human",
    "variants": [
     {
      "label": "Marathi (Language)",
@@ -6281,7 +6304,9 @@
     ],
     "official_name": "Master of Laws (LL.M.)",
     "acronym": "LL.M.",
-    "level": "postgraduate (master's)",
+    "level": {
+     "label": "postgraduate (master's)"
+    },
     "requirements": "Normally a prior law degree: an LL.B. in Canada, a J.D. in the US and Australia per the results. Some programmes admit non-lawyers or related undergraduates.",
     "specificity": "specific-credential",
     "fields": [
@@ -6460,7 +6485,9 @@
     ],
     "official_name": "Master of Laws in Taxation (LL.M. in Taxation)",
     "acronym": "LL.M. (Tax)",
-    "level": "postgraduate (master's)",
+    "level": {
+     "label": "postgraduate (master's)"
+    },
     "requirements": "Varies by school. Example: SMU asks for a J.D. from an ABA-accredited school; UBC's non-thesis degree needs 30 credits including a 6-credit tax foundations course; a Temple-style programme asks for a basic income tax course.",
     "specificity": "specific-credential",
     "fields": [
@@ -6625,7 +6652,9 @@
      }
     ],
     "official_name": "Master's Certificate in Project Management (exact title used by University of Wisconsin-Madison for a non-credit professional certificate); credit-bearing versions at other universities are usually titled 'Graduate Certificate in Project Management'",
-    "level": "graduate-level or professional (varies by institution)",
+    "level": {
+     "label": "graduate-level or professional (varies by institution)"
+    },
     "requirements": "Varies. Examples from the results: UW-Madison, three required classes plus an applied learning review; Brandeis, four courses (12 credits); UNH, 12 credits with a 3.0 GPA minimum; Elmhurst, a bachelor's from a regionally accredited institution.",
     "specificity": "generic-programme",
     "fields": [
@@ -6653,7 +6682,7 @@
    "definition": "An XML-based markup language used to build user interfaces for Windows Media Center applications.",
    "key": "media-center-markup-language",
    "certification": false,
-   "language_type": "other",
+   "language_type": "programming",
    "variants": [
     {
      "label": "MCML",
@@ -7123,7 +7152,9 @@
     ],
     "official_name": "Neonatal Resuscitation Program (NRP)",
     "acronym": "NRP",
-    "level": "two levels: Essentials (anyone involved in newborn care) and Advanced (those who attend births and manage resuscitations)",
+    "level": {
+     "label": "two levels: Essentials (anyone involved in newborn care) and Advanced (those who attend births and manage resuscitations)"
+    },
     "requirements": "Online self-paced part, then an instructor-led, hands-on session (per the AHA/AAP summary).",
     "specificity": "specific-credential",
     "fields": [
@@ -7532,7 +7563,7 @@
    "definition": "An extinct Canaanite language of the ancient Phoenicians, written in the Phoenician alphabet.",
    "key": "phoenician",
    "certification": false,
-   "language_type": "spoken",
+   "language_type": "human",
    "variants": [
     {
      "label": "Phoenician (Language)",
@@ -8109,7 +8140,9 @@
     ],
     "official_name": "Restricted Radiotelephone Operator Permit",
     "acronym": "RR (FCC's current code); RP (used in older listings such as O*NET)",
-    "level": "entry",
+    "level": {
+     "label": "entry"
+    },
     "requirements": "Application on FCC Form 605 through the FCC's licensing system with an FCC Registration Number. One guide says it is issued without examination and that applicants must be a legal US resident or hold a US-valid pilot certificate; the FCC-page summary on the exam point was garbled, so treat 'no exam' as likely but unconfirmed.",
     "specificity": "specific-credential",
     "fields": [
@@ -8288,7 +8321,9 @@
     ],
     "official_name": "SACA C-101 Certified Industry 4.0 Associate - Basic Operations (also titled Smart Automation Certification Alliance Certified Industry 4.0 Associate Basic Operations)",
     "acronym": "C-101 (SACA's credential code)",
-    "level": "entry",
+    "level": {
+     "label": "entry"
+    },
     "requirements": "No prerequisites; proctored multiple-choice exam (Silver) plus a performance-based assessment (Gold). Exam and assessment are free for selected employees or students of SACA member organisations, per the ANSI overview.",
     "specificity": "specific-credential",
     "fields": [
@@ -8478,7 +8513,9 @@
     ],
     "official_name": "Safety Trained Supervisor (STS)",
     "acronym": "STS",
-    "level": "supervisory (below the professional-level CSP)",
+    "level": {
+     "label": "supervisory (below the professional-level CSP)"
+    },
     "requirements": "30 hours of safety, health and environmental training plus one of: two years of supervisory experience, four years of work experience, an associate degree or higher in a related field, or a two-year trade or apprenticeship programme; then pass the STS exam (100 multiple-choice questions per third-party sources; $185 exam fee per BCSP summary).",
     "specificity": "specific-credential",
     "fields": [
@@ -8748,7 +8785,9 @@
     ],
     "official_name": "Security Check (SC), a UK national security vetting clearance level",
     "acronym": "SC",
-    "level": "mid-level of the UK vetting hierarchy (above BPSS and CTC, below Developed Vetting)",
+    "level": {
+     "label": "mid-level of the UK vetting hierarchy (above BPSS and CTC, below Developed Vetting)"
+    },
     "requirements": "Employer sponsorship; the Baseline Personnel Security Standard first; a security questionnaire, criminal-record, financial and Security Service checks, sometimes an interview; a minimum UK residency of 5 years per a Scottish Government guide.",
     "specificity": "specific-credential",
     "fields": [
@@ -8784,7 +8823,7 @@
    "definition": "A South Slavic language spoken mainly in Slovenia.",
    "key": "slovene",
    "certification": false,
-   "language_type": "spoken",
+   "language_type": "human",
    "variants": [
     {
      "label": "Slovene Language",
@@ -9652,7 +9691,7 @@
    "key": "xbrl",
    "name_match": "exact_case",
    "certification": false,
-   "language_type": "other",
+   "language_type": "programming",
    "variants": [],
    "relations": [],
    "verbs": [],

@@ -148,7 +148,9 @@
   ],
   "official_name": "Security Check (SC), a UK national security vetting clearance level",
   "acronym": "SC",
-  "level": "mid-level of the UK vetting hierarchy (above BPSS and CTC, below Developed Vetting)",
+  "level": {
+   "label": "mid-level of the UK vetting hierarchy (above BPSS and CTC, below Developed Vetting)"
+  },
   "requirements": "Employer sponsorship; the Baseline Personnel Security Standard first; a security questionnaire, criminal-record, financial and Security Service checks, sometimes an interview; a minimum UK residency of 5 years per a Scottish Government guide.",
   "specificity": "specific-credential",
   "fields": [

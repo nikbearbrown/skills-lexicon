@@ -150,7 +150,9 @@
   ],
   "official_name": "SACA C-101 Certified Industry 4.0 Associate - Basic Operations (also titled Smart Automation Certification Alliance Certified Industry 4.0 Associate Basic Operations)",
   "acronym": "C-101 (SACA's credential code)",
-  "level": "entry",
+  "level": {
+   "label": "entry"
+  },
   "requirements": "No prerequisites; proctored multiple-choice exam (Silver) plus a performance-based assessment (Gold). Exam and assessment are free for selected employees or students of SACA member organisations, per the ANSI overview.",
   "specificity": "specific-credential",
   "fields": [

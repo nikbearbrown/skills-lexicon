@@ -10,7 +10,7 @@ The test for being in the lexicon is that **job listings ask for it**. What they
 |---|---|---|
 | **ability** | An enduring attribute a person has: Oral Comprehension, Spatial Orientation. | O*NET's 52 Abilities (`abilities/`). O*NET may miss some abilities job listings ask for; those are drafted like anything else and lack the O*NET match. |
 | **certification** | A credential attested by an official organization: a certification, certificate, licence, permit, endorsement, degree or clearance. | The attestation: the organization's **name** and a **link** to it. |
-| **language** | A programming language, a spoken (human) language, or another formal language such as a markup or query language. | `language_type`: `programming`, `spoken`, `other`. |
+| **language** | A human language (spoken, signed or extinct) or a programming language. | `language_type`: `human` or `programming`. A markup, style, query or modelling language counts as `programming`; `kind` keeps them apart. |
 | **skill** | Whatever is left: something job listings ask for that is not an ability, a certification or a language. Tools, platforms, methods and knowledge areas fall here. | Evidence that listings ask for it (below). |
 
 The class is worked out from `kind` and never stored (`lexicon.top_class`): `ability` is an ability, `credential` a certification, the five language kinds a language, and every other kind a skill. `kind` stays finer than the class and comes from a fixed list, which keeps the O*NET split: `ability`, `skill`, `knowledge`, `work-activity`, then named technology (`tool`, `platform`, `framework`, `library`), the language kinds, `method`, `standard`, `credential`.
@@ -46,7 +46,7 @@ Each piece of evidence is a record on one claim. `matched_source` records, which
 | Do job listings ask for it? | Posting counts and quotes (`kind: job-postings`, with `match.count`); an O*NET or BLS listing; votes (not backing) | One model's guess |
 | Is it an ability? | A match to the O*NET Abilities list (`kind: onet`, `dump-match`, with the element id and categories) | A model's draft |
 | Is it a certification? | The attesting organization's own page (`kind: issuer`, `page-read`), a regulator or standards listing, a Wikipedia or Wikidata dump match (`dump-match`, with the categories that show what kind of thing it is), a person's check | A search result alone, a model's draft or second draft, a legacy list |
-| Is it a language, and which kind? | A match in a language reference (for programming languages a language list such as GitHub Linguist or Wikidata; for spoken languages ISO 639, Glottolog or Wikipedia), a person's check | A model's draft |
+| Is it a language, and which kind? | A match in a language reference (for programming languages a language list such as GitHub Linguist or Wikidata; for human languages ISO 639, Glottolog or Wikipedia), a person's check | A model's draft |
 | Is it a skill? | Posting counts; an O*NET Skills or Technology Skills listing; what is left after the other three | A model's draft |
 
 What backs a claim, in code (`lexicon.backs`): a named person's `checked` with outcome `supports`, or a `matched_source` with outcome `supports` whose verification is `page-read` or `dump-match`. Everything else is recorded and shown but does not back: a model's draft, a model's check or second draft, a legacy list, a vote, and a match seen only in search results (`search-results-only`). A record with outcome `contradicts` counts against the claim, and an unresolved one blocks `reviewed`.

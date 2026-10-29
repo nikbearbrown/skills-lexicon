@@ -177,7 +177,9 @@
   ],
   "official_name": "Advanced Trauma Life Support (ATLS)",
   "acronym": "ATLS",
-  "level": "provider course for physicians and advanced practice providers",
+  "level": {
+   "label": "provider course for physicians and advanced practice providers"
+  },
   "requirements": "Standard course: didactics, skills stations and testing over two days; a blended option (mATLS) moves much of the lecture content to online modules. Per course pages summarised in the results.",
   "specificity": "specific-credential",
   "fields": [

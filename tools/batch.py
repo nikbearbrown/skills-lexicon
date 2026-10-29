@@ -203,7 +203,7 @@ def render_md(doc, names):
             out.append(f"- **Credential:** {c.get('official_name', e['preferred_name'])} · {c['credential_type']} · {c.get('specificity', '')} · "
                        f"status {c.get('status', 'unknown')} · issuer: {iss}")
             if c.get("fields"):
-                out.append(f"  - field: {', '.join(f['label'] for f in c['fields'])}" + (f" · level: {c['level']}" if c.get("level") else ""))
+                out.append(f"  - field: {', '.join(f['label'] for f in c['fields'])}" + (f" · level: {c['level']['label']}" + (f" (rank {c['level']['rank']} of {c['level']['of']} in {c['level'].get('scheme', 'its ladder')})" if c['level'].get('rank') and c['level'].get('of') else "") if c.get("level") else ""))
             for s in c["sources"][:4]:
                 out.append(f"  - source ({s['kind']}, {s['verification']}): {s['url']}")
         if e.get("notes"):

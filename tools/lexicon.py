@@ -25,7 +25,7 @@ VERIFICATIONS = {"page-read", "search-results-only", "dump-match"}
 BACKING_VERIFICATIONS = {"page-read", "dump-match"}      # a match seen only in search results does not back a claim
 BY_RE = re.compile(r"^(model|human|source):\S.*$")
 CERT_SCOPES = {"single-issuer", "many-issuers"}     # one body defines and awards it (AWS, the FAA) / many bodies award the same credential (degrees, state licences)
-LANGUAGE_TYPES = {"programming", "spoken", "other"}    # other: markup, query, modelling and similar formal languages
+LANGUAGE_TYPES = {"human", "programming"}    # human: spoken, signed or extinct. programming: any formal language a computer reads (markup, style, query and modelling languages too; `kind` keeps them apart)
 
 
 # The kinds of concept. The first four follow the O*NET content model, so skills and abilities stay separate.

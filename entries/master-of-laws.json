@@ -163,7 +163,9 @@
   ],
   "official_name": "Master of Laws (LL.M.)",
   "acronym": "LL.M.",
-  "level": "postgraduate (master's)",
+  "level": {
+   "label": "postgraduate (master's)"
+  },
   "requirements": "Normally a prior law degree: an LL.B. in Canada, a J.D. in the US and Australia per the results. Some programmes admit non-lawyers or related undergraduates.",
   "specificity": "specific-credential",
   "fields": [

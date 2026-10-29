@@ -38,7 +38,7 @@
     "certification": { "type": "boolean" },
     "certification_scope": { "enum": ["single-issuer", "many-issuers"] },
     "credential": { "$ref": "certification.schema.json#/$defs/credential" },
-    "language_type": { "enum": ["programming", "spoken", "other"], "description": "Only on a language." }
+    "language_type": { "enum": ["human", "programming"], "description": "Only on a language. human: spoken, signed or extinct. programming: any formal language a computer reads, including markup, style, query and modelling languages (kind keeps them apart)." }
   },
   "allOf": [
     { "$ref": "certification.schema.json" },

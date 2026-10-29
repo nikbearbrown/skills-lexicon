@@ -141,7 +141,9 @@
   ],
   "official_name": "Restricted Radiotelephone Operator Permit",
   "acronym": "RR (FCC's current code); RP (used in older listings such as O*NET)",
-  "level": "entry",
+  "level": {
+   "label": "entry"
+  },
   "requirements": "Application on FCC Form 605 through the FCC's licensing system with an FCC Registration Number. One guide says it is issued without examination and that applicants must be a legal US resident or hold a US-valid pilot certificate; the FCC-page summary on the exam point was garbled, so treat 'no exam' as likely but unconfirmed.",
   "specificity": "specific-credential",
   "fields": [

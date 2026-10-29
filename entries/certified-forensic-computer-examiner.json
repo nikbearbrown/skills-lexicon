@@ -197,7 +197,9 @@
   ],
   "official_name": "Certified Forensic Computer Examiner (CFCE)",
   "acronym": "CFCE",
-  "level": "professional",
+  "level": {
+   "label": "professional"
+  },
   "requirements": "IACIS membership; 72 hours of computer/digital forensics training (the two-week IACIS Basic Computer Forensic Examiner course satisfies this); peer review phase (four scenario-based problems) then certification phase (practical exercise plus written exam).",
   "specificity": "specific-credential",
   "fields": [

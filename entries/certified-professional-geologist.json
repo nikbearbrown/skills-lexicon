@@ -168,7 +168,9 @@
   ],
   "official_name": "Certified Professional Geologist (CPG)",
   "acronym": "CPG",
-  "level": "professional",
+  "level": {
+   "label": "professional"
+  },
   "requirements": "Bachelor's or higher in geological sciences with at least 36 semester hours of geology; 8 years of professional geological work (7 with a master's, 5 with a PhD); three sponsors, two of them CPGs; review by section and national screening committees.",
   "specificity": "specific-credential",
   "fields": [

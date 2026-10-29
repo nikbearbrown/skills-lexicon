@@ -125,7 +125,12 @@
   ],
   "official_name": "Information Assurance Management (IAM) Level I, a workforce category and level in the US DoD 8570 framework (being replaced by DoD 8140)",
   "acronym": "IAM Level I",
-  "level": "Level I (described as the computing-environment tier)",
+  "level": {
+   "label": "Level I",
+   "scheme": "dod-8570-iam",
+   "rank": 1,
+   "of": 3
+  },
   "requirements": "Hold one approved baseline certification for IAM Level I. Training-provider lists name Security+ CE, CND and Cloud+, and disagree on CGRC versus CAP. Nothing from an official DoD page was returned.",
   "specificity": "requirement-level",
   "status": "being-replaced",

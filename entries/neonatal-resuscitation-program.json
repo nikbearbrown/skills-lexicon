@@ -189,7 +189,9 @@
   ],
   "official_name": "Neonatal Resuscitation Program (NRP)",
   "acronym": "NRP",
-  "level": "two levels: Essentials (anyone involved in newborn care) and Advanced (those who attend births and manage resuscitations)",
+  "level": {
+   "label": "two levels: Essentials (anyone involved in newborn care) and Advanced (those who attend births and manage resuscitations)"
+  },
   "requirements": "Online self-paced part, then an instructor-led, hands-on session (per the AHA/AAP summary).",
   "specificity": "specific-credential",
   "fields": [

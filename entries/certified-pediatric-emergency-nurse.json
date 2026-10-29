@@ -162,7 +162,9 @@
   ],
   "official_name": "Certified Pediatric Emergency Nurse (CPEN)",
   "acronym": "CPEN",
-  "level": "specialty (professional)",
+  "level": {
+   "label": "specialty (professional)"
+  },
   "requirements": "Examination; BCEN pages (as summarised) recommend about two years of pediatric emergency nursing experience but do not require it.",
   "specificity": "specific-credential",
   "fields": [

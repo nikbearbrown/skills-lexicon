@@ -134,7 +134,7 @@ Every claim below carries a marker: ○ drafted by a model, not yet checked · �
 - **Definition:** An indigenous language of the Andes spoken mainly in Bolivia, Peru and Chile. ○ _general-knowledge_
 - **Kind:** human-language ○ _general-knowledge (with the definition)_ — claude-sonnet-5-5 (xhigh) agrees
 - **Certification:** no ○ _general-knowledge_ — claude-sonnet-5-5 (xhigh) agrees
-- **Language type:** spoken ○ _general-knowledge_ — claude-sonnet-5-5 (xhigh) agrees
+- **Language type:** human ○ _general-knowledge_ — claude-sonnet-5-5 (xhigh) agrees
 - **Also written:** Aymara (Language) ○ _listed in the legacy tag list; the model chose the canonical name_
 
 ## Board support package
@@ -406,7 +406,7 @@ Every claim below carries a marker: ○ drafted by a model, not yet checked · �
 - **Definition:** A Romance language spoken in France and many other countries. ○ _general-knowledge_
 - **Kind:** human-language ○ _general-knowledge (with the definition)_ — claude-sonnet-5-5 (xhigh) agrees
 - **Certification:** no ○ _general-knowledge_ — claude-sonnet-5-5 (xhigh) agrees
-- **Language type:** spoken ○ _general-knowledge_ — claude-sonnet-5-5 (xhigh) agrees
+- **Language type:** human ○ _general-knowledge_ — claude-sonnet-5-5 (xhigh) agrees
 - **Also written:** French Languages ○ _listed in the legacy tag list; the model chose the canonical name_
 - **Also written:** French language ○ _general-knowledge_
 
@@ -429,7 +429,7 @@ Every claim below carries a marker: ○ drafted by a model, not yet checked · �
 - **Certification:** yes ✖ _general-knowledge_ — claude-sonnet-5-5 (xhigh) disagrees (web check: not a credential a body awards; Broadly right that it is a Level I information-assurance management requirement defined in DoD 8570. It is a workforce level that certifications satisfy, not); claude-sonnet-5-5 (xhigh) disagrees (second draft (xhigh) said False)
 - **Certification scope:** many issuers ○ _general-knowledge; A Department of Defense requirement level that several different certifications can satisfy, so it is not one body's credential. Check this one._
 - **Credential:** Information Assurance Management (IAM) Level I, a workforce category and level in the US DoD 8570 framework (being replaced by DoD 8140) · other · requirement-level · status being-replaced · issuer: not mapped yet
-  - field: cybersecurity, information assurance, US Department of Defense workforce · level: Level I (described as the computing-environment tier)
+  - field: cybersecurity, information assurance, US Department of Defense workforce · level: Level I (rank 1 of 3 in dod-8570-iam)
   - source (third-party, search-results-only): https://www.infosecinstitute.com/resources/dod-8570/dod-8570-iam-certification-level-i/
   - source (third-party, search-results-only): https://securityboulevard.com/2018/05/dod-8570-iam-certification-and-requirements/
   - source (third-party, search-results-only): https://destcert.com/resources/dod-8570-8140-certifications/
@@ -503,7 +503,7 @@ Every claim below carries a marker: ○ drafted by a model, not yet checked · �
 - **Definition:** An Indo-Aryan language spoken mainly in the Indian state of Maharashtra. ○ _general-knowledge_
 - **Kind:** human-language ○ _general-knowledge (with the definition)_ — claude-sonnet-5-5 (xhigh) agrees
 - **Certification:** no ○ _general-knowledge_ — claude-sonnet-5-5 (xhigh) agrees
-- **Language type:** spoken ○ _general-knowledge_ — claude-sonnet-5-5 (xhigh) agrees
+- **Language type:** human ○ _general-knowledge_ — claude-sonnet-5-5 (xhigh) agrees
 - **Also written:** Marathi (Language) ○ _listed in the legacy tag list; the model chose the canonical name_
 
 ## Master of Laws
@@ -568,7 +568,7 @@ Every claim below carries a marker: ○ drafted by a model, not yet checked · �
 - **Definition:** An XML-based markup language used to build user interfaces for Windows Media Center applications. ○ _general-knowledge_
 - **Kind:** markup-language ○ _general-knowledge (with the definition)_ — claude-sonnet-5-5 (xhigh) agrees
 - **Certification:** no ○ _general-knowledge_ — claude-sonnet-5-5 (xhigh) agrees
-- **Language type:** other ○ _general-knowledge_ — claude-sonnet-5-5 (xhigh) agrees
+- **Language type:** programming ○ _general-knowledge_ — claude-sonnet-5-5 (xhigh) agrees
 - **Also written:** MCML ○ _general-knowledge_
 
 ## Mixed reality
@@ -655,7 +655,7 @@ Every claim below carries a marker: ○ drafted by a model, not yet checked · �
 - **Definition:** An extinct Canaanite language of the ancient Phoenicians, written in the Phoenician alphabet. ○ _general-knowledge_
 - **Kind:** human-language ○ _general-knowledge (with the definition)_ — claude-sonnet-5-5 (xhigh) agrees
 - **Certification:** no ○ _general-knowledge_ — claude-sonnet-5-5 (xhigh) agrees
-- **Language type:** spoken ○ _general-knowledge_ — claude-sonnet-5-5 (xhigh) agrees
+- **Language type:** human ○ _general-knowledge_ — claude-sonnet-5-5 (xhigh) agrees
 - **Also written:** Phoenician (Language) ○ _listed in the legacy tag list; the model chose the canonical name_
 
 ## Plumbing drawing
@@ -784,7 +784,7 @@ Every claim below carries a marker: ○ drafted by a model, not yet checked · �
 - **Definition:** A South Slavic language spoken mainly in Slovenia. ○ _general-knowledge_
 - **Kind:** human-language ○ _general-knowledge (with the definition)_ — claude-sonnet-5-5 (xhigh) agrees
 - **Certification:** no ○ _general-knowledge_ — claude-sonnet-5-5 (xhigh) agrees
-- **Language type:** spoken ○ _general-knowledge_ — claude-sonnet-5-5 (xhigh) agrees
+- **Language type:** human ○ _general-knowledge_ — claude-sonnet-5-5 (xhigh) agrees
 - **Also written:** Slovene Language ○ _listed in the legacy tag list; the model chose the canonical name_
 - **Also written:** Slovenian ○ _general-knowledge_
 
@@ -878,7 +878,7 @@ Every claim below carries a marker: ○ drafted by a model, not yet checked · �
 - **Definition:** An XML-based standard language for tagging and exchanging business and financial reporting data. ○ _general-knowledge_
 - **Kind:** markup-language ○ _general-knowledge (with the definition)_ — claude-sonnet-5-5 (xhigh) agrees
 - **Certification:** no ○ _general-knowledge_ — claude-sonnet-5-5 (xhigh) agrees
-- **Language type:** other ○ _general-knowledge_ — claude-sonnet-5-5 (xhigh) agrees
+- **Language type:** programming ○ _general-knowledge_ — claude-sonnet-5-5 (xhigh) agrees
 
 ## Yahoo Messenger
 

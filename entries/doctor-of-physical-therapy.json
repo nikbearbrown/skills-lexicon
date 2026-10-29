@@ -158,7 +158,9 @@
   ],
   "official_name": "Doctor of Physical Therapy (DPT)",
   "acronym": "DPT",
-  "level": "doctoral (entry-level professional doctorate)",
+  "level": {
+   "label": "doctoral (entry-level professional doctorate)"
+  },
   "requirements": "Typically 3 to 4 years after a bachelor's degree; most programmes ask for the GRE (per Wikipedia summary). A degree from a CAPTE-accredited programme is needed to be eligible for the NPTE licensing exam.",
   "specificity": "specific-credential",
   "fields": [

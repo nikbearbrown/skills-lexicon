@@ -379,7 +379,7 @@ class Annotations(unittest.TestCase):
                 "provenance": {"source": "t", "date": "2026-10-29"}, "_file": "a.json"}
         self.assertTrue(any("certification must be" in m for m in L.validate([dict(base, certification="yes")])))
         self.assertTrue(any("language_type must be" in m for m in L.validate([dict(base, language_type="klingon")])))
-        self.assertEqual(L.validate([dict(base, certification=True, language_type="spoken")]), [])
+        self.assertEqual(L.validate([dict(base, certification=True, language_type="human")]), [])
 
 
 class AnnotateExisting(unittest.TestCase):

@@ -160,7 +160,9 @@
   ],
   "official_name": "Adult-Gerontology Acute Care Nurse Practitioner Certification (AGACNP-BC) from ANCC; the parallel AACN credential is ACNPC-AG",
   "acronym": "AGACNP-BC (ANCC); ACNPC-AG (AACN)",
-  "level": "advanced practice (graduate-prepared nurse practitioner); the certification exam itself is described as entry-level for the NP role",
+  "level": {
+   "label": "advanced practice (graduate-prepared nurse practitioner); the certification exam itself is described as entry-level for the NP role"
+  },
   "requirements": "Per secondary sources: a current RN/APRN licence plus a master's or higher from an accredited adult-gerontology acute care NP programme, then the certifier's exam. One Wikipedia-derived summary mentions at least 500 clinical hours. I did not see the ANCC eligibility page itself.",
   "specificity": "specific-credential",
   "fields": [

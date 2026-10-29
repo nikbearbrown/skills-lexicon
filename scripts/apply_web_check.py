@@ -27,6 +27,7 @@ import lexicon as L  # noqa: E402
 WIKIMEDIA = {"name": "Wikimedia Foundation", "url": "https://www.wikimedia.org/", "type": "reference-work", "country": "US"}
 COUNTRY = {"united states": "US", "united kingdom": "GB", "canada": "CA", "international": "INT", "global": "INT"}
 SPECIFICITY = {"IAM Level I certification": "requirement-level", "Master's certificate in project management": "generic-programme"}
+LEVELS = {"IAM Level I certification": {"label": "Level I", "scheme": "dod-8570-iam", "rank": 1, "of": 3}}
 STATUS = {"CompTIA Mobility+": ("retired", "Retired on 15 December 2017; existing holders keep it for life, per CompTIA's partner page."),
           "American Board of Medical Laboratory Immunology certification": ("closed-to-new-candidates", "The exam is closed to new candidates, per the check's search results."),
           "IAM Level I certification": ("being-replaced", "DoD 8570 is being replaced by DoD 8140.")}
@@ -93,9 +94,11 @@ def credential(e, f):
     if not srcs:
         return None
     c = {"credential_type": f["credential_type"], "sources": srcs}
-    for k in ("official_name", "acronym", "level", "requirements"):
+    for k in ("official_name", "acronym", "requirements"):
         if f.get(k):
             c[k] = f[k]
+    if f.get("level"):
+        c["level"] = LEVELS.get(e["preferred_name"]) or {"label": f["level"]}
     c["specificity"] = SPECIFICITY.get(e["preferred_name"], "specific-credential")
     if e["preferred_name"] in STATUS:
         c["status"], c["status_note"] = STATUS[e["preferred_name"]]

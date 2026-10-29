@@ -110,6 +110,18 @@ class DedupeIds(unittest.TestCase):
         self.assertEqual(self.read(), before)
 
 
+class LanguageType(unittest.TestCase):
+    def test_only_human_and_programming(self):
+        for v in ("human", "programming"):
+            self.assertEqual(L.validate([entry(1, "A", kind="human-language", language_type=v)]), [], v)
+        for v in ("spoken", "other", "markup"):
+            self.assertTrue(any("language_type must be" in m for m in L.validate([entry(1, "A", language_type=v)])), v)
+
+    def test_a_markup_or_query_language_is_a_language_by_class_and_programming_by_type(self):
+        e = entry(1, "HTML", kind="markup-language", language_type="programming")
+        self.assertEqual((L.top_class(e), L.validate([e])), ("language", []))
+
+
 class CertificationScope(unittest.TestCase):
     def test_scope_needs_a_certification_and_an_allowed_value(self):
         self.assertEqual(L.validate([entry(1, "A", certification=True, certification_scope="many-issuers")]), [])
