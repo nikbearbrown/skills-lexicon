@@ -1,0 +1,69 @@
+{
+ "id": "etrex7o43l",
+ "preferred_name": "Label edge router",
+ "kind": "tool",
+ "definition": "A router at the edge of an MPLS network that adds labels to packets entering the network and removes them as packets leave.",
+ "key": "label-edge-router",
+ "certification": false,
+ "variants": [
+  {
+   "label": "Label Edge Router (MPLS Networking)",
+   "match": "word_ci"
+  }
+ ],
+ "relations": [],
+ "verbs": [],
+ "status": "machine-drafted",
+ "provenance": {
+  "source": "drafted by model:claude-sonnet-5-5, run 2026-10-29-round-06-a2, from the name in the legacy tag list alone; no posting or outside source checked",
+  "date": "2026-10-29",
+  "reviewed_by": null,
+  "legacy_tag": {
+   "sources": [
+    {
+     "file": "data/skills_tags.csv",
+     "rows": [
+      2282
+     ],
+     "class": "Skill"
+    }
+   ],
+   "class": "Skill",
+   "in_lists": []
+  }
+ },
+ "evidence": [
+  {
+   "field": "definition",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-29",
+   "run": "2026-10-29-round-06-a2",
+   "note": "basis: general-knowledge"
+  },
+  {
+   "field": "kind",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-29",
+   "run": "2026-10-29-round-06-a2",
+   "note": "basis: general-knowledge (with the definition)"
+  },
+  {
+   "field": "variant:label edge router (mpls networking)",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-29",
+   "run": "2026-10-29-round-06-a2",
+   "note": "listed in the legacy tag list; the model chose the canonical name"
+  },
+  {
+   "field": "certification",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-29",
+   "run": "2026-10-29-round-06-a2",
+   "note": "basis: general-knowledge"
+  }
+ ]
+}

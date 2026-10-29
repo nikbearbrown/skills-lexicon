@@ -1,0 +1,75 @@
+{
+ "id": "nicyomlrg5",
+ "preferred_name": "MIKE URBAN",
+ "kind": "tool",
+ "definition": "DHI software for modelling urban water systems such as sewers, stormwater drainage and water distribution.",
+ "key": "mike-urban",
+ "certification": false,
+ "variants": [],
+ "relations": [],
+ "verbs": [
+  "model",
+  "simulate"
+ ],
+ "status": "machine-drafted",
+ "provenance": {
+  "source": "drafted by model:claude-sonnet-5-5, run 2026-10-29-round-06-a2, from the name in the legacy tag list alone; no posting or outside source checked",
+  "date": "2026-10-29",
+  "reviewed_by": null,
+  "legacy_tag": {
+   "sources": [
+    {
+     "file": "data/skills_tags.csv",
+     "rows": [
+      2404
+     ],
+     "class": "Skill"
+    }
+   ],
+   "class": "Skill",
+   "in_lists": []
+  }
+ },
+ "evidence": [
+  {
+   "field": "definition",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-29",
+   "run": "2026-10-29-round-06-a2",
+   "note": "basis: general-knowledge"
+  },
+  {
+   "field": "kind",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-29",
+   "run": "2026-10-29-round-06-a2",
+   "note": "basis: general-knowledge (with the definition)"
+  },
+  {
+   "field": "verb:model",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-29",
+   "run": "2026-10-29-round-06-a2",
+   "note": "basis: general-knowledge"
+  },
+  {
+   "field": "verb:simulate",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-29",
+   "run": "2026-10-29-round-06-a2",
+   "note": "basis: general-knowledge"
+  },
+  {
+   "field": "certification",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-29",
+   "run": "2026-10-29-round-06-a2",
+   "note": "basis: general-knowledge"
+  }
+ ]
+}

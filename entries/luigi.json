@@ -1,0 +1,75 @@
+{
+ "id": "tbo4o5jjmq",
+ "preferred_name": "Luigi",
+ "kind": "library",
+ "definition": "A Python library from Spotify for building and scheduling pipelines of batch jobs that depend on one another.",
+ "key": "luigi",
+ "certification": false,
+ "variants": [],
+ "relations": [],
+ "verbs": [
+  "build",
+  "schedule"
+ ],
+ "status": "machine-drafted",
+ "provenance": {
+  "source": "drafted by model:claude-sonnet-5-5, run 2026-10-29-round-06-a2, from the name in the legacy tag list alone; no posting or outside source checked",
+  "date": "2026-10-29",
+  "reviewed_by": null,
+  "legacy_tag": {
+   "sources": [
+    {
+     "file": "data/skills_tags.csv",
+     "rows": [
+      2389
+     ],
+     "class": "Skill"
+    }
+   ],
+   "class": "Skill",
+   "in_lists": []
+  }
+ },
+ "evidence": [
+  {
+   "field": "definition",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-29",
+   "run": "2026-10-29-round-06-a2",
+   "note": "basis: general-knowledge"
+  },
+  {
+   "field": "kind",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-29",
+   "run": "2026-10-29-round-06-a2",
+   "note": "basis: general-knowledge (with the definition)"
+  },
+  {
+   "field": "verb:build",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-29",
+   "run": "2026-10-29-round-06-a2",
+   "note": "basis: general-knowledge"
+  },
+  {
+   "field": "verb:schedule",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-29",
+   "run": "2026-10-29-round-06-a2",
+   "note": "basis: general-knowledge"
+  },
+  {
+   "field": "certification",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-29",
+   "run": "2026-10-29-round-06-a2",
+   "note": "basis: general-knowledge"
+  }
+ ]
+}

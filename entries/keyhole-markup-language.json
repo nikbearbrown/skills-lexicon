@@ -1,0 +1,90 @@
+{
+ "id": "oezvmtjgl6",
+ "preferred_name": "Keyhole Markup Language",
+ "kind": "markup-language",
+ "definition": "An XML-based markup language for describing geographic features, placemarks and map views, used by Google Earth and other mapping software.",
+ "key": "keyhole-markup-language",
+ "certification": false,
+ "language_type": "programming",
+ "variants": [
+  {
+   "label": "Keyhole Markup Languages",
+   "match": "word_ci"
+  },
+  {
+   "label": "KML",
+   "match": "exact_case"
+  }
+ ],
+ "relations": [],
+ "verbs": [],
+ "status": "machine-drafted",
+ "provenance": {
+  "source": "drafted by model:claude-sonnet-5-5, run 2026-10-29-round-06-a2, from the name in the legacy tag list alone; no posting or outside source checked",
+  "date": "2026-10-29",
+  "reviewed_by": null,
+  "legacy_tag": {
+   "sources": [
+    {
+     "file": "data/skills_tags.csv",
+     "rows": [
+      2255
+     ],
+     "class": "Language"
+    }
+   ],
+   "class": "Language",
+   "in_lists": []
+  }
+ },
+ "evidence": [
+  {
+   "field": "definition",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-29",
+   "run": "2026-10-29-round-06-a2",
+   "note": "basis: general-knowledge"
+  },
+  {
+   "field": "kind",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-29",
+   "run": "2026-10-29-round-06-a2",
+   "note": "basis: general-knowledge (with the definition)"
+  },
+  {
+   "field": "variant:keyhole markup languages",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-29",
+   "run": "2026-10-29-round-06-a2",
+   "note": "listed in the legacy tag list; the model chose the canonical name"
+  },
+  {
+   "field": "variant:kml",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-29",
+   "run": "2026-10-29-round-06-a2",
+   "note": "basis: general-knowledge"
+  },
+  {
+   "field": "certification",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-29",
+   "run": "2026-10-29-round-06-a2",
+   "note": "basis: general-knowledge"
+  },
+  {
+   "field": "language_type",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-29",
+   "run": "2026-10-29-round-06-a2",
+   "note": "basis: general-knowledge"
+  }
+ ]
+}
