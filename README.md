@@ -6,7 +6,7 @@
 
 **Why it exists.** To count skills in job postings you have to know that "Postgres" and "PostgreSQL" are one skill, that "Swift" can mean two things, and that PostgreSQL is a kind of SQL. The counts on the explorer are only as good as this dictionary.
 
-**State.** First pass, branch `overnight-1`. 2746 entries: 2134 skills, 427 certifications, 120 languages and 65 abilities (52 from O*NET, in `abilities/`). The 81 registry entries are `proposed`; everything drafted from the legacy tag lists is `machine-drafted`, written by a model from general knowledge with no source checked. Nothing is `reviewed`. Of 10928 claims, 104 are backed by a matched source (the O*NET abilities) and none by a person. Every certification, language and ability has had one check by a second model; the skills have not. 1196 tags are not yet drafted. 128 tests pass. See `docs/OVERNIGHT.md`.
+**State.** First pass, branch `overnight-1`. 2746 entries: 2134 skills, 427 certifications, 120 languages and 65 abilities (52 from O*NET, in `abilities/`). The 81 registry entries are `proposed`; everything drafted from the legacy tag lists is `machine-drafted`, written by a model from general knowledge with no source checked. Nothing is `reviewed`. Of 10928 claims, 104 are backed by a matched source (the O*NET abilities) and none by a person. Every certification, language and ability has had one check by a second model; the skills have not. 1196 tags are not yet drafted. 133 tests pass. Outside models can vote on all of it: see [reviews/README.md](reviews/README.md) and the prompt in [docs/REVIEWER-PROMPT.md](docs/REVIEWER-PROMPT.md). See `docs/OVERNIGHT.md`.
 
 **Licence and owner.** MIT, copyright Humanitarians AI Incorporated (see `LICENSE`). **Not decided yet:** who reviews entries.
 
@@ -19,7 +19,7 @@
 - Every claim can carry evidence: who drafted it (a named model and run, or a person), who checked it, and which outside source it was matched to. A model agreeing with a model never counts as a check; a person's check or a matched source does.
 - Status: `machine-drafted`, `proposed`, `reviewed`, `deprecated`. Only `reviewed` entries should feed published counts.
 - **Growing it from postings:** scripts find known and unknown skills, and any language model drafts entries for the unknown ones. See [docs/PIPELINE.md](docs/PIPELINE.md) and [skills/draft-entry/SKILL.md](skills/draft-entry/SKILL.md).
-- `python3 -I tools/lexicon.py validate` checks every entry. `python3 -I tools/lexicon.py index` builds `build/index.json`, the surface-form lookup the extractor reads. `python3 -I tests/test_lexicon.py` and `python3 -I tests/test_pipeline.py` run the tests.
+- `python3 -I tools/lexicon.py validate` checks every entry. `python3 -I tools/lexicon.py index` builds `build/index.json`, the surface-form lookup the extractor reads. `python3 -I tests/test_lexicon.py`, `test_pipeline.py`, `test_provenance.py` and `test_schema.py` in `tests/` run the tests. Tools are in `tools/`, passes and one-time scripts in `scripts/` (`scripts/oneoff/` holds the scripts that wrote earlier answers; see its README).
 
 ## Known limits
 
