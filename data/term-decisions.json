@@ -1902,5 +1902,269 @@
   "run": "2026-10-29-round-02-a4",
   "date": "2026-10-29",
   "reason": "A disease, not a skill."
+ },
+ {
+  "term": "Contouring",
+  "decision": "unsure",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-03-a3",
+  "date": "2026-10-29",
+  "reason": "Could mean makeup, body, map or radiotherapy contouring, and the nearest entry (body contouring) is only one of them."
+ },
+ {
+  "term": "Contract Manufacturer",
+  "decision": "not_a_skill",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-03-a3",
+  "date": "2026-10-29",
+  "reason": "A type of company, not a skill."
+ },
+ {
+  "term": "Contract Research Organization",
+  "decision": "not_a_skill",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-03-a3",
+  "date": "2026-10-29",
+  "reason": "A type of company, not a skill."
+ },
+ {
+  "term": "Control Arms Campaign",
+  "decision": "not_a_skill",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-03-a3",
+  "date": "2026-10-29",
+  "reason": "The name of an advocacy campaign, not a skill."
+ },
+ {
+  "term": "Control Risks",
+  "decision": "not_a_skill",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-03-a3",
+  "date": "2026-10-29",
+  "reason": "A consultancy company name, not a skill."
+ },
+ {
+  "term": "Control Tables",
+  "decision": "unsure",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-03-a3",
+  "date": "2026-10-29",
+  "reason": "Used in programming, ETL and control engineering with different meanings, and the tag does not say which."
+ },
+ {
+  "term": "Convention Agreement in 1992",
+  "decision": "not_a_skill",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-03-a3",
+  "date": "2026-10-29",
+  "reason": "A dated international agreement named by year, which is not a skill."
+ },
+ {
+  "term": "Copenhagen Accord",
+  "decision": "not_a_skill",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-03-a3",
+  "date": "2026-10-29",
+  "reason": "The name of a 2009 climate agreement, not a skill."
+ },
+ {
+  "term": "Core Competency",
+  "decision": "not_a_skill",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-03-a3",
+  "date": "2026-10-29",
+  "reason": "A generic business-strategy phrase, not a specific skill."
+ },
+ {
+  "term": "Core Services",
+  "decision": "not_a_skill",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-03-a3",
+  "date": "2026-10-29",
+  "reason": "A generic business phrase, not a skill."
+ },
+ {
+  "term": "Cornelia De Lange Syndrome (CDLS)",
+  "decision": "not_a_skill",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-03-a3",
+  "date": "2026-10-29",
+  "reason": "A genetic medical condition, not a skill."
+ },
+ {
+  "term": "Corporate Distribution",
+  "decision": "unsure",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-03-a3",
+  "date": "2026-10-29",
+  "reason": "Could mean a company's distribution channels, distribution of goods, or tax distributions, and nothing here says which."
+ },
+ {
+  "term": "Counterclaim",
+  "decision": "not_a_skill",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-03-a3",
+  "date": "2026-10-29",
+  "reason": "A legal pleading term, not a skill."
+ },
+ {
+  "term": "Court Staff",
+  "decision": "not_a_skill",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-03-a3",
+  "date": "2026-10-29",
+  "reason": "A group of workers (job titles), not a skill."
+ },
+ {
+  "term": "Craft Business",
+  "decision": "not_a_skill",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-03-a3",
+  "date": "2026-10-29",
+  "reason": "A kind of business, not a skill."
+ },
+ {
+  "term": "Creative Design",
+  "decision": "unsure",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-03-a3",
+  "date": "2026-10-29",
+  "reason": "Too general to tell whether it means graphic design, advertising creative or another design discipline."
+ },
+ {
+  "term": "Creative Industries",
+  "decision": "not_a_skill",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-03-a3",
+  "date": "2026-10-29",
+  "reason": "An industry sector, not a skill."
+ },
+ {
+  "term": "Credit Card Fraud",
+  "decision": "not_a_skill",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-03-a3",
+  "date": "2026-10-29",
+  "reason": "Names a type of crime, not a skill; detecting or investigating it would be the skill."
+ },
+ {
+  "term": "Crime Reporting",
+  "decision": "unsure",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-03-a3",
+  "date": "2026-10-29",
+  "reason": "Could mean writing police crime reports, journalism about crime, or statistical crime reporting."
+ },
+ {
+  "term": "Criminal Records",
+  "decision": "not_a_skill",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-03-a3",
+  "date": "2026-10-29",
+  "reason": "Names a kind of document, not a skill."
+ },
+ {
+  "term": "Crisis Prevention",
+  "decision": "unsure",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-03-a3",
+  "date": "2026-10-29",
+  "reason": "Could be the general skill of defusing crises or the Crisis Prevention Institute's training; the tag does not say."
+ },
+ {
+  "term": "Criteria Api",
+  "decision": "unsure",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-03-a3",
+  "date": "2026-10-29",
+  "reason": "Several Java persistence libraries have a Criteria API (JPA, Hibernate, Spring Data), and the tag does not say which."
+ },
+ {
+  "term": "Crouton",
+  "decision": "unsure",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-03-a3",
+  "date": "2026-10-29",
+  "reason": "Could be an Android notification library, a ChromeOS tool or a food, and the tag does not say."
+ },
+ {
+  "term": "Cryptocurrency Exchanges",
+  "decision": "unsure",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-03-a3",
+  "date": "2026-10-29",
+  "reason": "Names a type of marketplace or business, and it is unclear whether it means trading on, building or running one."
+ },
+ {
+  "term": "Cubic Motion",
+  "decision": "not_a_skill",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-03-a3",
+  "date": "2026-10-29",
+  "reason": "A company name, not a skill."
+ },
+ {
+  "term": "Cultural Tourism",
+  "decision": "not_a_skill",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-03-a3",
+  "date": "2026-10-29",
+  "reason": "Names a segment of the tourism industry, not a skill."
+ },
+ {
+  "term": "Culturally Responsive",
+  "decision": "unsure",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-03-a3",
+  "date": "2026-10-29",
+  "reason": "An adjective that usually completes a phrase such as culturally responsive teaching, and the tag does not say which."
+ },
+ {
+  "term": "Culture Industry",
+  "decision": "not_a_skill",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-03-a3",
+  "date": "2026-10-29",
+  "reason": "A critical-theory term or a sector name, not a skill."
+ },
+ {
+  "term": "Curb Appeals",
+  "decision": "not_a_skill",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-03-a3",
+  "date": "2026-10-29",
+  "reason": "Names a quality of a property (an outcome), not a skill."
+ },
+ {
+  "term": "Cursor (Graphical User Interface Elements)",
+  "decision": "not_a_skill",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-03-a3",
+  "date": "2026-10-29",
+  "reason": "A user-interface element, not a skill."
+ },
+ {
+  "term": "Custom Design Lean Mfg Systems",
+  "decision": "unsure",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-03-a3",
+  "date": "2026-10-29",
+  "reason": "Reads like a fragment of a resume line about designing lean manufacturing systems, not an established term."
+ },
+ {
+  "term": "Custom Url",
+  "decision": "unsure",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-03-a3",
+  "date": "2026-10-29",
+  "reason": "Could mean vanity URLs, URL rewriting or custom domains, and the tag does not say which."
+ },
+ {
+  "term": "Customer Support Analyst",
+  "decision": "not_a_skill",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-03-a3",
+  "date": "2026-10-29",
+  "reason": "A job title, not a skill."
  }
 ]
