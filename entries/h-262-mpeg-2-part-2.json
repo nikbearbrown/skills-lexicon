@@ -1,0 +1,93 @@
+{
+ "id": "p1m3z4jikp",
+ "preferred_name": "H.262/MPEG-2 Part 2",
+ "kind": "standard",
+ "definition": "A video compression standard published jointly by ITU-T as H.262 and by ISO/IEC as MPEG-2 Part 2.",
+ "key": "h-262-mpeg-2-part-2",
+ "certification": false,
+ "variants": [
+  {
+   "label": "H.262",
+   "match": "exact_case"
+  },
+  {
+   "label": "MPEG-2 Part 2",
+   "match": "word_ci"
+  },
+  {
+   "label": "MPEG-2 Video",
+   "match": "word_ci"
+  }
+ ],
+ "relations": [],
+ "verbs": [],
+ "status": "machine-drafted",
+ "provenance": {
+  "source": "drafted by model:claude-sonnet-5-5, run 2026-10-29-round-05-a3, from the name in the legacy tag list alone; no posting or outside source checked",
+  "date": "2026-10-29",
+  "reviewed_by": null,
+  "legacy_tag": {
+   "sources": [
+    {
+     "file": "data/skills_tags.csv",
+     "rows": [
+      1838
+     ],
+     "class": "Skill"
+    }
+   ],
+   "class": "Skill",
+   "in_lists": []
+  }
+ },
+ "evidence": [
+  {
+   "field": "definition",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-29",
+   "run": "2026-10-29-round-05-a3",
+   "note": "basis: general-knowledge"
+  },
+  {
+   "field": "kind",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-29",
+   "run": "2026-10-29-round-05-a3",
+   "note": "basis: general-knowledge (with the definition)"
+  },
+  {
+   "field": "variant:h.262",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-29",
+   "run": "2026-10-29-round-05-a3",
+   "note": "basis: general-knowledge"
+  },
+  {
+   "field": "variant:mpeg-2 part 2",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-29",
+   "run": "2026-10-29-round-05-a3",
+   "note": "basis: general-knowledge"
+  },
+  {
+   "field": "variant:mpeg-2 video",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-29",
+   "run": "2026-10-29-round-05-a3",
+   "note": "basis: general-knowledge"
+  },
+  {
+   "field": "certification",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-29",
+   "run": "2026-10-29-round-05-a3",
+   "note": "basis: general-knowledge"
+  }
+ ]
+}
