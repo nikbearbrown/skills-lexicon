@@ -15,6 +15,13 @@ import lexicon as L  # noqa: E402
 import make_requests as M  # noqa: E402
 import run_endpoint as R  # noqa: E402
 
+_REAL = L.load()[0]
+
+
+def rid(old):
+    """The current id of a real entry, found by the id it had before ids became random."""
+    return L.find(_REAL, old)["id"]
+
 AD = {"id": "gh:1", "title": "Data Engineer", "text": (
     "We use Postgres and Kubernetes. Experience with Terraform, Snowflake and dbt is a plus.\n"
     "You will build LLM observability tooling. Strong PG skills with our database tier. Based in NYC, EEO employer.")}
@@ -47,20 +54,20 @@ class Extract(unittest.TestCase):
         self.skills = {s["concept"]: s for s in self.rec[0]["skills"]}
 
     def test_variant_resolves_to_canonical(self):
-        self.assertEqual(self.skills["skill:0082"]["form"], "Postgres")
-        self.assertIn("Postgres", self.skills["skill:0082"]["quote"])
+        self.assertEqual(self.skills[rid("skill:0082")]["form"], "Postgres")
+        self.assertIn("Postgres", self.skills[rid("skill:0082")]["quote"])
 
     def test_rollup_counts_sql_for_postgresql(self):
-        self.assertEqual(self.rec[0]["rolled_up"], ["skill:0046"])
+        self.assertEqual(self.rec[0]["rolled_up"], [rid("skill:0046")])
 
     def test_longest_span_wins(self):
-        self.assertIn("skill:0008", self.skills)       # LLM observability
-        self.assertNotIn("skill:0007", self.skills)    # not also plain Observability
+        self.assertIn(rid("skill:0008"), self.skills)       # LLM observability
+        self.assertNotIn(rid("skill:0007"), self.skills)    # not also plain Observability
 
     def test_context_gates_the_short_form(self):
         with_ctx = X.process([{"id": "a", "text": "Strong PG skills with our database tier."}], self.entries)[0][0]["skills"]
         without = X.process([{"id": "b", "text": "Strong PG skills needed."}], self.entries)[0][0]["skills"]
-        self.assertEqual([s["concept"] for s in with_ctx], ["skill:0082"])
+        self.assertEqual([s["concept"] for s in with_ctx], [rid("skill:0082")])
         self.assertEqual(without, [])
 
     def test_exact_case_short_forms(self):
@@ -70,7 +77,7 @@ class Extract(unittest.TestCase):
     def test_ambiguous_form_is_reported_not_counted(self):
         rec = X.process([{"id": "a", "text": "Hold a CPC credential."}], self.entries)[0][0]
         self.assertEqual(rec["skills"], [])
-        self.assertEqual(sorted(rec["ambiguous"][0]["candidates"]), ["skill:0030", "skill:0031"])
+        self.assertEqual(sorted(rec["ambiguous"][0]["candidates"]), [rid("skill:0030"), rid("skill:0031")])
 
     def test_unknown_terms_found_with_quotes_and_known_ones_skipped(self):
         terms = {c["term"] for c in self.cands}
@@ -134,7 +141,7 @@ class Requests(unittest.TestCase):
     def test_nearest_finds_the_related_entry(self):
         entries, _ = L.load()
         near = M.nearest("PostgreSQL 15", [{"quote": "run PostgreSQL databases"}], entries)
-        self.assertEqual(near[0]["id"], "skill:0082")
+        self.assertEqual(near[0]["id"], rid("skill:0082"))
 
     def test_nearest_uses_cooccurrence_not_stray_words(self):
         entries, _ = L.load()
@@ -153,9 +160,9 @@ NEW = {"decision": "new", "variant_of": None, "reason": "a container orchestrato
     "preferred_name": "Kubernetes", "kind": "platform", "definition": "A system for running containerised applications across machines.",
     "definition_basis": "general-knowledge",
     "variants": [{"label": "k8s", "basis": "general-knowledge"}, {"label": "K8", "basis": "guess"}],
-    "relations": [{"type": "related", "target": "skill:0019", "basis": "general-knowledge"},
+    "relations": [{"type": "related", "target": rid("skill:0019"), "basis": "general-knowledge"},
                   {"type": "broader", "target": "skill:9999", "basis": "general-knowledge"},
-                  {"type": "related", "target": "skill:0082", "basis": "guess"}],
+                  {"type": "related", "target": rid("skill:0082"), "basis": "guess"}],
     "verbs": [{"verb": "deploy", "basis": "posting"}, {"verb": "tune", "basis": "guess"}]}}
 
 
@@ -166,10 +173,11 @@ class Ingest(unittest.TestCase):
         self.assertEqual(rep["new"], ["Kubernetes"])
         e = json.loads((root / "entries" / "kubernetes.json").read_text())
         others, _ = L.load(root / "entries")
-        top = max(int(x["id"][6:]) for x in others if x["key"] != "kubernetes")
-        self.assertEqual((e["status"], e["id"]), ("machine-drafted", f"skill:{top + 1:05d}"))
+        self.assertEqual(e["status"], "machine-drafted")
+        self.assertRegex(e["id"], L.ID_RE)                                           # a random 10-character id
+        self.assertNotIn(e["id"], {x["id"] for x in others if x["key"] != "kubernetes"})
         self.assertEqual({v["label"] for v in e["variants"]}, {"k8s"})              # guess dropped
-        self.assertEqual([r["target"] for r in e["relations"]], ["skill:0019"])     # bad target and guess dropped
+        self.assertEqual([r["target"] for r in e["relations"]], [rid("skill:0019")])     # bad target and guess dropped
         self.assertEqual(e["verbs"], ["deploy"])
         self.assertEqual({v["by"] for v in e["evidence"]}, {"model:my-local-model"})
         self.assertEqual({v["field"] for v in e["evidence"]}, L.claim_keys(e))
@@ -229,7 +237,7 @@ class Ingest(unittest.TestCase):
     def test_variant_of_adds_a_claim_to_the_existing_entry(self):
         root = temp_root()
         ad = {"id": "gh:2", "text": "We run PostgreSQL 15 clusters. Experience with PG15 required."}
-        rep, _ = run_pipeline(root, [ad], {"PG15": {"decision": "variant_of", "variant_of": "skill:0082", "reason": "version name"}})
+        rep, _ = run_pipeline(root, [ad], {"PG15": {"decision": "variant_of", "variant_of": rid("skill:0082"), "reason": "version name"}})
         self.assertEqual(len(rep["variant"]), 1)
         e = json.loads((root / "entries" / "postgresql.json").read_text())
         self.assertIn("PG15", [v["label"] for v in e["variants"]])
@@ -245,7 +253,7 @@ class Ingest(unittest.TestCase):
                          for k in L.claim_keys(e)]
         p.write_text(json.dumps(e))
         ad = {"id": "gh:2", "text": "Experience with PG15 required."}
-        rep, _ = run_pipeline(root, [ad], {"PG15": {"decision": "variant_of", "variant_of": "skill:0082", "reason": "x"}})
+        rep, _ = run_pipeline(root, [ad], {"PG15": {"decision": "variant_of", "variant_of": rid("skill:0082"), "reason": "x"}})
         self.assertEqual(rep["variant"], [])
         self.assertEqual(len(rep["rejected"]), 1)
         self.assertIn("pull request", rep["rejected"][0][1])     # the clear reason, not just a validator error
@@ -331,12 +339,19 @@ class Annotations(unittest.TestCase):
         e = json.loads((root / "entries" / "frobnicate-cert.json").read_text())
         self.assertNotIn("language_type", e)               # a value outside the allowed set is dropped, not saved
 
+    def test_ids_are_case_insensitive_and_former_ids_resolve(self):
+        near = rid("skill:0019")
+        _, root = tag_run(tag_answer(relations=[{"type": "related", "target": near.upper(), "basis": "general-knowledge"},
+                                                {"type": "related", "target": "skill:0082", "basis": "general-knowledge"}]))
+        e = json.loads((root / "entries" / "frobnicate-cert.json").read_text())
+        self.assertEqual([r["target"] for r in e["relations"]], [near, rid("skill:0082")])   # stored as the current lower-case id
+
     def test_guessed_annotation_is_dropped(self):
         _, root = tag_run(tag_answer(certification={"value": True, "basis": "guess"}))
         self.assertNotIn("certification", json.loads((root / "entries" / "frobnicate-cert.json").read_text()))
 
     def test_validator_rejects_bad_values(self):
-        base = {"id": "skill:00001", "preferred_name": "A", "kind": "skill", "definition": "d", "status": "proposed",
+        base = {"id": "abcdefghi1", "preferred_name": "A", "kind": "skill", "definition": "d", "status": "proposed",
                 "provenance": {"source": "t", "date": "2026-10-29"}, "_file": "a.json"}
         self.assertTrue(any("certification must be" in m for m in L.validate([dict(base, certification="yes")])))
         self.assertTrue(any("language_type must be" in m for m in L.validate([dict(base, language_type="klingon")])))

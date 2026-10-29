@@ -1,5 +1,8 @@
 {
- "id": "skill:00126",
+ "id": "hk6558v1ji",
+ "former_ids": [
+  "skill:00126"
+ ],
  "preferred_name": "Master's certificate in project management",
  "kind": "credential",
  "definition": "A graduate-level certificate programme in project management, shorter than a master's degree.",
@@ -14,7 +17,7 @@
  "relations": [
   {
    "type": "related",
-   "target": "skill:0074"
+   "target": "z83cabeb9c"
   }
  ],
  "verbs": [],
@@ -63,7 +66,7 @@
    "note": "listed in the legacy tag list; the model chose the canonical name"
   },
   {
-   "field": "relation:related:skill:0074",
+   "field": "relation:related:z83cabeb9c",
    "by": "model:claude-sonnet-5-5",
    "action": "drafted",
    "date": "2026-10-29",

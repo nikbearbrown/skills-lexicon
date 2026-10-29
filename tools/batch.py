@@ -6,7 +6,8 @@ The batch is every entry drafted in that run (by the run label on its evidence),
 resolved without a new entry: added as a variant, not a skill, or unsure. entries/*.json stays the source
 of truth for each entry; the pair is generated from it and must not be edited by hand. The Markdown is
 rendered from the JSON file written beside it, so the two cannot disagree.
-Files are named data/skills_<first id>-<last id>.json and .md, with ids zero-padded to 5 digits.
+Files are named data/skills_batch_NNN.json and .md. Re-running a run reuses its batch number; a new run takes the next.
+Entries are listed by name, because ids are random and carry no order.
 """
 import argparse
 import json
@@ -18,10 +19,6 @@ import lexicon as L  # noqa: E402
 import tags_to_candidates as T  # noqa: E402
 
 MARK = {"drafted": "○", "backed": "✔", "contradicted": "✖"}
-
-
-def number(e):
-    return int(e["id"][6:])
 
 
 def claim_state(e, key):
@@ -80,23 +77,34 @@ def collect(root, run):
             out["legacy_tag"] = T.origin(g)
         return out
     return {
-        "new": sorted(({k: v for k, v in e.items() if not k.startswith("_")} for e in new), key=number),
+        "new": sorted(({k: v for k, v in e.items() if not k.startswith("_")} for e in new), key=lambda e: e["preferred_name"].casefold()),
         "variants_added": added,
         "not_a_skill": [with_rows(d) for d in decisions if d["decision"] == "not_a_skill"],
         "unsure": [with_rows(d) for d in decisions if d["decision"] == "unsure"],
     }
 
 
+def batch_number(root, run):
+    """The number of the existing batch for this run, else the next free one."""
+    nums = {}
+    for p in sorted((Path(root) / "data").glob("skills_batch_*.json")):
+        nums[int(p.stem.rsplit("_", 1)[1])] = json.loads(p.read_text("utf-8")).get("batch", {}).get("run")
+    for n, r in nums.items():
+        if r == run:
+            return n
+    return max(nums, default=0) + 1
+
+
 def build(root, run):
     c = collect(root, run)
     if not c["new"]:
         raise SystemExit(f"no entries were drafted in run {run!r}")
-    first, last = number(c["new"][0]), number(c["new"][-1])
+    n = batch_number(root, run)
     models = sorted({ev["by"] for e in c["new"] for ev in e["evidence"]})
     doc = {
         "batch": {
-            "run": run, "models": models, "date": c["new"][0]["provenance"]["date"],
-            "source": T.TAGS, "id_range": [f"skill:{first:05d}", f"skill:{last:05d}"],
+            "number": n, "run": run, "models": models, "date": c["new"][0]["provenance"]["date"],
+            "source": T.TAGS,
             "counts": {"new_entries": len(c["new"]), "variants_added": len(c["variants_added"]),
                        "not_a_skill": len(c["not_a_skill"]), "unsure": len(c["unsure"])},
             "generated": "from entries/*.json by tools/batch.py; do not edit by hand",
@@ -105,12 +113,12 @@ def build(root, run):
         "entries": c["new"], "variants_added": c["variants_added"],
         "not_a_skill": c["not_a_skill"], "unsure": c["unsure"],
     }
-    return doc, f"skills_{first:05d}-{last:05d}"
+    return doc, f"skills_batch_{n:03d}"
 
 
 def render_md(doc, names):
     b = doc["batch"]
-    out = [f"# Skills lexicon batch {b['id_range'][0].split(':')[1]}–{b['id_range'][1].split(':')[1]}", "",
+    out = [f"# Skills lexicon batch {b['number']:03d}", "",
            f"Run `{b['run']}` · {b['date']} · drafted by {', '.join(f'`{m}`' for m in b['models'])} · source `{b['source']}`", "",
            "**Generated from the JSON file beside this one. Do not edit it; correct `entries/<key>.json` instead.**", "",
            "Every claim below carries a marker: ○ drafted by a model, not yet checked · ✔ backed by a human check or a matched source · "

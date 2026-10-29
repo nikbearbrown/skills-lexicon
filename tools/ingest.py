@@ -84,13 +84,13 @@ def build_new(resp, req, entries, by, run, today):
     for k in ("preferred_name", "kind", "definition"):
         if not isinstance(e.get(k), str) or not e[k].strip():
             raise ValueError(f"entry.{k} is missing")
-    ids = {x["id"] for x in entries}
     quote = (req.get("quotes") or [{}])[0].get("quote", "")
     dropped, ev = [], []
     dbasis = e.get("definition_basis")
     if dbasis not in BASIS or dbasis == "guess":
         raise ValueError("definition_basis must be 'posting' or 'general-knowledge'; a guessed definition is not kept")
-    out = {"id": f"skill:{max(int(x['id'][6:]) for x in entries) + 1:05d}", "preferred_name": e["preferred_name"].strip(),
+    taken = {x["id"] for x in entries} | {f for x in entries for f in x.get("former_ids", [])}
+    out = {"id": L.new_id(taken), "preferred_name": e["preferred_name"].strip(),
            "kind": e["kind"].strip(), "definition": e["definition"].strip()}
     out["key"] = slugify(out["preferred_name"], {x.get("key") for x in entries})
     if L.default_match(out["preferred_name"]) != "word_ci":
@@ -117,13 +117,14 @@ def build_new(resp, req, entries, by, run, today):
     rels = []
     for r in e.get("relations") or []:
         t, tgt, b = r.get("type"), r.get("target"), r.get("basis")
-        if t not in L.REL_TYPES or tgt not in ids:
+        found = L.find(entries, tgt) if isinstance(tgt, str) else None     # ids are case-insensitive; a former id still resolves
+        if t not in L.REL_TYPES or found is None:
             dropped.append(f"relation {t} -> {tgt}: unknown type or target")
         elif b not in BASIS or b == "guess":
             dropped.append(f"relation {t} -> {tgt}: basis {b!r}")
         else:
-            rels.append({"type": t, "target": tgt})
-            ev.append(evidence(f"relation:{t}:{tgt}", by, run, today, b, quote))
+            rels.append({"type": t, "target": found["id"]})
+            ev.append(evidence(f"relation:{t}:{found['id']}", by, run, today, b, quote))
     verbs = []
     for v in e.get("verbs") or []:
         w, b = (v.get("verb") or "").strip(), v.get("basis")
@@ -148,7 +149,7 @@ def build_new(resp, req, entries, by, run, today):
 
 def add_variant(resp, req, entries, by, run, today):
     tid = resp.get("variant_of")
-    tgt = next((x for x in entries if x["id"] == tid), None)
+    tgt = L.find(entries, tid) if isinstance(tid, str) else None
     if tgt is None:
         raise ValueError(f"variant_of {tid!r} does not exist")
     if tgt["status"] == "reviewed":

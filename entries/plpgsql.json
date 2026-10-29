@@ -1,5 +1,8 @@
 {
- "id": "skill:0083",
+ "id": "onzi0v8hlf",
+ "former_ids": [
+  "skill:0083"
+ ],
  "key": "plpgsql",
  "preferred_name": "PL/pgSQL",
  "kind": "programming-language",
@@ -13,7 +16,7 @@
  "relations": [
   {
    "type": "part_of",
-   "target": "skill:0082",
+   "target": "sh6x1wmacn",
    "rolls_up": false
   }
  ],
@@ -44,7 +47,7 @@
    "note": "general knowledge; no source checked"
   },
   {
-   "field": "relation:part_of:skill:0082",
+   "field": "relation:part_of:sh6x1wmacn",
    "by": "model:claude-sonnet-5-5",
    "action": "drafted",
    "date": "2026-10-27",

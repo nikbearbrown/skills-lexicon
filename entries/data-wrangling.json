@@ -1,5 +1,8 @@
 {
- "id": "skill:00101",
+ "id": "ie3ky4o9l0",
+ "former_ids": [
+  "skill:00101"
+ ],
  "preferred_name": "Data wrangling",
  "kind": "skill",
  "definition": "Cleaning, reshaping and combining raw data so it can be analysed.",
@@ -14,7 +17,7 @@
  "relations": [
   {
    "type": "related",
-   "target": "skill:0004"
+   "target": "uclexd8uv3"
   }
  ],
  "verbs": [
@@ -66,7 +69,7 @@
    "note": "basis: general-knowledge"
   },
   {
-   "field": "relation:related:skill:0004",
+   "field": "relation:related:uclexd8uv3",
    "by": "model:claude-sonnet-5-5",
    "action": "drafted",
    "date": "2026-10-29",

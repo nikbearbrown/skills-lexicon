@@ -1,5 +1,8 @@
 {
- "id": "skill:00129",
+ "id": "ivx36sezid",
+ "former_ids": [
+  "skill:00129"
+ ],
  "preferred_name": "Natural language understanding",
  "kind": "knowledge",
  "definition": "The part of natural language processing concerned with getting machines to grasp the meaning and intent of human language.",
@@ -15,7 +18,7 @@
  "relations": [
   {
    "type": "broader",
-   "target": "skill:0039"
+   "target": "d168utcmjy"
   }
  ],
  "verbs": [],
@@ -64,7 +67,7 @@
    "note": "basis: general-knowledge"
   },
   {
-   "field": "relation:broader:skill:0039",
+   "field": "relation:broader:d168utcmjy",
    "by": "model:claude-sonnet-5-5",
    "action": "drafted",
    "date": "2026-10-29",

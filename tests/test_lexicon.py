@@ -7,13 +7,53 @@ sys.path.insert(0, str(Path(__file__).resolve().parent.parent / "tools"))
 import lexicon as L  # noqa: E402
 
 P = {"source": "test", "date": "2026-10-27"}
+_REAL = L.load()[0]
+
+
+def eid(i):
+    """A valid made-up id for a test entry."""
+    return f"a{i:09d}"
+
+
+def I(old):
+    """The current id of a real entry, found by the id it had before ids became random."""
+    return L.find(_REAL, old)["id"]
 
 
 def entry(i, name, **kw):
-    e = {"id": f"skill:{i:04d}", "preferred_name": name, "kind": "skill", "definition": "d",
+    e = {"id": eid(i), "preferred_name": name, "kind": "skill", "definition": "d",
          "status": "proposed", "provenance": dict(P), "_file": f"{i}.json"}
     e.update(kw)
     return e
+
+
+class Ids(unittest.TestCase):
+    def test_new_ids_are_ten_characters_of_letters_and_digits(self):
+        taken = set()
+        for _ in range(500):
+            i = L.new_id(taken)
+            taken.add(i)
+            self.assertRegex(i, r"^[a-z0-9]{10}$")
+            self.assertTrue(i[0].isalpha() and any(c.isdigit() for c in i))     # starts with a letter, has a digit
+        self.assertEqual(len(taken), 500)
+
+    def test_new_id_avoids_taken_ids_in_any_case(self):
+        self.assertNotIn("abc1234567", {L.new_id({"ABC1234567"}) for _ in range(50)})
+
+    def test_bad_ids_are_rejected(self):
+        for bad in ("skill:0001", "abcdefghij", "1abcdefghi", "ABCDEFGHI1", "abc123", "abcdefghi12"):
+            self.assertTrue(any("must be 10" in m for m in L.validate([entry(1, "A", id=bad)])), bad)
+        self.assertEqual(L.validate([entry(1, "A", id="a1b2c3d4e5")]), [])
+
+    def test_find_matches_current_and_former_ids_ignoring_case(self):
+        e = entry(1, "A", former_ids=["skill:0007"])
+        self.assertIs(L.find([e], e["id"].upper()), e)
+        self.assertIs(L.find([e], "SKILL:0007"), e)
+        self.assertIsNone(L.find([e], "skill:0008"))
+
+    def test_a_former_id_cannot_belong_to_two_entries(self):
+        a, b = entry(1, "A", former_ids=["skill:0007"]), entry(2, "B", former_ids=["skill:0007"])
+        self.assertTrue(any("former id" in m for m in L.validate([a, b])))
 
 
 class Validate(unittest.TestCase):
@@ -43,26 +83,26 @@ class Validate(unittest.TestCase):
         self.assertTrue(any("listed twice" in m for m in L.validate([entry(1, "Python", variants=[{"label": "python"}])])))
 
     def test_missing_target_self_relation_and_bad_type(self):
-        e = entry(1, "A", relations=[{"type": "broader", "target": "skill:0099"}, {"type": "related", "target": "skill:0001"},
-                                      {"type": "sibling", "target": "skill:0001"}])
+        e = entry(1, "A", relations=[{"type": "broader", "target": eid(99)}, {"type": "related", "target": eid(1)},
+                                      {"type": "sibling", "target": eid(1)}])
         m = " | ".join(L.validate([e]))
         self.assertIn("does not exist", m)
         self.assertIn("itself", m)
         self.assertIn("not one of", m)
 
     def test_loop_in_broader(self):
-        a = entry(1, "A", relations=[{"type": "broader", "target": "skill:0002"}])
-        b = entry(2, "B", relations=[{"type": "part_of", "target": "skill:0001"}])
+        a = entry(1, "A", relations=[{"type": "broader", "target": eid(2)}])
+        b = entry(2, "B", relations=[{"type": "part_of", "target": eid(1)}])
         self.assertTrue(any("loop" in m for m in L.validate([a, b])))
 
     def test_reviewed_needs_reviewer_and_sources(self):
-        e = entry(1, "A", status="reviewed", relations=[{"type": "related", "target": "skill:0002"}])
+        e = entry(1, "A", status="reviewed", relations=[{"type": "related", "target": eid(2)}])
         m = " | ".join(L.validate([e, entry(2, "B")]))
         self.assertIn("reviewed_by", m)
         self.assertIn("no human check or matched source", m)
 
     def test_rolls_up_only_on_up_relations(self):
-        e = entry(1, "A", relations=[{"type": "related", "target": "skill:0002", "rolls_up": True}])
+        e = entry(1, "A", relations=[{"type": "related", "target": eid(2), "rolls_up": True}])
         self.assertTrue(any("rolls_up only" in m for m in L.validate([e, entry(2, "B")])))
 
     def test_deprecated_needs_replacement(self):
@@ -134,7 +174,7 @@ class Index(unittest.TestCase):
         self.idx = L.build_index(self.entries)
 
     def test_postgres_resolves_to_postgresql(self):
-        self.assertEqual([c["id"] for c in self.idx["variants"]["postgres"]], ["skill:0082"])
+        self.assertEqual([c["id"] for c in self.idx["variants"]["postgres"]], [I("skill:0082")])
 
     def test_pg_needs_context_and_is_case_sensitive(self):
         c = self.idx["variants"]["pg"][0]
@@ -146,18 +186,18 @@ class Index(unittest.TestCase):
         self.assertTrue(all(x["ambiguous"] for x in c))
 
     def test_rollup_follows_only_marked_edges(self):
-        self.assertEqual(L.rollup(self.entries, "skill:0082"), ["skill:0046"])   # PostgreSQL -> SQL
-        self.assertEqual(L.rollup(self.entries, "skill:0083"), [])               # PL/pgSQL -> nothing
+        self.assertEqual(L.rollup(self.entries, I("skill:0082")), [I("skill:0046")])   # PostgreSQL -> SQL
+        self.assertEqual(L.rollup(self.entries, I("skill:0083")), [])               # PL/pgSQL -> nothing
 
     def test_inverse_relations_are_derived(self):
-        types = {(r["type"], r["target"]) for r in self.idx["relations"]["skill:0082"]}
-        self.assertIn(("has_part", "skill:0083"), types)
-        sql = {(r["type"], r["target"]) for r in self.idx["relations"]["skill:0046"]}
-        self.assertIn(("narrower", "skill:0082"), sql)
-        self.assertIn(("contrast", "skill:0084"), sql)   # stored once on NoSQL, visible from SQL
+        types = {(r["type"], r["target"]) for r in self.idx["relations"][I("skill:0082")]}
+        self.assertIn(("has_part", I("skill:0083")), types)
+        sql = {(r["type"], r["target"]) for r in self.idx["relations"][I("skill:0046")]}
+        self.assertIn(("narrower", I("skill:0082")), sql)
+        self.assertIn(("contrast", I("skill:0084")), sql)   # stored once on NoSQL, visible from SQL
 
     def test_deprecated_entries_are_not_matched(self):
-        a = entry(1, "Old", status="deprecated", replacements=["skill:0002"])
+        a = entry(1, "Old", status="deprecated", replacements=[eid(2)])
         self.assertNotIn("old", L.build_index([a, entry(2, "New")])["variants"])
 
 

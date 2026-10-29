@@ -50,7 +50,7 @@ Output exactly this shape (no code fence, no commentary):
  "entry": {
    "preferred_name": "", "kind": "", "definition": "", "definition_basis": "posting|general-knowledge|guess",
    "variants": [{"label": "", "basis": ""}],
-   "relations": [{"type": "", "target": "skill:NNNN", "basis": ""}],
+   "relations": [{"type": "", "target": "<id of an entry in nearest>", "basis": ""}],
    "verbs": [{"verb": "", "basis": ""}],
    "certification": {"value": false, "basis": ""},
    "language_type": {"value": null, "basis": ""},

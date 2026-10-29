@@ -1,4 +1,4 @@
-# Skills lexicon batch 00085–00155
+# Skills lexicon batch 001
 
 Run `2026-10-29-pilot-100-tags` · 2026-10-29 · drafted by `model:claude-sonnet-5-5` · source `data/skills_tags.csv`
 
@@ -14,7 +14,7 @@ Every claim below carries a marker: ○ drafted by a model, not yet checked · �
 
 ## 3D solid and surface modeling
 
-`skill:00085` · skill · machine-drafted · legacy tag: `skills_tags.csv` row 10 (Skill)
+`kwcwko7ozp` · skill · machine-drafted · legacy tag: `skills_tags.csv` row 10 (Skill)
 
 - **Definition:** Building three-dimensional models of objects as solids and as surfaces in CAD software. ○ _general-knowledge_
 - **Kind:** skill ○ _general-knowledge (with the definition)_
@@ -23,7 +23,7 @@ Every claim below carries a marker: ○ drafted by a model, not yet checked · �
 
 ## Additive manufacturing
 
-`skill:00086` · method · machine-drafted · legacy tag: `skills_tags.csv` row 95 (Skill)
+`u7y9o9rpyw` · method · machine-drafted · legacy tag: `skills_tags.csv` row 95 (Skill)
 
 - **Definition:** Making physical objects by adding material layer by layer from a digital model, as in 3D printing. ○ _general-knowledge_
 - **Kind:** method ○ _general-knowledge (with the definition)_
@@ -33,7 +33,7 @@ Every claim below carries a marker: ○ drafted by a model, not yet checked · �
 
 ## Administering blood tests
 
-`skill:00087` · skill · machine-drafted · legacy tag: `skills_tags.csv` row 98 (Skill)
+`zko5ukvqdy` · skill · machine-drafted · legacy tag: `skills_tags.csv` row 98 (Skill)
 
 - **Definition:** Performing blood tests on patients, typically drawing a sample and preparing it for laboratory analysis. ○ _general-knowledge_
 - **Kind:** skill ○ _general-knowledge (with the definition)_
@@ -41,7 +41,7 @@ Every claim below carries a marker: ○ drafted by a model, not yet checked · �
 
 ## Adult-Gerontology Acute Care Nurse Practitioner
 
-`skill:00088` · credential · machine-drafted · legacy tag: `skills_tags.csv` row 111 (Skill)
+`u0nv7nrdlk` · credential · machine-drafted · legacy tag: `skills_tags.csv` row 111 (Skill)
 
 - **Definition:** A nurse practitioner certification for caring for acutely ill adult and older-adult patients. ○ _general-knowledge_
 - **Kind:** credential ○ _general-knowledge (with the definition)_
@@ -51,7 +51,7 @@ Every claim below carries a marker: ○ drafted by a model, not yet checked · �
 
 ## Advanced Trauma Life Support
 
-`skill:00089` · credential · machine-drafted · legacy tag: `skills_tags.csv` row 124 (Skill)
+`q9s4sj8gqa` · credential · machine-drafted · legacy tag: `skills_tags.csv` row 124 (Skill)
 
 - **Definition:** A trauma-care training course and certification from the American College of Surgeons on the first assessment and management of injured patients. ○ _general-knowledge_
 - **Kind:** credential ○ _general-knowledge (with the definition)_
@@ -60,7 +60,7 @@ Every claim below carries a marker: ○ drafted by a model, not yet checked · �
 
 ## American Board of Medical Laboratory Immunology certification
 
-`skill:00090` · credential · machine-drafted · legacy tag: `skills_tags.csv` row 182, 188 (Certification/Skill); `skills-certification.csv` row 9 (Certification) ⚠ class conflict in the legacy lists
+`u3ojnio176` · credential · machine-drafted · legacy tag: `skills_tags.csv` row 182, 188 (Certification/Skill); `skills-certification.csv` row 9 (Certification) ⚠ class conflict in the legacy lists
 
 - **Definition:** Certification by the American Board of Medical Laboratory Immunology in medical laboratory immunology. ○ _general-knowledge_
 - **Kind:** credential ○ _general-knowledge (with the definition)_
@@ -69,9 +69,18 @@ Every claim below carries a marker: ○ drafted by a model, not yet checked · �
 - **Also written:** ABMLI certification ○ _general-knowledge_
 - **Also written:** ABMLI ○ _general-knowledge_
 
+## Apache Karaf
+
+`zksf32dtwb` · platform · machine-drafted · legacy tag: `skills_tags.csv` row 2247 (Skill)
+
+- **Definition:** An Apache runtime container for deploying and managing OSGi-based Java applications. ○ _general-knowledge_
+- **Kind:** platform ○ _general-knowledge (with the definition)_
+- **Certification:** no ○ _general-knowledge_
+- **Also written:** Karaf ○ _listed in the legacy tag list; the model chose the canonical name_
+
 ## ARKit
 
-`skill:00091` · framework · machine-drafted · legacy tag: `skills_tags.csv` row 294 (Skill)
+`tkak2r7a31` · framework · machine-drafted · legacy tag: `skills_tags.csv` row 294 (Skill)
 
 - **Definition:** Apple's framework for building augmented reality apps on iOS and iPadOS. ○ _general-knowledge_
 - **Kind:** framework ○ _general-knowledge (with the definition)_
@@ -81,7 +90,7 @@ Every claim below carries a marker: ○ drafted by a model, not yet checked · �
 
 ## AWS big data
 
-`skill:00092` · skill · machine-drafted · legacy tag: `skills_tags.csv` row 41 (Skill)
+`scnorb90o8` · skill · machine-drafted · legacy tag: `skills_tags.csv` row 41 (Skill)
 
 - **Definition:** Using Amazon Web Services' data analytics and big data services, such as EMR, Redshift and Kinesis, to store and process large datasets. ○ _general-knowledge_
 - **Kind:** skill ○ _general-knowledge (with the definition)_
@@ -89,7 +98,7 @@ Every claim below carries a marker: ○ drafted by a model, not yet checked · �
 
 ## Aymara
 
-`skill:00093` · human-language · machine-drafted · legacy tag: `skills_tags.csv` row 383 (Language); `skills-language.csv` row 25 (Language)
+`r46ots78g8` · human-language · machine-drafted · legacy tag: `skills_tags.csv` row 383 (Language); `skills-language.csv` row 25 (Language)
 
 - **Definition:** An indigenous language of the Andes spoken mainly in Bolivia, Peru and Chile. ○ _general-knowledge_
 - **Kind:** human-language ○ _general-knowledge (with the definition)_
@@ -99,7 +108,7 @@ Every claim below carries a marker: ○ drafted by a model, not yet checked · �
 
 ## Board support package
 
-`skill:00094` · skill · machine-drafted · legacy tag: `skills_tags.csv` row 487 (Skill)
+`ljshci25ww` · skill · machine-drafted · legacy tag: `skills_tags.csv` row 487 (Skill)
 
 - **Definition:** Developing the low-level code and drivers that let an operating system run on a specific hardware board. ○ _general-knowledge_
 - **Kind:** skill ○ _general-knowledge (with the definition)_
@@ -111,7 +120,7 @@ Every claim below carries a marker: ○ drafted by a model, not yet checked · �
 
 ## cAdvisor
 
-`skill:00095` · tool · machine-drafted · legacy tag: `skills_tags.csv` row 577 (Skill)
+`rzrebn0fyg` · tool · machine-drafted · legacy tag: `skills_tags.csv` row 577 (Skill)
 
 - **Definition:** A Google-developed tool that collects and exposes resource usage and performance data for running containers. ○ _general-knowledge_
 - **Kind:** tool ○ _general-knowledge (with the definition)_
@@ -119,9 +128,18 @@ Every claim below carries a marker: ○ drafted by a model, not yet checked · �
 - **Verb:** deploy ○ _general-knowledge_
 - **Verb:** configure ○ _general-knowledge_
 
+## CCH ProSystem fx Engagement
+
+`ieb2kta6jv` · tool · machine-drafted · legacy tag: `skills_tags.csv` row 3129 (Skill)
+
+- **Definition:** Wolters Kluwer CCH software that accounting firms use to manage engagements and workpapers. ○ _general-knowledge_
+- **Kind:** tool ○ _general-knowledge (with the definition)_
+- **Certification:** no ○ _general-knowledge_
+- **Also written:** ProSystem Fx Engagement (Tax Software) ○ _listed in the legacy tag list; the model chose the canonical name_
+
 ## Certified Forensic Computer Examiner
 
-`skill:00096` · credential · machine-drafted · legacy tag: `skills_tags.csv` row 695 (Certification); `skills-certification.csv` row 304 (Certification)
+`s1txpyxeni` · credential · machine-drafted · legacy tag: `skills_tags.csv` row 695 (Certification); `skills-certification.csv` row 304 (Certification)
 
 - **Definition:** A digital forensics certification from the International Association of Computer Investigative Specialists. ○ _general-knowledge_
 - **Kind:** credential ○ _general-knowledge (with the definition)_
@@ -131,7 +149,7 @@ Every claim below carries a marker: ○ drafted by a model, not yet checked · �
 
 ## Certified Pediatric Emergency Nurse
 
-`skill:00097` · credential · machine-drafted · legacy tag: `skills_tags.csv` row 743 (Certification); `skills-certification.csv` row 352 (Certification)
+`ue0pgomm0l` · credential · machine-drafted · legacy tag: `skills_tags.csv` row 743 (Certification); `skills-certification.csv` row 352 (Certification)
 
 - **Definition:** A nursing certification from the Board of Certification for Emergency Nursing for nurses who care for children in emergencies. ○ _general-knowledge_
 - **Kind:** credential ○ _general-knowledge (with the definition)_
@@ -140,7 +158,7 @@ Every claim below carries a marker: ○ drafted by a model, not yet checked · �
 
 ## Certified Professional Geologist
 
-`skill:00098` · credential · machine-drafted · legacy tag: `skills_tags.csv` row 756 (Certification); `skills-certification.csv` row 365 (Certification)
+`z5cl5m7b48` · credential · machine-drafted · legacy tag: `skills_tags.csv` row 756 (Certification); `skills-certification.csv` row 365 (Certification)
 
 - **Definition:** A professional certification for geologists from the American Institute of Professional Geologists. ○ _general-knowledge_
 - **Kind:** credential ○ _general-knowledge (with the definition)_
@@ -149,7 +167,7 @@ Every claim below carries a marker: ○ drafted by a model, not yet checked · �
 
 ## CompTIA Mobility+
 
-`skill:00099` · credential · machine-drafted · legacy tag: `skills_tags.csv` row 947 (Certification); `skills-certification.csv` row 431 (Certification)
+`ffswfagi3s` · credential · machine-drafted · legacy tag: `skills_tags.csv` row 947 (Certification); `skills-certification.csv` row 431 (Certification)
 
 - **Definition:** A CompTIA certification covering the management and support of mobile devices and the systems that manage them. ○ _general-knowledge_
 - **Kind:** credential ○ _general-knowledge (with the definition)_
@@ -157,7 +175,7 @@ Every claim below carries a marker: ○ drafted by a model, not yet checked · �
 
 ## Dagger 2
 
-`skill:00100` · framework · machine-drafted · legacy tag: `skills_tags.csv` row 1151 (Skill)
+`bgv8aoglzh` · framework · machine-drafted · legacy tag: `skills_tags.csv` row 1151 (Skill)
 
 - **Definition:** A dependency injection framework for Java and Android that generates its code at compile time. ○ _general-knowledge_
 - **Kind:** framework ○ _general-knowledge (with the definition)_
@@ -166,19 +184,19 @@ Every claim below carries a marker: ○ drafted by a model, not yet checked · �
 
 ## Data wrangling
 
-`skill:00101` · skill · machine-drafted · legacy tag: `skills_tags.csv` row 1180 (Skill)
+`ie3ky4o9l0` · skill · machine-drafted · legacy tag: `skills_tags.csv` row 1180 (Skill)
 
 - **Definition:** Cleaning, reshaping and combining raw data so it can be analysed. ○ _general-knowledge_
 - **Kind:** skill ○ _general-knowledge (with the definition)_
 - **Certification:** no ○ _general-knowledge_
 - **Also written:** Data munging ○ _general-knowledge_
-- **Relation:** related → Data validation (`skill:0004`) ○ _general-knowledge_
+- **Relation:** related → Data validation (`uclexd8uv3`) ○ _general-knowledge_
 - **Verb:** clean ○ _general-knowledge_
 - **Verb:** transform ○ _general-knowledge_
 
 ## DbVisualizer
 
-`skill:00102` · tool · machine-drafted · legacy tag: `skills_tags.csv` row 1202 (Skill)
+`ds71vj3zr1` · tool · machine-drafted · legacy tag: `skills_tags.csv` row 1202 (Skill)
 
 - **Definition:** A graphical database client for browsing, querying and administering many kinds of databases. ○ _general-knowledge_
 - **Kind:** tool ○ _general-knowledge (with the definition)_
@@ -187,7 +205,7 @@ Every claim below carries a marker: ○ drafted by a model, not yet checked · �
 
 ## Deposition (geology)
 
-`skill:00103` · knowledge · machine-drafted · legacy tag: `skills_tags.csv` row 1231 (Skill)
+`d8uol1sujj` · knowledge · machine-drafted · legacy tag: `skills_tags.csv` row 1231 (Skill)
 
 - **Definition:** The geological process by which sediment, soil or rock is laid down on a landform or land mass. ○ _general-knowledge_
 - **Kind:** knowledge ○ _general-knowledge (with the definition)_
@@ -195,7 +213,7 @@ Every claim below carries a marker: ○ drafted by a model, not yet checked · �
 
 ## Deterministic methods
 
-`skill:00104` · method · machine-drafted · legacy tag: `skills_tags.csv` row 1248 (Skill)
+`mgwpga1jmw` · method · machine-drafted · legacy tag: `skills_tags.csv` row 1248 (Skill)
 
 - **Definition:** Methods whose result is fully determined by their inputs, with no randomness involved. ○ _general-knowledge_
 - **Kind:** method ○ _general-knowledge (with the definition)_
@@ -203,7 +221,7 @@ Every claim below carries a marker: ○ drafted by a model, not yet checked · �
 
 ## Doctor of Physical Therapy
 
-`skill:00105` · credential · machine-drafted · legacy tag: `skills_tags.csv` row 1321 (Certification); `skills-certification.csv` row 483 (Certification)
+`d52wj7x3wm` · credential · machine-drafted · legacy tag: `skills_tags.csv` row 1321 (Certification); `skills-certification.csv` row 483 (Certification)
 
 - **Definition:** A doctoral degree that qualifies graduates to practise as physical therapists in the United States. ○ _general-knowledge_
 - **Kind:** credential ○ _general-knowledge (with the definition)_
@@ -212,7 +230,7 @@ Every claim below carries a marker: ○ drafted by a model, not yet checked · �
 
 ## Doctor of Public Health
 
-`skill:00106` · credential · machine-drafted · legacy tag: `skills_tags.csv` row 1322, 1325 (Certification); `skills-certification.csv` row 484, 485 (Certification)
+`svio15mnpv` · credential · machine-drafted · legacy tag: `skills_tags.csv` row 1322, 1325 (Certification); `skills-certification.csv` row 484, 485 (Certification)
 
 - **Definition:** A doctoral degree in public health focused on professional practice and leadership. ○ _general-knowledge_
 - **Kind:** credential ○ _general-knowledge (with the definition)_
@@ -221,7 +239,7 @@ Every claim below carries a marker: ○ drafted by a model, not yet checked · �
 
 ## Doubles/triples endorsement
 
-`skill:00107` · credential · machine-drafted · legacy tag: `skills_tags.csv` row 1334 (Certification); `skills-certification.csv` row 490 (Certification)
+`xpo0iet9cq` · credential · machine-drafted · legacy tag: `skills_tags.csv` row 1334 (Certification); `skills-certification.csv` row 490 (Certification)
 
 - **Definition:** A commercial driver's licence endorsement that permits towing two or three trailers. ○ _general-knowledge_
 - **Kind:** credential ○ _general-knowledge (with the definition)_
@@ -230,7 +248,7 @@ Every claim below carries a marker: ○ drafted by a model, not yet checked · �
 
 ## Drone pilot certificate
 
-`skill:00108` · credential · machine-drafted · legacy tag: `skills_tags.csv` row 1340 (Certification); `skills-certification.csv` row 491 (Certification)
+`ypvc3ra1n1` · credential · machine-drafted · legacy tag: `skills_tags.csv` row 1340 (Certification); `skills-certification.csv` row 491 (Certification)
 
 - **Definition:** A certificate that allows a person to fly small unmanned aircraft commercially; in the United States, the FAA Remote Pilot Certificate under Part 107. ○ _general-knowledge_
 - **Kind:** credential ○ _general-knowledge (with the definition)_
@@ -239,7 +257,7 @@ Every claim below carries a marker: ○ drafted by a model, not yet checked · �
 
 ## Dynamic cycle counting
 
-`skill:00109` · method · machine-drafted · legacy tag: `skills_tags.csv` row 1355 (Skill)
+`zomymgt82i` · method · machine-drafted · legacy tag: `skills_tags.csv` row 1355 (Skill)
 
 - **Definition:** Cycle counting of inventory in which the timing of each count is set by rules such as item value, movement or error history. ○ _general-knowledge_
 - **Kind:** method ○ _general-knowledge (with the definition)_
@@ -247,7 +265,7 @@ Every claim below carries a marker: ○ drafted by a model, not yet checked · �
 
 ## Electronic paper
 
-`skill:00110` · knowledge · machine-drafted · legacy tag: `skills_tags.csv` row 1403 (Skill)
+`pis2iav0c2` · knowledge · machine-drafted · legacy tag: `skills_tags.csv` row 1403 (Skill)
 
 - **Definition:** Display technology that mimics ink on paper, reflecting light and holding an image without power, as used in e-readers. ○ _general-knowledge_
 - **Kind:** knowledge ○ _general-knowledge (with the definition)_
@@ -256,7 +274,7 @@ Every claim below carries a marker: ○ drafted by a model, not yet checked · �
 
 ## Esker
 
-`skill:00111` · tool · machine-drafted · legacy tag: `skills_tags.csv` row 1505 (Skill)
+`prkfpz7o8w` · tool · machine-drafted · legacy tag: `skills_tags.csv` row 1505 (Skill)
 
 - **Definition:** Cloud software for automating document-based business processes such as accounts payable and order processing. ○ _general-knowledge_
 - **Kind:** tool ○ _general-knowledge (with the definition)_
@@ -265,7 +283,7 @@ Every claim below carries a marker: ○ drafted by a model, not yet checked · �
 
 ## Express.js
 
-`skill:00112` · framework · machine-drafted · legacy tag: `skills_tags.csv` row 1535 (Skill)
+`pl9ucmohz5` · framework · machine-drafted · legacy tag: `skills_tags.csv` row 1535 (Skill)
 
 - **Definition:** A minimal web application framework for Node.js. ○ _general-knowledge_
 - **Kind:** framework ○ _general-knowledge (with the definition)_
@@ -274,7 +292,7 @@ Every claim below carries a marker: ○ drafted by a model, not yet checked · �
 
 ## French
 
-`skill:00113` · human-language · machine-drafted · legacy tag: `skills_tags.csv` row 1688 (Language)
+`jeai1j8uhz` · human-language · machine-drafted · legacy tag: `skills_tags.csv` row 1688 (Language)
 
 - **Definition:** A Romance language spoken in France and many other countries. ○ _general-knowledge_
 - **Kind:** human-language ○ _general-knowledge (with the definition)_
@@ -285,7 +303,7 @@ Every claim below carries a marker: ○ drafted by a model, not yet checked · �
 
 ## HTML formatting
 
-`skill:00114` · skill · machine-drafted · legacy tag: `skills_tags.csv` row 1942 (Skill)
+`jy5t5pwupo` · skill · machine-drafted · legacy tag: `skills_tags.csv` row 1942 (Skill)
 
 - **Definition:** Marking up and styling text and page content with HTML tags. ○ _general-knowledge_
 - **Kind:** skill ○ _general-knowledge (with the definition)_
@@ -293,7 +311,7 @@ Every claim below carries a marker: ○ drafted by a model, not yet checked · �
 
 ## IAM Level I certification
 
-`skill:00115` · credential · machine-drafted · legacy tag: `skills_tags.csv` row 1970 (Certification); `skills-certification.csv` row 532 (Certification)
+`xzgr4torrj` · credential · machine-drafted · legacy tag: `skills_tags.csv` row 1970 (Certification); `skills-certification.csv` row 532 (Certification)
 
 - **Definition:** An information assurance management qualification at Level I, as defined in the U.S. Department of Defense 8570 workforce framework. ○ _general-knowledge_
 - **Kind:** credential ○ _general-knowledge (with the definition)_
@@ -301,7 +319,7 @@ Every claim below carries a marker: ○ drafted by a model, not yet checked · �
 
 ## IBM POWER8
 
-`skill:00116` · platform · machine-drafted · legacy tag: `skills_tags.csv` row 1986 (Skill)
+`k6ns4jdo7n` · platform · machine-drafted · legacy tag: `skills_tags.csv` row 1986 (Skill)
 
 - **Definition:** IBM's eighth-generation POWER microprocessor family for servers, released in 2014. ○ _general-knowledge_
 - **Kind:** platform ○ _general-knowledge (with the definition)_
@@ -311,7 +329,7 @@ Every claim below carries a marker: ○ drafted by a model, not yet checked · �
 
 ## InsightVM
 
-`skill:00117` · tool · machine-drafted · legacy tag: `skills_tags.csv` row 2102 (Skill)
+`jx2hqz8q8r` · tool · machine-drafted · legacy tag: `skills_tags.csv` row 2102 (Skill)
 
 - **Definition:** Rapid7's vulnerability management software, which scans systems for security weaknesses and helps prioritise fixes. ○ _general-knowledge_
 - **Kind:** tool ○ _general-knowledge (with the definition)_
@@ -323,7 +341,7 @@ Every claim below carries a marker: ○ drafted by a model, not yet checked · �
 
 ## Interactive 3D
 
-`skill:00118` · skill · machine-drafted · legacy tag: `skills_tags.csv` row 2126 (Skill)
+`m9s424jy6t` · skill · machine-drafted · legacy tag: `skills_tags.csv` row 2126 (Skill)
 
 - **Definition:** Building three-dimensional content that users can rotate, explore or manipulate in real time, for example in a browser or game engine. ○ _general-knowledge_
 - **Kind:** skill ○ _general-knowledge (with the definition)_
@@ -331,7 +349,7 @@ Every claim below carries a marker: ○ drafted by a model, not yet checked · �
 
 ## JaCoCo
 
-`skill:00119` · library · machine-drafted · legacy tag: `skills_tags.csv` row 2193 (Skill)
+`uyk06pg91v` · library · machine-drafted · legacy tag: `skills_tags.csv` row 2193 (Skill)
 
 - **Definition:** A free Java code coverage library that measures how much of a program its tests run. ○ _general-knowledge_
 - **Kind:** library ○ _general-knowledge (with the definition)_
@@ -339,24 +357,15 @@ Every claim below carries a marker: ○ drafted by a model, not yet checked · �
 
 ## JSData
 
-`skill:00120` · library · machine-drafted · legacy tag: `skills_tags.csv` row 2226 (Skill)
+`xmdqx611pm` · library · machine-drafted · legacy tag: `skills_tags.csv` row 2226 (Skill)
 
 - **Definition:** A framework-agnostic JavaScript library for managing application data in a client-side store. ○ _general-knowledge_
 - **Kind:** library ○ _general-knowledge (with the definition)_
 - **Certification:** no ○ _general-knowledge_
 
-## Apache Karaf
-
-`skill:00121` · platform · machine-drafted · legacy tag: `skills_tags.csv` row 2247 (Skill)
-
-- **Definition:** An Apache runtime container for deploying and managing OSGi-based Java applications. ○ _general-knowledge_
-- **Kind:** platform ○ _general-knowledge (with the definition)_
-- **Certification:** no ○ _general-knowledge_
-- **Also written:** Karaf ○ _listed in the legacy tag list; the model chose the canonical name_
-
 ## Law enforcement operations
 
-`skill:00122` · knowledge · machine-drafted · legacy tag: `skills_tags.csv` row 2308 (Skill)
+`i3hhtsx5w7` · knowledge · machine-drafted · legacy tag: `skills_tags.csv` row 2308 (Skill)
 
 - **Definition:** Planning and carrying out the work of police and other law enforcement agencies. ○ _general-knowledge_
 - **Kind:** knowledge ○ _general-knowledge (with the definition)_
@@ -364,7 +373,7 @@ Every claim below carries a marker: ○ drafted by a model, not yet checked · �
 
 ## Marathi
 
-`skill:00123` · human-language · machine-drafted · legacy tag: `skills_tags.csv` row 2445 (Language); `skills-language.csv` row 186 (Language)
+`o7rmvt0viw` · human-language · machine-drafted · legacy tag: `skills_tags.csv` row 2445 (Language); `skills-language.csv` row 186 (Language)
 
 - **Definition:** An Indo-Aryan language spoken mainly in the Indian state of Maharashtra. ○ _general-knowledge_
 - **Kind:** human-language ○ _general-knowledge (with the definition)_
@@ -374,7 +383,7 @@ Every claim below carries a marker: ○ drafted by a model, not yet checked · �
 
 ## Master of Laws
 
-`skill:00124` · credential · machine-drafted · legacy tag: `skills_tags.csv` row 2467, 2472 (Certification/Skill); `skills-certification.csv` row 555 (Certification) ⚠ class conflict in the legacy lists
+`w2o4zybnso` · credential · machine-drafted · legacy tag: `skills_tags.csv` row 2467, 2472 (Certification/Skill); `skills-certification.csv` row 555 (Certification) ⚠ class conflict in the legacy lists
 
 - **Definition:** A postgraduate law degree taken after a first law degree. ○ _general-knowledge_
 - **Kind:** credential ○ _general-knowledge (with the definition)_
@@ -383,7 +392,7 @@ Every claim below carries a marker: ○ drafted by a model, not yet checked · �
 
 ## Master of Laws in Taxation
 
-`skill:00125` · credential · machine-drafted · legacy tag: `skills_tags.csv` row 2468, 2473 (Certification/Skill); `skills-certification.csv` row 556 (Certification) ⚠ class conflict in the legacy lists
+`fj3w62grru` · credential · machine-drafted · legacy tag: `skills_tags.csv` row 2468, 2473 (Certification/Skill); `skills-certification.csv` row 556 (Certification) ⚠ class conflict in the legacy lists
 
 - **Definition:** A postgraduate law degree that specialises in tax law. ○ _general-knowledge_
 - **Kind:** credential ○ _general-knowledge (with the definition)_
@@ -393,17 +402,17 @@ Every claim below carries a marker: ○ drafted by a model, not yet checked · �
 
 ## Master's certificate in project management
 
-`skill:00126` · credential · machine-drafted · legacy tag: `skills_tags.csv` row 2476 (Skill)
+`hk6558v1ji` · credential · machine-drafted · legacy tag: `skills_tags.csv` row 2476 (Skill)
 
 - **Definition:** A graduate-level certificate programme in project management, shorter than a master's degree. ○ _general-knowledge_
 - **Kind:** credential ○ _general-knowledge (with the definition)_
 - **Certification:** yes ○ _general-knowledge; no legacy list/class says so_ ⚠ the legacy lists/class do not say so, check it
 - **Also written:** Masters Certificate In Project Management ○ _listed in the legacy tag list; the model chose the canonical name_
-- **Relation:** related → Project management (`skill:0074`) ○ _general-knowledge_
+- **Relation:** related → Project management (`z83cabeb9c`) ○ _general-knowledge_
 
 ## Media Center Markup Language
 
-`skill:00127` · markup-language · machine-drafted · legacy tag: `skills_tags.csv` row 2501 (Language)
+`hg27hw3l2c` · markup-language · machine-drafted · legacy tag: `skills_tags.csv` row 2501 (Language)
 
 - **Definition:** An XML-based markup language used to build user interfaces for Windows Media Center applications. ○ _general-knowledge_
 - **Kind:** markup-language ○ _general-knowledge (with the definition)_
@@ -413,7 +422,7 @@ Every claim below carries a marker: ○ drafted by a model, not yet checked · �
 
 ## Mixed reality
 
-`skill:00128` · knowledge · machine-drafted · legacy tag: `skills_tags.csv` row 2616 (Skill)
+`sfte4xs6zx` · knowledge · machine-drafted · legacy tag: `skills_tags.csv` row 2616 (Skill)
 
 - **Definition:** Technology that blends real and virtual objects so that they interact in real time. ○ _general-knowledge_
 - **Kind:** knowledge ○ _general-knowledge (with the definition)_
@@ -421,18 +430,18 @@ Every claim below carries a marker: ○ drafted by a model, not yet checked · �
 
 ## Natural language understanding
 
-`skill:00129` · knowledge · machine-drafted · legacy tag: `skills_tags.csv` row 2719 (Language)
+`ivx36sezid` · knowledge · machine-drafted · legacy tag: `skills_tags.csv` row 2719 (Language)
 
 - **Definition:** The part of natural language processing concerned with getting machines to grasp the meaning and intent of human language. ○ _general-knowledge_
 - **Kind:** knowledge ○ _general-knowledge (with the definition)_
 - **Certification:** no ○ _general-knowledge_
 - **Note:** The model says this is not a language; the legacy list/class says it is. A field of study about language, not a language that people speak or program in. ⚠
 - **Also written:** NLU ○ _general-knowledge_
-- **Relation:** broader → Natural language processing (`skill:0039`) ○ _general-knowledge_
+- **Relation:** broader → Natural language processing (`d168utcmjy`) ○ _general-knowledge_
 
 ## Neonatal Resuscitation Program
 
-`skill:00130` · credential · machine-drafted · legacy tag: `skills_tags.csv` row 2730 (Skill)
+`gxbpx9za78` · credential · machine-drafted · legacy tag: `skills_tags.csv` row 2730 (Skill)
 
 - **Definition:** A training programme from the American Academy of Pediatrics and the American Heart Association on resuscitating newborns. ○ _general-knowledge_
 - **Kind:** credential ○ _general-knowledge (with the definition)_
@@ -442,7 +451,7 @@ Every claim below carries a marker: ○ drafted by a model, not yet checked · �
 
 ## NFPA 70E
 
-`skill:00131` · knowledge · machine-drafted · legacy tag: `skills_tags.csv` row 2746 (Skill)
+`e77t10tbmi` · knowledge · machine-drafted · legacy tag: `skills_tags.csv` row 2746 (Skill)
 
 - **Definition:** A National Fire Protection Association standard for electrical safety in the workplace in the United States. ○ _general-knowledge_
 - **Kind:** knowledge ○ _general-knowledge (with the definition)_
@@ -450,7 +459,7 @@ Every claim below carries a marker: ○ drafted by a model, not yet checked · �
 
 ## Objective-C
 
-`skill:00132` · programming-language · machine-drafted · legacy tag: `skills_tags.csv` row 2800 (Language); `skills-language.csv` row 199 (Language)
+`iip9ks8y55` · programming-language · machine-drafted · legacy tag: `skills_tags.csv` row 2800 (Language); `skills-language.csv` row 199 (Language)
 
 - **Definition:** An object-oriented extension of C used for Apple's macOS and iOS software. ○ _general-knowledge_
 - **Kind:** programming-language ○ _general-knowledge (with the definition)_
@@ -461,7 +470,7 @@ Every claim below carries a marker: ○ drafted by a model, not yet checked · �
 
 ## Passenger endorsement
 
-`skill:00133` · credential · machine-drafted · legacy tag: `skills_tags.csv` row 2947 (Certification); `skills-certification.csv` row 673 (Certification)
+`sli7qqx1gw` · credential · machine-drafted · legacy tag: `skills_tags.csv` row 2947 (Certification); `skills-certification.csv` row 673 (Certification)
 
 - **Definition:** A commercial driver's licence endorsement that permits driving vehicles that carry passengers, such as buses. ○ _general-knowledge_
 - **Kind:** credential ○ _general-knowledge (with the definition)_
@@ -469,7 +478,7 @@ Every claim below carries a marker: ○ drafted by a model, not yet checked · �
 
 ## Phoenician
 
-`skill:00134` · human-language · machine-drafted · legacy tag: `skills_tags.csv` row 3028 (Language); `skills-language.csv` row 210 (Language)
+`xlftnwk7c1` · human-language · machine-drafted · legacy tag: `skills_tags.csv` row 3028 (Language); `skills-language.csv` row 210 (Language)
 
 - **Definition:** An extinct Canaanite language of the ancient Phoenicians, written in the Phoenician alphabet. ○ _general-knowledge_
 - **Kind:** human-language ○ _general-knowledge (with the definition)_
@@ -479,7 +488,7 @@ Every claim below carries a marker: ○ drafted by a model, not yet checked · �
 
 ## Plumbing drawing
 
-`skill:00135` · skill · machine-drafted · legacy tag: `skills_tags.csv` row 3074 (Skill)
+`rbg0r9t749` · skill · machine-drafted · legacy tag: `skills_tags.csv` row 3074 (Skill)
 
 - **Definition:** Preparing or reading technical drawings that show the layout of pipes and fixtures in a building. ○ _general-knowledge_
 - **Kind:** skill ○ _general-knowledge (with the definition)_
@@ -487,7 +496,7 @@ Every claim below carries a marker: ○ drafted by a model, not yet checked · �
 
 ## Production support
 
-`skill:00136` · skill · machine-drafted · legacy tag: `skills_tags.csv` row 3159 (Skill)
+`tu36v4sy7c` · skill · machine-drafted · legacy tag: `skills_tags.csv` row 3159 (Skill)
 
 - **Definition:** Monitoring and troubleshooting a live system to resolve problems that affect users. ○ _general-knowledge_
 - **Kind:** skill ○ _general-knowledge (with the definition)_
@@ -495,18 +504,9 @@ Every claim below carries a marker: ○ drafted by a model, not yet checked · �
 - **Verb:** troubleshoot ○ _general-knowledge_
 - **Verb:** monitor ○ _general-knowledge_
 
-## CCH ProSystem fx Engagement
-
-`skill:00137` · tool · machine-drafted · legacy tag: `skills_tags.csv` row 3129 (Skill)
-
-- **Definition:** Wolters Kluwer CCH software that accounting firms use to manage engagements and workpapers. ○ _general-knowledge_
-- **Kind:** tool ○ _general-knowledge (with the definition)_
-- **Certification:** no ○ _general-knowledge_
-- **Also written:** ProSystem Fx Engagement (Tax Software) ○ _listed in the legacy tag list; the model chose the canonical name_
-
 ## Reading gauges
 
-`skill:00138` · skill · machine-drafted · legacy tag: `skills_tags.csv` row 3284 (Skill)
+`rmkqenma3p` · skill · machine-drafted · legacy tag: `skills_tags.csv` row 3284 (Skill)
 
 - **Definition:** Reading analog or digital gauges to check pressure, temperature, levels or flow on equipment. ○ _general-knowledge_
 - **Kind:** skill ○ _general-knowledge (with the definition)_
@@ -514,7 +514,7 @@ Every claim below carries a marker: ○ drafted by a model, not yet checked · �
 
 ## Regulation SHO
 
-`skill:00139` · knowledge · machine-drafted · legacy tag: `skills_tags.csv` row 3329 (Skill)
+`yi5wth4bnj` · knowledge · machine-drafted · legacy tag: `skills_tags.csv` row 3329 (Skill)
 
 - **Definition:** A U.S. Securities and Exchange Commission regulation governing short sales of securities, including locate and close-out requirements. ○ _general-knowledge_
 - **Kind:** knowledge ○ _general-knowledge (with the definition)_
@@ -522,7 +522,7 @@ Every claim below carries a marker: ○ drafted by a model, not yet checked · �
 
 ## Restricted Radiotelephone Operator Permit
 
-`skill:00140` · credential · machine-drafted · legacy tag: `skills_tags.csv` row 3369 (Skill)
+`ukd3hy0vke` · credential · machine-drafted · legacy tag: `skills_tags.csv` row 3369 (Skill)
 
 - **Definition:** A U.S. Federal Communications Commission permit that allows a person to operate certain radio equipment, such as aircraft and marine radios. ○ _general-knowledge_
 - **Kind:** credential ○ _general-knowledge (with the definition)_
@@ -530,7 +530,7 @@ Every claim below carries a marker: ○ drafted by a model, not yet checked · �
 
 ## SACA Certified Industry 4.0 Associate, Basic Operations
 
-`skill:00141` · credential · machine-drafted · legacy tag: `skills_tags.csv` row 3413 (Certification); `skills-certification.csv` row 796 (Certification)
+`n01lv1fq0t` · credential · machine-drafted · legacy tag: `skills_tags.csv` row 3413 (Certification); `skills-certification.csv` row 796 (Certification)
 
 - **Definition:** A certification from the Smart Automation Certification Alliance for basic operations in Industry 4.0 manufacturing environments. ○ _general-knowledge_
 - **Kind:** credential ○ _general-knowledge (with the definition)_
@@ -539,7 +539,7 @@ Every claim below carries a marker: ○ drafted by a model, not yet checked · �
 
 ## Safety Trained Supervisor
 
-`skill:00142` · credential · machine-drafted · legacy tag: `skills_tags.csv` row 3442 (Certification); `skills-certification.csv` row 800 (Certification)
+`mfaw2zyj3n` · credential · machine-drafted · legacy tag: `skills_tags.csv` row 3442 (Certification); `skills-certification.csv` row 800 (Certification)
 
 - **Definition:** A safety credential for supervisors trained to manage workplace safety. ○ _general-knowledge_
 - **Kind:** credential ○ _general-knowledge (with the definition)_
@@ -549,7 +549,7 @@ Every claim below carries a marker: ○ drafted by a model, not yet checked · �
 
 ## Screening resumes
 
-`skill:00143` · skill · machine-drafted · legacy tag: `skills_tags.csv` row 3489 (Skill)
+`pqt2ajoqzd` · skill · machine-drafted · legacy tag: `skills_tags.csv` row 3489 (Skill)
 
 - **Definition:** Reviewing resumes to pick the candidates who match a job's requirements. ○ _general-knowledge_
 - **Kind:** skill ○ _general-knowledge (with the definition)_
@@ -559,7 +559,7 @@ Every claim below carries a marker: ○ drafted by a model, not yet checked · �
 
 ## Security Check (SC) clearance
 
-`skill:00144` · credential · machine-drafted · legacy tag: `skills_tags.csv` row 3507 (Skill)
+`b01cze4ssf` · credential · machine-drafted · legacy tag: `skills_tags.csv` row 3507 (Skill)
 
 - **Definition:** A UK government security clearance level that allows regular access to secret assets. ○ _general-knowledge_
 - **Kind:** credential ○ _general-knowledge (with the definition)_
@@ -569,7 +569,7 @@ Every claim below carries a marker: ○ drafted by a model, not yet checked · �
 
 ## Slovene
 
-`skill:00145` · human-language · machine-drafted · legacy tag: `skills_tags.csv` row 3618 (Language); `skills-language.csv` row 253 (Language)
+`unurfua1et` · human-language · machine-drafted · legacy tag: `skills_tags.csv` row 3618 (Language); `skills-language.csv` row 253 (Language)
 
 - **Definition:** A South Slavic language spoken mainly in Slovenia. ○ _general-knowledge_
 - **Kind:** human-language ○ _general-knowledge (with the definition)_
@@ -580,7 +580,7 @@ Every claim below carries a marker: ○ drafted by a model, not yet checked · �
 
 ## Software as a service
 
-`skill:00146` · knowledge · machine-drafted · legacy tag: `skills_tags.csv` row 3666 (Skill)
+`rm0k01pcl6` · knowledge · machine-drafted · legacy tag: `skills_tags.csv` row 3666 (Skill)
 
 - **Definition:** A way of delivering software over the internet by subscription, hosted by the provider instead of installed by the customer. ○ _general-knowledge_
 - **Kind:** knowledge ○ _general-knowledge (with the definition)_
@@ -590,7 +590,7 @@ Every claim below carries a marker: ○ drafted by a model, not yet checked · �
 
 ## Software localization
 
-`skill:00147` · skill · machine-drafted · legacy tag: `skills_tags.csv` row 3660 (Skill)
+`yw2egk4m94` · skill · machine-drafted · legacy tag: `skills_tags.csv` row 3660 (Skill)
 
 - **Definition:** Adapting software to a specific language and region, including translating text and adjusting formats such as dates and currencies. ○ _general-knowledge_
 - **Kind:** skill ○ _general-knowledge (with the definition)_
@@ -600,7 +600,7 @@ Every claim below carries a marker: ○ drafted by a model, not yet checked · �
 
 ## Spatial-temporal reasoning
 
-`skill:00148` · ability · machine-drafted · legacy tag: `skills_tags.csv` row 3687 (Skill)
+`my2r15ngyp` · ability · machine-drafted · legacy tag: `skills_tags.csv` row 3687 (Skill)
 
 - **Definition:** The ability to understand and mentally work with how objects and events are arranged in space and change over time. ○ _general-knowledge_
 - **Kind:** ability ○ _general-knowledge (with the definition)_
@@ -609,7 +609,7 @@ Every claim below carries a marker: ○ drafted by a model, not yet checked · �
 
 ## TL 9000
 
-`skill:00149` · knowledge · machine-drafted · legacy tag: `skills_tags.csv` row 3837 (Skill)
+`jqn7upjsc9` · knowledge · machine-drafted · legacy tag: `skills_tags.csv` row 3837 (Skill)
 
 - **Definition:** A quality management system standard for the telecommunications industry, built on ISO 9001. ○ _general-knowledge_
 - **Kind:** knowledge ○ _general-knowledge (with the definition)_
@@ -618,7 +618,7 @@ Every claim below carries a marker: ○ drafted by a model, not yet checked · �
 
 ## UltraTax CS
 
-`skill:00150` · tool · machine-drafted · legacy tag: `skills_tags.csv` row 3999 (Skill)
+`m22mxmr88h` · tool · machine-drafted · legacy tag: `skills_tags.csv` row 3999 (Skill)
 
 - **Definition:** Thomson Reuters software that accounting firms use to prepare tax returns. ○ _general-knowledge_
 - **Kind:** tool ○ _general-knowledge (with the definition)_
@@ -628,7 +628,7 @@ Every claim below carries a marker: ○ drafted by a model, not yet checked · �
 
 ## VA loans
 
-`skill:00151` · knowledge · machine-drafted · legacy tag: `skills_tags.csv` row 4043 (Skill)
+`qeyll0q70q` · knowledge · machine-drafted · legacy tag: `skills_tags.csv` row 4043 (Skill)
 
 - **Definition:** Mortgage loans guaranteed by the U.S. Department of Veterans Affairs for eligible service members and veterans. ○ _general-knowledge_
 - **Kind:** knowledge ○ _general-knowledge (with the definition)_
@@ -636,7 +636,7 @@ Every claim below carries a marker: ○ drafted by a model, not yet checked · �
 
 ## Visme
 
-`skill:00152` · tool · machine-drafted · legacy tag: `skills_tags.csv` row 4095 (Skill)
+`s46ycd317l` · tool · machine-drafted · legacy tag: `skills_tags.csv` row 4095 (Skill)
 
 - **Definition:** An online tool for making presentations, infographics and other visual content. ○ _general-knowledge_
 - **Kind:** tool ○ _general-knowledge (with the definition)_
@@ -645,7 +645,7 @@ Every claim below carries a marker: ○ drafted by a model, not yet checked · �
 
 ## Windows software development
 
-`skill:00153` · skill · machine-drafted · legacy tag: `skills_tags.csv` row 4187 (Skill)
+`ohwq8eavw4` · skill · machine-drafted · legacy tag: `skills_tags.csv` row 4187 (Skill)
 
 - **Definition:** Writing software that runs on the Microsoft Windows operating system. ○ _general-knowledge_
 - **Kind:** skill ○ _general-knowledge (with the definition)_
@@ -654,7 +654,7 @@ Every claim below carries a marker: ○ drafted by a model, not yet checked · �
 
 ## XBRL
 
-`skill:00154` · markup-language · machine-drafted · legacy tag: `skills_tags.csv` row 4234 (Language)
+`n2v8jnsgj0` · markup-language · machine-drafted · legacy tag: `skills_tags.csv` row 4234 (Language)
 
 - **Definition:** An XML-based standard language for tagging and exchanging business and financial reporting data. ○ _general-knowledge_
 - **Kind:** markup-language ○ _general-knowledge (with the definition)_
@@ -663,7 +663,7 @@ Every claim below carries a marker: ○ drafted by a model, not yet checked · �
 
 ## Yahoo Messenger
 
-`skill:00155` · tool · machine-drafted · legacy tag: `skills_tags.csv` row 4241 (Skill)
+`llq5laptmx` · tool · machine-drafted · legacy tag: `skills_tags.csv` row 4241 (Skill)
 
 - **Definition:** An instant messaging service from Yahoo, shut down in 2018. ○ _general-knowledge_
 - **Kind:** tool ○ _general-knowledge (with the definition)_
@@ -673,7 +673,7 @@ Every claim below carries a marker: ○ drafted by a model, not yet checked · �
 
 ## Added as a variant of an existing entry
 
-- ux research → **User research** (`skill:0054`) ○
+- ux research → **User research** (`enec00k7dc`) ○
 
 ---
 

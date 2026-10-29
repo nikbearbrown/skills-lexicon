@@ -4,7 +4,8 @@ One file per concept: `entries/<key>.json`. The validator (`tools/lexicon.py`) i
 
 | Field | Required | Meaning |
 |---|---|---|
-| `id` | yes | Stable id, `skill:NNNN`. Never reused. |
+| `id` | yes | A random 10-character id of lower-case letters and digits, with at least one digit, starting with a letter (so a spreadsheet never reads it as a number). It carries no meaning and no order. Compared case-insensitively, stored lower case. Never reused. |
+| `former_ids` | no | Ids this entry had before, such as the registry's `skill:0082`. `lexicon.find()` resolves them. A former id belongs to one entry only. |
 | `key` | no | Short slug; if present it must match the file name. |
 | `preferred_name` | yes | The canonical name. Use the official spelling (PostgreSQL, not Postgres). |
 | `kind` | yes | Lower-case words joined by hyphens, e.g. `programming-language`, `method`, `tool`. |

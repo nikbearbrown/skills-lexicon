@@ -1,5 +1,8 @@
 {
- "id": "skill:0084",
+ "id": "pmy0yp0e50",
+ "former_ids": [
+  "skill:0084"
+ ],
  "key": "nosql",
  "preferred_name": "NoSQL database",
  "kind": "knowledge",
@@ -17,7 +20,7 @@
  "relations": [
   {
    "type": "contrast",
-   "target": "skill:0046"
+   "target": "f69xny35zm"
   }
  ],
  "verbs": [
@@ -47,7 +50,7 @@
    "note": "general knowledge; no source checked"
   },
   {
-   "field": "relation:contrast:skill:0046",
+   "field": "relation:contrast:f69xny35zm",
    "by": "model:claude-sonnet-5-5",
    "action": "drafted",
    "date": "2026-10-27",

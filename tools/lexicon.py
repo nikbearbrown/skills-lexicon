@@ -5,6 +5,8 @@
 """
 import json
 import re
+import secrets
+import string
 import sys
 import unicodedata
 from pathlib import Path
@@ -15,11 +17,35 @@ MATCHES = {"word_ci", "exact_case"}
 REL_TYPES = {"broader", "part_of", "related", "contrast"}
 UP_TYPES = {"broader", "part_of"}      # edges that can roll a count up to the target
 KIND_RE = re.compile(r"^[a-z][a-z-]*$")
-ID_RE = re.compile(r"^skill:\d{4,}$")
+ID_RE = re.compile(r"^(?=.*\d)[a-z][a-z0-9]{9}$")   # 10 lower-case letters and digits, at least one digit, first one a letter (so Excel never reads it as a number)
+_ID_FIRST, _ID_REST = string.ascii_lowercase, string.ascii_lowercase + string.digits
 ACTIONS = {"drafted", "checked", "matched_source"}
 OUTCOMES = {"supports", "contradicts"}
 BY_RE = re.compile(r"^(model|human|source):\S.*$")
 LANGUAGE_TYPES = {"programming", "spoken", "other"}    # other: markup, query, modelling and similar formal languages
+
+
+def norm_id(ref):
+    """Ids are case-insensitive: compare and store them in lower case."""
+    return str(ref).strip().lower()
+
+
+def new_id(taken):
+    """A random 10-character id of letters and digits, not in `taken` (a set of ids, any case, including former ids)."""
+    taken = {norm_id(t) for t in taken}
+    while True:
+        i = secrets.choice(_ID_FIRST) + "".join(secrets.choice(_ID_REST) for _ in range(9))
+        if ID_RE.match(i) and i not in taken:
+            return i
+
+
+def find(entries, ref):
+    """The entry an id refers to, by its current id or one of its former ids, ignoring case. None if there is none."""
+    r = norm_id(ref)
+    for e in entries:
+        if norm_id(e.get("id", "")) == r or r in {norm_id(x) for x in e.get("former_ids", [])}:
+            return e
+    return None
 
 
 def default_match(label):
@@ -106,6 +132,7 @@ def check_evidence(e, errs):
 def validate(entries):
     errs = []
     ids = {}
+    former = {}
     for e in entries:
         f = e.get("_file", "?")
         for key in ("id", "preferred_name", "kind", "definition", "status", "provenance"):
@@ -114,10 +141,17 @@ def validate(entries):
         if errs and errs[-1].startswith(f"{f}: missing"):
             continue
         if not ID_RE.match(e["id"]):
-            errs.append(f"{f}: id {e['id']!r} is not skill:NNNN")
+            errs.append(f"{f}: id {e['id']!r} must be 10 lower-case letters and digits, with at least one digit, starting with a letter")
         if e["id"] in ids:
             errs.append(f"{f}: id {e['id']} also used by {ids[e['id']]}")
         ids[e["id"]] = f
+        for fid in e.get("former_ids", []):
+            if not isinstance(fid, str) or not fid.strip():
+                errs.append(f"{f}: former_ids must be non-empty strings")
+            elif norm_id(fid) in former and former[norm_id(fid)] != e["id"]:
+                errs.append(f"{f}: former id {fid} is also a former id of {former[norm_id(fid)]}")
+            else:
+                former[norm_id(fid)] = e["id"]
         if f != f"{e.get('key', Path(f).stem)}.json" and "key" in e:
             errs.append(f"{f}: key {e['key']!r} does not match the file name")
         if not KIND_RE.match(e["kind"]):

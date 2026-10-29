@@ -44,7 +44,7 @@ python3 -I tools/make_requests.py work --min-postings 0
 # answer work/requests/ as above, then:
 python3 -I tools/ingest.py work --model-id <the model's id> --run <label>
 python3 -I tools/lexicon.py validate
-python3 -I tools/batch.py <label>                              # writes data/skills_<first>-<last>.json and .md
+python3 -I tools/batch.py <label>                              # writes data/skills_batch_NNN.json and .md
 ```
 
 Requests from tags carry `origin` (file, rows, class, which legacy lists include the tag) and a `context` line saying there are no quotes, so no claim can have basis `posting`. The model must also answer `certification` and `language_type`. If a legacy list says a tag is a certification or a language and the model disagrees, the model says why and the evidence record is flagged.

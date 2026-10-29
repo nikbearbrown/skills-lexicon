@@ -1,5 +1,8 @@
 {
- "id": "skill:0082",
+ "id": "sh6x1wmacn",
+ "former_ids": [
+  "skill:0082"
+ ],
  "key": "postgresql",
  "preferred_name": "PostgreSQL",
  "kind": "tool",
@@ -20,7 +23,7 @@
  "relations": [
   {
    "type": "broader",
-   "target": "skill:0046",
+   "target": "f69xny35zm",
    "rolls_up": true
   }
  ],
@@ -53,7 +56,7 @@
    "note": "general knowledge; no source checked"
   },
   {
-   "field": "relation:broader:skill:0046",
+   "field": "relation:broader:f69xny35zm",
    "by": "model:claude-sonnet-5-5",
    "action": "drafted",
    "date": "2026-10-27",

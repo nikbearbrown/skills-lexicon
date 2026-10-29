@@ -1,15 +1,12 @@
 {
  "batch": {
+  "number": 1,
   "run": "2026-10-29-pilot-100-tags",
   "models": [
    "model:claude-sonnet-5-5"
   ],
   "date": "2026-10-29",
   "source": "data/skills_tags.csv",
-  "id_range": [
-   "skill:00085",
-   "skill:00155"
-  ],
   "counts": {
    "new_entries": 71,
    "variants_added": 1,
@@ -21,7 +18,10 @@
  },
  "entries": [
   {
-   "id": "skill:00085",
+   "id": "kwcwko7ozp",
+   "former_ids": [
+    "skill:00085"
+   ],
    "preferred_name": "3D solid and surface modeling",
    "kind": "skill",
    "definition": "Building three-dimensional models of objects as solids and as surfaces in CAD software.",
@@ -87,7 +87,10 @@
    ]
   },
   {
-   "id": "skill:00086",
+   "id": "u7y9o9rpyw",
+   "former_ids": [
+    "skill:00086"
+   ],
    "preferred_name": "Additive manufacturing",
    "kind": "method",
    "definition": "Making physical objects by adding material layer by layer from a digital model, as in 3D printing.",
@@ -162,7 +165,10 @@
    ]
   },
   {
-   "id": "skill:00087",
+   "id": "zko5ukvqdy",
+   "former_ids": [
+    "skill:00087"
+   ],
    "preferred_name": "Administering blood tests",
    "kind": "skill",
    "definition": "Performing blood tests on patients, typically drawing a sample and preparing it for laboratory analysis.",
@@ -218,7 +224,10 @@
    ]
   },
   {
-   "id": "skill:00088",
+   "id": "u0nv7nrdlk",
+   "former_ids": [
+    "skill:00088"
+   ],
    "preferred_name": "Adult-Gerontology Acute Care Nurse Practitioner",
    "kind": "credential",
    "definition": "A nurse practitioner certification for caring for acutely ill adult and older-adult patients.",
@@ -300,7 +309,10 @@
    ]
   },
   {
-   "id": "skill:00089",
+   "id": "q9s4sj8gqa",
+   "former_ids": [
+    "skill:00089"
+   ],
    "preferred_name": "Advanced Trauma Life Support",
    "kind": "credential",
    "definition": "A trauma-care training course and certification from the American College of Surgeons on the first assessment and management of injured patients.",
@@ -370,7 +382,10 @@
    ]
   },
   {
-   "id": "skill:00090",
+   "id": "u3ojnio176",
+   "former_ids": [
+    "skill:00090"
+   ],
    "preferred_name": "American Board of Medical Laboratory Immunology certification",
    "kind": "credential",
    "definition": "Certification by the American Board of Medical Laboratory Immunology in medical laboratory immunology.",
@@ -474,7 +489,82 @@
    ]
   },
   {
-   "id": "skill:00091",
+   "id": "zksf32dtwb",
+   "former_ids": [
+    "skill:00121"
+   ],
+   "preferred_name": "Apache Karaf",
+   "kind": "platform",
+   "definition": "An Apache runtime container for deploying and managing OSGi-based Java applications.",
+   "key": "apache-karaf",
+   "certification": false,
+   "variants": [
+    {
+     "label": "Karaf",
+     "match": "word_ci"
+    }
+   ],
+   "relations": [],
+   "verbs": [],
+   "status": "machine-drafted",
+   "provenance": {
+    "source": "drafted by model:claude-sonnet-5-5, run 2026-10-29-pilot-100-tags, from the name in the legacy tag list alone; no posting or outside source checked",
+    "date": "2026-10-29",
+    "reviewed_by": null,
+    "legacy_tag": {
+     "sources": [
+      {
+       "file": "data/skills_tags.csv",
+       "rows": [
+        2247
+       ],
+       "class": "Skill"
+      }
+     ],
+     "class": "Skill",
+     "in_lists": []
+    }
+   },
+   "evidence": [
+    {
+     "field": "definition",
+     "by": "model:claude-sonnet-5-5",
+     "action": "drafted",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags",
+     "note": "basis: general-knowledge"
+    },
+    {
+     "field": "kind",
+     "by": "model:claude-sonnet-5-5",
+     "action": "drafted",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags",
+     "note": "basis: general-knowledge (with the definition)"
+    },
+    {
+     "field": "variant:karaf",
+     "by": "model:claude-sonnet-5-5",
+     "action": "drafted",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags",
+     "note": "listed in the legacy tag list; the model chose the canonical name"
+    },
+    {
+     "field": "certification",
+     "by": "model:claude-sonnet-5-5",
+     "action": "drafted",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags",
+     "note": "basis: general-knowledge"
+    }
+   ]
+  },
+  {
+   "id": "tkak2r7a31",
+   "former_ids": [
+    "skill:00091"
+   ],
    "preferred_name": "ARKit",
    "kind": "framework",
    "definition": "Apple's framework for building augmented reality apps on iOS and iPadOS.",
@@ -549,7 +639,10 @@
    ]
   },
   {
-   "id": "skill:00092",
+   "id": "scnorb90o8",
+   "former_ids": [
+    "skill:00092"
+   ],
    "preferred_name": "AWS big data",
    "kind": "skill",
    "definition": "Using Amazon Web Services' data analytics and big data services, such as EMR, Redshift and Kinesis, to store and process large datasets.",
@@ -605,7 +698,10 @@
    ]
   },
   {
-   "id": "skill:00093",
+   "id": "r46ots78g8",
+   "former_ids": [
+    "skill:00093"
+   ],
    "preferred_name": "Aymara",
    "kind": "human-language",
    "definition": "An indigenous language of the Andes spoken mainly in Bolivia, Peru and Chile.",
@@ -692,7 +788,10 @@
    ]
   },
   {
-   "id": "skill:00094",
+   "id": "ljshci25ww",
+   "former_ids": [
+    "skill:00094"
+   ],
    "preferred_name": "Board support package",
    "kind": "skill",
    "definition": "Developing the low-level code and drivers that let an operating system run on a specific hardware board.",
@@ -792,7 +891,10 @@
    ]
   },
   {
-   "id": "skill:00095",
+   "id": "rzrebn0fyg",
+   "former_ids": [
+    "skill:00095"
+   ],
    "preferred_name": "cAdvisor",
    "kind": "tool",
    "definition": "A Google-developed tool that collects and exposes resource usage and performance data for running containers.",
@@ -867,7 +969,82 @@
    ]
   },
   {
-   "id": "skill:00096",
+   "id": "ieb2kta6jv",
+   "former_ids": [
+    "skill:00137"
+   ],
+   "preferred_name": "CCH ProSystem fx Engagement",
+   "kind": "tool",
+   "definition": "Wolters Kluwer CCH software that accounting firms use to manage engagements and workpapers.",
+   "key": "cch-prosystem-fx-engagement",
+   "certification": false,
+   "variants": [
+    {
+     "label": "ProSystem Fx Engagement (Tax Software)",
+     "match": "word_ci"
+    }
+   ],
+   "relations": [],
+   "verbs": [],
+   "status": "machine-drafted",
+   "provenance": {
+    "source": "drafted by model:claude-sonnet-5-5, run 2026-10-29-pilot-100-tags, from the name in the legacy tag list alone; no posting or outside source checked",
+    "date": "2026-10-29",
+    "reviewed_by": null,
+    "legacy_tag": {
+     "sources": [
+      {
+       "file": "data/skills_tags.csv",
+       "rows": [
+        3129
+       ],
+       "class": "Skill"
+      }
+     ],
+     "class": "Skill",
+     "in_lists": []
+    }
+   },
+   "evidence": [
+    {
+     "field": "definition",
+     "by": "model:claude-sonnet-5-5",
+     "action": "drafted",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags",
+     "note": "basis: general-knowledge"
+    },
+    {
+     "field": "kind",
+     "by": "model:claude-sonnet-5-5",
+     "action": "drafted",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags",
+     "note": "basis: general-knowledge (with the definition)"
+    },
+    {
+     "field": "variant:prosystem fx engagement (tax software)",
+     "by": "model:claude-sonnet-5-5",
+     "action": "drafted",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags",
+     "note": "listed in the legacy tag list; the model chose the canonical name"
+    },
+    {
+     "field": "certification",
+     "by": "model:claude-sonnet-5-5",
+     "action": "drafted",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags",
+     "note": "basis: general-knowledge"
+    }
+   ]
+  },
+  {
+   "id": "s1txpyxeni",
+   "former_ids": [
+    "skill:00096"
+   ],
    "preferred_name": "Certified Forensic Computer Examiner",
    "kind": "credential",
    "definition": "A digital forensics certification from the International Association of Computer Investigative Specialists.",
@@ -957,7 +1134,10 @@
    ]
   },
   {
-   "id": "skill:00097",
+   "id": "ue0pgomm0l",
+   "former_ids": [
+    "skill:00097"
+   ],
    "preferred_name": "Certified Pediatric Emergency Nurse",
    "kind": "credential",
    "definition": "A nursing certification from the Board of Certification for Emergency Nursing for nurses who care for children in emergencies.",
@@ -1035,7 +1215,10 @@
    ]
   },
   {
-   "id": "skill:00098",
+   "id": "z5cl5m7b48",
+   "former_ids": [
+    "skill:00098"
+   ],
    "preferred_name": "Certified Professional Geologist",
    "kind": "credential",
    "definition": "A professional certification for geologists from the American Institute of Professional Geologists.",
@@ -1113,7 +1296,10 @@
    ]
   },
   {
-   "id": "skill:00099",
+   "id": "ffswfagi3s",
+   "former_ids": [
+    "skill:00099"
+   ],
    "preferred_name": "CompTIA Mobility+",
    "kind": "credential",
    "definition": "A CompTIA certification covering the management and support of mobile devices and the systems that manage them.",
@@ -1178,7 +1364,10 @@
    ]
   },
   {
-   "id": "skill:00100",
+   "id": "bgv8aoglzh",
+   "former_ids": [
+    "skill:00100"
+   ],
    "preferred_name": "Dagger 2",
    "kind": "framework",
    "definition": "A dependency injection framework for Java and Android that generates its code at compile time.",
@@ -1247,7 +1436,10 @@
    ]
   },
   {
-   "id": "skill:00101",
+   "id": "ie3ky4o9l0",
+   "former_ids": [
+    "skill:00101"
+   ],
    "preferred_name": "Data wrangling",
    "kind": "skill",
    "definition": "Cleaning, reshaping and combining raw data so it can be analysed.",
@@ -1262,7 +1454,7 @@
    "relations": [
     {
      "type": "related",
-     "target": "skill:0004"
+     "target": "uclexd8uv3"
     }
    ],
    "verbs": [
@@ -1314,7 +1506,7 @@
      "note": "basis: general-knowledge"
     },
     {
-     "field": "relation:related:skill:0004",
+     "field": "relation:related:uclexd8uv3",
      "by": "model:claude-sonnet-5-5",
      "action": "drafted",
      "date": "2026-10-29",
@@ -1348,7 +1540,10 @@
    ]
   },
   {
-   "id": "skill:00102",
+   "id": "ds71vj3zr1",
+   "former_ids": [
+    "skill:00102"
+   ],
    "preferred_name": "DbVisualizer",
    "kind": "tool",
    "definition": "A graphical database client for browsing, querying and administering many kinds of databases.",
@@ -1414,7 +1609,10 @@
    ]
   },
   {
-   "id": "skill:00103",
+   "id": "d8uol1sujj",
+   "former_ids": [
+    "skill:00103"
+   ],
    "preferred_name": "Deposition (geology)",
    "kind": "knowledge",
    "definition": "The geological process by which sediment, soil or rock is laid down on a landform or land mass.",
@@ -1470,7 +1668,10 @@
    ]
   },
   {
-   "id": "skill:00104",
+   "id": "mgwpga1jmw",
+   "former_ids": [
+    "skill:00104"
+   ],
    "preferred_name": "Deterministic methods",
    "kind": "method",
    "definition": "Methods whose result is fully determined by their inputs, with no randomness involved.",
@@ -1526,7 +1727,10 @@
    ]
   },
   {
-   "id": "skill:00105",
+   "id": "d52wj7x3wm",
+   "former_ids": [
+    "skill:00105"
+   ],
    "preferred_name": "Doctor of Physical Therapy",
    "kind": "credential",
    "definition": "A doctoral degree that qualifies graduates to practise as physical therapists in the United States.",
@@ -1604,7 +1808,10 @@
    ]
   },
   {
-   "id": "skill:00106",
+   "id": "svio15mnpv",
+   "former_ids": [
+    "skill:00106"
+   ],
    "preferred_name": "Doctor of Public Health",
    "kind": "credential",
    "definition": "A doctoral degree in public health focused on professional practice and leadership.",
@@ -1684,7 +1891,10 @@
    ]
   },
   {
-   "id": "skill:00107",
+   "id": "xpo0iet9cq",
+   "former_ids": [
+    "skill:00107"
+   ],
    "preferred_name": "Doubles/triples endorsement",
    "kind": "credential",
    "definition": "A commercial driver's licence endorsement that permits towing two or three trailers.",
@@ -1762,7 +1972,10 @@
    ]
   },
   {
-   "id": "skill:00108",
+   "id": "ypvc3ra1n1",
+   "former_ids": [
+    "skill:00108"
+   ],
    "preferred_name": "Drone pilot certificate",
    "kind": "credential",
    "definition": "A certificate that allows a person to fly small unmanned aircraft commercially; in the United States, the FAA Remote Pilot Certificate under Part 107.",
@@ -1840,7 +2053,10 @@
    ]
   },
   {
-   "id": "skill:00109",
+   "id": "zomymgt82i",
+   "former_ids": [
+    "skill:00109"
+   ],
    "preferred_name": "Dynamic cycle counting",
    "kind": "method",
    "definition": "Cycle counting of inventory in which the timing of each count is set by rules such as item value, movement or error history.",
@@ -1896,7 +2112,10 @@
    ]
   },
   {
-   "id": "skill:00110",
+   "id": "pis2iav0c2",
+   "former_ids": [
+    "skill:00110"
+   ],
    "preferred_name": "Electronic paper",
    "kind": "knowledge",
    "definition": "Display technology that mimics ink on paper, reflecting light and holding an image without power, as used in e-readers.",
@@ -1965,7 +2184,10 @@
    ]
   },
   {
-   "id": "skill:00111",
+   "id": "prkfpz7o8w",
+   "former_ids": [
+    "skill:00111"
+   ],
    "preferred_name": "Esker",
    "kind": "tool",
    "definition": "Cloud software for automating document-based business processes such as accounts payable and order processing.",
@@ -2034,7 +2256,10 @@
    ]
   },
   {
-   "id": "skill:00112",
+   "id": "pl9ucmohz5",
+   "former_ids": [
+    "skill:00112"
+   ],
    "preferred_name": "Express.js",
    "kind": "framework",
    "definition": "A minimal web application framework for Node.js.",
@@ -2103,7 +2328,10 @@
    ]
   },
   {
-   "id": "skill:00113",
+   "id": "jeai1j8uhz",
+   "former_ids": [
+    "skill:00113"
+   ],
    "preferred_name": "French",
    "kind": "human-language",
    "definition": "A Romance language spoken in France and many other countries.",
@@ -2193,7 +2421,10 @@
    ]
   },
   {
-   "id": "skill:00114",
+   "id": "jy5t5pwupo",
+   "former_ids": [
+    "skill:00114"
+   ],
    "preferred_name": "HTML formatting",
    "kind": "skill",
    "definition": "Marking up and styling text and page content with HTML tags.",
@@ -2249,7 +2480,10 @@
    ]
   },
   {
-   "id": "skill:00115",
+   "id": "xzgr4torrj",
+   "former_ids": [
+    "skill:00115"
+   ],
    "preferred_name": "IAM Level I certification",
    "kind": "credential",
    "definition": "An information assurance management qualification at Level I, as defined in the U.S. Department of Defense 8570 workforce framework.",
@@ -2314,7 +2548,10 @@
    ]
   },
   {
-   "id": "skill:00116",
+   "id": "k6ns4jdo7n",
+   "former_ids": [
+    "skill:00116"
+   ],
    "preferred_name": "IBM POWER8",
    "kind": "platform",
    "definition": "IBM's eighth-generation POWER microprocessor family for servers, released in 2014.",
@@ -2395,7 +2632,10 @@
    ]
   },
   {
-   "id": "skill:00117",
+   "id": "jx2hqz8q8r",
+   "former_ids": [
+    "skill:00117"
+   ],
    "preferred_name": "InsightVM",
    "kind": "tool",
    "definition": "Rapid7's vulnerability management software, which scans systems for security weaknesses and helps prioritise fixes.",
@@ -2495,7 +2735,10 @@
    ]
   },
   {
-   "id": "skill:00118",
+   "id": "m9s424jy6t",
+   "former_ids": [
+    "skill:00118"
+   ],
    "preferred_name": "Interactive 3D",
    "kind": "skill",
    "definition": "Building three-dimensional content that users can rotate, explore or manipulate in real time, for example in a browser or game engine.",
@@ -2551,7 +2794,10 @@
    ]
   },
   {
-   "id": "skill:00119",
+   "id": "uyk06pg91v",
+   "former_ids": [
+    "skill:00119"
+   ],
    "preferred_name": "JaCoCo",
    "kind": "library",
    "definition": "A free Java code coverage library that measures how much of a program its tests run.",
@@ -2607,7 +2853,10 @@
    ]
   },
   {
-   "id": "skill:00120",
+   "id": "xmdqx611pm",
+   "former_ids": [
+    "skill:00120"
+   ],
    "preferred_name": "JSData",
    "kind": "library",
    "definition": "A framework-agnostic JavaScript library for managing application data in a client-side store.",
@@ -2663,76 +2912,10 @@
    ]
   },
   {
-   "id": "skill:00121",
-   "preferred_name": "Apache Karaf",
-   "kind": "platform",
-   "definition": "An Apache runtime container for deploying and managing OSGi-based Java applications.",
-   "key": "apache-karaf",
-   "certification": false,
-   "variants": [
-    {
-     "label": "Karaf",
-     "match": "word_ci"
-    }
+   "id": "i3hhtsx5w7",
+   "former_ids": [
+    "skill:00122"
    ],
-   "relations": [],
-   "verbs": [],
-   "status": "machine-drafted",
-   "provenance": {
-    "source": "drafted by model:claude-sonnet-5-5, run 2026-10-29-pilot-100-tags, from the name in the legacy tag list alone; no posting or outside source checked",
-    "date": "2026-10-29",
-    "reviewed_by": null,
-    "legacy_tag": {
-     "sources": [
-      {
-       "file": "data/skills_tags.csv",
-       "rows": [
-        2247
-       ],
-       "class": "Skill"
-      }
-     ],
-     "class": "Skill",
-     "in_lists": []
-    }
-   },
-   "evidence": [
-    {
-     "field": "definition",
-     "by": "model:claude-sonnet-5-5",
-     "action": "drafted",
-     "date": "2026-10-29",
-     "run": "2026-10-29-pilot-100-tags",
-     "note": "basis: general-knowledge"
-    },
-    {
-     "field": "kind",
-     "by": "model:claude-sonnet-5-5",
-     "action": "drafted",
-     "date": "2026-10-29",
-     "run": "2026-10-29-pilot-100-tags",
-     "note": "basis: general-knowledge (with the definition)"
-    },
-    {
-     "field": "variant:karaf",
-     "by": "model:claude-sonnet-5-5",
-     "action": "drafted",
-     "date": "2026-10-29",
-     "run": "2026-10-29-pilot-100-tags",
-     "note": "listed in the legacy tag list; the model chose the canonical name"
-    },
-    {
-     "field": "certification",
-     "by": "model:claude-sonnet-5-5",
-     "action": "drafted",
-     "date": "2026-10-29",
-     "run": "2026-10-29-pilot-100-tags",
-     "note": "basis: general-knowledge"
-    }
-   ]
-  },
-  {
-   "id": "skill:00122",
    "preferred_name": "Law enforcement operations",
    "kind": "knowledge",
    "definition": "Planning and carrying out the work of police and other law enforcement agencies.",
@@ -2788,7 +2971,10 @@
    ]
   },
   {
-   "id": "skill:00123",
+   "id": "o7rmvt0viw",
+   "former_ids": [
+    "skill:00123"
+   ],
    "preferred_name": "Marathi",
    "kind": "human-language",
    "definition": "An Indo-Aryan language spoken mainly in the Indian state of Maharashtra.",
@@ -2875,7 +3061,10 @@
    ]
   },
   {
-   "id": "skill:00124",
+   "id": "w2o4zybnso",
+   "former_ids": [
+    "skill:00124"
+   ],
    "preferred_name": "Master of Laws",
    "kind": "credential",
    "definition": "A postgraduate law degree taken after a first law degree.",
@@ -2955,7 +3144,10 @@
    ]
   },
   {
-   "id": "skill:00125",
+   "id": "fj3w62grru",
+   "former_ids": [
+    "skill:00125"
+   ],
    "preferred_name": "Master of Laws in Taxation",
    "kind": "credential",
    "definition": "A postgraduate law degree that specialises in tax law.",
@@ -3047,7 +3239,10 @@
    ]
   },
   {
-   "id": "skill:00126",
+   "id": "hk6558v1ji",
+   "former_ids": [
+    "skill:00126"
+   ],
    "preferred_name": "Master's certificate in project management",
    "kind": "credential",
    "definition": "A graduate-level certificate programme in project management, shorter than a master's degree.",
@@ -3062,7 +3257,7 @@
    "relations": [
     {
      "type": "related",
-     "target": "skill:0074"
+     "target": "z83cabeb9c"
     }
    ],
    "verbs": [],
@@ -3111,7 +3306,7 @@
      "note": "listed in the legacy tag list; the model chose the canonical name"
     },
     {
-     "field": "relation:related:skill:0074",
+     "field": "relation:related:z83cabeb9c",
      "by": "model:claude-sonnet-5-5",
      "action": "drafted",
      "date": "2026-10-29",
@@ -3130,7 +3325,10 @@
    ]
   },
   {
-   "id": "skill:00127",
+   "id": "hg27hw3l2c",
+   "former_ids": [
+    "skill:00127"
+   ],
    "preferred_name": "Media Center Markup Language",
    "kind": "markup-language",
    "definition": "An XML-based markup language used to build user interfaces for Windows Media Center applications.",
@@ -3208,7 +3406,10 @@
    ]
   },
   {
-   "id": "skill:00128",
+   "id": "sfte4xs6zx",
+   "former_ids": [
+    "skill:00128"
+   ],
    "preferred_name": "Mixed reality",
    "kind": "knowledge",
    "definition": "Technology that blends real and virtual objects so that they interact in real time.",
@@ -3264,7 +3465,10 @@
    ]
   },
   {
-   "id": "skill:00129",
+   "id": "ivx36sezid",
+   "former_ids": [
+    "skill:00129"
+   ],
    "preferred_name": "Natural language understanding",
    "kind": "knowledge",
    "definition": "The part of natural language processing concerned with getting machines to grasp the meaning and intent of human language.",
@@ -3280,7 +3484,7 @@
    "relations": [
     {
      "type": "broader",
-     "target": "skill:0039"
+     "target": "d168utcmjy"
     }
    ],
    "verbs": [],
@@ -3329,7 +3533,7 @@
      "note": "basis: general-knowledge"
     },
     {
-     "field": "relation:broader:skill:0039",
+     "field": "relation:broader:d168utcmjy",
      "by": "model:claude-sonnet-5-5",
      "action": "drafted",
      "date": "2026-10-29",
@@ -3347,7 +3551,10 @@
    ]
   },
   {
-   "id": "skill:00130",
+   "id": "gxbpx9za78",
+   "former_ids": [
+    "skill:00130"
+   ],
    "preferred_name": "Neonatal Resuscitation Program",
    "kind": "credential",
    "definition": "A training programme from the American Academy of Pediatrics and the American Heart Association on resuscitating newborns.",
@@ -3429,7 +3636,10 @@
    ]
   },
   {
-   "id": "skill:00131",
+   "id": "e77t10tbmi",
+   "former_ids": [
+    "skill:00131"
+   ],
    "preferred_name": "NFPA 70E",
    "kind": "knowledge",
    "definition": "A National Fire Protection Association standard for electrical safety in the workplace in the United States.",
@@ -3485,7 +3695,10 @@
    ]
   },
   {
-   "id": "skill:00132",
+   "id": "iip9ks8y55",
+   "former_ids": [
+    "skill:00132"
+   ],
    "preferred_name": "Objective-C",
    "kind": "programming-language",
    "definition": "An object-oriented extension of C used for Apple's macOS and iOS software.",
@@ -3584,7 +3797,10 @@
    ]
   },
   {
-   "id": "skill:00133",
+   "id": "sli7qqx1gw",
+   "former_ids": [
+    "skill:00133"
+   ],
    "preferred_name": "Passenger endorsement",
    "kind": "credential",
    "definition": "A commercial driver's licence endorsement that permits driving vehicles that carry passengers, such as buses.",
@@ -3649,7 +3865,10 @@
    ]
   },
   {
-   "id": "skill:00134",
+   "id": "xlftnwk7c1",
+   "former_ids": [
+    "skill:00134"
+   ],
    "preferred_name": "Phoenician",
    "kind": "human-language",
    "definition": "An extinct Canaanite language of the ancient Phoenicians, written in the Phoenician alphabet.",
@@ -3736,7 +3955,10 @@
    ]
   },
   {
-   "id": "skill:00135",
+   "id": "rbg0r9t749",
+   "former_ids": [
+    "skill:00135"
+   ],
    "preferred_name": "Plumbing drawing",
    "kind": "skill",
    "definition": "Preparing or reading technical drawings that show the layout of pipes and fixtures in a building.",
@@ -3792,7 +4014,10 @@
    ]
   },
   {
-   "id": "skill:00136",
+   "id": "tu36v4sy7c",
+   "former_ids": [
+    "skill:00136"
+   ],
    "preferred_name": "Production support",
    "kind": "skill",
    "definition": "Monitoring and troubleshooting a live system to resolve problems that affect users.",
@@ -3867,76 +4092,10 @@
    ]
   },
   {
-   "id": "skill:00137",
-   "preferred_name": "CCH ProSystem fx Engagement",
-   "kind": "tool",
-   "definition": "Wolters Kluwer CCH software that accounting firms use to manage engagements and workpapers.",
-   "key": "cch-prosystem-fx-engagement",
-   "certification": false,
-   "variants": [
-    {
-     "label": "ProSystem Fx Engagement (Tax Software)",
-     "match": "word_ci"
-    }
+   "id": "rmkqenma3p",
+   "former_ids": [
+    "skill:00138"
    ],
-   "relations": [],
-   "verbs": [],
-   "status": "machine-drafted",
-   "provenance": {
-    "source": "drafted by model:claude-sonnet-5-5, run 2026-10-29-pilot-100-tags, from the name in the legacy tag list alone; no posting or outside source checked",
-    "date": "2026-10-29",
-    "reviewed_by": null,
-    "legacy_tag": {
-     "sources": [
-      {
-       "file": "data/skills_tags.csv",
-       "rows": [
-        3129
-       ],
-       "class": "Skill"
-      }
-     ],
-     "class": "Skill",
-     "in_lists": []
-    }
-   },
-   "evidence": [
-    {
-     "field": "definition",
-     "by": "model:claude-sonnet-5-5",
-     "action": "drafted",
-     "date": "2026-10-29",
-     "run": "2026-10-29-pilot-100-tags",
-     "note": "basis: general-knowledge"
-    },
-    {
-     "field": "kind",
-     "by": "model:claude-sonnet-5-5",
-     "action": "drafted",
-     "date": "2026-10-29",
-     "run": "2026-10-29-pilot-100-tags",
-     "note": "basis: general-knowledge (with the definition)"
-    },
-    {
-     "field": "variant:prosystem fx engagement (tax software)",
-     "by": "model:claude-sonnet-5-5",
-     "action": "drafted",
-     "date": "2026-10-29",
-     "run": "2026-10-29-pilot-100-tags",
-     "note": "listed in the legacy tag list; the model chose the canonical name"
-    },
-    {
-     "field": "certification",
-     "by": "model:claude-sonnet-5-5",
-     "action": "drafted",
-     "date": "2026-10-29",
-     "run": "2026-10-29-pilot-100-tags",
-     "note": "basis: general-knowledge"
-    }
-   ]
-  },
-  {
-   "id": "skill:00138",
    "preferred_name": "Reading gauges",
    "kind": "skill",
    "definition": "Reading analog or digital gauges to check pressure, temperature, levels or flow on equipment.",
@@ -3992,7 +4151,10 @@
    ]
   },
   {
-   "id": "skill:00139",
+   "id": "yi5wth4bnj",
+   "former_ids": [
+    "skill:00139"
+   ],
    "preferred_name": "Regulation SHO",
    "kind": "knowledge",
    "definition": "A U.S. Securities and Exchange Commission regulation governing short sales of securities, including locate and close-out requirements.",
@@ -4048,7 +4210,10 @@
    ]
   },
   {
-   "id": "skill:00140",
+   "id": "ukd3hy0vke",
+   "former_ids": [
+    "skill:00140"
+   ],
    "preferred_name": "Restricted Radiotelephone Operator Permit",
    "kind": "credential",
    "definition": "A U.S. Federal Communications Commission permit that allows a person to operate certain radio equipment, such as aircraft and marine radios.",
@@ -4105,7 +4270,10 @@
    ]
   },
   {
-   "id": "skill:00141",
+   "id": "n01lv1fq0t",
+   "former_ids": [
+    "skill:00141"
+   ],
    "preferred_name": "SACA Certified Industry 4.0 Associate, Basic Operations",
    "kind": "credential",
    "definition": "A certification from the Smart Automation Certification Alliance for basic operations in Industry 4.0 manufacturing environments.",
@@ -4183,7 +4351,10 @@
    ]
   },
   {
-   "id": "skill:00142",
+   "id": "mfaw2zyj3n",
+   "former_ids": [
+    "skill:00142"
+   ],
    "preferred_name": "Safety Trained Supervisor",
    "kind": "credential",
    "definition": "A safety credential for supervisors trained to manage workplace safety.",
@@ -4273,7 +4444,10 @@
    ]
   },
   {
-   "id": "skill:00143",
+   "id": "pqt2ajoqzd",
+   "former_ids": [
+    "skill:00143"
+   ],
    "preferred_name": "Screening resumes",
    "kind": "skill",
    "definition": "Reviewing resumes to pick the candidates who match a job's requirements.",
@@ -4348,7 +4522,10 @@
    ]
   },
   {
-   "id": "skill:00144",
+   "id": "b01cze4ssf",
+   "former_ids": [
+    "skill:00144"
+   ],
    "preferred_name": "Security Check (SC) clearance",
    "kind": "credential",
    "definition": "A UK government security clearance level that allows regular access to secret assets.",
@@ -4430,7 +4607,10 @@
    ]
   },
   {
-   "id": "skill:00145",
+   "id": "unurfua1et",
+   "former_ids": [
+    "skill:00145"
+   ],
    "preferred_name": "Slovene",
    "kind": "human-language",
    "definition": "A South Slavic language spoken mainly in Slovenia.",
@@ -4529,7 +4709,10 @@
    ]
   },
   {
-   "id": "skill:00146",
+   "id": "rm0k01pcl6",
+   "former_ids": [
+    "skill:00146"
+   ],
    "preferred_name": "Software as a service",
    "kind": "knowledge",
    "definition": "A way of delivering software over the internet by subscription, hosted by the provider instead of installed by the customer.",
@@ -4610,7 +4793,10 @@
    ]
   },
   {
-   "id": "skill:00147",
+   "id": "yw2egk4m94",
+   "former_ids": [
+    "skill:00147"
+   ],
    "preferred_name": "Software localization",
    "kind": "skill",
    "definition": "Adapting software to a specific language and region, including translating text and adjusting formats such as dates and currencies.",
@@ -4691,7 +4877,10 @@
    ]
   },
   {
-   "id": "skill:00148",
+   "id": "my2r15ngyp",
+   "former_ids": [
+    "skill:00148"
+   ],
    "preferred_name": "Spatial-temporal reasoning",
    "kind": "ability",
    "definition": "The ability to understand and mentally work with how objects and events are arranged in space and change over time.",
@@ -4760,7 +4949,10 @@
    ]
   },
   {
-   "id": "skill:00149",
+   "id": "jqn7upjsc9",
+   "former_ids": [
+    "skill:00149"
+   ],
    "preferred_name": "TL 9000",
    "kind": "knowledge",
    "definition": "A quality management system standard for the telecommunications industry, built on ISO 9001.",
@@ -4829,7 +5021,10 @@
    ]
   },
   {
-   "id": "skill:00150",
+   "id": "m22mxmr88h",
+   "former_ids": [
+    "skill:00150"
+   ],
    "preferred_name": "UltraTax CS",
    "kind": "tool",
    "definition": "Thomson Reuters software that accounting firms use to prepare tax returns.",
@@ -4908,7 +5103,10 @@
    ]
   },
   {
-   "id": "skill:00151",
+   "id": "qeyll0q70q",
+   "former_ids": [
+    "skill:00151"
+   ],
    "preferred_name": "VA loans",
    "kind": "knowledge",
    "definition": "Mortgage loans guaranteed by the U.S. Department of Veterans Affairs for eligible service members and veterans.",
@@ -4964,7 +5162,10 @@
    ]
   },
   {
-   "id": "skill:00152",
+   "id": "s46ycd317l",
+   "former_ids": [
+    "skill:00152"
+   ],
    "preferred_name": "Visme",
    "kind": "tool",
    "definition": "An online tool for making presentations, infographics and other visual content.",
@@ -5033,7 +5234,10 @@
    ]
   },
   {
-   "id": "skill:00153",
+   "id": "ohwq8eavw4",
+   "former_ids": [
+    "skill:00153"
+   ],
    "preferred_name": "Windows software development",
    "kind": "skill",
    "definition": "Writing software that runs on the Microsoft Windows operating system.",
@@ -5099,7 +5303,10 @@
    ]
   },
   {
-   "id": "skill:00154",
+   "id": "n2v8jnsgj0",
+   "former_ids": [
+    "skill:00154"
+   ],
    "preferred_name": "XBRL",
    "kind": "markup-language",
    "definition": "An XML-based standard language for tagging and exchanging business and financial reporting data.",
@@ -5165,7 +5372,10 @@
    ]
   },
   {
-   "id": "skill:00155",
+   "id": "llq5laptmx",
+   "former_ids": [
+    "skill:00155"
+   ],
    "preferred_name": "Yahoo Messenger",
    "kind": "tool",
    "definition": "An instant messaging service from Yahoo, shut down in 2018.",
@@ -5224,7 +5434,7 @@
  "variants_added": [
   {
    "term": "ux research",
-   "added_to": "skill:0054",
+   "added_to": "enec00k7dc",
    "name": "User research",
    "note": "same concept as User research, listed in the legacy tag list"
   }
