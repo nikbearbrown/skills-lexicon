@@ -74,7 +74,7 @@ python3 -I tools/check_claims.py check-answers reviews/answers/your-file.json
 
 **Sending it.**
 
-- If you can push to GitHub: open a pull request against the `overnight-1` branch that adds only your files in `reviews/answers/`.
+- If you can push to GitHub: open a pull request against the `main` branch that adds only your files in `reviews/answers/`.
 - If you cannot: give the answer file as a single JSON code block per packet, with its file name above it. The person who started you saves it into `reviews/answers/`.
 
 ## For the maintainer: recording what comes back

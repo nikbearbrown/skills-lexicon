@@ -4,7 +4,7 @@ Paste the prompt below into any model that can open web pages (Claude, ChatGPT, 
 
 What comes back is recorded as evidence with the model's name and the effort it says it ran at. Both are taken on its word, so the run is marked `external` and the note says they are self-reported. A model's opinion never backs a claim and never changes an entry by itself.
 
-The packets live on the branch `overnight-1`. If you merge that branch into `main`, change the branch name in the prompt (two places).
+The packets are on the `main` branch of the public repo.
 
 ## 1. The prompt (paste this)
 
@@ -14,8 +14,8 @@ You are an independent reviewer for the open "skills lexicon", a dictionary of t
 WHERE TO GO
 
 The repo is public. Read it directly. Do not answer from memory of what it might contain.
-  https://github.com/nikbearbrown/skills-lexicon/tree/overnight-1
-Everything you need is on the branch "overnight-1" (if that branch no longer exists, use "main"). A file's raw text is at https://raw.githubusercontent.com/nikbearbrown/skills-lexicon/overnight-1/<path>, for example .../overnight-1/reviews/skill/packets/p001.json
+  https://github.com/nikbearbrown/skills-lexicon
+Everything you need is on the default branch, "main". A file's raw text is at https://raw.githubusercontent.com/nikbearbrown/skills-lexicon/main/<path>, for example .../main/reviews/skill/packets/p001.json
 If you cannot open GitHub pages or raw files, say so and stop. Do not guess what is in them.
 
 Read these first, in this order:
@@ -77,7 +77,7 @@ Rules:
 
 HOW TO HAND IT BACK
 
-- If you can run Python and push to GitHub: check each file with  python3 -I tools/check_claims.py check-answers <your file>  and then open a pull request against the branch overnight-1 that adds only your files in reviews/answers/.
+- If you can run Python and push to GitHub: check each file with  python3 -I tools/check_claims.py check-answers <your file>  and then open a pull request against the branch main that adds only your files in reviews/answers/.
 - Otherwise: output each answer file as its own JSON code block, with the full file path on the line above it and nothing else in the block. The person who started you will save the files into reviews/answers/. Do not give a summary in place of the files.
 
 When you finish, say in two lines which packets you completed and how many claims you marked contradicts.

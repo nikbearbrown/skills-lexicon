@@ -1,6 +1,6 @@
 # Overnight run, 2026-10-29
 
-Working on branch `overnight-1`; `main` is untouched. Everything here is `machine-drafted`: nothing is reviewed by a person and nothing backs a claim except the O*NET matches.
+Worked on the branch `overnight-1` and merged into `main` on 2026-10-29 once drafting and the second-model checks were done. Everything here is `machine-drafted`: nothing is reviewed by a person and nothing backs a claim except the O*NET matches.
 
 **Plan.** (1) Draft the unresolved legacy tags in parallel rounds of three agents, 100 tags each, ingesting centrally so a clash is rejected and retried. (2) Have a different model check the claims on entries that exist, recording its model and effort. (3) Web-check certifications and languages (search results only). Stop at about $120 total spend.
 
@@ -86,5 +86,5 @@ That is 604 entries and 6 contradictions (about 1 per 100), against 2 to 27 per 
 - **6346 votes** in the ledger, each with model and effort.
 - **No tag is unresolved.** 1,162 tags got no entry: 564 were judged not a skill and 598 left unsure by the drafting model. The unsure ones could be re-drafted by a stronger model.
 - **Second-model check:** every certification, language and ability has had one. 2,134 skills have none yet (the skills drafted in rounds 1 to 9).
-- 133 tests pass. Nothing has been merged to `main`; this branch is `overnight-1`.
+- 133 tests pass. Merged into `main` as a fast-forward from `overnight-1`; no person has reviewed anything.
 - Spend: reported $73.04 for the main session after round 10. An earlier estimate added $61.76 for subagents on top (about $135), which the credit meter contradicts: the meter read $74 used ($176 of $250 left, expiring 2026-11-05) when the session reported $65.06, so it follows the session figure plus about $9 and does not add anything like the subagent estimate. From here the session figure plus $9 is the cost basis; `scripts/subagent_cost.py` over-counts.
