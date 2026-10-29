@@ -1,0 +1,99 @@
+{
+ "id": "izoymv89vn",
+ "preferred_name": "Electric Vehicle Infrastructure Training Program",
+ "kind": "credential",
+ "definition": "A US training and certification programme for electricians who install electric vehicle charging equipment.",
+ "key": "electric-vehicle-infrastructure-training-program",
+ "certification": true,
+ "certification_scope": "single-issuer",
+ "variants": [
+  {
+   "label": "Electric Vehicle Infrastructure Training Program (EVITP)",
+   "match": "word_ci"
+  },
+  {
+   "label": "EVITP",
+   "match": "exact_case"
+  }
+ ],
+ "relations": [],
+ "verbs": [],
+ "status": "machine-drafted",
+ "provenance": {
+  "source": "drafted by model:claude-sonnet-5-5, run 2026-10-29-round-04-a2, from the name in the legacy tag list alone; no posting or outside source checked",
+  "date": "2026-10-29",
+  "reviewed_by": null,
+  "legacy_tag": {
+   "sources": [
+    {
+     "file": "data/skills_tags.csv",
+     "rows": [
+      1393
+     ],
+     "class": "Certification"
+    },
+    {
+     "file": "data/skills-certification.csv",
+     "rows": [
+      493
+     ],
+     "class": "Certification"
+    }
+   ],
+   "class": "Certification",
+   "in_lists": [
+    "certification"
+   ]
+  }
+ },
+ "evidence": [
+  {
+   "field": "definition",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-29",
+   "run": "2026-10-29-round-04-a2",
+   "note": "basis: general-knowledge"
+  },
+  {
+   "field": "kind",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-29",
+   "run": "2026-10-29-round-04-a2",
+   "note": "basis: general-knowledge (with the definition)"
+  },
+  {
+   "field": "variant:electric vehicle infrastructure training program (evitp)",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-29",
+   "run": "2026-10-29-round-04-a2",
+   "note": "listed in the legacy tag list; the model chose the canonical name"
+  },
+  {
+   "field": "variant:evitp",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-29",
+   "run": "2026-10-29-round-04-a2",
+   "note": "basis: general-knowledge"
+  },
+  {
+   "field": "certification",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-29",
+   "run": "2026-10-29-round-04-a2",
+   "note": "basis: general-knowledge"
+  },
+  {
+   "field": "certification_scope",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-29",
+   "run": "2026-10-29-round-04-a2",
+   "note": "basis: general-knowledge"
+  }
+ ]
+}

@@ -1,0 +1,99 @@
+{
+ "id": "k4qfu7qfow",
+ "preferred_name": "Emergency Nurse Pediatric Course",
+ "kind": "credential",
+ "definition": "A pediatric emergency nursing course from the Emergency Nurses Association whose completion earns a provider card.",
+ "key": "emergency-nurse-pediatric-course",
+ "certification": true,
+ "certification_scope": "single-issuer",
+ "variants": [
+  {
+   "label": "Emergency Nurse Pediatric Course (ENPC)",
+   "match": "word_ci"
+  },
+  {
+   "label": "ENPC",
+   "match": "exact_case"
+  }
+ ],
+ "relations": [],
+ "verbs": [],
+ "status": "machine-drafted",
+ "provenance": {
+  "source": "drafted by model:claude-sonnet-5-5, run 2026-10-29-round-04-a2, from the name in the legacy tag list alone; no posting or outside source checked",
+  "date": "2026-10-29",
+  "reviewed_by": null,
+  "legacy_tag": {
+   "sources": [
+    {
+     "file": "data/skills_tags.csv",
+     "rows": [
+      1423
+     ],
+     "class": "Certification"
+    },
+    {
+     "file": "data/skills-certification.csv",
+     "rows": [
+      494
+     ],
+     "class": "Certification"
+    }
+   ],
+   "class": "Certification",
+   "in_lists": [
+    "certification"
+   ]
+  }
+ },
+ "evidence": [
+  {
+   "field": "definition",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-29",
+   "run": "2026-10-29-round-04-a2",
+   "note": "basis: general-knowledge"
+  },
+  {
+   "field": "kind",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-29",
+   "run": "2026-10-29-round-04-a2",
+   "note": "basis: general-knowledge (with the definition)"
+  },
+  {
+   "field": "variant:emergency nurse pediatric course (enpc)",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-29",
+   "run": "2026-10-29-round-04-a2",
+   "note": "listed in the legacy tag list; the model chose the canonical name"
+  },
+  {
+   "field": "variant:enpc",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-29",
+   "run": "2026-10-29-round-04-a2",
+   "note": "basis: general-knowledge"
+  },
+  {
+   "field": "certification",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-29",
+   "run": "2026-10-29-round-04-a2",
+   "note": "basis: general-knowledge"
+  },
+  {
+   "field": "certification_scope",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-29",
+   "run": "2026-10-29-round-04-a2",
+   "note": "basis: general-knowledge"
+  }
+ ]
+}
