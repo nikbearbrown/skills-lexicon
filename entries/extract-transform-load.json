@@ -88,6 +88,55 @@
    "date": "2026-10-29",
    "run": "2026-10-29-round-04-a4",
    "note": "basis: general-knowledge"
+  },
+  {
+   "field": "definition",
+   "by": "model:claude-opus-5-5",
+   "action": "checked",
+   "outcome": "supports",
+   "date": "2026-10-29",
+   "run": "2026-10-29-review-5e-opus"
+  },
+  {
+   "field": "kind",
+   "by": "model:claude-opus-5-5",
+   "action": "checked",
+   "outcome": "supports",
+   "date": "2026-10-29",
+   "run": "2026-10-29-review-5e-opus"
+  },
+  {
+   "field": "certification",
+   "by": "model:claude-opus-5-5",
+   "action": "checked",
+   "outcome": "supports",
+   "date": "2026-10-29",
+   "run": "2026-10-29-review-5e-opus"
+  },
+  {
+   "field": "variant:extraction, transformation, and loading (etl)",
+   "by": "model:claude-opus-5-5",
+   "action": "checked",
+   "outcome": "supports",
+   "date": "2026-10-29",
+   "run": "2026-10-29-review-5e-opus"
+  },
+  {
+   "field": "variant:extraction, transformation, and loading",
+   "by": "model:claude-opus-5-5",
+   "action": "checked",
+   "outcome": "supports",
+   "date": "2026-10-29",
+   "run": "2026-10-29-review-5e-opus"
+  },
+  {
+   "field": "variant:etl",
+   "by": "model:claude-opus-5-5",
+   "action": "checked",
+   "outcome": "contradicts",
+   "date": "2026-10-29",
+   "run": "2026-10-29-review-5e-opus",
+   "note": "Also Intertek's ETL safety listing mark (UL/ETL) in product-compliance listings."
   }
  ]
 }
