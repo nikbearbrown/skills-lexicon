@@ -6,7 +6,12 @@
  "key": "licensed-professional-engineer",
  "certification": true,
  "certification_scope": "many-issuers",
- "variants": [],
+ "variants": [
+  {
+   "label": "Professional Engineer",
+   "match": "word_ci"
+  }
+ ],
  "relations": [],
  "verbs": [],
  "status": "machine-drafted",
@@ -61,6 +66,14 @@
    "date": "2026-10-29",
    "run": "2026-10-29-round-06-a2",
    "note": "basis: general-knowledge"
+  },
+  {
+   "field": "variant:professional engineer",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-29",
+   "run": "2026-10-29-round-07-a2",
+   "note": "same concept as Licensed Professional Engineer, listed in the legacy tag list"
   }
  ]
 }

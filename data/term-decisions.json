@@ -6150,5 +6150,525 @@
   "run": "2026-10-29-round-06-a1",
   "date": "2026-10-29",
   "reason": "A social phenomenon, not a skill."
+ },
+ {
+  "term": "Player Coach",
+  "decision": "not_a_skill",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-07-a2",
+  "date": "2026-10-29",
+  "reason": "A job role (a manager who also does individual work), not a skill."
+ },
+ {
+  "term": "Plumbing Fixture",
+  "decision": "not_a_skill",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-07-a2",
+  "date": "2026-10-29",
+  "reason": "Names a type of equipment, not a skill."
+ },
+ {
+  "term": "Plywood",
+  "decision": "not_a_skill",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-07-a2",
+  "date": "2026-10-29",
+  "reason": "A building material, not a skill."
+ },
+ {
+  "term": "Pneumatic Tube",
+  "decision": "not_a_skill",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-07-a2",
+  "date": "2026-10-29",
+  "reason": "Names a piece of equipment, not a skill."
+ },
+ {
+  "term": "Political Opportunity",
+  "decision": "unsure",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-07-a2",
+  "date": "2026-10-29",
+  "reason": "Could be the political-science idea of political opportunity structure or an everyday phrase; I cannot tell which is meant."
+ },
+ {
+  "term": "Positive Discipline Community Resources",
+  "decision": "unsure",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-07-a2",
+  "date": "2026-10-29",
+  "reason": "Seems to relate to Positive Discipline parenting and teaching materials, but the phrase does not clearly name one skill I can define."
+ },
+ {
+  "term": "Postpartum Period",
+  "decision": "not_a_skill",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-07-a2",
+  "date": "2026-10-29",
+  "reason": "A period of time after childbirth, not a skill."
+ },
+ {
+  "term": "Potential Applications Of Carbon Nanotubes",
+  "decision": "not_a_skill",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-07-a2",
+  "date": "2026-10-29",
+  "reason": "The title of a topic or article about uses of a material, not a skill or field."
+ },
+ {
+  "term": "Pothead",
+  "decision": "not_a_skill",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-07-a2",
+  "date": "2026-10-29",
+  "reason": "Slang for a heavy cannabis user (or a cable-termination fitting); either way not a skill."
+ },
+ {
+  "term": "Prebuild",
+  "decision": "unsure",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-07-a2",
+  "date": "2026-10-29",
+  "reason": "Could be a build step, Gitpod-style prebuilds or an open-source project-file generator; I cannot tell which is meant."
+ },
+ {
+  "term": "Precompile",
+  "decision": "not_a_skill",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-07-a2",
+  "date": "2026-10-29",
+  "reason": "A build-step verb, not a skill, tool or method on its own."
+ },
+ {
+  "term": "Precompiled",
+  "decision": "not_a_skill",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-07-a2",
+  "date": "2026-10-29",
+  "reason": "An adjective for code that is already compiled, not a skill."
+ },
+ {
+  "term": "Primary Source",
+  "decision": "not_a_skill",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-07-a2",
+  "date": "2026-10-29",
+  "reason": "A kind of source material (an original document or record), not a skill."
+ },
+ {
+  "term": "Primer",
+  "decision": "not_a_skill",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-07-a2",
+  "date": "2026-10-29",
+  "reason": "A common word with several unrelated meanings (PCR primer, paint primer, introductory text), not a skill by itself."
+ },
+ {
+  "term": "Print Shops",
+  "decision": "not_a_skill",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-07-a2",
+  "date": "2026-10-29",
+  "reason": "A type of business, not a skill."
+ },
+ {
+  "term": "Private Company Limited By Shares",
+  "decision": "not_a_skill",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-07-a2",
+  "date": "2026-10-29",
+  "reason": "A legal form of company, not a skill."
+ },
+ {
+  "term": "Pro Active",
+  "decision": "not_a_skill",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-07-a2",
+  "date": "2026-10-29",
+  "reason": "A general adjective for a way of behaving, not a defined skill."
+ },
+ {
+  "term": "Problem Reports",
+  "decision": "not_a_skill",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-07-a2",
+  "date": "2026-10-29",
+  "reason": "A kind of document with no fixed meaning across fields, not a skill."
+ },
+ {
+  "term": "Process Analysis (Computing)",
+  "decision": "unsure",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-07-a2",
+  "date": "2026-10-29",
+  "reason": "Unclear whether this means analysing running software processes or modelling software development processes."
+ },
+ {
+  "term": "Process Group",
+  "decision": "unsure",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-07-a2",
+  "date": "2026-10-29",
+  "reason": "Could mean a project-management process group, an operating-system process group or something else; I cannot tell."
+ },
+ {
+  "term": "Process Improvements (Computing)",
+  "decision": "unsure",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-07-a2",
+  "date": "2026-10-29",
+  "reason": "Could mean software process improvement or improving IT processes in general; I cannot tell which."
+ },
+ {
+  "term": "Processing Industry",
+  "decision": "not_a_skill",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-07-a2",
+  "date": "2026-10-29",
+  "reason": "An industry sector, not a skill."
+ },
+ {
+  "term": "Prodigy (Online Service)",
+  "decision": "not_a_skill",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-07-a2",
+  "date": "2026-10-29",
+  "reason": "A former online service (a company product), not a skill."
+ },
+ {
+  "term": "Production Aid",
+  "decision": "not_a_skill",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-07-a2",
+  "date": "2026-10-29",
+  "reason": "A job title or role, not a skill."
+ },
+ {
+  "term": "Production Equipment Controls",
+  "decision": "unsure",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-07-a2",
+  "date": "2026-10-29",
+  "reason": "Could mean operating, maintaining or designing the control systems of production machinery; the phrase is too vague to define."
+ },
+ {
+  "term": "Production Preparation",
+  "decision": "unsure",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-07-a2",
+  "date": "2026-10-29",
+  "reason": "The meaning varies (manufacturing set-up, kitchen prep, media production), so I cannot tell what is meant."
+ },
+ {
+  "term": "Production Readiness",
+  "decision": "unsure",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-07-a2",
+  "date": "2026-10-29",
+  "reason": "Could be software production readiness reviews or manufacturing readiness; I cannot tell which."
+ },
+ {
+  "term": "Production Technique",
+  "decision": "not_a_skill",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-07-a2",
+  "date": "2026-10-29",
+  "reason": "A generic phrase with no fixed meaning, not a skill."
+ },
+ {
+  "term": "Professional Bookkeeping Service",
+  "decision": "not_a_skill",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-07-a2",
+  "date": "2026-10-29",
+  "reason": "Names a service business; the skill would be bookkeeping."
+ },
+ {
+  "term": "Professional Hair Care",
+  "decision": "not_a_skill",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-07-a2",
+  "date": "2026-10-29",
+  "reason": "Generic phrase for hair products and services; the skill would be hairdressing or hair styling."
+ },
+ {
+  "term": "Professional Studies",
+  "decision": "not_a_skill",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-07-a2",
+  "date": "2026-10-29",
+  "reason": "A general name for academic programmes, not a skill."
+ },
+ {
+  "term": "Programming Languages",
+  "decision": "not_a_skill",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-07-a2",
+  "date": "2026-10-29",
+  "reason": "A category word for the whole group of programming languages, not one language or skill."
+ },
+ {
+  "term": "Project Management Associate Certification",
+  "decision": "unsure",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-07-a2",
+  "date": "2026-10-29",
+  "reason": "Could mean IPMA Level D, PMI's CAPM or another entry-level credential; I cannot tell which one is meant."
+ },
+ {
+  "term": "Project Management Institute",
+  "decision": "not_a_skill",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-07-a2",
+  "date": "2026-10-29",
+  "reason": "An organisation (PMI), not a skill."
+ },
+ {
+  "term": "Project Management Office",
+  "decision": "not_a_skill",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-07-a2",
+  "date": "2026-10-29",
+  "reason": "An organisational unit, not a skill."
+ },
+ {
+  "term": "Project Management Support Certificates",
+  "decision": "unsure",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-07-a2",
+  "date": "2026-10-29",
+  "reason": "Unclear which certificates are meant; it could be any project-management or project-support certificate."
+ },
+ {
+  "term": "Project Resources",
+  "decision": "not_a_skill",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-07-a2",
+  "date": "2026-10-29",
+  "reason": "A generic phrase for the people, money and materials of a project, not a skill."
+ },
+ {
+  "term": "Project Stakeholder",
+  "decision": "not_a_skill",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-07-a2",
+  "date": "2026-10-29",
+  "reason": "A role (a person or group with an interest in a project), not a skill."
+ },
+ {
+  "term": "Project Zero",
+  "decision": "not_a_skill",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-07-a2",
+  "date": "2026-10-29",
+  "reason": "A project or team name (such as Google Project Zero), not a skill."
+ },
+ {
+  "term": "Property Administrator Certification",
+  "decision": "unsure",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-07-a2",
+  "date": "2026-10-29",
+  "reason": "Could be a real-property or a government-property administrator credential from different bodies; I cannot tell which."
+ },
+ {
+  "term": "Property Information",
+  "decision": "not_a_skill",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-07-a2",
+  "date": "2026-10-29",
+  "reason": "A generic phrase for data about property, not a skill."
+ },
+ {
+  "term": "Prophylaxis",
+  "decision": "unsure",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-07-a2",
+  "date": "2026-10-29",
+  "reason": "The meaning depends on the field (preventive medicine, dental cleaning), so I cannot tell what skill is meant."
+ },
+ {
+  "term": "Proportion",
+  "decision": "not_a_skill",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-07-a2",
+  "date": "2026-10-29",
+  "reason": "A general word with many meanings (ratio, design principle), not a skill by itself."
+ },
+ {
+  "term": "Proposal (Business)",
+  "decision": "not_a_skill",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-07-a2",
+  "date": "2026-10-29",
+  "reason": "A kind of document, not a skill; the skills are proposal writing and management."
+ },
+ {
+  "term": "Provisioning Tools",
+  "decision": "unsure",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-07-a2",
+  "date": "2026-10-29",
+  "reason": "A generic category that could mean infrastructure provisioning or user-account provisioning tools; I cannot tell which."
+ },
+ {
+  "term": "Psycholocial Counseling",
+  "decision": "unsure",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-07-a2",
+  "date": "2026-10-29",
+  "reason": "A misspelling that could mean psychological or psychosocial counselling, and I cannot tell which."
+ },
+ {
+  "term": "Psychosocial",
+  "decision": "not_a_skill",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-07-a2",
+  "date": "2026-10-29",
+  "reason": "An adjective, not a skill by itself."
+ },
+ {
+  "term": "Pulses",
+  "decision": "not_a_skill",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-07-a2",
+  "date": "2026-10-29",
+  "reason": "A general word (legumes, electrical pulses) with no skill meaning by itself."
+ },
+ {
+  "term": "Pumps",
+  "decision": "not_a_skill",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-07-a2",
+  "date": "2026-10-29",
+  "reason": "Names a type of equipment, not a skill."
+ },
+ {
+  "term": "Purifed Protein Derivative (PPD)",
+  "decision": "not_a_skill",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-07-a2",
+  "date": "2026-10-29",
+  "reason": "Names a substance used in the tuberculin skin test, not a skill."
+ },
+ {
+  "term": "Python Imaging Libraries",
+  "decision": "unsure",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-07-a2",
+  "date": "2026-10-29",
+  "reason": "Plural, so probably a category (Pillow, OpenCV and similar), but it may mean the original Python Imaging Library; I cannot tell."
+ },
+ {
+  "term": "Qimage",
+  "decision": "unsure",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-07-a2",
+  "date": "2026-10-29",
+  "reason": "Could be the Qt QImage class or the Qimage photo-printing software; I cannot tell which is meant."
+ },
+ {
+  "term": "Quadriplegia",
+  "decision": "not_a_skill",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-07-a2",
+  "date": "2026-10-29",
+  "reason": "A medical condition, not a skill."
+ },
+ {
+  "term": "Quagga",
+  "decision": "unsure",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-07-a2",
+  "date": "2026-10-29",
+  "reason": "Could be the Quagga routing software suite, the Quagga.js barcode scanner or the animal; I cannot tell which."
+ },
+ {
+  "term": "Quality-driven",
+  "decision": "not_a_skill",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-07-a2",
+  "date": "2026-10-29",
+  "reason": "An adjective describing an attitude, not a skill."
+ },
+ {
+  "term": "Quantum",
+  "decision": "not_a_skill",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-07-a2",
+  "date": "2026-10-29",
+  "reason": "A single word with many meanings (physics, companies, products), not a skill on its own."
+ },
+ {
+  "term": "Quarries",
+  "decision": "not_a_skill",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-07-a2",
+  "date": "2026-10-29",
+  "reason": "Names a kind of site, not a skill."
+ },
+ {
+  "term": "Quorum",
+  "decision": "not_a_skill",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-07-a2",
+  "date": "2026-10-29",
+  "reason": "A general word for the minimum number of members needed at a meeting, not a skill."
+ },
+ {
+  "term": "Quota Achievement",
+  "decision": "not_a_skill",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-07-a2",
+  "date": "2026-10-29",
+  "reason": "A performance result rather than a skill or a developed capacity."
+ },
+ {
+  "term": "Radiation Oncologist",
+  "decision": "not_a_skill",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-07-a2",
+  "date": "2026-10-29",
+  "reason": "A job title for a physician, not a skill."
+ },
+ {
+  "term": "Radioation",
+  "decision": "unsure",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-07-a2",
+  "date": "2026-10-29",
+  "reason": "Looks like a misspelling of 'radiation' or 'radio', and I cannot tell what skill was meant."
+ },
+ {
+  "term": "Radiologic Technologist",
+  "decision": "not_a_skill",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-07-a2",
+  "date": "2026-10-29",
+  "reason": "A job title; the credential would be a registry certification, not named here."
+ },
+ {
+  "term": "Rail Freight Stock Of Ireland",
+  "decision": "not_a_skill",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-07-a2",
+  "date": "2026-10-29",
+  "reason": "The title of an article about rolling stock, not a skill."
+ },
+ {
+  "term": "Rapid Response",
+  "decision": "not_a_skill",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-07-a2",
+  "date": "2026-10-29",
+  "reason": "A generic phrase (or a hospital team name) with no fixed skill meaning."
+ },
+ {
+  "term": "Ratio Operation",
+  "decision": "unsure",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-07-a2",
+  "date": "2026-10-29",
+  "reason": "The phrase is unclear; it might mean working with ratios in arithmetic or something field-specific."
  }
 ]
