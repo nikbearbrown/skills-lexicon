@@ -7,244 +7,6 @@
   "packet": "skill/p019",
   "answers": [
     {
-      "key": "early-childhood-mental-health",
-      "claims": {
-        "definition": {
-          "verdict": "supports"
-        },
-        "kind": {
-          "verdict": "supports"
-        },
-        "certification": {
-          "verdict": "supports"
-        }
-      },
-      "variants": {
-        "ok": [],
-        "bad": []
-      },
-      "relations": {
-        "ok": [],
-        "bad": []
-      },
-      "job_listing_vote": {
-        "answer": "yes"
-      }
-    },
-    {
-      "key": "earned-value-management-system",
-      "claims": {
-        "definition": {
-          "verdict": "supports"
-        },
-        "kind": {
-          "verdict": "supports"
-        },
-        "certification": {
-          "verdict": "supports"
-        }
-      },
-      "variants": {
-        "ok": [
-          "Earned Value Management Systems (EVMS)",
-          "EVMS"
-        ],
-        "bad": []
-      },
-      "relations": {
-        "ok": [],
-        "bad": []
-      },
-      "job_listing_vote": {
-        "answer": "yes"
-      }
-    },
-    {
-      "key": "earth-leakage-circuit-breaker",
-      "claims": {
-        "definition": {
-          "verdict": "supports"
-        },
-        "kind": {
-          "verdict": "supports"
-        },
-        "certification": {
-          "verdict": "supports"
-        }
-      },
-      "variants": {
-        "ok": [
-          "ELCB"
-        ],
-        "bad": []
-      },
-      "relations": {
-        "ok": [],
-        "bad": []
-      },
-      "job_listing_vote": {
-        "answer": "yes"
-      }
-    },
-    {
-      "key": "earthing-systems",
-      "claims": {
-        "definition": {
-          "verdict": "supports"
-        },
-        "kind": {
-          "verdict": "supports"
-        },
-        "certification": {
-          "verdict": "supports"
-        }
-      },
-      "variants": {
-        "ok": [
-          "Grounding systems"
-        ],
-        "bad": []
-      },
-      "relations": {
-        "ok": [],
-        "bad": []
-      },
-      "job_listing_vote": {
-        "answer": "yes"
-      }
-    },
-    {
-      "key": "easeljs",
-      "claims": {
-        "definition": {
-          "verdict": "supports"
-        },
-        "kind": {
-          "verdict": "supports"
-        },
-        "certification": {
-          "verdict": "supports"
-        }
-      },
-      "variants": {
-        "ok": [],
-        "bad": []
-      },
-      "relations": {
-        "ok": [
-          "part_of:createjs"
-        ],
-        "bad": []
-      },
-      "job_listing_vote": {
-        "answer": "yes"
-      }
-    },
-    {
-      "key": "ebay-api",
-      "claims": {
-        "definition": {
-          "verdict": "supports"
-        },
-        "kind": {
-          "verdict": "supports"
-        },
-        "certification": {
-          "verdict": "supports"
-        }
-      },
-      "variants": {
-        "ok": [],
-        "bad": []
-      },
-      "relations": {
-        "ok": [],
-        "bad": []
-      },
-      "job_listing_vote": {
-        "answer": "yes"
-      }
-    },
-    {
-      "key": "eclinicalworks",
-      "claims": {
-        "definition": {
-          "verdict": "supports"
-        },
-        "kind": {
-          "verdict": "supports"
-        },
-        "certification": {
-          "verdict": "supports"
-        }
-      },
-      "variants": {
-        "ok": [
-          "eClinicalWorks (ECW)"
-        ],
-        "bad": []
-      },
-      "relations": {
-        "ok": [],
-        "bad": []
-      },
-      "job_listing_vote": {
-        "answer": "yes"
-      }
-    },
-    {
-      "key": "ecological-study",
-      "claims": {
-        "definition": {
-          "verdict": "supports",
-          "note": "Describes electricity/energy meters; electrical test meters can measure current, voltage and other quantities."
-        },
-        "kind": {
-          "verdict": "supports"
-        },
-        "certification": {
-          "verdict": "supports"
-        }
-      },
-      "variants": {
-        "ok": [],
-        "bad": []
-      },
-      "relations": {
-        "ok": [],
-        "bad": []
-      },
-      "job_listing_vote": {
-        "answer": "yes"
-      }
-    },
-    {
-      "key": "econometric-model",
-      "claims": {
-        "definition": {
-          "verdict": "contradicts",
-          "note": "Electric vehicles can draw power from fuel cells or external supplies; they are not necessarily battery-powered."
-        },
-        "kind": {
-          "verdict": "supports"
-        },
-        "certification": {
-          "verdict": "supports"
-        }
-      },
-      "variants": {
-        "ok": [],
-        "bad": []
-      },
-      "relations": {
-        "ok": [],
-        "bad": []
-      },
-      "job_listing_vote": {
-        "answer": "yes"
-      }
-    },
-    {
       "key": "eddystone",
       "claims": {
         "definition": {
@@ -348,8 +110,7 @@
       "key": "eight-disciplines-problem-solving",
       "claims": {
         "definition": {
-          "verdict": "supports",
-          "note": "The key advantage is higher resolving power, not magnification alone."
+          "verdict": "supports"
         },
         "kind": {
           "verdict": "supports"
@@ -405,8 +166,7 @@
           "verdict": "supports"
         },
         "kind": {
-          "verdict": "contradicts",
-          "note": "The definition describes a data-collection process; method fits unless the entry is explicitly an EDC software system."
+          "verdict": "supports"
         },
         "certification": {
           "verdict": "supports"
@@ -431,7 +191,7 @@
       "claims": {
         "definition": {
           "verdict": "supports",
-          "note": "Describes common bistable reflective displays; not every technology called electronic paper retains images without power."
+          "note": "Describes electricity/energy meters; electrical test meters can measure current, voltage and other quantities."
         },
         "kind": {
           "verdict": "supports"
@@ -456,7 +216,8 @@
       "key": "electric-vehicle",
       "claims": {
         "definition": {
-          "verdict": "supports"
+          "verdict": "contradicts",
+          "note": "Electric vehicles can draw power from fuel cells or external supplies; they are not necessarily battery-powered."
         },
         "kind": {
           "verdict": "supports"
@@ -588,8 +349,8 @@
       "key": "electron-microscope",
       "claims": {
         "definition": {
-          "verdict": "contradicts",
-          "note": "Email service providers also offer ordinary mailbox hosting; bulk/transactional sending is a narrower marketing usage."
+          "verdict": "supports",
+          "note": "The key advantage is higher resolving power, not magnification alone."
         },
         "kind": {
           "verdict": "supports"
@@ -642,7 +403,8 @@
           "verdict": "supports"
         },
         "kind": {
-          "verdict": "supports"
+          "verdict": "contradicts",
+          "note": "The definition describes a data-collection process; method fits unless the entry is explicitly an EDC software system."
         },
         "certification": {
           "verdict": "supports"
@@ -664,7 +426,8 @@
       "key": "electronic-paper",
       "claims": {
         "definition": {
-          "verdict": "supports"
+          "verdict": "supports",
+          "note": "Describes common bistable reflective displays; not every technology called electronic paper retains images without power."
         },
         "kind": {
           "verdict": "supports"
@@ -772,8 +535,7 @@
       "key": "email-etiquette",
       "claims": {
         "definition": {
-          "verdict": "supports",
-          "note": "Activity data and emission factors are common; calculations can also use direct measurement, mass balances or models."
+          "verdict": "supports"
         },
         "kind": {
           "verdict": "supports"
@@ -784,12 +546,7 @@
       },
       "variants": {
         "ok": [],
-        "bad": [
-          {
-            "label": "Emission Calcuations",
-            "note": "Calcuations is a misspelling of calculations."
-          }
-        ]
+        "bad": []
       },
       "relations": {
         "ok": [],
@@ -828,7 +585,8 @@
       "key": "email-service-providers",
       "claims": {
         "definition": {
-          "verdict": "supports"
+          "verdict": "contradicts",
+          "note": "Email service providers also offer ordinary mailbox hosting; bulk/transactional sending is a narrower marketing usage."
         },
         "kind": {
           "verdict": "supports"
@@ -1007,8 +765,192 @@
       "key": "emission-calculations",
       "claims": {
         "definition": {
-          "verdict": "contradicts",
-          "note": "Endocrine disorders can involve hormone resistance or receptor defects, not only abnormal hormone-producing glands."
+          "verdict": "supports",
+          "note": "Activity data and emission factors are common; calculations can also use direct measurement, mass balances or models."
+        },
+        "kind": {
+          "verdict": "supports"
+        },
+        "certification": {
+          "verdict": "supports"
+        }
+      },
+      "variants": {
+        "ok": [],
+        "bad": [
+          {
+            "label": "Emission Calcuations",
+            "note": "Calcuations is a misspelling of calculations."
+          }
+        ]
+      },
+      "relations": {
+        "ok": [],
+        "bad": []
+      },
+      "job_listing_vote": {
+        "answer": "yes"
+      }
+    },
+    {
+      "key": "employee-relations",
+      "claims": {
+        "definition": {
+          "verdict": "supports"
+        },
+        "kind": {
+          "verdict": "supports"
+        },
+        "certification": {
+          "verdict": "supports"
+        }
+      },
+      "variants": {
+        "ok": [],
+        "bad": []
+      },
+      "relations": {
+        "ok": [],
+        "bad": []
+      },
+      "job_listing_vote": {
+        "answer": "yes"
+      }
+    },
+    {
+      "key": "employee-relations-investigations",
+      "claims": {
+        "definition": {
+          "verdict": "supports"
+        },
+        "kind": {
+          "verdict": "supports"
+        },
+        "certification": {
+          "verdict": "supports"
+        }
+      },
+      "variants": {
+        "ok": [],
+        "bad": []
+      },
+      "relations": {
+        "ok": [
+          "related:complaint-investigation"
+        ],
+        "bad": []
+      },
+      "job_listing_vote": {
+        "answer": "yes"
+      }
+    },
+    {
+      "key": "employer-branding",
+      "claims": {
+        "definition": {
+          "verdict": "supports"
+        },
+        "kind": {
+          "verdict": "supports"
+        },
+        "certification": {
+          "verdict": "supports"
+        }
+      },
+      "variants": {
+        "ok": [],
+        "bad": []
+      },
+      "relations": {
+        "ok": [
+          "broader:branding-2"
+        ],
+        "bad": []
+      },
+      "job_listing_vote": {
+        "answer": "yes"
+      }
+    },
+    {
+      "key": "employment-compliance",
+      "claims": {
+        "definition": {
+          "verdict": "supports"
+        },
+        "kind": {
+          "verdict": "supports"
+        },
+        "certification": {
+          "verdict": "supports"
+        }
+      },
+      "variants": {
+        "ok": [],
+        "bad": []
+      },
+      "relations": {
+        "ok": [],
+        "bad": []
+      },
+      "job_listing_vote": {
+        "answer": "yes"
+      }
+    },
+    {
+      "key": "ems-dispatch",
+      "claims": {
+        "definition": {
+          "verdict": "supports"
+        },
+        "kind": {
+          "verdict": "supports"
+        },
+        "certification": {
+          "verdict": "supports"
+        }
+      },
+      "variants": {
+        "ok": [],
+        "bad": []
+      },
+      "relations": {
+        "ok": [],
+        "bad": []
+      },
+      "job_listing_vote": {
+        "answer": "yes"
+      }
+    },
+    {
+      "key": "encounter-data-management",
+      "claims": {
+        "definition": {
+          "verdict": "supports"
+        },
+        "kind": {
+          "verdict": "supports"
+        },
+        "certification": {
+          "verdict": "supports"
+        }
+      },
+      "variants": {
+        "ok": [],
+        "bad": []
+      },
+      "relations": {
+        "ok": [],
+        "bad": []
+      },
+      "job_listing_vote": {
+        "answer": "yes"
+      }
+    },
+    {
+      "key": "endevor",
+      "claims": {
+        "definition": {
+          "verdict": "supports"
         },
         "kind": {
           "verdict": "supports"
@@ -1019,7 +961,7 @@
       },
       "variants": {
         "ok": [
-          "Emission Calcuations"
+          "CA Endevor"
         ],
         "bad": []
       },
@@ -1032,7 +974,58 @@
       }
     },
     {
-      "key": "employee-relations",
+      "key": "endocannabinoid-system",
+      "claims": {
+        "definition": {
+          "verdict": "supports"
+        },
+        "kind": {
+          "verdict": "supports"
+        },
+        "certification": {
+          "verdict": "supports"
+        }
+      },
+      "variants": {
+        "ok": [],
+        "bad": []
+      },
+      "relations": {
+        "ok": [],
+        "bad": []
+      },
+      "job_listing_vote": {
+        "answer": "yes"
+      }
+    },
+    {
+      "key": "endocrine-disorders",
+      "claims": {
+        "definition": {
+          "verdict": "contradicts",
+          "note": "Endocrine disorders can involve hormone resistance or receptor defects, not only abnormal hormone-producing glands."
+        },
+        "kind": {
+          "verdict": "supports"
+        },
+        "certification": {
+          "verdict": "supports"
+        }
+      },
+      "variants": {
+        "ok": [],
+        "bad": []
+      },
+      "relations": {
+        "ok": [],
+        "bad": []
+      },
+      "job_listing_vote": {
+        "answer": "yes"
+      }
+    },
+    {
+      "key": "endodontics",
       "claims": {
         "definition": {
           "verdict": "supports"
