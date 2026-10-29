@@ -3190,5 +3190,277 @@
   "run": "2026-10-29-round-04-a3",
   "date": "2026-10-29",
   "reason": "A section of a report, not a skill."
+ },
+ {
+  "term": "Extensible Languages",
+  "decision": "unsure",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-04-a4",
+  "date": "2026-10-29",
+  "reason": "Could mean programming languages designed to be extended by their users, or XML-like markup languages; it is not clearly one language or one skill."
+ },
+ {
+  "term": "External Affairs",
+  "decision": "not_a_skill",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-04-a4",
+  "date": "2026-10-29",
+  "reason": "A department or function name, not a skill."
+ },
+ {
+  "term": "External Auditor",
+  "decision": "not_a_skill",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-04-a4",
+  "date": "2026-10-29",
+  "reason": "A job title, not a skill."
+ },
+ {
+  "term": "Facebook Content",
+  "decision": "unsure",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-04-a4",
+  "date": "2026-10-29",
+  "reason": "Names posts on Facebook rather than clearly a skill; it may mean creating content for Facebook, which a person should decide."
+ },
+ {
+  "term": "Factory Reset",
+  "decision": "not_a_skill",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-04-a4",
+  "date": "2026-10-29",
+  "reason": "A device function, not a skill."
+ },
+ {
+  "term": "Failure Mode Effects SandsCriticality Analysis",
+  "decision": "unsure",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-04-a4",
+  "date": "2026-10-29",
+  "reason": "Looks like a garbled spelling of Failure Mode, Effects and Criticality Analysis (FMECA), a distinct extension of FMEA; the typo should not be stored as a variant without a person looking."
+ },
+ {
+  "term": "Familial Advanced Sleep-Phase Syndrome",
+  "decision": "not_a_skill",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-04-a4",
+  "date": "2026-10-29",
+  "reason": "A medical condition, not a skill."
+ },
+ {
+  "term": "Family And Consumer Sciences Certification",
+  "decision": "unsure",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-04-a4",
+  "date": "2026-10-29",
+  "reason": "Could mean the AAFCS professional credential or a state teaching certificate in the subject, which have different issuers; a person should decide."
+ },
+ {
+  "term": "Family Mental Health",
+  "decision": "unsure",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-04-a4",
+  "date": "2026-10-29",
+  "reason": "Names a subject area or condition rather than a clear skill; I cannot tell what a posting asks for."
+ },
+ {
+  "term": "Fast And Secure Protocols",
+  "decision": "unsure",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-04-a4",
+  "date": "2026-10-29",
+  "reason": "May refer to the Fast and Secure Protocol (FASP) used by IBM Aspera, but the plural generic wording does not make that certain."
+ },
+ {
+  "term": "Fecal Incontinence",
+  "decision": "not_a_skill",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-04-a4",
+  "date": "2026-10-29",
+  "reason": "A medical symptom or condition, not a skill."
+ },
+ {
+  "term": "Federal Emergency Management Agency (FEMA)",
+  "decision": "not_a_skill",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-04-a4",
+  "date": "2026-10-29",
+  "reason": "A government agency, not a skill."
+ },
+ {
+  "term": "Federal Loan Regulations",
+  "decision": "unsure",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-04-a4",
+  "date": "2026-10-29",
+  "reason": "Too vague to say which regulations are meant, for example student loans or small-business loans."
+ },
+ {
+  "term": "Federal Reserve Systems",
+  "decision": "not_a_skill",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-04-a4",
+  "date": "2026-10-29",
+  "reason": "Names a central bank institution, not a skill."
+ },
+ {
+  "term": "Feld Entertainment",
+  "decision": "not_a_skill",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-04-a4",
+  "date": "2026-10-29",
+  "reason": "A company name, not a skill."
+ },
+ {
+  "term": "Fiber Construction",
+  "decision": "unsure",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-04-a4",
+  "date": "2026-10-29",
+  "reason": "Probably building fibre-optic cable networks, but it could also mean textile fibre work, and I cannot tell which from the name alone."
+ },
+ {
+  "term": "Fiber Light Identifiers",
+  "decision": "unsure",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-04-a4",
+  "date": "2026-10-29",
+  "reason": "Probably a fibre-optic test device, but I am not sure of the exact tool class the name refers to."
+ },
+ {
+  "term": "File Import",
+  "decision": "not_a_skill",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-04-a4",
+  "date": "2026-10-29",
+  "reason": "A generic software function, not a skill."
+ },
+ {
+  "term": "File Listing",
+  "decision": "not_a_skill",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-04-a4",
+  "date": "2026-10-29",
+  "reason": "A generic software function, not a skill."
+ },
+ {
+  "term": "Final Draft",
+  "decision": "unsure",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-04-a4",
+  "date": "2026-10-29",
+  "reason": "Could be the Final Draft screenwriting software or the ordinary phrase 'final draft', and a name that matches everyday words needs a person's decision."
+ },
+ {
+  "term": "Final Grades",
+  "decision": "not_a_skill",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-04-a4",
+  "date": "2026-10-29",
+  "reason": "A generic education term, not a skill."
+ },
+ {
+  "term": "Financial Crimes Enforcement Networks",
+  "decision": "not_a_skill",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-04-a4",
+  "date": "2026-10-29",
+  "reason": "Names a government agency (FinCEN), not a skill."
+ },
+ {
+  "term": "Financial Data Vendor",
+  "decision": "not_a_skill",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-04-a4",
+  "date": "2026-10-29",
+  "reason": "A generic kind of company, not a skill."
+ },
+ {
+  "term": "Financial Future",
+  "decision": "not_a_skill",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-04-a4",
+  "date": "2026-10-29",
+  "reason": "A generic phrase, not a skill."
+ },
+ {
+  "term": "Finch",
+  "decision": "not_a_skill",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-04-a4",
+  "date": "2026-10-29",
+  "reason": "An ordinary word for a bird, or a name, not a skill."
+ },
+ {
+  "term": "Fingerprinting",
+  "decision": "unsure",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-04-a4",
+  "date": "2026-10-29",
+  "reason": "Could mean forensic or background-check fingerprinting, browser or device fingerprinting, or DNA fingerprinting, and the tag gives no way to choose."
+ },
+ {
+  "term": "Fire Door",
+  "decision": "not_a_skill",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-04-a4",
+  "date": "2026-10-29",
+  "reason": "A physical building item, not a skill."
+ },
+ {
+  "term": "Fireware Update",
+  "decision": "unsure",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-04-a4",
+  "date": "2026-10-29",
+  "reason": "Fireware is WatchGuard's firewall operating system, but this could also be a misspelling of firmware update."
+ },
+ {
+  "term": "FirstStrike (Financial Software)",
+  "decision": "unsure",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-04-a4",
+  "date": "2026-10-29",
+  "reason": "Looks like a financial software product, but I do not know it well enough to define it."
+ },
+ {
+  "term": "Fixative (Perfumery)",
+  "decision": "unsure",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-04-a4",
+  "date": "2026-10-29",
+  "reason": "Names an ingredient class in perfumery, not clearly a skill; a person should decide what it stands for."
+ },
+ {
+  "term": "Fixer",
+  "decision": "not_a_skill",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-04-a4",
+  "date": "2026-10-29",
+  "reason": "A job title or generic word, not a skill."
+ },
+ {
+  "term": "Flashlight",
+  "decision": "not_a_skill",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-04-a4",
+  "date": "2026-10-29",
+  "reason": "An ordinary object, not a skill."
+ },
+ {
+  "term": "Flexible Working",
+  "decision": "not_a_skill",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-04-a4",
+  "date": "2026-10-29",
+  "reason": "A work arrangement or benefit, not a skill."
+ },
+ {
+  "term": "Flight Dispatcher",
+  "decision": "not_a_skill",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-04-a4",
+  "date": "2026-10-29",
+  "reason": "A job title, not a skill."
  }
 ]

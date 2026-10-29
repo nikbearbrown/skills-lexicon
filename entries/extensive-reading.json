@@ -1,0 +1,79 @@
+{
+ "id": "quabg9izgu",
+ "preferred_name": "Extensive reading",
+ "kind": "method",
+ "definition": "A language-learning approach in which learners read large amounts of easy, enjoyable material to build fluency and vocabulary.",
+ "key": "extensive-reading",
+ "certification": false,
+ "notes": "The model says this is not a language; the legacy list/class says it is. It is a language-teaching approach, not a language, so the legacy language list is wrong here.",
+ "variants": [
+  {
+   "label": "Extensive Reading (Language Acquisition)",
+   "match": "word_ci"
+  }
+ ],
+ "relations": [],
+ "verbs": [],
+ "status": "machine-drafted",
+ "provenance": {
+  "source": "drafted by model:claude-sonnet-5-5, run 2026-10-29-round-04-a4, from the name in the legacy tag list alone; no posting or outside source checked",
+  "date": "2026-10-29",
+  "reviewed_by": null,
+  "legacy_tag": {
+   "sources": [
+    {
+     "file": "data/skills_tags.csv",
+     "rows": [
+      1540
+     ],
+     "class": "Language"
+    },
+    {
+     "file": "data/skills-language.csv",
+     "rows": [
+      91
+     ],
+     "class": "Language"
+    }
+   ],
+   "class": "Language",
+   "in_lists": [
+    "language"
+   ]
+  }
+ },
+ "evidence": [
+  {
+   "field": "definition",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-29",
+   "run": "2026-10-29-round-04-a4",
+   "note": "basis: general-knowledge"
+  },
+  {
+   "field": "kind",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-29",
+   "run": "2026-10-29-round-04-a4",
+   "note": "basis: general-knowledge (with the definition)"
+  },
+  {
+   "field": "variant:extensive reading (language acquisition)",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-29",
+   "run": "2026-10-29-round-04-a4",
+   "note": "listed in the legacy tag list; the model chose the canonical name"
+  },
+  {
+   "field": "certification",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-29",
+   "run": "2026-10-29-round-04-a4",
+   "note": "basis: general-knowledge"
+  }
+ ]
+}
