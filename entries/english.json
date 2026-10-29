@@ -7,7 +7,12 @@
  "preferred_name": "English",
  "kind": "human-language",
  "definition": "The English human language; not a programming language.",
- "variants": [],
+ "variants": [
+  {
+   "label": "Engelska",
+   "match": "word_ci"
+  }
+ ],
  "relations": [],
  "verbs": [],
  "status": "proposed",
@@ -34,6 +39,14 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "2026-10-29-review-2c-opus"
+  },
+  {
+   "field": "variant:engelska",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-29",
+   "run": "2026-10-29-round-04-a3",
+   "note": "same concept as English, listed in the legacy tag list"
   }
  ]
 }

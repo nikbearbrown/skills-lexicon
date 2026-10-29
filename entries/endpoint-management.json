@@ -1,0 +1,69 @@
+{
+ "id": "e61znnqfwb",
+ "preferred_name": "Endpoint management",
+ "kind": "skill",
+ "definition": "Configuring, patching, monitoring and securing the end-user devices of an organisation from a central point.",
+ "key": "endpoint-management",
+ "certification": false,
+ "variants": [],
+ "relations": [
+  {
+   "type": "related",
+   "target": "yapu6om8hs"
+  }
+ ],
+ "verbs": [],
+ "status": "machine-drafted",
+ "provenance": {
+  "source": "drafted by model:claude-sonnet-5-5, run 2026-10-29-round-04-a3, from the name in the legacy tag list alone; no posting or outside source checked",
+  "date": "2026-10-29",
+  "reviewed_by": null,
+  "legacy_tag": {
+   "sources": [
+    {
+     "file": "data/skills_tags.csv",
+     "rows": [
+      1450
+     ],
+     "class": "Skill"
+    }
+   ],
+   "class": "Skill",
+   "in_lists": []
+  }
+ },
+ "evidence": [
+  {
+   "field": "definition",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-29",
+   "run": "2026-10-29-round-04-a3",
+   "note": "basis: general-knowledge"
+  },
+  {
+   "field": "kind",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-29",
+   "run": "2026-10-29-round-04-a3",
+   "note": "basis: general-knowledge (with the definition)"
+  },
+  {
+   "field": "relation:related:yapu6om8hs",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-29",
+   "run": "2026-10-29-round-04-a3",
+   "note": "basis: general-knowledge"
+  },
+  {
+   "field": "certification",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-29",
+   "run": "2026-10-29-round-04-a3",
+   "note": "basis: general-knowledge"
+  }
+ ]
+}
