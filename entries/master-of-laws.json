@@ -12,6 +12,10 @@
   {
    "label": "LL.M.",
    "match": "exact_case"
+  },
+  {
+   "label": "Master's in Law (LLM)",
+   "match": "word_ci"
   }
  ],
  "relations": [],
@@ -171,6 +175,14 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "2026-10-29-review-1-opus"
+  },
+  {
+   "field": "variant:master's in law (llm)",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-29",
+   "run": "2026-10-29-round-09-a1",
+   "note": "same concept as Master of Laws, listed in the legacy tag list"
   }
  ],
  "certification_scope": "many-issuers",

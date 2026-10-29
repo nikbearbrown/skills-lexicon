@@ -10,6 +10,10 @@
   {
    "label": "MPA",
    "match": "exact_case"
+  },
+  {
+   "label": "Master's in Public Administration",
+   "match": "word_ci"
   }
  ],
  "relations": [],
@@ -115,6 +119,14 @@
    "date": "2026-10-29",
    "run": "2026-10-29-review-3c-opus",
    "note": "Also Master of Professional Accounting (e.g. UT Austin), MPa pressure unit, marine protected area."
+  },
+  {
+   "field": "variant:master's in public administration",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-29",
+   "run": "2026-10-29-round-09-a1",
+   "note": "same concept as Master of Public Administration, listed in the legacy tag list"
   }
  ]
 }

@@ -9,6 +9,10 @@
   {
    "label": "vRealize Orchestrator",
    "match": "word_ci"
+  },
+  {
+   "label": "VMware VRealize Orchestrator",
+   "match": "word_ci"
   }
  ],
  "relations": [],
@@ -64,6 +68,14 @@
    "date": "2026-10-29",
    "run": "2026-10-29-round-08-a2",
    "note": "basis: general-knowledge"
+  },
+  {
+   "field": "variant:vmware vrealize orchestrator",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-29",
+   "run": "2026-10-29-round-09-a1",
+   "note": "same concept as VMware Aria Automation Orchestrator, listed in the legacy tag list"
   }
  ]
 }
