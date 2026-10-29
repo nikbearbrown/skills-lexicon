@@ -81,7 +81,14 @@ def main(argv=None):
     plan = json.loads((D.BASE / round_id / "plan.json").read_text("utf-8"))
     missing = [i for i in plan["agents"] if str(i) not in state]
     if missing:
-        print(f"waiting for agents {missing}")
+        v = subprocess.run([sys.executable, "-I", "tools/lexicon.py", "validate"], cwd=ROOT, capture_output=True, text=True).stdout.strip().splitlines()
+        if " 0 errors" not in v[-2]:
+            raise SystemExit("validation failed; not committing:\n" + "\n".join(v[-4:]))
+        git("add", "-A")      # commit each agent as it is collected, so nothing is ever left uncommitted
+        git("commit", "-q", "-m", f"{round_id} agent {agent} ingested: {len(r['new'])} new, {len(r['variant'])} variants, {len(r['not_a_skill'])} not a skill, "
+            f"{len(r['unsure'])} unsure, {len(r['rejected'])} rejected\n\nCo-Authored-By: Claude Sonnet 5.5 <noreply@anthropic.com>\nClaude-Session: https://claude.ai/code/session_019HJ8tnR2iarmEKD9F3uUo2")
+        git("push", "origin", "overnight-1")
+        print(f"committed and pushed; waiting for agents {missing}")
     else:
         finish(round_id, state)
     return 0
