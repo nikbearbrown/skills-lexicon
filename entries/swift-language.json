@@ -10,7 +10,12 @@
  "needs_context": [
   "software"
  ],
- "variants": [],
+ "variants": [
+  {
+   "label": "Swift3",
+   "match": "word_ci"
+  }
+ ],
  "relations": [],
  "verbs": [],
  "status": "proposed",
@@ -37,6 +42,14 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "2026-10-29-review-2c-opus"
+  },
+  {
+   "field": "variant:swift3",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-29",
+   "run": "2026-10-29-round-08-a1",
+   "note": "same concept as Swift, listed in the legacy tag list"
   }
  ]
 }

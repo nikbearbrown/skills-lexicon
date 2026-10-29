@@ -13,6 +13,10 @@
   {
    "label": "sklearn",
    "match": "word_ci"
+  },
+  {
+   "label": "Scikit-learn (Machine Learning Library)",
+   "match": "word_ci"
   }
  ],
  "relations": [],
@@ -76,6 +80,14 @@
    "date": "2026-10-29",
    "run": "2026-10-29-round-07-a3",
    "note": "basis: general-knowledge"
+  },
+  {
+   "field": "variant:scikit-learn (machine learning library)",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-29",
+   "run": "2026-10-29-round-08-a1",
+   "note": "same concept as scikit-learn, listed in the legacy tag list"
   }
  ]
 }

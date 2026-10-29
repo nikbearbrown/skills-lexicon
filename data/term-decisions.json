@@ -7774,5 +7774,493 @@
   "run": "2026-10-29-round-07-a1",
   "date": "2026-10-29",
   "reason": "A generic phrase, not a skill."
+ },
+ {
+  "term": "Speech Disorder",
+  "decision": "not_a_skill",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-08-a1",
+  "date": "2026-10-29",
+  "reason": "A medical condition, not a skill."
+ },
+ {
+  "term": "Speedball",
+  "decision": "unsure",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-08-a1",
+  "date": "2026-10-29",
+  "reason": "Could mean a drug mixture, a sports game, or an art lettering brand; nothing says which."
+ },
+ {
+  "term": "Spice",
+  "decision": "unsure",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-08-a1",
+  "date": "2026-10-29",
+  "reason": "Could be the SPICE circuit simulator or a cooking spice, and nothing in the request says which."
+ },
+ {
+  "term": "Spinal Cord Injury",
+  "decision": "not_a_skill",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-08-a1",
+  "date": "2026-10-29",
+  "reason": "A medical condition, not a skill."
+ },
+ {
+  "term": "Sponsored Posts",
+  "decision": "unsure",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-08-a1",
+  "date": "2026-10-29",
+  "reason": "A paid social-media post format; unclear whether it names a skill, a deliverable or advertising knowledge."
+ },
+ {
+  "term": "Sports and Recreation",
+  "decision": "not_a_skill",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-08-a1",
+  "date": "2026-10-29",
+  "reason": "An industry or subject area, not a skill."
+ },
+ {
+  "term": "Sports Injury",
+  "decision": "not_a_skill",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-08-a1",
+  "date": "2026-10-29",
+  "reason": "A medical condition, not a skill."
+ },
+ {
+  "term": "Sports Tourism",
+  "decision": "not_a_skill",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-08-a1",
+  "date": "2026-10-29",
+  "reason": "An industry sector, not a skill."
+ },
+ {
+  "term": "Springboard",
+  "decision": "unsure",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-08-a1",
+  "date": "2026-10-29",
+  "reason": "Could be a diving board, a learning company, a software product or an iOS component; nothing says which."
+ },
+ {
+  "term": "Sprint",
+  "decision": "unsure",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-08-a1",
+  "date": "2026-10-29",
+  "reason": "Could be an agile sprint, a running event or a telecom company; nothing says which."
+ },
+ {
+  "term": "Sqldb",
+  "decision": "unsure",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-08-a1",
+  "date": "2026-10-29",
+  "reason": "Could mean a generic SQL database or a specific product such as Azure SQL Database; the label alone does not say."
+ },
+ {
+  "term": "Squash",
+  "decision": "unsure",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-08-a1",
+  "date": "2026-10-29",
+  "reason": "Could be the sport, the vegetable or a test-management tool; nothing says which."
+ },
+ {
+  "term": "Stamp Act",
+  "decision": "unsure",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-08-a1",
+  "date": "2026-10-29",
+  "reason": "A name for several laws in different countries and eras; the intended one is unclear."
+ },
+ {
+  "term": "Steel Mills",
+  "decision": "not_a_skill",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-08-a1",
+  "date": "2026-10-29",
+  "reason": "A kind of industrial workplace, not a skill."
+ },
+ {
+  "term": "Stockpile",
+  "decision": "not_a_skill",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-08-a1",
+  "date": "2026-10-29",
+  "reason": "A generic word for a heap of stored material, not a skill."
+ },
+ {
+  "term": "Storage Systems",
+  "decision": "unsure",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-08-a1",
+  "date": "2026-10-29",
+  "reason": "Could mean computer data storage such as SAN or NAS, or physical warehouse storage; the label does not say."
+ },
+ {
+  "term": "Straddle",
+  "decision": "unsure",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-08-a1",
+  "date": "2026-10-29",
+  "reason": "Could be an options-trading strategy, a straddle carrier or ordinary usage; nothing says which."
+ },
+ {
+  "term": "Strategic Business Unit",
+  "decision": "not_a_skill",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-08-a1",
+  "date": "2026-10-29",
+  "reason": "A unit within a company's structure, not a skill."
+ },
+ {
+  "term": "Stress Analysis (Finance)",
+  "decision": "unsure",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-08-a1",
+  "date": "2026-10-29",
+  "reason": "Stress analysis normally means mechanical stress in structures; the finance label does not say what is meant, perhaps stress testing."
+ },
+ {
+  "term": "Stress Analysis (Software Engineering)",
+  "decision": "unsure",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-08-a1",
+  "date": "2026-10-29",
+  "reason": "Stress analysis normally means mechanical stress in structures; the software label does not say what is meant, perhaps stress testing."
+ },
+ {
+  "term": "Stress Testing",
+  "decision": "unsure",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-08-a1",
+  "date": "2026-10-29",
+  "reason": "Could mean software, financial, cardiac or materials stress testing; the bare label does not say."
+ },
+ {
+  "term": "Stretching",
+  "decision": "unsure",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-08-a1",
+  "date": "2026-10-29",
+  "reason": "Could mean exercise stretching or ordinary figurative use; the bare label does not say."
+ },
+ {
+  "term": "Structural Modeling",
+  "decision": "unsure",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-08-a1",
+  "date": "2026-10-29",
+  "reason": "Could mean modelling structures in engineering or structural equation modelling in statistics; the label does not say."
+ },
+ {
+  "term": "Structure Fire",
+  "decision": "not_a_skill",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-08-a1",
+  "date": "2026-10-29",
+  "reason": "A kind of incident, not a skill."
+ },
+ {
+  "term": "Student Placements",
+  "decision": "unsure",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-08-a1",
+  "date": "2026-10-29",
+  "reason": "Could mean arranging placements for students or being on one; unclear whether it names a skill."
+ },
+ {
+  "term": "Styrene Butadiene Rubber Injection",
+  "decision": "unsure",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-08-a1",
+  "date": "2026-10-29",
+  "reason": "Perhaps injection moulding of styrene-butadiene rubber, but I cannot confirm it names a recognised practice."
+ },
+ {
+  "term": "Subcategory",
+  "decision": "not_a_skill",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-08-a1",
+  "date": "2026-10-29",
+  "reason": "A generic word, not a skill."
+ },
+ {
+  "term": "Subdocument",
+  "decision": "not_a_skill",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-08-a1",
+  "date": "2026-10-29",
+  "reason": "A generic word, not a skill."
+ },
+ {
+  "term": "Subproject 22",
+  "decision": "not_a_skill",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-08-a1",
+  "date": "2026-10-29",
+  "reason": "A project code with no meaning as a skill."
+ },
+ {
+  "term": "Substring",
+  "decision": "not_a_skill",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-08-a1",
+  "date": "2026-10-29",
+  "reason": "A basic programming term, not a skill by itself."
+ },
+ {
+  "term": "Sudanese (Language)",
+  "decision": "unsure",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-08-a1",
+  "date": "2026-10-29",
+  "reason": "Sudanese is a demonym, not a language name; the legacy tag may mean Sudanese Arabic or Sundanese."
+ },
+ {
+  "term": "Sunview",
+  "decision": "unsure",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-08-a1",
+  "date": "2026-10-29",
+  "reason": "Could be Sun's old SunView window system or an unrelated product; nothing says which."
+ },
+ {
+  "term": "Supportworks",
+  "decision": "unsure",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-08-a1",
+  "date": "2026-10-29",
+  "reason": "Could be a help-desk software product or a foundation-repair company; nothing says which."
+ },
+ {
+  "term": "Surefire",
+  "decision": "unsure",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-08-a1",
+  "date": "2026-10-29",
+  "reason": "Could be a flashlight brand or the Maven Surefire test plugin; nothing says which."
+ },
+ {
+  "term": "Swiftcraft Swift 18",
+  "decision": "unsure",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-08-a1",
+  "date": "2026-10-29",
+  "reason": "Looks like a product model, possibly a boat; I cannot tell what it is or whether it is a skill."
+ },
+ {
+  "term": "Switch (Electrical Components)",
+  "decision": "not_a_skill",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-08-a1",
+  "date": "2026-10-29",
+  "reason": "A physical component, not a skill."
+ },
+ {
+  "term": "Syllabus",
+  "decision": "not_a_skill",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-08-a1",
+  "date": "2026-10-29",
+  "reason": "A generic word for a course outline document, not a skill."
+ },
+ {
+  "term": "Syman",
+  "decision": "unsure",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-08-a1",
+  "date": "2026-10-29",
+  "reason": "I do not know what this term refers to."
+ },
+ {
+  "term": "Symphony",
+  "decision": "unsure",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-08-a1",
+  "date": "2026-10-29",
+  "reason": "Could be a musical work, a chat platform or a software framework; nothing says which."
+ },
+ {
+  "term": "Synchro",
+  "decision": "unsure",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-08-a1",
+  "date": "2026-10-29",
+  "reason": "Could be traffic-signal software, a construction scheduling tool or something else; nothing says which."
+ },
+ {
+  "term": "Synthesizing Data",
+  "decision": "unsure",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-08-a1",
+  "date": "2026-10-29",
+  "reason": "Could mean combining data from several sources or generating synthetic data; the label does not say."
+ },
+ {
+  "term": "System Information",
+  "decision": "unsure",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-08-a1",
+  "date": "2026-10-29",
+  "reason": "A generic phrase that could mean a Windows tool or just information about a system; nothing says which."
+ },
+ {
+  "term": "System Scaffold",
+  "decision": "unsure",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-08-a1",
+  "date": "2026-10-29",
+  "reason": "I do not know what this term refers to; it may be scaffolding in construction or a software term."
+ },
+ {
+  "term": "Systems And Network Auditor Certification",
+  "decision": "unsure",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-08-a1",
+  "date": "2026-10-29",
+  "reason": "I cannot confirm which body issues a credential with this exact name, so I cannot say whether it is a certification or its scope."
+ },
+ {
+  "term": "Tagging",
+  "decision": "unsure",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-08-a1",
+  "date": "2026-10-29",
+  "reason": "Could mean data tagging, social-media tagging, asset tagging or graffiti; the bare label does not say."
+ },
+ {
+  "term": "Talk Show",
+  "decision": "not_a_skill",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-08-a1",
+  "date": "2026-10-29",
+  "reason": "A kind of television programme, not a skill."
+ },
+ {
+  "term": "Tapestry",
+  "decision": "unsure",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-08-a1",
+  "date": "2026-10-29",
+  "reason": "Could be the Apache Tapestry web framework or the woven textile; nothing says which."
+ },
+ {
+  "term": "Target Practice",
+  "decision": "not_a_skill",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-08-a1",
+  "date": "2026-10-29",
+  "reason": "An activity rather than a skill; the underlying skill would be marksmanship."
+ },
+ {
+  "term": "Tax Credit Specialist",
+  "decision": "unsure",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-08-a1",
+  "date": "2026-10-29",
+  "reason": "Reads as a job title; I cannot confirm a certification of this name or which body issues it."
+ },
+ {
+  "term": "Teacher Information Management System",
+  "decision": "unsure",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-08-a1",
+  "date": "2026-10-29",
+  "reason": "Could be a generic software category or a specific national system; I cannot tell which."
+ },
+ {
+  "term": "Team Processes",
+  "decision": "unsure",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-08-a1",
+  "date": "2026-10-29",
+  "reason": "Could mean how a team works together or the processes a team runs; the label is too generic to tell."
+ },
+ {
+  "term": "Technical Authority",
+  "decision": "not_a_skill",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-08-a1",
+  "date": "2026-10-29",
+  "reason": "A role or designation, not a skill."
+ },
+ {
+  "term": "Technical Reference",
+  "decision": "not_a_skill",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-08-a1",
+  "date": "2026-10-29",
+  "reason": "A generic term for a type of document, not a skill."
+ },
+ {
+  "term": "Temporary Duty Assignment",
+  "decision": "not_a_skill",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-08-a1",
+  "date": "2026-10-29",
+  "reason": "A military assignment status, not a skill."
+ },
+ {
+  "term": "Temporomandibular Joint (TMJ) Disorders",
+  "decision": "not_a_skill",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-08-a1",
+  "date": "2026-10-29",
+  "reason": "A medical condition, not a skill."
+ },
+ {
+  "term": "Terracotta",
+  "decision": "unsure",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-08-a1",
+  "date": "2026-10-29",
+  "reason": "Could be the clay material or the Terracotta caching and in-memory data software; nothing says which."
+ },
+ {
+  "term": "Tesselation",
+  "decision": "unsure",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-08-a1",
+  "date": "2026-10-29",
+  "reason": "Misspelling of tessellation, which means tiling in mathematics and art and surface subdivision in 3D graphics; the intended sense is unclear."
+ },
+ {
+  "term": "Test More",
+  "decision": "unsure",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-08-a1",
+  "date": "2026-10-29",
+  "reason": "Could be the Perl Test::More library or just the phrase; nothing says which."
+ },
+ {
+  "term": "Test Of English As A Foreign Languages",
+  "decision": "unsure",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-08-a1",
+  "date": "2026-10-29",
+  "reason": "An English proficiency test (TOEFL) rather than a language; unclear whether the dictionary should treat a test score as a credential."
+ },
+ {
+  "term": "Tetanus",
+  "decision": "not_a_skill",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-08-a1",
+  "date": "2026-10-29",
+  "reason": "A disease, not a skill."
+ },
+ {
+  "term": "Tethering",
+  "decision": "unsure",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-08-a1",
+  "date": "2026-10-29",
+  "reason": "Could mean phone tethering, animal tethering or tethered equipment; the bare label does not say."
  }
 ]

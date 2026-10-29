@@ -13,6 +13,10 @@
   {
    "label": "PaaS",
    "match": "word_ci"
+  },
+  {
+   "label": "Platform As A Services",
+   "match": "word_ci"
   }
  ],
  "relations": [
@@ -113,6 +117,14 @@
    "date": "2026-10-29",
    "run": "2026-10-29-round-07-a1",
    "note": "basis: general-knowledge"
+  },
+  {
+   "field": "variant:platform as a services",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-29",
+   "run": "2026-10-29-round-08-a1",
+   "note": "same concept as Platform as a service, listed in the legacy tag list"
   }
  ]
 }
