@@ -100,6 +100,63 @@
    "date": "2026-10-29",
    "run": "2026-10-29-round-08-a4",
    "note": "basis: general-knowledge"
+  },
+  {
+   "field": "definition",
+   "by": "model:claude-opus-5-5",
+   "action": "checked",
+   "outcome": "supports",
+   "date": "2026-10-29",
+   "run": "2026-10-29-review-4b-opus",
+   "note": "US entry-level PT degree is now the DPT; bachelor's PT degrees (BPT, BSc Physiotherapy) exist outside the US."
+  },
+  {
+   "field": "kind",
+   "by": "model:claude-opus-5-5",
+   "action": "checked",
+   "outcome": "supports",
+   "date": "2026-10-29",
+   "run": "2026-10-29-review-4b-opus"
+  },
+  {
+   "field": "certification",
+   "by": "model:claude-opus-5-5",
+   "action": "checked",
+   "outcome": "supports",
+   "date": "2026-10-29",
+   "run": "2026-10-29-review-4b-opus"
+  },
+  {
+   "field": "certification_scope",
+   "by": "model:claude-opus-5-5",
+   "action": "checked",
+   "outcome": "supports",
+   "date": "2026-10-29",
+   "run": "2026-10-29-review-4b-opus"
+  },
+  {
+   "field": "variant:bachelor's degree in physical therapy",
+   "by": "model:claude-opus-5-5",
+   "action": "checked",
+   "outcome": "supports",
+   "date": "2026-10-29",
+   "run": "2026-10-29-review-4b-opus"
+  },
+  {
+   "field": "variant:bachelors degree in physical therapy",
+   "by": "model:claude-opus-5-5",
+   "action": "checked",
+   "outcome": "supports",
+   "date": "2026-10-29",
+   "run": "2026-10-29-review-4b-opus"
+  },
+  {
+   "field": "relation:related:d52wj7x3wm",
+   "by": "model:claude-opus-5-5",
+   "action": "checked",
+   "outcome": "supports",
+   "date": "2026-10-29",
+   "run": "2026-10-29-review-4b-opus"
   }
  ]
 }

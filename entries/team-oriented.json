@@ -89,6 +89,57 @@
    "date": "2026-10-29",
    "run": "2026-10-29-round-08-a1",
    "note": "basis: general-knowledge"
+  },
+  {
+   "field": "definition",
+   "by": "model:claude-opus-5-5",
+   "action": "checked",
+   "outcome": "supports",
+   "date": "2026-10-29",
+   "run": "2026-10-29-review-4d-opus"
+  },
+  {
+   "field": "kind",
+   "by": "model:claude-opus-5-5",
+   "action": "checked",
+   "outcome": "supports",
+   "date": "2026-10-29",
+   "run": "2026-10-29-review-4d-opus",
+   "note": "More a disposition than an ability, but the nearest allowed kind."
+  },
+  {
+   "field": "certification",
+   "by": "model:claude-opus-5-5",
+   "action": "checked",
+   "outcome": "supports",
+   "date": "2026-10-29",
+   "run": "2026-10-29-review-4d-opus"
+  },
+  {
+   "field": "variant:team orientated",
+   "by": "model:claude-opus-5-5",
+   "action": "checked",
+   "outcome": "supports",
+   "date": "2026-10-29",
+   "run": "2026-10-29-review-4d-opus"
+  },
+  {
+   "field": "relation:related:g32rgj6uc5",
+   "by": "model:claude-opus-5-5",
+   "action": "checked",
+   "outcome": "contradicts",
+   "date": "2026-10-29",
+   "run": "2026-10-29-review-4d-opus",
+   "note": "Distinct trait; the link rests on the shared '-oriented' suffix."
+  },
+  {
+   "field": "relation:related:id244h1e6v",
+   "by": "model:claude-opus-5-5",
+   "action": "checked",
+   "outcome": "contradicts",
+   "date": "2026-10-29",
+   "run": "2026-10-29-review-4d-opus",
+   "note": "Distinct trait; the link rests on the shared '-oriented' suffix."
   }
  ]
 }
