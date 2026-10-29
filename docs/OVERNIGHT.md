@@ -46,3 +46,23 @@ Reviewer notes on the brief (not yet acted on): abbreviations such as DL, PG, RA
 Drafting stopped after round 7 with **1,196 of 4,652 tags still unresolved** (counting the same-concept pairs rejected at ingest, which come round again as variants). Spend was about $95 against the $120 stop (reported $53.98 for the main session plus an estimated $41.39 for subagents), and a further round would have cost about $13 and left nothing for checking. The remaining budget went to a second-model check of the 500 certification, language and ability entries that had not been reviewed. Rounds 6 and 7 used 200 tags per agent instead of 100, which worked and cut the per-agent overhead.
 
 Round 8 was already prepared (`/home/user/rounds/round-08`, four agents of 200, of which one slice is entirely certification-list tags) and can be run by launching the agents and then `python3 -I scripts/overnight_step.py collect round-08 <agent> <task id>`.
+
+## Reviews of the new entries (second model)
+
+| Review | Model, effort | Entries | Contradicts recorded |
+|---|---|---|---|
+| review-3a-opus (certifications 1 to 120) | claude-opus-5-5, xhigh | 120 | 11 |
+| review-3b-opus (certifications 121 to 240) | claude-opus-5-5, xhigh | 120 | 12 |
+| review-3c-opus (certifications 241 to 360) | claude-opus-5-5, xhigh | 120 | 5 |
+| review-3d-opus (certifications 361 to 402, languages 88, abilities 10) | claude-opus-5-5, xhigh | 140 | 9 |
+
+Every certification, language and ability entry drafted from the tag lists has now been checked once by a different model. The contradictions are listed in `docs/REVIEW-FLAGS.md` (100 records on 84 entries; about 70 of them are short forms judged ambiguous, such as CWE, AMT, AHM or CSSD, which should not be variants). The 1,796 skill entries drafted from the tag lists, plus the 81 registry skills not checked in review 2, have not had a second-model check.
+
+## End state
+
+- **2746 entries**: 2134 skill, 427 certification, 120 language, 65 ability (52 of them O*NET).
+- **10928 claims**; 104 are backed by a matched source (the O*NET abilities) and none by a person.
+- **4550 votes** in the ledger (4550 by models, each with model and effort), 1015 tags where voters disagree.
+- **1196 tags unresolved** and 492 tags that only ever got "unsure" and could be re-drafted by a stronger model.
+- 128 tests pass. Nothing has been merged to `main`; this branch is `overnight-1`.
+- Spend at the stop: about $114 on the pessimistic estimate (reported $60.21 for the main session plus $53.79 estimated for subagents, Opus priced at five times Sonnet).

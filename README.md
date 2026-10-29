@@ -6,7 +6,7 @@
 
 **Why it exists.** To count skills in job postings you have to know that "Postgres" and "PostgreSQL" are one skill, that "Swift" can mean two things, and that PostgreSQL is a kind of SQL. The counts on the explorer are only as good as this dictionary.
 
-**State.** First pass. 277 entries: 81 imported from the jobs.humanitarians.ai skills registry (status `proposed`), 3 drafted examples, 141 drafted from two 100-tag batches of the legacy tag lists (`data/skills_batch_001` and `002`), and the 52 O*NET abilities (`abilities/`, `data/skills_batch_003`). Each batch is a `.json` and a `.md`. The drafted entries are `machine-drafted`, written by a model from general knowledge with no source checked. Nothing is `reviewed`. Of 994 claims, 104 are backed by a matched source (the O*NET abilities) and none by a person. 128 tests pass.
+**State.** First pass, branch `overnight-1`. 2746 entries: 2134 skills, 427 certifications, 120 languages and 65 abilities (52 from O*NET, in `abilities/`). The 81 registry entries are `proposed`; everything drafted from the legacy tag lists is `machine-drafted`, written by a model from general knowledge with no source checked. Nothing is `reviewed`. Of 10928 claims, 104 are backed by a matched source (the O*NET abilities) and none by a person. Every certification, language and ability has had one check by a second model; the skills have not. 1196 tags are not yet drafted. 128 tests pass. See `docs/OVERNIGHT.md`.
 
 **Licence and owner.** MIT, copyright Humanitarians AI Incorporated (see `LICENSE`). **Not decided yet:** who reviews entries.
 
