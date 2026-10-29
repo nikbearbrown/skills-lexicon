@@ -1,0 +1,74 @@
+{
+ "id": "d3z0gfbamd",
+ "preferred_name": "Outdoor Emergency Care",
+ "kind": "credential",
+ "definition": "A National Ski Patrol course and certification in emergency care for injured or ill people in outdoor settings such as ski areas.",
+ "key": "outdoor-emergency-care",
+ "certification": true,
+ "certification_scope": "single-issuer",
+ "variants": [],
+ "relations": [],
+ "verbs": [],
+ "status": "machine-drafted",
+ "provenance": {
+  "source": "drafted by model:claude-sonnet-5-5, run 2026-10-29-round-07-a1, from the name in the legacy tag list alone; no posting or outside source checked",
+  "date": "2026-10-29",
+  "reviewed_by": null,
+  "legacy_tag": {
+   "sources": [
+    {
+     "file": "data/skills_tags.csv",
+     "rows": [
+      2899
+     ],
+     "class": "Certification"
+    },
+    {
+     "file": "data/skills-certification.csv",
+     "rows": [
+      672
+     ],
+     "class": "Certification"
+    }
+   ],
+   "class": "Certification",
+   "in_lists": [
+    "certification"
+   ]
+  }
+ },
+ "evidence": [
+  {
+   "field": "definition",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-29",
+   "run": "2026-10-29-round-07-a1",
+   "note": "basis: general-knowledge"
+  },
+  {
+   "field": "kind",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-29",
+   "run": "2026-10-29-round-07-a1",
+   "note": "basis: general-knowledge (with the definition)"
+  },
+  {
+   "field": "certification",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-29",
+   "run": "2026-10-29-round-07-a1",
+   "note": "basis: general-knowledge"
+  },
+  {
+   "field": "certification_scope",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-29",
+   "run": "2026-10-29-round-07-a1",
+   "note": "basis: general-knowledge"
+  }
+ ]
+}

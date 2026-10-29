@@ -9,6 +9,14 @@
   {
    "label": "MAintain Prepare And Produce Executive Reports (MAPPER)",
    "match": "word_ci"
+  },
+  {
+   "label": "MAintain, Prepare, And Produce Executive Reports (MAPPER)",
+   "match": "word_ci"
+  },
+  {
+   "label": "MAintain Prepare SandsProduce Executive Reports (MAPPER)",
+   "match": "word_ci"
   }
  ],
  "relations": [],
@@ -64,6 +72,22 @@
    "date": "2026-10-29",
    "run": "2026-10-29-round-06-a2",
    "note": "basis: general-knowledge"
+  },
+  {
+   "field": "variant:maintain, prepare, and produce executive reports (mapper)",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-29",
+   "run": "2026-10-29-round-07-a1",
+   "note": "same concept as Unisys MAPPER, listed in the legacy tag list"
+  },
+  {
+   "field": "variant:maintain prepare sandsproduce executive reports (mapper)",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-29",
+   "run": "2026-10-29-round-07-a1",
+   "note": "same concept as Unisys MAPPER, listed in the legacy tag list"
   }
  ]
 }

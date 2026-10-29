@@ -38,3 +38,5 @@ Reviewer notes on the brief (not yet acted on): abbreviations such as DL, PG, RA
 | round 05 | 05-a1, 05-a2, 05-a3, 05-a4 | 305 new | 3 variants | 36 not a skill | 47 unsure | 9 rejected | 1628 entries in all |
 
 | round 06 | 06-a1, 06-a2, 06-a3, 06-a4 | 544 new | 9 variants | 119 not a skill | 114 unsure | 14 rejected | 2172 entries in all |
+
+| round 07 | 07-a1, 07-a2, 07-a3, 07-a4 | 574 new | 11 variants | 108 not a skill | 95 unsure | 12 rejected | 2746 entries in all |

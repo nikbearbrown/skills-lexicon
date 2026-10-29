@@ -5,7 +5,12 @@
  "definition": "A full-stack JavaScript framework built on MongoDB, Express, Angular and Node.js.",
  "key": "mean-js",
  "certification": false,
- "variants": [],
+ "variants": [
+  {
+   "label": "Meanjs",
+   "match": "word_ci"
+  }
+ ],
  "relations": [],
  "verbs": [],
  "status": "machine-drafted",
@@ -51,6 +56,14 @@
    "date": "2026-10-29",
    "run": "2026-10-29-round-06-a2",
    "note": "basis: general-knowledge"
+  },
+  {
+   "field": "variant:meanjs",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-29",
+   "run": "2026-10-29-round-07-a1",
+   "note": "same concept as MEAN.JS, listed in the legacy tag list"
   }
  ]
 }

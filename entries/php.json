@@ -8,7 +8,12 @@
  "kind": "programming-language",
  "definition": "The PHP programming language.",
  "name_match": "exact_case",
- "variants": [],
+ "variants": [
+  {
+   "label": "PHP (Scripting Language)",
+   "match": "word_ci"
+  }
+ ],
  "relations": [],
  "verbs": [],
  "status": "proposed",
@@ -34,6 +39,14 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "2026-10-29-review-2c-opus"
+  },
+  {
+   "field": "variant:php (scripting language)",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-29",
+   "run": "2026-10-29-round-07-a1",
+   "note": "same concept as PHP, listed in the legacy tag list"
   }
  ]
 }

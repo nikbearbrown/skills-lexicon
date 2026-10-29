@@ -1,0 +1,87 @@
+{
+ "id": "qrwo2ay5y4",
+ "preferred_name": "Oracle Certified Associate",
+ "kind": "credential",
+ "definition": "The entry-level tier of Oracle's certification program, awarded by Oracle after passing an exam in a product area such as Java or Oracle Database.",
+ "key": "oracle-certified-associate",
+ "certification": true,
+ "certification_scope": "single-issuer",
+ "variants": [
+  {
+   "label": "Oracle Certification Asscoiate",
+   "match": "word_ci"
+  }
+ ],
+ "relations": [],
+ "verbs": [],
+ "status": "machine-drafted",
+ "provenance": {
+  "source": "drafted by model:claude-sonnet-5-5, run 2026-10-29-round-07-a1, from the name in the legacy tag list alone; no posting or outside source checked",
+  "date": "2026-10-29",
+  "reviewed_by": null,
+  "legacy_tag": {
+   "sources": [
+    {
+     "file": "data/skills_tags.csv",
+     "rows": [
+      2872
+     ],
+     "class": "Certification"
+    },
+    {
+     "file": "data/skills-certification.csv",
+     "rows": [
+      669
+     ],
+     "class": "Certification"
+    }
+   ],
+   "class": "Certification",
+   "in_lists": [
+    "certification"
+   ]
+  }
+ },
+ "evidence": [
+  {
+   "field": "definition",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-29",
+   "run": "2026-10-29-round-07-a1",
+   "note": "basis: general-knowledge"
+  },
+  {
+   "field": "kind",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-29",
+   "run": "2026-10-29-round-07-a1",
+   "note": "basis: general-knowledge (with the definition)"
+  },
+  {
+   "field": "variant:oracle certification asscoiate",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-29",
+   "run": "2026-10-29-round-07-a1",
+   "note": "listed in the legacy tag list; the model chose the canonical name"
+  },
+  {
+   "field": "certification",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-29",
+   "run": "2026-10-29-round-07-a1",
+   "note": "basis: general-knowledge"
+  },
+  {
+   "field": "certification_scope",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-29",
+   "run": "2026-10-29-round-07-a1",
+   "note": "basis: general-knowledge"
+  }
+ ]
+}
