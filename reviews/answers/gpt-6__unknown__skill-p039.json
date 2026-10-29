@@ -1,0 +1,1079 @@
+{
+  "reviewer": {
+    "model": "gpt-6",
+    "effort": "unknown",
+    "date": "2026-10-29"
+  },
+  "packet": "skill/p039",
+  "answers": [
+    {
+      "key": "network-performance",
+      "claims": {
+        "definition": {
+          "verdict": "supports"
+        },
+        "kind": {
+          "verdict": "supports"
+        },
+        "certification": {
+          "verdict": "supports"
+        }
+      },
+      "variants": {
+        "ok": [],
+        "bad": []
+      },
+      "relations": {
+        "ok": [
+          "broader:computer-networking"
+        ],
+        "bad": []
+      },
+      "job_listing_vote": {
+        "answer": "yes"
+      }
+    },
+    {
+      "key": "network-topology",
+      "claims": {
+        "definition": {
+          "verdict": "supports"
+        },
+        "kind": {
+          "verdict": "supports"
+        },
+        "certification": {
+          "verdict": "supports"
+        }
+      },
+      "variants": {
+        "ok": [
+          "Network Topologies"
+        ],
+        "bad": []
+      },
+      "relations": {
+        "ok": [
+          "broader:computer-networking"
+        ],
+        "bad": []
+      },
+      "job_listing_vote": {
+        "answer": "yes"
+      }
+    },
+    {
+      "key": "neural-networks",
+      "claims": {
+        "definition": {
+          "verdict": "supports",
+          "note": "Too terse; describe the model structure itself rather than only the activity of designing it."
+        },
+        "kind": {
+          "verdict": "supports"
+        }
+      },
+      "variants": {
+        "ok": [
+          "Artificial Neural Networks"
+        ],
+        "bad": []
+      },
+      "relations": {
+        "ok": [],
+        "bad": []
+      },
+      "job_listing_vote": {
+        "answer": "yes"
+      }
+    },
+    {
+      "key": "neurobiology",
+      "claims": {
+        "definition": {
+          "verdict": "supports"
+        },
+        "kind": {
+          "verdict": "supports"
+        },
+        "certification": {
+          "verdict": "supports"
+        }
+      },
+      "variants": {
+        "ok": [],
+        "bad": []
+      },
+      "relations": {
+        "ok": [],
+        "bad": []
+      },
+      "job_listing_vote": {
+        "answer": "yes"
+      }
+    },
+    {
+      "key": "neuromuscular-medicine",
+      "claims": {
+        "definition": {
+          "verdict": "supports",
+          "note": "The neuromuscular specialty chiefly concerns peripheral nerves, neuromuscular junctions and muscles."
+        },
+        "kind": {
+          "verdict": "supports"
+        },
+        "certification": {
+          "verdict": "supports"
+        }
+      },
+      "variants": {
+        "ok": [],
+        "bad": []
+      },
+      "relations": {
+        "ok": [],
+        "bad": []
+      },
+      "job_listing_vote": {
+        "answer": "yes"
+      }
+    },
+    {
+      "key": "neuromuscular-system-and-disorders",
+      "claims": {
+        "definition": {
+          "verdict": "supports"
+        },
+        "kind": {
+          "verdict": "supports"
+        },
+        "certification": {
+          "verdict": "supports"
+        }
+      },
+      "variants": {
+        "ok": [],
+        "bad": []
+      },
+      "relations": {
+        "ok": [],
+        "bad": []
+      },
+      "job_listing_vote": {
+        "answer": "yes"
+      }
+    },
+    {
+      "key": "neurosurgery",
+      "claims": {
+        "definition": {
+          "verdict": "supports"
+        },
+        "kind": {
+          "verdict": "supports"
+        },
+        "certification": {
+          "verdict": "supports"
+        }
+      },
+      "variants": {
+        "ok": [
+          "Neurosurgeries"
+        ],
+        "bad": []
+      },
+      "relations": {
+        "ok": [],
+        "bad": []
+      },
+      "job_listing_vote": {
+        "answer": "yes"
+      }
+    },
+    {
+      "key": "nexpose",
+      "claims": {
+        "definition": {
+          "verdict": "supports"
+        },
+        "kind": {
+          "verdict": "supports"
+        },
+        "certification": {
+          "verdict": "supports"
+        }
+      },
+      "variants": {
+        "ok": [
+          "Nexpose (Vulnerability Scanning Software)"
+        ],
+        "bad": []
+      },
+      "relations": {
+        "ok": [
+          "related:insightvm"
+        ],
+        "bad": []
+      },
+      "job_listing_vote": {
+        "answer": "yes"
+      }
+    },
+    {
+      "key": "next-js",
+      "claims": {
+        "definition": {
+          "verdict": "supports"
+        },
+        "kind": {
+          "verdict": "supports"
+        },
+        "certification": {
+          "verdict": "supports"
+        }
+      },
+      "variants": {
+        "ok": [],
+        "bad": []
+      },
+      "relations": {
+        "ok": [
+          "related:react"
+        ],
+        "bad": []
+      },
+      "job_listing_vote": {
+        "answer": "yes"
+      }
+    },
+    {
+      "key": "nfpa-70e",
+      "claims": {
+        "definition": {
+          "verdict": "supports"
+        },
+        "kind": {
+          "verdict": "contradicts",
+          "note": "NFPA 70E is a named standard, so standard is more precise than knowledge."
+        },
+        "certification": {
+          "verdict": "supports"
+        }
+      },
+      "variants": {
+        "ok": [],
+        "bad": []
+      },
+      "relations": {
+        "ok": [],
+        "bad": []
+      },
+      "job_listing_vote": {
+        "answer": "yes"
+      }
+    },
+    {
+      "key": "nice-unix-utility",
+      "claims": {
+        "definition": {
+          "verdict": "supports"
+        },
+        "kind": {
+          "verdict": "supports"
+        },
+        "certification": {
+          "verdict": "supports"
+        }
+      },
+      "variants": {
+        "ok": [],
+        "bad": []
+      },
+      "relations": {
+        "ok": [],
+        "bad": []
+      },
+      "job_listing_vote": {
+        "answer": "yes"
+      }
+    },
+    {
+      "key": "nice-workforce-management",
+      "claims": {
+        "definition": {
+          "verdict": "supports"
+        },
+        "kind": {
+          "verdict": "supports"
+        },
+        "certification": {
+          "verdict": "supports"
+        }
+      },
+      "variants": {
+        "ok": [
+          "NICE (WFM Software)",
+          "NICE WFM"
+        ],
+        "bad": []
+      },
+      "relations": {
+        "ok": [],
+        "bad": []
+      },
+      "job_listing_vote": {
+        "answer": "yes"
+      }
+    },
+    {
+      "key": "nightwatch-js",
+      "claims": {
+        "definition": {
+          "verdict": "supports"
+        },
+        "kind": {
+          "verdict": "supports"
+        },
+        "certification": {
+          "verdict": "supports"
+        }
+      },
+      "variants": {
+        "ok": [],
+        "bad": []
+      },
+      "relations": {
+        "ok": [],
+        "bad": []
+      },
+      "job_listing_vote": {
+        "answer": "yes"
+      }
+    },
+    {
+      "key": "nih-stroke-scale",
+      "claims": {
+        "definition": {
+          "verdict": "supports"
+        },
+        "kind": {
+          "verdict": "contradicts",
+          "note": "NIHSS is an assessment scale/tool; administering the examination is the method."
+        },
+        "certification": {
+          "verdict": "supports"
+        }
+      },
+      "variants": {
+        "ok": [
+          "NIH Stroke Scale (NIHSS)",
+          "NIHSS"
+        ],
+        "bad": []
+      },
+      "relations": {
+        "ok": [],
+        "bad": []
+      },
+      "job_listing_vote": {
+        "answer": "yes"
+      }
+    },
+    {
+      "key": "nist-cybersecurity-framework",
+      "claims": {
+        "definition": {
+          "verdict": "supports",
+          "note": "CSF 2.0 also includes the Govern function."
+        },
+        "kind": {
+          "verdict": "supports"
+        },
+        "certification": {
+          "verdict": "supports"
+        }
+      },
+      "variants": {
+        "ok": [
+          "NIST Cybersecurity Framework (CSF)",
+          "NIST CSF"
+        ],
+        "bad": []
+      },
+      "relations": {
+        "ok": [
+          "related:cybersecurity"
+        ],
+        "bad": []
+      },
+      "job_listing_vote": {
+        "answer": "yes"
+      }
+    },
+    {
+      "key": "nist-sp-800-37",
+      "claims": {
+        "definition": {
+          "verdict": "supports"
+        },
+        "kind": {
+          "verdict": "supports"
+        },
+        "certification": {
+          "verdict": "supports"
+        }
+      },
+      "variants": {
+        "ok": [
+          "NIST 800-37"
+        ],
+        "bad": []
+      },
+      "relations": {
+        "ok": [],
+        "bad": []
+      },
+      "job_listing_vote": {
+        "answer": "yes"
+      }
+    },
+    {
+      "key": "nist-sp-800-53",
+      "claims": {
+        "definition": {
+          "verdict": "supports"
+        },
+        "kind": {
+          "verdict": "supports"
+        },
+        "certification": {
+          "verdict": "supports"
+        }
+      },
+      "variants": {
+        "ok": [
+          "NIST 800-53"
+        ],
+        "bad": []
+      },
+      "relations": {
+        "ok": [],
+        "bad": []
+      },
+      "job_listing_vote": {
+        "answer": "yes"
+      }
+    },
+    {
+      "key": "nist-sp-800-series",
+      "claims": {
+        "definition": {
+          "verdict": "supports"
+        },
+        "kind": {
+          "verdict": "supports"
+        },
+        "certification": {
+          "verdict": "supports"
+        }
+      },
+      "variants": {
+        "ok": [
+          "NIST 800"
+        ],
+        "bad": []
+      },
+      "relations": {
+        "ok": [],
+        "bad": []
+      },
+      "job_listing_vote": {
+        "answer": "yes"
+      }
+    },
+    {
+      "key": "nitrogen-phosphorus-detector",
+      "claims": {
+        "definition": {
+          "verdict": "supports"
+        },
+        "kind": {
+          "verdict": "supports"
+        },
+        "certification": {
+          "verdict": "supports"
+        }
+      },
+      "variants": {
+        "ok": [],
+        "bad": [
+          {
+            "label": "Nitrogen Phosphorous Detector",
+            "note": "The element is phosphorus; phosphorous is not the correct noun in this detector name."
+          }
+        ]
+      },
+      "relations": {
+        "ok": [],
+        "bad": []
+      },
+      "job_listing_vote": {
+        "answer": "yes"
+      }
+    },
+    {
+      "key": "nlog",
+      "claims": {
+        "definition": {
+          "verdict": "supports"
+        },
+        "kind": {
+          "verdict": "supports"
+        },
+        "certification": {
+          "verdict": "supports"
+        }
+      },
+      "variants": {
+        "ok": [
+          "NLog (Software)"
+        ],
+        "bad": []
+      },
+      "relations": {
+        "ok": [],
+        "bad": []
+      },
+      "job_listing_vote": {
+        "answer": "yes"
+      }
+    },
+    {
+      "key": "no-child-left-behind-act",
+      "claims": {
+        "definition": {
+          "verdict": "supports"
+        },
+        "kind": {
+          "verdict": "unsure",
+          "note": "This is a statute; I am unsure whether legislation belongs under standard or knowledge in this taxonomy."
+        },
+        "certification": {
+          "verdict": "supports"
+        }
+      },
+      "variants": {
+        "ok": [],
+        "bad": []
+      },
+      "relations": {
+        "ok": [],
+        "bad": []
+      },
+      "job_listing_vote": {
+        "answer": "yes"
+      }
+    },
+    {
+      "key": "node-js",
+      "claims": {
+        "definition": {
+          "verdict": "supports"
+        },
+        "kind": {
+          "verdict": "supports"
+        },
+        "certification": {
+          "verdict": "supports"
+        }
+      },
+      "variants": {
+        "ok": [],
+        "bad": []
+      },
+      "relations": {
+        "ok": [],
+        "bad": []
+      },
+      "job_listing_vote": {
+        "answer": "yes"
+      }
+    },
+    {
+      "key": "non-facility-associated-signalling",
+      "claims": {
+        "definition": {
+          "verdict": "supports"
+        },
+        "kind": {
+          "verdict": "supports"
+        },
+        "certification": {
+          "verdict": "supports"
+        }
+      },
+      "variants": {
+        "ok": [
+          "Non-Facility Associated Signalling (NFAS)",
+          "NFAS"
+        ],
+        "bad": []
+      },
+      "relations": {
+        "ok": [],
+        "bad": []
+      },
+      "job_listing_vote": {
+        "answer": "yes"
+      }
+    },
+    {
+      "key": "non-fungible-tokens",
+      "claims": {
+        "definition": {
+          "verdict": "contradicts",
+          "note": "An NFT records token ownership; it does not by itself establish ownership or rights in an associated asset."
+        },
+        "kind": {
+          "verdict": "supports"
+        },
+        "certification": {
+          "verdict": "supports"
+        }
+      },
+      "variants": {
+        "ok": [
+          "Non-Fungible Tokens (NFT)",
+          "NFT",
+          "Non-fungible token"
+        ],
+        "bad": []
+      },
+      "relations": {
+        "ok": [],
+        "bad": []
+      },
+      "job_listing_vote": {
+        "answer": "yes"
+      }
+    },
+    {
+      "key": "nonverbal-communication",
+      "claims": {
+        "definition": {
+          "verdict": "supports"
+        },
+        "kind": {
+          "verdict": "supports"
+        },
+        "certification": {
+          "verdict": "supports"
+        }
+      },
+      "variants": {
+        "ok": [
+          "Nonverbal Communications"
+        ],
+        "bad": []
+      },
+      "relations": {
+        "ok": [
+          "broader:communication"
+        ],
+        "bad": []
+      },
+      "job_listing_vote": {
+        "answer": "yes"
+      }
+    },
+    {
+      "key": "nosetests",
+      "claims": {
+        "definition": {
+          "verdict": "supports"
+        },
+        "kind": {
+          "verdict": "contradicts",
+          "note": "nosetests is a command-line tool/test runner; nose is the testing framework."
+        },
+        "certification": {
+          "verdict": "supports"
+        }
+      },
+      "variants": {
+        "ok": [],
+        "bad": []
+      },
+      "relations": {
+        "ok": [],
+        "bad": []
+      },
+      "job_listing_vote": {
+        "answer": "yes"
+      }
+    },
+    {
+      "key": "nosql",
+      "claims": {
+        "definition": {
+          "verdict": "supports"
+        },
+        "kind": {
+          "verdict": "supports"
+        }
+      },
+      "variants": {
+        "ok": [
+          "NoSQL",
+          "non-relational database"
+        ],
+        "bad": []
+      },
+      "relations": {
+        "ok": [
+          "contrast:sql"
+        ],
+        "bad": []
+      },
+      "job_listing_vote": {
+        "answer": "yes"
+      }
+    },
+    {
+      "key": "notion-software",
+      "claims": {
+        "definition": {
+          "verdict": "supports"
+        },
+        "kind": {
+          "verdict": "supports"
+        },
+        "certification": {
+          "verdict": "supports"
+        }
+      },
+      "variants": {
+        "ok": [],
+        "bad": []
+      },
+      "relations": {
+        "ok": [],
+        "bad": []
+      },
+      "job_listing_vote": {
+        "answer": "yes"
+      }
+    },
+    {
+      "key": "npm",
+      "claims": {
+        "definition": {
+          "verdict": "supports"
+        },
+        "kind": {
+          "verdict": "supports"
+        },
+        "certification": {
+          "verdict": "supports"
+        }
+      },
+      "variants": {
+        "ok": [],
+        "bad": [
+          {
+            "label": "Node Package Manager",
+            "note": "npm is not officially an acronym for Node Package Manager; this is a common but inaccurate expansion."
+          }
+        ]
+      },
+      "relations": {
+        "ok": [],
+        "bad": []
+      },
+      "job_listing_vote": {
+        "answer": "yes"
+      }
+    },
+    {
+      "key": "nuance-pdf-converter",
+      "claims": {
+        "definition": {
+          "verdict": "supports"
+        },
+        "kind": {
+          "verdict": "supports"
+        },
+        "certification": {
+          "verdict": "supports"
+        }
+      },
+      "variants": {
+        "ok": [],
+        "bad": []
+      },
+      "relations": {
+        "ok": [],
+        "bad": []
+      },
+      "job_listing_vote": {
+        "answer": "yes"
+      }
+    },
+    {
+      "key": "numpy",
+      "claims": {
+        "definition": {
+          "verdict": "supports"
+        },
+        "kind": {
+          "verdict": "supports"
+        },
+        "certification": {
+          "verdict": "supports"
+        }
+      },
+      "variants": {
+        "ok": [],
+        "bad": []
+      },
+      "relations": {
+        "ok": [],
+        "bad": []
+      },
+      "job_listing_vote": {
+        "answer": "yes"
+      }
+    },
+    {
+      "key": "nuodb",
+      "claims": {
+        "definition": {
+          "verdict": "supports"
+        },
+        "kind": {
+          "verdict": "supports"
+        },
+        "certification": {
+          "verdict": "supports"
+        }
+      },
+      "variants": {
+        "ok": [],
+        "bad": []
+      },
+      "relations": {
+        "ok": [],
+        "bad": []
+      },
+      "job_listing_vote": {
+        "answer": "yes"
+      }
+    },
+    {
+      "key": "nutanix",
+      "claims": {
+        "definition": {
+          "verdict": "supports"
+        },
+        "kind": {
+          "verdict": "supports"
+        },
+        "certification": {
+          "verdict": "supports"
+        }
+      },
+      "variants": {
+        "ok": [],
+        "bad": []
+      },
+      "relations": {
+        "ok": [],
+        "bad": []
+      },
+      "job_listing_vote": {
+        "answer": "yes"
+      }
+    },
+    {
+      "key": "nutanix-ahv",
+      "claims": {
+        "definition": {
+          "verdict": "supports"
+        },
+        "kind": {
+          "verdict": "supports"
+        },
+        "certification": {
+          "verdict": "supports"
+        }
+      },
+      "variants": {
+        "ok": [],
+        "bad": []
+      },
+      "relations": {
+        "ok": [],
+        "bad": []
+      },
+      "job_listing_vote": {
+        "answer": "yes"
+      }
+    },
+    {
+      "key": "nutanix-calm",
+      "claims": {
+        "definition": {
+          "verdict": "supports",
+          "note": "Calm is historical product branding; the automation capability later appeared under Nutanix Cloud Manager."
+        },
+        "kind": {
+          "verdict": "supports"
+        },
+        "certification": {
+          "verdict": "supports"
+        }
+      },
+      "variants": {
+        "ok": [],
+        "bad": []
+      },
+      "relations": {
+        "ok": [],
+        "bad": []
+      },
+      "job_listing_vote": {
+        "answer": "yes"
+      }
+    },
+    {
+      "key": "nutanix-prism",
+      "claims": {
+        "definition": {
+          "verdict": "supports"
+        },
+        "kind": {
+          "verdict": "supports"
+        },
+        "certification": {
+          "verdict": "supports"
+        }
+      },
+      "variants": {
+        "ok": [],
+        "bad": []
+      },
+      "relations": {
+        "ok": [],
+        "bad": []
+      },
+      "job_listing_vote": {
+        "answer": "yes"
+      }
+    },
+    {
+      "key": "nutraceuticals",
+      "claims": {
+        "definition": {
+          "verdict": "supports"
+        },
+        "kind": {
+          "verdict": "supports"
+        },
+        "certification": {
+          "verdict": "supports"
+        }
+      },
+      "variants": {
+        "ok": [],
+        "bad": []
+      },
+      "relations": {
+        "ok": [],
+        "bad": []
+      },
+      "job_listing_vote": {
+        "answer": "yes"
+      }
+    },
+    {
+      "key": "nutrition-care-planning",
+      "claims": {
+        "definition": {
+          "verdict": "supports"
+        },
+        "kind": {
+          "verdict": "supports"
+        },
+        "certification": {
+          "verdict": "supports"
+        }
+      },
+      "variants": {
+        "ok": [],
+        "bad": [
+          {
+            "label": "Nutrition Care Plans",
+            "note": "Plans are the resulting documents, not the activity of nutrition care planning."
+          }
+        ]
+      },
+      "relations": {
+        "ok": [],
+        "bad": []
+      },
+      "job_listing_vote": {
+        "answer": "yes"
+      }
+    },
+    {
+      "key": "nutrition-consulting",
+      "claims": {
+        "definition": {
+          "verdict": "supports"
+        },
+        "kind": {
+          "verdict": "supports"
+        },
+        "certification": {
+          "verdict": "supports"
+        }
+      },
+      "variants": {
+        "ok": [],
+        "bad": []
+      },
+      "relations": {
+        "ok": [],
+        "bad": []
+      },
+      "job_listing_vote": {
+        "answer": "yes"
+      }
+    },
+    {
+      "key": "nutrition-diagnosis",
+      "claims": {
+        "definition": {
+          "verdict": "supports"
+        },
+        "kind": {
+          "verdict": "supports"
+        },
+        "certification": {
+          "verdict": "supports"
+        }
+      },
+      "variants": {
+        "ok": [],
+        "bad": []
+      },
+      "relations": {
+        "ok": [],
+        "bad": []
+      },
+      "job_listing_vote": {
+        "answer": "yes"
+      }
+    }
+  ]
+}

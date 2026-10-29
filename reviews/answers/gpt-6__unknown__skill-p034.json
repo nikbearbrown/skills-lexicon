@@ -1,0 +1,1058 @@
+{
+  "reviewer": {
+    "model": "gpt-6",
+    "effort": "unknown",
+    "date": "2026-10-29"
+  },
+  "packet": "skill/p034",
+  "answers": [
+    {
+      "key": "lookup-table",
+      "claims": {
+        "definition": {
+          "verdict": "supports"
+        },
+        "kind": {
+          "verdict": "supports"
+        },
+        "certification": {
+          "verdict": "supports"
+        }
+      },
+      "variants": {
+        "ok": [],
+        "bad": []
+      },
+      "relations": {
+        "ok": [],
+        "bad": []
+      },
+      "job_listing_vote": {
+        "answer": "yes"
+      }
+    },
+    {
+      "key": "low-code-development-platform",
+      "claims": {
+        "definition": {
+          "verdict": "supports"
+        },
+        "kind": {
+          "verdict": "supports"
+        },
+        "certification": {
+          "verdict": "supports"
+        }
+      },
+      "variants": {
+        "ok": [
+          "Low-Code Development Platform (LCDP)",
+          "Low-code platform",
+          "LCDP"
+        ],
+        "bad": []
+      },
+      "relations": {
+        "ok": [],
+        "bad": []
+      },
+      "job_listing_vote": {
+        "answer": "yes"
+      }
+    },
+    {
+      "key": "low-risk-neonatal-nursing",
+      "claims": {
+        "definition": {
+          "verdict": "supports"
+        },
+        "kind": {
+          "verdict": "supports"
+        },
+        "certification": {
+          "verdict": "supports"
+        }
+      },
+      "variants": {
+        "ok": [],
+        "bad": []
+      },
+      "relations": {
+        "ok": [],
+        "bad": []
+      },
+      "job_listing_vote": {
+        "answer": "yes"
+      }
+    },
+    {
+      "key": "low-voltage-transistor-transistor-logic",
+      "claims": {
+        "definition": {
+          "verdict": "supports"
+        },
+        "kind": {
+          "verdict": "supports"
+        },
+        "certification": {
+          "verdict": "supports"
+        }
+      },
+      "variants": {
+        "ok": [
+          "Low Voltage Transistor Transistor Logic",
+          "LVTTL"
+        ],
+        "bad": []
+      },
+      "relations": {
+        "ok": [],
+        "bad": []
+      },
+      "job_listing_vote": {
+        "answer": "yes"
+      }
+    },
+    {
+      "key": "luigi",
+      "claims": {
+        "definition": {
+          "verdict": "supports",
+          "note": "Luigi schedules task dependencies; recurring clock-based triggering generally comes from an external scheduler."
+        },
+        "kind": {
+          "verdict": "supports"
+        },
+        "certification": {
+          "verdict": "supports"
+        }
+      },
+      "variants": {
+        "ok": [],
+        "bad": []
+      },
+      "relations": {
+        "ok": [],
+        "bad": []
+      },
+      "job_listing_vote": {
+        "answer": "yes"
+      }
+    },
+    {
+      "key": "lumion",
+      "claims": {
+        "definition": {
+          "verdict": "supports"
+        },
+        "kind": {
+          "verdict": "supports"
+        },
+        "certification": {
+          "verdict": "supports"
+        }
+      },
+      "variants": {
+        "ok": [
+          "Lumion (3D Rendering Software)"
+        ],
+        "bad": []
+      },
+      "relations": {
+        "ok": [],
+        "bad": []
+      },
+      "job_listing_vote": {
+        "answer": "yes"
+      }
+    },
+    {
+      "key": "lymphedema-management",
+      "claims": {
+        "definition": {
+          "verdict": "supports"
+        },
+        "kind": {
+          "verdict": "supports"
+        },
+        "certification": {
+          "verdict": "supports"
+        }
+      },
+      "variants": {
+        "ok": [],
+        "bad": []
+      },
+      "relations": {
+        "ok": [],
+        "bad": []
+      },
+      "job_listing_vote": {
+        "answer": "yes"
+      }
+    },
+    {
+      "key": "m2crypto",
+      "claims": {
+        "definition": {
+          "verdict": "supports"
+        },
+        "kind": {
+          "verdict": "supports"
+        },
+        "certification": {
+          "verdict": "supports"
+        }
+      },
+      "variants": {
+        "ok": [],
+        "bad": []
+      },
+      "relations": {
+        "ok": [],
+        "bad": []
+      },
+      "job_listing_vote": {
+        "answer": "yes"
+      }
+    },
+    {
+      "key": "machine-learning",
+      "claims": {
+        "definition": {
+          "verdict": "supports",
+          "note": "Correct but terse; machine learning also covers learning representations and policies, not only predictive models."
+        },
+        "kind": {
+          "verdict": "supports"
+        }
+      },
+      "variants": {
+        "ok": [
+          "ML"
+        ],
+        "bad": []
+      },
+      "relations": {
+        "ok": [],
+        "bad": []
+      },
+      "job_listing_vote": {
+        "answer": "yes"
+      }
+    },
+    {
+      "key": "machine-operation",
+      "claims": {
+        "definition": {
+          "verdict": "supports"
+        },
+        "kind": {
+          "verdict": "supports"
+        },
+        "certification": {
+          "verdict": "supports"
+        }
+      },
+      "variants": {
+        "ok": [],
+        "bad": []
+      },
+      "relations": {
+        "ok": [],
+        "bad": []
+      },
+      "job_listing_vote": {
+        "answer": "yes"
+      }
+    },
+    {
+      "key": "machine-tools",
+      "claims": {
+        "definition": {
+          "verdict": "supports"
+        },
+        "kind": {
+          "verdict": "supports"
+        },
+        "certification": {
+          "verdict": "supports"
+        }
+      },
+      "variants": {
+        "ok": [],
+        "bad": []
+      },
+      "relations": {
+        "ok": [],
+        "bad": []
+      },
+      "job_listing_vote": {
+        "answer": "yes"
+      }
+    },
+    {
+      "key": "machining-technology",
+      "claims": {
+        "definition": {
+          "verdict": "supports"
+        },
+        "kind": {
+          "verdict": "supports"
+        },
+        "certification": {
+          "verdict": "supports"
+        }
+      },
+      "variants": {
+        "ok": [],
+        "bad": []
+      },
+      "relations": {
+        "ok": [],
+        "bad": []
+      },
+      "job_listing_vote": {
+        "answer": "yes"
+      }
+    },
+    {
+      "key": "macintosh-application-environment",
+      "claims": {
+        "definition": {
+          "verdict": "supports"
+        },
+        "kind": {
+          "verdict": "supports"
+        },
+        "certification": {
+          "verdict": "supports"
+        }
+      },
+      "variants": {
+        "ok": [],
+        "bad": []
+      },
+      "relations": {
+        "ok": [],
+        "bad": []
+      },
+      "job_listing_vote": {
+        "answer": "unsure",
+        "reason": "A historical Unix compatibility product; I am unsure employers request Macintosh Application Environment specifically."
+      }
+    },
+    {
+      "key": "macos",
+      "claims": {
+        "definition": {
+          "verdict": "supports"
+        },
+        "kind": {
+          "verdict": "supports"
+        },
+        "certification": {
+          "verdict": "supports"
+        }
+      },
+      "variants": {
+        "ok": [
+          "Apple OS X",
+          "OS X",
+          "Mac OS X"
+        ],
+        "bad": []
+      },
+      "relations": {
+        "ok": [],
+        "bad": []
+      },
+      "job_listing_vote": {
+        "answer": "yes"
+      }
+    },
+    {
+      "key": "mail-distribution",
+      "claims": {
+        "definition": {
+          "verdict": "supports"
+        },
+        "kind": {
+          "verdict": "supports"
+        },
+        "certification": {
+          "verdict": "supports"
+        }
+      },
+      "variants": {
+        "ok": [],
+        "bad": []
+      },
+      "relations": {
+        "ok": [],
+        "bad": []
+      },
+      "job_listing_vote": {
+        "answer": "yes"
+      }
+    },
+    {
+      "key": "mail-processing",
+      "claims": {
+        "definition": {
+          "verdict": "supports"
+        },
+        "kind": {
+          "verdict": "supports"
+        },
+        "certification": {
+          "verdict": "supports"
+        }
+      },
+      "variants": {
+        "ok": [],
+        "bad": []
+      },
+      "relations": {
+        "ok": [],
+        "bad": []
+      },
+      "job_listing_vote": {
+        "answer": "yes"
+      }
+    },
+    {
+      "key": "mainframe-storage",
+      "claims": {
+        "definition": {
+          "verdict": "supports",
+          "note": "This describes external/persistent storage; the broader phrase can also include mainframe memory."
+        },
+        "kind": {
+          "verdict": "supports"
+        },
+        "certification": {
+          "verdict": "supports"
+        }
+      },
+      "variants": {
+        "ok": [],
+        "bad": []
+      },
+      "relations": {
+        "ok": [],
+        "bad": []
+      },
+      "job_listing_vote": {
+        "answer": "yes"
+      }
+    },
+    {
+      "key": "malware-analysis",
+      "claims": {
+        "definition": {
+          "verdict": "supports"
+        },
+        "kind": {
+          "verdict": "supports"
+        },
+        "certification": {
+          "verdict": "supports"
+        }
+      },
+      "variants": {
+        "ok": [],
+        "bad": []
+      },
+      "relations": {
+        "ok": [],
+        "bad": []
+      },
+      "job_listing_vote": {
+        "answer": "yes"
+      }
+    },
+    {
+      "key": "mammalian-cell-culture",
+      "claims": {
+        "definition": {
+          "verdict": "supports"
+        },
+        "kind": {
+          "verdict": "supports"
+        },
+        "certification": {
+          "verdict": "supports"
+        }
+      },
+      "variants": {
+        "ok": [],
+        "bad": [
+          {
+            "label": "Mammalian Cell Cultures",
+            "note": "Names cultures produced by the process rather than the cultivation method itself."
+          }
+        ]
+      },
+      "relations": {
+        "ok": [
+          "related:bacterial-culture"
+        ],
+        "bad": []
+      },
+      "job_listing_vote": {
+        "answer": "yes"
+      }
+    },
+    {
+      "key": "manure-spreader",
+      "claims": {
+        "definition": {
+          "verdict": "supports"
+        },
+        "kind": {
+          "verdict": "supports"
+        },
+        "certification": {
+          "verdict": "supports"
+        }
+      },
+      "variants": {
+        "ok": [],
+        "bad": []
+      },
+      "relations": {
+        "ok": [],
+        "bad": []
+      },
+      "job_listing_vote": {
+        "answer": "yes"
+      }
+    },
+    {
+      "key": "map-production",
+      "claims": {
+        "definition": {
+          "verdict": "supports"
+        },
+        "kind": {
+          "verdict": "supports"
+        },
+        "certification": {
+          "verdict": "supports"
+        }
+      },
+      "variants": {
+        "ok": [],
+        "bad": []
+      },
+      "relations": {
+        "ok": [],
+        "bad": []
+      },
+      "job_listing_vote": {
+        "answer": "yes"
+      }
+    },
+    {
+      "key": "map-reading",
+      "claims": {
+        "definition": {
+          "verdict": "supports"
+        },
+        "kind": {
+          "verdict": "supports"
+        },
+        "certification": {
+          "verdict": "supports"
+        }
+      },
+      "variants": {
+        "ok": [],
+        "bad": []
+      },
+      "relations": {
+        "ok": [],
+        "bad": []
+      },
+      "job_listing_vote": {
+        "answer": "yes"
+      }
+    },
+    {
+      "key": "mapdb",
+      "claims": {
+        "definition": {
+          "verdict": "supports"
+        },
+        "kind": {
+          "verdict": "supports"
+        },
+        "certification": {
+          "verdict": "supports"
+        }
+      },
+      "variants": {
+        "ok": [],
+        "bad": []
+      },
+      "relations": {
+        "ok": [],
+        "bad": []
+      },
+      "job_listing_vote": {
+        "answer": "yes"
+      }
+    },
+    {
+      "key": "margin-lending",
+      "claims": {
+        "definition": {
+          "verdict": "supports"
+        },
+        "kind": {
+          "verdict": "supports"
+        },
+        "certification": {
+          "verdict": "supports"
+        }
+      },
+      "variants": {
+        "ok": [],
+        "bad": []
+      },
+      "relations": {
+        "ok": [],
+        "bad": []
+      },
+      "job_listing_vote": {
+        "answer": "yes"
+      }
+    },
+    {
+      "key": "marine-navigation",
+      "claims": {
+        "definition": {
+          "verdict": "supports"
+        },
+        "kind": {
+          "verdict": "supports"
+        },
+        "certification": {
+          "verdict": "supports"
+        }
+      },
+      "variants": {
+        "ok": [],
+        "bad": []
+      },
+      "relations": {
+        "ok": [],
+        "bad": []
+      },
+      "job_listing_vote": {
+        "answer": "yes"
+      }
+    },
+    {
+      "key": "marine-radar",
+      "claims": {
+        "definition": {
+          "verdict": "supports"
+        },
+        "kind": {
+          "verdict": "supports"
+        },
+        "certification": {
+          "verdict": "supports"
+        }
+      },
+      "variants": {
+        "ok": [],
+        "bad": []
+      },
+      "relations": {
+        "ok": [],
+        "bad": []
+      },
+      "job_listing_vote": {
+        "answer": "yes"
+      }
+    },
+    {
+      "key": "marionette-js",
+      "claims": {
+        "definition": {
+          "verdict": "supports"
+        },
+        "kind": {
+          "verdict": "supports"
+        },
+        "certification": {
+          "verdict": "supports"
+        }
+      },
+      "variants": {
+        "ok": [
+          "MarionetteJS",
+          "Backbone.Marionette"
+        ],
+        "bad": []
+      },
+      "relations": {
+        "ok": [],
+        "bad": []
+      },
+      "job_listing_vote": {
+        "answer": "yes"
+      }
+    },
+    {
+      "key": "maritime-law-enforcement",
+      "claims": {
+        "definition": {
+          "verdict": "supports"
+        },
+        "kind": {
+          "verdict": "supports"
+        },
+        "certification": {
+          "verdict": "supports"
+        }
+      },
+      "variants": {
+        "ok": [],
+        "bad": []
+      },
+      "relations": {
+        "ok": [
+          "related:law-enforcement-operations"
+        ],
+        "bad": []
+      },
+      "job_listing_vote": {
+        "answer": "yes"
+      }
+    },
+    {
+      "key": "market-capitalization",
+      "claims": {
+        "definition": {
+          "verdict": "supports"
+        },
+        "kind": {
+          "verdict": "supports"
+        },
+        "certification": {
+          "verdict": "supports"
+        }
+      },
+      "variants": {
+        "ok": [
+          "Market cap",
+          "Market capitalisation"
+        ],
+        "bad": []
+      },
+      "relations": {
+        "ok": [],
+        "bad": []
+      },
+      "job_listing_vote": {
+        "answer": "yes"
+      }
+    },
+    {
+      "key": "market-depth",
+      "claims": {
+        "definition": {
+          "verdict": "supports"
+        },
+        "kind": {
+          "verdict": "supports"
+        },
+        "certification": {
+          "verdict": "supports"
+        }
+      },
+      "variants": {
+        "ok": [],
+        "bad": []
+      },
+      "relations": {
+        "ok": [],
+        "bad": []
+      },
+      "job_listing_vote": {
+        "answer": "yes"
+      }
+    },
+    {
+      "key": "marketing-management",
+      "claims": {
+        "definition": {
+          "verdict": "supports"
+        },
+        "kind": {
+          "verdict": "supports"
+        },
+        "certification": {
+          "verdict": "supports"
+        }
+      },
+      "variants": {
+        "ok": [],
+        "bad": []
+      },
+      "relations": {
+        "ok": [],
+        "bad": []
+      },
+      "job_listing_vote": {
+        "answer": "yes"
+      }
+    },
+    {
+      "key": "marketing-strategy",
+      "claims": {
+        "definition": {
+          "verdict": "supports"
+        },
+        "kind": {
+          "verdict": "supports"
+        },
+        "certification": {
+          "verdict": "supports"
+        }
+      },
+      "variants": {
+        "ok": [],
+        "bad": []
+      },
+      "relations": {
+        "ok": [
+          "related:go-to-market-strategy",
+          "related:brand-strategy"
+        ],
+        "bad": []
+      },
+      "job_listing_vote": {
+        "answer": "yes"
+      }
+    },
+    {
+      "key": "masonry",
+      "claims": {
+        "definition": {
+          "verdict": "contradicts",
+          "note": "Masonry can use dry-laid stone or other mortarless construction; mortar is not required in every form."
+        },
+        "kind": {
+          "verdict": "supports"
+        },
+        "certification": {
+          "verdict": "supports"
+        }
+      },
+      "variants": {
+        "ok": [],
+        "bad": []
+      },
+      "relations": {
+        "ok": [],
+        "bad": []
+      },
+      "job_listing_vote": {
+        "answer": "yes"
+      }
+    },
+    {
+      "key": "mass-media",
+      "claims": {
+        "definition": {
+          "verdict": "supports"
+        },
+        "kind": {
+          "verdict": "supports"
+        },
+        "certification": {
+          "verdict": "supports"
+        }
+      },
+      "variants": {
+        "ok": [],
+        "bad": []
+      },
+      "relations": {
+        "ok": [],
+        "bad": []
+      },
+      "job_listing_vote": {
+        "answer": "yes"
+      }
+    },
+    {
+      "key": "massage",
+      "claims": {
+        "definition": {
+          "verdict": "supports",
+          "note": "Massage can also use tools or mechanically assisted techniques, not only bare hands."
+        },
+        "kind": {
+          "verdict": "supports"
+        },
+        "certification": {
+          "verdict": "supports"
+        }
+      },
+      "variants": {
+        "ok": [
+          "Massages"
+        ],
+        "bad": []
+      },
+      "relations": {
+        "ok": [
+          "related:anma-massage"
+        ],
+        "bad": []
+      },
+      "job_listing_vote": {
+        "answer": "yes"
+      }
+    },
+    {
+      "key": "master-production-records",
+      "claims": {
+        "definition": {
+          "verdict": "supports"
+        },
+        "kind": {
+          "verdict": "supports"
+        },
+        "certification": {
+          "verdict": "supports"
+        }
+      },
+      "variants": {
+        "ok": [],
+        "bad": []
+      },
+      "relations": {
+        "ok": [],
+        "bad": []
+      },
+      "job_listing_vote": {
+        "answer": "yes"
+      }
+    },
+    {
+      "key": "material-flow",
+      "claims": {
+        "definition": {
+          "verdict": "supports"
+        },
+        "kind": {
+          "verdict": "supports"
+        },
+        "certification": {
+          "verdict": "supports"
+        }
+      },
+      "variants": {
+        "ok": [],
+        "bad": []
+      },
+      "relations": {
+        "ok": [],
+        "bad": []
+      },
+      "job_listing_vote": {
+        "answer": "yes"
+      }
+    },
+    {
+      "key": "materials-testing",
+      "claims": {
+        "definition": {
+          "verdict": "supports"
+        },
+        "kind": {
+          "verdict": "supports"
+        },
+        "certification": {
+          "verdict": "supports"
+        }
+      },
+      "variants": {
+        "ok": [
+          "Materials Testing (Tests)"
+        ],
+        "bad": []
+      },
+      "relations": {
+        "ok": [],
+        "bad": []
+      },
+      "job_listing_vote": {
+        "answer": "yes"
+      }
+    },
+    {
+      "key": "mathematica",
+      "claims": {
+        "definition": {
+          "verdict": "supports"
+        },
+        "kind": {
+          "verdict": "supports"
+        },
+        "certification": {
+          "verdict": "supports"
+        }
+      },
+      "variants": {
+        "ok": [
+          "Wolfram Mathematica"
+        ],
+        "bad": []
+      },
+      "relations": {
+        "ok": [],
+        "bad": []
+      },
+      "job_listing_vote": {
+        "answer": "yes"
+      }
+    },
+    {
+      "key": "mathematics",
+      "claims": {
+        "definition": {
+          "verdict": "supports"
+        },
+        "kind": {
+          "verdict": "supports"
+        },
+        "certification": {
+          "verdict": "supports"
+        }
+      },
+      "variants": {
+        "ok": [],
+        "bad": []
+      },
+      "relations": {
+        "ok": [
+          "related:arithmetic",
+          "related:mathematical-reasoning",
+          "related:engineering-mathematics"
+        ],
+        "bad": []
+      },
+      "job_listing_vote": {
+        "answer": "yes"
+      }
+    }
+  ]
+}

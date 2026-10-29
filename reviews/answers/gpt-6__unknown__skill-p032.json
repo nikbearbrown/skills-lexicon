@@ -1,0 +1,1053 @@
+{
+  "reviewer": {
+    "model": "gpt-6",
+    "effort": "unknown",
+    "date": "2026-10-29"
+  },
+  "packet": "skill/p032",
+  "answers": [
+    {
+      "key": "jsperf",
+      "claims": {
+        "definition": {
+          "verdict": "unsure",
+          "note": "I recognize the historical benchmarking site, but cannot confidently confirm its current availability or incarnation."
+        },
+        "kind": {
+          "verdict": "supports"
+        },
+        "certification": {
+          "verdict": "supports"
+        }
+      },
+      "variants": {
+        "ok": [],
+        "bad": []
+      },
+      "relations": {
+        "ok": [],
+        "bad": []
+      },
+      "job_listing_vote": {
+        "answer": "unsure",
+        "reason": "A historical benchmarking website with uncertain availability; I cannot confidently judge demand for this specific tool."
+      }
+    },
+    {
+      "key": "jsrender",
+      "claims": {
+        "definition": {
+          "verdict": "supports"
+        },
+        "kind": {
+          "verdict": "supports"
+        },
+        "certification": {
+          "verdict": "supports"
+        }
+      },
+      "variants": {
+        "ok": [],
+        "bad": []
+      },
+      "relations": {
+        "ok": [],
+        "bad": []
+      },
+      "job_listing_vote": {
+        "answer": "yes"
+      }
+    },
+    {
+      "key": "jsunit",
+      "claims": {
+        "definition": {
+          "verdict": "supports"
+        },
+        "kind": {
+          "verdict": "supports"
+        },
+        "certification": {
+          "verdict": "supports"
+        }
+      },
+      "variants": {
+        "ok": [],
+        "bad": []
+      },
+      "relations": {
+        "ok": [],
+        "bad": []
+      },
+      "job_listing_vote": {
+        "answer": "yes"
+      }
+    },
+    {
+      "key": "jtrac",
+      "claims": {
+        "definition": {
+          "verdict": "supports"
+        },
+        "kind": {
+          "verdict": "supports"
+        },
+        "certification": {
+          "verdict": "supports"
+        }
+      },
+      "variants": {
+        "ok": [
+          "JTrac - Open Source And Customizable Issue-Tracking In Java"
+        ],
+        "bad": []
+      },
+      "relations": {
+        "ok": [],
+        "bad": []
+      },
+      "job_listing_vote": {
+        "answer": "yes"
+      }
+    },
+    {
+      "key": "jury-instructions",
+      "claims": {
+        "definition": {
+          "verdict": "supports"
+        },
+        "kind": {
+          "verdict": "supports"
+        },
+        "certification": {
+          "verdict": "supports"
+        }
+      },
+      "variants": {
+        "ok": [],
+        "bad": []
+      },
+      "relations": {
+        "ok": [],
+        "bad": []
+      },
+      "job_listing_vote": {
+        "answer": "yes"
+      }
+    },
+    {
+      "key": "jury-management",
+      "claims": {
+        "definition": {
+          "verdict": "supports"
+        },
+        "kind": {
+          "verdict": "supports"
+        },
+        "certification": {
+          "verdict": "supports"
+        }
+      },
+      "variants": {
+        "ok": [],
+        "bad": []
+      },
+      "relations": {
+        "ok": [],
+        "bad": []
+      },
+      "job_listing_vote": {
+        "answer": "yes"
+      }
+    },
+    {
+      "key": "juvenile-rehabilitation",
+      "claims": {
+        "definition": {
+          "verdict": "supports"
+        },
+        "kind": {
+          "verdict": "supports"
+        },
+        "certification": {
+          "verdict": "supports"
+        }
+      },
+      "variants": {
+        "ok": [],
+        "bad": []
+      },
+      "relations": {
+        "ok": [],
+        "bad": []
+      },
+      "job_listing_vote": {
+        "answer": "yes"
+      }
+    },
+    {
+      "key": "k-means-clustering",
+      "claims": {
+        "definition": {
+          "verdict": "supports",
+          "note": "Describes the common Lloyd iteration; other optimization algorithms also solve the k-means objective."
+        },
+        "kind": {
+          "verdict": "supports"
+        },
+        "certification": {
+          "verdict": "supports"
+        }
+      },
+      "variants": {
+        "ok": [
+          "K Means",
+          "k-means",
+          "k-means algorithm"
+        ],
+        "bad": []
+      },
+      "relations": {
+        "ok": [],
+        "bad": []
+      },
+      "job_listing_vote": {
+        "answer": "yes"
+      }
+    },
+    {
+      "key": "kahoot",
+      "claims": {
+        "definition": {
+          "verdict": "supports",
+          "note": "Kahoot also supports self-paced assignments, not only live hosted sessions."
+        },
+        "kind": {
+          "verdict": "supports"
+        },
+        "certification": {
+          "verdict": "supports"
+        }
+      },
+      "variants": {
+        "ok": [
+          "Kahoot"
+        ],
+        "bad": []
+      },
+      "relations": {
+        "ok": [],
+        "bad": []
+      },
+      "job_listing_vote": {
+        "answer": "yes"
+      }
+    },
+    {
+      "key": "kairosdb",
+      "claims": {
+        "definition": {
+          "verdict": "supports"
+        },
+        "kind": {
+          "verdict": "supports"
+        },
+        "certification": {
+          "verdict": "supports"
+        }
+      },
+      "variants": {
+        "ok": [],
+        "bad": []
+      },
+      "relations": {
+        "ok": [],
+        "bad": []
+      },
+      "job_listing_vote": {
+        "answer": "yes"
+      }
+    },
+    {
+      "key": "katalon-studio",
+      "claims": {
+        "definition": {
+          "verdict": "supports"
+        },
+        "kind": {
+          "verdict": "supports"
+        },
+        "certification": {
+          "verdict": "supports"
+        }
+      },
+      "variants": {
+        "ok": [],
+        "bad": []
+      },
+      "relations": {
+        "ok": [],
+        "bad": []
+      },
+      "job_listing_vote": {
+        "answer": "yes"
+      }
+    },
+    {
+      "key": "kenna-security",
+      "claims": {
+        "definition": {
+          "verdict": "supports"
+        },
+        "kind": {
+          "verdict": "supports"
+        },
+        "certification": {
+          "verdict": "supports"
+        }
+      },
+      "variants": {
+        "ok": [
+          "Cisco Vulnerability Management"
+        ],
+        "bad": []
+      },
+      "relations": {
+        "ok": [],
+        "bad": []
+      },
+      "job_listing_vote": {
+        "answer": "yes"
+      }
+    },
+    {
+      "key": "keras",
+      "claims": {
+        "definition": {
+          "verdict": "supports"
+        },
+        "kind": {
+          "verdict": "supports"
+        },
+        "certification": {
+          "verdict": "supports"
+        }
+      },
+      "variants": {
+        "ok": [],
+        "bad": []
+      },
+      "relations": {
+        "ok": [],
+        "bad": []
+      },
+      "job_listing_vote": {
+        "answer": "yes"
+      }
+    },
+    {
+      "key": "kinesitherapy",
+      "claims": {
+        "definition": {
+          "verdict": "supports"
+        },
+        "kind": {
+          "verdict": "supports"
+        },
+        "certification": {
+          "verdict": "supports"
+        }
+      },
+      "variants": {
+        "ok": [
+          "Kinesiotherapy"
+        ],
+        "bad": []
+      },
+      "relations": {
+        "ok": [],
+        "bad": []
+      },
+      "job_listing_vote": {
+        "answer": "yes"
+      }
+    },
+    {
+      "key": "kinetic-typography",
+      "claims": {
+        "definition": {
+          "verdict": "supports"
+        },
+        "kind": {
+          "verdict": "supports"
+        },
+        "certification": {
+          "verdict": "supports"
+        }
+      },
+      "variants": {
+        "ok": [],
+        "bad": [
+          {
+            "label": "Kinetics (Typography)",
+            "note": "The established term is kinetic typography; kinetics alone names a different, broader concept."
+          }
+        ]
+      },
+      "relations": {
+        "ok": [],
+        "bad": []
+      },
+      "job_listing_vote": {
+        "answer": "yes"
+      }
+    },
+    {
+      "key": "knockout-js",
+      "claims": {
+        "definition": {
+          "verdict": "supports"
+        },
+        "kind": {
+          "verdict": "supports"
+        },
+        "certification": {
+          "verdict": "supports"
+        }
+      },
+      "variants": {
+        "ok": [],
+        "bad": []
+      },
+      "relations": {
+        "ok": [],
+        "bad": []
+      },
+      "job_listing_vote": {
+        "answer": "yes"
+      }
+    },
+    {
+      "key": "know-your-third-party-ky3p",
+      "claims": {
+        "definition": {
+          "verdict": "supports"
+        },
+        "kind": {
+          "verdict": "supports"
+        },
+        "certification": {
+          "verdict": "supports"
+        }
+      },
+      "variants": {
+        "ok": [],
+        "bad": []
+      },
+      "relations": {
+        "ok": [],
+        "bad": []
+      },
+      "job_listing_vote": {
+        "answer": "yes"
+      }
+    },
+    {
+      "key": "knowledge-graphs",
+      "claims": {
+        "definition": {
+          "verdict": "supports",
+          "note": "Correct but too terse to distinguish knowledge graphs from other structured representations."
+        },
+        "kind": {
+          "verdict": "supports"
+        }
+      },
+      "variants": {
+        "ok": [],
+        "bad": []
+      },
+      "relations": {
+        "ok": [],
+        "bad": []
+      },
+      "job_listing_vote": {
+        "answer": "yes"
+      }
+    },
+    {
+      "key": "kpi-reporting",
+      "claims": {
+        "definition": {
+          "verdict": "supports"
+        },
+        "kind": {
+          "verdict": "supports"
+        },
+        "certification": {
+          "verdict": "supports"
+        }
+      },
+      "variants": {
+        "ok": [],
+        "bad": []
+      },
+      "relations": {
+        "ok": [],
+        "bad": []
+      },
+      "job_listing_vote": {
+        "answer": "yes"
+      }
+    },
+    {
+      "key": "kyoto-protocol",
+      "claims": {
+        "definition": {
+          "verdict": "supports"
+        },
+        "kind": {
+          "verdict": "unsure",
+          "note": "This is an international treaty; I am unsure whether standard is the intended kind rather than knowledge."
+        },
+        "certification": {
+          "verdict": "supports"
+        }
+      },
+      "variants": {
+        "ok": [],
+        "bad": []
+      },
+      "relations": {
+        "ok": [],
+        "bad": []
+      },
+      "job_listing_vote": {
+        "answer": "yes"
+      }
+    },
+    {
+      "key": "kyriba",
+      "claims": {
+        "definition": {
+          "verdict": "supports"
+        },
+        "kind": {
+          "verdict": "supports"
+        },
+        "certification": {
+          "verdict": "supports"
+        }
+      },
+      "variants": {
+        "ok": [
+          "Kyriba (Treasury Management Software)"
+        ],
+        "bad": []
+      },
+      "relations": {
+        "ok": [],
+        "bad": []
+      },
+      "job_listing_vote": {
+        "answer": "yes"
+      }
+    },
+    {
+      "key": "label-edge-router",
+      "claims": {
+        "definition": {
+          "verdict": "supports",
+          "note": "With penultimate-hop popping, the final label can be removed before the egress router."
+        },
+        "kind": {
+          "verdict": "supports"
+        },
+        "certification": {
+          "verdict": "supports"
+        }
+      },
+      "variants": {
+        "ok": [
+          "Label Edge Router (MPLS Networking)"
+        ],
+        "bad": []
+      },
+      "relations": {
+        "ok": [],
+        "bad": []
+      },
+      "job_listing_vote": {
+        "answer": "yes"
+      }
+    },
+    {
+      "key": "label-printer",
+      "claims": {
+        "definition": {
+          "verdict": "supports"
+        },
+        "kind": {
+          "verdict": "supports"
+        },
+        "certification": {
+          "verdict": "supports"
+        }
+      },
+      "variants": {
+        "ok": [],
+        "bad": []
+      },
+      "relations": {
+        "ok": [],
+        "bad": []
+      },
+      "job_listing_vote": {
+        "answer": "yes"
+      }
+    },
+    {
+      "key": "labor-market-trends",
+      "claims": {
+        "definition": {
+          "verdict": "supports"
+        },
+        "kind": {
+          "verdict": "supports"
+        },
+        "certification": {
+          "verdict": "supports"
+        }
+      },
+      "variants": {
+        "ok": [
+          "Labour market trends"
+        ],
+        "bad": []
+      },
+      "relations": {
+        "ok": [],
+        "bad": []
+      },
+      "job_listing_vote": {
+        "answer": "yes"
+      }
+    },
+    {
+      "key": "labour-economics",
+      "claims": {
+        "definition": {
+          "verdict": "supports"
+        },
+        "kind": {
+          "verdict": "supports"
+        },
+        "certification": {
+          "verdict": "supports"
+        }
+      },
+      "variants": {
+        "ok": [
+          "Labor economics"
+        ],
+        "bad": []
+      },
+      "relations": {
+        "ok": [],
+        "bad": []
+      },
+      "job_listing_vote": {
+        "answer": "yes"
+      }
+    },
+    {
+      "key": "labour-law",
+      "claims": {
+        "definition": {
+          "verdict": "supports"
+        },
+        "kind": {
+          "verdict": "supports"
+        },
+        "certification": {
+          "verdict": "supports"
+        }
+      },
+      "variants": {
+        "ok": [
+          "Labour Laws",
+          "Labor law",
+          "Labor laws"
+        ],
+        "bad": []
+      },
+      "relations": {
+        "ok": [],
+        "bad": []
+      },
+      "job_listing_vote": {
+        "answer": "yes"
+      }
+    },
+    {
+      "key": "land-atmosphere-interactions",
+      "claims": {
+        "definition": {
+          "verdict": "supports"
+        },
+        "kind": {
+          "verdict": "supports"
+        },
+        "certification": {
+          "verdict": "supports"
+        }
+      },
+      "variants": {
+        "ok": [],
+        "bad": []
+      },
+      "relations": {
+        "ok": [],
+        "bad": []
+      },
+      "job_listing_vote": {
+        "answer": "yes"
+      }
+    },
+    {
+      "key": "landing-page-optimization",
+      "claims": {
+        "definition": {
+          "verdict": "supports"
+        },
+        "kind": {
+          "verdict": "supports"
+        },
+        "certification": {
+          "verdict": "supports"
+        }
+      },
+      "variants": {
+        "ok": [
+          "Landing page optimisation"
+        ],
+        "bad": []
+      },
+      "relations": {
+        "ok": [],
+        "bad": []
+      },
+      "job_listing_vote": {
+        "answer": "yes"
+      }
+    },
+    {
+      "key": "lando",
+      "claims": {
+        "definition": {
+          "verdict": "supports"
+        },
+        "kind": {
+          "verdict": "supports"
+        },
+        "certification": {
+          "verdict": "supports"
+        }
+      },
+      "variants": {
+        "ok": [
+          "Lando (Software)"
+        ],
+        "bad": []
+      },
+      "relations": {
+        "ok": [],
+        "bad": []
+      },
+      "job_listing_vote": {
+        "answer": "yes"
+      }
+    },
+    {
+      "key": "landscape-painting",
+      "claims": {
+        "definition": {
+          "verdict": "supports"
+        },
+        "kind": {
+          "verdict": "supports"
+        },
+        "certification": {
+          "verdict": "supports"
+        }
+      },
+      "variants": {
+        "ok": [],
+        "bad": []
+      },
+      "relations": {
+        "ok": [],
+        "bad": []
+      },
+      "job_listing_vote": {
+        "answer": "yes"
+      }
+    },
+    {
+      "key": "landscaping-and-yard-care",
+      "claims": {
+        "definition": {
+          "verdict": "supports"
+        },
+        "kind": {
+          "verdict": "supports"
+        },
+        "certification": {
+          "verdict": "supports"
+        }
+      },
+      "variants": {
+        "ok": [],
+        "bad": []
+      },
+      "relations": {
+        "ok": [
+          "related:groundskeeping-and-yard-care"
+        ],
+        "bad": []
+      },
+      "job_listing_vote": {
+        "answer": "yes"
+      }
+    },
+    {
+      "key": "langchain",
+      "claims": {
+        "definition": {
+          "verdict": "supports"
+        },
+        "kind": {
+          "verdict": "supports"
+        }
+      },
+      "variants": {
+        "ok": [],
+        "bad": []
+      },
+      "relations": {
+        "ok": [],
+        "bad": []
+      },
+      "job_listing_vote": {
+        "answer": "yes"
+      }
+    },
+    {
+      "key": "language-interpretation-and-translation",
+      "claims": {
+        "definition": {
+          "verdict": "contradicts",
+          "note": "Interpreting also includes signed languages; the spoken-versus-written split excludes them."
+        },
+        "kind": {
+          "verdict": "supports"
+        },
+        "certification": {
+          "verdict": "supports"
+        }
+      },
+      "variants": {
+        "ok": [],
+        "bad": []
+      },
+      "relations": {
+        "ok": [],
+        "bad": []
+      },
+      "job_listing_vote": {
+        "answer": "yes"
+      }
+    },
+    {
+      "key": "language-teaching",
+      "claims": {
+        "definition": {
+          "verdict": "supports",
+          "note": "Language teaching can also concern signed languages and need not target all four listed skills."
+        },
+        "kind": {
+          "verdict": "supports"
+        },
+        "certification": {
+          "verdict": "supports"
+        }
+      },
+      "variants": {
+        "ok": [],
+        "bad": []
+      },
+      "relations": {
+        "ok": [],
+        "bad": []
+      },
+      "job_listing_vote": {
+        "answer": "yes"
+      }
+    },
+    {
+      "key": "large-language-models",
+      "claims": {
+        "definition": {
+          "verdict": "supports",
+          "note": "Circular and uninformative; describe large trained language models and the tasks they support."
+        },
+        "kind": {
+          "verdict": "supports"
+        }
+      },
+      "variants": {
+        "ok": [
+          "LLMs",
+          "LLM"
+        ],
+        "bad": []
+      },
+      "relations": {
+        "ok": [],
+        "bad": []
+      },
+      "job_listing_vote": {
+        "answer": "yes"
+      }
+    },
+    {
+      "key": "laser-engineering",
+      "claims": {
+        "definition": {
+          "verdict": "supports"
+        },
+        "kind": {
+          "verdict": "supports"
+        },
+        "certification": {
+          "verdict": "supports"
+        }
+      },
+      "variants": {
+        "ok": [],
+        "bad": []
+      },
+      "relations": {
+        "ok": [],
+        "bad": []
+      },
+      "job_listing_vote": {
+        "answer": "yes"
+      }
+    },
+    {
+      "key": "laser-level",
+      "claims": {
+        "definition": {
+          "verdict": "supports"
+        },
+        "kind": {
+          "verdict": "supports"
+        },
+        "certification": {
+          "verdict": "supports"
+        }
+      },
+      "variants": {
+        "ok": [
+          "Laser Levels"
+        ],
+        "bad": []
+      },
+      "relations": {
+        "ok": [],
+        "bad": []
+      },
+      "job_listing_vote": {
+        "answer": "yes"
+      }
+    },
+    {
+      "key": "laser-printing",
+      "claims": {
+        "definition": {
+          "verdict": "supports"
+        },
+        "kind": {
+          "verdict": "supports"
+        },
+        "certification": {
+          "verdict": "supports"
+        }
+      },
+      "variants": {
+        "ok": [],
+        "bad": []
+      },
+      "relations": {
+        "ok": [
+          "related:dot-matrix-printing"
+        ],
+        "bad": []
+      },
+      "job_listing_vote": {
+        "answer": "yes"
+      }
+    },
+    {
+      "key": "latin-american-and-latino-studies",
+      "claims": {
+        "definition": {
+          "verdict": "supports"
+        },
+        "kind": {
+          "verdict": "supports"
+        },
+        "certification": {
+          "verdict": "supports"
+        }
+      },
+      "variants": {
+        "ok": [],
+        "bad": []
+      },
+      "relations": {
+        "ok": [],
+        "bad": []
+      },
+      "job_listing_vote": {
+        "answer": "yes"
+      }
+    },
+    {
+      "key": "law-enforcement-operations",
+      "claims": {
+        "definition": {
+          "verdict": "supports"
+        },
+        "kind": {
+          "verdict": "supports"
+        },
+        "certification": {
+          "verdict": "supports"
+        }
+      },
+      "variants": {
+        "ok": [],
+        "bad": []
+      },
+      "relations": {
+        "ok": [],
+        "bad": []
+      },
+      "job_listing_vote": {
+        "answer": "yes"
+      }
+    }
+  ]
+}

@@ -1,0 +1,1047 @@
+{
+  "reviewer": {
+    "model": "gpt-6",
+    "effort": "unknown",
+    "date": "2026-10-29"
+  },
+  "packet": "skill/p040",
+  "answers": [
+    {
+      "key": "nutrition-intervention",
+      "claims": {
+        "definition": {
+          "verdict": "supports"
+        },
+        "kind": {
+          "verdict": "supports"
+        },
+        "certification": {
+          "verdict": "supports"
+        }
+      },
+      "variants": {
+        "ok": [],
+        "bad": []
+      },
+      "relations": {
+        "ok": [],
+        "bad": []
+      },
+      "job_listing_vote": {
+        "answer": "yes"
+      }
+    },
+    {
+      "key": "nutritional-assessment",
+      "claims": {
+        "definition": {
+          "verdict": "supports"
+        },
+        "kind": {
+          "verdict": "supports"
+        },
+        "certification": {
+          "verdict": "supports"
+        }
+      },
+      "variants": {
+        "ok": [],
+        "bad": []
+      },
+      "relations": {
+        "ok": [],
+        "bad": []
+      },
+      "job_listing_vote": {
+        "answer": "yes"
+      }
+    },
+    {
+      "key": "nutritional-screening",
+      "claims": {
+        "definition": {
+          "verdict": "supports"
+        },
+        "kind": {
+          "verdict": "supports"
+        },
+        "certification": {
+          "verdict": "supports"
+        }
+      },
+      "variants": {
+        "ok": [],
+        "bad": []
+      },
+      "relations": {
+        "ok": [],
+        "bad": []
+      },
+      "job_listing_vote": {
+        "answer": "yes"
+      }
+    },
+    {
+      "key": "nuxt",
+      "claims": {
+        "definition": {
+          "verdict": "supports"
+        },
+        "kind": {
+          "verdict": "supports"
+        },
+        "certification": {
+          "verdict": "supports"
+        }
+      },
+      "variants": {
+        "ok": [
+          "Nuxt.Js"
+        ],
+        "bad": []
+      },
+      "relations": {
+        "ok": [],
+        "bad": []
+      },
+      "job_listing_vote": {
+        "answer": "yes"
+      }
+    },
+    {
+      "key": "nw-js",
+      "claims": {
+        "definition": {
+          "verdict": "supports"
+        },
+        "kind": {
+          "verdict": "supports"
+        },
+        "certification": {
+          "verdict": "supports"
+        }
+      },
+      "variants": {
+        "ok": [
+          "node-webkit"
+        ],
+        "bad": []
+      },
+      "relations": {
+        "ok": [],
+        "bad": []
+      },
+      "job_listing_vote": {
+        "answer": "yes"
+      }
+    },
+    {
+      "key": "obd-ii",
+      "claims": {
+        "definition": {
+          "verdict": "supports"
+        },
+        "kind": {
+          "verdict": "supports"
+        },
+        "certification": {
+          "verdict": "supports"
+        }
+      },
+      "variants": {
+        "ok": [
+          "Obd Ii",
+          "OBD2",
+          "On-Board Diagnostics II"
+        ],
+        "bad": []
+      },
+      "relations": {
+        "ok": [],
+        "bad": []
+      },
+      "job_listing_vote": {
+        "answer": "yes"
+      }
+    },
+    {
+      "key": "object-oriented-data-model",
+      "claims": {
+        "definition": {
+          "verdict": "supports"
+        },
+        "kind": {
+          "verdict": "supports"
+        },
+        "certification": {
+          "verdict": "supports"
+        }
+      },
+      "variants": {
+        "ok": [
+          "Object-Oriented Data Model For Database Modelling"
+        ],
+        "bad": []
+      },
+      "relations": {
+        "ok": [],
+        "bad": []
+      },
+      "job_listing_vote": {
+        "answer": "yes"
+      }
+    },
+    {
+      "key": "object-oriented-design",
+      "claims": {
+        "definition": {
+          "verdict": "supports"
+        },
+        "kind": {
+          "verdict": "supports"
+        }
+      },
+      "variants": {
+        "ok": [],
+        "bad": []
+      },
+      "relations": {
+        "ok": [],
+        "bad": []
+      },
+      "job_listing_vote": {
+        "answer": "yes"
+      }
+    },
+    {
+      "key": "object-oriented-programming",
+      "claims": {
+        "definition": {
+          "verdict": "supports"
+        },
+        "kind": {
+          "verdict": "supports"
+        },
+        "certification": {
+          "verdict": "supports"
+        }
+      },
+      "variants": {
+        "ok": [
+          "OOP"
+        ],
+        "bad": []
+      },
+      "relations": {
+        "ok": [
+          "related:object-oriented-design"
+        ],
+        "bad": []
+      },
+      "job_listing_vote": {
+        "answer": "yes"
+      }
+    },
+    {
+      "key": "observability",
+      "claims": {
+        "definition": {
+          "verdict": "supports",
+          "note": "Correct but terse; observability concerns inferring internal system state from externally available outputs."
+        },
+        "kind": {
+          "verdict": "supports"
+        }
+      },
+      "variants": {
+        "ok": [],
+        "bad": []
+      },
+      "relations": {
+        "ok": [],
+        "bad": []
+      },
+      "job_listing_vote": {
+        "answer": "yes"
+      }
+    },
+    {
+      "key": "oclc-connexion",
+      "claims": {
+        "definition": {
+          "verdict": "supports"
+        },
+        "kind": {
+          "verdict": "supports"
+        },
+        "certification": {
+          "verdict": "supports"
+        }
+      },
+      "variants": {
+        "ok": [],
+        "bad": []
+      },
+      "relations": {
+        "ok": [],
+        "bad": []
+      },
+      "job_listing_vote": {
+        "answer": "yes"
+      }
+    },
+    {
+      "key": "ocular-pathology",
+      "claims": {
+        "definition": {
+          "verdict": "supports"
+        },
+        "kind": {
+          "verdict": "supports"
+        },
+        "certification": {
+          "verdict": "supports"
+        }
+      },
+      "variants": {
+        "ok": [],
+        "bad": []
+      },
+      "relations": {
+        "ok": [],
+        "bad": []
+      },
+      "job_listing_vote": {
+        "answer": "yes"
+      }
+    },
+    {
+      "key": "ocunit",
+      "claims": {
+        "definition": {
+          "verdict": "supports"
+        },
+        "kind": {
+          "verdict": "supports"
+        },
+        "certification": {
+          "verdict": "supports"
+        }
+      },
+      "variants": {
+        "ok": [],
+        "bad": []
+      },
+      "relations": {
+        "ok": [],
+        "bad": []
+      },
+      "job_listing_vote": {
+        "answer": "yes"
+      }
+    },
+    {
+      "key": "odor-control",
+      "claims": {
+        "definition": {
+          "verdict": "supports"
+        },
+        "kind": {
+          "verdict": "supports"
+        },
+        "certification": {
+          "verdict": "supports"
+        }
+      },
+      "variants": {
+        "ok": [
+          "Odor Controls",
+          "Odour control"
+        ],
+        "bad": []
+      },
+      "relations": {
+        "ok": [],
+        "bad": []
+      },
+      "job_listing_vote": {
+        "answer": "yes"
+      }
+    },
+    {
+      "key": "office-365",
+      "claims": {
+        "definition": {
+          "verdict": "supports"
+        },
+        "kind": {
+          "verdict": "supports"
+        },
+        "certification": {
+          "verdict": "supports"
+        }
+      },
+      "variants": {
+        "ok": [
+          "Office365",
+          "Microsoft Office 365",
+          "O365"
+        ],
+        "bad": []
+      },
+      "relations": {
+        "ok": [],
+        "bad": []
+      },
+      "job_listing_vote": {
+        "answer": "yes"
+      }
+    },
+    {
+      "key": "office-and-productivity-software",
+      "claims": {
+        "definition": {
+          "verdict": "supports"
+        },
+        "kind": {
+          "verdict": "supports"
+        },
+        "certification": {
+          "verdict": "supports"
+        }
+      },
+      "variants": {
+        "ok": [],
+        "bad": []
+      },
+      "relations": {
+        "ok": [],
+        "bad": []
+      },
+      "job_listing_vote": {
+        "answer": "yes"
+      }
+    },
+    {
+      "key": "official-statistics",
+      "claims": {
+        "definition": {
+          "verdict": "contradicts",
+          "note": "Official statistics also come from ministries, central banks and international public bodies, not only statistical agencies."
+        },
+        "kind": {
+          "verdict": "supports"
+        },
+        "certification": {
+          "verdict": "supports"
+        }
+      },
+      "variants": {
+        "ok": [],
+        "bad": []
+      },
+      "relations": {
+        "ok": [
+          "related:statistics"
+        ],
+        "bad": []
+      },
+      "job_listing_vote": {
+        "answer": "yes"
+      }
+    },
+    {
+      "key": "ohm-s-law",
+      "claims": {
+        "definition": {
+          "verdict": "supports",
+          "note": "Proportionality assumes ohmic behavior and constant physical conditions; it is not universal for every conductor/device."
+        },
+        "kind": {
+          "verdict": "supports"
+        },
+        "certification": {
+          "verdict": "supports"
+        }
+      },
+      "variants": {
+        "ok": [],
+        "bad": []
+      },
+      "relations": {
+        "ok": [],
+        "bad": []
+      },
+      "job_listing_vote": {
+        "answer": "yes"
+      }
+    },
+    {
+      "key": "oil-pipelines",
+      "claims": {
+        "definition": {
+          "verdict": "supports"
+        },
+        "kind": {
+          "verdict": "supports"
+        },
+        "certification": {
+          "verdict": "supports"
+        }
+      },
+      "variants": {
+        "ok": [],
+        "bad": []
+      },
+      "relations": {
+        "ok": [],
+        "bad": []
+      },
+      "job_listing_vote": {
+        "answer": "yes"
+      }
+    },
+    {
+      "key": "omniorb",
+      "claims": {
+        "definition": {
+          "verdict": "supports"
+        },
+        "kind": {
+          "verdict": "supports"
+        },
+        "certification": {
+          "verdict": "supports"
+        }
+      },
+      "variants": {
+        "ok": [],
+        "bad": []
+      },
+      "relations": {
+        "ok": [],
+        "bad": []
+      },
+      "job_listing_vote": {
+        "answer": "yes"
+      }
+    },
+    {
+      "key": "on1",
+      "claims": {
+        "definition": {
+          "verdict": "supports"
+        },
+        "kind": {
+          "verdict": "supports"
+        },
+        "certification": {
+          "verdict": "supports"
+        }
+      },
+      "variants": {
+        "ok": [
+          "ON1 (Software)"
+        ],
+        "bad": []
+      },
+      "relations": {
+        "ok": [],
+        "bad": []
+      },
+      "job_listing_vote": {
+        "answer": "yes"
+      }
+    },
+    {
+      "key": "onboarding",
+      "claims": {
+        "definition": {
+          "verdict": "supports"
+        },
+        "kind": {
+          "verdict": "supports"
+        },
+        "certification": {
+          "verdict": "supports"
+        }
+      },
+      "variants": {
+        "ok": [],
+        "bad": []
+      },
+      "relations": {
+        "ok": [],
+        "bad": []
+      },
+      "job_listing_vote": {
+        "answer": "yes"
+      }
+    },
+    {
+      "key": "oncogenomics",
+      "claims": {
+        "definition": {
+          "verdict": "supports"
+        },
+        "kind": {
+          "verdict": "supports"
+        },
+        "certification": {
+          "verdict": "supports"
+        }
+      },
+      "variants": {
+        "ok": [],
+        "bad": []
+      },
+      "relations": {
+        "ok": [],
+        "bad": []
+      },
+      "job_listing_vote": {
+        "answer": "yes"
+      }
+    },
+    {
+      "key": "oncology-sales",
+      "claims": {
+        "definition": {
+          "verdict": "supports"
+        },
+        "kind": {
+          "verdict": "supports"
+        },
+        "certification": {
+          "verdict": "supports"
+        }
+      },
+      "variants": {
+        "ok": [],
+        "bad": []
+      },
+      "relations": {
+        "ok": [],
+        "bad": []
+      },
+      "job_listing_vote": {
+        "answer": "yes"
+      }
+    },
+    {
+      "key": "onetrust",
+      "claims": {
+        "definition": {
+          "verdict": "supports"
+        },
+        "kind": {
+          "verdict": "supports"
+        },
+        "certification": {
+          "verdict": "supports"
+        }
+      },
+      "variants": {
+        "ok": [
+          "OneTrust (Software)"
+        ],
+        "bad": []
+      },
+      "relations": {
+        "ok": [],
+        "bad": []
+      },
+      "job_listing_vote": {
+        "answer": "yes"
+      }
+    },
+    {
+      "key": "online-demonstration",
+      "claims": {
+        "definition": {
+          "verdict": "supports"
+        },
+        "kind": {
+          "verdict": "supports"
+        },
+        "certification": {
+          "verdict": "supports"
+        }
+      },
+      "variants": {
+        "ok": [],
+        "bad": [
+          {
+            "label": "Online Demostration",
+            "note": "Demostration is a misspelling of demonstration."
+          }
+        ]
+      },
+      "relations": {
+        "ok": [],
+        "bad": []
+      },
+      "job_listing_vote": {
+        "answer": "yes"
+      }
+    },
+    {
+      "key": "onshape",
+      "claims": {
+        "definition": {
+          "verdict": "supports"
+        },
+        "kind": {
+          "verdict": "supports"
+        },
+        "certification": {
+          "verdict": "supports"
+        }
+      },
+      "variants": {
+        "ok": [
+          "Onshape (3D Modeling Software)"
+        ],
+        "bad": []
+      },
+      "relations": {
+        "ok": [
+          "broader:3d-modeling-software"
+        ],
+        "bad": []
+      },
+      "job_listing_vote": {
+        "answer": "yes"
+      }
+    },
+    {
+      "key": "open-banking",
+      "claims": {
+        "definition": {
+          "verdict": "supports"
+        },
+        "kind": {
+          "verdict": "supports"
+        },
+        "certification": {
+          "verdict": "supports"
+        }
+      },
+      "variants": {
+        "ok": [],
+        "bad": []
+      },
+      "relations": {
+        "ok": [],
+        "bad": []
+      },
+      "job_listing_vote": {
+        "answer": "yes"
+      }
+    },
+    {
+      "key": "open-network-computing",
+      "claims": {
+        "definition": {
+          "verdict": "supports"
+        },
+        "kind": {
+          "verdict": "supports"
+        },
+        "certification": {
+          "verdict": "supports"
+        }
+      },
+      "variants": {
+        "ok": [],
+        "bad": []
+      },
+      "relations": {
+        "ok": [],
+        "bad": []
+      },
+      "job_listing_vote": {
+        "answer": "yes"
+      }
+    },
+    {
+      "key": "open-shortest-path-first",
+      "claims": {
+        "definition": {
+          "verdict": "supports"
+        },
+        "kind": {
+          "verdict": "supports"
+        },
+        "certification": {
+          "verdict": "supports"
+        }
+      },
+      "variants": {
+        "ok": [
+          "OSPF"
+        ],
+        "bad": []
+      },
+      "relations": {
+        "ok": [],
+        "bad": []
+      },
+      "job_listing_vote": {
+        "answer": "yes"
+      }
+    },
+    {
+      "key": "openapi-specification",
+      "claims": {
+        "definition": {
+          "verdict": "supports"
+        },
+        "kind": {
+          "verdict": "supports"
+        },
+        "certification": {
+          "verdict": "supports"
+        }
+      },
+      "variants": {
+        "ok": [
+          "Openapi"
+        ],
+        "bad": []
+      },
+      "relations": {
+        "ok": [
+          "related:application-programming-interface"
+        ],
+        "bad": []
+      },
+      "job_listing_vote": {
+        "answer": "yes"
+      }
+    },
+    {
+      "key": "opencart",
+      "claims": {
+        "definition": {
+          "verdict": "supports"
+        },
+        "kind": {
+          "verdict": "supports"
+        },
+        "certification": {
+          "verdict": "supports"
+        }
+      },
+      "variants": {
+        "ok": [],
+        "bad": []
+      },
+      "relations": {
+        "ok": [],
+        "bad": []
+      },
+      "job_listing_vote": {
+        "answer": "yes"
+      }
+    },
+    {
+      "key": "opendaylight",
+      "claims": {
+        "definition": {
+          "verdict": "supports"
+        },
+        "kind": {
+          "verdict": "supports"
+        },
+        "certification": {
+          "verdict": "supports"
+        }
+      },
+      "variants": {
+        "ok": [],
+        "bad": []
+      },
+      "relations": {
+        "ok": [],
+        "bad": []
+      },
+      "job_listing_vote": {
+        "answer": "yes"
+      }
+    },
+    {
+      "key": "openni",
+      "claims": {
+        "definition": {
+          "verdict": "supports"
+        },
+        "kind": {
+          "verdict": "supports"
+        },
+        "certification": {
+          "verdict": "supports"
+        }
+      },
+      "variants": {
+        "ok": [],
+        "bad": []
+      },
+      "relations": {
+        "ok": [],
+        "bad": []
+      },
+      "job_listing_vote": {
+        "answer": "yes"
+      }
+    },
+    {
+      "key": "openstreetmap",
+      "claims": {
+        "definition": {
+          "verdict": "supports"
+        },
+        "kind": {
+          "verdict": "supports"
+        },
+        "certification": {
+          "verdict": "supports"
+        }
+      },
+      "variants": {
+        "ok": [],
+        "bad": []
+      },
+      "relations": {
+        "ok": [],
+        "bad": []
+      },
+      "job_listing_vote": {
+        "answer": "yes"
+      }
+    },
+    {
+      "key": "opentok",
+      "claims": {
+        "definition": {
+          "verdict": "supports"
+        },
+        "kind": {
+          "verdict": "supports"
+        },
+        "certification": {
+          "verdict": "supports"
+        }
+      },
+      "variants": {
+        "ok": [],
+        "bad": []
+      },
+      "relations": {
+        "ok": [],
+        "bad": []
+      },
+      "job_listing_vote": {
+        "answer": "yes"
+      }
+    },
+    {
+      "key": "opentsdb",
+      "claims": {
+        "definition": {
+          "verdict": "supports"
+        },
+        "kind": {
+          "verdict": "supports"
+        },
+        "certification": {
+          "verdict": "supports"
+        }
+      },
+      "variants": {
+        "ok": [],
+        "bad": []
+      },
+      "relations": {
+        "ok": [],
+        "bad": []
+      },
+      "job_listing_vote": {
+        "answer": "yes"
+      }
+    },
+    {
+      "key": "operating-systems",
+      "claims": {
+        "definition": {
+          "verdict": "supports",
+          "note": "Describes knowledge of operating-system functions; the systems themselves manage hardware resources and provide services."
+        },
+        "kind": {
+          "verdict": "supports"
+        }
+      },
+      "variants": {
+        "ok": [],
+        "bad": []
+      },
+      "relations": {
+        "ok": [],
+        "bad": []
+      },
+      "job_listing_vote": {
+        "answer": "yes"
+      }
+    },
+    {
+      "key": "operational-risk-mitigation",
+      "claims": {
+        "definition": {
+          "verdict": "supports"
+        },
+        "kind": {
+          "verdict": "supports"
+        },
+        "certification": {
+          "verdict": "supports"
+        }
+      },
+      "variants": {
+        "ok": [],
+        "bad": []
+      },
+      "relations": {
+        "ok": [],
+        "bad": []
+      },
+      "job_listing_vote": {
+        "answer": "yes"
+      }
+    },
+    {
+      "key": "operationalizing-ai",
+      "claims": {
+        "definition": {
+          "verdict": "supports"
+        },
+        "kind": {
+          "verdict": "supports"
+        },
+        "certification": {
+          "verdict": "supports"
+        }
+      },
+      "variants": {
+        "ok": [],
+        "bad": []
+      },
+      "relations": {
+        "ok": [],
+        "bad": []
+      },
+      "job_listing_vote": {
+        "answer": "yes"
+      }
+    }
+  ]
+}

@@ -1,0 +1,1088 @@
+{
+  "reviewer": {
+    "model": "gpt-6",
+    "effort": "unknown",
+    "date": "2026-10-29"
+  },
+  "packet": "skill/p030",
+  "answers": [
+    {
+      "key": "interactive-web-design",
+      "claims": {
+        "definition": {
+          "verdict": "supports"
+        },
+        "kind": {
+          "verdict": "supports"
+        },
+        "certification": {
+          "verdict": "supports"
+        }
+      },
+      "variants": {
+        "ok": [],
+        "bad": []
+      },
+      "relations": {
+        "ok": [
+          "related:user-interface-design"
+        ],
+        "bad": []
+      },
+      "job_listing_vote": {
+        "answer": "yes"
+      }
+    },
+    {
+      "key": "interactive-web-development",
+      "claims": {
+        "definition": {
+          "verdict": "supports"
+        },
+        "kind": {
+          "verdict": "supports"
+        },
+        "certification": {
+          "verdict": "supports"
+        }
+      },
+      "variants": {
+        "ok": [],
+        "bad": []
+      },
+      "relations": {
+        "ok": [
+          "broader:web-development"
+        ],
+        "bad": []
+      },
+      "job_listing_vote": {
+        "answer": "yes"
+      }
+    },
+    {
+      "key": "interdisciplinary-collaboration",
+      "claims": {
+        "definition": {
+          "verdict": "supports"
+        },
+        "kind": {
+          "verdict": "supports"
+        },
+        "certification": {
+          "verdict": "supports"
+        }
+      },
+      "variants": {
+        "ok": [],
+        "bad": []
+      },
+      "relations": {
+        "ok": [],
+        "bad": []
+      },
+      "job_listing_vote": {
+        "answer": "yes"
+      }
+    },
+    {
+      "key": "internal-investigations",
+      "claims": {
+        "definition": {
+          "verdict": "supports"
+        },
+        "kind": {
+          "verdict": "supports"
+        },
+        "certification": {
+          "verdict": "supports"
+        }
+      },
+      "variants": {
+        "ok": [],
+        "bad": []
+      },
+      "relations": {
+        "ok": [
+          "related:employee-relations-investigations"
+        ],
+        "bad": []
+      },
+      "job_listing_vote": {
+        "answer": "yes"
+      }
+    },
+    {
+      "key": "international-standard-book-number",
+      "claims": {
+        "definition": {
+          "verdict": "supports",
+          "note": "Different formats of an edition normally receive different ISBNs; edition alone does not fully identify the publication."
+        },
+        "kind": {
+          "verdict": "supports"
+        },
+        "certification": {
+          "verdict": "supports"
+        }
+      },
+      "variants": {
+        "ok": [
+          "ISBN"
+        ],
+        "bad": []
+      },
+      "relations": {
+        "ok": [],
+        "bad": []
+      },
+      "job_listing_vote": {
+        "answer": "yes"
+      }
+    },
+    {
+      "key": "internet-control-message-protocol",
+      "claims": {
+        "definition": {
+          "verdict": "supports",
+          "note": "This describes ICMP for IPv4; ICMPv6 is specified separately."
+        },
+        "kind": {
+          "verdict": "supports"
+        },
+        "certification": {
+          "verdict": "supports"
+        }
+      },
+      "variants": {
+        "ok": [
+          "ICMP"
+        ],
+        "bad": []
+      },
+      "relations": {
+        "ok": [
+          "related:icmpv6"
+        ],
+        "bad": []
+      },
+      "job_listing_vote": {
+        "answer": "yes"
+      }
+    },
+    {
+      "key": "internet-message-access-protocol",
+      "claims": {
+        "definition": {
+          "verdict": "supports"
+        },
+        "kind": {
+          "verdict": "supports"
+        },
+        "certification": {
+          "verdict": "supports"
+        }
+      },
+      "variants": {
+        "ok": [
+          "Internet Message Access Protocols",
+          "IMAP"
+        ],
+        "bad": []
+      },
+      "relations": {
+        "ok": [],
+        "bad": []
+      },
+      "job_listing_vote": {
+        "answer": "yes"
+      }
+    },
+    {
+      "key": "internet-protocol-suite",
+      "claims": {
+        "definition": {
+          "verdict": "supports"
+        },
+        "kind": {
+          "verdict": "supports"
+        },
+        "certification": {
+          "verdict": "supports"
+        }
+      },
+      "variants": {
+        "ok": [
+          "TCP/IP",
+          "Internet protocols"
+        ],
+        "bad": [
+          {
+            "label": "Internet Protocolss",
+            "note": "Protocolss is a typographical error, not a correct alternate term."
+          }
+        ]
+      },
+      "relations": {
+        "ok": [
+          "broader:computer-networking"
+        ],
+        "bad": []
+      },
+      "job_listing_vote": {
+        "answer": "yes"
+      }
+    },
+    {
+      "key": "interpreting-contracts-under-english-law",
+      "claims": {
+        "definition": {
+          "verdict": "supports"
+        },
+        "kind": {
+          "verdict": "supports"
+        },
+        "certification": {
+          "verdict": "supports"
+        }
+      },
+      "variants": {
+        "ok": [
+          "Interpreting Contracts In English Laws"
+        ],
+        "bad": []
+      },
+      "relations": {
+        "ok": [],
+        "bad": []
+      },
+      "job_listing_vote": {
+        "answer": "yes"
+      }
+    },
+    {
+      "key": "interpreting-law",
+      "claims": {
+        "definition": {
+          "verdict": "supports"
+        },
+        "kind": {
+          "verdict": "supports"
+        },
+        "certification": {
+          "verdict": "supports"
+        }
+      },
+      "variants": {
+        "ok": [
+          "Interpret Law"
+        ],
+        "bad": []
+      },
+      "relations": {
+        "ok": [],
+        "bad": []
+      },
+      "job_listing_vote": {
+        "answer": "yes"
+      }
+    },
+    {
+      "key": "interqual",
+      "claims": {
+        "definition": {
+          "verdict": "supports"
+        },
+        "kind": {
+          "verdict": "supports"
+        },
+        "certification": {
+          "verdict": "supports"
+        }
+      },
+      "variants": {
+        "ok": [
+          "InterQual Criteria"
+        ],
+        "bad": []
+      },
+      "relations": {
+        "ok": [],
+        "bad": []
+      },
+      "job_listing_vote": {
+        "answer": "yes"
+      }
+    },
+    {
+      "key": "intradermal-injection",
+      "claims": {
+        "definition": {
+          "verdict": "supports",
+          "note": "The injection is into the dermis, not the subcutaneous tissue."
+        },
+        "kind": {
+          "verdict": "supports"
+        },
+        "certification": {
+          "verdict": "supports"
+        }
+      },
+      "variants": {
+        "ok": [],
+        "bad": [
+          {
+            "label": "Intradermal",
+            "note": "An adjective describing location/route; it is not synonymous with the procedure of intradermal injection."
+          }
+        ]
+      },
+      "relations": {
+        "ok": [],
+        "bad": []
+      },
+      "job_listing_vote": {
+        "answer": "yes"
+      }
+    },
+    {
+      "key": "intraoperative-neurophysiological-monitoring",
+      "claims": {
+        "definition": {
+          "verdict": "supports"
+        },
+        "kind": {
+          "verdict": "supports"
+        },
+        "certification": {
+          "verdict": "supports"
+        }
+      },
+      "variants": {
+        "ok": [
+          "IONM",
+          "Intraoperative neuromonitoring",
+          "Intraoperative neurophysiologic monitoring"
+        ],
+        "bad": []
+      },
+      "relations": {
+        "ok": [
+          "related:american-board-of-neurophysiologic-monitoring-certification",
+          "related:certification-in-neurophysiologic-intraoperative-monitoring"
+        ],
+        "bad": []
+      },
+      "job_listing_vote": {
+        "answer": "yes"
+      }
+    },
+    {
+      "key": "intraoral-cameras",
+      "claims": {
+        "definition": {
+          "verdict": "supports"
+        },
+        "kind": {
+          "verdict": "supports"
+        },
+        "certification": {
+          "verdict": "supports"
+        }
+      },
+      "variants": {
+        "ok": [
+          "Intraoral camera"
+        ],
+        "bad": []
+      },
+      "relations": {
+        "ok": [],
+        "bad": []
+      },
+      "job_listing_vote": {
+        "answer": "yes"
+      }
+    },
+    {
+      "key": "intravenous-hydration",
+      "claims": {
+        "definition": {
+          "verdict": "supports"
+        },
+        "kind": {
+          "verdict": "supports"
+        },
+        "certification": {
+          "verdict": "supports"
+        }
+      },
+      "variants": {
+        "ok": [
+          "IV hydration"
+        ],
+        "bad": []
+      },
+      "relations": {
+        "ok": [],
+        "bad": []
+      },
+      "job_listing_vote": {
+        "answer": "yes"
+      }
+    },
+    {
+      "key": "intravenous-infusion",
+      "claims": {
+        "definition": {
+          "verdict": "supports"
+        },
+        "kind": {
+          "verdict": "supports"
+        },
+        "certification": {
+          "verdict": "supports"
+        }
+      },
+      "variants": {
+        "ok": [
+          "IV infusion",
+          "IV infusions"
+        ],
+        "bad": [
+          {
+            "label": "Intravenous (IV) Fusions",
+            "note": "Fusions is a typo for infusions."
+          }
+        ]
+      },
+      "relations": {
+        "ok": [],
+        "bad": []
+      },
+      "job_listing_vote": {
+        "answer": "yes"
+      }
+    },
+    {
+      "key": "inventory-management-software",
+      "claims": {
+        "definition": {
+          "verdict": "supports"
+        },
+        "kind": {
+          "verdict": "supports"
+        },
+        "certification": {
+          "verdict": "supports"
+        }
+      },
+      "variants": {
+        "ok": [],
+        "bad": []
+      },
+      "relations": {
+        "ok": [],
+        "bad": []
+      },
+      "job_listing_vote": {
+        "answer": "yes"
+      }
+    },
+    {
+      "key": "investigating-drug-trafficking",
+      "claims": {
+        "definition": {
+          "verdict": "supports"
+        },
+        "kind": {
+          "verdict": "supports"
+        },
+        "certification": {
+          "verdict": "supports"
+        }
+      },
+      "variants": {
+        "ok": [],
+        "bad": []
+      },
+      "relations": {
+        "ok": [],
+        "bad": []
+      },
+      "job_listing_vote": {
+        "answer": "yes"
+      }
+    },
+    {
+      "key": "investigative-interviewing",
+      "claims": {
+        "definition": {
+          "verdict": "supports"
+        },
+        "kind": {
+          "verdict": "supports"
+        },
+        "certification": {
+          "verdict": "supports"
+        }
+      },
+      "variants": {
+        "ok": [],
+        "bad": []
+      },
+      "relations": {
+        "ok": [],
+        "bad": []
+      },
+      "job_listing_vote": {
+        "answer": "yes"
+      }
+    },
+    {
+      "key": "investigator-s-brochure",
+      "claims": {
+        "definition": {
+          "verdict": "supports",
+          "note": "The label names the document; the definition describes the writing/maintenance skill associated with it."
+        },
+        "kind": {
+          "verdict": "supports"
+        },
+        "certification": {
+          "verdict": "supports"
+        }
+      },
+      "variants": {
+        "ok": [],
+        "bad": []
+      },
+      "relations": {
+        "ok": [],
+        "bad": []
+      },
+      "job_listing_vote": {
+        "answer": "yes"
+      }
+    },
+    {
+      "key": "invision",
+      "claims": {
+        "definition": {
+          "verdict": "supports"
+        },
+        "kind": {
+          "verdict": "supports"
+        },
+        "certification": {
+          "verdict": "supports"
+        }
+      },
+      "variants": {
+        "ok": [],
+        "bad": []
+      },
+      "relations": {
+        "ok": [],
+        "bad": []
+      },
+      "job_listing_vote": {
+        "answer": "yes"
+      }
+    },
+    {
+      "key": "invoice-processing",
+      "claims": {
+        "definition": {
+          "verdict": "supports"
+        },
+        "kind": {
+          "verdict": "supports"
+        },
+        "certification": {
+          "verdict": "supports"
+        }
+      },
+      "variants": {
+        "ok": [],
+        "bad": []
+      },
+      "relations": {
+        "ok": [],
+        "bad": []
+      },
+      "job_listing_vote": {
+        "answer": "yes"
+      }
+    },
+    {
+      "key": "io-js",
+      "claims": {
+        "definition": {
+          "verdict": "supports"
+        },
+        "kind": {
+          "verdict": "supports"
+        },
+        "certification": {
+          "verdict": "supports"
+        }
+      },
+      "variants": {
+        "ok": [],
+        "bad": []
+      },
+      "relations": {
+        "ok": [],
+        "bad": []
+      },
+      "job_listing_vote": {
+        "answer": "yes"
+      }
+    },
+    {
+      "key": "ionic-2",
+      "claims": {
+        "definition": {
+          "verdict": "supports"
+        },
+        "kind": {
+          "verdict": "supports"
+        },
+        "certification": {
+          "verdict": "supports"
+        }
+      },
+      "variants": {
+        "ok": [
+          "Ionic2"
+        ],
+        "bad": []
+      },
+      "relations": {
+        "ok": [],
+        "bad": []
+      },
+      "job_listing_vote": {
+        "answer": "yes"
+      }
+    },
+    {
+      "key": "ios",
+      "claims": {
+        "definition": {
+          "verdict": "supports"
+        },
+        "kind": {
+          "verdict": "supports"
+        },
+        "certification": {
+          "verdict": "supports"
+        }
+      },
+      "variants": {
+        "ok": [
+          "Apple IOS",
+          "iPhone OS"
+        ],
+        "bad": []
+      },
+      "relations": {
+        "ok": [],
+        "bad": []
+      },
+      "job_listing_vote": {
+        "answer": "yes"
+      }
+    },
+    {
+      "key": "ip-address-management",
+      "claims": {
+        "definition": {
+          "verdict": "supports"
+        },
+        "kind": {
+          "verdict": "supports"
+        },
+        "certification": {
+          "verdict": "supports"
+        }
+      },
+      "variants": {
+        "ok": [
+          "IPAM"
+        ],
+        "bad": []
+      },
+      "relations": {
+        "ok": [],
+        "bad": []
+      },
+      "job_listing_vote": {
+        "answer": "yes"
+      }
+    },
+    {
+      "key": "ipython",
+      "claims": {
+        "definition": {
+          "verdict": "contradicts",
+          "note": "IPython provides the Python kernel used by Jupyter; Jupyter notebooks also run many other kernels."
+        },
+        "kind": {
+          "verdict": "supports"
+        },
+        "certification": {
+          "verdict": "supports"
+        }
+      },
+      "variants": {
+        "ok": [],
+        "bad": []
+      },
+      "relations": {
+        "ok": [
+          "related:python"
+        ],
+        "bad": []
+      },
+      "job_listing_vote": {
+        "answer": "yes"
+      }
+    },
+    {
+      "key": "ironmq",
+      "claims": {
+        "definition": {
+          "verdict": "supports"
+        },
+        "kind": {
+          "verdict": "supports"
+        },
+        "certification": {
+          "verdict": "supports"
+        }
+      },
+      "variants": {
+        "ok": [],
+        "bad": []
+      },
+      "relations": {
+        "ok": [],
+        "bad": []
+      },
+      "job_listing_vote": {
+        "answer": "yes"
+      }
+    },
+    {
+      "key": "ironpython",
+      "claims": {
+        "definition": {
+          "verdict": "supports"
+        },
+        "kind": {
+          "verdict": "supports"
+        },
+        "certification": {
+          "verdict": "supports"
+        }
+      },
+      "variants": {
+        "ok": [],
+        "bad": []
+      },
+      "relations": {
+        "ok": [
+          "related:python",
+          "related:cpython"
+        ],
+        "bad": []
+      },
+      "job_listing_vote": {
+        "answer": "yes"
+      }
+    },
+    {
+      "key": "irrigation-agriculture",
+      "claims": {
+        "definition": {
+          "verdict": "supports"
+        },
+        "kind": {
+          "verdict": "supports"
+        },
+        "certification": {
+          "verdict": "supports"
+        }
+      },
+      "variants": {
+        "ok": [],
+        "bad": []
+      },
+      "relations": {
+        "ok": [],
+        "bad": []
+      },
+      "job_listing_vote": {
+        "answer": "yes"
+      }
+    },
+    {
+      "key": "irrigation-health",
+      "claims": {
+        "definition": {
+          "verdict": "contradicts",
+          "note": "Clinical irrigation is not invariably with sterile fluid; clean potable water can be used for some wound irrigation."
+        },
+        "kind": {
+          "verdict": "supports"
+        },
+        "certification": {
+          "verdict": "supports"
+        }
+      },
+      "variants": {
+        "ok": [],
+        "bad": []
+      },
+      "relations": {
+        "ok": [],
+        "bad": []
+      },
+      "job_listing_vote": {
+        "answer": "yes"
+      }
+    },
+    {
+      "key": "iso-10012",
+      "claims": {
+        "definition": {
+          "verdict": "supports"
+        },
+        "kind": {
+          "verdict": "supports"
+        },
+        "certification": {
+          "verdict": "supports"
+        }
+      },
+      "variants": {
+        "ok": [],
+        "bad": []
+      },
+      "relations": {
+        "ok": [],
+        "bad": []
+      },
+      "job_listing_vote": {
+        "answer": "yes"
+      }
+    },
+    {
+      "key": "iso-10993",
+      "claims": {
+        "definition": {
+          "verdict": "supports"
+        },
+        "kind": {
+          "verdict": "supports"
+        },
+        "certification": {
+          "verdict": "supports"
+        }
+      },
+      "variants": {
+        "ok": [],
+        "bad": []
+      },
+      "relations": {
+        "ok": [],
+        "bad": []
+      },
+      "job_listing_vote": {
+        "answer": "yes"
+      }
+    },
+    {
+      "key": "iso-14000",
+      "claims": {
+        "definition": {
+          "verdict": "supports"
+        },
+        "kind": {
+          "verdict": "supports"
+        },
+        "certification": {
+          "verdict": "supports"
+        }
+      },
+      "variants": {
+        "ok": [],
+        "bad": [
+          {
+            "label": "ISO 14000 Standard",
+            "note": "ISO 14000 denotes a family of standards, not one individual standard."
+          }
+        ]
+      },
+      "relations": {
+        "ok": [],
+        "bad": []
+      },
+      "job_listing_vote": {
+        "answer": "yes"
+      }
+    },
+    {
+      "key": "iso-14971",
+      "claims": {
+        "definition": {
+          "verdict": "supports"
+        },
+        "kind": {
+          "verdict": "supports"
+        },
+        "certification": {
+          "verdict": "supports"
+        }
+      },
+      "variants": {
+        "ok": [],
+        "bad": []
+      },
+      "relations": {
+        "ok": [],
+        "bad": []
+      },
+      "job_listing_vote": {
+        "answer": "yes"
+      }
+    },
+    {
+      "key": "iso-15189",
+      "claims": {
+        "definition": {
+          "verdict": "supports"
+        },
+        "kind": {
+          "verdict": "supports"
+        },
+        "certification": {
+          "verdict": "supports"
+        }
+      },
+      "variants": {
+        "ok": [],
+        "bad": []
+      },
+      "relations": {
+        "ok": [],
+        "bad": []
+      },
+      "job_listing_vote": {
+        "answer": "yes"
+      }
+    },
+    {
+      "key": "iso-19011",
+      "claims": {
+        "definition": {
+          "verdict": "supports"
+        },
+        "kind": {
+          "verdict": "supports"
+        },
+        "certification": {
+          "verdict": "supports"
+        }
+      },
+      "variants": {
+        "ok": [],
+        "bad": []
+      },
+      "relations": {
+        "ok": [],
+        "bad": []
+      },
+      "job_listing_vote": {
+        "answer": "yes"
+      }
+    },
+    {
+      "key": "iso-26262",
+      "claims": {
+        "definition": {
+          "verdict": "supports"
+        },
+        "kind": {
+          "verdict": "supports"
+        },
+        "certification": {
+          "verdict": "supports"
+        }
+      },
+      "variants": {
+        "ok": [],
+        "bad": []
+      },
+      "relations": {
+        "ok": [],
+        "bad": []
+      },
+      "job_listing_vote": {
+        "answer": "yes"
+      }
+    },
+    {
+      "key": "iso-31000",
+      "claims": {
+        "definition": {
+          "verdict": "supports"
+        },
+        "kind": {
+          "verdict": "supports"
+        },
+        "certification": {
+          "verdict": "supports"
+        }
+      },
+      "variants": {
+        "ok": [],
+        "bad": []
+      },
+      "relations": {
+        "ok": [],
+        "bad": []
+      },
+      "job_listing_vote": {
+        "answer": "yes"
+      }
+    },
+    {
+      "key": "iso-50001",
+      "claims": {
+        "definition": {
+          "verdict": "supports"
+        },
+        "kind": {
+          "verdict": "supports"
+        },
+        "certification": {
+          "verdict": "supports"
+        }
+      },
+      "variants": {
+        "ok": [],
+        "bad": []
+      },
+      "relations": {
+        "ok": [],
+        "bad": []
+      },
+      "job_listing_vote": {
+        "answer": "yes"
+      }
+    }
+  ]
+}
