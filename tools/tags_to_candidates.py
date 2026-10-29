@@ -97,6 +97,7 @@ def main(argv=None):
     ap.add_argument("--seed", type=int, default=1)
     ap.add_argument("--quota", default="", help="Class=N,... for --sample, e.g. Skill=75,Certification=15,Language=10")
     ap.add_argument("--first", type=int, help="the first N unresolved tags in file order")
+    ap.add_argument("--offset", type=int, default=0, help="with --first: skip this many unresolved tags first, so parallel runs get different tags")
     ap.add_argument("--pool", choices=["tags", "all"], default="all",
                     help="draw from skills_tags.csv only, or from all three lists (default)")
     a = ap.parse_args(argv)
@@ -106,7 +107,7 @@ def main(argv=None):
     done = resolved(a.root)
     groups = [g for g in every if L.norm(g["term"]) not in done and (a.pool == "all" or TAGS in g["sources"])]
     if a.first:
-        chosen = groups[:a.first]
+        chosen = groups[a.offset:a.offset + a.first]
     else:
         quota = {k: int(v) for k, v in (p.split("=") for p in a.quota.split(",") if p)}
         chosen = sample(groups, a.sample, a.seed, quota)

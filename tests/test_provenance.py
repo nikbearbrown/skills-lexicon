@@ -181,5 +181,61 @@ class WebCheck(unittest.TestCase):
         self.assertEqual(L.check_runs(entries, L.load_runs(root)), [])
 
 
+
+class CheckClaims(unittest.TestCase):
+    def setUp(self):
+        import check_claims as CC
+        self.CC = CC
+        self.root = tag_root(answer=TP.tag_answer(kind="tool", certification={"value": False, "basis": "general-knowledge"},
+                                                   variants=[{"label": "FC", "basis": "general-knowledge"}]))
+        self.out = self.root / "review"
+
+    def answer(self, a):
+        self.CC.packets(self.root, self.out, 10, classes=["skill"])
+        (self.out / "answers" / "p001.json").write_text(json.dumps(a))
+
+    def run_apply(self, dry=False):
+        entries, touched, votes, log, problems = self.CC.apply(self.root, self.out, "rev-model", "max", "review-1", "2026-10-30")
+        return entries, touched, votes, log, problems
+
+    def test_packets_skip_o_net_and_hold_slim_views(self):
+        self.CC.packets(self.root, self.out, 10)
+        p = json.loads((self.out / "packets" / "p001.json").read_text())
+        self.assertIn("allowed_kinds", p)
+        self.assertTrue(all(e["key"] for e in p["entries"]))
+        self.assertTrue((self.out / "BRIEF.txt").exists())
+
+    def test_verdicts_become_checks_and_unsure_records_nothing(self):
+        self.answer([{"key": "frobnicate-cert", "claims": {"definition": {"verdict": "supports"}, "kind": {"verdict": "contradicts", "note": "it is a method"},
+                                                         "certification": {"verdict": "unsure"}},
+                      "variants": {"ok": ["FC"]}, "job_listing_vote": {"answer": "unsure", "reason": "unclear"}}])
+        entries, touched, votes, log, problems = self.run_apply()
+        e = next(x for x in entries if x["key"] == "frobnicate-cert")
+        checks = {(v["field"], v["outcome"]) for v in e["evidence"] if v["action"] == "checked" and v["run"] == "review-1"}
+        self.assertEqual(checks, {("definition", "supports"), ("kind", "contradicts"), ("variant:fc", "supports")})
+        self.assertEqual((log["unsure"], len(votes), problems), (1, 1, []))
+        self.assertEqual(votes[0]["assessor"], {"type": "model", "model": "rev-model", "effort": "max"})
+        self.assertFalse(any(L.backs(v) for v in e["evidence"] if v["action"] == "checked"))
+        L.register_run(self.root, "review-1", "rev-model", "max")
+        self.assertEqual(L.validate(entries) + L.check_runs(entries, L.load_runs(self.root)), [])
+
+    def test_a_claim_the_entry_does_not_have_is_skipped_and_unknown_entries_are_reported(self):
+        self.answer([{"key": "frobnicate-cert", "claims": {"language_type": {"verdict": "supports"}}},
+                     {"key": "no-such-entry", "claims": {}}])
+        _, _, _, log, problems = self.run_apply()
+        self.assertEqual(log["skipped"], 1)
+        self.assertEqual(len(problems), 1)
+
+    def test_the_same_run_does_not_record_twice(self):
+        a = [{"key": "frobnicate-cert", "claims": {"definition": {"verdict": "supports"}}}]
+        self.answer(a)
+        entries, *_ = self.run_apply()
+        e = next(x for x in entries if x["key"] == "frobnicate-cert")
+        n = len(e["evidence"])
+        self.CC.apply(self.root, self.out, "rev-model", "max", "review-1", "2026-10-30")      # in memory again: still one record per claim
+        self.assertEqual(sum(1 for v in e["evidence"] if v["run"] == "review-1"), 1)
+        self.assertEqual(len(e["evidence"]), n)
+
+
 if __name__ == "__main__":
     unittest.main()
