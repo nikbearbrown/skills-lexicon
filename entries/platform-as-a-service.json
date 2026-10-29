@@ -125,6 +125,79 @@
    "date": "2026-10-29",
    "run": "2026-10-29-round-08-a1",
    "note": "same concept as Platform as a service, listed in the legacy tag list"
+  },
+  {
+   "field": "definition",
+   "by": "model:claude-opus-5-5",
+   "action": "checked",
+   "outcome": "supports",
+   "date": "2026-10-29",
+   "run": "2026-10-29-review-5m-opus"
+  },
+  {
+   "field": "kind",
+   "by": "model:claude-opus-5-5",
+   "action": "checked",
+   "outcome": "supports",
+   "date": "2026-10-29",
+   "run": "2026-10-29-review-5m-opus"
+  },
+  {
+   "field": "certification",
+   "by": "model:claude-opus-5-5",
+   "action": "checked",
+   "outcome": "supports",
+   "date": "2026-10-29",
+   "run": "2026-10-29-review-5m-opus"
+  },
+  {
+   "field": "variant:platform as a service (paas)",
+   "by": "model:claude-opus-5-5",
+   "action": "checked",
+   "outcome": "supports",
+   "date": "2026-10-29",
+   "run": "2026-10-29-review-5m-opus"
+  },
+  {
+   "field": "variant:paas",
+   "by": "model:claude-opus-5-5",
+   "action": "checked",
+   "outcome": "supports",
+   "date": "2026-10-29",
+   "run": "2026-10-29-review-5m-opus"
+  },
+  {
+   "field": "variant:platform as a services",
+   "by": "model:claude-opus-5-5",
+   "action": "checked",
+   "outcome": "contradicts",
+   "date": "2026-10-29",
+   "run": "2026-10-29-review-5m-opus",
+   "note": "Garbled plural; not a real form of the term"
+  },
+  {
+   "field": "relation:related:rm0k01pcl6",
+   "by": "model:claude-opus-5-5",
+   "action": "checked",
+   "outcome": "supports",
+   "date": "2026-10-29",
+   "run": "2026-10-29-review-5m-opus"
+  },
+  {
+   "field": "relation:related:gubch3nzct",
+   "by": "model:claude-opus-5-5",
+   "action": "checked",
+   "outcome": "supports",
+   "date": "2026-10-29",
+   "run": "2026-10-29-review-5m-opus"
+  },
+  {
+   "field": "relation:related:xb17x3c064",
+   "by": "model:claude-opus-5-5",
+   "action": "checked",
+   "outcome": "supports",
+   "date": "2026-10-29",
+   "run": "2026-10-29-review-5m-opus"
   }
  ]
 }
