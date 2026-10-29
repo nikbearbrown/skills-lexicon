@@ -9,6 +9,10 @@
   {
    "label": "Data as a Service (DaaS)",
    "match": "word_ci"
+  },
+  {
+   "label": "Data As A Services",
+   "match": "word_ci"
   }
  ],
  "relations": [
@@ -77,6 +81,14 @@
    "date": "2026-10-29",
    "run": "2026-10-29-round-03-a4",
    "note": "basis: general-knowledge"
+  },
+  {
+   "field": "variant:data as a services",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-29",
+   "run": "2026-10-29-round-04-a1",
+   "note": "same concept as Data as a Service, listed in the legacy tag list"
   }
  ]
 }

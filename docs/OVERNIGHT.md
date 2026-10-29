@@ -32,3 +32,5 @@ A reviewer is more agreeable than a drafter, so a high rate of `supports` is wea
 Reviewer notes on the brief (not yet acted on): abbreviations such as DL, PG, RAG, LLM and ASIC were marked bad variants because they mean other things in listings; misspelled variants were marked bad; `knowledge` versus `standard` for standards documents (ARP4754, ASC 340, NFPA 70E, TL 9000) was contradicted.
 
 | round 03 | 03-a1, 03-a2, 03-a3, 03-a4 | 273 new | 8 variants | 49 not a skill | 58 unsure | 12 rejected | 1050 entries in all |
+
+| round 04 | 04-a1, 04-a2, 04-a3, 04-a4 | 273 new | 14 variants | 57 not a skill | 51 unsure | 5 rejected | 1323 entries in all |

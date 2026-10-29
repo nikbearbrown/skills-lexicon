@@ -14,6 +14,10 @@
   {
    "label": "CompTIA CySA+",
    "match": "word_ci"
+  },
+  {
+   "label": "CompTIA Cybersecurity Analyst (CySA+) CE",
+   "match": "word_ci"
   }
  ],
  "relations": [
@@ -107,6 +111,14 @@
    "date": "2026-10-29",
    "run": "2026-10-29-round-03-a2",
    "note": "basis: general-knowledge"
+  },
+  {
+   "field": "variant:comptia cybersecurity analyst (cysa+) ce",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-29",
+   "run": "2026-10-29-round-04-a1",
+   "note": "same concept as CompTIA Cybersecurity Analyst (CySA+), listed in the legacy tag list"
   }
  ]
 }

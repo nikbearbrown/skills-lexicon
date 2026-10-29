@@ -18,6 +18,10 @@
   {
    "label": "CompTIA CASP+",
    "match": "word_ci"
+  },
+  {
+   "label": "CompTIA CASP CE",
+   "match": "word_ci"
   }
  ],
  "relations": [],
@@ -98,6 +102,14 @@
    "date": "2026-10-29",
    "run": "2026-10-29-round-03-a2",
    "note": "basis: general-knowledge"
+  },
+  {
+   "field": "variant:comptia casp ce",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-29",
+   "run": "2026-10-29-round-04-a1",
+   "note": "same concept as CompTIA Advanced Security Practitioner (CASP+), listed in the legacy tag list"
   }
  ]
 }

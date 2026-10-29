@@ -6,7 +6,12 @@
  "key": "comptia-cloud",
  "certification": true,
  "certification_scope": "single-issuer",
- "variants": [],
+ "variants": [
+  {
+   "label": "CompTIA Cloud+ CE",
+   "match": "word_ci"
+  }
+ ],
  "relations": [],
  "verbs": [],
  "status": "machine-drafted",
@@ -69,6 +74,14 @@
    "date": "2026-10-29",
    "run": "2026-10-29-round-03-a2",
    "note": "basis: general-knowledge"
+  },
+  {
+   "field": "variant:comptia cloud+ ce",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-29",
+   "run": "2026-10-29-round-04-a1",
+   "note": "same concept as CompTIA Cloud+, listed in the legacy tag list"
   }
  ]
 }

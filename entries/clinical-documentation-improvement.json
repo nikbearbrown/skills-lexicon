@@ -5,7 +5,12 @@
  "definition": "Reviewing and clarifying patient records so that they accurately and completely describe a patient's condition and care, for coding, billing and quality reporting.",
  "key": "clinical-documentation-improvement",
  "certification": false,
- "variants": [],
+ "variants": [
+  {
+   "label": "Clinical Documentation Integrity (CDI)",
+   "match": "word_ci"
+  }
+ ],
  "relations": [
   {
    "type": "related",
@@ -64,6 +69,14 @@
    "date": "2026-10-29",
    "run": "2026-10-29-round-03-a1",
    "note": "basis: general-knowledge"
+  },
+  {
+   "field": "variant:clinical documentation integrity (cdi)",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-29",
+   "run": "2026-10-29-round-04-a1",
+   "note": "same concept as Clinical documentation improvement, listed in the legacy tag list"
   }
  ]
 }

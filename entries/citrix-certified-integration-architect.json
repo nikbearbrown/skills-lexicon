@@ -10,6 +10,10 @@
   {
    "label": "Citrix Certified Integration Architecture",
    "match": "word_ci"
+  },
+  {
+   "label": "Citrix Certified Integratrion Architecture",
+   "match": "word_ci"
   }
  ],
  "relations": [],
@@ -74,6 +78,14 @@
    "date": "2026-10-29",
    "run": "2026-10-29-round-03-a1",
    "note": "basis: general-knowledge"
+  },
+  {
+   "field": "variant:citrix certified integratrion architecture",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-29",
+   "run": "2026-10-29-round-04-a1",
+   "note": "same concept as Citrix Certified Integration Architect, listed in the legacy tag list"
   }
  ]
 }

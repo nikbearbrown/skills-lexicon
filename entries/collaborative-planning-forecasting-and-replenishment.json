@@ -13,6 +13,14 @@
   {
    "label": "CPFR",
    "match": "exact_case"
+  },
+  {
+   "label": "Collaborative Planning, Forecasting, And Replenishment (CPFR)",
+   "match": "word_ci"
+  },
+  {
+   "label": "Collaborative Planning Forecasting SandsReplenishment",
+   "match": "word_ci"
   }
  ],
  "relations": [],
@@ -76,6 +84,22 @@
    "date": "2026-10-29",
    "run": "2026-10-29-round-03-a1",
    "note": "basis: general-knowledge"
+  },
+  {
+   "field": "variant:collaborative planning, forecasting, and replenishment (cpfr)",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-29",
+   "run": "2026-10-29-round-04-a1",
+   "note": "same concept as Collaborative Planning, Forecasting and Replenishment, listed in the legacy tag list"
+  },
+  {
+   "field": "variant:collaborative planning forecasting sandsreplenishment",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-29",
+   "run": "2026-10-29-round-04-a1",
+   "note": "same concept as Collaborative Planning, Forecasting and Replenishment, listed in the legacy tag list"
   }
  ]
 }

@@ -5,7 +5,12 @@
  "definition": "The JavaScript implementation of Cucumber, which runs plain-language Gherkin specifications as automated tests.",
  "key": "cucumber-js",
  "certification": false,
- "variants": [],
+ "variants": [
+  {
+   "label": "Cucumberjs",
+   "match": "word_ci"
+  }
+ ],
  "relations": [],
  "verbs": [],
  "status": "machine-drafted",
@@ -51,6 +56,14 @@
    "date": "2026-10-29",
    "run": "2026-10-29-round-03-a3",
    "note": "basis: general-knowledge"
+  },
+  {
+   "field": "variant:cucumberjs",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-29",
+   "run": "2026-10-29-round-04-a1",
+   "note": "same concept as Cucumber.js, listed in the legacy tag list"
   }
  ]
 }
