@@ -1,0 +1,61 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/nikbearbrown/skills-lexicon/schemas/evidence.schema.json",
+  "title": "One evidence record on a skills-lexicon entry (v0 draft)",
+  "$comment": "Evidence attaches to one claim of one entry. A pass that runs elsewhere (a search, a page read, a Wikipedia dump on a cluster) hands back records of this shape, keyed by the entry's id. Rules that need the whole entry (every claim of a machine-drafted entry has a drafted record; a reviewed entry has a backing record for every claim) are checked by tools/lexicon.py, not here.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["field", "by", "action", "date"],
+  "properties": {
+    "field": {
+      "type": "string",
+      "minLength": 1,
+      "description": "The claim this is about. One of: kind, definition, certification, certification_scope, language_type, variant:<normalised label>, relation:<type>:<target id>, verb:<normalised verb>."
+    },
+    "by": {
+      "type": "string",
+      "pattern": "^(model|human|source):\\S.*$",
+      "description": "model:<model id>, human:<name>, or source:<name of an outside record or dataset, such as enwiki-20261001>. A source can match a claim but cannot draft one."
+    },
+    "action": {
+      "enum": ["drafted", "checked", "matched_source"],
+      "description": "drafted: someone proposed the claim. checked: someone checked it. matched_source: the claim was matched to an outside record."
+    },
+    "date": { "type": "string", "format": "date" },
+    "outcome": { "enum": ["supports", "contradicts"], "description": "Required for checked and matched_source." },
+    "kind": {
+      "enum": ["issuer", "regulator", "standard", "wikipedia", "wikidata", "third-party"],
+      "description": "What kind of source a matched_source record points to. issuer: the body that awards the credential. regulator or standard: a body that sets or lists it."
+    },
+    "verification": {
+      "enum": ["page-read", "search-results-only", "dump-match"],
+      "description": "How much was actually verified, required for matched_source. page-read: someone opened the page and the quote is from it. dump-match: matched against a downloaded dataset. search-results-only: only a search result was seen. Only page-read and dump-match back a claim."
+    },
+    "ref": { "type": "string", "minLength": 1, "description": "Required for matched_source: a URL, an identifier in the dataset (for example wikidata:Q4686912) or an ad id." },
+    "run": { "type": "string", "minLength": 1, "description": "The run label of the pass that produced the record." },
+    "note": { "type": "string", "maxLength": 200, "description": "Short free text: the basis of a draft, or a short quote from the source." },
+    "flag": {
+      "enum": ["disagrees_with_legacy", "not_in_legacy"],
+      "description": "Asks a person to look. A flag never backs or contradicts a claim."
+    },
+    "match": {
+      "type": "object",
+      "description": "Optional detail when the source is a dataset matched by a script.",
+      "additionalProperties": false,
+      "required": ["dataset", "method"],
+      "properties": {
+        "dataset": { "type": "string", "minLength": 1, "description": "For example enwiki-20261001." },
+        "dataset_id": { "type": "string", "minLength": 1, "description": "The record's id in the dataset, for example a Wikipedia page id or a Wikidata QID." },
+        "method": { "enum": ["title", "redirect", "acronym", "category", "name-similarity", "manual"] },
+        "score": { "type": "number", "minimum": 0, "maximum": 1, "description": "A similarity score for name-similarity matches." },
+        "categories": { "type": "array", "items": { "type": "string", "minLength": 1 }, "description": "What the dataset says the record is: Wikipedia categories or Wikidata classes. For the claim `certification` this is the evidence that the thing is a credential." }
+      }
+    }
+  },
+  "allOf": [
+    { "if": { "properties": { "action": { "enum": ["checked", "matched_source"] } }, "required": ["action"] }, "then": { "required": ["outcome"] } },
+    { "if": { "properties": { "action": { "const": "matched_source" } }, "required": ["action"] }, "then": { "required": ["ref", "verification"] } },
+    { "if": { "properties": { "action": { "const": "drafted" } }, "required": ["action"] }, "then": { "properties": { "by": { "not": { "pattern": "^source:" } } } } },
+    { "if": { "properties": { "action": { "const": "matched_source" } }, "required": ["action"] }, "then": { "properties": { "by": { "pattern": "^source:" } } } }
+  ]
+}

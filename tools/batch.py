@@ -139,6 +139,8 @@ def render_md(doc, names):
         line("Kind", e["kind"], "kind")
         if "certification" in e:
             line("Certification", "yes" if e["certification"] else "no", "certification")
+        if "certification_scope" in e:
+            line("Certification scope", {"single-issuer": "one issuer", "many-issuers": "many issuers"}[e["certification_scope"]], "certification_scope")
         if "language_type" in e:
             line("Language type", e["language_type"], "language_type")
         if e.get("notes"):

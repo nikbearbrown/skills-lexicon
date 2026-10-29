@@ -90,6 +90,15 @@
    "date": "2026-10-29",
    "run": "2026-10-29-pilot-100-tags",
    "note": "basis: general-knowledge"
+  },
+  {
+   "field": "certification_scope",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-29",
+   "run": "2026-10-29-scope-annotation",
+   "note": "basis: general-knowledge; A degree awarded by many universities."
   }
- ]
+ ],
+ "certification_scope": "many-issuers"
 }

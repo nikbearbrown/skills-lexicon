@@ -21,7 +21,10 @@ ID_RE = re.compile(r"^(?=.*\d)[a-z][a-z0-9]{9}$")   # 10 lower-case letters and 
 _ID_FIRST, _ID_REST = string.ascii_lowercase, string.ascii_lowercase + string.digits
 ACTIONS = {"drafted", "checked", "matched_source"}
 OUTCOMES = {"supports", "contradicts"}
+VERIFICATIONS = {"page-read", "search-results-only", "dump-match"}
+BACKING_VERIFICATIONS = {"page-read", "dump-match"}      # a match seen only in search results does not back a claim
 BY_RE = re.compile(r"^(model|human|source):\S.*$")
+CERT_SCOPES = {"single-issuer", "many-issuers"}     # one body defines and awards it (AWS, the FAA) / many bodies award the same credential (degrees, state licences)
 LANGUAGE_TYPES = {"programming", "spoken", "other"}    # other: markup, query, modelling and similar formal languages
 
 
@@ -87,7 +90,7 @@ def claim_keys(e):
     keys |= {f"variant:{norm(v['label'])}" for v in e.get("variants", []) if v.get("label")}
     keys |= {f"relation:{r['type']}:{r['target']}" for r in e.get("relations", []) if "type" in r and "target" in r}
     keys |= {f"verb:{norm(v)}" for v in e.get("verbs", [])}
-    keys |= {k for k in ("certification", "language_type") if k in e}
+    keys |= {k for k in ("certification", "certification_scope", "language_type") if k in e}
     return keys
 
 
@@ -96,7 +99,7 @@ def backs(ev):
     A model agreeing with a model does not count; two models can share one mistake."""
     return ev.get("outcome") == "supports" and (
         (ev.get("action") == "checked" and str(ev.get("by", "")).startswith("human:"))
-        or ev.get("action") == "matched_source")
+        or (ev.get("action") == "matched_source" and ev.get("verification") in BACKING_VERIFICATIONS))
 
 
 def check_evidence(e, errs):
@@ -114,6 +117,8 @@ def check_evidence(e, errs):
             errs.append(f"{f}: a {ev.get('action')} evidence needs outcome supports or contradicts")
         if ev.get("action") == "matched_source" and not ev.get("ref"):
             errs.append(f"{f}: matched_source evidence needs a ref (URL, code or ad id)")
+        if ev.get("action") == "matched_source" and ev.get("verification") not in VERIFICATIONS:
+            errs.append(f"{f}: matched_source evidence needs verification, one of {sorted(VERIFICATIONS)}")
         if ev.get("action") == "drafted" and str(ev.get("by", "")).startswith("source:"):
             errs.append(f"{f}: a source cannot draft; use matched_source")
     if e.get("status") == "machine-drafted":
@@ -158,6 +163,10 @@ def validate(entries):
             errs.append(f"{f}: kind {e['kind']!r} must be lower-case words joined by hyphens")
         if "certification" in e and not isinstance(e["certification"], bool):
             errs.append(f"{f}: certification must be true or false")
+        if "certification_scope" in e and e["certification_scope"] not in CERT_SCOPES:
+            errs.append(f"{f}: certification_scope must be one of {sorted(CERT_SCOPES)}")
+        if "certification_scope" in e and e.get("certification") is not True:
+            errs.append(f"{f}: certification_scope only applies to an entry whose certification is true")
         if "language_type" in e and e["language_type"] not in LANGUAGE_TYPES:
             errs.append(f"{f}: language_type must be one of {sorted(LANGUAGE_TYPES)}")
         if e["status"] not in STATUSES:

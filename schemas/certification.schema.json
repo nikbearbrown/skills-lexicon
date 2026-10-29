@@ -1,0 +1,135 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/nikbearbrown/skills-lexicon/schemas/certification.schema.json",
+  "title": "Certification fields of a skills-lexicon entry (v0 draft)",
+  "$comment": "Describes only the certification-related slice of an entry. Other entry fields are allowed and are checked by tools/lexicon.py. v0: to be revised after the first 25 to 50 credentials are checked against sources.",
+  "type": "object",
+  "properties": {
+    "certification": {
+      "type": "boolean",
+      "description": "True when the concept is a credential attested by an official body: a certification, certificate, licence, permit, endorsement or academic degree."
+    },
+    "certification_scope": {
+      "enum": ["single-issuer", "many-issuers"],
+      "description": "single-issuer: one body defines and awards it (an AWS certification, an FAA certificate). many-issuers: many independent bodies award the same kind of credential (degrees, state licences)."
+    },
+    "credential": { "$ref": "#/$defs/credential" }
+  },
+  "allOf": [
+    {
+      "if": { "anyOf": [ { "required": ["certification_scope"] }, { "required": ["credential"] } ] },
+      "then": { "required": ["certification"], "properties": { "certification": { "const": true } } }
+    },
+    {
+      "if": { "required": ["certification_scope", "credential"], "properties": { "certification_scope": { "const": "single-issuer" } } },
+      "then": { "properties": { "credential": { "required": ["issuers"], "properties": { "issuers": { "minItems": 1, "maxItems": 1 } } } } }
+    }
+  ],
+  "$defs": {
+    "country": {
+      "type": "string",
+      "pattern": "^([A-Z]{2}|INT)$",
+      "description": "ISO 3166-1 alpha-2 country code, or INT for an international body or credential."
+    },
+    "qid": { "type": "string", "pattern": "^Q[1-9][0-9]*$", "description": "A Wikidata item id." },
+    "credential": {
+      "type": "object",
+      "description": "Present only once the credential has been looked up. Minimum for a checked credential: a credential_type, an issuer (for a single-issuer one) and at least one source. The description is the entry's own `definition`.",
+      "additionalProperties": false,
+      "required": ["credential_type", "sources"],
+      "properties": {
+        "official_name": { "type": "string", "minLength": 1, "description": "The credential's actual name, which may differ from the entry's preferred_name." },
+        "acronym": { "type": "string", "minLength": 1 },
+        "credential_type": {
+          "enum": ["certification", "certificate-program", "licence", "permit", "endorsement", "degree", "clearance", "course-completion", "other"]
+        },
+        "issuers": {
+          "type": "array",
+          "description": "Who awards it. One item for a single-issuer credential. For a many-issuers one (a degree) it may be empty until the awarding bodies are mapped, for example degree to universities.",
+          "items": { "$ref": "#/$defs/issuer" }
+        },
+        "fields": {
+          "type": "array",
+          "description": "The field or fields of work or study the credential belongs to.",
+          "items": { "$ref": "#/$defs/field" }
+        },
+        "level": { "type": "string", "minLength": 1, "description": "For example entry, professional, advanced, associate, bachelor, master, doctoral. Free text in v0." },
+        "requirements": { "type": "string", "minLength": 1, "description": "Exam, experience, prior degree and similar, only when a source states it." },
+        "renewal": { "$ref": "#/$defs/renewal" },
+        "jurisdiction": { "type": "array", "minItems": 1, "uniqueItems": true, "items": { "$ref": "#/$defs/country" } },
+        "wikipedia": { "$ref": "#/$defs/wikipedia" },
+        "wikidata": { "$ref": "#/$defs/qid" },
+        "sources": {
+          "type": "array",
+          "minItems": 1,
+          "items": { "$ref": "#/$defs/source" }
+        }
+      }
+    },
+    "issuer": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["name"],
+      "properties": {
+        "name": { "type": "string", "minLength": 1 },
+        "type": { "enum": ["professional-body", "vendor", "government", "university-or-college", "industry-association", "nonprofit", "other"] },
+        "country": { "$ref": "#/$defs/country" },
+        "url": { "type": "string", "format": "uri", "pattern": "^https?://" },
+        "wikidata": { "$ref": "#/$defs/qid" }
+      }
+    },
+    "field": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["label"],
+      "properties": {
+        "label": { "type": "string", "minLength": 1 },
+        "scheme": { "enum": ["free-text", "isced-f-2013", "soc-2018", "onet-soc-2019"], "default": "free-text" },
+        "code": { "type": "string", "minLength": 1 }
+      },
+      "if": { "required": ["scheme"], "properties": { "scheme": { "not": { "const": "free-text" } } } },
+      "then": { "required": ["code"] }
+    },
+    "renewal": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["required"],
+      "properties": {
+        "required": { "type": "boolean" },
+        "period_months": { "type": "integer", "minimum": 1 },
+        "note": { "type": "string", "minLength": 1 }
+      }
+    },
+    "wikipedia": {
+      "type": "object",
+      "description": "The matching Wikipedia article. A page existing shows the credential is notable; it does not show the exact wording of the tag is a credential, and a missing page does not show it is fake.",
+      "additionalProperties": false,
+      "required": ["title", "match"],
+      "properties": {
+        "title": { "type": "string", "minLength": 1, "description": "Article title after following redirects." },
+        "page_id": { "type": "integer", "minimum": 1 },
+        "url": { "type": "string", "format": "uri", "pattern": "^https://[a-z-]+\\.wikipedia\\.org/" },
+        "dump": { "type": "string", "pattern": "^[a-z]+wiki-[0-9]{8}$", "description": "The dump the match was made against, for example enwiki-20261001." },
+        "match": { "enum": ["title", "redirect", "acronym", "category", "manual"], "description": "How the page was found." }
+      }
+    },
+    "source": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["kind", "url", "verification"],
+      "properties": {
+        "kind": { "enum": ["issuer", "regulator", "standard", "wikipedia", "wikidata", "third-party"] },
+        "url": { "type": "string", "format": "uri", "pattern": "^https?://" },
+        "title": { "type": "string", "minLength": 1 },
+        "retrieved": { "type": "string", "format": "date" },
+        "verification": {
+          "enum": ["page-read", "search-results-only", "dump-match"],
+          "description": "page-read: someone opened the page. search-results-only: only a search result was seen. dump-match: matched against a downloaded dump."
+        },
+        "snippet": { "type": "string", "maxLength": 200, "description": "A short quote from the source. Do not copy more of Wikipedia: its text is CC BY-SA." }
+      },
+      "if": { "required": ["verification"], "properties": { "verification": { "const": "page-read" } } },
+      "then": { "required": ["retrieved"] }
+    }
+  }
+}

@@ -1,0 +1,89 @@
+{
+ "id": "qwxq4g1dxk",
+ "preferred_name": "ACL Analytics",
+ "kind": "tool",
+ "definition": "Data analysis software that auditors and finance teams use to test large data sets, scripted with a command language called ACLScript.",
+ "key": "acl-analytics",
+ "certification": false,
+ "notes": "The model says this is not a language; the legacy list/class says it is. ACL Analytics is the software product and its scripting language is ACLScript, so I treated the tag as a tool, not a language.",
+ "variants": [
+  {
+   "label": "ACL Analytics (Audit Command Language)",
+   "match": "word_ci"
+  }
+ ],
+ "relations": [],
+ "verbs": [
+  "use"
+ ],
+ "status": "machine-drafted",
+ "provenance": {
+  "source": "drafted by model:claude-sonnet-5-5, run 2026-10-29-batch-002, from the name in the legacy tag list alone; no posting or outside source checked",
+  "date": "2026-10-29",
+  "reviewed_by": null,
+  "legacy_tag": {
+   "sources": [
+    {
+     "file": "data/skills_tags.csv",
+     "rows": [
+      20
+     ],
+     "class": "Language"
+    },
+    {
+     "file": "data/skills-language.csv",
+     "rows": [
+      3
+     ],
+     "class": "Language"
+    }
+   ],
+   "class": "Language",
+   "in_lists": [
+    "language"
+   ]
+  }
+ },
+ "evidence": [
+  {
+   "field": "definition",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-29",
+   "run": "2026-10-29-batch-002",
+   "note": "basis: general-knowledge"
+  },
+  {
+   "field": "kind",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-29",
+   "run": "2026-10-29-batch-002",
+   "note": "basis: general-knowledge (with the definition)"
+  },
+  {
+   "field": "variant:acl analytics (audit command language)",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-29",
+   "run": "2026-10-29-batch-002",
+   "note": "listed in the legacy tag list; the model chose the canonical name"
+  },
+  {
+   "field": "verb:use",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-29",
+   "run": "2026-10-29-batch-002",
+   "note": "basis: general-knowledge"
+  },
+  {
+   "field": "certification",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-29",
+   "run": "2026-10-29-batch-002",
+   "note": "basis: general-knowledge"
+  }
+ ]
+}

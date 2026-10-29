@@ -47,7 +47,8 @@ def annotate(e, req, out, ev, dropped, by, run, today):
     legacy = {"certification": "certification" in lists or "Certification" in cls,
               "language_type": "language" in lists or "Language" in cls}
     why = (e.get("annotation_note") or "").strip()
-    for key in ("certification", "language_type"):
+    used = False                       # the note is kept once: with the disagreement it explains, else with the scope
+    for key in ("certification", "certification_scope", "language_type"):
         ann = e.get(key)
         if not isinstance(ann, dict) or "value" not in ann:
             continue
@@ -55,13 +56,24 @@ def annotate(e, req, out, ev, dropped, by, run, today):
         if b not in BASIS or b == "guess":
             dropped.append(f"{key}: basis {b!r}")
             continue
-        if (key == "certification" and not isinstance(v, bool)) or (key == "language_type" and v is not None and v not in L.LANGUAGE_TYPES):
+        if (key == "certification" and not isinstance(v, bool)) or (key == "language_type" and v is not None and v not in L.LANGUAGE_TYPES) \
+                or (key == "certification_scope" and v not in L.CERT_SCOPES):
             dropped.append(f"{key}: value {v!r} not allowed")
+            continue
+        if key == "certification_scope":
+            if out.get("certification") is True:                 # only a certification has a scope
+                out[key] = v
+                rec = evidence(key, by, run, today, b, "")
+                if why and not used:
+                    rec["note"] = (rec["note"] + "; " + why)[:NOTE_MAX]
+                ev.append(rec)
+            else:
+                dropped.append("certification_scope: the entry is not a certification")
             continue
         yes = v if key == "certification" else v is not None
         flag = text = None
         if o and legacy[key] and not yes:
-            flag, text = "disagrees_with_legacy", "; disagrees with the legacy list/class: " + why
+            flag, text, used = "disagrees_with_legacy", "; disagrees with the legacy list/class: " + why, True
         elif o and yes and not legacy[key]:
             flag, text = "not_in_legacy", "; no legacy list/class says so"
         if key == "language_type" and v is None:

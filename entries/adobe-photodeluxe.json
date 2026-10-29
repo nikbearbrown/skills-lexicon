@@ -1,0 +1,66 @@
+{
+ "id": "qq4qgc7k78",
+ "preferred_name": "Adobe PhotoDeluxe",
+ "kind": "tool",
+ "definition": "A discontinued consumer photo-editing program from Adobe, aimed at home users rather than professionals.",
+ "key": "adobe-photodeluxe",
+ "certification": false,
+ "variants": [],
+ "relations": [],
+ "verbs": [
+  "use"
+ ],
+ "status": "machine-drafted",
+ "provenance": {
+  "source": "drafted by model:claude-sonnet-5-5, run 2026-10-29-batch-002, from the name in the legacy tag list alone; no posting or outside source checked",
+  "date": "2026-10-29",
+  "reviewed_by": null,
+  "legacy_tag": {
+   "sources": [
+    {
+     "file": "data/skills_tags.csv",
+     "rows": [
+      105
+     ],
+     "class": "Skill"
+    }
+   ],
+   "class": "Skill",
+   "in_lists": []
+  }
+ },
+ "evidence": [
+  {
+   "field": "definition",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-29",
+   "run": "2026-10-29-batch-002",
+   "note": "basis: general-knowledge"
+  },
+  {
+   "field": "kind",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-29",
+   "run": "2026-10-29-batch-002",
+   "note": "basis: general-knowledge (with the definition)"
+  },
+  {
+   "field": "verb:use",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-29",
+   "run": "2026-10-29-batch-002",
+   "note": "basis: general-knowledge"
+  },
+  {
+   "field": "certification",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-29",
+   "run": "2026-10-29-batch-002",
+   "note": "basis: general-knowledge"
+  }
+ ]
+}

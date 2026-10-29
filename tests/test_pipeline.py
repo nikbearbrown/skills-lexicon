@@ -9,6 +9,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT / "tools"))
+import annotate as A  # noqa: E402
 import extract as X  # noqa: E402
 import ingest as I  # noqa: E402
 import lexicon as L  # noqa: E402
@@ -346,6 +347,29 @@ class Annotations(unittest.TestCase):
         e = json.loads((root / "entries" / "frobnicate-cert.json").read_text())
         self.assertEqual([r["target"] for r in e["relations"]], [near, rid("skill:0082")])   # stored as the current lower-case id
 
+    def test_certification_scope_is_saved_with_its_own_evidence_and_note(self):
+        ans = tag_answer(certification={"value": True, "basis": "general-knowledge"},
+                         certification_scope={"value": "many-issuers", "basis": "general-knowledge"}, annotation_note="Each state issues its own.")
+        _, root = tag_run(ans, ["certification"], "Certification")
+        e = json.loads((root / "entries" / "frobnicate-cert.json").read_text())
+        self.assertEqual(e["certification_scope"], "many-issuers")
+        rec = next(v for v in e["evidence"] if v["field"] == "certification_scope")
+        self.assertIn("Each state issues its own", rec["note"])
+        self.assertEqual({v["field"] for v in e["evidence"]}, L.claim_keys(e))
+        self.assertEqual(L.validate(L.load(root / "entries")[0]), [])
+
+    def test_scope_on_a_non_certification_is_dropped(self):
+        ans = tag_answer(certification={"value": False, "basis": "general-knowledge"},
+                         certification_scope={"value": "single-issuer", "basis": "general-knowledge"})
+        _, root = tag_run(ans)
+        self.assertNotIn("certification_scope", json.loads((root / "entries" / "frobnicate-cert.json").read_text()))
+
+    def test_scope_value_outside_the_set_is_dropped(self):
+        ans = tag_answer(certification={"value": True, "basis": "general-knowledge"},
+                         certification_scope={"value": "several", "basis": "general-knowledge"})
+        _, root = tag_run(ans, ["certification"], "Certification")
+        self.assertNotIn("certification_scope", json.loads((root / "entries" / "frobnicate-cert.json").read_text()))
+
     def test_guessed_annotation_is_dropped(self):
         _, root = tag_run(tag_answer(certification={"value": True, "basis": "guess"}))
         self.assertNotIn("certification", json.loads((root / "entries" / "frobnicate-cert.json").read_text()))
@@ -356,6 +380,55 @@ class Annotations(unittest.TestCase):
         self.assertTrue(any("certification must be" in m for m in L.validate([dict(base, certification="yes")])))
         self.assertTrue(any("language_type must be" in m for m in L.validate([dict(base, language_type="klingon")])))
         self.assertEqual(L.validate([dict(base, certification=True, language_type="spoken")]), [])
+
+
+class AnnotateExisting(unittest.TestCase):
+    def setUp(self):
+        _, self.root = tag_run(tag_answer(certification={"value": True, "basis": "general-knowledge"}), ["certification"], "Certification")
+        self.answers = self.root / "answers.json"
+
+    def go(self, answers, dry=False):
+        self.answers.write_text(json.dumps(answers))
+        argv = [str(self.answers), "--model-id", "m2", "--run", "scope-run", "--root", str(self.root), "--date", "2026-10-29"]
+        return A.main(argv + (["--dry-run"] if dry else []))
+
+    def entry(self):
+        return json.loads((self.root / "entries" / "frobnicate-cert.json").read_text())
+
+    def test_adds_a_scope_with_evidence_from_the_operators_model(self):
+        self.go({"frobnicate-cert": {"certification_scope": {"value": "single-issuer", "basis": "general-knowledge"}}})
+        e = self.entry()
+        self.assertEqual(e["certification_scope"], "single-issuer")
+        rec = next(v for v in e["evidence"] if v["field"] == "certification_scope")
+        self.assertEqual((rec["by"], rec["run"], rec["action"]), ("model:m2", "scope-run", "drafted"))
+        self.assertEqual(L.validate(L.load(self.root / "entries")[0]), [])
+
+    def test_dry_run_writes_nothing(self):
+        before = self.entry()
+        self.go({"frobnicate-cert": {"certification_scope": {"value": "single-issuer", "basis": "general-knowledge"}}}, dry=True)
+        self.assertEqual(self.entry(), before)
+
+    def test_an_existing_field_is_not_overwritten(self):
+        self.go({"frobnicate-cert": {"certification_scope": {"value": "single-issuer", "basis": "general-knowledge"}}})
+        self.go({"frobnicate-cert": {"certification_scope": {"value": "many-issuers", "basis": "general-knowledge"}}})
+        self.assertEqual(self.entry()["certification_scope"], "single-issuer")
+
+    def test_a_reviewed_entry_is_refused(self):
+        p = self.root / "entries" / "frobnicate-cert.json"
+        e = self.entry()
+        e["status"] = "reviewed"
+        e["provenance"]["reviewed_by"] = "human:Bear"
+        e["evidence"] = [{"field": k, "by": "human:Bear", "action": "checked", "outcome": "supports", "date": "2026-10-29"} for k in L.claim_keys(e)]
+        p.write_text(json.dumps(e))
+        self.go({"frobnicate-cert": {"certification_scope": {"value": "single-issuer", "basis": "general-knowledge"}}})
+        self.assertNotIn("certification_scope", self.entry())
+
+    def test_scope_is_dropped_when_the_entry_is_not_a_certification(self):
+        _, root = tag_run(tag_answer(certification={"value": False, "basis": "general-knowledge"}))
+        self.root = root
+        self.answers = root / "answers.json"
+        self.go({"frobnicate-cert": {"certification_scope": {"value": "single-issuer", "basis": "general-knowledge"}}})
+        self.assertNotIn("certification_scope", self.entry())
 
 
 class Runner(unittest.TestCase):

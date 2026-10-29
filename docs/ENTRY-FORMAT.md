@@ -11,6 +11,7 @@ One file per concept: `entries/<key>.json`. The validator (`tools/lexicon.py`) i
 | `kind` | yes | Lower-case words joined by hyphens, e.g. `programming-language`, `method`, `tool`. |
 | `definition` | yes | One plain sentence. |
 | `certification` | no | `true` if the concept is a credential attested by an official body: a certification, certificate, licence, permit, endorsement, or an academic degree (associate, bachelor's, master's, doctorate). `false` if it was assessed and is not. Absent if nobody has assessed it. A standard or regulation that a credential tests for is `false`. A claim, so it has its own evidence. |
+| `certification_scope` | no | Only on an entry whose `certification` is `true`. `single-issuer`: one body defines and awards it (an AWS certification, an FAA certificate), even if many providers teach toward it. `many-issuers`: many independent bodies award the same kind of credential, such as an academic degree, a graduate certificate, or a licence or endorsement each state issues under a common standard. For `many-issuers`, the bodies that award it (for a degree, the universities) are a later mapping. A claim, so it has its own evidence. |
 | `language_type` | no | Only on a language: `programming`, `spoken` (human, including signed and extinct), or `other` (markup, query and modelling languages such as HTML or XBRL). Absent when the concept is not a language. A claim, so it has its own evidence. |
 | `name_match` | no | `word_ci` (default) or `exact_case`. Use `exact_case` for short names like `R` or `Go`. |
 | `needs_context` | no | Context tags that must be present for the name and variants to match (e.g. `["finance"]`). |
@@ -48,13 +49,13 @@ Each evidence record is `{field, by, action, date, outcome?, ref?, note?, run?}`
 |---|---|---|
 | `drafted` | `model:<model id>` or `human:<name>` | Someone proposed this claim. For a model, put the prompt version or run id in `run`, and the posting sentence it saw in `note`. |
 | `checked` | `human:<name>` or `model:<model id>` | Someone checked it. `outcome` is `supports` or `contradicts`. |
-| `matched_source` | `source:<name>` | The claim was matched to an outside record. Needs `ref` (URL, code or ad id) and an `outcome`. |
+| `matched_source` | `source:<name>` | The claim was matched to an outside record. Needs `ref` (URL, code or ad id), an `outcome`, and `verification` (`page-read`, `dump-match` or `search-results-only`). |
 
 An evidence record may also carry `flag`: `disagrees_with_legacy` (the model and a legacy certification/language list or class differ) or `not_in_legacy` (the model says certification or language and no legacy list does). A flag asks a person to look. It never backs or contradicts a claim.
 
 An entry drafted from a legacy tag has `provenance.legacy_tag`: `{sources: [{file, rows, class}], class, in_lists, class_conflict?}`. The lists are `data/skills_tags.csv`, `data/skills-certification.csv` and `data/skills-language.csv`. They are unchecked hints, not evidence.
 
-What counts: only a person's `checked`+`supports`, or a `matched_source`+`supports`, backs a claim. A model checking a model's claim is recorded and visible but never backs it, because two models can share one mistake.
+What counts: only a person's `checked`+`supports`, or a `matched_source`+`supports` whose `verification` is `page-read` or `dump-match`, backs a claim. A match seen only in search results is recorded but does not back it. The shape of an evidence record, and what counts as evidence that something is a certification, is in [SCHEMAS.md](SCHEMAS.md). A model checking a model's claim is recorded and visible but never backs it, because two models can share one mistake.
 
 ## Rules the validator enforces
 

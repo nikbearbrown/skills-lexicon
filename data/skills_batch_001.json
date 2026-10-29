@@ -305,8 +305,17 @@
      "run": "2026-10-29-pilot-100-tags",
      "note": "basis: general-knowledge; no legacy list/class says so",
      "flag": "not_in_legacy"
+    },
+    {
+     "field": "certification_scope",
+     "by": "model:claude-sonnet-5-5",
+     "action": "drafted",
+     "date": "2026-10-29",
+     "run": "2026-10-29-scope-annotation",
+     "note": "basis: general-knowledge; More than one US body certifies it, and state boards license nurse practitioners."
     }
-   ]
+   ],
+   "certification_scope": "many-issuers"
   },
   {
    "id": "q9s4sj8gqa",
@@ -378,8 +387,17 @@
      "run": "2026-10-29-pilot-100-tags",
      "note": "basis: general-knowledge; no legacy list/class says so",
      "flag": "not_in_legacy"
+    },
+    {
+     "field": "certification_scope",
+     "by": "model:claude-sonnet-5-5",
+     "action": "drafted",
+     "date": "2026-10-29",
+     "run": "2026-10-29-scope-annotation",
+     "note": "basis: general-knowledge"
     }
-   ]
+   ],
+   "certification_scope": "single-issuer"
   },
   {
    "id": "u3ojnio176",
@@ -403,6 +421,10 @@
     {
      "label": "ABMLI",
      "match": "exact_case"
+    },
+    {
+     "label": "ABMLI Certified",
+     "match": "word_ci"
     }
    ],
    "relations": [],
@@ -485,8 +507,25 @@
      "date": "2026-10-29",
      "run": "2026-10-29-pilot-100-tags",
      "note": "basis: general-knowledge"
+    },
+    {
+     "field": "certification_scope",
+     "by": "model:claude-sonnet-5-5",
+     "action": "drafted",
+     "date": "2026-10-29",
+     "run": "2026-10-29-scope-annotation",
+     "note": "basis: general-knowledge"
+    },
+    {
+     "field": "variant:abmli certified",
+     "by": "model:claude-sonnet-5-5",
+     "action": "drafted",
+     "date": "2026-10-29",
+     "run": "2026-10-29-batch-002",
+     "note": "same concept as American Board of Medical Laboratory Immunology certification, listed in the legacy tag list"
     }
-   ]
+   ],
+   "certification_scope": "single-issuer"
   },
   {
    "id": "zksf32dtwb",
@@ -1130,8 +1169,17 @@
      "date": "2026-10-29",
      "run": "2026-10-29-pilot-100-tags",
      "note": "basis: general-knowledge"
+    },
+    {
+     "field": "certification_scope",
+     "by": "model:claude-sonnet-5-5",
+     "action": "drafted",
+     "date": "2026-10-29",
+     "run": "2026-10-29-scope-annotation",
+     "note": "basis: general-knowledge"
     }
-   ]
+   ],
+   "certification_scope": "single-issuer"
   },
   {
    "id": "ue0pgomm0l",
@@ -1211,8 +1259,17 @@
      "date": "2026-10-29",
      "run": "2026-10-29-pilot-100-tags",
      "note": "basis: general-knowledge"
+    },
+    {
+     "field": "certification_scope",
+     "by": "model:claude-sonnet-5-5",
+     "action": "drafted",
+     "date": "2026-10-29",
+     "run": "2026-10-29-scope-annotation",
+     "note": "basis: general-knowledge"
     }
-   ]
+   ],
+   "certification_scope": "single-issuer"
   },
   {
    "id": "z5cl5m7b48",
@@ -1292,8 +1349,17 @@
      "date": "2026-10-29",
      "run": "2026-10-29-pilot-100-tags",
      "note": "basis: general-knowledge"
+    },
+    {
+     "field": "certification_scope",
+     "by": "model:claude-sonnet-5-5",
+     "action": "drafted",
+     "date": "2026-10-29",
+     "run": "2026-10-29-scope-annotation",
+     "note": "basis: general-knowledge"
     }
-   ]
+   ],
+   "certification_scope": "single-issuer"
   },
   {
    "id": "ffswfagi3s",
@@ -1360,8 +1426,17 @@
      "date": "2026-10-29",
      "run": "2026-10-29-pilot-100-tags",
      "note": "basis: general-knowledge"
+    },
+    {
+     "field": "certification_scope",
+     "by": "model:claude-sonnet-5-5",
+     "action": "drafted",
+     "date": "2026-10-29",
+     "run": "2026-10-29-scope-annotation",
+     "note": "basis: general-knowledge"
     }
-   ]
+   ],
+   "certification_scope": "single-issuer"
   },
   {
    "id": "bgv8aoglzh",
@@ -1804,8 +1879,17 @@
      "date": "2026-10-29",
      "run": "2026-10-29-pilot-100-tags",
      "note": "basis: general-knowledge"
+    },
+    {
+     "field": "certification_scope",
+     "by": "model:claude-sonnet-5-5",
+     "action": "drafted",
+     "date": "2026-10-29",
+     "run": "2026-10-29-scope-annotation",
+     "note": "basis: general-knowledge; A degree awarded by many universities."
     }
-   ]
+   ],
+   "certification_scope": "many-issuers"
   },
   {
    "id": "svio15mnpv",
@@ -1887,8 +1971,17 @@
      "date": "2026-10-29",
      "run": "2026-10-29-pilot-100-tags",
      "note": "basis: general-knowledge"
+    },
+    {
+     "field": "certification_scope",
+     "by": "model:claude-sonnet-5-5",
+     "action": "drafted",
+     "date": "2026-10-29",
+     "run": "2026-10-29-scope-annotation",
+     "note": "basis: general-knowledge; A degree awarded by many universities."
     }
-   ]
+   ],
+   "certification_scope": "many-issuers"
   },
   {
    "id": "xpo0iet9cq",
@@ -1968,8 +2061,17 @@
      "date": "2026-10-29",
      "run": "2026-10-29-pilot-100-tags",
      "note": "basis: general-knowledge"
+    },
+    {
+     "field": "certification_scope",
+     "by": "model:claude-sonnet-5-5",
+     "action": "drafted",
+     "date": "2026-10-29",
+     "run": "2026-10-29-scope-annotation",
+     "note": "basis: general-knowledge; Each US state licensing agency issues it under common federal rules."
     }
-   ]
+   ],
+   "certification_scope": "many-issuers"
   },
   {
    "id": "ypvc3ra1n1",
@@ -2049,8 +2151,17 @@
      "date": "2026-10-29",
      "run": "2026-10-29-pilot-100-tags",
      "note": "basis: general-knowledge"
+    },
+    {
+     "field": "certification_scope",
+     "by": "model:claude-sonnet-5-5",
+     "action": "drafted",
+     "date": "2026-10-29",
+     "run": "2026-10-29-scope-annotation",
+     "note": "basis: general-knowledge; Each country's aviation authority issues its own; in the United States the FAA does. A US-specific entry would be single-issuer."
     }
-   ]
+   ],
+   "certification_scope": "many-issuers"
   },
   {
    "id": "zomymgt82i",
@@ -2544,8 +2655,17 @@
      "date": "2026-10-29",
      "run": "2026-10-29-pilot-100-tags",
      "note": "basis: general-knowledge"
+    },
+    {
+     "field": "certification_scope",
+     "by": "model:claude-sonnet-5-5",
+     "action": "drafted",
+     "date": "2026-10-29",
+     "run": "2026-10-29-scope-annotation",
+     "note": "basis: general-knowledge; A Department of Defense requirement level that several different certifications can satisfy, so it is not one body's credential. Check this one."
     }
-   ]
+   ],
+   "certification_scope": "many-issuers"
   },
   {
    "id": "k6ns4jdo7n",
@@ -3140,8 +3260,17 @@
      "date": "2026-10-29",
      "run": "2026-10-29-pilot-100-tags",
      "note": "basis: general-knowledge"
+    },
+    {
+     "field": "certification_scope",
+     "by": "model:claude-sonnet-5-5",
+     "action": "drafted",
+     "date": "2026-10-29",
+     "run": "2026-10-29-scope-annotation",
+     "note": "basis: general-knowledge; A degree awarded by many universities."
     }
-   ]
+   ],
+   "certification_scope": "many-issuers"
   },
   {
    "id": "fj3w62grru",
@@ -3235,8 +3364,17 @@
      "date": "2026-10-29",
      "run": "2026-10-29-pilot-100-tags",
      "note": "basis: general-knowledge"
+    },
+    {
+     "field": "certification_scope",
+     "by": "model:claude-sonnet-5-5",
+     "action": "drafted",
+     "date": "2026-10-29",
+     "run": "2026-10-29-scope-annotation",
+     "note": "basis: general-knowledge; A degree awarded by many universities."
     }
-   ]
+   ],
+   "certification_scope": "many-issuers"
   },
   {
    "id": "hk6558v1ji",
@@ -3321,8 +3459,17 @@
      "run": "2026-10-29-pilot-100-tags",
      "note": "basis: general-knowledge; no legacy list/class says so",
      "flag": "not_in_legacy"
+    },
+    {
+     "field": "certification_scope",
+     "by": "model:claude-sonnet-5-5",
+     "action": "drafted",
+     "date": "2026-10-29",
+     "run": "2026-10-29-scope-annotation",
+     "note": "basis: general-knowledge; Many universities offer their own graduate certificate."
     }
-   ]
+   ],
+   "certification_scope": "many-issuers"
   },
   {
    "id": "hg27hw3l2c",
@@ -3632,8 +3779,17 @@
      "run": "2026-10-29-pilot-100-tags",
      "note": "basis: general-knowledge; no legacy list/class says so",
      "flag": "not_in_legacy"
+    },
+    {
+     "field": "certification_scope",
+     "by": "model:claude-sonnet-5-5",
+     "action": "drafted",
+     "date": "2026-10-29",
+     "run": "2026-10-29-scope-annotation",
+     "note": "basis: general-knowledge; Developed jointly by two bodies, but run as one program."
     }
-   ]
+   ],
+   "certification_scope": "single-issuer"
   },
   {
    "id": "e77t10tbmi",
@@ -3861,8 +4017,17 @@
      "date": "2026-10-29",
      "run": "2026-10-29-pilot-100-tags",
      "note": "basis: general-knowledge"
+    },
+    {
+     "field": "certification_scope",
+     "by": "model:claude-sonnet-5-5",
+     "action": "drafted",
+     "date": "2026-10-29",
+     "run": "2026-10-29-scope-annotation",
+     "note": "basis: general-knowledge; Each US state licensing agency issues it under common federal rules."
     }
-   ]
+   ],
+   "certification_scope": "many-issuers"
   },
   {
    "id": "xlftnwk7c1",
@@ -4266,8 +4431,17 @@
      "run": "2026-10-29-pilot-100-tags",
      "note": "basis: general-knowledge; no legacy list/class says so",
      "flag": "not_in_legacy"
+    },
+    {
+     "field": "certification_scope",
+     "by": "model:claude-sonnet-5-5",
+     "action": "drafted",
+     "date": "2026-10-29",
+     "run": "2026-10-29-scope-annotation",
+     "note": "basis: general-knowledge"
     }
-   ]
+   ],
+   "certification_scope": "single-issuer"
   },
   {
    "id": "n01lv1fq0t",
@@ -4347,8 +4521,17 @@
      "date": "2026-10-29",
      "run": "2026-10-29-pilot-100-tags",
      "note": "basis: general-knowledge"
+    },
+    {
+     "field": "certification_scope",
+     "by": "model:claude-sonnet-5-5",
+     "action": "drafted",
+     "date": "2026-10-29",
+     "run": "2026-10-29-scope-annotation",
+     "note": "basis: general-knowledge"
     }
-   ]
+   ],
+   "certification_scope": "single-issuer"
   },
   {
    "id": "mfaw2zyj3n",
@@ -4440,8 +4623,17 @@
      "date": "2026-10-29",
      "run": "2026-10-29-pilot-100-tags",
      "note": "basis: general-knowledge"
+    },
+    {
+     "field": "certification_scope",
+     "by": "model:claude-sonnet-5-5",
+     "action": "drafted",
+     "date": "2026-10-29",
+     "run": "2026-10-29-scope-annotation",
+     "note": "basis: general-knowledge"
     }
-   ]
+   ],
+   "certification_scope": "single-issuer"
   },
   {
    "id": "pqt2ajoqzd",
@@ -4603,8 +4795,17 @@
      "run": "2026-10-29-pilot-100-tags",
      "note": "basis: general-knowledge; no legacy list/class says so",
      "flag": "not_in_legacy"
+    },
+    {
+     "field": "certification_scope",
+     "by": "model:claude-sonnet-5-5",
+     "action": "drafted",
+     "date": "2026-10-29",
+     "run": "2026-10-29-scope-annotation",
+     "note": "basis: general-knowledge"
     }
-   ]
+   ],
+   "certification_scope": "single-issuer"
   },
   {
    "id": "unurfua1et",

@@ -20,6 +20,10 @@
   {
    "label": "ABMLI",
    "match": "exact_case"
+  },
+  {
+   "label": "ABMLI Certified",
+   "match": "word_ci"
   }
  ],
  "relations": [],
@@ -102,6 +106,23 @@
    "date": "2026-10-29",
    "run": "2026-10-29-pilot-100-tags",
    "note": "basis: general-knowledge"
+  },
+  {
+   "field": "certification_scope",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-29",
+   "run": "2026-10-29-scope-annotation",
+   "note": "basis: general-knowledge"
+  },
+  {
+   "field": "variant:abmli certified",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-29",
+   "run": "2026-10-29-batch-002",
+   "note": "same concept as American Board of Medical Laboratory Immunology certification, listed in the legacy tag list"
   }
- ]
+ ],
+ "certification_scope": "single-issuer"
 }

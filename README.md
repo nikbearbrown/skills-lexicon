@@ -6,13 +6,13 @@
 
 **Why it exists.** To count skills in job postings you have to know that "Postgres" and "PostgreSQL" are one skill, that "Swift" can mean two things, and that PostgreSQL is a kind of SQL. The counts on the explorer are only as good as this dictionary.
 
-**State.** First pass. 155 entries: 81 imported from the jobs.humanitarians.ai skills registry (status `proposed`), 3 drafted examples, and 71 drafted from a 100-tag pilot of the legacy tag lists (`data/skills_batch_001.json` and `.md`). All drafted entries are `machine-drafted`, written by a model from general knowledge with no source checked. Nothing is `reviewed`: of 550 claims, none is backed by a human check or a matched source yet. 71 tests pass.
+**State.** First pass. 225 entries: 81 imported from the jobs.humanitarians.ai skills registry (status `proposed`), 3 drafted examples, and 141 drafted from two 100-tag batches of the legacy tag lists (`data/skills_batch_001` and `002`, each a `.json` and a `.md`). All drafted entries are `machine-drafted`, written by a model from general knowledge with no source checked. Nothing is `reviewed`: of 890 claims, none is backed by a human check or a matched source yet. 101 tests pass.
 
 **Licence and owner.** MIT, copyright Humanitarians AI Incorporated (see `LICENSE`). **Not decided yet:** who reviews entries.
 
 ## How it works
 
-- One JSON file per concept in `entries/`. Format: [docs/ENTRY-FORMAT.md](docs/ENTRY-FORMAT.md).
+- One JSON file per concept in `entries/`. Format: [docs/ENTRY-FORMAT.md](docs/ENTRY-FORMAT.md). JSON Schemas for entries, evidence and certifications, and what counts as evidence: [docs/SCHEMAS.md](docs/SCHEMAS.md).
 - Synonyms and spelling variants are not entries. They are `variants` of the canonical entry.
 - Relations connect concept to concept. Roll-up (a mention of PostgreSQL also counting toward SQL) is an explicit, per-link choice, off by default.
 - Every claim can carry evidence: who drafted it (a named model and run, or a person), who checked it, and which outside source it was matched to. A model agreeing with a model never counts as a check; a person's check or a matched source does.

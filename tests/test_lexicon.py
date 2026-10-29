@@ -107,6 +107,38 @@ class DedupeIds(unittest.TestCase):
         self.assertEqual(self.read(), before)
 
 
+class CertificationScope(unittest.TestCase):
+    def test_scope_needs_a_certification_and_an_allowed_value(self):
+        self.assertEqual(L.validate([entry(1, "A", certification=True, certification_scope="many-issuers")]), [])
+        self.assertTrue(any("certification_scope must be" in m for m in L.validate([entry(1, "A", certification=True, certification_scope="several")])))
+        self.assertTrue(any("only applies" in m for m in L.validate([entry(1, "A", certification=False, certification_scope="single-issuer")])))
+        self.assertTrue(any("only applies" in m for m in L.validate([entry(1, "A", certification_scope="single-issuer")])))
+
+    def test_scope_is_a_claim_so_a_drafted_entry_needs_evidence_for_it(self):
+        e = entry(1, "A", status="machine-drafted", certification=True, certification_scope="single-issuer", provenance=dict(P),
+                  evidence=[{"field": k, "by": "model:m", "action": "drafted", "date": "2026-10-29"} for k in ("kind", "definition", "certification")])
+        self.assertTrue(any("certification_scope" in m for m in L.validate([e])))
+
+
+class Backing(unittest.TestCase):
+    def test_what_backs_a_claim(self):
+        src = {"action": "matched_source", "by": "source:enwiki-20261001", "outcome": "supports", "ref": "u", "date": "2026-10-29"}
+        self.assertTrue(L.backs({**src, "verification": "page-read"}))
+        self.assertTrue(L.backs({**src, "verification": "dump-match"}))
+        self.assertFalse(L.backs({**src, "verification": "search-results-only"}))     # a search snippet is not a verified source
+        self.assertFalse(L.backs(src))                                                # unstated verification does not back
+        self.assertFalse(L.backs({**src, "verification": "page-read", "outcome": "contradicts"}))
+        self.assertTrue(L.backs({"action": "checked", "by": "human:Bear", "outcome": "supports"}))
+        self.assertFalse(L.backs({"action": "checked", "by": "model:m", "outcome": "supports"}))
+
+    def test_a_matched_source_must_say_how_much_was_verified(self):
+        e = entry(1, "A", evidence=[{"field": "kind", "by": "source:x", "action": "matched_source", "outcome": "supports",
+                                     "ref": "u", "date": "2026-10-29"}])
+        self.assertTrue(any("needs verification" in m for m in L.validate([e])))
+        e["evidence"][0]["verification"] = "search-results-only"
+        self.assertEqual(L.validate([e]), [])
+
+
 class Validate(unittest.TestCase):
     def test_real_entries_are_clean(self):
         entries, errs = L.load()
@@ -183,11 +215,16 @@ class Evidence(unittest.TestCase):
 
     def test_a_matched_source_counts_but_needs_a_ref(self):
         good = reviewed([ev("kind", "human:Bear", "checked", "supports"),
-                         ev("definition", "source:onet", "matched_source", "supports", ref="https://example.org/x")])
+                         ev("definition", "source:onet", "matched_source", "supports", ref="https://example.org/x", verification="page-read")])
         self.assertEqual(L.validate([good]), [])
         bad = reviewed([ev("kind", "human:Bear", "checked", "supports"),
-                        ev("definition", "source:onet", "matched_source", "supports")])
+                        ev("definition", "source:onet", "matched_source", "supports", verification="page-read")])
         self.assertTrue(any("needs a ref" in m for m in L.validate([bad])))
+
+    def test_a_match_seen_only_in_search_results_does_not_make_an_entry_reviewable(self):
+        e = reviewed([ev("kind", "human:Bear", "checked", "supports"),
+                      ev("definition", "source:web", "matched_source", "supports", ref="https://example.org/x", verification="search-results-only")])
+        self.assertTrue(any("no human check or matched source for definition" in m for m in L.validate([e])))
 
     def test_models_agreeing_never_make_an_entry_reviewed(self):
         e = reviewed([ev(k, f"model:{m}", "checked", "supports") for k in ("kind", "definition")

@@ -46,6 +46,7 @@ Every claim below carries a marker: ○ drafted by a model, not yet checked · �
 - **Definition:** A nurse practitioner certification for caring for acutely ill adult and older-adult patients. ○ _general-knowledge_
 - **Kind:** credential ○ _general-knowledge (with the definition)_
 - **Certification:** yes ○ _general-knowledge; no legacy list/class says so_ ⚠ the legacy lists/class do not say so, check it
+- **Certification scope:** many issuers ○ _general-knowledge; More than one US body certifies it, and state boards license nurse practitioners._
 - **Also written:** Adult/Gerontology Acute Care Nurse Practitioner ○ _listed in the legacy tag list; the model chose the canonical name_
 - **Also written:** AG-ACNP ○ _general-knowledge_
 
@@ -56,6 +57,7 @@ Every claim below carries a marker: ○ drafted by a model, not yet checked · �
 - **Definition:** A trauma-care training course and certification from the American College of Surgeons on the first assessment and management of injured patients. ○ _general-knowledge_
 - **Kind:** credential ○ _general-knowledge (with the definition)_
 - **Certification:** yes ○ _general-knowledge; no legacy list/class says so_ ⚠ the legacy lists/class do not say so, check it
+- **Certification scope:** one issuer ○ _general-knowledge_
 - **Also written:** ATLS ○ _general-knowledge_
 
 ## American Board of Medical Laboratory Immunology certification
@@ -65,9 +67,11 @@ Every claim below carries a marker: ○ drafted by a model, not yet checked · �
 - **Definition:** Certification by the American Board of Medical Laboratory Immunology in medical laboratory immunology. ○ _general-knowledge_
 - **Kind:** credential ○ _general-knowledge (with the definition)_
 - **Certification:** yes ○ _general-knowledge_
+- **Certification scope:** one issuer ○ _general-knowledge_
 - **Also written:** American Board Of Medical Laboratory Immunology (ABMLI) Certified ○ _listed in the legacy tag list; the model chose the canonical name_
 - **Also written:** ABMLI certification ○ _general-knowledge_
 - **Also written:** ABMLI ○ _general-knowledge_
+- **Also written:** ABMLI Certified ○ _same concept as American Board of Medical Laboratory Immunology certification, listed in the legacy tag list_
 
 ## Apache Karaf
 
@@ -144,6 +148,7 @@ Every claim below carries a marker: ○ drafted by a model, not yet checked · �
 - **Definition:** A digital forensics certification from the International Association of Computer Investigative Specialists. ○ _general-knowledge_
 - **Kind:** credential ○ _general-knowledge (with the definition)_
 - **Certification:** yes ○ _general-knowledge_
+- **Certification scope:** one issuer ○ _general-knowledge_
 - **Also written:** Certified Forensic Computer Examination ○ _listed in the legacy tag list; the model chose the canonical name_
 - **Also written:** CFCE ○ _general-knowledge_
 
@@ -154,6 +159,7 @@ Every claim below carries a marker: ○ drafted by a model, not yet checked · �
 - **Definition:** A nursing certification from the Board of Certification for Emergency Nursing for nurses who care for children in emergencies. ○ _general-knowledge_
 - **Kind:** credential ○ _general-knowledge (with the definition)_
 - **Certification:** yes ○ _general-knowledge_
+- **Certification scope:** one issuer ○ _general-knowledge_
 - **Also written:** CPEN ○ _general-knowledge_
 
 ## Certified Professional Geologist
@@ -163,6 +169,7 @@ Every claim below carries a marker: ○ drafted by a model, not yet checked · �
 - **Definition:** A professional certification for geologists from the American Institute of Professional Geologists. ○ _general-knowledge_
 - **Kind:** credential ○ _general-knowledge (with the definition)_
 - **Certification:** yes ○ _general-knowledge_
+- **Certification scope:** one issuer ○ _general-knowledge_
 - **Also written:** CPG ○ _general-knowledge_
 
 ## CompTIA Mobility+
@@ -172,6 +179,7 @@ Every claim below carries a marker: ○ drafted by a model, not yet checked · �
 - **Definition:** A CompTIA certification covering the management and support of mobile devices and the systems that manage them. ○ _general-knowledge_
 - **Kind:** credential ○ _general-knowledge (with the definition)_
 - **Certification:** yes ○ _general-knowledge_
+- **Certification scope:** one issuer ○ _general-knowledge_
 
 ## Dagger 2
 
@@ -226,6 +234,7 @@ Every claim below carries a marker: ○ drafted by a model, not yet checked · �
 - **Definition:** A doctoral degree that qualifies graduates to practise as physical therapists in the United States. ○ _general-knowledge_
 - **Kind:** credential ○ _general-knowledge (with the definition)_
 - **Certification:** yes ○ _general-knowledge_
+- **Certification scope:** many issuers ○ _general-knowledge; A degree awarded by many universities._
 - **Also written:** DPT ○ _general-knowledge_
 
 ## Doctor of Public Health
@@ -235,6 +244,7 @@ Every claim below carries a marker: ○ drafted by a model, not yet checked · �
 - **Definition:** A doctoral degree in public health focused on professional practice and leadership. ○ _general-knowledge_
 - **Kind:** credential ○ _general-knowledge (with the definition)_
 - **Certification:** yes ○ _general-knowledge_
+- **Certification scope:** many issuers ○ _general-knowledge; A degree awarded by many universities._
 - **Also written:** DrPH ○ _general-knowledge_
 
 ## Doubles/triples endorsement
@@ -244,6 +254,7 @@ Every claim below carries a marker: ○ drafted by a model, not yet checked · �
 - **Definition:** A commercial driver's licence endorsement that permits towing two or three trailers. ○ _general-knowledge_
 - **Kind:** credential ○ _general-knowledge (with the definition)_
 - **Certification:** yes ○ _general-knowledge_
+- **Certification scope:** many issuers ○ _general-knowledge; Each US state licensing agency issues it under common federal rules._
 - **Also written:** Doubles Endorsement ○ _listed in the legacy tag list; the model chose the canonical name_
 
 ## Drone pilot certificate
@@ -253,6 +264,7 @@ Every claim below carries a marker: ○ drafted by a model, not yet checked · �
 - **Definition:** A certificate that allows a person to fly small unmanned aircraft commercially; in the United States, the FAA Remote Pilot Certificate under Part 107. ○ _general-knowledge_
 - **Kind:** credential ○ _general-knowledge (with the definition)_
 - **Certification:** yes ○ _general-knowledge_
+- **Certification scope:** many issuers ○ _general-knowledge; Each country's aviation authority issues its own; in the United States the FAA does. A US-specific entry would be single-issuer._
 - **Also written:** Remote Pilot Certificate ○ _general-knowledge_
 
 ## Dynamic cycle counting
@@ -316,6 +328,7 @@ Every claim below carries a marker: ○ drafted by a model, not yet checked · �
 - **Definition:** An information assurance management qualification at Level I, as defined in the U.S. Department of Defense 8570 workforce framework. ○ _general-knowledge_
 - **Kind:** credential ○ _general-knowledge (with the definition)_
 - **Certification:** yes ○ _general-knowledge_
+- **Certification scope:** many issuers ○ _general-knowledge; A Department of Defense requirement level that several different certifications can satisfy, so it is not one body's credential. Check this one._
 
 ## IBM POWER8
 
@@ -388,6 +401,7 @@ Every claim below carries a marker: ○ drafted by a model, not yet checked · �
 - **Definition:** A postgraduate law degree taken after a first law degree. ○ _general-knowledge_
 - **Kind:** credential ○ _general-knowledge (with the definition)_
 - **Certification:** yes ○ _general-knowledge_
+- **Certification scope:** many issuers ○ _general-knowledge; A degree awarded by many universities._
 - **Also written:** LL.M. ○ _general-knowledge_
 
 ## Master of Laws in Taxation
@@ -397,6 +411,7 @@ Every claim below carries a marker: ○ drafted by a model, not yet checked · �
 - **Definition:** A postgraduate law degree that specialises in tax law. ○ _general-knowledge_
 - **Kind:** credential ○ _general-knowledge (with the definition)_
 - **Certification:** yes ○ _general-knowledge_
+- **Certification scope:** many issuers ○ _general-knowledge; A degree awarded by many universities._
 - **Also written:** LL.M. in Taxation ○ _general-knowledge_
 - **Also written:** Master of Laws in Tax ○ _general-knowledge_
 
@@ -407,6 +422,7 @@ Every claim below carries a marker: ○ drafted by a model, not yet checked · �
 - **Definition:** A graduate-level certificate programme in project management, shorter than a master's degree. ○ _general-knowledge_
 - **Kind:** credential ○ _general-knowledge (with the definition)_
 - **Certification:** yes ○ _general-knowledge; no legacy list/class says so_ ⚠ the legacy lists/class do not say so, check it
+- **Certification scope:** many issuers ○ _general-knowledge; Many universities offer their own graduate certificate._
 - **Also written:** Masters Certificate In Project Management ○ _listed in the legacy tag list; the model chose the canonical name_
 - **Relation:** related → Project management (`z83cabeb9c`) ○ _general-knowledge_
 
@@ -446,6 +462,7 @@ Every claim below carries a marker: ○ drafted by a model, not yet checked · �
 - **Definition:** A training programme from the American Academy of Pediatrics and the American Heart Association on resuscitating newborns. ○ _general-knowledge_
 - **Kind:** credential ○ _general-knowledge (with the definition)_
 - **Certification:** yes ○ _general-knowledge; no legacy list/class says so_ ⚠ the legacy lists/class do not say so, check it
+- **Certification scope:** one issuer ○ _general-knowledge; Developed jointly by two bodies, but run as one program._
 - **Also written:** Neonatal Resuscitation Programs ○ _listed in the legacy tag list; the model chose the canonical name_
 - **Also written:** NRP ○ _general-knowledge_
 
@@ -475,6 +492,7 @@ Every claim below carries a marker: ○ drafted by a model, not yet checked · �
 - **Definition:** A commercial driver's licence endorsement that permits driving vehicles that carry passengers, such as buses. ○ _general-knowledge_
 - **Kind:** credential ○ _general-knowledge (with the definition)_
 - **Certification:** yes ○ _general-knowledge_
+- **Certification scope:** many issuers ○ _general-knowledge; Each US state licensing agency issues it under common federal rules._
 
 ## Phoenician
 
@@ -527,6 +545,7 @@ Every claim below carries a marker: ○ drafted by a model, not yet checked · �
 - **Definition:** A U.S. Federal Communications Commission permit that allows a person to operate certain radio equipment, such as aircraft and marine radios. ○ _general-knowledge_
 - **Kind:** credential ○ _general-knowledge (with the definition)_
 - **Certification:** yes ○ _general-knowledge; no legacy list/class says so_ ⚠ the legacy lists/class do not say so, check it
+- **Certification scope:** one issuer ○ _general-knowledge_
 
 ## SACA Certified Industry 4.0 Associate, Basic Operations
 
@@ -535,6 +554,7 @@ Every claim below carries a marker: ○ drafted by a model, not yet checked · �
 - **Definition:** A certification from the Smart Automation Certification Alliance for basic operations in Industry 4.0 manufacturing environments. ○ _general-knowledge_
 - **Kind:** credential ○ _general-knowledge (with the definition)_
 - **Certification:** yes ○ _general-knowledge_
+- **Certification scope:** one issuer ○ _general-knowledge_
 - **Also written:** SACA Certified Industry 4.0 Associate Basic Operations ○ _listed in the legacy tag list; the model chose the canonical name_
 
 ## Safety Trained Supervisor
@@ -544,6 +564,7 @@ Every claim below carries a marker: ○ drafted by a model, not yet checked · �
 - **Definition:** A safety credential for supervisors trained to manage workplace safety. ○ _general-knowledge_
 - **Kind:** credential ○ _general-knowledge (with the definition)_
 - **Certification:** yes ○ _general-knowledge_
+- **Certification scope:** one issuer ○ _general-knowledge_
 - **Also written:** Safety Trained Supervision ○ _listed in the legacy tag list; the model chose the canonical name_
 - **Also written:** STS ○ _general-knowledge_
 
@@ -564,6 +585,7 @@ Every claim below carries a marker: ○ drafted by a model, not yet checked · �
 - **Definition:** A UK government security clearance level that allows regular access to secret assets. ○ _general-knowledge_
 - **Kind:** credential ○ _general-knowledge (with the definition)_
 - **Certification:** yes ○ _general-knowledge; no legacy list/class says so_ ⚠ the legacy lists/class do not say so, check it
+- **Certification scope:** one issuer ○ _general-knowledge_
 - **Also written:** Security Check (SC) ○ _listed in the legacy tag list; the model chose the canonical name_
 - **Also written:** SC clearance ○ _general-knowledge_
 

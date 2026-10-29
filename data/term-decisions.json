@@ -222,5 +222,237 @@
   "run": "2026-10-29-pilot-100-tags",
   "date": "2026-10-29",
   "reason": "An adjective for a user interface layout, not a skill."
+ },
+ {
+  "term": "3D Production",
+  "decision": "unsure",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-batch-002",
+  "date": "2026-10-29",
+  "reason": "Could mean 3D animation or CGI production or 3D printing production; the tag alone does not say which."
+ },
+ {
+  "term": "AAA Video Games",
+  "decision": "not_a_skill",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-batch-002",
+  "date": "2026-10-29",
+  "reason": "Names a market category of video games by budget, not a skill, tool or method."
+ },
+ {
+  "term": "Abacus",
+  "decision": "unsure",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-batch-002",
+  "date": "2026-10-29",
+  "reason": "Could be the counting frame, a person's abacus calculation skill, or a software product with this name; the tag does not say."
+ },
+ {
+  "term": "Abeel Java Toolkit",
+  "decision": "unsure",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-batch-002",
+  "date": "2026-10-29",
+  "reason": "The name suggests a Java library by someone named Abeel, but I cannot say what it contains."
+ },
+ {
+  "term": "Ablation",
+  "decision": "unsure",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-batch-002",
+  "date": "2026-10-29",
+  "reason": "Has several unrelated senses (machine-learning ablation studies, medical ablation, laser ablation); the tag does not say which."
+ },
+ {
+  "term": "ACA Insturctor Certificate",
+  "decision": "unsure",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-batch-002",
+  "date": "2026-10-29",
+  "reason": "ACA stands for several organisations (for example American Canoe Association, American Counseling Association); the tag does not say which."
+ },
+ {
+  "term": "Academic History",
+  "decision": "unsure",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-batch-002",
+  "date": "2026-10-29",
+  "reason": "Could mean the discipline of history or a person's educational record; the tag does not say which."
+ },
+ {
+  "term": "Academic Papers",
+  "decision": "not_a_skill",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-batch-002",
+  "date": "2026-10-29",
+  "reason": "Names a kind of document, not a skill; the skill would be academic writing or research publishing."
+ },
+ {
+  "term": "ACCEL/Exchange",
+  "decision": "unsure",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-batch-002",
+  "date": "2026-10-29",
+  "reason": "Appears to be the name of a payment or ATM network rather than a skill, but I cannot confirm what it is."
+ },
+ {
+  "term": "Accordion",
+  "decision": "unsure",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-batch-002",
+  "date": "2026-10-29",
+  "reason": "Could be the musical instrument (playing it is a skill) or the user-interface component; the tag does not say which."
+ },
+ {
+  "term": "Accounting Record Management System",
+  "decision": "unsure",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-batch-002",
+  "date": "2026-10-29",
+  "reason": "A generic phrase that could name a particular product or just the practice of managing accounting records; the tag does not say which."
+ },
+ {
+  "term": "Accounts Receivable Management Solutions",
+  "decision": "unsure",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-batch-002",
+  "date": "2026-10-29",
+  "reason": "Probably software or services for the same practice as 'Accounts Receivable Management' in this batch, which is not in nearest; a person should merge or reject."
+ },
+ {
+  "term": "Achievement-driven",
+  "decision": "not_a_skill",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-batch-002",
+  "date": "2026-10-29",
+  "reason": "A personality-trait adjective, not a skill, tool or method."
+ },
+ {
+  "term": "Achievement-oriented",
+  "decision": "not_a_skill",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-batch-002",
+  "date": "2026-10-29",
+  "reason": "A personality-trait adjective, not a skill, tool or method."
+ },
+ {
+  "term": "Action Button",
+  "decision": "not_a_skill",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-batch-002",
+  "date": "2026-10-29",
+  "reason": "A user-interface or hardware button, not a skill."
+ },
+ {
+  "term": "Acute Liver Failure",
+  "decision": "not_a_skill",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-batch-002",
+  "date": "2026-10-29",
+  "reason": "A medical condition, not a skill, tool or method."
+ },
+ {
+  "term": "Adaptable Databse Systems",
+  "decision": "unsure",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-batch-002",
+  "date": "2026-10-29",
+  "reason": "Unclear whether this is a product, a research topic or a generic phrase, and 'Databse' is a misspelling."
+ },
+ {
+  "term": "Adapter Scripting Language",
+  "decision": "unsure",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-batch-002",
+  "date": "2026-10-29",
+  "reason": "I do not know what this language is or which product it belongs to."
+ },
+ {
+  "term": "Adaptive Insights (Software)",
+  "decision": "unsure",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-batch-002",
+  "date": "2026-10-29",
+  "reason": "Appears to be the same product as 'Adaptive Insights' in this batch, which is not in nearest, so I cannot mark it variant_of; a person should merge."
+ },
+ {
+  "term": "Administered Payroll",
+  "decision": "unsure",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-batch-002",
+  "date": "2026-10-29",
+  "reason": "The phrase is odd; it may mean payroll administration, but I cannot be sure of the intended concept."
+ },
+ {
+  "term": "Administrative Law Review",
+  "decision": "not_a_skill",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-batch-002",
+  "date": "2026-10-29",
+  "reason": "Appears to be the name of a law journal, not a skill."
+ },
+ {
+  "term": "Administrative Skills",
+  "decision": "not_a_skill",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-batch-002",
+  "date": "2026-10-29",
+  "reason": "A generic umbrella label, not one specific skill."
+ },
+ {
+  "term": "Admissions Operation",
+  "decision": "unsure",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-batch-002",
+  "date": "2026-10-29",
+  "reason": "Could mean school or college admissions or hospital patient admissions; the tag does not say which."
+ },
+ {
+  "term": "ADP/SIS Auto-Cage System (For Brokerage Firms)",
+  "decision": "unsure",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-batch-002",
+  "date": "2026-10-29",
+  "reason": "I do not know this brokerage back-office system well enough to define it."
+ },
+ {
+  "term": "AMAP",
+  "decision": "unsure",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-batch-002",
+  "date": "2026-10-29",
+  "reason": "AMAP could stand for several credentials or terms, and I cannot tell which one this is."
+ },
+ {
+  "term": "AMAX Cerfitications",
+  "decision": "unsure",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-batch-002",
+  "date": "2026-10-29",
+  "reason": "I cannot tell what AMAX refers to or whether any credential with that name exists; 'Cerfitications' is a misspelling."
+ },
+ {
+  "term": "ANS SureRemote Service",
+  "decision": "unsure",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-batch-002",
+  "date": "2026-10-29",
+  "reason": "I do not know what this service is or which company offers it."
+ },
+ {
+  "term": "APN-Series Radar",
+  "decision": "unsure",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-batch-002",
+  "date": "2026-10-29",
+  "reason": "Possibly a military or aviation radar designation, but I cannot say what it is."
+ },
+ {
+  "term": "ARGO BankPro",
+  "decision": "unsure",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-batch-002",
+  "date": "2026-10-29",
+  "reason": "I cannot confirm what this banking software is or who makes it."
  }
 ]

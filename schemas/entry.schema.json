@@ -1,0 +1,87 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/nikbearbrown/skills-lexicon/schemas/entry.schema.json",
+  "title": "A skills-lexicon entry: the data associated with one skill (v0 draft)",
+  "$comment": "The shape of entries/<key>.json. Shape only: cross-entry rules (unique ids, relation targets exist, no loops, shared labels need separating context, every claim has evidence) are checked by tools/lexicon.py validate.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["id", "preferred_name", "kind", "definition", "status", "provenance"],
+  "properties": {
+    "id": { "type": "string", "pattern": "^(?=.*\\d)[a-z][a-z0-9]{9}$", "description": "Random 10-character id of lower-case letters and digits, at least one digit, first character a letter. Never reused, no meaning, no order." },
+    "former_ids": { "type": "array", "uniqueItems": true, "items": { "type": "string", "minLength": 1 }, "description": "Ids this entry had before, such as the registry's skill:0082." },
+    "key": { "type": "string", "pattern": "^[a-z0-9][a-z0-9-]*$", "description": "Short slug; the file name without .json." },
+    "preferred_name": { "type": "string", "minLength": 1, "description": "The canonical name, in the official spelling." },
+    "kind": { "type": "string", "pattern": "^[a-z][a-z-]*$", "description": "Lower-case words joined by hyphens, such as programming-language, tool, credential." },
+    "definition": { "type": "string", "minLength": 1, "description": "One plain sentence, in our own words." },
+    "name_match": { "enum": ["word_ci", "exact_case"], "default": "word_ci" },
+    "needs_context": { "type": "array", "items": { "type": "string", "minLength": 1 } },
+    "name_ambiguous": { "type": "boolean" },
+    "variants": { "type": "array", "items": { "$ref": "#/$defs/variant" } },
+    "relations": { "type": "array", "items": { "$ref": "#/$defs/relation" } },
+    "verbs": { "type": "array", "items": { "type": "string", "minLength": 1 }, "description": "What a posting asks you to do with it." },
+    "status": { "enum": ["machine-drafted", "proposed", "reviewed", "deprecated"] },
+    "provenance": { "$ref": "#/$defs/provenance" },
+    "evidence": { "type": "array", "items": { "$ref": "evidence.schema.json" } },
+    "replacements": { "type": "array", "items": { "type": "string" }, "description": "Ids that replace this entry; required when deprecated." },
+    "notes": { "type": "string", "description": "Reasoning a reviewer needs, including open disagreements." },
+    "certification": { "type": "boolean" },
+    "certification_scope": { "enum": ["single-issuer", "many-issuers"] },
+    "credential": { "$ref": "certification.schema.json#/$defs/credential" },
+    "language_type": { "enum": ["programming", "spoken", "other"], "description": "Only on a language." }
+  },
+  "allOf": [
+    { "$ref": "certification.schema.json" },
+    { "if": { "properties": { "status": { "const": "reviewed" } }, "required": ["status"] }, "then": { "properties": { "provenance": { "required": ["reviewed_by"], "properties": { "reviewed_by": { "type": "string", "minLength": 1 } } } } } },
+    { "if": { "properties": { "status": { "const": "deprecated" } }, "required": ["status"] }, "then": { "required": ["replacements"], "properties": { "replacements": { "minItems": 1 } } } }
+  ],
+  "$defs": {
+    "variant": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["label"],
+      "properties": {
+        "label": { "type": "string", "minLength": 1 },
+        "match": { "enum": ["word_ci", "exact_case"] },
+        "needs_context": { "type": "array", "items": { "type": "string", "minLength": 1 } },
+        "ambiguous": { "type": "boolean" }
+      }
+    },
+    "relation": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["type", "target"],
+      "properties": {
+        "type": { "enum": ["broader", "part_of", "related", "contrast"] },
+        "target": { "type": "string", "pattern": "^(?=.*\\d)[a-z][a-z0-9]{9}$" },
+        "rolls_up": { "type": "boolean", "description": "Only on broader and part_of. Unset means count the direct mention only." },
+        "source": { "type": "string" }
+      }
+    },
+    "provenance": {
+      "type": "object",
+      "description": "Where the whole entry came from. Per-claim provenance is in `evidence`.",
+      "required": ["source", "date"],
+      "properties": {
+        "source": { "type": "string", "minLength": 1 },
+        "date": { "type": "string", "format": "date" },
+        "reviewed_by": { "type": ["string", "null"] },
+        "review": { "type": "string" },
+        "legacy_tag": {
+          "type": "object",
+          "description": "Which legacy tag lists and rows an entry was drafted from. The lists are unchecked hints, not evidence.",
+          "required": ["sources"],
+          "properties": {
+            "sources": {
+              "type": "array", "minItems": 1,
+              "items": { "type": "object", "required": ["file", "rows", "class"],
+                         "properties": { "file": { "type": "string" }, "rows": { "type": "array", "items": { "type": "integer", "minimum": 2 } }, "class": { "type": "string" } } }
+            },
+            "class": { "type": "string" },
+            "in_lists": { "type": "array", "items": { "enum": ["certification", "language"] } },
+            "class_conflict": { "type": "boolean" }
+          }
+        }
+      }
+    }
+  }
+}

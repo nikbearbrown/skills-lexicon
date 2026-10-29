@@ -1,0 +1,91 @@
+{
+ "id": "mo4nl9t5c8",
+ "preferred_name": "50% tissue culture infectious dose (TCID50)",
+ "kind": "method",
+ "definition": "The amount of virus that infects half of the inoculated cell cultures, used as a unit to measure virus infectivity in the laboratory.",
+ "key": "50-tissue-culture-infectious-dose-tcid50",
+ "certification": false,
+ "variants": [
+  {
+   "label": "50% Tissue Culture Infective Dose (TCID50)",
+   "match": "word_ci"
+  },
+  {
+   "label": "TCID50",
+   "match": "word_ci"
+  }
+ ],
+ "relations": [],
+ "verbs": [
+  "perform"
+ ],
+ "status": "machine-drafted",
+ "provenance": {
+  "source": "drafted by model:claude-sonnet-5-5, run 2026-10-29-batch-002, from the name in the legacy tag list alone; no posting or outside source checked",
+  "date": "2026-10-29",
+  "reviewed_by": null,
+  "legacy_tag": {
+   "sources": [
+    {
+     "file": "data/skills_tags.csv",
+     "rows": [
+      12
+     ],
+     "class": "Skill"
+    }
+   ],
+   "class": "Skill",
+   "in_lists": []
+  }
+ },
+ "evidence": [
+  {
+   "field": "definition",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-29",
+   "run": "2026-10-29-batch-002",
+   "note": "basis: general-knowledge"
+  },
+  {
+   "field": "kind",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-29",
+   "run": "2026-10-29-batch-002",
+   "note": "basis: general-knowledge (with the definition)"
+  },
+  {
+   "field": "variant:50% tissue culture infective dose (tcid50)",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-29",
+   "run": "2026-10-29-batch-002",
+   "note": "listed in the legacy tag list; the model chose the canonical name"
+  },
+  {
+   "field": "variant:tcid50",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-29",
+   "run": "2026-10-29-batch-002",
+   "note": "basis: general-knowledge"
+  },
+  {
+   "field": "verb:perform",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-29",
+   "run": "2026-10-29-batch-002",
+   "note": "basis: general-knowledge"
+  },
+  {
+   "field": "certification",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-29",
+   "run": "2026-10-29-batch-002",
+   "note": "basis: general-knowledge"
+  }
+ ]
+}

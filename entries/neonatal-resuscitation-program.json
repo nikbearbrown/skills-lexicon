@@ -80,6 +80,15 @@
    "run": "2026-10-29-pilot-100-tags",
    "note": "basis: general-knowledge; no legacy list/class says so",
    "flag": "not_in_legacy"
+  },
+  {
+   "field": "certification_scope",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-29",
+   "run": "2026-10-29-scope-annotation",
+   "note": "basis: general-knowledge; Developed jointly by two bodies, but run as one program."
   }
- ]
+ ],
+ "certification_scope": "single-issuer"
 }

@@ -1,0 +1,79 @@
+{
+ "id": "px641yid6a",
+ "preferred_name": "Active-HDL",
+ "kind": "tool",
+ "definition": "An integrated design and simulation environment from Aldec for FPGA and digital-logic designs written in hardware description languages such as VHDL and Verilog.",
+ "key": "active-hdl",
+ "certification": false,
+ "variants": [
+  {
+   "label": "Active Hdl",
+   "match": "word_ci"
+  }
+ ],
+ "relations": [],
+ "verbs": [
+  "simulate"
+ ],
+ "status": "machine-drafted",
+ "provenance": {
+  "source": "drafted by model:claude-sonnet-5-5, run 2026-10-29-batch-002, from the name in the legacy tag list alone; no posting or outside source checked",
+  "date": "2026-10-29",
+  "reviewed_by": null,
+  "legacy_tag": {
+   "sources": [
+    {
+     "file": "data/skills_tags.csv",
+     "rows": [
+      77
+     ],
+     "class": "Skill"
+    }
+   ],
+   "class": "Skill",
+   "in_lists": []
+  }
+ },
+ "evidence": [
+  {
+   "field": "definition",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-29",
+   "run": "2026-10-29-batch-002",
+   "note": "basis: general-knowledge"
+  },
+  {
+   "field": "kind",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-29",
+   "run": "2026-10-29-batch-002",
+   "note": "basis: general-knowledge (with the definition)"
+  },
+  {
+   "field": "variant:active hdl",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-29",
+   "run": "2026-10-29-batch-002",
+   "note": "listed in the legacy tag list; the model chose the canonical name"
+  },
+  {
+   "field": "verb:simulate",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-29",
+   "run": "2026-10-29-batch-002",
+   "note": "basis: general-knowledge"
+  },
+  {
+   "field": "certification",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-29",
+   "run": "2026-10-29-batch-002",
+   "note": "basis: general-knowledge"
+  }
+ ]
+}
