@@ -56,7 +56,7 @@ Round 8 was already prepared (`/home/user/rounds/round-08`, four agents of 200, 
 | review-3c-opus (certifications 241 to 360) | claude-opus-5-5, xhigh | 120 | 5 |
 | review-3d-opus (certifications 361 to 402, languages 88, abilities 10) | claude-opus-5-5, xhigh | 140 | 9 |
 
-Every certification, language and ability entry drafted from the tag lists has now been checked once by a different model. The contradictions are listed in `docs/REVIEW-FLAGS.md` (100 records on 84 entries; about 70 of them are short forms judged ambiguous, such as CWE, AMT, AHM or CSSD, which should not be variants). The 1,796 skill entries drafted from the tag lists, plus the 81 registry skills not checked in review 2, have not had a second-model check.
+Every certification, language and ability entry drafted from the tag lists has now been checked once by a different model. The contradictions are listed in `docs/REVIEW-FLAGS.md` (100 records on 84 entries; about 70 of them are short forms judged ambiguous, such as CWE, AMT, AHM or CSSD, which should not be variants). The 1,796 skill entries drafted in rounds 1 to 7 have not had a second-model check; the skill entries drafted before round 1 and the registry skills did, in reviews 1 and 2.
 
 ## End state
 
