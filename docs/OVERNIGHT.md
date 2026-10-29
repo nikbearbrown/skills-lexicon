@@ -40,3 +40,9 @@ Reviewer notes on the brief (not yet acted on): abbreviations such as DL, PG, RA
 | round 06 | 06-a1, 06-a2, 06-a3, 06-a4 | 544 new | 9 variants | 119 not a skill | 114 unsure | 14 rejected | 2172 entries in all |
 
 | round 07 | 07-a1, 07-a2, 07-a3, 07-a4 | 574 new | 11 variants | 108 not a skill | 95 unsure | 12 rejected | 2746 entries in all |
+
+## Where drafting stopped
+
+Drafting stopped after round 7 with **1,196 of 4,652 tags still unresolved** (counting the same-concept pairs rejected at ingest, which come round again as variants). Spend was about $95 against the $120 stop (reported $53.98 for the main session plus an estimated $41.39 for subagents), and a further round would have cost about $13 and left nothing for checking. The remaining budget went to a second-model check of the 500 certification, language and ability entries that had not been reviewed. Rounds 6 and 7 used 200 tags per agent instead of 100, which worked and cut the per-agent overhead.
+
+Round 8 was already prepared (`/home/user/rounds/round-08`, four agents of 200, of which one slice is entirely certification-list tags) and can be run by launching the agents and then `python3 -I scripts/overnight_step.py collect round-08 <agent> <task id>`.
