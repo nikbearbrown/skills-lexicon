@@ -1,0 +1,70 @@
+{
+ "id": "erag95km1k",
+ "preferred_name": "Natural language processing systems",
+ "kind": "knowledge",
+ "definition": "Software systems that analyse or produce human language, such as translators, chatbots and text classifiers.",
+ "key": "natural-language-processing-systems",
+ "certification": false,
+ "notes": "The model says this is not a language; the legacy list/class says it is. This names systems built with a field of computing, not a language.",
+ "variants": [],
+ "relations": [
+  {
+   "type": "related",
+   "target": "d168utcmjy"
+  }
+ ],
+ "verbs": [],
+ "status": "machine-drafted",
+ "provenance": {
+  "source": "drafted by model:claude-sonnet-5-5, run 2026-10-29-round-06-a4, from the name in the legacy tag list alone; no posting or outside source checked",
+  "date": "2026-10-29",
+  "reviewed_by": null,
+  "legacy_tag": {
+   "sources": [
+    {
+     "file": "data/skills_tags.csv",
+     "rows": [
+      2718
+     ],
+     "class": "Language"
+    }
+   ],
+   "class": "Language",
+   "in_lists": []
+  }
+ },
+ "evidence": [
+  {
+   "field": "definition",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-29",
+   "run": "2026-10-29-round-06-a4",
+   "note": "basis: general-knowledge"
+  },
+  {
+   "field": "kind",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-29",
+   "run": "2026-10-29-round-06-a4",
+   "note": "basis: general-knowledge (with the definition)"
+  },
+  {
+   "field": "relation:related:d168utcmjy",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-29",
+   "run": "2026-10-29-round-06-a4",
+   "note": "basis: general-knowledge"
+  },
+  {
+   "field": "certification",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-29",
+   "run": "2026-10-29-round-06-a4",
+   "note": "basis: general-knowledge"
+  }
+ ]
+}
