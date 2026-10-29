@@ -10,6 +10,10 @@
   {
    "label": "American Board Of Optometry Certified",
    "match": "word_ci"
+  },
+  {
+   "label": "American Board Of Optometry",
+   "match": "word_ci"
   }
  ],
  "relations": [],
@@ -82,6 +86,14 @@
    "date": "2026-10-29",
    "run": "2026-10-29-round-01-a1",
    "note": "basis: general-knowledge"
+  },
+  {
+   "field": "variant:american board of optometry",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-29",
+   "run": "2026-10-29-round-02-a1",
+   "note": "same concept as American Board of Optometry certification, listed in the legacy tag list"
   }
  ]
 }

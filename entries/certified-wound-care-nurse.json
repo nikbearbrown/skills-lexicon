@@ -1,0 +1,87 @@
+{
+ "id": "xeg7va6op0",
+ "preferred_name": "Certified Wound Care Nurse",
+ "kind": "credential",
+ "definition": "A certification for registered nurses who specialise in wound care, awarded by the Wound, Ostomy and Continence Nursing Certification Board.",
+ "key": "certified-wound-care-nurse",
+ "certification": true,
+ "certification_scope": "single-issuer",
+ "variants": [
+  {
+   "label": "CWCN",
+   "match": "exact_case"
+  }
+ ],
+ "relations": [],
+ "verbs": [],
+ "status": "machine-drafted",
+ "provenance": {
+  "source": "drafted by model:claude-sonnet-5-5, run 2026-10-29-round-02-a4, from the name in the legacy tag list alone; no posting or outside source checked",
+  "date": "2026-10-29",
+  "reviewed_by": null,
+  "legacy_tag": {
+   "sources": [
+    {
+     "file": "data/skills_tags.csv",
+     "rows": [
+      791
+     ],
+     "class": "Certification"
+    },
+    {
+     "file": "data/skills-certification.csv",
+     "rows": [
+      400
+     ],
+     "class": "Certification"
+    }
+   ],
+   "class": "Certification",
+   "in_lists": [
+    "certification"
+   ]
+  }
+ },
+ "evidence": [
+  {
+   "field": "definition",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-29",
+   "run": "2026-10-29-round-02-a4",
+   "note": "basis: general-knowledge"
+  },
+  {
+   "field": "kind",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-29",
+   "run": "2026-10-29-round-02-a4",
+   "note": "basis: general-knowledge (with the definition)"
+  },
+  {
+   "field": "variant:cwcn",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-29",
+   "run": "2026-10-29-round-02-a4",
+   "note": "basis: general-knowledge"
+  },
+  {
+   "field": "certification",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-29",
+   "run": "2026-10-29-round-02-a4",
+   "note": "basis: general-knowledge"
+  },
+  {
+   "field": "certification_scope",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-29",
+   "run": "2026-10-29-round-02-a4",
+   "note": "basis: general-knowledge"
+  }
+ ]
+}

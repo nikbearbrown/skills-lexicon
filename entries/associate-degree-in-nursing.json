@@ -6,7 +6,12 @@
  "key": "associate-degree-in-nursing",
  "certification": true,
  "certification_scope": "many-issuers",
- "variants": [],
+ "variants": [
+  {
+   "label": "Associates Degree In Nursing",
+   "match": "word_ci"
+  }
+ ],
  "relations": [],
  "verbs": [],
  "status": "machine-drafted",
@@ -69,6 +74,14 @@
    "date": "2026-10-29",
    "run": "2026-10-29-round-01-a3",
    "note": "basis: general-knowledge"
+  },
+  {
+   "field": "variant:associates degree in nursing",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-29",
+   "run": "2026-10-29-round-02-a1",
+   "note": "same concept as Associate degree in nursing, listed in the legacy tag list"
   }
  ]
 }

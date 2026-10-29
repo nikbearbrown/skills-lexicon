@@ -27,5 +27,39 @@
   "date": "2026-10-24",
   "review": "Awaiting taxonomy owner review",
   "reviewed_by": null
- }
+ },
+ "evidence": [
+  {
+   "field": "definition",
+   "by": "model:claude-opus-5-5",
+   "action": "checked",
+   "outcome": "supports",
+   "date": "2026-10-29",
+   "run": "2026-10-29-review-2c-opus"
+  },
+  {
+   "field": "kind",
+   "by": "model:claude-opus-5-5",
+   "action": "checked",
+   "outcome": "supports",
+   "date": "2026-10-29",
+   "run": "2026-10-29-review-2c-opus"
+  },
+  {
+   "field": "variant:php7",
+   "by": "model:claude-opus-5-5",
+   "action": "checked",
+   "outcome": "supports",
+   "date": "2026-10-29",
+   "run": "2026-10-29-review-2c-opus"
+  },
+  {
+   "field": "relation:broader:n9dorj1s29",
+   "by": "model:claude-opus-5-5",
+   "action": "checked",
+   "outcome": "supports",
+   "date": "2026-10-29",
+   "run": "2026-10-29-review-2c-opus"
+  }
+ ]
 }

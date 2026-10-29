@@ -1,0 +1,65 @@
+{
+ "id": "n2zf1jjewl",
+ "preferred_name": "Castilian Spanish",
+ "kind": "human-language",
+ "definition": "The standard variety of the Spanish language as spoken in Spain, especially in its central and northern regions.",
+ "key": "castilian-spanish",
+ "certification": false,
+ "language_type": "human",
+ "variants": [],
+ "relations": [],
+ "verbs": [],
+ "status": "machine-drafted",
+ "provenance": {
+  "source": "drafted by model:claude-sonnet-5-5, run 2026-10-29-round-02-a3, from the name in the legacy tag list alone; no posting or outside source checked",
+  "date": "2026-10-29",
+  "reviewed_by": null,
+  "legacy_tag": {
+   "sources": [
+    {
+     "file": "data/skills_tags.csv",
+     "rows": [
+      632
+     ],
+     "class": "Language"
+    }
+   ],
+   "class": "Language",
+   "in_lists": []
+  }
+ },
+ "evidence": [
+  {
+   "field": "definition",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-29",
+   "run": "2026-10-29-round-02-a3",
+   "note": "basis: general-knowledge"
+  },
+  {
+   "field": "kind",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-29",
+   "run": "2026-10-29-round-02-a3",
+   "note": "basis: general-knowledge (with the definition)"
+  },
+  {
+   "field": "certification",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-29",
+   "run": "2026-10-29-round-02-a3",
+   "note": "basis: general-knowledge"
+  },
+  {
+   "field": "language_type",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-29",
+   "run": "2026-10-29-round-02-a3",
+   "note": "basis: general-knowledge"
+  }
+ ]
+}

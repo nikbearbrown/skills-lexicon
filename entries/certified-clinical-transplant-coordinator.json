@@ -1,0 +1,99 @@
+{
+ "id": "x5934zjlwv",
+ "preferred_name": "Certified Clinical Transplant Coordinator",
+ "kind": "credential",
+ "definition": "A certification for coordinators who manage the clinical care of organ-transplant patients before and after their transplants.",
+ "key": "certified-clinical-transplant-coordinator",
+ "certification": true,
+ "certification_scope": "single-issuer",
+ "variants": [
+  {
+   "label": "Certified Clinical Transplant Coordinators",
+   "match": "word_ci"
+  },
+  {
+   "label": "CCTC",
+   "match": "exact_case"
+  }
+ ],
+ "relations": [],
+ "verbs": [],
+ "status": "machine-drafted",
+ "provenance": {
+  "source": "drafted by model:claude-sonnet-5-5, run 2026-10-29-round-02-a3, from the name in the legacy tag list alone; no posting or outside source checked",
+  "date": "2026-10-29",
+  "reviewed_by": null,
+  "legacy_tag": {
+   "sources": [
+    {
+     "file": "data/skills_tags.csv",
+     "rows": [
+      674
+     ],
+     "class": "Certification"
+    },
+    {
+     "file": "data/skills-certification.csv",
+     "rows": [
+      283
+     ],
+     "class": "Certification"
+    }
+   ],
+   "class": "Certification",
+   "in_lists": [
+    "certification"
+   ]
+  }
+ },
+ "evidence": [
+  {
+   "field": "definition",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-29",
+   "run": "2026-10-29-round-02-a3",
+   "note": "basis: general-knowledge"
+  },
+  {
+   "field": "kind",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-29",
+   "run": "2026-10-29-round-02-a3",
+   "note": "basis: general-knowledge (with the definition)"
+  },
+  {
+   "field": "variant:certified clinical transplant coordinators",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-29",
+   "run": "2026-10-29-round-02-a3",
+   "note": "listed in the legacy tag list; the model chose the canonical name"
+  },
+  {
+   "field": "variant:cctc",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-29",
+   "run": "2026-10-29-round-02-a3",
+   "note": "basis: general-knowledge"
+  },
+  {
+   "field": "certification",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-29",
+   "run": "2026-10-29-round-02-a3",
+   "note": "basis: general-knowledge"
+  },
+  {
+   "field": "certification_scope",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-29",
+   "run": "2026-10-29-round-02-a3",
+   "note": "basis: general-knowledge"
+  }
+ ]
+}

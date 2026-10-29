@@ -1406,5 +1406,501 @@
   "run": "2026-10-29-round-02-a2",
   "date": "2026-10-29",
   "reason": "It is a US DoD cybersecurity service provider workforce category that requires approved certifications; I cannot tell whether it counts as a credential."
+ },
+ {
+  "term": "Basic Shift Management",
+  "decision": "unsure",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-02-a1",
+  "date": "2026-10-29",
+  "reason": "Could be a supervisory skill or the name of a training course, and I cannot tell which."
+ },
+ {
+  "term": "Batch Sheets",
+  "decision": "unsure",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-02-a1",
+  "date": "2026-10-29",
+  "reason": "Probably a production record used in manufacturing, but the name alone does not tell me what is asked of the worker."
+ },
+ {
+  "term": "Bentley Comms",
+  "decision": "unsure",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-02-a1",
+  "date": "2026-10-29",
+  "reason": "I do not know what this is; it may be a company or a product name."
+ },
+ {
+  "term": "BigTable Implementations",
+  "decision": "unsure",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-02-a1",
+  "date": "2026-10-29",
+  "reason": "Unclear whether it means Google's Bigtable product or Bigtable-style stores such as HBase."
+ },
+ {
+  "term": "Bilingue",
+  "decision": "unsure",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-02-a1",
+  "date": "2026-10-29",
+  "reason": "French for bilingual; it names no language, so it is unclear whether a generic entry is wanted."
+ },
+ {
+  "term": "Binding",
+  "decision": "not_a_skill",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-02-a1",
+  "date": "2026-10-29",
+  "reason": "A bare generic word with several unrelated senses, such as data binding, bookbinding and legal binding."
+ },
+ {
+  "term": "Bioinformatic Harvester",
+  "decision": "unsure",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-02-a1",
+  "date": "2026-10-29",
+  "reason": "I think it is a meta-search tool for protein and gene data, but I am not sure enough to define it."
+ },
+ {
+  "term": "Biomedical Equipment Technician",
+  "decision": "not_a_skill",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-02-a1",
+  "date": "2026-10-29",
+  "reason": "A job title, not a skill."
+ },
+ {
+  "term": "Blackmagic",
+  "decision": "not_a_skill",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-02-a1",
+  "date": "2026-10-29",
+  "reason": "A company or brand name; its products, such as DaVinci Resolve, are the skills."
+ },
+ {
+  "term": "Blindness",
+  "decision": "not_a_skill",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-02-a1",
+  "date": "2026-10-29",
+  "reason": "A medical condition, not a skill."
+ },
+ {
+  "term": "Blister Pack",
+  "decision": "unsure",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-02-a1",
+  "date": "2026-10-29",
+  "reason": "Names a packaging product; unclear whether the skill meant is packaging work, machine operation or something else."
+ },
+ {
+  "term": "Bloodstains",
+  "decision": "unsure",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-02-a1",
+  "date": "2026-10-29",
+  "reason": "Could mean bloodstain pattern analysis, stain removal or laboratory testing, and the name alone does not say."
+ },
+ {
+  "term": "Boiler Operator",
+  "decision": "not_a_skill",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-02-a1",
+  "date": "2026-10-29",
+  "reason": "A job title, not a skill."
+ },
+ {
+  "term": "Boiler Room",
+  "decision": "not_a_skill",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-02-a1",
+  "date": "2026-10-29",
+  "reason": "A place, or sales slang, not a skill."
+ },
+ {
+  "term": "Bonzai 3D",
+  "decision": "unsure",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-02-a1",
+  "date": "2026-10-29",
+  "reason": "I believe it is 3D modelling software but cannot confirm the maker or details."
+ },
+ {
+  "term": "Bosun",
+  "decision": "not_a_skill",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-02-a1",
+  "date": "2026-10-29",
+  "reason": "A ship's rank or job title, not a skill."
+ },
+ {
+  "term": "Breakage",
+  "decision": "not_a_skill",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-02-a1",
+  "date": "2026-10-29",
+  "reason": "A generic word for damage or loss, not a skill."
+ },
+ {
+  "term": "Breast Cancer Awareness",
+  "decision": "not_a_skill",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-02-a1",
+  "date": "2026-10-29",
+  "reason": "An awareness-campaign topic, not a skill."
+ },
+ {
+  "term": "Bridge Building",
+  "decision": "unsure",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-02-a1",
+  "date": "2026-10-29",
+  "reason": "Could mean civil engineering work or building relationships, and the name alone does not say."
+ },
+ {
+  "term": "Bridges",
+  "decision": "not_a_skill",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-02-a1",
+  "date": "2026-10-29",
+  "reason": "A bare plural noun with many senses (structures, dental work, networks, card games), not a skill."
+ },
+ {
+  "term": "Bridging",
+  "decision": "not_a_skill",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-02-a1",
+  "date": "2026-10-29",
+  "reason": "A bare generic word with many senses, not a skill."
+ },
+ {
+  "term": "Briquette",
+  "decision": "not_a_skill",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-02-a1",
+  "date": "2026-10-29",
+  "reason": "A product, a compressed block of fuel, not a skill."
+ },
+ {
+  "term": "Broadband Distribution Specialist",
+  "decision": "unsure",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-02-a1",
+  "date": "2026-10-29",
+  "reason": "Looks like a cable-industry specialist certification, but I cannot confirm the exact name or issuer."
+ },
+ {
+  "term": "Broadband Premises Specialist",
+  "decision": "unsure",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-02-a1",
+  "date": "2026-10-29",
+  "reason": "Looks like a cable-industry specialist certification, but I cannot confirm the exact name or issuer."
+ },
+ {
+  "term": "Broadband Telecomcenter Specialist",
+  "decision": "unsure",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-02-a1",
+  "date": "2026-10-29",
+  "reason": "Looks like a cable-industry specialist certification, but I cannot confirm the exact name or issuer."
+ },
+ {
+  "term": "Cartoonist",
+  "decision": "not_a_skill",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-02-a3",
+  "date": "2026-10-29",
+  "reason": "A job title for an artist, not a skill."
+ },
+ {
+  "term": "Case Class",
+  "decision": "unsure",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-02-a3",
+  "date": "2026-10-29",
+  "reason": "Probably Scala's case class language feature, but no Scala entry was shown and it is unclear whether a single language feature is a skill entry."
+ },
+ {
+  "term": "Case Sensitive",
+  "decision": "not_a_skill",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-02-a3",
+  "date": "2026-10-29",
+  "reason": "An adjective describing text matching, not a skill."
+ },
+ {
+  "term": "Cause Of Action",
+  "decision": "not_a_skill",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-02-a3",
+  "date": "2026-10-29",
+  "reason": "A legal term for the facts that give a right to sue, not a skill, tool or field."
+ },
+ {
+  "term": "Cd Rom",
+  "decision": "not_a_skill",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-02-a3",
+  "date": "2026-10-29",
+  "reason": "A storage medium, not a skill or a product one operates."
+ },
+ {
+  "term": "Cefprozil",
+  "decision": "not_a_skill",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-02-a3",
+  "date": "2026-10-29",
+  "reason": "The name of an antibiotic medicine, not a skill, like a condition or symptom."
+ },
+ {
+  "term": "Census Building",
+  "decision": "unsure",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-02-a3",
+  "date": "2026-10-29",
+  "reason": "The phrase is unclear; it could mean building a population count, a building survey or something else."
+ },
+ {
+  "term": "Census",
+  "decision": "not_a_skill",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-02-a3",
+  "date": "2026-10-29",
+  "reason": "A generic word for counting a population (or a patient count), not a skill."
+ },
+ {
+  "term": "Centering",
+  "decision": "unsure",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-02-a3",
+  "date": "2026-10-29",
+  "reason": "Could be centering clay in pottery, the Centering group prenatal care model or something else; the tag does not say which."
+ },
+ {
+  "term": "Ceramic Tile",
+  "decision": "not_a_skill",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-02-a3",
+  "date": "2026-10-29",
+  "reason": "A building material, not a skill; the skill would be tile setting."
+ },
+ {
+  "term": "Certification Healthcare Leadership",
+  "decision": "unsure",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-02-a3",
+  "date": "2026-10-29",
+  "reason": "Does not name a specific credential I can identify; it may be a garbled name for one of several healthcare leadership certifications."
+ },
+ {
+  "term": "Certification Of Disability Management",
+  "decision": "unsure",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-02-a3",
+  "date": "2026-10-29",
+  "reason": "Several credentials fit this wording (for example CDMS and CDMP) and the tag does not say which."
+ },
+ {
+  "term": "Certification Of Italian As A Foreign Languages",
+  "decision": "unsure",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-02-a3",
+  "date": "2026-10-29",
+  "reason": "Several bodies, such as the universities of Siena, Perugia and Roma Tre, award certificates with this kind of name, and I cannot tell which is meant."
+ },
+ {
+  "term": "Certified Corrections Nurse Management",
+  "decision": "unsure",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-02-a3",
+  "date": "2026-10-29",
+  "reason": "The wording looks like a garbled Certified Correctional Nurse Manager, but I cannot be sure which credential is meant."
+ },
+ {
+  "term": "Certified Distance Learning Administrator",
+  "decision": "unsure",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-02-a3",
+  "date": "2026-10-29",
+  "reason": "I cannot confirm this credential exists under this name or which body would issue it."
+ },
+ {
+  "term": "Certified E-Marketer",
+  "decision": "unsure",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-02-a3",
+  "date": "2026-10-29",
+  "reason": "I cannot identify a credential by this name or its issuing body."
+ },
+ {
+  "term": "Certified Environmental Drycleaner",
+  "decision": "unsure",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-02-a3",
+  "date": "2026-10-29",
+  "reason": "I cannot identify a credential by this name or its issuing body."
+ },
+ {
+  "term": "Certified First Assistant",
+  "decision": "unsure",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-02-a3",
+  "date": "2026-10-29",
+  "reason": "Several surgical-assisting credentials have similar names, and I cannot tell which is meant."
+ },
+ {
+  "term": "Certified Grounds Management",
+  "decision": "unsure",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-02-a3",
+  "date": "2026-10-29",
+  "reason": "The wording looks like a garbled Certified Grounds Manager credential, but I cannot be sure which credential is meant."
+ },
+ {
+  "term": "Certified Health Coach",
+  "decision": "unsure",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-02-a3",
+  "date": "2026-10-29",
+  "reason": "A generic title that many unrelated programmes award, so it does not name one credential."
+ },
+ {
+  "term": "Certified Instrumentation Specialist",
+  "decision": "unsure",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-02-a3",
+  "date": "2026-10-29",
+  "reason": "Several instrumentation credentials have similar names, and I cannot tell which is meant."
+ },
+ {
+  "term": "Certified Manager Of Housing (CMH)",
+  "decision": "unsure",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-02-a3",
+  "date": "2026-10-29",
+  "reason": "I cannot tell which body issues this credential or confirm the name."
+ },
+ {
+  "term": "Certified Manufacturing Specialist",
+  "decision": "unsure",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-02-a3",
+  "date": "2026-10-29",
+  "reason": "Several manufacturing credentials have similar names, and I cannot tell which is meant."
+ },
+ {
+  "term": "Certified Packer",
+  "decision": "unsure",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-02-a4",
+  "date": "2026-10-29",
+  "reason": "Could be a job title or a trade-specific certificate; I know of no recognised credential by this name."
+ },
+ {
+  "term": "Certified Patient Care",
+  "decision": "unsure",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-02-a4",
+  "date": "2026-10-29",
+  "reason": "Looks like a truncated 'Certified Patient Care Technician'; on its own I cannot say which credential it means."
+ },
+ {
+  "term": "Certified Practitioner",
+  "decision": "not_a_skill",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-02-a4",
+  "date": "2026-10-29",
+  "reason": "A generic title that fits many unrelated credentials, so it names no single one."
+ },
+ {
+  "term": "Certified Retirement Administrator",
+  "decision": "unsure",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-02-a4",
+  "date": "2026-10-29",
+  "reason": "Retirement-plan administration credentials exist but I cannot confirm who awards one with this exact name."
+ },
+ {
+  "term": "Certified Society Of Pain Educators",
+  "decision": "unsure",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-02-a4",
+  "date": "2026-10-29",
+  "reason": "The name looks mangled (perhaps a pain-educator credential from a society); I cannot tell what it names."
+ },
+ {
+  "term": "Certified Unix System Administration",
+  "decision": "unsure",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-02-a4",
+  "date": "2026-10-29",
+  "reason": "Several vendor Unix administrator certifications exist and the term may also mean the skill; I cannot tell which."
+ },
+ {
+  "term": "Chain Linking",
+  "decision": "unsure",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-02-a4",
+  "date": "2026-10-29",
+  "reason": "Means different things (a statistical index method, garment or jewellery work) and nothing here shows which."
+ },
+ {
+  "term": "Chain Reactions",
+  "decision": "unsure",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-02-a4",
+  "date": "2026-10-29",
+  "reason": "Could mean nuclear, chemical or general cascading reactions, and nothing here shows which."
+ },
+ {
+  "term": "Change Request",
+  "decision": "not_a_skill",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-02-a4",
+  "date": "2026-10-29",
+  "reason": "A work item or document in a change process, not a skill."
+ },
+ {
+  "term": "Chango (Language)",
+  "decision": "unsure",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-02-a4",
+  "date": "2026-10-29",
+  "reason": "I cannot identify a language called Chango with confidence."
+ },
+ {
+  "term": "Chartered Institute for the Management of Sport and Physical Activity (CIMSPA)",
+  "decision": "not_a_skill",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-02-a4",
+  "date": "2026-10-29",
+  "reason": "The name of a professional body, not a skill or a credential."
+ },
+ {
+  "term": "Chartered Institute of Management Accountants (CIMA)",
+  "decision": "unsure",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-02-a4",
+  "date": "2026-10-29",
+  "reason": "Names a professional body; postings usually mean its qualification, so whether to record it as a credential needs a person's call."
+ },
+ {
+  "term": "Chemistry And Camera Complex",
+  "decision": "not_a_skill",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-02-a4",
+  "date": "2026-10-29",
+  "reason": "The name of the ChemCam instrument on the Curiosity rover, not a general skill."
+ },
+ {
+  "term": "Childhood Cancer",
+  "decision": "not_a_skill",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-02-a4",
+  "date": "2026-10-29",
+  "reason": "A disease, not a skill."
  }
 ]

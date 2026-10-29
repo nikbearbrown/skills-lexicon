@@ -1,0 +1,81 @@
+{
+ "id": "pe4jav8s6k",
+ "preferred_name": "Baseline Personnel Security Standard",
+ "kind": "standard",
+ "definition": "The UK government's minimum set of pre-employment checks, covering identity, right to work, employment history and unspent criminal convictions.",
+ "key": "baseline-personnel-security-standard",
+ "certification": false,
+ "variants": [
+  {
+   "label": "Baseline Personnel Security Standard (BPSS)",
+   "match": "word_ci"
+  },
+  {
+   "label": "BPSS",
+   "match": "exact_case"
+  }
+ ],
+ "relations": [],
+ "verbs": [],
+ "status": "machine-drafted",
+ "provenance": {
+  "source": "drafted by model:claude-sonnet-5-5, run 2026-10-29-round-02-a1, from the name in the legacy tag list alone; no posting or outside source checked",
+  "date": "2026-10-29",
+  "reviewed_by": null,
+  "legacy_tag": {
+   "sources": [
+    {
+     "file": "data/skills_tags.csv",
+     "rows": [
+      424
+     ],
+     "class": "Skill"
+    }
+   ],
+   "class": "Skill",
+   "in_lists": []
+  }
+ },
+ "evidence": [
+  {
+   "field": "definition",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-29",
+   "run": "2026-10-29-round-02-a1",
+   "note": "basis: general-knowledge"
+  },
+  {
+   "field": "kind",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-29",
+   "run": "2026-10-29-round-02-a1",
+   "note": "basis: general-knowledge (with the definition)"
+  },
+  {
+   "field": "variant:baseline personnel security standard (bpss)",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-29",
+   "run": "2026-10-29-round-02-a1",
+   "note": "listed in the legacy tag list; the model chose the canonical name"
+  },
+  {
+   "field": "variant:bpss",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-29",
+   "run": "2026-10-29-round-02-a1",
+   "note": "basis: general-knowledge"
+  },
+  {
+   "field": "certification",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-29",
+   "run": "2026-10-29-round-02-a1",
+   "note": "basis: general-knowledge"
+  }
+ ]
+}

@@ -40,6 +40,8 @@ def prepare(round_id, agents, size, root=L.ROOT, unsure=False):
         T.main([str(d / "work"), "--root", str(d), "--first", str(size), "--offset", str((i - 1) * size)] + (["--unsure"] if unsure else []))
         M.main([str(d / "work"), "--root", str(d), "--min-postings", "0"])
         out.append((i, len(chosen), d))
+    import json
+    (BASE / round_id / "plan.json").write_text(json.dumps({"agents": [i for i, _, _ in out], "size": size, "unsure": unsure}) + "\n", "utf-8")
     print(f"{len(groups)} unresolved tags; prepared {len(out)} agents")
     for i, n, d in out:
         print(f"  agent {i}: {n} tags in {d}")

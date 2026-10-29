@@ -1,0 +1,81 @@
+{
+ "id": "n2hw22jw1r",
+ "preferred_name": "Chlorofluorocarbons",
+ "kind": "knowledge",
+ "definition": "A class of compounds of carbon, chlorine and fluorine once common as refrigerants and propellants, now phased out because they damage the ozone layer.",
+ "key": "chlorofluorocarbons",
+ "certification": false,
+ "variants": [
+  {
+   "label": "Chlorofluorocarbon",
+   "match": "word_ci"
+  },
+  {
+   "label": "CFCs",
+   "match": "word_ci"
+  }
+ ],
+ "relations": [],
+ "verbs": [],
+ "status": "machine-drafted",
+ "provenance": {
+  "source": "drafted by model:claude-sonnet-5-5, run 2026-10-29-round-02-a4, from the name in the legacy tag list alone; no posting or outside source checked",
+  "date": "2026-10-29",
+  "reviewed_by": null,
+  "legacy_tag": {
+   "sources": [
+    {
+     "file": "data/skills_tags.csv",
+     "rows": [
+      827
+     ],
+     "class": "Skill"
+    }
+   ],
+   "class": "Skill",
+   "in_lists": []
+  }
+ },
+ "evidence": [
+  {
+   "field": "definition",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-29",
+   "run": "2026-10-29-round-02-a4",
+   "note": "basis: general-knowledge"
+  },
+  {
+   "field": "kind",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-29",
+   "run": "2026-10-29-round-02-a4",
+   "note": "basis: general-knowledge (with the definition)"
+  },
+  {
+   "field": "variant:chlorofluorocarbon",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-29",
+   "run": "2026-10-29-round-02-a4",
+   "note": "basis: general-knowledge"
+  },
+  {
+   "field": "variant:cfcs",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-29",
+   "run": "2026-10-29-round-02-a4",
+   "note": "basis: general-knowledge"
+  },
+  {
+   "field": "certification",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-29",
+   "run": "2026-10-29-round-02-a4",
+   "note": "basis: general-knowledge"
+  }
+ ]
+}

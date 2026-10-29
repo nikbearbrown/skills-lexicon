@@ -83,6 +83,46 @@
    "action": "drafted",
    "date": "2026-10-27",
    "note": "general knowledge; no source checked"
+  },
+  {
+   "field": "definition",
+   "by": "model:claude-opus-5-5",
+   "action": "checked",
+   "outcome": "supports",
+   "date": "2026-10-29",
+   "run": "2026-10-29-review-2c-opus"
+  },
+  {
+   "field": "kind",
+   "by": "model:claude-opus-5-5",
+   "action": "checked",
+   "outcome": "supports",
+   "date": "2026-10-29",
+   "run": "2026-10-29-review-2c-opus"
+  },
+  {
+   "field": "variant:nosql",
+   "by": "model:claude-opus-5-5",
+   "action": "checked",
+   "outcome": "supports",
+   "date": "2026-10-29",
+   "run": "2026-10-29-review-2c-opus"
+  },
+  {
+   "field": "variant:non-relational database",
+   "by": "model:claude-opus-5-5",
+   "action": "checked",
+   "outcome": "supports",
+   "date": "2026-10-29",
+   "run": "2026-10-29-review-2c-opus"
+  },
+  {
+   "field": "relation:contrast:f69xny35zm",
+   "by": "model:claude-opus-5-5",
+   "action": "checked",
+   "outcome": "supports",
+   "date": "2026-10-29",
+   "run": "2026-10-29-review-2c-opus"
   }
  ]
 }

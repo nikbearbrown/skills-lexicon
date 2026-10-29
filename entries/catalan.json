@@ -1,0 +1,99 @@
+{
+ "id": "b53t6y9iys",
+ "preferred_name": "Catalan",
+ "kind": "human-language",
+ "definition": "A Romance language spoken mainly in Catalonia, the Balearic Islands, Valencia and Andorra, where it is the official language.",
+ "key": "catalan",
+ "certification": false,
+ "language_type": "human",
+ "variants": [
+  {
+   "label": "Catalan (Language)",
+   "match": "word_ci"
+  },
+  {
+   "label": "Català",
+   "match": "word_ci"
+  }
+ ],
+ "relations": [],
+ "verbs": [],
+ "status": "machine-drafted",
+ "provenance": {
+  "source": "drafted by model:claude-sonnet-5-5, run 2026-10-29-round-02-a3, from the name in the legacy tag list alone; no posting or outside source checked",
+  "date": "2026-10-29",
+  "reviewed_by": null,
+  "legacy_tag": {
+   "sources": [
+    {
+     "file": "data/skills_tags.csv",
+     "rows": [
+      635
+     ],
+     "class": "Language"
+    },
+    {
+     "file": "data/skills-language.csv",
+     "rows": [
+      52
+     ],
+     "class": "Language"
+    }
+   ],
+   "class": "Language",
+   "in_lists": [
+    "language"
+   ]
+  }
+ },
+ "evidence": [
+  {
+   "field": "definition",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-29",
+   "run": "2026-10-29-round-02-a3",
+   "note": "basis: general-knowledge"
+  },
+  {
+   "field": "kind",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-29",
+   "run": "2026-10-29-round-02-a3",
+   "note": "basis: general-knowledge (with the definition)"
+  },
+  {
+   "field": "variant:catalan (language)",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-29",
+   "run": "2026-10-29-round-02-a3",
+   "note": "listed in the legacy tag list; the model chose the canonical name"
+  },
+  {
+   "field": "variant:català",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-29",
+   "run": "2026-10-29-round-02-a3",
+   "note": "basis: general-knowledge"
+  },
+  {
+   "field": "certification",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-29",
+   "run": "2026-10-29-round-02-a3",
+   "note": "basis: general-knowledge"
+  },
+  {
+   "field": "language_type",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-29",
+   "run": "2026-10-29-round-02-a3",
+   "note": "basis: general-knowledge"
+  }
+ ]
+}

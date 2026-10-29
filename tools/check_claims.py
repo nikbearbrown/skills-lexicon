@@ -88,7 +88,7 @@ def tag_of(e, rows):
     return None
 
 
-def apply(root, out, model, effort, run, today):
+def apply(root, out, model, effort, run, today, only=None):
     root = Path(root)
     entries, _ = L.load(root / "entries")
     by_key = {e["key"]: e for e in entries}
@@ -114,6 +114,8 @@ def apply(root, out, model, effort, run, today):
         log[outcome] += 1
 
     for p in sorted((Path(out) / "answers").glob("*.json")):
+        if only and p.stem not in only:
+            continue
         for a in json.loads(p.read_text("utf-8")):
             e = by_key.get(a.get("key"))
             if not e:
@@ -170,11 +172,12 @@ def main(argv=None):
     q.add_argument("--date", default=datetime.date.today().isoformat())
     q.add_argument("--root", default=str(L.ROOT))
     q.add_argument("--dry-run", action="store_true")
+    q.add_argument("--only", help="comma-separated packet names to apply, such as p001,p002")
     a = ap.parse_args(argv)
     if a.cmd == "packets":
         packets(a.root, a.out, a.size, a.classes, a.unchecked_by)
         return 0
-    entries, touched, votes, log, problems = apply(a.root, a.out, a.model_id, a.effort, a.run, a.date)
+    entries, touched, votes, log, problems = apply(a.root, a.out, a.model_id, a.effort, a.run, a.date, set(a.only.split(",")) if a.only else None)
     errs = L.validate(entries)
     if errs:
         raise SystemExit("not saved, the dictionary would not validate: " + "; ".join(errs[:4]))

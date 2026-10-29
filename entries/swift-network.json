@@ -27,5 +27,33 @@
   "date": "2026-10-24",
   "review": "Awaiting taxonomy owner review",
   "reviewed_by": null
- }
+ },
+ "evidence": [
+  {
+   "field": "definition",
+   "by": "model:claude-opus-5-5",
+   "action": "checked",
+   "outcome": "supports",
+   "date": "2026-10-29",
+   "run": "2026-10-29-review-2c-opus",
+   "note": "Thin: SWIFT is the interbank cooperative's secure financial messaging network."
+  },
+  {
+   "field": "kind",
+   "by": "model:claude-opus-5-5",
+   "action": "checked",
+   "outcome": "supports",
+   "date": "2026-10-29",
+   "run": "2026-10-29-review-2c-opus"
+  },
+  {
+   "field": "variant:swift",
+   "by": "model:claude-opus-5-5",
+   "action": "checked",
+   "outcome": "contradicts",
+   "date": "2026-10-29",
+   "run": "2026-10-29-review-2c-opus",
+   "note": "Bare label collides with the Swift programming language."
+  }
+ ]
 }

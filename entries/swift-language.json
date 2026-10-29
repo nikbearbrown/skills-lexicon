@@ -19,5 +19,24 @@
   "date": "2026-10-24",
   "review": "Awaiting taxonomy owner review",
   "reviewed_by": null
- }
+ },
+ "evidence": [
+  {
+   "field": "definition",
+   "by": "model:claude-opus-5-5",
+   "action": "checked",
+   "outcome": "supports",
+   "date": "2026-10-29",
+   "run": "2026-10-29-review-2c-opus",
+   "note": "Thin: Apple's general-purpose language, released 2014."
+  },
+  {
+   "field": "kind",
+   "by": "model:claude-opus-5-5",
+   "action": "checked",
+   "outcome": "supports",
+   "date": "2026-10-29",
+   "run": "2026-10-29-review-2c-opus"
+  }
+ ]
 }

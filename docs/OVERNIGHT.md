@@ -12,7 +12,7 @@ Working on branch `overnight-1`; `main` is untouched. Everything here is `machin
 |---|---|---|---|---|---|---|---|
 | 1 | round-01-a1, a2, a3 | 207 | 2 | 31 | 54 | 6 (same-concept pairs) | $18.81 |
 
-Notes on round 1: agents drafted 100 tags each. The six rejected tags are same-concept pairs the agents deliberately answered as new; they stay unresolved and are retried with the first entry visible. Cost reported by the session after round 1: $18.81 (the three subagents used about 411k tokens in all). Spend is estimated with a cautious $3 extra per round, in case subagent tokens are not in the session's figure, and the run stops at $120 on that estimate.
+Notes on round 1: agents drafted 100 tags each. The six rejected tags are same-concept pairs the agents deliberately answered as new; they stay unresolved and are retried with the first entry visible. Cost: the session's figure after round 1 was $18.81 and after round 2 and three Opus reviews $25.88. It appears to cover the main session only, so subagents are estimated from their own transcripts (token counts priced at the rates the session's own figures imply): about $10 for 14 Sonnet runs and $2 to $10 for 5 Opus runs. The run stops at $120 on reported plus estimated.
 
 ## Reviews by a second model
 
@@ -21,3 +21,12 @@ Notes on round 1: agents drafted 100 tags each. The six rejected tags are same-c
 | review-1-opus (certifications, first 25) | claude-opus-5-5, xhigh | 25 | 129 | 2 | 1 |
 
 A reviewer is more agreeable than a drafter, so a high rate of `supports` is weak evidence; the contradictions and unsures are the signal. The brief was clarified after review 1 (notes allowed on `supports`; how to treat uninformative definitions and ambiguous abbreviations).
+
+| round 2 | a1, a2, a3, a4 | 293 new | 5 variants | 42 not a skill | 54 unsure | 6 rejected | 777 entries in all |
+| review-2a-opus (skills, 120 entries) | claude-opus-5-5, xhigh | 120 | 433 | 3 | 2 |
+| review-2b-opus (skills, 120 entries) | claude-opus-5-5, xhigh | 120 | 438 | 10 | 0 |
+| review-2c-opus (skills 98, languages 32, abilities 3) | claude-opus-5-5, xhigh | 133 | 415 | 36 | 2 |
+
+**Canary test of the reviewer.** Twenty certification entries, eight with a deliberately wrong definition or kind (wrong issuer, a master's degree called doctoral, an endorsement given the wrong meaning), twelve untouched. The Opus reviewer contradicted all 8 planted errors and none of the 12 untouched entries. The planted errors were blatant, so this shows the reviewer is not simply agreeing; it does not show it would catch subtle errors. The canary entries were never in the repository.
+
+Reviewer notes on the brief (not yet acted on): abbreviations such as DL, PG, RAG, LLM and ASIC were marked bad variants because they mean other things in listings; misspelled variants were marked bad; `knowledge` versus `standard` for standards documents (ARP4754, ASC 340, NFPA 70E, TL 9000) was contradicted.

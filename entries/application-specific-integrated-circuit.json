@@ -100,6 +100,64 @@
    "date": "2026-10-29",
    "run": "2026-10-29-round-01-a2",
    "note": "basis: general-knowledge"
+  },
+  {
+   "field": "definition",
+   "by": "model:claude-opus-5-5",
+   "action": "checked",
+   "outcome": "supports",
+   "date": "2026-10-29",
+   "run": "2026-10-29-review-2b-opus"
+  },
+  {
+   "field": "kind",
+   "by": "model:claude-opus-5-5",
+   "action": "checked",
+   "outcome": "supports",
+   "date": "2026-10-29",
+   "run": "2026-10-29-review-2b-opus"
+  },
+  {
+   "field": "certification",
+   "by": "model:claude-opus-5-5",
+   "action": "checked",
+   "outcome": "supports",
+   "date": "2026-10-29",
+   "run": "2026-10-29-review-2b-opus"
+  },
+  {
+   "field": "variant:asics",
+   "by": "model:claude-opus-5-5",
+   "action": "checked",
+   "outcome": "supports",
+   "date": "2026-10-29",
+   "run": "2026-10-29-review-2b-opus"
+  },
+  {
+   "field": "variant:application specific integrated circuits",
+   "by": "model:claude-opus-5-5",
+   "action": "checked",
+   "outcome": "supports",
+   "date": "2026-10-29",
+   "run": "2026-10-29-review-2b-opus"
+  },
+  {
+   "field": "variant:application specific integrated curcuits",
+   "by": "model:claude-opus-5-5",
+   "action": "checked",
+   "outcome": "contradicts",
+   "date": "2026-10-29",
+   "run": "2026-10-29-review-2b-opus",
+   "note": "Misspelling of 'Circuits'."
+  },
+  {
+   "field": "variant:asic",
+   "by": "model:claude-opus-5-5",
+   "action": "checked",
+   "outcome": "contradicts",
+   "date": "2026-10-29",
+   "run": "2026-10-29-review-2b-opus",
+   "note": "Ambiguous in listings: also Australian Securities and Investments Commission and Aviation Security Identification Card."
   }
  ]
 }

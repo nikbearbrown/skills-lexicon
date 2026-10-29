@@ -116,6 +116,48 @@
    "date": "2026-10-29",
    "run": "2026-10-29-pilot-100-tags-blind-redraft",
    "note": "second draft (xhigh) gave the same value"
+  },
+  {
+   "field": "definition",
+   "by": "model:claude-opus-5-5",
+   "action": "checked",
+   "outcome": "supports",
+   "date": "2026-10-29",
+   "run": "2026-10-29-review-2b-opus",
+   "note": "A BSP is the software layer itself; the definition describes the activity of building one."
+  },
+  {
+   "field": "kind",
+   "by": "model:claude-opus-5-5",
+   "action": "checked",
+   "outcome": "supports",
+   "date": "2026-10-29",
+   "run": "2026-10-29-review-2b-opus"
+  },
+  {
+   "field": "certification",
+   "by": "model:claude-opus-5-5",
+   "action": "checked",
+   "outcome": "supports",
+   "date": "2026-10-29",
+   "run": "2026-10-29-review-2b-opus"
+  },
+  {
+   "field": "variant:board support package (software)",
+   "by": "model:claude-opus-5-5",
+   "action": "checked",
+   "outcome": "supports",
+   "date": "2026-10-29",
+   "run": "2026-10-29-review-2b-opus"
+  },
+  {
+   "field": "variant:bsp",
+   "by": "model:claude-opus-5-5",
+   "action": "checked",
+   "outcome": "contradicts",
+   "date": "2026-10-29",
+   "run": "2026-10-29-review-2b-opus",
+   "note": "Ambiguous: also binary space partitioning, bulk synchronous parallel, IATA Billing and Settlement Plan."
   }
  ]
 }

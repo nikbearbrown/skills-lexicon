@@ -77,6 +77,39 @@
    "date": "2026-10-29",
    "run": "2026-10-29-round-01-a1",
    "note": "basis: general-knowledge"
+  },
+  {
+   "field": "definition",
+   "by": "model:claude-opus-5-5",
+   "action": "checked",
+   "outcome": "supports",
+   "date": "2026-10-29",
+   "run": "2026-10-29-review-2a-opus"
+  },
+  {
+   "field": "certification",
+   "by": "model:claude-opus-5-5",
+   "action": "checked",
+   "outcome": "supports",
+   "date": "2026-10-29",
+   "run": "2026-10-29-review-2a-opus",
+   "note": "Licence held by businesses, not a personal credential."
+  },
+  {
+   "field": "variant:air travel organiser's licensing",
+   "by": "model:claude-opus-5-5",
+   "action": "checked",
+   "outcome": "supports",
+   "date": "2026-10-29",
+   "run": "2026-10-29-review-2a-opus"
+  },
+  {
+   "field": "variant:atol",
+   "by": "model:claude-opus-5-5",
+   "action": "checked",
+   "outcome": "supports",
+   "date": "2026-10-29",
+   "run": "2026-10-29-review-2a-opus"
   }
  ]
 }

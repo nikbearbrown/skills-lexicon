@@ -25,5 +25,42 @@
   "date": "2026-10-24",
   "review": "Awaiting taxonomy owner review",
   "reviewed_by": null
- }
+ },
+ "evidence": [
+  {
+   "field": "definition",
+   "by": "model:claude-opus-5-5",
+   "action": "checked",
+   "outcome": "supports",
+   "date": "2026-10-29",
+   "run": "2026-10-29-review-2c-opus",
+   "note": "Also covers adjusting predicted probabilities (Platt scaling, isotonic regression), not only comparing."
+  },
+  {
+   "field": "kind",
+   "by": "model:claude-opus-5-5",
+   "action": "checked",
+   "outcome": "supports",
+   "date": "2026-10-29",
+   "run": "2026-10-29-review-2c-opus"
+  },
+  {
+   "field": "variant:calibration",
+   "by": "model:claude-opus-5-5",
+   "action": "checked",
+   "outcome": "contradicts",
+   "date": "2026-10-29",
+   "run": "2026-10-29-review-2c-opus",
+   "note": "Bare word mostly means instrument/equipment calibration in listings."
+  },
+  {
+   "field": "variant:brier score",
+   "by": "model:claude-opus-5-5",
+   "action": "checked",
+   "outcome": "contradicts",
+   "date": "2026-10-29",
+   "run": "2026-10-29-review-2c-opus",
+   "note": "A specific scoring rule for probabilistic forecasts, not a synonym."
+  }
+ ]
 }
