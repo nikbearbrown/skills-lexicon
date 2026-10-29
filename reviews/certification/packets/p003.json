@@ -1,0 +1,531 @@
+{
+ "allowed_kinds": [
+  "ability",
+  "credential",
+  "framework",
+  "human-language",
+  "knowledge",
+  "library",
+  "markup-language",
+  "method",
+  "modeling-language",
+  "platform",
+  "programming-language",
+  "skill",
+  "standard",
+  "style-language",
+  "tool",
+  "work-activity"
+ ],
+ "entries": [
+  {
+   "key": "certified-correctional-nurse",
+   "name": "Certified Correctional Nurse",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A certification for nurses who work in correctional facilities such as jails and prisons.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [
+    "Certified Corrections Nurse"
+   ],
+   "relations": []
+  },
+  {
+   "key": "certified-culinary-administrator",
+   "name": "Certified Culinary Administrator",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "An American Culinary Federation certification for chefs who hold administrative roles in running foodservice operations.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [
+    "Certified Culinary Administration"
+   ],
+   "relations": [
+    "broader:american-culinary-federation-certification"
+   ]
+  },
+  {
+   "key": "certified-diabetes-care-and-education-specialist",
+   "name": "Certified Diabetes Care and Education Specialist",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A certification for health professionals who teach people to manage diabetes; it replaced the title Certified Diabetes Educator in 2020.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [
+    "Certified Diabetes Educator",
+    "CDCES"
+   ],
+   "relations": []
+  },
+  {
+   "key": "certified-dialysis-nurse",
+   "name": "Certified Dialysis Nurse",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A certification from the Nephrology Nursing Certification Commission for nurses who care for dialysis patients.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "certified-diversity-recruiter",
+   "name": "Certified Diversity Recruiter",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A certification for recruiters who find and hire candidates from diverse backgrounds.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [
+    "Certified Diversity Recruiter (CDR)"
+   ],
+   "relations": []
+  },
+  {
+   "key": "certified-documentation-integrity-practitioner",
+   "name": "Certified Documentation Integrity Practitioner",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A certification from the American Health Information Management Association for people who review clinical documentation so that it accurately and completely reflects a patient's care and condition.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [
+    "Certified Documentation Improvement Practitioner",
+    "CDIP",
+    "Certified Documentation Integrity Practitioner (CDIP)"
+   ],
+   "relations": []
+  },
+  {
+   "key": "certified-energy-manager",
+   "name": "Certified Energy Manager",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A certification from the Association of Energy Engineers for professionals who manage energy use and efficiency in buildings and facilities.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "certified-first-responder",
+   "name": "Certified First Responder",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A credential for people trained to give emergency care at the scene before an ambulance crew arrives.",
+   "certification": true,
+   "certification_scope": "many-issuers",
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "certified-flight-registered-nurse",
+   "name": "Certified Flight Registered Nurse",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A certification from the Board of Certification for Emergency Nursing for registered nurses who care for patients during air and ground transport.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [
+    "CFRN"
+   ],
+   "relations": []
+  },
+  {
+   "key": "certified-foot-care-nurse",
+   "name": "Certified Foot Care Nurse",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A certification from the Wound, Ostomy and Continence Nursing Certification Board for nurses who assess and care for patients' feet.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [
+    "CFCN"
+   ],
+   "relations": []
+  },
+  {
+   "key": "certified-forensic-computer-examiner",
+   "name": "Certified Forensic Computer Examiner",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A digital forensics certification from the International Association of Computer Investigative Specialists.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [
+    "Certified Forensic Computer Examination",
+    "CFCE"
+   ],
+   "relations": []
+  },
+  {
+   "key": "certified-forklift-operator",
+   "name": "Certified Forklift Operator",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "Proof that a worker has been trained and evaluated to operate forklifts safely, as US workplace-safety rules require an employer to certify.",
+   "certification": true,
+   "certification_scope": "many-issuers",
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "certified-gastroenterology-registered-nurse",
+   "name": "Certified Gastroenterology Registered Nurse",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A certification from the American Board of Certification for Gastroenterology Nurses for registered nurses who work in gastroenterology and endoscopy.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [
+    "CGRN"
+   ],
+   "relations": []
+  },
+  {
+   "key": "certified-health-data-analyst",
+   "name": "Certified Health Data Analyst",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A certification from the American Health Information Management Association for professionals who acquire, analyse and report on health data.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [
+    "CHDA"
+   ],
+   "relations": []
+  },
+  {
+   "key": "certified-hemodialysis-technician",
+   "name": "Certified Hemodialysis Technician",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A certification for technicians who give hemodialysis treatments to patients with kidney failure.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "certified-histotechnician",
+   "name": "Certified Histotechnician",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A certification from the ASCP Board of Certification for histotechnicians, who prepare thin tissue sections and stains for microscope examination.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [
+    "Certified Histotechnician (HT-ASCP)",
+    "HT(ASCP)"
+   ],
+   "relations": []
+  },
+  {
+   "key": "certified-histotechnologist",
+   "name": "Certified Histotechnologist",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A certification from the ASCP Board of Certification for histotechnologists, who do more advanced tissue-preparation and staining work and may supervise others.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [
+    "Certified Histotechnologist (HTL-ASCP)",
+    "HTL(ASCP)"
+   ],
+   "relations": []
+  },
+  {
+   "key": "certified-hospice-and-palliative-care-administrator",
+   "name": "Certified Hospice and Palliative Care Administrator",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A certification from the Hospice and Palliative Credentialing Center for administrators of hospice and palliative care programmes.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [
+    "CHPCA"
+   ],
+   "relations": [
+    "related:advanced-certified-hospice-and-palliative-nurse"
+   ]
+  },
+  {
+   "key": "certified-hospice-and-palliative-licensed-nurse",
+   "name": "Certified Hospice and Palliative Licensed Nurse",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A certification from the Hospice and Palliative Credentialing Center for licensed practical and vocational nurses who care for hospice and palliative patients.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [
+    "CHPLN"
+   ],
+   "relations": [
+    "related:advanced-certified-hospice-and-palliative-nurse"
+   ]
+  },
+  {
+   "key": "certified-hospice-and-palliative-nurse",
+   "name": "Certified Hospice and Palliative Nurse",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A certification from the Hospice and Palliative Credentialing Center for registered nurses who care for hospice and palliative patients.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [
+    "Certified Hospice And Palliative Nurses (CHPN)",
+    "CHPN"
+   ],
+   "relations": [
+    "related:advanced-certified-hospice-and-palliative-nurse"
+   ]
+  },
+  {
+   "key": "certified-hospice-and-palliative-nursing-assistant",
+   "name": "Certified Hospice and Palliative Nursing Assistant",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A certification from the Hospice and Palliative Credentialing Center for nursing assistants who care for hospice and palliative patients.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [
+    "CHPNA"
+   ],
+   "relations": [
+    "related:advanced-certified-hospice-and-palliative-nurse"
+   ]
+  },
+  {
+   "key": "certified-in-logistics-transportation-and-distribution",
+   "name": "Certified in Logistics, Transportation and Distribution",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A certification from the Association for Supply Chain Management for professionals who plan and manage logistics, transportation and distribution.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [
+    "Certified In Logistics, Transportation And Distribution (CLTD)",
+    "CLTD"
+   ],
+   "relations": []
+  },
+  {
+   "key": "certified-in-public-health",
+   "name": "Certified in Public Health",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A certification from the National Board of Public Health Examiners for public health graduates who show broad knowledge of the field.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [
+    "Certified In Public Health (CPH)"
+   ],
+   "relations": []
+  },
+  {
+   "key": "certified-industrial-hygienist",
+   "name": "Certified Industrial Hygienist",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A professional certification for industrial hygienists, who anticipate, recognise, evaluate and control workplace health hazards.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [
+    "CIH"
+   ],
+   "relations": []
+  },
+  {
+   "key": "certified-information-privacy-professional",
+   "name": "Certified Information Privacy Professional",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A certification from the International Association of Privacy Professionals showing knowledge of privacy law and practice, offered for different regions.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "certified-information-systems-auditor",
+   "name": "Certified Information Systems Auditor",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A certification from ISACA for professionals who audit, control and assure the security of information systems.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [
+    "Certified Information System Auditor (CISA)"
+   ],
+   "relations": []
+  },
+  {
+   "key": "certified-inpatient-coder",
+   "name": "Certified Inpatient Coder",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A medical coding certification from AAPC for coders who assign diagnosis and procedure codes to hospital inpatient records.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [],
+   "relations": [
+    "related:cpc-coder"
+   ]
+  },
+  {
+   "key": "certified-insurance-counselor",
+   "name": "Certified Insurance Counselor",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A designation from the National Alliance for Insurance Education & Research for insurance professionals who complete courses in coverage and risk.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [
+    "Certified Insurance Counselors"
+   ],
+   "relations": []
+  },
+  {
+   "key": "certified-insurance-service-representative",
+   "name": "Certified Insurance Service Representative",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A designation from the National Alliance for Insurance Education & Research for customer-service staff in insurance agencies.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [
+    "Certified Insurance Service Representatives",
+    "CISR"
+   ],
+   "relations": []
+  },
+  {
+   "key": "certified-irb-manager",
+   "name": "Certified IRB Manager",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A credential for managers of institutional review boards, the committees that review the ethics of research involving people.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "certified-irrigation-designer",
+   "name": "Certified Irrigation Designer",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A certification from the Irrigation Association for designers of irrigation systems.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "certified-labview-developer",
+   "name": "Certified LabVIEW Developer",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A certification from National Instruments showing that someone can design, build and debug well-structured LabVIEW applications.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "certified-managed-care-nurse",
+   "name": "Certified Managed Care Nurse",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A certification from the American Board of Managed Care Nursing for nurses who work in managed care.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [
+    "CMCN"
+   ],
+   "relations": []
+  },
+  {
+   "key": "certified-management-accountant",
+   "name": "Certified Management Accountant",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A certification from the Institute of Management Accountants for accountants skilled in financial planning, analysis and control.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "certified-medical-assistant",
+   "name": "Certified Medical Assistant",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A certification from the American Association of Medical Assistants for medical assistants who pass its examination.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [
+    "CMA (AAMA)",
+    "Certified Medical Assistant (CMA)"
+   ],
+   "relations": []
+  },
+  {
+   "key": "certified-medical-billing-and-coding-specialist",
+   "name": "Certified Medical Billing and Coding Specialist",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A certification for people who prepare healthcare claims and assign diagnosis and procedure codes.",
+   "certification": true,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "certified-medical-laboratory-assistant",
+   "name": "Certified Medical Laboratory Assistant",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A certification for assistants who collect, prepare and process specimens in a medical laboratory.",
+   "certification": true,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "certified-medical-surgical-registered-nurse",
+   "name": "Certified Medical-Surgical Registered Nurse",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A certification for registered nurses who work in medical-surgical nursing, awarded by the Medical-Surgical Nursing Certification Board.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [
+    "CMSRN"
+   ],
+   "relations": []
+  },
+  {
+   "key": "certified-music-therapist",
+   "name": "Certified Music Therapist",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A credential showing that a music therapist has met professional certification requirements.",
+   "certification": true,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "certified-nephrology-nurse",
+   "name": "Certified Nephrology Nurse",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A certification for registered nurses who care for people with kidney disease, awarded by the Nephrology Nursing Certification Commission.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [],
+   "relations": []
+  }
+ ]
+}

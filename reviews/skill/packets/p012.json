@@ -1,0 +1,470 @@
+{
+ "allowed_kinds": [
+  "ability",
+  "credential",
+  "framework",
+  "human-language",
+  "knowledge",
+  "library",
+  "markup-language",
+  "method",
+  "modeling-language",
+  "platform",
+  "programming-language",
+  "skill",
+  "standard",
+  "style-language",
+  "tool",
+  "work-activity"
+ ],
+ "entries": [
+  {
+   "key": "color-material-and-finish-design",
+   "name": "Color, material and finish design",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Choosing and specifying the colours, materials and surface finishes of a product as part of industrial design.",
+   "certification": false,
+   "variants": [
+    "Colors Materials And Finish (CMF) Design",
+    "CMF design"
+   ],
+   "relations": []
+  },
+  {
+   "key": "color-rendering-index",
+   "name": "Color rendering index",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "A scale up to 100 that rates how faithfully a light source shows the colours of objects compared with a reference light.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "combine-harvester",
+   "name": "Combine harvester",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "A farm machine that cuts, threshes and cleans grain crops in a single pass.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "commercial-loan-documentation",
+   "name": "Commercial loan documentation",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Preparing and reviewing the agreements and security documents that set out the terms of a commercial loan.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "commercial-off-the-shelf",
+   "name": "Commercial off-the-shelf",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "Ready-made hardware or software products bought from a supplier and used as they are, rather than built specially for the buyer.",
+   "certification": false,
+   "variants": [
+    "COTS",
+    "Commercial off the shelf"
+   ],
+   "relations": []
+  },
+  {
+   "key": "commissioning-qualification-and-validation",
+   "name": "Commissioning, qualification and validation",
+   "class": "skill",
+   "kind": "method",
+   "definition": "Engineering activities, common in pharmaceutical manufacturing, that verify and document that facilities, equipment and systems are installed correctly and perform as intended.",
+   "certification": false,
+   "variants": [
+    "Commissioning, Qualification, Validation (CQV)",
+    "CQV"
+   ],
+   "relations": []
+  },
+  {
+   "key": "common-criteria",
+   "name": "Common Criteria",
+   "class": "skill",
+   "kind": "standard",
+   "definition": "The international standard, ISO/IEC 15408, for evaluating the security of IT products.",
+   "certification": false,
+   "variants": [
+    "ISO/IEC 15408"
+   ],
+   "relations": []
+  },
+  {
+   "key": "common-language-specification",
+   "name": "Common Language Specification",
+   "class": "skill",
+   "kind": "standard",
+   "definition": "A set of rules in Microsoft's .NET Framework that languages must follow so that code written in one .NET language can be used from another.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "commonjs",
+   "name": "CommonJS",
+   "class": "skill",
+   "kind": "standard",
+   "definition": "A specification for JavaScript modules and other server-side interfaces, best known for the require and module.exports module format used by Node.js.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "commons-based-peer-production",
+   "name": "Commons-based peer production",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "A way of producing goods in which many people collaborate voluntarily without central ownership or markets, as in open-source software and Wikipedia.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "communication",
+   "name": "Communication",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Conveying information and ideas clearly to others through speaking, writing and listening.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "communication-software",
+   "name": "Communication software",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "Software for exchanging messages and conversations between people, such as email, chat, voice calls and video conferencing.",
+   "certification": false,
+   "variants": [
+    "Communication Softwares"
+   ],
+   "relations": []
+  },
+  {
+   "key": "communication-theories",
+   "name": "Communication theories",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "Theories that explain how people and groups create, send and interpret messages.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "community-advocacy",
+   "name": "Community advocacy",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Speaking up for a community's needs and rights and helping its members influence the decisions that affect them.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "community-nutrition",
+   "name": "Community nutrition",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "The part of nutrition concerned with improving the diet and health of groups and populations through education, programmes and policy.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "community-resilience",
+   "name": "Community resilience",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "The capacity of a community to prepare for, withstand and recover from disasters and other disruptions.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "compiler-development",
+   "name": "Compiler development",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Designing and building compilers, the programs that translate source code into machine code or another language.",
+   "certification": false,
+   "variants": [
+    "Compiler Developments"
+   ],
+   "relations": []
+  },
+  {
+   "key": "complaint-investigation",
+   "name": "Complaint investigation",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Looking into complaints from customers, employees or the public to establish the facts and decide how to resolve them.",
+   "certification": false,
+   "variants": [
+    "Complaint Investigations"
+   ],
+   "relations": []
+  },
+  {
+   "key": "compliance-risk-management",
+   "name": "Compliance risk management",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Identifying, assessing and controlling the risk that an organisation breaks laws, regulations or its own policies.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "compliance-testing",
+   "name": "Compliance testing",
+   "class": "skill",
+   "kind": "method",
+   "definition": "Checking whether processes, controls or products meet the laws, regulations or standards that apply to them.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "componentone",
+   "name": "ComponentOne",
+   "class": "skill",
+   "kind": "library",
+   "definition": "A commercial suite of user-interface controls and data components for .NET and web applications.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "composite-pattern",
+   "name": "Composite pattern",
+   "class": "skill",
+   "kind": "method",
+   "definition": "A structural software design pattern that lets single objects and groups of objects be treated the same way through a shared tree-shaped interface.",
+   "certification": false,
+   "variants": [
+    "Composite Patterns(Software Design Patterns)",
+    "Composite design pattern"
+   ],
+   "relations": []
+  },
+  {
+   "key": "computational-design",
+   "name": "Computational design",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Using algorithms and code to generate, analyse and refine designs, as in parametric architecture and product design.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "computer-architecture",
+   "name": "Computer architecture",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "The design and organisation of a computer's components, such as the processor, memory and instruction set.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "computer-assisted-audit-tools-and-techniques-caatts",
+   "name": "Computer-assisted audit tools and techniques (CAATTs)",
+   "class": "skill",
+   "kind": "method",
+   "definition": "The use of software tools and techniques to analyse data and automate audit procedures.",
+   "certification": false,
+   "variants": [
+    "Computer Assisted Audit Tools And Techniques (CAATT)",
+    "CAATs",
+    "CAATTs"
+   ],
+   "relations": []
+  },
+  {
+   "key": "computer-assisted-qualitative-data-analysis-software-caqdas",
+   "name": "Computer-assisted qualitative data analysis software (CAQDAS)",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "Software for organising, coding and analysing non-numerical data such as interviews, text and recordings.",
+   "certification": false,
+   "variants": [
+    "Computer-Assisted Qualitative Data Analysis Software",
+    "CAQDAS"
+   ],
+   "relations": []
+  },
+  {
+   "key": "computer-fraud-and-abuse-act",
+   "name": "Computer Fraud and Abuse Act",
+   "class": "skill",
+   "kind": "standard",
+   "definition": "A US federal law that prohibits unauthorised access to protected computers and related computer crimes.",
+   "certification": false,
+   "variants": [
+    "CFAA"
+   ],
+   "relations": []
+  },
+  {
+   "key": "computer-networking",
+   "name": "Computer networking",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "Understanding communication and interconnection of computing systems.",
+   "variants": [
+    "data networking",
+    "network protocols",
+    "Computer Networking Systems"
+   ],
+   "relations": []
+  },
+  {
+   "key": "computer-science",
+   "name": "Computer science",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "The study of computation, algorithms, data and the design of computer systems and software.",
+   "certification": false,
+   "variants": [
+    "Computer Sciences"
+   ],
+   "relations": []
+  },
+  {
+   "key": "computerized-system-validation",
+   "name": "Computerized system validation",
+   "class": "skill",
+   "kind": "method",
+   "definition": "The documented process of showing that a computerised system consistently does what it is meant to do, used in regulated industries such as pharmaceuticals.",
+   "certification": false,
+   "variants": [
+    "Computer System Validation"
+   ],
+   "relations": []
+  },
+  {
+   "key": "computerrx",
+   "name": "ComputerRx",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "A pharmacy management software product used to handle prescriptions and pharmacy operations.",
+   "certification": false,
+   "variants": [
+    "ComputerRx (Pharmacy Management Software)"
+   ],
+   "relations": []
+  },
+  {
+   "key": "concision",
+   "name": "Concision",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Expressing ideas clearly in no more words than are needed.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "concourse-ci",
+   "name": "Concourse CI",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "An open-source continuous integration and delivery system in which pipelines are defined in YAML and tasks run in containers.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "concurrent-engineering",
+   "name": "Concurrent engineering",
+   "class": "skill",
+   "kind": "method",
+   "definition": "An approach in which design, manufacturing and other product-development stages are carried out in parallel instead of one after another.",
+   "certification": false,
+   "variants": [
+    "Simultaneous Engineering Wikipedia",
+    "Simultaneous engineering"
+   ],
+   "relations": []
+  },
+  {
+   "key": "conducting-tours",
+   "name": "Conducting tours",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Leading groups on guided tours and presenting information about the places or facilities visited.",
+   "certification": false,
+   "variants": [
+    "Conduct Tours"
+   ],
+   "relations": []
+  },
+  {
+   "key": "cone-penetration-testing",
+   "name": "Cone penetration testing",
+   "class": "skill",
+   "kind": "method",
+   "definition": "A geotechnical test in which an instrumented cone is pushed into the ground to measure soil properties and layering.",
+   "certification": false,
+   "variants": [
+    "Cone Penetration Tests",
+    "Cone penetration test"
+   ],
+   "relations": []
+  },
+  {
+   "key": "confirmit",
+   "name": "Confirmit",
+   "class": "skill",
+   "kind": "platform",
+   "definition": "A survey and market research software platform for building surveys and analysing responses.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "conflict-catcher",
+   "name": "Conflict Catcher",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "A classic Mac OS utility for managing extensions and control panels and finding conflicts between them.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "confluent",
+   "name": "Confluent",
+   "class": "skill",
+   "kind": "platform",
+   "definition": "A data streaming platform built on Apache Kafka, offered self-managed as Confluent Platform and as the Confluent Cloud service.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "confocal-microscopy",
+   "name": "Confocal microscopy",
+   "class": "skill",
+   "kind": "method",
+   "definition": "A microscopy technique that uses a pinhole to block out-of-focus light so that thin optical sections of a specimen can be imaged.",
+   "certification": false,
+   "variants": [
+    "Confocal"
+   ],
+   "relations": []
+  }
+ ]
+}

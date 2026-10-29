@@ -1,0 +1,469 @@
+{
+ "allowed_kinds": [
+  "ability",
+  "credential",
+  "framework",
+  "human-language",
+  "knowledge",
+  "library",
+  "markup-language",
+  "method",
+  "modeling-language",
+  "platform",
+  "programming-language",
+  "skill",
+  "standard",
+  "style-language",
+  "tool",
+  "work-activity"
+ ],
+ "entries": [
+  {
+   "key": "family-and-consumer-sciences",
+   "name": "Family and consumer sciences",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "The field that studies how individuals and families manage daily life, including nutrition, child development, household finance and textiles; historically called home economics.",
+   "certification": false,
+   "variants": [
+    "Home economics"
+   ],
+   "relations": []
+  },
+  {
+   "key": "family-engagement",
+   "name": "Family engagement",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Involving the families of children or clients in their education, care or services through communication and partnership.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "family-ministry",
+   "name": "Family ministry",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "The programmes, teaching and pastoral care a church provides for families.",
+   "certification": false,
+   "variants": [],
+   "relations": [
+    "related:children-s-ministry"
+   ]
+  },
+  {
+   "key": "family-systems-theory",
+   "name": "Family systems theory",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "A framework in psychology and family therapy that treats the family as an emotional system whose members' behaviour is understood through their relationships; Murray Bowen developed it most fully.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "farm-implements",
+   "name": "Farm implements",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "Equipment pulled or powered by a tractor to work the land and crops, such as ploughs, harrows, seeders and mowers.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "farm-management",
+   "name": "Farm management",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Planning and running a farm as a business, including crops, livestock, labour, equipment and finances.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "fas-109",
+   "name": "FAS 109",
+   "class": "skill",
+   "kind": "standard",
+   "definition": "A US accounting standard (FASB Statement No. 109) on how to account for income taxes, now part of ASC Topic 740.",
+   "certification": false,
+   "variants": [
+    "FAS 109 (GAAP)",
+    "SFAS 109"
+   ],
+   "relations": []
+  },
+  {
+   "key": "fast-esp",
+   "name": "FAST ESP",
+   "class": "skill",
+   "kind": "platform",
+   "definition": "An enterprise search platform from FAST Search & Transfer, later part of Microsoft, for indexing and searching large collections of content.",
+   "certification": false,
+   "variants": [
+    "FAST Enterprise Search Platform"
+   ],
+   "relations": []
+  },
+  {
+   "key": "fastai",
+   "name": "fastai",
+   "class": "skill",
+   "kind": "library",
+   "definition": "A Python deep-learning library built on PyTorch, from the fast.ai research group, that gives high-level components for training neural networks.",
+   "certification": false,
+   "variants": [
+    "Fast.ai"
+   ],
+   "relations": []
+  },
+  {
+   "key": "feminist-theory",
+   "name": "Feminist theory",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "A body of scholarship that examines gender inequality and women's experience, drawing on many academic fields.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "fgdc-standards",
+   "name": "FGDC Standards",
+   "class": "skill",
+   "kind": "standard",
+   "definition": "Geospatial data standards, such as metadata standards, endorsed by the US Federal Geographic Data Committee.",
+   "certification": false,
+   "variants": [
+    "Federal Geographic Data Committee (FGDC) Standards"
+   ],
+   "relations": []
+  },
+  {
+   "key": "fibre-channel",
+   "name": "Fibre Channel",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "A high-speed networking technology, standardised by INCITS, used mainly to connect servers to storage area networks.",
+   "certification": false,
+   "variants": [
+    "Fiber Channel"
+   ],
+   "relations": []
+  },
+  {
+   "key": "field-programmable-gate-array",
+   "name": "Field-programmable gate array",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "An integrated circuit whose logic can be configured after manufacture, using a hardware description language, to implement custom digital circuits.",
+   "certification": false,
+   "variants": [
+    "FPGA"
+   ],
+   "relations": []
+  },
+  {
+   "key": "figjam",
+   "name": "FigJam",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "Figma's online whiteboard for brainstorming, diagramming and planning with a team.",
+   "certification": false,
+   "variants": [
+    "FigJam (Software)"
+   ],
+   "relations": []
+  },
+  {
+   "key": "file-control-block",
+   "name": "File control block",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "A data structure in an operating system or file system that holds the information needed to manage an open file.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "filleting",
+   "name": "Filleting",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Cutting the flesh from the bones of fish or meat to produce boneless fillets.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "film-scoring",
+   "name": "Film scoring",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Composing and arranging original music to accompany a film or video.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "finacle",
+   "name": "Finacle",
+   "class": "skill",
+   "kind": "platform",
+   "definition": "Infosys's suite of core banking and digital banking software for banks.",
+   "certification": false,
+   "variants": [
+    "Finacle (Software)"
+   ],
+   "relations": []
+  },
+  {
+   "key": "final-expense-insurance",
+   "name": "Final expense insurance",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "A small whole-life insurance policy meant to pay for funeral, burial and other end-of-life costs.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "finance-automation",
+   "name": "Finance automation",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Using software, workflows and scripts to carry out finance tasks such as reconciliations, payables and reporting with little manual work.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "finance-software",
+   "name": "Finance software",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "Software used to manage money and financial records, such as accounting, budgeting, treasury and reporting systems.",
+   "certification": false,
+   "variants": [
+    "Finance Softwares"
+   ],
+   "relations": []
+  },
+  {
+   "key": "financial-acumen",
+   "name": "Financial acumen",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Understanding how money, financial statements and financial decisions work, and using that understanding to make sound business choices.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "financial-analytics",
+   "name": "Financial analytics",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Analysing financial data, such as revenue, costs and risk, with statistical and data tools to support decisions.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "financial-consolidation",
+   "name": "Financial consolidation",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Combining the financial statements of a parent company and its subsidiaries into a single set of group accounts.",
+   "certification": false,
+   "variants": [
+    "Consolidation (Financial)",
+    "Financial Consolidations"
+   ],
+   "relations": []
+  },
+  {
+   "key": "financial-forecasting",
+   "name": "Financial forecasting",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Estimating future revenue, costs and cash flow from past results and assumptions.",
+   "certification": false,
+   "variants": [
+    "Financial Forecast"
+   ],
+   "relations": []
+  },
+  {
+   "key": "financial-information-exchange",
+   "name": "Financial Information eXchange",
+   "class": "skill",
+   "kind": "standard",
+   "definition": "A messaging standard used to exchange securities trades and market data electronically between financial firms.",
+   "certification": false,
+   "variants": [
+    "FIX Protocol"
+   ],
+   "relations": []
+  },
+  {
+   "key": "financial-privacy",
+   "name": "Financial privacy",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "Protecting people's personal financial information and following the rules on how it may be collected, shared and used.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "financial-risk-management",
+   "name": "Financial risk management",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Identifying, measuring and controlling financial risks such as market, credit and liquidity risk.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "fincad",
+   "name": "FINCAD",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "Financial analytics software for valuing and managing derivatives and other complex financial instruments.",
+   "certification": false,
+   "variants": [
+    "FINCAD (Software)"
+   ],
+   "relations": []
+  },
+  {
+   "key": "fincen-314-program",
+   "name": "FinCEN 314 program",
+   "class": "skill",
+   "kind": "standard",
+   "definition": "The information-sharing rules under Section 314 of the USA PATRIOT Act, run by FinCEN, that let law enforcement and financial institutions share information about suspected money laundering and terrorist financing.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "fine-tuning",
+   "name": "Model fine-tuning",
+   "class": "skill",
+   "kind": "method",
+   "definition": "Adapting model parameters to selected tasks or examples.",
+   "variants": [
+    "fine-tuning",
+    "instruction fine-tuning"
+   ],
+   "relations": []
+  },
+  {
+   "key": "firebase-cloud-messaging",
+   "name": "Firebase Cloud Messaging",
+   "class": "skill",
+   "kind": "platform",
+   "definition": "Google's cloud service for sending push notifications and messages to Android, iOS and web apps.",
+   "certification": false,
+   "variants": [
+    "Firebase Cloud Messaging (FCM)"
+   ],
+   "relations": []
+  },
+  {
+   "key": "first-article-inspection",
+   "name": "First article inspection",
+   "class": "skill",
+   "kind": "method",
+   "definition": "A documented check that the first part made from a new design or process meets all drawing and specification requirements.",
+   "certification": false,
+   "variants": [
+    "First Article Inspections"
+   ],
+   "relations": []
+  },
+  {
+   "key": "fis-getpaid",
+   "name": "FIS GetPaid",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "FIS's software for managing accounts receivable, credit and collections.",
+   "certification": false,
+   "variants": [
+    "FIS GetPaid (Accounts Receivable Software)"
+   ],
+   "relations": []
+  },
+  {
+   "key": "flask",
+   "name": "Flask",
+   "class": "skill",
+   "kind": "framework",
+   "definition": "A lightweight Python web framework for building web applications and APIs.",
+   "certification": false,
+   "variants": [
+    "Flask (Web Framework)"
+   ],
+   "relations": []
+  },
+  {
+   "key": "flat-sketching",
+   "name": "Flat sketching",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Drawing flat, two-dimensional technical drawings of garments that show seams, stitching and proportions for design and production.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "flatbed-truck",
+   "name": "Flatbed truck",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "A truck with an open, flat cargo bed and no sides or roof, used to haul large or irregular loads.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "flavor-development",
+   "name": "Flavor development",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Creating and refining flavours for food and drink products.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "flexible-single-master-operations",
+   "name": "Flexible Single Master Operations",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "The specialised domain controller roles in Microsoft Active Directory that only one server at a time may hold, such as schema master and PDC emulator.",
+   "certification": false,
+   "variants": [
+    "Flexible Single Master Operation",
+    "FSMO"
+   ],
+   "relations": []
+  },
+  {
+   "key": "flexisign",
+   "name": "FlexiSIGN",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "Sign-making and large-format print design software, from Scanvec Amiable, used to design signs and drive cutters and printers.",
+   "certification": false,
+   "variants": [
+    "Scanvec Amiable FlexiSign"
+   ],
+   "relations": []
+  }
+ ]
+}

@@ -1,0 +1,477 @@
+{
+ "allowed_kinds": [
+  "ability",
+  "credential",
+  "framework",
+  "human-language",
+  "knowledge",
+  "library",
+  "markup-language",
+  "method",
+  "modeling-language",
+  "platform",
+  "programming-language",
+  "skill",
+  "standard",
+  "style-language",
+  "tool",
+  "work-activity"
+ ],
+ "entries": [
+  {
+   "key": "network-performance",
+   "name": "Network performance",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "How fast, reliable and responsive a network is, judged by measures such as latency, throughput and packet loss.",
+   "certification": false,
+   "variants": [],
+   "relations": [
+    "broader:computer-networking"
+   ]
+  },
+  {
+   "key": "network-topology",
+   "name": "Network topology",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "The arrangement of the nodes and links in a network, such as bus, star, ring and mesh.",
+   "certification": false,
+   "variants": [
+    "Network Topologies"
+   ],
+   "relations": [
+    "broader:computer-networking"
+   ]
+  },
+  {
+   "key": "neural-networks",
+   "name": "Neural networks",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "Designing and reasoning about networks of learned computational units.",
+   "variants": [
+    "Artificial Neural Networks"
+   ],
+   "relations": []
+  },
+  {
+   "key": "neurobiology",
+   "name": "Neurobiology",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "The branch of biology that studies the nervous system and how it develops and works.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "neuromuscular-medicine",
+   "name": "Neuromuscular medicine",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "The medical subspecialty that diagnoses and treats diseases of the nerves, the muscles and the junctions between them.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "neuromuscular-system-and-disorders",
+   "name": "Neuromuscular system and disorders",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "How the nerves and muscles work together and the diseases that disrupt them.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "neurosurgery",
+   "name": "Neurosurgery",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "The surgical specialty that treats disorders of the brain, spinal cord and peripheral nerves.",
+   "certification": false,
+   "variants": [
+    "Neurosurgeries"
+   ],
+   "relations": []
+  },
+  {
+   "key": "nexpose",
+   "name": "Nexpose",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "Rapid7's vulnerability scanner, which finds and ranks security weaknesses in networks and systems.",
+   "certification": false,
+   "variants": [
+    "Nexpose (Vulnerability Scanning Software)"
+   ],
+   "relations": [
+    "related:insightvm"
+   ]
+  },
+  {
+   "key": "next-js",
+   "name": "Next.js",
+   "class": "skill",
+   "kind": "framework",
+   "definition": "A React-based framework for building server-rendered and static web applications.",
+   "certification": false,
+   "variants": [],
+   "relations": [
+    "related:react"
+   ]
+  },
+  {
+   "key": "nfpa-70e",
+   "name": "NFPA 70E",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "A National Fire Protection Association standard for electrical safety in the workplace in the United States.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "nice-unix-utility",
+   "name": "nice (Unix utility)",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "A Unix command that runs a program with a changed scheduling priority.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "nice-workforce-management",
+   "name": "NICE Workforce Management",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "Workforce management software from NICE for forecasting workload and scheduling staff in contact centres.",
+   "certification": false,
+   "variants": [
+    "NICE (WFM Software)",
+    "NICE WFM"
+   ],
+   "relations": []
+  },
+  {
+   "key": "nightwatch-js",
+   "name": "Nightwatch.js",
+   "class": "skill",
+   "kind": "framework",
+   "definition": "An end-to-end testing framework for web applications that runs on Node.js and drives browsers through WebDriver.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "nih-stroke-scale",
+   "name": "NIH Stroke Scale",
+   "class": "skill",
+   "kind": "method",
+   "definition": "A standardised neurological examination scale that measures the severity of stroke symptoms.",
+   "certification": false,
+   "variants": [
+    "NIH Stroke Scale (NIHSS)",
+    "NIHSS"
+   ],
+   "relations": []
+  },
+  {
+   "key": "nist-cybersecurity-framework",
+   "name": "NIST Cybersecurity Framework",
+   "class": "skill",
+   "kind": "framework",
+   "definition": "A voluntary framework from NIST that organises cybersecurity activities into functions such as identify, protect, detect, respond and recover.",
+   "certification": false,
+   "variants": [
+    "NIST Cybersecurity Framework (CSF)",
+    "NIST CSF"
+   ],
+   "relations": [
+    "related:cybersecurity"
+   ]
+  },
+  {
+   "key": "nist-sp-800-37",
+   "name": "NIST SP 800-37",
+   "class": "skill",
+   "kind": "standard",
+   "definition": "A NIST Special Publication that describes the Risk Management Framework for managing security and privacy risk in information systems.",
+   "certification": false,
+   "variants": [
+    "NIST 800-37"
+   ],
+   "relations": []
+  },
+  {
+   "key": "nist-sp-800-53",
+   "name": "NIST SP 800-53",
+   "class": "skill",
+   "kind": "standard",
+   "definition": "A NIST Special Publication that catalogues security and privacy controls for information systems and organisations.",
+   "certification": false,
+   "variants": [
+    "NIST 800-53"
+   ],
+   "relations": []
+  },
+  {
+   "key": "nist-sp-800-series",
+   "name": "NIST SP 800 series",
+   "class": "skill",
+   "kind": "standard",
+   "definition": "NIST's 800 series of Special Publications, which give guidelines and recommendations on information security.",
+   "certification": false,
+   "variants": [
+    "NIST 800"
+   ],
+   "relations": []
+  },
+  {
+   "key": "nitrogen-phosphorus-detector",
+   "name": "Nitrogen-phosphorus detector",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "A gas chromatography detector that responds selectively to compounds containing nitrogen or phosphorus.",
+   "certification": false,
+   "variants": [
+    "Nitrogen Phosphorous Detector"
+   ],
+   "relations": []
+  },
+  {
+   "key": "nlog",
+   "name": "NLog",
+   "class": "skill",
+   "kind": "library",
+   "definition": "An open-source logging library for .NET applications.",
+   "certification": false,
+   "variants": [
+    "NLog (Software)"
+   ],
+   "relations": []
+  },
+  {
+   "key": "no-child-left-behind-act",
+   "name": "No Child Left Behind Act",
+   "class": "skill",
+   "kind": "standard",
+   "definition": "A United States federal education law from the early 2000s that set testing and accountability requirements for public schools and was replaced in 2015 by the Every Student Succeeds Act.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "node-js",
+   "name": "Node.js",
+   "class": "skill",
+   "kind": "platform",
+   "definition": "A cross-platform JavaScript runtime built on Chrome's V8 engine that runs JavaScript outside the browser.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "non-facility-associated-signalling",
+   "name": "Non-Facility Associated Signalling",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "An ISDN primary rate interface arrangement in which a single D channel carries the signalling for several PRI trunk groups.",
+   "certification": false,
+   "variants": [
+    "Non-Facility Associated Signalling (NFAS)",
+    "NFAS"
+   ],
+   "relations": []
+  },
+  {
+   "key": "non-fungible-tokens",
+   "name": "Non-fungible tokens",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "Unique blockchain-based tokens that record ownership of a digital or physical item.",
+   "certification": false,
+   "variants": [
+    "Non-Fungible Tokens (NFT)",
+    "NFT",
+    "Non-fungible token"
+   ],
+   "relations": []
+  },
+  {
+   "key": "nonverbal-communication",
+   "name": "Nonverbal communication",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Conveying and reading meaning without words, through body language, gestures, facial expression and tone.",
+   "certification": false,
+   "variants": [
+    "Nonverbal Communications"
+   ],
+   "relations": [
+    "broader:communication"
+   ]
+  },
+  {
+   "key": "nosetests",
+   "name": "nosetests",
+   "class": "skill",
+   "kind": "framework",
+   "definition": "The command-line test runner of nose, a Python unit testing framework that extends unittest.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "nosql",
+   "name": "NoSQL database",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "A database that stores data in non-relational models such as documents, key-value pairs, columns or graphs.",
+   "variants": [
+    "NoSQL",
+    "non-relational database"
+   ],
+   "relations": [
+    "contrast:sql"
+   ]
+  },
+  {
+   "key": "notion-software",
+   "name": "Notion (software)",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "A workspace app for notes, documents, wikis and databases.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "npm",
+   "name": "npm",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "The default package manager for Node.js, used to install and manage JavaScript packages.",
+   "certification": false,
+   "variants": [
+    "Node Package Manager"
+   ],
+   "relations": []
+  },
+  {
+   "key": "nuance-pdf-converter",
+   "name": "Nuance PDF Converter",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "Nuance software for creating, converting and editing PDF files.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "numpy",
+   "name": "NumPy",
+   "class": "skill",
+   "kind": "library",
+   "definition": "A Python library for fast numerical computing built around N-dimensional arrays.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "nuodb",
+   "name": "NuoDB",
+   "class": "skill",
+   "kind": "platform",
+   "definition": "A distributed SQL relational database designed to run in the cloud.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "nutanix",
+   "name": "Nutanix",
+   "class": "skill",
+   "kind": "platform",
+   "definition": "A hyperconverged infrastructure platform that combines compute, storage and virtualisation on clustered servers.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "nutanix-ahv",
+   "name": "Nutanix AHV",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "Nutanix's built-in hypervisor, based on KVM, that runs virtual machines on Nutanix clusters.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "nutanix-calm",
+   "name": "Nutanix Calm",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "Nutanix's application automation and orchestration tool for provisioning and managing applications across clouds.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "nutanix-prism",
+   "name": "Nutanix Prism",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "Nutanix's web-based console for monitoring and managing Nutanix clusters.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "nutraceuticals",
+   "name": "Nutraceuticals",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "Food-derived products, such as supplements and fortified foods, that are sold for health benefits beyond basic nutrition.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "nutrition-care-planning",
+   "name": "Nutrition care planning",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Writing individual plans that set a patient's nutrition goals, interventions and follow-up.",
+   "certification": false,
+   "variants": [
+    "Nutrition Care Plans"
+   ],
+   "relations": []
+  },
+  {
+   "key": "nutrition-consulting",
+   "name": "Nutrition consulting",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Advising individuals or organisations on diet and eating habits to meet health or performance goals.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "nutrition-diagnosis",
+   "name": "Nutrition diagnosis",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "The step of the Nutrition Care Process in which a dietitian identifies and names a nutrition problem that they are responsible for treating.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  }
+ ]
+}

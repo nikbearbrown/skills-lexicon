@@ -1,0 +1,469 @@
+{
+ "allowed_kinds": [
+  "ability",
+  "credential",
+  "framework",
+  "human-language",
+  "knowledge",
+  "library",
+  "markup-language",
+  "method",
+  "modeling-language",
+  "platform",
+  "programming-language",
+  "skill",
+  "standard",
+  "style-language",
+  "tool",
+  "work-activity"
+ ],
+ "entries": [
+  {
+   "key": "customer-success",
+   "name": "Customer success",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Helping customers get the results they bought a product for, so that they keep using and renewing it.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "cutover-planning-and-management",
+   "name": "Cutover planning and management",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Planning and coordinating the switch from an existing system, process or facility to a new one, including task sequencing, readiness checks and fallback plans.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "cyara",
+   "name": "Cyara",
+   "class": "skill",
+   "kind": "platform",
+   "definition": "A customer-experience assurance platform that automates the testing and monitoring of contact-centre and digital customer journeys such as phone menus and chat.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "cyber-defense",
+   "name": "Cyber defense",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Protecting computer systems and networks from attack by preventing, detecting and responding to cyber threats.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "cyber-engineering",
+   "name": "Cyber engineering",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Designing and building computer systems and networks so that they are secure against, and able to withstand, cyber attacks.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "cyber-kill-chain",
+   "name": "Cyber Kill Chain",
+   "class": "skill",
+   "kind": "framework",
+   "definition": "A model from Lockheed Martin that breaks a cyber attack into stages, from reconnaissance to actions on objectives, so that defenders can detect and disrupt it.",
+   "certification": false,
+   "variants": [
+    "Cyber Kill Chain Framework"
+   ],
+   "relations": []
+  },
+  {
+   "key": "cyber-resilience",
+   "name": "Cyber resilience",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "An organisation's ability to keep delivering its services, and to recover quickly, when cyber attacks or system failures occur.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "cyber-threat-hunting",
+   "name": "Cyber threat hunting",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Actively searching networks and systems for signs of attackers that automated security tools have not detected.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "cyber-threat-intelligence",
+   "name": "Cyber threat intelligence",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Collecting and analysing information about attackers, their methods and their targets so that an organisation can anticipate and defend against cyber threats.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "cybersecurity",
+   "name": "Cybersecurity",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "Protecting information and systems from security threats.",
+   "variants": [
+    "network security",
+    "Computer Security"
+   ],
+   "relations": []
+  },
+  {
+   "key": "cybersecurity-compliance",
+   "name": "Cybersecurity compliance",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Making sure an organisation's systems and practices meet the security laws, regulations and standards that apply to it.",
+   "certification": false,
+   "variants": [],
+   "relations": [
+    "broader:cybersecurity"
+   ]
+  },
+  {
+   "key": "d3-js",
+   "name": "D3.js",
+   "class": "skill",
+   "kind": "library",
+   "definition": "A JavaScript library for binding data to page elements and building interactive data visualisations with SVG, HTML and CSS.",
+   "certification": false,
+   "variants": [],
+   "relations": [
+    "related:c3-js"
+   ]
+  },
+  {
+   "key": "dagger-2",
+   "name": "Dagger 2",
+   "class": "skill",
+   "kind": "framework",
+   "definition": "A dependency injection framework for Java and Android that generates its code at compile time.",
+   "certification": false,
+   "variants": [
+    "Dagger2"
+   ],
+   "relations": []
+  },
+  {
+   "key": "dairy-science",
+   "name": "Dairy science",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "The study of milk-producing animals and of the production and processing of milk and dairy products.",
+   "certification": false,
+   "variants": [],
+   "relations": [
+    "related:animal-science"
+   ]
+  },
+  {
+   "key": "dall-e",
+   "name": "DALL·E",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "OpenAI's family of text-to-image AI models that generate pictures from written prompts.",
+   "certification": false,
+   "variants": [
+    "DALL-E Image Generator",
+    "DALL-E",
+    "DALLE"
+   ],
+   "relations": []
+  },
+  {
+   "key": "darik-s-boot-and-nuke",
+   "name": "Darik's Boot and Nuke",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "A free, open-source bootable program that securely erases all data from a computer's hard drives.",
+   "certification": false,
+   "variants": [
+    "DBAN"
+   ],
+   "relations": []
+  },
+  {
+   "key": "dashdb",
+   "name": "dashDB",
+   "class": "skill",
+   "kind": "platform",
+   "definition": "IBM's cloud data warehouse service, later renamed Db2 Warehouse on Cloud.",
+   "certification": false,
+   "variants": [
+    "IBM dashDB"
+   ],
+   "relations": []
+  },
+  {
+   "key": "data-as-a-service",
+   "name": "Data as a Service",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "A model in which a provider delivers data to customers on demand over a network, usually through APIs or a subscription, without customers managing the underlying storage.",
+   "certification": false,
+   "variants": [
+    "Data as a Service (DaaS)",
+    "Data As A Services"
+   ],
+   "relations": [
+    "related:software-as-a-service"
+   ]
+  },
+  {
+   "key": "data-center-cooling",
+   "name": "Data center cooling",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Designing and operating the systems that remove heat from data-centre equipment, such as air conditioning, chilled water and liquid cooling.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "data-center-design",
+   "name": "Data center design",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Planning the physical layout, power, cooling, networking and security of a data centre.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "data-center-facility-management",
+   "name": "Data center facility management",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Managing a data centre's building systems, such as power, cooling, space and physical security, so that it keeps running reliably.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "data-center-operations",
+   "name": "Data center operations",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Running the day-to-day work of a data centre, including monitoring, maintaining and installing equipment and responding to incidents.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "data-classification",
+   "name": "Data classification",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Sorting data into categories by sensitivity or type, such as public, internal or confidential, so that the right protections can be applied.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "data-deduplication",
+   "name": "Data deduplication",
+   "class": "skill",
+   "kind": "method",
+   "definition": "Finding and removing redundant copies of data, either to save storage space or to clean duplicate records from a dataset.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "data-driven-decision-making",
+   "name": "Data-driven decision-making",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Making decisions on the basis of analysed data rather than intuition alone.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "data-driven-instruction",
+   "name": "Data-driven instruction",
+   "class": "skill",
+   "kind": "method",
+   "definition": "A teaching approach in which teachers use assessment results and other student data to plan and adjust their lessons.",
+   "certification": false,
+   "variants": [
+    "Data Driven Instruction"
+   ],
+   "relations": []
+  },
+  {
+   "key": "data-driven-manufacturing",
+   "name": "Data-driven manufacturing",
+   "class": "skill",
+   "kind": "method",
+   "definition": "Using data from machines, sensors and production systems to monitor and improve manufacturing operations.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "data-engineering",
+   "name": "Data engineering",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Building and operating reliable data processing systems.",
+   "variants": [
+    "data pipelines"
+   ],
+   "relations": []
+  },
+  {
+   "key": "data-entry-alphanumeric",
+   "name": "Data entry (alphanumeric)",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Typing letters and numbers into a computer system quickly and accurately.",
+   "certification": false,
+   "variants": [
+    "Data Entry Alphanumeric"
+   ],
+   "relations": []
+  },
+  {
+   "key": "data-entry-numeric",
+   "name": "Data entry (numeric)",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Typing numbers into a computer system quickly and accurately, usually on a numeric keypad.",
+   "certification": false,
+   "variants": [
+    "Data Entry Numeric"
+   ],
+   "relations": []
+  },
+  {
+   "key": "data-localization",
+   "name": "Data localization",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "Laws and practices that require data about a country's residents to be stored and processed within that country.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "data-modeling",
+   "name": "Data modeling",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Representing data structures and relationships for a system.",
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "data-pipeline",
+   "name": "Data pipeline",
+   "class": "skill",
+   "kind": "method",
+   "definition": "An automated series of steps that moves data from its sources through processing to a destination such as a data warehouse.",
+   "certification": false,
+   "variants": [],
+   "relations": [
+    "part_of:data-engineering"
+   ]
+  },
+  {
+   "key": "data-storage-technologies",
+   "name": "Data storage technologies",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "The hardware and software used to store digital data, such as disk arrays, flash storage, object storage and tape.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "data-vault-modeling",
+   "name": "Data Vault modeling",
+   "class": "skill",
+   "kind": "method",
+   "definition": "A data-warehouse modelling method, created by Dan Linstedt, that organises data into hubs, links and satellites so that history is kept and many sources can be integrated.",
+   "certification": false,
+   "variants": [
+    "Data Vault"
+   ],
+   "relations": [
+    "broader:data-modeling"
+   ]
+  },
+  {
+   "key": "data-visualization",
+   "name": "Data visualization",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Encoding data visually to support interpretation.",
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "data-warehouse-management",
+   "name": "Data warehouse management",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Administering a data warehouse, including its data loading, storage, performance, security and availability.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "data-wrangling",
+   "name": "Data wrangling",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Cleaning, reshaping and combining raw data so it can be analysed.",
+   "certification": false,
+   "variants": [
+    "Data munging"
+   ],
+   "relations": [
+    "related:validation"
+   ]
+  },
+  {
+   "key": "database-administration",
+   "name": "Database administration",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Installing, configuring, securing, backing up and tuning database systems so that they stay available and perform well.",
+   "certification": false,
+   "variants": [],
+   "relations": [
+    "related:database-design"
+   ]
+  },
+  {
+   "key": "database-as-a-service",
+   "name": "Database as a service",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "A cloud service model in which a provider runs and manages a database that customers use without managing the underlying servers.",
+   "certification": false,
+   "variants": [
+    "Database as a Service (DBaaS)",
+    "DBaaS"
+   ],
+   "relations": [
+    "related:software-as-a-service"
+   ]
+  }
+ ]
+}

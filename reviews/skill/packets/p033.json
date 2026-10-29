@@ -1,0 +1,453 @@
+{
+ "allowed_kinds": [
+  "ability",
+  "credential",
+  "framework",
+  "human-language",
+  "knowledge",
+  "library",
+  "markup-language",
+  "method",
+  "modeling-language",
+  "platform",
+  "programming-language",
+  "skill",
+  "standard",
+  "style-language",
+  "tool",
+  "work-activity"
+ ],
+ "entries": [
+  {
+   "key": "law-enforcement-practices",
+   "name": "Law enforcement practices",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "The methods, procedures and rules that police and other law enforcement officers follow in their work.",
+   "certification": false,
+   "variants": [],
+   "relations": [
+    "related:law-enforcement-operations"
+   ]
+  },
+  {
+   "key": "lawful-interception",
+   "name": "Lawful interception",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "The legally authorised interception of telephone and data communications by network operators for law enforcement and security agencies.",
+   "certification": false,
+   "variants": [
+    "Lawful intercept"
+   ],
+   "relations": []
+  },
+  {
+   "key": "ldra-testbed",
+   "name": "LDRA Testbed",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "A software verification tool from LDRA that performs static and dynamic analysis and measures test coverage, mainly for safety-critical code.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "lean-principles",
+   "name": "Lean principles",
+   "class": "skill",
+   "kind": "method",
+   "definition": "A set of principles, drawn from the Toyota Production System, for delivering value to customers while removing waste.",
+   "certification": false,
+   "variants": [
+    "Lean thinking"
+   ],
+   "relations": []
+  },
+  {
+   "key": "learner-analysis",
+   "name": "Learner analysis",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Studying the characteristics, prior knowledge and needs of the people who will take a course so that instruction can be fitted to them.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "learner-experience-design",
+   "name": "Learner experience design",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Designing learning experiences around the needs, motivations and context of learners, combining instructional design with user experience design.",
+   "certification": false,
+   "variants": [
+    "Learner Experience Design (LXD)"
+   ],
+   "relations": []
+  },
+  {
+   "key": "learning-agility",
+   "name": "Learning agility",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "The capacity to learn quickly from experience and apply it in unfamiliar situations.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "lego-digital-designer",
+   "name": "LEGO Digital Designer",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "Free LEGO software for designing virtual models with digital bricks on a computer.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "leisure-education",
+   "name": "Leisure education",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "Teaching people the attitudes, knowledge and skills they need to choose and enjoy leisure activities.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "less-js",
+   "name": "Less.js",
+   "class": "skill",
+   "kind": "library",
+   "definition": "The JavaScript implementation of the Less compiler, which turns Less style sheets into CSS in the browser or in Node.js.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "letterforms",
+   "name": "Letterforms",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "The shapes of written or typeset letters, and the study and drawing of those shapes in lettering and type design.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "levelator",
+   "name": "Levelator",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "A free desktop program that automatically evens out loudness differences in spoken-word audio recordings.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "librarianship",
+   "name": "Librarianship",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "The profession and discipline of organising, managing and providing access to library collections and information services.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "libsvm",
+   "name": "LIBSVM",
+   "class": "skill",
+   "kind": "library",
+   "definition": "An open-source library for training support vector machines for classification and regression.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "lidar",
+   "name": "LiDAR",
+   "class": "skill",
+   "kind": "method",
+   "definition": "A remote sensing method that measures distances by timing reflected laser pulses, used to build detailed maps and 3D models.",
+   "certification": false,
+   "variants": [
+    "Light detection and ranging"
+   ],
+   "relations": []
+  },
+  {
+   "key": "life-skills",
+   "name": "Life skills",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Practical personal abilities, such as budgeting, cooking, time management and communication, needed to manage everyday life.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "lightcast",
+   "name": "Lightcast",
+   "class": "skill",
+   "kind": "platform",
+   "definition": "A labor market analytics platform that provides job posting, skills and workforce data.",
+   "certification": false,
+   "variants": [
+    "Lightcast (Software)"
+   ],
+   "relations": []
+  },
+  {
+   "key": "lightgbm",
+   "name": "LightGBM",
+   "class": "skill",
+   "kind": "library",
+   "definition": "A gradient boosting library for training fast decision-tree models on large datasets.",
+   "certification": false,
+   "variants": [
+    "Light Gradient Boosting Machine"
+   ],
+   "relations": []
+  },
+  {
+   "key": "lighting-design",
+   "name": "Lighting design",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Planning the type, placement and control of light for buildings, stages, films or other spaces.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "lighttools",
+   "name": "LightTools",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "Software for designing and analysing illumination optics such as lamps, light guides and displays.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "linguistic-morphology",
+   "name": "Linguistic morphology",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "The study of the internal structure of words and how they are formed from smaller meaningful parts.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "linkedin",
+   "name": "LinkedIn",
+   "class": "skill",
+   "kind": "platform",
+   "definition": "A professional social networking platform used for networking, recruiting, job search and marketing.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "linkedin-api",
+   "name": "LinkedIn API",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "A set of web interfaces that lets applications access LinkedIn features and data, such as sign-in, sharing and marketing.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "linux-systems-administration",
+   "name": "Linux systems administration",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Configuring and operating Linux systems.",
+   "variants": [
+    "Linux",
+    "UNIX"
+   ],
+   "relations": []
+  },
+  {
+   "key": "liquidity-forecasting",
+   "name": "Liquidity forecasting",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Estimating a business's future cash inflows, outflows and available funds to see whether it can meet its obligations.",
+   "certification": false,
+   "variants": [
+    "Liquidity Forecastings"
+   ],
+   "relations": [
+    "broader:financial-forecasting"
+   ]
+  },
+  {
+   "key": "listwise-deletion",
+   "name": "Listwise deletion",
+   "class": "skill",
+   "kind": "method",
+   "definition": "A way of handling missing data in which any record with a missing value in the analysed variables is removed entirely.",
+   "certification": false,
+   "variants": [
+    "Complete case analysis"
+   ],
+   "relations": []
+  },
+  {
+   "key": "livedata",
+   "name": "LiveData",
+   "class": "skill",
+   "kind": "library",
+   "definition": "An Android Jetpack class that holds observable data and notifies observers only while their lifecycle is active.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "livestreaming",
+   "name": "Livestreaming",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Broadcasting live video and audio over the internet to an audience in real time.",
+   "certification": false,
+   "variants": [
+    "Livestream",
+    "Live streaming"
+   ],
+   "relations": []
+  },
+  {
+   "key": "llm-observability",
+   "name": "LLM observability",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Observability applied to LLM and agent behavior; a narrower concept.",
+   "variants": [],
+   "relations": [
+    "broader:observability"
+   ]
+  },
+  {
+   "key": "load-securement",
+   "name": "Load securement",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Fastening and restraining cargo on a vehicle so that it cannot shift or fall during transport.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "loan-administration",
+   "name": "Loan administration",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Managing a loan after it is made, including recording payments, tracking terms and handling lender and borrower paperwork.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "loan-agreements",
+   "name": "Loan agreements",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "Knowledge of the contracts that set out the terms on which a lender provides money to a borrower.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "loan-structuring",
+   "name": "Loan structuring",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Designing the terms of a loan, such as amount, rate, term, security and covenants, to fit the borrower and lender.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "loan-syndication",
+   "name": "Loan syndication",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Arranging for a large loan to be provided by a group of lenders who share the risk.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "log-management",
+   "name": "Log management",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Collecting, storing, searching and analysing the log files that systems and applications produce.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "logic-diagrams",
+   "name": "Logic diagrams",
+   "class": "skill",
+   "kind": "method",
+   "definition": "Diagrams that show how logic gates and other elements combine to produce outputs, used to design and troubleshoot digital circuits.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "logistics-engineering",
+   "name": "Logistics engineering",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "The engineering discipline of designing and improving how materials, equipment and information are moved and supported across a supply chain or over a system's life.",
+   "certification": false,
+   "variants": [
+    "Logistic Engineering"
+   ],
+   "relations": []
+  },
+  {
+   "key": "logistics-planning",
+   "name": "Logistics planning",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Planning how goods, equipment and people are stored and moved so they arrive where and when needed.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "logo-design",
+   "name": "Logo design",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Creating the symbol or wordmark that identifies a brand.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "long-short-term-memory",
+   "name": "Long short-term memory",
+   "class": "skill",
+   "kind": "method",
+   "definition": "A type of recurrent neural network with gated memory cells that can learn dependencies across long sequences.",
+   "certification": false,
+   "variants": [
+    "Long Short-Term Memory (LSTM)",
+    "LSTM"
+   ],
+   "relations": []
+  }
+ ]
+}

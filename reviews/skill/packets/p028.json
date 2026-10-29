@@ -1,0 +1,489 @@
+{
+ "allowed_kinds": [
+  "ability",
+  "credential",
+  "framework",
+  "human-language",
+  "knowledge",
+  "library",
+  "markup-language",
+  "method",
+  "modeling-language",
+  "platform",
+  "programming-language",
+  "skill",
+  "standard",
+  "style-language",
+  "tool",
+  "work-activity"
+ ],
+ "entries": [
+  {
+   "key": "ibm-business-process-manager",
+   "name": "IBM Business Process Manager",
+   "class": "skill",
+   "kind": "platform",
+   "definition": "IBM software for modelling, running and monitoring business processes, later succeeded by IBM Business Automation Workflow.",
+   "certification": false,
+   "variants": [
+    "Ibm Bpm"
+   ],
+   "relations": []
+  },
+  {
+   "key": "ibm-cl-supersession",
+   "name": "IBM CL/SuperSession",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "Mainframe software that manages a terminal user's sessions with several network applications at once.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "ibm-data-studio",
+   "name": "IBM Data Studio",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "An Eclipse-based IBM tool for administering and developing Db2 databases.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "ibm-eserver",
+   "name": "IBM eServer",
+   "class": "skill",
+   "kind": "platform",
+   "definition": "IBM's server brand of the early 2000s, covering the xSeries, pSeries, iSeries and zSeries hardware lines.",
+   "certification": false,
+   "variants": [
+    "IBM EServers"
+   ],
+   "relations": []
+  },
+  {
+   "key": "ibm-filenet",
+   "name": "IBM FileNet",
+   "class": "skill",
+   "kind": "platform",
+   "definition": "IBM's enterprise content management and business process platform for storing, managing and routing documents.",
+   "certification": false,
+   "variants": [
+    "FileNet"
+   ],
+   "relations": []
+  },
+  {
+   "key": "ibm-informix",
+   "name": "IBM Informix",
+   "class": "skill",
+   "kind": "platform",
+   "definition": "A relational database management system that IBM bought in 2001 and that is now developed and sold by HCL.",
+   "certification": false,
+   "variants": [
+    "Informix",
+    "HCL Informix"
+   ],
+   "relations": []
+  },
+  {
+   "key": "ibm-officevision",
+   "name": "IBM OfficeVision",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "IBM's office software for mainframes, offering email, calendars and document handling.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "ibm-power10",
+   "name": "IBM POWER10",
+   "class": "skill",
+   "kind": "platform",
+   "definition": "IBM's tenth-generation POWER microprocessor family for servers, released in 2021.",
+   "certification": false,
+   "variants": [
+    "IBM POWER10 Microprocessors",
+    "POWER10"
+   ],
+   "relations": [
+    "related:ibm-power8"
+   ]
+  },
+  {
+   "key": "ibm-power7",
+   "name": "IBM POWER7",
+   "class": "skill",
+   "kind": "platform",
+   "definition": "IBM's seventh-generation POWER microprocessor family for servers, released in 2010.",
+   "certification": false,
+   "variants": [
+    "IBM POWER7 Microprocessors",
+    "POWER7"
+   ],
+   "relations": [
+    "related:ibm-power8"
+   ]
+  },
+  {
+   "key": "ibm-power8",
+   "name": "IBM POWER8",
+   "class": "skill",
+   "kind": "platform",
+   "definition": "IBM's eighth-generation POWER microprocessor family for servers, released in 2014.",
+   "certification": false,
+   "variants": [
+    "IBM POWER8 Microprocessors",
+    "POWER8"
+   ],
+   "relations": []
+  },
+  {
+   "key": "ibm-power9",
+   "name": "IBM POWER9",
+   "class": "skill",
+   "kind": "platform",
+   "definition": "IBM's ninth-generation POWER microprocessor family for servers, released in 2017.",
+   "certification": false,
+   "variants": [
+    "IBM POWER9 Microprocessors",
+    "POWER9"
+   ],
+   "relations": [
+    "related:ibm-power8"
+   ]
+  },
+  {
+   "key": "ibm-qradar",
+   "name": "IBM QRadar",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "Security information and event management (SIEM) software that collects and analyses log and network data to detect threats.",
+   "certification": false,
+   "variants": [
+    "IBM QRadar (SIEM Software)",
+    "QRadar"
+   ],
+   "relations": []
+  },
+  {
+   "key": "ibm-rational-application-developer",
+   "name": "IBM Rational Application Developer",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "An Eclipse-based IBM development environment for building Java and web applications, aimed at deployment on IBM WebSphere.",
+   "certification": false,
+   "variants": [
+    "Ibm Rad",
+    "Rational Application Developer"
+   ],
+   "relations": []
+  },
+  {
+   "key": "ibm-websphere-application-server",
+   "name": "IBM WebSphere Application Server",
+   "class": "skill",
+   "kind": "platform",
+   "definition": "IBM's Java application server, which runs and manages enterprise web applications.",
+   "certification": false,
+   "variants": [
+    "Ibm Was",
+    "WebSphere Application Server"
+   ],
+   "relations": []
+  },
+  {
+   "key": "icd-coding",
+   "name": "ICD coding",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Assigning International Classification of Diseases codes to diagnoses and procedures in medical records for billing and statistics.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "ich-guidelines",
+   "name": "ICH guidelines",
+   "class": "skill",
+   "kind": "standard",
+   "definition": "Technical guidelines from the International Council for Harmonisation that set common expectations for the quality, safety and efficacy of medicines and for how clinical trials are run.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "icmpv6",
+   "name": "ICMPv6",
+   "class": "skill",
+   "kind": "standard",
+   "definition": "The Internet Control Message Protocol for IPv6, used for error messages, diagnostics and neighbour discovery.",
+   "certification": false,
+   "variants": [
+    "Internet Control Message Protocol version 6"
+   ],
+   "relations": []
+  },
+  {
+   "key": "ida-pro",
+   "name": "IDA Pro",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "An interactive disassembler and debugger from Hex-Rays for reverse engineering compiled programs.",
+   "certification": false,
+   "variants": [
+    "Interactive Disassembler"
+   ],
+   "relations": []
+  },
+  {
+   "key": "ideation",
+   "name": "Ideation",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Coming up with and developing new ideas, for example for products, designs or campaigns.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "identity-management",
+   "name": "Identity management",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Creating, maintaining and removing the digital identities of people and systems and controlling what access those identities have.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "ids-infolease",
+   "name": "IDS InfoLease",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "Software for managing leases and other asset-finance contracts.",
+   "certification": false,
+   "variants": [
+    "IDS InfoLease (Asset Finance Technology)"
+   ],
+   "relations": []
+  },
+  {
+   "key": "ieee-1394",
+   "name": "IEEE 1394",
+   "class": "skill",
+   "kind": "standard",
+   "definition": "An IEEE standard for a high-speed serial bus connecting devices such as cameras and disk drives, sold by Apple as FireWire.",
+   "certification": false,
+   "variants": [
+    "IEEE 1394 Interface",
+    "FireWire",
+    "i.LINK"
+   ],
+   "relations": []
+  },
+  {
+   "key": "ieee-1547",
+   "name": "IEEE 1547",
+   "class": "skill",
+   "kind": "standard",
+   "definition": "An IEEE standard setting technical requirements for connecting distributed energy resources, such as solar inverters and batteries, to the electric power grid.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "ifs-applications",
+   "name": "IFS Applications",
+   "class": "skill",
+   "kind": "platform",
+   "definition": "Enterprise resource planning software from the Swedish company IFS, whose current product line is branded IFS Cloud.",
+   "certification": false,
+   "variants": [
+    "Ifs Erp"
+   ],
+   "relations": []
+  },
+  {
+   "key": "iis-manager",
+   "name": "IIS Manager",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "The graphical console in Windows for configuring Microsoft Internet Information Services web sites and application pools.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "imac-g4",
+   "name": "iMac G4",
+   "class": "skill",
+   "kind": "platform",
+   "definition": "Apple's all-in-one desktop computer with a flat display on an adjustable arm, sold from 2002 to 2004.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "imac-g5",
+   "name": "iMac G5",
+   "class": "skill",
+   "kind": "platform",
+   "definition": "Apple's all-in-one desktop computer with a PowerPC G5 processor, sold from 2004 to 2006.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "image-and-video-compression",
+   "name": "Image and video compression",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "Reducing the storage and bandwidth that pictures and video need by encoding them with formats and codecs such as JPEG and H.264.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "image-generation",
+   "name": "Image generation",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Creating new images from text prompts or other inputs with generative AI models.",
+   "certification": false,
+   "variants": [],
+   "relations": [
+    "related:dall-e"
+   ]
+  },
+  {
+   "key": "image-segmentation",
+   "name": "Image segmentation",
+   "class": "skill",
+   "kind": "method",
+   "definition": "Dividing a digital image into regions, such as separating objects from the background, so that each part can be analysed.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "imaging-informatics",
+   "name": "Imaging informatics",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "The field that applies information technology to medical images, covering how they are acquired, stored, shared and analysed.",
+   "certification": false,
+   "variants": [],
+   "relations": [
+    "broader:biomedical-informatics"
+   ]
+  },
+  {
+   "key": "immunization",
+   "name": "Immunization",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "The use of vaccines to make people resistant to specific infectious diseases, including which vaccines are given, when and to whom.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "immunohaematology",
+   "name": "Immunohaematology",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "The branch of laboratory medicine that studies blood-group antigens and antibodies, used for blood typing and for matching blood before a transfusion.",
+   "certification": false,
+   "variants": [
+    "Immunohematology"
+   ],
+   "relations": []
+  },
+  {
+   "key": "immutable-js",
+   "name": "Immutable.js",
+   "class": "skill",
+   "kind": "library",
+   "definition": "A JavaScript library from Facebook that provides persistent immutable data structures such as List, Map and Set.",
+   "certification": false,
+   "variants": [
+    "ImmutableJS"
+   ],
+   "relations": []
+  },
+  {
+   "key": "impact-js",
+   "name": "Impact.js",
+   "class": "skill",
+   "kind": "framework",
+   "definition": "A JavaScript game engine for making 2D games that run in the browser on the HTML5 canvas.",
+   "certification": false,
+   "variants": [
+    "ImpactJS"
+   ],
+   "relations": []
+  },
+  {
+   "key": "in-memory-database",
+   "name": "In-memory database",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "A database management system that keeps its data mainly in a computer's main memory instead of on disk, to give faster access.",
+   "certification": false,
+   "variants": [
+    "In-Memory Database System",
+    "Main memory database"
+   ],
+   "relations": [
+    "broader:database-systems"
+   ]
+  },
+  {
+   "key": "inbound-logistics",
+   "name": "Inbound logistics",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "The part of logistics that brings materials, parts and goods from suppliers into a business, including purchasing, transport, receiving and storage.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "incentive-spirometry",
+   "name": "Incentive spirometry",
+   "class": "skill",
+   "kind": "method",
+   "definition": "A breathing exercise in which a patient inhales deeply through a handheld device that shows how much air is drawn in, to keep the lungs expanded and help prevent complications such as pneumonia after surgery.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "incident-reporting",
+   "name": "Incident reporting",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Writing a factual, timely record of an accident, injury, security event or other incident, including what happened, who was involved and what was done.",
+   "certification": false,
+   "variants": [
+    "Incident Report"
+   ],
+   "relations": []
+  },
+  {
+   "key": "incurred-but-not-reported",
+   "name": "Incurred but not reported",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "In insurance, the estimated cost of claims for events that have already happened but have not yet been reported to or settled by the insurer.",
+   "certification": false,
+   "variants": [
+    "IBNR"
+   ],
+   "relations": []
+  }
+ ]
+}

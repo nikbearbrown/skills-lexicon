@@ -1,0 +1,393 @@
+{
+ "allowed_kinds": [
+  "ability",
+  "credential",
+  "framework",
+  "human-language",
+  "knowledge",
+  "library",
+  "markup-language",
+  "method",
+  "modeling-language",
+  "platform",
+  "programming-language",
+  "skill",
+  "standard",
+  "style-language",
+  "tool",
+  "work-activity"
+ ],
+ "entries": [
+  {
+   "key": "security-certified-network-architect",
+   "name": "Security Certified Network Architect",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A certification from the Security Certified Program for designing secure network architectures.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [
+    "Security Certified Network Architecture",
+    "SCNA"
+   ],
+   "relations": []
+  },
+  {
+   "key": "security-check-sc-clearance",
+   "name": "Security Check (SC) clearance",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A UK government security clearance level that allows regular access to secret assets.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [
+    "Security Check (SC)",
+    "SC clearance"
+   ],
+   "relations": []
+  },
+  {
+   "key": "senior-certified-welding-inspector",
+   "name": "Senior Certified Welding Inspector",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "An American Welding Society certification for experienced welding inspectors, ranking above the Certified Welding Inspector.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [
+    "SCWI"
+   ],
+   "relations": []
+  },
+  {
+   "key": "series-22-direct-participation-programs-limited-representative",
+   "name": "Series 22 Direct Participation Programs Limited Representative",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A FINRA qualification exam and registration for representatives who sell direct participation programs, such as limited partnerships.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [
+    "Series 22 Direct Participation (Limited Partnerships) License",
+    "Series 22"
+   ],
+   "relations": []
+  },
+  {
+   "key": "series-24-general-securities-principal",
+   "name": "Series 24 General Securities Principal",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A FINRA qualification exam and registration for principals who supervise a broker-dealer's general securities business.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [
+    "Series 24 General Securities Principal License",
+    "Series 24"
+   ],
+   "relations": []
+  },
+  {
+   "key": "series-26-investment-company-and-variable-contracts-products-principal",
+   "name": "Series 26 Investment Company and Variable Contracts Products Principal",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A FINRA qualification exam and registration for principals who supervise the sale of mutual funds and variable annuities.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [
+    "Series 26 Investment Company And Variable Contracts Products Principal License",
+    "Series 26"
+   ],
+   "relations": []
+  },
+  {
+   "key": "series-27-financial-and-operations-principal",
+   "name": "Series 27 Financial and Operations Principal",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A FINRA qualification exam and registration for principals who supervise a broker-dealer's financial reporting and operations.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [
+    "Series 27 Financial And Operations Principal License",
+    "Series 27"
+   ],
+   "relations": []
+  },
+  {
+   "key": "series-3-national-commodity-futures",
+   "name": "Series 3 National Commodity Futures",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A qualification exam, administered through FINRA for the National Futures Association, for people who sell futures and options on futures.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [
+    "Series 3 National Exchange License",
+    "Series 3"
+   ],
+   "relations": []
+  },
+  {
+   "key": "series-31-futures-managed-funds",
+   "name": "Series 31 Futures Managed Funds",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A qualification exam, administered through FINRA for the National Futures Association, for people who sell managed futures funds.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [
+    "Series 31 Futures : Managed Funds License",
+    "Series 31"
+   ],
+   "relations": []
+  },
+  {
+   "key": "series-4-registered-options-principal",
+   "name": "Series 4 Registered Options Principal",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A FINRA qualification exam and registration for principals who supervise a firm's options business.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [
+    "Series 4 Registered Options Principal License",
+    "Series 4"
+   ],
+   "relations": []
+  },
+  {
+   "key": "series-52-municipal-securities-representative",
+   "name": "Series 52 Municipal Securities Representative",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A qualification exam, written by the Municipal Securities Rulemaking Board and administered by FINRA, for representatives who sell municipal securities.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [
+    "Series 52 Municipal Securities Representative License",
+    "Series 52"
+   ],
+   "relations": []
+  },
+  {
+   "key": "series-53-municipal-securities-principal",
+   "name": "Series 53 Municipal Securities Principal",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A qualification exam, written by the Municipal Securities Rulemaking Board and administered by FINRA, for principals who supervise a firm's municipal securities business.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [
+    "Series 53 Municipal Securities Principal License",
+    "Series 53"
+   ],
+   "relations": []
+  },
+  {
+   "key": "series-55-equity-trader-limited-representative",
+   "name": "Series 55 Equity Trader Limited Representative",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A FINRA qualification exam and registration for traders of equity securities at broker-dealers.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [
+    "Series 55 Equity Trader : Limited Representative License",
+    "Series 55"
+   ],
+   "relations": []
+  },
+  {
+   "key": "series-56-proprietary-trader",
+   "name": "Series 56 Proprietary Trader",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A FINRA qualification exam and registration for traders who trade a firm's own capital in securities.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [
+    "Series 56 Proprietary Trader Qualification License",
+    "Series 56"
+   ],
+   "relations": []
+  },
+  {
+   "key": "series-6-investment-company-and-variable-contracts-products-representative",
+   "name": "Series 6 Investment Company and Variable Contracts Products Representative",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A FINRA qualification exam and registration for representatives who sell mutual funds and variable annuities.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [
+    "Series 6 Investment Company And Variable Contracts License (Mutual Funds/Variable Annuities)",
+    "Series 6"
+   ],
+   "relations": []
+  },
+  {
+   "key": "series-63-uniform-securities-agent-state-law",
+   "name": "Series 63 Uniform Securities Agent State Law",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A state securities-law exam, written by the North American Securities Administrators Association, that most states require of people who sell securities.",
+   "certification": true,
+   "certification_scope": "many-issuers",
+   "variants": [
+    "Series 63 Uniform Securities Agent State Law License",
+    "Series 63"
+   ],
+   "relations": []
+  },
+  {
+   "key": "series-65-uniform-investment-adviser-law",
+   "name": "Series 65 Uniform Investment Adviser Law",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A state securities-law exam, written by the North American Securities Administrators Association, for people who give investment advice for a fee.",
+   "certification": true,
+   "certification_scope": "many-issuers",
+   "variants": [
+    "Series 65 Uniform Registered Investment Adviser Law License (RIA)",
+    "Series 65"
+   ],
+   "relations": []
+  },
+  {
+   "key": "series-66-uniform-combined-state-law",
+   "name": "Series 66 Uniform Combined State Law",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A state securities-law exam that combines the state-law content of the Series 63 and Series 65 exams, for people who work as both securities agents and investment adviser representatives.",
+   "certification": true,
+   "certification_scope": "many-issuers",
+   "variants": [
+    "Series 66 Uniform Investment Adviser : Combined State Laws License (Combined 63 And 65)",
+    "Series 66"
+   ],
+   "relations": []
+  },
+  {
+   "key": "series-7-general-securities-representative",
+   "name": "Series 7 General Securities Representative",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A FINRA qualification exam and registration for representatives who sell most types of securities, such as stocks, bonds and mutual funds.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [
+    "Series 7 General Securities Representative License (Stockbroker)",
+    "Series 7"
+   ],
+   "relations": []
+  },
+  {
+   "key": "series-79-investment-banking-representative",
+   "name": "Series 79 Investment Banking Representative",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A FINRA qualification exam and registration for investment bankers who advise on securities offerings and mergers and acquisitions.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [
+    "Series 79 Investment Banking License",
+    "Series 79"
+   ],
+   "relations": []
+  },
+  {
+   "key": "series-86-research-analyst-analysis",
+   "name": "Series 86 Research Analyst (Analysis)",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "The securities-analysis part of FINRA's research analyst qualification exams, covering valuation and financial analysis.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [
+    "Series 86 Research Analyst : Securities Analysis",
+    "Series 86"
+   ],
+   "relations": []
+  },
+  {
+   "key": "series-9-general-securities-sales-supervisor-options-module",
+   "name": "Series 9 General Securities Sales Supervisor (Options Module)",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A FINRA qualification exam and registration for general securities sales supervisors, covering the supervision of options sales.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [
+    "Series 9 General Securities Sales Supervisor License : Options",
+    "Series 9"
+   ],
+   "relations": []
+  },
+  {
+   "key": "series-99-operations-professional",
+   "name": "Series 99 Operations Professional",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A FINRA qualification exam and registration for operations staff at broker-dealers.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [
+    "Series 99"
+   ],
+   "relations": []
+  },
+  {
+   "key": "servsafe-alcohol",
+   "name": "ServSafe Alcohol",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A responsible-alcohol-service certification from the National Restaurant Association's ServSafe program.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "six-sigma-black-belt",
+   "name": "Six Sigma Black Belt",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A certification for people who lead Six Sigma process-improvement projects, higher than the Green Belt.",
+   "certification": true,
+   "certification_scope": "many-issuers",
+   "variants": [
+    "Six Sigma Black Belt Certification"
+   ],
+   "relations": []
+  },
+  {
+   "key": "six-sigma-green-belt",
+   "name": "Six Sigma Green Belt",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A certification for people who take part in or lead smaller Six Sigma process-improvement projects, below the Black Belt.",
+   "certification": true,
+   "certification_scope": "many-issuers",
+   "variants": [
+    "Six Sigma Green Belt Certification"
+   ],
+   "relations": []
+  },
+  {
+   "key": "specialist-in-blood-banking",
+   "name": "Specialist in Blood Banking",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A certification from the ASCP Board of Certification for laboratory professionals who specialise in blood banking and transfusion medicine.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [
+    "Specialist in Blood Banking (SBB-ASCP)",
+    "SBB(ASCP)"
+   ],
+   "relations": []
+  }
+ ]
+}

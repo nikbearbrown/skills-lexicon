@@ -1,0 +1,449 @@
+{
+ "allowed_kinds": [
+  "ability",
+  "credential",
+  "framework",
+  "human-language",
+  "knowledge",
+  "library",
+  "markup-language",
+  "method",
+  "modeling-language",
+  "platform",
+  "programming-language",
+  "skill",
+  "standard",
+  "style-language",
+  "tool",
+  "work-activity"
+ ],
+ "entries": [
+  {
+   "key": "database-design",
+   "name": "Database design",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Designing database structures and constraints.",
+   "variants": [
+    "database management",
+    "relational databases"
+   ],
+   "relations": []
+  },
+  {
+   "key": "database-life-cycle",
+   "name": "Database life cycle",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "The stages a database passes through, from requirements and design to implementation, operation, maintenance and retirement.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "database-mirroring",
+   "name": "Database mirroring",
+   "class": "skill",
+   "kind": "method",
+   "definition": "Keeping a second, synchronised copy of a database on another server so that it can take over if the primary server fails.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "database-systems",
+   "name": "Database systems",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "The study of software systems that store, organise and query data, and of how they are designed and run.",
+   "certification": false,
+   "variants": [],
+   "relations": [
+    "related:database-design"
+   ]
+  },
+  {
+   "key": "database-trigger",
+   "name": "Database trigger",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "A stored routine that a database runs automatically when a defined event, such as an insert, update or delete, happens on a table.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "db-access",
+   "name": "DB-Access",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "A command-line and menu-driven tool from IBM Informix for running SQL statements and managing Informix databases.",
+   "certification": false,
+   "variants": [
+    "Dbaccess"
+   ],
+   "relations": []
+  },
+  {
+   "key": "db2-400",
+   "name": "DB2/400",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "The relational database built into IBM's AS/400 midrange systems, now called Db2 for i.",
+   "certification": false,
+   "variants": [
+    "Db2400",
+    "Db2 for i"
+   ],
+   "relations": []
+  },
+  {
+   "key": "dbcc",
+   "name": "DBCC",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "Database Console Commands, a set of Transact-SQL commands in Microsoft SQL Server for checking database consistency and doing maintenance and diagnostics.",
+   "certification": false,
+   "variants": [
+    "Database Console Commands"
+   ],
+   "relations": []
+  },
+  {
+   "key": "dbfit",
+   "name": "DbFit",
+   "class": "skill",
+   "kind": "framework",
+   "definition": "An open-source tool, built on the FitNesse framework, for writing and running automated database tests as wiki tables.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "dbpedia",
+   "name": "DBpedia",
+   "class": "skill",
+   "kind": "platform",
+   "definition": "A community project that extracts structured data from Wikipedia and publishes it as linked open data that can be queried with SPARQL.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "dbsnp",
+   "name": "dbSNP",
+   "class": "skill",
+   "kind": "platform",
+   "definition": "A public database run by the US National Center for Biotechnology Information that catalogues single nucleotide polymorphisms and other short genetic variations.",
+   "certification": false,
+   "variants": [
+    "Single Nucleotide Polymorphism Database[1] (DbSNP)",
+    "Single Nucleotide Polymorphism Database"
+   ],
+   "relations": []
+  },
+  {
+   "key": "dbunit",
+   "name": "DbUnit",
+   "class": "skill",
+   "kind": "library",
+   "definition": "A JUnit extension for testing database-driven Java applications by loading known data sets and comparing database contents.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "dbvisualizer",
+   "name": "DbVisualizer",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "A graphical database client for browsing, querying and administering many kinds of databases.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "dc-js",
+   "name": "dc.js",
+   "class": "skill",
+   "kind": "library",
+   "definition": "A JavaScript charting library, built on D3 and Crossfilter, for exploring multi-dimensional datasets with linked, interactive charts.",
+   "certification": false,
+   "variants": [],
+   "relations": [
+    "related:c3-js",
+    "related:chart-js"
+   ]
+  },
+  {
+   "key": "dcid-6-3",
+   "name": "DCID 6/3",
+   "class": "skill",
+   "kind": "standard",
+   "definition": "Director of Central Intelligence Directive 6/3, a former US intelligence-community policy on securing information systems that handle sensitive compartmented information, later replaced by ICD 503.",
+   "certification": false,
+   "variants": [
+    "Director of Central Intelligence Directive 6/3"
+   ],
+   "relations": []
+  },
+  {
+   "key": "deal-shaping",
+   "name": "Deal shaping",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Structuring the scope, price and terms of a commercial deal so that it suits both the customer and the company.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "dealing-with-enquiries",
+   "name": "Dealing with enquiries",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Answering questions and requests from customers or the public by phone, email or in person.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "debits-and-credits",
+   "name": "Debits and credits",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "The double-entry bookkeeping convention of recording each transaction as equal debit and credit entries in different accounts.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "deboning",
+   "name": "Deboning",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Cutting the bones out of meat, poultry or fish.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "deburring",
+   "name": "Deburring",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Removing the sharp edges or burrs left on metal or plastic parts after machining or cutting.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "decision-making-software",
+   "name": "Decision-making software",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "Software that helps people analyse options, criteria and likely outcomes in order to reach a decision.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "decorating",
+   "name": "Decorating",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Improving the look of a room, event or item by painting, papering or adding ornaments and furnishings.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "deegree",
+   "name": "deegree",
+   "class": "skill",
+   "kind": "platform",
+   "definition": "An open-source Java software for building spatial data infrastructures and OGC web services such as WMS and WFS.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "deep-learning",
+   "name": "Deep learning",
+   "class": "skill",
+   "kind": "method",
+   "definition": "Developing models built from multiple neural-network layers.",
+   "variants": [
+    "DL"
+   ],
+   "relations": []
+  },
+  {
+   "key": "defensive-tactics",
+   "name": "Defensive tactics",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Techniques for defending oneself and for controlling and restraining a subject, taught to police and security staff.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "deflashing",
+   "name": "Deflashing",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Removing the thin excess material, called flash, left on moulded or cast parts.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "delivery-pipeline",
+   "name": "Delivery pipeline",
+   "class": "skill",
+   "kind": "method",
+   "definition": "An automated sequence of build, test and deployment stages that carries a code change from commit to production.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "dell-wyse-thin-clients",
+   "name": "Dell Wyse thin clients",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "Small, low-maintenance terminals made by Dell (formerly Wyse Technology) that run their applications from a central server.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "deltek-costpoint",
+   "name": "Deltek Costpoint",
+   "class": "skill",
+   "kind": "platform",
+   "definition": "Enterprise resource planning software from Deltek, used mainly by government contractors and project-based businesses for accounting, project costing and billing.",
+   "certification": false,
+   "variants": [
+    "Costpoint"
+   ],
+   "relations": []
+  },
+  {
+   "key": "demolition",
+   "name": "Demolition",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Safely tearing down buildings or other structures and clearing the debris.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "dental-plaque-removal",
+   "name": "Dental plaque removal",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Removing plaque, the soft bacterial film, from teeth by scaling and polishing.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "dental-records",
+   "name": "Dental records",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Creating and maintaining patient charts, treatment histories and images in a dental practice.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "deposition-geology",
+   "name": "Deposition (geology)",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "The geological process by which sediment, soil or rock is laid down on a landform or land mass.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "design-consultation",
+   "name": "Design consultation",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Advising clients on design choices, such as the look, layout or function of a space, product or service.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "design-documentation",
+   "name": "Design documentation",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Writing and maintaining the drawings, specifications and notes that record how something is designed.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "design-for-manufacturability",
+   "name": "Design for manufacturability",
+   "class": "skill",
+   "kind": "method",
+   "definition": "Designing a product so that it is easy and cheap to make, by taking production methods and limits into account from the start.",
+   "certification": false,
+   "variants": [
+    "Design For Manufacturability (Industrial Design)",
+    "Design for manufacturing"
+   ],
+   "relations": []
+  },
+  {
+   "key": "design-of-experiments",
+   "name": "Design of experiments",
+   "class": "skill",
+   "kind": "method",
+   "definition": "Planning experiments so that the effects of several factors on a result can be measured efficiently and fairly.",
+   "certification": false,
+   "variants": [
+    "Experimental design"
+   ],
+   "relations": []
+  },
+  {
+   "key": "design-review",
+   "name": "Design review",
+   "class": "skill",
+   "kind": "method",
+   "definition": "A formal checkpoint where a design is examined against its requirements so that problems are found before work continues.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "design-validation",
+   "name": "Design validation",
+   "class": "skill",
+   "kind": "method",
+   "definition": "Checking, usually by testing, that a finished design meets the needs of its users and its intended use.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "desktop-management",
+   "name": "Desktop management",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Setting up, updating, securing and supporting an organisation's desktop computers and their software.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  }
+ ]
+}

@@ -1,0 +1,560 @@
+{
+ "allowed_kinds": [
+  "ability",
+  "credential",
+  "framework",
+  "human-language",
+  "knowledge",
+  "library",
+  "markup-language",
+  "method",
+  "modeling-language",
+  "platform",
+  "programming-language",
+  "skill",
+  "standard",
+  "style-language",
+  "tool",
+  "work-activity"
+ ],
+ "entries": [
+  {
+   "key": "aci-concrete-strength-testing-technician",
+   "name": "ACI Concrete Strength Testing Technician",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "An American Concrete Institute certification for technicians who test the strength of concrete.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [
+    "Concrete Strength Testing Technician"
+   ],
+   "relations": []
+  },
+  {
+   "key": "activity-director-certified",
+   "name": "Activity Director Certified",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A certification for people who plan and run activity programs for residents of long-term care and similar facilities.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "acute-care-nurse-practitioner",
+   "name": "Acute Care Nurse Practitioner",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A nurse practitioner credential for providing advanced care to patients with acute, critical or complex illnesses.",
+   "certification": true,
+   "certification_scope": "many-issuers",
+   "variants": [],
+   "relations": [
+    "related:adult-gerontology-acute-care-nurse-practitioner"
+   ]
+  },
+  {
+   "key": "adult-acute-care-nurse-practitioner",
+   "name": "Adult Acute Care Nurse Practitioner",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A nurse practitioner credential for caring for acutely ill adult patients.",
+   "certification": true,
+   "certification_scope": "many-issuers",
+   "variants": [],
+   "relations": [
+    "broader:acute-care-nurse-practitioner",
+    "related:adult-gerontology-acute-care-nurse-practitioner"
+   ]
+  },
+  {
+   "key": "adult-gerontology-acute-care-nurse-practitioner",
+   "name": "Adult-Gerontology Acute Care Nurse Practitioner",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A nurse practitioner certification for caring for acutely ill adult and older-adult patients.",
+   "certification": true,
+   "certification_scope": "many-issuers",
+   "variants": [
+    "Adult/Gerontology Acute Care Nurse Practitioner",
+    "AG-ACNP"
+   ],
+   "relations": []
+  },
+  {
+   "key": "adult-nurse-practitioner",
+   "name": "Adult Nurse Practitioner",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A nurse practitioner credential for providing primary care to adult patients.",
+   "certification": true,
+   "certification_scope": "many-issuers",
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "advanced-cardiovascular-life-support",
+   "name": "Advanced Cardiovascular Life Support",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A course and certification in the emergency treatment of cardiac arrest and other life-threatening cardiovascular conditions, developed by the American Heart Association.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [
+    "Advanced Cardiovascular Life Support (ACLS)",
+    "ACLS",
+    "Advanced Cardiac Life Support"
+   ],
+   "relations": [
+    "related:advanced-trauma-life-support"
+   ]
+  },
+  {
+   "key": "advanced-certified-fund-raising-executive",
+   "name": "Advanced Certified Fund Raising Executive",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "An advanced professional certification for senior fundraising executives.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [
+    "ACFRE"
+   ],
+   "relations": []
+  },
+  {
+   "key": "advanced-certified-hospice-and-palliative-nurse",
+   "name": "Advanced Certified Hospice and Palliative Nurse",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A certification for advanced practice nurses in hospice and palliative care, awarded by the Hospice and Palliative Credentialing Center.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [
+    "ACHPN"
+   ],
+   "relations": []
+  },
+  {
+   "key": "advanced-oncology-certified-clinical-nurse-specialist",
+   "name": "Advanced Oncology Certified Clinical Nurse Specialist",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A certification for clinical nurse specialists in oncology, awarded by the Oncology Nursing Certification Corporation.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [
+    "Advanced Oncology Certified Clinical Nursing",
+    "AOCNS"
+   ],
+   "relations": []
+  },
+  {
+   "key": "advanced-oncology-certified-nurse-practitioner",
+   "name": "Advanced Oncology Certified Nurse Practitioner",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A certification for nurse practitioners in oncology, awarded by the Oncology Nursing Certification Corporation.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [
+    "AOCNP"
+   ],
+   "relations": []
+  },
+  {
+   "key": "advanced-trauma-life-support",
+   "name": "Advanced Trauma Life Support",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A trauma-care training course and certification from the American College of Surgeons on the first assessment and management of injured patients.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [
+    "ATLS"
+   ],
+   "relations": []
+  },
+  {
+   "key": "aerial-lift-certification",
+   "name": "Aerial lift certification",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A certificate showing that a person has been trained to operate aerial lifts such as boom lifts and scissor lifts.",
+   "certification": true,
+   "certification_scope": "many-issuers",
+   "variants": [
+    "Aerial lift operator certification"
+   ],
+   "relations": []
+  },
+  {
+   "key": "aids-certified-registered-nurse",
+   "name": "AIDS Certified Registered Nurse",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A nursing certification for registered nurses who care for people with HIV and AIDS.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [
+    "ACRN"
+   ],
+   "relations": []
+  },
+  {
+   "key": "airline-transport-pilot-certificate",
+   "name": "Airline Transport Pilot certificate",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "The highest-level pilot certificate issued by the US Federal Aviation Administration, required for airline captains.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [
+    "Airline Transport Pilot Certificate (ATP)",
+    "ATP certificate"
+   ],
+   "relations": [
+    "related:drone-pilot-certificate"
+   ]
+  },
+  {
+   "key": "all-terrain-vehicle-certification",
+   "name": "All-terrain vehicle certification",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A certificate showing completion of rider-safety training for operating all-terrain vehicles.",
+   "certification": true,
+   "certification_scope": "many-issuers",
+   "variants": [
+    "All Terrain Vehicle (ATV) Certification",
+    "ATV certification"
+   ],
+   "relations": []
+  },
+  {
+   "key": "american-board-of-medical-laboratory-immunology-certification",
+   "name": "American Board of Medical Laboratory Immunology certification",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "Certification by the American Board of Medical Laboratory Immunology in medical laboratory immunology.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [
+    "American Board Of Medical Laboratory Immunology (ABMLI) Certified",
+    "ABMLI certification",
+    "ABMLI",
+    "ABMLI Certified"
+   ],
+   "relations": []
+  },
+  {
+   "key": "american-board-of-medical-microbiology-certification",
+   "name": "American Board of Medical Microbiology certification",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "Certification by the American Board of Medical Microbiology in medical microbiology.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [
+    "ABMM Certified",
+    "ABMM certification",
+    "ABMM",
+    "American Board Of Medical Microbiology (ABMM) Certified"
+   ],
+   "relations": []
+  },
+  {
+   "key": "american-board-of-neurophysiologic-monitoring-certification",
+   "name": "American Board of Neurophysiologic Monitoring certification",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "Certification by the American Board of Neurophysiologic Monitoring in intraoperative neurophysiologic monitoring.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [
+    "American Board Of Neurophysiologic Monitoring"
+   ],
+   "relations": []
+  },
+  {
+   "key": "american-board-of-optometry-certification",
+   "name": "American Board of Optometry certification",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "Board certification awarded by the American Board of Optometry to optometrists who show advanced knowledge and clinical skill.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [
+    "American Board Of Optometry Certified",
+    "American Board Of Optometry"
+   ],
+   "relations": []
+  },
+  {
+   "key": "american-board-of-pathology-certification",
+   "name": "American Board of Pathology certification",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "Board certification awarded by the American Board of Pathology to pathologists in anatomic, clinical and other pathology specialties.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [
+    "ABPath certification"
+   ],
+   "relations": []
+  },
+  {
+   "key": "american-culinary-federation-certification",
+   "name": "American Culinary Federation certification",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "Professional certifications for cooks and chefs awarded by the American Culinary Federation, at several levels up to Certified Master Chef.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [
+    "American Culinary Federation",
+    "ACF certification"
+   ],
+   "relations": []
+  },
+  {
+   "key": "american-medical-technologists-certification",
+   "name": "American Medical Technologists certification",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "Certifications awarded by American Medical Technologists to allied health professionals such as medical technologists, medical assistants and phlebotomists.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [
+    "American Medical Technologists",
+    "AMT certification"
+   ],
+   "relations": []
+  },
+  {
+   "key": "american-osteopathic-board-of-nuclear-medicine-certification",
+   "name": "American Osteopathic Board of Nuclear Medicine certification",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "Board certification in nuclear medicine awarded by the American Osteopathic Board of Nuclear Medicine to osteopathic physicians.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [
+    "American Osteopathic Board Of Nuclear Medicine (AOBNM) Certified",
+    "AOBNM certification",
+    "AOBNM"
+   ],
+   "relations": []
+  },
+  {
+   "key": "american-society-of-pension-professionals-and-actuaries-certification",
+   "name": "American Society of Pension Professionals and Actuaries certification",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "Retirement-plan credentials, such as the Qualified Pension Administrator and Qualified 401(k) Administrator, awarded by ASPPA, which is part of the American Retirement Association.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [
+    "American Society of Pension Professionals and Actuaries",
+    "ASPPA certification",
+    "ASPPA"
+   ],
+   "relations": []
+  },
+  {
+   "key": "american-welding-society-certification",
+   "name": "American Welding Society certification",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "Welding-related certifications awarded by the American Welding Society, such as Certified Welder and Certified Welding Inspector.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "aquatic-facility-operator",
+   "name": "Aquatic Facility Operator",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A certification showing that someone is trained to operate and maintain a swimming pool or other aquatic facility, including water treatment and safety.",
+   "certification": true,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "ascm-certification",
+   "name": "ASCM certification",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "Supply-chain and operations-management certifications, such as CPIM and CSCP, awarded by the Association for Supply Chain Management, formerly APICS.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [
+    "American Production And Inventory Control Society (APICS) Certification",
+    "APICS certification",
+    "APICS certified"
+   ],
+   "relations": []
+  },
+  {
+   "key": "asq-certification",
+   "name": "ASQ certification",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A professional certification awarded by the American Society for Quality, in fields such as quality engineering, auditing and Six Sigma.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [
+    "(American Society For Quality) ASQ Certified",
+    "American Society for Quality certification",
+    "ASQ certified"
+   ],
+   "relations": []
+  },
+  {
+   "key": "asq-certified-biomedical-auditor",
+   "name": "ASQ Certified Biomedical Auditor",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A certification from ASQ for auditors who assess quality systems and regulatory compliance in the biomedical and medical-device industries.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [
+    "Biomedical Auditor Certification",
+    "Certified Biomedical Auditor"
+   ],
+   "relations": []
+  },
+  {
+   "key": "assisted-housing-manager-ahm",
+   "name": "Assisted Housing Manager (AHM)",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A professional certification for managers of assisted (government-subsidised) rental housing programmes.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [
+    "Assisted Housing Manager Certification (AHM)",
+    "AHM"
+   ],
+   "relations": []
+  },
+  {
+   "key": "associate-degree-in-nursing",
+   "name": "Associate degree in nursing",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A two-year undergraduate nursing degree, usually awarded by community colleges, that prepares graduates to take the registered-nurse licensing exam.",
+   "certification": true,
+   "certification_scope": "many-issuers",
+   "variants": [
+    "Associates Degree In Nursing"
+   ],
+   "relations": []
+  },
+  {
+   "key": "associate-of-the-society-of-actuaries",
+   "name": "Associate of the Society of Actuaries",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "An actuarial designation awarded by the Society of Actuaries to candidates who pass its associateship exams and meet its other requirements; it ranks below Fellow.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "associate-professional-in-talent-development",
+   "name": "Associate Professional in Talent Development",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A certification from the Association for Talent Development aimed at early-career talent development (workplace learning) professionals.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [
+    "APTD"
+   ],
+   "relations": []
+  },
+  {
+   "key": "association-management-specialist-ams",
+   "name": "Association Management Specialist (AMS)",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A professional designation for community (homeowner) association managers, awarded by Community Associations Institute.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [
+    "AMS"
+   ],
+   "relations": []
+  },
+  {
+   "key": "atssa-certification",
+   "name": "ATSSA certification",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "Traffic-control and roadway-safety certificates, such as flagger and traffic control technician, awarded by the American Traffic Safety Services Association.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [
+    "American Traffic Safety Services Association (ATSSA) Certificate",
+    "ATSSA certificate",
+    "American Traffic Safety Services Association certificate"
+   ],
+   "relations": []
+  },
+  {
+   "key": "bachelor-of-science-in-business",
+   "name": "Bachelor of Science in Business",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "An undergraduate degree in business studies, awarded as a Bachelor of Science by universities and colleges.",
+   "certification": true,
+   "certification_scope": "many-issuers",
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "bachelor-of-science-in-business-administration",
+   "name": "Bachelor of Science in Business Administration",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "An undergraduate degree in business administration, awarded as a Bachelor of Science by universities and colleges.",
+   "certification": true,
+   "certification_scope": "many-issuers",
+   "variants": [
+    "BSBA"
+   ],
+   "relations": []
+  },
+  {
+   "key": "bachelor-of-science-in-nursing",
+   "name": "Bachelor of Science in Nursing",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A bachelor's-level nursing degree, awarded by universities and colleges, that prepares graduates for registered-nurse licensure.",
+   "certification": true,
+   "certification_scope": "many-issuers",
+   "variants": [
+    "Bachelor Of Science in Nursing (BSN)",
+    "BSN"
+   ],
+   "relations": []
+  },
+  {
+   "key": "bachelor-of-science-in-pharmacy",
+   "name": "Bachelor of Science in Pharmacy",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "An undergraduate degree in pharmacy, awarded as a Bachelor of Science by universities and colleges.",
+   "certification": true,
+   "certification_scope": "many-issuers",
+   "variants": [],
+   "relations": []
+  }
+ ]
+}

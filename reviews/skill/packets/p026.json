@@ -1,0 +1,457 @@
+{
+ "allowed_kinds": [
+  "ability",
+  "credential",
+  "framework",
+  "human-language",
+  "knowledge",
+  "library",
+  "markup-language",
+  "method",
+  "modeling-language",
+  "platform",
+  "programming-language",
+  "skill",
+  "standard",
+  "style-language",
+  "tool",
+  "work-activity"
+ ],
+ "entries": [
+  {
+   "key": "hair-clipper",
+   "name": "Hair clipper",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "An electric device with a moving blade that is used to cut or trim hair, common in barbering.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "hammer-file-system",
+   "name": "HAMMER file system",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "A file system created for the DragonFly BSD operating system, with snapshots and fine-grained history.",
+   "certification": false,
+   "variants": [
+    "HAMMER (File System)"
+   ],
+   "relations": []
+  },
+  {
+   "key": "hammer-js",
+   "name": "Hammer.js",
+   "class": "skill",
+   "kind": "library",
+   "definition": "A JavaScript library that recognises touch gestures such as swipe, pinch and rotate in web pages.",
+   "certification": false,
+   "variants": [
+    "HammerJS"
+   ],
+   "relations": []
+  },
+  {
+   "key": "hand-lettering",
+   "name": "Hand lettering",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Drawing letters by hand as decorative artwork, rather than typing them or using a typeface.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "hand-therapy",
+   "name": "Hand therapy",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Rehabilitating injuries and conditions of the hand, wrist and arm, usually as an occupational or physical therapist.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "handle-system",
+   "name": "Handle System",
+   "class": "skill",
+   "kind": "standard",
+   "definition": "A system for assigning, managing and resolving persistent identifiers for digital objects, specified in IETF RFCs and run by CNRI.",
+   "certification": false,
+   "variants": [
+    "Handle Systems"
+   ],
+   "relations": []
+  },
+  {
+   "key": "handlebars-js",
+   "name": "Handlebars.js",
+   "class": "skill",
+   "kind": "library",
+   "definition": "A JavaScript templating library that builds HTML from templates with placeholders for data.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "hapi",
+   "name": "hapi",
+   "class": "skill",
+   "kind": "framework",
+   "definition": "A Node.js framework for building web applications and services, with configuration-driven routing and plugins.",
+   "certification": false,
+   "variants": [
+    "Hapi.js",
+    "Hapijs"
+   ],
+   "relations": []
+  },
+  {
+   "key": "hardware-configuration-management",
+   "name": "Hardware configuration management",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Tracking and controlling the versions, settings and changes of hardware components and systems.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "hashistack",
+   "name": "HashiStack",
+   "class": "skill",
+   "kind": "platform",
+   "definition": "An informal name for the group of HashiCorp infrastructure tools, such as Terraform, Vault, Consul and Nomad.",
+   "certification": false,
+   "variants": [
+    "HashiStack (Software)"
+   ],
+   "relations": []
+  },
+  {
+   "key": "hazard-analysis-and-critical-control-points",
+   "name": "Hazard Analysis and Critical Control Points",
+   "class": "skill",
+   "kind": "method",
+   "definition": "A systematic, preventive approach to food safety that finds hazards and sets controls at the critical points where they can be prevented or removed.",
+   "certification": false,
+   "variants": [
+    "HACCP"
+   ],
+   "relations": []
+  },
+  {
+   "key": "hazardous-material-containment-and-control",
+   "name": "Hazardous material containment and control",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Preventing and containing releases of hazardous materials and controlling people's exposure to them.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "hazardous-material-handling",
+   "name": "Hazardous material handling",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Storing, moving and using hazardous materials safely and in line with the rules for them.",
+   "certification": false,
+   "variants": [
+    "Hazmat handling"
+   ],
+   "relations": []
+  },
+  {
+   "key": "hcfa-regulations",
+   "name": "HCFA regulations",
+   "class": "skill",
+   "kind": "standard",
+   "definition": "Medicare and Medicaid rules issued by the US Health Care Financing Administration, which was renamed the Centers for Medicare & Medicaid Services in 2001.",
+   "certification": false,
+   "variants": [
+    "Health Care Finance Administration (HCFA) Regulations",
+    "Health Care Financing Administration regulations"
+   ],
+   "relations": []
+  },
+  {
+   "key": "head-mounted-display",
+   "name": "Head-mounted display",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "A display worn on the head, such as a virtual or augmented reality headset, that places images in front of the user's eyes.",
+   "certification": false,
+   "variants": [
+    "Head-Mounted Displays (HMD)"
+   ],
+   "relations": []
+  },
+  {
+   "key": "health-and-wellness-coaching",
+   "name": "Health and wellness coaching",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Guiding clients to set and reach health and lifestyle goals through structured conversations and support for behaviour change.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "health-economics-and-outcomes-research",
+   "name": "Health economics and outcomes research",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "The field that applies economic and outcomes-measurement methods to judge the value, cost and effects of health care interventions.",
+   "certification": false,
+   "variants": [
+    "Health Economics and Outcomes Research (HEOR)",
+    "HEOR"
+   ],
+   "relations": []
+  },
+  {
+   "key": "health-safety-and-environment",
+   "name": "Health, safety and environment",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "The field concerned with protecting people and the environment from workplace hazards and with meeting the related legal requirements.",
+   "certification": false,
+   "variants": [
+    "Health Safety And Environment"
+   ],
+   "relations": []
+  },
+  {
+   "key": "healthcare-delivery-science",
+   "name": "Healthcare delivery science",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "The study of how health care services are organised, delivered and improved to raise quality, access and value.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "healthcare-effectiveness-data-and-information-set",
+   "name": "Healthcare Effectiveness Data and Information Set",
+   "class": "skill",
+   "kind": "standard",
+   "definition": "A set of standardised measures of health plan performance, maintained by the National Committee for Quality Assurance.",
+   "certification": false,
+   "variants": [
+    "HEDIS"
+   ],
+   "relations": []
+  },
+  {
+   "key": "healthcare-facilities-planning",
+   "name": "Healthcare facilities planning",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Planning the space, equipment and services of hospitals and other health care buildings.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "healthcare-industry-knowledge",
+   "name": "Healthcare industry knowledge",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "Understanding of how the health care sector works, including its providers, payers, regulation and terminology.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "healthcare-quality",
+   "name": "Healthcare quality",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "The study and practice of measuring and improving the safety, effectiveness and patient focus of health care services.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "healthcare-strategy",
+   "name": "Healthcare strategy",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Setting long-term goals and plans for a health care organisation, such as its services, markets and partnerships.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "hearing-aid-software",
+   "name": "Hearing aid software",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "Software used to fit, program and adjust hearing aids to a person's hearing loss.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "heat-bending-of-wood",
+   "name": "Heat bending of wood",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Shaping wood into curves by softening it with heat or steam and bending it around a form.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "heatmap",
+   "name": "Heatmap",
+   "class": "skill",
+   "kind": "method",
+   "definition": "A data visualisation that shows the size of values as colours across a grid or an area.",
+   "certification": false,
+   "variants": [
+    "Heat map"
+   ],
+   "relations": []
+  },
+  {
+   "key": "heavy-equipment-operation",
+   "name": "Heavy equipment operation",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Operating large construction and earthmoving machines such as excavators, bulldozers and loaders.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "heavy-vehicle-operation",
+   "name": "Heavy vehicle operation",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Driving large road vehicles such as trucks and buses.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "heritrix",
+   "name": "Heritrix",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "An open-source, archival-quality web crawler developed by the Internet Archive.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "higher-education-law",
+   "name": "Higher education law",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "The body of law that governs colleges and universities, including student rights, accreditation, funding and employment.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "higher-education-policy",
+   "name": "Higher education policy",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "The study and practice of the public and institutional rules, funding and governance that shape colleges and universities.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "hincii",
+   "name": "HincII",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "A type II restriction enzyme, formerly named HindII, that cuts DNA at a specific six-base recognition sequence.",
+   "certification": false,
+   "variants": [
+    "HindII"
+   ],
+   "relations": []
+  },
+  {
+   "key": "hindiii",
+   "name": "HindIII",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "A type II restriction enzyme from Haemophilus influenzae that cuts DNA at the sequence AAGCTT.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "hindsight-bias",
+   "name": "Hindsight bias",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "The tendency, after an outcome is known, to believe one would have predicted it.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "historic-preservation",
+   "name": "Historic preservation",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "The field of protecting and conserving historic buildings, sites and objects.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "historical-linguistics",
+   "name": "Historical linguistics",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "The study of how languages change over time and how they are related to one another.",
+   "certification": false,
+   "variants": [],
+   "relations": [
+    "related:applied-linguistics"
+   ]
+  },
+  {
+   "key": "history-of-education",
+   "name": "History of education",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "The study of how education and schooling have developed over time.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "history-of-medicine",
+   "name": "History of medicine",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "The study of how medical practice, knowledge and institutions have developed over time.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "history-of-philosophy",
+   "name": "History of philosophy",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "The study of how philosophical ideas and thinkers have developed over time.",
+   "certification": false,
+   "variants": [],
+   "relations": [
+    "related:ancient-philosophy"
+   ]
+  }
+ ]
+}

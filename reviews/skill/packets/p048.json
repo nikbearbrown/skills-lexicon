@@ -1,0 +1,468 @@
+{
+ "allowed_kinds": [
+  "ability",
+  "credential",
+  "framework",
+  "human-language",
+  "knowledge",
+  "library",
+  "markup-language",
+  "method",
+  "modeling-language",
+  "platform",
+  "programming-language",
+  "skill",
+  "standard",
+  "style-language",
+  "tool",
+  "work-activity"
+ ],
+ "entries": [
+  {
+   "key": "real-estate-owned",
+   "name": "Real estate owned",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "Property that a lender owns after it fails to sell at a foreclosure auction, and the work of managing and reselling it.",
+   "certification": false,
+   "variants": [
+    "Real Estate Owned (REO)",
+    "REO"
+   ],
+   "relations": []
+  },
+  {
+   "key": "real-time-payments",
+   "name": "Real-time payments",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "Payment systems that clear and settle transfers between bank accounts within seconds, at any hour, such as the RTP network and FedNow.",
+   "certification": false,
+   "variants": [
+    "Real Time Payments"
+   ],
+   "relations": []
+  },
+  {
+   "key": "receptive-and-expressive-language",
+   "name": "Receptive and expressive language",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "The two sides of language ability studied in speech-language pathology: understanding what others say or write, and putting thoughts into words.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "recruitment-consulting",
+   "name": "Recruitment consulting",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Advising employers on hiring and finding, screening and placing candidates for them.",
+   "certification": false,
+   "variants": [
+    "Recruiment Consultancy"
+   ],
+   "relations": []
+  },
+  {
+   "key": "red-teaming",
+   "name": "Red teaming",
+   "class": "skill",
+   "kind": "method",
+   "definition": "Playing the part of an adversary to test how well an organisation, system or AI model withstands attack or misuse.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "redcap",
+   "name": "REDCap",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "A web application, developed at Vanderbilt University, for building and managing online surveys and research databases.",
+   "certification": false,
+   "variants": [
+    "Research Electronic Data Capture (REDCap)",
+    "Research Electronic Data Capture"
+   ],
+   "relations": [
+    "broader:electronic-data-capture"
+   ]
+  },
+  {
+   "key": "reduction-complexity",
+   "name": "Reduction (complexity)",
+   "class": "skill",
+   "kind": "method",
+   "definition": "A way of converting one problem into another so that a solution to the second gives a solution to the first, used in complexity theory to compare how hard problems are.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "reference-range",
+   "name": "Reference range",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "The range of values for a laboratory test that is expected in healthy people, used to judge whether a result is normal.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "refrigerated-transport",
+   "name": "Refrigerated transport",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Moving perishable or temperature-sensitive goods in vehicles or containers that keep them cold.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "refrigeration",
+   "name": "Refrigeration",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "The technology and practice of removing heat to keep a space or product colder than its surroundings, as in cold rooms, freezers and chillers.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "refrigeration-compressors",
+   "name": "Refrigeration compressors",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "The machines that compress refrigerant gas in a refrigeration system so that it can circulate and carry heat away.",
+   "certification": false,
+   "variants": [
+    "Refrigeration Compressors|"
+   ],
+   "relations": []
+  },
+  {
+   "key": "refugee-issues",
+   "name": "Refugee issues",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "Understanding the legal, social and humanitarian circumstances of people forced to flee their countries, and the services that support them.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "registered-education-savings-plan",
+   "name": "Registered Education Savings Plan",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "A Canadian government-registered savings account, with grants, for a child's education after high school, and the planning of contributions to it.",
+   "certification": false,
+   "variants": [
+    "Registered Education Savings Planning",
+    "RESP"
+   ],
+   "relations": []
+  },
+  {
+   "key": "regulation-sho",
+   "name": "Regulation SHO",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "A U.S. Securities and Exchange Commission regulation governing short sales of securities, including locate and close-out requirements.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "regulatory-cmc",
+   "name": "Regulatory CMC",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Preparing and managing the chemistry, manufacturing and controls information that regulators require in applications for drugs and biological products.",
+   "certification": false,
+   "variants": [
+    "Regulatory chemistry, manufacturing and controls"
+   ],
+   "relations": []
+  },
+  {
+   "key": "rehabilitation",
+   "name": "Rehabilitation",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "Treatment and training that help a person recover or regain abilities and independence lost through injury, illness, disability or addiction.",
+   "certification": false,
+   "variants": [
+    "Rehabilitations"
+   ],
+   "relations": []
+  },
+  {
+   "key": "reinforced-masonry",
+   "name": "Reinforced masonry",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "Masonry construction in which steel bars or mesh are embedded in mortar or grout so that walls resist tension, bending and earthquake loads.",
+   "certification": false,
+   "variants": [
+    "Reinforced Masonry Building"
+   ],
+   "relations": []
+  },
+  {
+   "key": "reinforcement-learning",
+   "name": "Reinforcement learning",
+   "class": "skill",
+   "kind": "method",
+   "definition": "Learning policies from interaction and reward feedback.",
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "relational-database-management-system",
+   "name": "Relational database management system",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "Software that stores data in tables of rows and columns linked by keys and is queried with SQL, such as PostgreSQL, MySQL and Oracle Database.",
+   "certification": false,
+   "variants": [
+    "Relational Database Management System (RDMS)",
+    "RDBMS"
+   ],
+   "relations": [
+    "contrast:nosql"
+   ]
+  },
+  {
+   "key": "reltio",
+   "name": "Reltio",
+   "class": "skill",
+   "kind": "platform",
+   "definition": "A cloud master data management platform that unifies and manages customer, product and other business data from many sources.",
+   "certification": false,
+   "variants": [
+    "Reltio (Master Data Management Software)"
+   ],
+   "relations": []
+  },
+  {
+   "key": "renal-nutrition",
+   "name": "Renal nutrition",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "The study and practice of dietary care for people with kidney disease, including limits on protein, potassium, phosphorus, sodium and fluid.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "renewable-energy",
+   "name": "Renewable energy",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "Energy from sources that are naturally replenished, such as sunlight, wind, water and geothermal heat, and the technology used to harness it.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "renewable-energy-sales",
+   "name": "Renewable energy sales",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Selling renewable energy products or services, such as solar systems or clean power contracts.",
+   "certification": false,
+   "variants": [
+    "Renewable Sales"
+   ],
+   "relations": []
+  },
+  {
+   "key": "reporting",
+   "name": "Reporting",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Gathering information and presenting it in regular or one-off reports for others to use.",
+   "certification": false,
+   "variants": [
+    "Reportng"
+   ],
+   "relations": []
+  },
+  {
+   "key": "representational-state-transfer",
+   "name": "Representational State Transfer",
+   "class": "skill",
+   "kind": "method",
+   "definition": "An architectural style for web services in which resources are identified by URLs and handled with standard HTTP methods.",
+   "certification": false,
+   "variants": [
+    "REST",
+    "RESTful"
+   ],
+   "relations": []
+  },
+  {
+   "key": "reproductive-health-care",
+   "name": "Reproductive health care",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "Care that supports sexual and reproductive health, such as contraception, pregnancy care, fertility care and screening.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "requirejs",
+   "name": "RequireJS",
+   "class": "skill",
+   "kind": "library",
+   "definition": "A JavaScript file and module loader that implements the Asynchronous Module Definition format for browsers and Node.js.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "research-methodology",
+   "name": "Research methodology",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "The principles and methods for designing and carrying out research, including how data is collected and analysed.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "resharper",
+   "name": "ReSharper",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "A JetBrains extension for Microsoft Visual Studio that adds code analysis, quick fixes and refactoring for .NET developers.",
+   "certification": false,
+   "variants": [],
+   "relations": [
+    "related:csharp"
+   ]
+  },
+  {
+   "key": "residential-construction",
+   "name": "Residential construction",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "Building homes and apartment buildings, as distinct from commercial or industrial construction.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "resilience-planning",
+   "name": "Resilience planning",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Planning how an organisation, community or system will keep working through shocks such as disasters, outages or climate events, and recover afterwards.",
+   "certification": false,
+   "variants": [],
+   "relations": [
+    "related:contingency-planning"
+   ]
+  },
+  {
+   "key": "resolving-guest-concerns",
+   "name": "Resolving guest concerns",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Dealing with a guest's complaints or problems, especially in hotels and restaurants, so that they are put right.",
+   "certification": false,
+   "variants": [
+    "Resolve Guest Concerns"
+   ],
+   "relations": []
+  },
+  {
+   "key": "resorcerer",
+   "name": "Resorcerer",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "A resource editor for classic Macintosh software, used to view and edit the resources stored in application and system files.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "resource-mobilization",
+   "name": "Resource mobilization",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Raising and bringing together the funds, people and materials an organisation or programme needs, especially in non-profit and development work.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "responsibility-assignment-matrix",
+   "name": "Responsibility assignment matrix",
+   "class": "skill",
+   "kind": "method",
+   "definition": "A table that maps the tasks of a project to the people or roles responsible for them, often using codes such as responsible, accountable, consulted and informed.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "responsive-teaching",
+   "name": "Responsive teaching",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Adjusting instruction as a lesson happens, in response to what students say, do and need.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "rest-api-security",
+   "name": "REST API security",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Protecting RESTful web services, for example with authentication, authorisation, encryption and input validation.",
+   "certification": false,
+   "variants": [
+    "Rest Security"
+   ],
+   "relations": []
+  },
+  {
+   "key": "restaurant-management",
+   "name": "Restaurant management",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Running a restaurant's daily operations, including staff, service, purchasing, food safety and finances.",
+   "certification": false,
+   "variants": [],
+   "relations": [
+    "related:hotel-and-restaurant-management"
+   ]
+  },
+  {
+   "key": "restorative-justice",
+   "name": "Restorative justice",
+   "class": "skill",
+   "kind": "method",
+   "definition": "An approach to wrongdoing that focuses on repairing the harm done, by bringing together victims, offenders and the community, rather than only punishing.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "rethinkdb",
+   "name": "RethinkDB",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "An open-source distributed document database that can push changes in query results to applications as the data changes.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  }
+ ]
+}

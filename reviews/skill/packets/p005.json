@@ -1,0 +1,461 @@
+{
+ "allowed_kinds": [
+  "ability",
+  "credential",
+  "framework",
+  "human-language",
+  "knowledge",
+  "library",
+  "markup-language",
+  "method",
+  "modeling-language",
+  "platform",
+  "programming-language",
+  "skill",
+  "standard",
+  "style-language",
+  "tool",
+  "work-activity"
+ ],
+ "entries": [
+  {
+   "key": "arp4754",
+   "name": "ARP4754",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "An SAE International recommended practice with guidelines for developing civil aircraft and their systems, including requirements and development assurance.",
+   "certification": false,
+   "variants": [
+    "ARP4754A",
+    "SAE ARP4754"
+   ],
+   "relations": []
+  },
+  {
+   "key": "arquillian",
+   "name": "Arquillian",
+   "class": "skill",
+   "kind": "framework",
+   "definition": "A Java testing framework that runs tests inside a real container or server so that code can be tested in its target environment.",
+   "certification": false,
+   "variants": [
+    "Arquillian (Software)"
+   ],
+   "relations": []
+  },
+  {
+   "key": "arranging-catering",
+   "name": "Arranging catering",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Organising food and drink service for an event, including choosing caterers, menus and quantities.",
+   "certification": false,
+   "variants": [
+    "Arrange Catering"
+   ],
+   "relations": []
+  },
+  {
+   "key": "arranging-conferences",
+   "name": "Arranging conferences",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Planning and organising a conference, including its venue, schedule, speakers and attendee logistics.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "art-education",
+   "name": "Art education",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "The teaching and learning of the visual arts, and the study of how to teach them.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "art-history",
+   "name": "Art history",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "The academic study of the history of visual art, including its styles, artists and the contexts in which it was made.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "art-theory",
+   "name": "Art theory",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "The study of the principles, purposes and meaning of the visual arts and of how they are made, judged and interpreted.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "arterial-blood-gas-testing",
+   "name": "Arterial blood gas testing",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "A blood test on a sample taken from an artery that measures oxygen, carbon dioxide and the acid-base balance of the blood.",
+   "certification": false,
+   "variants": [
+    "Arterial Blood Gases",
+    "Arterial blood gas"
+   ],
+   "relations": [
+    "related:administering-blood-tests"
+   ]
+  },
+  {
+   "key": "artificial-intelligence",
+   "name": "Artificial intelligence",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "The field of computer science concerned with building systems that perform tasks that normally need human intelligence, such as learning, reasoning and perception.",
+   "certification": false,
+   "variants": [
+    "AI"
+   ],
+   "relations": []
+  },
+  {
+   "key": "artificial-intelligence-risk",
+   "name": "Artificial intelligence risk",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "The study of the harms that artificial intelligence systems can cause, such as bias, security failures and misuse, and of how to reduce them.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "artstation",
+   "name": "ArtStation",
+   "class": "skill",
+   "kind": "platform",
+   "definition": "An online platform where digital artists, mainly in games, film and animation, show portfolios and sell assets.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "as-built-drawings",
+   "name": "As-built drawings",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Preparing or reading drawings that record a building or system as it was actually built, including changes made during construction.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "asc-340",
+   "name": "ASC 340",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "The FASB Accounting Standards Codification topic on other assets and deferred costs, such as capitalised costs of obtaining and fulfilling customer contracts.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "ashampoo-burning-studio",
+   "name": "Ashampoo Burning Studio",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "Software made by Ashampoo for burning data, music and video to CDs, DVDs and Blu-ray discs.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "asp-net-core-mvc",
+   "name": "ASP.NET Core MVC",
+   "class": "skill",
+   "kind": "framework",
+   "definition": "A Microsoft web framework for building web apps and APIs with the model-view-controller pattern on ASP.NET Core.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "asp-net-identity",
+   "name": "ASP.NET Identity",
+   "class": "skill",
+   "kind": "library",
+   "definition": "Microsoft's membership system for adding user accounts, sign-in and role-based authorization to ASP.NET applications.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "asp-net-web-api",
+   "name": "ASP.NET Web API",
+   "class": "skill",
+   "kind": "framework",
+   "definition": "A Microsoft framework for building HTTP-based web services and APIs on .NET.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "asphalt-batch-mix-plant",
+   "name": "Asphalt batch mix plant",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "A production facility that dries and heats aggregate and mixes it with bitumen in measured batches to make hot-mix asphalt.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "assembly-drawing",
+   "name": "Assembly drawing",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Preparing or reading technical drawings that show how the parts of a product or machine fit together.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "assessing-patient-needs",
+   "name": "Assessing patient needs",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Evaluating a patient's physical, emotional and practical needs so that their care can be planned.",
+   "certification": false,
+   "variants": [
+    "Assess Patient Needs"
+   ],
+   "relations": []
+  },
+  {
+   "key": "asset-turnover",
+   "name": "Asset turnover",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "A financial ratio that compares a company's sales with its assets to show how efficiently the assets are used to generate revenue.",
+   "certification": false,
+   "variants": [
+    "Asset Turnovers",
+    "Asset turnover ratio"
+   ],
+   "relations": []
+  },
+  {
+   "key": "asthma-education",
+   "name": "Asthma education",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Teaching people with asthma and their caregivers to recognise triggers, use medicines and inhalers correctly and follow an asthma action plan.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "async-await",
+   "name": "Async/await",
+   "class": "skill",
+   "kind": "method",
+   "definition": "A programming pattern, supported by syntax in languages such as C#, JavaScript and Python, that lets asynchronous operations be written in code that reads like sequential steps.",
+   "certification": false,
+   "variants": [
+    "Async Await Pattern"
+   ],
+   "relations": []
+  },
+  {
+   "key": "athletic-training",
+   "name": "Athletic training",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "The health-care field concerned with preventing, assessing, treating and rehabilitating injuries and illnesses related to sport and physical activity.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "atlassian-confluence",
+   "name": "Atlassian Confluence",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "Atlassian's web-based team workspace and wiki for creating, organising and sharing documents and project knowledge.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "atlassian-crucible",
+   "name": "Atlassian Crucible",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "Atlassian's web-based tool for peer code review, in which developers comment on each other's changes before they are accepted.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "atomic-layer-deposition",
+   "name": "Atomic layer deposition",
+   "class": "skill",
+   "kind": "method",
+   "definition": "A thin-film deposition technique that builds a material one atomic layer at a time through alternating, self-limiting gas-phase surface reactions.",
+   "certification": false,
+   "variants": [
+    "ALD"
+   ],
+   "relations": []
+  },
+  {
+   "key": "atscale",
+   "name": "AtScale",
+   "class": "skill",
+   "kind": "platform",
+   "definition": "A semantic-layer platform that sits between data warehouses and business-intelligence tools so that different tools use the same business definitions of data.",
+   "certification": false,
+   "variants": [
+    "AtScale (Software)"
+   ],
+   "relations": []
+  },
+  {
+   "key": "attorney-client-privilege",
+   "name": "Attorney-client privilege",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "The legal protection that keeps confidential communications between a lawyer and client, made to obtain legal advice, from being disclosed without the client's consent.",
+   "certification": false,
+   "variants": [
+    "Attorney client privilege"
+   ],
+   "relations": []
+  },
+  {
+   "key": "auditd",
+   "name": "auditd",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "The user-space daemon of the Linux Audit system, which collects kernel audit events and writes them to log files for security auditing.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "auditing",
+   "name": "Auditing",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Examining records, processes or systems to check that they are accurate and comply with requirements or controls.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "auditing-inpatient-coding",
+   "name": "Auditing inpatient coding",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Reviewing the diagnosis and procedure codes assigned to hospital inpatient stays to check that they are accurate, supported by the record and compliant with coding rules.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "auditing-outpatient-coding",
+   "name": "Auditing outpatient coding",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Reviewing the diagnosis and procedure codes assigned to outpatient (ambulatory) encounters to check that they are accurate, supported by the record and compliant with coding rules.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "aural-rehabilitation",
+   "name": "Aural rehabilitation",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Therapy and training that help people with hearing loss communicate, using residual hearing, hearing devices, speech-reading and communication strategies.",
+   "certification": false,
+   "variants": [
+    "Audiologic rehabilitation",
+    "Auditory rehabilitation"
+   ],
+   "relations": []
+  },
+  {
+   "key": "aurelia",
+   "name": "Aurelia",
+   "class": "skill",
+   "kind": "framework",
+   "definition": "An open-source JavaScript front-end framework for building single-page web applications.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "author-it",
+   "name": "Author-it",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "Software for writing, managing and publishing technical documentation and other content from reusable components.",
+   "certification": false,
+   "variants": [
+    "AuthorIT (Software)",
+    "AuthorIT"
+   ],
+   "relations": []
+  },
+  {
+   "key": "authorised-capital",
+   "name": "Authorised capital",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "The maximum amount of share capital a company is permitted to issue under its constitutional documents.",
+   "certification": false,
+   "variants": [
+    "Authorized capital",
+    "Authorised share capital"
+   ],
+   "relations": []
+  },
+  {
+   "key": "autism-therapy",
+   "name": "Autism therapy",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Providing therapies and interventions, such as applied behavior analysis and speech, occupational and social-skills therapy, for people on the autism spectrum.",
+   "certification": false,
+   "variants": [
+    "Autism (Therapies)",
+    "Autism therapies"
+   ],
+   "relations": []
+  },
+  {
+   "key": "auto-glass-installation-and-repair",
+   "name": "Auto glass installation and repair",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Replacing and repairing vehicle windshields and windows, including removing damaged glass and bonding in new glass.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "autodesk-123d",
+   "name": "Autodesk 123D",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "A discontinued family of free Autodesk apps for 3D modelling, scanning and digital fabrication.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  }
+ ]
+}

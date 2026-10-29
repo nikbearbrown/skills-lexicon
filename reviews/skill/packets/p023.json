@@ -1,0 +1,457 @@
+{
+ "allowed_kinds": [
+  "ability",
+  "credential",
+  "framework",
+  "human-language",
+  "knowledge",
+  "library",
+  "markup-language",
+  "method",
+  "modeling-language",
+  "platform",
+  "programming-language",
+  "skill",
+  "standard",
+  "style-language",
+  "tool",
+  "work-activity"
+ ],
+ "entries": [
+  {
+   "key": "flight-planning",
+   "name": "Flight planning",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Preparing a flight by choosing the route, altitude, fuel and alternates from weather, airspace and aircraft performance information.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "flipped-classroom",
+   "name": "Flipped classroom",
+   "class": "skill",
+   "kind": "method",
+   "definition": "A teaching approach in which students meet new material before class, usually by video or reading, and class time is used for practice and discussion.",
+   "certification": false,
+   "variants": [
+    "Flipped Classroom Model"
+   ],
+   "relations": []
+  },
+  {
+   "key": "floating-point-arithmetic",
+   "name": "Floating-point arithmetic",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "How computers represent and calculate with real numbers as a sign, a significand and an exponent, including rounding and precision limits.",
+   "certification": false,
+   "variants": [
+    "Floating Point"
+   ],
+   "relations": []
+  },
+  {
+   "key": "fluid-statics",
+   "name": "Fluid statics",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "The branch of fluid mechanics that studies fluids at rest, including pressure, buoyancy and the forces fluids exert on surfaces.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "flutter",
+   "name": "Flutter",
+   "class": "skill",
+   "kind": "framework",
+   "definition": "Google's open-source toolkit for building natively compiled mobile, web and desktop apps from one codebase, written in the Dart language.",
+   "certification": false,
+   "variants": [
+    "Flutter (Software)"
+   ],
+   "relations": []
+  },
+  {
+   "key": "flux-analysis",
+   "name": "Flux analysis",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Comparing financial statement figures from one period to another and investigating and explaining the changes.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "flux-cd",
+   "name": "Flux CD",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "A GitOps tool, part of the Cloud Native Computing Foundation, that keeps Kubernetes clusters in line with configuration stored in Git.",
+   "certification": false,
+   "variants": [
+    "FluxCD"
+   ],
+   "relations": []
+  },
+  {
+   "key": "foglight",
+   "name": "Foglight",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "Quest Software's performance monitoring product for databases, applications and infrastructure.",
+   "certification": false,
+   "variants": [
+    "Foglight (Database Software)"
+   ],
+   "relations": []
+  },
+  {
+   "key": "folk-music",
+   "name": "Folk music",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "Traditional music of a community or region, often passed on by ear, and the styles descended from it.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "font-awesome",
+   "name": "Font Awesome",
+   "class": "skill",
+   "kind": "library",
+   "definition": "A toolkit of scalable vector icons, supplied as icon fonts and SVG, that web developers add to sites and apps.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "food-economics",
+   "name": "Food economics",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "The study of how food is produced, priced, distributed and consumed, and of the markets and policies around it.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "food-microbiology",
+   "name": "Food microbiology",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "The study of the microorganisms that spoil food, cause foodborne illness or are used to make foods such as cheese and yoghurt.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "food-palatability-evaluation",
+   "name": "Food palatability evaluation",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Judging how acceptable food is to eat in terms of taste, texture, smell and appearance.",
+   "certification": false,
+   "variants": [
+    "Evaluate Food Palatability"
+   ],
+   "relations": []
+  },
+  {
+   "key": "food-plating-and-presentation",
+   "name": "Food plating and presentation",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Arranging and garnishing prepared food on a plate or serving dish so that it looks appealing.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "food-preservation",
+   "name": "Food preservation",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Treating or storing food, for example by canning, freezing, drying, salting or pickling, to stop it spoiling.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "food-process-engineering",
+   "name": "Food process engineering",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "The branch of engineering that designs and runs the processes and equipment that turn raw agricultural materials into food products.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "food-procurement",
+   "name": "Food procurement",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Sourcing, buying and receiving food products for an organisation, including choosing suppliers and negotiating prices.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "food-safety",
+   "name": "Food safety",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "Practices for handling, preparing and storing food so that it does not cause illness.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "food-science",
+   "name": "Food science",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "The study of the physical, chemical and biological nature of food and of how it is processed, preserved and made safe.",
+   "certification": false,
+   "variants": [],
+   "relations": [
+    "related:dairy-science"
+   ]
+  },
+  {
+   "key": "food-systems-management",
+   "name": "Food systems management",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Managing a food service operation, including menu planning, purchasing, production, sanitation and service.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "footprinting",
+   "name": "Footprinting",
+   "class": "skill",
+   "kind": "method",
+   "definition": "The first step of a security assessment, collecting information about a target organisation, its networks and systems to plan later testing.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "forced-draft-systems",
+   "name": "Forced draft systems",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "Boiler and furnace air systems in which fans push combustion air into the furnace at above atmospheric pressure.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "foreign-account-tax-compliance-act",
+   "name": "Foreign Account Tax Compliance Act",
+   "class": "skill",
+   "kind": "standard",
+   "definition": "A 2010 United States law that requires foreign financial institutions to report accounts held by US taxpayers to the US tax authority.",
+   "certification": false,
+   "variants": [
+    "FATCA"
+   ],
+   "relations": []
+  },
+  {
+   "key": "forensic-dentistry",
+   "name": "Forensic dentistry",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "The use of dental knowledge in legal matters, chiefly identifying human remains from dental records and features.",
+   "certification": false,
+   "variants": [
+    "Forensic Dentistry (Dentistry Branches)",
+    "Forensic odontology"
+   ],
+   "relations": []
+  },
+  {
+   "key": "forklift-safety",
+   "name": "Forklift safety",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "Safe operating and working practices around forklifts, such as load handling, travel rules, inspection and pedestrian safety.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "forklift-truck",
+   "name": "Forklift truck",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "A powered industrial truck with forks at the front for lifting, carrying and stacking pallets and other loads.",
+   "certification": false,
+   "variants": [
+    "Forklift",
+    "Fork truck",
+    "Lift truck"
+   ],
+   "relations": []
+  },
+  {
+   "key": "framer-js",
+   "name": "Framer.js",
+   "class": "skill",
+   "kind": "library",
+   "definition": "A JavaScript library for building interactive prototypes of user interfaces, originally the engine behind the Framer prototyping tool.",
+   "certification": false,
+   "variants": [
+    "Framerjs"
+   ],
+   "relations": []
+  },
+  {
+   "key": "franchise-sales",
+   "name": "Franchise sales",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Selling franchise opportunities to prospective franchisees.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "fraud-prevention-and-detection",
+   "name": "Fraud prevention and detection",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Putting controls in place to stop fraud and analysing transactions and behaviour to spot it when it happens.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "fraud-risk-assessment",
+   "name": "Fraud risk assessment",
+   "class": "skill",
+   "kind": "method",
+   "definition": "A structured review that identifies where and how fraud could occur in an organisation and how likely and damaging it would be.",
+   "certification": false,
+   "variants": [
+    "Fraud Risk Assessments"
+   ],
+   "relations": []
+  },
+  {
+   "key": "fraud-risk-management",
+   "name": "Fraud risk management",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Identifying, assessing and controlling the risk of fraud against an organisation.",
+   "certification": false,
+   "variants": [],
+   "relations": [
+    "related:financial-risk-management",
+    "related:compliance-risk-management"
+   ]
+  },
+  {
+   "key": "free-body-diagrams",
+   "name": "Free body diagrams",
+   "class": "skill",
+   "kind": "method",
+   "definition": "Sketches of one body isolated from its surroundings that show every force and moment acting on it, used to solve mechanics problems.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "free-lossless-audio-codec",
+   "name": "Free Lossless Audio Codec",
+   "class": "skill",
+   "kind": "standard",
+   "definition": "An open, royalty-free format for compressing digital audio without losing any of the original data.",
+   "certification": false,
+   "variants": [
+    "Free Lossless Audio Codec (FLAC)",
+    "FLAC"
+   ],
+   "relations": []
+  },
+  {
+   "key": "freight-handling",
+   "name": "Freight handling",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Loading, unloading, moving and securing freight at docks, warehouses and terminals.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "freight-handling-equipment",
+   "name": "Freight handling equipment",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "Equipment used to move and load freight, such as forklifts, pallet jacks, conveyors and dock levelers.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "freight-inspection",
+   "name": "Freight inspection",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Checking shipments for damage, correct count and conformity with shipping documents when they are received or sent.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "freshchat",
+   "name": "Freshchat",
+   "class": "skill",
+   "kind": "platform",
+   "definition": "A messaging and live chat product from Freshworks that businesses use to talk with customers.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "frisby-js",
+   "name": "Frisby.js",
+   "class": "skill",
+   "kind": "framework",
+   "definition": "A Node.js framework for writing tests of REST API endpoints.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "frontify",
+   "name": "Frontify",
+   "class": "skill",
+   "kind": "platform",
+   "definition": "A cloud platform for brand management that stores brand guidelines and assets and shares them across teams.",
+   "certification": false,
+   "variants": [
+    "Frontify (Software)"
+   ],
+   "relations": []
+  },
+  {
+   "key": "fuel-cell",
+   "name": "Fuel cell",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "A device that converts the chemical energy of a fuel, commonly hydrogen, directly into electricity through an electrochemical reaction.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  }
+ ]
+}

@@ -1,0 +1,534 @@
+{
+ "allowed_kinds": [
+  "ability",
+  "credential",
+  "framework",
+  "human-language",
+  "knowledge",
+  "library",
+  "markup-language",
+  "method",
+  "modeling-language",
+  "platform",
+  "programming-language",
+  "skill",
+  "standard",
+  "style-language",
+  "tool",
+  "work-activity"
+ ],
+ "entries": [
+  {
+   "key": "certified-network-defense-architect",
+   "name": "Certified Network Defense Architect",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "An EC-Council certification for professionals who design and defend secure computer networks.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [
+    "Certified Network Defense Architecture"
+   ],
+   "relations": []
+  },
+  {
+   "key": "certified-neuroscience-registered-nurse",
+   "name": "Certified Neuroscience Registered Nurse",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A certification for registered nurses who care for patients with neurological conditions, awarded by the American Board of Neuroscience Nursing.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [
+    "CNRN"
+   ],
+   "relations": []
+  },
+  {
+   "key": "certified-novell-salesperson",
+   "name": "Certified Novell Salesperson",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A Novell certification for sales staff who sell Novell products and solutions.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "certified-nurse-manager-and-leader",
+   "name": "Certified Nurse Manager and Leader",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A certification for nurses in management and leadership roles, awarded by the AONL Credentialing Center.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [
+    "CNML"
+   ],
+   "relations": []
+  },
+  {
+   "key": "certified-nurse-midwife",
+   "name": "Certified Nurse-Midwife",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A credential for advanced practice nurses trained in midwifery, awarded by the American Midwifery Certification Board.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [
+    "Nurse Midwife",
+    "CNM"
+   ],
+   "relations": []
+  },
+  {
+   "key": "certified-nursing-assistant",
+   "name": "Certified Nursing Assistant",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A state-recognised certification for nursing assistants who give basic bedside care under the direction of nurses.",
+   "certification": true,
+   "certification_scope": "many-issuers",
+   "variants": [
+    "Certified Nurse Assistant",
+    "CNA"
+   ],
+   "relations": []
+  },
+  {
+   "key": "certified-occupancy-specialist",
+   "name": "Certified Occupancy Specialist",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A housing-industry credential for staff who determine eligibility and manage occupancy in subsidised housing programmes.",
+   "certification": true,
+   "variants": [
+    "Certified Occupancy Specialist (COS)"
+   ],
+   "relations": []
+  },
+  {
+   "key": "certified-occupational-health-nurse",
+   "name": "Certified Occupational Health Nurse",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A certification for registered nurses who specialise in occupational and workplace health, awarded by the American Board for Occupational Health Nurses.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [
+    "COHN"
+   ],
+   "relations": []
+  },
+  {
+   "key": "certified-ostomy-care-nurse",
+   "name": "Certified Ostomy Care Nurse",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A certification for registered nurses who specialise in the care of people with ostomies, awarded by the Wound, Ostomy and Continence Nursing Certification Board.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [
+    "COCN"
+   ],
+   "relations": []
+  },
+  {
+   "key": "certified-outpatient-coder",
+   "name": "Certified Outpatient Coder",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "An AAPC certification for coders who assign diagnosis and procedure codes to outpatient hospital and facility claims.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [],
+   "relations": [
+    "related:cpc-coder"
+   ]
+  },
+  {
+   "key": "certified-patient-care-technician",
+   "name": "Certified Patient Care Technician",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A certification for technicians who give hands-on patient care in hospitals and similar settings.",
+   "certification": true,
+   "variants": [
+    "Certified Patient Care Technician/Assistant",
+    "CPCT/A",
+    "Certified Patient Care Technician/Associate/Nurse Technician"
+   ],
+   "relations": []
+  },
+  {
+   "key": "certified-pediatric-emergency-nurse",
+   "name": "Certified Pediatric Emergency Nurse",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A nursing certification from the Board of Certification for Emergency Nursing for nurses who care for children in emergencies.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [
+    "CPEN"
+   ],
+   "relations": []
+  },
+  {
+   "key": "certified-pediatric-hematology-oncology-nurse",
+   "name": "Certified Pediatric Hematology Oncology Nurse",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A certification for registered nurses who care for children with cancer and blood disorders, awarded by the Oncology Nursing Certification Corporation.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [
+    "CPHON",
+    "Certified Pediatric Oncology Nurse",
+    "CPON"
+   ],
+   "relations": []
+  },
+  {
+   "key": "certified-pediatric-nurse",
+   "name": "Certified Pediatric Nurse",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A certification for registered nurses who care for children, awarded by the Pediatric Nursing Certification Board.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "certified-perioperative-nurse-cnor",
+   "name": "Certified Perioperative Nurse (CNOR)",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A certification for registered nurses who work in the operating room, awarded by the Competency and Credentialing Institute.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [
+    "CNOR Certification",
+    "CNOR"
+   ],
+   "relations": []
+  },
+  {
+   "key": "certified-physician-practice-manager",
+   "name": "Certified Physician Practice Manager",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "An AAPC certification for managers of physician and medical group practices.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [
+    "CPPM"
+   ],
+   "relations": []
+  },
+  {
+   "key": "certified-plastic-surgical-nurse",
+   "name": "Certified Plastic Surgical Nurse",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A certification for registered nurses in plastic and reconstructive surgery, awarded by the Plastic Surgical Nursing Certification Board.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [
+    "CPSN"
+   ],
+   "relations": []
+  },
+  {
+   "key": "certified-pool-spa-operator",
+   "name": "Certified Pool & Spa Operator",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A certification from the Pool & Hot Tub Alliance for people who operate and maintain swimming pools and spas.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [
+    "Certified Pool and Spa Operator"
+   ],
+   "relations": []
+  },
+  {
+   "key": "certified-professional-biller",
+   "name": "Certified Professional Biller",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "An AAPC certification for medical billers who prepare, submit and follow up healthcare claims.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [
+    "Certified Professional Biller (CPB)"
+   ],
+   "relations": [
+    "related:cpc-coder"
+   ]
+  },
+  {
+   "key": "certified-professional-compliance-officer",
+   "name": "Certified Professional Compliance Officer",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "An AAPC certification for people who oversee compliance programmes in healthcare organisations.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [
+    "CPCO"
+   ],
+   "relations": [
+    "related:cpc-coder"
+   ]
+  },
+  {
+   "key": "certified-professional-geologist",
+   "name": "Certified Professional Geologist",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A professional certification for geologists from the American Institute of Professional Geologists.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [
+    "CPG"
+   ],
+   "relations": []
+  },
+  {
+   "key": "certified-professional-in-healthcare-information-and-management-systems",
+   "name": "Certified Professional in Healthcare Information and Management Systems",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A HIMSS certification for professionals in healthcare information and management systems.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [
+    "CPHIMS"
+   ],
+   "relations": []
+  },
+  {
+   "key": "certified-professional-in-healthcare-quality",
+   "name": "Certified Professional in Healthcare Quality",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A certification for professionals who work on quality improvement and patient safety in healthcare.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [
+    "CPHQ"
+   ],
+   "relations": []
+  },
+  {
+   "key": "certified-professional-in-healthcare-risk-management",
+   "name": "Certified Professional in Healthcare Risk Management",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A certification for professionals who manage risk and patient safety in healthcare, awarded by the American Hospital Association Certification Center.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [
+    "CPHRM"
+   ],
+   "relations": []
+  },
+  {
+   "key": "certified-professional-manager",
+   "name": "Certified Professional Manager",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A management certification awarded by the Institute of Certified Professional Managers.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "certified-professional-medical-services-management",
+   "name": "Certified Professional Medical Services Management",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A certification for professionals who manage medical staff services such as provider credentialing and privileging.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [
+    "Certified Professional Medical Services Manager",
+    "CPMSM"
+   ],
+   "relations": []
+  },
+  {
+   "key": "certified-professional-of-occupancy",
+   "name": "Certified Professional of Occupancy",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A housing-industry credential for staff who handle eligibility and occupancy in affordable and subsidised housing.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "certified-projects-director",
+   "name": "Certified Projects Director",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "The top level (Level A) of the IPMA four-level project management certification, for directors of large portfolios and programmes.",
+   "certification": true,
+   "variants": [
+    "IPMA Level A"
+   ],
+   "relations": []
+  },
+  {
+   "key": "certified-property-manager",
+   "name": "Certified Property Manager",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A real-estate management certification awarded by the Institute of Real Estate Management.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "certified-public-housing-manager",
+   "name": "Certified Public Housing Manager",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A certification for managers of public housing properties and programmes.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [
+    "Certified Public Housing Manager (PHM)"
+   ],
+   "relations": [
+    "related:assisted-housing-manager-ahm"
+   ]
+  },
+  {
+   "key": "certified-radiology-nurse",
+   "name": "Certified Radiology Nurse",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A certification for registered nurses who work in radiology and imaging.",
+   "certification": true,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "certified-registered-nurse-first-assistant",
+   "name": "Certified Registered Nurse First Assistant",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A certification for registered nurses who work as first assistants in surgery, awarded by the Competency & Credentialing Institute.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [
+    "CRNFA"
+   ],
+   "relations": []
+  },
+  {
+   "key": "certified-registered-nurse-infusion",
+   "name": "Certified Registered Nurse Infusion",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A certification for registered nurses who specialise in infusion therapy, awarded by the Infusion Nurses Certification Corporation.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [
+    "CRNI"
+   ],
+   "relations": []
+  },
+  {
+   "key": "certified-rehabilitation-registered-nurse",
+   "name": "Certified Rehabilitation Registered Nurse",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A certification for registered nurses who specialise in rehabilitation nursing, awarded by the Rehabilitation Nursing Certification Board.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [
+    "CRRN"
+   ],
+   "relations": []
+  },
+  {
+   "key": "certified-residential-specialist",
+   "name": "Certified Residential Specialist",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A real-estate certification for agents with advanced experience in residential sales, awarded by the Residential Real Estate Council.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "certified-rhythm-analysis-technician",
+   "name": "Certified Rhythm Analysis Technician",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A certification for technicians who monitor and interpret heart rhythms from ECG telemetry.",
+   "certification": true,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "certified-risk-adjustment-coder",
+   "name": "Certified Risk Adjustment Coder",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "An AAPC certification for coders who assign diagnosis codes used in risk adjustment payment models.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [],
+   "relations": [
+    "related:cpc-coder"
+   ]
+  },
+  {
+   "key": "certified-senior-project-manager",
+   "name": "Certified Senior Project Manager",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "Level B of the IPMA four-level project management certification, for managers of complex projects.",
+   "certification": true,
+   "variants": [
+    "IPMA Level B"
+   ],
+   "relations": []
+  },
+  {
+   "key": "certified-software-test-engineer",
+   "name": "Certified Software Test Engineer",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A software testing certification offered by the Quality Assurance Institute (QAI).",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [
+    "CSTE"
+   ],
+   "relations": [
+    "related:testing"
+   ]
+  },
+  {
+   "key": "certified-specialist-of-wine",
+   "name": "Certified Specialist of Wine",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A wine knowledge certification awarded by the Society of Wine Educators.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [],
+   "relations": []
+  }
+ ]
+}

@@ -1,0 +1,184 @@
+{
+ "allowed_kinds": [
+  "ability",
+  "credential",
+  "framework",
+  "human-language",
+  "knowledge",
+  "library",
+  "markup-language",
+  "method",
+  "modeling-language",
+  "platform",
+  "programming-language",
+  "skill",
+  "standard",
+  "style-language",
+  "tool",
+  "work-activity"
+ ],
+ "entries": [
+  {
+   "key": "va-loans",
+   "name": "VA loans",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "Mortgage loans guaranteed by the U.S. Department of Veterans Affairs for eligible service members and veterans.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "validation",
+   "name": "Data validation",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Checking data constraints, populations and transformations.",
+   "variants": [
+    "data quality"
+   ],
+   "relations": []
+  },
+  {
+   "key": "vector-search",
+   "name": "Vector search",
+   "class": "skill",
+   "kind": "method",
+   "definition": "Retrieving items using vector representations and a similarity measure.",
+   "variants": [
+    "semantic search",
+    "vector databases"
+   ],
+   "relations": []
+  },
+  {
+   "key": "vendor-management",
+   "name": "Vendor management",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Selecting, overseeing and evaluating the suppliers a business buys goods and services from.",
+   "certification": false,
+   "variants": [
+    "Managing Vendors"
+   ],
+   "relations": []
+  },
+  {
+   "key": "version-control",
+   "name": "Version control",
+   "class": "skill",
+   "kind": "method",
+   "definition": "Recording changes to files over time in a system, such as Git or Subversion, so that earlier versions can be recovered and several people can work on the same files.",
+   "certification": false,
+   "variants": [
+    "Revision Control Softwares",
+    "Revision control",
+    "Source control"
+   ],
+   "relations": []
+  },
+  {
+   "key": "visme",
+   "name": "Visme",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "An online tool for making presentations, infographics and other visual content.",
+   "certification": false,
+   "variants": [
+    "Visme (Software)"
+   ],
+   "relations": []
+  },
+  {
+   "key": "vyond",
+   "name": "Vyond",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "A cloud-based tool for making animated videos from templates and characters, called GoAnimate before 2018.",
+   "certification": false,
+   "variants": [
+    "GoAnimate"
+   ],
+   "relations": []
+  },
+  {
+   "key": "wave-phase",
+   "name": "Wave phase",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "For a repeating wave, how far through its cycle it is at a given moment, usually expressed as an angle.",
+   "certification": false,
+   "variants": [
+    "Phase (Waves)"
+   ],
+   "relations": []
+  },
+  {
+   "key": "web-development",
+   "name": "Web development",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Building software delivered through web technologies.",
+   "variants": [
+    "web programming"
+   ],
+   "relations": []
+  },
+  {
+   "key": "windows-10",
+   "name": "Windows 10",
+   "class": "skill",
+   "kind": "platform",
+   "definition": "The Microsoft operating system for personal computers released in 2015.",
+   "certification": false,
+   "variants": [
+    "Microsoft Windows 10"
+   ],
+   "relations": []
+  },
+  {
+   "key": "windows-7",
+   "name": "Windows 7",
+   "class": "skill",
+   "kind": "platform",
+   "definition": "The Microsoft operating system for personal computers released in 2009.",
+   "certification": false,
+   "variants": [
+    "Microsoft Windows 7"
+   ],
+   "relations": []
+  },
+  {
+   "key": "windows-8",
+   "name": "Windows 8",
+   "class": "skill",
+   "kind": "platform",
+   "definition": "The Microsoft operating system for personal computers released in 2012, known for its tile-based Start screen.",
+   "certification": false,
+   "variants": [
+    "Microsoft Windows 8"
+   ],
+   "relations": []
+  },
+  {
+   "key": "windows-software-development",
+   "name": "Windows software development",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Writing software that runs on the Microsoft Windows operating system.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "yahoo-messenger",
+   "name": "Yahoo Messenger",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "An instant messaging service from Yahoo, shut down in 2018.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  }
+ ]
+}

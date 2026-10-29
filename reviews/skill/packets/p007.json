@@ -1,0 +1,472 @@
+{
+ "allowed_kinds": [
+  "ability",
+  "credential",
+  "framework",
+  "human-language",
+  "knowledge",
+  "library",
+  "markup-language",
+  "method",
+  "modeling-language",
+  "platform",
+  "programming-language",
+  "skill",
+  "standard",
+  "style-language",
+  "tool",
+  "work-activity"
+ ],
+ "entries": [
+  {
+   "key": "back-end-development",
+   "name": "Back-end development",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Building and maintaining the server-side parts of software, such as application logic, databases and APIs.",
+   "certification": false,
+   "variants": [
+    "Back End (Software Engineering)",
+    "Backend development",
+    "Back end development"
+   ],
+   "relations": [
+    "broader:software-engineering"
+   ]
+  },
+  {
+   "key": "backbone-js",
+   "name": "Backbone.js",
+   "class": "skill",
+   "kind": "library",
+   "definition": "A lightweight JavaScript library that gives web applications structure through models, views, collections and routers.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "bacnet",
+   "name": "BACnet",
+   "class": "skill",
+   "kind": "standard",
+   "definition": "A communication protocol for building automation and control systems, standardised as ASHRAE 135 and ISO 16484-5.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "bacon-js",
+   "name": "Bacon.js",
+   "class": "skill",
+   "kind": "library",
+   "definition": "A JavaScript library for functional reactive programming that models events and changing values as observable streams.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "bacterial-culture",
+   "name": "Bacterial culture",
+   "class": "skill",
+   "kind": "method",
+   "definition": "Growing bacteria in a laboratory on or in nutrient media in order to isolate, identify or study them.",
+   "certification": false,
+   "variants": [
+    "Bacteria Cultures"
+   ],
+   "relations": []
+  },
+  {
+   "key": "bacteriology",
+   "name": "Bacteriology",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "The branch of microbiology that studies bacteria.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "balafon",
+   "name": "Balafon",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Playing the balafon, a West African tuned percussion instrument with wooden bars over gourd resonators, struck with mallets.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "balloon-modelling",
+   "name": "Balloon modelling",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Twisting and shaping long, narrow balloons into figures and decorations.",
+   "certification": false,
+   "variants": [
+    "Balloon modeling",
+    "Balloon twisting"
+   ],
+   "relations": []
+  },
+  {
+   "key": "banner-advertising",
+   "name": "Banner advertising",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Creating and managing banner ads, the rectangular graphic display advertisements placed on web pages and apps.",
+   "certification": false,
+   "variants": [
+    "Banner Ads"
+   ],
+   "relations": []
+  },
+  {
+   "key": "banyan-vines",
+   "name": "Banyan VINES",
+   "class": "skill",
+   "kind": "platform",
+   "definition": "A discontinued network operating system from Banyan Systems, used on enterprise networks in the 1980s and 1990s.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "barcode-systems",
+   "name": "Barcode systems",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "Technology that encodes data as patterns of bars or modules and reads it with scanners to identify products, items or locations.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "bariatric-surgery",
+   "name": "Bariatric surgery",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "Operations such as gastric bypass and sleeve gastrectomy that change the stomach or digestive tract to treat severe obesity.",
+   "certification": false,
+   "variants": [
+    "Bariatric Surgeries"
+   ],
+   "relations": []
+  },
+  {
+   "key": "baseline-personnel-security-standard",
+   "name": "Baseline Personnel Security Standard",
+   "class": "skill",
+   "kind": "standard",
+   "definition": "The UK government's minimum set of pre-employment checks, covering identity, right to work, employment history and unspent criminal convictions.",
+   "certification": false,
+   "variants": [
+    "Baseline Personnel Security Standard (BPSS)",
+    "BPSS"
+   ],
+   "relations": []
+  },
+  {
+   "key": "basex",
+   "name": "BaseX",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "A lightweight open-source XML database and XQuery processor.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "basic-block",
+   "name": "Basic block",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "A straight-line sequence of program instructions with one entry point and one exit and no branching in between, used in compiler analysis and optimisation.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "batman-js",
+   "name": "Batman.js",
+   "class": "skill",
+   "kind": "framework",
+   "definition": "A JavaScript framework, created at Shopify, for building single-page web applications.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "battery-technology",
+   "name": "Battery technology",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "The science and engineering of electrochemical cells that store and deliver electrical energy, including their chemistries, design, charging and management.",
+   "certification": false,
+   "variants": [
+    "Battery Technology (Battery)"
+   ],
+   "relations": []
+  },
+  {
+   "key": "battle-management",
+   "name": "Battle management",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Directing and coordinating military forces and assets during an operation, using real-time information about the battle.",
+   "certification": false,
+   "variants": [
+    "Battle Management (Military Terminology)"
+   ],
+   "relations": []
+  },
+  {
+   "key": "bed-mobility",
+   "name": "Bed mobility",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Helping a patient roll, shift position and move between lying and sitting in bed, and judging how much help they need.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "behavior-change-communication",
+   "name": "Behavior change communication",
+   "class": "skill",
+   "kind": "method",
+   "definition": "A public-health approach that uses targeted communication to encourage individuals and communities to adopt healthier behaviours.",
+   "certification": false,
+   "variants": [
+    "Behaviour change communication"
+   ],
+   "relations": []
+  },
+  {
+   "key": "behavioural-science",
+   "name": "Behavioural science",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "The study of human and animal behaviour through observation and experiment, drawing on fields such as psychology, sociology and economics.",
+   "certification": false,
+   "variants": [
+    "Behavioral science"
+   ],
+   "relations": []
+  },
+  {
+   "key": "benefits-realisation-management",
+   "name": "Benefits realisation management",
+   "class": "skill",
+   "kind": "method",
+   "definition": "A discipline of identifying, planning, tracking and delivering the benefits that a project or programme is meant to produce.",
+   "certification": false,
+   "variants": [
+    "Benefits realization management"
+   ],
+   "relations": []
+  },
+  {
+   "key": "bereavement-care",
+   "name": "Bereavement care",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Supporting people who are grieving after the death of someone close to them.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "berkeley-data-analytics-stack",
+   "name": "Berkeley Data Analytics Stack",
+   "class": "skill",
+   "kind": "platform",
+   "definition": "The open-source big-data software stack developed at UC Berkeley's AMPLab, whose components include Apache Spark and Apache Mesos.",
+   "certification": false,
+   "variants": [
+    "Berkeley Data Analytics Stack (BDAS)",
+    "BDAS"
+   ],
+   "relations": []
+  },
+  {
+   "key": "bidirectional-streams-over-synchronous-http",
+   "name": "Bidirectional-streams Over Synchronous HTTP",
+   "class": "skill",
+   "kind": "standard",
+   "definition": "An XMPP extension protocol (XEP-0124) that emulates a long-lived two-way connection between client and server using ordinary HTTP request and response pairs.",
+   "certification": false,
+   "variants": [
+    "Bidirectional-Streams Over Synchronous HTTP (BOSH)"
+   ],
+   "relations": []
+  },
+  {
+   "key": "big-o-notation",
+   "name": "Big O notation",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "Notation that describes how an algorithm's running time or memory use grows with the size of its input, giving an upper bound.",
+   "certification": false,
+   "variants": [
+    "Big O",
+    "Big-O notation"
+   ],
+   "relations": []
+  },
+  {
+   "key": "bigfix",
+   "name": "BigFix",
+   "class": "skill",
+   "kind": "platform",
+   "definition": "An endpoint management platform, now sold by HCL Software, for patching, configuring and securing computers across a network.",
+   "certification": false,
+   "variants": [
+    "BigFix (Endpoint Management Software)",
+    "HCL BigFix",
+    "IBM BigFix"
+   ],
+   "relations": []
+  },
+  {
+   "key": "bill-of-materials",
+   "name": "Bill of materials",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "A structured list of the raw materials, parts, assemblies and quantities needed to make a product.",
+   "certification": false,
+   "variants": [
+    "Bills of materials"
+   ],
+   "relations": []
+  },
+  {
+   "key": "binary-ninja",
+   "name": "Binary Ninja",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "A reverse-engineering platform from Vector 35 for disassembling, decompiling and analysing compiled programs.",
+   "certification": false,
+   "variants": [
+    "Binary Ninja (Reverse Engineering Software)"
+   ],
+   "relations": []
+  },
+  {
+   "key": "binary-options",
+   "name": "Binary options",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "Financial options that pay a fixed amount or nothing, depending on whether an underlying asset meets a set condition at expiry.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "bind",
+   "name": "BIND",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "Berkeley Internet Name Domain, the widely used open-source DNS server software maintained by the Internet Systems Consortium.",
+   "certification": false,
+   "variants": [
+    "Berkeley Internet Name Domain"
+   ],
+   "relations": []
+  },
+  {
+   "key": "biochemical-genetics",
+   "name": "Biochemical genetics",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "The study of how genes control biochemical processes in the body, including inherited metabolic disorders.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "bioconductor",
+   "name": "Bioconductor",
+   "class": "skill",
+   "kind": "platform",
+   "definition": "An open-source project that distributes R packages for analysing genomic and other biological data.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "biological-applications-of-bifurcation-theory",
+   "name": "Biological applications of bifurcation theory",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "The use of bifurcation theory, which studies how the behaviour of a dynamical system changes qualitatively as its parameters vary, to model biological systems.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "biomedical-informatics",
+   "name": "Biomedical informatics",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "The field that applies information science and computing to the collection, storage and analysis of biological and medical data.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "biomolecular-engineering",
+   "name": "Biomolecular engineering",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "Engineering that designs and modifies biological molecules such as proteins and nucleic acids for use in medicine, industry and research.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "biopesticide",
+   "name": "Biopesticide",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "Pest-control agents made from natural materials such as microbes, plants and minerals.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "biopython",
+   "name": "Biopython",
+   "class": "skill",
+   "kind": "library",
+   "definition": "An open-source Python library of tools for computational biology and bioinformatics, such as reading sequence files and working with protein structures.",
+   "certification": false,
+   "variants": [],
+   "relations": [
+    "related:python"
+   ]
+  },
+  {
+   "key": "biosensors",
+   "name": "Biosensors",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "Devices that pair a biological recognition element, such as an enzyme or antibody, with a transducer to detect a specific substance.",
+   "certification": false,
+   "variants": [
+    "Biosensor"
+   ],
+   "relations": []
+  },
+  {
+   "key": "bioterrorism-preparedness-and-response",
+   "name": "Bioterrorism preparedness and response",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "Planning for, detecting and responding to the deliberate release of biological agents that cause disease.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  }
+ ]
+}

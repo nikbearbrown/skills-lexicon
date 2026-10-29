@@ -1,0 +1,472 @@
+{
+ "allowed_kinds": [
+  "ability",
+  "credential",
+  "framework",
+  "human-language",
+  "knowledge",
+  "library",
+  "markup-language",
+  "method",
+  "modeling-language",
+  "platform",
+  "programming-language",
+  "skill",
+  "standard",
+  "style-language",
+  "tool",
+  "work-activity"
+ ],
+ "entries": [
+  {
+   "key": "python-tools-for-visual-studio",
+   "name": "Python Tools for Visual Studio",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "A free, open-source extension that adds Python editing, debugging and project support to Microsoft Visual Studio.",
+   "certification": false,
+   "variants": [
+    "PTVS"
+   ],
+   "relations": []
+  },
+  {
+   "key": "pytorch",
+   "name": "PyTorch",
+   "class": "skill",
+   "kind": "library",
+   "definition": "Building and training tensor-based machine-learning models with PyTorch.",
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "qarun",
+   "name": "QARun",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "A Compuware tool for recording, scripting and replaying automated tests of an application's user interface.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "qlik-sense",
+   "name": "Qlik Sense",
+   "class": "skill",
+   "kind": "platform",
+   "definition": "A data analytics and business-intelligence platform from Qlik for building interactive dashboards and exploring data.",
+   "certification": false,
+   "variants": [
+    "Qliksense"
+   ],
+   "relations": []
+  },
+  {
+   "key": "qlikview",
+   "name": "QlikView",
+   "class": "skill",
+   "kind": "platform",
+   "definition": "An in-memory business-intelligence tool from Qlik for building interactive dashboards and reports.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "qs-1",
+   "name": "QS/1",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "Pharmacy management software used to handle prescriptions, billing and inventory in a pharmacy.",
+   "certification": false,
+   "variants": [
+    "QS/1 (Pharmacy Management Software)"
+   ],
+   "relations": [
+    "related:computerrx"
+   ]
+  },
+  {
+   "key": "qualitative-data-analysis",
+   "name": "Qualitative data analysis",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Examining non-numerical data such as interview transcripts, field notes and open-ended answers to find themes and meaning.",
+   "certification": false,
+   "variants": [],
+   "relations": [
+    "related:computer-assisted-qualitative-data-analysis-software-caqdas"
+   ]
+  },
+  {
+   "key": "quantitative-models-of-the-action-potential",
+   "name": "Quantitative models of the action potential",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "Mathematical models, such as the Hodgkin-Huxley model, that describe how a nerve cell's membrane voltage changes during an action potential.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "quantum-dot",
+   "name": "Quantum dot",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "A semiconductor crystal a few nanometres across whose size sets the colour of light it emits and absorbs.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "quantum-merlin-arthur",
+   "name": "Quantum Merlin Arthur",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "A computational complexity class of decision problems whose yes answers a quantum computer can check from a quantum proof of reasonable size, the quantum counterpart of NP.",
+   "certification": false,
+   "variants": [
+    "Quantum Merlin Arthur (QMA)",
+    "QMA"
+   ],
+   "relations": []
+  },
+  {
+   "key": "quantum-spin-hall-effect",
+   "name": "Quantum spin Hall effect",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "A state of matter in which a material's interior is an electrical insulator while its edges carry currents of electrons whose spin direction depends on the direction they travel.",
+   "certification": false,
+   "variants": [
+    "Quantum Spin Hall Effects"
+   ],
+   "relations": []
+  },
+  {
+   "key": "quartile",
+   "name": "Quartile",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "One of three values that divide a sorted set of data into four equal-sized groups.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "queer-theory",
+   "name": "Queer theory",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "An academic field, emerging in the early 1990s, that examines how categories of sexuality and gender are made and challenged in culture and society.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "question-answering",
+   "name": "Question answering",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "The natural language processing task in which a system gives answers to questions asked in everyday language.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "queue-management-system",
+   "name": "Queue management system",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "A system that issues tickets to customers, puts them in order and shows who is called next, as in banks, clinics and service offices.",
+   "certification": false,
+   "variants": [
+    "Queue Management Systems"
+   ],
+   "relations": []
+  },
+  {
+   "key": "quicktime-vr",
+   "name": "QuickTime VR",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "An Apple technology within QuickTime for viewing panoramic images and object movies interactively.",
+   "certification": false,
+   "variants": [
+    "QTVR"
+   ],
+   "relations": []
+  },
+  {
+   "key": "qumu",
+   "name": "Qumu",
+   "class": "skill",
+   "kind": "platform",
+   "definition": "An enterprise video platform for creating, managing and streaming video inside organisations, from Qumu Corporation.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "quotewerks",
+   "name": "QuoteWerks",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "Software for creating sales quotes, proposals and orders that links to accounting, CRM and distributor product data.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "rack-elevation-drawings",
+   "name": "Rack elevation drawings",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Preparing or reading drawings that show the front view of an equipment rack and where each device sits in it.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "radare2",
+   "name": "Radare2",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "An open-source framework of command-line tools for disassembling, debugging and analysing binary files.",
+   "certification": false,
+   "variants": [
+    "Radare2 (Reverse Engineering Software)"
+   ],
+   "relations": [
+    "related:ghidra",
+    "related:binary-ninja"
+   ]
+  },
+  {
+   "key": "rail-safety",
+   "name": "Rail safety",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "Practices, rules and equipment used to prevent accidents and injuries on railways.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "railway-signalling",
+   "name": "Railway signalling",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "The systems and rules that control train movements and keep trains apart, such as signals, track circuits and interlockings.",
+   "certification": false,
+   "variants": [
+    "Railway signaling",
+    "Rail signalling"
+   ],
+   "relations": []
+  },
+  {
+   "key": "rally-software",
+   "name": "Rally Software",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "An agile project-management and portfolio-planning tool, made by Rally Software and later owned by CA Technologies and then Broadcom.",
+   "certification": false,
+   "variants": [
+    "Rally Softwares"
+   ],
+   "relations": []
+  },
+  {
+   "key": "rancher",
+   "name": "Rancher",
+   "class": "skill",
+   "kind": "platform",
+   "definition": "An open-source platform for deploying and managing many Kubernetes clusters, developed by Rancher Labs and later SUSE.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "random-forest",
+   "name": "Random forest",
+   "class": "skill",
+   "kind": "method",
+   "definition": "A machine-learning method that builds many decision trees on random samples of the data and combines their outputs for classification or regression.",
+   "certification": false,
+   "variants": [
+    "Random forests"
+   ],
+   "relations": []
+  },
+  {
+   "key": "random-testing",
+   "name": "Random testing",
+   "class": "skill",
+   "kind": "method",
+   "definition": "Testing software by giving it randomly generated inputs and checking that it behaves correctly.",
+   "certification": false,
+   "variants": [],
+   "relations": [
+    "broader:testing"
+   ]
+  },
+  {
+   "key": "random-variable",
+   "name": "Random variable",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "A quantity whose value depends on the outcome of a random process and is described by a probability distribution.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "randomization",
+   "name": "Randomization",
+   "class": "skill",
+   "kind": "method",
+   "definition": "Using chance to assign subjects to groups, order items or pick samples so that no systematic bias creeps in.",
+   "certification": false,
+   "variants": [
+    "Randomization (Randomness)"
+   ],
+   "relations": []
+  },
+  {
+   "key": "rankine-cycle",
+   "name": "Rankine cycle",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "A thermodynamic cycle, used in steam power plants, in which water is boiled, expanded through a turbine, condensed and pumped back to the boiler.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "ravendb",
+   "name": "RavenDB",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "A NoSQL document database that stores JSON documents and supports ACID transactions.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "ray-tracing",
+   "name": "Ray tracing",
+   "class": "skill",
+   "kind": "method",
+   "definition": "A rendering technique that makes images by following the paths of light rays through a scene and calculating how they bounce off and pass through surfaces.",
+   "certification": false,
+   "variants": [
+    "Raytracing"
+   ],
+   "relations": []
+  },
+  {
+   "key": "react",
+   "name": "React",
+   "class": "skill",
+   "kind": "library",
+   "definition": "A user-interface library; not synonymous with React Native.",
+   "variants": [
+    "React.js",
+    "React.js (Javascript Library Library)",
+    "Reactjs"
+   ],
+   "relations": []
+  },
+  {
+   "key": "reactivex",
+   "name": "ReactiveX",
+   "class": "skill",
+   "kind": "library",
+   "definition": "A family of libraries, such as RxJava and RxJS, for writing asynchronous and event-driven programs by composing streams of events called observables.",
+   "certification": false,
+   "variants": [
+    "Reactive Extensions"
+   ],
+   "relations": []
+  },
+  {
+   "key": "reading-gauges",
+   "name": "Reading gauges",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Reading analog or digital gauges to check pressure, temperature, levels or flow on equipment.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "reading-technical-drawings",
+   "name": "Reading technical drawings",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Reading technical drawings such as blueprints and schematics to understand the shapes, dimensions and instructions they show.",
+   "certification": false,
+   "variants": [
+    "Interpret Drawings",
+    "Blueprint reading"
+   ],
+   "relations": [
+    "related:engineering-drawing"
+   ]
+  },
+  {
+   "key": "reading-to-children",
+   "name": "Reading to children",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Reading books and stories aloud to children, for example to build their listening, language and interest in reading.",
+   "certification": false,
+   "variants": [
+    "Read To Children"
+   ],
+   "relations": []
+  },
+  {
+   "key": "readyapi",
+   "name": "ReadyAPI",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "A SmartBear suite of tools for testing and monitoring APIs, covering functional, security and load testing.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "real-estate",
+   "name": "Real estate",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "Land and the buildings on it, and the field of buying, selling, leasing, valuing and managing them.",
+   "certification": false,
+   "variants": [
+    "Real Estates"
+   ],
+   "relations": []
+  },
+  {
+   "key": "real-estate-contracts",
+   "name": "Real estate contracts",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "The agreements, such as purchase, sale and lease contracts, used to transfer or let property, and the rules on how they are written and enforced.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "real-estate-market-analysis",
+   "name": "Real estate market analysis",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Studying prices, supply, demand and trends in a property market to judge the value of properties and the prospects of an area.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  }
+ ]
+}

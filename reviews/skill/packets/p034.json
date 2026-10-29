@@ -1,0 +1,463 @@
+{
+ "allowed_kinds": [
+  "ability",
+  "credential",
+  "framework",
+  "human-language",
+  "knowledge",
+  "library",
+  "markup-language",
+  "method",
+  "modeling-language",
+  "platform",
+  "programming-language",
+  "skill",
+  "standard",
+  "style-language",
+  "tool",
+  "work-activity"
+ ],
+ "entries": [
+  {
+   "key": "lookup-table",
+   "name": "Lookup table",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "A table of precomputed values indexed by an input, used to replace repeated calculation with a quick lookup.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "low-code-development-platform",
+   "name": "Low-code development platform",
+   "class": "skill",
+   "kind": "platform",
+   "definition": "A software platform for building applications mainly through visual modelling and configuration instead of hand-written code.",
+   "certification": false,
+   "variants": [
+    "Low-Code Development Platform (LCDP)",
+    "Low-code platform",
+    "LCDP"
+   ],
+   "relations": []
+  },
+  {
+   "key": "low-risk-neonatal-nursing",
+   "name": "Low risk neonatal nursing",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Nursing care of healthy newborns and those with minor health problems, usually in a normal newborn nursery.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "low-voltage-transistor-transistor-logic",
+   "name": "Low Voltage Transistor-Transistor Logic",
+   "class": "skill",
+   "kind": "standard",
+   "definition": "A digital logic signalling standard that uses transistor-transistor logic levels at a lower supply voltage, typically 3.3 volts.",
+   "certification": false,
+   "variants": [
+    "Low Voltage Transistor Transistor Logic",
+    "LVTTL"
+   ],
+   "relations": []
+  },
+  {
+   "key": "luigi",
+   "name": "Luigi",
+   "class": "skill",
+   "kind": "library",
+   "definition": "A Python library from Spotify for building and scheduling pipelines of batch jobs that depend on one another.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "lumion",
+   "name": "Lumion",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "3D rendering software that architects and designers use to turn building models into images, videos and walkthroughs.",
+   "certification": false,
+   "variants": [
+    "Lumion (3D Rendering Software)"
+   ],
+   "relations": []
+  },
+  {
+   "key": "lymphedema-management",
+   "name": "Lymphedema management",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Assessing and treating lymphedema with techniques such as manual lymph drainage, compression and exercise.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "m2crypto",
+   "name": "M2Crypto",
+   "class": "skill",
+   "kind": "library",
+   "definition": "A Python library that wraps OpenSSL to provide encryption, SSL/TLS and certificate handling.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "machine-learning",
+   "name": "Machine learning",
+   "class": "skill",
+   "kind": "method",
+   "definition": "Building and evaluating models that learn patterns from data.",
+   "variants": [
+    "ML"
+   ],
+   "relations": []
+  },
+  {
+   "key": "machine-operation",
+   "name": "Machine operation",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Setting up, running and monitoring machinery to make goods or carry out a process.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "machine-tools",
+   "name": "Machine tools",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "Power-driven machines, such as lathes and milling machines, that cut or shape metal and other materials.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "machining-technology",
+   "name": "Machining technology",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "The processes, machines and tools used to shape workpieces by cutting material away.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "macintosh-application-environment",
+   "name": "Macintosh Application Environment",
+   "class": "skill",
+   "kind": "platform",
+   "definition": "Apple software from the mid-1990s that let Mac OS applications run on Unix workstations.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "macos",
+   "name": "macOS",
+   "class": "skill",
+   "kind": "platform",
+   "definition": "Apple's operating system for Mac computers, called OS X or Mac OS X before 2016.",
+   "certification": false,
+   "variants": [
+    "Apple OS X",
+    "OS X",
+    "Mac OS X"
+   ],
+   "relations": []
+  },
+  {
+   "key": "mail-distribution",
+   "name": "Mail distribution",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Sorting incoming mail and packages and delivering them to the right people or departments in an organisation.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "mail-processing",
+   "name": "Mail processing",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Receiving, opening, sorting and routing incoming and outgoing mail.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "mainframe-storage",
+   "name": "Mainframe storage",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "The disk and tape storage systems, and the software that manages them, used with mainframe computers.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "malware-analysis",
+   "name": "Malware analysis",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Examining malicious software to understand how it works, what it does and how to detect or remove it.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "mammalian-cell-culture",
+   "name": "Mammalian cell culture",
+   "class": "skill",
+   "kind": "method",
+   "definition": "Growing cells taken from mammals in a laboratory under controlled conditions so they can be studied or used.",
+   "certification": false,
+   "variants": [
+    "Mammalian Cell Cultures"
+   ],
+   "relations": [
+    "related:bacterial-culture"
+   ]
+  },
+  {
+   "key": "manure-spreader",
+   "name": "Manure spreader",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "Farm machinery that spreads manure over fields as fertiliser.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "map-production",
+   "name": "Map production",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Compiling, designing and publishing maps from geographic data.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "map-reading",
+   "name": "Map reading",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Interpreting the symbols, scale and features of a map to find locations and plan routes.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "mapdb",
+   "name": "MapDB",
+   "class": "skill",
+   "kind": "library",
+   "definition": "A Java library that provides maps, sets and other collections backed by an embedded database engine on disk or in memory.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "margin-lending",
+   "name": "Margin lending",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "Lending money to investors so they can buy securities, with the securities held as collateral.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "marine-navigation",
+   "name": "Marine navigation",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Finding a vessel's position and plotting and following its course at sea.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "marine-radar",
+   "name": "Marine radar",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "Radar equipment used on ships to detect other vessels, land and hazards.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "marionette-js",
+   "name": "Marionette.js",
+   "class": "skill",
+   "kind": "library",
+   "definition": "A JavaScript library built on Backbone.js that adds application structure, composite views and event handling for single-page apps.",
+   "certification": false,
+   "variants": [
+    "MarionetteJS",
+    "Backbone.Marionette"
+   ],
+   "relations": []
+  },
+  {
+   "key": "maritime-law-enforcement",
+   "name": "Maritime law enforcement",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Enforcing laws and regulations at sea and in ports, for example by patrolling, boarding vessels and stopping smuggling or illegal fishing.",
+   "certification": false,
+   "variants": [],
+   "relations": [
+    "related:law-enforcement-operations"
+   ]
+  },
+  {
+   "key": "market-capitalization",
+   "name": "Market capitalization",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "The total market value of a company's shares, found by multiplying the share price by the number of shares outstanding.",
+   "certification": false,
+   "variants": [
+    "Market cap",
+    "Market capitalisation"
+   ],
+   "relations": []
+  },
+  {
+   "key": "market-depth",
+   "name": "Market depth",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "A measure of how many buy and sell orders sit at different prices, showing how large a trade a market can absorb without the price moving much.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "marketing-management",
+   "name": "Marketing management",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Planning, coordinating and overseeing an organisation's marketing work, from research and strategy to campaigns and results.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "marketing-strategy",
+   "name": "Marketing strategy",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Deciding which customers, offers and channels a business will focus on to meet its marketing goals.",
+   "certification": false,
+   "variants": [],
+   "relations": [
+    "related:go-to-market-strategy",
+    "related:brand-strategy"
+   ]
+  },
+  {
+   "key": "masonry",
+   "name": "Masonry",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "The craft of building walls and structures by laying bricks, stone or concrete blocks with mortar.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "mass-media",
+   "name": "Mass media",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "The study of the channels, such as press, broadcasting and online platforms, that reach large audiences.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "massage",
+   "name": "Massage",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Working the muscles and soft tissue of the body by hand to ease tension and pain or to help a person relax.",
+   "certification": false,
+   "variants": [
+    "Massages"
+   ],
+   "relations": [
+    "related:anma-massage"
+   ]
+  },
+  {
+   "key": "master-production-records",
+   "name": "Master production records",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "Controlled documents that set out the materials, steps and checks for making a product batch in regulated manufacturing.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "material-flow",
+   "name": "Material flow",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "How raw materials, parts and finished goods move through a plant or supply chain, and how that movement is planned and tracked.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "materials-testing",
+   "name": "Materials testing",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Measuring the strength, hardness and other physical or chemical properties of materials to check they meet a specification.",
+   "certification": false,
+   "variants": [
+    "Materials Testing (Tests)"
+   ],
+   "relations": []
+  },
+  {
+   "key": "mathematica",
+   "name": "Mathematica",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "Wolfram's software system for symbolic and numerical computation, visualisation and programming.",
+   "certification": false,
+   "variants": [
+    "Wolfram Mathematica"
+   ],
+   "relations": []
+  },
+  {
+   "key": "mathematics",
+   "name": "Mathematics",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "The study of numbers, quantities, shapes and patterns, and of the logical reasoning used to prove facts about them.",
+   "certification": false,
+   "variants": [],
+   "relations": [
+    "related:arithmetic",
+    "related:mathematical-reasoning",
+    "related:engineering-mathematics"
+   ]
+  }
+ ]
+}

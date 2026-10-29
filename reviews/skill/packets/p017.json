@@ -1,0 +1,447 @@
+{
+ "allowed_kinds": [
+  "ability",
+  "credential",
+  "framework",
+  "human-language",
+  "knowledge",
+  "library",
+  "markup-language",
+  "method",
+  "modeling-language",
+  "platform",
+  "programming-language",
+  "skill",
+  "standard",
+  "style-language",
+  "tool",
+  "work-activity"
+ ],
+ "entries": [
+  {
+   "key": "desmos",
+   "name": "Desmos",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "A free online graphing calculator and set of maths learning tools.",
+   "certification": false,
+   "variants": [
+    "Desmos (Mathematics Software)"
+   ],
+   "relations": []
+  },
+  {
+   "key": "destoner",
+   "name": "Destoner",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "A farm machine that separates stones and clods from soil, used to prepare fields for root crops such as potatoes.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "deterministic-methods",
+   "name": "Deterministic methods",
+   "class": "skill",
+   "kind": "method",
+   "definition": "Methods whose result is fully determined by their inputs, with no randomness involved.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "dethatcher",
+   "name": "Dethatcher",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "A machine or hand tool that removes thatch, the layer of dead grass and roots, from a lawn.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "developmentally-appropriate-practice",
+   "name": "Developmentally appropriate practice",
+   "class": "skill",
+   "kind": "method",
+   "definition": "An approach to early childhood teaching that fits activities to children's age, individual needs and cultural background, as set out by the National Association for the Education of Young Children.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "devexpress",
+   "name": "DevExpress",
+   "class": "skill",
+   "kind": "library",
+   "definition": "A suite of user-interface component and reporting libraries for .NET, web and other application development, sold by the company DevExpress.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "deviation-investigation",
+   "name": "Deviation investigation",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Finding the cause of a departure from an approved procedure or specification, mainly in regulated manufacturing such as pharmaceuticals, and recording the findings.",
+   "certification": false,
+   "variants": [
+    "Deviation Investigations"
+   ],
+   "relations": []
+  },
+  {
+   "key": "deviation-management",
+   "name": "Deviation management",
+   "class": "skill",
+   "kind": "method",
+   "definition": "The process of recording, investigating, assessing and closing out departures from approved procedures in regulated manufacturing such as pharmaceuticals.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "devops",
+   "name": "DevOps",
+   "class": "skill",
+   "kind": "method",
+   "definition": "Coordinating software delivery and operations workflows.",
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "devsecops",
+   "name": "DevSecOps",
+   "class": "skill",
+   "kind": "method",
+   "definition": "Building security checks into every stage of software development and delivery as part of a DevOps workflow.",
+   "certification": false,
+   "variants": [],
+   "relations": [
+    "related:devops"
+   ]
+  },
+  {
+   "key": "diagnostic-analysis",
+   "name": "Diagnostic analysis",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Examining data or a system's behaviour to work out why something happened or went wrong.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "diagnostic-audiology",
+   "name": "Diagnostic audiology",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "The branch of audiology that tests hearing and balance to identify and measure disorders.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "dialectology",
+   "name": "Dialectology",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "The study of regional and social varieties of a language.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "dialogflow",
+   "name": "Dialogflow",
+   "class": "skill",
+   "kind": "platform",
+   "definition": "Google Cloud's platform for building chatbots and voice agents that understand natural language.",
+   "certification": false,
+   "variants": [
+    "Dialogflow (Google Service)",
+    "Google Dialogflow"
+   ],
+   "relations": []
+  },
+  {
+   "key": "dictaphone",
+   "name": "Dictaphone",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "A device for recording speech so that it can be played back and typed up later.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "dictation",
+   "name": "Dictation",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Taking down spoken words as text, or speaking text aloud so that it can be recorded and typed up.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "dietetics",
+   "name": "Dietetics",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "The science and practice of using food and nutrition to promote health and treat disease.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "digital-accessibility",
+   "name": "Digital accessibility",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Designing digital experiences usable by people with disabilities.",
+   "variants": [
+    "accessibility"
+   ],
+   "relations": []
+  },
+  {
+   "key": "digital-advertising",
+   "name": "Digital advertising",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Planning, buying and running paid advertisements on digital channels such as search, social media and websites.",
+   "certification": false,
+   "variants": [
+    "Digital Ads"
+   ],
+   "relations": []
+  },
+  {
+   "key": "digital-ai",
+   "name": "Digital.ai",
+   "class": "skill",
+   "kind": "platform",
+   "definition": "A software delivery platform from the company Digital.ai that covers agile planning, release and deployment automation, and application security.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "digital-communications",
+   "name": "Digital communications",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Communicating with people through digital channels such as email, messaging, video calls and social media.",
+   "certification": false,
+   "variants": [],
+   "relations": [
+    "broader:communication"
+   ]
+  },
+  {
+   "key": "digital-currencies",
+   "name": "Digital currencies",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "Money that exists only in electronic form, including cryptocurrencies and central bank digital currencies.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "digital-customer-strategy",
+   "name": "Digital customer strategy",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Defining how a business will attract, serve and keep customers through digital channels, and the plan for achieving that.",
+   "certification": false,
+   "variants": [],
+   "relations": [
+    "related:customer-engagement-strategy",
+    "related:customer-experience-strategy"
+   ]
+  },
+  {
+   "key": "digital-fluency",
+   "name": "Digital fluency",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Using digital tools confidently and choosing the right one for the task.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "digital-health-technologies",
+   "name": "Digital health technologies",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "Technologies used in health care and wellbeing, such as telehealth, electronic health records, wearables and health apps.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "digital-humanities",
+   "name": "Digital humanities",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "A field that applies computing methods, such as text analysis and digital archives, to the study of the humanities.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "digital-journalism",
+   "name": "Digital journalism",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Gathering and reporting news for online outlets, using digital tools such as social media, multimedia and audience analytics.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "digital-merchandising",
+   "name": "Digital merchandising",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Selecting, arranging and promoting products on a website or app to help shoppers find and buy them.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "digital-private-network-signalling-system",
+   "name": "Digital Private Network Signalling System",
+   "class": "skill",
+   "kind": "standard",
+   "definition": "A signalling protocol, developed by British Telecom, that lets private telephone exchanges of different makers share calls and features over digital links.",
+   "certification": false,
+   "variants": [
+    "Digital Private Network Signalling Systems",
+    "DPNSS"
+   ],
+   "relations": []
+  },
+  {
+   "key": "digital-rights-management",
+   "name": "Digital rights management",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "Technology and policy for controlling how copyrighted digital content can be accessed, copied and shared.",
+   "certification": false,
+   "variants": [
+    "DRM"
+   ],
+   "relations": []
+  },
+  {
+   "key": "digital-skills",
+   "name": "Digital skills",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Being able to use computers, software and online services to do everyday and work tasks.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "digital-transformation",
+   "name": "Digital transformation",
+   "class": "skill",
+   "kind": "method",
+   "definition": "Using digital technology to change how an organisation works, serves its customers and competes.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "dijkstra-s-algorithm",
+   "name": "Dijkstra's algorithm",
+   "class": "skill",
+   "kind": "method",
+   "definition": "An algorithm that finds the shortest paths from one node of a weighted graph to all the others, as long as no edge weight is negative.",
+   "certification": false,
+   "variants": [
+    "Dijkstra algorithm"
+   ],
+   "relations": []
+  },
+  {
+   "key": "dimensions-cm",
+   "name": "Dimensions CM",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "Software for version control and for managing changes and releases of software assets, now sold by OpenText.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "direct-digital-control",
+   "name": "Direct digital control",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "Using microprocessor-based controllers, rather than analogue ones, to control building systems such as heating, ventilation and cooling.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "directx-video-acceleration",
+   "name": "DirectX Video Acceleration",
+   "class": "skill",
+   "kind": "library",
+   "definition": "A Microsoft programming interface that lets video decoding and processing run on a computer's graphics hardware.",
+   "certification": false,
+   "variants": [
+    "DXVA"
+   ],
+   "relations": []
+  },
+  {
+   "key": "disability-insurance",
+   "name": "Disability insurance",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "Insurance that pays part of a person's income if illness or injury stops them from working.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "disaster-loans",
+   "name": "Disaster loans",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "Loans that help people and businesses repair or rebuild after a disaster, most notably the low-interest loans made by the US Small Business Administration.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "discipleship",
+   "name": "Discipleship",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Teaching and mentoring people in Christian faith and practice, often one to one or in small groups.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "dispute-management",
+   "name": "Dispute management",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Handling and resolving disagreements or contested claims, such as disputed payments, between parties.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  }
+ ]
+}

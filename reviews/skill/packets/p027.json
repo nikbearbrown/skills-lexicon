@@ -1,0 +1,469 @@
+{
+ "allowed_kinds": [
+  "ability",
+  "credential",
+  "framework",
+  "human-language",
+  "knowledge",
+  "library",
+  "markup-language",
+  "method",
+  "modeling-language",
+  "platform",
+  "programming-language",
+  "skill",
+  "standard",
+  "style-language",
+  "tool",
+  "work-activity"
+ ],
+ "entries": [
+  {
+   "key": "history-of-science",
+   "name": "History of science",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "The study of how scientific ideas, methods and institutions have developed over time.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "hockett-s-design-features",
+   "name": "Hockett's design features",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "A set of features proposed by the linguist Charles Hockett that characterise human language and set it apart from animal communication.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "honeypot",
+   "name": "Honeypot",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "A decoy system or resource set up to attract attackers so their methods can be detected and studied.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "hootsuite",
+   "name": "Hootsuite",
+   "class": "skill",
+   "kind": "platform",
+   "definition": "A social media management platform for scheduling posts, monitoring accounts and reporting on results.",
+   "certification": false,
+   "variants": [
+    "Hootsuite (Social Media Management Software)"
+   ],
+   "relations": []
+  },
+  {
+   "key": "host-based-security-system",
+   "name": "Host Based Security System",
+   "class": "skill",
+   "kind": "platform",
+   "definition": "The US Department of Defense's endpoint security suite, built on McAfee ePolicy Orchestrator, for monitoring and protecting hosts.",
+   "certification": false,
+   "variants": [
+    "Host Based Security System (HBSS)",
+    "HBSS"
+   ],
+   "relations": []
+  },
+  {
+   "key": "hotel-and-restaurant-management",
+   "name": "Hotel and restaurant management",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Running the operations of hotels and restaurants, including staff, service, finances and guest satisfaction.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "hotel-management",
+   "name": "Hotel management",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Overseeing the daily operation of a hotel, including rooms, staff, finances and guest service.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "hotjava",
+   "name": "HotJava",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "A web browser written in Java by Sun Microsystems in the 1990s.",
+   "certification": false,
+   "variants": [],
+   "relations": [
+    "related:java"
+   ]
+  },
+  {
+   "key": "hp-2100",
+   "name": "HP 2100",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "A series of 16-bit minicomputers made by Hewlett-Packard from the 1960s.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "hp-9845c",
+   "name": "HP 9845C",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "A colour-display model of Hewlett-Packard's HP 9845 series of technical desktop computers.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "hp-application-lifecycle-management",
+   "name": "HP Application Lifecycle Management",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "HP's software suite for managing requirements, testing and defects across the life of a software application.",
+   "certification": false,
+   "variants": [
+    "HP Application Lifecycle Management (ALM)",
+    "HP ALM"
+   ],
+   "relations": []
+  },
+  {
+   "key": "hp-brio",
+   "name": "HP Brio",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "A line of business desktop personal computers sold by Hewlett-Packard.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "hp-jornada",
+   "name": "HP Jornada",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "A line of Hewlett-Packard handheld computers and personal digital assistants running Windows CE.",
+   "certification": false,
+   "variants": [
+    "HP Jornada (PDA)"
+   ],
+   "relations": []
+  },
+  {
+   "key": "hp-newwave",
+   "name": "HP NewWave",
+   "class": "skill",
+   "kind": "platform",
+   "definition": "A graphical, object-oriented desktop environment from Hewlett-Packard that ran on top of Microsoft Windows.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "hp-quality-center",
+   "name": "HP Quality Center",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "A test management tool from HP, originally developed by Mercury Interactive, for managing requirements, test cases and defects.",
+   "certification": false,
+   "variants": [
+    "HP Quality Centers"
+   ],
+   "relations": []
+  },
+  {
+   "key": "hp-systems-insight-manager",
+   "name": "HP Systems Insight Manager",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "HP software for monitoring and managing HP servers, storage and network devices from one console.",
+   "certification": false,
+   "variants": [
+    "HP SIM"
+   ],
+   "relations": []
+  },
+  {
+   "key": "hp-winrunner",
+   "name": "HP WinRunner",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "An automated functional testing tool, originally from Mercury Interactive, that records and replays user actions on graphical applications.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "hr-analytics",
+   "name": "HR analytics",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Analysing workforce data to inform decisions about hiring, retention, pay and performance.",
+   "certification": false,
+   "variants": [
+    "People analytics"
+   ],
+   "relations": []
+  },
+  {
+   "key": "html-emails",
+   "name": "HTML emails",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Designing and coding email messages in HTML, allowing for the uneven way email clients display them.",
+   "certification": false,
+   "variants": [
+    "HTML email"
+   ],
+   "relations": []
+  },
+  {
+   "key": "html-formatting",
+   "name": "HTML formatting",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Marking up and styling text and page content with HTML tags.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "html5shiv",
+   "name": "html5shiv",
+   "class": "skill",
+   "kind": "library",
+   "definition": "A small JavaScript library that lets old versions of Internet Explorer recognise and style HTML5 elements.",
+   "certification": false,
+   "variants": [
+    "HTML5 Shiv"
+   ],
+   "relations": [
+    "related:html"
+   ]
+  },
+  {
+   "key": "hubspot-crm",
+   "name": "HubSpot CRM",
+   "class": "skill",
+   "kind": "platform",
+   "definition": "HubSpot's customer relationship management software for tracking contacts, companies, deals and sales activity.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "human-capital-management-integration",
+   "name": "Human capital management integration",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Connecting human capital management software, which holds HR and payroll data, with other business systems so that data flows between them.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "human-factors",
+   "name": "Human factors",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "The study of how people interact with machines, systems and environments, used to make them safer, easier to use and more effective.",
+   "certification": false,
+   "variants": [
+    "Human factors and ergonomics"
+   ],
+   "relations": []
+  },
+  {
+   "key": "human-factors-engineering",
+   "name": "Human factors engineering",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Applying knowledge of human abilities and limits to design equipment, interfaces and tasks that are safe, usable and effective.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "human-machine-interface",
+   "name": "Human-machine interface",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "The screens, controls and displays through which an operator monitors and controls a machine or industrial process.",
+   "certification": false,
+   "variants": [
+    "Human -Machine Interface",
+    "HMI"
+   ],
+   "relations": []
+  },
+  {
+   "key": "human-musculoskeletal-system",
+   "name": "Human musculoskeletal system",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "The bones, muscles, joints and connective tissue that support the human body and let it move.",
+   "certification": false,
+   "variants": [
+    "Human Musculoskeletal Systems"
+   ],
+   "relations": []
+  },
+  {
+   "key": "human-rights-law",
+   "name": "Human rights law",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "The national and international laws that protect people's basic rights and freedoms.",
+   "certification": false,
+   "variants": [
+    "Human Rights Laws"
+   ],
+   "relations": []
+  },
+  {
+   "key": "hvac-automation-systems",
+   "name": "HVAC automation systems",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "Systems that automatically monitor and control heating, ventilation and air conditioning equipment in buildings.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "hvac-controls",
+   "name": "HVAC controls",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "The sensors, thermostats and controllers that regulate heating, ventilation and air conditioning equipment.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "hybrid-mobile-app-development",
+   "name": "Hybrid mobile app development",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Building mobile apps with web technologies such as HTML, CSS and JavaScript inside a native container, so one code base runs on several platforms.",
+   "certification": false,
+   "variants": [
+    "Hybrid Mobile App"
+   ],
+   "relations": []
+  },
+  {
+   "key": "hydraulic-snubbing",
+   "name": "Hydraulic snubbing",
+   "class": "skill",
+   "kind": "method",
+   "definition": "An oil-well service technique in which a hydraulic unit pushes pipe into, or pulls it out of, a well that is under pressure.",
+   "certification": false,
+   "variants": [
+    "Snubbing"
+   ],
+   "relations": []
+  },
+  {
+   "key": "hydrological-modelling",
+   "name": "Hydrological modelling",
+   "class": "skill",
+   "kind": "method",
+   "definition": "Using mathematical models to simulate how water moves through catchments, rivers and aquifers.",
+   "certification": false,
+   "variants": [
+    "Hydrological modeling",
+    "Hydrologic modeling",
+    "Hydrologic modelling"
+   ],
+   "relations": []
+  },
+  {
+   "key": "hyperbaric-welding",
+   "name": "Hyperbaric welding",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Welding carried out at raised pressure, usually inside a sealed dry chamber around underwater structures such as pipelines.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "hypercompact-stellar-systems",
+   "name": "Hypercompact stellar systems",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "Dense clusters of stars predicted to stay bound to a supermassive black hole that has been flung out of its host galaxy.",
+   "certification": false,
+   "variants": [
+    "Hypercompact Stellar Systems (Astrophysics)"
+   ],
+   "relations": []
+  },
+  {
+   "key": "i2c",
+   "name": "I2C",
+   "class": "skill",
+   "kind": "standard",
+   "definition": "A two-wire serial bus protocol, created by Philips, that lets chips on a circuit board talk to each other.",
+   "certification": false,
+   "variants": [
+    "Inter-Integrated Circuit"
+   ],
+   "relations": []
+  },
+  {
+   "key": "iad",
+   "name": "iAd",
+   "class": "skill",
+   "kind": "platform",
+   "definition": "Apple's mobile advertising platform, which served ads inside iOS apps until it was shut down in 2016.",
+   "certification": false,
+   "variants": [
+    "IAd (Apple'S Advertising Platform)"
+   ],
+   "relations": []
+  },
+  {
+   "key": "iar-embedded-workbench",
+   "name": "IAR Embedded Workbench",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "An integrated development environment from IAR Systems, with a C and C++ compiler and debugger, for writing embedded software for microcontrollers.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "ibeacon",
+   "name": "iBeacon",
+   "class": "skill",
+   "kind": "platform",
+   "definition": "Apple's Bluetooth Low Energy technology in which a small transmitter broadcasts an identifier that nearby phones can detect, used for indoor location and proximity.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "ibm-bluemix",
+   "name": "IBM Bluemix",
+   "class": "skill",
+   "kind": "platform",
+   "definition": "IBM's cloud platform for building and running applications, renamed IBM Cloud in 2017.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  }
+ ]
+}

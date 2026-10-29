@@ -1,0 +1,453 @@
+{
+ "allowed_kinds": [
+  "ability",
+  "credential",
+  "framework",
+  "human-language",
+  "knowledge",
+  "library",
+  "markup-language",
+  "method",
+  "modeling-language",
+  "platform",
+  "programming-language",
+  "skill",
+  "standard",
+  "style-language",
+  "tool",
+  "work-activity"
+ ],
+ "entries": [
+  {
+   "key": "chronometer",
+   "name": "Chronometer",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "A precise timekeeping instrument, originally built to keep accurate time at sea so that longitude could be found.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "circular-economy",
+   "name": "Circular economy",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "An economic approach that keeps products and materials in use as long as possible through reuse, repair, remanufacturing and recycling, so that waste is designed out.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "circulatory-system",
+   "name": "Circulatory system",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "The organ system, made up of the heart, blood vessels and blood, that carries oxygen, nutrients and waste around the body.",
+   "certification": false,
+   "variants": [
+    "Circulatory Systems"
+   ],
+   "relations": []
+  },
+  {
+   "key": "cisco-intersight",
+   "name": "Cisco Intersight",
+   "class": "skill",
+   "kind": "platform",
+   "definition": "Cisco's cloud-based platform for managing and monitoring Cisco UCS servers and other data-centre infrastructure from one place.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "cisco-ucs-director",
+   "name": "Cisco UCS Director",
+   "class": "skill",
+   "kind": "platform",
+   "definition": "Cisco software for automating the provisioning and management of compute, network and storage resources in data centres built on Cisco UCS.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "civil-engineering-design",
+   "name": "Civil engineering design",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Planning and specifying infrastructure and structures such as roads, bridges, drainage and water systems so that they meet engineering requirements.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "ckeditor",
+   "name": "CKEditor",
+   "class": "skill",
+   "kind": "library",
+   "definition": "A JavaScript rich-text editor that lets users format content in web pages.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "claim-processing",
+   "name": "Claim processing",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Receiving, checking and deciding insurance or benefit claims, and then paying or denying them.",
+   "certification": false,
+   "variants": [],
+   "relations": [
+    "related:adjudication-process"
+   ]
+  },
+  {
+   "key": "claims-modeling",
+   "name": "Claims modeling",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Building statistical models of how often insurance claims occur and how large they are, to price risk and set reserves.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "clarizen",
+   "name": "Clarizen",
+   "class": "skill",
+   "kind": "platform",
+   "definition": "A cloud-based work and project management platform for planning projects, tracking tasks and managing resources.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "clash-detection",
+   "name": "Clash detection",
+   "class": "skill",
+   "kind": "method",
+   "definition": "Checking a combined 3D model of a building or plant for places where parts from different disciplines, such as pipes and beams, occupy the same space.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "classification-and-regression-tree",
+   "name": "Classification and Regression Tree",
+   "class": "skill",
+   "kind": "method",
+   "definition": "A decision-tree method that repeatedly splits data into groups to predict either a category (classification) or a number (regression).",
+   "certification": false,
+   "variants": [
+    "Classification And Regression Tree (CART)"
+   ],
+   "relations": []
+  },
+  {
+   "key": "clean-air-act",
+   "name": "Clean Air Act",
+   "class": "skill",
+   "kind": "standard",
+   "definition": "The United States federal law that limits air pollution and gives the Environmental Protection Agency power to set and enforce air quality and emission standards.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "clean-water-act",
+   "name": "Clean Water Act",
+   "class": "skill",
+   "kind": "standard",
+   "definition": "The United States federal law that regulates the discharge of pollutants into US waters and sets water quality standards for surface waters.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "cleardb",
+   "name": "ClearDB",
+   "class": "skill",
+   "kind": "platform",
+   "definition": "A managed cloud database service that provides replicated MySQL databases, commonly used as an add-on on platforms such as Heroku.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "client-access-license",
+   "name": "Client access license",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "A licensing model used by server software, notably from Microsoft, in which each user or device needs a licence to connect to the server.",
+   "certification": false,
+   "variants": [
+    "Client Access Licensing"
+   ],
+   "relations": []
+  },
+  {
+   "key": "client-confidentiality",
+   "name": "Client confidentiality",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Keeping information that clients share private and disclosing it only with their consent or as the law requires.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "climate-variability-and-change",
+   "name": "Climate variability and change",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "The study of natural variation in climate over time and of long-term shifts in it, with their causes and impacts.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "clinical-data-repository",
+   "name": "Clinical data repository",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "A database that gathers patient data from several clinical systems in one place so that it can be viewed, reported on and reused.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "clinical-documentation-improvement",
+   "name": "Clinical documentation improvement",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Reviewing and clarifying patient records so that they accurately and completely describe a patient's condition and care, for coding, billing and quality reporting.",
+   "certification": false,
+   "variants": [
+    "Clinical Documentation Integrity (CDI)"
+   ],
+   "relations": [
+    "related:certified-documentation-integrity-practitioner"
+   ]
+  },
+  {
+   "key": "clinical-informatics",
+   "name": "Clinical informatics",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "The use of information science and computing to improve patient care and clinical workflows in health-care settings.",
+   "certification": false,
+   "variants": [],
+   "relations": [
+    "broader:biomedical-informatics"
+   ]
+  },
+  {
+   "key": "clinical-laboratory-phlebotomy",
+   "name": "Clinical laboratory phlebotomy",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Drawing blood from patients, in a clinical laboratory or collection site, for laboratory testing.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "clinical-medical-ethics",
+   "name": "Clinical medical ethics",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "Applying ethical principles to decisions in patient care, such as consent, confidentiality and end-of-life treatment.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "clinical-pastoral-education",
+   "name": "Clinical pastoral education",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "A programme of supervised, hands-on training in spiritual care for chaplains and ministers, accredited in the United States by the Association for Clinical Pastoral Education.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "closed-circuit-television-camera",
+   "name": "Closed-circuit television camera",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "A video camera whose signal goes to a limited set of monitors or recorders rather than being broadcast openly, typically used for security and surveillance.",
+   "certification": false,
+   "variants": [
+    "CCTV camera"
+   ],
+   "relations": []
+  },
+  {
+   "key": "cloud-access-security-broker",
+   "name": "Cloud access security broker",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "Security software or a service placed between an organisation's users and its cloud services to enforce security policies such as visibility, data protection and threat detection.",
+   "certification": false,
+   "variants": [
+    "Cloud Access Security Broker Tools (CASBs)",
+    "CASB"
+   ],
+   "relations": []
+  },
+  {
+   "key": "cloud-computing",
+   "name": "Cloud computing",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "Designing and using remotely provisioned computing services.",
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "cloud-computing-security",
+   "name": "Cloud computing security",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "Protecting the data, applications and infrastructure that run in cloud computing environments.",
+   "certification": false,
+   "variants": [],
+   "relations": [
+    "related:cloud-computing"
+   ]
+  },
+  {
+   "key": "cloud-native-development",
+   "name": "Cloud-native development",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Building applications designed to run in the cloud, typically as containerised microservices managed by automated platforms such as Kubernetes.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "cnc-programming",
+   "name": "CNC programming",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Writing the instructions, often in G-code, that direct computer numerically controlled machine tools to cut or shape parts.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "coastal-engineering",
+   "name": "Coastal engineering",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "The branch of civil engineering that designs and manages structures and measures at the shoreline, such as sea walls, harbours and erosion protection.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "cocoa-touch",
+   "name": "Cocoa Touch",
+   "class": "skill",
+   "kind": "framework",
+   "definition": "Apple's set of application frameworks, including UIKit, for building apps for iPhone, iPad and other iOS-family devices.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "cocoapods",
+   "name": "CocoaPods",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "A dependency manager for Swift and Objective-C projects that downloads and links third-party libraries.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "cocoonjs",
+   "name": "CocoonJS",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "A tool from Ludei that packages HTML5 and JavaScript apps and games as native mobile apps with accelerated canvas rendering.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "cognitive-computing",
+   "name": "Cognitive computing",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "Computing systems that imitate aspects of human thinking, such as learning, reasoning and understanding language, using methods like machine learning and natural language processing.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "cognitive-load",
+   "name": "Cognitive load",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "The amount of mental effort being used in working memory at a given time, a concept used in teaching and interface design to avoid overloading people.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "collaboration",
+   "name": "Collaboration",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Working jointly with others, sharing information and effort, to reach a shared goal.",
+   "certification": false,
+   "variants": [
+    "Collaborative Skills"
+   ],
+   "relations": []
+  },
+  {
+   "key": "collaboration-software",
+   "name": "Collaboration software",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "Software that lets groups work together on shared tasks and documents, for example through shared files, chat and project boards.",
+   "certification": false,
+   "variants": [
+    "Collaborative Softwares"
+   ],
+   "relations": []
+  },
+  {
+   "key": "collaborative-planning-forecasting-and-replenishment",
+   "name": "Collaborative Planning, Forecasting and Replenishment",
+   "class": "skill",
+   "kind": "method",
+   "definition": "A supply-chain practice in which trading partners jointly plan, forecast and replenish stock using shared data.",
+   "certification": false,
+   "variants": [
+    "Collaborative Planning Forecasting And Replenishment",
+    "CPFR",
+    "Collaborative Planning, Forecasting, And Replenishment (CPFR)",
+    "Collaborative Planning Forecasting SandsReplenishment"
+   ],
+   "relations": []
+  },
+  {
+   "key": "color-matching",
+   "name": "Color matching",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Choosing or adjusting colours so that a product or print matches a reference colour, as in paint, printing, textiles and cosmetics.",
+   "certification": false,
+   "variants": [
+    "Colour matching"
+   ],
+   "relations": []
+  }
+ ]
+}

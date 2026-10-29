@@ -1,0 +1,463 @@
+{
+ "allowed_kinds": [
+  "ability",
+  "credential",
+  "framework",
+  "human-language",
+  "knowledge",
+  "library",
+  "markup-language",
+  "method",
+  "modeling-language",
+  "platform",
+  "programming-language",
+  "skill",
+  "standard",
+  "style-language",
+  "tool",
+  "work-activity"
+ ],
+ "entries": [
+  {
+   "key": "butchering",
+   "name": "Butchering",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Cutting and trimming animal carcasses into cuts of meat for sale or cooking.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "butter-knife",
+   "name": "Butter Knife",
+   "class": "skill",
+   "kind": "library",
+   "definition": "An Android library that uses annotations to bind views, resources and event handlers to fields and methods.",
+   "certification": false,
+   "variants": [
+    "Butterknife"
+   ],
+   "relations": []
+  },
+  {
+   "key": "bzip2",
+   "name": "bzip2",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "A free compression program and file format that shrinks files using the Burrows-Wheeler transform and Huffman coding.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "c-cure",
+   "name": "C-CURE",
+   "class": "skill",
+   "kind": "platform",
+   "definition": "An access control and security event management system made by Software House, a Johnson Controls business.",
+   "certification": false,
+   "variants": [
+    "CCURE (Security and Event Management System)"
+   ],
+   "relations": []
+  },
+  {
+   "key": "c3-js",
+   "name": "C3.js",
+   "class": "skill",
+   "kind": "library",
+   "definition": "A JavaScript library, built on D3, for making reusable charts.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "cadvisor",
+   "name": "cAdvisor",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "A Google-developed tool that collects and exposes resource usage and performance data for running containers.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "caesarean-section",
+   "name": "Caesarean section",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Performing or assisting with the surgical delivery of a baby through an incision in the mother's abdomen and uterus.",
+   "certification": false,
+   "variants": [
+    "Cesarean section",
+    "C-section"
+   ],
+   "relations": []
+  },
+  {
+   "key": "caffe",
+   "name": "Caffe",
+   "class": "skill",
+   "kind": "framework",
+   "definition": "A deep learning framework from Berkeley AI Research, known for speed and modularity and used mostly for image tasks.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "caffe2",
+   "name": "Caffe2",
+   "class": "skill",
+   "kind": "framework",
+   "definition": "A lightweight deep learning framework from Facebook that succeeded Caffe and was later merged into PyTorch.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "cairngorm",
+   "name": "Cairngorm",
+   "class": "skill",
+   "kind": "framework",
+   "definition": "An application framework for Adobe Flex that organises rich internet applications with the model-view-controller pattern.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "cakewalk",
+   "name": "Cakewalk",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "Digital audio workstation software for recording, editing and mixing music, formerly sold as SONAR.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "calibration",
+   "name": "Probability calibration",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Comparing predictive confidence with observed outcomes.",
+   "variants": [
+    "calibration",
+    "Brier score"
+   ],
+   "relations": []
+  },
+  {
+   "key": "call-admission-control",
+   "name": "Call admission control",
+   "class": "skill",
+   "kind": "method",
+   "definition": "A telecommunications network mechanism that decides whether to accept a new call or connection by checking that enough resources remain to keep quality of service.",
+   "certification": false,
+   "variants": [
+    "Call/Connection Admission Control"
+   ],
+   "relations": []
+  },
+  {
+   "key": "callback-function",
+   "name": "Callback function",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "A function passed to other code as an argument so that the other code can call it later, for example when an event or task finishes.",
+   "certification": false,
+   "variants": [
+    "Callback Functions"
+   ],
+   "relations": []
+  },
+  {
+   "key": "calyx-point",
+   "name": "Calyx Point",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "Mortgage loan origination software that lenders and brokers use to take applications and prepare loan files.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "camera-calibration",
+   "name": "Camera calibration",
+   "class": "skill",
+   "kind": "method",
+   "definition": "Estimating a camera's internal parameters, lens distortion and position so that image measurements can be related to real-world geometry.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "canape",
+   "name": "CANape",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "Software from Vector Informatik for measuring, calibrating and diagnosing electronic control units in vehicles.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "cancan",
+   "name": "CanCan",
+   "class": "skill",
+   "kind": "library",
+   "definition": "A Ruby on Rails authorisation library in which a single ability definition sets what each user may do.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "candidate-sourcing",
+   "name": "Candidate sourcing",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Finding and approaching potential candidates for job openings, including people who are not actively applying.",
+   "certification": false,
+   "variants": [
+    "Sourcing (Recruitment)",
+    "Talent sourcing"
+   ],
+   "relations": []
+  },
+  {
+   "key": "canjs",
+   "name": "CanJS",
+   "class": "skill",
+   "kind": "framework",
+   "definition": "A JavaScript framework for building web applications with observable data, templates and components.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "cannabis-and-hemp-extraction",
+   "name": "Cannabis and hemp extraction",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Extracting cannabinoids and other compounds from cannabis or hemp plant material using solvents or CO2.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "cannabis-cultivation",
+   "name": "Cannabis cultivation",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Growing cannabis plants, including their care, harvest and curing.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "cannabis-regulations",
+   "name": "Cannabis regulations",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "Knowledge of the laws and rules governing the growing, sale and use of cannabis, which differ by jurisdiction.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "canon-eos-flash-systems",
+   "name": "Canon EOS flash systems",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "Canon's family of Speedlite flash units and wireless flash controls made for use with EOS cameras.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "canva",
+   "name": "Canva",
+   "class": "skill",
+   "kind": "platform",
+   "definition": "An online graphic design platform for making presentations, social media posts and other visual content from templates.",
+   "certification": false,
+   "variants": [
+    "Canva (Software)"
+   ],
+   "relations": [
+    "related:visme"
+   ]
+  },
+  {
+   "key": "canvas-lms",
+   "name": "Canvas LMS",
+   "class": "skill",
+   "kind": "platform",
+   "definition": "Instructure's cloud-based learning management system that schools and universities use to deliver courses, assignments and grades.",
+   "certification": false,
+   "variants": [
+    "Instructure Canvas (Educational Software)",
+    "Instructure Canvas"
+   ],
+   "relations": []
+  },
+  {
+   "key": "canvasjs",
+   "name": "CanvasJS",
+   "class": "skill",
+   "kind": "library",
+   "definition": "A JavaScript charting library that draws charts on an HTML5 canvas.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "capacity-management",
+   "name": "Capacity management",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Planning and monitoring resources so that capacity meets current and future demand.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "capistrano",
+   "name": "Capistrano",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "A Ruby-based tool for automating deployment and other tasks on remote servers over SSH.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "capital-asset-pricing-model",
+   "name": "Capital asset pricing model",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "A finance model that relates the expected return of an asset to the risk-free rate and to the asset's sensitivity to market risk.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "captive-insurance",
+   "name": "Captive insurance",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "Insurance provided by a company that is owned by the business or group it insures, set up to cover that group's own risks.",
+   "certification": false,
+   "variants": [
+    "Insurance Captives",
+    "Captive insurance company"
+   ],
+   "relations": []
+  },
+  {
+   "key": "capture-one",
+   "name": "Capture One",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "Photo-editing software from Phase One for processing RAW images and shooting with the camera connected to a computer.",
+   "certification": false,
+   "variants": [
+    "Capture One (Photo Editing Software)"
+   ],
+   "relations": []
+  },
+  {
+   "key": "capybara",
+   "name": "Capybara",
+   "class": "skill",
+   "kind": "library",
+   "definition": "A Ruby library for testing web applications by simulating how a user interacts with them.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "cardiac-stress-testing",
+   "name": "Cardiac stress testing",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Conducting tests that record how the heart responds to physical exercise or to drugs that simulate exercise.",
+   "certification": false,
+   "variants": [
+    "Cardiac Stress Tests"
+   ],
+   "relations": []
+  },
+  {
+   "key": "cardiac-surgery",
+   "name": "Cardiac surgery",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "The surgical specialty that operates on the heart.",
+   "certification": false,
+   "variants": [
+    "Cardiac Surgeries"
+   ],
+   "relations": []
+  },
+  {
+   "key": "cardiac-valve-repair",
+   "name": "Cardiac valve repair",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Surgically reconstructing a damaged heart valve so that it works again without replacing it.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "cardiopulmonary-resuscitation",
+   "name": "Cardiopulmonary resuscitation",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "An emergency procedure that combines chest compressions and rescue breaths to keep blood and oxygen moving when someone's heart or breathing has stopped.",
+   "certification": false,
+   "variants": [
+    "Cardio-Pulmonary Resuscitation (CPR)",
+    "CPR"
+   ],
+   "relations": [
+    "related:neonatal-resuscitation-program"
+   ]
+  },
+  {
+   "key": "cardiothoracic-surgery",
+   "name": "Cardiothoracic surgery",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "The surgical specialty that operates on organs in the chest, mainly the heart and lungs.",
+   "certification": false,
+   "variants": [
+    "Cardiothoracic Surgeries"
+   ],
+   "relations": []
+  },
+  {
+   "key": "cardiovascular-coding",
+   "name": "Cardiovascular coding",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Assigning standard diagnosis and procedure codes to heart and blood-vessel care records for billing and reporting.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "cardiovascular-physiology",
+   "name": "Cardiovascular physiology",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "The study of how the heart and blood vessels work.",
+   "certification": false,
+   "variants": [
+    "CardioVasculars Physiology"
+   ],
+   "relations": []
+  }
+ ]
+}

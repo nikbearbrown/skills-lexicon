@@ -1,0 +1,476 @@
+{
+ "allowed_kinds": [
+  "ability",
+  "credential",
+  "framework",
+  "human-language",
+  "knowledge",
+  "library",
+  "markup-language",
+  "method",
+  "modeling-language",
+  "platform",
+  "programming-language",
+  "skill",
+  "standard",
+  "style-language",
+  "tool",
+  "work-activity"
+ ],
+ "entries": [
+  {
+   "key": "distance-learning",
+   "name": "Distance learning",
+   "class": "skill",
+   "kind": "method",
+   "definition": "Teaching and learning in which students and instructors are in different places, usually connected by online tools.",
+   "certification": false,
+   "variants": [],
+   "relations": [
+    "related:blended-learning"
+   ]
+  },
+  {
+   "key": "distributed-computing",
+   "name": "Distributed computing",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "Coordinating computation across multiple networked systems.",
+   "variants": [
+    "distributed systems"
+   ],
+   "relations": []
+  },
+  {
+   "key": "divide-and-conquer",
+   "name": "Divide and conquer",
+   "class": "skill",
+   "kind": "method",
+   "definition": "An algorithm design technique that splits a problem into smaller subproblems, solves each, and combines the results.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "do-178c",
+   "name": "DO-178C",
+   "class": "skill",
+   "kind": "standard",
+   "definition": "The RTCA guidance, Software Considerations in Airborne Systems and Equipment Certification, that airborne software must meet for aviation authorities to approve it; DO-178B is the earlier version.",
+   "certification": false,
+   "variants": [
+    "DO-178B/C (Software Considerations in Airborne Systems and Equipment Certification)"
+   ],
+   "relations": []
+  },
+  {
+   "key": "docker",
+   "name": "Docker",
+   "class": "skill",
+   "kind": "platform",
+   "definition": "A platform for building, shipping and running applications in containers.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "docsis",
+   "name": "DOCSIS",
+   "class": "skill",
+   "kind": "standard",
+   "definition": "The CableLabs family of standards for carrying internet data over cable television networks.",
+   "certification": false,
+   "variants": [
+    "Data Over Cable Service Interface Specification"
+   ],
+   "relations": []
+  },
+  {
+   "key": "document-exploitation",
+   "name": "Document exploitation",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Systematically extracting and analysing information from captured or seized documents and media for intelligence or investigative use.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "documentation-lifecycle",
+   "name": "Documentation lifecycle",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "The stages documentation passes through, from planning and writing to review, publication, maintenance and retirement.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "docusign",
+   "name": "DocuSign",
+   "class": "skill",
+   "kind": "platform",
+   "definition": "A platform for sending, signing and managing agreements electronically.",
+   "certification": false,
+   "variants": [
+    "DocuSign (Software)"
+   ],
+   "relations": []
+  },
+  {
+   "key": "dod-8500-series",
+   "name": "DoD 8500 series",
+   "class": "skill",
+   "kind": "standard",
+   "definition": "The US Department of Defense's 8500-series policies on information assurance and cybersecurity, such as DoD Directive 8500.01 and DoD Instruction 8500.2.",
+   "certification": false,
+   "variants": [
+    "Department of Defense (DoD) 8500 Series"
+   ],
+   "relations": []
+  },
+  {
+   "key": "dod-information-assurance-certification-and-accreditation-process",
+   "name": "DoD Information Assurance Certification and Accreditation Process",
+   "class": "skill",
+   "kind": "method",
+   "definition": "The US Department of Defense process, used before the Risk Management Framework replaced it, for certifying and accrediting the security of information systems.",
+   "certification": false,
+   "variants": [
+    "DoD Information Assurance Certification and Accreditation Process (DIACAP)",
+    "DIACAP"
+   ],
+   "relations": []
+  },
+  {
+   "key": "dod-instruction-8510-01",
+   "name": "DoD Instruction 8510.01",
+   "class": "skill",
+   "kind": "standard",
+   "definition": "The US Department of Defense instruction that sets the Risk Management Framework for authorising and managing the cybersecurity of DoD information systems, and in its 2007 form the DIACAP process.",
+   "certification": false,
+   "variants": [
+    "Department of Defense (DoD) 8510",
+    "DoDI 8510.01"
+   ],
+   "relations": []
+  },
+  {
+   "key": "dodaf",
+   "name": "DoDAF",
+   "class": "skill",
+   "kind": "framework",
+   "definition": "The US Department of Defense's architecture framework, which defines viewpoints and models for describing enterprise and system architectures.",
+   "certification": false,
+   "variants": [
+    "DoD Architecture Framework",
+    "Department of Defense Architecture Framework"
+   ],
+   "relations": []
+  },
+  {
+   "key": "dot-js",
+   "name": "doT.js",
+   "class": "skill",
+   "kind": "library",
+   "definition": "A small, fast JavaScript templating library that compiles templates into functions for use in browsers and Node.js.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "dot-matrix-printing",
+   "name": "Dot matrix printing",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "Printing in which a head of small pins strikes an inked ribbon to form characters and images from patterns of dots.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "doubleclick-for-publishers",
+   "name": "DoubleClick for Publishers",
+   "class": "skill",
+   "kind": "platform",
+   "definition": "Google's ad-serving platform for publishers to manage, deliver and measure the ads on their sites and apps, now part of Google Ad Manager.",
+   "certification": false,
+   "variants": [
+    "DoubleClick For Publishers By Google",
+    "DFP"
+   ],
+   "relations": []
+  },
+  {
+   "key": "dried-blood-spot",
+   "name": "Dried blood spot",
+   "class": "skill",
+   "kind": "method",
+   "definition": "A sampling method in which drops of blood are collected on filter paper, dried and later analysed in a laboratory.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "driver-s-vision-enhancer",
+   "name": "Driver's Vision Enhancer",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "A thermal-imaging device that lets a vehicle driver see the road in darkness, smoke, fog or dust.",
+   "certification": false,
+   "variants": [
+    "Driver'S Vision Enhancer (Optical Devices)"
+   ],
+   "relations": []
+  },
+  {
+   "key": "driving",
+   "name": "Driving",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Operating a car, truck or other motor vehicle safely on roads.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "drug-absorption",
+   "name": "Drug absorption",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "How a drug moves from its site of administration into the bloodstream, and the factors that affect the rate and extent of that movement.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "drug-quality-and-security-act",
+   "name": "Drug Quality and Security Act",
+   "class": "skill",
+   "kind": "standard",
+   "definition": "A 2013 US federal law that set national requirements for tracing prescription drugs through the supply chain and for regulating compounding pharmacies.",
+   "certification": false,
+   "variants": [
+    "DQSA"
+   ],
+   "relations": []
+  },
+  {
+   "key": "dry-needling",
+   "name": "Dry needling",
+   "class": "skill",
+   "kind": "method",
+   "definition": "A therapy technique in which thin needles are inserted into myofascial trigger points to relieve pain and improve movement.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "drywall-installation-and-repair",
+   "name": "Drywall installation and repair",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Hanging, taping, finishing and patching gypsum board panels on walls and ceilings.",
+   "certification": false,
+   "variants": [
+    "Drywall (Installation And Repair)"
+   ],
+   "relations": []
+  },
+  {
+   "key": "duck-creek-platform",
+   "name": "Duck Creek Platform",
+   "class": "skill",
+   "kind": "platform",
+   "definition": "A software platform from Duck Creek Technologies for property and casualty insurers to run policy, billing and claims.",
+   "certification": false,
+   "variants": [
+    "Duck Creek Platform (Software)"
+   ],
+   "relations": []
+  },
+  {
+   "key": "durable-medical-equipment",
+   "name": "Durable medical equipment",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "Reusable medical equipment prescribed for use at home, such as wheelchairs, hospital beds and walkers.",
+   "certification": false,
+   "variants": [],
+   "relations": [
+    "related:adaptive-equipment"
+   ]
+  },
+  {
+   "key": "dust-js",
+   "name": "Dust.js",
+   "class": "skill",
+   "kind": "library",
+   "definition": "A JavaScript templating library with asynchronous rendering that runs in browsers and in Node.js.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "dynamic-cycle-counting",
+   "name": "Dynamic cycle counting",
+   "class": "skill",
+   "kind": "method",
+   "definition": "Cycle counting of inventory in which the timing of each count is set by rules such as item value, movement or error history.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "dynamic-host-configuration-protocol",
+   "name": "Dynamic Host Configuration Protocol",
+   "class": "skill",
+   "kind": "standard",
+   "definition": "A network protocol that automatically gives devices an IP address and other network settings.",
+   "certification": false,
+   "variants": [
+    "DHCP"
+   ],
+   "relations": []
+  },
+  {
+   "key": "dynamic-link-library",
+   "name": "Dynamic-link library",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "The Microsoft Windows format and mechanism for shared code libraries that programs load at run time.",
+   "certification": false,
+   "variants": [
+    "Dynamic-Link Libraries",
+    "DLL"
+   ],
+   "relations": []
+  },
+  {
+   "key": "dynamics-365-field-service",
+   "name": "Dynamics 365 Field Service",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "A Microsoft Dynamics 365 application for scheduling and dispatching technicians and managing field work orders.",
+   "certification": false,
+   "variants": [
+    "Microsoft Dynamics 365 Field Service"
+   ],
+   "relations": []
+  },
+  {
+   "key": "e-marketing",
+   "name": "E-marketing",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Promoting products and services through electronic channels such as websites, email and social media.",
+   "certification": false,
+   "variants": [
+    "Electronic marketing",
+    "Online Marketing"
+   ],
+   "relations": []
+  },
+  {
+   "key": "earlgrey",
+   "name": "EarlGrey",
+   "class": "skill",
+   "kind": "framework",
+   "definition": "An open-source framework from Google for automating user-interface tests of native iOS apps.",
+   "certification": false,
+   "variants": [
+    "EarlGrey (Software)"
+   ],
+   "relations": []
+  },
+  {
+   "key": "early-childhood-mental-health",
+   "name": "Early childhood mental health",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "The social and emotional well-being of children from birth to about age five, and the practice of supporting it and treating problems.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "earned-value-management-system",
+   "name": "Earned value management system",
+   "class": "skill",
+   "kind": "method",
+   "definition": "An integrated project-management system that compares work done with planned scope, schedule and cost, as set out in the ANSI/EIA-748 guidelines.",
+   "certification": false,
+   "variants": [
+    "Earned Value Management Systems (EVMS)",
+    "EVMS"
+   ],
+   "relations": []
+  },
+  {
+   "key": "earth-leakage-circuit-breaker",
+   "name": "Earth leakage circuit breaker",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "A protective switch that cuts the power when current leaks to earth, to reduce the risk of electric shock and fire.",
+   "certification": false,
+   "variants": [
+    "ELCB"
+   ],
+   "relations": []
+  },
+  {
+   "key": "earthing-systems",
+   "name": "Earthing systems",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "The ways of connecting parts of an electrical installation to the ground for safety, such as TN, TT and IT systems.",
+   "certification": false,
+   "variants": [
+    "Grounding systems"
+   ],
+   "relations": []
+  },
+  {
+   "key": "easeljs",
+   "name": "EaselJS",
+   "class": "skill",
+   "kind": "library",
+   "definition": "A JavaScript library that provides a display list and interaction model for drawing on the HTML5 canvas.",
+   "certification": false,
+   "variants": [],
+   "relations": [
+    "part_of:createjs"
+   ]
+  },
+  {
+   "key": "ebay-api",
+   "name": "eBay API",
+   "class": "skill",
+   "kind": "platform",
+   "definition": "The programming interfaces of the eBay marketplace, used to list, search and manage items and orders from other software.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "ecological-study",
+   "name": "Ecological study",
+   "class": "skill",
+   "kind": "method",
+   "definition": "An observational study design in which the units analysed are whole populations or groups rather than individual people.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "econometric-model",
+   "name": "Econometric model",
+   "class": "skill",
+   "kind": "method",
+   "definition": "A statistical model that uses economic theory and data to estimate the relationships between economic variables.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  }
+ ]
+}

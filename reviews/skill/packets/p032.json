@@ -1,0 +1,458 @@
+{
+ "allowed_kinds": [
+  "ability",
+  "credential",
+  "framework",
+  "human-language",
+  "knowledge",
+  "library",
+  "markup-language",
+  "method",
+  "modeling-language",
+  "platform",
+  "programming-language",
+  "skill",
+  "standard",
+  "style-language",
+  "tool",
+  "work-activity"
+ ],
+ "entries": [
+  {
+   "key": "jsperf",
+   "name": "jsPerf",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "A website for creating and sharing JavaScript performance tests that run in the visitor's browser.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "jsrender",
+   "name": "JsRender",
+   "class": "skill",
+   "kind": "library",
+   "definition": "A JavaScript template library that renders HTML from templates and data.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "jsunit",
+   "name": "JsUnit",
+   "class": "skill",
+   "kind": "framework",
+   "definition": "An early unit-testing framework for JavaScript, modelled on JUnit.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "jtrac",
+   "name": "JTrac",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "An open-source, customizable issue-tracking web application written in Java.",
+   "certification": false,
+   "variants": [
+    "JTrac - Open Source And Customizable Issue-Tracking In Java"
+   ],
+   "relations": []
+  },
+  {
+   "key": "jury-instructions",
+   "name": "Jury instructions",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Drafting and reviewing jury instructions, the statements of law that a judge gives jurors before they decide a case.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "jury-management",
+   "name": "Jury management",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Summoning, qualifying and scheduling the people called for jury service, and looking after them while they serve.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "juvenile-rehabilitation",
+   "name": "Juvenile rehabilitation",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Working with young people who have committed offences to change their behaviour and return to society, through counselling, education and supervised programmes.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "k-means-clustering",
+   "name": "k-means clustering",
+   "class": "skill",
+   "kind": "method",
+   "definition": "An unsupervised machine-learning method that splits data into k groups by repeatedly assigning each point to the nearest of k centres and recalculating each centre as the mean of its group.",
+   "certification": false,
+   "variants": [
+    "K Means",
+    "k-means",
+    "k-means algorithm"
+   ],
+   "relations": []
+  },
+  {
+   "key": "kahoot",
+   "name": "Kahoot!",
+   "class": "skill",
+   "kind": "platform",
+   "definition": "A game-based learning platform where a host sets quizzes that players answer live on their own devices.",
+   "certification": false,
+   "variants": [
+    "Kahoot"
+   ],
+   "relations": []
+  },
+  {
+   "key": "kairosdb",
+   "name": "KairosDB",
+   "class": "skill",
+   "kind": "platform",
+   "definition": "A scalable time-series database, originally built on Apache Cassandra, for storing and querying metrics data.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "katalon-studio",
+   "name": "Katalon Studio",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "A test automation tool for web, API, mobile and desktop applications.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "kenna-security",
+   "name": "Kenna Security",
+   "class": "skill",
+   "kind": "platform",
+   "definition": "A risk-based vulnerability management platform, now part of Cisco, that ranks vulnerabilities by how likely they are to be exploited.",
+   "certification": false,
+   "variants": [
+    "Cisco Vulnerability Management"
+   ],
+   "relations": []
+  },
+  {
+   "key": "keras",
+   "name": "Keras",
+   "class": "skill",
+   "kind": "library",
+   "definition": "A high-level Python library for building and training neural networks.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "kinesitherapy",
+   "name": "Kinesitherapy",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Treating disease or injury through guided movement and exercise.",
+   "certification": false,
+   "variants": [
+    "Kinesiotherapy"
+   ],
+   "relations": []
+  },
+  {
+   "key": "kinetic-typography",
+   "name": "Kinetic typography",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Animating text in motion graphics and video so that its movement and timing carry meaning.",
+   "certification": false,
+   "variants": [
+    "Kinetics (Typography)"
+   ],
+   "relations": []
+  },
+  {
+   "key": "knockout-js",
+   "name": "Knockout.js",
+   "class": "skill",
+   "kind": "library",
+   "definition": "A JavaScript library that binds page elements to data models with declarative bindings, following the model-view-viewmodel pattern.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "know-your-third-party-ky3p",
+   "name": "Know Your Third Party (KY3P)",
+   "class": "skill",
+   "kind": "platform",
+   "definition": "A third-party risk management platform in which firms collect and share due-diligence information on their suppliers and vendors.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "knowledge-graphs",
+   "name": "Knowledge graphs",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "Representing entities and relationships as structured knowledge.",
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "kpi-reporting",
+   "name": "KPI reporting",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Collecting key performance indicator data and presenting it in regular reports or dashboards.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "kyoto-protocol",
+   "name": "Kyoto Protocol",
+   "class": "skill",
+   "kind": "standard",
+   "definition": "An international treaty adopted in 1997 that set binding targets for industrialised countries to cut greenhouse gas emissions.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "kyriba",
+   "name": "Kyriba",
+   "class": "skill",
+   "kind": "platform",
+   "definition": "A cloud platform that corporate finance teams use for treasury, cash and risk management.",
+   "certification": false,
+   "variants": [
+    "Kyriba (Treasury Management Software)"
+   ],
+   "relations": []
+  },
+  {
+   "key": "label-edge-router",
+   "name": "Label edge router",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "A router at the edge of an MPLS network that adds labels to packets entering the network and removes them as packets leave.",
+   "certification": false,
+   "variants": [
+    "Label Edge Router (MPLS Networking)"
+   ],
+   "relations": []
+  },
+  {
+   "key": "label-printer",
+   "name": "Label printer",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "A printer designed to print text, barcodes and images onto adhesive labels or label stock.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "labor-market-trends",
+   "name": "Labor market trends",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "Understanding of how employment, wages and the supply and demand for workers are changing over time.",
+   "certification": false,
+   "variants": [
+    "Labour market trends"
+   ],
+   "relations": []
+  },
+  {
+   "key": "labour-economics",
+   "name": "Labour economics",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "The branch of economics that studies labour markets, wages, employment and unemployment.",
+   "certification": false,
+   "variants": [
+    "Labor economics"
+   ],
+   "relations": []
+  },
+  {
+   "key": "labour-law",
+   "name": "Labour law",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "The body of law governing the relationship between employers, employees and trade unions.",
+   "certification": false,
+   "variants": [
+    "Labour Laws",
+    "Labor law",
+    "Labor laws"
+   ],
+   "relations": []
+  },
+  {
+   "key": "land-atmosphere-interactions",
+   "name": "Land-atmosphere interactions",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "The study of how the land surface and the atmosphere exchange energy, water, carbon and momentum.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "landing-page-optimization",
+   "name": "Landing page optimization",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Improving the design and content of web landing pages, often through testing, to raise the share of visitors who convert.",
+   "certification": false,
+   "variants": [
+    "Landing page optimisation"
+   ],
+   "relations": []
+  },
+  {
+   "key": "lando",
+   "name": "Lando",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "A command-line tool, built on Docker, for creating and running local development environments.",
+   "certification": false,
+   "variants": [
+    "Lando (Software)"
+   ],
+   "relations": []
+  },
+  {
+   "key": "landscape-painting",
+   "name": "Landscape painting",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Painting natural scenery such as hills, fields, water and sky.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "landscaping-and-yard-care",
+   "name": "Landscaping and yard care",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Designing, planting and maintaining gardens, lawns and other outdoor spaces around buildings.",
+   "certification": false,
+   "variants": [],
+   "relations": [
+    "related:groundskeeping-and-yard-care"
+   ]
+  },
+  {
+   "key": "langchain",
+   "name": "LangChain",
+   "class": "skill",
+   "kind": "framework",
+   "definition": "A framework for composing language-model applications.",
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "language-interpretation-and-translation",
+   "name": "Language interpretation and translation",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Converting spoken (interpretation) or written (translation) content from one language into another.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "language-teaching",
+   "name": "Language teaching",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Teaching learners to understand, speak, read and write a language, usually one that is not their first.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "large-language-models",
+   "name": "Large language models",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "Understanding and applying large models of language.",
+   "variants": [
+    "LLMs",
+    "LLM"
+   ],
+   "relations": []
+  },
+  {
+   "key": "laser-engineering",
+   "name": "Laser engineering",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "The engineering of lasers and laser-based systems, including their design, building and application.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "laser-level",
+   "name": "Laser level",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "A tool that projects a level or plumb line of laser light so that surfaces and fixtures can be aligned on a building site.",
+   "certification": false,
+   "variants": [
+    "Laser Levels"
+   ],
+   "relations": []
+  },
+  {
+   "key": "laser-printing",
+   "name": "Laser printing",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "Printing in which a laser draws an image onto a charged drum that picks up toner and transfers it to paper.",
+   "certification": false,
+   "variants": [],
+   "relations": [
+    "related:dot-matrix-printing"
+   ]
+  },
+  {
+   "key": "latin-american-and-latino-studies",
+   "name": "Latin American and Latino studies",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "The interdisciplinary academic study of the history, cultures, politics and societies of Latin America and of Latino communities, especially in the United States.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "law-enforcement-operations",
+   "name": "Law enforcement operations",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "Planning and carrying out the work of police and other law enforcement agencies.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  }
+ ]
+}

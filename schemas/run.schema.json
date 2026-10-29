@@ -13,7 +13,7 @@
       "properties": {
         "model": { "type": "string", "minLength": 1, "description": "The model id, for example claude-sonnet-5-5." },
         "effort": { "enum": ["low", "medium", "high", "xhigh", "max", "unknown"], "description": "The effort level it ran at. xhigh is called extra high in the apps." },
-        "agent": { "enum": ["main-session", "subagent"] },
+        "agent": { "enum": ["main-session", "subagent", "external"], "description": "external: a model run by someone else, whose model and effort are self-reported and not verified." },
         "date": { "type": "string", "format": "date" },
         "note": { "type": "string", "minLength": 1, "description": "Where the model and effort were read from." }
       }

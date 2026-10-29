@@ -1,0 +1,459 @@
+{
+ "allowed_kinds": [
+  "ability",
+  "credential",
+  "framework",
+  "human-language",
+  "knowledge",
+  "library",
+  "markup-language",
+  "method",
+  "modeling-language",
+  "platform",
+  "programming-language",
+  "skill",
+  "standard",
+  "style-language",
+  "tool",
+  "work-activity"
+ ],
+ "entries": [
+  {
+   "key": "care-coordination",
+   "name": "Care coordination",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Organising a patient's care across providers and services so that the patient's needs are met.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "carrot2",
+   "name": "Carrot2",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "An open-source search results clustering engine that groups documents and search results into topics.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "carto",
+   "name": "CARTO",
+   "class": "skill",
+   "kind": "platform",
+   "definition": "A cloud platform for analysing and mapping location data, formerly called CartoDB.",
+   "certification": false,
+   "variants": [
+    "Cartodb"
+   ],
+   "relations": []
+  },
+  {
+   "key": "cartographic-design",
+   "name": "Cartographic design",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Designing maps so that geographic data is clear and readable, through choices of symbols, colour, labelling and scale.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "case-analysis",
+   "name": "Case analysis",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Examining the facts and issues of a particular case, such as a legal, business or clinical case, to reach reasoned conclusions or recommendations.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "case-method",
+   "name": "Case method",
+   "class": "skill",
+   "kind": "method",
+   "definition": "A teaching approach in which students learn by studying and discussing real or realistic cases, common in business and law schools.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "casperjs",
+   "name": "CasperJS",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "An open-source tool, written in JavaScript, for scripting navigation and tests of web pages in headless browsers such as PhantomJS and SlimerJS.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "casualty-movement",
+   "name": "Casualty movement",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Moving injured or ill people from where they were hurt to places where they can be treated, including loading and transporting them.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "catboost",
+   "name": "CatBoost",
+   "class": "skill",
+   "kind": "library",
+   "definition": "An open-source gradient-boosting library, originally from Yandex, that trains decision-tree models and handles categorical features directly.",
+   "certification": false,
+   "variants": [
+    "CatBoost (Machine Learning Library)"
+   ],
+   "relations": [
+    "related:adaboost",
+    "broader:machine-learning"
+   ]
+  },
+  {
+   "key": "cch-prosystem-fx-engagement",
+   "name": "CCH ProSystem fx Engagement",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "Wolters Kluwer CCH software that accounting firms use to manage engagements and workpapers.",
+   "certification": false,
+   "variants": [
+    "ProSystem Fx Engagement (Tax Software)"
+   ],
+   "relations": []
+  },
+  {
+   "key": "cdc-cyber",
+   "name": "CDC Cyber",
+   "class": "skill",
+   "kind": "platform",
+   "definition": "A line of mainframe and supercomputer systems made by Control Data Corporation from the 1970s.",
+   "certification": false,
+   "variants": [
+    "CDC Cyber (CDC Hardware)"
+   ],
+   "relations": []
+  },
+  {
+   "key": "cebas-finalrender",
+   "name": "cebas finalRender",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "A rendering plug-in from cebas Visual Technology for producing photorealistic images in 3D software such as Autodesk 3ds Max and Maya.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "celoxis",
+   "name": "Celoxis",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "Web-based project and portfolio management software for planning work, tracking time and resources, and reporting on projects.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "centileo",
+   "name": "CentiLeo",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "A GPU-based 3D renderer that produces images from 3D scenes, offered as a plug-in for 3D modelling software.",
+   "certification": false,
+   "variants": [
+    "CentiLeo Renderer"
+   ],
+   "relations": []
+  },
+  {
+   "key": "cerner",
+   "name": "Cerner",
+   "class": "skill",
+   "kind": "platform",
+   "definition": "Electronic health record software from the company Cerner, now part of Oracle Health, that hospitals use to chart, order and review patient information.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "ceros",
+   "name": "Ceros",
+   "class": "skill",
+   "kind": "platform",
+   "definition": "A cloud platform for designing interactive online content such as ebooks, microsites and lookbooks without writing code.",
+   "certification": false,
+   "variants": [
+    "Ceros (Software)"
+   ],
+   "relations": []
+  },
+  {
+   "key": "cfwheels",
+   "name": "CFWheels",
+   "class": "skill",
+   "kind": "framework",
+   "definition": "An open-source model-view-controller web framework for CFML (ColdFusion Markup Language).",
+   "certification": false,
+   "variants": [
+    "ColdFusion on Wheels"
+   ],
+   "relations": []
+  },
+  {
+   "key": "chai-js",
+   "name": "Chai.js",
+   "class": "skill",
+   "kind": "library",
+   "definition": "An assertion library for JavaScript testing that offers should, expect and assert styles.",
+   "certification": false,
+   "variants": [
+    "Chai (Software)",
+    "ChaiJS"
+   ],
+   "relations": []
+  },
+  {
+   "key": "chain-conveyor",
+   "name": "Chain Conveyor",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "A conveyor that moves loads along a track using one or more driven chains.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "chain-of-custody",
+   "name": "Chain of custody",
+   "class": "skill",
+   "kind": "method",
+   "definition": "The documented, unbroken record of who held a piece of evidence or sample and when, used to show it was not altered.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "chainer",
+   "name": "Chainer",
+   "class": "skill",
+   "kind": "framework",
+   "definition": "An open-source Python deep learning framework from Preferred Networks that builds neural networks as the code runs.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "challenge-handshake-authentication-protocol",
+   "name": "Challenge-Handshake Authentication Protocol",
+   "class": "skill",
+   "kind": "standard",
+   "definition": "A challenge-response protocol, used with the Point-to-Point Protocol, that checks a peer's identity by hashing a shared secret with a random challenge.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "change-agility",
+   "name": "Change agility",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "The capacity to adapt quickly and effectively as circumstances and organisational priorities change.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "change-management-planning",
+   "name": "Change management planning",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Planning how an organisation will move people through a change, including stakeholder engagement, communication and training.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "changing-oil",
+   "name": "Changing oil",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Draining the used engine oil from a vehicle or machine and refilling it with fresh oil, usually with a new filter.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "channel-sales",
+   "name": "Channel sales",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Selling products or services through partners such as resellers and distributors rather than directly to end customers.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "character-art",
+   "name": "Character art",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Designing and producing the visual appearance of characters for games, animation and film.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "chart-js",
+   "name": "Chart.js",
+   "class": "skill",
+   "kind": "library",
+   "definition": "An open-source JavaScript library for drawing charts on an HTML canvas.",
+   "certification": false,
+   "variants": [
+    "ChartJS"
+   ],
+   "relations": [
+    "related:amcharts"
+   ]
+  },
+  {
+   "key": "chemical-reactions",
+   "name": "Chemical reactions",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "The processes by which substances change into other substances, and the types, rates and energy changes involved.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "child-and-adolescent-psychiatry",
+   "name": "Child and adolescent psychiatry",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "The medical specialty that diagnoses and treats mental, emotional and behavioural disorders in children and teenagers.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "child-nutrition",
+   "name": "Child nutrition",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "The nutritional needs of infants, children and adolescents and how diet meets them.",
+   "certification": false,
+   "variants": [
+    "Child Nutritions"
+   ],
+   "relations": []
+  },
+  {
+   "key": "children-s-health-insurance-program",
+   "name": "Children's Health Insurance Program",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "The US federal and state programme that provides low-cost health coverage for children in families that earn too much for Medicaid.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "children-s-ministry",
+   "name": "Children's ministry",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "The programmes, teaching and pastoral care a church provides for its children.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "chip-design",
+   "name": "Chip design",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Specifying, laying out and verifying the circuits of an integrated circuit.",
+   "certification": false,
+   "variants": [
+    "Integrated circuit design"
+   ],
+   "relations": []
+  },
+  {
+   "key": "chipmunk2d",
+   "name": "Chipmunk2D",
+   "class": "skill",
+   "kind": "library",
+   "definition": "An open-source 2D rigid-body physics library written in C.",
+   "certification": false,
+   "variants": [
+    "Chipmunk (Computer Physics Engines)"
+   ],
+   "relations": []
+  },
+  {
+   "key": "chlorofluorocarbons",
+   "name": "Chlorofluorocarbons",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "A class of compounds of carbon, chlorine and fluorine once common as refrigerants and propellants, now phased out because they damage the ozone layer.",
+   "certification": false,
+   "variants": [
+    "Chlorofluorocarbon",
+    "CFCs"
+   ],
+   "relations": []
+  },
+  {
+   "key": "choral-music",
+   "name": "Choral music",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "Vocal music written for and performed by a choir.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "chordiant",
+   "name": "Chordiant",
+   "class": "skill",
+   "kind": "platform",
+   "definition": "A customer-experience management software suite from Chordiant Software, which Pegasystems acquired in 2010.",
+   "certification": false,
+   "variants": [
+    "Chordiant (Software)"
+   ],
+   "relations": []
+  },
+  {
+   "key": "choreography",
+   "name": "Choreography",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Designing and arranging sequences of movement, most often for dance, theatre and film performances.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "chromatography-software",
+   "name": "Chromatography software",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "Software that controls chromatography instruments and collects, processes and reports the data they produce.",
+   "certification": false,
+   "variants": [
+    "Chromatography Softwares"
+   ],
+   "relations": []
+  }
+ ]
+}

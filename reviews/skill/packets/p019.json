@@ -1,0 +1,454 @@
+{
+ "allowed_kinds": [
+  "ability",
+  "credential",
+  "framework",
+  "human-language",
+  "knowledge",
+  "library",
+  "markup-language",
+  "method",
+  "modeling-language",
+  "platform",
+  "programming-language",
+  "skill",
+  "standard",
+  "style-language",
+  "tool",
+  "work-activity"
+ ],
+ "entries": [
+  {
+   "key": "eddystone",
+   "name": "Eddystone",
+   "class": "skill",
+   "kind": "standard",
+   "definition": "An open Bluetooth Low Energy beacon format from Google that broadcasts identifiers and URLs.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "edius",
+   "name": "EDIUS",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "A non-linear video editing application from Grass Valley.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "educational-assessment",
+   "name": "Educational assessment",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "The process of gathering and interpreting evidence about what learners know and can do.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "educational-therapy",
+   "name": "Educational therapy",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Giving individualised, strategy-based help to learners with learning differences such as dyslexia or ADHD.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "eight-disciplines-problem-solving",
+   "name": "Eight Disciplines problem solving",
+   "class": "skill",
+   "kind": "method",
+   "definition": "A structured team method, developed in the automotive industry, for finding the root cause of a recurring problem, fixing it and preventing it from returning.",
+   "certification": false,
+   "variants": [
+    "Eight Disciplines Problem Solving (8D)",
+    "8D"
+   ],
+   "relations": []
+  },
+  {
+   "key": "einstein-analytics",
+   "name": "Einstein Analytics",
+   "class": "skill",
+   "kind": "platform",
+   "definition": "Salesforce's analytics and business-intelligence platform, later renamed Tableau CRM and then CRM Analytics.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "elastic-stack",
+   "name": "Elastic Stack",
+   "class": "skill",
+   "kind": "platform",
+   "definition": "A set of tools from Elastic, originally Elasticsearch, Logstash and Kibana, used together to collect, search and visualise log and event data.",
+   "certification": false,
+   "variants": [
+    "Elk Stack"
+   ],
+   "relations": []
+  },
+  {
+   "key": "electric-meters",
+   "name": "Electric meters",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "Instruments that measure the electrical energy used by a home, building or circuit.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "electric-vehicle",
+   "name": "Electric vehicle",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "A vehicle driven by one or more electric motors powered by a battery.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "electrical-diagnostics-and-repair",
+   "name": "Electrical diagnostics and repair",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Finding the cause of faults in electrical systems and equipment and fixing them.",
+   "certification": false,
+   "variants": [
+    "Electrical Diagnostics And Repairs"
+   ],
+   "relations": []
+  },
+  {
+   "key": "electrical-power-quality",
+   "name": "Electrical power quality",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "How well the supply voltage and current stay within specified limits, including voltage sags, harmonics and interruptions.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "electrical-wiring",
+   "name": "Electrical wiring",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Installing and connecting electrical cables and devices in buildings and equipment.",
+   "certification": false,
+   "variants": [
+    "Electrical Wirings"
+   ],
+   "relations": []
+  },
+  {
+   "key": "electromechanical-engineering",
+   "name": "Electromechanical engineering",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "The branch of engineering that combines electrical and mechanical engineering to design devices such as motors, actuators and robots.",
+   "certification": false,
+   "variants": [
+    "Electro Mechanical Engineering",
+    "Electro-mechanical engineering"
+   ],
+   "relations": []
+  },
+  {
+   "key": "electron-microscope",
+   "name": "Electron microscope",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "A microscope that images specimens with a beam of electrons, reaching far higher magnification than a light microscope.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "electronic-article-surveillance",
+   "name": "Electronic article surveillance",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "Retail anti-theft technology in which tagged items set off an alarm when carried through detectors at an exit.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "electronic-data-capture",
+   "name": "Electronic data capture",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "Collecting data directly into computer systems instead of on paper, most often in clinical trials using dedicated software.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "electronic-paper",
+   "name": "Electronic paper",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "Display technology that mimics ink on paper, reflecting light and holding an image without power, as used in e-readers.",
+   "certification": false,
+   "variants": [
+    "E-paper"
+   ],
+   "relations": []
+  },
+  {
+   "key": "electronic-prescribing",
+   "name": "Electronic prescribing",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Creating prescriptions on a computer and sending them electronically to a pharmacy.",
+   "certification": false,
+   "variants": [
+    "Electronic Prescribing (eRx)",
+    "e-prescribing",
+    "eRx"
+   ],
+   "relations": []
+  },
+  {
+   "key": "electronic-publishing",
+   "name": "Electronic publishing",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Producing and distributing books, journals and other content in digital formats.",
+   "certification": false,
+   "variants": [
+    "e-publishing"
+   ],
+   "relations": []
+  },
+  {
+   "key": "electrosurgery",
+   "name": "Electrosurgery",
+   "class": "skill",
+   "kind": "method",
+   "definition": "Using high-frequency electric current to cut, coagulate or destroy tissue during surgery.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "email-etiquette",
+   "name": "Email etiquette",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Writing and replying to email in a clear, courteous and appropriate way for the workplace.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "email-on-acid",
+   "name": "Email on Acid",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "A commercial service for previewing and testing how emails display across email clients and devices.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "email-service-providers",
+   "name": "Email service providers",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "Services that send, deliver and track bulk or transactional email for organisations, such as Mailchimp or SendGrid.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "email-software",
+   "name": "Email software",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "Applications for composing, sending, receiving and organising email.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "embalming",
+   "name": "Embalming",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Treating a dead body with preservative chemicals to delay decomposition and prepare it for viewing and burial.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "ember-js",
+   "name": "Ember.js",
+   "class": "skill",
+   "kind": "framework",
+   "definition": "A JavaScript framework for building ambitious single-page web applications.",
+   "certification": false,
+   "variants": [
+    "EmberJS"
+   ],
+   "relations": []
+  },
+  {
+   "key": "embroidery-machine-operation",
+   "name": "Embroidery machine operation",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Setting up and running machines that stitch designs into fabric.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "emergency-procedures",
+   "name": "Emergency procedures",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "The documented steps to follow when an emergency such as a fire, injury or equipment failure occurs.",
+   "certification": false,
+   "variants": [
+    "Emergency Procedure"
+   ],
+   "relations": []
+  },
+  {
+   "key": "emergency-vehicle-operations",
+   "name": "Emergency vehicle operations",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Driving ambulances, fire apparatus and police vehicles safely and quickly in emergency response.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "emission-calculations",
+   "name": "Emission calculations",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Estimating the amount of pollutants or greenhouse gases a source releases, from activity data and emission factors.",
+   "certification": false,
+   "variants": [
+    "Emission Calcuations"
+   ],
+   "relations": []
+  },
+  {
+   "key": "employee-relations",
+   "name": "Employee relations",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Managing the relationship between an employer and its workforce, including handling grievances, conduct issues and communication.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "employee-relations-investigations",
+   "name": "Employee relations investigations",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Investigating workplace complaints and suspected misconduct, such as harassment or policy breaches, to establish the facts and recommend action.",
+   "certification": false,
+   "variants": [],
+   "relations": [
+    "related:complaint-investigation"
+   ]
+  },
+  {
+   "key": "employer-branding",
+   "name": "Employer branding",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Shaping and promoting how an organisation is seen as a place to work, in order to attract and keep employees.",
+   "certification": false,
+   "variants": [],
+   "relations": [
+    "broader:branding-2"
+   ]
+  },
+  {
+   "key": "employment-compliance",
+   "name": "Employment compliance",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Making sure an organisation follows employment laws and regulations, such as those on pay, working hours and discrimination.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "ems-dispatch",
+   "name": "EMS dispatch",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Taking emergency calls and sending and coordinating ambulances and other emergency medical services.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "encounter-data-management",
+   "name": "Encounter data management",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Collecting, checking and submitting the records of healthcare visits and services, such as the encounter data that health plans report to government programs.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "endevor",
+   "name": "Endevor",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "Software configuration management tool, from CA and now Broadcom, for controlling changes to source code and other components on mainframe systems.",
+   "certification": false,
+   "variants": [
+    "CA Endevor"
+   ],
+   "relations": []
+  },
+  {
+   "key": "endocannabinoid-system",
+   "name": "Endocannabinoid system",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "The network of cannabinoid receptors and naturally made cannabinoid-like molecules in the body that helps regulate functions such as mood, appetite, pain and sleep.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "endocrine-disorders",
+   "name": "Endocrine disorders",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "Medical knowledge of conditions caused by hormone-producing glands working abnormally, such as diabetes and thyroid disease.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "endodontics",
+   "name": "Endodontics",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "The dental specialty concerned with diseases of the tooth pulp and the tissues around the tooth root, including root canal treatment.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  }
+ ]
+}

@@ -1,0 +1,494 @@
+{
+ "allowed_kinds": [
+  "ability",
+  "credential",
+  "framework",
+  "human-language",
+  "knowledge",
+  "library",
+  "markup-language",
+  "method",
+  "modeling-language",
+  "platform",
+  "programming-language",
+  "skill",
+  "standard",
+  "style-language",
+  "tool",
+  "work-activity"
+ ],
+ "entries": [
+  {
+   "key": "silk-test",
+   "name": "Silk Test",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "A tool for automating functional and regression tests of software applications, now sold by Micro Focus.",
+   "certification": false,
+   "variants": [
+    "SilkTesting",
+    "SilkTest"
+   ],
+   "relations": [
+    "related:testing"
+   ]
+  },
+  {
+   "key": "simple-interrupted-suture",
+   "name": "Simple interrupted suture",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "A basic suturing technique in which each stitch is placed and knotted separately to close a wound.",
+   "certification": false,
+   "variants": [
+    "Simple Interrupted Stitch"
+   ],
+   "relations": []
+  },
+  {
+   "key": "simple-mail-transfer-protocol",
+   "name": "Simple Mail Transfer Protocol",
+   "class": "skill",
+   "kind": "standard",
+   "definition": "The internet protocol used to send email from mail clients to servers and between mail servers.",
+   "certification": false,
+   "variants": [
+    "Simple Mail Transfer Protocols",
+    "SMTP"
+   ],
+   "relations": []
+  },
+  {
+   "key": "simple-public-key-infrastructure",
+   "name": "Simple Public Key Infrastructure",
+   "class": "skill",
+   "kind": "standard",
+   "definition": "An IETF proposal for authorisation certificates that bind permissions to public keys instead of names, described in RFC 2693.",
+   "certification": false,
+   "variants": [
+    "Simple Public-Key Infrastructure",
+    "SPKI"
+   ],
+   "relations": []
+  },
+  {
+   "key": "simplelegal",
+   "name": "SimpleLegal",
+   "class": "skill",
+   "kind": "platform",
+   "definition": "Software for corporate legal departments to manage matters, outside counsel invoices and legal spend.",
+   "certification": false,
+   "variants": [
+    "SimpleLegal (Legal Operations Software)"
+   ],
+   "relations": []
+  },
+  {
+   "key": "simputer",
+   "name": "Simputer",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "A low-cost handheld computer designed in India in the early 2000s for people with little access to computers, using icons and speech output.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "single-in-line-memory-module",
+   "name": "Single In-Line Memory Module",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "An older type of computer memory module with contacts on both sides of one edge that are electrically the same.",
+   "certification": false,
+   "variants": [
+    "Single In-Line Memory Module (SIMM)",
+    "SIMM"
+   ],
+   "relations": []
+  },
+  {
+   "key": "single-sign-on",
+   "name": "Single sign-on",
+   "class": "skill",
+   "kind": "method",
+   "definition": "An authentication approach that lets a user sign in once to reach several separate applications.",
+   "certification": false,
+   "variants": [
+    "SSO"
+   ],
+   "relations": []
+  },
+  {
+   "key": "site-reliability-engineering",
+   "name": "Site reliability engineering",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Applying software engineering to running large systems so that they stay reliable, scalable and efficient.",
+   "certification": false,
+   "variants": [
+    "SRE"
+   ],
+   "relations": [
+    "related:software-engineering"
+   ]
+  },
+  {
+   "key": "skip-tracing",
+   "name": "Skip tracing",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Locating a person who has moved or disappeared, such as a debtor, by searching records and databases.",
+   "certification": false,
+   "variants": [
+    "Skiptrace",
+    "Skip trace"
+   ],
+   "relations": []
+  },
+  {
+   "key": "sluice-gate",
+   "name": "Sluice gate",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "A movable barrier that controls the flow of water in a channel, dam or canal.",
+   "certification": false,
+   "variants": [
+    "Sluce Gates",
+    "Sluice gates"
+   ],
+   "relations": []
+  },
+  {
+   "key": "slurm-workload-manager",
+   "name": "Slurm Workload Manager",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "An open-source job scheduler and resource manager for Linux computing clusters.",
+   "certification": false,
+   "variants": [
+    "Slurm"
+   ],
+   "relations": []
+  },
+  {
+   "key": "smart-buildings",
+   "name": "Smart buildings",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "Buildings that use networked sensors, controls and software to automate and tune systems such as heating, lighting, security and energy use.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "smart-lighting",
+   "name": "Smart lighting",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "Lighting that can be controlled automatically or remotely, for example by sensors, schedules or an app.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "smart-meter-systems",
+   "name": "Smart meter systems",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "Electronic utility meters and the communications and software that send a customer's usage readings to the supplier.",
+   "certification": false,
+   "variants": [],
+   "relations": [
+    "related:gas-meter-systems"
+   ]
+  },
+  {
+   "key": "smart-pig",
+   "name": "Smart pig",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "An instrumented device sent through a pipeline to inspect it for corrosion, cracks and dents.",
+   "certification": false,
+   "variants": [
+    "Smart Pigs"
+   ],
+   "relations": []
+  },
+  {
+   "key": "smartbidnet",
+   "name": "SmartBidNet",
+   "class": "skill",
+   "kind": "platform",
+   "definition": "Online software for construction companies to invite subcontractors to bid and to manage bid documents and responses.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "smartphone-operation",
+   "name": "Smartphone operation",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Using a smartphone's apps, settings and features for tasks such as calls, messaging and navigation.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "snort",
+   "name": "Snort",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "An open-source network intrusion detection and prevention system that inspects traffic against rules.",
+   "certification": false,
+   "variants": [
+    "Snort (Intrusion Detection System)"
+   ],
+   "relations": [
+    "broader:network-intrusion-detection-system"
+   ]
+  },
+  {
+   "key": "snow-software",
+   "name": "Snow Software",
+   "class": "skill",
+   "kind": "platform",
+   "definition": "A software asset management platform, from the company Snow Software, for tracking software licences and usage.",
+   "certification": false,
+   "variants": [
+    "Snow (Software)"
+   ],
+   "relations": []
+  },
+  {
+   "key": "social-and-behavior-change-communication",
+   "name": "Social and behavior change communication",
+   "class": "skill",
+   "kind": "method",
+   "definition": "A public-health communication approach that uses strategic messaging and community engagement to change both individual behaviours and the social norms around them.",
+   "certification": false,
+   "variants": [
+    "SBCC",
+    "Social and behaviour change communication"
+   ],
+   "relations": [
+    "related:behavior-change-communication"
+   ]
+  },
+  {
+   "key": "social-determinants-of-health",
+   "name": "Social determinants of health",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "The non-medical conditions in which people live and work, such as income, housing and education, that shape their health.",
+   "certification": false,
+   "variants": [
+    "SDOH"
+   ],
+   "relations": []
+  },
+  {
+   "key": "social-emotional-learning",
+   "name": "Social-emotional learning",
+   "class": "skill",
+   "kind": "method",
+   "definition": "An educational approach that teaches skills such as self-awareness, self-management, empathy, relationship skills and responsible decision-making.",
+   "certification": false,
+   "variants": [
+    "SEL",
+    "Social and emotional learning"
+   ],
+   "relations": []
+  },
+  {
+   "key": "social-impact-bond",
+   "name": "Social impact bond",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "A pay-for-success contract in which private investors fund a social programme and are repaid by government only if agreed outcomes are met.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "social-media-advertising",
+   "name": "Social media advertising",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Planning, buying and running paid advertisements on social media platforms.",
+   "certification": false,
+   "variants": [
+    "Social Network Advertising"
+   ],
+   "relations": [
+    "broader:digital-advertising"
+   ]
+  },
+  {
+   "key": "social-media-analytics",
+   "name": "Social media analytics",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Collecting and analysing data from social media accounts and conversations to measure performance and audience behaviour.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "social-media-content-creation",
+   "name": "Social media content creation",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Planning and making posts, images, video and captions for an organisation's or person's social media accounts.",
+   "certification": false,
+   "variants": [],
+   "relations": [
+    "related:content-curation"
+   ]
+  },
+  {
+   "key": "social-media-content-management",
+   "name": "Social media content management",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Planning, scheduling, publishing and reviewing the content on social media accounts.",
+   "certification": false,
+   "variants": [],
+   "relations": [
+    "related:hootsuite"
+   ]
+  },
+  {
+   "key": "social-media-management",
+   "name": "Social media management",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Running social media accounts for a person or organisation, including planning and publishing posts, replying to followers and reporting on results.",
+   "certification": false,
+   "variants": [],
+   "relations": [
+    "related:hootsuite"
+   ]
+  },
+  {
+   "key": "social-media-optimization",
+   "name": "Social media optimization",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Using social media activity and content to raise the visibility of a brand or website and bring traffic to it.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "social-sustainability",
+   "name": "Social sustainability",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "The part of sustainability concerned with the wellbeing, equity and rights of the people and communities affected by an organisation or project.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "sociology-of-education",
+   "name": "Sociology of education",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "The study of how schooling and education relate to social structures, inequality and social change.",
+   "certification": false,
+   "variants": [],
+   "relations": [
+    "related:history-of-education"
+   ]
+  },
+  {
+   "key": "socket-478",
+   "name": "Socket 478",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "A 478-pin CPU socket made by Intel for later Pentium 4 and Celeron processors.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "socket-5",
+   "name": "Socket 5",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "A 320-pin CPU socket used by Intel for its Pentium processors from 75 to 133 MHz.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "sockjs",
+   "name": "SockJS",
+   "class": "skill",
+   "kind": "library",
+   "definition": "A JavaScript library that gives browsers a WebSocket-like object and falls back to other transports when WebSockets are unavailable.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "softrax",
+   "name": "Softrax",
+   "class": "skill",
+   "kind": "platform",
+   "definition": "Software for revenue recognition, billing and contract management, aimed at software and subscription companies.",
+   "certification": false,
+   "variants": [
+    "Softrax (Software)"
+   ],
+   "relations": []
+  },
+  {
+   "key": "software-architecture",
+   "name": "Software architecture",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Designing software structure and major component interactions.",
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "software-as-a-service",
+   "name": "Software as a service",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "A way of delivering software over the internet by subscription, hosted by the provider instead of installed by the customer.",
+   "certification": false,
+   "variants": [
+    "Software as a Service (SaaS)",
+    "SaaS",
+    "Software As A Services"
+   ],
+   "relations": []
+  },
+  {
+   "key": "software-defined-wan",
+   "name": "Software-defined WAN",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "A way of running a wide area network in which software centrally controls how traffic is routed across links such as broadband, MPLS and cellular.",
+   "certification": false,
+   "variants": [
+    "Software-Defined Networking Wide Area Network (SD-WAN)",
+    "SD-WAN",
+    "Software-defined wide area network"
+   ],
+   "relations": []
+  },
+  {
+   "key": "software-engineering",
+   "name": "Software engineering",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "Systematic design, construction and maintenance of software.",
+   "variants": [],
+   "relations": []
+  }
+ ]
+}

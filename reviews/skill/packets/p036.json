@@ -1,0 +1,456 @@
+{
+ "allowed_kinds": [
+  "ability",
+  "credential",
+  "framework",
+  "human-language",
+  "knowledge",
+  "library",
+  "markup-language",
+  "method",
+  "modeling-language",
+  "platform",
+  "programming-language",
+  "skill",
+  "standard",
+  "style-language",
+  "tool",
+  "work-activity"
+ ],
+ "entries": [
+  {
+   "key": "microchipping",
+   "name": "Microchipping",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Implanting an identification microchip under an animal's skin and registering it to the owner.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "microcontrollers",
+   "name": "Microcontrollers",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "Small single-chip computers that combine a processor, memory and input and output pins, used to control embedded devices.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "microscopic-anatomy",
+   "name": "Microscopic anatomy",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "The study of the body's structures at a scale that needs a microscope, including tissues (histology) and cells (cytology).",
+   "certification": false,
+   "variants": [
+    "Miscroscopic Anatomy"
+   ],
+   "relations": []
+  },
+  {
+   "key": "microsite",
+   "name": "Microsite",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "A small, separate website or set of pages built for a specific campaign, product or event, apart from a company's main site.",
+   "certification": false,
+   "variants": [
+    "Microsites"
+   ],
+   "relations": []
+  },
+  {
+   "key": "microsoft-365",
+   "name": "Microsoft 365",
+   "class": "skill",
+   "kind": "platform",
+   "definition": "Microsoft's subscription service that bundles Office applications with cloud services such as email, file storage and collaboration tools.",
+   "certification": false,
+   "variants": [
+    "M365"
+   ],
+   "relations": []
+  },
+  {
+   "key": "microsoft-bookings",
+   "name": "Microsoft Bookings",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "A Microsoft 365 app that lets customers book appointments online and helps staff manage their schedules.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "microsoft-bot-framework",
+   "name": "Microsoft Bot Framework",
+   "class": "skill",
+   "kind": "framework",
+   "definition": "Microsoft's software development kit and set of services for building, connecting and deploying conversational bots.",
+   "certification": false,
+   "variants": [
+    "Bot Framework"
+   ],
+   "relations": []
+  },
+  {
+   "key": "microsoft-digital-image-suite",
+   "name": "Microsoft Digital Image Suite",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "Microsoft consumer software for editing, organising and sharing digital photos.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "microsoft-forms",
+   "name": "Microsoft Forms",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "A Microsoft 365 app for creating surveys, quizzes and polls and collecting the responses.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "microsoft-hololens",
+   "name": "Microsoft HoloLens",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "A mixed-reality headset made by Microsoft that overlays holograms on the user's view of the real world.",
+   "certification": false,
+   "variants": [
+    "Hololens"
+   ],
+   "relations": []
+  },
+  {
+   "key": "microsoft-language-interface-pack",
+   "name": "Microsoft Language Interface Pack",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "A downloadable Microsoft add-on that translates much of the Windows or Office interface into another language.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "microsoft-lists",
+   "name": "Microsoft Lists",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "A Microsoft 365 app for tracking information and work in customisable lists.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "microsoft-lync",
+   "name": "Microsoft Lync",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "Microsoft's business instant-messaging, presence and conferencing software, later renamed Skype for Business.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "microsoft-paint",
+   "name": "Microsoft Paint",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "A basic raster graphics editor included with Windows.",
+   "certification": false,
+   "variants": [
+    "MS Paint"
+   ],
+   "relations": []
+  },
+  {
+   "key": "microsoft-sentinel",
+   "name": "Microsoft Sentinel",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "Microsoft's cloud-native security information and event management (SIEM) and security orchestration, automation and response (SOAR) service.",
+   "certification": false,
+   "variants": [
+    "Azure Sentinel"
+   ],
+   "relations": []
+  },
+  {
+   "key": "microsoft-teams-live-events",
+   "name": "Microsoft Teams live events",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "A Microsoft Teams feature for broadcasting meetings and presentations to large online audiences.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "microsoft-teams-phone",
+   "name": "Microsoft Teams Phone",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "The calling features of Microsoft Teams, which let users place and receive phone calls through Teams.",
+   "certification": false,
+   "variants": [
+    "Microsoft Teams Voice"
+   ],
+   "relations": []
+  },
+  {
+   "key": "microsoft-transaction-server",
+   "name": "Microsoft Transaction Server",
+   "class": "skill",
+   "kind": "platform",
+   "definition": "A Microsoft runtime from the 1990s for running and managing transactions and components in Windows server applications, later merged into COM+.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "microsoft-visio",
+   "name": "Microsoft Visio",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "A Microsoft application for drawing diagrams such as flowcharts, floor plans and network maps.",
+   "certification": false,
+   "variants": [
+    "Visio"
+   ],
+   "relations": []
+  },
+  {
+   "key": "microsoft-works",
+   "name": "Microsoft Works",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "A low-cost Microsoft productivity suite that combined a word processor, spreadsheet and database.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "microstation",
+   "name": "MicroStation",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "A computer-aided design application from Bentley Systems for 2D and 3D design and drafting, used mainly in infrastructure and architecture.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "microstrategy-desktop",
+   "name": "MicroStrategy Desktop",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "The desktop application of MicroStrategy's business intelligence software, used to build reports and dashboards.",
+   "certification": false,
+   "variants": [
+    "Microstrategy Desktops"
+   ],
+   "relations": []
+  },
+  {
+   "key": "microstrategy-intelligence-server",
+   "name": "MicroStrategy Intelligence Server",
+   "class": "skill",
+   "kind": "platform",
+   "definition": "The server component of MicroStrategy's business intelligence software that runs queries, caches results and serves reports to users.",
+   "certification": false,
+   "variants": [
+    "Microstrategy Intelligence Servers"
+   ],
+   "relations": []
+  },
+  {
+   "key": "microstrategy-metrics",
+   "name": "MicroStrategy metrics",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "In MicroStrategy, the objects that define business calculations, such as total revenue, which reports and dashboards display.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "microstrategy-office",
+   "name": "MicroStrategy Office",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "A MicroStrategy add-in that lets users run and analyse MicroStrategy reports inside Microsoft Excel, PowerPoint and Word.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "microstrategy-olap-services",
+   "name": "MicroStrategy OLAP Services",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "A MicroStrategy extension that lets users slice and filter report results held in memory without re-querying the database.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "microstrategy-report-services",
+   "name": "MicroStrategy Report Services",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "A MicroStrategy component for building formatted, multi-section documents and dashboards from several reports.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "microstrategy-software-development-kit",
+   "name": "MicroStrategy Software Development Kit",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "A set of programming interfaces and tools for customising and extending MicroStrategy applications.",
+   "certification": false,
+   "variants": [
+    "MicroStrategy SDK"
+   ],
+   "relations": []
+  },
+  {
+   "key": "microstrategy-transaction-services",
+   "name": "MicroStrategy Transaction Services",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "A MicroStrategy feature that lets users write data back to a database from reports and documents.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "microstrategy-visual-insight",
+   "name": "MicroStrategy Visual Insight",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "A MicroStrategy interface for building interactive data visualisations and dashboards.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "microstrategy-web",
+   "name": "MicroStrategy Web",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "The web interface of MicroStrategy's business intelligence software, used to run reports and build dashboards in a browser.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "mike-urban",
+   "name": "MIKE URBAN",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "DHI software for modelling urban water systems such as sewers, stormwater drainage and water distribution.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "military-standards-and-specifications",
+   "name": "Military standards and specifications",
+   "class": "skill",
+   "kind": "standard",
+   "definition": "US Department of Defense documents, such as MIL-STD and MIL-SPEC, that set technical, quality and process requirements for defence products.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "mill-test-report",
+   "name": "Mill test report",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "A document from a metal mill that certifies the chemical and mechanical properties of a batch of material supplied with it.",
+   "certification": false,
+   "variants": [
+    "Mill test certificate"
+   ],
+   "relations": []
+  },
+  {
+   "key": "millimeter-waves",
+   "name": "Millimeter waves",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "Radio waves with wavelengths of about 1 to 10 millimetres (30 to 300 GHz), used in 5G, radar and imaging.",
+   "certification": false,
+   "variants": [
+    "mmWave",
+    "Millimetre waves"
+   ],
+   "relations": []
+  },
+  {
+   "key": "mind-mapping",
+   "name": "Mind mapping",
+   "class": "skill",
+   "kind": "method",
+   "definition": "Organising ideas as a branching diagram that spreads out from one central concept.",
+   "certification": false,
+   "variants": [
+    "Mindmapping"
+   ],
+   "relations": []
+  },
+  {
+   "key": "mineralogy",
+   "name": "Mineralogy",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "The study of minerals, including their composition, structure, properties and occurrence.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "mitre-att-ck",
+   "name": "MITRE ATT&CK",
+   "class": "skill",
+   "kind": "framework",
+   "definition": "A knowledge base from MITRE of the tactics and techniques that attackers use, organised for threat modelling and defence.",
+   "certification": false,
+   "variants": [
+    "MITRE ATT&CK Framework",
+    "ATT&CK"
+   ],
+   "relations": []
+  },
+  {
+   "key": "mixed-reality",
+   "name": "Mixed reality",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "Technology that blends real and virtual objects so that they interact in real time.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "mobile-application-design",
+   "name": "Mobile application design",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Designing the screens, navigation and interactions of apps for phones and tablets.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  }
+ ]
+}

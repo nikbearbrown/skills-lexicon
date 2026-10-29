@@ -1,0 +1,462 @@
+{
+ "allowed_kinds": [
+  "ability",
+  "credential",
+  "framework",
+  "human-language",
+  "knowledge",
+  "library",
+  "markup-language",
+  "method",
+  "modeling-language",
+  "platform",
+  "programming-language",
+  "skill",
+  "standard",
+  "style-language",
+  "tool",
+  "work-activity"
+ ],
+ "entries": [
+  {
+   "key": "apache-openejb",
+   "name": "Apache OpenEJB",
+   "class": "skill",
+   "kind": "platform",
+   "definition": "A lightweight container that implements the Enterprise JavaBeans (EJB) specification and can run standalone or embedded in another server.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "apache-opennlp",
+   "name": "Apache OpenNLP",
+   "class": "skill",
+   "kind": "library",
+   "definition": "An Apache open-source machine-learning library for natural language processing tasks such as tokenisation, part-of-speech tagging and named-entity recognition.",
+   "certification": false,
+   "variants": [
+    "OpenNLP"
+   ],
+   "relations": [
+    "related:natural-language-processing"
+   ]
+  },
+  {
+   "key": "apache-pdfbox",
+   "name": "Apache PDFBox",
+   "class": "skill",
+   "kind": "library",
+   "definition": "An open-source Java library from the Apache Software Foundation for creating, reading, changing and extracting text from PDF files.",
+   "certification": false,
+   "variants": [
+    "Pdfbox"
+   ],
+   "relations": []
+  },
+  {
+   "key": "apache-predictionio",
+   "name": "Apache PredictionIO",
+   "class": "skill",
+   "kind": "platform",
+   "definition": "An open-source machine-learning server for building and serving predictive engines, developed as an Apache Software Foundation project.",
+   "certification": false,
+   "variants": [
+    "Predictionio"
+   ],
+   "relations": []
+  },
+  {
+   "key": "apache-spark",
+   "name": "Apache Spark",
+   "class": "skill",
+   "kind": "framework",
+   "definition": "An open-source engine for large-scale data processing and analytics, with programming interfaces for Scala, Java, Python and R.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "api-design",
+   "name": "API design",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Designing the interface through which other programs use a service, including its resources, operations, data formats and errors.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "api-gateway",
+   "name": "API gateway",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "A server that sits in front of backend services and routes, secures and manages the API requests that clients send to them.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "api-management",
+   "name": "API management",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Publishing, securing, monitoring and versioning APIs across their lifetime, often with an API gateway and a developer portal.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "apollo-graphql",
+   "name": "Apollo GraphQL",
+   "class": "skill",
+   "kind": "platform",
+   "definition": "Apollo's platform and open-source tools, such as Apollo Client and Apollo Server, for building, running and querying GraphQL APIs.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "appian",
+   "name": "Appian",
+   "class": "skill",
+   "kind": "platform",
+   "definition": "A low-code platform for building business process, workflow and case management applications.",
+   "certification": false,
+   "variants": [
+    "Appian (Software)"
+   ],
+   "relations": []
+  },
+  {
+   "key": "apple-device-enrollment-program",
+   "name": "Apple Device Enrollment Program",
+   "class": "skill",
+   "kind": "platform",
+   "definition": "An Apple program, now called Automated Device Enrollment, that lets an organisation enrol company-owned Apple devices in its device-management system automatically when they are first switched on.",
+   "certification": false,
+   "variants": [
+    "Apple Device Enrollment Program (DEP)",
+    "Automated Device Enrollment"
+   ],
+   "relations": []
+  },
+  {
+   "key": "apple-numbers",
+   "name": "Apple Numbers",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "Apple's spreadsheet application for macOS, iOS and iPadOS.",
+   "certification": false,
+   "variants": [
+    "Numbers (Spreadsheet)"
+   ],
+   "relations": []
+  },
+  {
+   "key": "appletviewer",
+   "name": "appletviewer",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "A command-line tool in the Java Development Kit that runs Java applets without a web browser.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "application-controls",
+   "name": "Application controls",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "The checks built into a business application, automated or manual, that make sure transactions are processed completely, accurately and with proper authorisation, as examined in IT audit.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "application-delivery-controller",
+   "name": "Application delivery controller",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "A network device or service placed in front of application servers that balances traffic and adds features such as SSL offloading, caching and application firewalling.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "application-delivery-network",
+   "name": "Application delivery network",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "A set of network technologies, such as load balancers and WAN optimisation, that together keep web applications fast, available and secure.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "application-monitoring",
+   "name": "Application monitoring",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Tracking the availability, performance and errors of a running software application.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "application-pool",
+   "name": "Application pool",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "In Microsoft Internet Information Services (IIS), a group of web applications that share a worker process and settings and are isolated from applications in other pools.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "application-programming-interface",
+   "name": "Application programming interface",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "A defined set of operations and data formats through which one piece of software lets other programs use its functions.",
+   "certification": false,
+   "variants": [
+    "API",
+    "APIs"
+   ],
+   "relations": []
+  },
+  {
+   "key": "application-specific-integrated-circuit",
+   "name": "Application-specific integrated circuit",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "An integrated circuit designed for one particular purpose or product rather than for general-purpose use.",
+   "certification": false,
+   "variants": [
+    "Application Specific Integrated Curcuits",
+    "ASIC",
+    "ASICs",
+    "Application Specific Integrated Circuits"
+   ],
+   "relations": []
+  },
+  {
+   "key": "applied-element-method",
+   "name": "Applied element method",
+   "class": "skill",
+   "kind": "method",
+   "definition": "A numerical method in structural engineering that models a structure as small rigid elements joined by springs, so that its behaviour can be simulated up to collapse.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "applied-linguistics",
+   "name": "Applied linguistics",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "The study of language-related problems in real-world settings, such as language teaching, translation and language policy.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "applied-statistics",
+   "name": "Applied statistics",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "The use of statistical methods to analyse data and solve practical problems in a particular field, as opposed to developing statistical theory.",
+   "certification": false,
+   "variants": [],
+   "relations": [
+    "broader:statistics"
+   ]
+  },
+  {
+   "key": "applixware",
+   "name": "Applixware",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "An office productivity suite for Unix and Linux systems made by Applix.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "appsflyer",
+   "name": "AppsFlyer",
+   "class": "skill",
+   "kind": "platform",
+   "definition": "A platform for mobile attribution and marketing analytics that shows which campaigns lead to app installs and in-app activity.",
+   "certification": false,
+   "variants": [
+    "AppsFlyer (SaaS)"
+   ],
+   "relations": []
+  },
+  {
+   "key": "appsheet",
+   "name": "AppSheet",
+   "class": "skill",
+   "kind": "platform",
+   "definition": "Google's no-code platform for building apps from data in spreadsheets and databases.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "apptio",
+   "name": "Apptio",
+   "class": "skill",
+   "kind": "platform",
+   "definition": "Software for technology business management that tracks, allocates and reports on the cost of IT.",
+   "certification": false,
+   "variants": [
+    "Apptio (Financial Software)"
+   ],
+   "relations": []
+  },
+  {
+   "key": "apxs",
+   "name": "apxs",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "A command-line tool of the Apache HTTP Server for building and installing extension modules as dynamic shared objects.",
+   "certification": false,
+   "variants": [
+    "APache EXtenSion Tool (APXS)"
+   ],
+   "relations": []
+  },
+  {
+   "key": "arachnophilia",
+   "name": "Arachnophilia",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "A free text editor for writing web pages and other code.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "arangodb",
+   "name": "ArangoDB",
+   "class": "skill",
+   "kind": "platform",
+   "definition": "A multi-model database that stores documents, graphs and key-value data and is queried with its own language, AQL.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "araxis-merge",
+   "name": "Araxis Merge",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "A commercial tool for comparing and merging files, folders and documents, made by Araxis.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "archaeology",
+   "name": "Archaeology",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "The study of past human societies through the excavation and analysis of their material remains.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "architectural-rendering",
+   "name": "Architectural rendering",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Producing realistic images of a planned building or interior from a 3D design model.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "architectural-visualization",
+   "name": "Architectural visualization",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Producing images, animations or virtual walkthroughs that show how a planned building or space will look before it is built.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "arcsight-enterprise-security-manager",
+   "name": "ArcSight Enterprise Security Manager",
+   "class": "skill",
+   "kind": "platform",
+   "definition": "A security information and event management (SIEM) product that collects and correlates security events from across an organisation to detect threats.",
+   "certification": false,
+   "variants": [
+    "ArcSight ESM"
+   ],
+   "relations": []
+  },
+  {
+   "key": "areca-backup",
+   "name": "Areca Backup",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "A free, open-source file backup application written in Java.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "argo-cd",
+   "name": "Argo CD",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "A declarative GitOps continuous-delivery tool that keeps applications on Kubernetes in sync with configuration stored in Git.",
+   "certification": false,
+   "variants": [
+    "ArgoCD"
+   ],
+   "relations": []
+  },
+  {
+   "key": "arithmetic",
+   "name": "Arithmetic",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "The branch of mathematics that deals with calculating with numbers using addition, subtraction, multiplication and division.",
+   "certification": false,
+   "variants": [
+    "Arithmetics"
+   ],
+   "relations": []
+  },
+  {
+   "key": "arkit",
+   "name": "ARKit",
+   "class": "skill",
+   "kind": "framework",
+   "definition": "Apple's framework for building augmented reality apps on iOS and iPadOS.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "armed-forces-health-longitudinal-technology-application",
+   "name": "Armed Forces Health Longitudinal Technology Application",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "The electronic health record system that the US Department of Defense used across its Military Health System to document patient care.",
+   "certification": false,
+   "variants": [
+    "Armed Forces Health Longitudinal Technology Application (AHTLA)",
+    "AHLTA"
+   ],
+   "relations": []
+  }
+ ]
+}

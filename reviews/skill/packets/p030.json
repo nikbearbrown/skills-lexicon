@@ -1,0 +1,480 @@
+{
+ "allowed_kinds": [
+  "ability",
+  "credential",
+  "framework",
+  "human-language",
+  "knowledge",
+  "library",
+  "markup-language",
+  "method",
+  "modeling-language",
+  "platform",
+  "programming-language",
+  "skill",
+  "standard",
+  "style-language",
+  "tool",
+  "work-activity"
+ ],
+ "entries": [
+  {
+   "key": "interactive-web-design",
+   "name": "Interactive web design",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Designing websites whose layout and elements respond to what visitors do, such as menus, forms, animation and live updates.",
+   "certification": false,
+   "variants": [],
+   "relations": [
+    "related:user-interface-design"
+   ]
+  },
+  {
+   "key": "interactive-web-development",
+   "name": "Interactive web development",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Writing the code that makes web pages respond to visitors' actions, usually with JavaScript.",
+   "certification": false,
+   "variants": [],
+   "relations": [
+    "broader:web-development"
+   ]
+  },
+  {
+   "key": "interdisciplinary-collaboration",
+   "name": "Interdisciplinary collaboration",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Working effectively with people from other professions or fields, such as nurses and physicians or engineers and designers, toward a shared goal.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "internal-investigations",
+   "name": "Internal investigations",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Investigating suspected misconduct or rule-breaking inside an organisation, such as fraud, harassment or policy breaches, to establish the facts and recommend action.",
+   "certification": false,
+   "variants": [],
+   "relations": [
+    "related:employee-relations-investigations"
+   ]
+  },
+  {
+   "key": "international-standard-book-number",
+   "name": "International Standard Book Number",
+   "class": "skill",
+   "kind": "standard",
+   "definition": "A unique number that identifies a particular edition of a book or similar publication, defined by the ISO 2108 standard.",
+   "certification": false,
+   "variants": [
+    "ISBN"
+   ],
+   "relations": []
+  },
+  {
+   "key": "internet-control-message-protocol",
+   "name": "Internet Control Message Protocol",
+   "class": "skill",
+   "kind": "standard",
+   "definition": "A network-layer protocol, defined in RFC 792, that IP devices use to send error messages and operational information, such as the echo requests used by ping.",
+   "certification": false,
+   "variants": [
+    "ICMP"
+   ],
+   "relations": [
+    "related:icmpv6"
+   ]
+  },
+  {
+   "key": "internet-message-access-protocol",
+   "name": "Internet Message Access Protocol",
+   "class": "skill",
+   "kind": "standard",
+   "definition": "An email protocol that lets a mail client read and manage messages that stay stored on the mail server.",
+   "certification": false,
+   "variants": [
+    "Internet Message Access Protocols",
+    "IMAP"
+   ],
+   "relations": []
+  },
+  {
+   "key": "internet-protocol-suite",
+   "name": "Internet protocol suite",
+   "class": "skill",
+   "kind": "standard",
+   "definition": "The set of communication protocols, such as IP, TCP and UDP, that computers use to exchange data over the internet and similar networks.",
+   "certification": false,
+   "variants": [
+    "Internet Protocolss",
+    "TCP/IP",
+    "Internet protocols"
+   ],
+   "relations": [
+    "broader:computer-networking"
+   ]
+  },
+  {
+   "key": "interpreting-contracts-under-english-law",
+   "name": "Interpreting contracts under English law",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Working out what the terms of a contract mean and how they apply under the law of England and Wales.",
+   "certification": false,
+   "variants": [
+    "Interpreting Contracts In English Laws"
+   ],
+   "relations": []
+  },
+  {
+   "key": "interpreting-law",
+   "name": "Interpreting law",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Working out what statutes, regulations and court decisions mean and how they apply to a particular situation.",
+   "certification": false,
+   "variants": [
+    "Interpret Law"
+   ],
+   "relations": []
+  },
+  {
+   "key": "interqual",
+   "name": "InterQual",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "A set of evidence-based clinical criteria, sold as software, that hospitals and insurers use in utilization review to judge whether admissions and levels of care are medically necessary.",
+   "certification": false,
+   "variants": [
+    "InterQual Criteria"
+   ],
+   "relations": []
+  },
+  {
+   "key": "intradermal-injection",
+   "name": "Intradermal injection",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Injecting a small amount of a substance into the layer of skin just under the surface, as in a tuberculin skin test.",
+   "certification": false,
+   "variants": [
+    "Intradermal"
+   ],
+   "relations": []
+  },
+  {
+   "key": "intraoperative-neurophysiological-monitoring",
+   "name": "Intraoperative neurophysiological monitoring",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Using electrical tests such as EEG, evoked potentials and EMG during surgery to monitor the nervous system and warn the surgeon of possible injury.",
+   "certification": false,
+   "variants": [
+    "IONM",
+    "Intraoperative neuromonitoring",
+    "Intraoperative neurophysiologic monitoring"
+   ],
+   "relations": [
+    "related:american-board-of-neurophysiologic-monitoring-certification",
+    "related:certification-in-neurophysiologic-intraoperative-monitoring"
+   ]
+  },
+  {
+   "key": "intraoral-cameras",
+   "name": "Intraoral cameras",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "Small pen-shaped cameras that dentists use to take enlarged pictures of the inside of a patient's mouth.",
+   "certification": false,
+   "variants": [
+    "Intraoral camera"
+   ],
+   "relations": []
+  },
+  {
+   "key": "intravenous-hydration",
+   "name": "Intravenous hydration",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Giving fluids directly into a vein through an IV line to treat or prevent dehydration.",
+   "certification": false,
+   "variants": [
+    "IV hydration"
+   ],
+   "relations": []
+  },
+  {
+   "key": "intravenous-infusion",
+   "name": "Intravenous infusion",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Giving fluids, medicines or nutrients into a vein through an IV line, using a drip or a pump.",
+   "certification": false,
+   "variants": [
+    "Intravenous (IV) Fusions",
+    "IV infusion",
+    "IV infusions"
+   ],
+   "relations": []
+  },
+  {
+   "key": "inventory-management-software",
+   "name": "Inventory management software",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "Software for tracking stock levels, orders, sales and deliveries so that a business knows what it has and where.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "investigating-drug-trafficking",
+   "name": "Investigating drug trafficking",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Investigating the making, transport and sale of illegal drugs, including surveillance, informants, evidence gathering and tracing money.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "investigative-interviewing",
+   "name": "Investigative interviewing",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Questioning witnesses, victims and suspects in a structured, non-coercive way to get accurate and complete accounts for an investigation.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "investigator-s-brochure",
+   "name": "Investigator's brochure",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Writing and maintaining the investigator's brochure, the document used in clinical trials that summarises the clinical and non-clinical data on the study drug for the people running the trial.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "invision",
+   "name": "InVision",
+   "class": "skill",
+   "kind": "platform",
+   "definition": "A web-based digital product design platform for prototyping screens, collaborating on them and handing them off to developers, which was discontinued at the end of 2024.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "invoice-processing",
+   "name": "Invoice processing",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Receiving, checking, recording and paying supplier invoices as part of accounts payable.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "io-js",
+   "name": "Io.js",
+   "class": "skill",
+   "kind": "platform",
+   "definition": "A fork of the Node.js JavaScript runtime, started in 2014 and merged back into Node.js in 2015.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "ionic-2",
+   "name": "Ionic 2",
+   "class": "skill",
+   "kind": "framework",
+   "definition": "The second major version of the Ionic framework for building mobile apps with web technologies, rebuilt on Angular to replace the AngularJS-based first version.",
+   "certification": false,
+   "variants": [
+    "Ionic2"
+   ],
+   "relations": []
+  },
+  {
+   "key": "ios",
+   "name": "iOS",
+   "class": "skill",
+   "kind": "platform",
+   "definition": "The mobile operating system that Apple makes for the iPhone.",
+   "certification": false,
+   "variants": [
+    "Apple IOS",
+    "iPhone OS"
+   ],
+   "relations": []
+  },
+  {
+   "key": "ip-address-management",
+   "name": "IP address management",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Planning, tracking and administering a network's IP address space and the DHCP and DNS records tied to it.",
+   "certification": false,
+   "variants": [
+    "IPAM"
+   ],
+   "relations": []
+  },
+  {
+   "key": "ipython",
+   "name": "IPython",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "An enhanced interactive Python shell, which also provides the kernel behind Jupyter notebooks.",
+   "certification": false,
+   "variants": [],
+   "relations": [
+    "related:python"
+   ]
+  },
+  {
+   "key": "ironmq",
+   "name": "IronMQ",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "A hosted message-queue service from Iron.io for passing messages between the parts of an application.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "ironpython",
+   "name": "IronPython",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "An implementation of the Python language for the .NET platform.",
+   "certification": false,
+   "variants": [],
+   "relations": [
+    "related:python",
+    "related:cpython"
+   ]
+  },
+  {
+   "key": "irrigation-agriculture",
+   "name": "Irrigation (agriculture)",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Supplying water to crops or land through channels, sprinklers or drip lines, and operating and maintaining the equipment that does so.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "irrigation-health",
+   "name": "Irrigation (health)",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Flushing a wound, body cavity, eye, ear or catheter with a stream of sterile fluid to clean it or clear it out.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "iso-10012",
+   "name": "ISO 10012",
+   "class": "skill",
+   "kind": "standard",
+   "definition": "An ISO standard with requirements for managing measurement processes and the equipment used to measure.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "iso-10993",
+   "name": "ISO 10993",
+   "class": "skill",
+   "kind": "standard",
+   "definition": "A series of ISO standards for evaluating whether medical devices are biologically safe to use on or in the body.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "iso-14000",
+   "name": "ISO 14000",
+   "class": "skill",
+   "kind": "standard",
+   "definition": "A family of ISO standards on environmental management, of which ISO 14001 sets the requirements for an environmental management system.",
+   "certification": false,
+   "variants": [
+    "ISO 14000 Standard"
+   ],
+   "relations": []
+  },
+  {
+   "key": "iso-14971",
+   "name": "ISO 14971",
+   "class": "skill",
+   "kind": "standard",
+   "definition": "An ISO standard describing how manufacturers identify, evaluate and control the risks of medical devices.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "iso-15189",
+   "name": "ISO 15189",
+   "class": "skill",
+   "kind": "standard",
+   "definition": "An ISO standard setting quality and competence requirements for medical laboratories.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "iso-19011",
+   "name": "ISO 19011",
+   "class": "skill",
+   "kind": "standard",
+   "definition": "An ISO standard giving guidance on auditing management systems, including how to plan audits and what auditors need to be competent in.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "iso-26262",
+   "name": "ISO 26262",
+   "class": "skill",
+   "kind": "standard",
+   "definition": "An ISO standard for the functional safety of electrical and electronic systems in road vehicles.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "iso-31000",
+   "name": "ISO 31000",
+   "class": "skill",
+   "kind": "standard",
+   "definition": "An ISO standard giving principles and guidelines for managing risk in any organisation.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "iso-50001",
+   "name": "ISO 50001",
+   "class": "skill",
+   "kind": "standard",
+   "definition": "An ISO standard with requirements for an energy management system that helps an organisation use energy more efficiently.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  }
+ ]
+}

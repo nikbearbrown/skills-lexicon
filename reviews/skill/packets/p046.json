@@ -1,0 +1,470 @@
+{
+ "allowed_kinds": [
+  "ability",
+  "credential",
+  "framework",
+  "human-language",
+  "knowledge",
+  "library",
+  "markup-language",
+  "method",
+  "modeling-language",
+  "platform",
+  "programming-language",
+  "skill",
+  "standard",
+  "style-language",
+  "tool",
+  "work-activity"
+ ],
+ "entries": [
+  {
+   "key": "profitability-management",
+   "name": "Profitability management",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Controlling revenue and costs so that a business unit or product meets its profit targets.",
+   "certification": false,
+   "variants": [
+    "Manage Profitability"
+   ],
+   "relations": []
+  },
+  {
+   "key": "program-evaluation",
+   "name": "Program evaluation",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Systematically gathering and analysing evidence to judge how well a programme works and whether it meets its goals.",
+   "certification": false,
+   "variants": [
+    "Program Evaluations"
+   ],
+   "relations": [
+    "related:curriculum-evaluation"
+   ]
+  },
+  {
+   "key": "program-optimization",
+   "name": "Program optimization",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Changing a computer program so that it runs faster or uses less memory or other resources while doing the same job.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "programmatic-media-buying",
+   "name": "Programmatic media buying",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Buying digital advertising space automatically through software and real-time auctions rather than by negotiating with each publisher.",
+   "certification": false,
+   "variants": [
+    "Programmatic buying"
+   ],
+   "relations": [
+    "broader:media-buying"
+   ]
+  },
+  {
+   "key": "programmer-s-hierarchical-interactive-graphics-system",
+   "name": "Programmer's Hierarchical Interactive Graphics System",
+   "class": "skill",
+   "kind": "standard",
+   "definition": "An ISO and ANSI standard from the 1980s for a programming interface for three-dimensional computer graphics.",
+   "certification": false,
+   "variants": [
+    "Programmer'S Hierarchical Interactive Graphics System (PHIGS)",
+    "PHIGS"
+   ],
+   "relations": []
+  },
+  {
+   "key": "project-benchmarking",
+   "name": "Project benchmarking",
+   "class": "skill",
+   "kind": "method",
+   "definition": "Comparing a project's performance, processes or practices with those of similar projects or recognised good practice to find ways to improve.",
+   "certification": false,
+   "variants": [
+    "Benchmarking (Project Management)"
+   ],
+   "relations": [
+    "broader:project-management"
+   ]
+  },
+  {
+   "key": "project-management",
+   "name": "Project management",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Planning and coordinating work toward project objectives.",
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "project-scoping",
+   "name": "Project scoping",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Defining what a project will and will not deliver, including its goals, deliverables, boundaries and constraints.",
+   "certification": false,
+   "variants": [],
+   "relations": [
+    "part_of:project-management"
+   ]
+  },
+  {
+   "key": "project-status-reporting",
+   "name": "Project status reporting",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Summarising a project's progress, risks and next steps for stakeholders in regular reports.",
+   "certification": false,
+   "variants": [
+    "Project Status Reports"
+   ],
+   "relations": []
+  },
+  {
+   "key": "prometheus",
+   "name": "Prometheus",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "An open-source monitoring system that collects time-series metrics and supports querying and alerting, hosted by the Cloud Native Computing Foundation.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "prompting",
+   "name": "Prompt engineering",
+   "class": "skill",
+   "kind": "method",
+   "definition": "Designing and evaluating instructions for generative models.",
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "proofreading",
+   "name": "Proofreading",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Reading written text to find and correct errors in spelling, grammar, punctuation and formatting before it is published.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "proposal-development",
+   "name": "Proposal development",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Writing and assembling proposals to win contracts, grants or business, from first outline to final submission.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "proposal-management",
+   "name": "Proposal management",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Planning, organising and overseeing the team, schedule and reviews that produce a bid or proposal.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "proposal-strategy",
+   "name": "Proposal strategy",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Deciding the approach, win themes and positioning that a bid or proposal will use to persuade the buyer.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "prosecutor-s-management-information-system",
+   "name": "Prosecutor's management information system",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "Software that a prosecutor's office uses to manage its caseload, such as cases, defendants, hearings and outcomes.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "prosthetic-devices",
+   "name": "Prosthetic devices",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "Artificial replacements for missing body parts, such as limbs, and how they are fitted and maintained.",
+   "certification": false,
+   "variants": [],
+   "relations": [
+    "broader:medical-devices"
+   ]
+  },
+  {
+   "key": "protein-characterization",
+   "name": "Protein characterization",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Working out a protein's identity, size, structure, purity and properties with methods such as electrophoresis and mass spectrometry.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "protein-protein-interaction",
+   "name": "Protein-protein interaction",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "The physical contacts between proteins that carry out biological functions, and the methods used to detect and study them.",
+   "certification": false,
+   "variants": [
+    "Protein Protein Interaction"
+   ],
+   "relations": []
+  },
+  {
+   "key": "protein-structure-prediction",
+   "name": "Protein structure prediction",
+   "class": "skill",
+   "kind": "method",
+   "definition": "Predicting a protein's three-dimensional shape from its amino-acid sequence, for example with AlphaFold.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "protocol-oriented-programming",
+   "name": "Protocol-oriented programming",
+   "class": "skill",
+   "kind": "method",
+   "definition": "A programming approach, popularised by Swift, that builds behaviour from protocols and their extensions instead of from class inheritance.",
+   "certification": false,
+   "variants": [
+    "Protocol Oriented Programming"
+   ],
+   "relations": [
+    "contrast:object-oriented-programming"
+   ]
+  },
+  {
+   "key": "prototype-javascript-framework",
+   "name": "Prototype JavaScript Framework",
+   "class": "skill",
+   "kind": "framework",
+   "definition": "A JavaScript framework that extends the browser's built-in objects with helpers for working with the page, Ajax requests and class-like inheritance.",
+   "certification": false,
+   "variants": [
+    "Prototype.js",
+    "Prototypejs"
+   ],
+   "relations": []
+  },
+  {
+   "key": "prototyping",
+   "name": "Prototyping",
+   "class": "skill",
+   "kind": "method",
+   "definition": "Building representations to explore and test a proposed system.",
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "protractor",
+   "name": "Protractor",
+   "class": "skill",
+   "kind": "framework",
+   "definition": "An end-to-end test framework for Angular and AngularJS web apps that drives a real browser through Selenium WebDriver.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "provenance",
+   "name": "Data provenance",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Tracing data and claims to their sources and transformations.",
+   "variants": [
+    "lineage",
+    "Data Lineage"
+   ],
+   "relations": []
+  },
+  {
+   "key": "ptas-reduction",
+   "name": "PTAS reduction",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "A reduction between optimisation problems that preserves the existence of a polynomial-time approximation scheme, used to compare how well problems can be approximated.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "public-history",
+   "name": "Public history",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "The practice of presenting history to general audiences, in places such as museums, archives, historic sites and the media.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "public-key-cryptography",
+   "name": "Public-key cryptography",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "Cryptography in which each user has a public key that anyone can use to encrypt or verify and a private key kept secret to decrypt or sign.",
+   "certification": false,
+   "variants": [
+    "Public key cryptography",
+    "Asymmetric cryptography"
+   ],
+   "relations": []
+  },
+  {
+   "key": "public-key-cryptography-standards",
+   "name": "Public-Key Cryptography Standards",
+   "class": "skill",
+   "kind": "standard",
+   "definition": "A set of numbered specifications, first published by RSA Laboratories, that define formats and interfaces for public-key cryptography, such as PKCS #1 for RSA.",
+   "certification": false,
+   "variants": [
+    "Public-Key Cryptography Standards (PKCS)",
+    "PKCS"
+   ],
+   "relations": []
+  },
+  {
+   "key": "public-policy",
+   "name": "Public policy",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "The laws, rules and government actions that address public problems, and the study of how they are made and what effects they have.",
+   "certification": false,
+   "variants": [
+    "Public Policies"
+   ],
+   "relations": []
+  },
+  {
+   "key": "pug",
+   "name": "Pug",
+   "class": "skill",
+   "kind": "library",
+   "definition": "A template engine for Node.js and browsers that compiles indentation-based templates into HTML.",
+   "certification": false,
+   "variants": [
+    "Pugjs",
+    "Pug.js"
+   ],
+   "relations": []
+  },
+  {
+   "key": "punctuation",
+   "name": "Punctuation",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Using punctuation marks correctly so that written text is clear.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "puphpet",
+   "name": "PuPHPet",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "A web-based tool that generates Vagrant and Puppet configuration for setting up PHP development environments.",
+   "certification": false,
+   "variants": [],
+   "relations": [
+    "related:php"
+   ]
+  },
+  {
+   "key": "puppet",
+   "name": "Puppet",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "A configuration-management tool in which the desired state of servers is described in a declarative language and then enforced automatically.",
+   "certification": false,
+   "variants": [
+    "Puppet (Configuration Management Tool)"
+   ],
+   "relations": []
+  },
+  {
+   "key": "puppeteer",
+   "name": "Puppeteer",
+   "class": "skill",
+   "kind": "library",
+   "definition": "A Node.js library from the Chrome team that controls Chrome or Chromium through code, often for browser testing and automation.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "putty",
+   "name": "PuTTY",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "A free terminal program, first made for Windows, that connects to remote machines over SSH, Telnet and serial lines.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "pymongo",
+   "name": "PyMongo",
+   "class": "skill",
+   "kind": "library",
+   "definition": "The official Python driver for working with MongoDB databases.",
+   "certification": false,
+   "variants": [],
+   "relations": [
+    "related:python"
+   ]
+  },
+  {
+   "key": "pytables",
+   "name": "PyTables",
+   "class": "skill",
+   "kind": "library",
+   "definition": "A Python library for managing large hierarchical datasets, built on the HDF5 file format and NumPy.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "python-for-data-analysis",
+   "name": "Python for data analysis",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Using Python and libraries such as pandas and NumPy to clean, explore and analyse data.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "python-server-pages",
+   "name": "Python Server Pages",
+   "class": "skill",
+   "kind": "framework",
+   "definition": "A way of embedding Python code in HTML pages so that a web server runs it to produce the page, much as PHP and JavaServer Pages do.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  }
+ ]
+}

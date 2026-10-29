@@ -1,0 +1,531 @@
+{
+ "allowed_kinds": [
+  "ability",
+  "credential",
+  "framework",
+  "human-language",
+  "knowledge",
+  "library",
+  "markup-language",
+  "method",
+  "modeling-language",
+  "platform",
+  "programming-language",
+  "skill",
+  "standard",
+  "style-language",
+  "tool",
+  "work-activity"
+ ],
+ "entries": [
+  {
+   "key": "certified-supplier-quality-professional",
+   "name": "Certified Supplier Quality Professional",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "An ASQ certification for professionals who assess and manage the quality of suppliers.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [
+    "Certified Supplier Quality Professional (CSQP)",
+    "CSQP"
+   ],
+   "relations": []
+  },
+  {
+   "key": "certified-surgical-technologist",
+   "name": "Certified Surgical Technologist",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A certification for surgical technologists, awarded by the National Board of Surgical Technology and Surgical Assisting.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "certified-technical-trainer",
+   "name": "Certified Technical Trainer",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A certification showing that a trainer can plan and deliver technical training effectively.",
+   "certification": true,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "certified-technology-specialist",
+   "name": "Certified Technology Specialist",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "An AVIXA certification for audiovisual professionals.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "certified-teststand-developer",
+   "name": "Certified TestStand Developer",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A National Instruments certification for developers of automated test sequences with NI TestStand.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [
+    "CTD"
+   ],
+   "relations": []
+  },
+  {
+   "key": "certified-transport-registered-nurse",
+   "name": "Certified Transport Registered Nurse",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A certification for registered nurses who care for patients during air and ground transport, awarded by the Board of Certification for Emergency Nursing.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [
+    "CTRN"
+   ],
+   "relations": []
+  },
+  {
+   "key": "certified-urologic-physician-assistant",
+   "name": "Certified Urologic Physician Assistant",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A certification for physician assistants in urology, awarded by the Certification Board for Urologic Nurses and Associates.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [
+    "Certified Urologic Physician'S Assistant",
+    "CUPA"
+   ],
+   "relations": []
+  },
+  {
+   "key": "certified-urologic-registered-nurse",
+   "name": "Certified Urologic Registered Nurse",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A certification for registered nurses in urology, awarded by the Certification Board for Urologic Nurses and Associates.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [
+    "CURN"
+   ],
+   "relations": []
+  },
+  {
+   "key": "certified-wine-educator",
+   "name": "Certified Wine Educator",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "An advanced wine teaching certification awarded by the Society of Wine Educators.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [
+    "CWE"
+   ],
+   "relations": []
+  },
+  {
+   "key": "certified-wound-and-ostomy-care-nurse",
+   "name": "Certified Wound and Ostomy Care Nurse",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A nursing certification for nurses who care for people with wounds and ostomies.",
+   "certification": true,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "certified-wound-care-nurse",
+   "name": "Certified Wound Care Nurse",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A certification for registered nurses who specialise in wound care, awarded by the Wound, Ostomy and Continence Nursing Certification Board.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [
+    "CWCN"
+   ],
+   "relations": []
+  },
+  {
+   "key": "change-management-certified-professional",
+   "name": "Change Management Certified Professional",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A certification in the principles and practice of organisational change management.",
+   "certification": true,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "chartered-fellow-of-the-chartered-institute-of-personnel-and-development",
+   "name": "Chartered Fellow of the Chartered Institute of Personnel and Development",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "The highest membership grade of the Chartered Institute of Personnel and Development, held by senior HR and people-development professionals.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [
+    "Chartered Fellow of the Chartered Institute of Personnel and Development (FCIPD)",
+    "FCIPD"
+   ],
+   "relations": []
+  },
+  {
+   "key": "chartered-member-of-the-chartered-institute-of-personnel-and-development",
+   "name": "Chartered Member of the Chartered Institute of Personnel and Development",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A membership grade of the Chartered Institute of Personnel and Development for experienced HR and people-development professionals.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [
+    "Chartered Member of the Chartered Institute of Personnel and Development (MCIPD)",
+    "MCIPD"
+   ],
+   "relations": []
+  },
+  {
+   "key": "chauffeur-license",
+   "name": "Chauffeur license",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A driver's licence, issued by a state or country, that permits the holder to drive vehicles for hire.",
+   "certification": true,
+   "certification_scope": "many-issuers",
+   "variants": [
+    "Chauffeur's License"
+   ],
+   "relations": []
+  },
+  {
+   "key": "cisco-certified-support-technician",
+   "name": "Cisco Certified Support Technician",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "An entry-level Cisco certification for people starting out in IT support, networking or cybersecurity roles.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [
+    "Cisco Certified Support Technician (CCST)"
+   ],
+   "relations": []
+  },
+  {
+   "key": "citrix-certified-administrator",
+   "name": "Citrix Certified Administrator",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A Citrix certification showing that a person can administer Citrix products such as application and desktop virtualisation.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "citrix-certified-integration-architect",
+   "name": "Citrix Certified Integration Architect",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A Citrix certification for architects who design integrated solutions built on Citrix products.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [
+    "Citrix Certified Integration Architecture",
+    "Citrix Certified Integratrion Architecture"
+   ],
+   "relations": []
+  },
+  {
+   "key": "class-b-commercial-driver-s-license",
+   "name": "Class B commercial driver's license",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A US state-issued commercial driver's license for driving a single heavy vehicle, or one towing a light trailer.",
+   "certification": true,
+   "certification_scope": "many-issuers",
+   "variants": [
+    "CDL Class B License",
+    "Class B CDL"
+   ],
+   "relations": []
+  },
+  {
+   "key": "class-c-commercial-driver-s-license",
+   "name": "Class C commercial driver's license",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A US state-issued commercial driver's license for vehicles that fit neither Class A nor Class B but carry 16 or more passengers or hazardous materials that need placards.",
+   "certification": true,
+   "certification_scope": "many-issuers",
+   "variants": [
+    "CDL Class C License",
+    "Class C CDL"
+   ],
+   "relations": []
+  },
+  {
+   "key": "combat-lifesaver",
+   "name": "Combat Lifesaver",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A US Army course and designation in advanced first aid for battlefield injuries, given to soldiers who are not medics.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [
+    "Combat Life Saver",
+    "Combat Lifesaving"
+   ],
+   "relations": []
+  },
+  {
+   "key": "comptia-a",
+   "name": "CompTIA A+",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A CompTIA entry-level certification showing skills in supporting and troubleshooting computer hardware, operating systems and networks.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [
+    "CompTIA A+ CE",
+    "CompTIA A+ certification"
+   ],
+   "relations": [
+    "related:comptia-mobility"
+   ]
+  },
+  {
+   "key": "comptia-advanced-security-practitioner-casp",
+   "name": "CompTIA Advanced Security Practitioner (CASP+)",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A CompTIA certification for experienced security practitioners, covering advanced enterprise security architecture, operations and risk management.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [
+    "CompTIA Advanced Security Practitioner",
+    "CASP+",
+    "CompTIA CASP+",
+    "CompTIA CASP CE"
+   ],
+   "relations": []
+  },
+  {
+   "key": "comptia-cdia",
+   "name": "CompTIA CDIA+",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A CompTIA certification for document imaging professionals, covering the planning and design of document imaging systems.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "comptia-cloud",
+   "name": "CompTIA Cloud+",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A CompTIA certification covering the configuration, deployment, security and management of cloud infrastructure.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [
+    "CompTIA Cloud+ CE"
+   ],
+   "relations": []
+  },
+  {
+   "key": "comptia-cloud-admin-professional-ccap",
+   "name": "CompTIA Cloud Admin Professional (CCAP)",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A CompTIA stackable certification awarded for holding a specified combination of other CompTIA certifications, for cloud administration.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [
+    "CompTIA CCAP"
+   ],
+   "relations": []
+  },
+  {
+   "key": "comptia-cloud-essentials",
+   "name": "CompTIA Cloud Essentials+",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A CompTIA certification covering the business and technical fundamentals of cloud computing.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [
+    "CompTIA Cloud Essentials"
+   ],
+   "relations": []
+  },
+  {
+   "key": "comptia-convergence-technologies-professional-ctp",
+   "name": "CompTIA Convergence Technologies Professional (CTP+)",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A CompTIA certification covering convergence technologies, the combining of voice, video and data on shared networks.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [
+    "CompTIA CTP+"
+   ],
+   "relations": []
+  },
+  {
+   "key": "comptia-cybersecurity-analyst-cysa",
+   "name": "CompTIA Cybersecurity Analyst (CySA+)",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A CompTIA certification for security analysts, covering threat detection, vulnerability management and incident response.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [
+    "CySA+",
+    "CompTIA CySA+",
+    "CompTIA Cybersecurity Analyst (CySA+) CE"
+   ],
+   "relations": [
+    "related:cybersecurity"
+   ]
+  },
+  {
+   "key": "comptia-digital-home-technology-integrator-dhti",
+   "name": "CompTIA Digital Home Technology Integrator (DHTI+)",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A CompTIA certification for technicians who install and integrate technology systems in homes.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [
+    "CompTIA DHTI+"
+   ],
+   "relations": []
+  },
+  {
+   "key": "comptia-e-biz",
+   "name": "CompTIA e-Biz+",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A CompTIA certification covering the concepts and technology of electronic business.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "comptia-green-it-specialist",
+   "name": "CompTIA Green IT Specialist",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A CompTIA certification covering environmentally responsible use and management of IT equipment.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "comptia-healthcare-it-technician",
+   "name": "CompTIA Healthcare IT Technician",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A CompTIA certification for IT technicians who support healthcare settings, covering topics such as electronic health records and healthcare regulations.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "comptia-hti",
+   "name": "CompTIA HTI+",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A CompTIA certification for home technology integrators who install and integrate technology systems in homes.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "comptia-i-net",
+   "name": "CompTIA i-Net+",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A CompTIA certification covering foundational knowledge of Internet, intranet and extranet technologies.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "comptia-instructor",
+   "name": "CompTIA Instructor+",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A CompTIA certification for people who deliver technical training, covering classroom instruction skills.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "comptia-it-for-sales",
+   "name": "CompTIA IT for Sales",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A CompTIA certification covering IT concepts and terminology for people who sell technology products and services.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "comptia-it-fundamentals",
+   "name": "CompTIA IT Fundamentals+",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A CompTIA entry-level certification covering basic IT concepts such as hardware, software, networking and security.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [
+    "CompTIA IT Fundamentals",
+    "CompTIA ITF+",
+    "CompTIA Strata - IT Fundamentals"
+   ],
+   "relations": []
+  },
+  {
+   "key": "comptia-it-operations-specialist-cios",
+   "name": "CompTIA IT Operations Specialist (CIOS)",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A CompTIA stackable certification awarded for holding a specified combination of other CompTIA certifications, for IT operations.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [
+    "CompTIA CIOS"
+   ],
+   "relations": []
+  },
+  {
+   "key": "comptia-linux",
+   "name": "CompTIA Linux+",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A CompTIA certification covering the installation, configuration, security and troubleshooting of Linux systems.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [
+    "CompTIA Linux+ Powered By LPI"
+   ],
+   "relations": []
+  }
+ ]
+}

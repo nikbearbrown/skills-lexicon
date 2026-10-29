@@ -1,0 +1,470 @@
+{
+ "allowed_kinds": [
+  "ability",
+  "credential",
+  "framework",
+  "human-language",
+  "knowledge",
+  "library",
+  "markup-language",
+  "method",
+  "modeling-language",
+  "platform",
+  "programming-language",
+  "skill",
+  "standard",
+  "style-language",
+  "tool",
+  "work-activity"
+ ],
+ "entries": [
+  {
+   "key": "amx-programming",
+   "name": "AMX programming",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Writing control programs for AMX audio-visual control systems, typically in the NetLinx language.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "anaconda",
+   "name": "Anaconda",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "A distribution of Python and R with a package and environment manager, aimed at data science.",
+   "certification": false,
+   "variants": [
+    "Anaconda (Software)"
+   ],
+   "relations": []
+  },
+  {
+   "key": "analogue-electronics",
+   "name": "Analogue electronics",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "Electronics that works with continuously varying signals rather than digital ones, as in amplifiers and filters.",
+   "certification": false,
+   "variants": [
+    "Analog electronics"
+   ],
+   "relations": []
+  },
+  {
+   "key": "analysis-of-variance",
+   "name": "Analysis of variance",
+   "class": "skill",
+   "kind": "method",
+   "definition": "A statistical method that tests whether the means of several groups differ by comparing variation between and within the groups.",
+   "certification": false,
+   "variants": [
+    "ANOVA"
+   ],
+   "relations": []
+  },
+  {
+   "key": "anaplan",
+   "name": "Anaplan",
+   "class": "skill",
+   "kind": "platform",
+   "definition": "A cloud platform for business planning, forecasting and modelling.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "ancient-history",
+   "name": "Ancient history",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "The study of human history from the earliest written records to the end of antiquity.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "ancient-philosophy",
+   "name": "Ancient philosophy",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "The study of the philosophical thought of the ancient Greek and Roman worlds, such as Plato, Aristotle and the Stoics.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "andragogy",
+   "name": "Andragogy",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "The theory and practice of teaching and training adults, as distinct from teaching children.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "android-app-development",
+   "name": "Android app development",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Building applications that run on the Android mobile operating system.",
+   "certification": false,
+   "variants": [
+    "Android Applications",
+    "Android application development"
+   ],
+   "relations": []
+  },
+  {
+   "key": "android-ui-development",
+   "name": "Android UI development",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Building the screens and controls of an Android app, using Android's view system or Jetpack Compose.",
+   "certification": false,
+   "variants": [
+    "Android Ui"
+   ],
+   "relations": []
+  },
+  {
+   "key": "anglo-american-cataloguing-rules",
+   "name": "Anglo-American Cataloguing Rules",
+   "class": "skill",
+   "kind": "standard",
+   "definition": "A set of rules for describing and cataloguing library materials, published jointly by library associations in the US, UK and Canada.",
+   "certification": false,
+   "variants": [
+    "AACR2"
+   ],
+   "relations": []
+  },
+  {
+   "key": "angular",
+   "name": "Angular",
+   "class": "skill",
+   "kind": "framework",
+   "definition": "The Angular framework, distinct from AngularJS.",
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "angular-cli",
+   "name": "Angular CLI",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "The official command-line tool for creating, building, testing and serving Angular projects.",
+   "certification": false,
+   "variants": [],
+   "relations": [
+    "related:angular"
+   ]
+  },
+  {
+   "key": "angularjs",
+   "name": "AngularJS",
+   "class": "skill",
+   "kind": "framework",
+   "definition": "The AngularJS framework, distinct from Angular.",
+   "variants": [
+    "Angular.js"
+   ],
+   "relations": []
+  },
+  {
+   "key": "anim8or",
+   "name": "Anim8or",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "A free 3D modelling and animation program for Windows.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "animal-science",
+   "name": "Animal science",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "The study of farm and other domestic animals, including their breeding, nutrition, health and management.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "animated-explainer-video-production",
+   "name": "Animated explainer video production",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Making short animated videos that explain a product, idea or process.",
+   "certification": false,
+   "variants": [
+    "Animated Explainer Videos"
+   ],
+   "relations": []
+  },
+  {
+   "key": "anma-massage",
+   "name": "Anma massage",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "A traditional Japanese form of massage that uses kneading and pressing of the body.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "anthropometrics",
+   "name": "Anthropometrics",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "The measurement of human body dimensions such as height, weight and limb proportions, used for example in ergonomics and health.",
+   "certification": false,
+   "variants": [
+    "Anthropometry"
+   ],
+   "relations": []
+  },
+  {
+   "key": "anti-bribery-and-corruption",
+   "name": "Anti-bribery and corruption",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "The laws, policies and controls that organisations use to prevent, detect and respond to bribery and corruption.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "antics3d",
+   "name": "Antics3D",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "Software for making 3D computer animations.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "antivirus-software",
+   "name": "Antivirus software",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "Software that detects, blocks and removes malicious software such as viruses, worms and ransomware from a computer or network.",
+   "certification": false,
+   "variants": [
+    "Anti-Malware Software",
+    "Antivirus",
+    "Anti-virus software",
+    "Antivirus Softwares"
+   ],
+   "relations": []
+  },
+  {
+   "key": "apache-airflow",
+   "name": "Apache Airflow",
+   "class": "skill",
+   "kind": "platform",
+   "definition": "An open-source platform for writing, scheduling and monitoring data workflows as Python code.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "apache-ambari",
+   "name": "Apache Ambari",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "An Apache project for provisioning, managing and monitoring Hadoop clusters.",
+   "certification": false,
+   "variants": [
+    "Ambari"
+   ],
+   "relations": []
+  },
+  {
+   "key": "apache-ant",
+   "name": "Apache Ant",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "A Java-based build automation tool that is driven by XML build files.",
+   "certification": false,
+   "variants": [
+    "Apache Ants"
+   ],
+   "relations": []
+  },
+  {
+   "key": "apache-archiva",
+   "name": "Apache Archiva",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "A repository manager that stores and serves build artifacts such as Maven packages.",
+   "certification": false,
+   "variants": [
+    "Archiva"
+   ],
+   "relations": []
+  },
+  {
+   "key": "apache-beam",
+   "name": "Apache Beam",
+   "class": "skill",
+   "kind": "framework",
+   "definition": "An open-source programming model for defining batch and streaming data-processing pipelines that run on engines such as Apache Spark, Apache Flink and Google Cloud Dataflow.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "apache-cassandra",
+   "name": "Apache Cassandra",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "An open-source distributed NoSQL database that stores data in wide columns and is built to stay available across many servers.",
+   "certification": false,
+   "variants": [
+    "Cassandra"
+   ],
+   "relations": []
+  },
+  {
+   "key": "apache-cocoon",
+   "name": "Apache Cocoon",
+   "class": "skill",
+   "kind": "framework",
+   "definition": "A Java web development framework built around pipelines that process XML.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "apache-giraph",
+   "name": "Apache Giraph",
+   "class": "skill",
+   "kind": "framework",
+   "definition": "An open-source system for large-scale graph processing, built on Hadoop and modelled on Google's Pregel.",
+   "certification": false,
+   "variants": [
+    "Giraph"
+   ],
+   "relations": []
+  },
+  {
+   "key": "apache-gump",
+   "name": "Apache Gump",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "A continuous-integration tool that builds and tests many open-source projects together against the latest source of each other.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "apache-jena",
+   "name": "Apache Jena",
+   "class": "skill",
+   "kind": "framework",
+   "definition": "A Java framework for building semantic web and linked-data applications, with an RDF API and a SPARQL query engine.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "apache-juddi",
+   "name": "Apache jUDDI",
+   "class": "skill",
+   "kind": "platform",
+   "definition": "An open-source Java implementation of the UDDI (Universal Description, Discovery and Integration) registry for web services.",
+   "certification": false,
+   "variants": [
+    "jUDDI"
+   ],
+   "relations": []
+  },
+  {
+   "key": "apache-karaf",
+   "name": "Apache Karaf",
+   "class": "skill",
+   "kind": "platform",
+   "definition": "An Apache runtime container for deploying and managing OSGi-based Java applications.",
+   "certification": false,
+   "variants": [
+    "Karaf"
+   ],
+   "relations": []
+  },
+  {
+   "key": "apache-lenya",
+   "name": "Apache Lenya",
+   "class": "skill",
+   "kind": "platform",
+   "definition": "A Java content management system that is built on Apache Cocoon and stores content as XML.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "apache-mahout",
+   "name": "Apache Mahout",
+   "class": "skill",
+   "kind": "library",
+   "definition": "An Apache library for scalable machine learning and linear algebra on distributed data.",
+   "certification": false,
+   "variants": [
+    "Mahout"
+   ],
+   "relations": []
+  },
+  {
+   "key": "apache-mesos",
+   "name": "Apache Mesos",
+   "class": "skill",
+   "kind": "platform",
+   "definition": "An open-source cluster manager that pools the CPU, memory and storage of many machines and shares them among applications.",
+   "certification": false,
+   "variants": [
+    "Mesos"
+   ],
+   "relations": []
+  },
+  {
+   "key": "apache-nifi",
+   "name": "Apache NiFi",
+   "class": "skill",
+   "kind": "platform",
+   "definition": "A system for automating the movement of data between systems, in which data flows are designed in a web-based interface.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "apache-objectrelationalbridge",
+   "name": "Apache ObJectRelationalBridge",
+   "class": "skill",
+   "kind": "library",
+   "definition": "A Java object-relational mapping tool that stores and retrieves Java objects in relational databases.",
+   "certification": false,
+   "variants": [
+    "Apache ObJectRelationalBridge (OJB)",
+    "Apache OJB",
+    "OJB"
+   ],
+   "relations": []
+  },
+  {
+   "key": "apache-ofbiz",
+   "name": "Apache OFBiz",
+   "class": "skill",
+   "kind": "platform",
+   "definition": "An open-source Java platform for enterprise resource planning and e-commerce, made of a framework and ready-made business applications.",
+   "certification": false,
+   "variants": [
+    "OFBiz"
+   ],
+   "relations": []
+  }
+ ]
+}

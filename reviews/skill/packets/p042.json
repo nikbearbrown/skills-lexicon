@@ -1,0 +1,471 @@
+{
+ "allowed_kinds": [
+  "ability",
+  "credential",
+  "framework",
+  "human-language",
+  "knowledge",
+  "library",
+  "markup-language",
+  "method",
+  "modeling-language",
+  "platform",
+  "programming-language",
+  "skill",
+  "standard",
+  "style-language",
+  "tool",
+  "work-activity"
+ ],
+ "entries": [
+  {
+   "key": "overhead-camshaft-engine",
+   "name": "Overhead camshaft engine",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "A piston engine whose camshaft sits in the cylinder head, above the valves, and operates them directly or through short rockers.",
+   "certification": false,
+   "variants": [
+    "Overhead Camshaft"
+   ],
+   "relations": []
+  },
+  {
+   "key": "overhead-cost-analysis",
+   "name": "Overhead cost analysis",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Examining a business's indirect costs, such as rent, utilities and administration, and how they are allocated to products or departments.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "overhead-crane-operation",
+   "name": "Overhead crane operation",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Operating an overhead or bridge crane, which runs on rails above a work area, to lift and move loads.",
+   "certification": false,
+   "variants": [],
+   "relations": [
+    "related:machine-operation"
+   ]
+  },
+  {
+   "key": "overhead-valve-engine",
+   "name": "Overhead valve engine",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "A piston engine whose valves sit in the cylinder head and are operated by pushrods from a camshaft in the engine block.",
+   "certification": false,
+   "variants": [
+    "Overhead Valve",
+    "Pushrod engine"
+   ],
+   "relations": []
+  },
+  {
+   "key": "oxidation-processes",
+   "name": "Oxidation processes",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "Chemical processes in which a substance loses electrons or combines with oxygen, such as those used in water treatment, metal finishing and chemical manufacturing.",
+   "certification": false,
+   "variants": [
+    "Oxidattion Processes",
+    "Oxidation process"
+   ],
+   "relations": []
+  },
+  {
+   "key": "package-json",
+   "name": "package.json",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "The manifest file of a Node.js project, written in JSON, that records the project's name, version, dependencies and scripts.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "packaging-machine-operation",
+   "name": "Packaging machine operation",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Setting up, running and monitoring machines that fill, seal, wrap or label products for packaging.",
+   "certification": false,
+   "variants": [],
+   "relations": [
+    "broader:machine-operation"
+   ]
+  },
+  {
+   "key": "padrino",
+   "name": "Padrino",
+   "class": "skill",
+   "kind": "framework",
+   "definition": "A Ruby web framework built on top of Sinatra that adds helpers, generators and a modular structure.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "page-layout",
+   "name": "Page layout",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Arranging text, images and other elements on a page or screen so that it is clear and visually balanced.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "pallet-building",
+   "name": "Pallet building",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Stacking and securing goods on a pallet so that they can be stored or shipped.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "palm-os",
+   "name": "Palm OS",
+   "class": "skill",
+   "kind": "platform",
+   "definition": "An operating system for handheld computers (PDAs) and early smartphones, developed by Palm.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "pandas",
+   "name": "pandas",
+   "class": "skill",
+   "kind": "library",
+   "definition": "A Python library for data analysis that provides DataFrame and Series structures for loading, cleaning, transforming and summarising tabular data.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "pandemic-preparedness",
+   "name": "Pandemic preparedness",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "The planning and measures that prepare a health system, workplace or community to respond to a pandemic.",
+   "certification": false,
+   "variants": [
+    "Pandemic Readiness"
+   ],
+   "relations": []
+  },
+  {
+   "key": "paperwork-reduction-act",
+   "name": "Paperwork Reduction Act",
+   "class": "skill",
+   "kind": "standard",
+   "definition": "A US federal law that requires agencies to minimise the paperwork burden on the public and to get approval from the Office of Management and Budget before collecting information.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "parallel-computing",
+   "name": "Parallel computing",
+   "class": "skill",
+   "kind": "method",
+   "definition": "Dividing computation into work performed concurrently.",
+   "variants": [
+    "parallelization",
+    "parallel execution"
+   ],
+   "relations": []
+  },
+  {
+   "key": "parasympathetic-nervous-system",
+   "name": "Parasympathetic nervous system",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "The part of the autonomic nervous system that slows the heart and promotes rest-and-digest functions such as digestion.",
+   "certification": false,
+   "variants": [
+    "Parasypathetic Nervous System"
+   ],
+   "relations": [
+    "part_of:autonomic-nervous-system"
+   ]
+  },
+  {
+   "key": "paris-agreement",
+   "name": "Paris Agreement",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "The 2015 international climate treaty in which countries agreed to hold global warming well below 2 degrees Celsius above pre-industrial levels and to pursue 1.5 degrees.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "parrot-ar-drone",
+   "name": "Parrot AR.Drone",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "A quadcopter drone made by Parrot that is flown from a smartphone or tablet.",
+   "certification": false,
+   "variants": [
+    "Ar.drone"
+   ],
+   "relations": []
+  },
+  {
+   "key": "partnership-taxation",
+   "name": "Partnership taxation",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "The tax rules for partnerships, under which income and losses pass through to the partners, covered in the US by Subchapter K of the Internal Revenue Code.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "passport-js",
+   "name": "Passport.js",
+   "class": "skill",
+   "kind": "library",
+   "definition": "Authentication middleware for Node.js, with strategies for usernames and passwords, OAuth providers and other login methods.",
+   "certification": false,
+   "variants": [
+    "PassportJS"
+   ],
+   "relations": []
+  },
+  {
+   "key": "path-to-purchase",
+   "name": "Path to purchase",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "The steps a customer goes through from first becoming aware of a product to buying it.",
+   "certification": false,
+   "variants": [
+    "Paths To Purchase"
+   ],
+   "relations": []
+  },
+  {
+   "key": "pathlore",
+   "name": "Pathlore",
+   "class": "skill",
+   "kind": "platform",
+   "definition": "A learning management system, from Pathlore Software Corporation, for delivering and tracking employee training.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "pathology-informatics",
+   "name": "Pathology informatics",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "The field that applies information technology and data science to pathology and laboratory medicine, including lab information systems and digital pathology.",
+   "certification": false,
+   "variants": [],
+   "relations": [
+    "broader:clinical-informatics",
+    "related:imaging-informatics"
+   ]
+  },
+  {
+   "key": "patient-coordination",
+   "name": "Patient coordination",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Arranging a patient's appointments, services and information across a care team so that care runs smoothly.",
+   "certification": false,
+   "variants": [],
+   "relations": [
+    "related:care-coordination"
+   ]
+  },
+  {
+   "key": "patient-education",
+   "name": "Patient education",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Teaching patients and their families about a condition, treatment or self-care so that they can manage their health.",
+   "certification": false,
+   "variants": [],
+   "relations": [
+    "related:asthma-education"
+   ]
+  },
+  {
+   "key": "patient-identification-and-matching",
+   "name": "Patient identification and matching",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "Accurately identifying a patient and linking all of their records across health-care systems to the right person.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "patient-transfer",
+   "name": "Patient transfer",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Moving a patient safely from one place to another, such as from bed to wheelchair or between care facilities, using correct lifting and equipment.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "pattern-lab",
+   "name": "Pattern Lab",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "An open-source tool for building and showing atomic-design pattern libraries (style guides) for websites.",
+   "certification": false,
+   "variants": [
+    "Pattern Lab (Software)"
+   ],
+   "relations": []
+  },
+  {
+   "key": "payment-card-industry-data-security-standard",
+   "name": "Payment Card Industry Data Security Standard",
+   "class": "skill",
+   "kind": "standard",
+   "definition": "A set of security requirements, from the PCI Security Standards Council, for organisations that store, process or transmit payment card data.",
+   "certification": false,
+   "variants": [
+    "PCI Data Security Standards",
+    "PCI DSS"
+   ],
+   "relations": []
+  },
+  {
+   "key": "pdf-conversion",
+   "name": "PDF conversion",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Converting documents to and from PDF and other formats such as Word, Excel and images.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "pdf-generation",
+   "name": "PDF generation",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Creating PDF files from other content or data, often automatically by software.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "pdf-js",
+   "name": "PDF.js",
+   "class": "skill",
+   "kind": "library",
+   "definition": "A JavaScript library from Mozilla that displays PDF documents in the browser.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "pdf-viewer",
+   "name": "PDF viewer",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "Software that opens and displays PDF files for reading and printing, and often for annotating.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "pdflib",
+   "name": "PDFlib",
+   "class": "skill",
+   "kind": "library",
+   "definition": "A commercial library, with bindings for many programming languages, for generating and processing PDF files.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "pdfnet",
+   "name": "PDFNet",
+   "class": "skill",
+   "kind": "library",
+   "definition": "A software development kit from PDFTron (now Apryse) for creating, viewing, editing and converting PDF files.",
+   "certification": false,
+   "variants": [
+    "PDFNet SDK"
+   ],
+   "relations": []
+  },
+  {
+   "key": "pdftk",
+   "name": "PDFtk",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "A command-line tool, short for PDF Toolkit, for merging, splitting, rotating and encrypting PDF files.",
+   "certification": false,
+   "variants": [
+    "PDF Toolkit"
+   ],
+   "relations": []
+  },
+  {
+   "key": "peachtree-accounting",
+   "name": "Peachtree Accounting",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "Accounting software for small businesses, originally from Peachtree Software and later sold by Sage as Sage 50.",
+   "certification": false,
+   "variants": [
+    "Peachtree (Accounting Software)",
+    "Sage Peachtree"
+   ],
+   "relations": [
+    "broader:accounting-software"
+   ]
+  },
+  {
+   "key": "pediatric-surgery",
+   "name": "Pediatric surgery",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "The surgical specialty that operates on infants, children and adolescents.",
+   "certification": false,
+   "variants": [
+    "Pediatric Surgeries"
+   ],
+   "relations": []
+  },
+  {
+   "key": "pelvic-floor",
+   "name": "Pelvic floor",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "The muscles and connective tissue at the base of the pelvis that support the bladder, bowel and, in women, the uterus.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "pelvic-floor-rehabilitation",
+   "name": "Pelvic floor rehabilitation",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Therapy, such as exercises and biofeedback, that retrains the pelvic floor muscles to treat problems like incontinence and pelvic pain.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  }
+ ]
+}

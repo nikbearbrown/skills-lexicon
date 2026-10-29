@@ -1,0 +1,480 @@
+{
+ "allowed_kinds": [
+  "ability",
+  "credential",
+  "framework",
+  "human-language",
+  "knowledge",
+  "library",
+  "markup-language",
+  "method",
+  "modeling-language",
+  "platform",
+  "programming-language",
+  "skill",
+  "standard",
+  "style-language",
+  "tool",
+  "work-activity"
+ ],
+ "entries": [
+  {
+   "key": "multi-device-design",
+   "name": "Multi-device design",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Designing a product's interface so it works well across different devices and screen sizes, such as phones, tablets and desktops.",
+   "certification": false,
+   "variants": [],
+   "relations": [
+    "related:user-interface-design"
+   ]
+  },
+  {
+   "key": "multi-touch",
+   "name": "Multi-touch",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "A touch-input technology that detects two or more simultaneous points of contact, enabling gestures such as pinch and swipe.",
+   "certification": false,
+   "variants": [
+    "Multi Touch"
+   ],
+   "relations": []
+  },
+  {
+   "key": "multichannel-marketing",
+   "name": "Multichannel marketing",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Marketing to customers through several channels, such as email, social media, stores and websites, at the same time.",
+   "certification": false,
+   "variants": [],
+   "relations": [
+    "related:e-marketing"
+   ]
+  },
+  {
+   "key": "multicultural-education",
+   "name": "Multicultural education",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "An approach to teaching that reflects the histories, cultures and perspectives of diverse groups so that all students have a fair chance to learn.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "multitenancy",
+   "name": "Multitenancy",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "A software architecture in which one running instance of an application serves several customers, called tenants, whose data is kept separate.",
+   "certification": false,
+   "variants": [
+    "Multi Tenant",
+    "Multi-tenancy",
+    "Multi-tenant"
+   ],
+   "relations": []
+  },
+  {
+   "key": "music-instruction",
+   "name": "Music instruction",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Teaching others to play an instrument, sing or understand music.",
+   "certification": false,
+   "variants": [
+    "Music teaching"
+   ],
+   "relations": []
+  },
+  {
+   "key": "music-theory",
+   "name": "Music theory",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "The study of how music is built, including notation, scales, harmony, rhythm and form.",
+   "certification": false,
+   "variants": [
+    "Music Theories"
+   ],
+   "relations": []
+  },
+  {
+   "key": "mutual-exclusion",
+   "name": "Mutual exclusion",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "A requirement in concurrent programming that only one thread or process at a time may use a shared resource or critical section.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "mutual-funds",
+   "name": "Mutual funds",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "Investment vehicles that pool money from many investors to buy a diversified portfolio of securities.",
+   "certification": false,
+   "variants": [
+    "Mutual Fund"
+   ],
+   "relations": []
+  },
+  {
+   "key": "nagle-s-algorithm",
+   "name": "Nagle's algorithm",
+   "class": "skill",
+   "kind": "method",
+   "definition": "A TCP technique that reduces the number of small packets sent by holding back small writes until earlier data has been acknowledged.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "naive-bayes",
+   "name": "Naive Bayes",
+   "class": "skill",
+   "kind": "method",
+   "definition": "A family of simple probabilistic classifiers that apply Bayes' theorem while assuming that features are independent of each other given the class.",
+   "certification": false,
+   "variants": [
+    "Naivebayes",
+    "Naive Bayes classifier"
+   ],
+   "relations": []
+  },
+  {
+   "key": "naked-short-selling",
+   "name": "Naked short selling",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "Selling shares short without first borrowing them or arranging to borrow them, a practice restricted in many markets.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "namenode",
+   "name": "NameNode",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "The master server of the Hadoop Distributed File System, which keeps the file-system namespace and records where each data block is stored.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "nanobiotechnology",
+   "name": "Nanobiotechnology",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "The field that applies nanoscale technologies to biology and medicine, for example in drug delivery and diagnostics.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "nanocomposites",
+   "name": "Nanocomposites",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "Materials that combine a bulk matrix with particles or fibres smaller than about 100 nanometres to improve properties such as strength or conductivity.",
+   "certification": false,
+   "variants": [
+    "Nanocomposite"
+   ],
+   "relations": []
+  },
+  {
+   "key": "nanolithography",
+   "name": "Nanolithography",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "Techniques for printing or etching patterns with features measured in nanometres, used mainly to make semiconductor chips.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "nasotracheal-suctioning",
+   "name": "Nasotracheal suctioning",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Clearing secretions from a patient's airway by passing a suction catheter through the nose into the throat and trachea.",
+   "certification": false,
+   "variants": [],
+   "relations": [
+    "related:endotracheal-suctioning"
+   ]
+  },
+  {
+   "key": "national-airspace-system",
+   "name": "National Airspace System",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "The network of United States airspace, airports, navigation facilities, rules and personnel that makes up civil and military flying.",
+   "certification": false,
+   "variants": [
+    "National Airspace System (NAS)"
+   ],
+   "relations": []
+  },
+  {
+   "key": "national-geothermal-data-system",
+   "name": "National Geothermal Data System",
+   "class": "skill",
+   "kind": "platform",
+   "definition": "A United States Department of Energy-funded network of geothermal data sources that can be searched together.",
+   "certification": false,
+   "variants": [
+    "National Geothermal Data Systems"
+   ],
+   "relations": []
+  },
+  {
+   "key": "nationwide-multistate-licensing-system",
+   "name": "Nationwide Multistate Licensing System",
+   "class": "skill",
+   "kind": "platform",
+   "definition": "The online system, run by the State Regulatory Registry, through which US mortgage loan originators and other financial professionals are licensed and registered by state regulators.",
+   "certification": false,
+   "variants": [
+    "Nationwide Mortgage Licensing System (NMLS)",
+    "Nationwide Mortgage Licensing System",
+    "NMLS"
+   ],
+   "relations": []
+  },
+  {
+   "key": "native-american-studies",
+   "name": "Native American studies",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "An interdisciplinary academic field that studies the histories, cultures, politics and societies of Native American peoples.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "nativescript",
+   "name": "NativeScript",
+   "class": "skill",
+   "kind": "framework",
+   "definition": "An open-source framework for building native iOS and Android apps from a single JavaScript or TypeScript code base.",
+   "certification": false,
+   "variants": [],
+   "relations": [
+    "related:javascript",
+    "related:typescript"
+   ]
+  },
+  {
+   "key": "natural-capital",
+   "name": "Natural capital",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "The world's stock of natural assets, such as land, water, air and living things, that provides goods and services to people.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "natural-gas-pipelines",
+   "name": "Natural gas pipelines",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "The pipeline systems that transport natural gas, and the engineering, operation and regulation of them.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "natural-language-generation",
+   "name": "Natural language generation",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "The part of natural language processing concerned with having software produce readable human language from data or meaning.",
+   "certification": false,
+   "variants": [],
+   "relations": [
+    "broader:natural-language-processing",
+    "related:natural-language-understanding"
+   ]
+  },
+  {
+   "key": "natural-language-processing",
+   "name": "Natural language processing",
+   "class": "skill",
+   "kind": "method",
+   "definition": "Computational analysis and generation of human language.",
+   "variants": [
+    "NLP"
+   ],
+   "relations": []
+  },
+  {
+   "key": "natural-language-processing-systems",
+   "name": "Natural language processing systems",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "Software systems that analyse or produce human language, such as translators, chatbots and text classifiers.",
+   "certification": false,
+   "variants": [],
+   "relations": [
+    "related:natural-language-processing"
+   ]
+  },
+  {
+   "key": "natural-language-understanding",
+   "name": "Natural language understanding",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "The part of natural language processing concerned with getting machines to grasp the meaning and intent of human language.",
+   "certification": false,
+   "variants": [
+    "NLU"
+   ],
+   "relations": [
+    "broader:natural-language-processing"
+   ]
+  },
+  {
+   "key": "nautical-charts",
+   "name": "Nautical charts",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "Maps made for marine navigation that show water depths, coastlines, hazards and aids to navigation.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "navigational-aid",
+   "name": "Navigational aid",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "A device, marker or system, such as a buoy, beacon or radio transmitter, that helps ships or aircraft find their position and route.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "navisworks",
+   "name": "Navisworks",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "Autodesk software that combines design and construction models of a building project so they can be reviewed and checked for clashes.",
+   "certification": false,
+   "variants": [
+    "Navisworks (BIM Software)",
+    "Autodesk Navisworks"
+   ],
+   "relations": []
+  },
+  {
+   "key": "nedgraphics",
+   "name": "NedGraphics",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "Computer-aided design software for textile and fashion design, such as print, weave and knit design.",
+   "certification": false,
+   "variants": [
+    "NedGraphics (Textile Design Software)"
+   ],
+   "relations": [
+    "related:browzwear"
+   ]
+  },
+  {
+   "key": "needle-localization",
+   "name": "Needle localization",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Marking the location of a lesion, usually in the breast, by placing a needle or wire under imaging guidance so a surgeon can find and remove it.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "neonatal-intensive-care-nursing",
+   "name": "Neonatal intensive care nursing",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Nursing care for critically ill or premature newborns in a neonatal intensive care unit.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "net-development",
+   "name": ".NET development",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Building software applications on Microsoft's .NET platform, using languages such as C#.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "net-promoter-score",
+   "name": "Net Promoter Score",
+   "class": "skill",
+   "kind": "method",
+   "definition": "A customer loyalty metric based on how likely customers are to recommend a company, scored from -100 to 100.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "net-zero",
+   "name": "Net zero",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "A state in which the greenhouse gases a person, company or country puts into the atmosphere are balanced by those removed.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "nette",
+   "name": "Nette",
+   "class": "skill",
+   "kind": "framework",
+   "definition": "An open-source PHP framework for building web applications.",
+   "certification": false,
+   "variants": [
+    "Nette Framework"
+   ],
+   "relations": []
+  },
+  {
+   "key": "network-intrusion-detection-system",
+   "name": "Network intrusion detection system",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "A tool that monitors network traffic for signs of attacks or policy violations and raises alerts.",
+   "certification": false,
+   "variants": [
+    "Network Intrusion Detection Systems",
+    "NIDS"
+   ],
+   "relations": []
+  },
+  {
+   "key": "network-peering",
+   "name": "Network peering",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "An arrangement in which two networks connect directly to exchange traffic between their own customers, usually without paying each other for transit.",
+   "certification": false,
+   "variants": [
+    "Peering"
+   ],
+   "relations": []
+  }
+ ]
+}

@@ -1,0 +1,481 @@
+{
+ "allowed_kinds": [
+  "ability",
+  "credential",
+  "framework",
+  "human-language",
+  "knowledge",
+  "library",
+  "markup-language",
+  "method",
+  "modeling-language",
+  "platform",
+  "programming-language",
+  "skill",
+  "standard",
+  "style-language",
+  "tool",
+  "work-activity"
+ ],
+ "entries": [
+  {
+   "key": "software-localization",
+   "name": "Software localization",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Adapting software to a specific language and region, including translating text and adjusting formats such as dates and currencies.",
+   "certification": false,
+   "variants": [
+    "Software localisation",
+    "L10n"
+   ],
+   "relations": []
+  },
+  {
+   "key": "software-quality-assurance",
+   "name": "Software quality assurance",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Planning and carrying out the processes and checks that make sure software meets its quality requirements.",
+   "certification": false,
+   "variants": [
+    "Software Quality Assurance (SQA)"
+   ],
+   "relations": []
+  },
+  {
+   "key": "software-quality-management",
+   "name": "Software quality management",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Planning, controlling and improving the quality of software across its development, through standards, reviews and testing.",
+   "certification": false,
+   "variants": [
+    "Software Quality Management (Software Quality)"
+   ],
+   "relations": []
+  },
+  {
+   "key": "software-reliability-testing",
+   "name": "Software reliability testing",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Testing software to measure how long and how often it runs without failure under expected use.",
+   "certification": false,
+   "variants": [],
+   "relations": [
+    "broader:testing"
+   ]
+  },
+  {
+   "key": "software-testing-life-cycle",
+   "name": "Software testing life cycle",
+   "class": "skill",
+   "kind": "method",
+   "definition": "The sequence of phases in software testing, from analysing requirements and planning through designing and running tests to closing the cycle.",
+   "certification": false,
+   "variants": [
+    "STLC"
+   ],
+   "relations": [
+    "related:testing"
+   ]
+  },
+  {
+   "key": "soil-fertility-treatment",
+   "name": "Soil fertility treatment",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Improving the nutrient content and condition of soil, for example with fertilisers, lime or organic matter.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "solar-panel",
+   "name": "Solar panel",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "A panel of photovoltaic cells that converts sunlight into electricity.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "solar-street-light",
+   "name": "Solar street light",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "A street lamp powered by a solar panel and battery that switches on automatically at dusk.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "sonicstage",
+   "name": "SonicStage",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "Sony's music management software for ripping CDs, organising a library and transferring tracks to Sony portable players.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "sonicwall",
+   "name": "SonicWall",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "A line of network security appliances and software, chiefly firewalls, from the vendor SonicWall.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "soot-blower",
+   "name": "Soot blower",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "A device in a boiler that cleans soot and ash off heat-transfer surfaces with jets of steam or air.",
+   "certification": false,
+   "variants": [
+    "Sootblower"
+   ],
+   "relations": []
+  },
+  {
+   "key": "source-insight",
+   "name": "Source Insight",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "A source code editor and browser for large programs, from SI Software, that analyses code to show symbols and call relationships.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "sourcegear-vault",
+   "name": "SourceGear Vault",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "A centralised version control system from SourceGear.",
+   "certification": false,
+   "variants": [
+    "SourceGear Vault (Revision Control System)"
+   ],
+   "relations": []
+  },
+  {
+   "key": "sovereign-cloud",
+   "name": "Sovereign cloud",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "Cloud computing arranged so that data, operations and control stay within the legal jurisdiction of a particular country or region.",
+   "certification": false,
+   "variants": [
+    "Sovereign Cloud (Data Security Framework)"
+   ],
+   "relations": []
+  },
+  {
+   "key": "spacy",
+   "name": "spaCy",
+   "class": "skill",
+   "kind": "library",
+   "definition": "An open-source Python library for natural language processing tasks such as tokenisation, part-of-speech tagging and named-entity recognition.",
+   "certification": false,
+   "variants": [
+    "SpaCy (NLP Software)"
+   ],
+   "relations": []
+  },
+  {
+   "key": "special-education",
+   "name": "Special education",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "The teaching of students whose learning needs arise from disabilities or other exceptionalities, using adapted methods and supports.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "special-education-law",
+   "name": "Special education law",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "The body of law, such as the US Individuals with Disabilities Education Act, that sets the rights and services owed to students with disabilities.",
+   "certification": false,
+   "variants": [],
+   "relations": [
+    "related:individualized-education-program"
+   ]
+  },
+  {
+   "key": "special-hazards-suppression-systems",
+   "name": "Special hazards suppression systems",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "Fire suppression systems that use gas, foam or other agents to protect high-value or high-risk areas, such as data centres and flammable-liquid stores.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "special-use-airspace",
+   "name": "Special use airspace",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "Airspace in which flight activity is restricted or the activities of other users are limited, such as restricted, prohibited and military operations areas.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "specimen-processing",
+   "name": "Specimen processing",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Receiving, labelling and preparing clinical specimens so they are ready for laboratory testing.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "spray-gun",
+   "name": "Spray gun",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "A handheld tool that uses compressed air or pressure to spray paint or other liquid coatings onto a surface.",
+   "certification": false,
+   "variants": [
+    "Paint Guns",
+    "Paint gun",
+    "Paint spray gun"
+   ],
+   "relations": []
+  },
+  {
+   "key": "sql-92",
+   "name": "SQL-92",
+   "class": "skill",
+   "kind": "standard",
+   "definition": "The 1992 revision of the SQL standard, which defined entry, intermediate and full levels of the database query language.",
+   "certification": false,
+   "variants": [
+    "SQL92",
+    "SQL2"
+   ],
+   "relations": [
+    "broader:sql"
+   ]
+  },
+  {
+   "key": "sql-server-express-localdb",
+   "name": "SQL Server Express LocalDB",
+   "class": "skill",
+   "kind": "platform",
+   "definition": "A lightweight version of the SQL Server Express database engine for developers that starts on demand and needs no server setup.",
+   "certification": false,
+   "variants": [
+    "Localdb"
+   ],
+   "relations": []
+  },
+  {
+   "key": "sql-server-integration-services",
+   "name": "SQL Server Integration Services",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "Microsoft's tool in SQL Server for building data integration and extract, transform and load workflows.",
+   "certification": false,
+   "variants": [
+    "SSIS"
+   ],
+   "relations": [
+    "related:business-integration-software"
+   ]
+  },
+  {
+   "key": "sql-tuning",
+   "name": "SQL tuning",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Improving the speed and resource use of SQL queries, for example by rewriting them and adjusting indexes and statistics.",
+   "certification": false,
+   "variants": [
+    "SQL performance tuning"
+   ],
+   "relations": []
+  },
+  {
+   "key": "statistics",
+   "name": "Statistics",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "Methods for reasoning from data and uncertainty.",
+   "variants": [
+    "statistical analysis"
+   ],
+   "relations": []
+  },
+  {
+   "key": "stm32-nucleo",
+   "name": "STM32 Nucleo",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "A family of low-cost microcontroller development boards from STMicroelectronics built around STM32 chips.",
+   "certification": false,
+   "variants": [
+    "Nucleo"
+   ],
+   "relations": []
+  },
+  {
+   "key": "swift-network",
+   "name": "SWIFT network",
+   "class": "skill",
+   "kind": "platform",
+   "definition": "Financial messaging network; not the programming language.",
+   "variants": [
+    "Swift"
+   ],
+   "relations": []
+  },
+  {
+   "key": "technical-writing",
+   "name": "Technical writing",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Communicating technical information clearly in written form.",
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "tensorflow",
+   "name": "TensorFlow",
+   "class": "skill",
+   "kind": "library",
+   "definition": "Building and executing machine-learning models with TensorFlow.",
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "testing",
+   "name": "Software testing",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Designing checks and cases to evaluate software behavior.",
+   "variants": [
+    "testing",
+    "Verification And Validation (Software)"
+   ],
+   "relations": []
+  },
+  {
+   "key": "tl-9000",
+   "name": "TL 9000",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "A quality management system standard for the telecommunications industry, built on ISO 9001.",
+   "certification": false,
+   "variants": [
+    "TL9000"
+   ],
+   "relations": []
+  },
+  {
+   "key": "tool-use",
+   "name": "Agent tool use",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Connecting an agent to bounded external capabilities.",
+   "variants": [
+    "Tool Use and Function Calling",
+    "function calling"
+   ],
+   "relations": []
+  },
+  {
+   "key": "training-material-development",
+   "name": "Training material development",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Creating the guides, slides, exercises and other content used to teach people a job or a product.",
+   "certification": false,
+   "variants": [
+    "Developing Training Materials"
+   ],
+   "relations": []
+  },
+  {
+   "key": "ultratax-cs",
+   "name": "UltraTax CS",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "Thomson Reuters software that accounting firms use to prepare tax returns.",
+   "certification": false,
+   "variants": [
+    "UltraTax"
+   ],
+   "relations": []
+  },
+  {
+   "key": "unisys-mapper",
+   "name": "Unisys MAPPER",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "A Unisys reporting and application development system for building database reports and applications, mainly on mainframes.",
+   "certification": false,
+   "variants": [
+    "MAintain Prepare And Produce Executive Reports (MAPPER)",
+    "MAintain, Prepare, And Produce Executive Reports (MAPPER)",
+    "MAintain Prepare SandsProduce Executive Reports (MAPPER)"
+   ],
+   "relations": []
+  },
+  {
+   "key": "usability-testing",
+   "name": "Usability testing",
+   "class": "skill",
+   "kind": "method",
+   "definition": "Evaluating how people use an interface to complete tasks.",
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "user-experience-design",
+   "name": "User experience design",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Designing interactions around user needs and usability.",
+   "variants": [
+    "UX design",
+    "user experience"
+   ],
+   "relations": []
+  },
+  {
+   "key": "user-interface-design",
+   "name": "User interface design",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Designing the visible controls and presentation of interactive software.",
+   "variants": [
+    "UI design"
+   ],
+   "relations": []
+  },
+  {
+   "key": "user-research",
+   "name": "User research",
+   "class": "skill",
+   "kind": "method",
+   "definition": "Investigating user needs and behavior to inform design.",
+   "variants": [
+    "UX Research"
+   ],
+   "relations": []
+  }
+ ]
+}

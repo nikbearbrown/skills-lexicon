@@ -1,0 +1,175 @@
+{
+ "allowed_kinds": [
+  "ability",
+  "credential",
+  "framework",
+  "human-language",
+  "knowledge",
+  "library",
+  "markup-language",
+  "method",
+  "modeling-language",
+  "platform",
+  "programming-language",
+  "skill",
+  "standard",
+  "style-language",
+  "tool",
+  "work-activity"
+ ],
+ "entries": [
+  {
+   "key": "adaptability",
+   "name": "Adaptability",
+   "class": "ability",
+   "kind": "ability",
+   "definition": "The capacity to adjust to new conditions, tasks or environments.",
+   "certification": false,
+   "variants": [
+    "Adaptabilities"
+   ],
+   "relations": []
+  },
+  {
+   "key": "attention-to-detail",
+   "name": "Attention to detail",
+   "class": "ability",
+   "kind": "ability",
+   "definition": "Being careful about small details and thorough in checking that work is accurate and complete.",
+   "certification": false,
+   "variants": [
+    "Detail Conscious",
+    "Detail oriented"
+   ],
+   "relations": []
+  },
+  {
+   "key": "causal-reasoning",
+   "name": "Causal reasoning",
+   "class": "ability",
+   "kind": "ability",
+   "definition": "Distinguishing prediction from intervention and causal explanation.",
+   "variants": [
+    "causal inference"
+   ],
+   "relations": []
+  },
+  {
+   "key": "emotional-stability",
+   "name": "Emotional stability",
+   "class": "ability",
+   "kind": "ability",
+   "definition": "The tendency to stay calm and even-tempered under pressure.",
+   "certification": false,
+   "variants": [
+    "Emotionally Stable"
+   ],
+   "relations": []
+  },
+  {
+   "key": "goal-oriented",
+   "name": "Goal-oriented",
+   "class": "ability",
+   "kind": "ability",
+   "definition": "A tendency to set clear objectives and keep working steadily toward reaching them.",
+   "certification": false,
+   "variants": [
+    "Goal-focused",
+    "Goal Oriented"
+   ],
+   "relations": []
+  },
+  {
+   "key": "ingenuity",
+   "name": "Ingenuity",
+   "class": "ability",
+   "kind": "ability",
+   "definition": "The quality of being clever and inventive, especially in finding new ways to solve problems.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "patience",
+   "name": "Patience",
+   "class": "ability",
+   "kind": "ability",
+   "definition": "The capacity to stay calm and keep working or waiting without annoyance when things are slow, difficult or repetitive.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "quick-learning",
+   "name": "Quick learning",
+   "class": "ability",
+   "kind": "ability",
+   "definition": "The ability to take in and apply new information, methods or tools in a short time.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "resilience",
+   "name": "Resilience",
+   "class": "ability",
+   "kind": "ability",
+   "definition": "The capacity to keep functioning and recover after setbacks, stress or hardship.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "results-oriented",
+   "name": "Results-oriented",
+   "class": "ability",
+   "kind": "ability",
+   "definition": "A tendency to focus on achieving measurable outcomes and to judge work by what it produces.",
+   "certification": false,
+   "variants": [
+    "Results-orientated"
+   ],
+   "relations": [
+    "related:goal-oriented"
+   ]
+  },
+  {
+   "key": "self-confidence",
+   "name": "Self-confidence",
+   "class": "ability",
+   "kind": "ability",
+   "definition": "Trust in one's own abilities and judgment, shown by acting and speaking without undue doubt.",
+   "certification": false,
+   "variants": [
+    "Self- Confident",
+    "Self-confident"
+   ],
+   "relations": []
+  },
+  {
+   "key": "self-starter",
+   "name": "Self-starter",
+   "class": "ability",
+   "kind": "ability",
+   "definition": "Taking the initiative to begin and carry out work without being told or closely supervised.",
+   "certification": false,
+   "variants": [
+    "Self-started",
+    "Self starter"
+   ],
+   "relations": []
+  },
+  {
+   "key": "spatial-temporal-reasoning",
+   "name": "Spatial-temporal reasoning",
+   "class": "ability",
+   "kind": "ability",
+   "definition": "The ability to understand and mentally work with how objects and events are arranged in space and change over time.",
+   "certification": false,
+   "variants": [
+    "Spatial Temporal Reasoning"
+   ],
+   "relations": []
+  }
+ ]
+}

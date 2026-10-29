@@ -1,0 +1,493 @@
+{
+ "allowed_kinds": [
+  "ability",
+  "credential",
+  "framework",
+  "human-language",
+  "knowledge",
+  "library",
+  "markup-language",
+  "method",
+  "modeling-language",
+  "platform",
+  "programming-language",
+  "skill",
+  "standard",
+  "style-language",
+  "tool",
+  "work-activity"
+ ],
+ "entries": [
+  {
+   "key": "section-drawings",
+   "name": "Section drawings",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Preparing or reading drawings that show a building or object as if cut through along a plane, to reveal its internal construction.",
+   "certification": false,
+   "variants": [
+    "Section drawing"
+   ],
+   "relations": [
+    "broader:engineering-drawing"
+   ]
+  },
+  {
+   "key": "secure-coding",
+   "name": "Secure coding",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Writing software in ways that avoid common security flaws, such as injection, unsafe input handling and memory errors.",
+   "certification": false,
+   "variants": [
+    "Secure Coding Best Practices",
+    "Secure coding practices"
+   ],
+   "relations": []
+  },
+  {
+   "key": "secure-shell",
+   "name": "Secure Shell",
+   "class": "skill",
+   "kind": "standard",
+   "definition": "A network protocol for encrypted remote login and command execution between computers.",
+   "certification": false,
+   "variants": [
+    "SSH"
+   ],
+   "relations": []
+  },
+  {
+   "key": "secured-transactions",
+   "name": "Secured transactions",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "The area of commercial law that governs loans and credit backed by collateral in personal property, such as Article 9 of the US Uniform Commercial Code.",
+   "certification": false,
+   "variants": [
+    "Secured Transactions (Contract Law)"
+   ],
+   "relations": []
+  },
+  {
+   "key": "security-information-and-event-management",
+   "name": "Security information and event management",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "Software that gathers and correlates security logs and events from across an organisation so that threats can be detected, investigated and reported.",
+   "certification": false,
+   "variants": [
+    "SIEM"
+   ],
+   "relations": []
+  },
+  {
+   "key": "security-management",
+   "name": "Security management",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Planning and overseeing the measures, people and procedures that protect an organisation's people, property and information.",
+   "certification": false,
+   "variants": [
+    "Security Managing"
+   ],
+   "relations": []
+  },
+  {
+   "key": "security-onion",
+   "name": "Security Onion",
+   "class": "skill",
+   "kind": "platform",
+   "definition": "A free Linux distribution for network security monitoring, intrusion detection, log management and threat hunting.",
+   "certification": false,
+   "variants": [
+    "Security Onion (Intrusion Detection System)"
+   ],
+   "relations": [
+    "related:network-intrusion-detection-system"
+   ]
+  },
+  {
+   "key": "security-operations",
+   "name": "Security operations",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Running the monitoring, detection and response work that keeps an organisation's systems and data secure.",
+   "certification": false,
+   "variants": [
+    "SecOps"
+   ],
+   "relations": []
+  },
+  {
+   "key": "seeder",
+   "name": "Seeder",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "A farm machine that sows seeds into the soil at a set depth and spacing.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "seesaw-software",
+   "name": "Seesaw (software)",
+   "class": "skill",
+   "kind": "platform",
+   "definition": "A classroom app where students build digital portfolios of their work and teachers share it with families.",
+   "certification": false,
+   "variants": [
+    "Seesaw (Educational Software)"
+   ],
+   "relations": []
+  },
+  {
+   "key": "segment-software",
+   "name": "Segment (software)",
+   "class": "skill",
+   "kind": "platform",
+   "definition": "A customer data platform, owned by Twilio, that collects event data from websites and apps and sends it to other tools.",
+   "certification": false,
+   "variants": [
+    "Twilio Segment"
+   ],
+   "relations": []
+  },
+  {
+   "key": "selenium",
+   "name": "Selenium",
+   "class": "skill",
+   "kind": "framework",
+   "definition": "An open-source suite for automating web browsers, mainly used to write automated tests for web applications.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "seliwanoff-s-test",
+   "name": "Seliwanoff's test",
+   "class": "skill",
+   "kind": "method",
+   "definition": "A chemical test using resorcinol and hydrochloric acid that tells ketose sugars, such as fructose, from aldose sugars.",
+   "certification": false,
+   "variants": [
+    "Seliwanoff'S Tests",
+    "Seliwanoff test"
+   ],
+   "relations": [
+    "related:molisch-s-test"
+   ]
+  },
+  {
+   "key": "sequel-pro",
+   "name": "Sequel Pro",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "A free Mac application for managing MySQL and MariaDB databases through a graphical interface.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "sequelize",
+   "name": "Sequelize",
+   "class": "skill",
+   "kind": "library",
+   "definition": "A JavaScript object-relational mapper for Node.js that works with databases such as PostgreSQL, MySQL, MariaDB, SQLite and SQL Server.",
+   "certification": false,
+   "variants": [
+    "Sequelize.js"
+   ],
+   "relations": []
+  },
+  {
+   "key": "serial-ata",
+   "name": "Serial ATA",
+   "class": "skill",
+   "kind": "standard",
+   "definition": "A computer bus interface standard for connecting storage drives such as hard disks and solid-state drives to a motherboard.",
+   "certification": false,
+   "variants": [
+    "SATA"
+   ],
+   "relations": []
+  },
+  {
+   "key": "serial-line-internet-protocol",
+   "name": "Serial Line Internet Protocol",
+   "class": "skill",
+   "kind": "standard",
+   "definition": "A simple protocol that carries IP packets over serial lines such as dial-up modem links, described in RFC 1055.",
+   "certification": false,
+   "variants": [
+    "Serial Line Internet Protocolss",
+    "SLIP"
+   ],
+   "relations": [
+    "related:internet-protocol-suite"
+   ]
+  },
+  {
+   "key": "service-desk",
+   "name": "Service desk",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Giving users first-line support for IT problems and requests, and logging, resolving or escalating each case.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "service-level-requirement",
+   "name": "Service level requirement",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Defining and recording what a customer needs from a service, such as availability and response time, as the basis for a service level agreement.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "service-orientation",
+   "name": "Service orientation",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Looking out for chances to be useful to other people and acting on them.",
+   "certification": false,
+   "variants": [
+    "Service-Orientation"
+   ],
+   "relations": []
+  },
+  {
+   "key": "servicenow",
+   "name": "ServiceNow",
+   "class": "skill",
+   "kind": "platform",
+   "definition": "A cloud platform for IT service management and for automating business workflows.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "servicenow-discovery",
+   "name": "ServiceNow Discovery",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "A ServiceNow product that scans a network to find devices and applications and records them in the configuration management database.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "sex-therapy",
+   "name": "Sex therapy",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Counselling or psychotherapy that helps individuals and couples with sexual difficulties and concerns.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "sha-256",
+   "name": "SHA-256",
+   "class": "skill",
+   "kind": "standard",
+   "definition": "A cryptographic hash function from the SHA-2 family, specified in NIST FIPS 180-4, that produces a 256-bit digest.",
+   "certification": false,
+   "variants": [
+    "Sha256"
+   ],
+   "relations": []
+  },
+  {
+   "key": "sha-512",
+   "name": "SHA-512",
+   "class": "skill",
+   "kind": "standard",
+   "definition": "A cryptographic hash function from the SHA-2 family, specified in NIST FIPS 180-4, that produces a 512-bit digest.",
+   "certification": false,
+   "variants": [
+    "Sha512"
+   ],
+   "relations": []
+  },
+  {
+   "key": "shaolin-kung-fu",
+   "name": "Shaolin kung fu",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "A family of Chinese martial arts associated with the Shaolin Temple; Sil Lum is the Cantonese rendering of Shaolin.",
+   "certification": false,
+   "variants": [
+    "Sil-Lum (Shaolin) Kung Fu",
+    "Sil Lum kung fu"
+   ],
+   "relations": []
+  },
+  {
+   "key": "sharable-content-object-reference-model",
+   "name": "Sharable Content Object Reference Model",
+   "class": "skill",
+   "kind": "standard",
+   "definition": "A set of technical standards for packaging e-learning content and tracking learners so that courses work across learning management systems.",
+   "certification": false,
+   "variants": [
+    "SCORM"
+   ],
+   "relations": []
+  },
+  {
+   "key": "shared-vision-planning",
+   "name": "Shared Vision Planning",
+   "class": "skill",
+   "kind": "method",
+   "definition": "A collaborative water-resources planning approach that combines traditional planning, stakeholder participation and shared computer models.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "sharefile",
+   "name": "ShareFile",
+   "class": "skill",
+   "kind": "platform",
+   "definition": "A cloud service for storing, sharing and collaborating on business files securely, originally from Citrix.",
+   "certification": false,
+   "variants": [
+    "Citrix ShareFile"
+   ],
+   "relations": []
+  },
+  {
+   "key": "sharp-zaurus",
+   "name": "Sharp Zaurus",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "A line of handheld personal digital assistants made by Sharp, many of which run Linux.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "shepard-s-citations",
+   "name": "Shepard's Citations",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "A LexisNexis legal research service that lists later cases and authorities citing a given case, showing whether it is still good law.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "ship-handling",
+   "name": "Ship handling",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Controlling a ship's movement, especially manoeuvring it in confined water and when berthing.",
+   "certification": false,
+   "variants": [
+    "Shiphandling"
+   ],
+   "relations": []
+  },
+  {
+   "key": "shipping-and-receiving",
+   "name": "Shipping and receiving",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Preparing and dispatching outgoing goods and checking, recording and storing incoming goods.",
+   "certification": false,
+   "variants": [],
+   "relations": [
+    "related:shipping-management"
+   ]
+  },
+  {
+   "key": "shipping-management",
+   "name": "Shipping management",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Planning and overseeing how goods are packed, dispatched and delivered to customers.",
+   "certification": false,
+   "variants": [
+    "Manage Shipping"
+   ],
+   "relations": []
+  },
+  {
+   "key": "shoulder-surgery",
+   "name": "Shoulder surgery",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Performing or assisting with operations on the shoulder joint, such as rotator cuff repair and joint replacement.",
+   "certification": false,
+   "variants": [
+    "Shoulder Surgeries"
+   ],
+   "relations": []
+  },
+  {
+   "key": "shower-installation",
+   "name": "Shower installation",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Fitting a shower, including its enclosure, valves and drainage, in a bathroom.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "shrink-wrapping",
+   "name": "Shrink wrapping",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Packaging items in plastic film that is shrunk tight around them with heat.",
+   "certification": false,
+   "variants": [
+    "Shrink Wrap"
+   ],
+   "relations": []
+  },
+  {
+   "key": "shuttle-car-operation",
+   "name": "Shuttle car operation",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Driving a shuttle car, the low electric haulage vehicle that carries cut coal or ore from the mining machine to the conveyor in an underground mine.",
+   "certification": false,
+   "variants": [
+    "Shuttle Car Operating"
+   ],
+   "relations": []
+  },
+  {
+   "key": "signalling-connection-control-part",
+   "name": "Signalling Connection Control Part",
+   "class": "skill",
+   "kind": "standard",
+   "definition": "A layer of the SS7 telephone signalling protocol stack that adds addressing and connection-oriented and connectionless services on top of the message transfer part.",
+   "certification": false,
+   "variants": [
+    "Signalling Connection Control Part (SCCP)"
+   ],
+   "relations": []
+  },
+  {
+   "key": "signalling-system-no-7",
+   "name": "Signalling System No. 7",
+   "class": "skill",
+   "kind": "standard",
+   "definition": "A set of ITU-T telephone signalling protocols used to set up and route calls and provide services across public telephone networks.",
+   "certification": false,
+   "variants": [
+    "Signalling System 7 (SS7)",
+    "SS7",
+    "Signalling System 7",
+    "Signaling System 7"
+   ],
+   "relations": []
+  }
+ ]
+}

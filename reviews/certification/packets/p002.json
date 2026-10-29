@@ -1,0 +1,535 @@
+{
+ "allowed_kinds": [
+  "ability",
+  "credential",
+  "framework",
+  "human-language",
+  "knowledge",
+  "library",
+  "markup-language",
+  "method",
+  "modeling-language",
+  "platform",
+  "programming-language",
+  "skill",
+  "standard",
+  "style-language",
+  "tool",
+  "work-activity"
+ ],
+ "entries": [
+  {
+   "key": "basic-automotive-maintenance-certificate",
+   "name": "Basic automotive maintenance certificate",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A short vocational certificate, usually from a college or training school, showing completion of introductory training in routine vehicle servicing.",
+   "certification": true,
+   "certification_scope": "many-issuers",
+   "variants": [
+    "Basic Automotive Maintenance Certificates"
+   ],
+   "relations": []
+  },
+  {
+   "key": "basic-life-support",
+   "name": "Basic Life Support",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A certification in emergency care for cardiac arrest, choking and breathing emergencies, including CPR and use of an AED, for healthcare providers and other rescuers.",
+   "certification": true,
+   "certification_scope": "many-issuers",
+   "variants": [
+    "Basic Life Support certification"
+   ],
+   "relations": [
+    "related:advanced-cardiovascular-life-support"
+   ]
+  },
+  {
+   "key": "basic-life-support-instructor-certification",
+   "name": "Basic Life Support instructor certification",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A certification, issued by training organisations such as the American Heart Association and the American Red Cross, that qualifies a person to teach and certify others in Basic Life Support.",
+   "certification": true,
+   "certification_scope": "many-issuers",
+   "variants": [
+    "Basic Life Support (BLS) Instructor Certification"
+   ],
+   "relations": []
+  },
+  {
+   "key": "board-certified-behavior-analyst",
+   "name": "Board Certified Behavior Analyst",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A graduate-level certification, awarded by the Behavior Analyst Certification Board, for practitioners of applied behavior analysis.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [
+    "BCBA"
+   ],
+   "relations": []
+  },
+  {
+   "key": "board-certified-pharmacotherapy-specialist",
+   "name": "Board Certified Pharmacotherapy Specialist",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A specialty certification awarded by the Board of Pharmacy Specialties to pharmacists who show advanced skill in drug therapy.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [
+    "Board Certified Pharmacotherapy Specialist (BCPS)",
+    "BCPS"
+   ],
+   "relations": []
+  },
+  {
+   "key": "board-certified-specialist-in-gerontological-nutrition",
+   "name": "Board Certified Specialist in Gerontological Nutrition",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A specialist certification for registered dietitians who work with older adults, awarded by the Commission on Dietetic Registration.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [
+    "Certified Specialist in Gerontological Nutrition"
+   ],
+   "relations": []
+  },
+  {
+   "key": "board-certified-specialist-in-renal-nutrition",
+   "name": "Board Certified Specialist in Renal Nutrition",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A specialty certification in kidney nutrition for registered dietitians, awarded by the Commission on Dietetic Registration.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "board-certified-specialist-in-sports-dietetics",
+   "name": "Board Certified Specialist in Sports Dietetics",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A specialist certification for registered dietitians who work with athletes, awarded by the Commission on Dietetic Registration.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [
+    "Certified Specialist in Sports Dietetics",
+    "CSSD"
+   ],
+   "relations": []
+  },
+  {
+   "key": "board-certified-transplant-pharmacist",
+   "name": "Board Certified Transplant Pharmacist",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A specialty certification awarded by the Board of Pharmacy Specialties to pharmacists who show advanced skill in transplant pharmacy.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [
+    "Board Certified Transplant Pharmacist (BCTXP)",
+    "BCTXP"
+   ],
+   "relations": []
+  },
+  {
+   "key": "boating-license",
+   "name": "Boating license",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A licence or certificate, issued by a state or country, that allows a person to operate a recreational boat.",
+   "certification": true,
+   "certification_scope": "many-issuers",
+   "variants": [
+    "Boating licence"
+   ],
+   "relations": []
+  },
+  {
+   "key": "boom-lift-certification",
+   "name": "Boom lift certification",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A certificate showing that a person has been trained to operate boom lifts, aerial work platforms with an extending arm.",
+   "certification": true,
+   "certification_scope": "many-issuers",
+   "variants": [],
+   "relations": [
+    "broader:aerial-lift-certification"
+   ]
+  },
+  {
+   "key": "ccna-security",
+   "name": "CCNA Security",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A Cisco associate-level certification for network engineers who secure Cisco network devices and infrastructure.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [
+    "Cisco Certified Network Associate- Security",
+    "Cisco Certified Network Associate Security"
+   ],
+   "relations": [
+    "related:ccnp-security"
+   ]
+  },
+  {
+   "key": "ccnp-security",
+   "name": "CCNP Security",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A Cisco professional-level certification for engineers who design, implement and operate network security.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [
+    "CISCO Certified Network Professional - Security",
+    "Cisco Certified Network Professional Security"
+   ],
+   "relations": []
+  },
+  {
+   "key": "certificate-of-advanced-graduate-study",
+   "name": "Certificate of Advanced Graduate Study",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A post-master's credential awarded by universities for a defined programme of advanced graduate study beyond the master's degree.",
+   "certification": true,
+   "certification_scope": "many-issuers",
+   "variants": [
+    "Certificate Of Advanced Graduate Study (CAGS)",
+    "CAGS",
+    "Certificate of Advanced Graduate Studies"
+   ],
+   "relations": []
+  },
+  {
+   "key": "certificate-of-clinical-competence-in-speech-language-pathology",
+   "name": "Certificate of Clinical Competence in Speech-Language Pathology",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "The professional certificate from the American Speech-Language-Hearing Association showing a speech-language pathologist has met its academic, clinical-practicum and examination requirements.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [
+    "Certificate Of Clinical Competence In Speech-Language Pathology (CCC-SLP)",
+    "CCC-SLP"
+   ],
+   "relations": []
+  },
+  {
+   "key": "certification-in-neurophysiologic-intraoperative-monitoring",
+   "name": "Certification in Neurophysiologic Intraoperative Monitoring",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A certification for professionals who monitor the nervous system with electrical tests during surgery to help protect it from injury.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [
+    "Certification in Neurophysiologic Intraoperative Monitoring (CNIM)",
+    "CNIM"
+   ],
+   "relations": [
+    "related:american-board-of-neurophysiologic-monitoring-certification"
+   ]
+  },
+  {
+   "key": "certification-in-transportation-and-logistics",
+   "name": "Certification in Transportation and Logistics",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A professional certification in transportation and logistics management.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "certified-addictions-registered-nurse",
+   "name": "Certified Addictions Registered Nurse",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A certification for registered nurses who specialise in caring for people with addictions, awarded by the Addictions Nursing Certification Board.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [
+    "CARN"
+   ],
+   "relations": []
+  },
+  {
+   "key": "certified-alcoholism-and-drug-abuse-counselor",
+   "name": "Certified Alcoholism and Drug Abuse Counselor",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A credential for counselors who treat people with alcohol and drug problems.",
+   "certification": true,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "certified-ambulatory-perianesthesia-nurse",
+   "name": "Certified Ambulatory Perianesthesia Nurse",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A certification from the American Board of Perianesthesia Nursing Certification for nurses who care for ambulatory patients before and after anesthesia.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "certified-analytics-professional",
+   "name": "Certified Analytics Professional",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A certification from INFORMS for analytics practitioners who have shown skill across the whole analytics process, from framing the problem to deploying the solution.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "certified-apartment-manager",
+   "name": "Certified Apartment Manager",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A certification from the National Apartment Association for managers of apartment communities.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "certified-associate-in-project-management",
+   "name": "Certified Associate in Project Management",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "An entry-level project management certification from the Project Management Institute for people who are new to the field.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [
+    "Certified Associate Project Management"
+   ],
+   "relations": [
+    "related:project-management"
+   ]
+  },
+  {
+   "key": "certified-associate-in-python-programming",
+   "name": "Certified Associate in Python Programming",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "An associate-level certification from the Python Institute showing that someone can write and understand programs in Python.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "certified-asthma-educator",
+   "name": "Certified Asthma Educator",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A certification showing that a health professional can teach people with asthma and their families how to manage the condition.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [
+    "AE-C"
+   ],
+   "relations": [
+    "related:asthma-education"
+   ]
+  },
+  {
+   "key": "certified-bariatric-nurse",
+   "name": "Certified Bariatric Nurse",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A certification for nurses who care for patients with severe obesity, including before and after weight-loss surgery.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "certified-bath-designer",
+   "name": "Certified Bath Designer",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A certification from the National Kitchen & Bath Association for designers who plan bathrooms.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "certified-biomedical-equipment-technician",
+   "name": "Certified Biomedical Equipment Technician",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A certification for technicians who install, maintain and repair medical equipment such as patient monitors and infusion pumps.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [
+    "CBET"
+   ],
+   "relations": []
+  },
+  {
+   "key": "certified-breast-care-nurse",
+   "name": "Certified Breast Care Nurse",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A certification from the Oncology Nursing Certification Corporation for nurses who care for patients with breast cancer and other breast conditions.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [
+    "CBCN"
+   ],
+   "relations": []
+  },
+  {
+   "key": "certified-cardiographic-technician",
+   "name": "Certified Cardiographic Technician",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A certification from Cardiovascular Credentialing International for technicians who record and check electrocardiograms and related heart tests.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "certified-case-manager",
+   "name": "Certified Case Manager",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A certification from the Commission for Case Manager Certification for case managers who coordinate health and social care for clients.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "certified-child-life-specialist",
+   "name": "Certified Child Life Specialist",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A certification from the Association of Child Life Professionals for specialists who help children and families cope with illness, injury and hospital care.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [
+    "CCLS"
+   ],
+   "relations": []
+  },
+  {
+   "key": "certified-clinical-hemodialysis-technician",
+   "name": "Certified Clinical Hemodialysis Technician",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A certification from the Nephrology Nursing Certification Commission for technicians who give hemodialysis treatments in clinical settings.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [
+    "CCHT"
+   ],
+   "relations": []
+  },
+  {
+   "key": "certified-clinical-medical-assistant",
+   "name": "Certified Clinical Medical Assistant",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A certification from the National Healthcareer Association for medical assistants who do clinical tasks such as taking vital signs and drawing blood.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [
+    "CCMA"
+   ],
+   "relations": []
+  },
+  {
+   "key": "certified-clinical-research-associate",
+   "name": "Certified Clinical Research Associate",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A certification from the Association of Clinical Research Professionals for people who monitor clinical trials at study sites.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [
+    "CCRA"
+   ],
+   "relations": []
+  },
+  {
+   "key": "certified-clinical-transplant-coordinator",
+   "name": "Certified Clinical Transplant Coordinator",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A certification for coordinators who manage the clinical care of organ-transplant patients before and after their transplants.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [
+    "Certified Clinical Transplant Coordinators",
+    "CCTC"
+   ],
+   "relations": []
+  },
+  {
+   "key": "certified-coding-associate",
+   "name": "Certified Coding Associate",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "An entry-level medical coding certification from the American Health Information Management Association.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "certified-coding-specialist",
+   "name": "Certified Coding Specialist",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A medical coding certification from the American Health Information Management Association for coders who assign codes to hospital records.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "certified-continence-care-nurse",
+   "name": "Certified Continence Care Nurse",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A certification from the Wound, Ostomy and Continence Nursing Certification Board for nurses who care for people with bladder and bowel incontinence.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [
+    "CCCN"
+   ],
+   "relations": []
+  },
+  {
+   "key": "certified-control-systems-technician",
+   "name": "Certified Control Systems Technician",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A certification from the International Society of Automation, offered at three levels, for technicians who calibrate, install and troubleshoot control systems and instruments.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [
+    "CCST"
+   ],
+   "relations": []
+  }
+ ]
+}

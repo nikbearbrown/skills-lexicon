@@ -1,0 +1,464 @@
+{
+ "allowed_kinds": [
+  "ability",
+  "credential",
+  "framework",
+  "human-language",
+  "knowledge",
+  "library",
+  "markup-language",
+  "method",
+  "modeling-language",
+  "platform",
+  "programming-language",
+  "skill",
+  "standard",
+  "style-language",
+  "tool",
+  "work-activity"
+ ],
+ "entries": [
+  {
+   "key": "mobile-computing",
+   "name": "Mobile computing",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "Computing on portable devices such as smartphones and tablets that connect wirelessly.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "mobile-ui-design",
+   "name": "Mobile UI design",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Designing the visual look and controls of the screens of mobile apps.",
+   "certification": false,
+   "variants": [],
+   "relations": [
+    "broader:user-interface-design"
+   ]
+  },
+  {
+   "key": "mobile-ux-design",
+   "name": "Mobile UX design",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Designing how people find, use and experience apps on phones and tablets.",
+   "certification": false,
+   "variants": [],
+   "relations": [
+    "broader:user-experience-design"
+   ]
+  },
+  {
+   "key": "modelops",
+   "name": "ModelOps",
+   "class": "skill",
+   "kind": "method",
+   "definition": "The practice of deploying, monitoring and governing AI and machine-learning models in production.",
+   "certification": false,
+   "variants": [],
+   "relations": [
+    "related:devops"
+   ]
+  },
+  {
+   "key": "models-for-life-contingencies",
+   "name": "Models for life contingencies",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "Actuarial models that value insurance and annuity benefits depending on whether a person lives or dies.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "modelsim",
+   "name": "ModelSim",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "A hardware description language simulator from Mentor Graphics (now Siemens) for testing VHDL and Verilog designs.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "modern-methods-of-construction",
+   "name": "Modern methods of construction",
+   "class": "skill",
+   "kind": "method",
+   "definition": "Building approaches, such as offsite and modular manufacture, that move much of the construction work from the site into a factory.",
+   "certification": false,
+   "variants": [
+    "Modern Methods Of Construction (MMC)"
+   ],
+   "relations": []
+  },
+  {
+   "key": "modo",
+   "name": "MODO",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "3D modelling, animation and rendering software, originally from Luxology and now made by Foundry.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "moist-heat-sterilization",
+   "name": "Moist heat sterilization",
+   "class": "skill",
+   "kind": "method",
+   "definition": "Killing microorganisms on equipment or materials with pressurised steam, usually in an autoclave.",
+   "certification": false,
+   "variants": [
+    "Steam sterilization"
+   ],
+   "relations": []
+  },
+  {
+   "key": "mold-setting",
+   "name": "Mold setting",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Mounting a mould in a moulding machine and adjusting it and the machine settings so parts can be produced.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "molding",
+   "name": "Molding",
+   "class": "skill",
+   "kind": "method",
+   "definition": "Shaping a material such as plastic, metal or rubber by pouring or forcing it into a mould.",
+   "certification": false,
+   "variants": [
+    "Moulding"
+   ],
+   "relations": []
+  },
+  {
+   "key": "moldings-installation-and-maintenance",
+   "name": "Moldings installation and maintenance",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Fitting and repairing decorative trim such as baseboards and crown moldings in buildings.",
+   "certification": false,
+   "variants": [
+    "Moldings (Installation And Maintenance)"
+   ],
+   "relations": []
+  },
+  {
+   "key": "molecular-docking",
+   "name": "Molecular docking",
+   "class": "skill",
+   "kind": "method",
+   "definition": "A computational method that predicts how a small molecule, such as a drug candidate, binds to a target protein.",
+   "certification": false,
+   "variants": [
+    "Docking (Molecular)"
+   ],
+   "relations": []
+  },
+  {
+   "key": "molecular-engineering",
+   "name": "Molecular engineering",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "The design and building of materials and systems by controlling their structure at the molecular scale.",
+   "certification": false,
+   "variants": [],
+   "relations": [
+    "related:biomolecular-engineering"
+   ]
+  },
+  {
+   "key": "molecular-modelling",
+   "name": "Molecular modelling",
+   "class": "skill",
+   "kind": "method",
+   "definition": "Using computer methods to represent and predict the structure and behaviour of molecules.",
+   "certification": false,
+   "variants": [
+    "Molecular modeling"
+   ],
+   "relations": [
+    "related:molecular-docking"
+   ]
+  },
+  {
+   "key": "molisch-s-test",
+   "name": "Molisch's test",
+   "class": "skill",
+   "kind": "method",
+   "definition": "A chemical test that detects carbohydrates by the purple ring that forms when alpha-naphthol and concentrated sulfuric acid are added.",
+   "certification": false,
+   "variants": [
+    "Molisch'S Tests"
+   ],
+   "relations": []
+  },
+  {
+   "key": "moment-js",
+   "name": "Moment.js",
+   "class": "skill",
+   "kind": "library",
+   "definition": "A JavaScript library for parsing, validating, manipulating and displaying dates and times.",
+   "certification": false,
+   "variants": [
+    "MomentJS"
+   ],
+   "relations": []
+  },
+  {
+   "key": "monetdb",
+   "name": "MonetDB",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "An open-source column-oriented relational database system designed for fast analytical queries.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "mongoengine",
+   "name": "MongoEngine",
+   "class": "skill",
+   "kind": "library",
+   "definition": "A Python library that maps Python classes to MongoDB documents.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "mongoose",
+   "name": "Mongoose",
+   "class": "skill",
+   "kind": "library",
+   "definition": "A Node.js library that models application data and talks to MongoDB, adding schemas and validation.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "mongovue",
+   "name": "MongoVue",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "A Windows graphical client for browsing and querying MongoDB databases.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "mortgage-electronic-registration-system",
+   "name": "Mortgage Electronic Registration System",
+   "class": "skill",
+   "kind": "platform",
+   "definition": "An electronic registry that tracks ownership and servicing rights of mortgage loans in the United States.",
+   "certification": false,
+   "variants": [
+    "Mortgage Electronic Registration System (MERS)",
+    "MERS"
+   ],
+   "relations": []
+  },
+  {
+   "key": "mosaic-art",
+   "name": "Mosaic art",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Making pictures or patterns by setting small pieces of glass, stone or tile into a surface.",
+   "certification": false,
+   "variants": [
+    "Mosaics"
+   ],
+   "relations": []
+  },
+  {
+   "key": "motion-graphics",
+   "name": "Motion graphics",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Creating animated graphic design, such as titles, logos and explainer sequences, for video and screens.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "motion-graphics-software",
+   "name": "Motion graphics software",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "Software for creating animated graphics and visual effects, such as Adobe After Effects.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "motor-control-algorithms",
+   "name": "Motor control algorithms",
+   "class": "skill",
+   "kind": "method",
+   "definition": "Algorithms, such as field-oriented control, that regulate the torque, speed and position of electric motors.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "motor-control-firmware",
+   "name": "Motor control firmware",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "Embedded software that runs on a microcontroller or drive to regulate the speed, torque or position of an electric motor.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "motor-control-software",
+   "name": "Motor control software",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "Software that controls, configures or monitors electric motors and drives, including embedded control code and host-side tools.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "movable-type",
+   "name": "Movable Type",
+   "class": "skill",
+   "kind": "platform",
+   "definition": "A blogging and website content management platform first released by Six Apart in 2001.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "moz-pro",
+   "name": "Moz Pro",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "A subscription SEO software suite from Moz for keyword research, rank tracking, site audits and link analysis.",
+   "certification": false,
+   "variants": [
+    "Moz"
+   ],
+   "relations": []
+  },
+  {
+   "key": "mp-m",
+   "name": "MP/M",
+   "class": "skill",
+   "kind": "platform",
+   "definition": "A multi-user, multitasking operating system from Digital Research that extended CP/M.",
+   "certification": false,
+   "variants": [
+    "Multi-Programming Monitor Control Program (MP/M)",
+    "Multi-Programming Monitor Control Program"
+   ],
+   "relations": []
+  },
+  {
+   "key": "mri-software",
+   "name": "MRI Software",
+   "class": "skill",
+   "kind": "platform",
+   "definition": "A provider's software platforms for managing real estate, including property and lease management.",
+   "certification": false,
+   "variants": [
+    "MRI (Property Management Software)"
+   ],
+   "relations": []
+  },
+  {
+   "key": "mstest",
+   "name": "MSTest",
+   "class": "skill",
+   "kind": "framework",
+   "definition": "Microsoft's unit testing framework for .NET code, used with Visual Studio.",
+   "certification": false,
+   "variants": [],
+   "relations": [
+    "related:testing"
+   ]
+  },
+  {
+   "key": "mud-pump",
+   "name": "Mud pump",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "A high-pressure pump on a drilling rig that circulates drilling fluid down the drill string and back up the borehole.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "mulesoft",
+   "name": "MuleSoft",
+   "class": "skill",
+   "kind": "platform",
+   "definition": "Integration software, now owned by Salesforce, whose Anypoint Platform connects applications, data and APIs.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "multi-agent-systems",
+   "name": "Multi-agent systems",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "Systems made of several autonomous agents, such as software programs or robots, that interact to cooperate or compete in solving problems.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "multi-core-processors",
+   "name": "Multi-core processors",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "Processors that place two or more independent processing cores on one chip so they can run tasks in parallel.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "multi-core-programming",
+   "name": "Multi-core programming",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Writing software that divides work across the several cores of a processor so tasks run in parallel.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "multi-core-smp",
+   "name": "Multi-core SMP",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "Symmetric multiprocessing on multi-core processors, where identical cores share one memory and are scheduled by a single operating system.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "multi-core-software",
+   "name": "Multi-core software",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "Software designed or tuned to run its work in parallel across the several cores of a multi-core processor.",
+   "certification": false,
+   "variants": [],
+   "relations": [
+    "related:multi-core-processors"
+   ]
+  }
+ ]
+}

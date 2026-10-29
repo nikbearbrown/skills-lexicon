@@ -1,0 +1,458 @@
+{
+ "allowed_kinds": [
+  "ability",
+  "credential",
+  "framework",
+  "human-language",
+  "knowledge",
+  "library",
+  "markup-language",
+  "method",
+  "modeling-language",
+  "platform",
+  "programming-language",
+  "skill",
+  "standard",
+  "style-language",
+  "tool",
+  "work-activity"
+ ],
+ "entries": [
+  {
+   "key": "nutrition-intervention",
+   "name": "Nutrition intervention",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "The step of the Nutrition Care Process in which planned actions are taken to address an identified nutrition problem.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "nutritional-assessment",
+   "name": "Nutritional assessment",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Evaluating a person's nutritional status from diet history, body measurements, clinical signs and laboratory results.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "nutritional-screening",
+   "name": "Nutritional screening",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Quickly identifying people who are malnourished or at nutritional risk, using a short validated screening tool.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "nuxt",
+   "name": "Nuxt",
+   "class": "skill",
+   "kind": "framework",
+   "definition": "A framework built on Vue.js for building server-rendered and static web applications.",
+   "certification": false,
+   "variants": [
+    "Nuxt.Js"
+   ],
+   "relations": []
+  },
+  {
+   "key": "nw-js",
+   "name": "NW.js",
+   "class": "skill",
+   "kind": "framework",
+   "definition": "A framework for building desktop applications with HTML, CSS and JavaScript on top of Node.js and Chromium.",
+   "certification": false,
+   "variants": [
+    "node-webkit"
+   ],
+   "relations": []
+  },
+  {
+   "key": "obd-ii",
+   "name": "OBD-II",
+   "class": "skill",
+   "kind": "standard",
+   "definition": "A standard for on-board vehicle diagnostics that gives access to a car's engine and emissions data through a standard connector and fault codes.",
+   "certification": false,
+   "variants": [
+    "Obd Ii",
+    "OBD2",
+    "On-Board Diagnostics II"
+   ],
+   "relations": []
+  },
+  {
+   "key": "object-oriented-data-model",
+   "name": "Object-oriented data model",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "A way of modelling data in which information is represented as objects that have attributes and behaviour and can be related to one another.",
+   "certification": false,
+   "variants": [
+    "Object-Oriented Data Model For Database Modelling"
+   ],
+   "relations": []
+  },
+  {
+   "key": "object-oriented-design",
+   "name": "Object-oriented design",
+   "class": "skill",
+   "kind": "method",
+   "definition": "Designing software using objects and their relationships.",
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "object-oriented-programming",
+   "name": "Object-oriented programming",
+   "class": "skill",
+   "kind": "method",
+   "definition": "A programming paradigm that organises code into objects that combine data and the behaviour that works on it.",
+   "certification": false,
+   "variants": [
+    "OOP"
+   ],
+   "relations": [
+    "related:object-oriented-design"
+   ]
+  },
+  {
+   "key": "observability",
+   "name": "Observability",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Inspecting system behavior using recorded evidence such as logs, traces and metrics.",
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "oclc-connexion",
+   "name": "OCLC Connexion",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "OCLC's cataloguing service and client software for creating and editing library catalogue records.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "ocular-pathology",
+   "name": "Ocular pathology",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "The branch of pathology that studies diseases of the eye and the tissues around it.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "ocunit",
+   "name": "OCUnit",
+   "class": "skill",
+   "kind": "framework",
+   "definition": "A unit testing framework for Objective-C that was bundled with Apple's Xcode before XCTest replaced it.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "odor-control",
+   "name": "Odor control",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "Methods and equipment, such as scrubbers and biofilters, for removing or neutralising unpleasant odours in plants such as wastewater and industrial facilities.",
+   "certification": false,
+   "variants": [
+    "Odor Controls",
+    "Odour control"
+   ],
+   "relations": []
+  },
+  {
+   "key": "office-365",
+   "name": "Office 365",
+   "class": "skill",
+   "kind": "platform",
+   "definition": "Microsoft's subscription service that provides Office applications such as Word, Excel and Outlook together with cloud services for email, file storage and collaboration; many plans are now sold as Microsoft 365.",
+   "certification": false,
+   "variants": [
+    "Office365",
+    "Microsoft Office 365",
+    "O365"
+   ],
+   "relations": []
+  },
+  {
+   "key": "office-and-productivity-software",
+   "name": "Office and productivity software",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "Software for everyday office work, such as word processing, spreadsheets, presentations and email.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "official-statistics",
+   "name": "Official statistics",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "Statistics produced and published by government statistical agencies about a country's population, economy and society.",
+   "certification": false,
+   "variants": [],
+   "relations": [
+    "related:statistics"
+   ]
+  },
+  {
+   "key": "ohm-s-law",
+   "name": "Ohm's law",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "The law that the current through a conductor is proportional to the voltage across it, written V = I × R.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "oil-pipelines",
+   "name": "Oil pipelines",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "The pipeline systems that carry crude oil and refined products, and the engineering, operation and regulation of them.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "omniorb",
+   "name": "omniORB",
+   "class": "skill",
+   "kind": "library",
+   "definition": "An open-source CORBA object request broker for C++ and Python.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "on1",
+   "name": "ON1",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "Photo editing and organising software made by ON1, Inc., including ON1 Photo RAW.",
+   "certification": false,
+   "variants": [
+    "ON1 (Software)"
+   ],
+   "relations": []
+  },
+  {
+   "key": "onboarding",
+   "name": "Onboarding",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Guiding new employees or new customers through their first stage of joining so they can work or use a product effectively.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "oncogenomics",
+   "name": "Oncogenomics",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "The study of the genetic and genomic changes behind cancer and how they can guide diagnosis and treatment.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "oncology-sales",
+   "name": "Oncology sales",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Selling cancer drugs, devices or diagnostics to oncologists, hospitals and other cancer care providers.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "onetrust",
+   "name": "OneTrust",
+   "class": "skill",
+   "kind": "platform",
+   "definition": "A software platform for privacy, data governance, third-party risk and compliance management.",
+   "certification": false,
+   "variants": [
+    "OneTrust (Software)"
+   ],
+   "relations": []
+  },
+  {
+   "key": "online-demonstration",
+   "name": "Online demonstration",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Showing a product, process or technique to an audience remotely, using screen sharing or video.",
+   "certification": false,
+   "variants": [
+    "Online Demostration"
+   ],
+   "relations": []
+  },
+  {
+   "key": "onshape",
+   "name": "Onshape",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "A cloud-based computer-aided design system for 3D product modelling that runs in a web browser and is owned by PTC.",
+   "certification": false,
+   "variants": [
+    "Onshape (3D Modeling Software)"
+   ],
+   "relations": [
+    "broader:3d-modeling-software"
+   ]
+  },
+  {
+   "key": "open-banking",
+   "name": "Open banking",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "A system in which banks let authorised third parties access customer account data and payment services through secure APIs, with the customer's consent.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "open-network-computing",
+   "name": "Open Network Computing",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "A set of distributed computing technologies from Sun Microsystems, including ONC RPC and the Network File System.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "open-shortest-path-first",
+   "name": "Open Shortest Path First",
+   "class": "skill",
+   "kind": "standard",
+   "definition": "A link-state routing protocol for IP networks that finds shortest paths using Dijkstra's algorithm.",
+   "certification": false,
+   "variants": [
+    "OSPF"
+   ],
+   "relations": []
+  },
+  {
+   "key": "openapi-specification",
+   "name": "OpenAPI Specification",
+   "class": "skill",
+   "kind": "standard",
+   "definition": "A language-agnostic specification for describing HTTP APIs in a machine-readable YAML or JSON format, formerly known as Swagger.",
+   "certification": false,
+   "variants": [
+    "Openapi"
+   ],
+   "relations": [
+    "related:application-programming-interface"
+   ]
+  },
+  {
+   "key": "opencart",
+   "name": "OpenCart",
+   "class": "skill",
+   "kind": "platform",
+   "definition": "An open-source PHP e-commerce platform for running online stores.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "opendaylight",
+   "name": "OpenDaylight",
+   "class": "skill",
+   "kind": "platform",
+   "definition": "An open-source software-defined networking platform, hosted by the Linux Foundation, built around a network controller.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "openni",
+   "name": "OpenNI",
+   "class": "skill",
+   "kind": "framework",
+   "definition": "An open-source software framework for working with depth-sensing cameras and natural-interaction devices, such as the Microsoft Kinect.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "openstreetmap",
+   "name": "OpenStreetMap",
+   "class": "skill",
+   "kind": "platform",
+   "definition": "A collaborative project that builds a free, editable map database of the world.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "opentok",
+   "name": "OpenTok",
+   "class": "skill",
+   "kind": "platform",
+   "definition": "A WebRTC-based platform and API, originally from TokBox and now part of Vonage, for adding live video to web and mobile apps.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "opentsdb",
+   "name": "OpenTSDB",
+   "class": "skill",
+   "kind": "platform",
+   "definition": "A scalable, open-source time series database built to run on Apache HBase.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "operating-systems",
+   "name": "Operating systems",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "Understanding process, memory, storage and system resource management.",
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "operational-risk-mitigation",
+   "name": "Operational risk mitigation",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Planning and applying controls to reduce the risk of loss from failed processes, people, systems or external events.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "operationalizing-ai",
+   "name": "Operationalizing AI",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Moving AI models from prototypes into reliable production use, including deployment, monitoring and integration into business processes.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  }
+ ]
+}

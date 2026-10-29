@@ -1,0 +1,469 @@
+{
+ "allowed_kinds": [
+  "ability",
+  "credential",
+  "framework",
+  "human-language",
+  "knowledge",
+  "library",
+  "markup-language",
+  "method",
+  "modeling-language",
+  "platform",
+  "programming-language",
+  "skill",
+  "standard",
+  "style-language",
+  "tool",
+  "work-activity"
+ ],
+ "entries": [
+  {
+   "key": "cpython",
+   "name": "CPython",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "The reference implementation of the Python language, written in C.",
+   "certification": false,
+   "variants": [],
+   "relations": [
+    "related:python",
+    "related:activepython"
+   ]
+  },
+  {
+   "key": "crane-signaling",
+   "name": "Crane signaling",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Guiding a crane operator during a lift with standard hand signals or radio calls.",
+   "certification": false,
+   "variants": [
+    "Signaling (Crane Rigging)",
+    "Crane signalling"
+   ],
+   "relations": []
+  },
+  {
+   "key": "craniofacial-surgery",
+   "name": "Craniofacial surgery",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "The surgical specialty that repairs and reshapes the skull, face and jaws, including congenital differences such as cleft lip and palate.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "create-react-app",
+   "name": "Create React App",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "A command-line tool from Facebook that sets up a new React web application with a ready-made build configuration.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "createjs",
+   "name": "CreateJS",
+   "class": "skill",
+   "kind": "library",
+   "definition": "A suite of JavaScript libraries for building interactive HTML5 canvas content, including EaselJS, TweenJS, SoundJS and PreloadJS.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "creative-arts-therapy",
+   "name": "Creative arts therapy",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Using art, music, dance or drama in a therapeutic setting to support people's emotional and mental health.",
+   "certification": false,
+   "variants": [],
+   "relations": [
+    "related:certified-music-therapist"
+   ]
+  },
+  {
+   "key": "creative-problem-solving",
+   "name": "Creative problem-solving",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Finding original solutions to problems by generating and testing new ideas.",
+   "certification": false,
+   "variants": [
+    "Creative problem solving"
+   ],
+   "relations": []
+  },
+  {
+   "key": "credit-risk-analysis",
+   "name": "Credit risk analysis",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Assessing how likely a borrower is to fail to repay and how much a lender could lose if that happens.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "creo-elements-pro",
+   "name": "Creo Elements/Pro",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "A parametric 3D computer-aided design package from PTC, formerly known as Pro/ENGINEER.",
+   "certification": false,
+   "variants": [
+    "Creo Elements/Pro (Computer-Aided Design Software)"
+   ],
+   "relations": []
+  },
+  {
+   "key": "crestron",
+   "name": "Crestron",
+   "class": "skill",
+   "kind": "platform",
+   "definition": "Control and automation systems for audio-visual equipment, lighting, shades and building technology, made by Crestron Electronics.",
+   "certification": false,
+   "variants": [
+    "Crestron (A/V Systems)"
+   ],
+   "relations": []
+  },
+  {
+   "key": "crestron-programming",
+   "name": "Crestron programming",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Writing the control programs that run Crestron audio-visual and automation systems.",
+   "certification": false,
+   "variants": [],
+   "relations": [
+    "related:amx-programming"
+   ]
+  },
+  {
+   "key": "crime-analysis",
+   "name": "Crime analysis",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Studying crime reports and data to find patterns and help police prevent and solve crimes.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "crime-mapping",
+   "name": "Crime mapping",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Plotting crime data on maps to find hotspots and patterns that guide policing.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "crime-scene-investigation",
+   "name": "Crime scene investigation",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Securing, documenting and collecting physical evidence at the place where a crime happened.",
+   "certification": false,
+   "variants": [
+    "Crime Scenes (Forensic Evidence)"
+   ],
+   "relations": []
+  },
+  {
+   "key": "criminal-intelligence",
+   "name": "Criminal intelligence",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "Information about criminals, their networks and activities that police gather and analyse to prevent and investigate crime.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "critical-path-method",
+   "name": "Critical path method",
+   "class": "skill",
+   "kind": "method",
+   "definition": "A project scheduling technique that finds the longest chain of dependent tasks, which sets the shortest possible project duration.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "critical-reflection",
+   "name": "Critical reflection",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Examining your own assumptions, actions and experience in order to learn from them and improve practice.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "critical-test-results-management",
+   "name": "Critical test results management",
+   "class": "skill",
+   "kind": "method",
+   "definition": "The process of promptly telling the responsible clinician about dangerous laboratory or imaging results and recording that it was done.",
+   "certification": false,
+   "variants": [
+    "Critical Test Results Management (CTRM)"
+   ],
+   "relations": []
+  },
+  {
+   "key": "crop-farming",
+   "name": "Crop farming",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "Growing crops such as grains, vegetables and fruit, including preparing soil, planting, tending and harvesting.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "cross-domain-solutions",
+   "name": "Cross-domain solutions",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "Security systems that let information move between networks of different classification levels under strict controlled rules.",
+   "certification": false,
+   "variants": [
+    "Cross Domain Solutions"
+   ],
+   "relations": []
+  },
+  {
+   "key": "cross-platform-app-development",
+   "name": "Cross-platform app development",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Building applications that run on more than one operating system or device type from a shared codebase.",
+   "certification": false,
+   "variants": [
+    "Cross-Platform Applications",
+    "Cross-platform application development"
+   ],
+   "relations": []
+  },
+  {
+   "key": "cross-product",
+   "name": "Cross product",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "An operation on two three-dimensional vectors that gives a third vector perpendicular to both.",
+   "certification": false,
+   "variants": [
+    "Vector product"
+   ],
+   "relations": []
+  },
+  {
+   "key": "crud",
+   "name": "CRUD",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "The four basic operations of persistent data storage: create, read, update and delete.",
+   "certification": false,
+   "variants": [
+    "Create Read Update and Delete (CRUD)",
+    "CRUD operations"
+   ],
+   "relations": []
+  },
+  {
+   "key": "cryengine",
+   "name": "CryEngine",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "A game engine from Crytek for building 3D games and real-time visualisations.",
+   "certification": false,
+   "variants": [
+    "CryEngines"
+   ],
+   "relations": []
+  },
+  {
+   "key": "cryptocurrency",
+   "name": "Cryptocurrency",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "Digital money secured by cryptography and usually run on decentralised blockchain networks, such as Bitcoin.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "cu-seeme",
+   "name": "CU-SeeMe",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "An early internet videoconferencing program developed at Cornell University.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "cucumber",
+   "name": "Cucumber",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "A behaviour-driven development tool that runs plain-language Gherkin specifications as automated tests.",
+   "certification": false,
+   "variants": [
+    "Cucumber (Software)"
+   ],
+   "relations": []
+  },
+  {
+   "key": "cucumber-js",
+   "name": "Cucumber.js",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "The JavaScript implementation of Cucumber, which runs plain-language Gherkin specifications as automated tests.",
+   "certification": false,
+   "variants": [
+    "Cucumberjs"
+   ],
+   "relations": []
+  },
+  {
+   "key": "cultural-sensitivity",
+   "name": "Cultural sensitivity",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Recognising and respecting differences in cultural background, beliefs and customs when dealing with people.",
+   "certification": false,
+   "variants": [
+    "Culturally Sensitive"
+   ],
+   "relations": []
+  },
+  {
+   "key": "culture-transformation",
+   "name": "Culture transformation",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Changing the shared values, habits and behaviours of an organisation so that it can reach a new goal.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "cunit",
+   "name": "CUnit",
+   "class": "skill",
+   "kind": "framework",
+   "definition": "A lightweight unit testing framework for writing, administering and running tests in C.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "cured-in-place-pipe",
+   "name": "Cured-in-place pipe",
+   "class": "skill",
+   "kind": "method",
+   "definition": "A trenchless method of repairing a damaged pipe by inserting a resin-soaked liner that is hardened in place to form a new pipe inside the old one.",
+   "certification": false,
+   "variants": [
+    "Cured-In-Place Pipes"
+   ],
+   "relations": []
+  },
+  {
+   "key": "curl",
+   "name": "cURL",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "A command-line tool and library for transferring data with URLs over protocols such as HTTP and FTP.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "curriculum-evaluation",
+   "name": "Curriculum evaluation",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Judging how well a curriculum meets its goals and how well students learn from it.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "curriculum-planning",
+   "name": "Curriculum planning",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Deciding what a course or programme will teach and in what order, including its goals, content and assessment.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "custom-post-types",
+   "name": "Custom post types",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "A WordPress feature that lets developers define their own kinds of content, beyond built-in posts and pages, with their own fields and templates.",
+   "certification": false,
+   "variants": [
+    "Custom post type"
+   ],
+   "relations": []
+  },
+  {
+   "key": "customer-engagement-planning",
+   "name": "Customer engagement planning",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Planning how and when a business will interact with its customers across channels to keep them interested and loyal.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "customer-engagement-strategy",
+   "name": "Customer engagement strategy",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Defining the long-term approach a business uses to build relationships with customers and keep them active.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "customer-experience-strategy",
+   "name": "Customer experience strategy",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Defining how a business wants customers to experience it across every contact, and the plan for achieving that.",
+   "certification": false,
+   "variants": [
+    "Customer Experience Strategy (CX)",
+    "CX strategy"
+   ],
+   "relations": [
+    "related:user-experience-design"
+   ]
+  },
+  {
+   "key": "customer-insight",
+   "name": "Customer insight",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Using data and research on customer behaviour and needs to understand customers and guide business decisions.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  }
+ ]
+}

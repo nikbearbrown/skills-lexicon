@@ -1,0 +1,467 @@
+{
+ "allowed_kinds": [
+  "ability",
+  "credential",
+  "framework",
+  "human-language",
+  "knowledge",
+  "library",
+  "markup-language",
+  "method",
+  "modeling-language",
+  "platform",
+  "programming-language",
+  "skill",
+  "standard",
+  "style-language",
+  "tool",
+  "work-activity"
+ ],
+ "entries": [
+  {
+   "key": "bismuth-sulfite-agar",
+   "name": "Bismuth sulfite agar",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "A selective culture medium used in microbiology to isolate Salmonella, especially Salmonella Typhi, from samples.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "bitly",
+   "name": "Bitly",
+   "class": "skill",
+   "kind": "platform",
+   "definition": "A link-management platform that shortens web addresses and tracks how the short links are used.",
+   "certification": false,
+   "variants": [
+    "Bit.ly"
+   ],
+   "relations": []
+  },
+  {
+   "key": "blackline",
+   "name": "BlackLine",
+   "class": "skill",
+   "kind": "platform",
+   "definition": "A cloud platform for automating financial close tasks such as account reconciliation and transaction matching.",
+   "certification": false,
+   "variants": [
+    "BlackLine (Accounting Software)"
+   ],
+   "relations": [
+    "broader:accounting-software"
+   ]
+  },
+  {
+   "key": "blast-radius",
+   "name": "Blast radius analysis",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Assessing the bounded scope and impact of a failure or action.",
+   "variants": [
+    "blast radius"
+   ],
+   "relations": []
+  },
+  {
+   "key": "blended-learning",
+   "name": "Blended learning",
+   "class": "skill",
+   "kind": "method",
+   "definition": "A teaching approach that combines online digital media with traditional face-to-face classroom instruction.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "blender-game-engine",
+   "name": "Blender Game Engine",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "The built-in real-time 3D game and interactive-content engine that shipped with Blender until version 2.80.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "boa-constructor",
+   "name": "Boa Constructor",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "A cross-platform integrated development environment and GUI builder for Python and wxPython, written in Python.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "board-support-package",
+   "name": "Board support package",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Developing the low-level code and drivers that let an operating system run on a specific hardware board.",
+   "certification": false,
+   "variants": [
+    "Board Support Package (Software)",
+    "BSP"
+   ],
+   "relations": []
+  },
+  {
+   "key": "body-contouring",
+   "name": "Body contouring",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Performing cosmetic procedures that reduce fat or tighten and reshape areas of the body.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "bodyattack",
+   "name": "BODYATTACK",
+   "class": "skill",
+   "kind": "method",
+   "definition": "A Les Mills group fitness class of high-energy athletic moves such as running and jumping, set to music.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "bodypump",
+   "name": "BODYPUMP",
+   "class": "skill",
+   "kind": "method",
+   "definition": "A Les Mills group fitness class of barbell strength training with many repetitions, set to music.",
+   "certification": false,
+   "variants": [
+    "BodyPumps"
+   ],
+   "relations": []
+  },
+  {
+   "key": "boiler-draft",
+   "name": "Boiler draft",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "The pressure difference that moves combustion air and flue gases through a boiler furnace and stack.",
+   "certification": false,
+   "variants": [
+    "Draft (Boiler)"
+   ],
+   "relations": []
+  },
+  {
+   "key": "bonjour",
+   "name": "Bonjour",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "Apple's implementation of zero-configuration networking, which lets devices and services on a local network find each other automatically.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "boolean-algebra",
+   "name": "Boolean algebra",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "The branch of algebra in which variables take the values true or false and are combined with operations such as AND, OR and NOT.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "boolean-search",
+   "name": "Boolean search",
+   "class": "skill",
+   "kind": "method",
+   "definition": "Searching by combining terms with operators such as AND, OR and NOT, as in recruiting and research databases.",
+   "certification": false,
+   "variants": [],
+   "relations": [
+    "contrast:vector-search"
+   ]
+  },
+  {
+   "key": "border-studies",
+   "name": "Border studies",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "An interdisciplinary field that studies political borders and boundaries and how they shape people, places and states.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "box-api",
+   "name": "Box API",
+   "class": "skill",
+   "kind": "platform",
+   "definition": "The programming interface of the Box cloud content-management service, used to manage files, folders, users and permissions from other software.",
+   "certification": false,
+   "variants": [],
+   "relations": [
+    "broader:application-programming-interface"
+   ]
+  },
+  {
+   "key": "box-backup",
+   "name": "Box Backup",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "An open-source automatic online backup system with a client and a server.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "brand-communication",
+   "name": "Brand communication",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Conveying a brand's identity, message and values to its audiences through consistent channels and content.",
+   "certification": false,
+   "variants": [],
+   "relations": [
+    "related:branding"
+   ]
+  },
+  {
+   "key": "brand-strategy",
+   "name": "Brand strategy",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Defining a brand's long-term purpose, audience, positioning and identity so that its choices stay consistent.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "branding",
+   "name": "Brand positioning",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Defining and defending a brand promise for an audience.",
+   "variants": [
+    "positioning"
+   ],
+   "relations": []
+  },
+  {
+   "key": "branding-2",
+   "name": "Branding",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Creating and managing the name, identity and reputation by which a product, organisation or person is recognised.",
+   "certification": false,
+   "variants": [],
+   "relations": [
+    "related:branding"
+   ]
+  },
+  {
+   "key": "breast-surgery",
+   "name": "Breast surgery",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "Surgical operations on the breast, such as lumpectomy, mastectomy, reconstruction and augmentation.",
+   "certification": false,
+   "variants": [
+    "Breast Surgeries"
+   ],
+   "relations": []
+  },
+  {
+   "key": "breeze-js",
+   "name": "Breeze.js",
+   "class": "skill",
+   "kind": "library",
+   "definition": "A JavaScript library for managing data in rich client applications, with querying, caching and change tracking against a server.",
+   "certification": false,
+   "variants": [
+    "Breeze.js ((Javascript Library)"
+   ],
+   "relations": []
+  },
+  {
+   "key": "bridal-consulting",
+   "name": "Bridal consulting",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Advising engaged couples, especially brides, on choosing wedding gowns and accessories or on planning the wedding.",
+   "certification": false,
+   "variants": [
+    "Professional Bridal Consultanting"
+   ],
+   "relations": []
+  },
+  {
+   "key": "brightway",
+   "name": "Brightway",
+   "class": "skill",
+   "kind": "framework",
+   "definition": "An open-source Python framework for life cycle assessment, used to model the environmental impacts of products and processes.",
+   "certification": false,
+   "variants": [
+    "Brightway2"
+   ],
+   "relations": []
+  },
+  {
+   "key": "broadcast-programming",
+   "name": "Broadcast programming",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Selecting and scheduling the shows and other content that a television or radio station or network broadcasts.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "browzwear",
+   "name": "Browzwear",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "3D fashion design software for creating and simulating garments digitally before they are made.",
+   "certification": false,
+   "variants": [
+    "Browzwear (Fashion Design Software)"
+   ],
+   "relations": []
+  },
+  {
+   "key": "brute-force-search",
+   "name": "Brute-force search",
+   "class": "skill",
+   "kind": "method",
+   "definition": "Solving a problem by systematically trying every possible candidate solution until one works.",
+   "certification": false,
+   "variants": [
+    "Brute Force"
+   ],
+   "relations": []
+  },
+  {
+   "key": "btrieve",
+   "name": "Btrieve",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "A record-oriented database engine, originally from Pervasive Software, that stores and retrieves records through key indexes.",
+   "certification": false,
+   "variants": [],
+   "relations": [
+    "related:b-tree"
+   ]
+  },
+  {
+   "key": "budtending",
+   "name": "Budtending",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Advising customers on and selling cannabis products in a dispensary.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "bug-tracking-systems",
+   "name": "Bug tracking systems",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "Software used to record, prioritise and follow software defects until they are fixed.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "builder-s-risk-insurance",
+   "name": "Builder's risk insurance",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "Insurance that covers a building and its materials against damage while it is under construction or renovation.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "building-crates-and-skids",
+   "name": "Building crates and skids",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Constructing wooden crates and skids to ship and support goods.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "bullet-physics",
+   "name": "Bullet Physics",
+   "class": "skill",
+   "kind": "library",
+   "definition": "An open-source physics engine library for real-time collision detection and rigid-body simulation in games, robotics and visual effects.",
+   "certification": false,
+   "variants": [
+    "Bullet (Software)"
+   ],
+   "relations": []
+  },
+  {
+   "key": "bulma",
+   "name": "Bulma",
+   "class": "skill",
+   "kind": "framework",
+   "definition": "An open-source CSS framework built on Flexbox that provides ready-made layout and interface components.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "burndown-chart",
+   "name": "Burndown chart",
+   "class": "skill",
+   "kind": "method",
+   "definition": "A chart that plots the work remaining in a project against time, used by agile teams to track progress.",
+   "certification": false,
+   "variants": [
+    "Burn Down Chart"
+   ],
+   "relations": []
+  },
+  {
+   "key": "business-excellence",
+   "name": "Business excellence",
+   "class": "skill",
+   "kind": "method",
+   "definition": "A management approach that applies quality-management principles and models such as the EFQM Excellence Model to improve an organisation's performance.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "business-integration-software",
+   "name": "Business integration software",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "Software that connects business applications and data sources so that they can exchange information.",
+   "certification": false,
+   "variants": [
+    "Business Integration Softwares"
+   ],
+   "relations": []
+  },
+  {
+   "key": "business-process-analysis",
+   "name": "Business process analysis",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Studying how a business process works in order to find problems and ways to improve it.",
+   "certification": false,
+   "variants": [
+    "Process Analysis (Business)"
+   ],
+   "relations": []
+  }
+ ]
+}

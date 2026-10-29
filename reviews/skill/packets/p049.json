@@ -1,0 +1,468 @@
+{
+ "allowed_kinds": [
+  "ability",
+  "credential",
+  "framework",
+  "human-language",
+  "knowledge",
+  "library",
+  "markup-language",
+  "method",
+  "modeling-language",
+  "platform",
+  "programming-language",
+  "skill",
+  "standard",
+  "style-language",
+  "tool",
+  "work-activity"
+ ],
+ "entries": [
+  {
+   "key": "retirement-administration",
+   "name": "Retirement administration",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Running retirement plans for employers or members, including enrolment, contributions, benefit calculations and record-keeping.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "retrieval-augmented-generation",
+   "name": "Retrieval-augmented generation",
+   "class": "skill",
+   "kind": "method",
+   "definition": "Grounding generated output with retrieved information.",
+   "variants": [
+    "RAG"
+   ],
+   "relations": []
+  },
+  {
+   "key": "return-to-work-management",
+   "name": "Return-to-work management",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Helping injured or ill employees get back to work through planned, modified or gradual duties, usually alongside insurers and health providers.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "revising-legal-documents",
+   "name": "Revising legal documents",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Editing legal documents such as contracts and agreements to correct errors and update their terms.",
+   "certification": false,
+   "variants": [
+    "Revise Legal Documents"
+   ],
+   "relations": [
+    "related:examination-of-legal-documents"
+   ]
+  },
+  {
+   "key": "rhinoceros-3d",
+   "name": "Rhinoceros 3D",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "Computer-aided design software from Robert McNeel & Associates for modelling free-form 3D curves and surfaces, widely used in architecture and product design.",
+   "certification": false,
+   "variants": [
+    "Rhino",
+    "Rhino 3D"
+   ],
+   "relations": []
+  },
+  {
+   "key": "ribosomal-intergenic-spacer-analysis",
+   "name": "Ribosomal intergenic spacer analysis",
+   "class": "skill",
+   "kind": "method",
+   "definition": "A DNA fingerprinting technique that compares the length of the spacer between two ribosomal RNA genes to profile the bacteria in a sample.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "rigging-computer-animation",
+   "name": "Rigging (computer animation)",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Building the skeleton, joints and controls that let a 3D model be posed and animated.",
+   "certification": false,
+   "variants": [
+    "Rigging (3D Modeling)"
+   ],
+   "relations": []
+  },
+  {
+   "key": "right-to-financial-privacy-act",
+   "name": "Right to Financial Privacy Act",
+   "class": "skill",
+   "kind": "standard",
+   "definition": "A 1978 US federal law that limits when government agencies may obtain a person's records from financial institutions.",
+   "certification": false,
+   "variants": [
+    "RFPA"
+   ],
+   "relations": [
+    "related:financial-privacy"
+   ]
+  },
+  {
+   "key": "rightnow-crm",
+   "name": "RightNow CRM",
+   "class": "skill",
+   "kind": "platform",
+   "definition": "A cloud customer service and customer relationship management product from RightNow Technologies, which Oracle bought in 2011.",
+   "certification": false,
+   "variants": [
+    "Oracle RightNow"
+   ],
+   "relations": []
+  },
+  {
+   "key": "rights-issue",
+   "name": "Rights issue",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "An offer that lets existing shareholders buy new shares in proportion to their holding, usually at a discount, so that the company can raise capital.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "riot-js",
+   "name": "Riot.js",
+   "class": "skill",
+   "kind": "library",
+   "definition": "A small client-side JavaScript library for building user interfaces from custom elements.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "risa-3d",
+   "name": "RISA-3D",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "Structural analysis and design software from RISA Technologies for modelling buildings, bridges and other structures in three dimensions.",
+   "certification": false,
+   "variants": [
+    "Risa 3D"
+   ],
+   "relations": []
+  },
+  {
+   "key": "risk-adjustment-coding",
+   "name": "Risk adjustment coding",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Assigning diagnosis codes from medical records so that health plans can be paid according to how sick their members are.",
+   "certification": false,
+   "variants": [
+    "Risk Adjustment Coding (RAC)"
+   ],
+   "relations": [
+    "related:certified-risk-adjustment-coder"
+   ]
+  },
+  {
+   "key": "risk-aggregation",
+   "name": "Risk aggregation",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Combining risk measures from different business lines, risk types or positions into one view of an organisation's total risk.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "risk-awareness",
+   "name": "Risk awareness",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Recognising hazards and potential harm and understanding how likely and how serious they are.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "risk-exposure-assessment",
+   "name": "Risk exposure assessment",
+   "class": "skill",
+   "kind": "method",
+   "definition": "Working out how far a person, organisation or asset is exposed to a risk and how large the possible loss or harm is.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "risk-management",
+   "name": "Risk management",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Identifying, assessing and controlling threats to an organisation's capital, earnings or operations.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "risk-management-planning",
+   "name": "Risk management planning",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Deciding how risks on a project or in an organisation will be identified, assessed, handled and monitored, and recording that in a plan.",
+   "certification": false,
+   "variants": [
+    "Risk Management Planning (Risk Management)"
+   ],
+   "relations": []
+  },
+  {
+   "key": "risk-ratings",
+   "name": "Risk ratings",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "Scores or grades that show how likely and how serious a risk is, as in credit risk ratings and risk matrices.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "robomongo",
+   "name": "Robomongo",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "A free graphical client for browsing and querying MongoDB databases, later renamed Robo 3T.",
+   "certification": false,
+   "variants": [
+    "Robo 3T"
+   ],
+   "relations": []
+  },
+  {
+   "key": "rockmelt",
+   "name": "Rockmelt",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "A social web browser, based on Chromium, that was discontinued after Yahoo bought its maker in 2013.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "rockwell-factorytalk",
+   "name": "Rockwell FactoryTalk",
+   "class": "skill",
+   "kind": "platform",
+   "definition": "Rockwell Automation's family of industrial software for operator screens, data historians, production management and analytics.",
+   "certification": false,
+   "variants": [
+    "FactoryTalk"
+   ],
+   "relations": []
+  },
+  {
+   "key": "role-based-access-control",
+   "name": "Role-based access control",
+   "class": "skill",
+   "kind": "method",
+   "definition": "An approach to restricting system access in which permissions are assigned to roles and users receive access through the roles they hold.",
+   "certification": false,
+   "variants": [
+    "RBAC"
+   ],
+   "relations": []
+  },
+  {
+   "key": "rolling-stock",
+   "name": "Rolling stock",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "The vehicles that run on a railway, such as locomotives, passenger carriages and freight wagons, and the engineering that goes with them.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "roof-bolting",
+   "name": "Roof bolting",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Installing steel bolts into the roof of an underground mine or tunnel to hold the rock together and prevent roof falls.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "route-management",
+   "name": "Route management",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Planning and supervising the routes that vehicles follow, including schedules, stops and drivers, so that deliveries or services run efficiently.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "routing-table-maintenance-protocol",
+   "name": "Routing Table Maintenance Protocol",
+   "class": "skill",
+   "kind": "standard",
+   "definition": "A routing protocol of the AppleTalk network suite that lets routers share which networks they can reach.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "rsa-archer",
+   "name": "RSA Archer",
+   "class": "skill",
+   "kind": "platform",
+   "definition": "A governance, risk and compliance platform for managing risks, policies, audits and compliance work in one place.",
+   "certification": false,
+   "variants": [
+    "Archer Integrated Risk Management"
+   ],
+   "relations": []
+  },
+  {
+   "key": "rubber-tyred-metro",
+   "name": "Rubber-tyred metro",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "A metro system whose trains run on rubber tyres on concrete or steel guideways instead of steel wheels on steel rails.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "rx30",
+   "name": "Rx30",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "A pharmacy management software product used to process prescriptions and run pharmacy operations.",
+   "certification": false,
+   "variants": [
+    "Rx30 (Pharmacy Management Software)"
+   ],
+   "relations": [
+    "related:computerrx"
+   ]
+  },
+  {
+   "key": "rxkotlin",
+   "name": "RxKotlin",
+   "class": "skill",
+   "kind": "library",
+   "definition": "A Kotlin library that adds language-friendly extensions on top of RxJava for writing reactive, event-driven programs.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "safe-drinking-water-act",
+   "name": "Safe Drinking Water Act",
+   "class": "skill",
+   "kind": "standard",
+   "definition": "The US federal law that sets standards for the quality of public drinking water and requires water systems to meet them.",
+   "certification": false,
+   "variants": [
+    "SDWA"
+   ],
+   "relations": [
+    "related:clean-water-act"
+   ]
+  },
+  {
+   "key": "safety-audits",
+   "name": "Safety audits",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Checking workplaces, equipment and procedures against safety rules to find hazards and non-compliance.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "sage-intacct",
+   "name": "Sage Intacct",
+   "class": "skill",
+   "kind": "platform",
+   "definition": "Cloud-based accounting and financial management software, originally from Intacct Corporation and now owned by Sage.",
+   "certification": false,
+   "variants": [
+    "Intacct"
+   ],
+   "relations": []
+  },
+  {
+   "key": "sage-mas-90",
+   "name": "Sage MAS 90",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "Accounting and business management software from Sage for small and mid-sized companies, later sold as Sage 100.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "sailing-instruction",
+   "name": "Sailing instruction",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Teaching people how to sail.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "sailpoint-identityiq",
+   "name": "SailPoint IdentityIQ",
+   "class": "skill",
+   "kind": "platform",
+   "definition": "SailPoint's identity governance software for managing user access, access reviews and account provisioning across an organisation's systems.",
+   "certification": false,
+   "variants": [
+    "IdentityIQ"
+   ],
+   "relations": []
+  },
+  {
+   "key": "sails-js",
+   "name": "Sails.js",
+   "class": "skill",
+   "kind": "framework",
+   "definition": "A Node.js web framework, modelled on the MVC pattern, for building data-driven APIs and apps.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "sales-and-operations-planning",
+   "name": "Sales and operations planning",
+   "class": "skill",
+   "kind": "method",
+   "definition": "A regular business process in which sales, operations and finance teams agree one plan that balances demand forecasts with supply and capacity.",
+   "certification": false,
+   "variants": [
+    "S&OP"
+   ],
+   "relations": []
+  },
+  {
+   "key": "sales-journal",
+   "name": "Sales journal",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "An accounting journal in which a business records the sales it makes on credit.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  }
+ ]
+}

@@ -237,5 +237,96 @@ class CheckClaims(unittest.TestCase):
         self.assertEqual(len(e["evidence"]), n)
 
 
+class OutsideReviews(unittest.TestCase):
+    """Models outside the project leave answer files in reviews/answers/; apply-reviews records them as evidence and votes."""
+    def setUp(self):
+        import check_claims as CC
+        self.CC = CC
+        self.root = tag_root(answer=TP.tag_answer(kind="tool", certification={"value": False, "basis": "general-knowledge"},
+                                                   variants=[{"label": "FC", "basis": "general-knowledge"}]))
+        entries, _ = L.load(self.root / "entries")
+        self.other = next(e["key"] for e in entries if e["key"] != "frobnicate-cert" and L.top_class(e) == "skill" and e["status"] != "deprecated")
+        (self.root / "reviews" / "answers").mkdir(parents=True)
+
+    def put(self, name, doc):
+        (self.root / "reviews" / "answers" / name).write_text(json.dumps(doc))
+
+    def doc(self, answers, packet="skill/p001", **reviewer):
+        return {"reviewer": {"model": "Gemini 3 Pro", "effort": "high", "date": "2026-10-30", **reviewer}, "packet": packet, "answers": answers}
+
+    def entry(self, key):
+        return json.loads((self.root / "entries" / next(p.name for p in (self.root / "entries").glob("*.json") if json.loads(p.read_text())["key"] == key)).read_text())
+
+    def test_build_reviews_writes_packets_for_every_class_and_the_tags_without_an_entry(self):
+        self.CC.build_reviews(self.root, size=10, tag_size=3)
+        r = self.root / "reviews"
+        for d in ("certification", "language", "ability", "skill"):
+            self.assertTrue(any((r / d / "packets").glob("p*.json")), d)
+        tags = [t["tag"] for p in sorted((r / "tags" / "packets").glob("p*.json")) for t in json.loads(p.read_text())["tags"]]
+        self.assertIn("Filler 0", tags)
+        self.assertNotIn("Frobnicate Cert", tags)                       # it has an entry, so it is judged in an entry packet
+        self.assertTrue((r / "BRIEF.md").exists() and (r / "answers").is_dir() and (r / "applied").is_dir())
+        packet = json.loads((r / "tags" / "packets" / "p001.json").read_text())
+        self.assertEqual(set(packet["tags"][0]), {"tag", "legacy_class", "in_lists"})      # no earlier answer is shown
+
+    def test_answer_files_are_recorded_as_external_evidence_and_votes_and_set_aside(self):
+        self.put("gemini__high__skill-p001.json", self.doc([
+            {"key": "frobnicate-cert", "claims": {"definition": {"verdict": "supports"}, "kind": {"verdict": "contradicts", "note": "a method"}},
+             "variants": {"ok": ["FC"]}, "job_listing_vote": {"answer": "yes"}}]))
+        self.put("gemini__high__skill-p002.json", self.doc([{"key": self.other, "claims": {"definition": {"verdict": "supports"}}}], "skill/p002"))
+        self.put("gemini__high__tags-p001.json", self.doc([{"tag": "Filler 1", "job_listing_vote": {"answer": "no", "reason": "a placeholder"}}], "tags/p001"))
+        log, bad = self.CC.apply_reviews(self.root, "2026-10-30")
+        self.assertEqual(bad, [])
+        run = "external-2026-10-30-gemini-3-pro-high"
+        self.assertEqual(L.load_runs(self.root)[run]["agent"], "external")
+        self.assertIn("self-reported", L.load_runs(self.root)[run]["note"])
+        mine = lambda e: {(v["field"], v["outcome"]) for v in e["evidence"] if v.get("run") == run}      # noqa: E731
+        self.assertEqual(mine(self.entry("frobnicate-cert")), {("definition", "supports"), ("kind", "contradicts"), ("variant:fc", "supports")})
+        self.assertEqual(mine(self.entry(self.other)), {("definition", "supports")})          # the second file did not wipe out the first
+        votes = [v for v in AS.load(self.root) if v.get("run") == run]
+        self.assertEqual(sorted((v["tag"], v["answer"]) for v in votes), [("Filler 1", "no"), ("Frobnicate Cert", "yes")])
+        self.assertEqual(votes[0]["assessor"], {"type": "model", "model": "Gemini 3 Pro", "effort": "high"})
+        self.assertEqual(sorted(p.name for p in (self.root / "reviews" / "applied").glob("*.json")),
+                         ["gemini__high__skill-p001.json", "gemini__high__skill-p002.json", "gemini__high__tags-p001.json"])
+        self.assertEqual(list((self.root / "reviews" / "answers").glob("*.json")), [])
+        entries, _ = L.load(self.root / "entries")
+        self.assertEqual(L.validate(entries) + L.check_runs(entries, L.load_runs(self.root)), [])
+        self.assertFalse(any(L.backs(v) for e in entries for v in e["evidence"] if v.get("run") == run))      # an outside check never backs a claim
+
+    def test_a_malformed_file_is_refused_whole_and_left_in_place(self):
+        before = (self.root / "data" / "runs.json").read_text()
+        self.put("a.json", self.doc([{"key": "frobnicate-cert", "claims": {"definition": {"verdict": "contradicts"}}}]))        # contradicts without a note
+        self.put("b.json", self.doc([{"key": "frobnicate-cert", "claims": {"definition": {"verdict": "supports"}}}], effort="turbo"))
+        self.put("c.json", {"answers": []})
+        self.put("d.json", self.doc([{"key": "frobnicate-cert", "variants": {"ok": "FC"}}]))
+        self.put("e.json", self.doc([{"tag": "Filler 1", "job_listing_vote": {"answer": "maybe"}}], "tags/p001"))
+        log, bad = self.CC.apply_reviews(self.root, "2026-10-30")
+        self.assertEqual(log, [])
+        self.assertEqual(sorted(m.split(":")[0] for m in bad), ["a.json", "b.json", "c.json", "d.json", "e.json"])
+        self.assertEqual(len(list((self.root / "reviews" / "answers").glob("*.json"))), 5)
+        self.assertEqual((self.root / "data" / "runs.json").read_text(), before)
+        self.assertEqual([v for v in AS.load(self.root) if str(v.get("run", "")).startswith("external")], [])
+
+    def test_two_models_may_not_share_a_run_label(self):
+        self.put("a.json", self.doc([{"key": "frobnicate-cert", "claims": {"definition": {"verdict": "supports"}}}], model="GPT 5"))
+        self.put("b.json", self.doc([{"key": self.other, "claims": {"definition": {"verdict": "supports"}}}], model="GPT-5"))
+        log, bad = self.CC.apply_reviews(self.root, "2026-10-30")
+        self.assertEqual(len(log), 1)
+        self.assertEqual(len(bad), 1)
+        self.assertIn("spell the model name", bad[0])
+        self.assertTrue((self.root / "reviews" / "answers" / "b.json").exists())
+
+    def test_applying_twice_adds_nothing(self):
+        d = self.doc([{"key": "frobnicate-cert", "claims": {"definition": {"verdict": "supports"}}, "job_listing_vote": {"answer": "yes"}}])
+        self.put("a.json", d)
+        self.CC.apply_reviews(self.root, "2026-10-30")
+        n = len(AS.load(self.root))
+        self.put("a.json", d)                                           # the same file sent again
+        self.CC.apply_reviews(self.root, "2026-10-30")
+        self.assertEqual(len(AS.load(self.root)), n)
+        run = "external-2026-10-30-gemini-3-pro-high"
+        self.assertEqual(sum(1 for v in self.entry("frobnicate-cert")["evidence"] if v.get("run") == run), 1)
+
+
 if __name__ == "__main__":
     unittest.main()

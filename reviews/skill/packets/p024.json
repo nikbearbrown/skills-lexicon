@@ -1,0 +1,477 @@
+{
+ "allowed_kinds": [
+  "ability",
+  "credential",
+  "framework",
+  "human-language",
+  "knowledge",
+  "library",
+  "markup-language",
+  "method",
+  "modeling-language",
+  "platform",
+  "programming-language",
+  "skill",
+  "standard",
+  "style-language",
+  "tool",
+  "work-activity"
+ ],
+ "entries": [
+  {
+   "key": "full-cycle-sales",
+   "name": "Full-cycle sales",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Handling the whole sales process alone, from finding prospects through negotiation to closing the deal.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "full-stack-observability",
+   "name": "Full-stack observability",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Observability across every layer of a system, from infrastructure and network to applications and user experience.",
+   "certification": false,
+   "variants": [
+    "Full Stack Observability"
+   ],
+   "relations": [
+    "broader:observability"
+   ]
+  },
+  {
+   "key": "full-stack-software-engineering",
+   "name": "Full-stack software engineering",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Building both the user-facing front end and the server-side back end of software.",
+   "certification": false,
+   "variants": [
+    "Full Stack Software Engineering"
+   ],
+   "relations": [
+    "broader:software-engineering",
+    "related:back-end-development"
+   ]
+  },
+  {
+   "key": "functional-independence-measure",
+   "name": "Functional Independence Measure",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "An 18-item clinical scale that rates a patient's need for help with daily activities, used mainly in rehabilitation.",
+   "certification": false,
+   "variants": [
+    "Functional Independence Measure (FIM)"
+   ],
+   "relations": []
+  },
+  {
+   "key": "fuse-esb",
+   "name": "Fuse ESB",
+   "class": "skill",
+   "kind": "platform",
+   "definition": "An open-source enterprise service bus based on Apache ServiceMix, from FuseSource and later part of Red Hat Fuse.",
+   "certification": false,
+   "variants": [
+    "Fuseesb"
+   ],
+   "relations": []
+  },
+  {
+   "key": "gait-training",
+   "name": "Gait training",
+   "class": "skill",
+   "kind": "method",
+   "definition": "A physical therapy technique that helps people relearn or improve walking.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "gallio",
+   "name": "Gallio",
+   "class": "skill",
+   "kind": "platform",
+   "definition": "An open-source test automation platform for .NET that runs tests written with several test frameworks, including MbUnit.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "game-art",
+   "name": "Game art",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Creating the visual assets of video games, such as characters, environments, props and effects.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "game-design",
+   "name": "Game design",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Designing the rules, mechanics, systems and content of a game.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "garment-alterations",
+   "name": "Garment alterations",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Adjusting finished garments, for example by hemming or taking them in or out, so they fit a customer.",
+   "certification": false,
+   "variants": [
+    "Alterations",
+    "Clothing alterations"
+   ],
+   "relations": []
+  },
+  {
+   "key": "gas-meter-systems",
+   "name": "Gas meter systems",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "Devices and supporting systems that measure, record and report the gas a customer uses, including mechanical and smart gas meters.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "gastric-bypass-surgery",
+   "name": "Gastric bypass surgery",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "A bariatric operation that makes a small stomach pouch and reroutes the small intestine to limit how much food is eaten and absorbed.",
+   "certification": false,
+   "variants": [
+    "Gastric Bypass Surgeries"
+   ],
+   "relations": [
+    "broader:bariatric-surgery"
+   ]
+  },
+  {
+   "key": "gatsby",
+   "name": "Gatsby",
+   "class": "skill",
+   "kind": "framework",
+   "definition": "A free, open-source framework built on React for making fast websites and apps, often from content sources such as CMSs and Markdown files.",
+   "certification": false,
+   "variants": [
+    "Gatsby.js",
+    "GatsbyJS"
+   ],
+   "relations": []
+  },
+  {
+   "key": "gel-electrophoresis-of-nucleic-acids",
+   "name": "Gel electrophoresis of nucleic acids",
+   "class": "skill",
+   "kind": "method",
+   "definition": "A laboratory technique that separates DNA or RNA fragments by size by pulling them through a gel with an electric field.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "gemology",
+   "name": "Gemology",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "The study, identification and grading of gemstones.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "general-administrative-and-clerical-tasks",
+   "name": "General administrative and clerical tasks",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Routine office work such as filing, data entry, answering phones and keeping records.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "general-anaesthesia",
+   "name": "General anaesthesia",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Giving and managing drugs that put a patient into a reversible, unconscious state with no sensation, so that surgery can be done.",
+   "certification": false,
+   "variants": [
+    "General anesthesia"
+   ],
+   "relations": []
+  },
+  {
+   "key": "general-finance",
+   "name": "General finance",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "The broad field of how money is raised, invested and managed by individuals, businesses and governments.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "general-packet-radio-service",
+   "name": "General Packet Radio Service",
+   "class": "skill",
+   "kind": "standard",
+   "definition": "A packet-switched mobile data service for 2G and 3G GSM networks, defined in standards from ETSI and 3GPP.",
+   "certification": false,
+   "variants": [
+    "GPRS"
+   ],
+   "relations": []
+  },
+  {
+   "key": "general-sciences",
+   "name": "General sciences",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "A broad introduction to the natural sciences, such as biology, chemistry, physics and earth science.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "generalized-linear-model",
+   "name": "Generalized linear model",
+   "class": "skill",
+   "kind": "method",
+   "definition": "A statistical model that extends linear regression to outcomes that are not normally distributed by using a link function.",
+   "certification": false,
+   "variants": [
+    "Generalised linear model"
+   ],
+   "relations": []
+  },
+  {
+   "key": "generative-ai",
+   "name": "Generative AI",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "Methods for learning models that generate new content.",
+   "variants": [
+    "GenAI",
+    "generative modeling",
+    "generative models"
+   ],
+   "relations": []
+  },
+  {
+   "key": "generic-routing-encapsulation",
+   "name": "Generic Routing Encapsulation",
+   "class": "skill",
+   "kind": "standard",
+   "definition": "A tunnelling protocol, defined in RFC 2784, that wraps packets of one network protocol inside IP packets so they can cross another network.",
+   "certification": false,
+   "variants": [
+    "GRE (Generic Routing Encapsulation) Tunneling"
+   ],
+   "relations": []
+  },
+  {
+   "key": "gensim",
+   "name": "Gensim",
+   "class": "skill",
+   "kind": "library",
+   "definition": "A Python library for topic modelling, document similarity and word embeddings on large text collections.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "geodjango",
+   "name": "GeoDjango",
+   "class": "skill",
+   "kind": "library",
+   "definition": "A module included with Django (django.contrib.gis) that adds support for geographic data, spatial databases and spatial queries to web applications.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "geographic-coordinate-system",
+   "name": "Geographic coordinate system",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "A reference system that gives any position on the Earth's surface by latitude and longitude.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "geologic-modelling",
+   "name": "Geologic modelling",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Building computer models of rock layers, faults and other subsurface structures to understand the geology of a site.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "geospatial-data",
+   "name": "Geospatial data",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "Data that describes the location and attributes of features on the Earth, such as vector maps and raster imagery.",
+   "certification": false,
+   "variants": [
+    "Geospatial Datasets"
+   ],
+   "relations": []
+  },
+  {
+   "key": "geospatial-databases",
+   "name": "Geospatial databases",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "Databases that store and index data tied to places, such as points, lines and polygons, and answer spatial queries.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "geospatial-information-technology",
+   "name": "Geospatial information technology",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "The technologies used to collect, store, analyse and display location-based data, such as GIS, GPS and remote sensing.",
+   "certification": false,
+   "variants": [
+    "Geospatial Information Technology (GIT)"
+   ],
+   "relations": []
+  },
+  {
+   "key": "ghidra",
+   "name": "Ghidra",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "A free, open-source software reverse-engineering suite from the US National Security Agency for disassembling and decompiling programs.",
+   "certification": false,
+   "variants": [
+    "Ghidra (Reverse Engineering Software)"
+   ],
+   "relations": [
+    "related:binary-ninja"
+   ]
+  },
+  {
+   "key": "gis-mapping",
+   "name": "GIS mapping",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Making and analysing maps with geographic information systems.",
+   "certification": false,
+   "variants": [],
+   "relations": [
+    "related:crime-mapping"
+   ]
+  },
+  {
+   "key": "glass-installation",
+   "name": "Glass installation",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Cutting, fitting and sealing glass panes, such as windows, doors and mirrors, in frames and openings.",
+   "certification": false,
+   "variants": [
+    "Glass Installing"
+   ],
+   "relations": [
+    "related:auto-glass-installation-and-repair"
+   ]
+  },
+  {
+   "key": "global-mapper",
+   "name": "Global Mapper",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "GIS software from Blue Marble Geographics for viewing, editing and analysing geospatial data.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "glpi",
+   "name": "GLPI",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "An open-source web application, developed in France, for managing IT assets and running a help desk.",
+   "certification": false,
+   "variants": [
+    "Gestionnaire Libre De Parc Informatique (GLPI)",
+    "Gestionnaire Libre de Parc Informatique"
+   ],
+   "relations": []
+  },
+  {
+   "key": "gmp-self-inspection",
+   "name": "GMP self-inspection",
+   "class": "skill",
+   "kind": "method",
+   "definition": "An internal inspection a manufacturer carries out to check its own operations against good manufacturing practice requirements.",
+   "certification": false,
+   "variants": [
+    "GMP Self Inspection"
+   ],
+   "relations": []
+  },
+  {
+   "key": "go-to-market-strategy",
+   "name": "Go-to-market strategy",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Planning how a company will bring a product or service to its target customers, including positioning, pricing and sales channels.",
+   "certification": false,
+   "variants": [
+    "GTM strategy"
+   ],
+   "relations": []
+  },
+  {
+   "key": "goal-setting",
+   "name": "Goal setting",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Defining clear objectives and the steps and timeline needed to reach them.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "gold-panning",
+   "name": "Gold panning",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Separating gold from sand and gravel by swirling the material with water in a shallow pan.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "google",
+   "name": "Google+",
+   "class": "skill",
+   "kind": "platform",
+   "definition": "Google's social network, launched in 2011 and shut down for consumers in 2019.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  }
+ ]
+}

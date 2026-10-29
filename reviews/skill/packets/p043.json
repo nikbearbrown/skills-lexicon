@@ -1,0 +1,453 @@
+{
+ "allowed_kinds": [
+  "ability",
+  "credential",
+  "framework",
+  "human-language",
+  "knowledge",
+  "library",
+  "markup-language",
+  "method",
+  "modeling-language",
+  "platform",
+  "programming-language",
+  "skill",
+  "standard",
+  "style-language",
+  "tool",
+  "work-activity"
+ ],
+ "entries": [
+  {
+   "key": "pelvic-health",
+   "name": "Pelvic health",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "The care of the pelvic organs and muscles, including bladder, bowel and sexual function, pregnancy-related changes and pelvic pain.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "penology",
+   "name": "Penology",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "The study of punishment for crime and of the management and rehabilitation of prisoners.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "performanceanalytics",
+   "name": "PerformanceAnalytics",
+   "class": "skill",
+   "kind": "library",
+   "definition": "An R package of functions for analysing the performance and risk of financial portfolios, such as returns, drawdowns and risk-adjusted ratios.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "perinatology",
+   "name": "Perinatology",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "The branch of medicine that cares for mothers and babies around the time of birth, especially in high-risk pregnancies.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "perioperative-care",
+   "name": "Perioperative care",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "The care of a patient before, during and after surgery.",
+   "certification": false,
+   "variants": [
+    "Perioperative"
+   ],
+   "relations": []
+  },
+  {
+   "key": "periscope",
+   "name": "Periscope",
+   "class": "skill",
+   "kind": "platform",
+   "definition": "A live video-streaming app owned by Twitter, which Twitter shut down in 2021.",
+   "certification": false,
+   "variants": [
+    "Periscope (Social Media)"
+   ],
+   "relations": []
+  },
+  {
+   "key": "periscope-data",
+   "name": "Periscope Data",
+   "class": "skill",
+   "kind": "platform",
+   "definition": "A cloud data-analytics platform that lets analysts run SQL, Python and R against company data and build dashboards.",
+   "certification": false,
+   "variants": [
+    "Periscope Data (BI Software)"
+   ],
+   "relations": []
+  },
+  {
+   "key": "permit-to-work",
+   "name": "Permit to work",
+   "class": "skill",
+   "kind": "method",
+   "definition": "A formal written system that authorises specific hazardous work, such as hot work or confined-space entry, only after the hazards are checked and controls are set.",
+   "certification": false,
+   "variants": [
+    "Permit To Work (PTW)"
+   ],
+   "relations": []
+  },
+  {
+   "key": "personal-communications-service",
+   "name": "Personal Communications Service",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "A class of digital wireless telephone services in the US, operating in the 1.9 GHz band and licensed by the Federal Communications Commission from the 1990s.",
+   "certification": false,
+   "variants": [
+    "Personal Communications Services"
+   ],
+   "relations": []
+  },
+  {
+   "key": "personal-income-tax",
+   "name": "Personal income tax",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "The tax charged on an individual's income, such as wages, interest and investment gains.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "personal-printer-data-stream",
+   "name": "Personal Printer Data Stream",
+   "class": "skill",
+   "kind": "standard",
+   "definition": "IBM's command set for controlling its printers, also supported by some other makers' printers in an emulation mode.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "personal-protective-equipment",
+   "name": "Personal protective equipment",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "Clothing and gear, such as gloves, masks, goggles and hard hats, worn to protect against workplace hazards.",
+   "certification": false,
+   "variants": [
+    "PPE"
+   ],
+   "relations": []
+  },
+  {
+   "key": "personalization",
+   "name": "Personalization",
+   "class": "skill",
+   "kind": "method",
+   "definition": "Tailoring content, products or experiences to individual users based on their data or behaviour.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "pest-analysis",
+   "name": "PEST analysis",
+   "class": "skill",
+   "kind": "method",
+   "definition": "A framework for reviewing the political, economic, social and technological factors that affect a business.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "pet-insurance",
+   "name": "Pet insurance",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "Insurance that pays all or part of the veterinary costs when a pet is ill or injured.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "pet-insurance-sales",
+   "name": "Pet insurance sales",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Selling pet insurance policies to customers.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "petrography",
+   "name": "Petrography",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "The branch of geology that describes and classifies rocks by their mineral content and texture, usually under a microscope.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "phalcon",
+   "name": "Phalcon",
+   "class": "skill",
+   "kind": "framework",
+   "definition": "A PHP web framework delivered as a compiled C extension, for speed and low resource use.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "phantomjs",
+   "name": "PhantomJS",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "A headless web browser scripted with JavaScript, used for automated testing and page rendering, which is no longer actively developed.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "pharmaceutical-batch-documentation",
+   "name": "Pharmaceutical batch documentation",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Preparing, completing and reviewing the batch records that show how each batch of a medicine was made, tested and released.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "pharmacogenetics",
+   "name": "Pharmacogenetics",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "The study of how a person's inherited genetic differences affect their response to drugs.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "pharmacoinformatics",
+   "name": "Pharmacoinformatics",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "The use of computing and data analysis to study drugs, how they act in the body and how they are used.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "pharmacy-operations",
+   "name": "Pharmacy operations",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Running the day-to-day work of a pharmacy, such as dispensing, inventory, billing and staffing.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "philosophy-of-religion",
+   "name": "Philosophy of religion",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "The branch of philosophy that examines religious beliefs and concepts, such as the existence of God, evil, faith and religious language.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "philosophy-of-science",
+   "name": "Philosophy of science",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "The branch of philosophy that studies the foundations, methods and implications of science, such as what counts as evidence and explanation.",
+   "certification": false,
+   "variants": [],
+   "relations": [
+    "related:history-of-science"
+   ]
+  },
+  {
+   "key": "photo-retouching",
+   "name": "Photo retouching",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Editing a photograph to remove flaws and improve its appearance, such as blemishes, colour and lighting.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "php-frameworks",
+   "name": "PHP frameworks",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "Software frameworks for building web applications in PHP, such as Laravel, Symfony and CodeIgniter.",
+   "certification": false,
+   "variants": [],
+   "relations": [
+    "related:nette"
+   ]
+  },
+  {
+   "key": "phpbb",
+   "name": "phpBB",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "Free, open-source forum (bulletin board) software written in PHP.",
+   "certification": false,
+   "variants": [],
+   "relations": [
+    "related:php"
+   ]
+  },
+  {
+   "key": "phpdesigner",
+   "name": "phpDesigner",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "A code editor and integrated development environment for PHP, from MPSoftware, for Windows.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "phpdocx",
+   "name": "phpdocx",
+   "class": "skill",
+   "kind": "library",
+   "definition": "A PHP library for creating and editing Word (.docx) documents from code.",
+   "certification": false,
+   "variants": [],
+   "relations": [
+    "related:php"
+   ]
+  },
+  {
+   "key": "phped",
+   "name": "PhpED",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "A commercial integrated development environment for PHP from NuSphere.",
+   "certification": false,
+   "variants": [],
+   "relations": [
+    "related:php"
+   ]
+  },
+  {
+   "key": "phpexcel",
+   "name": "PHPExcel",
+   "class": "skill",
+   "kind": "library",
+   "definition": "A PHP library for reading and writing spreadsheet files such as Excel; it is no longer maintained and was replaced by PhpSpreadsheet.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "phpfox",
+   "name": "phpFox",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "Commercial PHP software for building social-networking websites.",
+   "certification": false,
+   "variants": [],
+   "relations": [
+    "related:php"
+   ]
+  },
+  {
+   "key": "phpgroupware",
+   "name": "phpGroupWare",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "Open-source groupware software, written in PHP, with a calendar, contacts, email and other shared tools.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "phpldapadmin",
+   "name": "phpLDAPadmin",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "A web-based tool, written in PHP, for browsing and administering LDAP directories.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "phplist",
+   "name": "phpList",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "Open-source newsletter and mailing-list manager written in PHP.",
+   "certification": false,
+   "variants": [],
+   "relations": [
+    "related:php"
+   ]
+  },
+  {
+   "key": "phpmailer",
+   "name": "PHPMailer",
+   "class": "skill",
+   "kind": "library",
+   "definition": "A PHP library for sending email, including through SMTP, with HTML bodies and attachments.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "phppgadmin",
+   "name": "phpPgAdmin",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "A web-based tool, written in PHP, for administering PostgreSQL databases.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "phpunit",
+   "name": "PHPUnit",
+   "class": "skill",
+   "kind": "framework",
+   "definition": "A unit-testing framework for PHP, in the xUnit family.",
+   "certification": false,
+   "variants": [],
+   "relations": [
+    "related:php",
+    "related:cunit",
+    "related:jsunit",
+    "related:ocunit"
+   ]
+  },
+  {
+   "key": "phpwebsite",
+   "name": "phpWebSite",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "An open-source content management system written in PHP.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  }
+ ]
+}

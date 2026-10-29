@@ -1,0 +1,474 @@
+{
+ "allowed_kinds": [
+  "ability",
+  "credential",
+  "framework",
+  "human-language",
+  "knowledge",
+  "library",
+  "markup-language",
+  "method",
+  "modeling-language",
+  "platform",
+  "programming-language",
+  "skill",
+  "standard",
+  "style-language",
+  "tool",
+  "work-activity"
+ ],
+ "entries": [
+  {
+   "key": "operations-administration-maintenance-and-provisioning",
+   "name": "Operations, administration, maintenance and provisioning",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "The set of functions needed to run a telecommunications network: operating it, administering it, maintaining it and provisioning services on it.",
+   "certification": false,
+   "variants": [
+    "Operations, Administration, Maintenance, And Provisioning (OAMP)",
+    "OAM&P",
+    "OAMP",
+    "Operations Administration Maintenance SandsProvisioning (OAMP)"
+   ],
+   "relations": []
+  },
+  {
+   "key": "operations-analytics",
+   "name": "Operations analytics",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Using data analysis to measure and improve how an organisation's operations, such as supply chains, production or service delivery, perform.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "ophthalmic-surgical-assisting",
+   "name": "Ophthalmic surgical assisting",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Assisting an ophthalmic surgeon during eye surgery by preparing the patient, handling instruments and supporting the procedure.",
+   "certification": false,
+   "variants": [],
+   "relations": [
+    "related:eye-surgery"
+   ]
+  },
+  {
+   "key": "optical-fiber",
+   "name": "Optical fiber",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "Thin strands of glass or plastic that carry data as pulses of light.",
+   "certification": false,
+   "variants": [
+    "Optical fibre"
+   ],
+   "relations": []
+  },
+  {
+   "key": "optical-fiber-cable",
+   "name": "Optical fiber cable",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "A cable that holds one or more optical fibers inside protective layers for carrying data as light.",
+   "certification": false,
+   "variants": [
+    "Optical fibre cable",
+    "Fiber optic cable"
+   ],
+   "relations": []
+  },
+  {
+   "key": "optical-power-meter",
+   "name": "Optical power meter",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "An instrument that measures the power of an optical signal, used to test fibre-optic links.",
+   "certification": false,
+   "variants": [
+    "Optical Power Meters"
+   ],
+   "relations": []
+  },
+  {
+   "key": "optical-waveguides",
+   "name": "Optical waveguides",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "Structures that guide light along a path, such as optical fibres and channels on a photonic chip.",
+   "certification": false,
+   "variants": [
+    "Optical waveguide"
+   ],
+   "relations": []
+  },
+  {
+   "key": "optimization-software",
+   "name": "Optimization software",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "Software that finds the best values of decision variables under given constraints, for example by linear or integer programming.",
+   "certification": false,
+   "variants": [
+    "Optimization Softwares"
+   ],
+   "relations": []
+  },
+  {
+   "key": "optitex",
+   "name": "Optitex",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "Computer-aided design software for 2D pattern making and 3D garment simulation in fashion and apparel.",
+   "certification": false,
+   "variants": [
+    "Optitex (Fashion Design Software)"
+   ],
+   "relations": [
+    "related:browzwear"
+   ]
+  },
+  {
+   "key": "oracle-advanced-queuing",
+   "name": "Oracle Advanced Queuing",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "A message-queuing feature built into Oracle Database for passing messages between applications.",
+   "certification": false,
+   "variants": [
+    "Advanced Queuing",
+    "Oracle AQ"
+   ],
+   "relations": []
+  },
+  {
+   "key": "oracle-application-framework",
+   "name": "Oracle Application Framework",
+   "class": "skill",
+   "kind": "framework",
+   "definition": "Oracle's Java-based framework for building and customising the web user interfaces of Oracle E-Business Suite applications.",
+   "certification": false,
+   "variants": [
+    "Oracle Application Frameworks (OAF)",
+    "OAF"
+   ],
+   "relations": []
+  },
+  {
+   "key": "oracle-application-integration-architecture",
+   "name": "Oracle Application Integration Architecture",
+   "class": "skill",
+   "kind": "framework",
+   "definition": "Oracle's service-oriented framework, with pre-built integration packs, for connecting Oracle and other enterprise business applications.",
+   "certification": false,
+   "variants": [
+    "Application Integration Architecture",
+    "Oracle AIA",
+    "Application Integreation Architecture"
+   ],
+   "relations": []
+  },
+  {
+   "key": "oracle-autonomous-database",
+   "name": "Oracle Autonomous Database",
+   "class": "skill",
+   "kind": "platform",
+   "definition": "Oracle's cloud database service that uses machine learning to automate tasks such as tuning, patching, scaling, backup and security.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "oracle-bi-answers",
+   "name": "Oracle BI Answers",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "The ad hoc query and analysis component of Oracle Business Intelligence Enterprise Edition, used to build reports from a business model.",
+   "certification": false,
+   "variants": [
+    "OBIEE Answers"
+   ],
+   "relations": []
+  },
+  {
+   "key": "oracle-business-activity-monitoring",
+   "name": "Oracle Business Activity Monitoring",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "An Oracle Fusion Middleware component that shows real-time dashboards and alerts about business processes and events as they happen.",
+   "certification": false,
+   "variants": [
+    "Oracle BAM"
+   ],
+   "relations": []
+  },
+  {
+   "key": "oracle-clinical",
+   "name": "Oracle Clinical",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "Oracle software for clinical data management, used to collect and clean the data from clinical trials.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "oracle-cloud",
+   "name": "Oracle Cloud",
+   "class": "skill",
+   "kind": "platform",
+   "definition": "Oracle's cloud computing offering, covering infrastructure and platform services (Oracle Cloud Infrastructure) and cloud business applications.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "oracle-eu-sovereign-cloud",
+   "name": "Oracle EU Sovereign Cloud",
+   "class": "skill",
+   "kind": "platform",
+   "definition": "An Oracle cloud offering that runs Oracle Cloud Infrastructure services inside the European Union, operated by staff located there, so that customer data stays under EU control.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "oracle-fixed-assets",
+   "name": "Oracle Fixed Assets",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "The Oracle E-Business Suite and Fusion Applications module for recording, depreciating, transferring and retiring a company's fixed assets.",
+   "certification": false,
+   "variants": [
+    "Oracle Fixed Assets|"
+   ],
+   "relations": []
+  },
+  {
+   "key": "oracle-goldengate",
+   "name": "Oracle GoldenGate",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "Oracle software that copies and synchronises data between databases in real time, used for replication, migration and integration.",
+   "certification": false,
+   "variants": [
+    "Oracle Golden Gate",
+    "GoldenGate"
+   ],
+   "relations": []
+  },
+  {
+   "key": "oracle-hrms",
+   "name": "Oracle HRMS",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "The human-resources applications of Oracle E-Business Suite, covering employee records, payroll, benefits, time and training.",
+   "certification": false,
+   "variants": [
+    "Oracle Human Resource Management System"
+   ],
+   "relations": []
+  },
+  {
+   "key": "oracle-olap",
+   "name": "Oracle OLAP",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "An option of Oracle Database that stores multidimensional data in analytic workspaces and answers online analytical processing queries.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "oracle-primavera",
+   "name": "Oracle Primavera",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "Oracle's family of project portfolio management software, best known for Primavera P6, used to plan and schedule large projects.",
+   "certification": false,
+   "variants": [
+    "Primavera"
+   ],
+   "relations": []
+  },
+  {
+   "key": "oracle-reports",
+   "name": "Oracle Reports",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "An Oracle tool for designing and running formatted, paginated reports from the data in Oracle Database.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "oracle-workflow",
+   "name": "Oracle Workflow",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "An Oracle tool, used with Oracle Database and E-Business Suite, for modelling and automating business processes as workflows.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "oral-cancer-screening",
+   "name": "Oral cancer screening",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Examining the mouth, lips, tongue and throat for early signs of cancer or precancerous lesions.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "oral-hygiene",
+   "name": "Oral hygiene",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "The practices that keep the mouth, teeth and gums clean and healthy, such as brushing, flossing and cleaning dentures.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "order-of-draw",
+   "name": "Order of draw",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "The recommended sequence for filling blood-collection tubes during venipuncture so that additives from one tube do not contaminate the next.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "organic-composition-of-capital",
+   "name": "Organic composition of capital",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "In Marxian economics, the ratio of the capital spent on machinery and materials to the capital spent on wages.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "organization-development",
+   "name": "Organization development",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "The field and practice of planned, behavioural-science-based efforts to improve how an organisation works and how its people work together.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "organizational-change",
+   "name": "Organizational change",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "How and why an organisation alters its strategy, structure, processes or culture, and how that change is planned and managed.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "organizational-culture-change",
+   "name": "Organizational culture change",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Deliberately shifting the shared values, norms and habits of an organisation so that people work differently.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "organizational-leadership",
+   "name": "Organizational leadership",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Guiding people and setting direction across an organisation so that it meets its goals.",
+   "certification": false,
+   "variants": [],
+   "relations": [
+    "related:adaptive-leadership"
+   ]
+  },
+  {
+   "key": "orientdb",
+   "name": "OrientDB",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "An open-source NoSQL database, written in Java, that combines graph, document, key-value and object models.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "orthopaedic-nursing",
+   "name": "Orthopaedic nursing",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Caring for patients with bone, joint and muscle conditions, injuries and surgery.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "otel",
+   "name": "OpenTelemetry",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "Instrumentation tooling; related to observability, not a synonym.",
+   "variants": [],
+   "relations": [
+    "related:observability"
+   ]
+  },
+  {
+   "key": "outbound-logistics",
+   "name": "Outbound logistics",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "The part of logistics that moves finished goods from a business to its customers, including order fulfilment, warehousing, transport and delivery.",
+   "certification": false,
+   "variants": [],
+   "relations": [
+    "contrast:inbound-logistics"
+   ]
+  },
+  {
+   "key": "outpatient-surgery",
+   "name": "Outpatient surgery",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "Surgery after which the patient goes home the same day, without an overnight stay in hospital.",
+   "certification": false,
+   "variants": [
+    "Outpatient Surgeries"
+   ],
+   "relations": []
+  },
+  {
+   "key": "outsystems",
+   "name": "OutSystems",
+   "class": "skill",
+   "kind": "platform",
+   "definition": "A low-code platform for building, deploying and managing web and mobile applications.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "over-the-road-driving",
+   "name": "Over-the-road driving",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Driving a truck over long distances between cities and states, usually spending nights away from home.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  }
+ ]
+}

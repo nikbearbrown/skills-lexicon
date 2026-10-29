@@ -1,0 +1,462 @@
+{
+ "allowed_kinds": [
+  "ability",
+  "credential",
+  "framework",
+  "human-language",
+  "knowledge",
+  "library",
+  "markup-language",
+  "method",
+  "modeling-language",
+  "platform",
+  "programming-language",
+  "skill",
+  "standard",
+  "style-language",
+  "tool",
+  "work-activity"
+ ],
+ "entries": [
+  {
+   "key": "matplotlib",
+   "name": "Matplotlib",
+   "class": "skill",
+   "kind": "library",
+   "definition": "A Python library for drawing static, animated and interactive plots and charts.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "mcafee-personal-firewall-plus",
+   "name": "McAfee Personal Firewall Plus",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "A personal firewall program from McAfee that filters network traffic on a Windows computer.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "mcollective",
+   "name": "MCollective",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "An orchestration framework, from Puppet Labs, for running commands in parallel across many servers through a messaging middleware.",
+   "certification": false,
+   "variants": [
+    "The Marionette Collective"
+   ],
+   "relations": []
+  },
+  {
+   "key": "meal-planning-and-preparation",
+   "name": "Meal planning and preparation",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Deciding what meals to serve and preparing the food for them.",
+   "certification": false,
+   "variants": [],
+   "relations": [
+    "related:food-plating-and-presentation"
+   ]
+  },
+  {
+   "key": "mean-js",
+   "name": "MEAN.JS",
+   "class": "skill",
+   "kind": "framework",
+   "definition": "A full-stack JavaScript framework built on MongoDB, Express, Angular and Node.js.",
+   "certification": false,
+   "variants": [
+    "Meanjs"
+   ],
+   "relations": []
+  },
+  {
+   "key": "meat-cutting",
+   "name": "Meat cutting",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Cutting and trimming carcasses and large cuts of meat into portions for sale or cooking.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "mechanic-s-lien",
+   "name": "Mechanic's lien",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "A legal claim on a property that lets contractors and suppliers secure payment for work or materials they provided to it.",
+   "certification": false,
+   "variants": [
+    "Construction lien"
+   ],
+   "relations": []
+  },
+  {
+   "key": "mechanical-drafting",
+   "name": "Mechanical drafting",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Producing technical drawings of mechanical parts and assemblies, by hand or with CAD software.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "mechanical-drawings",
+   "name": "Mechanical drawings",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "Technical drawings that show the shape, dimensions, tolerances and assembly of mechanical parts and machines.",
+   "certification": false,
+   "variants": [],
+   "relations": [
+    "related:as-built-drawings"
+   ]
+  },
+  {
+   "key": "mechanical-electrical-and-plumbing-systems",
+   "name": "Mechanical, electrical and plumbing systems",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "The mechanical (such as heating and ventilation), electrical and plumbing systems of a building, designed and coordinated together.",
+   "certification": false,
+   "variants": [
+    "Mechanical Electrical And Plumbing (MEP) Systems",
+    "MEP systems"
+   ],
+   "relations": []
+  },
+  {
+   "key": "mechanical-seal",
+   "name": "Mechanical seal",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "A device that stops fluid leaking along a rotating shaft where it passes through the casing of a pump, mixer or similar machine.",
+   "certification": false,
+   "variants": [
+    "Seal (Mechanical)"
+   ],
+   "relations": []
+  },
+  {
+   "key": "media-buying",
+   "name": "Media buying",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Negotiating and purchasing advertising space and airtime on media such as television, radio, print and digital channels.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "media-ethics",
+   "name": "Media ethics",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "The principles of ethical conduct in journalism, broadcasting, advertising and other media work.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "media-production",
+   "name": "Media production",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Planning and making audio, video and other media content, from the first idea to the finished product.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "media-relations",
+   "name": "Media relations",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Building and keeping relationships with journalists and news outlets to win press coverage for an organisation.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "media-transfer-protocol",
+   "name": "Media Transfer Protocol",
+   "class": "skill",
+   "kind": "standard",
+   "definition": "A protocol, extending the Picture Transfer Protocol, for moving media files such as music and video between a computer and a portable device.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "mediatr",
+   "name": "MediatR",
+   "class": "skill",
+   "kind": "library",
+   "definition": "A .NET library that implements the mediator pattern, passing requests, commands, queries and notifications to in-process handlers.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "medical-billing-and-coding",
+   "name": "Medical billing and coding",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Turning healthcare services into standard codes and preparing the claims and bills sent to insurers and patients.",
+   "certification": false,
+   "variants": [],
+   "relations": [
+    "related:certified-medical-billing-and-coding-specialist"
+   ]
+  },
+  {
+   "key": "medical-device-development",
+   "name": "Medical device development",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Designing, testing and bringing to market medical devices under regulatory controls.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "medical-device-sales",
+   "name": "Medical device sales",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Selling medical devices to hospitals, clinics and clinicians, which calls for knowledge of the products and how they are used in care.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "medical-devices",
+   "name": "Medical devices",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "Instruments, apparatus and software intended to diagnose, treat or monitor patients, and the rules that govern them.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "medical-equipment",
+   "name": "Medical equipment",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "The machines and devices used in healthcare to diagnose, treat or monitor patients.",
+   "certification": false,
+   "variants": [
+    "Medical Equipments"
+   ],
+   "relations": [
+    "related:durable-medical-equipment"
+   ]
+  },
+  {
+   "key": "medical-office-skills",
+   "name": "Medical office skills",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "The administrative and clerical skills used to run a medical office, such as scheduling patients, handling records and billing.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "medical-photography",
+   "name": "Medical photography",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Photographing patients, conditions, procedures and specimens for clinical records, teaching and research.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "medical-record-formatting",
+   "name": "Medical record formatting",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Arranging patient record documents to the templates and standards a healthcare organisation requires.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "medical-records-release",
+   "name": "Medical records release",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Handling requests to disclose a patient's health records to authorised parties in line with privacy law.",
+   "certification": false,
+   "variants": [
+    "Release of information",
+    "Release of Information (ROI)"
+   ],
+   "relations": []
+  },
+  {
+   "key": "medical-ventilator",
+   "name": "Medical ventilator",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "A machine that moves air into and out of the lungs of a patient who cannot breathe well enough alone.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "mental-health-assessments",
+   "name": "Mental health assessments",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Evaluating a person's psychological state and needs through interviews, observation and standard measures.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "menu-planning",
+   "name": "Menu planning",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Choosing the dishes a restaurant, institution or event will serve, balancing cost, nutrition and taste.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "mep-design-software",
+   "name": "MEP design software",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "Software for designing and coordinating the mechanical, electrical and plumbing systems of buildings, such as Revit MEP.",
+   "certification": false,
+   "variants": [
+    "Mechanical Electrical Plumbing (MEP) Design Software",
+    "Mechanical, electrical and plumbing design software"
+   ],
+   "relations": []
+  },
+  {
+   "key": "merchandise-management",
+   "name": "Merchandise management",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Planning, buying, pricing and allocating a retailer's product range to meet sales and margin goals.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "meta-tag",
+   "name": "Meta tag",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "An HTML element in a page's head that gives metadata, such as a description, to browsers and search engines.",
+   "certification": false,
+   "variants": [
+    "Metatag"
+   ],
+   "relations": []
+  },
+  {
+   "key": "metadata-management",
+   "name": "Metadata management",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Creating, organising and maintaining the data that describes other data, such as definitions, schemas and lineage.",
+   "certification": false,
+   "variants": [
+    "Meta-Data Management"
+   ],
+   "relations": []
+  },
+  {
+   "key": "metal-detector",
+   "name": "Metal detector",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "A device that senses nearby metal objects, used in security screening, construction and treasure hunting.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "metaverse",
+   "name": "Metaverse",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "The idea of persistent, shared virtual worlds in which people interact through avatars and digital objects.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "meteor-js",
+   "name": "Meteor.js",
+   "class": "skill",
+   "kind": "framework",
+   "definition": "An open-source full-stack JavaScript framework for building web and mobile apps on Node.js.",
+   "certification": false,
+   "variants": [
+    "MeteorJS"
+   ],
+   "relations": []
+  },
+  {
+   "key": "meter-data-management",
+   "name": "Meter data management",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Collecting, validating and storing readings from utility meters, such as flow meters, so they can be used for billing and analysis.",
+   "certification": false,
+   "variants": [
+    "Meter Data Management (Flow Meters)"
+   ],
+   "relations": []
+  },
+  {
+   "key": "meter-operation-code-of-practice-agreement",
+   "name": "Meter Operation Code of Practice Agreement",
+   "class": "skill",
+   "kind": "standard",
+   "definition": "The UK electricity industry agreement that sets the rules and accreditation requirements for companies that install and maintain electricity meters.",
+   "certification": false,
+   "variants": [
+    "Meter Operation Code of Practice Agreement (MOCOPA)",
+    "MOCOPA"
+   ],
+   "relations": []
+  },
+  {
+   "key": "metric-system",
+   "name": "Metric system",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "The decimal system of measurement units built on the metre, the kilogram and the second.",
+   "certification": false,
+   "variants": [
+    "Metric Systems"
+   ],
+   "relations": []
+  },
+  {
+   "key": "microblaze",
+   "name": "MicroBlaze",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "A soft-core processor design from Xilinx (now AMD) that is built from programmable logic in an FPGA.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  }
+ ]
+}

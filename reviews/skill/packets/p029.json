@@ -1,0 +1,474 @@
+{
+ "allowed_kinds": [
+  "ability",
+  "credential",
+  "framework",
+  "human-language",
+  "knowledge",
+  "library",
+  "markup-language",
+  "method",
+  "modeling-language",
+  "platform",
+  "programming-language",
+  "skill",
+  "standard",
+  "style-language",
+  "tool",
+  "work-activity"
+ ],
+ "entries": [
+  {
+   "key": "indentation-hardness",
+   "name": "Indentation hardness",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "A measure of how well a material resists being permanently dented by a hard point pressed into it, found with tests such as Brinell, Vickers and Rockwell.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "indexeddb",
+   "name": "IndexedDB",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "A database built into web browsers, used from JavaScript to store large amounts of structured data on the user's device.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "individual-life-insurance",
+   "name": "Individual life insurance",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "Life insurance bought by one person for themselves, rather than as group cover through an employer, that pays a benefit to named beneficiaries on death.",
+   "certification": false,
+   "variants": [],
+   "relations": [
+    "related:final-expense-insurance"
+   ]
+  },
+  {
+   "key": "individualized-education-program",
+   "name": "Individualized Education Program",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "In the United States, the written plan required by special-education law that sets out the learning goals and support for a student with a disability.",
+   "certification": false,
+   "variants": [
+    "Individualized Education Programs (IEP)",
+    "IEP",
+    "Individualized Education Plan"
+   ],
+   "relations": []
+  },
+  {
+   "key": "individualized-family-service-plan",
+   "name": "Individualized Family Service Plan",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "In the United States, the written plan for an infant or toddler with a developmental delay that sets out early-intervention services for the child and family.",
+   "certification": false,
+   "variants": [
+    "Individualized Family Service Plans (IFSP)",
+    "IFSP"
+   ],
+   "relations": []
+  },
+  {
+   "key": "industrial-internet-of-things",
+   "name": "Industrial Internet of Things",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "Internet-connected sensors, machines and control systems in industry that collect and share data to monitor and improve operations.",
+   "certification": false,
+   "variants": [
+    "Industrial Internet of Things (IIoT)",
+    "IIoT",
+    "Industrial IoT"
+   ],
+   "relations": []
+  },
+  {
+   "key": "industrial-statistics",
+   "name": "Industrial statistics",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "The use of statistical methods in industry, such as quality control, design of experiments and reliability analysis, to improve production and products.",
+   "certification": false,
+   "variants": [],
+   "relations": [
+    "broader:applied-statistics",
+    "related:engineering-statistics"
+   ]
+  },
+  {
+   "key": "infant-development",
+   "name": "Infant development",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "How babies grow and change in their first years, including physical, thinking, language and social development.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "influencing",
+   "name": "Influencing",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Persuading other people to adopt an idea or take action without relying on formal authority.",
+   "certification": false,
+   "variants": [
+    "Influencing Skills"
+   ],
+   "relations": []
+  },
+  {
+   "key": "influxdb",
+   "name": "InfluxDB",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "An open-source time-series database from InfluxData for storing and querying timestamped data such as metrics and events.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "infoblox-ipam",
+   "name": "Infoblox IPAM",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "IP address management software from Infoblox that tracks and administers an organisation's IP address space along with its DNS and DHCP records.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "infographics",
+   "name": "Infographics",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Designing infographics, which present information or data visually through illustration, charts and short text.",
+   "certification": false,
+   "variants": [
+    "Infographics (Illustration)"
+   ],
+   "relations": []
+  },
+  {
+   "key": "information-advice-and-guidance",
+   "name": "Information, advice and guidance",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "In the United Kingdom, helping people choose learning and career options by giving them impartial information, advice and guidance.",
+   "certification": false,
+   "variants": [
+    "Information Advice And Guidance"
+   ],
+   "relations": []
+  },
+  {
+   "key": "information-evaluation",
+   "name": "Information evaluation",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Judging the accuracy, relevance and reliability of information and its sources.",
+   "certification": false,
+   "variants": [
+    "Evaluate Information"
+   ],
+   "relations": []
+  },
+  {
+   "key": "information-hiding",
+   "name": "Information hiding",
+   "class": "skill",
+   "kind": "method",
+   "definition": "A software design principle in which a module keeps its internal details private behind a stable interface, so changes inside it do not affect the rest of the program.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "information-leak-prevention",
+   "name": "Information leak prevention",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Stopping sensitive information from leaving an organisation without permission, using policies, training and technical controls such as data loss prevention software.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "information-technology-audit",
+   "name": "Information technology audit",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Examining an organisation's IT systems, controls and processes to judge whether they protect assets, keep data accurate and follow policy and regulation.",
+   "certification": false,
+   "variants": [
+    "IT audit",
+    "Information systems audit"
+   ],
+   "relations": [
+    "related:certified-information-systems-auditor"
+   ]
+  },
+  {
+   "key": "infusion-enterprise-control-system",
+   "name": "InFusion Enterprise Control System",
+   "class": "skill",
+   "kind": "platform",
+   "definition": "An industrial control and operations software product from Invensys, later part of Schneider Electric.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "ingredient-functionality",
+   "name": "Ingredient functionality",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "The role an ingredient plays in a food or other formulation, such as binding, thickening, emulsifying, sweetening or preserving.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "ingres",
+   "name": "Ingres",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "A relational database management system that began as a University of California, Berkeley research project and was later developed commercially by Ingres Corporation and then Actian.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "innodb",
+   "name": "InnoDB",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "A storage engine for the MySQL database server that supports transactions, row-level locking and foreign keys.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "inpatient-obstetric-nursing",
+   "name": "Inpatient obstetric nursing",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Caring for women in hospital during pregnancy complications, labour, delivery and the days after birth.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "inside-sales-management",
+   "name": "Inside sales management",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Leading a team that sells to customers by phone, email and online rather than face to face, including coaching staff and meeting sales targets.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "insightvm",
+   "name": "InsightVM",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "Rapid7's vulnerability management software, which scans systems for security weaknesses and helps prioritise fixes.",
+   "certification": false,
+   "variants": [
+    "InsightVM (Vulnerability Scanning Software)",
+    "Rapid7 InsightVM"
+   ],
+   "relations": []
+  },
+  {
+   "key": "instagram",
+   "name": "Instagram",
+   "class": "skill",
+   "kind": "platform",
+   "definition": "A social media platform, owned by Meta, for sharing photos and short videos.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "instagram-advertising",
+   "name": "Instagram advertising",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Creating, targeting and managing paid ads on Instagram through Meta's advertising tools.",
+   "certification": false,
+   "variants": [
+    "Instagram Ads"
+   ],
+   "relations": []
+  },
+  {
+   "key": "instagram-content-creation",
+   "name": "Instagram content creation",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Planning and making posts, stories, reels and captions for an Instagram account.",
+   "certification": false,
+   "variants": [
+    "Instagram Content"
+   ],
+   "relations": []
+  },
+  {
+   "key": "instagram-marketing",
+   "name": "Instagram marketing",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Promoting a brand or product on Instagram through content, community engagement, influencer partnerships and ads.",
+   "certification": false,
+   "variants": [],
+   "relations": [
+    "broader:e-marketing"
+   ]
+  },
+  {
+   "key": "instagram-stories",
+   "name": "Instagram Stories",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "A feature of Instagram for posting photos and short videos that disappear after 24 hours.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "integrative-biology",
+   "name": "Integrative biology",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "The study of living things that combines methods and ideas from several levels of biology, from molecules and cells to whole organisms and ecosystems.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "integrity-rtos",
+   "name": "INTEGRITY RTOS",
+   "class": "skill",
+   "kind": "platform",
+   "definition": "A real-time operating system from Green Hills Software, used in safety-critical embedded systems such as avionics.",
+   "certification": false,
+   "variants": [
+    "Green Hills Integrity"
+   ],
+   "relations": []
+  },
+  {
+   "key": "intel-viiv",
+   "name": "Intel Viiv",
+   "class": "skill",
+   "kind": "platform",
+   "definition": "Intel's brand, launched in 2006, for home-entertainment PCs built around specified Intel processors and chipsets.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "intellectual-property",
+   "name": "Intellectual property",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "The legal rights over creations of the mind, such as patents, copyrights, trademarks and trade secrets.",
+   "certification": false,
+   "variants": [
+    "Intellectual Properties"
+   ],
+   "relations": []
+  },
+  {
+   "key": "intelligent-automation",
+   "name": "Intelligent automation",
+   "class": "skill",
+   "kind": "method",
+   "definition": "Combining robotic process automation with artificial intelligence, such as machine learning and language processing, to automate whole business processes.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "intended-nationally-determined-contributions",
+   "name": "Intended Nationally Determined Contributions",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "The national climate action plans that countries submitted ahead of the 2015 Paris climate conference, which became Nationally Determined Contributions once adopted under the Paris Agreement.",
+   "certification": false,
+   "variants": [
+    "INDC"
+   ],
+   "relations": []
+  },
+  {
+   "key": "intensive-outpatient-therapy",
+   "name": "Intensive outpatient therapy",
+   "class": "skill",
+   "kind": "method",
+   "definition": "A structured mental-health or substance-use treatment programme in which patients attend therapy for several hours on several days a week while living at home.",
+   "certification": false,
+   "variants": [
+    "Intensive outpatient program"
+   ],
+   "relations": []
+  },
+  {
+   "key": "interactive-3d",
+   "name": "Interactive 3D",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Building three-dimensional content that users can rotate, explore or manipulate in real time, for example in a browser or game engine.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "interactive-design",
+   "name": "Interactive design",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Designing digital products and media, such as websites, apps and installations, that respond to what people do, including how they navigate, choose and get feedback.",
+   "certification": false,
+   "variants": [],
+   "relations": [
+    "related:user-interface-design"
+   ]
+  },
+  {
+   "key": "interactive-storytelling",
+   "name": "Interactive storytelling",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Writing and designing stories that readers or players can shape through their choices, as in interactive fiction, branching narratives and narrative games.",
+   "certification": false,
+   "variants": [
+    "Interactive Stories"
+   ],
+   "relations": []
+  },
+  {
+   "key": "interactive-web-content",
+   "name": "Interactive web content",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Building web pages and page elements, such as forms, quizzes, calculators, animations and games, that respond to what the visitor does.",
+   "certification": false,
+   "variants": [
+    "Interactive Web Pages"
+   ],
+   "relations": []
+  }
+ ]
+}

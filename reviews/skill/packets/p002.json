@@ -1,0 +1,470 @@
+{
+ "allowed_kinds": [
+  "ability",
+  "credential",
+  "framework",
+  "human-language",
+  "knowledge",
+  "library",
+  "markup-language",
+  "method",
+  "modeling-language",
+  "platform",
+  "programming-language",
+  "skill",
+  "standard",
+  "style-language",
+  "tool",
+  "work-activity"
+ ],
+ "entries": [
+  {
+   "key": "adjudication-process",
+   "name": "Adjudication process",
+   "class": "skill",
+   "kind": "method",
+   "definition": "The formal process of reviewing a claim, application or dispute and deciding the outcome under set rules.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "administering-blood-tests",
+   "name": "Administering blood tests",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Performing blood tests on patients, typically drawing a sample and preparing it for laboratory analysis.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "administrative-law",
+   "name": "Administrative law",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "The body of law governing how government agencies make rules and decisions and how those actions can be challenged.",
+   "certification": false,
+   "variants": [
+    "Administrative Laws"
+   ],
+   "relations": []
+  },
+  {
+   "key": "adobe-analytics",
+   "name": "Adobe Analytics",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "Adobe's product for measuring and analysing customer behaviour on websites and apps.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "adobe-experience-platform-launch",
+   "name": "Adobe Experience Platform Launch",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "Adobe's tag management system for deploying and managing marketing and analytics tags on websites and apps.",
+   "certification": false,
+   "variants": [
+    "Adobe Launch"
+   ],
+   "relations": []
+  },
+  {
+   "key": "adobe-photodeluxe",
+   "name": "Adobe PhotoDeluxe",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "A discontinued consumer photo-editing program from Adobe, aimed at home users rather than professionals.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "advanced-automatic-collision-notification",
+   "name": "Advanced Automatic Collision Notification",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "Vehicle telematics that automatically alert emergency services after a crash and send data about how severe it was.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "advertising-design",
+   "name": "Advertising design",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Creating the visual look of advertisements, such as layouts, imagery and typography.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "aerospike-database",
+   "name": "Aerospike Database",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "A distributed NoSQL database built for fast, large-scale key-value access.",
+   "certification": false,
+   "variants": [
+    "Aerospike"
+   ],
+   "relations": []
+  },
+  {
+   "key": "agent-evaluation",
+   "name": "Agent evaluation",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Testing agent outcomes, traces and boundary conditions.",
+   "variants": [
+    "Agent Evaluation and Benchmarking"
+   ],
+   "relations": []
+  },
+  {
+   "key": "agile-software-development",
+   "name": "Agile software development",
+   "class": "skill",
+   "kind": "method",
+   "definition": "An approach to building software in short iterative cycles with frequent feedback and close collaboration.",
+   "certification": false,
+   "variants": [
+    "Agile development"
+   ],
+   "relations": []
+  },
+  {
+   "key": "agricultural-machinery",
+   "name": "Agricultural machinery",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "Machines used in farming, such as tractors, combine harvesters, ploughs and seed drills.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "ai-copywriting",
+   "name": "AI copywriting",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Writing marketing and advertising copy with the help of generative AI tools.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "air-travel-organisers-licensing",
+   "name": "Air Travel Organisers' Licensing",
+   "class": "skill",
+   "kind": "standard",
+   "definition": "A UK Civil Aviation Authority scheme that requires travel businesses selling flight-inclusive packages to hold a licence that protects customers' money.",
+   "certification": false,
+   "variants": [
+    "Air Travel Organiser'S Licensing",
+    "ATOL"
+   ],
+   "relations": []
+  },
+  {
+   "key": "airworthiness-engineering",
+   "name": "Airworthiness engineering",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "Engineering that demonstrates and maintains that an aircraft meets the requirements for safe flight.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "ajax",
+   "name": "Ajax",
+   "class": "skill",
+   "kind": "method",
+   "definition": "Asynchronous client/server web interaction techniques.",
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "akta",
+   "name": "ÄKTA",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "A family of liquid chromatography systems, now sold by Cytiva, used mainly to purify proteins and other biomolecules.",
+   "certification": false,
+   "variants": [
+    "AKTA (Chromatography Technology)",
+    "AKTA"
+   ],
+   "relations": []
+  },
+  {
+   "key": "aldus-photostyler",
+   "name": "Aldus PhotoStyler",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "A discontinued Windows image-editing program first released by Aldus.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "alexa-internet",
+   "name": "Alexa Internet",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "Amazon's web-traffic analytics and site-ranking service, which was shut down in 2022.",
+   "certification": false,
+   "variants": [
+    "Alexa - Actionable Analytics For The Web"
+   ],
+   "relations": []
+  },
+  {
+   "key": "algorithms",
+   "name": "Algorithm analysis",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Reasoning about correctness, time and space complexity.",
+   "variants": [
+    "Analysis Of Algorithms",
+    "complexity analysis"
+   ],
+   "relations": []
+  },
+  {
+   "key": "alibaba-cloud",
+   "name": "Alibaba Cloud",
+   "class": "skill",
+   "kind": "platform",
+   "definition": "The cloud-computing services of Alibaba Group.",
+   "certification": false,
+   "variants": [
+    "Aliyun"
+   ],
+   "relations": []
+  },
+  {
+   "key": "alienvault",
+   "name": "AlienVault",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "Security-monitoring software, notably the USM and OSSIM products, from the company later acquired by AT&T.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "all-terrain-vehicle",
+   "name": "All-terrain vehicle",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "A motorised off-road vehicle with low-pressure tyres, designed for rough terrain.",
+   "certification": false,
+   "variants": [
+    "All Terrain Vehicle"
+   ],
+   "relations": []
+  },
+  {
+   "key": "allergen-labelling",
+   "name": "Allergen labelling",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Declaring the allergens in food products on packaging or menus as the law requires.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "alljoyn",
+   "name": "AllJoyn",
+   "class": "skill",
+   "kind": "framework",
+   "definition": "An open-source software framework for discovering and communicating between nearby connected devices, originally from Qualcomm.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "alloyui",
+   "name": "AlloyUI",
+   "class": "skill",
+   "kind": "framework",
+   "definition": "A JavaScript user-interface framework from Liferay, built on YUI and Bootstrap.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "allyship",
+   "name": "Allyship",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Actively supporting the inclusion and rights of groups one does not belong to, for example by speaking up and sharing opportunities.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "alooma",
+   "name": "Alooma",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "A cloud service for building data pipelines that move data from many sources into data warehouses, acquired by Google in 2019.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "alternative-dispute-resolution",
+   "name": "Alternative dispute resolution",
+   "class": "skill",
+   "kind": "method",
+   "definition": "Ways of settling disputes without a court trial, such as mediation and arbitration.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "alternative-transients-program",
+   "name": "Alternative Transients Program",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "Simulation software for electromagnetic transients in electrical power systems, derived from the EMTP.",
+   "certification": false,
+   "variants": [
+    "ATP-EMTP"
+   ],
+   "relations": []
+  },
+  {
+   "key": "aluminium-smelting",
+   "name": "Aluminium smelting",
+   "class": "skill",
+   "kind": "method",
+   "definition": "The industrial process of making aluminium metal from alumina by electrolysis in a molten bath.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "amazon-appstream-2-0",
+   "name": "Amazon AppStream 2.0",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "An Amazon Web Services service that streams desktop applications from AWS to a user's web browser.",
+   "certification": false,
+   "variants": [
+    "Amazon AppStream"
+   ],
+   "relations": []
+  },
+  {
+   "key": "amazon-cloudwatch",
+   "name": "Amazon CloudWatch",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "An Amazon Web Services service that collects metrics, logs and events from AWS resources and applications for monitoring, alarms and troubleshooting.",
+   "certification": false,
+   "variants": [
+    "Cloudwatch",
+    "AWS CloudWatch"
+   ],
+   "relations": [
+    "related:aws-cloudtrail"
+   ]
+  },
+  {
+   "key": "amazon-emr",
+   "name": "Amazon EMR",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "An Amazon Web Services service for running big-data frameworks such as Apache Spark and Hadoop on managed clusters.",
+   "certification": false,
+   "variants": [
+    "Amazon Elastic MapReduce",
+    "AWS EMR"
+   ],
+   "relations": [
+    "part_of:aws"
+   ]
+  },
+  {
+   "key": "amazon-fire-tablet",
+   "name": "Amazon Fire tablet",
+   "class": "skill",
+   "kind": "platform",
+   "definition": "Amazon's line of Android-based tablets, sold as the Kindle Fire when first launched in 2011.",
+   "certification": false,
+   "variants": [
+    "Amazon Kindle Fire",
+    "Kindle Fire"
+   ],
+   "relations": []
+  },
+  {
+   "key": "amazon-sagemaker",
+   "name": "Amazon SageMaker",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "An Amazon Web Services service for building, training and deploying machine-learning models.",
+   "certification": false,
+   "variants": [
+    "AWS SageMaker",
+    "SageMaker"
+   ],
+   "relations": []
+  },
+  {
+   "key": "amazon-simpledb",
+   "name": "Amazon SimpleDB",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "An Amazon Web Services non-relational database service that stores items made of attributes without a fixed schema.",
+   "certification": false,
+   "variants": [
+    "AWS SimpleDB"
+   ],
+   "relations": [
+    "part_of:aws"
+   ]
+  },
+  {
+   "key": "amcharts",
+   "name": "amCharts",
+   "class": "skill",
+   "kind": "library",
+   "definition": "A JavaScript library for building interactive charts and maps.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "american-welding-society-codes",
+   "name": "American Welding Society codes",
+   "class": "skill",
+   "kind": "standard",
+   "definition": "The welding codes and standards published by the American Welding Society, such as AWS D1.1 for structural steel.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "amiga",
+   "name": "Amiga",
+   "class": "skill",
+   "kind": "platform",
+   "definition": "A line of personal computers launched by Commodore in 1985, known for its graphics and sound.",
+   "certification": false,
+   "variants": [
+    "Amiga (Personal Computers)"
+   ],
+   "relations": []
+  }
+ ]
+}

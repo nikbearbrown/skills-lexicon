@@ -1,0 +1,493 @@
+{
+ "allowed_kinds": [
+  "ability",
+  "credential",
+  "framework",
+  "human-language",
+  "knowledge",
+  "library",
+  "markup-language",
+  "method",
+  "modeling-language",
+  "platform",
+  "programming-language",
+  "skill",
+  "standard",
+  "style-language",
+  "tool",
+  "work-activity"
+ ],
+ "entries": [
+  {
+   "key": "phpwiki",
+   "name": "PhpWiki",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "A wiki engine written in PHP.",
+   "certification": false,
+   "variants": [],
+   "relations": [
+    "related:php"
+   ]
+  },
+  {
+   "key": "physical-modelling-synthesis",
+   "name": "Physical modelling synthesis",
+   "class": "skill",
+   "kind": "method",
+   "definition": "A way of creating sound by using mathematical models of the physics of an instrument or sound source, rather than playing back recordings.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "physical-security",
+   "name": "Physical security",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "Protecting people, buildings and equipment from physical threats such as intrusion, theft and damage, using measures like locks, barriers, cameras and guards.",
+   "certification": false,
+   "variants": [],
+   "relations": [
+    "related:cybersecurity"
+   ]
+  },
+  {
+   "key": "physical-vapor-deposition",
+   "name": "Physical vapor deposition",
+   "class": "skill",
+   "kind": "method",
+   "definition": "A family of vacuum coating processes in which a solid material is vaporised and condenses as a thin film on a surface.",
+   "certification": false,
+   "variants": [
+    "Physical Vapor Deposition (PVD)",
+    "Physical vapour deposition"
+   ],
+   "relations": [
+    "related:atomic-layer-deposition"
+   ]
+  },
+  {
+   "key": "piano-playing",
+   "name": "Piano playing",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Playing the piano, a keyboard instrument that makes sound by hammers striking strings.",
+   "certification": false,
+   "variants": [
+    "Piano"
+   ],
+   "relations": []
+  },
+  {
+   "key": "pilates",
+   "name": "Pilates",
+   "class": "skill",
+   "kind": "method",
+   "definition": "A system of low-impact exercises, developed by Joseph Pilates, that builds core strength, flexibility and posture.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "pinterest",
+   "name": "Pinterest",
+   "class": "skill",
+   "kind": "platform",
+   "definition": "A social media platform where people save and share images and ideas on boards.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "pipeline-pigging",
+   "name": "Pipeline pigging",
+   "class": "skill",
+   "kind": "method",
+   "definition": "Sending a device called a pig through a pipeline to clean it, inspect it or separate the products it carries.",
+   "certification": false,
+   "variants": [
+    "Pigging"
+   ],
+   "relations": []
+  },
+  {
+   "key": "pivotal-tracker",
+   "name": "Pivotal Tracker",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "A web-based agile project-management tool, from Pivotal Labs, for tracking user stories and project progress.",
+   "certification": false,
+   "variants": [
+    "Pivotaltracker"
+   ],
+   "relations": []
+  },
+  {
+   "key": "pixel-art",
+   "name": "Pixel art",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Creating digital images by placing individual pixels by hand on a small grid, as in retro video games.",
+   "certification": false,
+   "variants": [
+    "Pixel Arts"
+   ],
+   "relations": []
+  },
+  {
+   "key": "pixijs",
+   "name": "PixiJS",
+   "class": "skill",
+   "kind": "library",
+   "definition": "A JavaScript library that renders interactive 2D graphics in the browser, using WebGL with a canvas fallback.",
+   "certification": false,
+   "variants": [
+    "Pixi.js"
+   ],
+   "relations": []
+  },
+  {
+   "key": "plant-design",
+   "name": "Plant design",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Designing the layout, process equipment, piping and systems of an industrial plant.",
+   "certification": false,
+   "variants": [],
+   "relations": [
+    "related:equipment-design"
+   ]
+  },
+  {
+   "key": "plant-design-management-system",
+   "name": "Plant Design Management System",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "AVEVA's software for designing three-dimensional models of process and power plants, including piping, equipment and structures.",
+   "certification": false,
+   "variants": [
+    "Plant Design Management Systems (PDMS)",
+    "AVEVA PDMS"
+   ],
+   "relations": []
+  },
+  {
+   "key": "plastic-surgery",
+   "name": "Plastic surgery",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "The surgical specialty that reconstructs, repairs or reshapes parts of the body, for medical or cosmetic reasons.",
+   "certification": false,
+   "variants": [
+    "Plastic Surgeries"
+   ],
+   "relations": [
+    "related:breast-surgery"
+   ]
+  },
+  {
+   "key": "platespin-migrate",
+   "name": "PlateSpin Migrate",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "Software for moving server workloads between physical machines, virtual machines and clouds.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "platespin-protect",
+   "name": "PlateSpin Protect",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "Software for protecting server workloads by replicating them to a virtual machine for disaster recovery.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "platform-as-a-service",
+   "name": "Platform as a service",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "A cloud service model in which a provider supplies a platform for building, running and managing applications without the customer managing the underlying servers.",
+   "certification": false,
+   "variants": [
+    "Platform as a Service (PaaS)",
+    "PaaS"
+   ],
+   "relations": [
+    "related:software-as-a-service",
+    "related:database-as-a-service",
+    "related:data-as-a-service"
+   ]
+  },
+  {
+   "key": "play-therapy",
+   "name": "Play therapy",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Using play, such as toys, drawing and games, as the way children express feelings and work through problems in therapy.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "plink",
+   "name": "PLINK",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "A free, open-source command-line toolset for analysing genotype data, mainly in genome-wide association studies and population genetics.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "plumbing-drawing",
+   "name": "Plumbing drawing",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Preparing or reading technical drawings that show the layout of pipes and fixtures in a building.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "plumbing-plans-examination",
+   "name": "Plumbing plans examination",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Reviewing plumbing plans to check that they comply with the plumbing code, typically before a building permit is issued.",
+   "certification": false,
+   "variants": [
+    "Plumbing plan review"
+   ],
+   "relations": []
+  },
+  {
+   "key": "point-to-point-tunneling-protocol",
+   "name": "Point-to-Point Tunneling Protocol",
+   "class": "skill",
+   "kind": "standard",
+   "definition": "A network protocol, described in RFC 2637, that carries PPP traffic through a tunnel to build virtual private networks.",
+   "certification": false,
+   "variants": [
+    "Point-To-Point Tunneling Protocols",
+    "PPTP"
+   ],
+   "relations": []
+  },
+  {
+   "key": "police-accountability",
+   "name": "Police accountability",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "The laws, oversight bodies and practices, such as civilian review and use-of-force reporting, that hold police answerable for their conduct.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "police-baton",
+   "name": "Police baton",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "A short club or telescoping rod carried by police and security officers for defensive control.",
+   "certification": false,
+   "variants": [
+    "Baton (Law Enforcement)"
+   ],
+   "relations": []
+  },
+  {
+   "key": "policy-analysis",
+   "name": "Policy analysis",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Evaluating public policies and their alternatives, costs and likely effects so as to advise the people who decide.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "poll-everywhere",
+   "name": "Poll Everywhere",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "An online audience-response service where a presenter asks questions and participants answer from their phones or browsers, with results shown live.",
+   "certification": false,
+   "variants": [
+    "Poll Everywhere (Polling Software)"
+   ],
+   "relations": []
+  },
+  {
+   "key": "polycom",
+   "name": "Polycom",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "Video and audio conferencing equipment and software from Polycom, a company that later became part of Poly.",
+   "certification": false,
+   "variants": [
+    "Polycom (Video Conferencing)"
+   ],
+   "relations": []
+  },
+  {
+   "key": "positive-airway-pressure",
+   "name": "Positive airway pressure",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Treating breathing problems such as sleep apnea by delivering pressurised air through a mask to keep the airway open, as CPAP and BiPAP machines do.",
+   "certification": false,
+   "variants": [
+    "Positive airway pressure therapy"
+   ],
+   "relations": []
+  },
+  {
+   "key": "posix",
+   "name": "POSIX",
+   "class": "skill",
+   "kind": "standard",
+   "definition": "A family of IEEE standards that define a common interface for Unix-like operating systems, covering the shell, utilities and programming interfaces.",
+   "certification": false,
+   "variants": [
+    "Portable Operating System Interface"
+   ],
+   "relations": []
+  },
+  {
+   "key": "post-office-protocol",
+   "name": "Post Office Protocol",
+   "class": "skill",
+   "kind": "standard",
+   "definition": "An internet email protocol that lets a mail program download messages from a mail server; its current version is POP3.",
+   "certification": false,
+   "variants": [
+    "POP3"
+   ],
+   "relations": []
+  },
+  {
+   "key": "postcss",
+   "name": "PostCSS",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "A JavaScript tool that transforms CSS through plugins, for example to add vendor prefixes or allow newer syntax.",
+   "certification": false,
+   "variants": [],
+   "relations": [
+    "related:css"
+   ]
+  },
+  {
+   "key": "postgresql",
+   "name": "PostgreSQL",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "An open-source relational database system queried with SQL.",
+   "variants": [
+    "Postgres",
+    "PG"
+   ],
+   "relations": [
+    "broader:sql"
+   ]
+  },
+  {
+   "key": "postman",
+   "name": "Postman",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "A desktop and cloud application for building, testing and documenting APIs by sending requests and inspecting the responses.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "postorder-traversal",
+   "name": "Postorder traversal",
+   "class": "skill",
+   "kind": "method",
+   "definition": "Visiting every node of a tree by processing a node's children before the node itself.",
+   "certification": false,
+   "variants": [
+    "Postorder",
+    "Post-order traversal"
+   ],
+   "relations": []
+  },
+  {
+   "key": "pouchdb",
+   "name": "PouchDB",
+   "class": "skill",
+   "kind": "library",
+   "definition": "An open-source JavaScript database that runs in the browser or Node.js and can synchronise with CouchDB.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "power-automate",
+   "name": "Power Automate",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "Microsoft's cloud service for building automated workflows between apps and services, first released as Microsoft Flow.",
+   "certification": false,
+   "variants": [
+    "Microsoft Flow",
+    "Microsoft Power Automate"
+   ],
+   "relations": []
+  },
+  {
+   "key": "power-flow-study",
+   "name": "Power flow study",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Calculating the voltages and the real and reactive power flowing through an electrical power system under given load conditions.",
+   "certification": false,
+   "variants": [
+    "Power-Flow Studies",
+    "Load flow study"
+   ],
+   "relations": []
+  },
+  {
+   "key": "power-tool-operation",
+   "name": "Power tool operation",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Using powered hand and bench tools, such as drills, saws and sanders, to cut, shape or join materials.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "powered-industrial-truck-operation",
+   "name": "Powered industrial truck operation",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Driving forklifts and other powered industrial trucks to move and stack loads; in the United States OSHA requires employers to train and evaluate operators.",
+   "certification": false,
+   "variants": [
+    "Powered Industrial Truck (PIT) Operation"
+   ],
+   "relations": []
+  },
+  {
+   "key": "powerschool",
+   "name": "PowerSchool",
+   "class": "skill",
+   "kind": "platform",
+   "definition": "A cloud-based student information system for schools and districts, used for attendance, grades, scheduling and communication with families.",
+   "certification": false,
+   "variants": [
+    "Pearson PowerSchool"
+   ],
+   "relations": []
+  }
+ ]
+}

@@ -1,0 +1,472 @@
+{
+ "allowed_kinds": [
+  "ability",
+  "credential",
+  "framework",
+  "human-language",
+  "knowledge",
+  "library",
+  "markup-language",
+  "method",
+  "modeling-language",
+  "platform",
+  "programming-language",
+  "skill",
+  "standard",
+  "style-language",
+  "tool",
+  "work-activity"
+ ],
+ "entries": [
+  {
+   "key": "equipment-engineering",
+   "name": "Equipment engineering",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Engineering work to specify, install, maintain and improve the machines and equipment used in production.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "equities",
+   "name": "Equities",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "Securities that represent ownership in a company, and the markets where they are bought and sold.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "ergonomic-assessment",
+   "name": "Ergonomic assessment",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Evaluating workstations, tasks and equipment for factors that can cause strain or injury, and recommending changes.",
+   "certification": false,
+   "variants": [
+    "Ergonomic Assessments"
+   ],
+   "relations": []
+  },
+  {
+   "key": "erikson-s-stages-of-psychosocial-development",
+   "name": "Erikson's stages of psychosocial development",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "Erik Erikson's theory that a person passes through eight life stages, each marked by a psychological conflict to resolve.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "erwin-data-modeler",
+   "name": "erwin Data Modeler",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "Software for designing, documenting and generating database structures, originally ERwin and now sold by Quest Software.",
+   "certification": false,
+   "variants": [
+    "Erwin (Data Modeling Software)",
+    "ERwin",
+    "CA ERwin"
+   ],
+   "relations": [
+    "related:data-modeling"
+   ]
+  },
+  {
+   "key": "esg-analysis",
+   "name": "ESG analysis",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Evaluating how a company or investment performs on environmental, social and governance factors.",
+   "certification": false,
+   "variants": [
+    "Environmental, social and governance analysis"
+   ],
+   "relations": []
+  },
+  {
+   "key": "esker",
+   "name": "Esker",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "Cloud software for automating document-based business processes such as accounts payable and order processing.",
+   "certification": false,
+   "variants": [
+    "Esker (Software)"
+   ],
+   "relations": []
+  },
+  {
+   "key": "estate-valuation",
+   "name": "Estate valuation",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Working out the value of the property and other assets of a deceased person's estate, for example for probate or tax.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "ethical-ai",
+   "name": "Ethical AI",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "Designing, building and using artificial intelligence systems in ways that are fair, transparent, accountable and respectful of human rights.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "etiology",
+   "name": "Etiology",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "The study of the causes of diseases and other conditions.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "event-sponsorship",
+   "name": "Event sponsorship",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Finding and managing companies that fund or support an event in return for promotion of their brand.",
+   "certification": false,
+   "variants": [
+    "Event Sponsorships"
+   ],
+   "relations": []
+  },
+  {
+   "key": "evidence-collection",
+   "name": "Evidence collection",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Gathering, documenting and preserving physical or digital evidence for an investigation or legal case.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "examination-of-legal-documents",
+   "name": "Examination of legal documents",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Reading legal documents such as contracts, deeds and filings to check that they are accurate, complete and valid.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "excel-pivottables",
+   "name": "Excel PivotTables",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Using the PivotTable feature of Microsoft Excel to summarise, group and analyse large tables of data.",
+   "certification": false,
+   "variants": [
+    "Excel Pivot Tables"
+   ],
+   "relations": []
+  },
+  {
+   "key": "excel-pivottables-and-pivotcharts",
+   "name": "Excel PivotTables and PivotCharts",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Using the PivotTable and PivotChart features of Microsoft Excel to summarise data and show the results in charts.",
+   "certification": false,
+   "variants": [
+    "Excel Pivot Tables And Charts"
+   ],
+   "relations": []
+  },
+  {
+   "key": "excess-return",
+   "name": "Excess return",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "The return on an investment above that of a benchmark or the risk-free rate.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "excision-of-skin-lesions",
+   "name": "Excision of skin lesions",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Surgically cutting out a skin lesion, such as a mole, cyst or skin cancer, usually with a margin of healthy tissue.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "executive-presentations",
+   "name": "Executive presentations",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Preparing and giving short, focused presentations to senior leaders so that they can make decisions.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "executive-protection",
+   "name": "Executive protection",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Protecting senior executives and other high-profile people from harm through security planning, advance work and close protection.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "executive-relationship-management",
+   "name": "Executive relationship management",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Building and maintaining working relationships with senior executives of customers, partners or the organisation itself.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "executive-search",
+   "name": "Executive search",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Finding, assessing and recruiting candidates for senior leadership roles, usually on behalf of a client organisation.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "expectancy-theory",
+   "name": "Expectancy theory",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "Victor Vroom's theory that people choose how to act according to what they expect the outcome to be and how much they value it.",
+   "certification": false,
+   "variants": [
+    "Vroom's expectancy theory"
+   ],
+   "relations": []
+  },
+  {
+   "key": "experiential-marketing",
+   "name": "Experiential marketing",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Marketing that engages customers through live, immersive brand experiences such as events and pop-up shops.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "explosive-detection",
+   "name": "Explosive detection",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Finding hidden explosives using methods such as trained dogs, trace detectors and screening equipment.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "explosives-detection-and-disposal",
+   "name": "Explosives detection and disposal",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Finding explosive devices and materials and making them safe or removing them, as bomb-squad and military ordnance disposal personnel do.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "express-js",
+   "name": "Express.js",
+   "class": "skill",
+   "kind": "framework",
+   "definition": "A minimal web application framework for Node.js.",
+   "certification": false,
+   "variants": [
+    "ExpressJS"
+   ],
+   "relations": []
+  },
+  {
+   "key": "extended-parallel-process-model",
+   "name": "Extended Parallel Process Model",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "A health-communication theory, proposed by Kim Witte, that explains how people respond to fear-based messages through their perceived threat and their perceived ability to act against it.",
+   "certification": false,
+   "variants": [
+    "EPPM"
+   ],
+   "relations": []
+  },
+  {
+   "key": "extended-reality",
+   "name": "Extended reality",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "An umbrella term for technologies that combine real and virtual environments, including virtual, augmented and mixed reality.",
+   "certification": false,
+   "variants": [
+    "XR"
+   ],
+   "relations": [
+    "related:mixed-reality"
+   ]
+  },
+  {
+   "key": "extended-validation-certificate",
+   "name": "Extended validation certificate",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "A type of TLS/SSL digital certificate issued only after the certificate authority has checked in detail the legal identity of the organisation that requests it.",
+   "certification": false,
+   "variants": [
+    "Extended Validation Certificates",
+    "EV certificate"
+   ],
+   "relations": []
+  },
+  {
+   "key": "extensive-reading",
+   "name": "Extensive reading",
+   "class": "skill",
+   "kind": "method",
+   "definition": "A language-learning approach in which learners read large amounts of easy, enjoyable material to build fluency and vocabulary.",
+   "certification": false,
+   "variants": [
+    "Extensive Reading (Language Acquisition)"
+   ],
+   "relations": []
+  },
+  {
+   "key": "external-stakeholder-management",
+   "name": "External stakeholder management",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Identifying and working with people and organisations outside the company, such as customers, regulators and partners, to understand their interests and keep their support.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "extract-transform-load",
+   "name": "Extract, transform, load",
+   "class": "skill",
+   "kind": "method",
+   "definition": "A data-integration process that pulls data from source systems, reshapes it, and loads it into a target such as a data warehouse.",
+   "certification": false,
+   "variants": [
+    "Extraction, Transformation, and Loading (ETL)",
+    "ETL",
+    "Extraction, Transformation, and Loading"
+   ],
+   "relations": []
+  },
+  {
+   "key": "eye-surgery",
+   "name": "Eye surgery",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "Surgical operations on the eye and the tissues around it, such as cataract, glaucoma, retinal and corneal surgery.",
+   "certification": false,
+   "variants": [
+    "Eye Surgeries",
+    "Ophthalmic surgery"
+   ],
+   "relations": []
+  },
+  {
+   "key": "facebook",
+   "name": "Facebook",
+   "class": "skill",
+   "kind": "platform",
+   "definition": "A social networking platform, owned by Meta, where people and organisations post content, message each other and run ads.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "facebook-advertising",
+   "name": "Facebook advertising",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Creating, targeting and managing paid ads on Facebook through Meta's advertising tools.",
+   "certification": false,
+   "variants": [
+    "Facebook Advert",
+    "Facebook Ads"
+   ],
+   "relations": []
+  },
+  {
+   "key": "facebook-marketing",
+   "name": "Facebook marketing",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Promoting a business or brand on Facebook through pages, posts, groups and paid ads.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "facility-maintenance",
+   "name": "Facility maintenance",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Keeping a building and its equipment and systems in working order through routine upkeep and repairs.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "factoring-finance",
+   "name": "Factoring (finance)",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "A way of financing a business in which it sells its unpaid invoices to a third party at a discount in return for immediate cash.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "failure-mode-and-effects-analysis",
+   "name": "Failure mode and effects analysis",
+   "class": "skill",
+   "kind": "method",
+   "definition": "A structured method for listing the ways a product or process could fail, rating the effect and likelihood of each, and deciding what to fix first.",
+   "certification": false,
+   "variants": [
+    "Failure Mode Effects Analysis",
+    "FMEA",
+    "Failure Modes and Effects Analysis"
+   ],
+   "relations": []
+  },
+  {
+   "key": "fair-employment-and-housing-act",
+   "name": "Fair Employment and Housing Act",
+   "class": "skill",
+   "kind": "standard",
+   "definition": "A California law that prohibits discrimination and harassment in employment and housing; its usual abbreviation is FEHA, not FEMA.",
+   "certification": false,
+   "variants": [
+    "Fair Employment And Housing Act (FEMA)",
+    "FEHA"
+   ],
+   "relations": []
+  }
+ ]
+}

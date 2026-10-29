@@ -1,0 +1,468 @@
+{
+ "allowed_kinds": [
+  "ability",
+  "credential",
+  "framework",
+  "human-language",
+  "knowledge",
+  "library",
+  "markup-language",
+  "method",
+  "modeling-language",
+  "platform",
+  "programming-language",
+  "skill",
+  "standard",
+  "style-language",
+  "tool",
+  "work-activity"
+ ],
+ "entries": [
+  {
+   "key": "consensus-decision-making",
+   "name": "Consensus decision-making",
+   "class": "skill",
+   "kind": "method",
+   "definition": "A group decision process that seeks the agreement of all participants rather than a majority vote.",
+   "certification": false,
+   "variants": [
+    "Consensus decision making"
+   ],
+   "relations": []
+  },
+  {
+   "key": "constant-contact",
+   "name": "Constant Contact",
+   "class": "skill",
+   "kind": "platform",
+   "definition": "An online email marketing service for building and sending email campaigns and managing contact lists.",
+   "certification": false,
+   "variants": [
+    "Constantcontact"
+   ],
+   "relations": []
+  },
+  {
+   "key": "constituent-relationship-management",
+   "name": "Constituent relationship management",
+   "class": "skill",
+   "kind": "method",
+   "definition": "Managing the relationships of a nonprofit or public body with its donors, members and other constituents, usually with CRM software.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "constraintlayout",
+   "name": "ConstraintLayout",
+   "class": "skill",
+   "kind": "library",
+   "definition": "An Android layout manager that positions and sizes views using constraints relative to other views and to the parent.",
+   "certification": false,
+   "variants": [
+    "Constraint Layout"
+   ],
+   "relations": []
+  },
+  {
+   "key": "construct-game-engine",
+   "name": "Construct (game engine)",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "A 2D game engine from Scirra that uses a visual editor and event sheets so that games can be made with little or no coding.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "constructing-dental-study-casts",
+   "name": "Constructing dental study casts",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Pouring and trimming dental impressions in gypsum to make study casts, the models of a patient's teeth used for diagnosis and treatment planning.",
+   "certification": false,
+   "variants": [
+    "Construct Study Casts"
+   ],
+   "relations": []
+  },
+  {
+   "key": "construction-management-software",
+   "name": "Construction management software",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "Software for planning, tracking and coordinating construction projects, including schedules, budgets and documents.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "consumer-engagement",
+   "name": "Consumer engagement",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Building and sustaining interaction between a brand and its consumers across channels.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "contact-management-software",
+   "name": "Contact management software",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "Software for storing and organising contact details and the history of interactions with each contact.",
+   "certification": false,
+   "variants": [
+    "Contact Management Softwares"
+   ],
+   "relations": []
+  },
+  {
+   "key": "contact-tracing",
+   "name": "Contact tracing",
+   "class": "skill",
+   "kind": "method",
+   "definition": "A public health method of identifying and notifying people who were exposed to someone with an infectious disease, so that spread can be limited.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "content-curation",
+   "name": "Content curation",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Selecting, organising and presenting existing material from many sources for a chosen audience.",
+   "certification": false,
+   "variants": [
+    "Curate Content"
+   ],
+   "relations": []
+  },
+  {
+   "key": "contingency-planning",
+   "name": "Contingency planning",
+   "class": "skill",
+   "kind": "method",
+   "definition": "Preparing plans for responding to events that could disrupt normal operations.",
+   "certification": false,
+   "variants": [
+    "Contingency Plan"
+   ],
+   "relations": []
+  },
+  {
+   "key": "continued-process-verification",
+   "name": "Continued process verification",
+   "class": "skill",
+   "kind": "method",
+   "definition": "Ongoing collection and analysis of manufacturing data to confirm that a validated process stays in a state of control, a stage of process validation in regulated industries.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "continuous-passive-motion",
+   "name": "Continuous passive motion",
+   "class": "skill",
+   "kind": "method",
+   "definition": "A rehabilitation therapy in which a machine moves a joint through a set range of motion without effort from the patient, often after joint surgery.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "contour-plowing",
+   "name": "Contour plowing",
+   "class": "skill",
+   "kind": "method",
+   "definition": "Plowing across a slope along its elevation contours rather than up and down it, to slow water runoff and soil erosion.",
+   "certification": false,
+   "variants": [
+    "Contour ploughing"
+   ],
+   "relations": []
+  },
+  {
+   "key": "contract-review",
+   "name": "Contract review",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Reading a contract to check its terms, obligations and risks against what a party needs or the law allows.",
+   "certification": false,
+   "variants": [
+    "Contract Reviews"
+   ],
+   "relations": []
+  },
+  {
+   "key": "control-loops",
+   "name": "Control loops",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "Feedback arrangements in which a controller compares a measured value with a setpoint and adjusts an output to keep them close, as in process and automation engineering.",
+   "certification": false,
+   "variants": [
+    "Control loop"
+   ],
+   "relations": []
+  },
+  {
+   "key": "control-valves-and-flow-characteristics",
+   "name": "Control valves and flow characteristics",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "How valves that regulate fluid flow in process plants work, and how the flow through them changes with valve opening (for example linear, equal-percentage and quick-opening).",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "controllogix",
+   "name": "ControlLogix",
+   "class": "skill",
+   "kind": "platform",
+   "definition": "A family of programmable automation controllers from Rockwell Automation (Allen-Bradley) that run industrial machines and processes.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "controlup",
+   "name": "ControlUp",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "Software for monitoring and troubleshooting virtual desktops, servers and end-user devices in IT environments.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "conversational-ai",
+   "name": "Conversational AI",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "Building software, such as chatbots and voice assistants, that talks with people in everyday language.",
+   "certification": false,
+   "variants": [
+    "Conversational artificial intelligence"
+   ],
+   "relations": [
+    "related:generative-ai"
+   ]
+  },
+  {
+   "key": "convolutional-neural-networks",
+   "name": "Convolutional neural networks",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "A type of neural network that applies learned filters across grid-like data such as images, widely used in computer vision.",
+   "certification": false,
+   "variants": [
+    "Convolutional neural network",
+    "ConvNet"
+   ],
+   "relations": [
+    "broader:neural-networks"
+   ]
+  },
+  {
+   "key": "copier-troubleshooting",
+   "name": "Copier troubleshooting",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Diagnosing and fixing faults in photocopiers and multifunction office machines, such as paper jams and print-quality problems.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "coping-saw",
+   "name": "Coping saw",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "A hand saw with a thin, narrow blade held in a U-shaped frame, used to cut curves in wood and to trim moulding joints.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "coppermine-photo-gallery",
+   "name": "Coppermine Photo Gallery",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "A free, open-source web application, written in PHP, for hosting and managing online photo galleries.",
+   "certification": false,
+   "variants": [
+    "Coppermine Photo Gallery (Free Image Galleries)"
+   ],
+   "relations": []
+  },
+  {
+   "key": "copywriting",
+   "name": "Copywriting",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Writing text for advertising, marketing and other persuasive material.",
+   "certification": false,
+   "variants": [],
+   "relations": [
+    "related:ai-copywriting"
+   ]
+  },
+  {
+   "key": "core-spotlight",
+   "name": "Core Spotlight",
+   "class": "skill",
+   "kind": "framework",
+   "definition": "An Apple framework for adding an app's content to the on-device Spotlight search index.",
+   "certification": false,
+   "variants": [
+    "CoreSpotlight"
+   ],
+   "relations": []
+  },
+  {
+   "key": "coreos",
+   "name": "CoreOS",
+   "class": "skill",
+   "kind": "platform",
+   "definition": "A minimal Linux-based operating system built for running applications in containers on clusters of servers.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "corona-sdk",
+   "name": "Corona SDK",
+   "class": "skill",
+   "kind": "framework",
+   "definition": "A cross-platform software development kit for building 2D mobile apps and games with the Lua scripting language.",
+   "certification": false,
+   "variants": [
+    "Corona (Software Development Kit)"
+   ],
+   "relations": []
+  },
+  {
+   "key": "coronal-polishing",
+   "name": "Coronal polishing",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Polishing the crown surfaces of teeth to remove plaque and stain, a task often done by dental assistants and hygienists.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "corporate-communications",
+   "name": "Corporate communications",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Managing an organisation's messages to employees, investors, the media and the public.",
+   "certification": false,
+   "variants": [
+    "Corporate communication"
+   ],
+   "relations": [
+    "related:brand-communication"
+   ]
+  },
+  {
+   "key": "corporate-finance",
+   "name": "Corporate finance",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "The field concerned with how companies raise money, invest it and manage their capital to create value for their owners.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "correspondent-banking",
+   "name": "Correspondent banking",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "Arrangements in which one bank provides services such as payments and account access to another bank, often across borders.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "cosmetic-dermatology",
+   "name": "Cosmetic dermatology",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "The branch of dermatology that improves the appearance of skin, hair and nails, for example with fillers, lasers and peels.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "coso-framework",
+   "name": "COSO framework",
+   "class": "skill",
+   "kind": "standard",
+   "definition": "A framework published by the Committee of Sponsoring Organizations of the Treadway Commission for designing and assessing internal control and enterprise risk management.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "cost-accounting",
+   "name": "Cost accounting",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "The part of accounting that records and analyses the costs of making goods or providing services so managers can control and price them.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "cost-estimating",
+   "name": "Cost estimating",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Predicting what a project, product or job will cost before it is done.",
+   "certification": false,
+   "variants": [
+    "Cost Estimate",
+    "Cost estimation"
+   ],
+   "relations": []
+  },
+  {
+   "key": "cost-to-serve",
+   "name": "Cost to serve",
+   "class": "skill",
+   "kind": "method",
+   "definition": "A way of working out how much it costs a business to serve each customer, product or channel, counting activities such as delivery, handling and support.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "costar-real-estate-manager",
+   "name": "CoStar Real Estate Manager",
+   "class": "skill",
+   "kind": "platform",
+   "definition": "A CoStar Group cloud software product for managing leases, property portfolios and real-estate costs.",
+   "certification": false,
+   "variants": [
+    "CoStar Real Estate Manager (SAAS)"
+   ],
+   "relations": []
+  },
+  {
+   "key": "counterparty-risk",
+   "name": "Counterparty risk",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "The risk that the other party to a financial contract will fail to meet its obligations.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  }
+ ]
+}

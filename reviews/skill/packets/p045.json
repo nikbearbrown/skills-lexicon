@@ -1,0 +1,478 @@
+{
+ "allowed_kinds": [
+  "ability",
+  "credential",
+  "framework",
+  "human-language",
+  "knowledge",
+  "library",
+  "markup-language",
+  "method",
+  "modeling-language",
+  "platform",
+  "programming-language",
+  "skill",
+  "standard",
+  "style-language",
+  "tool",
+  "work-activity"
+ ],
+ "entries": [
+  {
+   "key": "pre-sales-engineering",
+   "name": "Pre-sales engineering",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Supporting the sales process by learning a customer's needs, demonstrating the product and designing a technical solution before the sale.",
+   "certification": false,
+   "variants": [
+    "Presales engineering"
+   ],
+   "relations": []
+  },
+  {
+   "key": "predictive-analytics-software",
+   "name": "Predictive analytics software",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "Software that applies statistical and machine-learning models to existing data to forecast future outcomes.",
+   "certification": false,
+   "variants": [
+    "Predictive Analytics Softwares"
+   ],
+   "relations": []
+  },
+  {
+   "key": "predictive-modelling",
+   "name": "Predictive modelling",
+   "class": "skill",
+   "kind": "method",
+   "definition": "Building statistical or machine-learning models that use known data to predict future or unknown outcomes.",
+   "certification": false,
+   "variants": [
+    "Predictive modeling"
+   ],
+   "relations": []
+  },
+  {
+   "key": "presentation-design",
+   "name": "Presentation design",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Designing slides and other visual presentation materials so that ideas are clear and engaging.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "presentation-software",
+   "name": "Presentation software",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "Software for building and showing slide-based presentations, such as PowerPoint, Keynote and Google Slides.",
+   "certification": false,
+   "variants": [
+    "Presentation Programs"
+   ],
+   "relations": []
+  },
+  {
+   "key": "prestodb",
+   "name": "PrestoDB",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "The open-source distributed SQL query engine first developed at Facebook, now hosted by the Linux Foundation as Presto.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "preventive-dental-care",
+   "name": "Preventive dental care",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Helping patients avoid tooth and gum disease through examinations, cleanings, fluoride, sealants and oral-hygiene teaching.",
+   "certification": false,
+   "variants": [
+    "Preventative Dental Care"
+   ],
+   "relations": []
+  },
+  {
+   "key": "prezi",
+   "name": "Prezi",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "A cloud-based presentation tool that lays content out on a large zoomable canvas instead of separate slides.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "price-negotiation",
+   "name": "Price negotiation",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Negotiating the price of goods or services with customers or suppliers.",
+   "certification": false,
+   "variants": [
+    "Negotiating Pricing"
+   ],
+   "relations": []
+  },
+  {
+   "key": "price-to-book-ratio",
+   "name": "Price-to-book ratio",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "A valuation ratio that divides a company's share price by its book value per share, which is its assets minus its liabilities divided by its shares.",
+   "certification": false,
+   "variants": [
+    "P/B Ratio",
+    "Price to book ratio",
+    "PB ratio"
+   ],
+   "relations": []
+  },
+  {
+   "key": "primerx",
+   "name": "PrimeRx",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "Pharmacy management software used to handle prescriptions, billing and inventory in a pharmacy.",
+   "certification": false,
+   "variants": [
+    "PrimeRx (Pharmacy Management Software)"
+   ],
+   "relations": [
+    "related:computerrx"
+   ]
+  },
+  {
+   "key": "prince2",
+   "name": "PRINCE2",
+   "class": "skill",
+   "kind": "method",
+   "definition": "A process-based method for managing projects in defined stages, first developed for the UK government.",
+   "certification": false,
+   "variants": [
+    "PRojects IN Controlled Environments Version 2 (PRINCE2)",
+    "PRojects IN Controlled Environments"
+   ],
+   "relations": []
+  },
+  {
+   "key": "principles-for-responsible-banking",
+   "name": "Principles for Responsible Banking",
+   "class": "skill",
+   "kind": "standard",
+   "definition": "A voluntary framework launched in 2019 by the UN Environment Programme Finance Initiative for banks to align their strategy and business with the UN Sustainable Development Goals and the Paris Agreement.",
+   "certification": false,
+   "variants": [
+    "Principles for Responsible Banking (PRB)"
+   ],
+   "relations": []
+  },
+  {
+   "key": "print-design",
+   "name": "Print design",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Designing layouts and artwork for printed materials such as brochures, posters and packaging.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "printed-circuit-board-design",
+   "name": "Printed circuit board design",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Laying out the components and copper connections of a printed circuit board from an electronic schematic.",
+   "certification": false,
+   "variants": [
+    "Printed Circuit Boards Design",
+    "PCB design"
+   ],
+   "relations": []
+  },
+  {
+   "key": "prisoners-rights",
+   "name": "Prisoners' rights",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "The legal rights of people held in prisons and jails, such as protection from cruel treatment and access to the courts.",
+   "certification": false,
+   "variants": [
+    "Prisoner's Rights"
+   ],
+   "relations": []
+  },
+  {
+   "key": "privacy-impact-assessment",
+   "name": "Privacy impact assessment",
+   "class": "skill",
+   "kind": "method",
+   "definition": "A structured process for finding and reducing the privacy risks of a project, system or policy that handles personal information.",
+   "certification": false,
+   "variants": [
+    "Privacy Impact Assessments"
+   ],
+   "relations": []
+  },
+  {
+   "key": "private-banking",
+   "name": "Private banking",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "Banking, lending and investment services tailored to wealthy individuals and families.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "privileged-access-management",
+   "name": "Privileged access management",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Controlling, securing and monitoring accounts with elevated permissions, such as administrator and root accounts.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "problem-solving",
+   "name": "Problem solving",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Working out what is causing a problem and finding and carrying out a way to resolve it.",
+   "certification": false,
+   "variants": [
+    "Problem-solving"
+   ],
+   "relations": [
+    "related:creative-problem-solving"
+   ]
+  },
+  {
+   "key": "process-hazard-analysis",
+   "name": "Process hazard analysis",
+   "class": "skill",
+   "kind": "method",
+   "definition": "A structured review of an industrial or chemical process to identify its hazards and judge whether its safeguards are adequate.",
+   "certification": false,
+   "variants": [
+    "Process Hazard Anlysis",
+    "Process hazards analysis"
+   ],
+   "relations": []
+  },
+  {
+   "key": "process-improvement",
+   "name": "Process improvement",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Finding and putting in place changes that make a work process faster, cheaper, safer or more reliable.",
+   "certification": false,
+   "variants": [
+    "Process Improvements"
+   ],
+   "relations": []
+  },
+  {
+   "key": "process-management",
+   "name": "Process management",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Planning, monitoring and improving how the steps of a business or manufacturing process are carried out.",
+   "certification": false,
+   "variants": [
+    "Process Management (Business)"
+   ],
+   "relations": []
+  },
+  {
+   "key": "process-management-operating-systems",
+   "name": "Process management (operating systems)",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "The part of an operating system that creates, schedules, switches between and ends the running programs on a computer.",
+   "certification": false,
+   "variants": [
+    "Process Management (Computing)"
+   ],
+   "relations": []
+  },
+  {
+   "key": "process-piping",
+   "name": "Process piping",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Designing, fabricating, installing or inspecting piping that carries fluids in industrial plants such as refineries and chemical works.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "process-state",
+   "name": "Process state",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "The condition of an operating-system process at a given moment, such as new, ready, running, waiting or terminated.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "processing-js",
+   "name": "Processing.js",
+   "class": "skill",
+   "kind": "library",
+   "definition": "A JavaScript port of the Processing visual programming language that runs Processing sketches in web browsers.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "procore",
+   "name": "Procore",
+   "class": "skill",
+   "kind": "platform",
+   "definition": "Cloud-based construction management software for running projects, drawings, documents, budgets and field work in one place.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "product-analysis",
+   "name": "Product analysis",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Examining a product's features, quality, performance or market fit to judge how well it meets needs.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "product-analytics",
+   "name": "Product analytics",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Analysing how people use a digital product, such as which features they use and where they drop out, to guide product decisions.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "product-benchmarking",
+   "name": "Product benchmarking",
+   "class": "skill",
+   "kind": "method",
+   "definition": "Comparing a product's features, price or performance with competing products to see where it stands and how to improve it.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "product-catalogue-management",
+   "name": "Product catalogue management",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Creating, organising and keeping up to date the descriptions, prices and images of the products a business sells.",
+   "certification": false,
+   "variants": [
+    "Product catalog management"
+   ],
+   "relations": []
+  },
+  {
+   "key": "product-leadership",
+   "name": "Product leadership",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Guiding a product's vision, strategy and development and leading the people responsible for it.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "product-quality-assurance",
+   "name": "Product quality assurance",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Planning and carrying out checks across design, production and testing so that a product meets its quality requirements.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "product-requirements-documentation",
+   "name": "Product requirements documentation",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Writing product requirements documents that set out what a product should do, for whom and why, so design and engineering can build it.",
+   "certification": false,
+   "variants": [
+    "Product Requirement Documents",
+    "Product requirements document"
+   ],
+   "relations": []
+  },
+  {
+   "key": "product-strategy",
+   "name": "Product strategy",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Deciding what a product should achieve, for whom, and how it will succeed in its market over time.",
+   "certification": false,
+   "variants": [
+    "Product Strategies"
+   ],
+   "relations": [
+    "related:go-to-market-strategy"
+   ]
+  },
+  {
+   "key": "production-support",
+   "name": "Production support",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Monitoring and troubleshooting a live system to resolve problems that affect users.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "productivity-management",
+   "name": "Productivity management",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Monitoring and improving how efficiently people or processes turn effort into output.",
+   "certification": false,
+   "variants": [
+    "Managing Productivity"
+   ],
+   "relations": []
+  },
+  {
+   "key": "professional-negligence-in-english-law",
+   "name": "Professional negligence in English law",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "The area of English law about claims against professionals, such as solicitors and surveyors, who fail to meet the standard of care expected of them.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "professionalism",
+   "name": "Professionalism",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Behaving in line with the standards of conduct, reliability and courtesy expected in a workplace.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  }
+ ]
+}

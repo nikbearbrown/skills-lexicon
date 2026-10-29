@@ -1,0 +1,467 @@
+{
+ "allowed_kinds": [
+  "ability",
+  "credential",
+  "framework",
+  "human-language",
+  "knowledge",
+  "library",
+  "markup-language",
+  "method",
+  "modeling-language",
+  "platform",
+  "programming-language",
+  "skill",
+  "standard",
+  "style-language",
+  "tool",
+  "work-activity"
+ ],
+ "entries": [
+  {
+   "key": "google-ads",
+   "name": "Google Ads",
+   "class": "skill",
+   "kind": "platform",
+   "definition": "Google's online advertising platform for running paid search and display ads, called AdWords before 2018.",
+   "certification": false,
+   "variants": [
+    "Google AdWords",
+    "AdWords"
+   ],
+   "relations": []
+  },
+  {
+   "key": "google-bard",
+   "name": "Google Bard",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "Google's conversational AI chatbot, launched in 2023 and renamed Gemini in 2024.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "google-business-profile",
+   "name": "Google Business Profile",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "The free Google tool that lets a business manage how it appears in Google Search and Maps, formerly called Google My Business.",
+   "certification": false,
+   "variants": [
+    "Google My Business"
+   ],
+   "relations": []
+  },
+  {
+   "key": "google-cloud-platform",
+   "name": "Google Cloud Platform",
+   "class": "skill",
+   "kind": "platform",
+   "definition": "Google's suite of cloud computing services, including computing, storage, databases and machine learning.",
+   "certification": false,
+   "variants": [
+    "Google Cloud Platform (GCP)"
+   ],
+   "relations": []
+  },
+  {
+   "key": "google-jamboard",
+   "name": "Google Jamboard",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "Google's digital whiteboard app for collaborative sketching and note-taking, retired by Google at the end of 2024.",
+   "certification": false,
+   "variants": [
+    "Jamboard"
+   ],
+   "relations": []
+  },
+  {
+   "key": "google-kubernetes-engine",
+   "name": "Google Kubernetes Engine",
+   "class": "skill",
+   "kind": "platform",
+   "definition": "Google Cloud's managed service for running containerised applications on Kubernetes.",
+   "certification": false,
+   "variants": [
+    "Google Kubernetes Engine (GKE)",
+    "GKE"
+   ],
+   "relations": []
+  },
+  {
+   "key": "google-optimize",
+   "name": "Google Optimize",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "A Google tool for running website A/B tests and personalisation experiments, discontinued in 2023.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "google-sheets",
+   "name": "Google Sheets",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "Google's web-based spreadsheet application for creating, editing and sharing spreadsheets online.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "google-slides",
+   "name": "Google Slides",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "Google's web-based application for creating, editing and sharing presentation slides online.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "google-workspace",
+   "name": "Google Workspace",
+   "class": "skill",
+   "kind": "platform",
+   "definition": "Google's subscription suite of cloud productivity and collaboration apps such as Gmail, Docs, Drive and Meet, known as G Suite until its 2020 rename.",
+   "certification": false,
+   "variants": [
+    "G Suite",
+    "Gsuite"
+   ],
+   "relations": []
+  },
+  {
+   "key": "gopro",
+   "name": "GoPro",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "A brand of small, rugged action cameras used to record video during activities.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "gosystem-tax-rs",
+   "name": "GoSystem Tax RS",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "Thomson Reuters software used by accounting firms to prepare and file tax returns.",
+   "certification": false,
+   "variants": [
+    "GoSystems (Tax Software)"
+   ],
+   "relations": []
+  },
+  {
+   "key": "governance",
+   "name": "AI governance",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Defining accountable policies and approval conditions for AI use.",
+   "variants": [
+    "approval gates"
+   ],
+   "relations": []
+  },
+  {
+   "key": "government-engagement",
+   "name": "Government engagement",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Building and managing relationships with government officials and agencies to inform policy or win public-sector support.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "government-finance",
+   "name": "Government finance",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "The field concerned with how governments raise revenue, budget, spend and manage debt.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "graph-databases",
+   "name": "Graph databases",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "Representing and querying data through graph structures.",
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "graphical-evaluation-and-review-technique",
+   "name": "Graphical Evaluation and Review Technique",
+   "class": "skill",
+   "kind": "method",
+   "definition": "A network-analysis technique for planning projects whose activities have uncertain outcomes and may loop back.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "graphics-api",
+   "name": "Graphics API",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "Programming interfaces, such as OpenGL, Vulkan and DirectX, that let software send drawing commands to graphics hardware.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "graphics-interchange-format",
+   "name": "Graphics Interchange Format",
+   "class": "skill",
+   "kind": "standard",
+   "definition": "A bitmap image file format, introduced by CompuServe in 1987, that supports 256 colours per frame and simple animation.",
+   "certification": false,
+   "variants": [
+    "GIF"
+   ],
+   "relations": []
+  },
+  {
+   "key": "graphite",
+   "name": "Graphite",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "An open-source monitoring tool that stores numeric time-series data and draws graphs from it.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "great-circle",
+   "name": "Great circle",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "A circle on a sphere whose centre is the sphere's centre, whose arcs are the shortest routes between two points on the Earth's surface.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "greeks-finance",
+   "name": "Greeks (finance)",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "The measures of how an option's price changes with other factors, such as delta, gamma, theta, vega and rho.",
+   "certification": false,
+   "variants": [
+    "Option Greeks"
+   ],
+   "relations": []
+  },
+  {
+   "key": "green-bond",
+   "name": "Green bond",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "A bond whose proceeds fund projects with environmental benefits, such as renewable energy.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "greeting-guests",
+   "name": "Greeting guests",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Welcoming visitors or customers when they arrive in a friendly, professional way.",
+   "certification": false,
+   "variants": [
+    "Greet Guests"
+   ],
+   "relations": []
+  },
+  {
+   "key": "grieving-process",
+   "name": "Grieving process",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "The emotional and psychological process of coming to terms with a significant loss.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "groove-welding",
+   "name": "Groove welding",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Joining two pieces of metal by filling a groove cut or formed between them with weld metal.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "groundskeeping-and-yard-care",
+   "name": "Groundskeeping and yard care",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Maintaining outdoor grounds by mowing, trimming, planting, watering and clearing debris.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "group-decision-making",
+   "name": "Group decision-making",
+   "class": "skill",
+   "kind": "method",
+   "definition": "A process in which a group weighs the options together and reaches a decision.",
+   "certification": false,
+   "variants": [],
+   "relations": [
+    "related:consensus-decision-making"
+   ]
+  },
+  {
+   "key": "group-work",
+   "name": "Group work",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Working with other people in a group toward a shared task or goal.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "groupme",
+   "name": "GroupMe",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "A group text-messaging app owned by Microsoft.",
+   "certification": false,
+   "variants": [
+    "Microsoft GroupMe"
+   ],
+   "relations": []
+  },
+  {
+   "key": "grunt-js",
+   "name": "Grunt.js",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "A JavaScript task runner that automates repetitive build tasks, such as minifying, compiling and testing files, from a configuration file.",
+   "certification": false,
+   "variants": [
+    "Gruntjs"
+   ],
+   "relations": []
+  },
+  {
+   "key": "gsm-radio-access-network",
+   "name": "GSM radio access network",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "The part of a GSM mobile network, made up of base transceiver stations and base station controllers, that connects phones to the core network.",
+   "certification": false,
+   "variants": [
+    "GSM Radio Access Networks"
+   ],
+   "relations": []
+  },
+  {
+   "key": "guardrails",
+   "name": "AI guardrails",
+   "class": "skill",
+   "kind": "method",
+   "definition": "Constraints and checks on AI behavior; not a particular software product.",
+   "variants": [
+    "guardrails"
+   ],
+   "relations": []
+  },
+  {
+   "key": "guardrails-product",
+   "name": "Guardrails AI",
+   "class": "skill",
+   "kind": "library",
+   "definition": "A named software product, distinct from the generic guardrail concept.",
+   "variants": [
+    "Guardrails"
+   ],
+   "relations": []
+  },
+  {
+   "key": "gulp-js",
+   "name": "Gulp.js",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "A JavaScript toolkit and task runner that automates build tasks such as compiling, bundling and minifying files.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "gymnastics",
+   "name": "Gymnastics",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "The sport of performing exercises that demand strength, flexibility and balance, such as floor routines, vault and beam.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "gynaecology",
+   "name": "Gynaecology",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "The branch of medicine that deals with the health of the female reproductive system.",
+   "certification": false,
+   "variants": [
+    "Gynecology"
+   ],
+   "relations": []
+  },
+  {
+   "key": "h-262-mpeg-2-part-2",
+   "name": "H.262/MPEG-2 Part 2",
+   "class": "skill",
+   "kind": "standard",
+   "definition": "A video compression standard published jointly by ITU-T as H.262 and by ISO/IEC as MPEG-2 Part 2.",
+   "certification": false,
+   "variants": [
+    "H.262",
+    "MPEG-2 Part 2",
+    "MPEG-2 Video"
+   ],
+   "relations": []
+  },
+  {
+   "key": "hadoop-distributed-file-system",
+   "name": "Hadoop Distributed File System",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "The distributed file system of Apache Hadoop, which stores large files across many machines.",
+   "certification": false,
+   "variants": [
+    "HDFS"
+   ],
+   "relations": [
+    "related:distributed-computing"
+   ]
+  },
+  {
+   "key": "hadron-physics",
+   "name": "Hadron physics",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "The study of hadrons, the composite particles such as protons and neutrons that are made of quarks and held together by the strong interaction.",
+   "certification": false,
+   "variants": [
+    "Hadrons (Partical Physics)"
+   ],
+   "relations": []
+  }
+ ]
+}

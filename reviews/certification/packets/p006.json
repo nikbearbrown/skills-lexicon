@@ -1,0 +1,544 @@
+{
+ "allowed_kinds": [
+  "ability",
+  "credential",
+  "framework",
+  "human-language",
+  "knowledge",
+  "library",
+  "markup-language",
+  "method",
+  "modeling-language",
+  "platform",
+  "programming-language",
+  "skill",
+  "standard",
+  "style-language",
+  "tool",
+  "work-activity"
+ ],
+ "entries": [
+  {
+   "key": "comptia-linux-network-professional-clnp",
+   "name": "CompTIA Linux Network Professional (CLNP)",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A CompTIA stackable certification awarded for holding a specified combination of other CompTIA certifications, for Linux and network administration.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [
+    "CompTIA CLNP"
+   ],
+   "relations": []
+  },
+  {
+   "key": "comptia-mobile-app-security",
+   "name": "CompTIA Mobile App Security+",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A CompTIA certification covering how to build and test mobile apps securely.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "comptia-mobility",
+   "name": "CompTIA Mobility+",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A CompTIA certification covering the management and support of mobile devices and the systems that manage them.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [
+    "CompTIA Mobility+ CE"
+   ],
+   "relations": []
+  },
+  {
+   "key": "comptia-network",
+   "name": "CompTIA Network+",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A CompTIA certification covering how to configure, manage, secure and troubleshoot wired and wireless networks.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [
+    "CompTIA Network+ CE"
+   ],
+   "relations": [
+    "related:computer-networking"
+   ]
+  },
+  {
+   "key": "comptia-network-infrastructure-professional-cnip",
+   "name": "CompTIA Network Infrastructure Professional (CNIP)",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A CompTIA stackable certification awarded for holding a specified combination of other CompTIA certifications, for network infrastructure.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [
+    "CompTIA CNIP"
+   ],
+   "relations": []
+  },
+  {
+   "key": "comptia-network-security-professional-cnsp",
+   "name": "CompTIA Network Security Professional (CNSP)",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A CompTIA stackable certification awarded for holding a specified combination of other CompTIA certifications, for network security.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [
+    "CompTIA CNSP"
+   ],
+   "relations": [
+    "related:cybersecurity"
+   ]
+  },
+  {
+   "key": "comptia-network-vulnerability-assessment-professional-cnvp",
+   "name": "CompTIA Network Vulnerability Assessment Professional (CNVP)",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A CompTIA stackable certification awarded for holding a specified combination of other CompTIA certifications, for network vulnerability assessment.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [
+    "CompTIA CNVP"
+   ],
+   "relations": []
+  },
+  {
+   "key": "comptia-pentest",
+   "name": "CompTIA PenTest+",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A CompTIA certification covering penetration testing, vulnerability assessment and vulnerability management.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [
+    "CompTIA PenTest+ CE"
+   ],
+   "relations": []
+  },
+  {
+   "key": "comptia-printing-and-document-imaging-pdi",
+   "name": "CompTIA Printing and Document Imaging (PDI+)",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A CompTIA certification for technicians who work with printing and document imaging equipment.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [
+    "CompTIA PDI+"
+   ],
+   "relations": []
+  },
+  {
+   "key": "comptia-rfid",
+   "name": "CompTIA RFID+",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A CompTIA certification covering radio-frequency identification (RFID) technology and its deployment.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "comptia-secure-cloud-professional-cscp",
+   "name": "CompTIA Secure Cloud Professional (CSCP)",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A CompTIA stackable certification awarded for holding a specified combination of other CompTIA certifications, for secure cloud work.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [
+    "CompTIA CSCP"
+   ],
+   "relations": []
+  },
+  {
+   "key": "comptia-secure-infrastructure-specialist-csis",
+   "name": "CompTIA Secure Infrastructure Specialist (CSIS)",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A CompTIA stackable certification awarded for holding a specified combination of other CompTIA certifications, for secure IT infrastructure.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [
+    "CompTIA CSIS"
+   ],
+   "relations": []
+  },
+  {
+   "key": "comptia-security",
+   "name": "CompTIA Security+",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A CompTIA certification covering core cybersecurity skills such as threats, network security, cryptography and risk management.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [
+    "CompTIA Security+ CE"
+   ],
+   "relations": []
+  },
+  {
+   "key": "comptia-security-analytics-expert-csae",
+   "name": "CompTIA Security Analytics Expert (CSAE)",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A CompTIA stackable certification awarded for holding a specified combination of other CompTIA certifications, for security analytics at expert level.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [
+    "CompTIA CSAE"
+   ],
+   "relations": []
+  },
+  {
+   "key": "comptia-security-analytics-professional-csap",
+   "name": "CompTIA Security Analytics Professional (CSAP)",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A CompTIA stackable certification awarded for holding a specified combination of other CompTIA certifications, for security analytics at professional level.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [
+    "CompTIA CSAP"
+   ],
+   "relations": []
+  },
+  {
+   "key": "comptia-security-infrastructure-expert-csie",
+   "name": "CompTIA Security Infrastructure Expert (CSIE)",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A CompTIA stackable certification awarded for holding a specified combination of other CompTIA certifications, for security infrastructure at expert level.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [
+    "CompTIA CSIE"
+   ],
+   "relations": []
+  },
+  {
+   "key": "comptia-storage",
+   "name": "CompTIA Storage+",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A CompTIA certification covering the fundamentals of data storage technology.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [
+    "CompTIA Storage+ Powered By SNIA",
+    "CompTIA Storage+ Powered By SNIA CE"
+   ],
+   "relations": []
+  },
+  {
+   "key": "comptia-systems-support-specialist-csss",
+   "name": "CompTIA Systems Support Specialist (CSSS)",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A CompTIA stackable certification awarded for holding a specified combination of other CompTIA certifications, for systems support.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [
+    "CompTIA CSSS"
+   ],
+   "relations": []
+  },
+  {
+   "key": "coronal-polishing-certificate",
+   "name": "Coronal polishing certificate",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A certificate showing that a dental assistant has been trained in coronal polishing, which some US states require before they may do it.",
+   "certification": true,
+   "certification_scope": "many-issuers",
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "counter-terrorist-check-ctc-clearance",
+   "name": "Counter Terrorist Check (CTC) clearance",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A UK government security clearance level, below Security Check (SC), for roles with unescorted access to sensitive sites or close contact with people at risk from terrorism.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [
+    "Counter Terrorist Check (CTC)",
+    "Counter Terrorist Check",
+    "CTC clearance"
+   ],
+   "relations": [
+    "related:security-check-sc-clearance"
+   ]
+  },
+  {
+   "key": "cpc-coder",
+   "name": "Certified Professional Coder",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A coding credential; CPC also names other credentials.",
+   "variants": [
+    "CPC",
+    "Certified Professional Coder (CPC)"
+   ],
+   "relations": []
+  },
+  {
+   "key": "cpc-collector",
+   "name": "Certified Professional Collector",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A collection credential; distinct from the coding credential.",
+   "variants": [
+    "CPC",
+    "Certified Professional Collector (CPC)"
+   ],
+   "relations": []
+  },
+  {
+   "key": "cpr-for-the-professional-rescuer",
+   "name": "CPR for the Professional Rescuer",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A cardiopulmonary resuscitation certification, from American Red Cross courses, for people who respond to emergencies as part of their job, such as lifeguards and first responders.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [
+    "Professional Rescuer CPR"
+   ],
+   "relations": []
+  },
+  {
+   "key": "crestron-certified-programmer",
+   "name": "Crestron Certified Programmer",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A certification from Crestron showing that a person can program Crestron control systems.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "cytogenetic-technologist-cg-ascp",
+   "name": "Cytogenetic Technologist, CG(ASCP)",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A certification from the ASCP Board of Certification for laboratory technologists who analyse chromosomes in cytogenetics laboratories.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [
+    "Cytogenetics Technologist Certification (CG-ASCP)",
+    "CG(ASCP)"
+   ],
+   "relations": []
+  },
+  {
+   "key": "dermatology-certified-nurse-practitioner",
+   "name": "Dermatology Certified Nurse Practitioner",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A certification for nurse practitioners who specialise in dermatology, awarded by the Dermatology Nurse Practitioner Certification Board.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [
+    "DCNP"
+   ],
+   "relations": []
+  },
+  {
+   "key": "dermatology-nurse-certified",
+   "name": "Dermatology Nurse Certified",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A certification for registered nurses who work in dermatology, awarded by the Dermatology Nursing Certification Board.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "developed-vetting",
+   "name": "Developed Vetting",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "The highest level of UK government security clearance, for roles with frequent and uncontrolled access to top secret assets.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [
+    "Developed Vetting (DV)",
+    "DV clearance"
+   ],
+   "relations": []
+  },
+  {
+   "key": "diploma-in-hotel-management-and-catering-technology",
+   "name": "Diploma in Hotel Management and Catering Technology",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A diploma, awarded by technical boards and polytechnic institutions in India, covering hotel operations, food production and catering.",
+   "certification": true,
+   "certification_scope": "many-issuers",
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "divemaster",
+   "name": "Divemaster",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A professional scuba-diving rating for people who lead and supervise certified divers, awarded by diving training agencies such as PADI, SSI and NAUI.",
+   "certification": true,
+   "certification_scope": "many-issuers",
+   "variants": [
+    "Divemaster (DM) Qualification"
+   ],
+   "relations": []
+  },
+  {
+   "key": "doctor-of-dental-medicine",
+   "name": "Doctor of Dental Medicine",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A professional doctoral degree in dentistry, awarded by dental schools in the United States and elsewhere.",
+   "certification": true,
+   "certification_scope": "many-issuers",
+   "variants": [
+    "Doctor Of Dental Medicine (DMD)",
+    "DMD"
+   ],
+   "relations": []
+  },
+  {
+   "key": "doctor-of-dental-surgery",
+   "name": "Doctor of Dental Surgery",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A professional doctoral degree in dentistry, awarded by dental schools in the United States and elsewhere.",
+   "certification": true,
+   "certification_scope": "many-issuers",
+   "variants": [
+    "Doctor Of Dental Surgery (DDS)",
+    "DDS"
+   ],
+   "relations": []
+  },
+  {
+   "key": "doctor-of-medicine",
+   "name": "Doctor of Medicine",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A professional doctoral degree in medicine that qualifies graduates to go on to practise as physicians.",
+   "certification": true,
+   "certification_scope": "many-issuers",
+   "variants": [
+    "Doctor Of Medicine (MD)"
+   ],
+   "relations": []
+  },
+  {
+   "key": "doctor-of-nursing-practice",
+   "name": "Doctor of Nursing Practice",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A practice-focused doctoral degree in nursing for advanced clinical practice, leadership and nursing care improvement.",
+   "certification": true,
+   "certification_scope": "many-issuers",
+   "variants": [
+    "DNP"
+   ],
+   "relations": []
+  },
+  {
+   "key": "doctor-of-pharmacy",
+   "name": "Doctor of Pharmacy",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A professional doctoral degree in pharmacy that qualifies graduates to go on to practise as pharmacists.",
+   "certification": true,
+   "certification_scope": "many-issuers",
+   "variants": [
+    "Doctor Of Pharmacy (PharmD)",
+    "PharmD"
+   ],
+   "relations": []
+  },
+  {
+   "key": "doctor-of-physical-therapy",
+   "name": "Doctor of Physical Therapy",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A doctoral degree that qualifies graduates to practise as physical therapists in the United States.",
+   "certification": true,
+   "certification_scope": "many-issuers",
+   "variants": [
+    "DPT"
+   ],
+   "relations": []
+  },
+  {
+   "key": "doctor-of-public-health",
+   "name": "Doctor of Public Health",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A doctoral degree in public health focused on professional practice and leadership.",
+   "certification": true,
+   "certification_scope": "many-issuers",
+   "variants": [
+    "DrPH"
+   ],
+   "relations": []
+  },
+  {
+   "key": "doctor-of-veterinary-medicine",
+   "name": "Doctor of Veterinary Medicine",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A professional doctoral degree in veterinary medicine, awarded as DVM by most schools and as VMD by the University of Pennsylvania.",
+   "certification": true,
+   "certification_scope": "many-issuers",
+   "variants": [
+    "Doctor Of Veterinary Medicine (DVM/VMD)",
+    "DVM",
+    "VMD"
+   ],
+   "relations": []
+  },
+  {
+   "key": "doubles-triples-endorsement",
+   "name": "Doubles/triples endorsement",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A commercial driver's licence endorsement that permits towing two or three trailers.",
+   "certification": true,
+   "certification_scope": "many-issuers",
+   "variants": [
+    "Doubles Endorsement"
+   ],
+   "relations": []
+  },
+  {
+   "key": "drone-pilot-certificate",
+   "name": "Drone pilot certificate",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A certificate that allows a person to fly small unmanned aircraft commercially; in the United States, the FAA Remote Pilot Certificate under Part 107.",
+   "certification": true,
+   "certification_scope": "many-issuers",
+   "variants": [
+    "Remote Pilot Certificate"
+   ],
+   "relations": []
+  }
+ ]
+}

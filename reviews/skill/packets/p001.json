@@ -1,0 +1,480 @@
+{
+ "allowed_kinds": [
+  "ability",
+  "credential",
+  "framework",
+  "human-language",
+  "knowledge",
+  "library",
+  "markup-language",
+  "method",
+  "modeling-language",
+  "platform",
+  "programming-language",
+  "skill",
+  "standard",
+  "style-language",
+  "tool",
+  "work-activity"
+ ],
+ "entries": [
+  {
+   "key": "1password",
+   "name": "1Password",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "A commercial password manager that stores logins and other secrets in encrypted vaults.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "360-campaigns",
+   "name": "360 campaigns",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Planning marketing campaigns that carry one message across many channels, such as TV, digital, print and in-store.",
+   "certification": false,
+   "variants": [
+    "360-degree campaigns"
+   ],
+   "relations": []
+  },
+  {
+   "key": "3d-modeling-software",
+   "name": "3D modeling software",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "Software used to build three-dimensional models of objects or scenes, for example for design, animation or games.",
+   "certification": false,
+   "variants": [
+    "3D Modeling Softwares",
+    "3D modelling software"
+   ],
+   "relations": []
+  },
+  {
+   "key": "3d-solid-and-surface-modeling",
+   "name": "3D solid and surface modeling",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Building three-dimensional models of objects as solids and as surfaces in CAD software.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "3d-touch",
+   "name": "3D Touch",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "A pressure-sensitive touchscreen feature on some Apple iPhones that responds differently to light and firm presses.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "3dmark",
+   "name": "3DMark",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "A benchmark program that measures the graphics and processing performance of computers.",
+   "certification": false,
+   "variants": [
+    "3DMark (Computer Benchmarking )"
+   ],
+   "relations": []
+  },
+  {
+   "key": "4d-modeling-construction",
+   "name": "4D modeling (construction)",
+   "class": "skill",
+   "kind": "method",
+   "definition": "Linking a three-dimensional building model to the construction schedule so the building work can be viewed step by step over time.",
+   "certification": false,
+   "variants": [
+    "4D Modelling (Construction)",
+    "4D BIM"
+   ],
+   "relations": []
+  },
+  {
+   "key": "50-tissue-culture-infectious-dose-tcid50",
+   "name": "50% tissue culture infectious dose (TCID50)",
+   "class": "skill",
+   "kind": "method",
+   "definition": "The amount of virus that infects half of the inoculated cell cultures, used as a unit to measure virus infectivity in the laboratory.",
+   "certification": false,
+   "variants": [
+    "50% Tissue Culture Infective Dose (TCID50)",
+    "TCID50"
+   ],
+   "relations": []
+  },
+  {
+   "key": "abc-javascript-renderer",
+   "name": "ABC JavaScript Renderer",
+   "class": "skill",
+   "kind": "library",
+   "definition": "A JavaScript library that draws music written in ABC notation as sheet music in a web page.",
+   "certification": false,
+   "variants": [],
+   "relations": [
+    "related:javascript"
+   ]
+  },
+  {
+   "key": "abec-scale",
+   "name": "ABEC scale",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "A rating scale from the Annular Bearing Engineers' Committee that grades the manufacturing tolerances of precision ball bearings.",
+   "certification": false,
+   "variants": [
+    "ABEC rating"
+   ],
+   "relations": []
+  },
+  {
+   "key": "academic-english",
+   "name": "Academic English",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "The register of English used for scholarly reading, writing and speaking, such as essays and research papers.",
+   "certification": false,
+   "variants": [],
+   "relations": [
+    "broader:english"
+   ]
+  },
+  {
+   "key": "academic-record-keeping",
+   "name": "Academic record-keeping",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Maintaining accurate student records such as enrolment, grades and transcripts for a school or university.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "accelerated-failure-time-models",
+   "name": "Accelerated failure time models",
+   "class": "skill",
+   "kind": "method",
+   "definition": "A class of survival-analysis regression models in which the covariates act multiplicatively on the time until an event occurs.",
+   "certification": false,
+   "variants": [
+    "accelerated failure time model",
+    "AFT model"
+   ],
+   "relations": []
+  },
+  {
+   "key": "accelerated-mobile-pages",
+   "name": "Accelerated Mobile Pages",
+   "class": "skill",
+   "kind": "framework",
+   "definition": "An open-source HTML framework, started by Google, for building web pages that load quickly on mobile devices.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "acceptance-and-commitment-therapy",
+   "name": "Acceptance and Commitment Therapy",
+   "class": "skill",
+   "kind": "method",
+   "definition": "A form of psychotherapy that helps people accept difficult thoughts and feelings and commit to actions that fit their values.",
+   "certification": false,
+   "variants": [
+    "Acceptance and Commitment Therapy (ACT)"
+   ],
+   "relations": []
+  },
+  {
+   "key": "access-point-name",
+   "name": "Access point name",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "The name of a gateway between a mobile network and another network such as the internet, which a device uses to set up a data connection.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "accessioning",
+   "name": "Accessioning",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Formally logging a received specimen or item and giving it a unique identifying number.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "accountancy-and-passenger-ticket-issuing-system",
+   "name": "Accountancy and Passenger Ticket Issuing System",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "A computerised system for issuing passenger tickets and accounting for the sales.",
+   "certification": false,
+   "variants": [
+    "Accountancy And Passenger Ticket Issuing System (APTIS)",
+    "APTIS"
+   ],
+   "relations": []
+  },
+  {
+   "key": "accounting-cycle",
+   "name": "Accounting cycle",
+   "class": "skill",
+   "kind": "method",
+   "definition": "The sequence of steps an accountant follows from recording a business's transactions to preparing financial statements and closing the books.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "accounting-software",
+   "name": "Accounting software",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "Software for recording financial transactions and producing ledgers, invoices and financial reports.",
+   "certification": false,
+   "variants": [
+    "Accounting Softwares"
+   ],
+   "relations": []
+  },
+  {
+   "key": "accounts-receivable-management",
+   "name": "Accounts receivable management",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Tracking invoices and collecting the money that customers owe a business.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "accumulated-benefit-obligation",
+   "name": "Accumulated benefit obligation",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "The present value of pension benefits earned to date, measured on current pay levels without assuming future pay rises.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "acid-pro",
+   "name": "ACID Pro",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "A loop-based music-making software line first released by Sonic Foundry and later owned by Sony and then Magix.",
+   "certification": false,
+   "variants": [
+    "Sony ACID",
+    "Sony ACID Pro"
+   ],
+   "relations": []
+  },
+  {
+   "key": "acl-analytics",
+   "name": "ACL Analytics",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "Data analysis software that auditors and finance teams use to test large data sets, scripted with a command language called ACLScript.",
+   "certification": false,
+   "variants": [
+    "ACL Analytics (Audit Command Language)"
+   ],
+   "relations": []
+  },
+  {
+   "key": "action-for-climate-empowerment",
+   "name": "Action for Climate Empowerment",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "The UN climate process's term for work on climate education, training, public awareness, public participation and access to information.",
+   "certification": false,
+   "variants": [
+    "Action for Climate Empowerment (ACE)"
+   ],
+   "relations": []
+  },
+  {
+   "key": "activated-sludge",
+   "name": "Activated sludge",
+   "class": "skill",
+   "kind": "method",
+   "definition": "A wastewater treatment process in which air and a mixed community of microorganisms break down the organic matter in sewage.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "active-hdl",
+   "name": "Active-HDL",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "An integrated design and simulation environment from Aldec for FPGA and digital-logic designs written in hardware description languages such as VHDL and Verilog.",
+   "certification": false,
+   "variants": [
+    "Active Hdl"
+   ],
+   "relations": []
+  },
+  {
+   "key": "active-pharmaceutical-ingredient",
+   "name": "Active pharmaceutical ingredient",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "The component of a medicine that produces its intended therapeutic effect.",
+   "certification": false,
+   "variants": [
+    "Active Pharmaceutical Ingredients"
+   ],
+   "relations": []
+  },
+  {
+   "key": "activepivot",
+   "name": "ActivePivot",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "An in-memory analytics engine from ActiveViam for real-time aggregation and multidimensional analysis of large data sets.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "activepython",
+   "name": "ActivePython",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "A commercially supported distribution of the Python programming language from ActiveState.",
+   "certification": false,
+   "variants": [],
+   "relations": [
+    "related:python"
+   ]
+  },
+  {
+   "key": "activities-of-daily-living",
+   "name": "Activities of daily living",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "The basic self-care tasks of everyday life, such as bathing, dressing, eating and moving about, that carers help with and clinicians use to assess independence.",
+   "certification": false,
+   "variants": [
+    "Activities Of Daily Living (ADLs)"
+   ],
+   "relations": []
+  },
+  {
+   "key": "actuarial-exams",
+   "name": "Actuarial exams",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "The series of professional examinations set by actuarial societies such as the Society of Actuaries and the Casualty Actuarial Society, which candidates pass on the way to actuarial credentials.",
+   "certification": false,
+   "variants": [
+    "actuarial exam"
+   ],
+   "relations": []
+  },
+  {
+   "key": "acunetix",
+   "name": "Acunetix",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "A web application security scanner that tests websites for vulnerabilities such as SQL injection and cross-site scripting.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "ad-model-builder",
+   "name": "AD Model Builder",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "Open-source software for fitting complex nonlinear statistical models using automatic differentiation.",
+   "certification": false,
+   "variants": [
+    "AD Model Builder (ADMB)",
+    "ADMB"
+   ],
+   "relations": []
+  },
+  {
+   "key": "adaboost",
+   "name": "AdaBoost",
+   "class": "skill",
+   "kind": "method",
+   "definition": "A machine-learning algorithm that combines many weak classifiers into one strong classifier by reweighting the training examples at each round.",
+   "certification": false,
+   "variants": [
+    "Adaptive Boosting"
+   ],
+   "relations": []
+  },
+  {
+   "key": "adaptive-equipment",
+   "name": "Adaptive equipment",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "Devices and tools designed or modified to help people with disabilities or injuries do everyday tasks.",
+   "certification": false,
+   "variants": [
+    "Adaptive Equipments"
+   ],
+   "relations": []
+  },
+  {
+   "key": "adaptive-insights",
+   "name": "Adaptive Insights",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "Cloud-based business planning, budgeting and forecasting software that Workday acquired in 2018.",
+   "certification": false,
+   "variants": [
+    "Workday Adaptive Planning"
+   ],
+   "relations": []
+  },
+  {
+   "key": "adaptive-leadership",
+   "name": "Adaptive leadership",
+   "class": "skill",
+   "kind": "method",
+   "definition": "A leadership approach, developed from the work of Ronald Heifetz and Marty Linsky, that focuses on helping groups adapt to difficult challenges.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "addie-model",
+   "name": "ADDIE model",
+   "class": "skill",
+   "kind": "method",
+   "definition": "An instructional design process with five phases: analysis, design, development, implementation and evaluation.",
+   "certification": false,
+   "variants": [
+    "ADDIE Instructional Design Model",
+    "ADDIE"
+   ],
+   "relations": []
+  },
+  {
+   "key": "additive-manufacturing",
+   "name": "Additive manufacturing",
+   "class": "skill",
+   "kind": "method",
+   "definition": "Making physical objects by adding material layer by layer from a digital model, as in 3D printing.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  }
+ ]
+}

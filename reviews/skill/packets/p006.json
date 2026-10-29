@@ -1,0 +1,481 @@
+{
+ "allowed_kinds": [
+  "ability",
+  "credential",
+  "framework",
+  "human-language",
+  "knowledge",
+  "library",
+  "markup-language",
+  "method",
+  "modeling-language",
+  "platform",
+  "programming-language",
+  "skill",
+  "standard",
+  "style-language",
+  "tool",
+  "work-activity"
+ ],
+ "entries": [
+  {
+   "key": "automated-information-systems-security",
+   "name": "Automated information systems security",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "The protection of computer-based information systems and the data they process, a term used in US government and military guidance.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "automotive-detailing",
+   "name": "Automotive detailing",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Thoroughly cleaning, polishing and protecting the interior and exterior of a vehicle.",
+   "certification": false,
+   "variants": [
+    "Auto detailing",
+    "Car detailing"
+   ],
+   "relations": []
+  },
+  {
+   "key": "automotive-finance",
+   "name": "Automotive finance",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "The field of financing vehicle purchases and leases, including the loans, leases, lenders and dealers involved.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "automotive-loans",
+   "name": "Automotive loans",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "Loans taken out to buy a vehicle, usually secured by the vehicle itself.",
+   "certification": false,
+   "variants": [
+    "Auto loans"
+   ],
+   "relations": []
+  },
+  {
+   "key": "autonomic-nervous-system",
+   "name": "Autonomic nervous system",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "The part of the nervous system that regulates involuntary body functions such as heart rate, digestion and breathing.",
+   "certification": false,
+   "variants": [
+    "Autonomic Servous System"
+   ],
+   "relations": []
+  },
+  {
+   "key": "autoregressive-integrated-moving-average",
+   "name": "Autoregressive integrated moving average",
+   "class": "skill",
+   "kind": "method",
+   "definition": "A statistical time-series model that forecasts a series from its own past values and past forecast errors, after differencing the series to remove trends.",
+   "certification": false,
+   "variants": [
+    "Autoregressive Integrated Moving Average (ARIMA)",
+    "ARIMA"
+   ],
+   "relations": []
+  },
+  {
+   "key": "autoshade",
+   "name": "Autoshade",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "A discontinued Autodesk add-on for producing shaded, rendered images of AutoCAD models.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "avantgo",
+   "name": "AvantGo",
+   "class": "skill",
+   "kind": "platform",
+   "definition": "A discontinued service that delivered web content and enterprise applications to handheld devices such as Palm and Pocket PC PDAs.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "aveva-pi-system",
+   "name": "AVEVA PI System",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "A data infrastructure for collecting, storing and analysing real-time industrial process data, originally from OSIsoft and now sold by AVEVA.",
+   "certification": false,
+   "variants": [
+    "AVEVA PI (Software)",
+    "OSIsoft PI",
+    "PI System"
+   ],
+   "relations": []
+  },
+  {
+   "key": "aviation-medical-examination",
+   "name": "Aviation medical examination",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Performing medical examinations to decide whether pilots and other aviation personnel meet the medical standards required for flying duties.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "avid-elastic-reality",
+   "name": "Avid Elastic Reality",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "A discontinued Avid application for warping and morphing images and video.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "avid-media-composer",
+   "name": "Avid Media Composer",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "Avid's professional non-linear video-editing software.",
+   "certification": false,
+   "variants": [
+    "Avid Media Composer (Software)"
+   ],
+   "relations": []
+  },
+  {
+   "key": "aws",
+   "name": "Amazon Web Services",
+   "class": "skill",
+   "kind": "platform",
+   "definition": "A cloud-services platform; product-specific skills remain distinct.",
+   "variants": [
+    "AWS"
+   ],
+   "relations": []
+  },
+  {
+   "key": "aws-big-data",
+   "name": "AWS big data",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Using Amazon Web Services' data analytics and big data services, such as EMR, Redshift and Kinesis, to store and process large datasets.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "aws-cloud9",
+   "name": "AWS Cloud9",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "An Amazon Web Services cloud-based integrated development environment for writing, running and debugging code in a web browser.",
+   "certification": false,
+   "variants": [
+    "Cloud9"
+   ],
+   "relations": []
+  },
+  {
+   "key": "aws-cloudformation",
+   "name": "AWS CloudFormation",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "An Amazon Web Services service that provisions and manages cloud resources from templates written in JSON or YAML.",
+   "certification": false,
+   "variants": [
+    "CloudFormation"
+   ],
+   "relations": [
+    "broader:cloud-computing"
+   ]
+  },
+  {
+   "key": "aws-cloudhsm",
+   "name": "AWS CloudHSM",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "An Amazon Web Services service that provides dedicated hardware security modules in the cloud for generating and storing cryptographic keys.",
+   "certification": false,
+   "variants": [
+    "CloudHSM"
+   ],
+   "relations": []
+  },
+  {
+   "key": "aws-cloudtrail",
+   "name": "AWS CloudTrail",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "An Amazon Web Services service that records actions taken in an AWS account, such as API calls, for auditing and security analysis.",
+   "certification": false,
+   "variants": [
+    "CloudTrail"
+   ],
+   "relations": []
+  },
+  {
+   "key": "aws-codebuild",
+   "name": "AWS CodeBuild",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "An Amazon Web Services service that compiles source code, runs tests and produces build artifacts.",
+   "certification": false,
+   "variants": [
+    "CodeBuild"
+   ],
+   "relations": []
+  },
+  {
+   "key": "aws-codecommit",
+   "name": "AWS CodeCommit",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "An Amazon Web Services service that hosts private Git repositories.",
+   "certification": false,
+   "variants": [
+    "CodeCommit"
+   ],
+   "relations": []
+  },
+  {
+   "key": "aws-command-line-interface",
+   "name": "AWS Command Line Interface",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "A command-line tool from Amazon Web Services for managing and automating AWS services from a terminal or script.",
+   "certification": false,
+   "variants": [
+    "Aws Cli"
+   ],
+   "relations": [
+    "related:aws"
+   ]
+  },
+  {
+   "key": "aws-elastic-beanstalk",
+   "name": "AWS Elastic Beanstalk",
+   "class": "skill",
+   "kind": "platform",
+   "definition": "An Amazon Web Services service that deploys and scales web applications and handles provisioning, load balancing and monitoring.",
+   "certification": false,
+   "variants": [
+    "Elastic Beanstalk"
+   ],
+   "relations": []
+  },
+  {
+   "key": "aws-iot",
+   "name": "AWS IoT",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "Amazon Web Services' set of services for connecting Internet of Things devices to the cloud and managing the data they send.",
+   "certification": false,
+   "variants": [
+    "AWS Internet of Things (IoT)"
+   ],
+   "relations": []
+  },
+  {
+   "key": "aws-lambda",
+   "name": "AWS Lambda",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "An Amazon Web Services compute service that runs code in response to events without the user provisioning or managing servers.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "aws-networking",
+   "name": "AWS networking",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Designing and operating network connectivity on Amazon Web Services, using services such as Virtual Private Cloud, Route 53 and Direct Connect.",
+   "certification": false,
+   "variants": [],
+   "relations": [
+    "broader:computer-networking"
+   ]
+  },
+  {
+   "key": "aws-opsworks",
+   "name": "AWS OpsWorks",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "An Amazon Web Services configuration management service that uses Chef and Puppet to automate how servers are configured and deployed.",
+   "certification": false,
+   "variants": [
+    "Opsworks"
+   ],
+   "relations": []
+  },
+  {
+   "key": "aws-outposts",
+   "name": "AWS Outposts",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "An Amazon Web Services offering that installs AWS-managed infrastructure and services in a customer's own data center or facility.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "aws-sdk",
+   "name": "AWS SDK",
+   "class": "skill",
+   "kind": "library",
+   "definition": "Amazon Web Services' software development kits, available for languages such as JavaScript, Python, Java and Go, for calling AWS services from application code.",
+   "certification": false,
+   "variants": [
+    "AWS SDKs"
+   ],
+   "relations": [
+    "related:aws"
+   ]
+  },
+  {
+   "key": "aws-serverless",
+   "name": "AWS serverless",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Building and running applications on Amazon Web Services with managed, event-driven services such as AWS Lambda, without provisioning or managing servers.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "axios",
+   "name": "Axios",
+   "class": "skill",
+   "kind": "library",
+   "definition": "A promise-based JavaScript HTTP client library for web browsers and Node.js.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "azure-application-insights",
+   "name": "Azure Application Insights",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "A Microsoft Azure application performance monitoring service that collects telemetry such as requests, failures and traces from running applications.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "azure-cognitive-services",
+   "name": "Azure Cognitive Services",
+   "class": "skill",
+   "kind": "platform",
+   "definition": "A set of Microsoft cloud APIs for adding vision, speech, language and decision-making features to applications.",
+   "certification": false,
+   "variants": [
+    "Microsoft Cognitive Services",
+    "Azure AI services"
+   ],
+   "relations": []
+  },
+  {
+   "key": "azure-data-factory",
+   "name": "Azure Data Factory",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "A Microsoft Azure cloud service for building and scheduling data-integration pipelines that move and transform data.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "azure-devops",
+   "name": "Azure DevOps",
+   "class": "skill",
+   "kind": "platform",
+   "definition": "Microsoft's set of services for planning work, hosting code, and building, testing and releasing software, including Boards, Repos and Pipelines.",
+   "certification": false,
+   "variants": [],
+   "relations": [
+    "related:devops"
+   ]
+  },
+  {
+   "key": "azure-iot",
+   "name": "Azure IoT",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "Microsoft Azure's set of services, such as IoT Hub and IoT Central, for connecting Internet of Things devices to the cloud and managing the data they send.",
+   "certification": false,
+   "variants": [
+    "Azure Internet of Things (IoT)",
+    "Azure Internet of Things"
+   ],
+   "relations": []
+  },
+  {
+   "key": "azure-monitor",
+   "name": "Azure Monitor",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "A Microsoft Azure service that collects, analyses and acts on metrics, logs and other telemetry from cloud and on-premises resources.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "azure-policy",
+   "name": "Azure Policy",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "A Microsoft Azure service that defines and enforces rules on cloud resources so that they stay compliant with an organisation's standards.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "azure-security",
+   "name": "Azure Security",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Securing workloads and data on Microsoft Azure using its security services and controls, such as identity and access management, key management and network protection.",
+   "certification": false,
+   "variants": [],
+   "relations": [
+    "broader:cybersecurity"
+   ]
+  },
+  {
+   "key": "b-tree",
+   "name": "B-tree",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "A self-balancing tree data structure that keeps sorted data in nodes with many children, widely used for indexes in databases and file systems.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "babylon-js",
+   "name": "Babylon.js",
+   "class": "skill",
+   "kind": "framework",
+   "definition": "An open-source JavaScript and TypeScript engine for building 3D graphics, games and interactive experiences in web browsers.",
+   "certification": false,
+   "variants": [
+    "Babylonjs"
+   ],
+   "relations": []
+  }
+ ]
+}
