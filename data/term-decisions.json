@@ -2166,5 +2166,389 @@
   "run": "2026-10-29-round-03-a3",
   "date": "2026-10-29",
   "reason": "A job title, not a skill."
+ },
+ {
+  "term": "Cybercrime",
+  "decision": "not_a_skill",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-03-a4",
+  "date": "2026-10-29",
+  "reason": "A category of crime, not a capacity a person has; the skills are things like cybercrime investigation."
+ },
+ {
+  "term": "Damage Waiver",
+  "decision": "not_a_skill",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-03-a4",
+  "date": "2026-10-29",
+  "reason": "An optional rental-car or equipment-hire charge, not a skill."
+ },
+ {
+  "term": "Darkroom",
+  "decision": "unsure",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-03-a4",
+  "date": "2026-10-29",
+  "reason": "It could mean photographic darkroom work, a room, or one of several apps named Darkroom, and nothing here says which."
+ },
+ {
+  "term": "Data Access",
+  "decision": "unsure",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-03-a4",
+  "date": "2026-10-29",
+  "reason": "The phrase covers several things (a data-access layer in code, database access, permission to see data) and nothing here says which."
+ },
+ {
+  "term": "Data Availability",
+  "decision": "unsure",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-03-a4",
+  "date": "2026-10-29",
+  "reason": "It names a property of data (or a research-reporting requirement) rather than clearly a skill, so a person should decide."
+ },
+ {
+  "term": "Data Banking",
+  "decision": "unsure",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-03-a4",
+  "date": "2026-10-29",
+  "reason": "I do not know a settled meaning for this phrase as a skill."
+ },
+ {
+  "term": "Data Capture (SQL)",
+  "decision": "unsure",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-03-a4",
+  "date": "2026-10-29",
+  "reason": "The SQL qualifier suggests a database-specific capture technique, but I cannot tell which one is meant."
+ },
+ {
+  "term": "Data Interfaces",
+  "decision": "unsure",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-03-a4",
+  "date": "2026-10-29",
+  "reason": "The phrase is too generic to tell whether it means APIs, screens, file exchange or something else."
+ },
+ {
+  "term": "Data Loss",
+  "decision": "not_a_skill",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-03-a4",
+  "date": "2026-10-29",
+  "reason": "An event or condition, not a skill; the skills are things like data loss prevention or recovery."
+ },
+ {
+  "term": "Database Scan",
+  "decision": "unsure",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-03-a4",
+  "date": "2026-10-29",
+  "reason": "It could mean a security or vulnerability scan of a database, a table scan in query processing, or something else."
+ },
+ {
+  "term": "DataHub (Software)",
+  "decision": "unsure",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-03-a4",
+  "date": "2026-10-29",
+  "reason": "Several different products are called DataHub (a metadata platform, SAP and Cloudera offerings), and nothing here says which."
+ },
+ {
+  "term": "Datetime",
+  "decision": "unsure",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-03-a4",
+  "date": "2026-10-29",
+  "reason": "It names a date-and-time data type or library in many languages rather than one clear skill."
+ },
+ {
+  "term": "Dayi (Language)",
+  "decision": "unsure",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-03-a4",
+  "date": "2026-10-29",
+  "reason": "I cannot confidently identify which language 'Dayi' denotes."
+ },
+ {
+  "term": "Dbgrid",
+  "decision": "unsure",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-03-a4",
+  "date": "2026-10-29",
+  "reason": "Several unrelated data-grid components are called DBGrid (for example in Delphi and Visual Basic), and nothing here says which."
+ },
+ {
+  "term": "Dbxpert (SQL Programming Tool)",
+  "decision": "unsure",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-03-a4",
+  "date": "2026-10-29",
+  "reason": "I do not recognise this tool well enough to define it."
+ },
+ {
+  "term": "Dds",
+  "decision": "unsure",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-03-a4",
+  "date": "2026-10-29",
+  "reason": "The abbreviation could mean Doctor of Dental Surgery, Data Distribution Service, or other things, and nothing here says which."
+ },
+ {
+  "term": "Dealer Finance",
+  "decision": "unsure",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-03-a4",
+  "date": "2026-10-29",
+  "reason": "It could mean customer loans arranged through car dealers or financing provided to dealers, and nothing here says which."
+ },
+ {
+  "term": "Decking",
+  "decision": "unsure",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-03-a4",
+  "date": "2026-10-29",
+  "reason": "It could mean building outdoor decks, installing metal floor or roof decking, or other trades, and nothing here says which."
+ },
+ {
+  "term": "Decoupling",
+  "decision": "unsure",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-03-a4",
+  "date": "2026-10-29",
+  "reason": "The word is used in software design, electronics and economics, and nothing here says which is meant."
+ },
+ {
+  "term": "Deliver Orders",
+  "decision": "unsure",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-03-a4",
+  "date": "2026-10-29",
+  "reason": "It is a task phrase (taking goods or food to customers) and I cannot tell whether it counts as a skill in this dictionary."
+ },
+ {
+  "term": "Dementia",
+  "decision": "not_a_skill",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-03-a4",
+  "date": "2026-10-29",
+  "reason": "A medical condition, not a skill; the skill is something like dementia care."
+ },
+ {
+  "term": "Demos",
+  "decision": "unsure",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-03-a4",
+  "date": "2026-10-29",
+  "reason": "It could mean product demonstrations, software demos or demo recordings, and nothing here says which."
+ },
+ {
+  "term": "Dependent Variables",
+  "decision": "not_a_skill",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-03-a4",
+  "date": "2026-10-29",
+  "reason": "A general statistics term for what an experiment measures, not a skill."
+ },
+ {
+  "term": "Deposition",
+  "decision": "unsure",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-03-a4",
+  "date": "2026-10-29",
+  "reason": "It could mean legal depositions, geological or thin-film deposition, or a financial deposit, and nothing here says which."
+ },
+ {
+  "term": "DNA Collections",
+  "decision": "unsure",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-03-a4",
+  "date": "2026-10-29",
+  "reason": "It could mean collecting DNA samples or holding repositories of DNA material, and nothing here says which."
+ },
+ {
+  "term": "DNA Glycosylase",
+  "decision": "not_a_skill",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-03-a4",
+  "date": "2026-10-29",
+  "reason": "The name of an enzyme class, not a skill or a field of work."
+ },
+ {
+  "term": "DOT Certification",
+  "decision": "unsure",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-03-a4",
+  "date": "2026-10-29",
+  "reason": "It covers several different US Department of Transportation credentials (driver medical card, hazmat, drug testing and others), and nothing here says which."
+ },
+ {
+  "term": "DOTS",
+  "decision": "unsure",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-03-a4",
+  "date": "2026-10-29",
+  "reason": "The abbreviation could mean directly observed treatment (tuberculosis), a software stack or something else, and nothing here says which."
+ },
+ {
+  "term": "DXL Calscan Workstation X-Ray Software",
+  "decision": "unsure",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-03-a4",
+  "date": "2026-10-29",
+  "reason": "I recognise only that DXL Calscan is a bone-density X-ray system, not enough to define its workstation software."
+ },
+ {
+  "term": "Compact File Set (CFS)",
+  "decision": "unsure",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-03-a2",
+  "date": "2026-10-29",
+  "reason": "I do not recognise this term and cannot say what it refers to."
+ },
+ {
+  "term": "Compiling Tools",
+  "decision": "unsure",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-03-a2",
+  "date": "2026-10-29",
+  "reason": "Could mean compilers, build tools or the act of compiling; the phrase is too vague to define."
+ },
+ {
+  "term": "Complex Web Systems",
+  "decision": "not_a_skill",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-03-a2",
+  "date": "2026-10-29",
+  "reason": "A generic description of the systems someone works on, not a defined skill."
+ },
+ {
+  "term": "Composition",
+  "decision": "unsure",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-03-a2",
+  "date": "2026-10-29",
+  "reason": "A single generic word that could mean music, writing, photography or software, with no context to choose."
+ },
+ {
+  "term": "Compositions",
+  "decision": "unsure",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-03-a2",
+  "date": "2026-10-29",
+  "reason": "A single generic word that could mean music, writing, photography or software, with no context to choose."
+ },
+ {
+  "term": "CompTIA Strata - Network Technology Engineer",
+  "decision": "unsure",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-03-a2",
+  "date": "2026-10-29",
+  "reason": "I know CompTIA Strata as a brand of entry-level CompTIA certifications but cannot confirm this credential exists or say what it covers."
+ },
+ {
+  "term": "CompTIA Strata - PC Functionality",
+  "decision": "unsure",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-03-a2",
+  "date": "2026-10-29",
+  "reason": "I know CompTIA Strata as a brand of entry-level CompTIA certifications but cannot confirm this credential exists or say what it covers."
+ },
+ {
+  "term": "CompTIA Strata - PC Hardware Technology Engineer",
+  "decision": "unsure",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-03-a2",
+  "date": "2026-10-29",
+  "reason": "I know CompTIA Strata as a brand of entry-level CompTIA certifications but cannot confirm this credential exists or say what it covers."
+ },
+ {
+  "term": "CompTIA Strata - PC Operating System Engineer",
+  "decision": "unsure",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-03-a2",
+  "date": "2026-10-29",
+  "reason": "I know CompTIA Strata as a brand of entry-level CompTIA certifications but cannot confirm this credential exists or say what it covers."
+ },
+ {
+  "term": "CompTIA Strata - PC Technology",
+  "decision": "unsure",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-03-a2",
+  "date": "2026-10-29",
+  "reason": "I know CompTIA Strata as a brand of entry-level CompTIA certifications but cannot confirm this credential exists or say what it covers."
+ },
+ {
+  "term": "Concussions",
+  "decision": "not_a_skill",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-03-a2",
+  "date": "2026-10-29",
+  "reason": "A medical condition, not a skill."
+ },
+ {
+  "term": "Conditioners (Farming)",
+  "decision": "unsure",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-03-a2",
+  "date": "2026-10-29",
+  "reason": "Could mean hay conditioner machines or soil conditioning products; I cannot tell which skill or tool is meant."
+ },
+ {
+  "term": "Conductor Certification",
+  "decision": "unsure",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-03-a2",
+  "date": "2026-10-29",
+  "reason": "Could mean a railroad conductor certification or something else, and I cannot tell which body issues it."
+ },
+ {
+  "term": "Confluence (Physical Geography)",
+  "decision": "not_a_skill",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-03-a2",
+  "date": "2026-10-29",
+  "reason": "The meeting point of two rivers in physical geography, not a skill and unrelated to the Confluence wiki."
+ },
+ {
+  "term": "Confrontational",
+  "decision": "not_a_skill",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-03-a2",
+  "date": "2026-10-29",
+  "reason": "An adjective describing a personality or style, not a skill."
+ },
+ {
+  "term": "Console System Interface",
+  "decision": "unsure",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-03-a2",
+  "date": "2026-10-29",
+  "reason": "I do not recognise this as a specific product or standard and the phrase is too vague to define."
+ },
+ {
+  "term": "Consolidated Media Reports",
+  "decision": "unsure",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-03-a2",
+  "date": "2026-10-29",
+  "reason": "Probably a work product, such as a compiled media summary, but I cannot tell what skill is meant."
+ },
+ {
+  "term": "Content Assist",
+  "decision": "not_a_skill",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-03-a2",
+  "date": "2026-10-29",
+  "reason": "A code-completion feature of an IDE, a UI element rather than a skill."
+ },
+ {
+  "term": "Content Editor",
+  "decision": "not_a_skill",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-03-a2",
+  "date": "2026-10-29",
+  "reason": "A job title (or an interface element of a content system), not a skill."
  }
 ]

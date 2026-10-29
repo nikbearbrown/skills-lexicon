@@ -11,6 +11,10 @@
   {
    "label": "lineage",
    "match": "word_ci"
+  },
+  {
+   "label": "Data Lineage",
+   "match": "word_ci"
   }
  ],
  "relations": [],
@@ -47,6 +51,14 @@
    "date": "2026-10-29",
    "run": "2026-10-29-review-2c-opus",
    "note": "Bare word ambiguous (genealogy, cell lineage); data lineage is related, not identical."
+  },
+  {
+   "field": "variant:data lineage",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-29",
+   "run": "2026-10-29-round-03-a4",
+   "note": "same concept as Data provenance, listed in the legacy tag list"
   }
  ]
 }

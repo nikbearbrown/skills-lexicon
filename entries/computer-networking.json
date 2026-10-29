@@ -15,6 +15,10 @@
   {
    "label": "network protocols",
    "match": "word_ci"
+  },
+  {
+   "label": "Computer Networking Systems",
+   "match": "word_ci"
   }
  ],
  "relations": [],
@@ -59,6 +63,14 @@
    "date": "2026-10-29",
    "run": "2026-10-29-review-2c-opus",
    "note": "Narrower subtopic (protocols), not a synonym for networking."
+  },
+  {
+   "field": "variant:computer networking systems",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-29",
+   "run": "2026-10-29-round-03-a2",
+   "note": "same concept as Computer networking, listed in the legacy tag list"
   }
  ]
 }

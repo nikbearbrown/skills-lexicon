@@ -11,6 +11,10 @@
   {
    "label": "network security",
    "match": "word_ci"
+  },
+  {
+   "label": "Computer Security",
+   "match": "word_ci"
   }
  ],
  "relations": [],
@@ -47,6 +51,14 @@
    "date": "2026-10-29",
    "run": "2026-10-29-review-2c-opus",
    "note": "Narrower subfield of cybersecurity, not a synonym."
+  },
+  {
+   "field": "variant:computer security",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-29",
+   "run": "2026-10-29-round-03-a2",
+   "note": "same concept as Cybersecurity, listed in the legacy tag list"
   }
  ]
 }

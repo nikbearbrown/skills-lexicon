@@ -8,7 +8,12 @@
  "definition": "A CompTIA certification covering the management and support of mobile devices and the systems that manage them.",
  "key": "comptia-mobility",
  "certification": true,
- "variants": [],
+ "variants": [
+  {
+   "label": "CompTIA Mobility+ CE",
+   "match": "word_ci"
+  }
+ ],
  "relations": [],
  "verbs": [],
  "status": "machine-drafted",
@@ -148,6 +153,14 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "2026-10-29-review-1-opus"
+  },
+  {
+   "field": "variant:comptia mobility+ ce",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-29",
+   "run": "2026-10-29-round-03-a2",
+   "note": "same concept as CompTIA Mobility+, listed in the legacy tag list"
   }
  ],
  "certification_scope": "single-issuer",
