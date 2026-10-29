@@ -1,0 +1,103 @@
+{
+ "id": "y5tixyhegu",
+ "preferred_name": "VHDL",
+ "kind": "modeling-language",
+ "definition": "A hardware description language, standardized by the IEEE, used to model and design digital circuits; the name abbreviates VHSIC Hardware Description Language.",
+ "key": "vhdl",
+ "name_match": "exact_case",
+ "certification": false,
+ "language_type": "programming",
+ "variants": [
+  {
+   "label": "Vhdl (Programming Language)",
+   "match": "word_ci"
+  },
+  {
+   "label": "VHSIC Hardware Description Language",
+   "match": "word_ci"
+  }
+ ],
+ "relations": [],
+ "verbs": [
+  "write"
+ ],
+ "status": "machine-drafted",
+ "provenance": {
+  "source": "drafted by model:claude-sonnet-5-5, run 2026-10-29-round-09-a2, from the name in the legacy tag list alone; no posting or outside source checked",
+  "date": "2026-10-29",
+  "reviewed_by": null,
+  "legacy_tag": {
+   "sources": [
+    {
+     "file": "data/skills-language.csv",
+     "rows": [
+      293
+     ],
+     "class": "Language"
+    }
+   ],
+   "class": "Language",
+   "in_lists": [
+    "language"
+   ]
+  }
+ },
+ "evidence": [
+  {
+   "field": "definition",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-29",
+   "run": "2026-10-29-round-09-a2",
+   "note": "basis: general-knowledge"
+  },
+  {
+   "field": "kind",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-29",
+   "run": "2026-10-29-round-09-a2",
+   "note": "basis: general-knowledge (with the definition)"
+  },
+  {
+   "field": "variant:vhdl (programming language)",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-29",
+   "run": "2026-10-29-round-09-a2",
+   "note": "listed in the legacy tag list; the model chose the canonical name"
+  },
+  {
+   "field": "variant:vhsic hardware description language",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-29",
+   "run": "2026-10-29-round-09-a2",
+   "note": "basis: general-knowledge"
+  },
+  {
+   "field": "verb:write",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-29",
+   "run": "2026-10-29-round-09-a2",
+   "note": "basis: general-knowledge"
+  },
+  {
+   "field": "certification",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-29",
+   "run": "2026-10-29-round-09-a2",
+   "note": "basis: general-knowledge"
+  },
+  {
+   "field": "language_type",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-29",
+   "run": "2026-10-29-round-09-a2",
+   "note": "basis: general-knowledge"
+  }
+ ]
+}

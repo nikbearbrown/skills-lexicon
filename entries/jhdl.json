@@ -15,6 +15,10 @@
   {
    "label": "Just-Another Hardware Description Language",
    "match": "word_ci"
+  },
+  {
+   "label": "Just-another Hardware Description Language (jhdl)  (Programming Language)",
+   "match": "word_ci"
   }
  ],
  "relations": [
@@ -155,6 +159,14 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "2026-10-29-review-3d-opus"
+  },
+  {
+   "field": "variant:just-another hardware description language (jhdl) (programming language)",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-29",
+   "run": "2026-10-29-round-09-a2",
+   "note": "same concept as JHDL, listed in the legacy tag list"
   }
  ]
 }

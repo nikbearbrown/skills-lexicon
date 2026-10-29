@@ -18,6 +18,10 @@
   {
    "label": "Swazi",
    "match": "word_ci"
+  },
+  {
+   "label": "Siswati (swazi) (Language)",
+   "match": "word_ci"
   }
  ],
  "relations": [],
@@ -106,6 +110,14 @@
    "date": "2026-10-29",
    "run": "2026-10-29-round-08-a1",
    "note": "basis: general-knowledge"
+  },
+  {
+   "field": "variant:siswati (swazi) (language)",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-29",
+   "run": "2026-10-29-round-09-a2",
+   "note": "same concept as Swati, listed in the legacy tag list"
   }
  ]
 }

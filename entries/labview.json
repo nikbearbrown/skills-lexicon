@@ -1,0 +1,82 @@
+{
+ "id": "if66i05y4n",
+ "preferred_name": "LabVIEW",
+ "kind": "tool",
+ "definition": "National Instruments' graphical programming environment, in which programs are built by wiring together icons, used for test, measurement and control.",
+ "key": "labview",
+ "certification": false,
+ "notes": "The model says this is not a language; the legacy list/class says it is. LabVIEW is a development environment; the graphical language it uses is called G, not LabVIEW.",
+ "variants": [
+  {
+   "label": "Labview (Programming Language)",
+   "match": "word_ci"
+  }
+ ],
+ "relations": [],
+ "verbs": [
+  "develop"
+ ],
+ "status": "machine-drafted",
+ "provenance": {
+  "source": "drafted by model:claude-sonnet-5-5, run 2026-10-29-round-09-a2, from the name in the legacy tag list alone; no posting or outside source checked",
+  "date": "2026-10-29",
+  "reviewed_by": null,
+  "legacy_tag": {
+   "sources": [
+    {
+     "file": "data/skills-language.csv",
+     "rows": [
+      162
+     ],
+     "class": "Language"
+    }
+   ],
+   "class": "Language",
+   "in_lists": [
+    "language"
+   ]
+  }
+ },
+ "evidence": [
+  {
+   "field": "definition",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-29",
+   "run": "2026-10-29-round-09-a2",
+   "note": "basis: general-knowledge"
+  },
+  {
+   "field": "kind",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-29",
+   "run": "2026-10-29-round-09-a2",
+   "note": "basis: general-knowledge (with the definition)"
+  },
+  {
+   "field": "variant:labview (programming language)",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-29",
+   "run": "2026-10-29-round-09-a2",
+   "note": "listed in the legacy tag list; the model chose the canonical name"
+  },
+  {
+   "field": "verb:develop",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-29",
+   "run": "2026-10-29-round-09-a2",
+   "note": "basis: general-knowledge"
+  },
+  {
+   "field": "certification",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-29",
+   "run": "2026-10-29-round-09-a2",
+   "note": "basis: general-knowledge"
+  }
+ ]
+}

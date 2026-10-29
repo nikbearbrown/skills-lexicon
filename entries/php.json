@@ -12,6 +12,10 @@
   {
    "label": "PHP (Scripting Language)",
    "match": "word_ci"
+  },
+  {
+   "label": "PHP (Programming Language)",
+   "match": "word_ci"
   }
  ],
  "relations": [],
@@ -46,6 +50,14 @@
    "action": "drafted",
    "date": "2026-10-29",
    "run": "2026-10-29-round-07-a1",
+   "note": "same concept as PHP, listed in the legacy tag list"
+  },
+  {
+   "field": "variant:php (programming language)",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-29",
+   "run": "2026-10-29-round-09-a2",
    "note": "same concept as PHP, listed in the legacy tag list"
   }
  ]

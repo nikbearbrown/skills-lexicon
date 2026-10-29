@@ -9254,5 +9254,37 @@
   "run": "2026-10-29-round-08-a2",
   "date": "2026-10-29",
   "reason": "Could be Microsoft's older UML modelling tool or another modelling product; cannot tell which."
+ },
+ {
+  "term": "Adapter Scripting Language  (Programming Language)",
+  "decision": "unsure",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-09-a2",
+  "date": "2026-10-29",
+  "reason": "I do not know what a language called Adapter Scripting Language is, so I cannot define it."
+ },
+ {
+  "term": "Alice (Programming Language)",
+  "decision": "unsure",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-09-a2",
+  "date": "2026-10-29",
+  "reason": "Alice names both an educational 3D programming environment from Carnegie Mellon and a Standard ML dialect (Alice ML), and nothing here says which is meant."
+ },
+ {
+  "term": "M Programming Language (Programming Language)",
+  "decision": "unsure",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-09-a2",
+  "date": "2026-10-29",
+  "reason": "M is an alternate name for MUMPS and also the name of the Power Query formula language, and nothing here says which is meant."
+ },
+ {
+  "term": "Unified Modeling Languages (Programming Language)",
+  "decision": "unsure",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-09-a2",
+  "date": "2026-10-29",
+  "reason": "This is almost certainly the same concept as the existing UML entry (id va052jqj8q), which is not among the nearest entries I was shown, so I cannot name it as variant_of; a person should merge it."
  }
 ]

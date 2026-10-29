@@ -11,6 +11,10 @@
   {
    "label": "Engelska",
    "match": "word_ci"
+  },
+  {
+   "label": "English (Language)",
+   "match": "word_ci"
   }
  ],
  "relations": [],
@@ -46,6 +50,14 @@
    "action": "drafted",
    "date": "2026-10-29",
    "run": "2026-10-29-round-04-a3",
+   "note": "same concept as English, listed in the legacy tag list"
+  },
+  {
+   "field": "variant:english (language)",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-29",
+   "run": "2026-10-29-round-09-a2",
    "note": "same concept as English, listed in the legacy tag list"
   }
  ]

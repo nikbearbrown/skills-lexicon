@@ -16,6 +16,10 @@
   {
    "label": "C Sharp (Programming Language)",
    "match": "word_ci"
+  },
+  {
+   "label": "C# (Programming Language)",
+   "match": "word_ci"
   }
  ],
  "relations": [],
@@ -60,6 +64,14 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "2026-10-29-review-2c-opus"
+  },
+  {
+   "field": "variant:c# (programming language)",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-29",
+   "run": "2026-10-29-round-09-a2",
+   "note": "same concept as C#, listed in the legacy tag list"
   }
  ]
 }

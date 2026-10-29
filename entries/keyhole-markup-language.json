@@ -14,6 +14,10 @@
   {
    "label": "KML",
    "match": "exact_case"
+  },
+  {
+   "label": "Keyhole Markup Languages (Programming Language)",
+   "match": "word_ci"
   }
  ],
  "relations": [],
@@ -133,6 +137,14 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "2026-10-29-review-3d-opus"
+  },
+  {
+   "field": "variant:keyhole markup languages (programming language)",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-29",
+   "run": "2026-10-29-round-09-a2",
+   "note": "same concept as Keyhole Markup Language, listed in the legacy tag list"
   }
  ]
 }

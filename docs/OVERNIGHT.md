@@ -68,3 +68,5 @@ Every certification, language and ability entry drafted from the tag lists has n
 - Spend at the stop: about $114 on the pessimistic estimate (reported $60.21 for the main session plus $53.79 estimated for subagents, Opus priced at five times Sonnet).
 
 | round 08 | 08-a1, 08-a2, 08-a3, 08-a4 | 595 new | 13 variants | 95 not a skill | 90 unsure | 7 rejected | 3341 entries in all |
+
+| round 09 | 09-a1, 09-a2 | 347 new | 44 variants | 0 not a skill | 4 unsure | 4 rejected | 3688 entries in all |

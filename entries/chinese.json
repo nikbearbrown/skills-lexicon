@@ -10,6 +10,10 @@
   {
    "label": "Chinese Language",
    "match": "word_ci"
+  },
+  {
+   "label": "Chinese (Language)",
+   "match": "word_ci"
   }
  ],
  "relations": [],
@@ -113,6 +117,14 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "2026-10-29-review-3d-opus"
+  },
+  {
+   "field": "variant:chinese (language)",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-29",
+   "run": "2026-10-29-round-09-a2",
+   "note": "same concept as Chinese, listed in the legacy tag list"
   }
  ]
 }
