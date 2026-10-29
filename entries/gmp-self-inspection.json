@@ -1,0 +1,79 @@
+{
+ "id": "fijvbfas62",
+ "preferred_name": "GMP self-inspection",
+ "kind": "method",
+ "definition": "An internal inspection a manufacturer carries out to check its own operations against good manufacturing practice requirements.",
+ "key": "gmp-self-inspection",
+ "certification": false,
+ "variants": [
+  {
+   "label": "GMP Self Inspection",
+   "match": "word_ci"
+  }
+ ],
+ "relations": [],
+ "verbs": [
+  "conduct"
+ ],
+ "status": "machine-drafted",
+ "provenance": {
+  "source": "drafted by model:claude-sonnet-5-5, run 2026-10-29-round-05-a1, from the name in the legacy tag list alone; no posting or outside source checked",
+  "date": "2026-10-29",
+  "reviewed_by": null,
+  "legacy_tag": {
+   "sources": [
+    {
+     "file": "data/skills_tags.csv",
+     "rows": [
+      1719
+     ],
+     "class": "Skill"
+    }
+   ],
+   "class": "Skill",
+   "in_lists": []
+  }
+ },
+ "evidence": [
+  {
+   "field": "definition",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-29",
+   "run": "2026-10-29-round-05-a1",
+   "note": "basis: general-knowledge"
+  },
+  {
+   "field": "kind",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-29",
+   "run": "2026-10-29-round-05-a1",
+   "note": "basis: general-knowledge (with the definition)"
+  },
+  {
+   "field": "variant:gmp self inspection",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-29",
+   "run": "2026-10-29-round-05-a1",
+   "note": "listed in the legacy tag list; the model chose the canonical name"
+  },
+  {
+   "field": "verb:conduct",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-29",
+   "run": "2026-10-29-round-05-a1",
+   "note": "basis: general-knowledge"
+  },
+  {
+   "field": "certification",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-29",
+   "run": "2026-10-29-round-05-a1",
+   "note": "basis: general-knowledge"
+  }
+ ]
+}

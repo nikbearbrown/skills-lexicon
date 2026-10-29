@@ -3622,5 +3622,189 @@
   "run": "2026-10-29-round-04-a1",
   "date": "2026-10-29",
   "reason": "A court's list of cases or a record of one, not a skill."
+ },
+ {
+  "term": "Floor Area",
+  "decision": "not_a_skill",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-05-a1",
+  "date": "2026-10-29",
+  "reason": "A measurement of a building or room, not a skill."
+ },
+ {
+  "term": "Floor Care Technician",
+  "decision": "not_a_skill",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-05-a1",
+  "date": "2026-10-29",
+  "reason": "A job title."
+ },
+ {
+  "term": "Fluid Hyper Text Markup Language (FHTML)",
+  "decision": "unsure",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-05-a1",
+  "date": "2026-10-29",
+  "reason": "I do not recognise FHTML as an established markup language and will not guess a definition."
+ },
+ {
+  "term": "Flutter Valves",
+  "decision": "unsure",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-05-a1",
+  "date": "2026-10-29",
+  "reason": "It could mean valve flutter (a valve instability) or a type of valve; I cannot tell which is meant."
+ },
+ {
+  "term": "Fluvial",
+  "decision": "not_a_skill",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-05-a1",
+  "date": "2026-10-29",
+  "reason": "An adjective meaning relating to rivers, not a skill by itself."
+ },
+ {
+  "term": "Flux",
+  "decision": "unsure",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-05-a1",
+  "date": "2026-10-29",
+  "reason": "Ambiguous: could be the Flux GitOps tool, the Flux UI pattern, solder flux, the physics quantity or others."
+ },
+ {
+  "term": "Focusing",
+  "decision": "not_a_skill",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-05-a1",
+  "date": "2026-10-29",
+  "reason": "A generic word with several unrelated meanings."
+ },
+ {
+  "term": "Foods",
+  "decision": "not_a_skill",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-05-a1",
+  "date": "2026-10-29",
+  "reason": "A generic plural word, at most a school subject name."
+ },
+ {
+  "term": "Forensic Examiner Certification",
+  "decision": "unsure",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-05-a1",
+  "date": "2026-10-29",
+  "reason": "Names no issuing body or discipline; forensic examiner certificates exist in several fields from several bodies."
+ },
+ {
+  "term": "Forge",
+  "decision": "unsure",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-05-a1",
+  "date": "2026-10-29",
+  "reason": "Ambiguous: Minecraft Forge, Laravel Forge, Autodesk Forge, Atlassian Forge or metal forging."
+ },
+ {
+  "term": "Forming",
+  "decision": "unsure",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-05-a1",
+  "date": "2026-10-29",
+  "reason": "Ambiguous: could be metal forming, plastics forming or an ordinary word."
+ },
+ {
+  "term": "Free Trade Zones",
+  "decision": "unsure",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-05-a1",
+  "date": "2026-10-29",
+  "reason": "Names a type of place; whether it means customs and trade-compliance knowledge needs a person to decide."
+ },
+ {
+  "term": "Freezing",
+  "decision": "not_a_skill",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-05-a1",
+  "date": "2026-10-29",
+  "reason": "A generic word with several unrelated meanings."
+ },
+ {
+  "term": "Frege",
+  "decision": "unsure",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-05-a1",
+  "date": "2026-10-29",
+  "reason": "Could be the Frege programming language for the JVM or the philosopher Gottlob Frege."
+ },
+ {
+  "term": "Fresh Product",
+  "decision": "not_a_skill",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-05-a1",
+  "date": "2026-10-29",
+  "reason": "A generic product category, not a skill."
+ },
+ {
+  "term": "Full Option Science Systems",
+  "decision": "unsure",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-05-a1",
+  "date": "2026-10-29",
+  "reason": "A named K-8 science curriculum (FOSS), but none of the allowed kinds clearly fits a curriculum."
+ },
+ {
+  "term": "Funcitonal Process",
+  "decision": "unsure",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-05-a1",
+  "date": "2026-10-29",
+  "reason": "A misspelt phrase; it may be the function-point sizing term or a generic phrase, and I cannot tell which."
+ },
+ {
+  "term": "Fundamental Modeling Concepts",
+  "decision": "unsure",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-05-a1",
+  "date": "2026-10-29",
+  "reason": "May be the Fundamental Modeling Concepts (FMC) notation for software systems or just a generic phrase; I cannot tell."
+ },
+ {
+  "term": "Funnels",
+  "decision": "unsure",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-05-a1",
+  "date": "2026-10-29",
+  "reason": "Ambiguous: sales or marketing funnels, or the physical object."
+ },
+ {
+  "term": "Furnishing",
+  "decision": "not_a_skill",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-05-a1",
+  "date": "2026-10-29",
+  "reason": "A generic word for supplying furniture, not a skill."
+ },
+ {
+  "term": "Garmin",
+  "decision": "not_a_skill",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-05-a1",
+  "date": "2026-10-29",
+  "reason": "A company name."
+ },
+ {
+  "term": "Gastrointestinal Bleeding",
+  "decision": "not_a_skill",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-05-a1",
+  "date": "2026-10-29",
+  "reason": "A medical condition or symptom, not a skill."
+ },
+ {
+  "term": "GSM Services",
+  "decision": "unsure",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-05-a1",
+  "date": "2026-10-29",
+  "reason": "Probably telecom services on GSM networks, but the phrase is too vague to define confidently."
  }
 ]

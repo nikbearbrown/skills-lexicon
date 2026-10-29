@@ -1,0 +1,79 @@
+{
+ "id": "mrowqrn1dp",
+ "preferred_name": "GIS mapping",
+ "kind": "skill",
+ "definition": "Making and analysing maps with geographic information systems.",
+ "key": "gis-mapping",
+ "certification": false,
+ "variants": [],
+ "relations": [
+  {
+   "type": "related",
+   "target": "dob6za2tys"
+  }
+ ],
+ "verbs": [
+  "create"
+ ],
+ "status": "machine-drafted",
+ "provenance": {
+  "source": "drafted by model:claude-sonnet-5-5, run 2026-10-29-round-05-a1, from the name in the legacy tag list alone; no posting or outside source checked",
+  "date": "2026-10-29",
+  "reviewed_by": null,
+  "legacy_tag": {
+   "sources": [
+    {
+     "file": "data/skills_tags.csv",
+     "rows": [
+      1718
+     ],
+     "class": "Skill"
+    }
+   ],
+   "class": "Skill",
+   "in_lists": []
+  }
+ },
+ "evidence": [
+  {
+   "field": "definition",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-29",
+   "run": "2026-10-29-round-05-a1",
+   "note": "basis: general-knowledge"
+  },
+  {
+   "field": "kind",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-29",
+   "run": "2026-10-29-round-05-a1",
+   "note": "basis: general-knowledge (with the definition)"
+  },
+  {
+   "field": "relation:related:dob6za2tys",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-29",
+   "run": "2026-10-29-round-05-a1",
+   "note": "basis: general-knowledge"
+  },
+  {
+   "field": "verb:create",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-29",
+   "run": "2026-10-29-round-05-a1",
+   "note": "basis: general-knowledge"
+  },
+  {
+   "field": "certification",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-29",
+   "run": "2026-10-29-round-05-a1",
+   "note": "basis: general-knowledge"
+  }
+ ]
+}

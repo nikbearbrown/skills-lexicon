@@ -6,7 +6,12 @@
  "key": "family-nurse-practitioner",
  "certification": true,
  "certification_scope": "many-issuers",
- "variants": [],
+ "variants": [
+  {
+   "label": "Family Nursing Practitioner",
+   "match": "word_ci"
+  }
+ ],
  "relations": [
   {
    "type": "related",
@@ -74,6 +79,14 @@
    "date": "2026-10-29",
    "run": "2026-10-29-round-04-a4",
    "note": "basis: general-knowledge"
+  },
+  {
+   "field": "variant:family nursing practitioner",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-29",
+   "run": "2026-10-29-round-05-a1",
+   "note": "same concept as Family Nurse Practitioner, listed in the legacy tag list"
   }
  ]
 }

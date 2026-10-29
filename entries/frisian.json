@@ -1,0 +1,87 @@
+{
+ "id": "uj60c4yrr3",
+ "preferred_name": "Frisian",
+ "kind": "human-language",
+ "definition": "A group of closely related West Germanic languages spoken in the Netherlands and Germany, of which West Frisian is the most widely spoken.",
+ "key": "frisian",
+ "certification": false,
+ "language_type": "human",
+ "variants": [
+  {
+   "label": "Frisian (Language)",
+   "match": "word_ci"
+  }
+ ],
+ "relations": [],
+ "verbs": [],
+ "status": "machine-drafted",
+ "provenance": {
+  "source": "drafted by model:claude-sonnet-5-5, run 2026-10-29-round-05-a1, from the name in the legacy tag list alone; no posting or outside source checked",
+  "date": "2026-10-29",
+  "reviewed_by": null,
+  "legacy_tag": {
+   "sources": [
+    {
+     "file": "data/skills_tags.csv",
+     "rows": [
+      1692
+     ],
+     "class": "Language"
+    },
+    {
+     "file": "data/skills-language.csv",
+     "rows": [
+      103
+     ],
+     "class": "Language"
+    }
+   ],
+   "class": "Language",
+   "in_lists": [
+    "language"
+   ]
+  }
+ },
+ "evidence": [
+  {
+   "field": "definition",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-29",
+   "run": "2026-10-29-round-05-a1",
+   "note": "basis: general-knowledge"
+  },
+  {
+   "field": "kind",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-29",
+   "run": "2026-10-29-round-05-a1",
+   "note": "basis: general-knowledge (with the definition)"
+  },
+  {
+   "field": "variant:frisian (language)",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-29",
+   "run": "2026-10-29-round-05-a1",
+   "note": "listed in the legacy tag list; the model chose the canonical name"
+  },
+  {
+   "field": "certification",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-29",
+   "run": "2026-10-29-round-05-a1",
+   "note": "basis: general-knowledge"
+  },
+  {
+   "field": "language_type",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-29",
+   "run": "2026-10-29-round-05-a1",
+   "note": "basis: general-knowledge"
+  }
+ ]
+}

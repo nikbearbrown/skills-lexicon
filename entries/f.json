@@ -11,6 +11,10 @@
   {
    "label": "F Sharp",
    "match": "word_ci"
+  },
+  {
+   "label": "F Sharp (Programming Language)",
+   "match": "word_ci"
   }
  ],
  "relations": [],
@@ -74,6 +78,14 @@
    "date": "2026-10-29",
    "run": "2026-10-29-round-04-a4",
    "note": "basis: general-knowledge"
+  },
+  {
+   "field": "variant:f sharp (programming language)",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-29",
+   "run": "2026-10-29-round-05-a1",
+   "note": "same concept as F#, listed in the legacy tag list"
   }
  ]
 }
