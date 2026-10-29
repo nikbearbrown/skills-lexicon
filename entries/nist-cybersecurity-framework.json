@@ -99,6 +99,55 @@
    "run": "2026-10-29-round-06-a4",
    "note": "basis: general-knowledge; disagrees with the legacy list/class: The NIST Cybersecurity Framework is guidance published by NIST; no certification is awarded for it.",
    "flag": "disagrees_with_legacy"
+  },
+  {
+   "field": "definition",
+   "by": "model:claude-opus-5-5",
+   "action": "checked",
+   "outcome": "supports",
+   "date": "2026-10-29",
+   "run": "2026-10-29-review-5k-opus",
+   "note": "CSF 2.0 (2024) added a sixth function, Govern"
+  },
+  {
+   "field": "kind",
+   "by": "model:claude-opus-5-5",
+   "action": "checked",
+   "outcome": "supports",
+   "date": "2026-10-29",
+   "run": "2026-10-29-review-5k-opus"
+  },
+  {
+   "field": "certification",
+   "by": "model:claude-opus-5-5",
+   "action": "checked",
+   "outcome": "supports",
+   "date": "2026-10-29",
+   "run": "2026-10-29-review-5k-opus"
+  },
+  {
+   "field": "variant:nist cybersecurity framework (csf)",
+   "by": "model:claude-opus-5-5",
+   "action": "checked",
+   "outcome": "supports",
+   "date": "2026-10-29",
+   "run": "2026-10-29-review-5k-opus"
+  },
+  {
+   "field": "variant:nist csf",
+   "by": "model:claude-opus-5-5",
+   "action": "checked",
+   "outcome": "supports",
+   "date": "2026-10-29",
+   "run": "2026-10-29-review-5k-opus"
+  },
+  {
+   "field": "relation:related:norpz7ekiw",
+   "by": "model:claude-opus-5-5",
+   "action": "checked",
+   "outcome": "supports",
+   "date": "2026-10-29",
+   "run": "2026-10-29-review-5k-opus"
   }
  ]
 }

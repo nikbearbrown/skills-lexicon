@@ -86,6 +86,47 @@
    "run": "2026-10-29-round-06-a4",
    "note": "basis: general-knowledge; disagrees with the legacy list/class: The NIH Stroke Scale is a clinical scoring scale; training certificates exist for using it but are a separate concept.",
    "flag": "disagrees_with_legacy"
+  },
+  {
+   "field": "definition",
+   "by": "model:claude-opus-5-5",
+   "action": "checked",
+   "outcome": "supports",
+   "date": "2026-10-29",
+   "run": "2026-10-29-review-5k-opus"
+  },
+  {
+   "field": "kind",
+   "by": "model:claude-opus-5-5",
+   "action": "checked",
+   "outcome": "supports",
+   "date": "2026-10-29",
+   "run": "2026-10-29-review-5k-opus"
+  },
+  {
+   "field": "certification",
+   "by": "model:claude-opus-5-5",
+   "action": "checked",
+   "outcome": "supports",
+   "date": "2026-10-29",
+   "run": "2026-10-29-review-5k-opus",
+   "note": "the scale itself is not a credential; NIHSS certification is a separate thing"
+  },
+  {
+   "field": "variant:nih stroke scale (nihss)",
+   "by": "model:claude-opus-5-5",
+   "action": "checked",
+   "outcome": "supports",
+   "date": "2026-10-29",
+   "run": "2026-10-29-review-5k-opus"
+  },
+  {
+   "field": "variant:nihss",
+   "by": "model:claude-opus-5-5",
+   "action": "checked",
+   "outcome": "supports",
+   "date": "2026-10-29",
+   "run": "2026-10-29-review-5k-opus"
   }
  ]
 }

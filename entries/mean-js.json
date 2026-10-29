@@ -64,6 +64,39 @@
    "date": "2026-10-29",
    "run": "2026-10-29-round-07-a1",
    "note": "same concept as MEAN.JS, listed in the legacy tag list"
+  },
+  {
+   "field": "definition",
+   "by": "model:claude-opus-5-5",
+   "action": "checked",
+   "outcome": "supports",
+   "date": "2026-10-29",
+   "run": "2026-10-29-review-5j-opus",
+   "note": "Boilerplate/stack built on AngularJS 1.x rather than modern Angular; project now inactive."
+  },
+  {
+   "field": "kind",
+   "by": "model:claude-opus-5-5",
+   "action": "checked",
+   "outcome": "supports",
+   "date": "2026-10-29",
+   "run": "2026-10-29-review-5j-opus"
+  },
+  {
+   "field": "certification",
+   "by": "model:claude-opus-5-5",
+   "action": "checked",
+   "outcome": "supports",
+   "date": "2026-10-29",
+   "run": "2026-10-29-review-5j-opus"
+  },
+  {
+   "field": "variant:meanjs",
+   "by": "model:claude-opus-5-5",
+   "action": "checked",
+   "outcome": "supports",
+   "date": "2026-10-29",
+   "run": "2026-10-29-review-5j-opus"
   }
  ]
 }
