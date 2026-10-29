@@ -79,12 +79,28 @@ Every certification, language and ability entry drafted from the tag lists has n
 
 That is 604 entries and 6 contradictions (about 1 per 100), against 2 to 27 per 100 entries in the earlier reviews (mostly 4 to 10). Do not read this as the new entries being better. Most of the 432 certifications are degrees and certificates written from a template ("Master's in X", "PhD in X"), where one definition and one `certification_scope` fit every entry and the reviewer, a more agreeable role than the drafter, had nothing to catch. The reviewers' own reports say as much ("every entry follows one template"). The signal is in the `unsure` and `no` votes, which are many: associate transfer degrees and niche doctorates that listings rarely name (review 4a alone gave 18 `no` and 25 `unsure` votes on 120 entries, and 4e one more `unsure` on a dialect). Contradictions are listed in `docs/REVIEW-FLAGS.md`.
 
+## Second-model check of the skills (review 5)
+
+The last unchecked entries, the 2,134 skills drafted in rounds 1 to 9, were checked by 18 Opus reviewers (`review-5a-opus` to `review-5r-opus`, claude-opus-5-5 at xhigh, model and effort read from each transcript), three packets of 40 each (the last 94 entries).
+
+| | |
+|---|---|
+| Entries checked | 2,134 |
+| Claims judged `supports` | 7,748 |
+| Claims judged `contradicts` | 116 on 112 entries: 105 variants, 7 definitions, 2 kinds, 2 relations |
+| Claims judged `unsure` (nothing recorded) | 15 |
+| Votes on the entry | 1,885 yes, 67 no, 182 unsure |
+
+Almost all the contradictions are variants. Reviewers marked a variant bad when it is a misspelling or scraping leftover ("Softwares", "Anlysis", "Women'S…") or a short form that also means something else (DRM, DLL, CFCs, EDR, ETL). The 7 definitions are specific factual errors: wrong original vendor (Btrieve, Handle System, ShareFile, Source Insight, TIBCO Spotfire) and a wrong former name (HincII). The 2 kinds are iBeacon (a standard, not a platform) and Mechanical seal (a machine part, not a tool). Reviewers mostly accepted the kind of each entry, so `kind` is the claim a person should look at next: the `unsure` verdicts concentrate on `kind`, for things filed as a tool, method, library or standard that are really files, laws or specifications.
+
+As with the earlier reviews, a reviewer is more agreeable than a drafter, so a 98% `supports` rate is weak evidence; the contradictions, unsures and `no` votes are the signal. The first-pass drafts were not bad at the level a reviewer can see from memory. They may be wrong in ways memory cannot show, which is what the source-matching passes are for.
+
 ## End state
 
 - **3688 entries**: 2472 skill, 859 certification, 290 language, 67 ability (52 of them O*NET).
 - **15880 claims**; 104 are backed by a matched source (the O*NET abilities) and none by a person.
-- **6346 votes** in the ledger, each with model and effort.
+- **8480 votes** in the ledger, each with model and effort.
 - **No tag is unresolved.** 1,162 tags got no entry: 564 were judged not a skill and 598 left unsure by the drafting model. The unsure ones could be re-drafted by a stronger model.
-- **Second-model check:** every certification, language and ability has had one. 2,134 skills have none yet (the skills drafted in rounds 1 to 9).
-- 133 tests pass. Merged into `main` as a fast-forward from `overnight-1`; no person has reviewed anything.
-- Spend: reported $73.04 for the main session after round 10. An earlier estimate added $61.76 for subagents on top (about $135), which the credit meter contradicts: the meter read $74 used ($176 of $250 left, expiring 2026-11-05) when the session reported $65.06, so it follows the session figure plus about $9 and does not add anything like the subagent estimate. From here the session figure plus $9 is the cost basis; `scripts/subagent_cost.py` over-counts.
+- **Second-model check:** every entry that did not come from O\*NET has had one, by a model other than the drafter. None has had a check by a person.
+- 133 tests pass. Merged into `main` as a fast-forward from `overnight-1`; later reviews were committed directly to `main`.
+- Spend: the session reported $96.02 at the last reading, after the skill reviews. The credit meter followed the session figure plus about $9 (a screenshot read $74 used when the session reported $65.06), so about $105 of the $250 credit. `scripts/subagent_cost.py` over-counts and is not the cost basis.

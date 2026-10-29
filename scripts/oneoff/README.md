@@ -20,6 +20,6 @@ Anything written this way is a model's opinion from general knowledge, with no s
 Under `rounds/` and `review/` are the scripts each drafting agent and each reviewer wrote in its own scratch folder, copied as they were:
 
 - `rounds/round-NN-aM/` (`round-01` to `round-09`): the scripts agent M of round NN used to write its answers, with the path they had under `work/` below that. The first pilot run's is `rounds/agent1/`.
-- `review/rN/`: the scripts the reviewers of review N used to write their answers (`r1` to `r4`). Review 4 is the second-model check of the certifications, languages and abilities drafted in rounds 8 and 9.
+- `review/rN/`: the scripts the reviewers of review N used to write their answers (`r1` to `r5`). Review 4 is the second-model check of the certifications, languages and abilities drafted in rounds 8 and 9; review 5 is the check of the 2,134 skills.
 
 They are kept for the record and are not meant to be run again: each has one batch of answers typed in as data, and the paths are those of the machine they ran on. They contain no credentials. Some hold a few lines of a model's working notes.
