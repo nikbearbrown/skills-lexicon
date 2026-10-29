@@ -56,6 +56,57 @@ class Ids(unittest.TestCase):
         self.assertTrue(any("former id" in m for m in L.validate([a, b])))
 
 
+class DedupeIds(unittest.TestCase):
+    def setUp(self):
+        import importlib.util
+        import json
+        import tempfile
+        spec = importlib.util.spec_from_file_location("dedupe_ids", Path(__file__).resolve().parent.parent / "scripts" / "dedupe_ids.py")
+        self.mod = importlib.util.module_from_spec(spec)
+        spec.loader.exec_module(self.mod)
+        self.json = json
+        self.root = Path(tempfile.mkdtemp())
+        (self.root / "entries").mkdir()
+
+    def write(self, name, n, **kw):
+        e = {k: v for k, v in entry(n, name, **kw).items() if k != "_file"}
+        (self.root / "entries" / f"{name.lower()}.json").write_text(self.json.dumps(e))
+        return e
+
+    def read(self):
+        return {p.stem: self.json.loads(p.read_text()) for p in (self.root / "entries").glob("*.json")}
+
+    def test_second_duplicate_gets_a_new_id_and_the_first_keeps_it(self):
+        a = self.write("A", 1)
+        b = self.write("B", 1, relations=[{"type": "related", "target": eid(1)}])     # same id as A
+        before = self.read()
+        self.mod.main(["--root", str(self.root)])                                     # report only
+        self.assertEqual(self.read(), before)
+        self.mod.main(["--root", str(self.root), "--apply"])
+        got = self.read()
+        self.assertEqual(got["a"]["id"], a["id"])
+        self.assertRegex(got["b"]["id"], L.ID_RE)
+        self.assertNotEqual(got["b"]["id"], a["id"])
+        self.assertEqual(got["b"]["relations"], b["relations"])                       # references are left for a person
+        self.assertEqual(L.validate(L.load(self.root / "entries")[0]), [])
+
+    def test_ids_that_differ_only_in_case_count_as_duplicates(self):
+        a = self.write("A", 1)
+        self.write("B", 2)
+        b = self.read()["b"]
+        b["id"] = a["id"].upper()
+        (self.root / "entries" / "b.json").write_text(self.json.dumps(b))
+        self.mod.main(["--root", str(self.root), "--apply"])
+        self.assertNotEqual(L.norm_id(self.read()["b"]["id"]), L.norm_id(a["id"]))
+
+    def test_nothing_to_do_when_ids_are_unique(self):
+        self.write("A", 1)
+        self.write("B", 2)
+        before = self.read()
+        self.mod.main(["--root", str(self.root), "--apply"])
+        self.assertEqual(self.read(), before)
+
+
 class Validate(unittest.TestCase):
     def test_real_entries_are_clean(self):
         entries, errs = L.load()

@@ -6,7 +6,7 @@
 
 **Why it exists.** To count skills in job postings you have to know that "Postgres" and "PostgreSQL" are one skill, that "Swift" can mean two things, and that PostgreSQL is a kind of SQL. The counts on the explorer are only as good as this dictionary.
 
-**State.** First pass. 155 entries: 81 imported from the jobs.humanitarians.ai skills registry (status `proposed`), 3 drafted examples, and 71 drafted from a 100-tag pilot of the legacy tag lists (`data/skills_batch_001.json` and `.md`). All drafted entries are `machine-drafted`, written by a model from general knowledge with no source checked. Nothing is `reviewed`: of 550 claims, none is backed by a human check or a matched source yet. 68 tests pass.
+**State.** First pass. 155 entries: 81 imported from the jobs.humanitarians.ai skills registry (status `proposed`), 3 drafted examples, and 71 drafted from a 100-tag pilot of the legacy tag lists (`data/skills_batch_001.json` and `.md`). All drafted entries are `machine-drafted`, written by a model from general knowledge with no source checked. Nothing is `reviewed`: of 550 claims, none is backed by a human check or a matched source yet. 71 tests pass.
 
 **Licence and owner.** MIT, copyright Humanitarians AI Incorporated (see `LICENSE`). **Not decided yet:** who reviews entries.
 

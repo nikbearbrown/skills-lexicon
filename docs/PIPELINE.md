@@ -51,6 +51,10 @@ Requests from tags carry `origin` (file, rows, class, which legacy lists include
 
 `tools/batch.py` writes one JSON file and one Markdown view per run into `data/`. The Markdown is rendered from the JSON beside it, and both are generated from `entries/*.json`, which stays the source of truth. Do not edit them.
 
+## Duplicate ids
+
+Ids are random and are not checked against a registry when they are made beyond the in-memory check ingest already does. `python3 -I tools/lexicon.py validate` fails on a duplicate. `python3 -I scripts/dedupe_ids.py` lists them, and `--apply` keeps the first entry (by file name) and gives each later one a new id. References to the shared id cannot be told apart afterwards, so the script lists them for a person to check.
+
 ## What ingest does with an answer
 
 | Answer | Result |
