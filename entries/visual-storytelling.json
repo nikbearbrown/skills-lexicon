@@ -1,0 +1,69 @@
+{
+ "id": "be8z2gkvxc",
+ "preferred_name": "Visual storytelling",
+ "kind": "skill",
+ "definition": "Telling a story or making a point mainly through images, video, layout and design rather than text.",
+ "key": "visual-storytelling",
+ "certification": false,
+ "variants": [],
+ "relations": [
+  {
+   "type": "related",
+   "target": "l6oh8z1sgb"
+  }
+ ],
+ "verbs": [],
+ "status": "machine-drafted",
+ "provenance": {
+  "source": "drafted by model:claude-sonnet-5-5, run 2026-10-29-round-08-a3, from the name in the legacy tag list alone; no posting or outside source checked",
+  "date": "2026-10-29",
+  "reviewed_by": null,
+  "legacy_tag": {
+   "sources": [
+    {
+     "file": "data/skills_tags.csv",
+     "rows": [
+      4102
+     ],
+     "class": "Skill"
+    }
+   ],
+   "class": "Skill",
+   "in_lists": []
+  }
+ },
+ "evidence": [
+  {
+   "field": "definition",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-29",
+   "run": "2026-10-29-round-08-a3",
+   "note": "basis: general-knowledge"
+  },
+  {
+   "field": "kind",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-29",
+   "run": "2026-10-29-round-08-a3",
+   "note": "basis: general-knowledge (with the definition)"
+  },
+  {
+   "field": "relation:related:l6oh8z1sgb",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-29",
+   "run": "2026-10-29-round-08-a3",
+   "note": "basis: general-knowledge"
+  },
+  {
+   "field": "certification",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-29",
+   "run": "2026-10-29-round-08-a3",
+   "note": "basis: general-knowledge"
+  }
+ ]
+}

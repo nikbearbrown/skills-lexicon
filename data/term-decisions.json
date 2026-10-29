@@ -8262,5 +8262,437 @@
   "run": "2026-10-29-round-08-a1",
   "date": "2026-10-29",
   "reason": "Could mean phone tethering, animal tethering or tethered equipment; the bare label does not say."
+ },
+ {
+  "term": "iOS Stack",
+  "decision": "unsure",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-08-a3",
+  "date": "2026-10-29",
+  "reason": "Not a defined product or standard term; it could mean the layers of iOS or an iOS development toolset."
+ },
+ {
+  "term": "mdSelect",
+  "decision": "unsure",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-08-a3",
+  "date": "2026-10-29",
+  "reason": "Probably the select component of AngularJS Material, but other libraries use a similar name and I cannot tell which is meant."
+ },
+ {
+  "term": "ngHide",
+  "decision": "unsure",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-08-a3",
+  "date": "2026-10-29",
+  "reason": "A built-in AngularJS directive, a feature of a framework rather than a product, and no allowed kind fits it cleanly."
+ },
+ {
+  "term": "ngRepeat",
+  "decision": "unsure",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-08-a3",
+  "date": "2026-10-29",
+  "reason": "A built-in AngularJS directive, a feature of a framework rather than a product, and no allowed kind fits it cleanly."
+ },
+ {
+  "term": "Vitalize!",
+  "decision": "unsure",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-08-a3",
+  "date": "2026-10-29",
+  "reason": "I cannot tell what Vitalize! refers to."
+ },
+ {
+  "term": "Vocabularies",
+  "decision": "not_a_skill",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-08-a3",
+  "date": "2026-10-29",
+  "reason": "A generic word, not a defined skill."
+ },
+ {
+  "term": "Voice Message",
+  "decision": "not_a_skill",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-08-a3",
+  "date": "2026-10-29",
+  "reason": "A product feature, not a skill."
+ },
+ {
+  "term": "Voucher",
+  "decision": "not_a_skill",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-08-a3",
+  "date": "2026-10-29",
+  "reason": "A generic word for a document or payment token, not a skill."
+ },
+ {
+  "term": "Wage System",
+  "decision": "not_a_skill",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-08-a3",
+  "date": "2026-10-29",
+  "reason": "A general economic term for how pay is structured, not a skill."
+ },
+ {
+  "term": "Wardrobing",
+  "decision": "unsure",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-08-a3",
+  "date": "2026-10-29",
+  "reason": "The word means retail return fraud in one sense and costume or wardrobe work in another, and I cannot tell which is meant."
+ },
+ {
+  "term": "Warfarin",
+  "decision": "not_a_skill",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-08-a3",
+  "date": "2026-10-29",
+  "reason": "A drug, not a skill."
+ },
+ {
+  "term": "Warning Signs",
+  "decision": "not_a_skill",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-08-a3",
+  "date": "2026-10-29",
+  "reason": "A generic phrase for signs or symptoms, not a defined skill."
+ },
+ {
+  "term": "Water Content",
+  "decision": "not_a_skill",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-08-a3",
+  "date": "2026-10-29",
+  "reason": "A measured property of a material, not a skill."
+ },
+ {
+  "term": "Water Coolers",
+  "decision": "not_a_skill",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-08-a3",
+  "date": "2026-10-29",
+  "reason": "An appliance, not a skill."
+ },
+ {
+  "term": "Watercrafts",
+  "decision": "not_a_skill",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-08-a3",
+  "date": "2026-10-29",
+  "reason": "Boats and similar vessels, an object and not a skill."
+ },
+ {
+  "term": "Wave (Band)",
+  "decision": "not_a_skill",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-08-a3",
+  "date": "2026-10-29",
+  "reason": "The name of a music band, not a skill."
+ },
+ {
+  "term": "Waziri (Language)",
+  "decision": "unsure",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-08-a3",
+  "date": "2026-10-29",
+  "reason": "I believe Waziri is a dialect of Pashto, but I am not sure whether it counts as a language of its own."
+ },
+ {
+  "term": "Weapon Of Mass Destruction (WMDS)",
+  "decision": "not_a_skill",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-08-a3",
+  "date": "2026-10-29",
+  "reason": "A category of weapon, not a skill."
+ },
+ {
+  "term": "Web Help",
+  "decision": "unsure",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-08-a3",
+  "date": "2026-10-29",
+  "reason": "Could mean the WebHelp documentation format, help content on a website, or web support; I cannot tell which."
+ },
+ {
+  "term": "Web Navigation",
+  "decision": "unsure",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-08-a3",
+  "date": "2026-10-29",
+  "reason": "Could mean designing site navigation or the plain ability to browse the web; I cannot tell which."
+ },
+ {
+  "term": "Web Traffics",
+  "decision": "not_a_skill",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-08-a3",
+  "date": "2026-10-29",
+  "reason": "A measure of site visits, not a skill."
+ },
+ {
+  "term": "Webui",
+  "decision": "not_a_skill",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-08-a3",
+  "date": "2026-10-29",
+  "reason": "A user-interface element or generic term, not a skill."
+ },
+ {
+  "term": "Weekly Markets In Munich",
+  "decision": "not_a_skill",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-08-a3",
+  "date": "2026-10-29",
+  "reason": "A place-based event, not a skill."
+ },
+ {
+  "term": "Weighmaster Certification",
+  "decision": "unsure",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-08-a3",
+  "date": "2026-10-29",
+  "reason": "A weighmaster credential exists in some US states, but I am not sure which body awards it or whether there is one issuer or many."
+ },
+ {
+  "term": "Welfare",
+  "decision": "not_a_skill",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-08-a3",
+  "date": "2026-10-29",
+  "reason": "A generic word, not a skill."
+ },
+ {
+  "term": "White Hat",
+  "decision": "unsure",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-08-a3",
+  "date": "2026-10-29",
+  "reason": "It names a role or stance (ethical hacker, white-hat SEO) rather than a defined skill, and I cannot tell which is meant."
+ },
+ {
+  "term": "Whitespace",
+  "decision": "unsure",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-08-a3",
+  "date": "2026-10-29",
+  "reason": "Could be the esoteric programming language, the design concept of empty space, or the character class; I cannot tell which is meant."
+ },
+ {
+  "term": "WhiteStar",
+  "decision": "unsure",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-08-a3",
+  "date": "2026-10-29",
+  "reason": "I cannot tell what WhiteStar refers to."
+ },
+ {
+  "term": "WIA",
+  "decision": "unsure",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-08-a3",
+  "date": "2026-10-29",
+  "reason": "An abbreviation with several meanings (for example Workforce Investment Act, Windows Image Acquisition) and nothing shows which one is meant."
+ },
+ {
+  "term": "WiFi Test Tools",
+  "decision": "not_a_skill",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-08-a3",
+  "date": "2026-10-29",
+  "reason": "A generic category of tools, not one named tool or a skill."
+ },
+ {
+  "term": "Wilderness Medical Emergency",
+  "decision": "unsure",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-08-a3",
+  "date": "2026-10-29",
+  "reason": "It names a kind of event; it could stand for wilderness medicine training or response, and I cannot tell which."
+ },
+ {
+  "term": "Wildlife Habitat",
+  "decision": "not_a_skill",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-08-a3",
+  "date": "2026-10-29",
+  "reason": "An environment, not a skill."
+ },
+ {
+  "term": "Wind Chill",
+  "decision": "not_a_skill",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-08-a3",
+  "date": "2026-10-29",
+  "reason": "A weather measure, not a skill."
+ },
+ {
+  "term": "Wind Turbine",
+  "decision": "not_a_skill",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-08-a3",
+  "date": "2026-10-29",
+  "reason": "A piece of equipment, not a skill."
+ },
+ {
+  "term": "Windows Aero",
+  "decision": "not_a_skill",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-08-a3",
+  "date": "2026-10-29",
+  "reason": "A visual theme of Windows Vista and 7, a user-interface feature and not a skill."
+ },
+ {
+  "term": "Windows Security",
+  "decision": "unsure",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-08-a3",
+  "date": "2026-10-29",
+  "reason": "Could be the built-in Windows Security app or the practice of securing Windows systems; I cannot tell which is meant."
+ },
+ {
+  "term": "Windows Server 2004",
+  "decision": "unsure",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-08-a3",
+  "date": "2026-10-29",
+  "reason": "There is no classic Windows Server 2004 (only a 2020 release called version 2004), so the tag may be a typo for another version."
+ },
+ {
+  "term": "Windows Software",
+  "decision": "not_a_skill",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-08-a3",
+  "date": "2026-10-29",
+  "reason": "A generic phrase for any software that runs on Windows, not a skill."
+ },
+ {
+  "term": "Windscreen Wiper",
+  "decision": "not_a_skill",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-08-a3",
+  "date": "2026-10-29",
+  "reason": "A vehicle part, not a skill."
+ },
+ {
+  "term": "Wireless And Planning And Coordination Wing",
+  "decision": "not_a_skill",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-08-a3",
+  "date": "2026-10-29",
+  "reason": "A government organisation, not a skill."
+ },
+ {
+  "term": "WLG",
+  "decision": "unsure",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-08-a3",
+  "date": "2026-10-29",
+  "reason": "An abbreviation with several possible meanings (it is also an airport code) and nothing shows which one is meant."
+ },
+ {
+  "term": "Workgroup",
+  "decision": "not_a_skill",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-08-a3",
+  "date": "2026-10-29",
+  "reason": "A generic word, not a skill."
+ },
+ {
+  "term": "Workplace Diversities",
+  "decision": "not_a_skill",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-08-a3",
+  "date": "2026-10-29",
+  "reason": "A generic phrase, not a defined skill."
+ },
+ {
+  "term": "Workplace Violence",
+  "decision": "not_a_skill",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-08-a3",
+  "date": "2026-10-29",
+  "reason": "Names a hazard and not a skill."
+ },
+ {
+  "term": "WorkPLAN",
+  "decision": "unsure",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-08-a3",
+  "date": "2026-10-29",
+  "reason": "I cannot tell for certain which product or term WorkPLAN refers to."
+ },
+ {
+  "term": "Workspace",
+  "decision": "not_a_skill",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-08-a3",
+  "date": "2026-10-29",
+  "reason": "A generic word, not a skill."
+ },
+ {
+  "term": "Workspace Macro",
+  "decision": "unsure",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-08-a3",
+  "date": "2026-10-29",
+  "reason": "Nothing shows which application's macros are meant."
+ },
+ {
+  "term": "Wpf Controls",
+  "decision": "not_a_skill",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-08-a3",
+  "date": "2026-10-29",
+  "reason": "User-interface elements of a framework, not a skill."
+ },
+ {
+  "term": "X/PTR",
+  "decision": "unsure",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-08-a3",
+  "date": "2026-10-29",
+  "reason": "I cannot tell what X/PTR refers to."
+ },
+ {
+  "term": "Xanadu",
+  "decision": "not_a_skill",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-08-a3",
+  "date": "2026-10-29",
+  "reason": "A proper name (a poem's setting, a company, a hypertext project), not a skill."
+ },
+ {
+  "term": "Youtube Channels",
+  "decision": "not_a_skill",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-08-a3",
+  "date": "2026-10-29",
+  "reason": "A generic phrase for accounts on a video site, not a skill."
+ },
+ {
+  "term": "Zinnia",
+  "decision": "unsure",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-08-a3",
+  "date": "2026-10-29",
+  "reason": "Could be the flower, a company or a handwriting-recognition library; nothing shows which is meant."
+ },
+ {
+  "term": "Zolpidem",
+  "decision": "not_a_skill",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-08-a3",
+  "date": "2026-10-29",
+  "reason": "A drug, not a skill."
+ },
+ {
+  "term": "Zorba",
+  "decision": "unsure",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-08-a3",
+  "date": "2026-10-29",
+  "reason": "I think this may be an XQuery processor, but the name is shared with other things and I am not sure."
  }
 ]
