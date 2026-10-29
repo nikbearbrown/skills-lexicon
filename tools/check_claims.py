@@ -27,6 +27,11 @@ VERDICTS = ("supports", "contradicts", "unsure")
 REVIEW_BRIEF = """Each packet is a list of dictionary entries about things job listings ask for. Judge every claim from your own
 knowledge, independently. You are a reviewer: say `contradicts` when a claim is wrong or misleading, `supports` when it is right,
 `unsure` when you cannot tell. Do not be agreeable; a wrong definition marked `supports` is worse than an honest `unsure`.
+Drafts written from memory are often wrong about issuers, scope and kind, so check those closely.
+- A note is allowed on any verdict, including `supports`: use it for a caveat (for example "retired in 2017").
+- A definition that is true but uninformative: `supports` with a note, or `unsure`. Use `contradicts` only when it is wrong or misleading.
+- A short form (abbreviation) is an ok variant only if it means this concept and not something else; otherwise mark it bad.
+- A course-completion card, a licence endorsement and a level of a leveled scheme all count as certifications if an official body attests them.
 Answer shape, one object per entry, in a JSON list:
 {"key": "<entry key>",
  "claims": {"definition": {"verdict": "supports|contradicts|unsure", "note": "<=150 chars, required when contradicts"},
@@ -60,7 +65,7 @@ def packets(root, out, size, classes=None, unchecked_by=None, kinds=None):
             continue
         if kinds and e["kind"] not in kinds:
             continue
-        if unchecked_by and any(ev.get("run") == unchecked_by for ev in e.get("evidence", [])):
+        if unchecked_by and any(unchecked_by in str(ev.get("run", "")) for ev in e.get("evidence", [])):
             continue
         pick.append(view(e, by_id))
     d = Path(out) / "packets"
@@ -154,7 +159,7 @@ def main(argv=None):
     p.add_argument("out")
     p.add_argument("--size", type=int, default=40)
     p.add_argument("--class", dest="classes", action="append", choices=["ability", "certification", "language", "skill"])
-    p.add_argument("--unchecked-by", help="skip entries already checked in this run")
+    p.add_argument("--unchecked-by", help="skip entries that have evidence from any run whose label contains this text, such as 'review'")
     p.add_argument("--root", default=str(L.ROOT))
     q = sub.add_parser("apply")
     q.add_argument("out")

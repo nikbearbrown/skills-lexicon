@@ -109,6 +109,62 @@
    "date": "2026-10-29",
    "run": "2026-10-29-round-01-a1",
    "note": "same concept as American Board of Medical Microbiology certification, listed in the legacy tag list"
+  },
+  {
+   "field": "definition",
+   "by": "model:claude-opus-5-5",
+   "action": "checked",
+   "outcome": "supports",
+   "date": "2026-10-29",
+   "run": "2026-10-29-review-1-opus"
+  },
+  {
+   "field": "kind",
+   "by": "model:claude-opus-5-5",
+   "action": "checked",
+   "outcome": "supports",
+   "date": "2026-10-29",
+   "run": "2026-10-29-review-1-opus"
+  },
+  {
+   "field": "certification",
+   "by": "model:claude-opus-5-5",
+   "action": "checked",
+   "outcome": "supports",
+   "date": "2026-10-29",
+   "run": "2026-10-29-review-1-opus"
+  },
+  {
+   "field": "certification_scope",
+   "by": "model:claude-opus-5-5",
+   "action": "checked",
+   "outcome": "supports",
+   "date": "2026-10-29",
+   "run": "2026-10-29-review-1-opus"
+  },
+  {
+   "field": "variant:abmm certified",
+   "by": "model:claude-opus-5-5",
+   "action": "checked",
+   "outcome": "supports",
+   "date": "2026-10-29",
+   "run": "2026-10-29-review-1-opus"
+  },
+  {
+   "field": "variant:abmm certification",
+   "by": "model:claude-opus-5-5",
+   "action": "checked",
+   "outcome": "supports",
+   "date": "2026-10-29",
+   "run": "2026-10-29-review-1-opus"
+  },
+  {
+   "field": "variant:abmm",
+   "by": "model:claude-opus-5-5",
+   "action": "checked",
+   "outcome": "supports",
+   "date": "2026-10-29",
+   "run": "2026-10-29-review-1-opus"
   }
  ],
  "certification_scope": "single-issuer"

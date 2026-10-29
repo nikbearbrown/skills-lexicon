@@ -115,6 +115,54 @@
    "date": "2026-10-29",
    "run": "2026-10-29-web-check-1",
    "note": "web check, search results only: Consistent with the ANCC/AACN descriptions in the results. The draft names no issuer; there are two (ANCC and AACN), which is worth recording."
+  },
+  {
+   "field": "definition",
+   "by": "model:claude-opus-5-5",
+   "action": "checked",
+   "outcome": "supports",
+   "date": "2026-10-29",
+   "run": "2026-10-29-review-1-opus"
+  },
+  {
+   "field": "kind",
+   "by": "model:claude-opus-5-5",
+   "action": "checked",
+   "outcome": "supports",
+   "date": "2026-10-29",
+   "run": "2026-10-29-review-1-opus"
+  },
+  {
+   "field": "certification",
+   "by": "model:claude-opus-5-5",
+   "action": "checked",
+   "outcome": "supports",
+   "date": "2026-10-29",
+   "run": "2026-10-29-review-1-opus"
+  },
+  {
+   "field": "certification_scope",
+   "by": "model:claude-opus-5-5",
+   "action": "checked",
+   "outcome": "supports",
+   "date": "2026-10-29",
+   "run": "2026-10-29-review-1-opus"
+  },
+  {
+   "field": "variant:adult/gerontology acute care nurse practitioner",
+   "by": "model:claude-opus-5-5",
+   "action": "checked",
+   "outcome": "supports",
+   "date": "2026-10-29",
+   "run": "2026-10-29-review-1-opus"
+  },
+  {
+   "field": "variant:ag-acnp",
+   "by": "model:claude-opus-5-5",
+   "action": "checked",
+   "outcome": "supports",
+   "date": "2026-10-29",
+   "run": "2026-10-29-review-1-opus"
   }
  ],
  "certification_scope": "many-issuers",
