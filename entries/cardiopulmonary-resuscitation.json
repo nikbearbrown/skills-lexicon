@@ -1,0 +1,94 @@
+{
+ "id": "mlkbn5wox3",
+ "preferred_name": "Cardiopulmonary resuscitation",
+ "kind": "skill",
+ "definition": "An emergency procedure that combines chest compressions and rescue breaths to keep blood and oxygen moving when someone's heart or breathing has stopped.",
+ "key": "cardiopulmonary-resuscitation",
+ "certification": false,
+ "variants": [
+  {
+   "label": "Cardio-Pulmonary Resuscitation (CPR)",
+   "match": "word_ci"
+  },
+  {
+   "label": "CPR",
+   "match": "exact_case"
+  }
+ ],
+ "relations": [
+  {
+   "type": "related",
+   "target": "gxbpx9za78"
+  }
+ ],
+ "verbs": [],
+ "status": "machine-drafted",
+ "provenance": {
+  "source": "drafted by model:claude-sonnet-5-5, run 2026-10-29-round-02-a2, from the name in the legacy tag list alone; no posting or outside source checked",
+  "date": "2026-10-29",
+  "reviewed_by": null,
+  "legacy_tag": {
+   "sources": [
+    {
+     "file": "data/skills_tags.csv",
+     "rows": [
+      613
+     ],
+     "class": "Skill"
+    }
+   ],
+   "class": "Skill",
+   "in_lists": []
+  }
+ },
+ "evidence": [
+  {
+   "field": "definition",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-29",
+   "run": "2026-10-29-round-02-a2",
+   "note": "basis: general-knowledge"
+  },
+  {
+   "field": "kind",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-29",
+   "run": "2026-10-29-round-02-a2",
+   "note": "basis: general-knowledge (with the definition)"
+  },
+  {
+   "field": "variant:cardio-pulmonary resuscitation (cpr)",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-29",
+   "run": "2026-10-29-round-02-a2",
+   "note": "listed in the legacy tag list; the model chose the canonical name"
+  },
+  {
+   "field": "variant:cpr",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-29",
+   "run": "2026-10-29-round-02-a2",
+   "note": "basis: general-knowledge"
+  },
+  {
+   "field": "relation:related:gxbpx9za78",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-29",
+   "run": "2026-10-29-round-02-a2",
+   "note": "basis: general-knowledge"
+  },
+  {
+   "field": "certification",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-29",
+   "run": "2026-10-29-round-02-a2",
+   "note": "basis: general-knowledge"
+  }
+ ]
+}

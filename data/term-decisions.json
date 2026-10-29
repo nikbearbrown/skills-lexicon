@@ -1134,5 +1134,277 @@
   "run": "2026-10-29-round-01-a1",
   "date": "2026-10-29",
   "reason": "A generic word with unrelated senses (a cognitive bias, a negotiating tactic, rigging, news presenting), not one skill."
+ },
+ {
+  "term": "Broadcom",
+  "decision": "not_a_skill",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-02-a2",
+  "date": "2026-10-29",
+  "reason": "Broadcom is a company."
+ },
+ {
+  "term": "Broker'S Market Analysis",
+  "decision": "unsure",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-02-a2",
+  "date": "2026-10-29",
+  "reason": "It looks like a real-estate valuation analysis, but I cannot tell it from a comparative market analysis or a financial-market analysis by a broker."
+ },
+ {
+  "term": "Browsing",
+  "decision": "not_a_skill",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-02-a2",
+  "date": "2026-10-29",
+  "reason": "A generic word for looking through web pages or goods, not a named skill."
+ },
+ {
+  "term": "Buckets",
+  "decision": "not_a_skill",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-02-a2",
+  "date": "2026-10-29",
+  "reason": "A generic word, not a named skill."
+ },
+ {
+  "term": "Building Control",
+  "decision": "unsure",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-02-a2",
+  "date": "2026-10-29",
+  "reason": "It can mean the building-regulations approval function (for example in the UK) or building automation controls, and the tag alone does not say which."
+ },
+ {
+  "term": "Buildout",
+  "decision": "not_a_skill",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-02-a2",
+  "date": "2026-10-29",
+  "reason": "A generic word for fitting out a space or expanding something, not a named skill."
+ },
+ {
+  "term": "Bumpers",
+  "decision": "not_a_skill",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-02-a2",
+  "date": "2026-10-29",
+  "reason": "A generic word for a part or guard, not a named skill."
+ },
+ {
+  "term": "Bungalow",
+  "decision": "not_a_skill",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-02-a2",
+  "date": "2026-10-29",
+  "reason": "A type of house, not a skill."
+ },
+ {
+  "term": "Bunu (Language)",
+  "decision": "unsure",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-02-a2",
+  "date": "2026-10-29",
+  "reason": "Bunu is the name of a Hmong-Mien language in China and also of a Yoruba dialect in Nigeria, and the tag does not say which."
+ },
+ {
+  "term": "Burn Injuries",
+  "decision": "not_a_skill",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-02-a2",
+  "date": "2026-10-29",
+  "reason": "A medical condition, not a capability."
+ },
+ {
+  "term": "Business Continuity Risk",
+  "decision": "unsure",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-02-a2",
+  "date": "2026-10-29",
+  "reason": "It names a type of risk; I cannot tell whether the intended skill is business continuity planning or risk management."
+ },
+ {
+  "term": "Business Model",
+  "decision": "not_a_skill",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-02-a2",
+  "date": "2026-10-29",
+  "reason": "A generic business concept rather than a named skill or method."
+ },
+ {
+  "term": "Business Objectives",
+  "decision": "not_a_skill",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-02-a2",
+  "date": "2026-10-29",
+  "reason": "A generic business word, not a skill."
+ },
+ {
+  "term": "Business Transaction Services",
+  "decision": "unsure",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-02-a2",
+  "date": "2026-10-29",
+  "reason": "It reads as the name of an advisory or software service line, and I do not know which concept is meant."
+ },
+ {
+  "term": "CA Software Change Management",
+  "decision": "unsure",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-02-a2",
+  "date": "2026-10-29",
+  "reason": "Possibly a CA (now Broadcom) change-management product such as CA Harvest, but I cannot be sure of the product or of its exact name."
+ },
+ {
+  "term": "Calculators",
+  "decision": "not_a_skill",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-02-a2",
+  "date": "2026-10-29",
+  "reason": "A generic word for a device, not a named skill."
+ },
+ {
+  "term": "Calculus Removal",
+  "decision": "unsure",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-02-a2",
+  "date": "2026-10-29",
+  "reason": "It could mean removing dental calculus (scaling) or kidney stones, and the tag does not say which."
+ },
+ {
+  "term": "Call Centers",
+  "decision": "not_a_skill",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-02-a2",
+  "date": "2026-10-29",
+  "reason": "A type of workplace, not a skill."
+ },
+ {
+  "term": "Came",
+  "decision": "not_a_skill",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-02-a2",
+  "date": "2026-10-29",
+  "reason": "A fragment of an ordinary word with no skill meaning that I know."
+ },
+ {
+  "term": "Camera Api",
+  "decision": "unsure",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-02-a2",
+  "date": "2026-10-29",
+  "reason": "It names an interface that exists on several platforms (Android, iOS, the web), so no single product is meant."
+ },
+ {
+  "term": "Campaign Administration",
+  "decision": "unsure",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-02-a2",
+  "date": "2026-10-29",
+  "reason": "Too general: it could be marketing, fundraising or political campaign administration."
+ },
+ {
+  "term": "Cancún Agreements",
+  "decision": "not_a_skill",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-02-a2",
+  "date": "2026-10-29",
+  "reason": "An international climate agreement, not a capability."
+ },
+ {
+  "term": "Cannabis",
+  "decision": "not_a_skill",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-02-a2",
+  "date": "2026-10-29",
+  "reason": "A plant and product, not a skill."
+ },
+ {
+  "term": "Carbon Graphite",
+  "decision": "not_a_skill",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-02-a2",
+  "date": "2026-10-29",
+  "reason": "A material, not a skill."
+ },
+ {
+  "term": "Cardiac Devices",
+  "decision": "unsure",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-02-a2",
+  "date": "2026-10-29",
+  "reason": "It names a class of equipment (pacemakers, defibrillators and similar); I cannot tell which skill is meant."
+ },
+ {
+  "term": "Career Guide",
+  "decision": "not_a_skill",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-02-a2",
+  "date": "2026-10-29",
+  "reason": "A document or job title, not a skill."
+ },
+ {
+  "term": "Carew (Language)",
+  "decision": "unsure",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-02-a2",
+  "date": "2026-10-29",
+  "reason": "I do not know a language called Carew."
+ },
+ {
+  "term": "CD Player",
+  "decision": "not_a_skill",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-02-a2",
+  "date": "2026-10-29",
+  "reason": "A consumer device, not a skill."
+ },
+ {
+  "term": "CFC Refrigeration Certification",
+  "decision": "unsure",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-02-a2",
+  "date": "2026-10-29",
+  "reason": "Probably the US EPA refrigerant-handling certification, but I cannot confirm the scheme or who awards it."
+ },
+ {
+  "term": "CS Gas",
+  "decision": "not_a_skill",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-02-a2",
+  "date": "2026-10-29",
+  "reason": "A chemical riot-control agent, not a skill."
+ },
+ {
+  "term": "CSSP Analyst",
+  "decision": "unsure",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-02-a2",
+  "date": "2026-10-29",
+  "reason": "It is a US DoD cybersecurity service provider workforce category that requires approved certifications; I cannot tell whether it counts as a credential."
+ },
+ {
+  "term": "CSSP Auditor",
+  "decision": "unsure",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-02-a2",
+  "date": "2026-10-29",
+  "reason": "It is a US DoD cybersecurity service provider workforce category that requires approved certifications; I cannot tell whether it counts as a credential."
+ },
+ {
+  "term": "CSSP Incident Responder",
+  "decision": "unsure",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-02-a2",
+  "date": "2026-10-29",
+  "reason": "It is a US DoD cybersecurity service provider workforce category that requires approved certifications; I cannot tell whether it counts as a credential."
+ },
+ {
+  "term": "CSSP Infrastructure Support",
+  "decision": "unsure",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-02-a2",
+  "date": "2026-10-29",
+  "reason": "It is a US DoD cybersecurity service provider workforce category that requires approved certifications; I cannot tell whether it counts as a credential."
  }
 ]
