@@ -1,0 +1,66 @@
+{
+ "id": "aofnj17vp2",
+ "preferred_name": "Sass",
+ "kind": "style-language",
+ "definition": "A stylesheet language that extends CSS with variables, nesting and mixins and is compiled into ordinary CSS.",
+ "key": "sass",
+ "certification": false,
+ "language_type": "programming",
+ "variants": [],
+ "relations": [],
+ "verbs": [],
+ "status": "machine-drafted",
+ "provenance": {
+  "source": "drafted by model:claude-sonnet-5-5, run 2026-10-29-round-07-a3, from the name in the legacy tag list alone; no posting or outside source checked",
+  "date": "2026-10-29",
+  "reviewed_by": null,
+  "legacy_tag": {
+   "sources": [
+    {
+     "file": "data/skills_tags.csv",
+     "rows": [
+      3432
+     ],
+     "class": "Skill"
+    }
+   ],
+   "class": "Skill",
+   "in_lists": []
+  }
+ },
+ "evidence": [
+  {
+   "field": "definition",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-29",
+   "run": "2026-10-29-round-07-a3",
+   "note": "basis: general-knowledge"
+  },
+  {
+   "field": "kind",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-29",
+   "run": "2026-10-29-round-07-a3",
+   "note": "basis: general-knowledge (with the definition)"
+  },
+  {
+   "field": "certification",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-29",
+   "run": "2026-10-29-round-07-a3",
+   "note": "basis: general-knowledge"
+  },
+  {
+   "field": "language_type",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-29",
+   "run": "2026-10-29-round-07-a3",
+   "note": "basis: general-knowledge; no legacy list/class says so",
+   "flag": "not_in_legacy"
+  }
+ ]
+}

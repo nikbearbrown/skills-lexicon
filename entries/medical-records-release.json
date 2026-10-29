@@ -9,6 +9,10 @@
   {
    "label": "Release of information",
    "match": "word_ci"
+  },
+  {
+   "label": "Release of Information (ROI)",
+   "match": "word_ci"
   }
  ],
  "relations": [],
@@ -64,6 +68,14 @@
    "date": "2026-10-29",
    "run": "2026-10-29-round-06-a3",
    "note": "basis: general-knowledge"
+  },
+  {
+   "field": "variant:release of information (roi)",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-29",
+   "run": "2026-10-29-round-07-a3",
+   "note": "same concept as Medical records release, listed in the legacy tag list"
   }
  ]
 }
