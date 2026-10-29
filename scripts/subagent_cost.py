@@ -5,6 +5,8 @@
 Sums each transcript's token usage by model and prices it with the rates implied by the session's own cost figures:
 input about $1.8 per million tokens, cache read a tenth of that, cache write 1.25 times, output 5 times (Sonnet). Opus is priced
 at 5 times Sonnet, which is a pessimistic guess. Prints the Sonnet and Opus estimates and their sum.
+
+Calibration note: the account's credit meter read $74 used when the session reported $65.06, so these estimates (added on top of the session figure) overstated the real cost; see docs/OVERNIGHT.md.
 """
 import collections
 import glob
