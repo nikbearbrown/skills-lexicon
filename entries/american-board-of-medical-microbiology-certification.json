@@ -17,6 +17,10 @@
   {
    "label": "ABMM",
    "match": "exact_case"
+  },
+  {
+   "label": "American Board Of Medical Microbiology (ABMM) Certified",
+   "match": "word_ci"
   }
  ],
  "relations": [],
@@ -97,6 +101,14 @@
    "date": "2026-10-29",
    "run": "2026-10-29-scope-annotation-batch-002",
    "note": "basis: general-knowledge"
+  },
+  {
+   "field": "variant:american board of medical microbiology (abmm) certified",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-29",
+   "run": "2026-10-29-round-01-a1",
+   "note": "same concept as American Board of Medical Microbiology certification, listed in the legacy tag list"
   }
  ],
  "certification_scope": "single-issuer"

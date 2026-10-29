@@ -838,5 +838,301 @@
   "run": "2026-10-29-round-01-a3",
   "date": "2026-10-29",
   "reason": "Could be the BIRCH clustering algorithm, but the tag alone does not say so; it is also a tree and other things."
+ },
+ {
+  "term": "Adrenal Diseases And Disorders",
+  "decision": "not_a_skill",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-01-a1",
+  "date": "2026-10-29",
+  "reason": "A group of medical conditions, not a skill; the skill would be diagnosing or treating them."
+ },
+ {
+  "term": "Adrenal Glands",
+  "decision": "not_a_skill",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-01-a1",
+  "date": "2026-10-29",
+  "reason": "An organ of the body, not a skill."
+ },
+ {
+  "term": "Adult Trauma Life Support",
+  "decision": "unsure",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-01-a1",
+  "date": "2026-10-29",
+  "reason": "I do not recognise a credential with this exact name; it may be a garbled Advanced Trauma Life Support, which I cannot confirm."
+ },
+ {
+  "term": "Advanced Individual Training",
+  "decision": "not_a_skill",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-01-a1",
+  "date": "2026-10-29",
+  "reason": "A stage of US Army training, not a skill or a credential."
+ },
+ {
+  "term": "Advanced Logic",
+  "decision": "unsure",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-01-a1",
+  "date": "2026-10-29",
+  "reason": "Too vague to tell: it could mean advanced symbolic logic, digital logic design or something else."
+ },
+ {
+  "term": "Advanced Logic Research",
+  "decision": "not_a_skill",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-01-a1",
+  "date": "2026-10-29",
+  "reason": "Advanced Logic Research was a personal-computer maker, so this is a company name."
+ },
+ {
+  "term": "Advanced Public Health Nursing",
+  "decision": "unsure",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-01-a1",
+  "date": "2026-10-29",
+  "reason": "It could be a board certification in advanced public health nursing or just the nursing specialty, and the name alone does not say which."
+ },
+ {
+  "term": "Advanced State Of Networking",
+  "decision": "unsure",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-01-a1",
+  "date": "2026-10-29",
+  "reason": "I cannot tell what this names; it may be a course or a garbled phrase rather than a recognised skill."
+ },
+ {
+  "term": "Advocacy",
+  "decision": "unsure",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-01-a1",
+  "date": "2026-10-29",
+  "reason": "A broad word covering policy, patient, client and other advocacy, and the tag does not say which sense is meant."
+ },
+ {
+  "term": "Aerospace Industries",
+  "decision": "not_a_skill",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-01-a1",
+  "date": "2026-10-29",
+  "reason": "An industry, not a skill."
+ },
+ {
+  "term": "Aesthetics",
+  "decision": "unsure",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-01-a1",
+  "date": "2026-10-29",
+  "reason": "Ambiguous: it could be the branch of philosophy, cosmetic skin-care work or visual appearance in design."
+ },
+ {
+  "term": "Affordable Housing Manager Certification",
+  "decision": "unsure",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-01-a1",
+  "date": "2026-10-29",
+  "reason": "The name suggests a credential for managers of affordable housing, but I cannot identify which body or credential it refers to."
+ },
+ {
+  "term": "Ageing",
+  "decision": "not_a_skill",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-01-a1",
+  "date": "2026-10-29",
+  "reason": "A life process, not a skill; the related field would be gerontology."
+ },
+ {
+  "term": "Agricultural Modeling And Training Systems (AMTS)",
+  "decision": "unsure",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-01-a1",
+  "date": "2026-10-29",
+  "reason": "It looks like a company or training-product brand rather than a skill, but I cannot confirm."
+ },
+ {
+  "term": "Agrochemical",
+  "decision": "not_a_skill",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-01-a1",
+  "date": "2026-10-29",
+  "reason": "A class of substances, not a skill."
+ },
+ {
+  "term": "Air Flow Tests",
+  "decision": "unsure",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-01-a1",
+  "date": "2026-10-29",
+  "reason": "Several fields test airflow (ductwork, wind tunnels, breathing), and the tag does not say which."
+ },
+ {
+  "term": "Air Pollutions",
+  "decision": "not_a_skill",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-01-a1",
+  "date": "2026-10-29",
+  "reason": "A phenomenon, not a skill."
+ },
+ {
+  "term": "Air Routing International",
+  "decision": "not_a_skill",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-01-a1",
+  "date": "2026-10-29",
+  "reason": "Air Routing International is an aviation trip-support company, so this is a company name."
+ },
+ {
+  "term": "Airbox",
+  "decision": "unsure",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-01-a1",
+  "date": "2026-10-29",
+  "reason": "Airbox names several unrelated things (a vehicle intake part, consumer devices), and the tag gives no way to choose."
+ },
+ {
+  "term": "Ajax (Programming Language)",
+  "decision": "unsure",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-01-a1",
+  "date": "2026-10-29",
+  "reason": "Ajax is a web technique, not a programming language, and it matches an existing Ajax entry (k5f5yj60ou) that was not in this request's nearest list, so I cannot name it as variant_of."
+ },
+ {
+  "term": "Alasset",
+  "decision": "unsure",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-01-a1",
+  "date": "2026-10-29",
+  "reason": "I do not know what Alasset is."
+ },
+ {
+  "term": "Alembics",
+  "decision": "unsure",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-01-a1",
+  "date": "2026-10-29",
+  "reason": "The plural of alembic, a distillation apparatus; it is unclear what skill is meant."
+ },
+ {
+  "term": "Alkalinity",
+  "decision": "not_a_skill",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-01-a1",
+  "date": "2026-10-29",
+  "reason": "A chemical property, not a skill."
+ },
+ {
+  "term": "Alt.js",
+  "decision": "unsure",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-01-a1",
+  "date": "2026-10-29",
+  "reason": "It could be the Alt Flux library for React or a reference to altJS languages that compile to JavaScript."
+ },
+ {
+  "term": "Alternative Lending",
+  "decision": "not_a_skill",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-01-a1",
+  "date": "2026-10-29",
+  "reason": "An industry segment (non-bank lending), not a skill."
+ },
+ {
+  "term": "Alzheimer'S Disease",
+  "decision": "not_a_skill",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-01-a1",
+  "date": "2026-10-29",
+  "reason": "A medical condition, not a skill; the skill would be caring for or treating patients with it."
+ },
+ {
+  "term": "Amalgam",
+  "decision": "unsure",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-01-a1",
+  "date": "2026-10-29",
+  "reason": "Ambiguous: it could be dental amalgam, a mercury alloy or something else, and the tag does not say."
+ },
+ {
+  "term": "America'S Labor Market Information Systems",
+  "decision": "unsure",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-01-a1",
+  "date": "2026-10-29",
+  "reason": "It looks like a US Department of Labor data programme, and it is unclear whether it is meant as a tool or a topic of knowledge."
+ },
+ {
+  "term": "American Nuclear Society",
+  "decision": "not_a_skill",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-01-a1",
+  "date": "2026-10-29",
+  "reason": "A professional society, i.e. an organisation, not a skill or credential."
+ },
+ {
+  "term": "American Safety & Health Associates",
+  "decision": "not_a_skill",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-01-a1",
+  "date": "2026-10-29",
+  "reason": "An organisation name, not a skill."
+ },
+ {
+  "term": "Amino Acid",
+  "decision": "not_a_skill",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-01-a1",
+  "date": "2026-10-29",
+  "reason": "A class of molecules, not a skill."
+ },
+ {
+  "term": "Amplifyjs",
+  "decision": "unsure",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-01-a1",
+  "date": "2026-10-29",
+  "reason": "It could be the AmplifyJS utility library or AWS Amplify's JavaScript library, and the tag does not say which."
+ },
+ {
+  "term": "Amplitude Modulation Signalling Systems",
+  "decision": "unsure",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-01-a1",
+  "date": "2026-10-29",
+  "reason": "It is probably the AM Signalling System standard for data on AM radio, but I am not certain."
+ },
+ {
+  "term": "Analytical Dashboard",
+  "decision": "not_a_skill",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-01-a1",
+  "date": "2026-10-29",
+  "reason": "A kind of report or user-interface output, not a skill; the skill would be building dashboards."
+ },
+ {
+  "term": "Analytics.js",
+  "decision": "unsure",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-01-a1",
+  "date": "2026-10-29",
+  "reason": "Two different libraries share this name, Segment's analytics.js and the Google Analytics analytics.js."
+ },
+ {
+  "term": "Anam (Language)",
+  "decision": "unsure",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-01-a1",
+  "date": "2026-10-29",
+  "reason": "Several small languages have similar names, and I cannot say with confidence which one 'Anam' means."
+ },
+ {
+  "term": "Anchoring",
+  "decision": "not_a_skill",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-01-a1",
+  "date": "2026-10-29",
+  "reason": "A generic word with unrelated senses (a cognitive bias, a negotiating tactic, rigging, news presenting), not one skill."
  }
 ]

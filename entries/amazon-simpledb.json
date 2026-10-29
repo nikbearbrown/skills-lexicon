@@ -1,0 +1,92 @@
+{
+ "id": "srtz4mtpnt",
+ "preferred_name": "Amazon SimpleDB",
+ "kind": "tool",
+ "definition": "An Amazon Web Services non-relational database service that stores items made of attributes without a fixed schema.",
+ "key": "amazon-simpledb",
+ "certification": false,
+ "variants": [
+  {
+   "label": "AWS SimpleDB",
+   "match": "word_ci"
+  }
+ ],
+ "relations": [
+  {
+   "type": "part_of",
+   "target": "h00skqgqmn"
+  }
+ ],
+ "verbs": [
+  "query"
+ ],
+ "status": "machine-drafted",
+ "provenance": {
+  "source": "drafted by model:claude-sonnet-5-5, run 2026-10-29-round-01-a1, from the name in the legacy tag list alone; no posting or outside source checked",
+  "date": "2026-10-29",
+  "reviewed_by": null,
+  "legacy_tag": {
+   "sources": [
+    {
+     "file": "data/skills_tags.csv",
+     "rows": [
+      178
+     ],
+     "class": "Skill"
+    }
+   ],
+   "class": "Skill",
+   "in_lists": []
+  }
+ },
+ "evidence": [
+  {
+   "field": "definition",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-29",
+   "run": "2026-10-29-round-01-a1",
+   "note": "basis: general-knowledge"
+  },
+  {
+   "field": "kind",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-29",
+   "run": "2026-10-29-round-01-a1",
+   "note": "basis: general-knowledge (with the definition)"
+  },
+  {
+   "field": "variant:aws simpledb",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-29",
+   "run": "2026-10-29-round-01-a1",
+   "note": "basis: general-knowledge"
+  },
+  {
+   "field": "relation:part_of:h00skqgqmn",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-29",
+   "run": "2026-10-29-round-01-a1",
+   "note": "basis: general-knowledge"
+  },
+  {
+   "field": "verb:query",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-29",
+   "run": "2026-10-29-round-01-a1",
+   "note": "basis: general-knowledge"
+  },
+  {
+   "field": "certification",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-29",
+   "run": "2026-10-29-round-01-a1",
+   "note": "basis: general-knowledge"
+  }
+ ]
+}

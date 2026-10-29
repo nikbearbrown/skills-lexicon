@@ -36,7 +36,8 @@ def nearest(term, quotes, entries, k=8):
         if e["status"] == "deprecated":
             continue
         names = [e["preferred_name"]] + [v["label"] for v in e.get("variants", [])]
-        sim = max(difflib.SequenceMatcher(None, L.norm(term), L.norm(n)).ratio() for n in names)
+        base = re.sub(r"\s*\([^)]*\)\s*$", "", term).strip() or term        # "Ajax (Programming Language)" is close to "Ajax"
+        sim = max(difflib.SequenceMatcher(None, L.norm(t), L.norm(n)).ratio() for n in names for t in {term, base})
         cooc = any(re.search(r"(?<![\w])" + re.escape(n) + r"(?![\w])", blob, 0 if len(n) <= 3 else re.I) for n in names)
         score = sim + (0.6 if cooc else 0)
         if score >= 0.6:
