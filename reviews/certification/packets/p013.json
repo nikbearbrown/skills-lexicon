@@ -1,0 +1,545 @@
+{
+ "allowed_kinds": [
+  "ability",
+  "credential",
+  "framework",
+  "human-language",
+  "knowledge",
+  "library",
+  "markup-language",
+  "method",
+  "modeling-language",
+  "platform",
+  "programming-language",
+  "skill",
+  "standard",
+  "style-language",
+  "tool",
+  "work-activity"
+ ],
+ "entries": [
+  {
+   "key": "general-certificate-of-education",
+   "name": "General Certificate of Education",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "UK-style academic qualifications, such as A Levels, awarded by several exam boards.",
+   "certification": true,
+   "certification_scope": "many-issuers",
+   "variants": [
+    "General Certificate Of Education (GCE)"
+   ],
+   "relations": []
+  },
+  {
+   "key": "general-certificate-of-secondary-education",
+   "name": "General Certificate of Secondary Education",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "Subject qualifications taken in England, Wales and Northern Ireland at about age 16 and awarded by several exam boards.",
+   "certification": true,
+   "certification_scope": "many-issuers",
+   "variants": [
+    "GCSE"
+   ],
+   "relations": []
+  },
+  {
+   "key": "gerontological-nurse-practitioner",
+   "name": "Gerontological Nurse Practitioner",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A nurse practitioner credential for providing primary care to older adults.",
+   "certification": true,
+   "certification_scope": "many-issuers",
+   "variants": [],
+   "relations": [
+    "related:adult-gerontology-acute-care-nurse-practitioner",
+    "related:adult-nurse-practitioner"
+   ]
+  },
+  {
+   "key": "giac-certification",
+   "name": "GIAC certification",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "The information-security certifications, such as GSEC and GCIH, awarded by Global Information Assurance Certification (GIAC).",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [
+    "Global Information Assurance Certification",
+    "GIAC"
+   ],
+   "relations": []
+  },
+  {
+   "key": "giac-certified-enterprise-defender",
+   "name": "GIAC Certified Enterprise Defender",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A GIAC certification for practitioners who defend enterprise networks and systems with defensive techniques and tools.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [
+    "GIAC Certified Enterprise Defender (GCED)",
+    "GCED"
+   ],
+   "relations": []
+  },
+  {
+   "key": "giac-cyber-threat-intelligence",
+   "name": "GIAC Cyber Threat Intelligence",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A GIAC certification for analysts who collect, analyse and apply cyber threat intelligence.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [
+    "GCTI"
+   ],
+   "relations": [
+    "related:cyber-threat-intelligence"
+   ]
+  },
+  {
+   "key": "giac-exploit-researcher-and-advanced-penetration-tester",
+   "name": "GIAC Exploit Researcher and Advanced Penetration Tester",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A GIAC certification for advanced penetration testers who find and exploit vulnerabilities in systems, networks and software.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [
+    "GXPN"
+   ],
+   "relations": []
+  },
+  {
+   "key": "giac-global-industrial-cyber-security-professional",
+   "name": "GIAC Global Industrial Cyber Security Professional",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A GIAC certification on securing industrial control systems, bridging IT, engineering and cybersecurity.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [
+    "GICSP"
+   ],
+   "relations": []
+  },
+  {
+   "key": "giac-information-security-fundamentals",
+   "name": "GIAC Information Security Fundamentals",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "An entry-level GIAC certification covering core information security concepts.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [
+    "GISF"
+   ],
+   "relations": []
+  },
+  {
+   "key": "giac-network-forensic-analyst",
+   "name": "GIAC Network Forensic Analyst",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A GIAC certification for investigators who analyse network traffic and evidence in forensic investigations.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [
+    "GNFA"
+   ],
+   "relations": []
+  },
+  {
+   "key": "giac-penetration-tester",
+   "name": "GIAC Penetration Tester",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A GIAC certification for penetration testers who run structured security tests of systems and networks.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [
+    "GPEN"
+   ],
+   "relations": []
+  },
+  {
+   "key": "giac-security-essentials",
+   "name": "GIAC Security Essentials",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A GIAC certification covering the essential information security skills and terms expected of hands-on security practitioners.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [
+    "GIAC Security Essentials Certification",
+    "GSEC"
+   ],
+   "relations": []
+  },
+  {
+   "key": "giac-web-application-defender",
+   "name": "GIAC Web Application Defender",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A GIAC certification for people who defend web applications and understand web application security.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [
+    "GWEB"
+   ],
+   "relations": []
+  },
+  {
+   "key": "giac-web-application-penetration-tester",
+   "name": "GIAC Web Application Penetration Tester",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A GIAC certification for testers who assess the security of web applications.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [
+    "GWAPT"
+   ],
+   "relations": []
+  },
+  {
+   "key": "gis-certificate",
+   "name": "GIS certificate",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A certificate awarded for completing a course of study in geographic information systems.",
+   "certification": true,
+   "certification_scope": "many-issuers",
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "google-ads-certification",
+   "name": "Google Ads Certification",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "Google's certifications, taken through its Skillshop learning platform, showing skill with Google Ads, formerly AdWords.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [
+    "Google Adwords Certification"
+   ],
+   "relations": []
+  },
+  {
+   "key": "google-advanced-data-analytics-professional-certificate",
+   "name": "Google Advanced Data Analytics Professional Certificate",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "Google's online professional certificate covering statistics, regression and machine learning for data analysis.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [
+    "Google Advanced Analytics Certificate"
+   ],
+   "relations": []
+  },
+  {
+   "key": "google-analytics-certification",
+   "name": "Google Analytics Certification",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "Google's certification, taken through its Skillshop learning platform, showing skill with Google Analytics.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "google-business-intelligence-professional-certificate",
+   "name": "Google Business Intelligence Professional Certificate",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "Google's online professional certificate covering how to build data models, pipelines, dashboards and reports for business decisions.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [
+    "Google Business Intelligence Certificate"
+   ],
+   "relations": []
+  },
+  {
+   "key": "google-cloud-certified-associate-cloud-engineer",
+   "name": "Google Cloud Certified Associate Cloud Engineer",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A Google Cloud certification showing that a person can deploy applications, monitor operations and manage solutions on Google Cloud.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [
+    "Google Associate Cloud Engineer"
+   ],
+   "relations": []
+  },
+  {
+   "key": "google-cloud-certified-professional-cloud-architect",
+   "name": "Google Cloud Certified Professional Cloud Architect",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A Google Cloud certification showing that a person can design and manage secure, scalable cloud solutions on Google Cloud.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [
+    "Google Professional Cloud Architect"
+   ],
+   "relations": []
+  },
+  {
+   "key": "google-cybersecurity-professional-certificate",
+   "name": "Google Cybersecurity Professional Certificate",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "Google's online professional certificate covering security fundamentals, networks, Linux, SQL and incident response for entry-level security roles.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "google-data-analytics-professional-certificate",
+   "name": "Google Data Analytics Professional Certificate",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "Google's online professional certificate covering data cleaning, analysis, spreadsheets, SQL, R and visualisation for entry-level data analyst roles.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [
+    "Google Data Analytics Certificate"
+   ],
+   "relations": []
+  },
+  {
+   "key": "google-digital-marketing-certificate",
+   "name": "Google Digital Marketing Certificate",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A Google-issued online certificate covering digital marketing skills such as search, social media and e-commerce.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "google-it-automation-with-python-professional-certificate",
+   "name": "Google IT Automation with Python Professional Certificate",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "Google's online professional certificate covering Python scripting, Git and automating IT tasks.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [
+    "Google IT Automation Certificate"
+   ],
+   "relations": []
+  },
+  {
+   "key": "google-it-support-professional-certificate",
+   "name": "Google IT Support Professional Certificate",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "Google's online professional certificate covering troubleshooting, networking, operating systems, system administration and security for entry-level IT support roles.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [
+    "Google IT Support Certificate"
+   ],
+   "relations": []
+  },
+  {
+   "key": "google-project-management-professional-certificate",
+   "name": "Google Project Management Professional Certificate",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "Google's online professional certificate covering project planning, execution and agile practice.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [
+    "Google Project Management Certificate"
+   ],
+   "relations": [
+    "related:project-management"
+   ]
+  },
+  {
+   "key": "google-ux-design-professional-certificate",
+   "name": "Google UX Design Professional Certificate",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "Google's online professional certificate covering user research, wireframes, prototypes and usability testing.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [
+    "Google UX Design Certificate"
+   ],
+   "relations": []
+  },
+  {
+   "key": "graduate-realtor-institute",
+   "name": "Graduate REALTOR Institute",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A real-estate designation of the National Association of Realtors, awarded by state Realtor associations to agents who complete a set of advanced courses.",
+   "certification": true,
+   "certification_scope": "many-issuers",
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "hazmat-endorsement",
+   "name": "Hazmat endorsement",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A commercial driver's licence endorsement that permits transporting hazardous materials, issued after a security background check.",
+   "certification": true,
+   "certification_scope": "many-issuers",
+   "variants": [
+    "Hazardous materials endorsement"
+   ],
+   "relations": [
+    "related:passenger-endorsement",
+    "related:doubles-triples-endorsement"
+   ]
+  },
+  {
+   "key": "higher-national-certificate",
+   "name": "Higher National Certificate",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A UK vocational qualification of about one year of full-time higher-education study, awarded by bodies such as Pearson and the Scottish Qualifications Authority.",
+   "certification": true,
+   "certification_scope": "many-issuers",
+   "variants": [
+    "HNC"
+   ],
+   "relations": []
+  },
+  {
+   "key": "housing-credit-certified-professional",
+   "name": "Housing Credit Certified Professional",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A certification for professionals who manage compliance with the rules of the Low-Income Housing Tax Credit programme.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [
+    "Housing Credit Ceritified Professional"
+   ],
+   "relations": [
+    "related:certified-professional-of-occupancy"
+   ]
+  },
+  {
+   "key": "iam-level-i-certification",
+   "name": "IAM Level I certification",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "An information assurance management qualification at Level I, as defined in the U.S. Department of Defense 8570 workforce framework.",
+   "certification": true,
+   "certification_scope": "many-issuers",
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "iam-level-ii-certification",
+   "name": "IAM Level II certification",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A Level II requirement in the US Department of Defense 8570 framework for information assurance management staff, met by holding an approved certification.",
+   "certification": true,
+   "certification_scope": "many-issuers",
+   "variants": [],
+   "relations": [
+    "related:iam-level-i-certification"
+   ]
+  },
+  {
+   "key": "iam-level-iii-certification",
+   "name": "IAM Level III certification",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A Level III requirement in the US Department of Defense 8570 framework for information assurance management staff, met by holding an approved certification.",
+   "certification": true,
+   "certification_scope": "many-issuers",
+   "variants": [],
+   "relations": [
+    "related:iam-level-i-certification"
+   ]
+  },
+  {
+   "key": "iat-level-i-certification",
+   "name": "IAT Level I certification",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A Level I requirement in the US Department of Defense 8570 framework for information assurance technical staff, met by holding an approved certification.",
+   "certification": true,
+   "certification_scope": "many-issuers",
+   "variants": [],
+   "relations": [
+    "related:iam-level-i-certification"
+   ]
+  },
+  {
+   "key": "iat-level-ii-certification",
+   "name": "IAT Level II certification",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A Level II requirement in the US Department of Defense 8570 framework for information assurance technical staff, met by holding an approved certification.",
+   "certification": true,
+   "certification_scope": "many-issuers",
+   "variants": [],
+   "relations": [
+    "related:iam-level-i-certification"
+   ]
+  },
+  {
+   "key": "iat-level-iii-certification",
+   "name": "IAT Level III certification",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A Level III requirement in the US Department of Defense 8570 framework for information assurance technical staff, met by holding an approved certification.",
+   "certification": true,
+   "certification_scope": "many-issuers",
+   "variants": [],
+   "relations": [
+    "related:iam-level-i-certification"
+   ]
+  },
+  {
+   "key": "ibhre-certification",
+   "name": "IBHRE certification",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "Certifications in heart rhythm management, such as the Certified Cardiac Device Specialist and Certified Electrophysiology Specialist, awarded by the International Board of Heart Rhythm Examiners.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [
+    "International Board of Heart Rhythm Examiners (IBHRE) Certification",
+    "IBHRE",
+    "International Board of Heart Rhythm Examiners certification"
+   ],
+   "relations": []
+  },
+  {
+   "key": "iiba-agile-analysis-certification",
+   "name": "IIBA Agile Analysis Certification",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A certification from the International Institute of Business Analysis for business analysts who work in agile settings.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [
+    "IIBA-AAC"
+   ],
+   "relations": []
+  }
+ ]
+}

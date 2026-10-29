@@ -1,0 +1,597 @@
+{
+ "allowed_kinds": [
+  "ability",
+  "credential",
+  "framework",
+  "human-language",
+  "knowledge",
+  "library",
+  "markup-language",
+  "method",
+  "modeling-language",
+  "platform",
+  "programming-language",
+  "skill",
+  "standard",
+  "style-language",
+  "tool",
+  "work-activity"
+ ],
+ "entries": [
+  {
+   "key": "master-s-in-international-relations",
+   "name": "Master's in International Relations",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A postgraduate degree in international relations, awarded by universities.",
+   "certification": true,
+   "certification_scope": "many-issuers",
+   "variants": [
+    "Master's degree in International Relations",
+    "Masters degree in International Relations"
+   ],
+   "relations": []
+  },
+  {
+   "key": "master-s-in-journalism",
+   "name": "Master's in Journalism",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A postgraduate degree in journalism, awarded by universities.",
+   "certification": true,
+   "certification_scope": "many-issuers",
+   "variants": [
+    "Master's degree in Journalism",
+    "Masters degree in Journalism"
+   ],
+   "relations": []
+  },
+  {
+   "key": "master-s-in-landscape-architecture",
+   "name": "Master's in Landscape Architecture",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A postgraduate degree in landscape architecture, awarded by universities.",
+   "certification": true,
+   "certification_scope": "many-issuers",
+   "variants": [
+    "Master's degree in Landscape Architecture",
+    "Masters degree in Landscape Architecture"
+   ],
+   "relations": []
+  },
+  {
+   "key": "master-s-in-library-science",
+   "name": "Master's in Library Science",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A postgraduate degree in library science, awarded by universities.",
+   "certification": true,
+   "certification_scope": "many-issuers",
+   "variants": [
+    "Master's degree in Library Science",
+    "Masters degree in Library Science"
+   ],
+   "relations": []
+  },
+  {
+   "key": "master-s-in-marine-biology",
+   "name": "Master's in Marine Biology",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A postgraduate degree in marine biology, awarded by universities.",
+   "certification": true,
+   "certification_scope": "many-issuers",
+   "variants": [
+    "Master's degree in Marine Biology",
+    "Masters degree in Marine Biology"
+   ],
+   "relations": []
+  },
+  {
+   "key": "master-s-in-marketing",
+   "name": "Master's in Marketing",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A postgraduate degree in marketing, awarded by universities.",
+   "certification": true,
+   "certification_scope": "many-issuers",
+   "variants": [
+    "Master's degree in Marketing",
+    "Masters degree in Marketing"
+   ],
+   "relations": []
+  },
+  {
+   "key": "master-s-in-materials-science-and-engineering",
+   "name": "Master's in Materials Science and Engineering",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A postgraduate degree in materials science and engineering, awarded by universities.",
+   "certification": true,
+   "certification_scope": "many-issuers",
+   "variants": [
+    "Master's degree in Materials Science and Engineering",
+    "Masters degree in Materials Science and Engineering"
+   ],
+   "relations": []
+  },
+  {
+   "key": "master-s-in-mathematics",
+   "name": "Master's in Mathematics",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A postgraduate degree in mathematics, awarded by universities.",
+   "certification": true,
+   "certification_scope": "many-issuers",
+   "variants": [
+    "Master's degree in Mathematics",
+    "Masters degree in Mathematics"
+   ],
+   "relations": [
+    "related:mathematics"
+   ]
+  },
+  {
+   "key": "master-s-in-mechanical-engineering",
+   "name": "Master's in Mechanical Engineering",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A postgraduate degree in mechanical engineering, awarded by universities.",
+   "certification": true,
+   "certification_scope": "many-issuers",
+   "variants": [
+    "Master's degree in Mechanical Engineering",
+    "Masters degree in Mechanical Engineering"
+   ],
+   "relations": []
+  },
+  {
+   "key": "master-s-in-media-studies",
+   "name": "Master's in Media Studies",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A postgraduate degree in media studies, awarded by universities.",
+   "certification": true,
+   "certification_scope": "many-issuers",
+   "variants": [
+    "Master's degree in Media Studies",
+    "Masters degree in Media Studies"
+   ],
+   "relations": []
+  },
+  {
+   "key": "master-s-in-meteorology",
+   "name": "Master's in Meteorology",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A postgraduate degree in meteorology, awarded by universities.",
+   "certification": true,
+   "certification_scope": "many-issuers",
+   "variants": [
+    "Master's degree in Meteorology",
+    "Masters degree in Meteorology"
+   ],
+   "relations": []
+  },
+  {
+   "key": "master-s-in-museum-studies",
+   "name": "Master's in Museum Studies",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A postgraduate degree in museum studies, awarded by universities.",
+   "certification": true,
+   "certification_scope": "many-issuers",
+   "variants": [
+    "Master's degree in Museum Studies",
+    "Masters degree in Museum Studies"
+   ],
+   "relations": []
+  },
+  {
+   "key": "master-s-in-music",
+   "name": "Master's in Music",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A postgraduate degree in music, awarded by universities.",
+   "certification": true,
+   "certification_scope": "many-issuers",
+   "variants": [
+    "Master's degree in Music",
+    "Masters degree in Music"
+   ],
+   "relations": []
+  },
+  {
+   "key": "master-s-in-music-education",
+   "name": "Master's in Music Education",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A postgraduate degree in music education, awarded by universities.",
+   "certification": true,
+   "certification_scope": "many-issuers",
+   "variants": [
+    "Master's degree in Music Education",
+    "Masters degree in Music Education"
+   ],
+   "relations": []
+  },
+  {
+   "key": "master-s-in-music-therapy",
+   "name": "Master's in Music Therapy",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A postgraduate degree in music therapy, awarded by universities.",
+   "certification": true,
+   "certification_scope": "many-issuers",
+   "variants": [
+    "Master's degree in Music Therapy",
+    "Masters degree in Music Therapy"
+   ],
+   "relations": []
+  },
+  {
+   "key": "master-s-in-network-engineering",
+   "name": "Master's in Network Engineering",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A postgraduate degree in network engineering, awarded by universities.",
+   "certification": true,
+   "certification_scope": "many-issuers",
+   "variants": [
+    "Master's degree in Network Engineering",
+    "Masters degree in Network Engineering"
+   ],
+   "relations": []
+  },
+  {
+   "key": "master-s-in-nursing",
+   "name": "Master's in Nursing",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A postgraduate degree in nursing, awarded by universities.",
+   "certification": true,
+   "certification_scope": "many-issuers",
+   "variants": [
+    "Master's degree in Nursing",
+    "Masters degree in Nursing"
+   ],
+   "relations": [
+    "related:master-of-science-in-nursing"
+   ]
+  },
+  {
+   "key": "master-s-in-nutrition",
+   "name": "Master's in Nutrition",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A postgraduate degree in nutrition, awarded by universities.",
+   "certification": true,
+   "certification_scope": "many-issuers",
+   "variants": [
+    "Master's degree in Nutrition",
+    "Masters degree in Nutrition"
+   ],
+   "relations": []
+  },
+  {
+   "key": "master-s-in-occupational-therapy",
+   "name": "Master's in Occupational Therapy",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A postgraduate degree in occupational therapy, awarded by universities.",
+   "certification": true,
+   "certification_scope": "many-issuers",
+   "variants": [
+    "Master's degree in Occupational Therapy",
+    "Masters degree in Occupational Therapy"
+   ],
+   "relations": []
+  },
+  {
+   "key": "master-s-in-oceanography",
+   "name": "Master's in Oceanography",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A postgraduate degree in oceanography, awarded by universities.",
+   "certification": true,
+   "certification_scope": "many-issuers",
+   "variants": [
+    "Master's degree in Oceanography",
+    "Masters degree in Oceanography"
+   ],
+   "relations": []
+  },
+  {
+   "key": "master-s-in-operations-management",
+   "name": "Master's in Operations Management",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A postgraduate degree in operations management, awarded by universities.",
+   "certification": true,
+   "certification_scope": "many-issuers",
+   "variants": [
+    "Master's degree in Operations Management",
+    "Masters degree in Operations Management"
+   ],
+   "relations": []
+  },
+  {
+   "key": "master-s-in-pharmacy",
+   "name": "Master's in Pharmacy",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A postgraduate degree in pharmacy, awarded by universities.",
+   "certification": true,
+   "certification_scope": "many-issuers",
+   "variants": [
+    "Master's degree in Pharmacy",
+    "Masters degree in Pharmacy"
+   ],
+   "relations": []
+  },
+  {
+   "key": "master-s-in-philosophy",
+   "name": "Master's in Philosophy",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A postgraduate degree in philosophy, awarded by universities.",
+   "certification": true,
+   "certification_scope": "many-issuers",
+   "variants": [
+    "Master's degree in Philosophy",
+    "Masters degree in Philosophy"
+   ],
+   "relations": []
+  },
+  {
+   "key": "master-s-in-physical-therapy",
+   "name": "Master's in Physical Therapy",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A postgraduate degree in physical therapy, awarded by universities.",
+   "certification": true,
+   "certification_scope": "many-issuers",
+   "variants": [
+    "Master's degree in Physical Therapy",
+    "Masters degree in Physical Therapy"
+   ],
+   "relations": []
+  },
+  {
+   "key": "master-s-in-physician-assistant-studies",
+   "name": "Master's in Physician Assistant Studies",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A postgraduate degree in physician assistant studies, awarded by universities.",
+   "certification": true,
+   "certification_scope": "many-issuers",
+   "variants": [
+    "Master's degree in Physician Assistant Studies",
+    "Masters degree in Physician Assistant Studies"
+   ],
+   "relations": []
+  },
+  {
+   "key": "master-s-in-physics",
+   "name": "Master's in Physics",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A postgraduate degree in physics, awarded by universities.",
+   "certification": true,
+   "certification_scope": "many-issuers",
+   "variants": [
+    "Master's degree in Physics",
+    "Masters degree in Physics"
+   ],
+   "relations": []
+  },
+  {
+   "key": "master-s-in-political-science",
+   "name": "Master's in Political Science",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A postgraduate degree in political science, awarded by universities.",
+   "certification": true,
+   "certification_scope": "many-issuers",
+   "variants": [
+    "Master's degree in Political Science",
+    "Masters degree in Political Science"
+   ],
+   "relations": []
+  },
+  {
+   "key": "master-s-in-project-management",
+   "name": "Master's in Project Management",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A postgraduate degree in project management, awarded by universities.",
+   "certification": true,
+   "certification_scope": "many-issuers",
+   "variants": [
+    "Master's degree in Project Management",
+    "Masters degree in Project Management"
+   ],
+   "relations": [
+    "related:project-management",
+    "related:master-s-certificate-in-project-management"
+   ]
+  },
+  {
+   "key": "master-s-in-psychology",
+   "name": "Master's in Psychology",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A postgraduate degree in psychology, awarded by universities.",
+   "certification": true,
+   "certification_scope": "many-issuers",
+   "variants": [
+    "Master's degree in Psychology",
+    "Masters degree in Psychology"
+   ],
+   "relations": []
+  },
+  {
+   "key": "master-s-in-public-health",
+   "name": "Master's in Public Health",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A postgraduate degree in public health, awarded by universities.",
+   "certification": true,
+   "certification_scope": "many-issuers",
+   "variants": [
+    "Master's degree in Public Health",
+    "Masters degree in Public Health"
+   ],
+   "relations": []
+  },
+  {
+   "key": "master-s-in-public-policy",
+   "name": "Master's in Public Policy",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A postgraduate degree in public policy, awarded by universities.",
+   "certification": true,
+   "certification_scope": "many-issuers",
+   "variants": [
+    "Master's degree in Public Policy",
+    "Masters degree in Public Policy"
+   ],
+   "relations": [
+    "related:public-policy"
+   ]
+  },
+  {
+   "key": "master-s-in-public-relations",
+   "name": "Master's in Public Relations",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A postgraduate degree in public relations, awarded by universities.",
+   "certification": true,
+   "certification_scope": "many-issuers",
+   "variants": [
+    "Master's degree in Public Relations",
+    "Masters degree in Public Relations"
+   ],
+   "relations": []
+  },
+  {
+   "key": "master-s-in-real-estate",
+   "name": "Master's in Real Estate",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A postgraduate degree in real estate, awarded by universities.",
+   "certification": true,
+   "certification_scope": "many-issuers",
+   "variants": [
+    "Master's degree in Real Estate",
+    "Masters degree in Real Estate"
+   ],
+   "relations": [
+    "related:real-estate"
+   ]
+  },
+  {
+   "key": "master-s-in-social-work",
+   "name": "Master's in Social Work",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A postgraduate degree in social work, awarded by universities.",
+   "certification": true,
+   "certification_scope": "many-issuers",
+   "variants": [
+    "Master's degree in Social Work",
+    "Masters degree in Social Work"
+   ],
+   "relations": []
+  },
+  {
+   "key": "master-s-in-sociology",
+   "name": "Master's in Sociology",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A postgraduate degree in sociology, awarded by universities.",
+   "certification": true,
+   "certification_scope": "many-issuers",
+   "variants": [
+    "Master's degree in Sociology",
+    "Masters degree in Sociology"
+   ],
+   "relations": []
+  },
+  {
+   "key": "master-s-in-software-engineering",
+   "name": "Master's in Software Engineering",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A postgraduate degree in software engineering, awarded by universities.",
+   "certification": true,
+   "certification_scope": "many-issuers",
+   "variants": [
+    "Master's degree in Software Engineering",
+    "Masters degree in Software Engineering"
+   ],
+   "relations": [
+    "related:software-engineering"
+   ]
+  },
+  {
+   "key": "master-s-in-special-education",
+   "name": "Master's in Special Education",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A postgraduate degree in special education, awarded by universities.",
+   "certification": true,
+   "certification_scope": "many-issuers",
+   "variants": [
+    "Master's degree in Special Education",
+    "Masters degree in Special Education"
+   ],
+   "relations": [
+    "related:special-education"
+   ]
+  },
+  {
+   "key": "master-s-in-statistics",
+   "name": "Master's in Statistics",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A postgraduate degree in statistics, awarded by universities.",
+   "certification": true,
+   "certification_scope": "many-issuers",
+   "variants": [
+    "Master's degree in Statistics",
+    "Masters degree in Statistics"
+   ],
+   "relations": []
+  },
+  {
+   "key": "master-s-in-structural-engineering",
+   "name": "Master's in Structural Engineering",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A postgraduate degree in structural engineering, awarded by universities.",
+   "certification": true,
+   "certification_scope": "many-issuers",
+   "variants": [
+    "Master's degree in Structural Engineering",
+    "Masters degree in Structural Engineering"
+   ],
+   "relations": []
+  },
+  {
+   "key": "master-s-in-supply-chain-management",
+   "name": "Master's in Supply Chain Management",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A postgraduate degree in supply chain management, awarded by universities.",
+   "certification": true,
+   "certification_scope": "many-issuers",
+   "variants": [
+    "Master's degree in Supply Chain Management",
+    "Masters degree in Supply Chain Management"
+   ],
+   "relations": []
+  }
+ ]
+}

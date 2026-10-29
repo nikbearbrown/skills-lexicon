@@ -1,0 +1,588 @@
+{
+ "allowed_kinds": [
+  "ability",
+  "credential",
+  "framework",
+  "human-language",
+  "knowledge",
+  "library",
+  "markup-language",
+  "method",
+  "modeling-language",
+  "platform",
+  "programming-language",
+  "skill",
+  "standard",
+  "style-language",
+  "tool",
+  "work-activity"
+ ],
+ "entries": [
+  {
+   "key": "phd-in-game-design",
+   "name": "PhD in Game Design",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A doctoral research degree in game design, awarded by universities.",
+   "certification": true,
+   "certification_scope": "many-issuers",
+   "variants": [
+    "Doctor of Philosophy in Game Design",
+    "Ph.D. in Game Design"
+   ],
+   "relations": [
+    "related:game-design"
+   ]
+  },
+  {
+   "key": "phd-in-genetics",
+   "name": "PhD in Genetics",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A doctoral research degree in genetics, awarded by universities.",
+   "certification": true,
+   "certification_scope": "many-issuers",
+   "variants": [
+    "Doctor of Philosophy in Genetics",
+    "Ph.D. in Genetics"
+   ],
+   "relations": []
+  },
+  {
+   "key": "phd-in-geology",
+   "name": "PhD in Geology",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A doctoral research degree in geology, awarded by universities.",
+   "certification": true,
+   "certification_scope": "many-issuers",
+   "variants": [
+    "Doctor of Philosophy in Geology",
+    "Ph.D. in Geology"
+   ],
+   "relations": []
+  },
+  {
+   "key": "phd-in-geotechnical-engineering",
+   "name": "PhD in Geotechnical Engineering",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A doctoral research degree in geotechnical engineering, awarded by universities.",
+   "certification": true,
+   "certification_scope": "many-issuers",
+   "variants": [
+    "Doctor of Philosophy in Geotechnical Engineering",
+    "Ph.D. in Geotechnical Engineering"
+   ],
+   "relations": []
+  },
+  {
+   "key": "phd-in-graphic-design",
+   "name": "PhD in Graphic Design",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A doctoral research degree in graphic design, awarded by universities.",
+   "certification": true,
+   "certification_scope": "many-issuers",
+   "variants": [
+    "Doctor of Philosophy in Graphic Design",
+    "Ph.D. in Graphic Design"
+   ],
+   "relations": []
+  },
+  {
+   "key": "phd-in-history",
+   "name": "PhD in History",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A doctoral research degree in history, awarded by universities.",
+   "certification": true,
+   "certification_scope": "many-issuers",
+   "variants": [
+    "Doctor of Philosophy in History",
+    "Ph.D. in History"
+   ],
+   "relations": []
+  },
+  {
+   "key": "phd-in-human-resources",
+   "name": "PhD in Human Resources",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A doctoral research degree in human resources, awarded by universities.",
+   "certification": true,
+   "certification_scope": "many-issuers",
+   "variants": [
+    "Doctor of Philosophy in Human Resources",
+    "Ph.D. in Human Resources"
+   ],
+   "relations": []
+  },
+  {
+   "key": "phd-in-industrial-design",
+   "name": "PhD in Industrial Design",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A doctoral research degree in industrial design, awarded by universities.",
+   "certification": true,
+   "certification_scope": "many-issuers",
+   "variants": [
+    "Doctor of Philosophy in Industrial Design",
+    "Ph.D. in Industrial Design"
+   ],
+   "relations": []
+  },
+  {
+   "key": "phd-in-information-science",
+   "name": "PhD in Information Science",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A doctoral research degree in information science, awarded by universities.",
+   "certification": true,
+   "certification_scope": "many-issuers",
+   "variants": [
+    "Doctor of Philosophy in Information Science",
+    "Ph.D. in Information Science"
+   ],
+   "relations": []
+  },
+  {
+   "key": "phd-in-information-systems",
+   "name": "PhD in Information Systems",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A doctoral research degree in information systems, awarded by universities.",
+   "certification": true,
+   "certification_scope": "many-issuers",
+   "variants": [
+    "Doctor of Philosophy in Information Systems",
+    "Ph.D. in Information Systems"
+   ],
+   "relations": []
+  },
+  {
+   "key": "phd-in-interior-design",
+   "name": "PhD in Interior Design",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A doctoral research degree in interior design, awarded by universities.",
+   "certification": true,
+   "certification_scope": "many-issuers",
+   "variants": [
+    "Doctor of Philosophy in Interior Design",
+    "Ph.D. in Interior Design"
+   ],
+   "relations": []
+  },
+  {
+   "key": "phd-in-international-relations",
+   "name": "PhD in International Relations",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A doctoral research degree in international relations, awarded by universities.",
+   "certification": true,
+   "certification_scope": "many-issuers",
+   "variants": [
+    "Doctor of Philosophy in International Relations",
+    "Ph.D. in International Relations"
+   ],
+   "relations": []
+  },
+  {
+   "key": "phd-in-law",
+   "name": "PhD in Law",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A doctoral research degree in law, awarded by universities.",
+   "certification": true,
+   "certification_scope": "many-issuers",
+   "variants": [
+    "Doctor of Philosophy in Law",
+    "Ph.D. in Law"
+   ],
+   "relations": []
+  },
+  {
+   "key": "phd-in-library-science",
+   "name": "PhD in Library Science",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A doctoral research degree in library science, awarded by universities.",
+   "certification": true,
+   "certification_scope": "many-issuers",
+   "variants": [
+    "Doctor of Philosophy in Library Science",
+    "Ph.D. in Library Science"
+   ],
+   "relations": []
+  },
+  {
+   "key": "phd-in-linguistics",
+   "name": "PhD in Linguistics",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A doctoral research degree in linguistics, awarded by universities.",
+   "certification": true,
+   "certification_scope": "many-issuers",
+   "variants": [
+    "Doctor of Philosophy in Linguistics",
+    "Ph.D. in Linguistics"
+   ],
+   "relations": []
+  },
+  {
+   "key": "phd-in-machine-learning",
+   "name": "PhD in Machine Learning",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A doctoral research degree in machine learning, awarded by universities.",
+   "certification": true,
+   "certification_scope": "many-issuers",
+   "variants": [
+    "Doctor of Philosophy in Machine Learning",
+    "Ph.D. in Machine Learning"
+   ],
+   "relations": [
+    "related:machine-learning"
+   ]
+  },
+  {
+   "key": "phd-in-marketing",
+   "name": "PhD in Marketing",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A doctoral research degree in marketing, awarded by universities.",
+   "certification": true,
+   "certification_scope": "many-issuers",
+   "variants": [
+    "Doctor of Philosophy in Marketing",
+    "Ph.D. in Marketing"
+   ],
+   "relations": []
+  },
+  {
+   "key": "phd-in-materials-science",
+   "name": "PhD in Materials Science",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A doctoral research degree in materials science, awarded by universities.",
+   "certification": true,
+   "certification_scope": "many-issuers",
+   "variants": [
+    "Doctor of Philosophy in Materials Science",
+    "Ph.D. in Materials Science"
+   ],
+   "relations": []
+  },
+  {
+   "key": "phd-in-mathematics",
+   "name": "PhD in Mathematics",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A doctoral research degree in mathematics, awarded by universities.",
+   "certification": true,
+   "certification_scope": "many-issuers",
+   "variants": [
+    "Doctor of Philosophy in Mathematics",
+    "Ph.D. in Mathematics"
+   ],
+   "relations": [
+    "related:mathematics"
+   ]
+  },
+  {
+   "key": "phd-in-mechanical-engineering",
+   "name": "PhD in Mechanical Engineering",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A doctoral research degree in mechanical engineering, awarded by universities.",
+   "certification": true,
+   "certification_scope": "many-issuers",
+   "variants": [
+    "Doctor of Philosophy in Mechanical Engineering",
+    "Ph.D. in Mechanical Engineering"
+   ],
+   "relations": []
+  },
+  {
+   "key": "phd-in-media-studies",
+   "name": "PhD in Media Studies",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A doctoral research degree in media studies, awarded by universities.",
+   "certification": true,
+   "certification_scope": "many-issuers",
+   "variants": [
+    "Doctor of Philosophy in Media Studies",
+    "Ph.D. in Media Studies"
+   ],
+   "relations": []
+  },
+  {
+   "key": "phd-in-meteorology",
+   "name": "PhD in Meteorology",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A doctoral research degree in meteorology, awarded by universities.",
+   "certification": true,
+   "certification_scope": "many-issuers",
+   "variants": [
+    "Doctor of Philosophy in Meteorology",
+    "Ph.D. in Meteorology"
+   ],
+   "relations": []
+  },
+  {
+   "key": "phd-in-molecular-biology",
+   "name": "PhD in Molecular Biology",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A doctoral research degree in molecular biology, awarded by universities.",
+   "certification": true,
+   "certification_scope": "many-issuers",
+   "variants": [
+    "Doctor of Philosophy in Molecular Biology",
+    "Ph.D. in Molecular Biology"
+   ],
+   "relations": []
+  },
+  {
+   "key": "phd-in-musicology",
+   "name": "PhD in Musicology",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A doctoral research degree in musicology, awarded by universities.",
+   "certification": true,
+   "certification_scope": "many-issuers",
+   "variants": [
+    "Doctor of Philosophy in Musicology",
+    "Ph.D. in Musicology"
+   ],
+   "relations": []
+  },
+  {
+   "key": "phd-in-nanotechnology",
+   "name": "PhD in Nanotechnology",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A doctoral research degree in nanotechnology, awarded by universities.",
+   "certification": true,
+   "certification_scope": "many-issuers",
+   "variants": [
+    "Doctor of Philosophy in Nanotechnology",
+    "Ph.D. in Nanotechnology"
+   ],
+   "relations": []
+  },
+  {
+   "key": "phd-in-network-security",
+   "name": "PhD in Network Security",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A doctoral research degree in network security, awarded by universities.",
+   "certification": true,
+   "certification_scope": "many-issuers",
+   "variants": [
+    "Doctor of Philosophy in Network Security",
+    "Ph.D. in Network Security"
+   ],
+   "relations": []
+  },
+  {
+   "key": "phd-in-neuroscience",
+   "name": "PhD in Neuroscience",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A doctoral research degree in neuroscience, awarded by universities.",
+   "certification": true,
+   "certification_scope": "many-issuers",
+   "variants": [
+    "Doctor of Philosophy in Neuroscience",
+    "Ph.D. in Neuroscience"
+   ],
+   "relations": []
+  },
+  {
+   "key": "phd-in-nursing",
+   "name": "PhD in Nursing",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A doctoral research degree in nursing, awarded by universities.",
+   "certification": true,
+   "certification_scope": "many-issuers",
+   "variants": [
+    "Doctor of Philosophy in Nursing",
+    "Ph.D. in Nursing"
+   ],
+   "relations": []
+  },
+  {
+   "key": "phd-in-nutritional-sciences",
+   "name": "PhD in Nutritional Sciences",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A doctoral research degree in nutritional sciences, awarded by universities.",
+   "certification": true,
+   "certification_scope": "many-issuers",
+   "variants": [
+    "Doctor of Philosophy in Nutritional Sciences",
+    "Ph.D. in Nutritional Sciences"
+   ],
+   "relations": []
+  },
+  {
+   "key": "phd-in-oceanography",
+   "name": "PhD in Oceanography",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A doctoral research degree in oceanography, awarded by universities.",
+   "certification": true,
+   "certification_scope": "many-issuers",
+   "variants": [
+    "Doctor of Philosophy in Oceanography",
+    "Ph.D. in Oceanography"
+   ],
+   "relations": []
+  },
+  {
+   "key": "phd-in-operations-research",
+   "name": "PhD in Operations Research",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A doctoral research degree in operations research, awarded by universities.",
+   "certification": true,
+   "certification_scope": "many-issuers",
+   "variants": [
+    "Doctor of Philosophy in Operations Research",
+    "Ph.D. in Operations Research"
+   ],
+   "relations": []
+  },
+  {
+   "key": "phd-in-paper-engineering",
+   "name": "PhD in Paper Engineering",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A doctoral research degree in paper engineering, awarded by universities.",
+   "certification": true,
+   "certification_scope": "many-issuers",
+   "variants": [
+    "Doctor of Philosophy in Paper Engineering",
+    "Ph.D. in Paper Engineering"
+   ],
+   "relations": []
+  },
+  {
+   "key": "phd-in-petroleum-engineering",
+   "name": "PhD in Petroleum Engineering",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A doctoral research degree in petroleum engineering, awarded by universities.",
+   "certification": true,
+   "certification_scope": "many-issuers",
+   "variants": [
+    "Doctor of Philosophy in Petroleum Engineering",
+    "Ph.D. in Petroleum Engineering"
+   ],
+   "relations": []
+  },
+  {
+   "key": "phd-in-pharmacology",
+   "name": "PhD in Pharmacology",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A doctoral research degree in pharmacology, awarded by universities.",
+   "certification": true,
+   "certification_scope": "many-issuers",
+   "variants": [
+    "Doctor of Philosophy in Pharmacology",
+    "Ph.D. in Pharmacology"
+   ],
+   "relations": []
+  },
+  {
+   "key": "phd-in-pharmacy",
+   "name": "PhD in Pharmacy",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A doctoral research degree in pharmacy, awarded by universities.",
+   "certification": true,
+   "certification_scope": "many-issuers",
+   "variants": [
+    "Doctor of Philosophy in Pharmacy",
+    "Ph.D. in Pharmacy"
+   ],
+   "relations": []
+  },
+  {
+   "key": "phd-in-philosophy",
+   "name": "PhD in Philosophy",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A doctoral research degree in philosophy, awarded by universities.",
+   "certification": true,
+   "certification_scope": "many-issuers",
+   "variants": [
+    "Doctor of Philosophy in Philosophy",
+    "Ph.D. in Philosophy"
+   ],
+   "relations": []
+  },
+  {
+   "key": "phd-in-physics",
+   "name": "PhD in Physics",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A doctoral research degree in physics, awarded by universities.",
+   "certification": true,
+   "certification_scope": "many-issuers",
+   "variants": [
+    "Doctor of Philosophy in Physics",
+    "Ph.D. in Physics"
+   ],
+   "relations": []
+  },
+  {
+   "key": "phd-in-plastic-engineering",
+   "name": "PhD in Plastic Engineering",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A doctoral research degree in plastic engineering, awarded by universities.",
+   "certification": true,
+   "certification_scope": "many-issuers",
+   "variants": [
+    "Doctor of Philosophy in Plastic Engineering",
+    "Ph.D. in Plastic Engineering"
+   ],
+   "relations": []
+  },
+  {
+   "key": "phd-in-political-science",
+   "name": "PhD in Political Science",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A doctoral research degree in political science, awarded by universities.",
+   "certification": true,
+   "certification_scope": "many-issuers",
+   "variants": [
+    "Doctor of Philosophy in Political Science",
+    "Ph.D. in Political Science"
+   ],
+   "relations": []
+  },
+  {
+   "key": "phd-in-psychology",
+   "name": "PhD in Psychology",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A doctoral research degree in psychology, awarded by universities.",
+   "certification": true,
+   "certification_scope": "many-issuers",
+   "variants": [
+    "Doctor of Philosophy in Psychology",
+    "Ph.D. in Psychology"
+   ],
+   "relations": []
+  }
+ ]
+}

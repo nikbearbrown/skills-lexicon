@@ -1,0 +1,558 @@
+{
+ "allowed_kinds": [
+  "ability",
+  "credential",
+  "framework",
+  "human-language",
+  "knowledge",
+  "library",
+  "markup-language",
+  "method",
+  "modeling-language",
+  "platform",
+  "programming-language",
+  "skill",
+  "standard",
+  "style-language",
+  "tool",
+  "work-activity"
+ ],
+ "entries": [
+  {
+   "key": "information-advice-and-guidance-qualification",
+   "name": "Information, advice and guidance qualification",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A UK vocational qualification showing competence in giving people information, advice and guidance on learning and work, offered by several awarding organisations.",
+   "certification": true,
+   "certification_scope": "many-issuers",
+   "variants": [
+    "Information Advice And Guidance (IAG) Qualification"
+   ],
+   "relations": []
+  },
+  {
+   "key": "instrument-rating",
+   "name": "Instrument rating",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A pilot qualification, added to a pilot licence or certificate, that allows flying by reference to cockpit instruments in cloud and poor visibility under instrument flight rules.",
+   "certification": true,
+   "certification_scope": "many-issuers",
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "international-board-certified-lactation-consultant",
+   "name": "International Board Certified Lactation Consultant",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A certification for lactation consultants, awarded by the International Board of Lactation Consultant Examiners.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [
+    "IBCLC"
+   ],
+   "relations": []
+  },
+  {
+   "key": "international-computer-driving-licence",
+   "name": "International Computer Driving Licence",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "An entry-level computer skills certification, earlier known as the European Computer Driving Licence, awarded after tests at approved centres under the ICDL Foundation.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [
+    "European Computing Driving Licence (ECDL)",
+    "ICDL",
+    "ECDL",
+    "European Computer Driving Licence",
+    "International Computer Drivering License"
+   ],
+   "relations": []
+  },
+  {
+   "key": "international-general-certificate-of-secondary-education",
+   "name": "International General Certificate of Secondary Education",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "An internationally aimed secondary-school qualification, taken at about age 16 and awarded by several exam boards such as Cambridge and Pearson Edexcel, comparable to the GCSE.",
+   "certification": true,
+   "certification_scope": "many-issuers",
+   "variants": [
+    "IGCSE"
+   ],
+   "relations": [
+    "related:general-certificate-of-secondary-education"
+   ]
+  },
+  {
+   "key": "ipma-certified-project-management-associate",
+   "name": "IPMA Certified Project Management Associate",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "The entry-level of the four IPMA project management certification levels, known as Level D.",
+   "certification": true,
+   "certification_scope": "many-issuers",
+   "variants": [
+    "IPMA Level D"
+   ],
+   "relations": [
+    "related:certified-senior-project-manager"
+   ]
+  },
+  {
+   "key": "itil-expert",
+   "name": "ITIL Expert",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A top-level ITIL version 3 qualification earned by collecting credits from intermediate ITIL modules.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [
+    "ITIL Expert Certification"
+   ],
+   "relations": []
+  },
+  {
+   "key": "itil-foundation",
+   "name": "ITIL Foundation",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "The entry-level ITIL qualification, covering the basic concepts and terms of ITIL service management.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [
+    "ITIL Foundation Certification"
+   ],
+   "relations": []
+  },
+  {
+   "key": "itil-practitioner",
+   "name": "ITIL Practitioner",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "An ITIL qualification on adopting and adapting ITIL guidance in an organisation, including through continual service improvement.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [
+    "ITIL Practitioner Certification"
+   ],
+   "relations": []
+  },
+  {
+   "key": "jamf-certification",
+   "name": "Jamf certification",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "Certifications awarded by Jamf, the Apple device management software company, showing skill in managing Apple devices with Jamf products.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "juris-doctor",
+   "name": "Juris Doctor",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "The professional law degree awarded in the United States and some other countries after law school, and a usual requirement to sit the bar exam in the US.",
+   "certification": true,
+   "certification_scope": "many-issuers",
+   "variants": [
+    "J.D."
+   ],
+   "relations": []
+  },
+  {
+   "key": "kenya-certificate-of-primary-education",
+   "name": "Kenya Certificate of Primary Education",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A certificate awarded by the Kenya National Examinations Council to pupils who sit the national examination at the end of primary school.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [
+    "KCPE"
+   ],
+   "relations": []
+  },
+  {
+   "key": "kenya-certificate-of-secondary-education",
+   "name": "Kenya Certificate of Secondary Education",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A certificate awarded by the Kenya National Examinations Council to students who sit the national examination at the end of secondary school.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [
+    "KCSE"
+   ],
+   "relations": []
+  },
+  {
+   "key": "leadership-certificate",
+   "name": "Leadership certificate",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A certificate awarded by a university, professional body or training provider for completing a course in leadership.",
+   "certification": true,
+   "certification_scope": "many-issuers",
+   "variants": [
+    "Leadership Certificates"
+   ],
+   "relations": []
+  },
+  {
+   "key": "leed-accredited-professional",
+   "name": "LEED Accredited Professional",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A professional credential from the Green Building Certification Institute showing advanced knowledge of the LEED green building rating system.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [
+    "LEED Accredited Professional (AP)",
+    "LEED AP"
+   ],
+   "relations": []
+  },
+  {
+   "key": "leed-green-associate",
+   "name": "LEED Green Associate",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "An entry-level professional credential from the Green Building Certification Institute showing basic knowledge of green building and the LEED rating system.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "legal-nurse-consultant-certified",
+   "name": "Legal Nurse Consultant Certified",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A certification for registered nurses who pass an exam in legal nurse consulting, awarded by the American Legal Nurse Consultant Certification Board.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [
+    "LNCC"
+   ],
+   "relations": []
+  },
+  {
+   "key": "licensed-insurance-producer",
+   "name": "Licensed insurance producer",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A licence, issued by a US state, that allows a person to sell insurance products in that state.",
+   "certification": true,
+   "certification_scope": "many-issuers",
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "licensed-practical-nurse",
+   "name": "Licensed Practical Nurse",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A US state licence for nurses who provide basic nursing care under the direction of registered nurses and physicians.",
+   "certification": true,
+   "certification_scope": "many-issuers",
+   "variants": [
+    "LPN",
+    "Licensed Vocational Nurses"
+   ],
+   "relations": []
+  },
+  {
+   "key": "licensed-professional-engineer",
+   "name": "Licensed Professional Engineer",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A US state licence that allows an engineer to approve and take legal responsibility for engineering work.",
+   "certification": true,
+   "certification_scope": "many-issuers",
+   "variants": [
+    "Professional Engineer"
+   ],
+   "relations": []
+  },
+  {
+   "key": "loss-prevention-certified",
+   "name": "Loss Prevention Certified",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A certification from the Loss Prevention Foundation for retail loss prevention professionals.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "lymphedema-certification",
+   "name": "Lymphedema certification",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A certification showing training in assessing and treating lymphedema, awarded by various training bodies and certifying boards.",
+   "certification": true,
+   "certification_scope": "many-issuers",
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "master-of-business-administration",
+   "name": "Master of Business Administration",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A postgraduate degree in business management and administration.",
+   "certification": true,
+   "certification_scope": "many-issuers",
+   "variants": [
+    "Master Of Business Administration (MBA)",
+    "MBA",
+    "Master's in Business Administration (MBA)"
+   ],
+   "relations": []
+  },
+  {
+   "key": "master-of-fine-arts",
+   "name": "Master of Fine Arts",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A postgraduate degree in a creative or performing art such as painting, creative writing, theatre or film.",
+   "certification": true,
+   "certification_scope": "many-issuers",
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "master-of-health-administration",
+   "name": "Master of Health Administration",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A postgraduate degree in managing hospitals, health systems and other healthcare organisations.",
+   "certification": true,
+   "certification_scope": "many-issuers",
+   "variants": [
+    "MHA",
+    "Master of Healthcare Administration"
+   ],
+   "relations": []
+  },
+  {
+   "key": "master-of-laws",
+   "name": "Master of Laws",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A postgraduate law degree taken after a first law degree.",
+   "certification": true,
+   "certification_scope": "many-issuers",
+   "variants": [
+    "LL.M.",
+    "Master's in Law (LLM)"
+   ],
+   "relations": []
+  },
+  {
+   "key": "master-of-laws-in-taxation",
+   "name": "Master of Laws in Taxation",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A postgraduate law degree that specialises in tax law.",
+   "certification": true,
+   "certification_scope": "many-issuers",
+   "variants": [
+    "LL.M. in Taxation",
+    "Master of Laws in Tax"
+   ],
+   "relations": []
+  },
+  {
+   "key": "master-of-public-administration",
+   "name": "Master of Public Administration",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A postgraduate degree in managing government agencies and public-service organisations.",
+   "certification": true,
+   "certification_scope": "many-issuers",
+   "variants": [
+    "MPA",
+    "Master's in Public Administration"
+   ],
+   "relations": []
+  },
+  {
+   "key": "master-of-science-in-nursing",
+   "name": "Master of Science in Nursing",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A postgraduate nursing degree that prepares nurses for advanced clinical, teaching or leadership roles.",
+   "certification": true,
+   "certification_scope": "many-issuers",
+   "variants": [
+    "Master Of Science in Nursing (MSN)"
+   ],
+   "relations": [
+    "related:bachelor-of-science-in-nursing"
+   ]
+  },
+  {
+   "key": "master-s-certificate-in-project-management",
+   "name": "Master's certificate in project management",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A graduate-level certificate programme in project management, shorter than a master's degree.",
+   "certification": true,
+   "certification_scope": "many-issuers",
+   "variants": [
+    "Masters Certificate In Project Management"
+   ],
+   "relations": [
+    "related:project-management"
+   ]
+  },
+  {
+   "key": "master-s-in-accounting",
+   "name": "Master's in Accounting",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A postgraduate degree in accounting, awarded by universities.",
+   "certification": true,
+   "certification_scope": "many-issuers",
+   "variants": [
+    "Master's degree in Accounting",
+    "Masters degree in Accounting"
+   ],
+   "relations": []
+  },
+  {
+   "key": "master-s-in-advertising",
+   "name": "Master's in Advertising",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A postgraduate degree in advertising, awarded by universities.",
+   "certification": true,
+   "certification_scope": "many-issuers",
+   "variants": [
+    "Master's degree in Advertising",
+    "Masters degree in Advertising"
+   ],
+   "relations": []
+  },
+  {
+   "key": "master-s-in-aerospace-engineering",
+   "name": "Master's in Aerospace Engineering",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A postgraduate degree in aerospace engineering, awarded by universities.",
+   "certification": true,
+   "certification_scope": "many-issuers",
+   "variants": [
+    "Master's degree in Aerospace Engineering",
+    "Masters degree in Aerospace Engineering"
+   ],
+   "relations": []
+  },
+  {
+   "key": "master-s-in-animation",
+   "name": "Master's in Animation",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A postgraduate degree in animation, awarded by universities.",
+   "certification": true,
+   "certification_scope": "many-issuers",
+   "variants": [
+    "Master's degree in Animation",
+    "Masters degree in Animation"
+   ],
+   "relations": []
+  },
+  {
+   "key": "master-s-in-anthropology",
+   "name": "Master's in Anthropology",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A postgraduate degree in anthropology, awarded by universities.",
+   "certification": true,
+   "certification_scope": "many-issuers",
+   "variants": [
+    "Master's degree in Anthropology",
+    "Masters degree in Anthropology"
+   ],
+   "relations": []
+  },
+  {
+   "key": "master-s-in-archaeology",
+   "name": "Master's in Archaeology",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A postgraduate degree in archaeology, awarded by universities.",
+   "certification": true,
+   "certification_scope": "many-issuers",
+   "variants": [
+    "Master's degree in Archaeology",
+    "Masters degree in Archaeology"
+   ],
+   "relations": []
+  },
+  {
+   "key": "master-s-in-archival-studies",
+   "name": "Master's in Archival Studies",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A postgraduate degree in archival studies, awarded by universities.",
+   "certification": true,
+   "certification_scope": "many-issuers",
+   "variants": [
+    "Master's degree in Archival Studies",
+    "Masters degree in Archival Studies"
+   ],
+   "relations": []
+  },
+  {
+   "key": "master-s-in-art",
+   "name": "Master's in Art",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A postgraduate degree in art, awarded by universities.",
+   "certification": true,
+   "certification_scope": "many-issuers",
+   "variants": [
+    "Master's degree in Art",
+    "Masters degree in Art"
+   ],
+   "relations": []
+  },
+  {
+   "key": "master-s-in-art-education",
+   "name": "Master's in Art Education",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A postgraduate degree in art education, awarded by universities.",
+   "certification": true,
+   "certification_scope": "many-issuers",
+   "variants": [
+    "Master's degree in Art Education",
+    "Masters degree in Art Education"
+   ],
+   "relations": []
+  },
+  {
+   "key": "master-s-in-art-history",
+   "name": "Master's in Art History",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A postgraduate degree in art history, awarded by universities.",
+   "certification": true,
+   "certification_scope": "many-issuers",
+   "variants": [
+    "Master's degree in Art History",
+    "Masters degree in Art History"
+   ],
+   "relations": []
+  }
+ ]
+}

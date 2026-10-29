@@ -19,6 +19,80 @@
  ],
  "entries": [
   {
+   "key": "biological-applications-of-bifurcation-theory",
+   "name": "Biological applications of bifurcation theory",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "The use of bifurcation theory, which studies how the behaviour of a dynamical system changes qualitatively as its parameters vary, to model biological systems.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "biomedical-informatics",
+   "name": "Biomedical informatics",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "The field that applies information science and computing to the collection, storage and analysis of biological and medical data.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "biomolecular-engineering",
+   "name": "Biomolecular engineering",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "Engineering that designs and modifies biological molecules such as proteins and nucleic acids for use in medicine, industry and research.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "biopesticide",
+   "name": "Biopesticide",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "Pest-control agents made from natural materials such as microbes, plants and minerals.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "biopython",
+   "name": "Biopython",
+   "class": "skill",
+   "kind": "library",
+   "definition": "An open-source Python library of tools for computational biology and bioinformatics, such as reading sequence files and working with protein structures.",
+   "certification": false,
+   "variants": [],
+   "relations": [
+    "related:python"
+   ]
+  },
+  {
+   "key": "biosensors",
+   "name": "Biosensors",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "Devices that pair a biological recognition element, such as an enzyme or antibody, with a transducer to detect a specific substance.",
+   "certification": false,
+   "variants": [
+    "Biosensor"
+   ],
+   "relations": []
+  },
+  {
+   "key": "bioterrorism-preparedness-and-response",
+   "name": "Bioterrorism preparedness and response",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "Planning for, detecting and responding to the deliberate release of biological agents that cause disease.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
    "key": "bismuth-sulfite-agar",
    "name": "Bismuth sulfite agar",
    "class": "skill",
@@ -383,84 +457,6 @@
    "definition": "Insurance that covers a building and its materials against damage while it is under construction or renovation.",
    "certification": false,
    "variants": [],
-   "relations": []
-  },
-  {
-   "key": "building-crates-and-skids",
-   "name": "Building crates and skids",
-   "class": "skill",
-   "kind": "skill",
-   "definition": "Constructing wooden crates and skids to ship and support goods.",
-   "certification": false,
-   "variants": [],
-   "relations": []
-  },
-  {
-   "key": "bullet-physics",
-   "name": "Bullet Physics",
-   "class": "skill",
-   "kind": "library",
-   "definition": "An open-source physics engine library for real-time collision detection and rigid-body simulation in games, robotics and visual effects.",
-   "certification": false,
-   "variants": [
-    "Bullet (Software)"
-   ],
-   "relations": []
-  },
-  {
-   "key": "bulma",
-   "name": "Bulma",
-   "class": "skill",
-   "kind": "framework",
-   "definition": "An open-source CSS framework built on Flexbox that provides ready-made layout and interface components.",
-   "certification": false,
-   "variants": [],
-   "relations": []
-  },
-  {
-   "key": "burndown-chart",
-   "name": "Burndown chart",
-   "class": "skill",
-   "kind": "method",
-   "definition": "A chart that plots the work remaining in a project against time, used by agile teams to track progress.",
-   "certification": false,
-   "variants": [
-    "Burn Down Chart"
-   ],
-   "relations": []
-  },
-  {
-   "key": "business-excellence",
-   "name": "Business excellence",
-   "class": "skill",
-   "kind": "method",
-   "definition": "A management approach that applies quality-management principles and models such as the EFQM Excellence Model to improve an organisation's performance.",
-   "certification": false,
-   "variants": [],
-   "relations": []
-  },
-  {
-   "key": "business-integration-software",
-   "name": "Business integration software",
-   "class": "skill",
-   "kind": "tool",
-   "definition": "Software that connects business applications and data sources so that they can exchange information.",
-   "certification": false,
-   "variants": [
-    "Business Integration Softwares"
-   ],
-   "relations": []
-  },
-  {
-   "key": "business-process-analysis",
-   "name": "Business process analysis",
-   "class": "skill",
-   "kind": "skill",
-   "definition": "Studying how a business process works in order to find problems and ways to improve it.",
-   "certification": false,
-   "variants": [
-    "Process Analysis (Business)"
-   ],
    "relations": []
   }
  ]

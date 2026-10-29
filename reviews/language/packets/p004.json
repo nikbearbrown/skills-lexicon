@@ -1,0 +1,555 @@
+{
+ "allowed_kinds": [
+  "ability",
+  "credential",
+  "framework",
+  "human-language",
+  "knowledge",
+  "library",
+  "markup-language",
+  "method",
+  "modeling-language",
+  "platform",
+  "programming-language",
+  "skill",
+  "standard",
+  "style-language",
+  "tool",
+  "work-activity"
+ ],
+ "entries": [
+  {
+   "key": "hungarian",
+   "name": "Hungarian",
+   "class": "language",
+   "kind": "human-language",
+   "definition": "A Uralic language, the official language of Hungary.",
+   "certification": false,
+   "language_type": "human",
+   "variants": [
+    "Hungarian Language",
+    "Magyar",
+    "Hungarian (Language)"
+   ],
+   "relations": []
+  },
+  {
+   "key": "hup",
+   "name": "Hup",
+   "class": "language",
+   "kind": "human-language",
+   "definition": "An Amazonian language spoken by the Hupda people along the border of Brazil and Colombia.",
+   "certification": false,
+   "language_type": "human",
+   "variants": [
+    "Hup (Language)"
+   ],
+   "relations": []
+  },
+  {
+   "key": "igbo",
+   "name": "Igbo",
+   "class": "language",
+   "kind": "human-language",
+   "definition": "A Niger-Congo language spoken mainly by the Igbo people of southeastern Nigeria.",
+   "certification": false,
+   "language_type": "human",
+   "variants": [
+    "Igbo (Language)"
+   ],
+   "relations": []
+  },
+  {
+   "key": "indonesian",
+   "name": "Indonesian",
+   "class": "language",
+   "kind": "human-language",
+   "definition": "A standardized form of Malay, the national language of Indonesia.",
+   "certification": false,
+   "language_type": "human",
+   "variants": [
+    "Indonesian (Language)",
+    "Bahasa Indonesia"
+   ],
+   "relations": []
+  },
+  {
+   "key": "italian",
+   "name": "Italian",
+   "class": "language",
+   "kind": "human-language",
+   "definition": "A Romance language spoken mainly in Italy and Switzerland.",
+   "certification": false,
+   "language_type": "human",
+   "variants": [
+    "Italian (Language)"
+   ],
+   "relations": []
+  },
+  {
+   "key": "j",
+   "name": "J#",
+   "class": "language",
+   "kind": "programming-language",
+   "definition": "A Microsoft programming language with Java-language syntax for the .NET Framework, now discontinued.",
+   "certification": false,
+   "language_type": "programming",
+   "variants": [
+    "J# (Programming Language)"
+   ],
+   "relations": []
+  },
+  {
+   "key": "japanese",
+   "name": "Japanese",
+   "class": "language",
+   "kind": "human-language",
+   "definition": "The language of Japan, written with kanji and kana.",
+   "certification": false,
+   "language_type": "human",
+   "variants": [
+    "Japanese (Language)"
+   ],
+   "relations": []
+  },
+  {
+   "key": "java",
+   "name": "Java",
+   "class": "language",
+   "kind": "programming-language",
+   "definition": "Writing programs in Java.",
+   "variants": [
+    "Java (Programming Language)"
+   ],
+   "relations": []
+  },
+  {
+   "key": "javascript",
+   "name": "JavaScript",
+   "class": "language",
+   "kind": "programming-language",
+   "definition": "Writing programs in JavaScript.",
+   "variants": [
+    "Javascript (Programming Language)"
+   ],
+   "relations": []
+  },
+  {
+   "key": "jdoql",
+   "name": "JDOQL",
+   "class": "language",
+   "kind": "programming-language",
+   "definition": "The object query language of Java Data Objects (JDO), used to retrieve persistent Java objects with filter expressions written in Java-like syntax.",
+   "certification": false,
+   "language_type": "programming",
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "jhdl",
+   "name": "JHDL",
+   "class": "language",
+   "kind": "modeling-language",
+   "definition": "A hardware description language, developed at Brigham Young University, in which circuits are described with Java classes.",
+   "certification": false,
+   "language_type": "programming",
+   "variants": [
+    "Just-Another Hardware Description Language (JHDL)",
+    "Just-Another Hardware Description Language",
+    "Just-another Hardware Description Language (jhdl)  (Programming Language)"
+   ],
+   "relations": [
+    "broader:hardware-description-language"
+   ]
+  },
+  {
+   "key": "jiba",
+   "name": "Jiba",
+   "class": "language",
+   "kind": "human-language",
+   "definition": "A Jukunoid language spoken in Nigeria.",
+   "certification": false,
+   "language_type": "human",
+   "variants": [
+    "Jiba Language (Jukunoid Languages)",
+    "Jiba language"
+   ],
+   "relations": []
+  },
+  {
+   "key": "jscript",
+   "name": "JScript",
+   "class": "language",
+   "kind": "programming-language",
+   "definition": "Microsoft's implementation of the ECMAScript language, used in Internet Explorer and Windows Script Host.",
+   "certification": false,
+   "language_type": "programming",
+   "variants": [
+    "Jscript (Programming Language)"
+   ],
+   "relations": [
+    "related:javascript"
+   ]
+  },
+  {
+   "key": "jscript-net",
+   "name": "JScript .NET",
+   "class": "language",
+   "kind": "programming-language",
+   "definition": "A version of Microsoft's JScript language that compiles to .NET code and adds features such as typed variables and classes.",
+   "certification": false,
+   "language_type": "programming",
+   "variants": [
+    "Jscript.net"
+   ],
+   "relations": []
+  },
+  {
+   "key": "julia",
+   "name": "Julia",
+   "class": "language",
+   "kind": "programming-language",
+   "definition": "A high-level, dynamic programming language designed for fast numerical and scientific computing.",
+   "certification": false,
+   "language_type": "programming",
+   "variants": [
+    "Julia (Programming Language)"
+   ],
+   "relations": []
+  },
+  {
+   "key": "kachin",
+   "name": "Kachin",
+   "class": "language",
+   "kind": "human-language",
+   "definition": "A Tibeto-Burman language spoken by the Kachin people of northern Myanmar and neighbouring parts of China and India.",
+   "certification": false,
+   "language_type": "human",
+   "variants": [
+    "Kachin (Language)",
+    "Jingpho"
+   ],
+   "relations": []
+  },
+  {
+   "key": "kalenjin",
+   "name": "Kalenjin",
+   "class": "language",
+   "kind": "human-language",
+   "definition": "A Nilotic language, or cluster of closely related languages, spoken by the Kalenjin people of Kenya.",
+   "certification": false,
+   "language_type": "human",
+   "variants": [
+    "Kalenjin (Language)"
+   ],
+   "relations": []
+  },
+  {
+   "key": "kannada",
+   "name": "Kannada",
+   "class": "language",
+   "kind": "human-language",
+   "definition": "A Dravidian language spoken mainly in the Indian state of Karnataka.",
+   "certification": false,
+   "language_type": "human",
+   "variants": [
+    "Kannada (Language)"
+   ],
+   "relations": []
+  },
+  {
+   "key": "kazakh",
+   "name": "Kazakh",
+   "class": "language",
+   "kind": "human-language",
+   "definition": "A Turkic language, the official language of Kazakhstan.",
+   "certification": false,
+   "language_type": "human",
+   "variants": [
+    "Kazakh (Language)"
+   ],
+   "relations": []
+  },
+  {
+   "key": "keyhole-markup-language",
+   "name": "Keyhole Markup Language",
+   "class": "language",
+   "kind": "markup-language",
+   "definition": "An XML-based markup language for describing geographic features, placemarks and map views, used by Google Earth and other mapping software.",
+   "certification": false,
+   "language_type": "programming",
+   "variants": [
+    "Keyhole Markup Languages",
+    "KML",
+    "Keyhole Markup Languages (Programming Language)"
+   ],
+   "relations": []
+  },
+  {
+   "key": "khmer",
+   "name": "Khmer",
+   "class": "language",
+   "kind": "human-language",
+   "definition": "The Austroasiatic language of Cambodia, written in the Khmer script.",
+   "certification": false,
+   "language_type": "human",
+   "variants": [
+    "Khmer (Language)"
+   ],
+   "relations": []
+  },
+  {
+   "key": "kinyarwanda",
+   "name": "Kinyarwanda",
+   "class": "language",
+   "kind": "human-language",
+   "definition": "A Bantu language, the national language of Rwanda.",
+   "certification": false,
+   "language_type": "human",
+   "variants": [
+    "Kinyarwanda (Language)"
+   ],
+   "relations": []
+  },
+  {
+   "key": "kirundi",
+   "name": "Kirundi",
+   "class": "language",
+   "kind": "human-language",
+   "definition": "A Bantu language, the national language of Burundi.",
+   "certification": false,
+   "language_type": "human",
+   "variants": [
+    "Kirundi (Language)",
+    "Rundi"
+   ],
+   "relations": []
+  },
+  {
+   "key": "kokborok",
+   "name": "Kokborok",
+   "class": "language",
+   "kind": "human-language",
+   "definition": "A Tibeto-Burman language spoken mainly in Tripura, India, and in Bangladesh, also called Tripuri.",
+   "certification": false,
+   "language_type": "human",
+   "variants": [
+    "Tripuri (Language)",
+    "Tripuri"
+   ],
+   "relations": []
+  },
+  {
+   "key": "korean",
+   "name": "Korean",
+   "class": "language",
+   "kind": "human-language",
+   "definition": "The language of Korea, written in the Hangul script and spoken in North and South Korea.",
+   "certification": false,
+   "language_type": "human",
+   "variants": [
+    "Korean (Language)"
+   ],
+   "relations": []
+  },
+  {
+   "key": "korwa",
+   "name": "Korwa",
+   "class": "language",
+   "kind": "human-language",
+   "definition": "An Austroasiatic language of the Munda branch spoken by the Korwa people of central-eastern India.",
+   "certification": false,
+   "language_type": "human",
+   "variants": [
+    "Korwa (Language)"
+   ],
+   "relations": []
+  },
+  {
+   "key": "kotlin",
+   "name": "Kotlin",
+   "class": "language",
+   "kind": "programming-language",
+   "definition": "A statically typed programming language from JetBrains that runs on the Java Virtual Machine and is widely used for Android apps.",
+   "certification": false,
+   "language_type": "programming",
+   "variants": [
+    "Kotlin (Programming Language)"
+   ],
+   "relations": []
+  },
+  {
+   "key": "kurdish",
+   "name": "Kurdish",
+   "class": "language",
+   "kind": "human-language",
+   "definition": "A group of Northwestern Iranian languages and dialects spoken by Kurds in Turkey, Iraq, Iran and Syria.",
+   "certification": false,
+   "language_type": "human",
+   "variants": [
+    "Kurdish (Language)"
+   ],
+   "relations": []
+  },
+  {
+   "key": "kurukh",
+   "name": "Kurukh",
+   "class": "language",
+   "kind": "human-language",
+   "definition": "A Dravidian language spoken by the Oraon people of eastern India and neighbouring parts of Nepal and Bangladesh.",
+   "certification": false,
+   "language_type": "human",
+   "variants": [
+    "Kurukh (Language)",
+    "Kurux"
+   ],
+   "relations": []
+  },
+  {
+   "key": "kyrgyz",
+   "name": "Kyrgyz",
+   "class": "language",
+   "kind": "human-language",
+   "definition": "A Turkic language, the official language of Kyrgyzstan.",
+   "certification": false,
+   "language_type": "human",
+   "variants": [
+    "Kyrgyz (Language)",
+    "Kirghiz"
+   ],
+   "relations": []
+  },
+  {
+   "key": "ladder-logic",
+   "name": "Ladder logic",
+   "class": "language",
+   "kind": "programming-language",
+   "definition": "A graphical programming language for programmable logic controllers, resembling electrical relay-logic diagrams.",
+   "certification": false,
+   "language_type": "programming",
+   "variants": [
+    "Ladder Logic (Programming Language)",
+    "Ladder diagram"
+   ],
+   "relations": []
+  },
+  {
+   "key": "ladino",
+   "name": "Ladino",
+   "class": "language",
+   "kind": "human-language",
+   "definition": "The Romance language descended from medieval Spanish that is spoken by Sephardic Jewish communities.",
+   "certification": false,
+   "language_type": "human",
+   "variants": [
+    "Ladino (Language)",
+    "Judeo-Spanish"
+   ],
+   "relations": []
+  },
+  {
+   "key": "lango",
+   "name": "Lango",
+   "class": "language",
+   "kind": "human-language",
+   "definition": "A Nilotic language spoken by the Lango people of northern Uganda.",
+   "certification": false,
+   "language_type": "human",
+   "variants": [
+    "Lango (Language)"
+   ],
+   "relations": []
+  },
+  {
+   "key": "lao",
+   "name": "Lao",
+   "class": "language",
+   "kind": "human-language",
+   "definition": "A Kra-Dai language, the official language of Laos.",
+   "certification": false,
+   "language_type": "human",
+   "variants": [
+    "Lao (Language)"
+   ],
+   "relations": []
+  },
+  {
+   "key": "lawa",
+   "name": "Lawa",
+   "class": "language",
+   "kind": "human-language",
+   "definition": "An Austroasiatic language of the Palaungic branch spoken by the Lawa people of northern Thailand.",
+   "certification": false,
+   "language_type": "human",
+   "variants": [
+    "Lawa (Language)"
+   ],
+   "relations": []
+  },
+  {
+   "key": "less",
+   "name": "LESS",
+   "class": "language",
+   "kind": "style-language",
+   "definition": "A CSS preprocessor language that adds variables, nesting, mixins and functions to style sheets and compiles to plain CSS.",
+   "certification": false,
+   "language_type": "programming",
+   "variants": [
+    "Leaner Style Sheets"
+   ],
+   "relations": []
+  },
+  {
+   "key": "lingala",
+   "name": "Lingala",
+   "class": "language",
+   "kind": "human-language",
+   "definition": "A Bantu language spoken along the Congo River and widely used as a lingua franca in the Democratic Republic of the Congo and the Republic of the Congo.",
+   "certification": false,
+   "language_type": "human",
+   "variants": [
+    "Lingala (Language)"
+   ],
+   "relations": []
+  },
+  {
+   "key": "lingo",
+   "name": "Lingo",
+   "class": "language",
+   "kind": "programming-language",
+   "definition": "The scripting language of Macromedia Director, later Adobe Director, used to build multimedia and games.",
+   "certification": false,
+   "language_type": "programming",
+   "variants": [
+    "Lingo (Programming Language)"
+   ],
+   "relations": []
+  },
+  {
+   "key": "liquid-template-language",
+   "name": "Liquid template language",
+   "class": "language",
+   "kind": "programming-language",
+   "definition": "An open-source template language, created by Shopify, that uses objects, tags and filters to build dynamic web pages.",
+   "certification": false,
+   "language_type": "programming",
+   "variants": [
+    "Liquid Template"
+   ],
+   "relations": []
+  },
+  {
+   "key": "lisp",
+   "name": "Lisp",
+   "class": "language",
+   "kind": "programming-language",
+   "definition": "A family of programming languages originating in 1958, built on parenthesized prefix notation and linked-list data.",
+   "certification": false,
+   "language_type": "programming",
+   "variants": [
+    "Lisp (Programming Language)"
+   ],
+   "relations": []
+  }
+ ]
+}

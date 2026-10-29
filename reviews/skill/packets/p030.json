@@ -19,6 +19,140 @@
  ],
  "entries": [
   {
+   "key": "instagram-stories",
+   "name": "Instagram Stories",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "A feature of Instagram for posting photos and short videos that disappear after 24 hours.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "integrative-biology",
+   "name": "Integrative biology",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "The study of living things that combines methods and ideas from several levels of biology, from molecules and cells to whole organisms and ecosystems.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "integrity-rtos",
+   "name": "INTEGRITY RTOS",
+   "class": "skill",
+   "kind": "platform",
+   "definition": "A real-time operating system from Green Hills Software, used in safety-critical embedded systems such as avionics.",
+   "certification": false,
+   "variants": [
+    "Green Hills Integrity"
+   ],
+   "relations": []
+  },
+  {
+   "key": "intel-viiv",
+   "name": "Intel Viiv",
+   "class": "skill",
+   "kind": "platform",
+   "definition": "Intel's brand, launched in 2006, for home-entertainment PCs built around specified Intel processors and chipsets.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "intellectual-property",
+   "name": "Intellectual property",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "The legal rights over creations of the mind, such as patents, copyrights, trademarks and trade secrets.",
+   "certification": false,
+   "variants": [
+    "Intellectual Properties"
+   ],
+   "relations": []
+  },
+  {
+   "key": "intelligent-automation",
+   "name": "Intelligent automation",
+   "class": "skill",
+   "kind": "method",
+   "definition": "Combining robotic process automation with artificial intelligence, such as machine learning and language processing, to automate whole business processes.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "intended-nationally-determined-contributions",
+   "name": "Intended Nationally Determined Contributions",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "The national climate action plans that countries submitted ahead of the 2015 Paris climate conference, which became Nationally Determined Contributions once adopted under the Paris Agreement.",
+   "certification": false,
+   "variants": [
+    "INDC"
+   ],
+   "relations": []
+  },
+  {
+   "key": "intensive-outpatient-therapy",
+   "name": "Intensive outpatient therapy",
+   "class": "skill",
+   "kind": "method",
+   "definition": "A structured mental-health or substance-use treatment programme in which patients attend therapy for several hours on several days a week while living at home.",
+   "certification": false,
+   "variants": [
+    "Intensive outpatient program"
+   ],
+   "relations": []
+  },
+  {
+   "key": "interactive-3d",
+   "name": "Interactive 3D",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Building three-dimensional content that users can rotate, explore or manipulate in real time, for example in a browser or game engine.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "interactive-design",
+   "name": "Interactive design",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Designing digital products and media, such as websites, apps and installations, that respond to what people do, including how they navigate, choose and get feedback.",
+   "certification": false,
+   "variants": [],
+   "relations": [
+    "related:user-interface-design"
+   ]
+  },
+  {
+   "key": "interactive-storytelling",
+   "name": "Interactive storytelling",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Writing and designing stories that readers or players can shape through their choices, as in interactive fiction, branching narratives and narrative games.",
+   "certification": false,
+   "variants": [
+    "Interactive Stories"
+   ],
+   "relations": []
+  },
+  {
+   "key": "interactive-web-content",
+   "name": "Interactive web content",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Building web pages and page elements, such as forms, quizzes, calculators, animations and games, that respond to what the visitor does.",
+   "certification": false,
+   "variants": [
+    "Interactive Web Pages"
+   ],
+   "relations": []
+  },
+  {
    "key": "interactive-web-design",
    "name": "Interactive web design",
    "class": "skill",
@@ -293,6 +427,16 @@
    "relations": []
   },
   {
+   "key": "ioffice",
+   "name": "iOFFICE",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "Workplace management software for planning office space, desks, moves and facility services.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
    "key": "ionic-2",
    "name": "Ionic 2",
    "class": "skill",
@@ -340,141 +484,6 @@
    "relations": [
     "related:python"
    ]
-  },
-  {
-   "key": "ironmq",
-   "name": "IronMQ",
-   "class": "skill",
-   "kind": "tool",
-   "definition": "A hosted message-queue service from Iron.io for passing messages between the parts of an application.",
-   "certification": false,
-   "variants": [],
-   "relations": []
-  },
-  {
-   "key": "ironpython",
-   "name": "IronPython",
-   "class": "skill",
-   "kind": "tool",
-   "definition": "An implementation of the Python language for the .NET platform.",
-   "certification": false,
-   "variants": [],
-   "relations": [
-    "related:python",
-    "related:cpython"
-   ]
-  },
-  {
-   "key": "irrigation-agriculture",
-   "name": "Irrigation (agriculture)",
-   "class": "skill",
-   "kind": "skill",
-   "definition": "Supplying water to crops or land through channels, sprinklers or drip lines, and operating and maintaining the equipment that does so.",
-   "certification": false,
-   "variants": [],
-   "relations": []
-  },
-  {
-   "key": "irrigation-health",
-   "name": "Irrigation (health)",
-   "class": "skill",
-   "kind": "skill",
-   "definition": "Flushing a wound, body cavity, eye, ear or catheter with a stream of sterile fluid to clean it or clear it out.",
-   "certification": false,
-   "variants": [],
-   "relations": []
-  },
-  {
-   "key": "iso-10012",
-   "name": "ISO 10012",
-   "class": "skill",
-   "kind": "standard",
-   "definition": "An ISO standard with requirements for managing measurement processes and the equipment used to measure.",
-   "certification": false,
-   "variants": [],
-   "relations": []
-  },
-  {
-   "key": "iso-10993",
-   "name": "ISO 10993",
-   "class": "skill",
-   "kind": "standard",
-   "definition": "A series of ISO standards for evaluating whether medical devices are biologically safe to use on or in the body.",
-   "certification": false,
-   "variants": [],
-   "relations": []
-  },
-  {
-   "key": "iso-14000",
-   "name": "ISO 14000",
-   "class": "skill",
-   "kind": "standard",
-   "definition": "A family of ISO standards on environmental management, of which ISO 14001 sets the requirements for an environmental management system.",
-   "certification": false,
-   "variants": [
-    "ISO 14000 Standard"
-   ],
-   "relations": []
-  },
-  {
-   "key": "iso-14971",
-   "name": "ISO 14971",
-   "class": "skill",
-   "kind": "standard",
-   "definition": "An ISO standard describing how manufacturers identify, evaluate and control the risks of medical devices.",
-   "certification": false,
-   "variants": [],
-   "relations": []
-  },
-  {
-   "key": "iso-15189",
-   "name": "ISO 15189",
-   "class": "skill",
-   "kind": "standard",
-   "definition": "An ISO standard setting quality and competence requirements for medical laboratories.",
-   "certification": false,
-   "variants": [],
-   "relations": []
-  },
-  {
-   "key": "iso-19011",
-   "name": "ISO 19011",
-   "class": "skill",
-   "kind": "standard",
-   "definition": "An ISO standard giving guidance on auditing management systems, including how to plan audits and what auditors need to be competent in.",
-   "certification": false,
-   "variants": [],
-   "relations": []
-  },
-  {
-   "key": "iso-26262",
-   "name": "ISO 26262",
-   "class": "skill",
-   "kind": "standard",
-   "definition": "An ISO standard for the functional safety of electrical and electronic systems in road vehicles.",
-   "certification": false,
-   "variants": [],
-   "relations": []
-  },
-  {
-   "key": "iso-31000",
-   "name": "ISO 31000",
-   "class": "skill",
-   "kind": "standard",
-   "definition": "An ISO standard giving principles and guidelines for managing risk in any organisation.",
-   "certification": false,
-   "variants": [],
-   "relations": []
-  },
-  {
-   "key": "iso-50001",
-   "name": "ISO 50001",
-   "class": "skill",
-   "kind": "standard",
-   "definition": "An ISO standard with requirements for an energy management system that helps an organisation use energy more efficiently.",
-   "certification": false,
-   "variants": [],
-   "relations": []
   }
  ]
 }

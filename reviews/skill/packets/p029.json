@@ -19,6 +19,145 @@
  ],
  "entries": [
   {
+   "key": "image-generation",
+   "name": "Image generation",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Creating new images from text prompts or other inputs with generative AI models.",
+   "certification": false,
+   "variants": [],
+   "relations": [
+    "related:dall-e"
+   ]
+  },
+  {
+   "key": "image-segmentation",
+   "name": "Image segmentation",
+   "class": "skill",
+   "kind": "method",
+   "definition": "Dividing a digital image into regions, such as separating objects from the background, so that each part can be analysed.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "imaging-informatics",
+   "name": "Imaging informatics",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "The field that applies information technology to medical images, covering how they are acquired, stored, shared and analysed.",
+   "certification": false,
+   "variants": [],
+   "relations": [
+    "broader:biomedical-informatics"
+   ]
+  },
+  {
+   "key": "immunization",
+   "name": "Immunization",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "The use of vaccines to make people resistant to specific infectious diseases, including which vaccines are given, when and to whom.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "immunohaematology",
+   "name": "Immunohaematology",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "The branch of laboratory medicine that studies blood-group antigens and antibodies, used for blood typing and for matching blood before a transfusion.",
+   "certification": false,
+   "variants": [
+    "Immunohematology"
+   ],
+   "relations": []
+  },
+  {
+   "key": "immutable-js",
+   "name": "Immutable.js",
+   "class": "skill",
+   "kind": "library",
+   "definition": "A JavaScript library from Facebook that provides persistent immutable data structures such as List, Map and Set.",
+   "certification": false,
+   "variants": [
+    "ImmutableJS"
+   ],
+   "relations": []
+  },
+  {
+   "key": "impact-js",
+   "name": "Impact.js",
+   "class": "skill",
+   "kind": "framework",
+   "definition": "A JavaScript game engine for making 2D games that run in the browser on the HTML5 canvas.",
+   "certification": false,
+   "variants": [
+    "ImpactJS"
+   ],
+   "relations": []
+  },
+  {
+   "key": "in-memory-database",
+   "name": "In-memory database",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "A database management system that keeps its data mainly in a computer's main memory instead of on disk, to give faster access.",
+   "certification": false,
+   "variants": [
+    "In-Memory Database System",
+    "Main memory database"
+   ],
+   "relations": [
+    "broader:database-systems"
+   ]
+  },
+  {
+   "key": "inbound-logistics",
+   "name": "Inbound logistics",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "The part of logistics that brings materials, parts and goods from suppliers into a business, including purchasing, transport, receiving and storage.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "incentive-spirometry",
+   "name": "Incentive spirometry",
+   "class": "skill",
+   "kind": "method",
+   "definition": "A breathing exercise in which a patient inhales deeply through a handheld device that shows how much air is drawn in, to keep the lungs expanded and help prevent complications such as pneumonia after surgery.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "incident-reporting",
+   "name": "Incident reporting",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Writing a factual, timely record of an accident, injury, security event or other incident, including what happened, who was involved and what was done.",
+   "certification": false,
+   "variants": [
+    "Incident Report"
+   ],
+   "relations": []
+  },
+  {
+   "key": "incurred-but-not-reported",
+   "name": "Incurred but not reported",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "In insurance, the estimated cost of claims for events that have already happened but have not yet been reported to or settled by the insurer.",
+   "certification": false,
+   "variants": [
+    "IBNR"
+   ],
+   "relations": []
+  },
+  {
    "key": "indentation-hardness",
    "name": "Indentation hardness",
    "class": "skill",
@@ -335,140 +474,6 @@
    "relations": [
     "broader:e-marketing"
    ]
-  },
-  {
-   "key": "instagram-stories",
-   "name": "Instagram Stories",
-   "class": "skill",
-   "kind": "tool",
-   "definition": "A feature of Instagram for posting photos and short videos that disappear after 24 hours.",
-   "certification": false,
-   "variants": [],
-   "relations": []
-  },
-  {
-   "key": "integrative-biology",
-   "name": "Integrative biology",
-   "class": "skill",
-   "kind": "knowledge",
-   "definition": "The study of living things that combines methods and ideas from several levels of biology, from molecules and cells to whole organisms and ecosystems.",
-   "certification": false,
-   "variants": [],
-   "relations": []
-  },
-  {
-   "key": "integrity-rtos",
-   "name": "INTEGRITY RTOS",
-   "class": "skill",
-   "kind": "platform",
-   "definition": "A real-time operating system from Green Hills Software, used in safety-critical embedded systems such as avionics.",
-   "certification": false,
-   "variants": [
-    "Green Hills Integrity"
-   ],
-   "relations": []
-  },
-  {
-   "key": "intel-viiv",
-   "name": "Intel Viiv",
-   "class": "skill",
-   "kind": "platform",
-   "definition": "Intel's brand, launched in 2006, for home-entertainment PCs built around specified Intel processors and chipsets.",
-   "certification": false,
-   "variants": [],
-   "relations": []
-  },
-  {
-   "key": "intellectual-property",
-   "name": "Intellectual property",
-   "class": "skill",
-   "kind": "knowledge",
-   "definition": "The legal rights over creations of the mind, such as patents, copyrights, trademarks and trade secrets.",
-   "certification": false,
-   "variants": [
-    "Intellectual Properties"
-   ],
-   "relations": []
-  },
-  {
-   "key": "intelligent-automation",
-   "name": "Intelligent automation",
-   "class": "skill",
-   "kind": "method",
-   "definition": "Combining robotic process automation with artificial intelligence, such as machine learning and language processing, to automate whole business processes.",
-   "certification": false,
-   "variants": [],
-   "relations": []
-  },
-  {
-   "key": "intended-nationally-determined-contributions",
-   "name": "Intended Nationally Determined Contributions",
-   "class": "skill",
-   "kind": "knowledge",
-   "definition": "The national climate action plans that countries submitted ahead of the 2015 Paris climate conference, which became Nationally Determined Contributions once adopted under the Paris Agreement.",
-   "certification": false,
-   "variants": [
-    "INDC"
-   ],
-   "relations": []
-  },
-  {
-   "key": "intensive-outpatient-therapy",
-   "name": "Intensive outpatient therapy",
-   "class": "skill",
-   "kind": "method",
-   "definition": "A structured mental-health or substance-use treatment programme in which patients attend therapy for several hours on several days a week while living at home.",
-   "certification": false,
-   "variants": [
-    "Intensive outpatient program"
-   ],
-   "relations": []
-  },
-  {
-   "key": "interactive-3d",
-   "name": "Interactive 3D",
-   "class": "skill",
-   "kind": "skill",
-   "definition": "Building three-dimensional content that users can rotate, explore or manipulate in real time, for example in a browser or game engine.",
-   "certification": false,
-   "variants": [],
-   "relations": []
-  },
-  {
-   "key": "interactive-design",
-   "name": "Interactive design",
-   "class": "skill",
-   "kind": "skill",
-   "definition": "Designing digital products and media, such as websites, apps and installations, that respond to what people do, including how they navigate, choose and get feedback.",
-   "certification": false,
-   "variants": [],
-   "relations": [
-    "related:user-interface-design"
-   ]
-  },
-  {
-   "key": "interactive-storytelling",
-   "name": "Interactive storytelling",
-   "class": "skill",
-   "kind": "skill",
-   "definition": "Writing and designing stories that readers or players can shape through their choices, as in interactive fiction, branching narratives and narrative games.",
-   "certification": false,
-   "variants": [
-    "Interactive Stories"
-   ],
-   "relations": []
-  },
-  {
-   "key": "interactive-web-content",
-   "name": "Interactive web content",
-   "class": "skill",
-   "kind": "skill",
-   "definition": "Building web pages and page elements, such as forms, quizzes, calculators, animations and games, that respond to what the visitor does.",
-   "certification": false,
-   "variants": [
-    "Interactive Web Pages"
-   ],
-   "relations": []
   }
  ]
 }

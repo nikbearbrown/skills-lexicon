@@ -19,6 +19,217 @@
  ],
  "entries": [
   {
+   "key": "oracle-hrms",
+   "name": "Oracle HRMS",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "The human-resources applications of Oracle E-Business Suite, covering employee records, payroll, benefits, time and training.",
+   "certification": false,
+   "variants": [
+    "Oracle Human Resource Management System"
+   ],
+   "relations": []
+  },
+  {
+   "key": "oracle-olap",
+   "name": "Oracle OLAP",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "An option of Oracle Database that stores multidimensional data in analytic workspaces and answers online analytical processing queries.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "oracle-primavera",
+   "name": "Oracle Primavera",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "Oracle's family of project portfolio management software, best known for Primavera P6, used to plan and schedule large projects.",
+   "certification": false,
+   "variants": [
+    "Primavera"
+   ],
+   "relations": []
+  },
+  {
+   "key": "oracle-reports",
+   "name": "Oracle Reports",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "An Oracle tool for designing and running formatted, paginated reports from the data in Oracle Database.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "oracle-workflow",
+   "name": "Oracle Workflow",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "An Oracle tool, used with Oracle Database and E-Business Suite, for modelling and automating business processes as workflows.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "oral-cancer-screening",
+   "name": "Oral cancer screening",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Examining the mouth, lips, tongue and throat for early signs of cancer or precancerous lesions.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "oral-hygiene",
+   "name": "Oral hygiene",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "The practices that keep the mouth, teeth and gums clean and healthy, such as brushing, flossing and cleaning dentures.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "order-of-draw",
+   "name": "Order of draw",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "The recommended sequence for filling blood-collection tubes during venipuncture so that additives from one tube do not contaminate the next.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "organic-composition-of-capital",
+   "name": "Organic composition of capital",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "In Marxian economics, the ratio of the capital spent on machinery and materials to the capital spent on wages.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "organization-development",
+   "name": "Organization development",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "The field and practice of planned, behavioural-science-based efforts to improve how an organisation works and how its people work together.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "organizational-change",
+   "name": "Organizational change",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "How and why an organisation alters its strategy, structure, processes or culture, and how that change is planned and managed.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "organizational-culture-change",
+   "name": "Organizational culture change",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Deliberately shifting the shared values, norms and habits of an organisation so that people work differently.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "organizational-leadership",
+   "name": "Organizational leadership",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Guiding people and setting direction across an organisation so that it meets its goals.",
+   "certification": false,
+   "variants": [],
+   "relations": [
+    "related:adaptive-leadership"
+   ]
+  },
+  {
+   "key": "orientdb",
+   "name": "OrientDB",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "An open-source NoSQL database, written in Java, that combines graph, document, key-value and object models.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "orthopaedic-nursing",
+   "name": "Orthopaedic nursing",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Caring for patients with bone, joint and muscle conditions, injuries and surgery.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "otel",
+   "name": "OpenTelemetry",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "Instrumentation tooling; related to observability, not a synonym.",
+   "variants": [],
+   "relations": [
+    "related:observability"
+   ]
+  },
+  {
+   "key": "outbound-logistics",
+   "name": "Outbound logistics",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "The part of logistics that moves finished goods from a business to its customers, including order fulfilment, warehousing, transport and delivery.",
+   "certification": false,
+   "variants": [],
+   "relations": [
+    "contrast:inbound-logistics"
+   ]
+  },
+  {
+   "key": "outpatient-surgery",
+   "name": "Outpatient surgery",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "Surgery after which the patient goes home the same day, without an overnight stay in hospital.",
+   "certification": false,
+   "variants": [
+    "Outpatient Surgeries"
+   ],
+   "relations": []
+  },
+  {
+   "key": "outsystems",
+   "name": "OutSystems",
+   "class": "skill",
+   "kind": "platform",
+   "definition": "A low-code platform for building, deploying and managing web and mobile applications.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "over-the-road-driving",
+   "name": "Over-the-road driving",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Driving a truck over long distances between cities and states, usually spending nights away from home.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
    "key": "overhead-camshaft-engine",
    "name": "Overhead camshaft engine",
    "class": "skill",
@@ -199,6 +410,18 @@
    ]
   },
   {
+   "key": "pari-gp",
+   "name": "PARI/GP",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "A computer algebra system for fast computations in number theory, with its own scripting language called GP.",
+   "certification": false,
+   "variants": [
+    "Pari/gp (Programming Language)"
+   ],
+   "relations": []
+  },
+  {
    "key": "paris-agreement",
    "name": "Paris Agreement",
    "class": "skill",
@@ -226,243 +449,6 @@
    "class": "skill",
    "kind": "knowledge",
    "definition": "The tax rules for partnerships, under which income and losses pass through to the partners, covered in the US by Subchapter K of the Internal Revenue Code.",
-   "certification": false,
-   "variants": [],
-   "relations": []
-  },
-  {
-   "key": "passport-js",
-   "name": "Passport.js",
-   "class": "skill",
-   "kind": "library",
-   "definition": "Authentication middleware for Node.js, with strategies for usernames and passwords, OAuth providers and other login methods.",
-   "certification": false,
-   "variants": [
-    "PassportJS"
-   ],
-   "relations": []
-  },
-  {
-   "key": "path-to-purchase",
-   "name": "Path to purchase",
-   "class": "skill",
-   "kind": "knowledge",
-   "definition": "The steps a customer goes through from first becoming aware of a product to buying it.",
-   "certification": false,
-   "variants": [
-    "Paths To Purchase"
-   ],
-   "relations": []
-  },
-  {
-   "key": "pathlore",
-   "name": "Pathlore",
-   "class": "skill",
-   "kind": "platform",
-   "definition": "A learning management system, from Pathlore Software Corporation, for delivering and tracking employee training.",
-   "certification": false,
-   "variants": [],
-   "relations": []
-  },
-  {
-   "key": "pathology-informatics",
-   "name": "Pathology informatics",
-   "class": "skill",
-   "kind": "knowledge",
-   "definition": "The field that applies information technology and data science to pathology and laboratory medicine, including lab information systems and digital pathology.",
-   "certification": false,
-   "variants": [],
-   "relations": [
-    "broader:clinical-informatics",
-    "related:imaging-informatics"
-   ]
-  },
-  {
-   "key": "patient-coordination",
-   "name": "Patient coordination",
-   "class": "skill",
-   "kind": "skill",
-   "definition": "Arranging a patient's appointments, services and information across a care team so that care runs smoothly.",
-   "certification": false,
-   "variants": [],
-   "relations": [
-    "related:care-coordination"
-   ]
-  },
-  {
-   "key": "patient-education",
-   "name": "Patient education",
-   "class": "skill",
-   "kind": "skill",
-   "definition": "Teaching patients and their families about a condition, treatment or self-care so that they can manage their health.",
-   "certification": false,
-   "variants": [],
-   "relations": [
-    "related:asthma-education"
-   ]
-  },
-  {
-   "key": "patient-identification-and-matching",
-   "name": "Patient identification and matching",
-   "class": "skill",
-   "kind": "knowledge",
-   "definition": "Accurately identifying a patient and linking all of their records across health-care systems to the right person.",
-   "certification": false,
-   "variants": [],
-   "relations": []
-  },
-  {
-   "key": "patient-transfer",
-   "name": "Patient transfer",
-   "class": "skill",
-   "kind": "skill",
-   "definition": "Moving a patient safely from one place to another, such as from bed to wheelchair or between care facilities, using correct lifting and equipment.",
-   "certification": false,
-   "variants": [],
-   "relations": []
-  },
-  {
-   "key": "pattern-lab",
-   "name": "Pattern Lab",
-   "class": "skill",
-   "kind": "tool",
-   "definition": "An open-source tool for building and showing atomic-design pattern libraries (style guides) for websites.",
-   "certification": false,
-   "variants": [
-    "Pattern Lab (Software)"
-   ],
-   "relations": []
-  },
-  {
-   "key": "payment-card-industry-data-security-standard",
-   "name": "Payment Card Industry Data Security Standard",
-   "class": "skill",
-   "kind": "standard",
-   "definition": "A set of security requirements, from the PCI Security Standards Council, for organisations that store, process or transmit payment card data.",
-   "certification": false,
-   "variants": [
-    "PCI Data Security Standards",
-    "PCI DSS"
-   ],
-   "relations": []
-  },
-  {
-   "key": "pdf-conversion",
-   "name": "PDF conversion",
-   "class": "skill",
-   "kind": "skill",
-   "definition": "Converting documents to and from PDF and other formats such as Word, Excel and images.",
-   "certification": false,
-   "variants": [],
-   "relations": []
-  },
-  {
-   "key": "pdf-generation",
-   "name": "PDF generation",
-   "class": "skill",
-   "kind": "skill",
-   "definition": "Creating PDF files from other content or data, often automatically by software.",
-   "certification": false,
-   "variants": [],
-   "relations": []
-  },
-  {
-   "key": "pdf-js",
-   "name": "PDF.js",
-   "class": "skill",
-   "kind": "library",
-   "definition": "A JavaScript library from Mozilla that displays PDF documents in the browser.",
-   "certification": false,
-   "variants": [],
-   "relations": []
-  },
-  {
-   "key": "pdf-viewer",
-   "name": "PDF viewer",
-   "class": "skill",
-   "kind": "tool",
-   "definition": "Software that opens and displays PDF files for reading and printing, and often for annotating.",
-   "certification": false,
-   "variants": [],
-   "relations": []
-  },
-  {
-   "key": "pdflib",
-   "name": "PDFlib",
-   "class": "skill",
-   "kind": "library",
-   "definition": "A commercial library, with bindings for many programming languages, for generating and processing PDF files.",
-   "certification": false,
-   "variants": [],
-   "relations": []
-  },
-  {
-   "key": "pdfnet",
-   "name": "PDFNet",
-   "class": "skill",
-   "kind": "library",
-   "definition": "A software development kit from PDFTron (now Apryse) for creating, viewing, editing and converting PDF files.",
-   "certification": false,
-   "variants": [
-    "PDFNet SDK"
-   ],
-   "relations": []
-  },
-  {
-   "key": "pdftk",
-   "name": "PDFtk",
-   "class": "skill",
-   "kind": "tool",
-   "definition": "A command-line tool, short for PDF Toolkit, for merging, splitting, rotating and encrypting PDF files.",
-   "certification": false,
-   "variants": [
-    "PDF Toolkit"
-   ],
-   "relations": []
-  },
-  {
-   "key": "peachtree-accounting",
-   "name": "Peachtree Accounting",
-   "class": "skill",
-   "kind": "tool",
-   "definition": "Accounting software for small businesses, originally from Peachtree Software and later sold by Sage as Sage 50.",
-   "certification": false,
-   "variants": [
-    "Peachtree (Accounting Software)",
-    "Sage Peachtree"
-   ],
-   "relations": [
-    "broader:accounting-software"
-   ]
-  },
-  {
-   "key": "pediatric-surgery",
-   "name": "Pediatric surgery",
-   "class": "skill",
-   "kind": "knowledge",
-   "definition": "The surgical specialty that operates on infants, children and adolescents.",
-   "certification": false,
-   "variants": [
-    "Pediatric Surgeries"
-   ],
-   "relations": []
-  },
-  {
-   "key": "pelvic-floor",
-   "name": "Pelvic floor",
-   "class": "skill",
-   "kind": "knowledge",
-   "definition": "The muscles and connective tissue at the base of the pelvis that support the bladder, bowel and, in women, the uterus.",
-   "certification": false,
-   "variants": [],
-   "relations": []
-  },
-  {
-   "key": "pelvic-floor-rehabilitation",
-   "name": "Pelvic floor rehabilitation",
-   "class": "skill",
-   "kind": "skill",
-   "definition": "Therapy, such as exercises and biofeedback, that retrains the pelvic floor muscles to treat problems like incontinence and pelvic pain.",
    "certification": false,
    "variants": [],
    "relations": []

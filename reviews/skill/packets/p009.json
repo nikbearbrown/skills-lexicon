@@ -19,6 +19,84 @@
  ],
  "entries": [
   {
+   "key": "building-crates-and-skids",
+   "name": "Building crates and skids",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Constructing wooden crates and skids to ship and support goods.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "bullet-physics",
+   "name": "Bullet Physics",
+   "class": "skill",
+   "kind": "library",
+   "definition": "An open-source physics engine library for real-time collision detection and rigid-body simulation in games, robotics and visual effects.",
+   "certification": false,
+   "variants": [
+    "Bullet (Software)"
+   ],
+   "relations": []
+  },
+  {
+   "key": "bulma",
+   "name": "Bulma",
+   "class": "skill",
+   "kind": "framework",
+   "definition": "An open-source CSS framework built on Flexbox that provides ready-made layout and interface components.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "burndown-chart",
+   "name": "Burndown chart",
+   "class": "skill",
+   "kind": "method",
+   "definition": "A chart that plots the work remaining in a project against time, used by agile teams to track progress.",
+   "certification": false,
+   "variants": [
+    "Burn Down Chart"
+   ],
+   "relations": []
+  },
+  {
+   "key": "business-excellence",
+   "name": "Business excellence",
+   "class": "skill",
+   "kind": "method",
+   "definition": "A management approach that applies quality-management principles and models such as the EFQM Excellence Model to improve an organisation's performance.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "business-integration-software",
+   "name": "Business integration software",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "Software that connects business applications and data sources so that they can exchange information.",
+   "certification": false,
+   "variants": [
+    "Business Integration Softwares"
+   ],
+   "relations": []
+  },
+  {
+   "key": "business-process-analysis",
+   "name": "Business process analysis",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Studying how a business process works in order to find problems and ways to improve it.",
+   "certification": false,
+   "variants": [
+    "Process Analysis (Business)"
+   ],
+   "relations": []
+  },
+  {
    "key": "butchering",
    "name": "Butchering",
    "class": "skill",
@@ -70,6 +148,18 @@
    "definition": "A JavaScript library, built on D3, for making reusable charts.",
    "certification": false,
    "variants": [],
+   "relations": []
+  },
+  {
+   "key": "cable-splicing",
+   "name": "Cable splicing",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Joining the ends of two cables, such as electrical, telephone or fibre-optic cable, so that they work as one continuous line.",
+   "certification": false,
+   "variants": [
+    "Splice Cable"
+   ],
    "relations": []
   },
   {
@@ -363,99 +453,6 @@
    "certification": false,
    "variants": [
     "Capture One (Photo Editing Software)"
-   ],
-   "relations": []
-  },
-  {
-   "key": "capybara",
-   "name": "Capybara",
-   "class": "skill",
-   "kind": "library",
-   "definition": "A Ruby library for testing web applications by simulating how a user interacts with them.",
-   "certification": false,
-   "variants": [],
-   "relations": []
-  },
-  {
-   "key": "cardiac-stress-testing",
-   "name": "Cardiac stress testing",
-   "class": "skill",
-   "kind": "skill",
-   "definition": "Conducting tests that record how the heart responds to physical exercise or to drugs that simulate exercise.",
-   "certification": false,
-   "variants": [
-    "Cardiac Stress Tests"
-   ],
-   "relations": []
-  },
-  {
-   "key": "cardiac-surgery",
-   "name": "Cardiac surgery",
-   "class": "skill",
-   "kind": "knowledge",
-   "definition": "The surgical specialty that operates on the heart.",
-   "certification": false,
-   "variants": [
-    "Cardiac Surgeries"
-   ],
-   "relations": []
-  },
-  {
-   "key": "cardiac-valve-repair",
-   "name": "Cardiac valve repair",
-   "class": "skill",
-   "kind": "skill",
-   "definition": "Surgically reconstructing a damaged heart valve so that it works again without replacing it.",
-   "certification": false,
-   "variants": [],
-   "relations": []
-  },
-  {
-   "key": "cardiopulmonary-resuscitation",
-   "name": "Cardiopulmonary resuscitation",
-   "class": "skill",
-   "kind": "skill",
-   "definition": "An emergency procedure that combines chest compressions and rescue breaths to keep blood and oxygen moving when someone's heart or breathing has stopped.",
-   "certification": false,
-   "variants": [
-    "Cardio-Pulmonary Resuscitation (CPR)",
-    "CPR"
-   ],
-   "relations": [
-    "related:neonatal-resuscitation-program"
-   ]
-  },
-  {
-   "key": "cardiothoracic-surgery",
-   "name": "Cardiothoracic surgery",
-   "class": "skill",
-   "kind": "knowledge",
-   "definition": "The surgical specialty that operates on organs in the chest, mainly the heart and lungs.",
-   "certification": false,
-   "variants": [
-    "Cardiothoracic Surgeries"
-   ],
-   "relations": []
-  },
-  {
-   "key": "cardiovascular-coding",
-   "name": "Cardiovascular coding",
-   "class": "skill",
-   "kind": "skill",
-   "definition": "Assigning standard diagnosis and procedure codes to heart and blood-vessel care records for billing and reporting.",
-   "certification": false,
-   "variants": [],
-   "relations": []
-  },
-  {
-   "key": "cardiovascular-physiology",
-   "name": "Cardiovascular physiology",
-   "class": "skill",
-   "kind": "knowledge",
-   "definition": "The study of how the heart and blood vessels work.",
-   "certification": false,
-   "variants": [
-    "CardioVasculars Physiology"
    ],
    "relations": []
   }

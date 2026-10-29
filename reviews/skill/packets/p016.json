@@ -19,6 +19,102 @@
  ],
  "entries": [
   {
+   "key": "data-pipeline",
+   "name": "Data pipeline",
+   "class": "skill",
+   "kind": "method",
+   "definition": "An automated series of steps that moves data from its sources through processing to a destination such as a data warehouse.",
+   "certification": false,
+   "variants": [],
+   "relations": [
+    "part_of:data-engineering"
+   ]
+  },
+  {
+   "key": "data-storage-technologies",
+   "name": "Data storage technologies",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "The hardware and software used to store digital data, such as disk arrays, flash storage, object storage and tape.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "data-vault-modeling",
+   "name": "Data Vault modeling",
+   "class": "skill",
+   "kind": "method",
+   "definition": "A data-warehouse modelling method, created by Dan Linstedt, that organises data into hubs, links and satellites so that history is kept and many sources can be integrated.",
+   "certification": false,
+   "variants": [
+    "Data Vault"
+   ],
+   "relations": [
+    "broader:data-modeling"
+   ]
+  },
+  {
+   "key": "data-visualization",
+   "name": "Data visualization",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Encoding data visually to support interpretation.",
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "data-warehouse-management",
+   "name": "Data warehouse management",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Administering a data warehouse, including its data loading, storage, performance, security and availability.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "data-wrangling",
+   "name": "Data wrangling",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Cleaning, reshaping and combining raw data so it can be analysed.",
+   "certification": false,
+   "variants": [
+    "Data munging"
+   ],
+   "relations": [
+    "related:validation"
+   ]
+  },
+  {
+   "key": "database-administration",
+   "name": "Database administration",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Installing, configuring, securing, backing up and tuning database systems so that they stay available and perform well.",
+   "certification": false,
+   "variants": [],
+   "relations": [
+    "related:database-design"
+   ]
+  },
+  {
+   "key": "database-as-a-service",
+   "name": "Database as a service",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "A cloud service model in which a provider runs and manages a database that customers use without managing the underlying servers.",
+   "certification": false,
+   "variants": [
+    "Database as a Service (DBaaS)",
+    "DBaaS"
+   ],
+   "relations": [
+    "related:software-as-a-service"
+   ]
+  },
+  {
    "key": "database-design",
    "name": "Database design",
    "class": "skill",
@@ -356,91 +452,6 @@
    "class": "skill",
    "kind": "skill",
    "definition": "Creating and maintaining patient charts, treatment histories and images in a dental practice.",
-   "certification": false,
-   "variants": [],
-   "relations": []
-  },
-  {
-   "key": "deposition-geology",
-   "name": "Deposition (geology)",
-   "class": "skill",
-   "kind": "knowledge",
-   "definition": "The geological process by which sediment, soil or rock is laid down on a landform or land mass.",
-   "certification": false,
-   "variants": [],
-   "relations": []
-  },
-  {
-   "key": "design-consultation",
-   "name": "Design consultation",
-   "class": "skill",
-   "kind": "skill",
-   "definition": "Advising clients on design choices, such as the look, layout or function of a space, product or service.",
-   "certification": false,
-   "variants": [],
-   "relations": []
-  },
-  {
-   "key": "design-documentation",
-   "name": "Design documentation",
-   "class": "skill",
-   "kind": "skill",
-   "definition": "Writing and maintaining the drawings, specifications and notes that record how something is designed.",
-   "certification": false,
-   "variants": [],
-   "relations": []
-  },
-  {
-   "key": "design-for-manufacturability",
-   "name": "Design for manufacturability",
-   "class": "skill",
-   "kind": "method",
-   "definition": "Designing a product so that it is easy and cheap to make, by taking production methods and limits into account from the start.",
-   "certification": false,
-   "variants": [
-    "Design For Manufacturability (Industrial Design)",
-    "Design for manufacturing"
-   ],
-   "relations": []
-  },
-  {
-   "key": "design-of-experiments",
-   "name": "Design of experiments",
-   "class": "skill",
-   "kind": "method",
-   "definition": "Planning experiments so that the effects of several factors on a result can be measured efficiently and fairly.",
-   "certification": false,
-   "variants": [
-    "Experimental design"
-   ],
-   "relations": []
-  },
-  {
-   "key": "design-review",
-   "name": "Design review",
-   "class": "skill",
-   "kind": "method",
-   "definition": "A formal checkpoint where a design is examined against its requirements so that problems are found before work continues.",
-   "certification": false,
-   "variants": [],
-   "relations": []
-  },
-  {
-   "key": "design-validation",
-   "name": "Design validation",
-   "class": "skill",
-   "kind": "method",
-   "definition": "Checking, usually by testing, that a finished design meets the needs of its users and its intended use.",
-   "certification": false,
-   "variants": [],
-   "relations": []
-  },
-  {
-   "key": "desktop-management",
-   "name": "Desktop management",
-   "class": "skill",
-   "kind": "skill",
-   "definition": "Setting up, updating, securing and supporting an organisation's desktop computers and their software.",
    "certification": false,
    "variants": [],
    "relations": []

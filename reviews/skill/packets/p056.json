@@ -1,0 +1,455 @@
+{
+ "allowed_kinds": [
+  "ability",
+  "credential",
+  "framework",
+  "human-language",
+  "knowledge",
+  "library",
+  "markup-language",
+  "method",
+  "modeling-language",
+  "platform",
+  "programming-language",
+  "skill",
+  "standard",
+  "style-language",
+  "tool",
+  "work-activity"
+ ],
+ "entries": [
+  {
+   "key": "syndicated-finance",
+   "name": "Syndicated finance",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "Raising money for a borrower through a group of lenders that share one loan under a single agreement, known as a syndicated loan.",
+   "certification": false,
+   "variants": [],
+   "relations": [
+    "broader:general-finance"
+   ]
+  },
+  {
+   "key": "synthesizing-information",
+   "name": "Synthesizing information",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Combining information from several sources into one clear, coherent picture.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "syskey",
+   "name": "Syskey",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "A legacy Windows utility that protected the account database with an extra startup key or password; Microsoft removed it in Windows 10 version 1709.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "sysomos",
+   "name": "Sysomos",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "A social media monitoring and analytics tool for tracking online conversations about brands, now part of Meltwater.",
+   "certification": false,
+   "variants": [
+    "Sysomos (Social Listening Tool)"
+   ],
+   "relations": []
+  },
+  {
+   "key": "system-data",
+   "name": "System.Data",
+   "class": "skill",
+   "kind": "library",
+   "definition": "The .NET namespace that holds ADO.NET, the classes for connecting to databases and working with data.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "system-implementation",
+   "name": "System implementation",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Installing, configuring, testing and rolling out a new information system for an organisation.",
+   "certification": false,
+   "variants": [
+    "Systems Implementations"
+   ],
+   "relations": []
+  },
+  {
+   "key": "system-recovery",
+   "name": "System recovery",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Restoring a computer system to working order after a failure, for example from backups or recovery media.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "systemjs",
+   "name": "SystemJS",
+   "class": "skill",
+   "kind": "library",
+   "definition": "A JavaScript library that loads modules in the browser and in Node.js across several module formats.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "systems-management",
+   "name": "Systems management",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Administering and monitoring an organisation's computer systems, including their configuration, performance, updates and support.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "table-data-gateway",
+   "name": "Table data gateway",
+   "class": "skill",
+   "kind": "method",
+   "definition": "A design pattern in which one object acts as the gateway to a database table, holding all the SQL for reading and changing its rows.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "table-etiquette",
+   "name": "Table etiquette",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Behaving politely at a dining table, including using cutlery correctly, serving and making conversation.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "tableau",
+   "name": "Tableau",
+   "class": "skill",
+   "kind": "platform",
+   "definition": "A data visualization and business-intelligence platform for exploring data and building interactive dashboards, owned by Salesforce.",
+   "certification": false,
+   "variants": [
+    "Tableau (Busines Intelligence Software)"
+   ],
+   "relations": []
+  },
+  {
+   "key": "tabular-data-stream",
+   "name": "Tabular Data Stream",
+   "class": "skill",
+   "kind": "standard",
+   "definition": "The application-layer network protocol that Microsoft SQL Server, and Sybase databases before it, use to talk to client programs.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "taking-messages",
+   "name": "Taking messages",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Recording messages from callers or visitors accurately and passing them on to the right person.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "talent-management",
+   "name": "Talent management",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Attracting, developing and keeping the people an organisation needs, as a human-resources function.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "tanium",
+   "name": "Tanium",
+   "class": "skill",
+   "kind": "platform",
+   "definition": "An endpoint management and security platform that lets IT teams find, inspect and update large numbers of computers quickly.",
+   "certification": false,
+   "variants": [
+    "Tanium (Endpoint Management Software)"
+   ],
+   "relations": [
+    "broader:endpoint-management",
+    "related:bigfix"
+   ]
+  },
+  {
+   "key": "tank-truck",
+   "name": "Tank truck",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "A truck that carries liquids or gases in a tank mounted on its frame.",
+   "certification": false,
+   "variants": [
+    "Tanker truck"
+   ],
+   "relations": []
+  },
+  {
+   "key": "tape-measure",
+   "name": "Tape measure",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "A flexible ruler, usually a metal or cloth tape wound into a case, used to measure length and distance.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "tape-recorder",
+   "name": "Tape recorder",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "A device that records and plays back sound on magnetic tape.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "tax-deduction",
+   "name": "Tax deduction",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "An expense or allowance that the tax rules let a person or business subtract from taxable income.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "tax-return",
+   "name": "Tax return",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "The form filed with a tax authority that reports income and other details and works out the tax owed or refunded.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "tax-shelter",
+   "name": "Tax shelter",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "A legal arrangement or investment that reduces the tax a person or business has to pay.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "team-leadership",
+   "name": "Team leadership",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Guiding, motivating and organising a group of people to complete shared work.",
+   "certification": false,
+   "variants": [
+    "Team Leading"
+   ],
+   "relations": []
+  },
+  {
+   "key": "teamwork",
+   "name": "Teamwork",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Working cooperatively with colleagues to reach shared goals.",
+   "certification": false,
+   "variants": [
+    "Team-working"
+   ],
+   "relations": []
+  },
+  {
+   "key": "technical-leadership",
+   "name": "Technical leadership",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Guiding a team's technical direction and decisions and mentoring others, as a senior engineer or lead.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "technical-record-keeping",
+   "name": "Technical record-keeping",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Keeping accurate, up-to-date records of technical work such as inspections, maintenance, tests and measurements.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "technical-theatre",
+   "name": "Technical theatre",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "The behind-the-scenes crafts of staging a production, such as lighting, sound, sets and stage management.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "technical-writing",
+   "name": "Technical writing",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Communicating technical information clearly in written form.",
+   "variants": [
+    "Technical Writings"
+   ],
+   "relations": []
+  },
+  {
+   "key": "technology-entrepreneurship",
+   "name": "Technology entrepreneurship",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "Starting and growing a business built on a new technology or technical product.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "technology-roadmap",
+   "name": "Technology roadmap",
+   "class": "skill",
+   "kind": "method",
+   "definition": "A plan that sets out how technology will be developed or adopted over time to meet business goals.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "tekla",
+   "name": "Tekla",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "Trimble's family of building information modelling software for structural design, detailing and construction, best known as Tekla Structures.",
+   "certification": false,
+   "variants": [
+    "Tekla (BIM Software)"
+   ],
+   "relations": [
+    "related:navisworks"
+   ]
+  },
+  {
+   "key": "telecommunications-equipment-installation",
+   "name": "Telecommunications equipment installation",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Installing and connecting telecommunications equipment such as cabling, antennas, switches and phone systems.",
+   "certification": false,
+   "variants": [
+    "Telecommunications Equipment and Installation"
+   ],
+   "relations": []
+  },
+  {
+   "key": "telegraphy",
+   "name": "Telegraphy",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Sending and receiving messages over a telegraph line or radio link, typically as Morse code.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "telephone-etiquette",
+   "name": "Telephone etiquette",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Handling phone calls politely and professionally, including greeting callers, speaking clearly and ending calls well.",
+   "certification": false,
+   "variants": [
+    "Telephone Etiquettes"
+   ],
+   "relations": []
+  },
+  {
+   "key": "telescoping-gauge",
+   "name": "Telescoping gauge",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "A T-shaped hand tool whose spring-loaded plungers expand to the width of a bore or slot so that the width can then be measured with a micrometer.",
+   "certification": false,
+   "variants": [
+    "Telescoping (Gauge)"
+   ],
+   "relations": []
+  },
+  {
+   "key": "television-programming",
+   "name": "Television programming",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Choosing and scheduling the shows that a television channel broadcasts.",
+   "certification": false,
+   "variants": [],
+   "relations": [
+    "broader:broadcast-programming"
+   ]
+  },
+  {
+   "key": "temporal-io",
+   "name": "Temporal.io",
+   "class": "skill",
+   "kind": "platform",
+   "definition": "An open-source platform for running durable workflows, which keeps the state of long-running code so that it survives failures.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "tensorflow",
+   "name": "TensorFlow",
+   "class": "skill",
+   "kind": "library",
+   "definition": "Building and executing machine-learning models with TensorFlow.",
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "testing",
+   "name": "Software testing",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Designing checks and cases to evaluate software behavior.",
+   "variants": [
+    "testing",
+    "Verification And Validation (Software)"
+   ],
+   "relations": []
+  },
+  {
+   "key": "testng",
+   "name": "TestNG",
+   "class": "skill",
+   "kind": "framework",
+   "definition": "A testing framework for Java, inspired by JUnit, that supports annotations, grouped and parallel tests and flexible test configuration.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  }
+ ]
+}

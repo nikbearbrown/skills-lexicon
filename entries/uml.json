@@ -8,7 +8,12 @@
  "kind": "modeling-language",
  "definition": "A language for modeling software systems.",
  "name_match": "exact_case",
- "variants": [],
+ "variants": [
+  {
+   "label": "Unified Modeling Languages",
+   "match": "word_ci"
+  }
+ ],
  "relations": [],
  "verbs": [],
  "status": "proposed",
@@ -35,6 +40,14 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "2026-10-29-review-2c-opus"
+  },
+  {
+   "field": "variant:unified modeling languages",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-29",
+   "run": "2026-10-29-round-11-main",
+   "note": "same concept as UML, listed in the legacy tag list"
   }
  ]
 }

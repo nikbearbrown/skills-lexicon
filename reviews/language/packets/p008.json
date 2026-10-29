@@ -1,0 +1,157 @@
+{
+ "allowed_kinds": [
+  "ability",
+  "credential",
+  "framework",
+  "human-language",
+  "knowledge",
+  "library",
+  "markup-language",
+  "method",
+  "modeling-language",
+  "platform",
+  "programming-language",
+  "skill",
+  "standard",
+  "style-language",
+  "tool",
+  "work-activity"
+ ],
+ "entries": [
+  {
+   "key": "visual-basic-net",
+   "name": "Visual Basic .NET",
+   "class": "language",
+   "kind": "programming-language",
+   "definition": "Microsoft's object-oriented version of the Visual Basic language for the .NET platform.",
+   "certification": false,
+   "language_type": "programming",
+   "variants": [
+    "Vb.net (Programming Language)",
+    "VB.NET"
+   ],
+   "relations": []
+  },
+  {
+   "key": "wagdi",
+   "name": "Wagdi",
+   "class": "language",
+   "kind": "human-language",
+   "definition": "An Indo-Aryan language spoken in the Vagad region of southern Rajasthan, India, and nearby areas.",
+   "certification": false,
+   "language_type": "human",
+   "variants": [
+    "Wagdi (Language)"
+   ],
+   "relations": []
+  },
+  {
+   "key": "walloon",
+   "name": "Walloon",
+   "class": "language",
+   "kind": "human-language",
+   "definition": "A Romance language spoken in Wallonia, the French-speaking part of Belgium.",
+   "certification": false,
+   "language_type": "human",
+   "variants": [
+    "Walloon (Language)"
+   ],
+   "relations": []
+  },
+  {
+   "key": "x3d",
+   "name": "X3D",
+   "class": "language",
+   "kind": "markup-language",
+   "definition": "An ISO standard, XML-based format and language for describing interactive 3D scenes for the web, the successor to VRML.",
+   "certification": false,
+   "language_type": "programming",
+   "variants": [
+    "Extensible 3D"
+   ],
+   "relations": []
+  },
+  {
+   "key": "xbrl",
+   "name": "XBRL",
+   "class": "language",
+   "kind": "markup-language",
+   "definition": "An XML-based standard language for tagging and exchanging business and financial reporting data.",
+   "certification": false,
+   "language_type": "programming",
+   "variants": [
+    "XBRL  (Programming Language)"
+   ],
+   "relations": []
+  },
+  {
+   "key": "xhosa",
+   "name": "Xhosa",
+   "class": "language",
+   "kind": "human-language",
+   "definition": "A Bantu language spoken mainly in South Africa, where it is one of the official languages.",
+   "certification": false,
+   "language_type": "human",
+   "variants": [
+    "Xhosa (Language)",
+    "isiXhosa"
+   ],
+   "relations": []
+  },
+  {
+   "key": "xml",
+   "name": "XML",
+   "class": "language",
+   "kind": "markup-language",
+   "definition": "A markup language for structured documents.",
+   "variants": [
+    "XML (Programming Language)"
+   ],
+   "relations": []
+  },
+  {
+   "key": "xul",
+   "name": "XUL",
+   "class": "language",
+   "kind": "markup-language",
+   "definition": "An XML-based language from Mozilla for describing the user interface of applications such as Firefox.",
+   "certification": false,
+   "language_type": "programming",
+   "variants": [
+    "XML User Interface Language",
+    "XUL  (Programming Language)"
+   ],
+   "relations": [
+    "related:xml"
+   ]
+  },
+  {
+   "key": "yoruba",
+   "name": "Yoruba",
+   "class": "language",
+   "kind": "human-language",
+   "definition": "A Niger-Congo language spoken mainly in southwestern Nigeria and in Benin and Togo.",
+   "certification": false,
+   "language_type": "human",
+   "variants": [
+    "Yoruba (Language)",
+    "Yorùbá"
+   ],
+   "relations": []
+  },
+  {
+   "key": "zulu",
+   "name": "Zulu",
+   "class": "language",
+   "kind": "human-language",
+   "definition": "A Bantu language spoken mainly in South Africa, one of its official languages.",
+   "certification": false,
+   "language_type": "human",
+   "variants": [
+    "Zulu (Language)",
+    "isiZulu"
+   ],
+   "relations": []
+  }
+ ]
+}

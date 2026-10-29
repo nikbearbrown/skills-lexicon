@@ -19,6 +19,88 @@
  ],
  "entries": [
   {
+   "key": "aural-rehabilitation",
+   "name": "Aural rehabilitation",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Therapy and training that help people with hearing loss communicate, using residual hearing, hearing devices, speech-reading and communication strategies.",
+   "certification": false,
+   "variants": [
+    "Audiologic rehabilitation",
+    "Auditory rehabilitation"
+   ],
+   "relations": []
+  },
+  {
+   "key": "aurelia",
+   "name": "Aurelia",
+   "class": "skill",
+   "kind": "framework",
+   "definition": "An open-source JavaScript front-end framework for building single-page web applications.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "author-it",
+   "name": "Author-it",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "Software for writing, managing and publishing technical documentation and other content from reusable components.",
+   "certification": false,
+   "variants": [
+    "AuthorIT (Software)",
+    "AuthorIT"
+   ],
+   "relations": []
+  },
+  {
+   "key": "authorised-capital",
+   "name": "Authorised capital",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "The maximum amount of share capital a company is permitted to issue under its constitutional documents.",
+   "certification": false,
+   "variants": [
+    "Authorized capital",
+    "Authorised share capital"
+   ],
+   "relations": []
+  },
+  {
+   "key": "autism-therapy",
+   "name": "Autism therapy",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Providing therapies and interventions, such as applied behavior analysis and speech, occupational and social-skills therapy, for people on the autism spectrum.",
+   "certification": false,
+   "variants": [
+    "Autism (Therapies)",
+    "Autism therapies"
+   ],
+   "relations": []
+  },
+  {
+   "key": "auto-glass-installation-and-repair",
+   "name": "Auto glass installation and repair",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Replacing and repairing vehicle windshields and windows, including removing damaged glass and bonding in new glass.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "autodesk-123d",
+   "name": "Autodesk 123D",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "A discontinued family of free Autodesk apps for 3D modelling, scanning and digital fabrication.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
    "key": "automated-information-systems-security",
    "name": "Automated information systems security",
    "class": "skill",
@@ -396,85 +478,6 @@
    "definition": "A Microsoft Azure cloud service for building and scheduling data-integration pipelines that move and transform data.",
    "certification": false,
    "variants": [],
-   "relations": []
-  },
-  {
-   "key": "azure-devops",
-   "name": "Azure DevOps",
-   "class": "skill",
-   "kind": "platform",
-   "definition": "Microsoft's set of services for planning work, hosting code, and building, testing and releasing software, including Boards, Repos and Pipelines.",
-   "certification": false,
-   "variants": [],
-   "relations": [
-    "related:devops"
-   ]
-  },
-  {
-   "key": "azure-iot",
-   "name": "Azure IoT",
-   "class": "skill",
-   "kind": "tool",
-   "definition": "Microsoft Azure's set of services, such as IoT Hub and IoT Central, for connecting Internet of Things devices to the cloud and managing the data they send.",
-   "certification": false,
-   "variants": [
-    "Azure Internet of Things (IoT)",
-    "Azure Internet of Things"
-   ],
-   "relations": []
-  },
-  {
-   "key": "azure-monitor",
-   "name": "Azure Monitor",
-   "class": "skill",
-   "kind": "tool",
-   "definition": "A Microsoft Azure service that collects, analyses and acts on metrics, logs and other telemetry from cloud and on-premises resources.",
-   "certification": false,
-   "variants": [],
-   "relations": []
-  },
-  {
-   "key": "azure-policy",
-   "name": "Azure Policy",
-   "class": "skill",
-   "kind": "tool",
-   "definition": "A Microsoft Azure service that defines and enforces rules on cloud resources so that they stay compliant with an organisation's standards.",
-   "certification": false,
-   "variants": [],
-   "relations": []
-  },
-  {
-   "key": "azure-security",
-   "name": "Azure Security",
-   "class": "skill",
-   "kind": "skill",
-   "definition": "Securing workloads and data on Microsoft Azure using its security services and controls, such as identity and access management, key management and network protection.",
-   "certification": false,
-   "variants": [],
-   "relations": [
-    "broader:cybersecurity"
-   ]
-  },
-  {
-   "key": "b-tree",
-   "name": "B-tree",
-   "class": "skill",
-   "kind": "knowledge",
-   "definition": "A self-balancing tree data structure that keeps sorted data in nodes with many children, widely used for indexes in databases and file systems.",
-   "certification": false,
-   "variants": [],
-   "relations": []
-  },
-  {
-   "key": "babylon-js",
-   "name": "Babylon.js",
-   "class": "skill",
-   "kind": "framework",
-   "definition": "An open-source JavaScript and TypeScript engine for building 3D graphics, games and interactive experiences in web browsers.",
-   "certification": false,
-   "variants": [
-    "Babylonjs"
-   ],
    "relations": []
   }
  ]

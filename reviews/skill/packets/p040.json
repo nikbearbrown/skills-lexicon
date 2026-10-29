@@ -19,6 +19,225 @@
  ],
  "entries": [
   {
+   "key": "no-child-left-behind-act",
+   "name": "No Child Left Behind Act",
+   "class": "skill",
+   "kind": "standard",
+   "definition": "A United States federal education law from the early 2000s that set testing and accountability requirements for public schools and was replaced in 2015 by the Every Student Succeeds Act.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "node-js",
+   "name": "Node.js",
+   "class": "skill",
+   "kind": "platform",
+   "definition": "A cross-platform JavaScript runtime built on Chrome's V8 engine that runs JavaScript outside the browser.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "non-facility-associated-signalling",
+   "name": "Non-Facility Associated Signalling",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "An ISDN primary rate interface arrangement in which a single D channel carries the signalling for several PRI trunk groups.",
+   "certification": false,
+   "variants": [
+    "Non-Facility Associated Signalling (NFAS)",
+    "NFAS"
+   ],
+   "relations": []
+  },
+  {
+   "key": "non-fungible-tokens",
+   "name": "Non-fungible tokens",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "Unique blockchain-based tokens that record ownership of a digital or physical item.",
+   "certification": false,
+   "variants": [
+    "Non-Fungible Tokens (NFT)",
+    "NFT",
+    "Non-fungible token"
+   ],
+   "relations": []
+  },
+  {
+   "key": "nonverbal-communication",
+   "name": "Nonverbal communication",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Conveying and reading meaning without words, through body language, gestures, facial expression and tone.",
+   "certification": false,
+   "variants": [
+    "Nonverbal Communications"
+   ],
+   "relations": [
+    "broader:communication"
+   ]
+  },
+  {
+   "key": "nosetests",
+   "name": "nosetests",
+   "class": "skill",
+   "kind": "framework",
+   "definition": "The command-line test runner of nose, a Python unit testing framework that extends unittest.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "nosql",
+   "name": "NoSQL database",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "A database that stores data in non-relational models such as documents, key-value pairs, columns or graphs.",
+   "variants": [
+    "NoSQL",
+    "non-relational database"
+   ],
+   "relations": [
+    "contrast:sql"
+   ]
+  },
+  {
+   "key": "notion-software",
+   "name": "Notion (software)",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "A workspace app for notes, documents, wikis and databases.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "npm",
+   "name": "npm",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "The default package manager for Node.js, used to install and manage JavaScript packages.",
+   "certification": false,
+   "variants": [
+    "Node Package Manager"
+   ],
+   "relations": []
+  },
+  {
+   "key": "nuance-pdf-converter",
+   "name": "Nuance PDF Converter",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "Nuance software for creating, converting and editing PDF files.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "numpy",
+   "name": "NumPy",
+   "class": "skill",
+   "kind": "library",
+   "definition": "A Python library for fast numerical computing built around N-dimensional arrays.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "nuodb",
+   "name": "NuoDB",
+   "class": "skill",
+   "kind": "platform",
+   "definition": "A distributed SQL relational database designed to run in the cloud.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "nutanix",
+   "name": "Nutanix",
+   "class": "skill",
+   "kind": "platform",
+   "definition": "A hyperconverged infrastructure platform that combines compute, storage and virtualisation on clustered servers.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "nutanix-ahv",
+   "name": "Nutanix AHV",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "Nutanix's built-in hypervisor, based on KVM, that runs virtual machines on Nutanix clusters.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "nutanix-calm",
+   "name": "Nutanix Calm",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "Nutanix's application automation and orchestration tool for provisioning and managing applications across clouds.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "nutanix-prism",
+   "name": "Nutanix Prism",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "Nutanix's web-based console for monitoring and managing Nutanix clusters.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "nutraceuticals",
+   "name": "Nutraceuticals",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "Food-derived products, such as supplements and fortified foods, that are sold for health benefits beyond basic nutrition.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "nutrition-care-planning",
+   "name": "Nutrition care planning",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Writing individual plans that set a patient's nutrition goals, interventions and follow-up.",
+   "certification": false,
+   "variants": [
+    "Nutrition Care Plans"
+   ],
+   "relations": []
+  },
+  {
+   "key": "nutrition-consulting",
+   "name": "Nutrition consulting",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Advising individuals or organisations on diet and eating habits to meet health or performance goals.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "nutrition-diagnosis",
+   "name": "Nutrition diagnosis",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "The step of the Nutrition Care Process in which a dietitian identifies and names a nutrition problem that they are responsible for treating.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
    "key": "nutrition-intervention",
    "name": "Nutrition intervention",
    "class": "skill",
@@ -235,221 +454,6 @@
    "class": "skill",
    "kind": "library",
    "definition": "An open-source CORBA object request broker for C++ and Python.",
-   "certification": false,
-   "variants": [],
-   "relations": []
-  },
-  {
-   "key": "on1",
-   "name": "ON1",
-   "class": "skill",
-   "kind": "tool",
-   "definition": "Photo editing and organising software made by ON1, Inc., including ON1 Photo RAW.",
-   "certification": false,
-   "variants": [
-    "ON1 (Software)"
-   ],
-   "relations": []
-  },
-  {
-   "key": "onboarding",
-   "name": "Onboarding",
-   "class": "skill",
-   "kind": "skill",
-   "definition": "Guiding new employees or new customers through their first stage of joining so they can work or use a product effectively.",
-   "certification": false,
-   "variants": [],
-   "relations": []
-  },
-  {
-   "key": "oncogenomics",
-   "name": "Oncogenomics",
-   "class": "skill",
-   "kind": "knowledge",
-   "definition": "The study of the genetic and genomic changes behind cancer and how they can guide diagnosis and treatment.",
-   "certification": false,
-   "variants": [],
-   "relations": []
-  },
-  {
-   "key": "oncology-sales",
-   "name": "Oncology sales",
-   "class": "skill",
-   "kind": "skill",
-   "definition": "Selling cancer drugs, devices or diagnostics to oncologists, hospitals and other cancer care providers.",
-   "certification": false,
-   "variants": [],
-   "relations": []
-  },
-  {
-   "key": "onetrust",
-   "name": "OneTrust",
-   "class": "skill",
-   "kind": "platform",
-   "definition": "A software platform for privacy, data governance, third-party risk and compliance management.",
-   "certification": false,
-   "variants": [
-    "OneTrust (Software)"
-   ],
-   "relations": []
-  },
-  {
-   "key": "online-demonstration",
-   "name": "Online demonstration",
-   "class": "skill",
-   "kind": "skill",
-   "definition": "Showing a product, process or technique to an audience remotely, using screen sharing or video.",
-   "certification": false,
-   "variants": [
-    "Online Demostration"
-   ],
-   "relations": []
-  },
-  {
-   "key": "onshape",
-   "name": "Onshape",
-   "class": "skill",
-   "kind": "tool",
-   "definition": "A cloud-based computer-aided design system for 3D product modelling that runs in a web browser and is owned by PTC.",
-   "certification": false,
-   "variants": [
-    "Onshape (3D Modeling Software)"
-   ],
-   "relations": [
-    "broader:3d-modeling-software"
-   ]
-  },
-  {
-   "key": "open-banking",
-   "name": "Open banking",
-   "class": "skill",
-   "kind": "knowledge",
-   "definition": "A system in which banks let authorised third parties access customer account data and payment services through secure APIs, with the customer's consent.",
-   "certification": false,
-   "variants": [],
-   "relations": []
-  },
-  {
-   "key": "open-network-computing",
-   "name": "Open Network Computing",
-   "class": "skill",
-   "kind": "knowledge",
-   "definition": "A set of distributed computing technologies from Sun Microsystems, including ONC RPC and the Network File System.",
-   "certification": false,
-   "variants": [],
-   "relations": []
-  },
-  {
-   "key": "open-shortest-path-first",
-   "name": "Open Shortest Path First",
-   "class": "skill",
-   "kind": "standard",
-   "definition": "A link-state routing protocol for IP networks that finds shortest paths using Dijkstra's algorithm.",
-   "certification": false,
-   "variants": [
-    "OSPF"
-   ],
-   "relations": []
-  },
-  {
-   "key": "openapi-specification",
-   "name": "OpenAPI Specification",
-   "class": "skill",
-   "kind": "standard",
-   "definition": "A language-agnostic specification for describing HTTP APIs in a machine-readable YAML or JSON format, formerly known as Swagger.",
-   "certification": false,
-   "variants": [
-    "Openapi"
-   ],
-   "relations": [
-    "related:application-programming-interface"
-   ]
-  },
-  {
-   "key": "opencart",
-   "name": "OpenCart",
-   "class": "skill",
-   "kind": "platform",
-   "definition": "An open-source PHP e-commerce platform for running online stores.",
-   "certification": false,
-   "variants": [],
-   "relations": []
-  },
-  {
-   "key": "opendaylight",
-   "name": "OpenDaylight",
-   "class": "skill",
-   "kind": "platform",
-   "definition": "An open-source software-defined networking platform, hosted by the Linux Foundation, built around a network controller.",
-   "certification": false,
-   "variants": [],
-   "relations": []
-  },
-  {
-   "key": "openni",
-   "name": "OpenNI",
-   "class": "skill",
-   "kind": "framework",
-   "definition": "An open-source software framework for working with depth-sensing cameras and natural-interaction devices, such as the Microsoft Kinect.",
-   "certification": false,
-   "variants": [],
-   "relations": []
-  },
-  {
-   "key": "openstreetmap",
-   "name": "OpenStreetMap",
-   "class": "skill",
-   "kind": "platform",
-   "definition": "A collaborative project that builds a free, editable map database of the world.",
-   "certification": false,
-   "variants": [],
-   "relations": []
-  },
-  {
-   "key": "opentok",
-   "name": "OpenTok",
-   "class": "skill",
-   "kind": "platform",
-   "definition": "A WebRTC-based platform and API, originally from TokBox and now part of Vonage, for adding live video to web and mobile apps.",
-   "certification": false,
-   "variants": [],
-   "relations": []
-  },
-  {
-   "key": "opentsdb",
-   "name": "OpenTSDB",
-   "class": "skill",
-   "kind": "platform",
-   "definition": "A scalable, open-source time series database built to run on Apache HBase.",
-   "certification": false,
-   "variants": [],
-   "relations": []
-  },
-  {
-   "key": "operating-systems",
-   "name": "Operating systems",
-   "class": "skill",
-   "kind": "knowledge",
-   "definition": "Understanding process, memory, storage and system resource management.",
-   "variants": [],
-   "relations": []
-  },
-  {
-   "key": "operational-risk-mitigation",
-   "name": "Operational risk mitigation",
-   "class": "skill",
-   "kind": "skill",
-   "definition": "Planning and applying controls to reduce the risk of loss from failed processes, people, systems or external events.",
-   "certification": false,
-   "variants": [],
-   "relations": []
-  },
-  {
-   "key": "operationalizing-ai",
-   "name": "Operationalizing AI",
-   "class": "skill",
-   "kind": "skill",
-   "definition": "Moving AI models from prototypes into reliable production use, including deployment, monitoring and integration into business processes.",
    "certification": false,
    "variants": [],
    "relations": []

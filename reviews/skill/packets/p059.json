@@ -1,0 +1,476 @@
+{
+ "allowed_kinds": [
+  "ability",
+  "credential",
+  "framework",
+  "human-language",
+  "knowledge",
+  "library",
+  "markup-language",
+  "method",
+  "modeling-language",
+  "platform",
+  "programming-language",
+  "skill",
+  "standard",
+  "style-language",
+  "tool",
+  "work-activity"
+ ],
+ "entries": [
+  {
+   "key": "va-loans",
+   "name": "VA loans",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "Mortgage loans guaranteed by the U.S. Department of Veterans Affairs for eligible service members and veterans.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "validation",
+   "name": "Data validation",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Checking data constraints, populations and transformations.",
+   "variants": [
+    "data quality"
+   ],
+   "relations": []
+  },
+  {
+   "key": "validation-protocols",
+   "name": "Validation protocols",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Writing and carrying out the documented test plans, such as installation, operational and performance qualification, that show equipment, systems or processes work as intended in regulated industries.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "valuation-of-options",
+   "name": "Valuation of options",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Estimating the fair value of option contracts using models such as Black-Scholes or binomial trees.",
+   "certification": false,
+   "variants": [
+    "Option pricing"
+   ],
+   "relations": []
+  },
+  {
+   "key": "value-proposition",
+   "name": "Value proposition",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Stating clearly the specific benefits a product or service offers a target customer and why it is better than the alternatives.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "value-stream-analysis",
+   "name": "Value stream analysis",
+   "class": "skill",
+   "kind": "method",
+   "definition": "Studying each step of a process that turns inputs into a product or service to find which steps add value and which are waste.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "variable-frequency-drive",
+   "name": "Variable-frequency drive",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "An electronic controller that changes the speed of an AC electric motor by varying the frequency and voltage of its power supply.",
+   "certification": false,
+   "variants": [
+    "Variable frequency drive",
+    "VFD"
+   ],
+   "relations": []
+  },
+  {
+   "key": "variance-analysis",
+   "name": "Variance analysis",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Comparing actual results with budgeted or expected figures and explaining the differences.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "varnish-cache",
+   "name": "Varnish Cache",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "An open-source HTTP reverse proxy that caches web content in memory to speed up delivery.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "vax-4000",
+   "name": "VAX 4000",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "A series of midrange server computers from Digital Equipment Corporation built on the VAX architecture.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "vax-8000",
+   "name": "VAX 8000",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "A series of high-end computers from Digital Equipment Corporation built on the VAX architecture.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "vaxeln",
+   "name": "VAXELN",
+   "class": "skill",
+   "kind": "platform",
+   "definition": "A real-time operating system toolkit from Digital Equipment Corporation for building embedded applications on VAX computers.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "vector-search",
+   "name": "Vector search",
+   "class": "skill",
+   "kind": "method",
+   "definition": "Retrieving items using vector representations and a similarity measure.",
+   "variants": [
+    "semantic search",
+    "vector databases"
+   ],
+   "relations": []
+  },
+  {
+   "key": "vectorwise",
+   "name": "VectorWise",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "A column-oriented analytical database management system, sold by Ingres and later Actian, which was later renamed Actian Vector.",
+   "certification": false,
+   "variants": [
+    "Actian Vector"
+   ],
+   "relations": []
+  },
+  {
+   "key": "veeva",
+   "name": "Veeva",
+   "class": "skill",
+   "kind": "platform",
+   "definition": "A suite of cloud software for the life-sciences industry, covering customer relationship management, content and quality management and clinical operations, made by Veeva Systems.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "vehicle-inspection",
+   "name": "Vehicle inspection",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Checking a vehicle's condition, such as its brakes, tires, lights and fluids, for safety and legal compliance.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "vehicle-maintenance",
+   "name": "Vehicle maintenance",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Servicing and repairing vehicles on a regular schedule to keep them safe and working.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "vendavo",
+   "name": "Vendavo",
+   "class": "skill",
+   "kind": "platform",
+   "definition": "Business-to-business pricing and margin management software used to set, optimise and control prices.",
+   "certification": false,
+   "variants": [
+    "Vendavo (Software)"
+   ],
+   "relations": []
+  },
+  {
+   "key": "vendor-management",
+   "name": "Vendor management",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Selecting, overseeing and evaluating the suppliers a business buys goods and services from.",
+   "certification": false,
+   "variants": [
+    "Managing Vendors"
+   ],
+   "relations": []
+  },
+  {
+   "key": "vendor-payments",
+   "name": "Vendor payments",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Processing and issuing payments to suppliers for goods and services received.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "ventilator-management",
+   "name": "Ventilator management",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Setting up, monitoring and adjusting mechanical ventilators that support or replace a patient's breathing.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "verbal-and-physical-intervention",
+   "name": "Verbal and physical intervention",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Using de-escalation through words and, as a last resort, safe physical holds to manage a person in crisis or at risk of harm.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "version-control",
+   "name": "Version control",
+   "class": "skill",
+   "kind": "method",
+   "definition": "Recording changes to files over time in a system, such as Git or Subversion, so that earlier versions can be recovered and several people can work on the same files.",
+   "certification": false,
+   "variants": [
+    "Revision Control Softwares",
+    "Revision control",
+    "Source control",
+    "Revision Controls"
+   ],
+   "relations": []
+  },
+  {
+   "key": "vestibular-rehabilitation",
+   "name": "Vestibular rehabilitation",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Exercise-based therapy that helps people with inner-ear or balance disorders reduce dizziness and improve balance.",
+   "certification": false,
+   "variants": [],
+   "relations": [
+    "broader:rehabilitation"
+   ]
+  },
+  {
+   "key": "video-advertising",
+   "name": "Video advertising",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Creating and running advertisements delivered as video, for example on YouTube, social media and connected TV.",
+   "certification": false,
+   "variants": [
+    "Video Ads"
+   ],
+   "relations": []
+  },
+  {
+   "key": "video-assisted-thoracoscopic-surgery",
+   "name": "Video-assisted thoracoscopic surgery",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Minimally invasive chest surgery performed through small incisions using a camera and long instruments.",
+   "certification": false,
+   "variants": [
+    "Video-Assisted Thoracoscopic Surgeries"
+   ],
+   "relations": [
+    "broader:cardiothoracic-surgery"
+   ]
+  },
+  {
+   "key": "video-js",
+   "name": "Video.js",
+   "class": "skill",
+   "kind": "library",
+   "definition": "An open-source JavaScript library and player for playing HTML5 video in web pages.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "video-marketing",
+   "name": "Video marketing",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Using video content to promote a product, service or brand and to engage an audience.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "video-remote-interpreting",
+   "name": "Video remote interpreting",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Interpreting between spoken or signed languages over a live video link instead of in person.",
+   "certification": false,
+   "variants": [
+    "Video remote Interpreting (VRI)",
+    "VRI"
+   ],
+   "relations": []
+  },
+  {
+   "key": "videoconferencing",
+   "name": "Videoconferencing",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Holding meetings between people in different places by live video and audio, using software or room systems.",
+   "certification": false,
+   "variants": [
+    "Video conferencing"
+   ],
+   "relations": [
+    "related:polycom"
+   ]
+  },
+  {
+   "key": "virtual-design-and-construction",
+   "name": "Virtual design and construction",
+   "class": "skill",
+   "kind": "method",
+   "definition": "Using connected digital models of a building's design, schedule and cost to plan and manage a construction project before it is built.",
+   "certification": false,
+   "variants": [
+    "Virtual Design And Construction (VDC)"
+   ],
+   "relations": [
+    "related:4d-modeling-construction"
+   ]
+  },
+  {
+   "key": "virtual-health",
+   "name": "Virtual health",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "Delivering health care at a distance through video, phone, messaging and remote monitoring.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "virtual-lan",
+   "name": "Virtual LAN",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "A way of dividing one physical network into separate logical networks so that devices are grouped regardless of where they are connected, standardised as IEEE 802.1Q.",
+   "certification": false,
+   "variants": [
+    "VLAN"
+   ],
+   "relations": []
+  },
+  {
+   "key": "virtual-private-network",
+   "name": "Virtual private network",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "A technology that creates an encrypted connection over a public network so users or sites can reach a private network securely.",
+   "certification": false,
+   "variants": [
+    "Virtual Private Networks",
+    "VPN",
+    "VPNs"
+   ],
+   "relations": []
+  },
+  {
+   "key": "virtual-production",
+   "name": "Virtual production",
+   "class": "skill",
+   "kind": "method",
+   "definition": "Filmmaking that combines live action with real-time computer graphics, often shot in front of LED walls driven by a game engine.",
+   "certification": false,
+   "variants": [],
+   "relations": [
+    "broader:media-production"
+   ]
+  },
+  {
+   "key": "virtual-reality",
+   "name": "Virtual reality",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "Computer technology that places a user inside a simulated three-dimensional environment, usually through a headset.",
+   "certification": false,
+   "variants": [],
+   "relations": [
+    "related:mixed-reality"
+   ]
+  },
+  {
+   "key": "virus-culture",
+   "name": "Virus culture",
+   "class": "skill",
+   "kind": "method",
+   "definition": "Growing viruses in living host cells, such as cultured cell lines, to isolate, identify or study them.",
+   "certification": false,
+   "variants": [],
+   "relations": [
+    "related:bacterial-culture"
+   ]
+  },
+  {
+   "key": "visi",
+   "name": "VISI",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "A CAD/CAM software package for designing and machining plastic injection moulds, press tools and dies.",
+   "certification": false,
+   "variants": [
+    "VISI (CAD/CAM Software)"
+   ],
+   "relations": []
+  },
+  {
+   "key": "visicalc",
+   "name": "VisiCalc",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "An early spreadsheet program for personal computers, first released in 1979.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "visier",
+   "name": "Visier",
+   "class": "skill",
+   "kind": "platform",
+   "definition": "A cloud people-analytics platform for analysing workforce data such as headcount, turnover and hiring.",
+   "certification": false,
+   "variants": [
+    "Visier (Analytics Software)"
+   ],
+   "relations": []
+  }
+ ]
+}

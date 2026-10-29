@@ -19,6 +19,72 @@
  ],
  "entries": [
   {
+   "key": "abap",
+   "name": "ABAP",
+   "class": "language",
+   "kind": "programming-language",
+   "definition": "SAP's proprietary programming language for writing business applications that run on SAP systems.",
+   "certification": false,
+   "language_type": "programming",
+   "variants": [
+    "Abap (Programming Language)",
+    "Advanced Business Application Programming"
+   ],
+   "relations": []
+  },
+  {
+   "key": "actionscript",
+   "name": "ActionScript",
+   "class": "language",
+   "kind": "programming-language",
+   "definition": "An object-oriented programming language based on ECMAScript, used mainly for Adobe Flash and AIR applications.",
+   "certification": false,
+   "language_type": "programming",
+   "variants": [
+    "Actionscript (Programming Language)"
+   ],
+   "relations": []
+  },
+  {
+   "key": "ada",
+   "name": "Ada",
+   "class": "language",
+   "kind": "programming-language",
+   "definition": "A statically typed, structured programming language designed for reliable, long-lived embedded and safety-critical software.",
+   "certification": false,
+   "language_type": "programming",
+   "variants": [
+    "Ada (Programming Language)"
+   ],
+   "relations": []
+  },
+  {
+   "key": "ada-95",
+   "name": "Ada 95",
+   "class": "language",
+   "kind": "programming-language",
+   "definition": "The 1995 revision of the Ada programming language (ISO/IEC 8652:1995), which added object-oriented features to Ada 83.",
+   "certification": false,
+   "language_type": "programming",
+   "variants": [
+    "Ada 95 (Programming Language)"
+   ],
+   "relations": []
+  },
+  {
+   "key": "afrikaans",
+   "name": "Afrikaans",
+   "class": "language",
+   "kind": "human-language",
+   "definition": "A West Germanic language that developed from Dutch, spoken mainly in South Africa and Namibia.",
+   "certification": false,
+   "language_type": "human",
+   "variants": [
+    "Afrikaans (Language)"
+   ],
+   "relations": []
+  },
+  {
    "key": "ainu",
    "name": "Ainu",
    "class": "language",
@@ -47,6 +113,19 @@
    "relations": []
   },
   {
+   "key": "albanian",
+   "name": "Albanian",
+   "class": "language",
+   "kind": "human-language",
+   "definition": "An Indo-European language forming its own branch, spoken mainly in Albania, Kosovo and North Macedonia.",
+   "certification": false,
+   "language_type": "human",
+   "variants": [
+    "Albanian (Language)"
+   ],
+   "relations": []
+  },
+  {
    "key": "algebraic-logic-functional",
    "name": "Algebraic Logic Functional",
    "class": "language",
@@ -55,7 +134,21 @@
    "certification": false,
    "language_type": "programming",
    "variants": [
-    "Algebraic Logic Functional [Programming Language]"
+    "Algebraic Logic Functional [Programming Language]",
+    "Algebraic Logic Functional (Programming Language)"
+   ],
+   "relations": []
+  },
+  {
+   "key": "algol",
+   "name": "ALGOL",
+   "class": "language",
+   "kind": "programming-language",
+   "definition": "A family of imperative programming languages first designed in 1958, whose ALGOL 60 and ALGOL 68 versions influenced many later languages.",
+   "certification": false,
+   "language_type": "programming",
+   "variants": [
+    "Algol (Programming Language)"
    ],
    "relations": []
   },
@@ -71,6 +164,19 @@
    "relations": []
   },
   {
+   "key": "amharic",
+   "name": "Amharic",
+   "class": "language",
+   "kind": "human-language",
+   "definition": "A Semitic language spoken mainly in Ethiopia, where it is the working language of the federal government.",
+   "certification": false,
+   "language_type": "human",
+   "variants": [
+    "Amharic (Language)"
+   ],
+   "relations": []
+  },
+  {
    "key": "ampscript",
    "name": "AMPscript",
    "class": "language",
@@ -79,6 +185,32 @@
    "certification": false,
    "language_type": "programming",
    "variants": [],
+   "relations": []
+  },
+  {
+   "key": "apex",
+   "name": "Apex",
+   "class": "language",
+   "kind": "programming-language",
+   "definition": "A strongly typed, object-oriented programming language for writing business logic on the Salesforce platform.",
+   "certification": false,
+   "language_type": "programming",
+   "variants": [
+    "Apex (Programming Language)"
+   ],
+   "relations": []
+  },
+  {
+   "key": "arabic",
+   "name": "Arabic",
+   "class": "language",
+   "kind": "human-language",
+   "definition": "A Semitic language spoken across the Middle East and North Africa, with a standard written form used in formal settings.",
+   "certification": false,
+   "language_type": "human",
+   "variants": [
+    "Arabic (Language)"
+   ],
    "relations": []
   },
   {
@@ -93,6 +225,19 @@
    "relations": []
   },
   {
+   "key": "armenian",
+   "name": "Armenian",
+   "class": "language",
+   "kind": "human-language",
+   "definition": "An Indo-European language forming its own branch, spoken mainly in Armenia and by Armenian communities abroad.",
+   "certification": false,
+   "language_type": "human",
+   "variants": [
+    "Armenian (Language)"
+   ],
+   "relations": []
+  },
+  {
    "key": "asp-net-razor",
    "name": "ASP.NET Razor",
    "class": "language",
@@ -101,6 +246,45 @@
    "certification": false,
    "language_type": "programming",
    "variants": [],
+   "relations": []
+  },
+  {
+   "key": "assamese",
+   "name": "Assamese",
+   "class": "language",
+   "kind": "human-language",
+   "definition": "An Indo-Aryan language spoken mainly in the Indian state of Assam.",
+   "certification": false,
+   "language_type": "human",
+   "variants": [
+    "Assamese (Language)"
+   ],
+   "relations": []
+  },
+  {
+   "key": "assembly-language",
+   "name": "Assembly language",
+   "class": "language",
+   "kind": "programming-language",
+   "definition": "A family of low-level programming languages in which each statement corresponds closely to a machine instruction of a particular processor.",
+   "certification": false,
+   "language_type": "programming",
+   "variants": [
+    "Assembly Language (Programming Language)"
+   ],
+   "relations": []
+  },
+  {
+   "key": "awk",
+   "name": "AWK",
+   "class": "language",
+   "kind": "programming-language",
+   "definition": "A scripting language for processing text line by line with pattern-action rules, named after its creators Aho, Weinberger and Kernighan.",
+   "certification": false,
+   "language_type": "programming",
+   "variants": [
+    "Awk (Programming Language)"
+   ],
    "relations": []
   },
   {
@@ -117,6 +301,33 @@
    "relations": []
   },
   {
+   "key": "azerbaijani",
+   "name": "Azerbaijani",
+   "class": "language",
+   "kind": "human-language",
+   "definition": "A Turkic language spoken mainly in Azerbaijan and northwestern Iran.",
+   "certification": false,
+   "language_type": "human",
+   "variants": [
+    "Azerbaijani (Language)",
+    "Azeri"
+   ],
+   "relations": []
+  },
+  {
+   "key": "ballerina",
+   "name": "Ballerina",
+   "class": "language",
+   "kind": "programming-language",
+   "definition": "An open-source programming language for writing cloud-native integration and network-service programs, created by WSO2.",
+   "certification": false,
+   "language_type": "programming",
+   "variants": [
+    "Ballerina (Programming Language)"
+   ],
+   "relations": []
+  },
+  {
    "key": "base-sas",
    "name": "Base SAS",
    "class": "language",
@@ -126,6 +337,33 @@
    "language_type": "programming",
    "variants": [
     "SAS/Base"
+   ],
+   "relations": []
+  },
+  {
+   "key": "bash",
+   "name": "Bash",
+   "class": "language",
+   "kind": "programming-language",
+   "definition": "The GNU Project's Unix shell and its scripting language, the default shell on many Linux systems.",
+   "certification": false,
+   "language_type": "programming",
+   "variants": [
+    "Bash (Programming Language)",
+    "Bourne-Again Shell"
+   ],
+   "relations": []
+  },
+  {
+   "key": "basic",
+   "name": "BASIC",
+   "class": "language",
+   "kind": "programming-language",
+   "definition": "A family of high-level programming languages first designed in 1964 at Dartmouth College to be easy for beginners.",
+   "certification": false,
+   "language_type": "programming",
+   "variants": [
+    "Basic (Programming Language)"
    ],
    "relations": []
   },
@@ -156,6 +394,19 @@
    "relations": []
   },
   {
+   "key": "beanshell",
+   "name": "BeanShell",
+   "class": "language",
+   "kind": "programming-language",
+   "definition": "A lightweight scripting language for the Java platform that interprets Java syntax with extra scripting features.",
+   "certification": false,
+   "language_type": "programming",
+   "variants": [
+    "Beanshell (Programming Language)"
+   ],
+   "relations": []
+  },
+  {
    "key": "bemba",
    "name": "Bemba",
    "class": "language",
@@ -164,7 +415,8 @@
    "certification": false,
    "language_type": "human",
    "variants": [
-    "Bemba Language (Bemba)"
+    "Bemba Language (Bemba)",
+    "Bemba (Language)"
    ],
    "relations": []
   },
@@ -210,318 +462,78 @@
    "relations": []
   },
   {
+   "key": "bislama",
+   "name": "Bislama",
+   "class": "language",
+   "kind": "human-language",
+   "definition": "An English-based creole language and one of the national languages of Vanuatu.",
+   "certification": false,
+   "language_type": "human",
+   "variants": [
+    "Bislama (Language)"
+   ],
+   "relations": []
+  },
+  {
+   "key": "blitzmax",
+   "name": "BlitzMax",
+   "class": "language",
+   "kind": "programming-language",
+   "definition": "A BASIC-derived, object-oriented programming language aimed at game development, created by Blitz Research.",
+   "certification": false,
+   "language_type": "programming",
+   "variants": [
+    "Blitzmax (Programming Language)"
+   ],
+   "relations": []
+  },
+  {
+   "key": "boo",
+   "name": "Boo",
+   "class": "language",
+   "kind": "programming-language",
+   "definition": "An object-oriented, statically typed programming language for the .NET common language infrastructure, with a Python-inspired syntax.",
+   "certification": false,
+   "language_type": "programming",
+   "variants": [
+    "Boo (Programming Language)"
+   ],
+   "relations": []
+  },
+  {
+   "key": "bosnian",
+   "name": "Bosnian",
+   "class": "language",
+   "kind": "human-language",
+   "definition": "A South Slavic language, one of the official languages of Bosnia and Herzegovina, closely related to Croatian and Serbian.",
+   "certification": false,
+   "language_type": "human",
+   "variants": [
+    "Bosnian (Language)"
+   ],
+   "relations": []
+  },
+  {
+   "key": "burmese",
+   "name": "Burmese",
+   "class": "language",
+   "kind": "human-language",
+   "definition": "A Sino-Tibetan language, the official language of Myanmar.",
+   "certification": false,
+   "language_type": "human",
+   "variants": [
+    "Burmese (Language)"
+   ],
+   "relations": []
+  },
+  {
    "key": "c",
    "name": "C++",
    "class": "language",
    "kind": "programming-language",
    "definition": "Writing programs in C++.",
-   "variants": [],
-   "relations": []
-  },
-  {
-   "key": "carib",
-   "name": "Carib",
-   "class": "language",
-   "kind": "human-language",
-   "definition": "A Cariban language spoken by the Kalina (Kari'nja) people along the coasts of northern South America.",
-   "certification": false,
-   "language_type": "human",
    "variants": [
-    "Carib (Language)"
-   ],
-   "relations": []
-  },
-  {
-   "key": "castilian-spanish",
-   "name": "Castilian Spanish",
-   "class": "language",
-   "kind": "human-language",
-   "definition": "The standard variety of the Spanish language as spoken in Spain, especially in its central and northern regions.",
-   "certification": false,
-   "language_type": "human",
-   "variants": [],
-   "relations": []
-  },
-  {
-   "key": "catalan",
-   "name": "Catalan",
-   "class": "language",
-   "kind": "human-language",
-   "definition": "A Romance language spoken mainly in Catalonia, the Balearic Islands, Valencia and Andorra, where it is the official language.",
-   "certification": false,
-   "language_type": "human",
-   "variants": [
-    "Catalan (Language)",
-    "Català"
-   ],
-   "relations": []
-  },
-  {
-   "key": "chakma",
-   "name": "Chakma",
-   "class": "language",
-   "kind": "human-language",
-   "definition": "An Indo-Aryan language spoken by the Chakma people in Bangladesh and India.",
-   "certification": false,
-   "language_type": "human",
-   "variants": [
-    "Chakma (Language)"
-   ],
-   "relations": []
-  },
-  {
-   "key": "chamorro",
-   "name": "Chamorro",
-   "class": "language",
-   "kind": "human-language",
-   "definition": "An Austronesian language spoken by the Chamorro people of Guam and the Northern Mariana Islands.",
-   "certification": false,
-   "language_type": "human",
-   "variants": [
-    "Chamorro (Language)",
-    "CHamoru"
-   ],
-   "relations": []
-  },
-  {
-   "key": "chinese",
-   "name": "Chinese",
-   "class": "language",
-   "kind": "human-language",
-   "definition": "A group of related Sinitic languages, including Mandarin and Cantonese, spoken mainly in China and written in Chinese characters.",
-   "certification": false,
-   "language_type": "human",
-   "variants": [
-    "Chinese Language"
-   ],
-   "relations": []
-  },
-  {
-   "key": "chipmunk-basic",
-   "name": "Chipmunk Basic",
-   "class": "language",
-   "kind": "programming-language",
-   "definition": "A free BASIC interpreter for several platforms, based on classic Microsoft-style BASIC.",
-   "certification": false,
-   "language_type": "programming",
-   "variants": [],
-   "relations": []
-  },
-  {
-   "key": "comit",
-   "name": "COMIT",
-   "class": "language",
-   "kind": "programming-language",
-   "definition": "An early string-processing programming language developed at MIT in the 1950s for linguistic research and machine translation.",
-   "certification": false,
-   "language_type": "programming",
-   "variants": [],
-   "relations": []
-  },
-  {
-   "key": "csharp",
-   "name": "C#",
-   "class": "language",
-   "kind": "programming-language",
-   "definition": "The C# programming language.",
-   "variants": [
-    "C Sharp",
-    "C Sharp (Programming Language)"
-   ],
-   "relations": []
-  },
-  {
-   "key": "css",
-   "name": "CSS",
-   "class": "language",
-   "kind": "style-language",
-   "definition": "Styling web documents with cascading style sheets.",
-   "variants": [],
-   "relations": []
-  },
-  {
-   "key": "czech",
-   "name": "Czech",
-   "class": "language",
-   "kind": "human-language",
-   "definition": "A West Slavic language spoken mainly in the Czech Republic.",
-   "certification": false,
-   "language_type": "human",
-   "variants": [
-    "Czech Language",
-    "Čeština"
-   ],
-   "relations": []
-  },
-  {
-   "key": "dari",
-   "name": "Dari",
-   "class": "language",
-   "kind": "human-language",
-   "definition": "The variety of Persian that is an official language of Afghanistan.",
-   "certification": false,
-   "language_type": "human",
-   "variants": [
-    "Dari (Language)",
-    "Afghan Persian"
-   ],
-   "relations": []
-  },
-  {
-   "key": "dart",
-   "name": "Dart",
-   "class": "language",
-   "kind": "programming-language",
-   "definition": "A programming language developed by Google, used mainly with the Flutter framework to build apps for several platforms.",
-   "certification": false,
-   "language_type": "programming",
-   "variants": [
-    "Google Dart"
-   ],
-   "relations": []
-  },
-  {
-   "key": "dhivehi",
-   "name": "Dhivehi",
-   "class": "language",
-   "kind": "human-language",
-   "definition": "The Indo-Aryan language of the Maldives, written in the Thaana script.",
-   "certification": false,
-   "language_type": "human",
-   "variants": [
-    "Dhivehi (Language)",
-    "Divehi"
-   ],
-   "relations": []
-  },
-  {
-   "key": "dinka",
-   "name": "Dinka",
-   "class": "language",
-   "kind": "human-language",
-   "definition": "A Nilotic language spoken by the Dinka people of South Sudan.",
-   "certification": false,
-   "language_type": "human",
-   "variants": [
-    "Dinka (Language)"
-   ],
-   "relations": []
-  },
-  {
-   "key": "duala",
-   "name": "Duala",
-   "class": "language",
-   "kind": "human-language",
-   "definition": "A Bantu language spoken in and around the city of Douala in Cameroon.",
-   "certification": false,
-   "language_type": "human",
-   "variants": [
-    "Duala (Language)"
-   ],
-   "relations": []
-  },
-  {
-   "key": "ecmascript-2015",
-   "name": "ECMAScript 2015",
-   "class": "language",
-   "kind": "programming-language",
-   "definition": "The 2015 edition of the ECMAScript standard on which JavaScript is based, which added classes, modules, arrow functions and promises.",
-   "certification": false,
-   "language_type": "programming",
-   "variants": [
-    "Es2015",
-    "ES6",
-    "ECMAScript 6"
-   ],
-   "relations": []
-  },
-  {
-   "key": "elixir",
-   "name": "Elixir",
-   "class": "language",
-   "kind": "programming-language",
-   "definition": "A dynamic, functional programming language that runs on the Erlang virtual machine.",
-   "certification": false,
-   "language_type": "programming",
-   "variants": [
-    "Elixir (Programming Language)"
-   ],
-   "relations": []
-  },
-  {
-   "key": "english",
-   "name": "English",
-   "class": "language",
-   "kind": "human-language",
-   "definition": "The English human language; not a programming language.",
-   "variants": [
-    "Engelska"
-   ],
-   "relations": []
-  },
-  {
-   "key": "ewondo",
-   "name": "Ewondo",
-   "class": "language",
-   "kind": "human-language",
-   "definition": "A Bantu language spoken by the Beti people of central Cameroon, around Yaoundé.",
-   "certification": false,
-   "language_type": "human",
-   "variants": [
-    "Ewondo (Language)"
-   ],
-   "relations": []
-  },
-  {
-   "key": "f",
-   "name": "F#",
-   "class": "language",
-   "kind": "programming-language",
-   "definition": "A functional-first programming language for the .NET platform, developed at Microsoft Research.",
-   "certification": false,
-   "language_type": "programming",
-   "variants": [
-    "F Sharp",
-    "F Sharp (Programming Language)"
-   ],
-   "relations": []
-  },
-  {
-   "key": "fali",
-   "name": "Fali",
-   "class": "language",
-   "kind": "human-language",
-   "definition": "A group of related languages spoken by the Fali people of northern Cameroon.",
-   "certification": false,
-   "language_type": "human",
-   "variants": [
-    "Fali (Langauge)",
-    "Fali (Language)"
-   ],
-   "relations": []
-  },
-  {
-   "key": "forth",
-   "name": "Forth",
-   "class": "language",
-   "kind": "programming-language",
-   "definition": "A stack-based, extensible programming language created by Charles H. Moore.",
-   "certification": false,
-   "language_type": "programming",
-   "variants": [],
-   "relations": []
-  },
-  {
-   "key": "french",
-   "name": "French",
-   "class": "language",
-   "kind": "human-language",
-   "definition": "A Romance language spoken in France and many other countries.",
-   "certification": false,
-   "language_type": "human",
-   "variants": [
-    "French Languages",
-    "French language"
+    "C++ (Programming Language)"
    ],
    "relations": []
   }

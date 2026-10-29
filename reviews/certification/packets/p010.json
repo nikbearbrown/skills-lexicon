@@ -19,515 +19,512 @@
  ],
  "entries": [
   {
-   "key": "pmi-professional-in-business-analysis",
-   "name": "PMI Professional in Business Analysis",
+   "key": "certified-property-manager",
+   "name": "Certified Property Manager",
    "class": "certification",
    "kind": "credential",
-   "definition": "A Project Management Institute certification for people who analyse business needs, define requirements and manage them through a project.",
+   "definition": "A real-estate management certification awarded by the Institute of Real Estate Management.",
    "certification": true,
    "certification_scope": "single-issuer",
-   "variants": [
-    "PMI-PBA"
-   ],
-   "relations": []
-  },
-  {
-   "key": "pmi-risk-management-professional",
-   "name": "PMI Risk Management Professional",
-   "class": "certification",
-   "kind": "credential",
-   "definition": "A Project Management Institute certification for people who identify and assess project risks and plan responses to them.",
-   "certification": true,
-   "certification_scope": "single-issuer",
-   "variants": [
-    "PMI-RMP"
-   ],
-   "relations": []
-  },
-  {
-   "key": "pmi-scheduling-professional",
-   "name": "PMI Scheduling Professional",
-   "class": "certification",
-   "kind": "credential",
-   "definition": "A Project Management Institute certification for people who develop and maintain project schedules.",
-   "certification": true,
-   "certification_scope": "single-issuer",
-   "variants": [
-    "PMI-SP"
-   ],
-   "relations": []
-  },
-  {
-   "key": "portfolio-management-professional",
-   "name": "Portfolio Management Professional",
-   "class": "certification",
-   "kind": "credential",
-   "definition": "A Project Management Institute certification for people who manage a portfolio of projects and programs so that it supports an organisation's strategy.",
-   "certification": true,
-   "certification_scope": "single-issuer",
-   "variants": [
-    "PfMP"
-   ],
-   "relations": []
-  },
-  {
-   "key": "progressive-care-certified-nurse",
-   "name": "Progressive Care Certified Nurse",
-   "class": "certification",
-   "kind": "credential",
-   "definition": "A nursing certification from the AACN Certification Corporation for nurses who care for acutely ill adult patients in progressive care settings.",
-   "certification": true,
-   "certification_scope": "single-issuer",
-   "variants": [
-    "PCCN"
-   ],
-   "relations": []
-  },
-  {
-   "key": "project-management-certification",
-   "name": "Project management certification",
-   "class": "certification",
-   "kind": "credential",
-   "definition": "Any professional credential that attests to a person's project-management knowledge or skill, such as the PMP or PRINCE2 certifications.",
-   "certification": true,
-   "certification_scope": "many-issuers",
    "variants": [],
+   "relations": []
+  },
+  {
+   "key": "certified-public-housing-manager",
+   "name": "Certified Public Housing Manager",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A certification for managers of public housing properties and programmes.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [
+    "Certified Public Housing Manager (PHM)"
+   ],
    "relations": [
-    "related:project-management"
+    "related:assisted-housing-manager-ahm"
    ]
   },
   {
-   "key": "psychiatric-mental-health-nurse-practitioner",
-   "name": "Psychiatric-Mental Health Nurse Practitioner",
+   "key": "certified-radiology-nurse",
+   "name": "Certified Radiology Nurse",
    "class": "certification",
    "kind": "credential",
-   "definition": "A nurse practitioner credential for providing psychiatric and mental health care to patients across the lifespan.",
+   "definition": "A certification for registered nurses who work in radiology and imaging.",
    "certification": true,
-   "certification_scope": "many-issuers",
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "certified-registered-nurse-first-assistant",
+   "name": "Certified Registered Nurse First Assistant",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A certification for registered nurses who work as first assistants in surgery, awarded by the Competency & Credentialing Institute.",
+   "certification": true,
+   "certification_scope": "single-issuer",
    "variants": [
-    "PMHNP"
+    "CRNFA"
    ],
    "relations": []
   },
   {
-   "key": "radiology-certification",
-   "name": "Radiology certification",
+   "key": "certified-registered-nurse-infusion",
+   "name": "Certified Registered Nurse Infusion",
    "class": "certification",
    "kind": "credential",
-   "definition": "Any professional certification in radiology or radiologic technology, such as those from the American Registry of Radiologic Technologists or the American Board of Radiology.",
+   "definition": "A certification for registered nurses who specialise in infusion therapy, awarded by the Infusion Nurses Certification Corporation.",
    "certification": true,
-   "certification_scope": "many-issuers",
-   "variants": [],
+   "certification_scope": "single-issuer",
+   "variants": [
+    "CRNI"
+   ],
    "relations": []
   },
   {
-   "key": "real-estate-broker-license",
-   "name": "Real estate broker license",
+   "key": "certified-rehabilitation-registered-nurse",
+   "name": "Certified Rehabilitation Registered Nurse",
    "class": "certification",
    "kind": "credential",
-   "definition": "A licence, issued by a US state or similar authority, that lets a person act as a real estate broker and handle property sales or lettings for others.",
+   "definition": "A certification for registered nurses who specialise in rehabilitation nursing, awarded by the Rehabilitation Nursing Certification Board.",
    "certification": true,
-   "certification_scope": "many-issuers",
-   "variants": [],
+   "certification_scope": "single-issuer",
+   "variants": [
+    "CRRN"
+   ],
    "relations": []
   },
   {
-   "key": "real-estate-salesperson-license",
-   "name": "Real estate salesperson license",
+   "key": "certified-residential-specialist",
+   "name": "Certified Residential Specialist",
    "class": "certification",
    "kind": "credential",
-   "definition": "A licence, issued by a US state or similar authority, that lets a person sell and lease property for a licensed real estate broker.",
-   "certification": true,
-   "certification_scope": "many-issuers",
-   "variants": [],
-   "relations": []
-  },
-  {
-   "key": "real-property-administrator",
-   "name": "Real Property Administrator",
-   "class": "certification",
-   "kind": "credential",
-   "definition": "A professional designation from BOMI International for people who manage commercial property, earned by completing its coursework and exams.",
+   "definition": "A real-estate certification for agents with advanced experience in residential sales, awarded by the Residential Real Estate Council.",
    "certification": true,
    "certification_scope": "single-issuer",
    "variants": [],
    "relations": []
   },
   {
-   "key": "red-hat-certification",
-   "name": "Red Hat certification",
+   "key": "certified-rhythm-analysis-technician",
+   "name": "Certified Rhythm Analysis Technician",
    "class": "certification",
    "kind": "credential",
-   "definition": "The exams and certifications that Red Hat awards for skills in Linux, automation, containers and its other software, such as RHCSA, RHCE and RHCA.",
+   "definition": "A certification for technicians who monitor and interpret heart rhythms from ECG telemetry.",
    "certification": true,
-   "certification_scope": "single-issuer",
-   "variants": [
-    "Red Hat Certification Programs"
-   ],
+   "variants": [],
    "relations": []
   },
   {
-   "key": "red-hat-certified-engineer",
-   "name": "Red Hat Certified Engineer",
+   "key": "certified-risk-adjustment-coder",
+   "name": "Certified Risk Adjustment Coder",
    "class": "certification",
    "kind": "credential",
-   "definition": "A Red Hat certification, above Red Hat Certified System Administrator, for engineers who automate and manage Red Hat Enterprise Linux systems.",
-   "certification": true,
-   "certification_scope": "single-issuer",
-   "variants": [
-    "RHCE"
-   ],
-   "relations": []
-  },
-  {
-   "key": "registered-art-therapist",
-   "name": "Registered Art Therapist",
-   "class": "certification",
-   "kind": "credential",
-   "definition": "A credential from the Art Therapy Credentials Board for art therapists who have met its education and supervised-practice requirements.",
+   "definition": "An AAPC certification for coders who assign diagnosis codes used in risk adjustment payment models.",
    "certification": true,
    "certification_scope": "single-issuer",
    "variants": [],
    "relations": [
-    "related:creative-arts-therapy"
+    "related:cpc-coder"
    ]
   },
   {
-   "key": "registered-cardiac-electrophysiology-specialist",
-   "name": "Registered Cardiac Electrophysiology Specialist",
+   "key": "certified-senior-project-manager",
+   "name": "Certified Senior Project Manager",
    "class": "certification",
    "kind": "credential",
-   "definition": "A credential from Cardiovascular Credentialing International for specialists who assist with electrophysiology studies and heart rhythm procedures.",
+   "definition": "Level B of the IPMA four-level project management certification, for managers of complex projects.",
    "certification": true,
-   "certification_scope": "single-issuer",
    "variants": [
-    "RCES"
+    "IPMA Level B"
    ],
    "relations": []
   },
   {
-   "key": "registered-cardiac-sonographer",
-   "name": "Registered Cardiac Sonographer",
+   "key": "certified-software-test-engineer",
+   "name": "Certified Software Test Engineer",
    "class": "certification",
    "kind": "credential",
-   "definition": "A credential from Cardiovascular Credentialing International for sonographers who perform ultrasound examinations of the heart.",
-   "certification": true,
-   "certification_scope": "single-issuer",
-   "variants": [],
-   "relations": []
-  },
-  {
-   "key": "registered-cardiovascular-invasive-specialist",
-   "name": "Registered Cardiovascular Invasive Specialist",
-   "class": "certification",
-   "kind": "credential",
-   "definition": "A credential from Cardiovascular Credentialing International for specialists who assist with invasive procedures in a cardiac catheterisation laboratory.",
+   "definition": "A software testing certification offered by the Quality Assurance Institute (QAI).",
    "certification": true,
    "certification_scope": "single-issuer",
    "variants": [
-    "RCIS"
-   ],
-   "relations": []
-  },
-  {
-   "key": "registered-clinical-exercise-physiologist",
-   "name": "Registered Clinical Exercise Physiologist",
-   "class": "certification",
-   "kind": "credential",
-   "definition": "A credential for exercise physiologists who plan and supervise exercise programmes for people with chronic disease or disability.",
-   "certification": true,
-   "certification_scope": "single-issuer",
-   "variants": [
-    "RCEP"
-   ],
-   "relations": []
-  },
-  {
-   "key": "registered-communications-distribution-designer",
-   "name": "Registered Communications Distribution Designer",
-   "class": "certification",
-   "kind": "credential",
-   "definition": "A BICSI credential for designers of telecommunications and data cabling distribution systems in buildings.",
-   "certification": true,
-   "certification_scope": "single-issuer",
-   "variants": [
-    "RCDD"
-   ],
-   "relations": []
-  },
-  {
-   "key": "registered-diagnostic-cardiac-sonographer",
-   "name": "Registered Diagnostic Cardiac Sonographer",
-   "class": "certification",
-   "kind": "credential",
-   "definition": "A credential from the American Registry for Diagnostic Medical Sonography for sonographers who perform ultrasound examinations of the heart.",
-   "certification": true,
-   "certification_scope": "single-issuer",
-   "variants": [
-    "RDCS"
-   ],
-   "relations": []
-  },
-  {
-   "key": "registered-diagnostic-medical-sonographer",
-   "name": "Registered Diagnostic Medical Sonographer",
-   "class": "certification",
-   "kind": "credential",
-   "definition": "A credential from the American Registry for Diagnostic Medical Sonography for sonographers who perform diagnostic ultrasound examinations.",
-   "certification": true,
-   "certification_scope": "single-issuer",
-   "variants": [
-    "RDMS"
-   ],
-   "relations": []
-  },
-  {
-   "key": "registered-dietitian",
-   "name": "Registered Dietitian",
-   "class": "certification",
-   "kind": "credential",
-   "definition": "A credential awarded by the Commission on Dietetic Registration to dietitians in the United States who have completed an accredited degree, supervised practice and an exam.",
-   "certification": true,
-   "certification_scope": "single-issuer",
-   "variants": [
-    "Registered Dietitian Nutritionist",
-    "RDN"
-   ],
-   "relations": []
-  },
-  {
-   "key": "registered-health-information-administrator",
-   "name": "Registered Health Information Administrator",
-   "class": "certification",
-   "kind": "credential",
-   "definition": "A credential from AHIMA for health information managers who oversee patient records, health data and privacy.",
-   "certification": true,
-   "certification_scope": "single-issuer",
-   "variants": [
-    "RHIA"
-   ],
-   "relations": []
-  },
-  {
-   "key": "registered-health-information-technician",
-   "name": "Registered Health Information Technician",
-   "class": "certification",
-   "kind": "credential",
-   "definition": "A credential from AHIMA for technicians who code, maintain and check the quality of patient health records.",
-   "certification": true,
-   "certification_scope": "single-issuer",
-   "variants": [
-    "RHIT"
-   ],
-   "relations": []
-  },
-  {
-   "key": "registered-phlebology-sonographer",
-   "name": "Registered Phlebology Sonographer",
-   "class": "certification",
-   "kind": "credential",
-   "definition": "A credential from the American Registry for Diagnostic Medical Sonography for sonographers who perform ultrasound examinations of the veins.",
-   "certification": true,
-   "certification_scope": "single-issuer",
-   "variants": [
-    "RPhS"
-   ],
-   "relations": []
-  },
-  {
-   "key": "registered-physician-in-vascular-interpretation",
-   "name": "Registered Physician in Vascular Interpretation",
-   "class": "certification",
-   "kind": "credential",
-   "definition": "A credential from the American Registry for Diagnostic Medical Sonography for physicians who interpret vascular ultrasound studies; the tag names its exam.",
-   "certification": true,
-   "certification_scope": "single-issuer",
-   "variants": [
-    "Physician Vascular Interpretation",
-    "RPVI"
-   ],
-   "relations": []
-  },
-  {
-   "key": "registered-poetry-therapist",
-   "name": "Registered Poetry Therapist",
-   "class": "certification",
-   "kind": "credential",
-   "definition": "A credential for practitioners trained in using poetry and other literature as a form of therapy.",
-   "certification": true,
-   "certification_scope": "single-issuer",
-   "variants": [],
-   "relations": []
-  },
-  {
-   "key": "registered-respiratory-therapist",
-   "name": "Registered Respiratory Therapist",
-   "class": "certification",
-   "kind": "credential",
-   "definition": "A credential from the National Board for Respiratory Care for respiratory therapists who pass its advanced-level exams.",
-   "certification": true,
-   "certification_scope": "single-issuer",
-   "variants": [],
-   "relations": []
-  },
-  {
-   "key": "registered-vascular-specialist",
-   "name": "Registered Vascular Specialist",
-   "class": "certification",
-   "kind": "credential",
-   "definition": "A credential from Cardiovascular Credentialing International for specialists who perform vascular ultrasound and other vascular testing.",
-   "certification": true,
-   "certification_scope": "single-issuer",
-   "variants": [
-    "RVS"
-   ],
-   "relations": []
-  },
-  {
-   "key": "registered-vascular-technologist",
-   "name": "Registered Vascular Technologist",
-   "class": "certification",
-   "kind": "credential",
-   "definition": "A credential from the American Registry for Diagnostic Medical Sonography for technologists who perform vascular ultrasound examinations.",
-   "certification": true,
-   "certification_scope": "single-issuer",
-   "variants": [
-    "RVT"
-   ],
-   "relations": []
-  },
-  {
-   "key": "restricted-radiotelephone-operator-permit",
-   "name": "Restricted Radiotelephone Operator Permit",
-   "class": "certification",
-   "kind": "credential",
-   "definition": "A U.S. Federal Communications Commission permit that allows a person to operate certain radio equipment, such as aircraft and marine radios.",
-   "certification": true,
-   "certification_scope": "single-issuer",
-   "variants": [],
-   "relations": []
-  },
-  {
-   "key": "saca-certified-industry-4-0-associate-advanced-operations",
-   "name": "SACA Certified Industry 4.0 Associate, Advanced Operations",
-   "class": "certification",
-   "kind": "credential",
-   "definition": "A certification from the Smart Automation Certification Alliance for advanced operations in Industry 4.0 manufacturing environments.",
-   "certification": true,
-   "certification_scope": "single-issuer",
-   "variants": [
-    "SACA Certified Industry 4.0 Associate Advanced Operations"
+    "CSTE"
    ],
    "relations": [
-    "related:saca-certified-industry-4-0-associate-basic-operations"
+    "related:testing"
    ]
   },
   {
-   "key": "saca-certified-industry-4-0-associate-basic-operations",
-   "name": "SACA Certified Industry 4.0 Associate, Basic Operations",
+   "key": "certified-specialist-of-wine",
+   "name": "Certified Specialist of Wine",
    "class": "certification",
    "kind": "credential",
-   "definition": "A certification from the Smart Automation Certification Alliance for basic operations in Industry 4.0 manufacturing environments.",
+   "definition": "A wine knowledge certification awarded by the Society of Wine Educators.",
    "certification": true,
    "certification_scope": "single-issuer",
-   "variants": [
-    "SACA Certified Industry 4.0 Associate Basic Operations"
-   ],
-   "relations": []
-  },
-  {
-   "key": "saca-certified-industry-4-0-associate-robot-system-operations",
-   "name": "SACA Certified Industry 4.0 Associate, Robot System Operations",
-   "class": "certification",
-   "kind": "credential",
-   "definition": "A certification from the Smart Automation Certification Alliance for operating robot systems in Industry 4.0 manufacturing environments.",
-   "certification": true,
-   "certification_scope": "single-issuer",
-   "variants": [
-    "SACA Certified Industry 4.0 Associate Robot System Operations"
-   ],
-   "relations": [
-    "related:saca-certified-industry-4-0-associate-basic-operations"
-   ]
-  },
-  {
-   "key": "saca-certified-industry-4-0-iiot-net-data",
-   "name": "SACA Certified Industry 4.0 IIoT Net Data",
-   "class": "certification",
-   "kind": "credential",
-   "definition": "A certification from the Smart Automation Certification Alliance covering networks and data in industrial internet of things systems.",
-   "certification": true,
-   "certification_scope": "single-issuer",
-   "variants": [],
-   "relations": [
-    "related:saca-certified-industry-4-0-associate-basic-operations"
-   ]
-  },
-  {
-   "key": "safe-release-train-engineer",
-   "name": "SAFe Release Train Engineer",
-   "class": "certification",
-   "kind": "credential",
-   "definition": "A certification from Scaled Agile, Inc. for people who lead the planning and delivery of an agile release train in the Scaled Agile Framework.",
-   "certification": true,
-   "certification_scope": "single-issuer",
-   "variants": [
-    "SAFe Release Train Engineer (RTE)"
-   ],
-   "relations": []
-  },
-  {
-   "key": "safety-trained-supervisor",
-   "name": "Safety Trained Supervisor",
-   "class": "certification",
-   "kind": "credential",
-   "definition": "A safety credential for supervisors trained to manage workplace safety.",
-   "certification": true,
-   "certification_scope": "single-issuer",
-   "variants": [
-    "Safety Trained Supervision",
-    "STS"
-   ],
-   "relations": []
-  },
-  {
-   "key": "sailing-certification",
-   "name": "Sailing certification",
-   "class": "certification",
-   "kind": "credential",
-   "definition": "A certificate showing that a person has been trained and assessed in sailing skills, awarded by a sailing association or school.",
-   "certification": true,
-   "certification_scope": "many-issuers",
    "variants": [],
    "relations": []
   },
   {
-   "key": "school-bus-endorsement",
-   "name": "School bus endorsement",
+   "key": "certified-supplier-quality-professional",
+   "name": "Certified Supplier Quality Professional",
    "class": "certification",
    "kind": "credential",
-   "definition": "A commercial driver's licence endorsement, issued by a US state, that permits driving a school bus.",
+   "definition": "An ASQ certification for professionals who assess and manage the quality of suppliers.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [
+    "Certified Supplier Quality Professional (CSQP)",
+    "CSQP"
+   ],
+   "relations": []
+  },
+  {
+   "key": "certified-surgical-technologist",
+   "name": "Certified Surgical Technologist",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A certification for surgical technologists, awarded by the National Board of Surgical Technology and Surgical Assisting.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "certified-technical-trainer",
+   "name": "Certified Technical Trainer",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A certification showing that a trainer can plan and deliver technical training effectively.",
+   "certification": true,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "certified-technology-specialist",
+   "name": "Certified Technology Specialist",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "An AVIXA certification for audiovisual professionals.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "certified-teststand-developer",
+   "name": "Certified TestStand Developer",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A National Instruments certification for developers of automated test sequences with NI TestStand.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [
+    "CTD"
+   ],
+   "relations": []
+  },
+  {
+   "key": "certified-transport-registered-nurse",
+   "name": "Certified Transport Registered Nurse",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A certification for registered nurses who care for patients during air and ground transport, awarded by the Board of Certification for Emergency Nursing.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [
+    "CTRN"
+   ],
+   "relations": []
+  },
+  {
+   "key": "certified-urologic-physician-assistant",
+   "name": "Certified Urologic Physician Assistant",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A certification for physician assistants in urology, awarded by the Certification Board for Urologic Nurses and Associates.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [
+    "Certified Urologic Physician'S Assistant",
+    "CUPA"
+   ],
+   "relations": []
+  },
+  {
+   "key": "certified-urologic-registered-nurse",
+   "name": "Certified Urologic Registered Nurse",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A certification for registered nurses in urology, awarded by the Certification Board for Urologic Nurses and Associates.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [
+    "CURN"
+   ],
+   "relations": []
+  },
+  {
+   "key": "certified-wine-educator",
+   "name": "Certified Wine Educator",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "An advanced wine teaching certification awarded by the Society of Wine Educators.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [
+    "CWE"
+   ],
+   "relations": []
+  },
+  {
+   "key": "certified-wound-and-ostomy-care-nurse",
+   "name": "Certified Wound and Ostomy Care Nurse",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A nursing certification for nurses who care for people with wounds and ostomies.",
+   "certification": true,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "certified-wound-care-nurse",
+   "name": "Certified Wound Care Nurse",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A certification for registered nurses who specialise in wound care, awarded by the Wound, Ostomy and Continence Nursing Certification Board.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [
+    "CWCN"
+   ],
+   "relations": []
+  },
+  {
+   "key": "change-management-certified-professional",
+   "name": "Change Management Certified Professional",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A certification in the principles and practice of organisational change management.",
+   "certification": true,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "chartered-fellow-of-the-chartered-institute-of-personnel-and-development",
+   "name": "Chartered Fellow of the Chartered Institute of Personnel and Development",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "The highest membership grade of the Chartered Institute of Personnel and Development, held by senior HR and people-development professionals.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [
+    "Chartered Fellow of the Chartered Institute of Personnel and Development (FCIPD)",
+    "FCIPD"
+   ],
+   "relations": []
+  },
+  {
+   "key": "chartered-member-of-the-chartered-institute-of-personnel-and-development",
+   "name": "Chartered Member of the Chartered Institute of Personnel and Development",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A membership grade of the Chartered Institute of Personnel and Development for experienced HR and people-development professionals.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [
+    "Chartered Member of the Chartered Institute of Personnel and Development (MCIPD)",
+    "MCIPD"
+   ],
+   "relations": []
+  },
+  {
+   "key": "chauffeur-license",
+   "name": "Chauffeur license",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A driver's licence, issued by a state or country, that permits the holder to drive vehicles for hire.",
    "certification": true,
    "certification_scope": "many-issuers",
    "variants": [
-    "CDL school bus endorsement"
+    "Chauffeur's License"
+   ],
+   "relations": []
+  },
+  {
+   "key": "cisco-certified-support-technician",
+   "name": "Cisco Certified Support Technician",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "An entry-level Cisco certification for people starting out in IT support, networking or cybersecurity roles.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [
+    "Cisco Certified Support Technician (CCST)"
+   ],
+   "relations": []
+  },
+  {
+   "key": "citrix-certified-administrator",
+   "name": "Citrix Certified Administrator",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A Citrix certification showing that a person can administer Citrix products such as application and desktop virtualisation.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "citrix-certified-integration-architect",
+   "name": "Citrix Certified Integration Architect",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A Citrix certification for architects who design integrated solutions built on Citrix products.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [
+    "Citrix Certified Integration Architecture",
+    "Citrix Certified Integratrion Architecture"
+   ],
+   "relations": []
+  },
+  {
+   "key": "class-b-commercial-driver-s-license",
+   "name": "Class B commercial driver's license",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A US state-issued commercial driver's license for driving a single heavy vehicle, or one towing a light trailer.",
+   "certification": true,
+   "certification_scope": "many-issuers",
+   "variants": [
+    "CDL Class B License",
+    "Class B CDL"
+   ],
+   "relations": []
+  },
+  {
+   "key": "class-c-commercial-driver-s-license",
+   "name": "Class C commercial driver's license",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A US state-issued commercial driver's license for vehicles that fit neither Class A nor Class B but carry 16 or more passengers or hazardous materials that need placards.",
+   "certification": true,
+   "certification_scope": "many-issuers",
+   "variants": [
+    "CDL Class C License",
+    "Class C CDL"
+   ],
+   "relations": []
+  },
+  {
+   "key": "combat-lifesaver",
+   "name": "Combat Lifesaver",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A US Army course and designation in advanced first aid for battlefield injuries, given to soldiers who are not medics.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [
+    "Combat Life Saver",
+    "Combat Lifesaving"
+   ],
+   "relations": []
+  },
+  {
+   "key": "comptia-a",
+   "name": "CompTIA A+",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A CompTIA entry-level certification showing skills in supporting and troubleshooting computer hardware, operating systems and networks.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [
+    "CompTIA A+ CE",
+    "CompTIA A+ certification"
    ],
    "relations": [
-    "related:passenger-endorsement"
+    "related:comptia-mobility"
    ]
   },
   {
-   "key": "scissor-lift-certification",
-   "name": "Scissor lift certification",
+   "key": "comptia-advanced-security-practitioner-casp",
+   "name": "CompTIA Advanced Security Practitioner (CASP+)",
    "class": "certification",
    "kind": "credential",
-   "definition": "A certificate showing that a person has been trained to operate scissor lifts, aerial work platforms that raise straight up on a folding frame.",
+   "definition": "A CompTIA certification for experienced security practitioners, covering advanced enterprise security architecture, operations and risk management.",
    "certification": true,
-   "certification_scope": "many-issuers",
+   "certification_scope": "single-issuer",
+   "variants": [
+    "CompTIA Advanced Security Practitioner",
+    "CASP+",
+    "CompTIA CASP+",
+    "CompTIA CASP CE"
+   ],
+   "relations": []
+  },
+  {
+   "key": "comptia-cdia",
+   "name": "CompTIA CDIA+",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A CompTIA certification for document imaging professionals, covering the planning and design of document imaging systems.",
+   "certification": true,
+   "certification_scope": "single-issuer",
    "variants": [],
-   "relations": [
-    "broader:aerial-lift-certification"
-   ]
+   "relations": []
+  },
+  {
+   "key": "comptia-cloud",
+   "name": "CompTIA Cloud+",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A CompTIA certification covering the configuration, deployment, security and management of cloud infrastructure.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [
+    "CompTIA Cloud+ CE"
+   ],
+   "relations": []
+  },
+  {
+   "key": "comptia-cloud-admin-professional-ccap",
+   "name": "CompTIA Cloud Admin Professional (CCAP)",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A CompTIA stackable certification awarded for holding a specified combination of other CompTIA certifications, for cloud administration.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [
+    "CompTIA CCAP"
+   ],
+   "relations": []
+  },
+  {
+   "key": "comptia-cloud-essentials",
+   "name": "CompTIA Cloud Essentials+",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A CompTIA certification covering the business and technical fundamentals of cloud computing.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [
+    "CompTIA Cloud Essentials"
+   ],
+   "relations": []
+  },
+  {
+   "key": "comptia-convergence-technologies-professional-ctp",
+   "name": "CompTIA Convergence Technologies Professional (CTP+)",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A CompTIA certification covering convergence technologies, the combining of voice, video and data on shared networks.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [
+    "CompTIA CTP+"
+   ],
+   "relations": []
   }
  ]
 }

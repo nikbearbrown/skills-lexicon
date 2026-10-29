@@ -19,6 +19,131 @@
  ],
  "entries": [
   {
+   "key": "fincen-314-program",
+   "name": "FinCEN 314 program",
+   "class": "skill",
+   "kind": "standard",
+   "definition": "The information-sharing rules under Section 314 of the USA PATRIOT Act, run by FinCEN, that let law enforcement and financial institutions share information about suspected money laundering and terrorist financing.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "fine-tuning",
+   "name": "Model fine-tuning",
+   "class": "skill",
+   "kind": "method",
+   "definition": "Adapting model parameters to selected tasks or examples.",
+   "variants": [
+    "fine-tuning",
+    "instruction fine-tuning"
+   ],
+   "relations": []
+  },
+  {
+   "key": "firebase-cloud-messaging",
+   "name": "Firebase Cloud Messaging",
+   "class": "skill",
+   "kind": "platform",
+   "definition": "Google's cloud service for sending push notifications and messages to Android, iOS and web apps.",
+   "certification": false,
+   "variants": [
+    "Firebase Cloud Messaging (FCM)"
+   ],
+   "relations": []
+  },
+  {
+   "key": "first-article-inspection",
+   "name": "First article inspection",
+   "class": "skill",
+   "kind": "method",
+   "definition": "A documented check that the first part made from a new design or process meets all drawing and specification requirements.",
+   "certification": false,
+   "variants": [
+    "First Article Inspections"
+   ],
+   "relations": []
+  },
+  {
+   "key": "fis-getpaid",
+   "name": "FIS GetPaid",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "FIS's software for managing accounts receivable, credit and collections.",
+   "certification": false,
+   "variants": [
+    "FIS GetPaid (Accounts Receivable Software)"
+   ],
+   "relations": []
+  },
+  {
+   "key": "flask",
+   "name": "Flask",
+   "class": "skill",
+   "kind": "framework",
+   "definition": "A lightweight Python web framework for building web applications and APIs.",
+   "certification": false,
+   "variants": [
+    "Flask (Web Framework)"
+   ],
+   "relations": []
+  },
+  {
+   "key": "flat-sketching",
+   "name": "Flat sketching",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Drawing flat, two-dimensional technical drawings of garments that show seams, stitching and proportions for design and production.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "flatbed-truck",
+   "name": "Flatbed truck",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "A truck with an open, flat cargo bed and no sides or roof, used to haul large or irregular loads.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "flavor-development",
+   "name": "Flavor development",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Creating and refining flavours for food and drink products.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "flexible-single-master-operations",
+   "name": "Flexible Single Master Operations",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "The specialised domain controller roles in Microsoft Active Directory that only one server at a time may hold, such as schema master and PDC emulator.",
+   "certification": false,
+   "variants": [
+    "Flexible Single Master Operation",
+    "FSMO"
+   ],
+   "relations": []
+  },
+  {
+   "key": "flexisign",
+   "name": "FlexiSIGN",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "Sign-making and large-format print design software, from Scanvec Amiable, used to design signs and drive cutters and printers.",
+   "certification": false,
+   "variants": [
+    "Scanvec Amiable FlexiSign"
+   ],
+   "relations": []
+  },
+  {
    "key": "flight-planning",
    "name": "Flight planning",
    "class": "skill",
@@ -329,126 +454,6 @@
    "class": "skill",
    "kind": "skill",
    "definition": "Putting controls in place to stop fraud and analysing transactions and behaviour to spot it when it happens.",
-   "certification": false,
-   "variants": [],
-   "relations": []
-  },
-  {
-   "key": "fraud-risk-assessment",
-   "name": "Fraud risk assessment",
-   "class": "skill",
-   "kind": "method",
-   "definition": "A structured review that identifies where and how fraud could occur in an organisation and how likely and damaging it would be.",
-   "certification": false,
-   "variants": [
-    "Fraud Risk Assessments"
-   ],
-   "relations": []
-  },
-  {
-   "key": "fraud-risk-management",
-   "name": "Fraud risk management",
-   "class": "skill",
-   "kind": "skill",
-   "definition": "Identifying, assessing and controlling the risk of fraud against an organisation.",
-   "certification": false,
-   "variants": [],
-   "relations": [
-    "related:financial-risk-management",
-    "related:compliance-risk-management"
-   ]
-  },
-  {
-   "key": "free-body-diagrams",
-   "name": "Free body diagrams",
-   "class": "skill",
-   "kind": "method",
-   "definition": "Sketches of one body isolated from its surroundings that show every force and moment acting on it, used to solve mechanics problems.",
-   "certification": false,
-   "variants": [],
-   "relations": []
-  },
-  {
-   "key": "free-lossless-audio-codec",
-   "name": "Free Lossless Audio Codec",
-   "class": "skill",
-   "kind": "standard",
-   "definition": "An open, royalty-free format for compressing digital audio without losing any of the original data.",
-   "certification": false,
-   "variants": [
-    "Free Lossless Audio Codec (FLAC)",
-    "FLAC"
-   ],
-   "relations": []
-  },
-  {
-   "key": "freight-handling",
-   "name": "Freight handling",
-   "class": "skill",
-   "kind": "skill",
-   "definition": "Loading, unloading, moving and securing freight at docks, warehouses and terminals.",
-   "certification": false,
-   "variants": [],
-   "relations": []
-  },
-  {
-   "key": "freight-handling-equipment",
-   "name": "Freight handling equipment",
-   "class": "skill",
-   "kind": "tool",
-   "definition": "Equipment used to move and load freight, such as forklifts, pallet jacks, conveyors and dock levelers.",
-   "certification": false,
-   "variants": [],
-   "relations": []
-  },
-  {
-   "key": "freight-inspection",
-   "name": "Freight inspection",
-   "class": "skill",
-   "kind": "skill",
-   "definition": "Checking shipments for damage, correct count and conformity with shipping documents when they are received or sent.",
-   "certification": false,
-   "variants": [],
-   "relations": []
-  },
-  {
-   "key": "freshchat",
-   "name": "Freshchat",
-   "class": "skill",
-   "kind": "platform",
-   "definition": "A messaging and live chat product from Freshworks that businesses use to talk with customers.",
-   "certification": false,
-   "variants": [],
-   "relations": []
-  },
-  {
-   "key": "frisby-js",
-   "name": "Frisby.js",
-   "class": "skill",
-   "kind": "framework",
-   "definition": "A Node.js framework for writing tests of REST API endpoints.",
-   "certification": false,
-   "variants": [],
-   "relations": []
-  },
-  {
-   "key": "frontify",
-   "name": "Frontify",
-   "class": "skill",
-   "kind": "platform",
-   "definition": "A cloud platform for brand management that stores brand guidelines and assets and shares them across teams.",
-   "certification": false,
-   "variants": [
-    "Frontify (Software)"
-   ],
-   "relations": []
-  },
-  {
-   "key": "fuel-cell",
-   "name": "Fuel cell",
-   "class": "skill",
-   "kind": "knowledge",
-   "definition": "A device that converts the chemical energy of a fuel, commonly hydrogen, directly into electricity through an electrochemical reaction.",
    "certification": false,
    "variants": [],
    "relations": []

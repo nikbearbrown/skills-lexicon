@@ -19,526 +19,587 @@
  ],
  "entries": [
   {
-   "key": "comptia-linux-network-professional-clnp",
-   "name": "CompTIA Linux Network Professional (CLNP)",
+   "key": "bachelor-s-in-mathematics",
+   "name": "Bachelor's in Mathematics",
    "class": "certification",
    "kind": "credential",
-   "definition": "A CompTIA stackable certification awarded for holding a specified combination of other CompTIA certifications, for Linux and network administration.",
+   "definition": "An undergraduate degree in mathematics, awarded by universities and colleges.",
    "certification": true,
-   "certification_scope": "single-issuer",
+   "certification_scope": "many-issuers",
    "variants": [
-    "CompTIA CLNP"
-   ],
-   "relations": []
-  },
-  {
-   "key": "comptia-mobile-app-security",
-   "name": "CompTIA Mobile App Security+",
-   "class": "certification",
-   "kind": "credential",
-   "definition": "A CompTIA certification covering how to build and test mobile apps securely.",
-   "certification": true,
-   "certification_scope": "single-issuer",
-   "variants": [],
-   "relations": []
-  },
-  {
-   "key": "comptia-mobility",
-   "name": "CompTIA Mobility+",
-   "class": "certification",
-   "kind": "credential",
-   "definition": "A CompTIA certification covering the management and support of mobile devices and the systems that manage them.",
-   "certification": true,
-   "certification_scope": "single-issuer",
-   "variants": [
-    "CompTIA Mobility+ CE"
-   ],
-   "relations": []
-  },
-  {
-   "key": "comptia-network",
-   "name": "CompTIA Network+",
-   "class": "certification",
-   "kind": "credential",
-   "definition": "A CompTIA certification covering how to configure, manage, secure and troubleshoot wired and wireless networks.",
-   "certification": true,
-   "certification_scope": "single-issuer",
-   "variants": [
-    "CompTIA Network+ CE"
+    "Bachelor's degree in Mathematics",
+    "Bachelors degree in Mathematics"
    ],
    "relations": [
-    "related:computer-networking"
+    "related:mathematics"
    ]
   },
   {
-   "key": "comptia-network-infrastructure-professional-cnip",
-   "name": "CompTIA Network Infrastructure Professional (CNIP)",
+   "key": "bachelor-s-in-mechanical-engineering",
+   "name": "Bachelor's in Mechanical Engineering",
    "class": "certification",
    "kind": "credential",
-   "definition": "A CompTIA stackable certification awarded for holding a specified combination of other CompTIA certifications, for network infrastructure.",
+   "definition": "An undergraduate degree in mechanical engineering, awarded by universities and colleges.",
    "certification": true,
-   "certification_scope": "single-issuer",
+   "certification_scope": "many-issuers",
    "variants": [
-    "CompTIA CNIP"
+    "Bachelor's degree in Mechanical Engineering",
+    "Bachelors degree in Mechanical Engineering"
    ],
    "relations": []
   },
   {
-   "key": "comptia-network-security-professional-cnsp",
-   "name": "CompTIA Network Security Professional (CNSP)",
+   "key": "bachelor-s-in-meteorology",
+   "name": "Bachelor's in Meteorology",
    "class": "certification",
    "kind": "credential",
-   "definition": "A CompTIA stackable certification awarded for holding a specified combination of other CompTIA certifications, for network security.",
+   "definition": "An undergraduate degree in meteorology, awarded by universities and colleges.",
    "certification": true,
-   "certification_scope": "single-issuer",
+   "certification_scope": "many-issuers",
    "variants": [
-    "CompTIA CNSP"
+    "Bachelor's degree in Meteorology",
+    "Bachelors degree in Meteorology"
+   ],
+   "relations": []
+  },
+  {
+   "key": "bachelor-s-in-music",
+   "name": "Bachelor's in Music",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "An undergraduate degree in music, awarded by universities and colleges.",
+   "certification": true,
+   "certification_scope": "many-issuers",
+   "variants": [
+    "Bachelor's degree in Music",
+    "Bachelors degree in Music"
+   ],
+   "relations": []
+  },
+  {
+   "key": "bachelor-s-in-music-education",
+   "name": "Bachelor's in Music Education",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "An undergraduate degree in music education, awarded by universities and colleges.",
+   "certification": true,
+   "certification_scope": "many-issuers",
+   "variants": [
+    "Bachelor's degree in Music Education",
+    "Bachelors degree in Music Education"
+   ],
+   "relations": []
+  },
+  {
+   "key": "bachelor-s-in-network-administration",
+   "name": "Bachelor's in Network Administration",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "An undergraduate degree in network administration, awarded by universities and colleges.",
+   "certification": true,
+   "certification_scope": "many-issuers",
+   "variants": [
+    "Bachelor's degree in Network Administration",
+    "Bachelors degree in Network Administration"
+   ],
+   "relations": []
+  },
+  {
+   "key": "bachelor-s-in-nursing",
+   "name": "Bachelor's in Nursing",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "An undergraduate degree in nursing, awarded by universities and colleges.",
+   "certification": true,
+   "certification_scope": "many-issuers",
+   "variants": [
+    "Bachelor's degree in Nursing",
+    "Bachelors degree in Nursing"
    ],
    "relations": [
-    "related:cybersecurity"
+    "related:bachelor-of-science-in-nursing",
+    "related:associate-degree-in-nursing"
    ]
   },
   {
-   "key": "comptia-network-vulnerability-assessment-professional-cnvp",
-   "name": "CompTIA Network Vulnerability Assessment Professional (CNVP)",
+   "key": "bachelor-s-in-nutrition",
+   "name": "Bachelor's in Nutrition",
    "class": "certification",
    "kind": "credential",
-   "definition": "A CompTIA stackable certification awarded for holding a specified combination of other CompTIA certifications, for network vulnerability assessment.",
-   "certification": true,
-   "certification_scope": "single-issuer",
-   "variants": [
-    "CompTIA CNVP"
-   ],
-   "relations": []
-  },
-  {
-   "key": "comptia-pentest",
-   "name": "CompTIA PenTest+",
-   "class": "certification",
-   "kind": "credential",
-   "definition": "A CompTIA certification covering penetration testing, vulnerability assessment and vulnerability management.",
-   "certification": true,
-   "certification_scope": "single-issuer",
-   "variants": [
-    "CompTIA PenTest+ CE"
-   ],
-   "relations": []
-  },
-  {
-   "key": "comptia-printing-and-document-imaging-pdi",
-   "name": "CompTIA Printing and Document Imaging (PDI+)",
-   "class": "certification",
-   "kind": "credential",
-   "definition": "A CompTIA certification for technicians who work with printing and document imaging equipment.",
-   "certification": true,
-   "certification_scope": "single-issuer",
-   "variants": [
-    "CompTIA PDI+"
-   ],
-   "relations": []
-  },
-  {
-   "key": "comptia-rfid",
-   "name": "CompTIA RFID+",
-   "class": "certification",
-   "kind": "credential",
-   "definition": "A CompTIA certification covering radio-frequency identification (RFID) technology and its deployment.",
-   "certification": true,
-   "certification_scope": "single-issuer",
-   "variants": [],
-   "relations": []
-  },
-  {
-   "key": "comptia-secure-cloud-professional-cscp",
-   "name": "CompTIA Secure Cloud Professional (CSCP)",
-   "class": "certification",
-   "kind": "credential",
-   "definition": "A CompTIA stackable certification awarded for holding a specified combination of other CompTIA certifications, for secure cloud work.",
-   "certification": true,
-   "certification_scope": "single-issuer",
-   "variants": [
-    "CompTIA CSCP"
-   ],
-   "relations": []
-  },
-  {
-   "key": "comptia-secure-infrastructure-specialist-csis",
-   "name": "CompTIA Secure Infrastructure Specialist (CSIS)",
-   "class": "certification",
-   "kind": "credential",
-   "definition": "A CompTIA stackable certification awarded for holding a specified combination of other CompTIA certifications, for secure IT infrastructure.",
-   "certification": true,
-   "certification_scope": "single-issuer",
-   "variants": [
-    "CompTIA CSIS"
-   ],
-   "relations": []
-  },
-  {
-   "key": "comptia-security",
-   "name": "CompTIA Security+",
-   "class": "certification",
-   "kind": "credential",
-   "definition": "A CompTIA certification covering core cybersecurity skills such as threats, network security, cryptography and risk management.",
-   "certification": true,
-   "certification_scope": "single-issuer",
-   "variants": [
-    "CompTIA Security+ CE"
-   ],
-   "relations": []
-  },
-  {
-   "key": "comptia-security-analytics-expert-csae",
-   "name": "CompTIA Security Analytics Expert (CSAE)",
-   "class": "certification",
-   "kind": "credential",
-   "definition": "A CompTIA stackable certification awarded for holding a specified combination of other CompTIA certifications, for security analytics at expert level.",
-   "certification": true,
-   "certification_scope": "single-issuer",
-   "variants": [
-    "CompTIA CSAE"
-   ],
-   "relations": []
-  },
-  {
-   "key": "comptia-security-analytics-professional-csap",
-   "name": "CompTIA Security Analytics Professional (CSAP)",
-   "class": "certification",
-   "kind": "credential",
-   "definition": "A CompTIA stackable certification awarded for holding a specified combination of other CompTIA certifications, for security analytics at professional level.",
-   "certification": true,
-   "certification_scope": "single-issuer",
-   "variants": [
-    "CompTIA CSAP"
-   ],
-   "relations": []
-  },
-  {
-   "key": "comptia-security-infrastructure-expert-csie",
-   "name": "CompTIA Security Infrastructure Expert (CSIE)",
-   "class": "certification",
-   "kind": "credential",
-   "definition": "A CompTIA stackable certification awarded for holding a specified combination of other CompTIA certifications, for security infrastructure at expert level.",
-   "certification": true,
-   "certification_scope": "single-issuer",
-   "variants": [
-    "CompTIA CSIE"
-   ],
-   "relations": []
-  },
-  {
-   "key": "comptia-storage",
-   "name": "CompTIA Storage+",
-   "class": "certification",
-   "kind": "credential",
-   "definition": "A CompTIA certification covering the fundamentals of data storage technology.",
-   "certification": true,
-   "certification_scope": "single-issuer",
-   "variants": [
-    "CompTIA Storage+ Powered By SNIA",
-    "CompTIA Storage+ Powered By SNIA CE"
-   ],
-   "relations": []
-  },
-  {
-   "key": "comptia-systems-support-specialist-csss",
-   "name": "CompTIA Systems Support Specialist (CSSS)",
-   "class": "certification",
-   "kind": "credential",
-   "definition": "A CompTIA stackable certification awarded for holding a specified combination of other CompTIA certifications, for systems support.",
-   "certification": true,
-   "certification_scope": "single-issuer",
-   "variants": [
-    "CompTIA CSSS"
-   ],
-   "relations": []
-  },
-  {
-   "key": "coronal-polishing-certificate",
-   "name": "Coronal polishing certificate",
-   "class": "certification",
-   "kind": "credential",
-   "definition": "A certificate showing that a dental assistant has been trained in coronal polishing, which some US states require before they may do it.",
+   "definition": "An undergraduate degree in nutrition, awarded by universities and colleges.",
    "certification": true,
    "certification_scope": "many-issuers",
-   "variants": [],
+   "variants": [
+    "Bachelor's degree in Nutrition",
+    "Bachelors degree in Nutrition"
+   ],
    "relations": []
   },
   {
-   "key": "counter-terrorist-check-ctc-clearance",
-   "name": "Counter Terrorist Check (CTC) clearance",
+   "key": "bachelor-s-in-oceanography",
+   "name": "Bachelor's in Oceanography",
    "class": "certification",
    "kind": "credential",
-   "definition": "A UK government security clearance level, below Security Check (SC), for roles with unescorted access to sensitive sites or close contact with people at risk from terrorism.",
+   "definition": "An undergraduate degree in oceanography, awarded by universities and colleges.",
    "certification": true,
-   "certification_scope": "single-issuer",
+   "certification_scope": "many-issuers",
    "variants": [
-    "Counter Terrorist Check (CTC)",
-    "Counter Terrorist Check",
-    "CTC clearance"
+    "Bachelor's degree in Oceanography",
+    "Bachelors degree in Oceanography"
+   ],
+   "relations": []
+  },
+  {
+   "key": "bachelor-s-in-paralegal-studies",
+   "name": "Bachelor's in Paralegal Studies",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "An undergraduate degree in paralegal studies, awarded by universities and colleges.",
+   "certification": true,
+   "certification_scope": "many-issuers",
+   "variants": [
+    "Bachelor's degree in Paralegal Studies",
+    "Bachelors degree in Paralegal Studies"
+   ],
+   "relations": []
+  },
+  {
+   "key": "bachelor-s-in-performance-arts",
+   "name": "Bachelor's in Performance Arts",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "An undergraduate degree in the performing arts, awarded by universities and colleges.",
+   "certification": true,
+   "certification_scope": "many-issuers",
+   "variants": [
+    "Bachelor's degree in Performance Arts",
+    "Bachelors degree in Performance Arts"
+   ],
+   "relations": []
+  },
+  {
+   "key": "bachelor-s-in-pharmacy",
+   "name": "Bachelor's in Pharmacy",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "An undergraduate degree in pharmacy, awarded by universities and colleges.",
+   "certification": true,
+   "certification_scope": "many-issuers",
+   "variants": [
+    "Bachelor's degree in Pharmacy",
+    "Bachelors degree in Pharmacy"
    ],
    "relations": [
-    "related:security-check-sc-clearance"
+    "related:bachelor-of-science-in-pharmacy",
+    "related:doctor-of-pharmacy"
    ]
   },
   {
-   "key": "cpc-coder",
-   "name": "Certified Professional Coder",
+   "key": "bachelor-s-in-philosophy",
+   "name": "Bachelor's in Philosophy",
    "class": "certification",
    "kind": "credential",
-   "definition": "A coding credential; CPC also names other credentials.",
-   "variants": [
-    "CPC",
-    "Certified Professional Coder (CPC)"
-   ],
-   "relations": []
-  },
-  {
-   "key": "cpc-collector",
-   "name": "Certified Professional Collector",
-   "class": "certification",
-   "kind": "credential",
-   "definition": "A collection credential; distinct from the coding credential.",
-   "variants": [
-    "CPC",
-    "Certified Professional Collector (CPC)"
-   ],
-   "relations": []
-  },
-  {
-   "key": "cpr-for-the-professional-rescuer",
-   "name": "CPR for the Professional Rescuer",
-   "class": "certification",
-   "kind": "credential",
-   "definition": "A cardiopulmonary resuscitation certification, from American Red Cross courses, for people who respond to emergencies as part of their job, such as lifeguards and first responders.",
-   "certification": true,
-   "certification_scope": "single-issuer",
-   "variants": [
-    "Professional Rescuer CPR"
-   ],
-   "relations": []
-  },
-  {
-   "key": "crestron-certified-programmer",
-   "name": "Crestron Certified Programmer",
-   "class": "certification",
-   "kind": "credential",
-   "definition": "A certification from Crestron showing that a person can program Crestron control systems.",
-   "certification": true,
-   "certification_scope": "single-issuer",
-   "variants": [],
-   "relations": []
-  },
-  {
-   "key": "cytogenetic-technologist-cg-ascp",
-   "name": "Cytogenetic Technologist, CG(ASCP)",
-   "class": "certification",
-   "kind": "credential",
-   "definition": "A certification from the ASCP Board of Certification for laboratory technologists who analyse chromosomes in cytogenetics laboratories.",
-   "certification": true,
-   "certification_scope": "single-issuer",
-   "variants": [
-    "Cytogenetics Technologist Certification (CG-ASCP)",
-    "CG(ASCP)"
-   ],
-   "relations": []
-  },
-  {
-   "key": "dermatology-certified-nurse-practitioner",
-   "name": "Dermatology Certified Nurse Practitioner",
-   "class": "certification",
-   "kind": "credential",
-   "definition": "A certification for nurse practitioners who specialise in dermatology, awarded by the Dermatology Nurse Practitioner Certification Board.",
-   "certification": true,
-   "certification_scope": "single-issuer",
-   "variants": [
-    "DCNP"
-   ],
-   "relations": []
-  },
-  {
-   "key": "dermatology-nurse-certified",
-   "name": "Dermatology Nurse Certified",
-   "class": "certification",
-   "kind": "credential",
-   "definition": "A certification for registered nurses who work in dermatology, awarded by the Dermatology Nursing Certification Board.",
-   "certification": true,
-   "certification_scope": "single-issuer",
-   "variants": [],
-   "relations": []
-  },
-  {
-   "key": "developed-vetting",
-   "name": "Developed Vetting",
-   "class": "certification",
-   "kind": "credential",
-   "definition": "The highest level of UK government security clearance, for roles with frequent and uncontrolled access to top secret assets.",
-   "certification": true,
-   "certification_scope": "single-issuer",
-   "variants": [
-    "Developed Vetting (DV)",
-    "DV clearance"
-   ],
-   "relations": []
-  },
-  {
-   "key": "diploma-in-hotel-management-and-catering-technology",
-   "name": "Diploma in Hotel Management and Catering Technology",
-   "class": "certification",
-   "kind": "credential",
-   "definition": "A diploma, awarded by technical boards and polytechnic institutions in India, covering hotel operations, food production and catering.",
-   "certification": true,
-   "certification_scope": "many-issuers",
-   "variants": [],
-   "relations": []
-  },
-  {
-   "key": "divemaster",
-   "name": "Divemaster",
-   "class": "certification",
-   "kind": "credential",
-   "definition": "A professional scuba-diving rating for people who lead and supervise certified divers, awarded by diving training agencies such as PADI, SSI and NAUI.",
+   "definition": "An undergraduate degree in philosophy, awarded by universities and colleges.",
    "certification": true,
    "certification_scope": "many-issuers",
    "variants": [
-    "Divemaster (DM) Qualification"
+    "Bachelor's degree in Philosophy",
+    "Bachelors degree in Philosophy"
    ],
    "relations": []
   },
   {
-   "key": "doctor-of-dental-medicine",
-   "name": "Doctor of Dental Medicine",
+   "key": "bachelor-s-in-physical-education",
+   "name": "Bachelor's in Physical Education",
    "class": "certification",
    "kind": "credential",
-   "definition": "A professional doctoral degree in dentistry, awarded by dental schools in the United States and elsewhere.",
+   "definition": "An undergraduate degree in physical education, awarded by universities and colleges.",
    "certification": true,
    "certification_scope": "many-issuers",
    "variants": [
-    "Doctor Of Dental Medicine (DMD)",
-    "DMD"
+    "Bachelor's degree in Physical Education",
+    "Bachelors degree in Physical Education"
    ],
    "relations": []
   },
   {
-   "key": "doctor-of-dental-surgery",
-   "name": "Doctor of Dental Surgery",
+   "key": "bachelor-s-in-physical-therapy",
+   "name": "Bachelor's in Physical Therapy",
    "class": "certification",
    "kind": "credential",
-   "definition": "A professional doctoral degree in dentistry, awarded by dental schools in the United States and elsewhere.",
+   "definition": "An undergraduate degree in physical therapy, awarded by universities and colleges.",
    "certification": true,
    "certification_scope": "many-issuers",
    "variants": [
-    "Doctor Of Dental Surgery (DDS)",
-    "DDS"
+    "Bachelor's degree in Physical Therapy",
+    "Bachelors degree in Physical Therapy"
+   ],
+   "relations": [
+    "related:doctor-of-physical-therapy"
+   ]
+  },
+  {
+   "key": "bachelor-s-in-physics",
+   "name": "Bachelor's in Physics",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "An undergraduate degree in physics, awarded by universities and colleges.",
+   "certification": true,
+   "certification_scope": "many-issuers",
+   "variants": [
+    "Bachelor's degree in Physics",
+    "Bachelors degree in Physics"
    ],
    "relations": []
   },
   {
-   "key": "doctor-of-medicine",
-   "name": "Doctor of Medicine",
+   "key": "bachelor-s-in-political-science",
+   "name": "Bachelor's in Political Science",
    "class": "certification",
    "kind": "credential",
-   "definition": "A professional doctoral degree in medicine that qualifies graduates to go on to practise as physicians.",
+   "definition": "An undergraduate degree in political science, awarded by universities and colleges.",
    "certification": true,
    "certification_scope": "many-issuers",
    "variants": [
-    "Doctor Of Medicine (MD)"
+    "Bachelor's degree in Political Science",
+    "Bachelors degree in Political Science"
    ],
    "relations": []
   },
   {
-   "key": "doctor-of-nursing-practice",
-   "name": "Doctor of Nursing Practice",
+   "key": "bachelor-s-in-psychology",
+   "name": "Bachelor's in Psychology",
    "class": "certification",
    "kind": "credential",
-   "definition": "A practice-focused doctoral degree in nursing for advanced clinical practice, leadership and nursing care improvement.",
+   "definition": "An undergraduate degree in psychology, awarded by universities and colleges.",
    "certification": true,
    "certification_scope": "many-issuers",
    "variants": [
-    "DNP"
+    "Bachelor's degree in Psychology",
+    "Bachelors degree in Psychology"
    ],
    "relations": []
   },
   {
-   "key": "doctor-of-pharmacy",
-   "name": "Doctor of Pharmacy",
+   "key": "bachelor-s-in-public-health",
+   "name": "Bachelor's in Public Health",
    "class": "certification",
    "kind": "credential",
-   "definition": "A professional doctoral degree in pharmacy that qualifies graduates to go on to practise as pharmacists.",
+   "definition": "An undergraduate degree in public health, awarded by universities and colleges.",
    "certification": true,
    "certification_scope": "many-issuers",
    "variants": [
-    "Doctor Of Pharmacy (PharmD)",
-    "PharmD"
+    "Bachelor's degree in Public Health",
+    "Bachelors degree in Public Health"
+   ],
+   "relations": [
+    "related:certified-in-public-health",
+    "related:doctor-of-public-health"
+   ]
+  },
+  {
+   "key": "bachelor-s-in-public-policy",
+   "name": "Bachelor's in Public Policy",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "An undergraduate degree in public policy, awarded by universities and colleges.",
+   "certification": true,
+   "certification_scope": "many-issuers",
+   "variants": [
+    "Bachelor's degree in Public Policy",
+    "Bachelors degree in Public Policy"
+   ],
+   "relations": [
+    "related:public-policy"
+   ]
+  },
+  {
+   "key": "bachelor-s-in-public-relations",
+   "name": "Bachelor's in Public Relations",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "An undergraduate degree in public relations, awarded by universities and colleges.",
+   "certification": true,
+   "certification_scope": "many-issuers",
+   "variants": [
+    "Bachelor's degree in Public Relations",
+    "Bachelors degree in Public Relations"
    ],
    "relations": []
   },
   {
-   "key": "doctor-of-physical-therapy",
-   "name": "Doctor of Physical Therapy",
+   "key": "bachelor-s-in-real-estate",
+   "name": "Bachelor's in Real Estate",
    "class": "certification",
    "kind": "credential",
-   "definition": "A doctoral degree that qualifies graduates to practise as physical therapists in the United States.",
+   "definition": "An undergraduate degree in real estate, awarded by universities and colleges.",
    "certification": true,
    "certification_scope": "many-issuers",
    "variants": [
-    "DPT"
+    "Bachelor's degree in Real Estate",
+    "Bachelors degree in Real Estate"
+   ],
+   "relations": [
+    "related:real-estate"
+   ]
+  },
+  {
+   "key": "bachelor-s-in-religious-studies",
+   "name": "Bachelor's in Religious Studies",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "An undergraduate degree in religious studies, awarded by universities and colleges.",
+   "certification": true,
+   "certification_scope": "many-issuers",
+   "variants": [
+    "Bachelor's degree in Religious Studies",
+    "Bachelors degree in Religious Studies"
    ],
    "relations": []
   },
   {
-   "key": "doctor-of-public-health",
-   "name": "Doctor of Public Health",
+   "key": "bachelor-s-in-secondary-education",
+   "name": "Bachelor's in Secondary Education",
    "class": "certification",
    "kind": "credential",
-   "definition": "A doctoral degree in public health focused on professional practice and leadership.",
+   "definition": "An undergraduate degree in secondary education, awarded by universities and colleges.",
    "certification": true,
    "certification_scope": "many-issuers",
    "variants": [
-    "DrPH"
+    "Bachelor's degree in Secondary Education",
+    "Bachelors degree in Secondary Education"
    ],
    "relations": []
   },
   {
-   "key": "doctor-of-veterinary-medicine",
-   "name": "Doctor of Veterinary Medicine",
+   "key": "bachelor-s-in-social-work",
+   "name": "Bachelor's in Social Work",
    "class": "certification",
    "kind": "credential",
-   "definition": "A professional doctoral degree in veterinary medicine, awarded as DVM by most schools and as VMD by the University of Pennsylvania.",
+   "definition": "An undergraduate degree in social work, awarded by universities and colleges.",
    "certification": true,
    "certification_scope": "many-issuers",
    "variants": [
-    "Doctor Of Veterinary Medicine (DVM/VMD)",
-    "DVM",
-    "VMD"
+    "Bachelor's degree in Social Work",
+    "Bachelors degree in Social Work"
    ],
    "relations": []
   },
   {
-   "key": "doubles-triples-endorsement",
-   "name": "Doubles/triples endorsement",
+   "key": "bachelor-s-in-sociology",
+   "name": "Bachelor's in Sociology",
    "class": "certification",
    "kind": "credential",
-   "definition": "A commercial driver's licence endorsement that permits towing two or three trailers.",
+   "definition": "An undergraduate degree in sociology, awarded by universities and colleges.",
    "certification": true,
    "certification_scope": "many-issuers",
    "variants": [
-    "Doubles Endorsement"
+    "Bachelor's degree in Sociology",
+    "Bachelors degree in Sociology"
    ],
    "relations": []
   },
   {
-   "key": "drone-pilot-certificate",
-   "name": "Drone pilot certificate",
+   "key": "bachelor-s-in-software-engineering",
+   "name": "Bachelor's in Software Engineering",
    "class": "certification",
    "kind": "credential",
-   "definition": "A certificate that allows a person to fly small unmanned aircraft commercially; in the United States, the FAA Remote Pilot Certificate under Part 107.",
+   "definition": "An undergraduate degree in software engineering, awarded by universities and colleges.",
    "certification": true,
    "certification_scope": "many-issuers",
    "variants": [
-    "Remote Pilot Certificate"
+    "Bachelor's degree in Software Engineering",
+    "Bachelors degree in Software Engineering"
+   ],
+   "relations": [
+    "related:software-engineering"
+   ]
+  },
+  {
+   "key": "bachelor-s-in-special-education",
+   "name": "Bachelor's in Special Education",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "An undergraduate degree in special education, awarded by universities and colleges.",
+   "certification": true,
+   "certification_scope": "many-issuers",
+   "variants": [
+    "Bachelor's degree in Special Education",
+    "Bachelors degree in Special Education"
+   ],
+   "relations": [
+    "related:special-education"
+   ]
+  },
+  {
+   "key": "bachelor-s-in-sports-management",
+   "name": "Bachelor's in Sports Management",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "An undergraduate degree in sports management, awarded by universities and colleges.",
+   "certification": true,
+   "certification_scope": "many-issuers",
+   "variants": [
+    "Bachelor's degree in Sports Management",
+    "Bachelors degree in Sports Management"
    ],
    "relations": []
+  },
+  {
+   "key": "bachelor-s-in-statistics",
+   "name": "Bachelor's in Statistics",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "An undergraduate degree in statistics, awarded by universities and colleges.",
+   "certification": true,
+   "certification_scope": "many-issuers",
+   "variants": [
+    "Bachelor's degree in Statistics",
+    "Bachelors degree in Statistics"
+   ],
+   "relations": []
+  },
+  {
+   "key": "bachelor-s-in-structural-engineering",
+   "name": "Bachelor's in Structural Engineering",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "An undergraduate degree in structural engineering, awarded by universities and colleges.",
+   "certification": true,
+   "certification_scope": "many-issuers",
+   "variants": [
+    "Bachelor's degree in Structural Engineering",
+    "Bachelors degree in Structural Engineering"
+   ],
+   "relations": []
+  },
+  {
+   "key": "bachelor-s-in-supply-chain-management",
+   "name": "Bachelor's in Supply Chain Management",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "An undergraduate degree in supply chain management, awarded by universities and colleges.",
+   "certification": true,
+   "certification_scope": "many-issuers",
+   "variants": [
+    "Bachelor's degree in Supply Chain Management",
+    "Bachelors degree in Supply Chain Management"
+   ],
+   "relations": []
+  },
+  {
+   "key": "bachelor-s-in-systems-engineering",
+   "name": "Bachelor's in Systems Engineering",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "An undergraduate degree in systems engineering, awarded by universities and colleges.",
+   "certification": true,
+   "certification_scope": "many-issuers",
+   "variants": [
+    "Bachelor's degree in Systems Engineering",
+    "Bachelors degree in Systems Engineering"
+   ],
+   "relations": []
+  },
+  {
+   "key": "bachelor-s-in-tourism-management",
+   "name": "Bachelor's in Tourism Management",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "An undergraduate degree in tourism management, awarded by universities and colleges.",
+   "certification": true,
+   "certification_scope": "many-issuers",
+   "variants": [
+    "Bachelor's degree in Tourism Management",
+    "Bachelors degree in Tourism Management"
+   ],
+   "relations": []
+  },
+  {
+   "key": "bachelor-s-in-urban-and-regional-planning",
+   "name": "Bachelor's in Urban and Regional Planning",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "An undergraduate degree in urban and regional planning, awarded by universities and colleges.",
+   "certification": true,
+   "certification_scope": "many-issuers",
+   "variants": [
+    "Bachelor's degree in Urban and Regional Planning",
+    "Bachelors degree in Urban and Regional Planning"
+   ],
+   "relations": []
+  },
+  {
+   "key": "bachelor-s-in-veterinary-science",
+   "name": "Bachelor's in Veterinary Science",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "An undergraduate degree in veterinary science, awarded by universities and colleges.",
+   "certification": true,
+   "certification_scope": "many-issuers",
+   "variants": [
+    "Bachelor's degree in Veterinary Science",
+    "Bachelors degree in Veterinary Science"
+   ],
+   "relations": [
+    "related:doctor-of-veterinary-medicine"
+   ]
+  },
+  {
+   "key": "bachelor-s-in-wildlife-biology",
+   "name": "Bachelor's in Wildlife Biology",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "An undergraduate degree in wildlife biology, awarded by universities and colleges.",
+   "certification": true,
+   "certification_scope": "many-issuers",
+   "variants": [
+    "Bachelor's degree in Wildlife Biology",
+    "Bachelors degree in Wildlife Biology"
+   ],
+   "relations": []
+  },
+  {
+   "key": "bachelor-s-in-zoology",
+   "name": "Bachelor's in Zoology",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "An undergraduate degree in zoology, awarded by universities and colleges.",
+   "certification": true,
+   "certification_scope": "many-issuers",
+   "variants": [
+    "Bachelor's degree in Zoology",
+    "Bachelors degree in Zoology"
+   ],
+   "relations": []
+  },
+  {
+   "key": "basic-automotive-maintenance-certificate",
+   "name": "Basic automotive maintenance certificate",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A short vocational certificate, usually from a college or training school, showing completion of introductory training in routine vehicle servicing.",
+   "certification": true,
+   "certification_scope": "many-issuers",
+   "variants": [
+    "Basic Automotive Maintenance Certificates"
+   ],
+   "relations": []
+  },
+  {
+   "key": "basic-life-support",
+   "name": "Basic Life Support",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A certification in emergency care for cardiac arrest, choking and breathing emergencies, including CPR and use of an AED, for healthcare providers and other rescuers.",
+   "certification": true,
+   "certification_scope": "many-issuers",
+   "variants": [
+    "Basic Life Support certification"
+   ],
+   "relations": [
+    "related:advanced-cardiovascular-life-support"
+   ]
   }
  ]
 }

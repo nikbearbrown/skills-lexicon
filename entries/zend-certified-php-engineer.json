@@ -14,6 +14,10 @@
   {
    "label": "ZCE",
    "match": "exact_case"
+  },
+  {
+   "label": "Zend PHP Certification",
+   "match": "word_ci"
   }
  ],
  "relations": [],
@@ -86,6 +90,14 @@
    "date": "2026-10-29",
    "run": "2026-10-29-round-08-a3",
    "note": "basis: general-knowledge"
+  },
+  {
+   "field": "variant:zend php certification",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-29",
+   "run": "2026-10-29-round-11-main",
+   "note": "same concept as Zend Certified PHP Engineer, listed in the legacy tag list"
   }
  ]
 }

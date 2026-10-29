@@ -19,6 +19,65 @@
  ],
  "entries": [
   {
+   "key": "amazon-sagemaker",
+   "name": "Amazon SageMaker",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "An Amazon Web Services service for building, training and deploying machine-learning models.",
+   "certification": false,
+   "variants": [
+    "AWS SageMaker",
+    "SageMaker"
+   ],
+   "relations": []
+  },
+  {
+   "key": "amazon-simpledb",
+   "name": "Amazon SimpleDB",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "An Amazon Web Services non-relational database service that stores items made of attributes without a fixed schema.",
+   "certification": false,
+   "variants": [
+    "AWS SimpleDB"
+   ],
+   "relations": [
+    "part_of:aws"
+   ]
+  },
+  {
+   "key": "amcharts",
+   "name": "amCharts",
+   "class": "skill",
+   "kind": "library",
+   "definition": "A JavaScript library for building interactive charts and maps.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "american-welding-society-codes",
+   "name": "American Welding Society codes",
+   "class": "skill",
+   "kind": "standard",
+   "definition": "The welding codes and standards published by the American Welding Society, such as AWS D1.1 for structural steel.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "amiga",
+   "name": "Amiga",
+   "class": "skill",
+   "kind": "platform",
+   "definition": "A line of personal computers launched by Commodore in 1985, known for its graphics and sound.",
+   "certification": false,
+   "variants": [
+    "Amiga (Personal Computers)"
+   ],
+   "relations": []
+  },
+  {
    "key": "amx-programming",
    "name": "AMX programming",
    "class": "skill",
@@ -404,66 +463,6 @@
    "definition": "A Java content management system that is built on Apache Cocoon and stores content as XML.",
    "certification": false,
    "variants": [],
-   "relations": []
-  },
-  {
-   "key": "apache-mahout",
-   "name": "Apache Mahout",
-   "class": "skill",
-   "kind": "library",
-   "definition": "An Apache library for scalable machine learning and linear algebra on distributed data.",
-   "certification": false,
-   "variants": [
-    "Mahout"
-   ],
-   "relations": []
-  },
-  {
-   "key": "apache-mesos",
-   "name": "Apache Mesos",
-   "class": "skill",
-   "kind": "platform",
-   "definition": "An open-source cluster manager that pools the CPU, memory and storage of many machines and shares them among applications.",
-   "certification": false,
-   "variants": [
-    "Mesos"
-   ],
-   "relations": []
-  },
-  {
-   "key": "apache-nifi",
-   "name": "Apache NiFi",
-   "class": "skill",
-   "kind": "platform",
-   "definition": "A system for automating the movement of data between systems, in which data flows are designed in a web-based interface.",
-   "certification": false,
-   "variants": [],
-   "relations": []
-  },
-  {
-   "key": "apache-objectrelationalbridge",
-   "name": "Apache ObJectRelationalBridge",
-   "class": "skill",
-   "kind": "library",
-   "definition": "A Java object-relational mapping tool that stores and retrieves Java objects in relational databases.",
-   "certification": false,
-   "variants": [
-    "Apache ObJectRelationalBridge (OJB)",
-    "Apache OJB",
-    "OJB"
-   ],
-   "relations": []
-  },
-  {
-   "key": "apache-ofbiz",
-   "name": "Apache OFBiz",
-   "class": "skill",
-   "kind": "platform",
-   "definition": "An open-source Java platform for enterprise resource planning and e-commerce, made of a framework and ready-made business applications.",
-   "certification": false,
-   "variants": [
-    "OFBiz"
-   ],
    "relations": []
   }
  ]

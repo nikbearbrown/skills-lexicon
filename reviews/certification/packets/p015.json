@@ -1,0 +1,586 @@
+{
+ "allowed_kinds": [
+  "ability",
+  "credential",
+  "framework",
+  "human-language",
+  "knowledge",
+  "library",
+  "markup-language",
+  "method",
+  "modeling-language",
+  "platform",
+  "programming-language",
+  "skill",
+  "standard",
+  "style-language",
+  "tool",
+  "work-activity"
+ ],
+ "entries": [
+  {
+   "key": "master-s-in-bioinformatics",
+   "name": "Master's in Bioinformatics",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A postgraduate degree in bioinformatics, awarded by universities.",
+   "certification": true,
+   "certification_scope": "many-issuers",
+   "variants": [
+    "Master's degree in Bioinformatics",
+    "Masters degree in Bioinformatics"
+   ],
+   "relations": []
+  },
+  {
+   "key": "master-s-in-biology",
+   "name": "Master's in Biology",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A postgraduate degree in biology, awarded by universities.",
+   "certification": true,
+   "certification_scope": "many-issuers",
+   "variants": [
+    "Master's degree in Biology",
+    "Masters degree in Biology"
+   ],
+   "relations": []
+  },
+  {
+   "key": "master-s-in-biomedical-engineering",
+   "name": "Master's in Biomedical Engineering",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A postgraduate degree in biomedical engineering, awarded by universities.",
+   "certification": true,
+   "certification_scope": "many-issuers",
+   "variants": [
+    "Master's degree in Biomedical Engineering",
+    "Masters degree in Biomedical Engineering"
+   ],
+   "relations": []
+  },
+  {
+   "key": "master-s-in-botany",
+   "name": "Master's in Botany",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A postgraduate degree in botany, awarded by universities.",
+   "certification": true,
+   "certification_scope": "many-issuers",
+   "variants": [
+    "Master's degree in Botany",
+    "Masters degree in Botany"
+   ],
+   "relations": []
+  },
+  {
+   "key": "master-s-in-chemical-engineering",
+   "name": "Master's in Chemical Engineering",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A postgraduate degree in chemical engineering, awarded by universities.",
+   "certification": true,
+   "certification_scope": "many-issuers",
+   "variants": [
+    "Master's degree in Chemical Engineering",
+    "Masters degree in Chemical Engineering"
+   ],
+   "relations": []
+  },
+  {
+   "key": "master-s-in-chemistry",
+   "name": "Master's in Chemistry",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A postgraduate degree in chemistry, awarded by universities.",
+   "certification": true,
+   "certification_scope": "many-issuers",
+   "variants": [
+    "Master's degree in Chemistry",
+    "Masters degree in Chemistry"
+   ],
+   "relations": []
+  },
+  {
+   "key": "master-s-in-civil-engineering",
+   "name": "Master's in Civil Engineering",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A postgraduate degree in civil engineering, awarded by universities.",
+   "certification": true,
+   "certification_scope": "many-issuers",
+   "variants": [
+    "Master's degree in Civil Engineering",
+    "Masters degree in Civil Engineering"
+   ],
+   "relations": []
+  },
+  {
+   "key": "master-s-in-clinical-psychology",
+   "name": "Master's in Clinical Psychology",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A postgraduate degree in clinical psychology, awarded by universities.",
+   "certification": true,
+   "certification_scope": "many-issuers",
+   "variants": [
+    "Master's degree in Clinical Psychology",
+    "Masters degree in Clinical Psychology"
+   ],
+   "relations": []
+  },
+  {
+   "key": "master-s-in-communication-studies",
+   "name": "Master's in Communication Studies",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A postgraduate degree in communication studies, awarded by universities.",
+   "certification": true,
+   "certification_scope": "many-issuers",
+   "variants": [
+    "Master's degree in Communication Studies",
+    "Masters degree in Communication Studies"
+   ],
+   "relations": []
+  },
+  {
+   "key": "master-s-in-computer-science",
+   "name": "Master's in Computer Science",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A postgraduate degree in computer science, awarded by universities.",
+   "certification": true,
+   "certification_scope": "many-issuers",
+   "variants": [
+    "Master's degree in Computer Science",
+    "Masters degree in Computer Science"
+   ],
+   "relations": [
+    "related:computer-science"
+   ]
+  },
+  {
+   "key": "master-s-in-counseling",
+   "name": "Master's in Counseling",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A postgraduate degree in counseling, awarded by universities.",
+   "certification": true,
+   "certification_scope": "many-issuers",
+   "variants": [
+    "Master's degree in Counseling",
+    "Masters degree in Counseling"
+   ],
+   "relations": []
+  },
+  {
+   "key": "master-s-in-creative-writing",
+   "name": "Master's in Creative Writing",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A postgraduate degree in creative writing, awarded by universities.",
+   "certification": true,
+   "certification_scope": "many-issuers",
+   "variants": [
+    "Master's degree in Creative Writing",
+    "Masters degree in Creative Writing"
+   ],
+   "relations": []
+  },
+  {
+   "key": "master-s-in-criminal-justice",
+   "name": "Master's in Criminal Justice",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A postgraduate degree in criminal justice, awarded by universities.",
+   "certification": true,
+   "certification_scope": "many-issuers",
+   "variants": [
+    "Master's degree in Criminal Justice",
+    "Masters degree in Criminal Justice"
+   ],
+   "relations": []
+  },
+  {
+   "key": "master-s-in-culinary-arts",
+   "name": "Master's in Culinary Arts",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A postgraduate degree in culinary arts, awarded by universities.",
+   "certification": true,
+   "certification_scope": "many-issuers",
+   "variants": [
+    "Master's degree in Culinary Arts",
+    "Masters degree in Culinary Arts"
+   ],
+   "relations": []
+  },
+  {
+   "key": "master-s-in-curriculum-and-instruction",
+   "name": "Master's in Curriculum and Instruction",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A postgraduate degree in curriculum and instruction, awarded by universities.",
+   "certification": true,
+   "certification_scope": "many-issuers",
+   "variants": [
+    "Master's degree in Curriculum and Instruction",
+    "Masters degree in Curriculum and Instruction"
+   ],
+   "relations": []
+  },
+  {
+   "key": "master-s-in-cybersecurity",
+   "name": "Master's in Cybersecurity",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A postgraduate degree in cybersecurity, awarded by universities.",
+   "certification": true,
+   "certification_scope": "many-issuers",
+   "variants": [
+    "Master's degree in Cybersecurity",
+    "Masters degree in Cybersecurity"
+   ],
+   "relations": [
+    "related:cybersecurity"
+   ]
+  },
+  {
+   "key": "master-s-in-dance",
+   "name": "Master's in Dance",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A postgraduate degree in dance, awarded by universities.",
+   "certification": true,
+   "certification_scope": "many-issuers",
+   "variants": [
+    "Master's degree in Dance",
+    "Masters degree in Dance"
+   ],
+   "relations": []
+  },
+  {
+   "key": "master-s-in-data-science",
+   "name": "Master's in Data Science",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A postgraduate degree in data science, awarded by universities.",
+   "certification": true,
+   "certification_scope": "many-issuers",
+   "variants": [
+    "Master's degree in Data Science",
+    "Masters degree in Data Science"
+   ],
+   "relations": []
+  },
+  {
+   "key": "master-s-in-ecology",
+   "name": "Master's in Ecology",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A postgraduate degree in ecology, awarded by universities.",
+   "certification": true,
+   "certification_scope": "many-issuers",
+   "variants": [
+    "Master's degree in Ecology",
+    "Masters degree in Ecology"
+   ],
+   "relations": []
+  },
+  {
+   "key": "master-s-in-economics",
+   "name": "Master's in Economics",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A postgraduate degree in economics, awarded by universities.",
+   "certification": true,
+   "certification_scope": "many-issuers",
+   "variants": [
+    "Master's degree in Economics",
+    "Masters degree in Economics"
+   ],
+   "relations": []
+  },
+  {
+   "key": "master-s-in-education",
+   "name": "Master's in Education",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A postgraduate degree in education, awarded by universities.",
+   "certification": true,
+   "certification_scope": "many-issuers",
+   "variants": [
+    "Master's degree in Education",
+    "Masters degree in Education"
+   ],
+   "relations": []
+  },
+  {
+   "key": "master-s-in-educational-leadership",
+   "name": "Master's in Educational Leadership",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A postgraduate degree in educational leadership, awarded by universities.",
+   "certification": true,
+   "certification_scope": "many-issuers",
+   "variants": [
+    "Master's degree in Educational Leadership",
+    "Masters degree in Educational Leadership"
+   ],
+   "relations": []
+  },
+  {
+   "key": "master-s-in-electrical-engineering",
+   "name": "Master's in Electrical Engineering",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A postgraduate degree in electrical engineering, awarded by universities.",
+   "certification": true,
+   "certification_scope": "many-issuers",
+   "variants": [
+    "Master's degree in Electrical Engineering",
+    "Masters degree in Electrical Engineering"
+   ],
+   "relations": []
+  },
+  {
+   "key": "master-s-in-english-literature",
+   "name": "Master's in English Literature",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A postgraduate degree in English literature, awarded by universities.",
+   "certification": true,
+   "certification_scope": "many-issuers",
+   "variants": [
+    "Master's degree in English Literature",
+    "Masters degree in English Literature"
+   ],
+   "relations": []
+  },
+  {
+   "key": "master-s-in-environmental-engineering",
+   "name": "Master's in Environmental Engineering",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A postgraduate degree in environmental engineering, awarded by universities.",
+   "certification": true,
+   "certification_scope": "many-issuers",
+   "variants": [
+    "Master's degree in Environmental Engineering",
+    "Masters degree in Environmental Engineering"
+   ],
+   "relations": []
+  },
+  {
+   "key": "master-s-in-environmental-science",
+   "name": "Master's in Environmental Science",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A postgraduate degree in environmental science, awarded by universities.",
+   "certification": true,
+   "certification_scope": "many-issuers",
+   "variants": [
+    "Master's degree in Environmental Science",
+    "Masters degree in Environmental Science"
+   ],
+   "relations": []
+  },
+  {
+   "key": "master-s-in-fashion-design",
+   "name": "Master's in Fashion Design",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A postgraduate degree in fashion design, awarded by universities.",
+   "certification": true,
+   "certification_scope": "many-issuers",
+   "variants": [
+    "Master's degree in Fashion Design",
+    "Masters degree in Fashion Design"
+   ],
+   "relations": []
+  },
+  {
+   "key": "master-s-in-film-production",
+   "name": "Master's in Film Production",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A postgraduate degree in film production, awarded by universities.",
+   "certification": true,
+   "certification_scope": "many-issuers",
+   "variants": [
+    "Master's degree in Film Production",
+    "Masters degree in Film Production"
+   ],
+   "relations": []
+  },
+  {
+   "key": "master-s-in-finance",
+   "name": "Master's in Finance",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A postgraduate degree in finance, awarded by universities.",
+   "certification": true,
+   "certification_scope": "many-issuers",
+   "variants": [
+    "Master's degree in Finance",
+    "Masters degree in Finance"
+   ],
+   "relations": []
+  },
+  {
+   "key": "master-s-in-forensic-science",
+   "name": "Master's in Forensic Science",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A postgraduate degree in forensic science, awarded by universities.",
+   "certification": true,
+   "certification_scope": "many-issuers",
+   "variants": [
+    "Master's degree in Forensic Science",
+    "Masters degree in Forensic Science"
+   ],
+   "relations": []
+  },
+  {
+   "key": "master-s-in-geology",
+   "name": "Master's in Geology",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A postgraduate degree in geology, awarded by universities.",
+   "certification": true,
+   "certification_scope": "many-issuers",
+   "variants": [
+    "Master's degree in Geology",
+    "Masters degree in Geology"
+   ],
+   "relations": []
+  },
+  {
+   "key": "master-s-in-graphic-design",
+   "name": "Master's in Graphic Design",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A postgraduate degree in graphic design, awarded by universities.",
+   "certification": true,
+   "certification_scope": "many-issuers",
+   "variants": [
+    "Master's degree in Graphic Design",
+    "Masters degree in Graphic Design"
+   ],
+   "relations": []
+  },
+  {
+   "key": "master-s-in-history",
+   "name": "Master's in History",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A postgraduate degree in history, awarded by universities.",
+   "certification": true,
+   "certification_scope": "many-issuers",
+   "variants": [
+    "Master's degree in History",
+    "Masters degree in History"
+   ],
+   "relations": []
+  },
+  {
+   "key": "master-s-in-hospitality-management",
+   "name": "Master's in Hospitality Management",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A postgraduate degree in hospitality management, awarded by universities.",
+   "certification": true,
+   "certification_scope": "many-issuers",
+   "variants": [
+    "Master's degree in Hospitality Management",
+    "Masters degree in Hospitality Management"
+   ],
+   "relations": []
+  },
+  {
+   "key": "master-s-in-human-resources",
+   "name": "Master's in Human Resources",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A postgraduate degree in human resources, awarded by universities.",
+   "certification": true,
+   "certification_scope": "many-issuers",
+   "variants": [
+    "Master's degree in Human Resources",
+    "Masters degree in Human Resources"
+   ],
+   "relations": []
+  },
+  {
+   "key": "master-s-in-industrial-design",
+   "name": "Master's in Industrial Design",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A postgraduate degree in industrial design, awarded by universities.",
+   "certification": true,
+   "certification_scope": "many-issuers",
+   "variants": [
+    "Master's degree in Industrial Design",
+    "Masters degree in Industrial Design"
+   ],
+   "relations": []
+  },
+  {
+   "key": "master-s-in-industrial-engineering",
+   "name": "Master's in Industrial Engineering",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A postgraduate degree in industrial engineering, awarded by universities.",
+   "certification": true,
+   "certification_scope": "many-issuers",
+   "variants": [
+    "Master's degree in Industrial Engineering",
+    "Masters degree in Industrial Engineering"
+   ],
+   "relations": []
+  },
+  {
+   "key": "master-s-in-information-technology",
+   "name": "Master's in Information Technology",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A postgraduate degree in information technology, awarded by universities.",
+   "certification": true,
+   "certification_scope": "many-issuers",
+   "variants": [
+    "Master's degree in Information Technology",
+    "Masters degree in Information Technology"
+   ],
+   "relations": []
+  },
+  {
+   "key": "master-s-in-interior-design",
+   "name": "Master's in Interior Design",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A postgraduate degree in interior design, awarded by universities.",
+   "certification": true,
+   "certification_scope": "many-issuers",
+   "variants": [
+    "Master's degree in Interior Design",
+    "Masters degree in Interior Design"
+   ],
+   "relations": []
+  },
+  {
+   "key": "master-s-in-international-business",
+   "name": "Master's in International Business",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A postgraduate degree in international business, awarded by universities.",
+   "certification": true,
+   "certification_scope": "many-issuers",
+   "variants": [
+    "Master's degree in International Business",
+    "Masters degree in International Business"
+   ],
+   "relations": []
+  }
+ ]
+}

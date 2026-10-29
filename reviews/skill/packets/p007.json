@@ -19,6 +19,85 @@
  ],
  "entries": [
   {
+   "key": "azure-devops",
+   "name": "Azure DevOps",
+   "class": "skill",
+   "kind": "platform",
+   "definition": "Microsoft's set of services for planning work, hosting code, and building, testing and releasing software, including Boards, Repos and Pipelines.",
+   "certification": false,
+   "variants": [],
+   "relations": [
+    "related:devops"
+   ]
+  },
+  {
+   "key": "azure-iot",
+   "name": "Azure IoT",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "Microsoft Azure's set of services, such as IoT Hub and IoT Central, for connecting Internet of Things devices to the cloud and managing the data they send.",
+   "certification": false,
+   "variants": [
+    "Azure Internet of Things (IoT)",
+    "Azure Internet of Things"
+   ],
+   "relations": []
+  },
+  {
+   "key": "azure-monitor",
+   "name": "Azure Monitor",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "A Microsoft Azure service that collects, analyses and acts on metrics, logs and other telemetry from cloud and on-premises resources.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "azure-policy",
+   "name": "Azure Policy",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "A Microsoft Azure service that defines and enforces rules on cloud resources so that they stay compliant with an organisation's standards.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "azure-security",
+   "name": "Azure Security",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Securing workloads and data on Microsoft Azure using its security services and controls, such as identity and access management, key management and network protection.",
+   "certification": false,
+   "variants": [],
+   "relations": [
+    "broader:cybersecurity"
+   ]
+  },
+  {
+   "key": "b-tree",
+   "name": "B-tree",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "A self-balancing tree data structure that keeps sorted data in nodes with many children, widely used for indexes in databases and file systems.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "babylon-js",
+   "name": "Babylon.js",
+   "class": "skill",
+   "kind": "framework",
+   "definition": "An open-source JavaScript and TypeScript engine for building 3D graphics, games and interactive experiences in web browsers.",
+   "certification": false,
+   "variants": [
+    "Babylonjs"
+   ],
+   "relations": []
+  },
+  {
    "key": "back-end-development",
    "name": "Back-end development",
    "class": "skill",
@@ -390,80 +469,6 @@
    "class": "skill",
    "kind": "platform",
    "definition": "An open-source project that distributes R packages for analysing genomic and other biological data.",
-   "certification": false,
-   "variants": [],
-   "relations": []
-  },
-  {
-   "key": "biological-applications-of-bifurcation-theory",
-   "name": "Biological applications of bifurcation theory",
-   "class": "skill",
-   "kind": "knowledge",
-   "definition": "The use of bifurcation theory, which studies how the behaviour of a dynamical system changes qualitatively as its parameters vary, to model biological systems.",
-   "certification": false,
-   "variants": [],
-   "relations": []
-  },
-  {
-   "key": "biomedical-informatics",
-   "name": "Biomedical informatics",
-   "class": "skill",
-   "kind": "knowledge",
-   "definition": "The field that applies information science and computing to the collection, storage and analysis of biological and medical data.",
-   "certification": false,
-   "variants": [],
-   "relations": []
-  },
-  {
-   "key": "biomolecular-engineering",
-   "name": "Biomolecular engineering",
-   "class": "skill",
-   "kind": "knowledge",
-   "definition": "Engineering that designs and modifies biological molecules such as proteins and nucleic acids for use in medicine, industry and research.",
-   "certification": false,
-   "variants": [],
-   "relations": []
-  },
-  {
-   "key": "biopesticide",
-   "name": "Biopesticide",
-   "class": "skill",
-   "kind": "knowledge",
-   "definition": "Pest-control agents made from natural materials such as microbes, plants and minerals.",
-   "certification": false,
-   "variants": [],
-   "relations": []
-  },
-  {
-   "key": "biopython",
-   "name": "Biopython",
-   "class": "skill",
-   "kind": "library",
-   "definition": "An open-source Python library of tools for computational biology and bioinformatics, such as reading sequence files and working with protein structures.",
-   "certification": false,
-   "variants": [],
-   "relations": [
-    "related:python"
-   ]
-  },
-  {
-   "key": "biosensors",
-   "name": "Biosensors",
-   "class": "skill",
-   "kind": "knowledge",
-   "definition": "Devices that pair a biological recognition element, such as an enzyme or antibody, with a transducer to detect a specific substance.",
-   "certification": false,
-   "variants": [
-    "Biosensor"
-   ],
-   "relations": []
-  },
-  {
-   "key": "bioterrorism-preparedness-and-response",
-   "name": "Bioterrorism preparedness and response",
-   "class": "skill",
-   "kind": "knowledge",
-   "definition": "Planning for, detecting and responding to the deliberate release of biological agents that cause disease.",
    "certification": false,
    "variants": [],
    "relations": []

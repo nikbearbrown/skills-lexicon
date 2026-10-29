@@ -19,6 +19,259 @@
  ],
  "entries": [
   {
+   "key": "reinforcement-learning",
+   "name": "Reinforcement learning",
+   "class": "skill",
+   "kind": "method",
+   "definition": "Learning policies from interaction and reward feedback.",
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "relational-database-management-system",
+   "name": "Relational database management system",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "Software that stores data in tables of rows and columns linked by keys and is queried with SQL, such as PostgreSQL, MySQL and Oracle Database.",
+   "certification": false,
+   "variants": [
+    "Relational Database Management System (RDMS)",
+    "RDBMS"
+   ],
+   "relations": [
+    "contrast:nosql"
+   ]
+  },
+  {
+   "key": "reltio",
+   "name": "Reltio",
+   "class": "skill",
+   "kind": "platform",
+   "definition": "A cloud master data management platform that unifies and manages customer, product and other business data from many sources.",
+   "certification": false,
+   "variants": [
+    "Reltio (Master Data Management Software)"
+   ],
+   "relations": []
+  },
+  {
+   "key": "renal-nutrition",
+   "name": "Renal nutrition",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "The study and practice of dietary care for people with kidney disease, including limits on protein, potassium, phosphorus, sodium and fluid.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "renewable-energy",
+   "name": "Renewable energy",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "Energy from sources that are naturally replenished, such as sunlight, wind, water and geothermal heat, and the technology used to harness it.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "renewable-energy-sales",
+   "name": "Renewable energy sales",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Selling renewable energy products or services, such as solar systems or clean power contracts.",
+   "certification": false,
+   "variants": [
+    "Renewable Sales"
+   ],
+   "relations": []
+  },
+  {
+   "key": "reporting",
+   "name": "Reporting",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Gathering information and presenting it in regular or one-off reports for others to use.",
+   "certification": false,
+   "variants": [
+    "Reportng"
+   ],
+   "relations": []
+  },
+  {
+   "key": "representational-state-transfer",
+   "name": "Representational State Transfer",
+   "class": "skill",
+   "kind": "method",
+   "definition": "An architectural style for web services in which resources are identified by URLs and handled with standard HTTP methods.",
+   "certification": false,
+   "variants": [
+    "REST",
+    "RESTful"
+   ],
+   "relations": []
+  },
+  {
+   "key": "reproductive-health-care",
+   "name": "Reproductive health care",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "Care that supports sexual and reproductive health, such as contraception, pregnancy care, fertility care and screening.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "requirejs",
+   "name": "RequireJS",
+   "class": "skill",
+   "kind": "library",
+   "definition": "A JavaScript file and module loader that implements the Asynchronous Module Definition format for browsers and Node.js.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "research-methodology",
+   "name": "Research methodology",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "The principles and methods for designing and carrying out research, including how data is collected and analysed.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "resharper",
+   "name": "ReSharper",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "A JetBrains extension for Microsoft Visual Studio that adds code analysis, quick fixes and refactoring for .NET developers.",
+   "certification": false,
+   "variants": [],
+   "relations": [
+    "related:csharp"
+   ]
+  },
+  {
+   "key": "residential-construction",
+   "name": "Residential construction",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "Building homes and apartment buildings, as distinct from commercial or industrial construction.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "resilience-planning",
+   "name": "Resilience planning",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Planning how an organisation, community or system will keep working through shocks such as disasters, outages or climate events, and recover afterwards.",
+   "certification": false,
+   "variants": [],
+   "relations": [
+    "related:contingency-planning"
+   ]
+  },
+  {
+   "key": "resolving-guest-concerns",
+   "name": "Resolving guest concerns",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Dealing with a guest's complaints or problems, especially in hotels and restaurants, so that they are put right.",
+   "certification": false,
+   "variants": [
+    "Resolve Guest Concerns"
+   ],
+   "relations": []
+  },
+  {
+   "key": "resorcerer",
+   "name": "Resorcerer",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "A resource editor for classic Macintosh software, used to view and edit the resources stored in application and system files.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "resource-mobilization",
+   "name": "Resource mobilization",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Raising and bringing together the funds, people and materials an organisation or programme needs, especially in non-profit and development work.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "responsibility-assignment-matrix",
+   "name": "Responsibility assignment matrix",
+   "class": "skill",
+   "kind": "method",
+   "definition": "A table that maps the tasks of a project to the people or roles responsible for them, often using codes such as responsible, accountable, consulted and informed.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "responsive-teaching",
+   "name": "Responsive teaching",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Adjusting instruction as a lesson happens, in response to what students say, do and need.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "rest-api-security",
+   "name": "REST API security",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Protecting RESTful web services, for example with authentication, authorisation, encryption and input validation.",
+   "certification": false,
+   "variants": [
+    "Rest Security"
+   ],
+   "relations": []
+  },
+  {
+   "key": "restaurant-management",
+   "name": "Restaurant management",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Running a restaurant's daily operations, including staff, service, purchasing, food safety and finances.",
+   "certification": false,
+   "variants": [],
+   "relations": [
+    "related:hotel-and-restaurant-management"
+   ]
+  },
+  {
+   "key": "restorative-justice",
+   "name": "Restorative justice",
+   "class": "skill",
+   "kind": "method",
+   "definition": "An approach to wrongdoing that focuses on repairing the harm done, by bringing together victims, offenders and the community, rather than only punishing.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "rethinkdb",
+   "name": "RethinkDB",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "An open-source distributed document database that can push changes in query results to applications as the data changes.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
    "key": "retirement-administration",
    "name": "Retirement administration",
    "class": "skill",
@@ -206,260 +459,6 @@
    "class": "skill",
    "kind": "skill",
    "definition": "Identifying, assessing and controlling threats to an organisation's capital, earnings or operations.",
-   "certification": false,
-   "variants": [],
-   "relations": []
-  },
-  {
-   "key": "risk-management-planning",
-   "name": "Risk management planning",
-   "class": "skill",
-   "kind": "skill",
-   "definition": "Deciding how risks on a project or in an organisation will be identified, assessed, handled and monitored, and recording that in a plan.",
-   "certification": false,
-   "variants": [
-    "Risk Management Planning (Risk Management)"
-   ],
-   "relations": []
-  },
-  {
-   "key": "risk-ratings",
-   "name": "Risk ratings",
-   "class": "skill",
-   "kind": "knowledge",
-   "definition": "Scores or grades that show how likely and how serious a risk is, as in credit risk ratings and risk matrices.",
-   "certification": false,
-   "variants": [],
-   "relations": []
-  },
-  {
-   "key": "robomongo",
-   "name": "Robomongo",
-   "class": "skill",
-   "kind": "tool",
-   "definition": "A free graphical client for browsing and querying MongoDB databases, later renamed Robo 3T.",
-   "certification": false,
-   "variants": [
-    "Robo 3T"
-   ],
-   "relations": []
-  },
-  {
-   "key": "rockmelt",
-   "name": "Rockmelt",
-   "class": "skill",
-   "kind": "tool",
-   "definition": "A social web browser, based on Chromium, that was discontinued after Yahoo bought its maker in 2013.",
-   "certification": false,
-   "variants": [],
-   "relations": []
-  },
-  {
-   "key": "rockwell-factorytalk",
-   "name": "Rockwell FactoryTalk",
-   "class": "skill",
-   "kind": "platform",
-   "definition": "Rockwell Automation's family of industrial software for operator screens, data historians, production management and analytics.",
-   "certification": false,
-   "variants": [
-    "FactoryTalk"
-   ],
-   "relations": []
-  },
-  {
-   "key": "role-based-access-control",
-   "name": "Role-based access control",
-   "class": "skill",
-   "kind": "method",
-   "definition": "An approach to restricting system access in which permissions are assigned to roles and users receive access through the roles they hold.",
-   "certification": false,
-   "variants": [
-    "RBAC"
-   ],
-   "relations": []
-  },
-  {
-   "key": "rolling-stock",
-   "name": "Rolling stock",
-   "class": "skill",
-   "kind": "knowledge",
-   "definition": "The vehicles that run on a railway, such as locomotives, passenger carriages and freight wagons, and the engineering that goes with them.",
-   "certification": false,
-   "variants": [],
-   "relations": []
-  },
-  {
-   "key": "roof-bolting",
-   "name": "Roof bolting",
-   "class": "skill",
-   "kind": "skill",
-   "definition": "Installing steel bolts into the roof of an underground mine or tunnel to hold the rock together and prevent roof falls.",
-   "certification": false,
-   "variants": [],
-   "relations": []
-  },
-  {
-   "key": "route-management",
-   "name": "Route management",
-   "class": "skill",
-   "kind": "skill",
-   "definition": "Planning and supervising the routes that vehicles follow, including schedules, stops and drivers, so that deliveries or services run efficiently.",
-   "certification": false,
-   "variants": [],
-   "relations": []
-  },
-  {
-   "key": "routing-table-maintenance-protocol",
-   "name": "Routing Table Maintenance Protocol",
-   "class": "skill",
-   "kind": "standard",
-   "definition": "A routing protocol of the AppleTalk network suite that lets routers share which networks they can reach.",
-   "certification": false,
-   "variants": [],
-   "relations": []
-  },
-  {
-   "key": "rsa-archer",
-   "name": "RSA Archer",
-   "class": "skill",
-   "kind": "platform",
-   "definition": "A governance, risk and compliance platform for managing risks, policies, audits and compliance work in one place.",
-   "certification": false,
-   "variants": [
-    "Archer Integrated Risk Management"
-   ],
-   "relations": []
-  },
-  {
-   "key": "rubber-tyred-metro",
-   "name": "Rubber-tyred metro",
-   "class": "skill",
-   "kind": "knowledge",
-   "definition": "A metro system whose trains run on rubber tyres on concrete or steel guideways instead of steel wheels on steel rails.",
-   "certification": false,
-   "variants": [],
-   "relations": []
-  },
-  {
-   "key": "rx30",
-   "name": "Rx30",
-   "class": "skill",
-   "kind": "tool",
-   "definition": "A pharmacy management software product used to process prescriptions and run pharmacy operations.",
-   "certification": false,
-   "variants": [
-    "Rx30 (Pharmacy Management Software)"
-   ],
-   "relations": [
-    "related:computerrx"
-   ]
-  },
-  {
-   "key": "rxkotlin",
-   "name": "RxKotlin",
-   "class": "skill",
-   "kind": "library",
-   "definition": "A Kotlin library that adds language-friendly extensions on top of RxJava for writing reactive, event-driven programs.",
-   "certification": false,
-   "variants": [],
-   "relations": []
-  },
-  {
-   "key": "safe-drinking-water-act",
-   "name": "Safe Drinking Water Act",
-   "class": "skill",
-   "kind": "standard",
-   "definition": "The US federal law that sets standards for the quality of public drinking water and requires water systems to meet them.",
-   "certification": false,
-   "variants": [
-    "SDWA"
-   ],
-   "relations": [
-    "related:clean-water-act"
-   ]
-  },
-  {
-   "key": "safety-audits",
-   "name": "Safety audits",
-   "class": "skill",
-   "kind": "skill",
-   "definition": "Checking workplaces, equipment and procedures against safety rules to find hazards and non-compliance.",
-   "certification": false,
-   "variants": [],
-   "relations": []
-  },
-  {
-   "key": "sage-intacct",
-   "name": "Sage Intacct",
-   "class": "skill",
-   "kind": "platform",
-   "definition": "Cloud-based accounting and financial management software, originally from Intacct Corporation and now owned by Sage.",
-   "certification": false,
-   "variants": [
-    "Intacct"
-   ],
-   "relations": []
-  },
-  {
-   "key": "sage-mas-90",
-   "name": "Sage MAS 90",
-   "class": "skill",
-   "kind": "tool",
-   "definition": "Accounting and business management software from Sage for small and mid-sized companies, later sold as Sage 100.",
-   "certification": false,
-   "variants": [],
-   "relations": []
-  },
-  {
-   "key": "sailing-instruction",
-   "name": "Sailing instruction",
-   "class": "skill",
-   "kind": "skill",
-   "definition": "Teaching people how to sail.",
-   "certification": false,
-   "variants": [],
-   "relations": []
-  },
-  {
-   "key": "sailpoint-identityiq",
-   "name": "SailPoint IdentityIQ",
-   "class": "skill",
-   "kind": "platform",
-   "definition": "SailPoint's identity governance software for managing user access, access reviews and account provisioning across an organisation's systems.",
-   "certification": false,
-   "variants": [
-    "IdentityIQ"
-   ],
-   "relations": []
-  },
-  {
-   "key": "sails-js",
-   "name": "Sails.js",
-   "class": "skill",
-   "kind": "framework",
-   "definition": "A Node.js web framework, modelled on the MVC pattern, for building data-driven APIs and apps.",
-   "certification": false,
-   "variants": [],
-   "relations": []
-  },
-  {
-   "key": "sales-and-operations-planning",
-   "name": "Sales and operations planning",
-   "class": "skill",
-   "kind": "method",
-   "definition": "A regular business process in which sales, operations and finance teams agree one plan that balances demand forecasts with supply and capacity.",
-   "certification": false,
-   "variants": [
-    "S&OP"
-   ],
-   "relations": []
-  },
-  {
-   "key": "sales-journal",
-   "name": "Sales journal",
-   "class": "skill",
-   "kind": "knowledge",
-   "definition": "An accounting journal in which a business records the sales it makes on credit.",
    "certification": false,
    "variants": [],
    "relations": []

@@ -456,104 +456,107 @@
    "relations": []
   },
   {
-   "key": "associate-of-the-society-of-actuaries",
-   "name": "Associate of the Society of Actuaries",
+   "key": "associate-of-applied-science-in-accounting-technology",
+   "name": "Associate of Applied Science in Accounting Technology",
    "class": "certification",
    "kind": "credential",
-   "definition": "An actuarial designation awarded by the Society of Actuaries to candidates who pass its associateship exams and meet its other requirements; it ranks below Fellow.",
-   "certification": true,
-   "certification_scope": "single-issuer",
-   "variants": [],
-   "relations": []
-  },
-  {
-   "key": "associate-professional-in-talent-development",
-   "name": "Associate Professional in Talent Development",
-   "class": "certification",
-   "kind": "credential",
-   "definition": "A certification from the Association for Talent Development aimed at early-career talent development (workplace learning) professionals.",
-   "certification": true,
-   "certification_scope": "single-issuer",
-   "variants": [
-    "APTD"
-   ],
-   "relations": []
-  },
-  {
-   "key": "association-management-specialist-ams",
-   "name": "Association Management Specialist (AMS)",
-   "class": "certification",
-   "kind": "credential",
-   "definition": "A professional designation for community (homeowner) association managers, awarded by Community Associations Institute.",
-   "certification": true,
-   "certification_scope": "single-issuer",
-   "variants": [
-    "AMS"
-   ],
-   "relations": []
-  },
-  {
-   "key": "atssa-certification",
-   "name": "ATSSA certification",
-   "class": "certification",
-   "kind": "credential",
-   "definition": "Traffic-control and roadway-safety certificates, such as flagger and traffic control technician, awarded by the American Traffic Safety Services Association.",
-   "certification": true,
-   "certification_scope": "single-issuer",
-   "variants": [
-    "American Traffic Safety Services Association (ATSSA) Certificate",
-    "ATSSA certificate",
-    "American Traffic Safety Services Association certificate"
-   ],
-   "relations": []
-  },
-  {
-   "key": "bachelor-of-science-in-business",
-   "name": "Bachelor of Science in Business",
-   "class": "certification",
-   "kind": "credential",
-   "definition": "An undergraduate degree in business studies, awarded as a Bachelor of Science by universities and colleges.",
-   "certification": true,
-   "certification_scope": "many-issuers",
-   "variants": [],
-   "relations": []
-  },
-  {
-   "key": "bachelor-of-science-in-business-administration",
-   "name": "Bachelor of Science in Business Administration",
-   "class": "certification",
-   "kind": "credential",
-   "definition": "An undergraduate degree in business administration, awarded as a Bachelor of Science by universities and colleges.",
+   "definition": "An applied associate degree, typically two years of study and awarded by a college, with a major in accounting technology.",
    "certification": true,
    "certification_scope": "many-issuers",
    "variants": [
-    "BSBA"
+    "AAS in Accounting Technology"
    ],
    "relations": []
   },
   {
-   "key": "bachelor-of-science-in-nursing",
-   "name": "Bachelor of Science in Nursing",
+   "key": "associate-of-applied-science-in-aerospace-technology",
+   "name": "Associate of Applied Science in Aerospace Technology",
    "class": "certification",
    "kind": "credential",
-   "definition": "A bachelor's-level nursing degree, awarded by universities and colleges, that prepares graduates for registered-nurse licensure.",
+   "definition": "An applied associate degree, typically two years of study and awarded by a college, with a major in aerospace technology.",
    "certification": true,
    "certification_scope": "many-issuers",
    "variants": [
-    "Bachelor Of Science in Nursing (BSN)",
-    "BSN"
+    "AAS in Aerospace Technology"
    ],
    "relations": []
   },
   {
-   "key": "bachelor-of-science-in-pharmacy",
-   "name": "Bachelor of Science in Pharmacy",
+   "key": "associate-of-applied-science-in-animation-and-cgi-motion",
+   "name": "Associate of Applied Science in Animation and CGI Motion",
    "class": "certification",
    "kind": "credential",
-   "definition": "An undergraduate degree in pharmacy, awarded as a Bachelor of Science by universities and colleges.",
+   "definition": "An applied associate degree, typically two years of study and awarded by a college, with a major in animation and computer-generated (CGI) motion.",
    "certification": true,
    "certification_scope": "many-issuers",
-   "variants": [],
+   "variants": [
+    "AAS in Animation and CGI Motion"
+   ],
+   "relations": []
+  },
+  {
+   "key": "associate-of-applied-science-in-automotive-technology",
+   "name": "Associate of Applied Science in Automotive Technology",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "An applied associate degree, typically two years of study and awarded by a college, with a major in automotive technology.",
+   "certification": true,
+   "certification_scope": "many-issuers",
+   "variants": [
+    "AAS in Automotive Technology"
+   ],
+   "relations": []
+  },
+  {
+   "key": "associate-of-applied-science-in-aviation-maintenance",
+   "name": "Associate of Applied Science in Aviation Maintenance",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "An applied associate degree, typically two years of study and awarded by a college, with a major in aviation maintenance.",
+   "certification": true,
+   "certification_scope": "many-issuers",
+   "variants": [
+    "AAS in Aviation Maintenance"
+   ],
+   "relations": []
+  },
+  {
+   "key": "associate-of-applied-science-in-baking-and-pastry-arts",
+   "name": "Associate of Applied Science in Baking and Pastry Arts",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "An applied associate degree, typically two years of study and awarded by a college, with a major in baking and pastry arts.",
+   "certification": true,
+   "certification_scope": "many-issuers",
+   "variants": [
+    "AAS in Baking and Pastry Arts"
+   ],
+   "relations": []
+  },
+  {
+   "key": "associate-of-applied-science-in-broadcasting-technology",
+   "name": "Associate of Applied Science in Broadcasting Technology",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "An applied associate degree, typically two years of study and awarded by a college, with a major in broadcasting technology.",
+   "certification": true,
+   "certification_scope": "many-issuers",
+   "variants": [
+    "AAS in Broadcasting Technology"
+   ],
+   "relations": []
+  },
+  {
+   "key": "associate-of-applied-science-in-building-inspection-technology",
+   "name": "Associate of Applied Science in Building Inspection Technology",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "An applied associate degree, typically two years of study and awarded by a college, with a major in building inspection technology.",
+   "certification": true,
+   "certification_scope": "many-issuers",
+   "variants": [
+    "AAS in Building Inspection Technology"
+   ],
    "relations": []
   }
  ]

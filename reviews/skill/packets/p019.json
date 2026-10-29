@@ -19,6 +19,107 @@
  ],
  "entries": [
   {
+   "key": "early-childhood-mental-health",
+   "name": "Early childhood mental health",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "The social and emotional well-being of children from birth to about age five, and the practice of supporting it and treating problems.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "earned-value-management-system",
+   "name": "Earned value management system",
+   "class": "skill",
+   "kind": "method",
+   "definition": "An integrated project-management system that compares work done with planned scope, schedule and cost, as set out in the ANSI/EIA-748 guidelines.",
+   "certification": false,
+   "variants": [
+    "Earned Value Management Systems (EVMS)",
+    "EVMS"
+   ],
+   "relations": []
+  },
+  {
+   "key": "earth-leakage-circuit-breaker",
+   "name": "Earth leakage circuit breaker",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "A protective switch that cuts the power when current leaks to earth, to reduce the risk of electric shock and fire.",
+   "certification": false,
+   "variants": [
+    "ELCB"
+   ],
+   "relations": []
+  },
+  {
+   "key": "earthing-systems",
+   "name": "Earthing systems",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "The ways of connecting parts of an electrical installation to the ground for safety, such as TN, TT and IT systems.",
+   "certification": false,
+   "variants": [
+    "Grounding systems"
+   ],
+   "relations": []
+  },
+  {
+   "key": "easeljs",
+   "name": "EaselJS",
+   "class": "skill",
+   "kind": "library",
+   "definition": "A JavaScript library that provides a display list and interaction model for drawing on the HTML5 canvas.",
+   "certification": false,
+   "variants": [],
+   "relations": [
+    "part_of:createjs"
+   ]
+  },
+  {
+   "key": "ebay-api",
+   "name": "eBay API",
+   "class": "skill",
+   "kind": "platform",
+   "definition": "The programming interfaces of the eBay marketplace, used to list, search and manage items and orders from other software.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "eclinicalworks",
+   "name": "eClinicalWorks",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "Software for electronic health records and medical practice management, made by eClinicalWorks.",
+   "certification": false,
+   "variants": [
+    "eClinicalWorks (ECW)"
+   ],
+   "relations": []
+  },
+  {
+   "key": "ecological-study",
+   "name": "Ecological study",
+   "class": "skill",
+   "kind": "method",
+   "definition": "An observational study design in which the units analysed are whole populations or groups rather than individual people.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "econometric-model",
+   "name": "Econometric model",
+   "class": "skill",
+   "kind": "method",
+   "definition": "A statistical model that uses economic theory and data to estimate the relationships between economic variables.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
    "key": "eddystone",
    "name": "Eddystone",
    "class": "skill",
@@ -350,102 +451,6 @@
    "class": "skill",
    "kind": "skill",
    "definition": "Managing the relationship between an employer and its workforce, including handling grievances, conduct issues and communication.",
-   "certification": false,
-   "variants": [],
-   "relations": []
-  },
-  {
-   "key": "employee-relations-investigations",
-   "name": "Employee relations investigations",
-   "class": "skill",
-   "kind": "skill",
-   "definition": "Investigating workplace complaints and suspected misconduct, such as harassment or policy breaches, to establish the facts and recommend action.",
-   "certification": false,
-   "variants": [],
-   "relations": [
-    "related:complaint-investigation"
-   ]
-  },
-  {
-   "key": "employer-branding",
-   "name": "Employer branding",
-   "class": "skill",
-   "kind": "skill",
-   "definition": "Shaping and promoting how an organisation is seen as a place to work, in order to attract and keep employees.",
-   "certification": false,
-   "variants": [],
-   "relations": [
-    "broader:branding-2"
-   ]
-  },
-  {
-   "key": "employment-compliance",
-   "name": "Employment compliance",
-   "class": "skill",
-   "kind": "skill",
-   "definition": "Making sure an organisation follows employment laws and regulations, such as those on pay, working hours and discrimination.",
-   "certification": false,
-   "variants": [],
-   "relations": []
-  },
-  {
-   "key": "ems-dispatch",
-   "name": "EMS dispatch",
-   "class": "skill",
-   "kind": "skill",
-   "definition": "Taking emergency calls and sending and coordinating ambulances and other emergency medical services.",
-   "certification": false,
-   "variants": [],
-   "relations": []
-  },
-  {
-   "key": "encounter-data-management",
-   "name": "Encounter data management",
-   "class": "skill",
-   "kind": "skill",
-   "definition": "Collecting, checking and submitting the records of healthcare visits and services, such as the encounter data that health plans report to government programs.",
-   "certification": false,
-   "variants": [],
-   "relations": []
-  },
-  {
-   "key": "endevor",
-   "name": "Endevor",
-   "class": "skill",
-   "kind": "tool",
-   "definition": "Software configuration management tool, from CA and now Broadcom, for controlling changes to source code and other components on mainframe systems.",
-   "certification": false,
-   "variants": [
-    "CA Endevor"
-   ],
-   "relations": []
-  },
-  {
-   "key": "endocannabinoid-system",
-   "name": "Endocannabinoid system",
-   "class": "skill",
-   "kind": "knowledge",
-   "definition": "The network of cannabinoid receptors and naturally made cannabinoid-like molecules in the body that helps regulate functions such as mood, appetite, pain and sleep.",
-   "certification": false,
-   "variants": [],
-   "relations": []
-  },
-  {
-   "key": "endocrine-disorders",
-   "name": "Endocrine disorders",
-   "class": "skill",
-   "kind": "knowledge",
-   "definition": "Medical knowledge of conditions caused by hormone-producing glands working abnormally, such as diabetes and thyroid disease.",
-   "certification": false,
-   "variants": [],
-   "relations": []
-  },
-  {
-   "key": "endodontics",
-   "name": "Endodontics",
-   "class": "skill",
-   "kind": "knowledge",
-   "definition": "The dental specialty concerned with diseases of the tooth pulp and the tissues around the tooth root, including root canal treatment.",
    "certification": false,
    "variants": [],
    "relations": []

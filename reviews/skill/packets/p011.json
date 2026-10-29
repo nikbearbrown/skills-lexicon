@@ -19,6 +19,97 @@
  ],
  "entries": [
   {
+   "key": "children-s-ministry",
+   "name": "Children's ministry",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "The programmes, teaching and pastoral care a church provides for its children.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "chip-design",
+   "name": "Chip design",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Specifying, laying out and verifying the circuits of an integrated circuit.",
+   "certification": false,
+   "variants": [
+    "Integrated circuit design"
+   ],
+   "relations": []
+  },
+  {
+   "key": "chipmunk2d",
+   "name": "Chipmunk2D",
+   "class": "skill",
+   "kind": "library",
+   "definition": "An open-source 2D rigid-body physics library written in C.",
+   "certification": false,
+   "variants": [
+    "Chipmunk (Computer Physics Engines)"
+   ],
+   "relations": []
+  },
+  {
+   "key": "chlorofluorocarbons",
+   "name": "Chlorofluorocarbons",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "A class of compounds of carbon, chlorine and fluorine once common as refrigerants and propellants, now phased out because they damage the ozone layer.",
+   "certification": false,
+   "variants": [
+    "Chlorofluorocarbon",
+    "CFCs"
+   ],
+   "relations": []
+  },
+  {
+   "key": "choral-music",
+   "name": "Choral music",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "Vocal music written for and performed by a choir.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "chordiant",
+   "name": "Chordiant",
+   "class": "skill",
+   "kind": "platform",
+   "definition": "A customer-experience management software suite from Chordiant Software, which Pegasystems acquired in 2010.",
+   "certification": false,
+   "variants": [
+    "Chordiant (Software)"
+   ],
+   "relations": []
+  },
+  {
+   "key": "choreography",
+   "name": "Choreography",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Designing and arranging sequences of movement, most often for dance, theatre and film performances.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "chromatography-software",
+   "name": "Chromatography software",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "Software that controls chromatography instruments and collects, processes and reports the data they produce.",
+   "certification": false,
+   "variants": [
+    "Chromatography Softwares"
+   ],
+   "relations": []
+  },
+  {
    "key": "chronometer",
    "name": "Chronometer",
    "class": "skill",
@@ -356,97 +447,6 @@
    "definition": "Apple's set of application frameworks, including UIKit, for building apps for iPhone, iPad and other iOS-family devices.",
    "certification": false,
    "variants": [],
-   "relations": []
-  },
-  {
-   "key": "cocoapods",
-   "name": "CocoaPods",
-   "class": "skill",
-   "kind": "tool",
-   "definition": "A dependency manager for Swift and Objective-C projects that downloads and links third-party libraries.",
-   "certification": false,
-   "variants": [],
-   "relations": []
-  },
-  {
-   "key": "cocoonjs",
-   "name": "CocoonJS",
-   "class": "skill",
-   "kind": "tool",
-   "definition": "A tool from Ludei that packages HTML5 and JavaScript apps and games as native mobile apps with accelerated canvas rendering.",
-   "certification": false,
-   "variants": [],
-   "relations": []
-  },
-  {
-   "key": "cognitive-computing",
-   "name": "Cognitive computing",
-   "class": "skill",
-   "kind": "knowledge",
-   "definition": "Computing systems that imitate aspects of human thinking, such as learning, reasoning and understanding language, using methods like machine learning and natural language processing.",
-   "certification": false,
-   "variants": [],
-   "relations": []
-  },
-  {
-   "key": "cognitive-load",
-   "name": "Cognitive load",
-   "class": "skill",
-   "kind": "knowledge",
-   "definition": "The amount of mental effort being used in working memory at a given time, a concept used in teaching and interface design to avoid overloading people.",
-   "certification": false,
-   "variants": [],
-   "relations": []
-  },
-  {
-   "key": "collaboration",
-   "name": "Collaboration",
-   "class": "skill",
-   "kind": "skill",
-   "definition": "Working jointly with others, sharing information and effort, to reach a shared goal.",
-   "certification": false,
-   "variants": [
-    "Collaborative Skills"
-   ],
-   "relations": []
-  },
-  {
-   "key": "collaboration-software",
-   "name": "Collaboration software",
-   "class": "skill",
-   "kind": "tool",
-   "definition": "Software that lets groups work together on shared tasks and documents, for example through shared files, chat and project boards.",
-   "certification": false,
-   "variants": [
-    "Collaborative Softwares"
-   ],
-   "relations": []
-  },
-  {
-   "key": "collaborative-planning-forecasting-and-replenishment",
-   "name": "Collaborative Planning, Forecasting and Replenishment",
-   "class": "skill",
-   "kind": "method",
-   "definition": "A supply-chain practice in which trading partners jointly plan, forecast and replenish stock using shared data.",
-   "certification": false,
-   "variants": [
-    "Collaborative Planning Forecasting And Replenishment",
-    "CPFR",
-    "Collaborative Planning, Forecasting, And Replenishment (CPFR)",
-    "Collaborative Planning Forecasting SandsReplenishment"
-   ],
-   "relations": []
-  },
-  {
-   "key": "color-matching",
-   "name": "Color matching",
-   "class": "skill",
-   "kind": "skill",
-   "definition": "Choosing or adjusting colours so that a product or print matches a reference colour, as in paint, printing, textiles and cosmetics.",
-   "certification": false,
-   "variants": [
-    "Colour matching"
-   ],
    "relations": []
   }
  ]

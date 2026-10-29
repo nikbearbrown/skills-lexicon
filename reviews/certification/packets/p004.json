@@ -19,516 +19,535 @@
  ],
  "entries": [
   {
-   "key": "certified-network-defense-architect",
-   "name": "Certified Network Defense Architect",
+   "key": "associate-of-science-in-physics",
+   "name": "Associate of Science in Physics",
    "class": "certification",
    "kind": "credential",
-   "definition": "An EC-Council certification for professionals who design and defend secure computer networks.",
+   "definition": "A usually two-year Associate of Science degree in physics, awarded by community colleges and some universities.",
    "certification": true,
-   "certification_scope": "single-issuer",
-   "variants": [
-    "Certified Network Defense Architecture"
-   ],
+   "certification_scope": "many-issuers",
+   "variants": [],
    "relations": []
   },
   {
-   "key": "certified-neuroscience-registered-nurse",
-   "name": "Certified Neuroscience Registered Nurse",
+   "key": "associate-of-science-in-pre-dentistry",
+   "name": "Associate of Science in Pre-Dentistry",
    "class": "certification",
    "kind": "credential",
-   "definition": "A certification for registered nurses who care for patients with neurological conditions, awarded by the American Board of Neuroscience Nursing.",
+   "definition": "A usually two-year Associate of Science degree with a pre-dentistry emphasis, meant to prepare students to transfer into a bachelor's programme on the way to dental school.",
    "certification": true,
-   "certification_scope": "single-issuer",
-   "variants": [
-    "CNRN"
-   ],
+   "certification_scope": "many-issuers",
+   "variants": [],
    "relations": []
   },
   {
-   "key": "certified-novell-salesperson",
-   "name": "Certified Novell Salesperson",
+   "key": "associate-of-science-in-pre-engineering",
+   "name": "Associate of Science in Pre-Engineering",
    "class": "certification",
    "kind": "credential",
-   "definition": "A Novell certification for sales staff who sell Novell products and solutions.",
+   "definition": "A usually two-year Associate of Science degree with a pre-engineering emphasis, meant to prepare students to transfer into a bachelor's engineering programme.",
+   "certification": true,
+   "certification_scope": "many-issuers",
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "associate-of-science-in-pre-pharmacy",
+   "name": "Associate of Science in Pre-Pharmacy",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A usually two-year Associate of Science degree with a pre-pharmacy emphasis, meant to prepare students to transfer into a pharmacy programme.",
+   "certification": true,
+   "certification_scope": "many-issuers",
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "associate-of-science-in-public-health",
+   "name": "Associate of Science in Public Health",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A usually two-year Associate of Science degree in public health, awarded by community colleges and some universities.",
+   "certification": true,
+   "certification_scope": "many-issuers",
+   "variants": [],
+   "relations": [
+    "related:certified-in-public-health",
+    "related:doctor-of-public-health"
+   ]
+  },
+  {
+   "key": "associate-of-science-in-radiologic-technology",
+   "name": "Associate of Science in Radiologic Technology",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A usually two-year Associate of Science degree in radiologic technology, awarded by community colleges and some universities.",
+   "certification": true,
+   "certification_scope": "many-issuers",
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "associate-of-science-in-real-estate",
+   "name": "Associate of Science in Real Estate",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A usually two-year Associate of Science degree in real estate, awarded by community colleges and some universities.",
+   "certification": true,
+   "certification_scope": "many-issuers",
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "associate-of-science-in-renewable-natural-resources",
+   "name": "Associate of Science in Renewable Natural Resources",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A usually two-year Associate of Science degree in renewable natural resources, awarded by community colleges and some universities.",
+   "certification": true,
+   "certification_scope": "many-issuers",
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "associate-of-science-in-respiratory-therapy",
+   "name": "Associate of Science in Respiratory Therapy",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A usually two-year Associate of Science degree in respiratory therapy, awarded by community colleges and some universities.",
+   "certification": true,
+   "certification_scope": "many-issuers",
+   "variants": [],
+   "relations": [
+    "related:registered-respiratory-therapist"
+   ]
+  },
+  {
+   "key": "associate-of-science-in-software-development",
+   "name": "Associate of Science in Software Development",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A usually two-year Associate of Science degree in software development, awarded by community colleges and some universities.",
+   "certification": true,
+   "certification_scope": "many-issuers",
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "associate-of-science-in-wildlife-management",
+   "name": "Associate of Science in Wildlife Management",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A usually two-year Associate of Science degree in wildlife management, awarded by community colleges and some universities.",
+   "certification": true,
+   "certification_scope": "many-issuers",
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "associate-of-the-society-of-actuaries",
+   "name": "Associate of the Society of Actuaries",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "An actuarial designation awarded by the Society of Actuaries to candidates who pass its associateship exams and meet its other requirements; it ranks below Fellow.",
    "certification": true,
    "certification_scope": "single-issuer",
    "variants": [],
    "relations": []
   },
   {
-   "key": "certified-nurse-manager-and-leader",
-   "name": "Certified Nurse Manager and Leader",
+   "key": "associate-professional-in-talent-development",
+   "name": "Associate Professional in Talent Development",
    "class": "certification",
    "kind": "credential",
-   "definition": "A certification for nurses in management and leadership roles, awarded by the AONL Credentialing Center.",
+   "definition": "A certification from the Association for Talent Development aimed at early-career talent development (workplace learning) professionals.",
    "certification": true,
    "certification_scope": "single-issuer",
    "variants": [
-    "CNML"
+    "APTD"
    ],
    "relations": []
   },
   {
-   "key": "certified-nurse-midwife",
-   "name": "Certified Nurse-Midwife",
+   "key": "association-management-specialist-ams",
+   "name": "Association Management Specialist (AMS)",
    "class": "certification",
    "kind": "credential",
-   "definition": "A credential for advanced practice nurses trained in midwifery, awarded by the American Midwifery Certification Board.",
+   "definition": "A professional designation for community (homeowner) association managers, awarded by Community Associations Institute.",
    "certification": true,
    "certification_scope": "single-issuer",
    "variants": [
-    "Nurse Midwife",
-    "CNM"
+    "AMS"
    ],
    "relations": []
   },
   {
-   "key": "certified-nursing-assistant",
-   "name": "Certified Nursing Assistant",
+   "key": "atssa-certification",
+   "name": "ATSSA certification",
    "class": "certification",
    "kind": "credential",
-   "definition": "A state-recognised certification for nursing assistants who give basic bedside care under the direction of nurses.",
+   "definition": "Traffic-control and roadway-safety certificates, such as flagger and traffic control technician, awarded by the American Traffic Safety Services Association.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [
+    "American Traffic Safety Services Association (ATSSA) Certificate",
+    "ATSSA certificate",
+    "American Traffic Safety Services Association certificate"
+   ],
+   "relations": []
+  },
+  {
+   "key": "bachelor-of-science-in-business",
+   "name": "Bachelor of Science in Business",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "An undergraduate degree in business studies, awarded as a Bachelor of Science by universities and colleges.",
+   "certification": true,
+   "certification_scope": "many-issuers",
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "bachelor-of-science-in-business-administration",
+   "name": "Bachelor of Science in Business Administration",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "An undergraduate degree in business administration, awarded as a Bachelor of Science by universities and colleges.",
    "certification": true,
    "certification_scope": "many-issuers",
    "variants": [
-    "Certified Nurse Assistant",
-    "CNA"
+    "BSBA"
    ],
    "relations": []
   },
   {
-   "key": "certified-occupancy-specialist",
-   "name": "Certified Occupancy Specialist",
+   "key": "bachelor-of-science-in-nursing",
+   "name": "Bachelor of Science in Nursing",
    "class": "certification",
    "kind": "credential",
-   "definition": "A housing-industry credential for staff who determine eligibility and manage occupancy in subsidised housing programmes.",
+   "definition": "A bachelor's-level nursing degree, awarded by universities and colleges, that prepares graduates for registered-nurse licensure.",
    "certification": true,
+   "certification_scope": "many-issuers",
    "variants": [
-    "Certified Occupancy Specialist (COS)"
+    "Bachelor Of Science in Nursing (BSN)",
+    "BSN"
    ],
    "relations": []
   },
   {
-   "key": "certified-occupational-health-nurse",
-   "name": "Certified Occupational Health Nurse",
+   "key": "bachelor-of-science-in-pharmacy",
+   "name": "Bachelor of Science in Pharmacy",
    "class": "certification",
    "kind": "credential",
-   "definition": "A certification for registered nurses who specialise in occupational and workplace health, awarded by the American Board for Occupational Health Nurses.",
+   "definition": "An undergraduate degree in pharmacy, awarded as a Bachelor of Science by universities and colleges.",
    "certification": true,
-   "certification_scope": "single-issuer",
-   "variants": [
-    "COHN"
-   ],
-   "relations": []
-  },
-  {
-   "key": "certified-ostomy-care-nurse",
-   "name": "Certified Ostomy Care Nurse",
-   "class": "certification",
-   "kind": "credential",
-   "definition": "A certification for registered nurses who specialise in the care of people with ostomies, awarded by the Wound, Ostomy and Continence Nursing Certification Board.",
-   "certification": true,
-   "certification_scope": "single-issuer",
-   "variants": [
-    "COCN"
-   ],
-   "relations": []
-  },
-  {
-   "key": "certified-outpatient-coder",
-   "name": "Certified Outpatient Coder",
-   "class": "certification",
-   "kind": "credential",
-   "definition": "An AAPC certification for coders who assign diagnosis and procedure codes to outpatient hospital and facility claims.",
-   "certification": true,
-   "certification_scope": "single-issuer",
+   "certification_scope": "many-issuers",
    "variants": [],
+   "relations": []
+  },
+  {
+   "key": "bachelor-s-in-accounting",
+   "name": "Bachelor's in Accounting",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "An undergraduate degree in accounting, awarded by universities and colleges.",
+   "certification": true,
+   "certification_scope": "many-issuers",
+   "variants": [
+    "Bachelor's degree in Accounting",
+    "Bachelors degree in Accounting"
+   ],
+   "relations": []
+  },
+  {
+   "key": "bachelor-s-in-advertising",
+   "name": "Bachelor's in Advertising",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "An undergraduate degree in advertising, awarded by universities and colleges.",
+   "certification": true,
+   "certification_scope": "many-issuers",
+   "variants": [
+    "Bachelor's degree in Advertising",
+    "Bachelors degree in Advertising"
+   ],
+   "relations": []
+  },
+  {
+   "key": "bachelor-s-in-aerospace-engineering",
+   "name": "Bachelor's in Aerospace Engineering",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "An undergraduate degree in aerospace engineering, awarded by universities and colleges.",
+   "certification": true,
+   "certification_scope": "many-issuers",
+   "variants": [
+    "Bachelor's degree in Aerospace Engineering",
+    "Bachelors degree in Aerospace Engineering"
+   ],
+   "relations": []
+  },
+  {
+   "key": "bachelor-s-in-agricultural-science",
+   "name": "Bachelor's in Agricultural Science",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "An undergraduate degree in agricultural science, awarded by universities and colleges.",
+   "certification": true,
+   "certification_scope": "many-issuers",
+   "variants": [
+    "Bachelor's degree in Agricultural Science",
+    "Bachelors degree in Agricultural Science"
+   ],
+   "relations": []
+  },
+  {
+   "key": "bachelor-s-in-animation",
+   "name": "Bachelor's in Animation",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "An undergraduate degree in animation, awarded by universities and colleges.",
+   "certification": true,
+   "certification_scope": "many-issuers",
+   "variants": [
+    "Bachelor's degree in Animation",
+    "Bachelors degree in Animation"
+   ],
+   "relations": []
+  },
+  {
+   "key": "bachelor-s-in-anthropology",
+   "name": "Bachelor's in Anthropology",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "An undergraduate degree in anthropology, awarded by universities and colleges.",
+   "certification": true,
+   "certification_scope": "many-issuers",
+   "variants": [
+    "Bachelor's degree in Anthropology",
+    "Bachelors degree in Anthropology"
+   ],
+   "relations": []
+  },
+  {
+   "key": "bachelor-s-in-architecture",
+   "name": "Bachelor's in Architecture",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "An undergraduate degree in architecture, awarded by universities and colleges.",
+   "certification": true,
+   "certification_scope": "many-issuers",
+   "variants": [
+    "Bachelor's degree in Architecture",
+    "Bachelors degree in Architecture"
+   ],
+   "relations": []
+  },
+  {
+   "key": "bachelor-s-in-art-history",
+   "name": "Bachelor's in Art History",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "An undergraduate degree in art history, awarded by universities and colleges.",
+   "certification": true,
+   "certification_scope": "many-issuers",
+   "variants": [
+    "Bachelor's degree in Art History",
+    "Bachelors degree in Art History"
+   ],
    "relations": [
-    "related:cpc-coder"
+    "related:art-history"
    ]
   },
   {
-   "key": "certified-patient-care-technician",
-   "name": "Certified Patient Care Technician",
+   "key": "bachelor-s-in-bioinformatics",
+   "name": "Bachelor's in Bioinformatics",
    "class": "certification",
    "kind": "credential",
-   "definition": "A certification for technicians who give hands-on patient care in hospitals and similar settings.",
+   "definition": "An undergraduate degree in bioinformatics, awarded by universities and colleges.",
    "certification": true,
+   "certification_scope": "many-issuers",
    "variants": [
-    "Certified Patient Care Technician/Assistant",
-    "CPCT/A",
-    "Certified Patient Care Technician/Associate/Nurse Technician"
+    "Bachelor's degree in Bioinformatics",
+    "Bachelors degree in Bioinformatics"
    ],
    "relations": []
   },
   {
-   "key": "certified-pediatric-emergency-nurse",
-   "name": "Certified Pediatric Emergency Nurse",
+   "key": "bachelor-s-in-biology",
+   "name": "Bachelor's in Biology",
    "class": "certification",
    "kind": "credential",
-   "definition": "A nursing certification from the Board of Certification for Emergency Nursing for nurses who care for children in emergencies.",
+   "definition": "An undergraduate degree in biology, awarded by universities and colleges.",
    "certification": true,
-   "certification_scope": "single-issuer",
+   "certification_scope": "many-issuers",
    "variants": [
-    "CPEN"
+    "Bachelor's degree in Biology",
+    "Bachelors degree in Biology"
    ],
    "relations": []
   },
   {
-   "key": "certified-pediatric-hematology-oncology-nurse",
-   "name": "Certified Pediatric Hematology Oncology Nurse",
+   "key": "bachelor-s-in-biomedical-engineering",
+   "name": "Bachelor's in Biomedical Engineering",
    "class": "certification",
    "kind": "credential",
-   "definition": "A certification for registered nurses who care for children with cancer and blood disorders, awarded by the Oncology Nursing Certification Corporation.",
+   "definition": "An undergraduate degree in biomedical engineering, awarded by universities and colleges.",
    "certification": true,
-   "certification_scope": "single-issuer",
+   "certification_scope": "many-issuers",
    "variants": [
-    "CPHON",
-    "Certified Pediatric Oncology Nurse",
-    "CPON"
+    "Bachelor's degree in Biomedical Engineering",
+    "Bachelors degree in Biomedical Engineering"
    ],
    "relations": []
   },
   {
-   "key": "certified-pediatric-nurse",
-   "name": "Certified Pediatric Nurse",
+   "key": "bachelor-s-in-botany",
+   "name": "Bachelor's in Botany",
    "class": "certification",
    "kind": "credential",
-   "definition": "A certification for registered nurses who care for children, awarded by the Pediatric Nursing Certification Board.",
+   "definition": "An undergraduate degree in botany, awarded by universities and colleges.",
    "certification": true,
-   "certification_scope": "single-issuer",
-   "variants": [],
-   "relations": []
-  },
-  {
-   "key": "certified-perioperative-nurse-cnor",
-   "name": "Certified Perioperative Nurse (CNOR)",
-   "class": "certification",
-   "kind": "credential",
-   "definition": "A certification for registered nurses who work in the operating room, awarded by the Competency and Credentialing Institute.",
-   "certification": true,
-   "certification_scope": "single-issuer",
+   "certification_scope": "many-issuers",
    "variants": [
-    "CNOR Certification",
-    "CNOR"
+    "Bachelor's degree in Botany",
+    "Bachelors degree in Botany"
    ],
    "relations": []
   },
   {
-   "key": "certified-physician-practice-manager",
-   "name": "Certified Physician Practice Manager",
+   "key": "bachelor-s-in-business-administration",
+   "name": "Bachelor's in Business Administration",
    "class": "certification",
    "kind": "credential",
-   "definition": "An AAPC certification for managers of physician and medical group practices.",
+   "definition": "An undergraduate degree in business administration, awarded by universities and colleges.",
    "certification": true,
-   "certification_scope": "single-issuer",
+   "certification_scope": "many-issuers",
    "variants": [
-    "CPPM"
-   ],
-   "relations": []
-  },
-  {
-   "key": "certified-plastic-surgical-nurse",
-   "name": "Certified Plastic Surgical Nurse",
-   "class": "certification",
-   "kind": "credential",
-   "definition": "A certification for registered nurses in plastic and reconstructive surgery, awarded by the Plastic Surgical Nursing Certification Board.",
-   "certification": true,
-   "certification_scope": "single-issuer",
-   "variants": [
-    "CPSN"
-   ],
-   "relations": []
-  },
-  {
-   "key": "certified-pool-spa-operator",
-   "name": "Certified Pool & Spa Operator",
-   "class": "certification",
-   "kind": "credential",
-   "definition": "A certification from the Pool & Hot Tub Alliance for people who operate and maintain swimming pools and spas.",
-   "certification": true,
-   "certification_scope": "single-issuer",
-   "variants": [
-    "Certified Pool and Spa Operator"
-   ],
-   "relations": []
-  },
-  {
-   "key": "certified-professional-biller",
-   "name": "Certified Professional Biller",
-   "class": "certification",
-   "kind": "credential",
-   "definition": "An AAPC certification for medical billers who prepare, submit and follow up healthcare claims.",
-   "certification": true,
-   "certification_scope": "single-issuer",
-   "variants": [
-    "Certified Professional Biller (CPB)"
+    "Bachelor's degree in Business Administration",
+    "Bachelors degree in Business Administration"
    ],
    "relations": [
-    "related:cpc-coder"
+    "related:bachelor-of-science-in-business-administration",
+    "related:bachelor-of-science-in-business",
+    "related:master-of-business-administration"
    ]
   },
   {
-   "key": "certified-professional-compliance-officer",
-   "name": "Certified Professional Compliance Officer",
+   "key": "bachelor-s-in-chemical-engineering",
+   "name": "Bachelor's in Chemical Engineering",
    "class": "certification",
    "kind": "credential",
-   "definition": "An AAPC certification for people who oversee compliance programmes in healthcare organisations.",
+   "definition": "An undergraduate degree in chemical engineering, awarded by universities and colleges.",
    "certification": true,
-   "certification_scope": "single-issuer",
+   "certification_scope": "many-issuers",
    "variants": [
-    "CPCO"
+    "Bachelor's degree in Chemical Engineering",
+    "Bachelors degree in Chemical Engineering"
+   ],
+   "relations": []
+  },
+  {
+   "key": "bachelor-s-in-chemistry",
+   "name": "Bachelor's in Chemistry",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "An undergraduate degree in chemistry, awarded by universities and colleges.",
+   "certification": true,
+   "certification_scope": "many-issuers",
+   "variants": [
+    "Bachelor's degree in Chemistry",
+    "Bachelors degree in Chemistry"
+   ],
+   "relations": []
+  },
+  {
+   "key": "bachelor-s-in-civil-engineering",
+   "name": "Bachelor's in Civil Engineering",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "An undergraduate degree in civil engineering, awarded by universities and colleges.",
+   "certification": true,
+   "certification_scope": "many-issuers",
+   "variants": [
+    "Bachelor's degree in Civil Engineering",
+    "Bachelors degree in Civil Engineering"
+   ],
+   "relations": []
+  },
+  {
+   "key": "bachelor-s-in-clinical-psychology",
+   "name": "Bachelor's in Clinical Psychology",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "An undergraduate degree in clinical psychology, awarded by universities and colleges.",
+   "certification": true,
+   "certification_scope": "many-issuers",
+   "variants": [
+    "Bachelor's degree in Clinical Psychology",
+    "Bachelors degree in Clinical Psychology"
+   ],
+   "relations": []
+  },
+  {
+   "key": "bachelor-s-in-computer-science",
+   "name": "Bachelor's in Computer Science",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "An undergraduate degree in computer science, awarded by universities and colleges.",
+   "certification": true,
+   "certification_scope": "many-issuers",
+   "variants": [
+    "Bachelor's degree in Computer Science",
+    "Bachelors degree in Computer Science"
    ],
    "relations": [
-    "related:cpc-coder"
+    "related:computer-science"
    ]
   },
   {
-   "key": "certified-professional-geologist",
-   "name": "Certified Professional Geologist",
+   "key": "bachelor-s-in-criminal-justice",
+   "name": "Bachelor's in Criminal Justice",
    "class": "certification",
    "kind": "credential",
-   "definition": "A professional certification for geologists from the American Institute of Professional Geologists.",
+   "definition": "An undergraduate degree in criminal justice, awarded by universities and colleges.",
    "certification": true,
-   "certification_scope": "single-issuer",
+   "certification_scope": "many-issuers",
    "variants": [
-    "CPG"
+    "Bachelor's degree in Criminal Justice",
+    "Bachelors degree in Criminal Justice"
    ],
    "relations": []
   },
   {
-   "key": "certified-professional-in-healthcare-information-and-management-systems",
-   "name": "Certified Professional in Healthcare Information and Management Systems",
+   "key": "bachelor-s-in-culinary-arts",
+   "name": "Bachelor's in Culinary Arts",
    "class": "certification",
    "kind": "credential",
-   "definition": "A HIMSS certification for professionals in healthcare information and management systems.",
+   "definition": "An undergraduate degree in culinary arts, awarded by universities and colleges.",
    "certification": true,
-   "certification_scope": "single-issuer",
+   "certification_scope": "many-issuers",
    "variants": [
-    "CPHIMS"
+    "Bachelor's degree in Culinary Arts",
+    "Bachelors degree in Culinary Arts"
    ],
    "relations": []
   },
   {
-   "key": "certified-professional-in-healthcare-quality",
-   "name": "Certified Professional in Healthcare Quality",
+   "key": "bachelor-s-in-cybersecurity",
+   "name": "Bachelor's in Cybersecurity",
    "class": "certification",
    "kind": "credential",
-   "definition": "A certification for professionals who work on quality improvement and patient safety in healthcare.",
+   "definition": "An undergraduate degree in cybersecurity, awarded by universities and colleges.",
    "certification": true,
-   "certification_scope": "single-issuer",
+   "certification_scope": "many-issuers",
    "variants": [
-    "CPHQ"
-   ],
-   "relations": []
-  },
-  {
-   "key": "certified-professional-in-healthcare-risk-management",
-   "name": "Certified Professional in Healthcare Risk Management",
-   "class": "certification",
-   "kind": "credential",
-   "definition": "A certification for professionals who manage risk and patient safety in healthcare, awarded by the American Hospital Association Certification Center.",
-   "certification": true,
-   "certification_scope": "single-issuer",
-   "variants": [
-    "CPHRM"
-   ],
-   "relations": []
-  },
-  {
-   "key": "certified-professional-manager",
-   "name": "Certified Professional Manager",
-   "class": "certification",
-   "kind": "credential",
-   "definition": "A management certification awarded by the Institute of Certified Professional Managers.",
-   "certification": true,
-   "certification_scope": "single-issuer",
-   "variants": [],
-   "relations": []
-  },
-  {
-   "key": "certified-professional-medical-services-management",
-   "name": "Certified Professional Medical Services Management",
-   "class": "certification",
-   "kind": "credential",
-   "definition": "A certification for professionals who manage medical staff services such as provider credentialing and privileging.",
-   "certification": true,
-   "certification_scope": "single-issuer",
-   "variants": [
-    "Certified Professional Medical Services Manager",
-    "CPMSM"
-   ],
-   "relations": []
-  },
-  {
-   "key": "certified-professional-of-occupancy",
-   "name": "Certified Professional of Occupancy",
-   "class": "certification",
-   "kind": "credential",
-   "definition": "A housing-industry credential for staff who handle eligibility and occupancy in affordable and subsidised housing.",
-   "certification": true,
-   "certification_scope": "single-issuer",
-   "variants": [],
-   "relations": []
-  },
-  {
-   "key": "certified-projects-director",
-   "name": "Certified Projects Director",
-   "class": "certification",
-   "kind": "credential",
-   "definition": "The top level (Level A) of the IPMA four-level project management certification, for directors of large portfolios and programmes.",
-   "certification": true,
-   "variants": [
-    "IPMA Level A"
-   ],
-   "relations": []
-  },
-  {
-   "key": "certified-property-manager",
-   "name": "Certified Property Manager",
-   "class": "certification",
-   "kind": "credential",
-   "definition": "A real-estate management certification awarded by the Institute of Real Estate Management.",
-   "certification": true,
-   "certification_scope": "single-issuer",
-   "variants": [],
-   "relations": []
-  },
-  {
-   "key": "certified-public-housing-manager",
-   "name": "Certified Public Housing Manager",
-   "class": "certification",
-   "kind": "credential",
-   "definition": "A certification for managers of public housing properties and programmes.",
-   "certification": true,
-   "certification_scope": "single-issuer",
-   "variants": [
-    "Certified Public Housing Manager (PHM)"
+    "Bachelor's degree in Cybersecurity",
+    "Bachelors degree in Cybersecurity"
    ],
    "relations": [
-    "related:assisted-housing-manager-ahm"
+    "related:cybersecurity"
    ]
-  },
-  {
-   "key": "certified-radiology-nurse",
-   "name": "Certified Radiology Nurse",
-   "class": "certification",
-   "kind": "credential",
-   "definition": "A certification for registered nurses who work in radiology and imaging.",
-   "certification": true,
-   "variants": [],
-   "relations": []
-  },
-  {
-   "key": "certified-registered-nurse-first-assistant",
-   "name": "Certified Registered Nurse First Assistant",
-   "class": "certification",
-   "kind": "credential",
-   "definition": "A certification for registered nurses who work as first assistants in surgery, awarded by the Competency & Credentialing Institute.",
-   "certification": true,
-   "certification_scope": "single-issuer",
-   "variants": [
-    "CRNFA"
-   ],
-   "relations": []
-  },
-  {
-   "key": "certified-registered-nurse-infusion",
-   "name": "Certified Registered Nurse Infusion",
-   "class": "certification",
-   "kind": "credential",
-   "definition": "A certification for registered nurses who specialise in infusion therapy, awarded by the Infusion Nurses Certification Corporation.",
-   "certification": true,
-   "certification_scope": "single-issuer",
-   "variants": [
-    "CRNI"
-   ],
-   "relations": []
-  },
-  {
-   "key": "certified-rehabilitation-registered-nurse",
-   "name": "Certified Rehabilitation Registered Nurse",
-   "class": "certification",
-   "kind": "credential",
-   "definition": "A certification for registered nurses who specialise in rehabilitation nursing, awarded by the Rehabilitation Nursing Certification Board.",
-   "certification": true,
-   "certification_scope": "single-issuer",
-   "variants": [
-    "CRRN"
-   ],
-   "relations": []
-  },
-  {
-   "key": "certified-residential-specialist",
-   "name": "Certified Residential Specialist",
-   "class": "certification",
-   "kind": "credential",
-   "definition": "A real-estate certification for agents with advanced experience in residential sales, awarded by the Residential Real Estate Council.",
-   "certification": true,
-   "certification_scope": "single-issuer",
-   "variants": [],
-   "relations": []
-  },
-  {
-   "key": "certified-rhythm-analysis-technician",
-   "name": "Certified Rhythm Analysis Technician",
-   "class": "certification",
-   "kind": "credential",
-   "definition": "A certification for technicians who monitor and interpret heart rhythms from ECG telemetry.",
-   "certification": true,
-   "variants": [],
-   "relations": []
-  },
-  {
-   "key": "certified-risk-adjustment-coder",
-   "name": "Certified Risk Adjustment Coder",
-   "class": "certification",
-   "kind": "credential",
-   "definition": "An AAPC certification for coders who assign diagnosis codes used in risk adjustment payment models.",
-   "certification": true,
-   "certification_scope": "single-issuer",
-   "variants": [],
-   "relations": [
-    "related:cpc-coder"
-   ]
-  },
-  {
-   "key": "certified-senior-project-manager",
-   "name": "Certified Senior Project Manager",
-   "class": "certification",
-   "kind": "credential",
-   "definition": "Level B of the IPMA four-level project management certification, for managers of complex projects.",
-   "certification": true,
-   "variants": [
-    "IPMA Level B"
-   ],
-   "relations": []
-  },
-  {
-   "key": "certified-software-test-engineer",
-   "name": "Certified Software Test Engineer",
-   "class": "certification",
-   "kind": "credential",
-   "definition": "A software testing certification offered by the Quality Assurance Institute (QAI).",
-   "certification": true,
-   "certification_scope": "single-issuer",
-   "variants": [
-    "CSTE"
-   ],
-   "relations": [
-    "related:testing"
-   ]
-  },
-  {
-   "key": "certified-specialist-of-wine",
-   "name": "Certified Specialist of Wine",
-   "class": "certification",
-   "kind": "credential",
-   "definition": "A wine knowledge certification awarded by the Society of Wine Educators.",
-   "certification": true,
-   "certification_scope": "single-issuer",
-   "variants": [],
-   "relations": []
   }
  ]
 }

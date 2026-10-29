@@ -1,0 +1,473 @@
+{
+ "allowed_kinds": [
+  "ability",
+  "credential",
+  "framework",
+  "human-language",
+  "knowledge",
+  "library",
+  "markup-language",
+  "method",
+  "modeling-language",
+  "platform",
+  "programming-language",
+  "skill",
+  "standard",
+  "style-language",
+  "tool",
+  "work-activity"
+ ],
+ "entries": [
+  {
+   "key": "theano",
+   "name": "Theano",
+   "class": "skill",
+   "kind": "library",
+   "definition": "A Python library for defining and efficiently evaluating mathematical expressions on multi-dimensional arrays, used for deep learning research; its original development ended in 2017.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "theatrical-techniques",
+   "name": "Theatrical techniques",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "The methods of acting, voice, movement and staging used to prepare and perform theatre.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "theory-of-change",
+   "name": "Theory of change",
+   "class": "skill",
+   "kind": "method",
+   "definition": "A way of planning and evaluating social programmes by mapping how activities are expected to lead to outcomes and long-term change.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "therapeutic-interventions",
+   "name": "Therapeutic interventions",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Planned treatments or activities, such as counselling, exercise or medication management, that a clinician applies to improve a client's health or functioning.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "thin-film-coating",
+   "name": "Thin film coating",
+   "class": "skill",
+   "kind": "method",
+   "definition": "Depositing a very thin layer of material onto a surface by methods such as sputtering, evaporation or chemical vapour deposition.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "third-party-risk-management",
+   "name": "Third party risk management",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Identifying, assessing and controlling the risks that arise from an organisation's use of outside suppliers, vendors and service providers.",
+   "certification": false,
+   "variants": [
+    "TPRM",
+    "Third-party risk management"
+   ],
+   "relations": [
+    "broader:risk-management"
+   ]
+  },
+  {
+   "key": "threading-manufacturing",
+   "name": "Threading (manufacturing)",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Cutting or forming helical screw threads on a part, for example by tapping, die cutting or turning on a lathe.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "threat-modeling",
+   "name": "Threat modeling",
+   "class": "skill",
+   "kind": "method",
+   "definition": "A structured way of identifying what could attack a system, how, and which defences are needed, usually done while designing it.",
+   "certification": false,
+   "variants": [
+    "Threat Model",
+    "Threat modelling"
+   ],
+   "relations": []
+  },
+  {
+   "key": "three-js",
+   "name": "Three.js",
+   "class": "skill",
+   "kind": "library",
+   "definition": "A JavaScript library for creating and displaying 3D graphics in a web browser, built on WebGL.",
+   "certification": false,
+   "variants": [
+    "ThreeJS"
+   ],
+   "relations": []
+  },
+  {
+   "key": "thyroid-biopsy",
+   "name": "Thyroid biopsy",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Taking a sample of thyroid tissue, usually with a fine needle, so that it can be examined for disease.",
+   "certification": false,
+   "variants": [
+    "Thyroid Biopsies"
+   ],
+   "relations": []
+  },
+  {
+   "key": "thyroid-cancer",
+   "name": "Thyroid cancer",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "A cancer that starts in the cells of the thyroid gland, with papillary, follicular, medullary and anaplastic types.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "thyroid-diseases-and-disorders",
+   "name": "Thyroid diseases and disorders",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "The conditions that affect the thyroid gland, such as underactive or overactive thyroid, goitre, nodules and thyroid cancer.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "thyroid-ultrasound",
+   "name": "Thyroid ultrasound",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Using ultrasound imaging to examine the thyroid gland and look for nodules or other abnormalities.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "tibco-activematrix",
+   "name": "TIBCO ActiveMatrix",
+   "class": "skill",
+   "kind": "platform",
+   "definition": "A TIBCO platform for building, deploying and managing service-oriented and composite applications.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "tibco-designer",
+   "name": "TIBCO Designer",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "A graphical tool from TIBCO for designing and configuring integration projects that run on TIBCO BusinessWorks.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "tibco-enterprise-message-service",
+   "name": "TIBCO Enterprise Message Service",
+   "class": "skill",
+   "kind": "platform",
+   "definition": "A messaging server from TIBCO that implements the Java Message Service (JMS) standard for exchanging messages between applications.",
+   "certification": false,
+   "variants": [
+    "Tibco Ems"
+   ],
+   "relations": []
+  },
+  {
+   "key": "tibco-iprocess-suite",
+   "name": "TIBCO iProcess Suite",
+   "class": "skill",
+   "kind": "platform",
+   "definition": "A TIBCO business-process-management suite for modelling, automating and monitoring workflows that involve both people and systems.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "tibco-spotfire",
+   "name": "TIBCO Spotfire",
+   "class": "skill",
+   "kind": "platform",
+   "definition": "A data visualization and analytics platform for exploring data and building interactive dashboards, originally from TIBCO.",
+   "certification": false,
+   "variants": [
+    "Spotfire"
+   ],
+   "relations": []
+  },
+  {
+   "key": "time-protocol",
+   "name": "Time Protocol",
+   "class": "skill",
+   "kind": "standard",
+   "definition": "A simple Internet protocol, specified in RFC 868, in which a server returns the current time as a 32-bit count of seconds since 1 January 1900.",
+   "certification": false,
+   "variants": [],
+   "relations": [
+    "part_of:internet-protocol-suite"
+   ]
+  },
+  {
+   "key": "tinydb",
+   "name": "TinyDB",
+   "class": "skill",
+   "kind": "library",
+   "definition": "A small document-oriented database written in pure Python that by default stores its data in a JSON file.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "tire-balancing-and-rotation",
+   "name": "Tire balancing and rotation",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Balancing wheel-and-tire assemblies so they spin evenly, and moving tires between wheel positions on a vehicle to even out wear.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "tl-9000",
+   "name": "TL 9000",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "A quality management system standard for the telecommunications industry, built on ISO 9001.",
+   "certification": false,
+   "variants": [
+    "TL9000"
+   ],
+   "relations": []
+  },
+  {
+   "key": "togaf",
+   "name": "TOGAF",
+   "class": "skill",
+   "kind": "framework",
+   "definition": "An enterprise architecture framework from The Open Group that gives a method and set of tools for designing, planning and governing an organisation's information systems.",
+   "certification": false,
+   "variants": [
+    "The Open Group Architecture Framework"
+   ],
+   "relations": [
+    "related:dodaf"
+   ]
+  },
+  {
+   "key": "tokudb",
+   "name": "TokuDB",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "A storage engine for MySQL and MariaDB that used fractal tree indexes to speed up writes and compress data.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "tool-use",
+   "name": "Agent tool use",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Connecting an agent to bounded external capabilities.",
+   "variants": [
+    "Tool Use and Function Calling",
+    "function calling"
+   ],
+   "relations": []
+  },
+  {
+   "key": "toon-boom",
+   "name": "Toon Boom",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "A family of 2D animation and storyboarding software, including Harmony and Storyboard Pro, made by Toon Boom Animation.",
+   "certification": false,
+   "variants": [
+    "Toon Boom (Animation Software)"
+   ],
+   "relations": []
+  },
+  {
+   "key": "topsolid",
+   "name": "TopSolid",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "A CAD/CAM software suite for designing and machining parts, made by Missler Software.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "torch-machine-learning",
+   "name": "Torch (machine learning)",
+   "class": "skill",
+   "kind": "library",
+   "definition": "An open-source scientific computing and machine learning library with a C core and a Lua interface, which came before PyTorch.",
+   "certification": false,
+   "variants": [],
+   "relations": [
+    "related:pytorch",
+    "related:machine-learning"
+   ]
+  },
+  {
+   "key": "tourism-management",
+   "name": "Tourism management",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Planning, running and promoting tourism services and destinations, such as attractions, accommodation and tours.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "trace-linear-algebra",
+   "name": "Trace (linear algebra)",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "The sum of the entries on the main diagonal of a square matrix.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "track-and-trace",
+   "name": "Track and trace",
+   "class": "skill",
+   "kind": "method",
+   "definition": "Following the current position of a product or shipment (tracking) and recording the path it took through the supply chain (tracing).",
+   "certification": false,
+   "variants": [
+    "Track & trace"
+   ],
+   "relations": []
+  },
+  {
+   "key": "trackwise",
+   "name": "TrackWise",
+   "class": "skill",
+   "kind": "platform",
+   "definition": "Enterprise quality management software used in regulated industries such as pharmaceuticals to manage complaints, deviations and corrective and preventive actions.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "traffic-alert-and-collision-avoidance-system",
+   "name": "Traffic Alert and Collision Avoidance System",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "An aircraft system that uses transponder signals to detect nearby aircraft and advises pilots how to avoid a collision.",
+   "certification": false,
+   "variants": [
+    "Traffic Collusion Avoidance System",
+    "TCAS",
+    "Traffic Collision Avoidance System"
+   ],
+   "relations": []
+  },
+  {
+   "key": "traffic-collision-reconstruction",
+   "name": "Traffic collision reconstruction",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Working out how a vehicle collision happened, such as speeds and paths, by analysing physical evidence, vehicle damage and physics.",
+   "certification": false,
+   "variants": [
+    "Accident reconstruction"
+   ],
+   "relations": []
+  },
+  {
+   "key": "training-and-development-needs-assessment",
+   "name": "Training and development needs assessment",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Finding the gaps between the knowledge and skills people have and those their work requires, so that training can be planned.",
+   "certification": false,
+   "variants": [
+    "Training needs analysis",
+    "Training needs assessment"
+   ],
+   "relations": []
+  },
+  {
+   "key": "training-material-development",
+   "name": "Training material development",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Creating the guides, slides, exercises and other content used to teach people a job or a product.",
+   "certification": false,
+   "variants": [
+    "Developing Training Materials"
+   ],
+   "relations": []
+  },
+  {
+   "key": "trans-proteomic-pipeline",
+   "name": "Trans-Proteomic Pipeline",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "An open-source software suite for processing and validating mass spectrometry proteomics data, from peptide identification to protein quantification.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "transaction-monitoring",
+   "name": "Transaction monitoring",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Reviewing customer account activity, often with automated alerts, to detect suspicious transactions such as money laundering or fraud.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "transient-expression",
+   "name": "Transient expression",
+   "class": "skill",
+   "kind": "method",
+   "definition": "Temporarily producing a protein from a gene introduced into cells, without the gene becoming a permanent part of the cell's genome.",
+   "certification": false,
+   "variants": [
+    "Transient gene expression"
+   ],
+   "relations": []
+  },
+  {
+   "key": "trauma-focused-cognitive-behavioral-therapy",
+   "name": "Trauma-focused cognitive behavioral therapy",
+   "class": "skill",
+   "kind": "method",
+   "definition": "A short-term psychotherapy for children and adolescents affected by trauma, combining cognitive behavioural techniques with work involving their caregivers.",
+   "certification": false,
+   "variants": [
+    "Trauma-Focused Cognitive Behavior Therapy (TF-CBT)",
+    "TF-CBT",
+    "Trauma-focused CBT",
+    "Trauma-focused cognitive behavioural therapy"
+   ],
+   "relations": []
+  }
+ ]
+}

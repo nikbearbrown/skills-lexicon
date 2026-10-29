@@ -19,6 +19,90 @@
  ],
  "entries": [
   {
+   "key": "dijkstra-s-algorithm",
+   "name": "Dijkstra's algorithm",
+   "class": "skill",
+   "kind": "method",
+   "definition": "An algorithm that finds the shortest paths from one node of a weighted graph to all the others, as long as no edge weight is negative.",
+   "certification": false,
+   "variants": [
+    "Dijkstra algorithm"
+   ],
+   "relations": []
+  },
+  {
+   "key": "dimensions-cm",
+   "name": "Dimensions CM",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "Software for version control and for managing changes and releases of software assets, now sold by OpenText.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "direct-digital-control",
+   "name": "Direct digital control",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "Using microprocessor-based controllers, rather than analogue ones, to control building systems such as heating, ventilation and cooling.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "directx-video-acceleration",
+   "name": "DirectX Video Acceleration",
+   "class": "skill",
+   "kind": "library",
+   "definition": "A Microsoft programming interface that lets video decoding and processing run on a computer's graphics hardware.",
+   "certification": false,
+   "variants": [
+    "DXVA"
+   ],
+   "relations": []
+  },
+  {
+   "key": "disability-insurance",
+   "name": "Disability insurance",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "Insurance that pays part of a person's income if illness or injury stops them from working.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "disaster-loans",
+   "name": "Disaster loans",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "Loans that help people and businesses repair or rebuild after a disaster, most notably the low-interest loans made by the US Small Business Administration.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "discipleship",
+   "name": "Discipleship",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Teaching and mentoring people in Christian faith and practice, often one to one or in small groups.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "dispute-management",
+   "name": "Dispute management",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Handling and resolving disagreements or contested claims, such as disputed payments, between parties.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
    "key": "distance-learning",
    "name": "Distance learning",
    "class": "skill",
@@ -381,95 +465,6 @@
    "variants": [
     "EarlGrey (Software)"
    ],
-   "relations": []
-  },
-  {
-   "key": "early-childhood-mental-health",
-   "name": "Early childhood mental health",
-   "class": "skill",
-   "kind": "knowledge",
-   "definition": "The social and emotional well-being of children from birth to about age five, and the practice of supporting it and treating problems.",
-   "certification": false,
-   "variants": [],
-   "relations": []
-  },
-  {
-   "key": "earned-value-management-system",
-   "name": "Earned value management system",
-   "class": "skill",
-   "kind": "method",
-   "definition": "An integrated project-management system that compares work done with planned scope, schedule and cost, as set out in the ANSI/EIA-748 guidelines.",
-   "certification": false,
-   "variants": [
-    "Earned Value Management Systems (EVMS)",
-    "EVMS"
-   ],
-   "relations": []
-  },
-  {
-   "key": "earth-leakage-circuit-breaker",
-   "name": "Earth leakage circuit breaker",
-   "class": "skill",
-   "kind": "tool",
-   "definition": "A protective switch that cuts the power when current leaks to earth, to reduce the risk of electric shock and fire.",
-   "certification": false,
-   "variants": [
-    "ELCB"
-   ],
-   "relations": []
-  },
-  {
-   "key": "earthing-systems",
-   "name": "Earthing systems",
-   "class": "skill",
-   "kind": "knowledge",
-   "definition": "The ways of connecting parts of an electrical installation to the ground for safety, such as TN, TT and IT systems.",
-   "certification": false,
-   "variants": [
-    "Grounding systems"
-   ],
-   "relations": []
-  },
-  {
-   "key": "easeljs",
-   "name": "EaselJS",
-   "class": "skill",
-   "kind": "library",
-   "definition": "A JavaScript library that provides a display list and interaction model for drawing on the HTML5 canvas.",
-   "certification": false,
-   "variants": [],
-   "relations": [
-    "part_of:createjs"
-   ]
-  },
-  {
-   "key": "ebay-api",
-   "name": "eBay API",
-   "class": "skill",
-   "kind": "platform",
-   "definition": "The programming interfaces of the eBay marketplace, used to list, search and manage items and orders from other software.",
-   "certification": false,
-   "variants": [],
-   "relations": []
-  },
-  {
-   "key": "ecological-study",
-   "name": "Ecological study",
-   "class": "skill",
-   "kind": "method",
-   "definition": "An observational study design in which the units analysed are whole populations or groups rather than individual people.",
-   "certification": false,
-   "variants": [],
-   "relations": []
-  },
-  {
-   "key": "econometric-model",
-   "name": "Econometric model",
-   "class": "skill",
-   "kind": "method",
-   "definition": "A statistical model that uses economic theory and data to estimate the relationships between economic variables.",
-   "certification": false,
-   "variants": [],
    "relations": []
   }
  ]

@@ -19,6 +19,261 @@
  ],
  "entries": [
   {
+   "key": "private-banking",
+   "name": "Private banking",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "Banking, lending and investment services tailored to wealthy individuals and families.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "privileged-access-management",
+   "name": "Privileged access management",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Controlling, securing and monitoring accounts with elevated permissions, such as administrator and root accounts.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "problem-solving",
+   "name": "Problem solving",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Working out what is causing a problem and finding and carrying out a way to resolve it.",
+   "certification": false,
+   "variants": [
+    "Problem-solving"
+   ],
+   "relations": [
+    "related:creative-problem-solving"
+   ]
+  },
+  {
+   "key": "process-hazard-analysis",
+   "name": "Process hazard analysis",
+   "class": "skill",
+   "kind": "method",
+   "definition": "A structured review of an industrial or chemical process to identify its hazards and judge whether its safeguards are adequate.",
+   "certification": false,
+   "variants": [
+    "Process Hazard Anlysis",
+    "Process hazards analysis"
+   ],
+   "relations": []
+  },
+  {
+   "key": "process-improvement",
+   "name": "Process improvement",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Finding and putting in place changes that make a work process faster, cheaper, safer or more reliable.",
+   "certification": false,
+   "variants": [
+    "Process Improvements",
+    "Process Improvements (Business)"
+   ],
+   "relations": []
+  },
+  {
+   "key": "process-management",
+   "name": "Process management",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Planning, monitoring and improving how the steps of a business or manufacturing process are carried out.",
+   "certification": false,
+   "variants": [
+    "Process Management (Business)"
+   ],
+   "relations": []
+  },
+  {
+   "key": "process-management-operating-systems",
+   "name": "Process management (operating systems)",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "The part of an operating system that creates, schedules, switches between and ends the running programs on a computer.",
+   "certification": false,
+   "variants": [
+    "Process Management (Computing)"
+   ],
+   "relations": []
+  },
+  {
+   "key": "process-piping",
+   "name": "Process piping",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Designing, fabricating, installing or inspecting piping that carries fluids in industrial plants such as refineries and chemical works.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "process-state",
+   "name": "Process state",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "The condition of an operating-system process at a given moment, such as new, ready, running, waiting or terminated.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "processing-js",
+   "name": "Processing.js",
+   "class": "skill",
+   "kind": "library",
+   "definition": "A JavaScript port of the Processing visual programming language that runs Processing sketches in web browsers.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "procore",
+   "name": "Procore",
+   "class": "skill",
+   "kind": "platform",
+   "definition": "Cloud-based construction management software for running projects, drawings, documents, budgets and field work in one place.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "product-analysis",
+   "name": "Product analysis",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Examining a product's features, quality, performance or market fit to judge how well it meets needs.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "product-analytics",
+   "name": "Product analytics",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Analysing how people use a digital product, such as which features they use and where they drop out, to guide product decisions.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "product-benchmarking",
+   "name": "Product benchmarking",
+   "class": "skill",
+   "kind": "method",
+   "definition": "Comparing a product's features, price or performance with competing products to see where it stands and how to improve it.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "product-catalogue-management",
+   "name": "Product catalogue management",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Creating, organising and keeping up to date the descriptions, prices and images of the products a business sells.",
+   "certification": false,
+   "variants": [
+    "Product catalog management"
+   ],
+   "relations": []
+  },
+  {
+   "key": "product-leadership",
+   "name": "Product leadership",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Guiding a product's vision, strategy and development and leading the people responsible for it.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "product-quality-assurance",
+   "name": "Product quality assurance",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Planning and carrying out checks across design, production and testing so that a product meets its quality requirements.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "product-requirements-documentation",
+   "name": "Product requirements documentation",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Writing product requirements documents that set out what a product should do, for whom and why, so design and engineering can build it.",
+   "certification": false,
+   "variants": [
+    "Product Requirement Documents",
+    "Product requirements document"
+   ],
+   "relations": []
+  },
+  {
+   "key": "product-strategy",
+   "name": "Product strategy",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Deciding what a product should achieve, for whom, and how it will succeed in its market over time.",
+   "certification": false,
+   "variants": [
+    "Product Strategies"
+   ],
+   "relations": [
+    "related:go-to-market-strategy"
+   ]
+  },
+  {
+   "key": "production-support",
+   "name": "Production support",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Monitoring and troubleshooting a live system to resolve problems that affect users.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "productivity-management",
+   "name": "Productivity management",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Monitoring and improving how efficiently people or processes turn effort into output.",
+   "certification": false,
+   "variants": [
+    "Managing Productivity"
+   ],
+   "relations": []
+  },
+  {
+   "key": "professional-negligence-in-english-law",
+   "name": "Professional negligence in English law",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "The area of English law about claims against professionals, such as solicitors and surveyors, who fail to meet the standard of care expected of them.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "professionalism",
+   "name": "Professionalism",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Behaving in line with the standards of conduct, reliability and courtesy expected in a workplace.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
    "key": "profitability-management",
    "name": "Profitability management",
    "class": "skill",
@@ -208,263 +463,6 @@
    "relations": [
     "broader:medical-devices"
    ]
-  },
-  {
-   "key": "protein-characterization",
-   "name": "Protein characterization",
-   "class": "skill",
-   "kind": "skill",
-   "definition": "Working out a protein's identity, size, structure, purity and properties with methods such as electrophoresis and mass spectrometry.",
-   "certification": false,
-   "variants": [],
-   "relations": []
-  },
-  {
-   "key": "protein-protein-interaction",
-   "name": "Protein-protein interaction",
-   "class": "skill",
-   "kind": "knowledge",
-   "definition": "The physical contacts between proteins that carry out biological functions, and the methods used to detect and study them.",
-   "certification": false,
-   "variants": [
-    "Protein Protein Interaction"
-   ],
-   "relations": []
-  },
-  {
-   "key": "protein-structure-prediction",
-   "name": "Protein structure prediction",
-   "class": "skill",
-   "kind": "method",
-   "definition": "Predicting a protein's three-dimensional shape from its amino-acid sequence, for example with AlphaFold.",
-   "certification": false,
-   "variants": [],
-   "relations": []
-  },
-  {
-   "key": "protocol-oriented-programming",
-   "name": "Protocol-oriented programming",
-   "class": "skill",
-   "kind": "method",
-   "definition": "A programming approach, popularised by Swift, that builds behaviour from protocols and their extensions instead of from class inheritance.",
-   "certification": false,
-   "variants": [
-    "Protocol Oriented Programming"
-   ],
-   "relations": [
-    "contrast:object-oriented-programming"
-   ]
-  },
-  {
-   "key": "prototype-javascript-framework",
-   "name": "Prototype JavaScript Framework",
-   "class": "skill",
-   "kind": "framework",
-   "definition": "A JavaScript framework that extends the browser's built-in objects with helpers for working with the page, Ajax requests and class-like inheritance.",
-   "certification": false,
-   "variants": [
-    "Prototype.js",
-    "Prototypejs"
-   ],
-   "relations": []
-  },
-  {
-   "key": "prototyping",
-   "name": "Prototyping",
-   "class": "skill",
-   "kind": "method",
-   "definition": "Building representations to explore and test a proposed system.",
-   "variants": [],
-   "relations": []
-  },
-  {
-   "key": "protractor",
-   "name": "Protractor",
-   "class": "skill",
-   "kind": "framework",
-   "definition": "An end-to-end test framework for Angular and AngularJS web apps that drives a real browser through Selenium WebDriver.",
-   "certification": false,
-   "variants": [],
-   "relations": []
-  },
-  {
-   "key": "provenance",
-   "name": "Data provenance",
-   "class": "skill",
-   "kind": "skill",
-   "definition": "Tracing data and claims to their sources and transformations.",
-   "variants": [
-    "lineage",
-    "Data Lineage"
-   ],
-   "relations": []
-  },
-  {
-   "key": "ptas-reduction",
-   "name": "PTAS reduction",
-   "class": "skill",
-   "kind": "knowledge",
-   "definition": "A reduction between optimisation problems that preserves the existence of a polynomial-time approximation scheme, used to compare how well problems can be approximated.",
-   "certification": false,
-   "variants": [],
-   "relations": []
-  },
-  {
-   "key": "public-history",
-   "name": "Public history",
-   "class": "skill",
-   "kind": "knowledge",
-   "definition": "The practice of presenting history to general audiences, in places such as museums, archives, historic sites and the media.",
-   "certification": false,
-   "variants": [],
-   "relations": []
-  },
-  {
-   "key": "public-key-cryptography",
-   "name": "Public-key cryptography",
-   "class": "skill",
-   "kind": "knowledge",
-   "definition": "Cryptography in which each user has a public key that anyone can use to encrypt or verify and a private key kept secret to decrypt or sign.",
-   "certification": false,
-   "variants": [
-    "Public key cryptography",
-    "Asymmetric cryptography"
-   ],
-   "relations": []
-  },
-  {
-   "key": "public-key-cryptography-standards",
-   "name": "Public-Key Cryptography Standards",
-   "class": "skill",
-   "kind": "standard",
-   "definition": "A set of numbered specifications, first published by RSA Laboratories, that define formats and interfaces for public-key cryptography, such as PKCS #1 for RSA.",
-   "certification": false,
-   "variants": [
-    "Public-Key Cryptography Standards (PKCS)",
-    "PKCS"
-   ],
-   "relations": []
-  },
-  {
-   "key": "public-policy",
-   "name": "Public policy",
-   "class": "skill",
-   "kind": "knowledge",
-   "definition": "The laws, rules and government actions that address public problems, and the study of how they are made and what effects they have.",
-   "certification": false,
-   "variants": [
-    "Public Policies"
-   ],
-   "relations": []
-  },
-  {
-   "key": "pug",
-   "name": "Pug",
-   "class": "skill",
-   "kind": "library",
-   "definition": "A template engine for Node.js and browsers that compiles indentation-based templates into HTML.",
-   "certification": false,
-   "variants": [
-    "Pugjs",
-    "Pug.js"
-   ],
-   "relations": []
-  },
-  {
-   "key": "punctuation",
-   "name": "Punctuation",
-   "class": "skill",
-   "kind": "skill",
-   "definition": "Using punctuation marks correctly so that written text is clear.",
-   "certification": false,
-   "variants": [],
-   "relations": []
-  },
-  {
-   "key": "puphpet",
-   "name": "PuPHPet",
-   "class": "skill",
-   "kind": "tool",
-   "definition": "A web-based tool that generates Vagrant and Puppet configuration for setting up PHP development environments.",
-   "certification": false,
-   "variants": [],
-   "relations": [
-    "related:php"
-   ]
-  },
-  {
-   "key": "puppet",
-   "name": "Puppet",
-   "class": "skill",
-   "kind": "tool",
-   "definition": "A configuration-management tool in which the desired state of servers is described in a declarative language and then enforced automatically.",
-   "certification": false,
-   "variants": [
-    "Puppet (Configuration Management Tool)"
-   ],
-   "relations": []
-  },
-  {
-   "key": "puppeteer",
-   "name": "Puppeteer",
-   "class": "skill",
-   "kind": "library",
-   "definition": "A Node.js library from the Chrome team that controls Chrome or Chromium through code, often for browser testing and automation.",
-   "certification": false,
-   "variants": [],
-   "relations": []
-  },
-  {
-   "key": "putty",
-   "name": "PuTTY",
-   "class": "skill",
-   "kind": "tool",
-   "definition": "A free terminal program, first made for Windows, that connects to remote machines over SSH, Telnet and serial lines.",
-   "certification": false,
-   "variants": [],
-   "relations": []
-  },
-  {
-   "key": "pymongo",
-   "name": "PyMongo",
-   "class": "skill",
-   "kind": "library",
-   "definition": "The official Python driver for working with MongoDB databases.",
-   "certification": false,
-   "variants": [],
-   "relations": [
-    "related:python"
-   ]
-  },
-  {
-   "key": "pytables",
-   "name": "PyTables",
-   "class": "skill",
-   "kind": "library",
-   "definition": "A Python library for managing large hierarchical datasets, built on the HDF5 file format and NumPy.",
-   "certification": false,
-   "variants": [],
-   "relations": []
-  },
-  {
-   "key": "python-for-data-analysis",
-   "name": "Python for data analysis",
-   "class": "skill",
-   "kind": "skill",
-   "definition": "Using Python and libraries such as pandas and NumPy to clean, explore and analyse data.",
-   "certification": false,
-   "variants": [],
-   "relations": []
-  },
-  {
-   "key": "python-server-pages",
-   "name": "Python Server Pages",
-   "class": "skill",
-   "kind": "framework",
-   "definition": "A way of embedding Python code in HTML pages so that a web server runs it to produce the page, much as PHP and JavaServer Pages do.",
-   "certification": false,
-   "variants": [],
-   "relations": []
   }
  ]
 }

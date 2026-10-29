@@ -19,6 +19,130 @@
  ],
  "entries": [
   {
+   "key": "hvac-controls",
+   "name": "HVAC controls",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "The sensors, thermostats and controllers that regulate heating, ventilation and air conditioning equipment.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "hybrid-mobile-app-development",
+   "name": "Hybrid mobile app development",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Building mobile apps with web technologies such as HTML, CSS and JavaScript inside a native container, so one code base runs on several platforms.",
+   "certification": false,
+   "variants": [
+    "Hybrid Mobile App"
+   ],
+   "relations": []
+  },
+  {
+   "key": "hydraulic-snubbing",
+   "name": "Hydraulic snubbing",
+   "class": "skill",
+   "kind": "method",
+   "definition": "An oil-well service technique in which a hydraulic unit pushes pipe into, or pulls it out of, a well that is under pressure.",
+   "certification": false,
+   "variants": [
+    "Snubbing"
+   ],
+   "relations": []
+  },
+  {
+   "key": "hydrological-modelling",
+   "name": "Hydrological modelling",
+   "class": "skill",
+   "kind": "method",
+   "definition": "Using mathematical models to simulate how water moves through catchments, rivers and aquifers.",
+   "certification": false,
+   "variants": [
+    "Hydrological modeling",
+    "Hydrologic modeling",
+    "Hydrologic modelling"
+   ],
+   "relations": []
+  },
+  {
+   "key": "hyperbaric-welding",
+   "name": "Hyperbaric welding",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Welding carried out at raised pressure, usually inside a sealed dry chamber around underwater structures such as pipelines.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "hypercompact-stellar-systems",
+   "name": "Hypercompact stellar systems",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "Dense clusters of stars predicted to stay bound to a supermassive black hole that has been flung out of its host galaxy.",
+   "certification": false,
+   "variants": [
+    "Hypercompact Stellar Systems (Astrophysics)"
+   ],
+   "relations": []
+  },
+  {
+   "key": "i2c",
+   "name": "I2C",
+   "class": "skill",
+   "kind": "standard",
+   "definition": "A two-wire serial bus protocol, created by Philips, that lets chips on a circuit board talk to each other.",
+   "certification": false,
+   "variants": [
+    "Inter-Integrated Circuit"
+   ],
+   "relations": []
+  },
+  {
+   "key": "iad",
+   "name": "iAd",
+   "class": "skill",
+   "kind": "platform",
+   "definition": "Apple's mobile advertising platform, which served ads inside iOS apps until it was shut down in 2016.",
+   "certification": false,
+   "variants": [
+    "IAd (Apple'S Advertising Platform)"
+   ],
+   "relations": []
+  },
+  {
+   "key": "iar-embedded-workbench",
+   "name": "IAR Embedded Workbench",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "An integrated development environment from IAR Systems, with a C and C++ compiler and debugger, for writing embedded software for microcontrollers.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "ibeacon",
+   "name": "iBeacon",
+   "class": "skill",
+   "kind": "platform",
+   "definition": "Apple's Bluetooth Low Energy technology in which a small transmitter broadcasts an identifier that nearby phones can detect, used for indoor location and proximity.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "ibm-bluemix",
+   "name": "IBM Bluemix",
+   "class": "skill",
+   "kind": "platform",
+   "definition": "IBM's cloud platform for building and running applications, renamed IBM Cloud in 2017.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
    "key": "ibm-business-process-manager",
    "name": "IBM Business Process Manager",
    "class": "skill",
@@ -178,6 +302,19 @@
    "variants": [
     "Ibm Rad",
     "Rational Application Developer"
+   ],
+   "relations": []
+  },
+  {
+   "key": "ibm-tivoli-enterprise-console",
+   "name": "IBM Tivoli Enterprise Console",
+   "class": "skill",
+   "kind": "platform",
+   "definition": "An IBM event-management product that collects events from monitored systems and applications, correlates them and triggers automated responses.",
+   "certification": false,
+   "variants": [
+    "Trivoli Enterprise Console",
+    "Tivoli Enterprise Console"
    ],
    "relations": []
   },
@@ -344,145 +481,6 @@
    "definition": "Reducing the storage and bandwidth that pictures and video need by encoding them with formats and codecs such as JPEG and H.264.",
    "certification": false,
    "variants": [],
-   "relations": []
-  },
-  {
-   "key": "image-generation",
-   "name": "Image generation",
-   "class": "skill",
-   "kind": "skill",
-   "definition": "Creating new images from text prompts or other inputs with generative AI models.",
-   "certification": false,
-   "variants": [],
-   "relations": [
-    "related:dall-e"
-   ]
-  },
-  {
-   "key": "image-segmentation",
-   "name": "Image segmentation",
-   "class": "skill",
-   "kind": "method",
-   "definition": "Dividing a digital image into regions, such as separating objects from the background, so that each part can be analysed.",
-   "certification": false,
-   "variants": [],
-   "relations": []
-  },
-  {
-   "key": "imaging-informatics",
-   "name": "Imaging informatics",
-   "class": "skill",
-   "kind": "knowledge",
-   "definition": "The field that applies information technology to medical images, covering how they are acquired, stored, shared and analysed.",
-   "certification": false,
-   "variants": [],
-   "relations": [
-    "broader:biomedical-informatics"
-   ]
-  },
-  {
-   "key": "immunization",
-   "name": "Immunization",
-   "class": "skill",
-   "kind": "knowledge",
-   "definition": "The use of vaccines to make people resistant to specific infectious diseases, including which vaccines are given, when and to whom.",
-   "certification": false,
-   "variants": [],
-   "relations": []
-  },
-  {
-   "key": "immunohaematology",
-   "name": "Immunohaematology",
-   "class": "skill",
-   "kind": "knowledge",
-   "definition": "The branch of laboratory medicine that studies blood-group antigens and antibodies, used for blood typing and for matching blood before a transfusion.",
-   "certification": false,
-   "variants": [
-    "Immunohematology"
-   ],
-   "relations": []
-  },
-  {
-   "key": "immutable-js",
-   "name": "Immutable.js",
-   "class": "skill",
-   "kind": "library",
-   "definition": "A JavaScript library from Facebook that provides persistent immutable data structures such as List, Map and Set.",
-   "certification": false,
-   "variants": [
-    "ImmutableJS"
-   ],
-   "relations": []
-  },
-  {
-   "key": "impact-js",
-   "name": "Impact.js",
-   "class": "skill",
-   "kind": "framework",
-   "definition": "A JavaScript game engine for making 2D games that run in the browser on the HTML5 canvas.",
-   "certification": false,
-   "variants": [
-    "ImpactJS"
-   ],
-   "relations": []
-  },
-  {
-   "key": "in-memory-database",
-   "name": "In-memory database",
-   "class": "skill",
-   "kind": "knowledge",
-   "definition": "A database management system that keeps its data mainly in a computer's main memory instead of on disk, to give faster access.",
-   "certification": false,
-   "variants": [
-    "In-Memory Database System",
-    "Main memory database"
-   ],
-   "relations": [
-    "broader:database-systems"
-   ]
-  },
-  {
-   "key": "inbound-logistics",
-   "name": "Inbound logistics",
-   "class": "skill",
-   "kind": "knowledge",
-   "definition": "The part of logistics that brings materials, parts and goods from suppliers into a business, including purchasing, transport, receiving and storage.",
-   "certification": false,
-   "variants": [],
-   "relations": []
-  },
-  {
-   "key": "incentive-spirometry",
-   "name": "Incentive spirometry",
-   "class": "skill",
-   "kind": "method",
-   "definition": "A breathing exercise in which a patient inhales deeply through a handheld device that shows how much air is drawn in, to keep the lungs expanded and help prevent complications such as pneumonia after surgery.",
-   "certification": false,
-   "variants": [],
-   "relations": []
-  },
-  {
-   "key": "incident-reporting",
-   "name": "Incident reporting",
-   "class": "skill",
-   "kind": "skill",
-   "definition": "Writing a factual, timely record of an accident, injury, security event or other incident, including what happened, who was involved and what was done.",
-   "certification": false,
-   "variants": [
-    "Incident Report"
-   ],
-   "relations": []
-  },
-  {
-   "key": "incurred-but-not-reported",
-   "name": "Incurred but not reported",
-   "class": "skill",
-   "kind": "knowledge",
-   "definition": "In insurance, the estimated cost of claims for events that have already happened but have not yet been reported to or settled by the insurer.",
-   "certification": false,
-   "variants": [
-    "IBNR"
-   ],
    "relations": []
   }
  ]

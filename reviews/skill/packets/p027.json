@@ -19,6 +19,122 @@
  ],
  "entries": [
   {
+   "key": "heritrix",
+   "name": "Heritrix",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "An open-source, archival-quality web crawler developed by the Internet Archive.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "higher-education-law",
+   "name": "Higher education law",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "The body of law that governs colleges and universities, including student rights, accreditation, funding and employment.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "higher-education-policy",
+   "name": "Higher education policy",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "The study and practice of the public and institutional rules, funding and governance that shape colleges and universities.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "hincii",
+   "name": "HincII",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "A type II restriction enzyme, formerly named HindII, that cuts DNA at a specific six-base recognition sequence.",
+   "certification": false,
+   "variants": [
+    "HindII"
+   ],
+   "relations": []
+  },
+  {
+   "key": "hindiii",
+   "name": "HindIII",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "A type II restriction enzyme from Haemophilus influenzae that cuts DNA at the sequence AAGCTT.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "hindsight-bias",
+   "name": "Hindsight bias",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "The tendency, after an outcome is known, to believe one would have predicted it.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "historic-preservation",
+   "name": "Historic preservation",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "The field of protecting and conserving historic buildings, sites and objects.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "historical-linguistics",
+   "name": "Historical linguistics",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "The study of how languages change over time and how they are related to one another.",
+   "certification": false,
+   "variants": [],
+   "relations": [
+    "related:applied-linguistics"
+   ]
+  },
+  {
+   "key": "history-of-education",
+   "name": "History of education",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "The study of how education and schooling have developed over time.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "history-of-medicine",
+   "name": "History of medicine",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "The study of how medical practice, knowledge and institutions have developed over time.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "history-of-philosophy",
+   "name": "History of philosophy",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "The study of how philosophical ideas and thinkers have developed over time.",
+   "certification": false,
+   "variants": [],
+   "relations": [
+    "related:ancient-philosophy"
+   ]
+  },
+  {
    "key": "history-of-science",
    "name": "History of science",
    "class": "skill",
@@ -337,130 +453,6 @@
    "class": "skill",
    "kind": "knowledge",
    "definition": "Systems that automatically monitor and control heating, ventilation and air conditioning equipment in buildings.",
-   "certification": false,
-   "variants": [],
-   "relations": []
-  },
-  {
-   "key": "hvac-controls",
-   "name": "HVAC controls",
-   "class": "skill",
-   "kind": "knowledge",
-   "definition": "The sensors, thermostats and controllers that regulate heating, ventilation and air conditioning equipment.",
-   "certification": false,
-   "variants": [],
-   "relations": []
-  },
-  {
-   "key": "hybrid-mobile-app-development",
-   "name": "Hybrid mobile app development",
-   "class": "skill",
-   "kind": "skill",
-   "definition": "Building mobile apps with web technologies such as HTML, CSS and JavaScript inside a native container, so one code base runs on several platforms.",
-   "certification": false,
-   "variants": [
-    "Hybrid Mobile App"
-   ],
-   "relations": []
-  },
-  {
-   "key": "hydraulic-snubbing",
-   "name": "Hydraulic snubbing",
-   "class": "skill",
-   "kind": "method",
-   "definition": "An oil-well service technique in which a hydraulic unit pushes pipe into, or pulls it out of, a well that is under pressure.",
-   "certification": false,
-   "variants": [
-    "Snubbing"
-   ],
-   "relations": []
-  },
-  {
-   "key": "hydrological-modelling",
-   "name": "Hydrological modelling",
-   "class": "skill",
-   "kind": "method",
-   "definition": "Using mathematical models to simulate how water moves through catchments, rivers and aquifers.",
-   "certification": false,
-   "variants": [
-    "Hydrological modeling",
-    "Hydrologic modeling",
-    "Hydrologic modelling"
-   ],
-   "relations": []
-  },
-  {
-   "key": "hyperbaric-welding",
-   "name": "Hyperbaric welding",
-   "class": "skill",
-   "kind": "skill",
-   "definition": "Welding carried out at raised pressure, usually inside a sealed dry chamber around underwater structures such as pipelines.",
-   "certification": false,
-   "variants": [],
-   "relations": []
-  },
-  {
-   "key": "hypercompact-stellar-systems",
-   "name": "Hypercompact stellar systems",
-   "class": "skill",
-   "kind": "knowledge",
-   "definition": "Dense clusters of stars predicted to stay bound to a supermassive black hole that has been flung out of its host galaxy.",
-   "certification": false,
-   "variants": [
-    "Hypercompact Stellar Systems (Astrophysics)"
-   ],
-   "relations": []
-  },
-  {
-   "key": "i2c",
-   "name": "I2C",
-   "class": "skill",
-   "kind": "standard",
-   "definition": "A two-wire serial bus protocol, created by Philips, that lets chips on a circuit board talk to each other.",
-   "certification": false,
-   "variants": [
-    "Inter-Integrated Circuit"
-   ],
-   "relations": []
-  },
-  {
-   "key": "iad",
-   "name": "iAd",
-   "class": "skill",
-   "kind": "platform",
-   "definition": "Apple's mobile advertising platform, which served ads inside iOS apps until it was shut down in 2016.",
-   "certification": false,
-   "variants": [
-    "IAd (Apple'S Advertising Platform)"
-   ],
-   "relations": []
-  },
-  {
-   "key": "iar-embedded-workbench",
-   "name": "IAR Embedded Workbench",
-   "class": "skill",
-   "kind": "tool",
-   "definition": "An integrated development environment from IAR Systems, with a C and C++ compiler and debugger, for writing embedded software for microcontrollers.",
-   "certification": false,
-   "variants": [],
-   "relations": []
-  },
-  {
-   "key": "ibeacon",
-   "name": "iBeacon",
-   "class": "skill",
-   "kind": "platform",
-   "definition": "Apple's Bluetooth Low Energy technology in which a small transmitter broadcasts an identifier that nearby phones can detect, used for indoor location and proximity.",
-   "certification": false,
-   "variants": [],
-   "relations": []
-  },
-  {
-   "key": "ibm-bluemix",
-   "name": "IBM Bluemix",
-   "class": "skill",
-   "kind": "platform",
-   "definition": "IBM's cloud platform for building and running applications, renamed IBM Cloud in 2017.",
    "certification": false,
    "variants": [],
    "relations": []

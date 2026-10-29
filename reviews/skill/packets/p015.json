@@ -19,6 +19,93 @@
  ],
  "entries": [
   {
+   "key": "curl",
+   "name": "cURL",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "A command-line tool and library for transferring data with URLs over protocols such as HTTP and FTP.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "curriculum-evaluation",
+   "name": "Curriculum evaluation",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Judging how well a curriculum meets its goals and how well students learn from it.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "curriculum-planning",
+   "name": "Curriculum planning",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Deciding what a course or programme will teach and in what order, including its goals, content and assessment.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "custom-post-types",
+   "name": "Custom post types",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "A WordPress feature that lets developers define their own kinds of content, beyond built-in posts and pages, with their own fields and templates.",
+   "certification": false,
+   "variants": [
+    "Custom post type"
+   ],
+   "relations": []
+  },
+  {
+   "key": "customer-engagement-planning",
+   "name": "Customer engagement planning",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Planning how and when a business will interact with its customers across channels to keep them interested and loyal.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "customer-engagement-strategy",
+   "name": "Customer engagement strategy",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Defining the long-term approach a business uses to build relationships with customers and keep them active.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "customer-experience-strategy",
+   "name": "Customer experience strategy",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Defining how a business wants customers to experience it across every contact, and the plan for achieving that.",
+   "certification": false,
+   "variants": [
+    "Customer Experience Strategy (CX)",
+    "CX strategy"
+   ],
+   "relations": [
+    "related:user-experience-design"
+   ]
+  },
+  {
+   "key": "customer-insight",
+   "name": "Customer insight",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Using data and research on customer behaviour and needs to understand customers and guide business decisions.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
    "key": "customer-success",
    "name": "Customer success",
    "class": "skill",
@@ -368,102 +455,6 @@
    "definition": "Representing data structures and relationships for a system.",
    "variants": [],
    "relations": []
-  },
-  {
-   "key": "data-pipeline",
-   "name": "Data pipeline",
-   "class": "skill",
-   "kind": "method",
-   "definition": "An automated series of steps that moves data from its sources through processing to a destination such as a data warehouse.",
-   "certification": false,
-   "variants": [],
-   "relations": [
-    "part_of:data-engineering"
-   ]
-  },
-  {
-   "key": "data-storage-technologies",
-   "name": "Data storage technologies",
-   "class": "skill",
-   "kind": "knowledge",
-   "definition": "The hardware and software used to store digital data, such as disk arrays, flash storage, object storage and tape.",
-   "certification": false,
-   "variants": [],
-   "relations": []
-  },
-  {
-   "key": "data-vault-modeling",
-   "name": "Data Vault modeling",
-   "class": "skill",
-   "kind": "method",
-   "definition": "A data-warehouse modelling method, created by Dan Linstedt, that organises data into hubs, links and satellites so that history is kept and many sources can be integrated.",
-   "certification": false,
-   "variants": [
-    "Data Vault"
-   ],
-   "relations": [
-    "broader:data-modeling"
-   ]
-  },
-  {
-   "key": "data-visualization",
-   "name": "Data visualization",
-   "class": "skill",
-   "kind": "skill",
-   "definition": "Encoding data visually to support interpretation.",
-   "variants": [],
-   "relations": []
-  },
-  {
-   "key": "data-warehouse-management",
-   "name": "Data warehouse management",
-   "class": "skill",
-   "kind": "skill",
-   "definition": "Administering a data warehouse, including its data loading, storage, performance, security and availability.",
-   "certification": false,
-   "variants": [],
-   "relations": []
-  },
-  {
-   "key": "data-wrangling",
-   "name": "Data wrangling",
-   "class": "skill",
-   "kind": "skill",
-   "definition": "Cleaning, reshaping and combining raw data so it can be analysed.",
-   "certification": false,
-   "variants": [
-    "Data munging"
-   ],
-   "relations": [
-    "related:validation"
-   ]
-  },
-  {
-   "key": "database-administration",
-   "name": "Database administration",
-   "class": "skill",
-   "kind": "skill",
-   "definition": "Installing, configuring, securing, backing up and tuning database systems so that they stay available and perform well.",
-   "certification": false,
-   "variants": [],
-   "relations": [
-    "related:database-design"
-   ]
-  },
-  {
-   "key": "database-as-a-service",
-   "name": "Database as a service",
-   "class": "skill",
-   "kind": "knowledge",
-   "definition": "A cloud service model in which a provider runs and manages a database that customers use without managing the underlying servers.",
-   "certification": false,
-   "variants": [
-    "Database as a Service (DBaaS)",
-    "DBaaS"
-   ],
-   "relations": [
-    "related:software-as-a-service"
-   ]
   }
  ]
 }

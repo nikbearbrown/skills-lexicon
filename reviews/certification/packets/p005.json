@@ -19,511 +19,566 @@
  ],
  "entries": [
   {
-   "key": "certified-supplier-quality-professional",
-   "name": "Certified Supplier Quality Professional",
+   "key": "bachelor-s-in-data-science",
+   "name": "Bachelor's in Data Science",
    "class": "certification",
    "kind": "credential",
-   "definition": "An ASQ certification for professionals who assess and manage the quality of suppliers.",
-   "certification": true,
-   "certification_scope": "single-issuer",
-   "variants": [
-    "Certified Supplier Quality Professional (CSQP)",
-    "CSQP"
-   ],
-   "relations": []
-  },
-  {
-   "key": "certified-surgical-technologist",
-   "name": "Certified Surgical Technologist",
-   "class": "certification",
-   "kind": "credential",
-   "definition": "A certification for surgical technologists, awarded by the National Board of Surgical Technology and Surgical Assisting.",
-   "certification": true,
-   "certification_scope": "single-issuer",
-   "variants": [],
-   "relations": []
-  },
-  {
-   "key": "certified-technical-trainer",
-   "name": "Certified Technical Trainer",
-   "class": "certification",
-   "kind": "credential",
-   "definition": "A certification showing that a trainer can plan and deliver technical training effectively.",
-   "certification": true,
-   "variants": [],
-   "relations": []
-  },
-  {
-   "key": "certified-technology-specialist",
-   "name": "Certified Technology Specialist",
-   "class": "certification",
-   "kind": "credential",
-   "definition": "An AVIXA certification for audiovisual professionals.",
-   "certification": true,
-   "certification_scope": "single-issuer",
-   "variants": [],
-   "relations": []
-  },
-  {
-   "key": "certified-teststand-developer",
-   "name": "Certified TestStand Developer",
-   "class": "certification",
-   "kind": "credential",
-   "definition": "A National Instruments certification for developers of automated test sequences with NI TestStand.",
-   "certification": true,
-   "certification_scope": "single-issuer",
-   "variants": [
-    "CTD"
-   ],
-   "relations": []
-  },
-  {
-   "key": "certified-transport-registered-nurse",
-   "name": "Certified Transport Registered Nurse",
-   "class": "certification",
-   "kind": "credential",
-   "definition": "A certification for registered nurses who care for patients during air and ground transport, awarded by the Board of Certification for Emergency Nursing.",
-   "certification": true,
-   "certification_scope": "single-issuer",
-   "variants": [
-    "CTRN"
-   ],
-   "relations": []
-  },
-  {
-   "key": "certified-urologic-physician-assistant",
-   "name": "Certified Urologic Physician Assistant",
-   "class": "certification",
-   "kind": "credential",
-   "definition": "A certification for physician assistants in urology, awarded by the Certification Board for Urologic Nurses and Associates.",
-   "certification": true,
-   "certification_scope": "single-issuer",
-   "variants": [
-    "Certified Urologic Physician'S Assistant",
-    "CUPA"
-   ],
-   "relations": []
-  },
-  {
-   "key": "certified-urologic-registered-nurse",
-   "name": "Certified Urologic Registered Nurse",
-   "class": "certification",
-   "kind": "credential",
-   "definition": "A certification for registered nurses in urology, awarded by the Certification Board for Urologic Nurses and Associates.",
-   "certification": true,
-   "certification_scope": "single-issuer",
-   "variants": [
-    "CURN"
-   ],
-   "relations": []
-  },
-  {
-   "key": "certified-wine-educator",
-   "name": "Certified Wine Educator",
-   "class": "certification",
-   "kind": "credential",
-   "definition": "An advanced wine teaching certification awarded by the Society of Wine Educators.",
-   "certification": true,
-   "certification_scope": "single-issuer",
-   "variants": [
-    "CWE"
-   ],
-   "relations": []
-  },
-  {
-   "key": "certified-wound-and-ostomy-care-nurse",
-   "name": "Certified Wound and Ostomy Care Nurse",
-   "class": "certification",
-   "kind": "credential",
-   "definition": "A nursing certification for nurses who care for people with wounds and ostomies.",
-   "certification": true,
-   "variants": [],
-   "relations": []
-  },
-  {
-   "key": "certified-wound-care-nurse",
-   "name": "Certified Wound Care Nurse",
-   "class": "certification",
-   "kind": "credential",
-   "definition": "A certification for registered nurses who specialise in wound care, awarded by the Wound, Ostomy and Continence Nursing Certification Board.",
-   "certification": true,
-   "certification_scope": "single-issuer",
-   "variants": [
-    "CWCN"
-   ],
-   "relations": []
-  },
-  {
-   "key": "change-management-certified-professional",
-   "name": "Change Management Certified Professional",
-   "class": "certification",
-   "kind": "credential",
-   "definition": "A certification in the principles and practice of organisational change management.",
-   "certification": true,
-   "variants": [],
-   "relations": []
-  },
-  {
-   "key": "chartered-fellow-of-the-chartered-institute-of-personnel-and-development",
-   "name": "Chartered Fellow of the Chartered Institute of Personnel and Development",
-   "class": "certification",
-   "kind": "credential",
-   "definition": "The highest membership grade of the Chartered Institute of Personnel and Development, held by senior HR and people-development professionals.",
-   "certification": true,
-   "certification_scope": "single-issuer",
-   "variants": [
-    "Chartered Fellow of the Chartered Institute of Personnel and Development (FCIPD)",
-    "FCIPD"
-   ],
-   "relations": []
-  },
-  {
-   "key": "chartered-member-of-the-chartered-institute-of-personnel-and-development",
-   "name": "Chartered Member of the Chartered Institute of Personnel and Development",
-   "class": "certification",
-   "kind": "credential",
-   "definition": "A membership grade of the Chartered Institute of Personnel and Development for experienced HR and people-development professionals.",
-   "certification": true,
-   "certification_scope": "single-issuer",
-   "variants": [
-    "Chartered Member of the Chartered Institute of Personnel and Development (MCIPD)",
-    "MCIPD"
-   ],
-   "relations": []
-  },
-  {
-   "key": "chauffeur-license",
-   "name": "Chauffeur license",
-   "class": "certification",
-   "kind": "credential",
-   "definition": "A driver's licence, issued by a state or country, that permits the holder to drive vehicles for hire.",
+   "definition": "An undergraduate degree in data science, awarded by universities and colleges.",
    "certification": true,
    "certification_scope": "many-issuers",
    "variants": [
-    "Chauffeur's License"
+    "Bachelor's degree in Data Science",
+    "Bachelors degree in Data Science"
    ],
    "relations": []
   },
   {
-   "key": "cisco-certified-support-technician",
-   "name": "Cisco Certified Support Technician",
+   "key": "bachelor-s-in-dietetics",
+   "name": "Bachelor's in Dietetics",
    "class": "certification",
    "kind": "credential",
-   "definition": "An entry-level Cisco certification for people starting out in IT support, networking or cybersecurity roles.",
-   "certification": true,
-   "certification_scope": "single-issuer",
-   "variants": [
-    "Cisco Certified Support Technician (CCST)"
-   ],
-   "relations": []
-  },
-  {
-   "key": "citrix-certified-administrator",
-   "name": "Citrix Certified Administrator",
-   "class": "certification",
-   "kind": "credential",
-   "definition": "A Citrix certification showing that a person can administer Citrix products such as application and desktop virtualisation.",
-   "certification": true,
-   "certification_scope": "single-issuer",
-   "variants": [],
-   "relations": []
-  },
-  {
-   "key": "citrix-certified-integration-architect",
-   "name": "Citrix Certified Integration Architect",
-   "class": "certification",
-   "kind": "credential",
-   "definition": "A Citrix certification for architects who design integrated solutions built on Citrix products.",
-   "certification": true,
-   "certification_scope": "single-issuer",
-   "variants": [
-    "Citrix Certified Integration Architecture",
-    "Citrix Certified Integratrion Architecture"
-   ],
-   "relations": []
-  },
-  {
-   "key": "class-b-commercial-driver-s-license",
-   "name": "Class B commercial driver's license",
-   "class": "certification",
-   "kind": "credential",
-   "definition": "A US state-issued commercial driver's license for driving a single heavy vehicle, or one towing a light trailer.",
+   "definition": "An undergraduate degree in dietetics, awarded by universities and colleges.",
    "certification": true,
    "certification_scope": "many-issuers",
    "variants": [
-    "CDL Class B License",
-    "Class B CDL"
+    "Bachelor's degree in Dietetics",
+    "Bachelors degree in Dietetics"
    ],
    "relations": []
   },
   {
-   "key": "class-c-commercial-driver-s-license",
-   "name": "Class C commercial driver's license",
+   "key": "bachelor-s-in-digital-arts",
+   "name": "Bachelor's in Digital Arts",
    "class": "certification",
    "kind": "credential",
-   "definition": "A US state-issued commercial driver's license for vehicles that fit neither Class A nor Class B but carry 16 or more passengers or hazardous materials that need placards.",
+   "definition": "An undergraduate degree in digital arts, awarded by universities and colleges.",
    "certification": true,
    "certification_scope": "many-issuers",
    "variants": [
-    "CDL Class C License",
-    "Class C CDL"
+    "Bachelor's degree in Digital Arts",
+    "Bachelors degree in Digital Arts"
    ],
    "relations": []
   },
   {
-   "key": "combat-lifesaver",
-   "name": "Combat Lifesaver",
+   "key": "bachelor-s-in-ecology",
+   "name": "Bachelor's in Ecology",
    "class": "certification",
    "kind": "credential",
-   "definition": "A US Army course and designation in advanced first aid for battlefield injuries, given to soldiers who are not medics.",
+   "definition": "An undergraduate degree in ecology, awarded by universities and colleges.",
    "certification": true,
-   "certification_scope": "single-issuer",
+   "certification_scope": "many-issuers",
    "variants": [
-    "Combat Life Saver",
-    "Combat Lifesaving"
+    "Bachelor's degree in Ecology",
+    "Bachelors degree in Ecology"
    ],
    "relations": []
   },
   {
-   "key": "comptia-a",
-   "name": "CompTIA A+",
+   "key": "bachelor-s-in-economics",
+   "name": "Bachelor's in Economics",
    "class": "certification",
    "kind": "credential",
-   "definition": "A CompTIA entry-level certification showing skills in supporting and troubleshooting computer hardware, operating systems and networks.",
+   "definition": "An undergraduate degree in economics, awarded by universities and colleges.",
    "certification": true,
-   "certification_scope": "single-issuer",
+   "certification_scope": "many-issuers",
    "variants": [
-    "CompTIA A+ CE",
-    "CompTIA A+ certification"
+    "Bachelor's degree in Economics",
+    "Bachelors degree in Economics"
+   ],
+   "relations": []
+  },
+  {
+   "key": "bachelor-s-in-education",
+   "name": "Bachelor's in Education",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "An undergraduate degree in education, awarded by universities and colleges.",
+   "certification": true,
+   "certification_scope": "many-issuers",
+   "variants": [
+    "Bachelor's degree in Education",
+    "Bachelors degree in Education"
+   ],
+   "relations": []
+  },
+  {
+   "key": "bachelor-s-in-electrical-engineering",
+   "name": "Bachelor's in Electrical Engineering",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "An undergraduate degree in electrical engineering, awarded by universities and colleges.",
+   "certification": true,
+   "certification_scope": "many-issuers",
+   "variants": [
+    "Bachelor's degree in Electrical Engineering",
+    "Bachelors degree in Electrical Engineering"
+   ],
+   "relations": []
+  },
+  {
+   "key": "bachelor-s-in-elementary-education",
+   "name": "Bachelor's in Elementary Education",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "An undergraduate degree in elementary education, awarded by universities and colleges.",
+   "certification": true,
+   "certification_scope": "many-issuers",
+   "variants": [
+    "Bachelor's degree in Elementary Education",
+    "Bachelors degree in Elementary Education"
+   ],
+   "relations": []
+  },
+  {
+   "key": "bachelor-s-in-english",
+   "name": "Bachelor's in English",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "An undergraduate degree in English, awarded by universities and colleges.",
+   "certification": true,
+   "certification_scope": "many-issuers",
+   "variants": [
+    "Bachelor's degree in English",
+    "Bachelors degree in English"
+   ],
+   "relations": []
+  },
+  {
+   "key": "bachelor-s-in-entrepreneurship",
+   "name": "Bachelor's in Entrepreneurship",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "An undergraduate degree in entrepreneurship, awarded by universities and colleges.",
+   "certification": true,
+   "certification_scope": "many-issuers",
+   "variants": [
+    "Bachelor's degree in Entrepreneurship",
+    "Bachelors degree in Entrepreneurship"
+   ],
+   "relations": []
+  },
+  {
+   "key": "bachelor-s-in-environmental-engineering",
+   "name": "Bachelor's in Environmental Engineering",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "An undergraduate degree in environmental engineering, awarded by universities and colleges.",
+   "certification": true,
+   "certification_scope": "many-issuers",
+   "variants": [
+    "Bachelor's degree in Environmental Engineering",
+    "Bachelors degree in Environmental Engineering"
+   ],
+   "relations": []
+  },
+  {
+   "key": "bachelor-s-in-environmental-policy",
+   "name": "Bachelor's in Environmental Policy",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "An undergraduate degree in environmental policy, awarded by universities and colleges.",
+   "certification": true,
+   "certification_scope": "many-issuers",
+   "variants": [
+    "Bachelor's degree in Environmental Policy",
+    "Bachelors degree in Environmental Policy"
+   ],
+   "relations": []
+  },
+  {
+   "key": "bachelor-s-in-environmental-science",
+   "name": "Bachelor's in Environmental Science",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "An undergraduate degree in environmental science, awarded by universities and colleges.",
+   "certification": true,
+   "certification_scope": "many-issuers",
+   "variants": [
+    "Bachelor's degree in Environmental Science",
+    "Bachelors degree in Environmental Science"
+   ],
+   "relations": []
+  },
+  {
+   "key": "bachelor-s-in-fashion-design",
+   "name": "Bachelor's in Fashion Design",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "An undergraduate degree in fashion design, awarded by universities and colleges.",
+   "certification": true,
+   "certification_scope": "many-issuers",
+   "variants": [
+    "Bachelor's degree in Fashion Design",
+    "Bachelors degree in Fashion Design"
+   ],
+   "relations": []
+  },
+  {
+   "key": "bachelor-s-in-film-and-media-studies",
+   "name": "Bachelor's in Film and Media Studies",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "An undergraduate degree in film and media studies, awarded by universities and colleges.",
+   "certification": true,
+   "certification_scope": "many-issuers",
+   "variants": [
+    "Bachelor's degree in Film and Media Studies",
+    "Bachelors degree in Film and Media Studies"
+   ],
+   "relations": []
+  },
+  {
+   "key": "bachelor-s-in-finance",
+   "name": "Bachelor's in Finance",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "An undergraduate degree in finance, awarded by universities and colleges.",
+   "certification": true,
+   "certification_scope": "many-issuers",
+   "variants": [
+    "Bachelor's degree in Finance",
+    "Bachelors degree in Finance"
+   ],
+   "relations": []
+  },
+  {
+   "key": "bachelor-s-in-fine-arts",
+   "name": "Bachelor's in Fine Arts",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "An undergraduate degree in fine arts, awarded by universities and colleges.",
+   "certification": true,
+   "certification_scope": "many-issuers",
+   "variants": [
+    "Bachelor's degree in Fine Arts",
+    "Bachelors degree in Fine Arts"
    ],
    "relations": [
-    "related:comptia-mobility"
+    "related:master-of-fine-arts"
    ]
   },
   {
-   "key": "comptia-advanced-security-practitioner-casp",
-   "name": "CompTIA Advanced Security Practitioner (CASP+)",
+   "key": "bachelor-s-in-forensic-science",
+   "name": "Bachelor's in Forensic Science",
    "class": "certification",
    "kind": "credential",
-   "definition": "A CompTIA certification for experienced security practitioners, covering advanced enterprise security architecture, operations and risk management.",
+   "definition": "An undergraduate degree in forensic science, awarded by universities and colleges.",
    "certification": true,
-   "certification_scope": "single-issuer",
+   "certification_scope": "many-issuers",
    "variants": [
-    "CompTIA Advanced Security Practitioner",
-    "CASP+",
-    "CompTIA CASP+",
-    "CompTIA CASP CE"
+    "Bachelor's degree in Forensic Science",
+    "Bachelors degree in Forensic Science"
    ],
    "relations": []
   },
   {
-   "key": "comptia-cdia",
-   "name": "CompTIA CDIA+",
+   "key": "bachelor-s-in-forestry",
+   "name": "Bachelor's in Forestry",
    "class": "certification",
    "kind": "credential",
-   "definition": "A CompTIA certification for document imaging professionals, covering the planning and design of document imaging systems.",
+   "definition": "An undergraduate degree in forestry, awarded by universities and colleges.",
    "certification": true,
-   "certification_scope": "single-issuer",
-   "variants": [],
-   "relations": []
-  },
-  {
-   "key": "comptia-cloud",
-   "name": "CompTIA Cloud+",
-   "class": "certification",
-   "kind": "credential",
-   "definition": "A CompTIA certification covering the configuration, deployment, security and management of cloud infrastructure.",
-   "certification": true,
-   "certification_scope": "single-issuer",
+   "certification_scope": "many-issuers",
    "variants": [
-    "CompTIA Cloud+ CE"
+    "Bachelor's degree in Forestry",
+    "Bachelors degree in Forestry"
    ],
    "relations": []
   },
   {
-   "key": "comptia-cloud-admin-professional-ccap",
-   "name": "CompTIA Cloud Admin Professional (CCAP)",
+   "key": "bachelor-s-in-game-design",
+   "name": "Bachelor's in Game Design",
    "class": "certification",
    "kind": "credential",
-   "definition": "A CompTIA stackable certification awarded for holding a specified combination of other CompTIA certifications, for cloud administration.",
+   "definition": "An undergraduate degree in game design, awarded by universities and colleges.",
    "certification": true,
-   "certification_scope": "single-issuer",
+   "certification_scope": "many-issuers",
    "variants": [
-    "CompTIA CCAP"
-   ],
-   "relations": []
-  },
-  {
-   "key": "comptia-cloud-essentials",
-   "name": "CompTIA Cloud Essentials+",
-   "class": "certification",
-   "kind": "credential",
-   "definition": "A CompTIA certification covering the business and technical fundamentals of cloud computing.",
-   "certification": true,
-   "certification_scope": "single-issuer",
-   "variants": [
-    "CompTIA Cloud Essentials"
-   ],
-   "relations": []
-  },
-  {
-   "key": "comptia-convergence-technologies-professional-ctp",
-   "name": "CompTIA Convergence Technologies Professional (CTP+)",
-   "class": "certification",
-   "kind": "credential",
-   "definition": "A CompTIA certification covering convergence technologies, the combining of voice, video and data on shared networks.",
-   "certification": true,
-   "certification_scope": "single-issuer",
-   "variants": [
-    "CompTIA CTP+"
-   ],
-   "relations": []
-  },
-  {
-   "key": "comptia-cybersecurity-analyst-cysa",
-   "name": "CompTIA Cybersecurity Analyst (CySA+)",
-   "class": "certification",
-   "kind": "credential",
-   "definition": "A CompTIA certification for security analysts, covering threat detection, vulnerability management and incident response.",
-   "certification": true,
-   "certification_scope": "single-issuer",
-   "variants": [
-    "CySA+",
-    "CompTIA CySA+",
-    "CompTIA Cybersecurity Analyst (CySA+) CE"
+    "Bachelor's degree in Game Design",
+    "Bachelors degree in Game Design"
    ],
    "relations": [
-    "related:cybersecurity"
+    "related:game-design"
    ]
   },
   {
-   "key": "comptia-digital-home-technology-integrator-dhti",
-   "name": "CompTIA Digital Home Technology Integrator (DHTI+)",
+   "key": "bachelor-s-in-geology",
+   "name": "Bachelor's in Geology",
    "class": "certification",
    "kind": "credential",
-   "definition": "A CompTIA certification for technicians who install and integrate technology systems in homes.",
+   "definition": "An undergraduate degree in geology, awarded by universities and colleges.",
    "certification": true,
-   "certification_scope": "single-issuer",
+   "certification_scope": "many-issuers",
    "variants": [
-    "CompTIA DHTI+"
+    "Bachelor's degree in Geology",
+    "Bachelors degree in Geology"
    ],
    "relations": []
   },
   {
-   "key": "comptia-e-biz",
-   "name": "CompTIA e-Biz+",
+   "key": "bachelor-s-in-graphic-design",
+   "name": "Bachelor's in Graphic Design",
    "class": "certification",
    "kind": "credential",
-   "definition": "A CompTIA certification covering the concepts and technology of electronic business.",
+   "definition": "An undergraduate degree in graphic design, awarded by universities and colleges.",
    "certification": true,
-   "certification_scope": "single-issuer",
-   "variants": [],
-   "relations": []
-  },
-  {
-   "key": "comptia-green-it-specialist",
-   "name": "CompTIA Green IT Specialist",
-   "class": "certification",
-   "kind": "credential",
-   "definition": "A CompTIA certification covering environmentally responsible use and management of IT equipment.",
-   "certification": true,
-   "certification_scope": "single-issuer",
-   "variants": [],
-   "relations": []
-  },
-  {
-   "key": "comptia-healthcare-it-technician",
-   "name": "CompTIA Healthcare IT Technician",
-   "class": "certification",
-   "kind": "credential",
-   "definition": "A CompTIA certification for IT technicians who support healthcare settings, covering topics such as electronic health records and healthcare regulations.",
-   "certification": true,
-   "certification_scope": "single-issuer",
-   "variants": [],
-   "relations": []
-  },
-  {
-   "key": "comptia-hti",
-   "name": "CompTIA HTI+",
-   "class": "certification",
-   "kind": "credential",
-   "definition": "A CompTIA certification for home technology integrators who install and integrate technology systems in homes.",
-   "certification": true,
-   "certification_scope": "single-issuer",
-   "variants": [],
-   "relations": []
-  },
-  {
-   "key": "comptia-i-net",
-   "name": "CompTIA i-Net+",
-   "class": "certification",
-   "kind": "credential",
-   "definition": "A CompTIA certification covering foundational knowledge of Internet, intranet and extranet technologies.",
-   "certification": true,
-   "certification_scope": "single-issuer",
-   "variants": [],
-   "relations": []
-  },
-  {
-   "key": "comptia-instructor",
-   "name": "CompTIA Instructor+",
-   "class": "certification",
-   "kind": "credential",
-   "definition": "A CompTIA certification for people who deliver technical training, covering classroom instruction skills.",
-   "certification": true,
-   "certification_scope": "single-issuer",
-   "variants": [],
-   "relations": []
-  },
-  {
-   "key": "comptia-it-for-sales",
-   "name": "CompTIA IT for Sales",
-   "class": "certification",
-   "kind": "credential",
-   "definition": "A CompTIA certification covering IT concepts and terminology for people who sell technology products and services.",
-   "certification": true,
-   "certification_scope": "single-issuer",
-   "variants": [],
-   "relations": []
-  },
-  {
-   "key": "comptia-it-fundamentals",
-   "name": "CompTIA IT Fundamentals+",
-   "class": "certification",
-   "kind": "credential",
-   "definition": "A CompTIA entry-level certification covering basic IT concepts such as hardware, software, networking and security.",
-   "certification": true,
-   "certification_scope": "single-issuer",
+   "certification_scope": "many-issuers",
    "variants": [
-    "CompTIA IT Fundamentals",
-    "CompTIA ITF+",
-    "CompTIA Strata - IT Fundamentals"
+    "Bachelor's degree in Graphic Design",
+    "Bachelors degree in Graphic Design"
    ],
    "relations": []
   },
   {
-   "key": "comptia-it-operations-specialist-cios",
-   "name": "CompTIA IT Operations Specialist (CIOS)",
+   "key": "bachelor-s-in-health-sciences",
+   "name": "Bachelor's in Health Sciences",
    "class": "certification",
    "kind": "credential",
-   "definition": "A CompTIA stackable certification awarded for holding a specified combination of other CompTIA certifications, for IT operations.",
+   "definition": "An undergraduate degree in health sciences, awarded by universities and colleges.",
    "certification": true,
-   "certification_scope": "single-issuer",
+   "certification_scope": "many-issuers",
    "variants": [
-    "CompTIA CIOS"
+    "Bachelor's degree in Health Sciences",
+    "Bachelors degree in Health Sciences"
    ],
    "relations": []
   },
   {
-   "key": "comptia-linux",
-   "name": "CompTIA Linux+",
+   "key": "bachelor-s-in-history",
+   "name": "Bachelor's in History",
    "class": "certification",
    "kind": "credential",
-   "definition": "A CompTIA certification covering the installation, configuration, security and troubleshooting of Linux systems.",
+   "definition": "An undergraduate degree in history, awarded by universities and colleges.",
    "certification": true,
-   "certification_scope": "single-issuer",
+   "certification_scope": "many-issuers",
    "variants": [
-    "CompTIA Linux+ Powered By LPI"
+    "Bachelor's degree in History",
+    "Bachelors degree in History"
+   ],
+   "relations": []
+  },
+  {
+   "key": "bachelor-s-in-hospitality-management",
+   "name": "Bachelor's in Hospitality Management",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "An undergraduate degree in hospitality management, awarded by universities and colleges.",
+   "certification": true,
+   "certification_scope": "many-issuers",
+   "variants": [
+    "Bachelor's degree in Hospitality Management",
+    "Bachelors degree in Hospitality Management"
+   ],
+   "relations": []
+  },
+  {
+   "key": "bachelor-s-in-human-resources-management",
+   "name": "Bachelor's in Human Resources Management",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "An undergraduate degree in human resources management, awarded by universities and colleges.",
+   "certification": true,
+   "certification_scope": "many-issuers",
+   "variants": [
+    "Bachelor's degree in Human Resources Management",
+    "Bachelors degree in Human Resources Management"
+   ],
+   "relations": []
+  },
+  {
+   "key": "bachelor-s-in-industrial-design",
+   "name": "Bachelor's in Industrial Design",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "An undergraduate degree in industrial design, awarded by universities and colleges.",
+   "certification": true,
+   "certification_scope": "many-issuers",
+   "variants": [
+    "Bachelor's degree in Industrial Design",
+    "Bachelors degree in Industrial Design"
+   ],
+   "relations": []
+  },
+  {
+   "key": "bachelor-s-in-industrial-engineering",
+   "name": "Bachelor's in Industrial Engineering",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "An undergraduate degree in industrial engineering, awarded by universities and colleges.",
+   "certification": true,
+   "certification_scope": "many-issuers",
+   "variants": [
+    "Bachelor's degree in Industrial Engineering",
+    "Bachelors degree in Industrial Engineering"
+   ],
+   "relations": []
+  },
+  {
+   "key": "bachelor-s-in-information-technology",
+   "name": "Bachelor's in Information Technology",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "An undergraduate degree in information technology, awarded by universities and colleges.",
+   "certification": true,
+   "certification_scope": "many-issuers",
+   "variants": [
+    "Bachelor's degree in Information Technology",
+    "Bachelors degree in Information Technology"
+   ],
+   "relations": []
+  },
+  {
+   "key": "bachelor-s-in-interior-design",
+   "name": "Bachelor's in Interior Design",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "An undergraduate degree in interior design, awarded by universities and colleges.",
+   "certification": true,
+   "certification_scope": "many-issuers",
+   "variants": [
+    "Bachelor's degree in Interior Design",
+    "Bachelors degree in Interior Design"
+   ],
+   "relations": []
+  },
+  {
+   "key": "bachelor-s-in-international-business",
+   "name": "Bachelor's in International Business",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "An undergraduate degree in international business, awarded by universities and colleges.",
+   "certification": true,
+   "certification_scope": "many-issuers",
+   "variants": [
+    "Bachelor's degree in International Business",
+    "Bachelors degree in International Business"
+   ],
+   "relations": []
+  },
+  {
+   "key": "bachelor-s-in-international-relations",
+   "name": "Bachelor's in International Relations",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "An undergraduate degree in international relations, awarded by universities and colleges.",
+   "certification": true,
+   "certification_scope": "many-issuers",
+   "variants": [
+    "Bachelor's degree in International Relations",
+    "Bachelors degree in International Relations"
+   ],
+   "relations": []
+  },
+  {
+   "key": "bachelor-s-in-journalism",
+   "name": "Bachelor's in Journalism",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "An undergraduate degree in journalism, awarded by universities and colleges.",
+   "certification": true,
+   "certification_scope": "many-issuers",
+   "variants": [
+    "Bachelor's degree in Journalism",
+    "Bachelors degree in Journalism"
+   ],
+   "relations": []
+  },
+  {
+   "key": "bachelor-s-in-kinesiology",
+   "name": "Bachelor's in Kinesiology",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "An undergraduate degree in kinesiology, awarded by universities and colleges.",
+   "certification": true,
+   "certification_scope": "many-issuers",
+   "variants": [
+    "Bachelor's degree in Kinesiology",
+    "Bachelors degree in Kinesiology"
+   ],
+   "relations": []
+  },
+  {
+   "key": "bachelor-s-in-legal-studies",
+   "name": "Bachelor's in Legal Studies",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "An undergraduate degree in legal studies, awarded by universities and colleges.",
+   "certification": true,
+   "certification_scope": "many-issuers",
+   "variants": [
+    "Bachelor's degree in Legal Studies",
+    "Bachelors degree in Legal Studies"
+   ],
+   "relations": []
+  },
+  {
+   "key": "bachelor-s-in-management-information-systems",
+   "name": "Bachelor's in Management Information Systems",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "An undergraduate degree in management information systems, awarded by universities and colleges.",
+   "certification": true,
+   "certification_scope": "many-issuers",
+   "variants": [
+    "Bachelor's degree in Management Information Systems",
+    "Bachelors degree in Management Information Systems"
+   ],
+   "relations": []
+  },
+  {
+   "key": "bachelor-s-in-marine-biology",
+   "name": "Bachelor's in Marine Biology",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "An undergraduate degree in marine biology, awarded by universities and colleges.",
+   "certification": true,
+   "certification_scope": "many-issuers",
+   "variants": [
+    "Bachelor's degree in Marine Biology",
+    "Bachelors degree in Marine Biology"
+   ],
+   "relations": []
+  },
+  {
+   "key": "bachelor-s-in-marketing",
+   "name": "Bachelor's in Marketing",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "An undergraduate degree in marketing, awarded by universities and colleges.",
+   "certification": true,
+   "certification_scope": "many-issuers",
+   "variants": [
+    "Bachelor's degree in Marketing",
+    "Bachelors degree in Marketing"
+   ],
+   "relations": []
+  },
+  {
+   "key": "bachelor-s-in-mass-communications",
+   "name": "Bachelor's in Mass Communications",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "An undergraduate degree in mass communications, awarded by universities and colleges.",
+   "certification": true,
+   "certification_scope": "many-issuers",
+   "variants": [
+    "Bachelor's degree in Mass Communications",
+    "Bachelors degree in Mass Communications"
+   ],
+   "relations": []
+  },
+  {
+   "key": "bachelor-s-in-materials-science-and-engineering",
+   "name": "Bachelor's in Materials Science and Engineering",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "An undergraduate degree in materials science and engineering, awarded by universities and colleges.",
+   "certification": true,
+   "certification_scope": "many-issuers",
+   "variants": [
+    "Bachelor's degree in Materials Science and Engineering",
+    "Bachelors degree in Materials Science and Engineering"
    ],
    "relations": []
   }

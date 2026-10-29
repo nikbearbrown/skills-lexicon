@@ -19,6 +19,185 @@
  ],
  "entries": [
   {
+   "key": "jdbctemplate",
+   "name": "JdbcTemplate",
+   "class": "skill",
+   "kind": "library",
+   "definition": "A class in the Spring Framework that simplifies database access with JDBC by handling connections, statements and exceptions.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "jdesktop-network-components",
+   "name": "JDesktop Network Components",
+   "class": "skill",
+   "kind": "library",
+   "definition": "A Sun Microsystems SwingLabs project of components for building data-oriented Java Swing desktop applications.",
+   "certification": false,
+   "variants": [
+    "JDNC"
+   ],
+   "relations": []
+  },
+  {
+   "key": "jersey",
+   "name": "Jersey",
+   "class": "skill",
+   "kind": "framework",
+   "definition": "An open-source Java framework, the reference implementation of JAX-RS, for building RESTful web services.",
+   "certification": false,
+   "variants": [
+    "Jersey (Java Framework)"
+   ],
+   "relations": []
+  },
+  {
+   "key": "jive-software",
+   "name": "Jive Software",
+   "class": "skill",
+   "kind": "platform",
+   "definition": "Enterprise collaboration software that gives an organisation an internal social network for sharing content and discussion.",
+   "certification": false,
+   "variants": [
+    "Jive (Software)"
+   ],
+   "relations": []
+  },
+  {
+   "key": "jmock",
+   "name": "jMock",
+   "class": "skill",
+   "kind": "library",
+   "definition": "A Java library for testing with mock objects, which lets a test state the calls it expects an object to receive.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "jmockit",
+   "name": "JMockit",
+   "class": "skill",
+   "kind": "library",
+   "definition": "A Java library for mocking objects, including static methods and constructors, in unit tests.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "job-scheduling",
+   "name": "Job scheduling",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Setting up, running and monitoring automated jobs, such as nightly batch runs, with a scheduler.",
+   "certification": false,
+   "variants": [
+    "Job Scheduling (Batch Processing)",
+    "Batch job scheduling"
+   ],
+   "relations": []
+  },
+  {
+   "key": "joint-clearance-and-access-verification-system",
+   "name": "Joint Clearance and Access Verification System",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "The application in the US Department of Defense's Joint Personnel Adjudication System that security managers use to verify and record personnel security clearances and access.",
+   "certification": false,
+   "variants": [
+    "Joint Clearance And Access Verification Systems",
+    "JCAVS"
+   ],
+   "relations": []
+  },
+  {
+   "key": "joint-commission-standards",
+   "name": "Joint Commission standards",
+   "class": "skill",
+   "kind": "standard",
+   "definition": "Accreditation standards for US hospitals and other health-care organisations, set by The Joint Commission (formerly JCAHO) to judge quality and patient safety.",
+   "certification": false,
+   "variants": [
+    "JCAHO Standards"
+   ],
+   "relations": []
+  },
+  {
+   "key": "jointjs",
+   "name": "JointJS",
+   "class": "skill",
+   "kind": "library",
+   "definition": "A JavaScript library for building interactive diagrams and visual editors in the browser.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "joomla",
+   "name": "Joomla",
+   "class": "skill",
+   "kind": "platform",
+   "definition": "An open-source content management system, written in PHP, for building and managing websites.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "jpeg",
+   "name": "JPEG",
+   "class": "skill",
+   "kind": "standard",
+   "definition": "A widely used standard for compressing photographs, from the Joint Photographic Experts Group, that makes small image files by discarding some detail.",
+   "certification": false,
+   "variants": [
+    "JPG"
+   ],
+   "relations": []
+  },
+  {
+   "key": "jsdata",
+   "name": "JSData",
+   "class": "skill",
+   "kind": "library",
+   "definition": "A framework-agnostic JavaScript library for managing application data in a client-side store.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "jsfiddle",
+   "name": "JSFiddle",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "An online editor for writing, running and sharing snippets of HTML, CSS and JavaScript.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "jsgrid",
+   "name": "jsGrid",
+   "class": "skill",
+   "kind": "library",
+   "definition": "A lightweight jQuery plugin for showing and editing data in a table-like grid with sorting, filtering and paging.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "json-web-token",
+   "name": "JSON Web Token",
+   "class": "skill",
+   "kind": "standard",
+   "definition": "A compact, URL-safe token format, defined in RFC 7519, for passing claims between parties as a signed or encrypted JSON object, commonly used for authentication.",
+   "certification": false,
+   "variants": [
+    "JSON Web Token (JWT)",
+    "JWT"
+   ],
+   "relations": []
+  },
+  {
    "key": "jsperf",
    "name": "jsPerf",
    "class": "skill",
@@ -275,183 +454,6 @@
    "variants": [
     "Labour market trends"
    ],
-   "relations": []
-  },
-  {
-   "key": "labour-economics",
-   "name": "Labour economics",
-   "class": "skill",
-   "kind": "knowledge",
-   "definition": "The branch of economics that studies labour markets, wages, employment and unemployment.",
-   "certification": false,
-   "variants": [
-    "Labor economics"
-   ],
-   "relations": []
-  },
-  {
-   "key": "labour-law",
-   "name": "Labour law",
-   "class": "skill",
-   "kind": "knowledge",
-   "definition": "The body of law governing the relationship between employers, employees and trade unions.",
-   "certification": false,
-   "variants": [
-    "Labour Laws",
-    "Labor law",
-    "Labor laws"
-   ],
-   "relations": []
-  },
-  {
-   "key": "land-atmosphere-interactions",
-   "name": "Land-atmosphere interactions",
-   "class": "skill",
-   "kind": "knowledge",
-   "definition": "The study of how the land surface and the atmosphere exchange energy, water, carbon and momentum.",
-   "certification": false,
-   "variants": [],
-   "relations": []
-  },
-  {
-   "key": "landing-page-optimization",
-   "name": "Landing page optimization",
-   "class": "skill",
-   "kind": "skill",
-   "definition": "Improving the design and content of web landing pages, often through testing, to raise the share of visitors who convert.",
-   "certification": false,
-   "variants": [
-    "Landing page optimisation"
-   ],
-   "relations": []
-  },
-  {
-   "key": "lando",
-   "name": "Lando",
-   "class": "skill",
-   "kind": "tool",
-   "definition": "A command-line tool, built on Docker, for creating and running local development environments.",
-   "certification": false,
-   "variants": [
-    "Lando (Software)"
-   ],
-   "relations": []
-  },
-  {
-   "key": "landscape-painting",
-   "name": "Landscape painting",
-   "class": "skill",
-   "kind": "skill",
-   "definition": "Painting natural scenery such as hills, fields, water and sky.",
-   "certification": false,
-   "variants": [],
-   "relations": []
-  },
-  {
-   "key": "landscaping-and-yard-care",
-   "name": "Landscaping and yard care",
-   "class": "skill",
-   "kind": "skill",
-   "definition": "Designing, planting and maintaining gardens, lawns and other outdoor spaces around buildings.",
-   "certification": false,
-   "variants": [],
-   "relations": [
-    "related:groundskeeping-and-yard-care"
-   ]
-  },
-  {
-   "key": "langchain",
-   "name": "LangChain",
-   "class": "skill",
-   "kind": "framework",
-   "definition": "A framework for composing language-model applications.",
-   "variants": [],
-   "relations": []
-  },
-  {
-   "key": "language-interpretation-and-translation",
-   "name": "Language interpretation and translation",
-   "class": "skill",
-   "kind": "skill",
-   "definition": "Converting spoken (interpretation) or written (translation) content from one language into another.",
-   "certification": false,
-   "variants": [],
-   "relations": []
-  },
-  {
-   "key": "language-teaching",
-   "name": "Language teaching",
-   "class": "skill",
-   "kind": "skill",
-   "definition": "Teaching learners to understand, speak, read and write a language, usually one that is not their first.",
-   "certification": false,
-   "variants": [],
-   "relations": []
-  },
-  {
-   "key": "large-language-models",
-   "name": "Large language models",
-   "class": "skill",
-   "kind": "knowledge",
-   "definition": "Understanding and applying large models of language.",
-   "variants": [
-    "LLMs",
-    "LLM"
-   ],
-   "relations": []
-  },
-  {
-   "key": "laser-engineering",
-   "name": "Laser engineering",
-   "class": "skill",
-   "kind": "knowledge",
-   "definition": "The engineering of lasers and laser-based systems, including their design, building and application.",
-   "certification": false,
-   "variants": [],
-   "relations": []
-  },
-  {
-   "key": "laser-level",
-   "name": "Laser level",
-   "class": "skill",
-   "kind": "tool",
-   "definition": "A tool that projects a level or plumb line of laser light so that surfaces and fixtures can be aligned on a building site.",
-   "certification": false,
-   "variants": [
-    "Laser Levels"
-   ],
-   "relations": []
-  },
-  {
-   "key": "laser-printing",
-   "name": "Laser printing",
-   "class": "skill",
-   "kind": "knowledge",
-   "definition": "Printing in which a laser draws an image onto a charged drum that picks up toner and transfers it to paper.",
-   "certification": false,
-   "variants": [],
-   "relations": [
-    "related:dot-matrix-printing"
-   ]
-  },
-  {
-   "key": "latin-american-and-latino-studies",
-   "name": "Latin American and Latino studies",
-   "class": "skill",
-   "kind": "knowledge",
-   "definition": "The interdisciplinary academic study of the history, cultures, politics and societies of Latin America and of Latino communities, especially in the United States.",
-   "certification": false,
-   "variants": [],
-   "relations": []
-  },
-  {
-   "key": "law-enforcement-operations",
-   "name": "Law enforcement operations",
-   "class": "skill",
-   "kind": "knowledge",
-   "definition": "Planning and carrying out the work of police and other law enforcement agencies.",
-   "certification": false,
-   "variants": [],
    "relations": []
   }
  ]

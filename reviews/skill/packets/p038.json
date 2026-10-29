@@ -19,6 +19,199 @@
  ],
  "entries": [
   {
+   "key": "mosaic-art",
+   "name": "Mosaic art",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Making pictures or patterns by setting small pieces of glass, stone or tile into a surface.",
+   "certification": false,
+   "variants": [
+    "Mosaics"
+   ],
+   "relations": []
+  },
+  {
+   "key": "motion-graphics",
+   "name": "Motion graphics",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Creating animated graphic design, such as titles, logos and explainer sequences, for video and screens.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "motion-graphics-software",
+   "name": "Motion graphics software",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "Software for creating animated graphics and visual effects, such as Adobe After Effects.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "motor-control-algorithms",
+   "name": "Motor control algorithms",
+   "class": "skill",
+   "kind": "method",
+   "definition": "Algorithms, such as field-oriented control, that regulate the torque, speed and position of electric motors.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "motor-control-firmware",
+   "name": "Motor control firmware",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "Embedded software that runs on a microcontroller or drive to regulate the speed, torque or position of an electric motor.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "motor-control-software",
+   "name": "Motor control software",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "Software that controls, configures or monitors electric motors and drives, including embedded control code and host-side tools.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "movable-type",
+   "name": "Movable Type",
+   "class": "skill",
+   "kind": "platform",
+   "definition": "A blogging and website content management platform first released by Six Apart in 2001.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "moz-pro",
+   "name": "Moz Pro",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "A subscription SEO software suite from Moz for keyword research, rank tracking, site audits and link analysis.",
+   "certification": false,
+   "variants": [
+    "Moz"
+   ],
+   "relations": []
+  },
+  {
+   "key": "mp-m",
+   "name": "MP/M",
+   "class": "skill",
+   "kind": "platform",
+   "definition": "A multi-user, multitasking operating system from Digital Research that extended CP/M.",
+   "certification": false,
+   "variants": [
+    "Multi-Programming Monitor Control Program (MP/M)",
+    "Multi-Programming Monitor Control Program"
+   ],
+   "relations": []
+  },
+  {
+   "key": "mri-software",
+   "name": "MRI Software",
+   "class": "skill",
+   "kind": "platform",
+   "definition": "A provider's software platforms for managing real estate, including property and lease management.",
+   "certification": false,
+   "variants": [
+    "MRI (Property Management Software)"
+   ],
+   "relations": []
+  },
+  {
+   "key": "mstest",
+   "name": "MSTest",
+   "class": "skill",
+   "kind": "framework",
+   "definition": "Microsoft's unit testing framework for .NET code, used with Visual Studio.",
+   "certification": false,
+   "variants": [],
+   "relations": [
+    "related:testing"
+   ]
+  },
+  {
+   "key": "mud-pump",
+   "name": "Mud pump",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "A high-pressure pump on a drilling rig that circulates drilling fluid down the drill string and back up the borehole.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "mulesoft",
+   "name": "MuleSoft",
+   "class": "skill",
+   "kind": "platform",
+   "definition": "Integration software, now owned by Salesforce, whose Anypoint Platform connects applications, data and APIs.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "multi-agent-systems",
+   "name": "Multi-agent systems",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "Systems made of several autonomous agents, such as software programs or robots, that interact to cooperate or compete in solving problems.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "multi-core-processors",
+   "name": "Multi-core processors",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "Processors that place two or more independent processing cores on one chip so they can run tasks in parallel.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "multi-core-programming",
+   "name": "Multi-core programming",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Writing software that divides work across the several cores of a processor so tasks run in parallel.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "multi-core-smp",
+   "name": "Multi-core SMP",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "Symmetric multiprocessing on multi-core processors, where identical cores share one memory and are scheduled by a single operating system.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "multi-core-software",
+   "name": "Multi-core software",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "Software designed or tuned to run its work in parallel across the several cores of a multi-core processor.",
+   "certification": false,
+   "variants": [],
+   "relations": [
+    "related:multi-core-processors"
+   ]
+  },
+  {
    "key": "multi-device-design",
    "name": "Multi-device design",
    "class": "skill",
@@ -200,6 +393,18 @@
    "relations": []
   },
   {
+   "key": "nant",
+   "name": "NAnt",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "A free build tool for .NET projects, modelled on Apache Ant, that runs build steps described in XML files.",
+   "certification": false,
+   "variants": [
+    "nAnt (Software)"
+   ],
+   "relations": []
+  },
+  {
    "key": "nasotracheal-suctioning",
    "name": "Nasotracheal suctioning",
    "class": "skill",
@@ -257,223 +462,6 @@
    "definition": "An interdisciplinary academic field that studies the histories, cultures, politics and societies of Native American peoples.",
    "certification": false,
    "variants": [],
-   "relations": []
-  },
-  {
-   "key": "nativescript",
-   "name": "NativeScript",
-   "class": "skill",
-   "kind": "framework",
-   "definition": "An open-source framework for building native iOS and Android apps from a single JavaScript or TypeScript code base.",
-   "certification": false,
-   "variants": [],
-   "relations": [
-    "related:javascript",
-    "related:typescript"
-   ]
-  },
-  {
-   "key": "natural-capital",
-   "name": "Natural capital",
-   "class": "skill",
-   "kind": "knowledge",
-   "definition": "The world's stock of natural assets, such as land, water, air and living things, that provides goods and services to people.",
-   "certification": false,
-   "variants": [],
-   "relations": []
-  },
-  {
-   "key": "natural-gas-pipelines",
-   "name": "Natural gas pipelines",
-   "class": "skill",
-   "kind": "knowledge",
-   "definition": "The pipeline systems that transport natural gas, and the engineering, operation and regulation of them.",
-   "certification": false,
-   "variants": [],
-   "relations": []
-  },
-  {
-   "key": "natural-language-generation",
-   "name": "Natural language generation",
-   "class": "skill",
-   "kind": "knowledge",
-   "definition": "The part of natural language processing concerned with having software produce readable human language from data or meaning.",
-   "certification": false,
-   "variants": [],
-   "relations": [
-    "broader:natural-language-processing",
-    "related:natural-language-understanding"
-   ]
-  },
-  {
-   "key": "natural-language-processing",
-   "name": "Natural language processing",
-   "class": "skill",
-   "kind": "method",
-   "definition": "Computational analysis and generation of human language.",
-   "variants": [
-    "NLP"
-   ],
-   "relations": []
-  },
-  {
-   "key": "natural-language-processing-systems",
-   "name": "Natural language processing systems",
-   "class": "skill",
-   "kind": "knowledge",
-   "definition": "Software systems that analyse or produce human language, such as translators, chatbots and text classifiers.",
-   "certification": false,
-   "variants": [],
-   "relations": [
-    "related:natural-language-processing"
-   ]
-  },
-  {
-   "key": "natural-language-understanding",
-   "name": "Natural language understanding",
-   "class": "skill",
-   "kind": "knowledge",
-   "definition": "The part of natural language processing concerned with getting machines to grasp the meaning and intent of human language.",
-   "certification": false,
-   "variants": [
-    "NLU"
-   ],
-   "relations": [
-    "broader:natural-language-processing"
-   ]
-  },
-  {
-   "key": "nautical-charts",
-   "name": "Nautical charts",
-   "class": "skill",
-   "kind": "knowledge",
-   "definition": "Maps made for marine navigation that show water depths, coastlines, hazards and aids to navigation.",
-   "certification": false,
-   "variants": [],
-   "relations": []
-  },
-  {
-   "key": "navigational-aid",
-   "name": "Navigational aid",
-   "class": "skill",
-   "kind": "tool",
-   "definition": "A device, marker or system, such as a buoy, beacon or radio transmitter, that helps ships or aircraft find their position and route.",
-   "certification": false,
-   "variants": [],
-   "relations": []
-  },
-  {
-   "key": "navisworks",
-   "name": "Navisworks",
-   "class": "skill",
-   "kind": "tool",
-   "definition": "Autodesk software that combines design and construction models of a building project so they can be reviewed and checked for clashes.",
-   "certification": false,
-   "variants": [
-    "Navisworks (BIM Software)",
-    "Autodesk Navisworks"
-   ],
-   "relations": []
-  },
-  {
-   "key": "nedgraphics",
-   "name": "NedGraphics",
-   "class": "skill",
-   "kind": "tool",
-   "definition": "Computer-aided design software for textile and fashion design, such as print, weave and knit design.",
-   "certification": false,
-   "variants": [
-    "NedGraphics (Textile Design Software)"
-   ],
-   "relations": [
-    "related:browzwear"
-   ]
-  },
-  {
-   "key": "needle-localization",
-   "name": "Needle localization",
-   "class": "skill",
-   "kind": "skill",
-   "definition": "Marking the location of a lesion, usually in the breast, by placing a needle or wire under imaging guidance so a surgeon can find and remove it.",
-   "certification": false,
-   "variants": [],
-   "relations": []
-  },
-  {
-   "key": "neonatal-intensive-care-nursing",
-   "name": "Neonatal intensive care nursing",
-   "class": "skill",
-   "kind": "skill",
-   "definition": "Nursing care for critically ill or premature newborns in a neonatal intensive care unit.",
-   "certification": false,
-   "variants": [],
-   "relations": []
-  },
-  {
-   "key": "net-development",
-   "name": ".NET development",
-   "class": "skill",
-   "kind": "skill",
-   "definition": "Building software applications on Microsoft's .NET platform, using languages such as C#.",
-   "certification": false,
-   "variants": [],
-   "relations": []
-  },
-  {
-   "key": "net-promoter-score",
-   "name": "Net Promoter Score",
-   "class": "skill",
-   "kind": "method",
-   "definition": "A customer loyalty metric based on how likely customers are to recommend a company, scored from -100 to 100.",
-   "certification": false,
-   "variants": [],
-   "relations": []
-  },
-  {
-   "key": "net-zero",
-   "name": "Net zero",
-   "class": "skill",
-   "kind": "knowledge",
-   "definition": "A state in which the greenhouse gases a person, company or country puts into the atmosphere are balanced by those removed.",
-   "certification": false,
-   "variants": [],
-   "relations": []
-  },
-  {
-   "key": "nette",
-   "name": "Nette",
-   "class": "skill",
-   "kind": "framework",
-   "definition": "An open-source PHP framework for building web applications.",
-   "certification": false,
-   "variants": [
-    "Nette Framework"
-   ],
-   "relations": []
-  },
-  {
-   "key": "network-intrusion-detection-system",
-   "name": "Network intrusion detection system",
-   "class": "skill",
-   "kind": "tool",
-   "definition": "A tool that monitors network traffic for signs of attacks or policy violations and raises alerts.",
-   "certification": false,
-   "variants": [
-    "Network Intrusion Detection Systems",
-    "NIDS"
-   ],
-   "relations": []
-  },
-  {
-   "key": "network-peering",
-   "name": "Network peering",
-   "class": "skill",
-   "kind": "knowledge",
-   "definition": "An arrangement in which two networks connect directly to exchange traffic between their own customers, usually without paying each other for transit.",
-   "certification": false,
-   "variants": [
-    "Peering"
-   ],
    "relations": []
   }
  ]

@@ -1,0 +1,538 @@
+{
+ "allowed_kinds": [
+  "ability",
+  "credential",
+  "framework",
+  "human-language",
+  "knowledge",
+  "library",
+  "markup-language",
+  "method",
+  "modeling-language",
+  "platform",
+  "programming-language",
+  "skill",
+  "standard",
+  "style-language",
+  "tool",
+  "work-activity"
+ ],
+ "entries": [
+  {
+   "key": "diploma-in-automotive-technology",
+   "name": "Diploma in Automotive Technology",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A vocational diploma awarded on completing a programme of study in automotive technology.",
+   "certification": true,
+   "certification_scope": "many-issuers",
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "diploma-in-carpentry",
+   "name": "Diploma in Carpentry",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A vocational diploma awarded on completing a programme of study in carpentry.",
+   "certification": true,
+   "certification_scope": "many-issuers",
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "diploma-in-cosmetology",
+   "name": "Diploma in Cosmetology",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A vocational diploma awarded on completing a programme of study in cosmetology.",
+   "certification": true,
+   "certification_scope": "many-issuers",
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "diploma-in-culinary-arts",
+   "name": "Diploma in Culinary Arts",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A vocational diploma awarded on completing a programme of study in culinary arts.",
+   "certification": true,
+   "certification_scope": "many-issuers",
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "diploma-in-diesel-mechanic-technology",
+   "name": "Diploma in Diesel Mechanic Technology",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A vocational diploma awarded on completing a programme of study in diesel mechanic technology.",
+   "certification": true,
+   "certification_scope": "many-issuers",
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "diploma-in-emergency-medical-technician-emt",
+   "name": "Diploma in Emergency Medical Technician (EMT)",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A vocational diploma awarded on completing a programme of study in emergency medical technician (EMT) training.",
+   "certification": true,
+   "certification_scope": "many-issuers",
+   "variants": [],
+   "relations": [
+    "related:national-registry-emergency-medical-technician"
+   ]
+  },
+  {
+   "key": "diploma-in-esthetics",
+   "name": "Diploma in Esthetics",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A vocational diploma awarded on completing a programme of study in esthetics.",
+   "certification": true,
+   "certification_scope": "many-issuers",
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "diploma-in-hotel-management-and-catering-technology",
+   "name": "Diploma in Hotel Management and Catering Technology",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A diploma, awarded by technical boards and polytechnic institutions in India, covering hotel operations, food production and catering.",
+   "certification": true,
+   "certification_scope": "many-issuers",
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "diploma-in-hvac-heating-ventilation-and-air-conditioning-repair",
+   "name": "Diploma in HVAC (Heating, Ventilation, and Air Conditioning) Repair",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A vocational diploma awarded on completing a programme of study in heating, ventilation and air conditioning (HVAC) repair.",
+   "certification": true,
+   "certification_scope": "many-issuers",
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "diploma-in-marine-mechanic-technology",
+   "name": "Diploma in Marine Mechanic Technology",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A vocational diploma awarded on completing a programme of study in marine mechanic technology.",
+   "certification": true,
+   "certification_scope": "many-issuers",
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "diploma-in-massage-therapy",
+   "name": "Diploma in Massage Therapy",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A vocational diploma awarded on completing a programme of study in massage therapy.",
+   "certification": true,
+   "certification_scope": "many-issuers",
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "diploma-in-medical-assistant",
+   "name": "Diploma in Medical Assistant",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A vocational diploma awarded on completing a programme of study in medical assisting.",
+   "certification": true,
+   "certification_scope": "many-issuers",
+   "variants": [],
+   "relations": [
+    "related:certified-medical-assistant",
+    "related:certified-clinical-medical-assistant"
+   ]
+  },
+  {
+   "key": "diploma-in-medical-billing-and-coding",
+   "name": "Diploma in Medical Billing and Coding",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A vocational diploma awarded on completing a programme of study in medical billing and coding.",
+   "certification": true,
+   "certification_scope": "many-issuers",
+   "variants": [],
+   "relations": [
+    "related:medical-billing-and-coding",
+    "related:certified-medical-billing-and-coding-specialist"
+   ]
+  },
+  {
+   "key": "diploma-in-surgical-technology",
+   "name": "Diploma in Surgical Technology",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A vocational diploma awarded on completing a programme of study in surgical technology.",
+   "certification": true,
+   "certification_scope": "many-issuers",
+   "variants": [],
+   "relations": [
+    "related:certified-surgical-technologist"
+   ]
+  },
+  {
+   "key": "divemaster",
+   "name": "Divemaster",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A professional scuba-diving rating for people who lead and supervise certified divers, awarded by diving training agencies such as PADI, SSI and NAUI.",
+   "certification": true,
+   "certification_scope": "many-issuers",
+   "variants": [
+    "Divemaster (DM) Qualification"
+   ],
+   "relations": []
+  },
+  {
+   "key": "doctor-of-dental-medicine",
+   "name": "Doctor of Dental Medicine",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A professional doctoral degree in dentistry, awarded by dental schools in the United States and elsewhere.",
+   "certification": true,
+   "certification_scope": "many-issuers",
+   "variants": [
+    "Doctor Of Dental Medicine (DMD)",
+    "DMD"
+   ],
+   "relations": []
+  },
+  {
+   "key": "doctor-of-dental-surgery",
+   "name": "Doctor of Dental Surgery",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A professional doctoral degree in dentistry, awarded by dental schools in the United States and elsewhere.",
+   "certification": true,
+   "certification_scope": "many-issuers",
+   "variants": [
+    "Doctor Of Dental Surgery (DDS)",
+    "DDS"
+   ],
+   "relations": []
+  },
+  {
+   "key": "doctor-of-medicine",
+   "name": "Doctor of Medicine",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A professional doctoral degree in medicine that qualifies graduates to go on to practise as physicians.",
+   "certification": true,
+   "certification_scope": "many-issuers",
+   "variants": [
+    "Doctor Of Medicine (MD)"
+   ],
+   "relations": []
+  },
+  {
+   "key": "doctor-of-nursing-practice",
+   "name": "Doctor of Nursing Practice",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A practice-focused doctoral degree in nursing for advanced clinical practice, leadership and nursing care improvement.",
+   "certification": true,
+   "certification_scope": "many-issuers",
+   "variants": [
+    "DNP"
+   ],
+   "relations": []
+  },
+  {
+   "key": "doctor-of-pharmacy",
+   "name": "Doctor of Pharmacy",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A professional doctoral degree in pharmacy that qualifies graduates to go on to practise as pharmacists.",
+   "certification": true,
+   "certification_scope": "many-issuers",
+   "variants": [
+    "Doctor Of Pharmacy (PharmD)",
+    "PharmD"
+   ],
+   "relations": []
+  },
+  {
+   "key": "doctor-of-physical-therapy",
+   "name": "Doctor of Physical Therapy",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A doctoral degree that qualifies graduates to practise as physical therapists in the United States.",
+   "certification": true,
+   "certification_scope": "many-issuers",
+   "variants": [
+    "DPT"
+   ],
+   "relations": []
+  },
+  {
+   "key": "doctor-of-public-health",
+   "name": "Doctor of Public Health",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A doctoral degree in public health focused on professional practice and leadership.",
+   "certification": true,
+   "certification_scope": "many-issuers",
+   "variants": [
+    "DrPH"
+   ],
+   "relations": []
+  },
+  {
+   "key": "doctor-of-veterinary-medicine",
+   "name": "Doctor of Veterinary Medicine",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A professional doctoral degree in veterinary medicine, awarded as DVM by most schools and as VMD by the University of Pennsylvania.",
+   "certification": true,
+   "certification_scope": "many-issuers",
+   "variants": [
+    "Doctor Of Veterinary Medicine (DVM/VMD)",
+    "DVM",
+    "VMD"
+   ],
+   "relations": []
+  },
+  {
+   "key": "doubles-triples-endorsement",
+   "name": "Doubles/triples endorsement",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A commercial driver's licence endorsement that permits towing two or three trailers.",
+   "certification": true,
+   "certification_scope": "many-issuers",
+   "variants": [
+    "Doubles Endorsement",
+    "Triples Endorsement"
+   ],
+   "relations": []
+  },
+  {
+   "key": "driver-s-license",
+   "name": "Driver's license",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A government-issued licence that permits a person to drive motor vehicles on public roads.",
+   "certification": true,
+   "certification_scope": "many-issuers",
+   "variants": [
+    "Valid Driver's License",
+    "Driver's licence"
+   ],
+   "relations": []
+  },
+  {
+   "key": "drone-pilot-certificate",
+   "name": "Drone pilot certificate",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A certificate that allows a person to fly small unmanned aircraft commercially; in the United States, the FAA Remote Pilot Certificate under Part 107.",
+   "certification": true,
+   "certification_scope": "many-issuers",
+   "variants": [
+    "Remote Pilot Certificate"
+   ],
+   "relations": []
+  },
+  {
+   "key": "electric-vehicle-infrastructure-training-program",
+   "name": "Electric Vehicle Infrastructure Training Program",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A US training and certification programme for electricians who install electric vehicle charging equipment.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [
+    "Electric Vehicle Infrastructure Training Program (EVITP)",
+    "EVITP"
+   ],
+   "relations": []
+  },
+  {
+   "key": "emergency-medical-responder",
+   "name": "Emergency Medical Responder",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "An entry-level emergency medical care credential, below Emergency Medical Technician, for giving immediate lifesaving care until more advanced help arrives.",
+   "certification": true,
+   "certification_scope": "many-issuers",
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "emergency-nurse-pediatric-course",
+   "name": "Emergency Nurse Pediatric Course",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A pediatric emergency nursing course from the Emergency Nurses Association whose completion earns a provider card.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [
+    "Emergency Nurse Pediatric Course (ENPC)",
+    "ENPC"
+   ],
+   "relations": []
+  },
+  {
+   "key": "engineer-in-training",
+   "name": "Engineer in Training",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A US designation given by a state licensing board to a graduate engineer who has passed the Fundamentals of Engineering exam, the first step toward a Professional Engineer licence.",
+   "certification": true,
+   "certification_scope": "many-issuers",
+   "variants": [
+    "EIT",
+    "Engineer Intern"
+   ],
+   "relations": []
+  },
+  {
+   "key": "enhanced-security-check-esc-clearance",
+   "name": "Enhanced Security Check (eSC) clearance",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A UK government security clearance level that adds further checks to the Security Check (SC) level.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [
+    "Enhanced Security Check (eSC)",
+    "eSC"
+   ],
+   "relations": [
+    "related:security-check-sc-clearance"
+   ]
+  },
+  {
+   "key": "expanded-functions-dental-assistant",
+   "name": "Expanded Functions Dental Assistant",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A state-recognised credential that lets a dental assistant do extra tasks, such as placing and finishing restorations, under a dentist's supervision.",
+   "certification": true,
+   "certification_scope": "many-issuers",
+   "variants": [
+    "EFDA",
+    "Expanded Function Dental Assistant"
+   ],
+   "relations": []
+  },
+  {
+   "key": "facilities-management-administrator",
+   "name": "Facilities Management Administrator",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A professional designation in facilities management awarded by BOMI International to people who complete its coursework and exams.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [
+    "Facilities Management Administrator (FMA)"
+   ],
+   "relations": []
+  },
+  {
+   "key": "family-nurse-practitioner",
+   "name": "Family Nurse Practitioner",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A nurse practitioner credential for providing primary care to patients of all ages, from infants to older adults.",
+   "certification": true,
+   "certification_scope": "many-issuers",
+   "variants": [
+    "Family Nursing Practitioner"
+   ],
+   "relations": [
+    "related:adult-nurse-practitioner"
+   ]
+  },
+  {
+   "key": "fellow-of-the-casualty-actuarial-society",
+   "name": "Fellow of the Casualty Actuarial Society",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "The highest actuarial designation awarded by the Casualty Actuarial Society to property and casualty actuaries who pass its exams and meet its other requirements.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [
+    "Fellow In The Casualty Actuarial Society",
+    "FCAS"
+   ],
+   "relations": []
+  },
+  {
+   "key": "fellow-of-the-society-of-actuaries",
+   "name": "Fellow of the Society of Actuaries",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "The highest actuarial designation awarded by the Society of Actuaries to candidates who pass its fellowship exams and meet its other requirements.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [],
+   "relations": [
+    "related:associate-of-the-society-of-actuaries"
+   ]
+  },
+  {
+   "key": "flagger-certification",
+   "name": "Flagger certification",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A certificate showing that a person has been trained to direct traffic safely through road work zones as a flagger.",
+   "certification": true,
+   "certification_scope": "many-issuers",
+   "variants": [
+    "Flagger certificate"
+   ],
+   "relations": []
+  },
+  {
+   "key": "flight-attendant-certification",
+   "name": "Flight attendant certification",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A credential showing that a person has completed the safety training and met the regulatory requirements to work as cabin crew on commercial flights.",
+   "certification": true,
+   "certification_scope": "many-issuers",
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "fmcsa-certified-medical-examiner",
+   "name": "FMCSA Certified Medical Examiner",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A certification, through the US Federal Motor Carrier Safety Administration's National Registry, that lets a health professional perform medical examinations for commercial truck and bus drivers.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [
+    "DOT Certified Medical Examiner"
+   ],
+   "relations": []
+  },
+  {
+   "key": "forklift-certification",
+   "name": "Forklift certification",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A certificate showing that a person has been trained and evaluated to operate a forklift safely.",
+   "certification": true,
+   "certification_scope": "many-issuers",
+   "variants": [],
+   "relations": [
+    "related:boom-lift-certification",
+    "related:aerial-lift-certification"
+   ]
+  }
+ ]
+}

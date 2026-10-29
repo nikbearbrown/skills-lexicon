@@ -1,0 +1,504 @@
+{
+ "allowed_kinds": [
+  "ability",
+  "credential",
+  "framework",
+  "human-language",
+  "knowledge",
+  "library",
+  "markup-language",
+  "method",
+  "modeling-language",
+  "platform",
+  "programming-language",
+  "skill",
+  "standard",
+  "style-language",
+  "tool",
+  "work-activity"
+ ],
+ "entries": [
+  {
+   "key": "vision-rehabilitation",
+   "name": "Vision rehabilitation",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Training and therapy that help people with vision loss use their remaining sight and other abilities to manage everyday tasks.",
+   "certification": false,
+   "variants": [],
+   "relations": [
+    "broader:rehabilitation"
+   ]
+  },
+  {
+   "key": "visme",
+   "name": "Visme",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "An online tool for making presentations, infographics and other visual content.",
+   "certification": false,
+   "variants": [
+    "Visme (Software)"
+   ],
+   "relations": []
+  },
+  {
+   "key": "vissim",
+   "name": "VisSim",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "A visual block-diagram program for modelling and simulating dynamic systems.",
+   "certification": false,
+   "variants": [
+    "Vissim (Mathematical Modeling)"
+   ],
+   "relations": []
+  },
+  {
+   "key": "visual-impairment-education",
+   "name": "Visual impairment education",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "The specialist teaching of students who are blind or have low vision, adapting materials and methods to their needs.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "visual-odometry",
+   "name": "Visual odometry",
+   "class": "skill",
+   "kind": "method",
+   "definition": "A computer-vision technique that estimates how a camera or robot has moved by analysing a sequence of images.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "visual-storytelling",
+   "name": "Visual storytelling",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Telling a story or making a point mainly through images, video, layout and design rather than text.",
+   "certification": false,
+   "variants": [],
+   "relations": [
+    "related:interactive-storytelling"
+   ]
+  },
+  {
+   "key": "vmware-aria-automation",
+   "name": "VMware Aria Automation",
+   "class": "skill",
+   "kind": "platform",
+   "definition": "A VMware platform for automating the deployment and management of cloud infrastructure and applications, formerly called vRealize Automation.",
+   "certification": false,
+   "variants": [
+    "vRealize Automation"
+   ],
+   "relations": []
+  },
+  {
+   "key": "vmware-aria-automation-orchestrator",
+   "name": "VMware Aria Automation Orchestrator",
+   "class": "skill",
+   "kind": "platform",
+   "definition": "A VMware workflow automation engine that builds and runs automated workflows for IT tasks, formerly called vRealize Orchestrator.",
+   "certification": false,
+   "variants": [
+    "vRealize Orchestrator",
+    "VMware VRealize Orchestrator"
+   ],
+   "relations": []
+  },
+  {
+   "key": "vmware-aria-operations",
+   "name": "VMware Aria Operations",
+   "class": "skill",
+   "kind": "platform",
+   "definition": "A VMware platform for monitoring the performance, capacity and health of IT infrastructure and applications, formerly called vRealize Operations.",
+   "certification": false,
+   "variants": [
+    "vRealize Operations"
+   ],
+   "relations": []
+  },
+  {
+   "key": "vmware-aria-operations-for-logs",
+   "name": "VMware Aria Operations for Logs",
+   "class": "skill",
+   "kind": "platform",
+   "definition": "A VMware service for collecting, searching and analysing log data from IT systems, formerly called vRealize Log Insight.",
+   "certification": false,
+   "variants": [
+    "vRealize Log Insight"
+   ],
+   "relations": []
+  },
+  {
+   "key": "vmware-aria-suite",
+   "name": "VMware Aria Suite",
+   "class": "skill",
+   "kind": "platform",
+   "definition": "A bundle of VMware cloud management products for automation, operations, logging and cost management, formerly called vRealize Suite.",
+   "certification": false,
+   "variants": [
+    "vRealize Suite"
+   ],
+   "relations": []
+  },
+  {
+   "key": "vocational-rehabilitation-counseling",
+   "name": "Vocational rehabilitation counseling",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Counseling people with disabilities or injuries to help them choose, prepare for, find and keep suitable work.",
+   "certification": false,
+   "variants": [
+    "Vocational rehabilitation counselling"
+   ],
+   "relations": []
+  },
+  {
+   "key": "voice-ui-design",
+   "name": "Voice UI design",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Designing interfaces that people use by speaking, such as voice assistants and phone menus.",
+   "certification": false,
+   "variants": [
+    "Voice user interface design"
+   ],
+   "relations": [
+    "broader:user-interface-design"
+   ]
+  },
+  {
+   "key": "vpython",
+   "name": "VPython",
+   "class": "skill",
+   "kind": "library",
+   "definition": "A Python module for creating simple 3D visualisations and animations, widely used for teaching physics.",
+   "certification": false,
+   "variants": [],
+   "relations": [
+    "related:python"
+   ]
+  },
+  {
+   "key": "vue-js",
+   "name": "Vue.js",
+   "class": "skill",
+   "kind": "framework",
+   "definition": "A JavaScript framework for building user interfaces and single-page web applications.",
+   "certification": false,
+   "variants": [
+    "Vue",
+    "VueJS"
+   ],
+   "relations": [
+    "related:nuxt"
+   ]
+  },
+  {
+   "key": "vulkan",
+   "name": "Vulkan",
+   "class": "skill",
+   "kind": "library",
+   "definition": "A low-overhead, cross-platform graphics and compute API from the Khronos Group.",
+   "certification": false,
+   "variants": [
+    "Vulkan Graphics API",
+    "Vulkan API"
+   ],
+   "relations": [
+    "broader:graphics-api"
+   ]
+  },
+  {
+   "key": "vulnerability-assessment",
+   "name": "Vulnerability assessment",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Finding, classifying and ranking security weaknesses in systems, networks or applications so they can be fixed.",
+   "certification": false,
+   "variants": [
+    "Vulnerability assessments"
+   ],
+   "relations": []
+  },
+  {
+   "key": "vyond",
+   "name": "Vyond",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "A cloud-based tool for making animated videos from templates and characters, called GoAnimate before 2018.",
+   "certification": false,
+   "variants": [
+    "GoAnimate"
+   ],
+   "relations": []
+  },
+  {
+   "key": "wage-and-hour-laws",
+   "name": "Wage and hour laws",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "The laws that set minimum wages, overtime pay, working hours and related record-keeping rules for employees.",
+   "certification": false,
+   "variants": [
+    "Wage and hour law"
+   ],
+   "relations": [
+    "broader:labour-law"
+   ]
+  },
+  {
+   "key": "wainscot-panelling",
+   "name": "Wainscot panelling",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Fitting decorative panels, usually of wood, to the lower part of interior walls.",
+   "certification": false,
+   "variants": [
+    "Wainscot paneling"
+   ],
+   "relations": []
+  },
+  {
+   "key": "warehouse-automation",
+   "name": "Warehouse automation",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "Using machinery and software, such as conveyors, robots and automated storage systems, to move and store goods in a warehouse with less manual handling.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "wasapi",
+   "name": "WASAPI",
+   "class": "skill",
+   "kind": "library",
+   "definition": "The Windows Audio Session API, a Microsoft Windows interface that lets applications play and record audio streams.",
+   "certification": false,
+   "variants": [
+    "Windows Audio Session API"
+   ],
+   "relations": []
+  },
+  {
+   "key": "waste-characterisation",
+   "name": "Waste characterisation",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Determining the physical, chemical and sometimes radiological properties of waste so that it can be classified, handled and disposed of correctly.",
+   "certification": false,
+   "variants": [
+    "Waste characterization"
+   ],
+   "relations": []
+  },
+  {
+   "key": "waste-minimisation",
+   "name": "Waste minimisation",
+   "class": "skill",
+   "kind": "method",
+   "definition": "Reducing the amount of waste a process or organization produces, preferably at the source.",
+   "certification": false,
+   "variants": [
+    "Waste minimization"
+   ],
+   "relations": []
+  },
+  {
+   "key": "watchkeeping",
+   "name": "Watchkeeping",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Standing a watch aboard a ship, monitoring navigation, machinery and safety while on duty.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "watchos",
+   "name": "watchOS",
+   "class": "skill",
+   "kind": "platform",
+   "definition": "Apple's operating system for the Apple Watch.",
+   "certification": false,
+   "variants": [],
+   "relations": [
+    "related:macos"
+   ]
+  },
+  {
+   "key": "watcom-sql",
+   "name": "Watcom SQL",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "A relational database management system from Watcom that was later developed as Sybase SQL Anywhere.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "water-based-pipe-coating",
+   "name": "Water-based pipe coating",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Applying water-based (waterborne) coatings to pipes as a protective layer.",
+   "certification": false,
+   "variants": [
+    "Water Based Pipe Coating"
+   ],
+   "relations": []
+  },
+  {
+   "key": "water-quality-modelling",
+   "name": "Water quality modelling",
+   "class": "skill",
+   "kind": "method",
+   "definition": "Using mathematical models to simulate and predict the quality of water in rivers, lakes, reservoirs or supply networks.",
+   "certification": false,
+   "variants": [
+    "Water quality modeling"
+   ],
+   "relations": [
+    "related:hydrological-modelling"
+   ]
+  },
+  {
+   "key": "wave-phase",
+   "name": "Wave phase",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "For a repeating wave, how far through its cycle it is at a given moment, usually expressed as an angle.",
+   "certification": false,
+   "variants": [
+    "Phase (Waves)"
+   ],
+   "relations": []
+  },
+  {
+   "key": "waveguide",
+   "name": "Waveguide",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "A structure, such as a hollow metal pipe or an optical fibre, that guides electromagnetic or light waves along a path.",
+   "certification": false,
+   "variants": [
+    "Waveguides"
+   ],
+   "relations": [
+    "related:optical-waveguides"
+   ]
+  },
+  {
+   "key": "web-crawling",
+   "name": "Web crawling",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Building or running programs that automatically follow links and fetch web pages, for example to index sites or collect data.",
+   "certification": false,
+   "variants": [
+    "Web Crawlers",
+    "Web crawler"
+   ],
+   "relations": []
+  },
+  {
+   "key": "web-development",
+   "name": "Web development",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Building software delivered through web technologies.",
+   "variants": [
+    "web programming"
+   ],
+   "relations": []
+  },
+  {
+   "key": "web-filtering",
+   "name": "Web filtering",
+   "class": "skill",
+   "kind": "method",
+   "definition": "Blocking or allowing access to websites according to rules such as category, reputation or policy.",
+   "certification": false,
+   "variants": [
+    "Website Filtering"
+   ],
+   "relations": []
+  },
+  {
+   "key": "webct",
+   "name": "WebCT",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "A commercial learning management system for running online courses, later acquired by Blackboard.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "webctrl",
+   "name": "WebCTRL",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "A web-based building automation system from Automated Logic for monitoring and controlling building equipment such as heating and cooling.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "webdriver",
+   "name": "WebDriver",
+   "class": "skill",
+   "kind": "standard",
+   "definition": "A W3C standard interface for controlling a web browser from a program, which Selenium's WebDriver implements.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "webdriverjs",
+   "name": "WebDriverJS",
+   "class": "skill",
+   "kind": "library",
+   "definition": "The JavaScript bindings for Selenium WebDriver, used to automate web browsers from Node.js.",
+   "certification": false,
+   "variants": [
+    "selenium-webdriver"
+   ],
+   "relations": []
+  },
+  {
+   "key": "website-optimization",
+   "name": "Website optimization",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Improving a website's speed, search visibility, usability or conversion rate.",
+   "certification": false,
+   "variants": [
+    "Website optimisation"
+   ],
+   "relations": [
+    "related:landing-page-optimization"
+   ]
+  },
+  {
+   "key": "website-wireframing",
+   "name": "Website wireframing",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Sketching the basic layout and structure of web pages, without final visual design, before they are built.",
+   "certification": false,
+   "variants": [
+    "Website Wireframe",
+    "Website wireframes"
+   ],
+   "relations": []
+  }
+ ]
+}

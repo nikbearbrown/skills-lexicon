@@ -142,7 +142,8 @@
    "certification": false,
    "variants": [
     "Self- Confident",
-    "Self-confident"
+    "Self-confident",
+    "Self Confident"
    ],
    "relations": []
   },
@@ -170,6 +171,31 @@
     "Spatial Temporal Reasoning"
    ],
    "relations": []
+  },
+  {
+   "key": "success-driven",
+   "name": "Success-driven",
+   "class": "ability",
+   "kind": "ability",
+   "definition": "A strong motivation to achieve success and good results in one's work.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "team-oriented",
+   "name": "Team-oriented",
+   "class": "ability",
+   "kind": "ability",
+   "definition": "A preference for working cooperatively with others toward shared goals.",
+   "certification": false,
+   "variants": [
+    "Team Orientated"
+   ],
+   "relations": [
+    "related:goal-oriented",
+    "related:results-oriented"
+   ]
   }
  ]
 }

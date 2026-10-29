@@ -19,6 +19,104 @@
  ],
  "entries": [
   {
+   "key": "environmental-scanning",
+   "name": "Environmental scanning",
+   "class": "skill",
+   "kind": "method",
+   "definition": "Systematically gathering and analysing information about external trends, competitors and events that could affect an organisation's strategy.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "environmental-social-and-governance",
+   "name": "Environmental, social and governance",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "The environmental, social and governance factors used to judge how sustainable and ethical an organisation's conduct is.",
+   "certification": false,
+   "variants": [
+    "Environmental Social And Governance (ESG) Issues",
+    "ESG"
+   ],
+   "relations": []
+  },
+  {
+   "key": "enzyme-analysis",
+   "name": "Enzyme analysis",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Measuring the activity or amount of enzymes in a sample, for example to study a reaction or to help diagnose disease.",
+   "certification": false,
+   "variants": [
+    "Enzyme Aanlysis"
+   ],
+   "relations": []
+  },
+  {
+   "key": "enzyme-linked-immunosorbent-assay",
+   "name": "Enzyme-linked immunosorbent assay",
+   "class": "skill",
+   "kind": "method",
+   "definition": "A laboratory test that uses antibodies linked to an enzyme to detect and measure a substance, such as a protein or hormone, in a sample.",
+   "certification": false,
+   "variants": [
+    "Enzyme-Linked Immunosorbent Assay (ELISA)",
+    "ELISA"
+   ],
+   "relations": []
+  },
+  {
+   "key": "epic-asap",
+   "name": "Epic ASAP",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "The emergency department module of Epic Systems' electronic health record software.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "epic-beacon",
+   "name": "Epic Beacon",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "The oncology module of Epic Systems' electronic health record software, used to plan and document cancer treatment such as chemotherapy.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "epic-willow",
+   "name": "Epic Willow",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "The pharmacy module of Epic Systems' electronic health record software, covering medication orders, verification and dispensing.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "epinephrine-administration",
+   "name": "Epinephrine administration",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Giving epinephrine (adrenaline) to a patient, for example to treat a severe allergic reaction or in cardiac arrest.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "equipment-design",
+   "name": "Equipment design",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Designing machines, apparatus or process equipment so that they meet functional, safety and manufacturing requirements.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
    "key": "equipment-engineering",
    "name": "Equipment engineering",
    "class": "skill",
@@ -98,6 +196,26 @@
    "variants": [
     "Esker (Software)"
    ],
+   "relations": []
+  },
+  {
+   "key": "esports-management",
+   "name": "Esports management",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Running the business and operations of esports teams, players, tournaments or organizations.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "esports-marketing",
+   "name": "Esports marketing",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Promoting esports teams, events and games, or marketing other products to esports audiences, for example through sponsorship and content.",
+   "certification": false,
+   "variants": [],
    "relations": []
   },
   {
@@ -336,135 +454,6 @@
    "variants": [
     "Extended Validation Certificates",
     "EV certificate"
-   ],
-   "relations": []
-  },
-  {
-   "key": "extensive-reading",
-   "name": "Extensive reading",
-   "class": "skill",
-   "kind": "method",
-   "definition": "A language-learning approach in which learners read large amounts of easy, enjoyable material to build fluency and vocabulary.",
-   "certification": false,
-   "variants": [
-    "Extensive Reading (Language Acquisition)"
-   ],
-   "relations": []
-  },
-  {
-   "key": "external-stakeholder-management",
-   "name": "External stakeholder management",
-   "class": "skill",
-   "kind": "skill",
-   "definition": "Identifying and working with people and organisations outside the company, such as customers, regulators and partners, to understand their interests and keep their support.",
-   "certification": false,
-   "variants": [],
-   "relations": []
-  },
-  {
-   "key": "extract-transform-load",
-   "name": "Extract, transform, load",
-   "class": "skill",
-   "kind": "method",
-   "definition": "A data-integration process that pulls data from source systems, reshapes it, and loads it into a target such as a data warehouse.",
-   "certification": false,
-   "variants": [
-    "Extraction, Transformation, and Loading (ETL)",
-    "ETL",
-    "Extraction, Transformation, and Loading"
-   ],
-   "relations": []
-  },
-  {
-   "key": "eye-surgery",
-   "name": "Eye surgery",
-   "class": "skill",
-   "kind": "knowledge",
-   "definition": "Surgical operations on the eye and the tissues around it, such as cataract, glaucoma, retinal and corneal surgery.",
-   "certification": false,
-   "variants": [
-    "Eye Surgeries",
-    "Ophthalmic surgery"
-   ],
-   "relations": []
-  },
-  {
-   "key": "facebook",
-   "name": "Facebook",
-   "class": "skill",
-   "kind": "platform",
-   "definition": "A social networking platform, owned by Meta, where people and organisations post content, message each other and run ads.",
-   "certification": false,
-   "variants": [],
-   "relations": []
-  },
-  {
-   "key": "facebook-advertising",
-   "name": "Facebook advertising",
-   "class": "skill",
-   "kind": "skill",
-   "definition": "Creating, targeting and managing paid ads on Facebook through Meta's advertising tools.",
-   "certification": false,
-   "variants": [
-    "Facebook Advert",
-    "Facebook Ads"
-   ],
-   "relations": []
-  },
-  {
-   "key": "facebook-marketing",
-   "name": "Facebook marketing",
-   "class": "skill",
-   "kind": "skill",
-   "definition": "Promoting a business or brand on Facebook through pages, posts, groups and paid ads.",
-   "certification": false,
-   "variants": [],
-   "relations": []
-  },
-  {
-   "key": "facility-maintenance",
-   "name": "Facility maintenance",
-   "class": "skill",
-   "kind": "skill",
-   "definition": "Keeping a building and its equipment and systems in working order through routine upkeep and repairs.",
-   "certification": false,
-   "variants": [],
-   "relations": []
-  },
-  {
-   "key": "factoring-finance",
-   "name": "Factoring (finance)",
-   "class": "skill",
-   "kind": "knowledge",
-   "definition": "A way of financing a business in which it sells its unpaid invoices to a third party at a discount in return for immediate cash.",
-   "certification": false,
-   "variants": [],
-   "relations": []
-  },
-  {
-   "key": "failure-mode-and-effects-analysis",
-   "name": "Failure mode and effects analysis",
-   "class": "skill",
-   "kind": "method",
-   "definition": "A structured method for listing the ways a product or process could fail, rating the effect and likelihood of each, and deciding what to fix first.",
-   "certification": false,
-   "variants": [
-    "Failure Mode Effects Analysis",
-    "FMEA",
-    "Failure Modes and Effects Analysis"
-   ],
-   "relations": []
-  },
-  {
-   "key": "fair-employment-and-housing-act",
-   "name": "Fair Employment and Housing Act",
-   "class": "skill",
-   "kind": "standard",
-   "definition": "A California law that prohibits discrimination and harassment in employment and housing; its usual abbreviation is FEHA, not FEMA.",
-   "certification": false,
-   "variants": [
-    "Fair Employment And Housing Act (FEMA)",
-    "FEHA"
    ],
    "relations": []
   }

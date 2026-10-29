@@ -1,0 +1,485 @@
+{
+ "allowed_kinds": [
+  "ability",
+  "credential",
+  "framework",
+  "human-language",
+  "knowledge",
+  "library",
+  "markup-language",
+  "method",
+  "modeling-language",
+  "platform",
+  "programming-language",
+  "skill",
+  "standard",
+  "style-language",
+  "tool",
+  "work-activity"
+ ],
+ "entries": [
+  {
+   "key": "traumatic-brain-injury",
+   "name": "Traumatic brain injury",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "Damage to the brain caused by an external force such as a blow, fall or blast, ranging from mild concussion to severe injury.",
+   "certification": false,
+   "variants": [
+    "TBI"
+   ],
+   "relations": []
+  },
+  {
+   "key": "travel-coordination",
+   "name": "Travel coordination",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Arranging travel for other people, such as bookings, itineraries, visas and expense handling.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "treatment-planning",
+   "name": "Treatment planning",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Setting out the goals, interventions and schedule of care for a patient or client based on an assessment.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "treemap",
+   "name": "Treemap",
+   "class": "skill",
+   "kind": "method",
+   "definition": "A chart that shows hierarchical data as nested rectangles whose areas are proportional to their values.",
+   "certification": false,
+   "variants": [
+    "Tree map"
+   ],
+   "relations": []
+  },
+  {
+   "key": "trendline",
+   "name": "Trendline",
+   "class": "skill",
+   "kind": "method",
+   "definition": "A line added to a chart to show the general direction of a data series, often fitted by regression or a moving average.",
+   "certification": false,
+   "variants": [
+    "Trend line"
+   ],
+   "relations": []
+  },
+  {
+   "key": "tv-production",
+   "name": "TV production",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Planning, shooting and editing television programmes.",
+   "certification": false,
+   "variants": [
+    "Television production"
+   ],
+   "relations": [
+    "broader:media-production"
+   ]
+  },
+  {
+   "key": "twisted-pair",
+   "name": "Twisted pair",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "A cable type in which pairs of insulated copper wires are twisted together to reduce interference, used for telephone and Ethernet connections.",
+   "certification": false,
+   "variants": [
+    "Twisted-pair cabling"
+   ],
+   "relations": []
+  },
+  {
+   "key": "twitch",
+   "name": "Twitch",
+   "class": "skill",
+   "kind": "platform",
+   "definition": "A live-streaming service, mainly for video games, where broadcasters stream to viewers and chat with them.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "twitter-advertising",
+   "name": "Twitter advertising",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Creating, running and measuring paid advertising campaigns on Twitter, now called X.",
+   "certification": false,
+   "variants": [
+    "Twitter Ads",
+    "X Ads"
+   ],
+   "relations": []
+  },
+  {
+   "key": "twitter-marketing",
+   "name": "Twitter marketing",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Promoting a brand, product or cause on Twitter, now called X, through posts, engagement and community building.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "typography",
+   "name": "Typography",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Choosing and arranging typefaces, sizes, spacing and layout so that written text is readable and visually effective.",
+   "certification": false,
+   "variants": [],
+   "relations": [
+    "related:kinetic-typography"
+   ]
+  },
+  {
+   "key": "ubersuggest",
+   "name": "Ubersuggest",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "An online keyword research and SEO analysis tool.",
+   "certification": false,
+   "variants": [
+    "UberSuggest (SEO Software)"
+   ],
+   "relations": []
+  },
+  {
+   "key": "uglifyjs",
+   "name": "UglifyJS",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "A JavaScript parser, minifier and compressor toolkit used to make scripts smaller for deployment.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "ui-patterns",
+   "name": "UI patterns",
+   "class": "skill",
+   "kind": "method",
+   "definition": "Reusable, proven solutions to common user-interface design problems, such as navigation, forms and search.",
+   "certification": false,
+   "variants": [
+    "UI design patterns"
+   ],
+   "relations": []
+  },
+  {
+   "key": "uikit",
+   "name": "UIKit",
+   "class": "skill",
+   "kind": "framework",
+   "definition": "Apple's framework for building and managing the graphical interface and event handling of iOS, iPadOS and tvOS apps.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "uikit-web-framework",
+   "name": "UIkit (web framework)",
+   "class": "skill",
+   "kind": "framework",
+   "definition": "A lightweight, modular front-end framework for building web interfaces from ready-made HTML, CSS and JavaScript components, made by YOOtheme.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "uipath",
+   "name": "UiPath",
+   "class": "skill",
+   "kind": "platform",
+   "definition": "A robotic process automation (RPA) platform for building software robots that automate repetitive tasks on computers.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "ultratax-cs",
+   "name": "UltraTax CS",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "Thomson Reuters software that accounting firms use to prepare tax returns.",
+   "certification": false,
+   "variants": [
+    "UltraTax"
+   ],
+   "relations": []
+  },
+  {
+   "key": "ultraviolet-visible-spectroscopy",
+   "name": "Ultraviolet-visible spectroscopy",
+   "class": "skill",
+   "kind": "method",
+   "definition": "An analytical technique that measures how much a sample absorbs light in the ultraviolet and visible range, used to identify or measure substances.",
+   "certification": false,
+   "variants": [
+    "Ultraviolet-Visible Spectroscopy (UV/VIS)",
+    "UV-Vis spectroscopy",
+    "UV-Vis"
+   ],
+   "relations": []
+  },
+  {
+   "key": "unbounce",
+   "name": "Unbounce",
+   "class": "skill",
+   "kind": "platform",
+   "definition": "An online platform for building, publishing and testing landing pages without writing code.",
+   "certification": false,
+   "variants": [
+    "Unbounce (Software)"
+   ],
+   "relations": []
+  },
+  {
+   "key": "underscore-js",
+   "name": "Underscore.js",
+   "class": "skill",
+   "kind": "library",
+   "definition": "A JavaScript library that provides utility functions for working with collections, arrays, objects and functions.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "unified-endpoint-management",
+   "name": "Unified endpoint management",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Managing and securing all of an organisation's endpoint devices, such as laptops, phones and tablets, from a single console.",
+   "certification": false,
+   "variants": [
+    "UEM"
+   ],
+   "relations": [
+    "broader:endpoint-management"
+   ]
+  },
+  {
+   "key": "unisys-mapper",
+   "name": "Unisys MAPPER",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "A Unisys reporting and application development system for building database reports and applications, mainly on mainframes.",
+   "certification": false,
+   "variants": [
+    "MAintain Prepare And Produce Executive Reports (MAPPER)",
+    "MAintain, Prepare, And Produce Executive Reports (MAPPER)",
+    "MAintain Prepare SandsProduce Executive Reports (MAPPER)"
+   ],
+   "relations": []
+  },
+  {
+   "key": "unity-game-engine",
+   "name": "Unity (game engine)",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "A cross-platform game engine and development environment for building real-time 2D, 3D, augmented-reality and virtual-reality applications.",
+   "certification": false,
+   "variants": [
+    "Unity 3d",
+    "Unity3D"
+   ],
+   "relations": []
+  },
+  {
+   "key": "unreal-editor",
+   "name": "Unreal Editor",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "The editor application of the Unreal Engine, used to build levels and manage assets and gameplay content for games.",
+   "certification": false,
+   "variants": [
+    "UnrealEd"
+   ],
+   "relations": []
+  },
+  {
+   "key": "urban-resilience",
+   "name": "Urban resilience",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "The capacity of cities and their systems to absorb, adapt to and recover from shocks and stresses such as disasters and climate change.",
+   "certification": false,
+   "variants": [],
+   "relations": [
+    "related:community-resilience"
+   ]
+  },
+  {
+   "key": "urban-sustainability",
+   "name": "Urban sustainability",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "Planning and running cities so that their economy, society and environment can be sustained over the long term.",
+   "certification": false,
+   "variants": [],
+   "relations": [
+    "related:social-sustainability"
+   ]
+  },
+  {
+   "key": "urological-disorders",
+   "name": "Urological disorders",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "The diseases and conditions of the urinary tract and male reproductive organs, such as kidney stones, infections and prostate problems.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "usability-testing",
+   "name": "Usability testing",
+   "class": "skill",
+   "kind": "method",
+   "definition": "Evaluating how people use an interface to complete tasks.",
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "usabilityhub",
+   "name": "UsabilityHub",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "An online service for running remote usability and design feedback tests, such as first-click and five-second tests, with participants.",
+   "certification": false,
+   "variants": [],
+   "relations": [
+    "related:usability-testing"
+   ]
+  },
+  {
+   "key": "use-case-diagram",
+   "name": "Use case diagram",
+   "class": "skill",
+   "kind": "method",
+   "definition": "A UML diagram that shows the actors who use a system and the goals (use cases) the system supports.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "use-of-force",
+   "name": "Use of force",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "The rules and techniques governing when and how much physical force a police officer, security guard or similar worker may lawfully use.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "user-datagram-protocol",
+   "name": "User Datagram Protocol",
+   "class": "skill",
+   "kind": "standard",
+   "definition": "A connectionless transport protocol of the Internet protocol suite, specified in RFC 768, that sends datagrams without guaranteeing delivery or order.",
+   "certification": false,
+   "variants": [
+    "User Datagram Protocols",
+    "UDP"
+   ],
+   "relations": [
+    "part_of:internet-protocol-suite"
+   ]
+  },
+  {
+   "key": "user-experience-design",
+   "name": "User experience design",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Designing interactions around user needs and usability.",
+   "variants": [
+    "UX design",
+    "user experience",
+    "User Experience Design (UX)"
+   ],
+   "relations": []
+  },
+  {
+   "key": "user-interface-design",
+   "name": "User interface design",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Designing the visible controls and presentation of interactive software.",
+   "variants": [
+    "UI design"
+   ],
+   "relations": []
+  },
+  {
+   "key": "user-provisioning-software",
+   "name": "User provisioning software",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "Software that automates creating, changing and removing user accounts and access rights across an organisation's systems.",
+   "certification": false,
+   "variants": [],
+   "relations": [
+    "related:service-provisioning-markup-language"
+   ]
+  },
+  {
+   "key": "user-research",
+   "name": "User research",
+   "class": "skill",
+   "kind": "method",
+   "definition": "Investigating user needs and behavior to inform design.",
+   "variants": [
+    "UX Research"
+   ],
+   "relations": []
+  },
+  {
+   "key": "utility-engineering",
+   "name": "Utility engineering",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "Engineering of the networks that deliver public utilities such as electricity, water, gas and telecommunications.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "utility-frequency",
+   "name": "Utility frequency",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "The standard frequency of alternating current in a country's power grid, usually 50 or 60 hertz.",
+   "certification": false,
+   "variants": [
+    "Utility Frequencies"
+   ],
+   "relations": []
+  },
+  {
+   "key": "ux-writing",
+   "name": "UX writing",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Writing the words that appear in a digital product's interface, such as labels, buttons and error messages, so that people can use it easily.",
+   "certification": false,
+   "variants": [],
+   "relations": [
+    "related:copywriting"
+   ]
+  }
+ ]
+}

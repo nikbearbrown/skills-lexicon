@@ -19,6 +19,96 @@
  ],
  "entries": [
   {
+   "key": "concourse-ci",
+   "name": "Concourse CI",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "An open-source continuous integration and delivery system in which pipelines are defined in YAML and tasks run in containers.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "concurrent-engineering",
+   "name": "Concurrent engineering",
+   "class": "skill",
+   "kind": "method",
+   "definition": "An approach in which design, manufacturing and other product-development stages are carried out in parallel instead of one after another.",
+   "certification": false,
+   "variants": [
+    "Simultaneous Engineering Wikipedia",
+    "Simultaneous engineering"
+   ],
+   "relations": []
+  },
+  {
+   "key": "conducting-tours",
+   "name": "Conducting tours",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Leading groups on guided tours and presenting information about the places or facilities visited.",
+   "certification": false,
+   "variants": [
+    "Conduct Tours"
+   ],
+   "relations": []
+  },
+  {
+   "key": "cone-penetration-testing",
+   "name": "Cone penetration testing",
+   "class": "skill",
+   "kind": "method",
+   "definition": "A geotechnical test in which an instrumented cone is pushed into the ground to measure soil properties and layering.",
+   "certification": false,
+   "variants": [
+    "Cone Penetration Tests",
+    "Cone penetration test"
+   ],
+   "relations": []
+  },
+  {
+   "key": "confirmit",
+   "name": "Confirmit",
+   "class": "skill",
+   "kind": "platform",
+   "definition": "A survey and market research software platform for building surveys and analysing responses.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "conflict-catcher",
+   "name": "Conflict Catcher",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "A classic Mac OS utility for managing extensions and control panels and finding conflicts between them.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "confluent",
+   "name": "Confluent",
+   "class": "skill",
+   "kind": "platform",
+   "definition": "A data streaming platform built on Apache Kafka, offered self-managed as Confluent Platform and as the Confluent Cloud service.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "confocal-microscopy",
+   "name": "Confocal microscopy",
+   "class": "skill",
+   "kind": "method",
+   "definition": "A microscopy technique that uses a pinhole to block out-of-focus light so that thin optical sections of a specimen can be imaged.",
+   "certification": false,
+   "variants": [
+    "Confocal"
+   ],
+   "relations": []
+  },
+  {
    "key": "consensus-decision-making",
    "name": "Consensus decision-making",
    "class": "skill",
@@ -375,91 +465,6 @@
    "class": "skill",
    "kind": "knowledge",
    "definition": "The field concerned with how companies raise money, invest it and manage their capital to create value for their owners.",
-   "certification": false,
-   "variants": [],
-   "relations": []
-  },
-  {
-   "key": "correspondent-banking",
-   "name": "Correspondent banking",
-   "class": "skill",
-   "kind": "knowledge",
-   "definition": "Arrangements in which one bank provides services such as payments and account access to another bank, often across borders.",
-   "certification": false,
-   "variants": [],
-   "relations": []
-  },
-  {
-   "key": "cosmetic-dermatology",
-   "name": "Cosmetic dermatology",
-   "class": "skill",
-   "kind": "knowledge",
-   "definition": "The branch of dermatology that improves the appearance of skin, hair and nails, for example with fillers, lasers and peels.",
-   "certification": false,
-   "variants": [],
-   "relations": []
-  },
-  {
-   "key": "coso-framework",
-   "name": "COSO framework",
-   "class": "skill",
-   "kind": "standard",
-   "definition": "A framework published by the Committee of Sponsoring Organizations of the Treadway Commission for designing and assessing internal control and enterprise risk management.",
-   "certification": false,
-   "variants": [],
-   "relations": []
-  },
-  {
-   "key": "cost-accounting",
-   "name": "Cost accounting",
-   "class": "skill",
-   "kind": "knowledge",
-   "definition": "The part of accounting that records and analyses the costs of making goods or providing services so managers can control and price them.",
-   "certification": false,
-   "variants": [],
-   "relations": []
-  },
-  {
-   "key": "cost-estimating",
-   "name": "Cost estimating",
-   "class": "skill",
-   "kind": "skill",
-   "definition": "Predicting what a project, product or job will cost before it is done.",
-   "certification": false,
-   "variants": [
-    "Cost Estimate",
-    "Cost estimation"
-   ],
-   "relations": []
-  },
-  {
-   "key": "cost-to-serve",
-   "name": "Cost to serve",
-   "class": "skill",
-   "kind": "method",
-   "definition": "A way of working out how much it costs a business to serve each customer, product or channel, counting activities such as delivery, handling and support.",
-   "certification": false,
-   "variants": [],
-   "relations": []
-  },
-  {
-   "key": "costar-real-estate-manager",
-   "name": "CoStar Real Estate Manager",
-   "class": "skill",
-   "kind": "platform",
-   "definition": "A CoStar Group cloud software product for managing leases, property portfolios and real-estate costs.",
-   "certification": false,
-   "variants": [
-    "CoStar Real Estate Manager (SAAS)"
-   ],
-   "relations": []
-  },
-  {
-   "key": "counterparty-risk",
-   "name": "Counterparty risk",
-   "class": "skill",
-   "kind": "knowledge",
-   "definition": "The risk that the other party to a financial contract will fail to meet its obligations.",
    "certification": false,
    "variants": [],
    "relations": []

@@ -19,6 +19,193 @@
  ],
  "entries": [
   {
+   "key": "linux-systems-administration",
+   "name": "Linux systems administration",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Configuring and operating Linux systems.",
+   "variants": [
+    "Linux",
+    "UNIX"
+   ],
+   "relations": []
+  },
+  {
+   "key": "liquidity-forecasting",
+   "name": "Liquidity forecasting",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Estimating a business's future cash inflows, outflows and available funds to see whether it can meet its obligations.",
+   "certification": false,
+   "variants": [
+    "Liquidity Forecastings"
+   ],
+   "relations": [
+    "broader:financial-forecasting"
+   ]
+  },
+  {
+   "key": "listwise-deletion",
+   "name": "Listwise deletion",
+   "class": "skill",
+   "kind": "method",
+   "definition": "A way of handling missing data in which any record with a missing value in the analysed variables is removed entirely.",
+   "certification": false,
+   "variants": [
+    "Complete case analysis"
+   ],
+   "relations": []
+  },
+  {
+   "key": "livedata",
+   "name": "LiveData",
+   "class": "skill",
+   "kind": "library",
+   "definition": "An Android Jetpack class that holds observable data and notifies observers only while their lifecycle is active.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "livestreaming",
+   "name": "Livestreaming",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Broadcasting live video and audio over the internet to an audience in real time.",
+   "certification": false,
+   "variants": [
+    "Livestream",
+    "Live streaming"
+   ],
+   "relations": []
+  },
+  {
+   "key": "llm-observability",
+   "name": "LLM observability",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Observability applied to LLM and agent behavior; a narrower concept.",
+   "variants": [],
+   "relations": [
+    "broader:observability"
+   ]
+  },
+  {
+   "key": "load-securement",
+   "name": "Load securement",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Fastening and restraining cargo on a vehicle so that it cannot shift or fall during transport.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "loan-administration",
+   "name": "Loan administration",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Managing a loan after it is made, including recording payments, tracking terms and handling lender and borrower paperwork.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "loan-agreements",
+   "name": "Loan agreements",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "Knowledge of the contracts that set out the terms on which a lender provides money to a borrower.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "loan-structuring",
+   "name": "Loan structuring",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Designing the terms of a loan, such as amount, rate, term, security and covenants, to fit the borrower and lender.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "loan-syndication",
+   "name": "Loan syndication",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Arranging for a large loan to be provided by a group of lenders who share the risk.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "log-management",
+   "name": "Log management",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Collecting, storing, searching and analysing the log files that systems and applications produce.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "logic-diagrams",
+   "name": "Logic diagrams",
+   "class": "skill",
+   "kind": "method",
+   "definition": "Diagrams that show how logic gates and other elements combine to produce outputs, used to design and troubleshoot digital circuits.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "logistics-engineering",
+   "name": "Logistics engineering",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "The engineering discipline of designing and improving how materials, equipment and information are moved and supported across a supply chain or over a system's life.",
+   "certification": false,
+   "variants": [
+    "Logistic Engineering"
+   ],
+   "relations": []
+  },
+  {
+   "key": "logistics-planning",
+   "name": "Logistics planning",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Planning how goods, equipment and people are stored and moved so they arrive where and when needed.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "logo-design",
+   "name": "Logo design",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Creating the symbol or wordmark that identifies a brand.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "long-short-term-memory",
+   "name": "Long short-term memory",
+   "class": "skill",
+   "kind": "method",
+   "definition": "A type of recurrent neural network with gated memory cells that can learn dependencies across long sequences.",
+   "certification": false,
+   "variants": [
+    "Long Short-Term Memory (LSTM)",
+    "LSTM"
+   ],
+   "relations": []
+  },
+  {
    "key": "lookup-table",
    "name": "Lookup table",
    "class": "skill",
@@ -265,199 +452,6 @@
    "certification": false,
    "variants": [],
    "relations": []
-  },
-  {
-   "key": "margin-lending",
-   "name": "Margin lending",
-   "class": "skill",
-   "kind": "knowledge",
-   "definition": "Lending money to investors so they can buy securities, with the securities held as collateral.",
-   "certification": false,
-   "variants": [],
-   "relations": []
-  },
-  {
-   "key": "marine-navigation",
-   "name": "Marine navigation",
-   "class": "skill",
-   "kind": "skill",
-   "definition": "Finding a vessel's position and plotting and following its course at sea.",
-   "certification": false,
-   "variants": [],
-   "relations": []
-  },
-  {
-   "key": "marine-radar",
-   "name": "Marine radar",
-   "class": "skill",
-   "kind": "tool",
-   "definition": "Radar equipment used on ships to detect other vessels, land and hazards.",
-   "certification": false,
-   "variants": [],
-   "relations": []
-  },
-  {
-   "key": "marionette-js",
-   "name": "Marionette.js",
-   "class": "skill",
-   "kind": "library",
-   "definition": "A JavaScript library built on Backbone.js that adds application structure, composite views and event handling for single-page apps.",
-   "certification": false,
-   "variants": [
-    "MarionetteJS",
-    "Backbone.Marionette"
-   ],
-   "relations": []
-  },
-  {
-   "key": "maritime-law-enforcement",
-   "name": "Maritime law enforcement",
-   "class": "skill",
-   "kind": "skill",
-   "definition": "Enforcing laws and regulations at sea and in ports, for example by patrolling, boarding vessels and stopping smuggling or illegal fishing.",
-   "certification": false,
-   "variants": [],
-   "relations": [
-    "related:law-enforcement-operations"
-   ]
-  },
-  {
-   "key": "market-capitalization",
-   "name": "Market capitalization",
-   "class": "skill",
-   "kind": "knowledge",
-   "definition": "The total market value of a company's shares, found by multiplying the share price by the number of shares outstanding.",
-   "certification": false,
-   "variants": [
-    "Market cap",
-    "Market capitalisation"
-   ],
-   "relations": []
-  },
-  {
-   "key": "market-depth",
-   "name": "Market depth",
-   "class": "skill",
-   "kind": "knowledge",
-   "definition": "A measure of how many buy and sell orders sit at different prices, showing how large a trade a market can absorb without the price moving much.",
-   "certification": false,
-   "variants": [],
-   "relations": []
-  },
-  {
-   "key": "marketing-management",
-   "name": "Marketing management",
-   "class": "skill",
-   "kind": "skill",
-   "definition": "Planning, coordinating and overseeing an organisation's marketing work, from research and strategy to campaigns and results.",
-   "certification": false,
-   "variants": [],
-   "relations": []
-  },
-  {
-   "key": "marketing-strategy",
-   "name": "Marketing strategy",
-   "class": "skill",
-   "kind": "skill",
-   "definition": "Deciding which customers, offers and channels a business will focus on to meet its marketing goals.",
-   "certification": false,
-   "variants": [],
-   "relations": [
-    "related:go-to-market-strategy",
-    "related:brand-strategy"
-   ]
-  },
-  {
-   "key": "masonry",
-   "name": "Masonry",
-   "class": "skill",
-   "kind": "skill",
-   "definition": "The craft of building walls and structures by laying bricks, stone or concrete blocks with mortar.",
-   "certification": false,
-   "variants": [],
-   "relations": []
-  },
-  {
-   "key": "mass-media",
-   "name": "Mass media",
-   "class": "skill",
-   "kind": "knowledge",
-   "definition": "The study of the channels, such as press, broadcasting and online platforms, that reach large audiences.",
-   "certification": false,
-   "variants": [],
-   "relations": []
-  },
-  {
-   "key": "massage",
-   "name": "Massage",
-   "class": "skill",
-   "kind": "skill",
-   "definition": "Working the muscles and soft tissue of the body by hand to ease tension and pain or to help a person relax.",
-   "certification": false,
-   "variants": [
-    "Massages"
-   ],
-   "relations": [
-    "related:anma-massage"
-   ]
-  },
-  {
-   "key": "master-production-records",
-   "name": "Master production records",
-   "class": "skill",
-   "kind": "knowledge",
-   "definition": "Controlled documents that set out the materials, steps and checks for making a product batch in regulated manufacturing.",
-   "certification": false,
-   "variants": [],
-   "relations": []
-  },
-  {
-   "key": "material-flow",
-   "name": "Material flow",
-   "class": "skill",
-   "kind": "knowledge",
-   "definition": "How raw materials, parts and finished goods move through a plant or supply chain, and how that movement is planned and tracked.",
-   "certification": false,
-   "variants": [],
-   "relations": []
-  },
-  {
-   "key": "materials-testing",
-   "name": "Materials testing",
-   "class": "skill",
-   "kind": "skill",
-   "definition": "Measuring the strength, hardness and other physical or chemical properties of materials to check they meet a specification.",
-   "certification": false,
-   "variants": [
-    "Materials Testing (Tests)"
-   ],
-   "relations": []
-  },
-  {
-   "key": "mathematica",
-   "name": "Mathematica",
-   "class": "skill",
-   "kind": "tool",
-   "definition": "Wolfram's software system for symbolic and numerical computation, visualisation and programming.",
-   "certification": false,
-   "variants": [
-    "Wolfram Mathematica"
-   ],
-   "relations": []
-  },
-  {
-   "key": "mathematics",
-   "name": "Mathematics",
-   "class": "skill",
-   "kind": "knowledge",
-   "definition": "The study of numbers, quantities, shapes and patterns, and of the logical reasoning used to prove facts about them.",
-   "certification": false,
-   "variants": [],
-   "relations": [
-    "related:arithmetic",
-    "related:mathematical-reasoning",
-    "related:engineering-mathematics"
-   ]
   }
  ]
 }

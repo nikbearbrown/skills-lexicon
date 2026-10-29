@@ -1,0 +1,561 @@
+{
+ "allowed_kinds": [
+  "ability",
+  "credential",
+  "framework",
+  "human-language",
+  "knowledge",
+  "library",
+  "markup-language",
+  "method",
+  "modeling-language",
+  "platform",
+  "programming-language",
+  "skill",
+  "standard",
+  "style-language",
+  "tool",
+  "work-activity"
+ ],
+ "entries": [
+  {
+   "key": "registered-diagnostic-cardiac-sonographer",
+   "name": "Registered Diagnostic Cardiac Sonographer",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A credential from the American Registry for Diagnostic Medical Sonography for sonographers who perform ultrasound examinations of the heart.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [
+    "RDCS"
+   ],
+   "relations": []
+  },
+  {
+   "key": "registered-diagnostic-medical-sonographer",
+   "name": "Registered Diagnostic Medical Sonographer",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A credential from the American Registry for Diagnostic Medical Sonography for sonographers who perform diagnostic ultrasound examinations.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [
+    "RDMS"
+   ],
+   "relations": []
+  },
+  {
+   "key": "registered-dietitian",
+   "name": "Registered Dietitian",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A credential awarded by the Commission on Dietetic Registration to dietitians in the United States who have completed an accredited degree, supervised practice and an exam.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [
+    "Registered Dietitian Nutritionist",
+    "RDN"
+   ],
+   "relations": []
+  },
+  {
+   "key": "registered-health-information-administrator",
+   "name": "Registered Health Information Administrator",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A credential from AHIMA for health information managers who oversee patient records, health data and privacy.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [
+    "RHIA"
+   ],
+   "relations": []
+  },
+  {
+   "key": "registered-health-information-technician",
+   "name": "Registered Health Information Technician",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A credential from AHIMA for technicians who code, maintain and check the quality of patient health records.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [
+    "RHIT"
+   ],
+   "relations": []
+  },
+  {
+   "key": "registered-phlebology-sonographer",
+   "name": "Registered Phlebology Sonographer",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A credential from the American Registry for Diagnostic Medical Sonography for sonographers who perform ultrasound examinations of the veins.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [
+    "RPhS"
+   ],
+   "relations": []
+  },
+  {
+   "key": "registered-physician-in-vascular-interpretation",
+   "name": "Registered Physician in Vascular Interpretation",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A credential from the American Registry for Diagnostic Medical Sonography for physicians who interpret vascular ultrasound studies; the tag names its exam.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [
+    "Physician Vascular Interpretation",
+    "RPVI"
+   ],
+   "relations": []
+  },
+  {
+   "key": "registered-poetry-therapist",
+   "name": "Registered Poetry Therapist",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A credential for practitioners trained in using poetry and other literature as a form of therapy.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "registered-respiratory-therapist",
+   "name": "Registered Respiratory Therapist",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A credential from the National Board for Respiratory Care for respiratory therapists who pass its advanced-level exams.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "registered-vascular-specialist",
+   "name": "Registered Vascular Specialist",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A credential from Cardiovascular Credentialing International for specialists who perform vascular ultrasound and other vascular testing.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [
+    "RVS"
+   ],
+   "relations": []
+  },
+  {
+   "key": "registered-vascular-technologist",
+   "name": "Registered Vascular Technologist",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A credential from the American Registry for Diagnostic Medical Sonography for technologists who perform vascular ultrasound examinations.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [
+    "RVT"
+   ],
+   "relations": []
+  },
+  {
+   "key": "restricted-radiotelephone-operator-permit",
+   "name": "Restricted Radiotelephone Operator Permit",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A U.S. Federal Communications Commission permit that allows a person to operate certain radio equipment, such as aircraft and marine radios.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "saca-certified-industry-4-0-associate-advanced-operations",
+   "name": "SACA Certified Industry 4.0 Associate, Advanced Operations",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A certification from the Smart Automation Certification Alliance for advanced operations in Industry 4.0 manufacturing environments.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [
+    "SACA Certified Industry 4.0 Associate Advanced Operations"
+   ],
+   "relations": [
+    "related:saca-certified-industry-4-0-associate-basic-operations"
+   ]
+  },
+  {
+   "key": "saca-certified-industry-4-0-associate-basic-operations",
+   "name": "SACA Certified Industry 4.0 Associate, Basic Operations",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A certification from the Smart Automation Certification Alliance for basic operations in Industry 4.0 manufacturing environments.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [
+    "SACA Certified Industry 4.0 Associate Basic Operations"
+   ],
+   "relations": []
+  },
+  {
+   "key": "saca-certified-industry-4-0-associate-robot-system-operations",
+   "name": "SACA Certified Industry 4.0 Associate, Robot System Operations",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A certification from the Smart Automation Certification Alliance for operating robot systems in Industry 4.0 manufacturing environments.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [
+    "SACA Certified Industry 4.0 Associate Robot System Operations"
+   ],
+   "relations": [
+    "related:saca-certified-industry-4-0-associate-basic-operations"
+   ]
+  },
+  {
+   "key": "saca-certified-industry-4-0-iiot-net-data",
+   "name": "SACA Certified Industry 4.0 IIoT Net Data",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A certification from the Smart Automation Certification Alliance covering networks and data in industrial internet of things systems.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [],
+   "relations": [
+    "related:saca-certified-industry-4-0-associate-basic-operations"
+   ]
+  },
+  {
+   "key": "safe-release-train-engineer",
+   "name": "SAFe Release Train Engineer",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A certification from Scaled Agile, Inc. for people who lead the planning and delivery of an agile release train in the Scaled Agile Framework.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [
+    "SAFe Release Train Engineer (RTE)"
+   ],
+   "relations": []
+  },
+  {
+   "key": "safety-trained-supervisor",
+   "name": "Safety Trained Supervisor",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A safety credential for supervisors trained to manage workplace safety.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [
+    "Safety Trained Supervision",
+    "STS"
+   ],
+   "relations": []
+  },
+  {
+   "key": "sailing-certification",
+   "name": "Sailing certification",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A certificate showing that a person has been trained and assessed in sailing skills, awarded by a sailing association or school.",
+   "certification": true,
+   "certification_scope": "many-issuers",
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "school-bus-endorsement",
+   "name": "School bus endorsement",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A commercial driver's licence endorsement, issued by a US state, that permits driving a school bus.",
+   "certification": true,
+   "certification_scope": "many-issuers",
+   "variants": [
+    "CDL school bus endorsement"
+   ],
+   "relations": [
+    "related:passenger-endorsement"
+   ]
+  },
+  {
+   "key": "scissor-lift-certification",
+   "name": "Scissor lift certification",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A certificate showing that a person has been trained to operate scissor lifts, aerial work platforms that raise straight up on a folding frame.",
+   "certification": true,
+   "certification_scope": "many-issuers",
+   "variants": [],
+   "relations": [
+    "broader:aerial-lift-certification"
+   ]
+  },
+  {
+   "key": "security-certified-network-architect",
+   "name": "Security Certified Network Architect",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A certification from the Security Certified Program for designing secure network architectures.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [
+    "Security Certified Network Architecture",
+    "SCNA"
+   ],
+   "relations": []
+  },
+  {
+   "key": "security-check-sc-clearance",
+   "name": "Security Check (SC) clearance",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A UK government security clearance level that allows regular access to secret assets.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [
+    "Security Check (SC)",
+    "SC clearance"
+   ],
+   "relations": []
+  },
+  {
+   "key": "senior-certified-welding-inspector",
+   "name": "Senior Certified Welding Inspector",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "An American Welding Society certification for experienced welding inspectors, ranking above the Certified Welding Inspector.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [
+    "SCWI"
+   ],
+   "relations": []
+  },
+  {
+   "key": "series-22-direct-participation-programs-limited-representative",
+   "name": "Series 22 Direct Participation Programs Limited Representative",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A FINRA qualification exam and registration for representatives who sell direct participation programs, such as limited partnerships.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [
+    "Series 22 Direct Participation (Limited Partnerships) License",
+    "Series 22"
+   ],
+   "relations": []
+  },
+  {
+   "key": "series-24-general-securities-principal",
+   "name": "Series 24 General Securities Principal",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A FINRA qualification exam and registration for principals who supervise a broker-dealer's general securities business.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [
+    "Series 24 General Securities Principal License",
+    "Series 24"
+   ],
+   "relations": []
+  },
+  {
+   "key": "series-26-investment-company-and-variable-contracts-products-principal",
+   "name": "Series 26 Investment Company and Variable Contracts Products Principal",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A FINRA qualification exam and registration for principals who supervise the sale of mutual funds and variable annuities.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [
+    "Series 26 Investment Company And Variable Contracts Products Principal License",
+    "Series 26"
+   ],
+   "relations": []
+  },
+  {
+   "key": "series-27-financial-and-operations-principal",
+   "name": "Series 27 Financial and Operations Principal",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A FINRA qualification exam and registration for principals who supervise a broker-dealer's financial reporting and operations.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [
+    "Series 27 Financial And Operations Principal License",
+    "Series 27"
+   ],
+   "relations": []
+  },
+  {
+   "key": "series-3-national-commodity-futures",
+   "name": "Series 3 National Commodity Futures",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A qualification exam, administered through FINRA for the National Futures Association, for people who sell futures and options on futures.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [
+    "Series 3 National Exchange License",
+    "Series 3"
+   ],
+   "relations": []
+  },
+  {
+   "key": "series-31-futures-managed-funds",
+   "name": "Series 31 Futures Managed Funds",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A qualification exam, administered through FINRA for the National Futures Association, for people who sell managed futures funds.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [
+    "Series 31 Futures : Managed Funds License",
+    "Series 31"
+   ],
+   "relations": []
+  },
+  {
+   "key": "series-4-registered-options-principal",
+   "name": "Series 4 Registered Options Principal",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A FINRA qualification exam and registration for principals who supervise a firm's options business.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [
+    "Series 4 Registered Options Principal License",
+    "Series 4"
+   ],
+   "relations": []
+  },
+  {
+   "key": "series-52-municipal-securities-representative",
+   "name": "Series 52 Municipal Securities Representative",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A qualification exam, written by the Municipal Securities Rulemaking Board and administered by FINRA, for representatives who sell municipal securities.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [
+    "Series 52 Municipal Securities Representative License",
+    "Series 52"
+   ],
+   "relations": []
+  },
+  {
+   "key": "series-53-municipal-securities-principal",
+   "name": "Series 53 Municipal Securities Principal",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A qualification exam, written by the Municipal Securities Rulemaking Board and administered by FINRA, for principals who supervise a firm's municipal securities business.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [
+    "Series 53 Municipal Securities Principal License",
+    "Series 53"
+   ],
+   "relations": []
+  },
+  {
+   "key": "series-55-equity-trader-limited-representative",
+   "name": "Series 55 Equity Trader Limited Representative",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A FINRA qualification exam and registration for traders of equity securities at broker-dealers.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [
+    "Series 55 Equity Trader : Limited Representative License",
+    "Series 55"
+   ],
+   "relations": []
+  },
+  {
+   "key": "series-56-proprietary-trader",
+   "name": "Series 56 Proprietary Trader",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A FINRA qualification exam and registration for traders who trade a firm's own capital in securities.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [
+    "Series 56 Proprietary Trader Qualification License",
+    "Series 56"
+   ],
+   "relations": []
+  },
+  {
+   "key": "series-6-investment-company-and-variable-contracts-products-representative",
+   "name": "Series 6 Investment Company and Variable Contracts Products Representative",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A FINRA qualification exam and registration for representatives who sell mutual funds and variable annuities.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [
+    "Series 6 Investment Company And Variable Contracts License (Mutual Funds/Variable Annuities)",
+    "Series 6"
+   ],
+   "relations": []
+  },
+  {
+   "key": "series-63-uniform-securities-agent-state-law",
+   "name": "Series 63 Uniform Securities Agent State Law",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A state securities-law exam, written by the North American Securities Administrators Association, that most states require of people who sell securities.",
+   "certification": true,
+   "certification_scope": "many-issuers",
+   "variants": [
+    "Series 63 Uniform Securities Agent State Law License",
+    "Series 63"
+   ],
+   "relations": []
+  },
+  {
+   "key": "series-65-uniform-investment-adviser-law",
+   "name": "Series 65 Uniform Investment Adviser Law",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A state securities-law exam, written by the North American Securities Administrators Association, for people who give investment advice for a fee.",
+   "certification": true,
+   "certification_scope": "many-issuers",
+   "variants": [
+    "Series 65 Uniform Registered Investment Adviser Law License (RIA)",
+    "Series 65"
+   ],
+   "relations": []
+  },
+  {
+   "key": "series-66-uniform-combined-state-law",
+   "name": "Series 66 Uniform Combined State Law",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A state securities-law exam that combines the state-law content of the Series 63 and Series 65 exams, for people who work as both securities agents and investment adviser representatives.",
+   "certification": true,
+   "certification_scope": "many-issuers",
+   "variants": [
+    "Series 66 Uniform Investment Adviser : Combined State Laws License (Combined 63 And 65)",
+    "Series 66"
+   ],
+   "relations": []
+  },
+  {
+   "key": "series-7-general-securities-representative",
+   "name": "Series 7 General Securities Representative",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A FINRA qualification exam and registration for representatives who sell most types of securities, such as stocks, bonds and mutual funds.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [
+    "Series 7 General Securities Representative License (Stockbroker)",
+    "Series 7"
+   ],
+   "relations": []
+  }
+ ]
+}

@@ -19,6 +19,102 @@
  ],
  "entries": [
   {
+   "key": "employee-relations-investigations",
+   "name": "Employee relations investigations",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Investigating workplace complaints and suspected misconduct, such as harassment or policy breaches, to establish the facts and recommend action.",
+   "certification": false,
+   "variants": [],
+   "relations": [
+    "related:complaint-investigation"
+   ]
+  },
+  {
+   "key": "employer-branding",
+   "name": "Employer branding",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Shaping and promoting how an organisation is seen as a place to work, in order to attract and keep employees.",
+   "certification": false,
+   "variants": [],
+   "relations": [
+    "broader:branding-2"
+   ]
+  },
+  {
+   "key": "employment-compliance",
+   "name": "Employment compliance",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Making sure an organisation follows employment laws and regulations, such as those on pay, working hours and discrimination.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "ems-dispatch",
+   "name": "EMS dispatch",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Taking emergency calls and sending and coordinating ambulances and other emergency medical services.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "encounter-data-management",
+   "name": "Encounter data management",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Collecting, checking and submitting the records of healthcare visits and services, such as the encounter data that health plans report to government programs.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "endevor",
+   "name": "Endevor",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "Software configuration management tool, from CA and now Broadcom, for controlling changes to source code and other components on mainframe systems.",
+   "certification": false,
+   "variants": [
+    "CA Endevor"
+   ],
+   "relations": []
+  },
+  {
+   "key": "endocannabinoid-system",
+   "name": "Endocannabinoid system",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "The network of cannabinoid receptors and naturally made cannabinoid-like molecules in the body that helps regulate functions such as mood, appetite, pain and sleep.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "endocrine-disorders",
+   "name": "Endocrine disorders",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "Medical knowledge of conditions caused by hormone-producing glands working abnormally, such as diabetes and thyroid disease.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "endodontics",
+   "name": "Endodontics",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "The dental specialty concerned with diseases of the tooth pulp and the tissues around the tooth root, including root canal treatment.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
    "key": "endotracheal-suctioning",
    "name": "Endotracheal suctioning",
    "class": "skill",
@@ -360,104 +456,6 @@
    "class": "skill",
    "kind": "skill",
    "definition": "Reporting and writing news about the environment, climate and natural resources.",
-   "certification": false,
-   "variants": [],
-   "relations": []
-  },
-  {
-   "key": "environmental-scanning",
-   "name": "Environmental scanning",
-   "class": "skill",
-   "kind": "method",
-   "definition": "Systematically gathering and analysing information about external trends, competitors and events that could affect an organisation's strategy.",
-   "certification": false,
-   "variants": [],
-   "relations": []
-  },
-  {
-   "key": "environmental-social-and-governance",
-   "name": "Environmental, social and governance",
-   "class": "skill",
-   "kind": "knowledge",
-   "definition": "The environmental, social and governance factors used to judge how sustainable and ethical an organisation's conduct is.",
-   "certification": false,
-   "variants": [
-    "Environmental Social And Governance (ESG) Issues",
-    "ESG"
-   ],
-   "relations": []
-  },
-  {
-   "key": "enzyme-analysis",
-   "name": "Enzyme analysis",
-   "class": "skill",
-   "kind": "skill",
-   "definition": "Measuring the activity or amount of enzymes in a sample, for example to study a reaction or to help diagnose disease.",
-   "certification": false,
-   "variants": [
-    "Enzyme Aanlysis"
-   ],
-   "relations": []
-  },
-  {
-   "key": "enzyme-linked-immunosorbent-assay",
-   "name": "Enzyme-linked immunosorbent assay",
-   "class": "skill",
-   "kind": "method",
-   "definition": "A laboratory test that uses antibodies linked to an enzyme to detect and measure a substance, such as a protein or hormone, in a sample.",
-   "certification": false,
-   "variants": [
-    "Enzyme-Linked Immunosorbent Assay (ELISA)",
-    "ELISA"
-   ],
-   "relations": []
-  },
-  {
-   "key": "epic-asap",
-   "name": "Epic ASAP",
-   "class": "skill",
-   "kind": "tool",
-   "definition": "The emergency department module of Epic Systems' electronic health record software.",
-   "certification": false,
-   "variants": [],
-   "relations": []
-  },
-  {
-   "key": "epic-beacon",
-   "name": "Epic Beacon",
-   "class": "skill",
-   "kind": "tool",
-   "definition": "The oncology module of Epic Systems' electronic health record software, used to plan and document cancer treatment such as chemotherapy.",
-   "certification": false,
-   "variants": [],
-   "relations": []
-  },
-  {
-   "key": "epic-willow",
-   "name": "Epic Willow",
-   "class": "skill",
-   "kind": "tool",
-   "definition": "The pharmacy module of Epic Systems' electronic health record software, covering medication orders, verification and dispensing.",
-   "certification": false,
-   "variants": [],
-   "relations": []
-  },
-  {
-   "key": "epinephrine-administration",
-   "name": "Epinephrine administration",
-   "class": "skill",
-   "kind": "skill",
-   "definition": "Giving epinephrine (adrenaline) to a patient, for example to treat a severe allergic reaction or in cardiac arrest.",
-   "certification": false,
-   "variants": [],
-   "relations": []
-  },
-  {
-   "key": "equipment-design",
-   "name": "Equipment design",
-   "class": "skill",
-   "kind": "skill",
-   "definition": "Designing machines, apparatus or process equipment so that they meet functional, safety and manufacturing requirements.",
    "certification": false,
    "variants": [],
    "relations": []

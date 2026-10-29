@@ -61,6 +61,19 @@
    "relations": []
   },
   {
+   "key": "adobe-coldfusion",
+   "name": "Adobe ColdFusion",
+   "class": "skill",
+   "kind": "platform",
+   "definition": "A commercial web application server and development platform, now from Adobe, that runs applications written in CFML.",
+   "certification": false,
+   "variants": [
+    "Coldfusion (Programming Language)",
+    "ColdFusion"
+   ],
+   "relations": []
+  },
+  {
    "key": "adobe-experience-platform-launch",
    "name": "Adobe Experience Platform Launch",
    "class": "skill",
@@ -73,6 +86,18 @@
    "relations": []
   },
   {
+   "key": "adobe-fonts",
+   "name": "Adobe Fonts",
+   "class": "skill",
+   "kind": "platform",
+   "definition": "Adobe's subscription font service, formerly called Typekit, which supplies fonts for websites and desktop applications.",
+   "certification": false,
+   "variants": [
+    "Typekit"
+   ],
+   "relations": []
+  },
+  {
    "key": "adobe-photodeluxe",
    "name": "Adobe PhotoDeluxe",
    "class": "skill",
@@ -80,6 +105,32 @@
    "definition": "A discontinued consumer photo-editing program from Adobe, aimed at home users rather than professionals.",
    "certification": false,
    "variants": [],
+   "relations": []
+  },
+  {
+   "key": "adobe-substance-3d-designer",
+   "name": "Adobe Substance 3D Designer",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "Adobe software for creating procedural materials and textures for 3D graphics by connecting nodes in a graph.",
+   "certification": false,
+   "variants": [
+    "Substance Designer (3D Graphics Software)",
+    "Substance Designer"
+   ],
+   "relations": []
+  },
+  {
+   "key": "adobe-substance-3d-painter",
+   "name": "Adobe Substance 3D Painter",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "Adobe software for painting textures and materials directly onto 3D models.",
+   "certification": false,
+   "variants": [
+    "Substance Painter (3D Graphics Software)",
+    "Substance Painter"
+   ],
    "relations": []
   },
   {
@@ -111,6 +162,18 @@
    "certification": false,
    "variants": [
     "Aerospike"
+   ],
+   "relations": []
+  },
+  {
+   "key": "ag-grid",
+   "name": "AG Grid",
+   "class": "skill",
+   "kind": "library",
+   "definition": "A JavaScript data-grid component for web applications that displays, sorts, filters and edits large tables of data.",
+   "certification": false,
+   "variants": [
+    "ag-Grid"
    ],
    "relations": []
   },
@@ -404,65 +467,6 @@
    "variants": [
     "Amazon Kindle Fire",
     "Kindle Fire"
-   ],
-   "relations": []
-  },
-  {
-   "key": "amazon-sagemaker",
-   "name": "Amazon SageMaker",
-   "class": "skill",
-   "kind": "tool",
-   "definition": "An Amazon Web Services service for building, training and deploying machine-learning models.",
-   "certification": false,
-   "variants": [
-    "AWS SageMaker",
-    "SageMaker"
-   ],
-   "relations": []
-  },
-  {
-   "key": "amazon-simpledb",
-   "name": "Amazon SimpleDB",
-   "class": "skill",
-   "kind": "tool",
-   "definition": "An Amazon Web Services non-relational database service that stores items made of attributes without a fixed schema.",
-   "certification": false,
-   "variants": [
-    "AWS SimpleDB"
-   ],
-   "relations": [
-    "part_of:aws"
-   ]
-  },
-  {
-   "key": "amcharts",
-   "name": "amCharts",
-   "class": "skill",
-   "kind": "library",
-   "definition": "A JavaScript library for building interactive charts and maps.",
-   "certification": false,
-   "variants": [],
-   "relations": []
-  },
-  {
-   "key": "american-welding-society-codes",
-   "name": "American Welding Society codes",
-   "class": "skill",
-   "kind": "standard",
-   "definition": "The welding codes and standards published by the American Welding Society, such as AWS D1.1 for structural steel.",
-   "certification": false,
-   "variants": [],
-   "relations": []
-  },
-  {
-   "key": "amiga",
-   "name": "Amiga",
-   "class": "skill",
-   "kind": "platform",
-   "definition": "A line of personal computers launched by Commodore in 1985, known for its graphics and sound.",
-   "certification": false,
-   "variants": [
-    "Amiga (Personal Computers)"
    ],
    "relations": []
   }

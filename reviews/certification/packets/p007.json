@@ -19,527 +19,494 @@
  ],
  "entries": [
   {
-   "key": "electric-vehicle-infrastructure-training-program",
-   "name": "Electric Vehicle Infrastructure Training Program",
+   "key": "basic-life-support-instructor-certification",
+   "name": "Basic Life Support instructor certification",
    "class": "certification",
    "kind": "credential",
-   "definition": "A US training and certification programme for electricians who install electric vehicle charging equipment.",
+   "definition": "A certification, issued by training organisations such as the American Heart Association and the American Red Cross, that qualifies a person to teach and certify others in Basic Life Support.",
    "certification": true,
-   "certification_scope": "single-issuer",
+   "certification_scope": "many-issuers",
    "variants": [
-    "Electric Vehicle Infrastructure Training Program (EVITP)",
-    "EVITP"
+    "Basic Life Support (BLS) Instructor Certification"
    ],
    "relations": []
   },
   {
-   "key": "emergency-medical-responder",
-   "name": "Emergency Medical Responder",
+   "key": "board-certified-behavior-analyst",
+   "name": "Board Certified Behavior Analyst",
    "class": "certification",
    "kind": "credential",
-   "definition": "An entry-level emergency medical care credential, below Emergency Medical Technician, for giving immediate lifesaving care until more advanced help arrives.",
+   "definition": "A graduate-level certification, awarded by the Behavior Analyst Certification Board, for practitioners of applied behavior analysis.",
    "certification": true,
-   "certification_scope": "many-issuers",
+   "certification_scope": "single-issuer",
+   "variants": [
+    "BCBA"
+   ],
+   "relations": []
+  },
+  {
+   "key": "board-certified-pharmacotherapy-specialist",
+   "name": "Board Certified Pharmacotherapy Specialist",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A specialty certification awarded by the Board of Pharmacy Specialties to pharmacists who show advanced skill in drug therapy.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [
+    "Board Certified Pharmacotherapy Specialist (BCPS)",
+    "BCPS"
+   ],
+   "relations": []
+  },
+  {
+   "key": "board-certified-specialist-in-gerontological-nutrition",
+   "name": "Board Certified Specialist in Gerontological Nutrition",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A specialist certification for registered dietitians who work with older adults, awarded by the Commission on Dietetic Registration.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [
+    "Certified Specialist in Gerontological Nutrition"
+   ],
+   "relations": []
+  },
+  {
+   "key": "board-certified-specialist-in-renal-nutrition",
+   "name": "Board Certified Specialist in Renal Nutrition",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A specialty certification in kidney nutrition for registered dietitians, awarded by the Commission on Dietetic Registration.",
+   "certification": true,
+   "certification_scope": "single-issuer",
    "variants": [],
    "relations": []
   },
   {
-   "key": "emergency-nurse-pediatric-course",
-   "name": "Emergency Nurse Pediatric Course",
+   "key": "board-certified-specialist-in-sports-dietetics",
+   "name": "Board Certified Specialist in Sports Dietetics",
    "class": "certification",
    "kind": "credential",
-   "definition": "A pediatric emergency nursing course from the Emergency Nurses Association whose completion earns a provider card.",
+   "definition": "A specialist certification for registered dietitians who work with athletes, awarded by the Commission on Dietetic Registration.",
    "certification": true,
    "certification_scope": "single-issuer",
    "variants": [
-    "Emergency Nurse Pediatric Course (ENPC)",
-    "ENPC"
+    "Certified Specialist in Sports Dietetics",
+    "CSSD"
    ],
    "relations": []
   },
   {
-   "key": "engineer-in-training",
-   "name": "Engineer in Training",
+   "key": "board-certified-transplant-pharmacist",
+   "name": "Board Certified Transplant Pharmacist",
    "class": "certification",
    "kind": "credential",
-   "definition": "A US designation given by a state licensing board to a graduate engineer who has passed the Fundamentals of Engineering exam, the first step toward a Professional Engineer licence.",
+   "definition": "A specialty certification awarded by the Board of Pharmacy Specialties to pharmacists who show advanced skill in transplant pharmacy.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [
+    "Board Certified Transplant Pharmacist (BCTXP)",
+    "BCTXP"
+   ],
+   "relations": []
+  },
+  {
+   "key": "boating-license",
+   "name": "Boating license",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A licence or certificate, issued by a state or country, that allows a person to operate a recreational boat.",
    "certification": true,
    "certification_scope": "many-issuers",
    "variants": [
-    "EIT",
-    "Engineer Intern"
+    "Boating licence"
    ],
    "relations": []
   },
   {
-   "key": "enhanced-security-check-esc-clearance",
-   "name": "Enhanced Security Check (eSC) clearance",
+   "key": "boom-lift-certification",
+   "name": "Boom lift certification",
    "class": "certification",
    "kind": "credential",
-   "definition": "A UK government security clearance level that adds further checks to the Security Check (SC) level.",
-   "certification": true,
-   "certification_scope": "single-issuer",
-   "variants": [
-    "Enhanced Security Check (eSC)",
-    "eSC"
-   ],
-   "relations": [
-    "related:security-check-sc-clearance"
-   ]
-  },
-  {
-   "key": "expanded-functions-dental-assistant",
-   "name": "Expanded Functions Dental Assistant",
-   "class": "certification",
-   "kind": "credential",
-   "definition": "A state-recognised credential that lets a dental assistant do extra tasks, such as placing and finishing restorations, under a dentist's supervision.",
-   "certification": true,
-   "certification_scope": "many-issuers",
-   "variants": [
-    "EFDA",
-    "Expanded Function Dental Assistant"
-   ],
-   "relations": []
-  },
-  {
-   "key": "facilities-management-administrator",
-   "name": "Facilities Management Administrator",
-   "class": "certification",
-   "kind": "credential",
-   "definition": "A professional designation in facilities management awarded by BOMI International to people who complete its coursework and exams.",
-   "certification": true,
-   "certification_scope": "single-issuer",
-   "variants": [
-    "Facilities Management Administrator (FMA)"
-   ],
-   "relations": []
-  },
-  {
-   "key": "family-nurse-practitioner",
-   "name": "Family Nurse Practitioner",
-   "class": "certification",
-   "kind": "credential",
-   "definition": "A nurse practitioner credential for providing primary care to patients of all ages, from infants to older adults.",
-   "certification": true,
-   "certification_scope": "many-issuers",
-   "variants": [
-    "Family Nursing Practitioner"
-   ],
-   "relations": [
-    "related:adult-nurse-practitioner"
-   ]
-  },
-  {
-   "key": "fellow-of-the-casualty-actuarial-society",
-   "name": "Fellow of the Casualty Actuarial Society",
-   "class": "certification",
-   "kind": "credential",
-   "definition": "The highest actuarial designation awarded by the Casualty Actuarial Society to property and casualty actuaries who pass its exams and meet its other requirements.",
-   "certification": true,
-   "certification_scope": "single-issuer",
-   "variants": [
-    "Fellow In The Casualty Actuarial Society",
-    "FCAS"
-   ],
-   "relations": []
-  },
-  {
-   "key": "fellow-of-the-society-of-actuaries",
-   "name": "Fellow of the Society of Actuaries",
-   "class": "certification",
-   "kind": "credential",
-   "definition": "The highest actuarial designation awarded by the Society of Actuaries to candidates who pass its fellowship exams and meet its other requirements.",
-   "certification": true,
-   "certification_scope": "single-issuer",
-   "variants": [],
-   "relations": [
-    "related:associate-of-the-society-of-actuaries"
-   ]
-  },
-  {
-   "key": "flagger-certification",
-   "name": "Flagger certification",
-   "class": "certification",
-   "kind": "credential",
-   "definition": "A certificate showing that a person has been trained to direct traffic safely through road work zones as a flagger.",
-   "certification": true,
-   "certification_scope": "many-issuers",
-   "variants": [
-    "Flagger certificate"
-   ],
-   "relations": []
-  },
-  {
-   "key": "flight-attendant-certification",
-   "name": "Flight attendant certification",
-   "class": "certification",
-   "kind": "credential",
-   "definition": "A credential showing that a person has completed the safety training and met the regulatory requirements to work as cabin crew on commercial flights.",
-   "certification": true,
-   "certification_scope": "many-issuers",
-   "variants": [],
-   "relations": []
-  },
-  {
-   "key": "fmcsa-certified-medical-examiner",
-   "name": "FMCSA Certified Medical Examiner",
-   "class": "certification",
-   "kind": "credential",
-   "definition": "A certification, through the US Federal Motor Carrier Safety Administration's National Registry, that lets a health professional perform medical examinations for commercial truck and bus drivers.",
-   "certification": true,
-   "certification_scope": "single-issuer",
-   "variants": [
-    "DOT Certified Medical Examiner"
-   ],
-   "relations": []
-  },
-  {
-   "key": "forklift-certification",
-   "name": "Forklift certification",
-   "class": "certification",
-   "kind": "credential",
-   "definition": "A certificate showing that a person has been trained and evaluated to operate a forklift safely.",
+   "definition": "A certificate showing that a person has been trained to operate boom lifts, aerial work platforms with an extending arm.",
    "certification": true,
    "certification_scope": "many-issuers",
    "variants": [],
    "relations": [
-    "related:boom-lift-certification",
-    "related:aerial-lift-certification"
+    "broader:aerial-lift-certification"
    ]
   },
   {
-   "key": "general-certificate-of-education",
-   "name": "General Certificate of Education",
+   "key": "ccna-security",
+   "name": "CCNA Security",
    "class": "certification",
    "kind": "credential",
-   "definition": "UK-style academic qualifications, such as A Levels, awarded by several exam boards.",
+   "definition": "A Cisco associate-level certification for network engineers who secure Cisco network devices and infrastructure.",
    "certification": true,
-   "certification_scope": "many-issuers",
+   "certification_scope": "single-issuer",
    "variants": [
-    "General Certificate Of Education (GCE)"
+    "Cisco Certified Network Associate- Security",
+    "Cisco Certified Network Associate Security"
+   ],
+   "relations": [
+    "related:ccnp-security"
+   ]
+  },
+  {
+   "key": "ccnp-security",
+   "name": "CCNP Security",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A Cisco professional-level certification for engineers who design, implement and operate network security.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [
+    "CISCO Certified Network Professional - Security",
+    "Cisco Certified Network Professional Security"
    ],
    "relations": []
   },
   {
-   "key": "general-certificate-of-secondary-education",
-   "name": "General Certificate of Secondary Education",
+   "key": "certificate-in-aircraft-maintenance",
+   "name": "Certificate in Aircraft Maintenance",
    "class": "certification",
    "kind": "credential",
-   "definition": "Subject qualifications taken in England, Wales and Northern Ireland at about age 16 and awarded by several exam boards.",
+   "definition": "A certificate awarded by a college or training school on completing a short programme of study in aircraft maintenance.",
    "certification": true,
    "certification_scope": "many-issuers",
-   "variants": [
-    "GCSE"
-   ],
+   "variants": [],
    "relations": []
   },
   {
-   "key": "gerontological-nurse-practitioner",
-   "name": "Gerontological Nurse Practitioner",
+   "key": "certificate-in-baking-and-pastry-arts",
+   "name": "Certificate in Baking and Pastry Arts",
    "class": "certification",
    "kind": "credential",
-   "definition": "A nurse practitioner credential for providing primary care to older adults.",
+   "definition": "A certificate awarded by a college or training school on completing a short programme of study in baking and pastry arts.",
+   "certification": true,
+   "certification_scope": "many-issuers",
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "certificate-in-barbering",
+   "name": "Certificate in Barbering",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A certificate awarded by a college or training school on completing a short programme of study in barbering.",
+   "certification": true,
+   "certification_scope": "many-issuers",
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "certificate-in-dental-assistant",
+   "name": "Certificate in Dental Assistant",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A certificate awarded by a college or training school on completing a short programme of study in dental assisting.",
    "certification": true,
    "certification_scope": "many-issuers",
    "variants": [],
    "relations": [
-    "related:adult-gerontology-acute-care-nurse-practitioner",
-    "related:adult-nurse-practitioner"
+    "related:expanded-functions-dental-assistant"
    ]
   },
   {
-   "key": "giac-certification",
-   "name": "GIAC certification",
+   "key": "certificate-in-electrical-technology",
+   "name": "Certificate in Electrical Technology",
    "class": "certification",
    "kind": "credential",
-   "definition": "The information-security certifications, such as GSEC and GCIH, awarded by Global Information Assurance Certification (GIAC).",
-   "certification": true,
-   "certification_scope": "single-issuer",
-   "variants": [
-    "Global Information Assurance Certification",
-    "GIAC"
-   ],
-   "relations": []
-  },
-  {
-   "key": "giac-certified-enterprise-defender",
-   "name": "GIAC Certified Enterprise Defender",
-   "class": "certification",
-   "kind": "credential",
-   "definition": "A GIAC certification for practitioners who defend enterprise networks and systems with defensive techniques and tools.",
-   "certification": true,
-   "certification_scope": "single-issuer",
-   "variants": [
-    "GIAC Certified Enterprise Defender (GCED)",
-    "GCED"
-   ],
-   "relations": []
-  },
-  {
-   "key": "giac-cyber-threat-intelligence",
-   "name": "GIAC Cyber Threat Intelligence",
-   "class": "certification",
-   "kind": "credential",
-   "definition": "A GIAC certification for analysts who collect, analyse and apply cyber threat intelligence.",
-   "certification": true,
-   "certification_scope": "single-issuer",
-   "variants": [
-    "GCTI"
-   ],
-   "relations": [
-    "related:cyber-threat-intelligence"
-   ]
-  },
-  {
-   "key": "giac-exploit-researcher-and-advanced-penetration-tester",
-   "name": "GIAC Exploit Researcher and Advanced Penetration Tester",
-   "class": "certification",
-   "kind": "credential",
-   "definition": "A GIAC certification for advanced penetration testers who find and exploit vulnerabilities in systems, networks and software.",
-   "certification": true,
-   "certification_scope": "single-issuer",
-   "variants": [
-    "GXPN"
-   ],
-   "relations": []
-  },
-  {
-   "key": "giac-global-industrial-cyber-security-professional",
-   "name": "GIAC Global Industrial Cyber Security Professional",
-   "class": "certification",
-   "kind": "credential",
-   "definition": "A GIAC certification on securing industrial control systems, bridging IT, engineering and cybersecurity.",
-   "certification": true,
-   "certification_scope": "single-issuer",
-   "variants": [
-    "GICSP"
-   ],
-   "relations": []
-  },
-  {
-   "key": "giac-information-security-fundamentals",
-   "name": "GIAC Information Security Fundamentals",
-   "class": "certification",
-   "kind": "credential",
-   "definition": "An entry-level GIAC certification covering core information security concepts.",
-   "certification": true,
-   "certification_scope": "single-issuer",
-   "variants": [
-    "GISF"
-   ],
-   "relations": []
-  },
-  {
-   "key": "giac-network-forensic-analyst",
-   "name": "GIAC Network Forensic Analyst",
-   "class": "certification",
-   "kind": "credential",
-   "definition": "A GIAC certification for investigators who analyse network traffic and evidence in forensic investigations.",
-   "certification": true,
-   "certification_scope": "single-issuer",
-   "variants": [
-    "GNFA"
-   ],
-   "relations": []
-  },
-  {
-   "key": "giac-penetration-tester",
-   "name": "GIAC Penetration Tester",
-   "class": "certification",
-   "kind": "credential",
-   "definition": "A GIAC certification for penetration testers who run structured security tests of systems and networks.",
-   "certification": true,
-   "certification_scope": "single-issuer",
-   "variants": [
-    "GPEN"
-   ],
-   "relations": []
-  },
-  {
-   "key": "giac-security-essentials",
-   "name": "GIAC Security Essentials",
-   "class": "certification",
-   "kind": "credential",
-   "definition": "A GIAC certification covering the essential information security skills and terms expected of hands-on security practitioners.",
-   "certification": true,
-   "certification_scope": "single-issuer",
-   "variants": [
-    "GIAC Security Essentials Certification",
-    "GSEC"
-   ],
-   "relations": []
-  },
-  {
-   "key": "giac-web-application-defender",
-   "name": "GIAC Web Application Defender",
-   "class": "certification",
-   "kind": "credential",
-   "definition": "A GIAC certification for people who defend web applications and understand web application security.",
-   "certification": true,
-   "certification_scope": "single-issuer",
-   "variants": [
-    "GWEB"
-   ],
-   "relations": []
-  },
-  {
-   "key": "giac-web-application-penetration-tester",
-   "name": "GIAC Web Application Penetration Tester",
-   "class": "certification",
-   "kind": "credential",
-   "definition": "A GIAC certification for testers who assess the security of web applications.",
-   "certification": true,
-   "certification_scope": "single-issuer",
-   "variants": [
-    "GWAPT"
-   ],
-   "relations": []
-  },
-  {
-   "key": "gis-certificate",
-   "name": "GIS certificate",
-   "class": "certification",
-   "kind": "credential",
-   "definition": "A certificate awarded for completing a course of study in geographic information systems.",
+   "definition": "A certificate awarded by a college or training school on completing a short programme of study in electrical technology.",
    "certification": true,
    "certification_scope": "many-issuers",
    "variants": [],
    "relations": []
   },
   {
-   "key": "google-ads-certification",
-   "name": "Google Ads Certification",
+   "key": "certificate-in-masonry",
+   "name": "Certificate in Masonry",
    "class": "certification",
    "kind": "credential",
-   "definition": "Google's certifications, taken through its Skillshop learning platform, showing skill with Google Ads, formerly AdWords.",
+   "definition": "A certificate awarded by a college or training school on completing a short programme of study in masonry.",
    "certification": true,
-   "certification_scope": "single-issuer",
+   "certification_scope": "many-issuers",
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "certificate-in-motorcycle-repair",
+   "name": "Certificate in Motorcycle Repair",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A certificate awarded by a college or training school on completing a short programme of study in motorcycle repair.",
+   "certification": true,
+   "certification_scope": "many-issuers",
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "certificate-in-nail-technician",
+   "name": "Certificate in Nail Technician",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A certificate awarded by a college or training school on completing a short programme of study in nail technology.",
+   "certification": true,
+   "certification_scope": "many-issuers",
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "certificate-in-paramedic",
+   "name": "Certificate in Paramedic",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A certificate awarded by a college or training school on completing a short programme of study in paramedic training.",
+   "certification": true,
+   "certification_scope": "many-issuers",
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "certificate-in-pharmacy-technician",
+   "name": "Certificate in Pharmacy Technician",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A certificate awarded by a college or training school on completing a short programme of study in pharmacy technician training.",
+   "certification": true,
+   "certification_scope": "many-issuers",
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "certificate-in-physical-therapy-assistant",
+   "name": "Certificate in Physical Therapy Assistant",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A certificate awarded by a college or training school on completing a short programme of study in physical therapy assisting.",
+   "certification": true,
+   "certification_scope": "many-issuers",
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "certificate-in-plumbing-technology",
+   "name": "Certificate in Plumbing Technology",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A certificate awarded by a college or training school on completing a short programme of study in plumbing technology.",
+   "certification": true,
+   "certification_scope": "many-issuers",
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "certificate-in-veterinary-assistant",
+   "name": "Certificate in Veterinary Assistant",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A certificate awarded by a college or training school on completing a short programme of study in veterinary assisting.",
+   "certification": true,
+   "certification_scope": "many-issuers",
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "certificate-in-welding-technology",
+   "name": "Certificate in Welding Technology",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A certificate awarded by a college or training school on completing a short programme of study in welding technology.",
+   "certification": true,
+   "certification_scope": "many-issuers",
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "certificate-of-advanced-graduate-study",
+   "name": "Certificate of Advanced Graduate Study",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A post-master's credential awarded by universities for a defined programme of advanced graduate study beyond the master's degree.",
+   "certification": true,
+   "certification_scope": "many-issuers",
    "variants": [
-    "Google Adwords Certification"
+    "Certificate Of Advanced Graduate Study (CAGS)",
+    "CAGS",
+    "Certificate of Advanced Graduate Studies"
    ],
    "relations": []
   },
   {
-   "key": "google-advanced-data-analytics-professional-certificate",
-   "name": "Google Advanced Data Analytics Professional Certificate",
+   "key": "certificate-of-clinical-competence-in-speech-language-pathology",
+   "name": "Certificate of Clinical Competence in Speech-Language Pathology",
    "class": "certification",
    "kind": "credential",
-   "definition": "Google's online professional certificate covering statistics, regression and machine learning for data analysis.",
+   "definition": "The professional certificate from the American Speech-Language-Hearing Association showing a speech-language pathologist has met its academic, clinical-practicum and examination requirements.",
    "certification": true,
    "certification_scope": "single-issuer",
    "variants": [
-    "Google Advanced Analytics Certificate"
+    "Certificate Of Clinical Competence In Speech-Language Pathology (CCC-SLP)",
+    "CCC-SLP"
    ],
    "relations": []
   },
   {
-   "key": "google-analytics-certification",
-   "name": "Google Analytics Certification",
+   "key": "certification-in-neurophysiologic-intraoperative-monitoring",
+   "name": "Certification in Neurophysiologic Intraoperative Monitoring",
    "class": "certification",
    "kind": "credential",
-   "definition": "Google's certification, taken through its Skillshop learning platform, showing skill with Google Analytics.",
+   "definition": "A certification for professionals who monitor the nervous system with electrical tests during surgery to help protect it from injury.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [
+    "Certification in Neurophysiologic Intraoperative Monitoring (CNIM)",
+    "CNIM"
+   ],
+   "relations": [
+    "related:american-board-of-neurophysiologic-monitoring-certification"
+   ]
+  },
+  {
+   "key": "certification-in-transportation-and-logistics",
+   "name": "Certification in Transportation and Logistics",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A professional certification in transportation and logistics management.",
    "certification": true,
    "certification_scope": "single-issuer",
    "variants": [],
    "relations": []
   },
   {
-   "key": "google-business-intelligence-professional-certificate",
-   "name": "Google Business Intelligence Professional Certificate",
+   "key": "certified-addictions-registered-nurse",
+   "name": "Certified Addictions Registered Nurse",
    "class": "certification",
    "kind": "credential",
-   "definition": "Google's online professional certificate covering how to build data models, pipelines, dashboards and reports for business decisions.",
+   "definition": "A certification for registered nurses who specialise in caring for people with addictions, awarded by the Addictions Nursing Certification Board.",
    "certification": true,
    "certification_scope": "single-issuer",
    "variants": [
-    "Google Business Intelligence Certificate"
+    "CARN"
    ],
    "relations": []
   },
   {
-   "key": "google-cloud-certified-associate-cloud-engineer",
-   "name": "Google Cloud Certified Associate Cloud Engineer",
+   "key": "certified-alcoholism-and-drug-abuse-counselor",
+   "name": "Certified Alcoholism and Drug Abuse Counselor",
    "class": "certification",
    "kind": "credential",
-   "definition": "A Google Cloud certification showing that a person can deploy applications, monitor operations and manage solutions on Google Cloud.",
+   "definition": "A credential for counselors who treat people with alcohol and drug problems.",
    "certification": true,
-   "certification_scope": "single-issuer",
-   "variants": [
-    "Google Associate Cloud Engineer"
-   ],
+   "variants": [],
    "relations": []
   },
   {
-   "key": "google-cloud-certified-professional-cloud-architect",
-   "name": "Google Cloud Certified Professional Cloud Architect",
+   "key": "certified-ambulatory-perianesthesia-nurse",
+   "name": "Certified Ambulatory Perianesthesia Nurse",
    "class": "certification",
    "kind": "credential",
-   "definition": "A Google Cloud certification showing that a person can design and manage secure, scalable cloud solutions on Google Cloud.",
-   "certification": true,
-   "certification_scope": "single-issuer",
-   "variants": [
-    "Google Professional Cloud Architect"
-   ],
-   "relations": []
-  },
-  {
-   "key": "google-cybersecurity-professional-certificate",
-   "name": "Google Cybersecurity Professional Certificate",
-   "class": "certification",
-   "kind": "credential",
-   "definition": "Google's online professional certificate covering security fundamentals, networks, Linux, SQL and incident response for entry-level security roles.",
+   "definition": "A certification from the American Board of Perianesthesia Nursing Certification for nurses who care for ambulatory patients before and after anesthesia.",
    "certification": true,
    "certification_scope": "single-issuer",
    "variants": [],
    "relations": []
   },
   {
-   "key": "google-data-analytics-professional-certificate",
-   "name": "Google Data Analytics Professional Certificate",
+   "key": "certified-analytics-professional",
+   "name": "Certified Analytics Professional",
    "class": "certification",
    "kind": "credential",
-   "definition": "Google's online professional certificate covering data cleaning, analysis, spreadsheets, SQL, R and visualisation for entry-level data analyst roles.",
-   "certification": true,
-   "certification_scope": "single-issuer",
-   "variants": [
-    "Google Data Analytics Certificate"
-   ],
-   "relations": []
-  },
-  {
-   "key": "google-digital-marketing-certificate",
-   "name": "Google Digital Marketing Certificate",
-   "class": "certification",
-   "kind": "credential",
-   "definition": "A Google-issued online certificate covering digital marketing skills such as search, social media and e-commerce.",
+   "definition": "A certification from INFORMS for analytics practitioners who have shown skill across the whole analytics process, from framing the problem to deploying the solution.",
    "certification": true,
    "certification_scope": "single-issuer",
    "variants": [],
    "relations": []
   },
   {
-   "key": "google-it-automation-with-python-professional-certificate",
-   "name": "Google IT Automation with Python Professional Certificate",
+   "key": "certified-apartment-manager",
+   "name": "Certified Apartment Manager",
    "class": "certification",
    "kind": "credential",
-   "definition": "Google's online professional certificate covering Python scripting, Git and automating IT tasks.",
+   "definition": "A certification from the National Apartment Association for managers of apartment communities.",
    "certification": true,
    "certification_scope": "single-issuer",
-   "variants": [
-    "Google IT Automation Certificate"
-   ],
+   "variants": [],
    "relations": []
   },
   {
-   "key": "google-it-support-professional-certificate",
-   "name": "Google IT Support Professional Certificate",
+   "key": "certified-associate-in-project-management",
+   "name": "Certified Associate in Project Management",
    "class": "certification",
    "kind": "credential",
-   "definition": "Google's online professional certificate covering troubleshooting, networking, operating systems, system administration and security for entry-level IT support roles.",
+   "definition": "An entry-level project management certification from the Project Management Institute for people who are new to the field.",
    "certification": true,
    "certification_scope": "single-issuer",
    "variants": [
-    "Google IT Support Certificate"
+    "Certified Associate Project Management"
+   ],
+   "relations": [
+    "related:project-management"
+   ]
+  },
+  {
+   "key": "certified-associate-in-python-programming",
+   "name": "Certified Associate in Python Programming",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "An associate-level certification from the Python Institute showing that someone can write and understand programs in Python.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "certified-asthma-educator",
+   "name": "Certified Asthma Educator",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A certification showing that a health professional can teach people with asthma and their families how to manage the condition.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [
+    "AE-C"
+   ],
+   "relations": [
+    "related:asthma-education"
+   ]
+  },
+  {
+   "key": "certified-bariatric-nurse",
+   "name": "Certified Bariatric Nurse",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A certification for nurses who care for patients with severe obesity, including before and after weight-loss surgery.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "certified-bath-designer",
+   "name": "Certified Bath Designer",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A certification from the National Kitchen & Bath Association for designers who plan bathrooms.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "certified-biomedical-equipment-technician",
+   "name": "Certified Biomedical Equipment Technician",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A certification for technicians who install, maintain and repair medical equipment such as patient monitors and infusion pumps.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [
+    "CBET"
    ],
    "relations": []
   }

@@ -1,0 +1,383 @@
+{
+ "allowed_kinds": [
+  "ability",
+  "credential",
+  "framework",
+  "human-language",
+  "knowledge",
+  "library",
+  "markup-language",
+  "method",
+  "modeling-language",
+  "platform",
+  "programming-language",
+  "skill",
+  "standard",
+  "style-language",
+  "tool",
+  "work-activity"
+ ],
+ "entries": [
+  {
+   "key": "workflow-automation",
+   "name": "Workflow automation",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Using software to carry out the steps of a business process automatically, passing work between people and systems.",
+   "certification": false,
+   "variants": [],
+   "relations": [
+    "related:power-automate"
+   ]
+  },
+  {
+   "key": "workflow-management",
+   "name": "Workflow management",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Defining, coordinating and monitoring the steps and handoffs through which work moves through an organization.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "workforce-optimisation",
+   "name": "Workforce optimisation",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Matching staffing levels and schedules to expected demand, as in contact centres, so that a workforce is used efficiently.",
+   "certification": false,
+   "variants": [
+    "Workforce optimization"
+   ],
+   "relations": []
+  },
+  {
+   "key": "workforce-trends",
+   "name": "Workforce trends",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "Understanding how the size, make-up, skills and working patterns of an organization's or an industry's workers are changing over time.",
+   "certification": false,
+   "variants": [],
+   "relations": [
+    "related:labor-market-trends"
+   ]
+  },
+  {
+   "key": "working-with-children-aged-0-5",
+   "name": "Working with children aged 0-5",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Caring for and teaching babies, toddlers and young children from birth to five years old.",
+   "certification": false,
+   "variants": [
+    "Working With Children 0-5"
+   ],
+   "relations": []
+  },
+  {
+   "key": "worship-ministry",
+   "name": "Worship ministry",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "The planning and leading of a church's public worship, including its music, liturgy and volunteer teams.",
+   "certification": false,
+   "variants": [],
+   "relations": [
+    "related:family-ministry",
+    "related:children-s-ministry"
+   ]
+  },
+  {
+   "key": "writing-outlines",
+   "name": "Writing outlines",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Planning a piece of writing by listing its main points and their order before drafting it.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "wsdl2java",
+   "name": "WSDL2Java",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "A command-line tool, found in Apache Axis and Apache CXF, that generates Java classes from a WSDL web-service description.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "wxgtk",
+   "name": "wxGTK",
+   "class": "skill",
+   "kind": "library",
+   "definition": "The GTK port of the wxWidgets C++ toolkit, used to build cross-platform desktop applications.",
+   "certification": false,
+   "variants": [
+    "WXGTK (GTK+ Language Bindings)"
+   ],
+   "relations": []
+  },
+  {
+   "key": "wxperl",
+   "name": "wxPerl",
+   "class": "skill",
+   "kind": "library",
+   "definition": "The Perl bindings for the wxWidgets GUI toolkit.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "wxpython",
+   "name": "wxPython",
+   "class": "skill",
+   "kind": "library",
+   "definition": "The Python bindings for the wxWidgets GUI toolkit, used to build cross-platform desktop applications.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "wyse-management-suite",
+   "name": "Wyse Management Suite",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "Dell's software for configuring, monitoring and updating Wyse thin clients and other edge devices.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "xanthoproteic-reaction",
+   "name": "Xanthoproteic reaction",
+   "class": "skill",
+   "kind": "method",
+   "definition": "A chemical test in which concentrated nitric acid turns proteins that contain aromatic amino acids yellow, used to detect such proteins.",
+   "certification": false,
+   "variants": [
+    "Xanthoproteic test"
+   ],
+   "relations": [
+    "broader:chemical-reactions"
+   ]
+  },
+  {
+   "key": "xbox-live-vision",
+   "name": "Xbox Live Vision",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "A USB camera accessory for the Xbox 360 that adds video chat and image capture to games and Xbox Live.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "xcalibur",
+   "name": "Xcalibur",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "Thermo Fisher Scientific software for controlling mass spectrometers and processing their data.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "xtragrid",
+   "name": "XtraGrid",
+   "class": "skill",
+   "kind": "library",
+   "definition": "The DevExpress data-grid control for Windows Forms applications.",
+   "certification": false,
+   "variants": [
+    "DevExpress XtraGrid"
+   ],
+   "relations": []
+  },
+  {
+   "key": "yahoo-messenger",
+   "name": "Yahoo Messenger",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "An instant messaging service from Yahoo, shut down in 2018.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "yahoo-messenger-protocols",
+   "name": "Yahoo! Messenger protocols",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "The proprietary network protocols that Yahoo! Messenger clients used to talk to Yahoo's servers.",
+   "certification": false,
+   "variants": [],
+   "relations": [
+    "related:yahoo-messenger"
+   ]
+  },
+  {
+   "key": "yara",
+   "name": "YARA",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "An open-source tool that identifies and classifies malware by matching files against rules that describe text or binary patterns.",
+   "certification": false,
+   "variants": [
+    "YARA (Software)"
+   ],
+   "relations": []
+  },
+  {
+   "key": "yardi",
+   "name": "Yardi",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "Property management and real-estate accounting software from Yardi Systems.",
+   "certification": false,
+   "variants": [
+    "Yardi (Property Management Software)"
+   ],
+   "relations": []
+  },
+  {
+   "key": "yellow-dog-linux",
+   "name": "Yellow Dog Linux",
+   "class": "skill",
+   "kind": "platform",
+   "definition": "A Linux distribution for PowerPC computers, made by Terra Soft Solutions.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "youth-mentoring",
+   "name": "Youth mentoring",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Guiding and supporting a young person over time as an adult mentor, for example with school, work and personal choices.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "youth-ministry",
+   "name": "Youth ministry",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "The programmes, teaching and pastoral care a church provides for teenagers and young people.",
+   "certification": false,
+   "variants": [],
+   "relations": [
+    "related:family-ministry",
+    "related:children-s-ministry"
+   ]
+  },
+  {
+   "key": "yunos",
+   "name": "YunOS",
+   "class": "skill",
+   "kind": "platform",
+   "definition": "An operating system developed by Alibaba for smartphones and other connected devices.",
+   "certification": false,
+   "variants": [
+    "Yun OS"
+   ],
+   "relations": []
+  },
+  {
+   "key": "z-os",
+   "name": "z/OS",
+   "class": "skill",
+   "kind": "platform",
+   "definition": "IBM's operating system for its z Systems mainframe computers.",
+   "certification": false,
+   "variants": [
+    "IBM z/OS"
+   ],
+   "relations": []
+  },
+  {
+   "key": "z-wave",
+   "name": "Z-Wave",
+   "class": "skill",
+   "kind": "standard",
+   "definition": "A low-power wireless protocol that smart-home devices such as sensors, locks and switches use to communicate.",
+   "certification": false,
+   "variants": [
+    "Z-Wave Protocol"
+   ],
+   "relations": []
+  },
+  {
+   "key": "zemax-opticstudio",
+   "name": "Zemax OpticStudio",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "Software for designing and simulating optical systems such as lenses, from Zemax.",
+   "certification": false,
+   "variants": [
+    "Zemax",
+    "OpticStudio"
+   ],
+   "relations": []
+  },
+  {
+   "key": "zenworks-asset-management",
+   "name": "ZENworks Asset Management",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "A ZENworks product, originally from Novell, for tracking an organization's software licences and hardware assets.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "zeroheight",
+   "name": "zeroheight",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "A web platform for documenting and sharing a design system so that designers and developers work from the same guidelines.",
+   "certification": false,
+   "variants": [
+    "Zeroheight (Software)"
+   ],
+   "relations": []
+  },
+  {
+   "key": "zerto",
+   "name": "Zerto",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "Software for disaster recovery, backup and workload migration across virtual and cloud environments.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "zetafax",
+   "name": "Zetafax",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "Server software for sending and receiving faxes from desktops and applications across a network.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "zfs",
+   "name": "ZFS",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "A file system and volume manager, first developed at Sun Microsystems, that combines storage pooling, snapshots and data checksums.",
+   "certification": false,
+   "variants": [
+    "Zettabyte File System"
+   ],
+   "relations": []
+  }
+ ]
+}

@@ -19,6 +19,260 @@
  ],
  "entries": [
   {
+   "key": "risk-management-planning",
+   "name": "Risk management planning",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Deciding how risks on a project or in an organisation will be identified, assessed, handled and monitored, and recording that in a plan.",
+   "certification": false,
+   "variants": [
+    "Risk Management Planning (Risk Management)"
+   ],
+   "relations": []
+  },
+  {
+   "key": "risk-ratings",
+   "name": "Risk ratings",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "Scores or grades that show how likely and how serious a risk is, as in credit risk ratings and risk matrices.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "robomongo",
+   "name": "Robomongo",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "A free graphical client for browsing and querying MongoDB databases, later renamed Robo 3T.",
+   "certification": false,
+   "variants": [
+    "Robo 3T"
+   ],
+   "relations": []
+  },
+  {
+   "key": "rockmelt",
+   "name": "Rockmelt",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "A social web browser, based on Chromium, that was discontinued after Yahoo bought its maker in 2013.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "rockwell-factorytalk",
+   "name": "Rockwell FactoryTalk",
+   "class": "skill",
+   "kind": "platform",
+   "definition": "Rockwell Automation's family of industrial software for operator screens, data historians, production management and analytics.",
+   "certification": false,
+   "variants": [
+    "FactoryTalk"
+   ],
+   "relations": []
+  },
+  {
+   "key": "role-based-access-control",
+   "name": "Role-based access control",
+   "class": "skill",
+   "kind": "method",
+   "definition": "An approach to restricting system access in which permissions are assigned to roles and users receive access through the roles they hold.",
+   "certification": false,
+   "variants": [
+    "RBAC"
+   ],
+   "relations": []
+  },
+  {
+   "key": "rolling-stock",
+   "name": "Rolling stock",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "The vehicles that run on a railway, such as locomotives, passenger carriages and freight wagons, and the engineering that goes with them.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "roof-bolting",
+   "name": "Roof bolting",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Installing steel bolts into the roof of an underground mine or tunnel to hold the rock together and prevent roof falls.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "route-management",
+   "name": "Route management",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Planning and supervising the routes that vehicles follow, including schedules, stops and drivers, so that deliveries or services run efficiently.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "routing-table-maintenance-protocol",
+   "name": "Routing Table Maintenance Protocol",
+   "class": "skill",
+   "kind": "standard",
+   "definition": "A routing protocol of the AppleTalk network suite that lets routers share which networks they can reach.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "rsa-archer",
+   "name": "RSA Archer",
+   "class": "skill",
+   "kind": "platform",
+   "definition": "A governance, risk and compliance platform for managing risks, policies, audits and compliance work in one place.",
+   "certification": false,
+   "variants": [
+    "Archer Integrated Risk Management"
+   ],
+   "relations": []
+  },
+  {
+   "key": "rubber-tyred-metro",
+   "name": "Rubber-tyred metro",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "A metro system whose trains run on rubber tyres on concrete or steel guideways instead of steel wheels on steel rails.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "rx30",
+   "name": "Rx30",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "A pharmacy management software product used to process prescriptions and run pharmacy operations.",
+   "certification": false,
+   "variants": [
+    "Rx30 (Pharmacy Management Software)"
+   ],
+   "relations": [
+    "related:computerrx"
+   ]
+  },
+  {
+   "key": "rxkotlin",
+   "name": "RxKotlin",
+   "class": "skill",
+   "kind": "library",
+   "definition": "A Kotlin library that adds language-friendly extensions on top of RxJava for writing reactive, event-driven programs.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "safe-drinking-water-act",
+   "name": "Safe Drinking Water Act",
+   "class": "skill",
+   "kind": "standard",
+   "definition": "The US federal law that sets standards for the quality of public drinking water and requires water systems to meet them.",
+   "certification": false,
+   "variants": [
+    "SDWA"
+   ],
+   "relations": [
+    "related:clean-water-act"
+   ]
+  },
+  {
+   "key": "safety-audits",
+   "name": "Safety audits",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Checking workplaces, equipment and procedures against safety rules to find hazards and non-compliance.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "sage-intacct",
+   "name": "Sage Intacct",
+   "class": "skill",
+   "kind": "platform",
+   "definition": "Cloud-based accounting and financial management software, originally from Intacct Corporation and now owned by Sage.",
+   "certification": false,
+   "variants": [
+    "Intacct"
+   ],
+   "relations": []
+  },
+  {
+   "key": "sage-mas-90",
+   "name": "Sage MAS 90",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "Accounting and business management software from Sage for small and mid-sized companies, later sold as Sage 100.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "sailing-instruction",
+   "name": "Sailing instruction",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Teaching people how to sail.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "sailpoint-identityiq",
+   "name": "SailPoint IdentityIQ",
+   "class": "skill",
+   "kind": "platform",
+   "definition": "SailPoint's identity governance software for managing user access, access reviews and account provisioning across an organisation's systems.",
+   "certification": false,
+   "variants": [
+    "IdentityIQ"
+   ],
+   "relations": []
+  },
+  {
+   "key": "sails-js",
+   "name": "Sails.js",
+   "class": "skill",
+   "kind": "framework",
+   "definition": "A Node.js web framework, modelled on the MVC pattern, for building data-driven APIs and apps.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "sales-and-operations-planning",
+   "name": "Sales and operations planning",
+   "class": "skill",
+   "kind": "method",
+   "definition": "A regular business process in which sales, operations and finance teams agree one plan that balances demand forecasts with supply and capacity.",
+   "certification": false,
+   "variants": [
+    "S&OP"
+   ],
+   "relations": []
+  },
+  {
+   "key": "sales-journal",
+   "name": "Sales journal",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "An accounting journal in which a business records the sales it makes on credit.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
    "key": "sales-presentation",
    "name": "Sales presentation",
    "class": "skill",
@@ -71,6 +325,20 @@
    "definition": "The enterprise software from SAP, especially its ERP systems, used to run finance, logistics, manufacturing and human resources processes.",
    "certification": false,
    "variants": [],
+   "relations": []
+  },
+  {
+   "key": "sap-adaptive-server-enterprise",
+   "name": "SAP Adaptive Server Enterprise",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "A relational database server, formerly sold as Sybase ASE and now owned by SAP, that is queried with Transact-SQL.",
+   "certification": false,
+   "variants": [
+    "Sybase (Software)",
+    "Sybase ASE",
+    "SAP ASE"
+   ],
    "relations": []
   },
   {
@@ -205,284 +473,6 @@
     "SAP S4HANA"
    ],
    "relations": []
-  },
-  {
-   "key": "sap-sovereign-cloud",
-   "name": "SAP Sovereign Cloud",
-   "class": "skill",
-   "kind": "platform",
-   "definition": "SAP's cloud offering designed to keep customer data and operations under the legal and operational control of a particular country or region.",
-   "certification": false,
-   "variants": [],
-   "relations": []
-  },
-  {
-   "key": "sap-technology-consulting",
-   "name": "SAP technology consulting",
-   "class": "skill",
-   "kind": "skill",
-   "definition": "Advising organisations on the technical side of SAP systems, such as installation, integration, performance and cloud platforms.",
-   "certification": false,
-   "variants": [
-    "SAP Technology Consultanting"
-   ],
-   "relations": []
-  },
-  {
-   "key": "savon",
-   "name": "Savon",
-   "class": "skill",
-   "kind": "library",
-   "definition": "A Ruby library for calling SOAP web services.",
-   "certification": false,
-   "variants": [],
-   "relations": []
-  },
-  {
-   "key": "scaffold-building",
-   "name": "Scaffold building",
-   "class": "skill",
-   "kind": "skill",
-   "definition": "Erecting and taking down the temporary frameworks of tubes, boards and fittings that give workers safe access to high structures.",
-   "certification": false,
-   "variants": [],
-   "relations": []
-  },
-  {
-   "key": "scala-js",
-   "name": "Scala.js",
-   "class": "skill",
-   "kind": "tool",
-   "definition": "A compiler that turns Scala code into JavaScript so that Scala programs can run in browsers and on Node.js.",
-   "certification": false,
-   "variants": [
-    "ScalaJS"
-   ],
-   "relations": [
-    "related:scala"
-   ]
-  },
-  {
-   "key": "scalding",
-   "name": "Scalding",
-   "class": "skill",
-   "kind": "library",
-   "definition": "A Scala library, originally from Twitter, for writing Hadoop MapReduce data-processing jobs concisely.",
-   "certification": false,
-   "variants": [],
-   "relations": [
-    "related:scala"
-   ]
-  },
-  {
-   "key": "scara-robot",
-   "name": "SCARA robot",
-   "class": "skill",
-   "kind": "knowledge",
-   "definition": "A type of industrial robot arm, short for Selective Compliance Assembly Robot Arm, that moves in a horizontal plane and is rigid vertically, used for assembly and pick-and-place work.",
-   "certification": false,
-   "variants": [
-    "Scara"
-   ],
-   "relations": []
-  },
-  {
-   "key": "schema-markup",
-   "name": "Schema markup",
-   "class": "skill",
-   "kind": "standard",
-   "definition": "Code added to a web page, using the schema.org vocabulary, that tells search engines what the page's content means.",
-   "certification": false,
-   "variants": [
-    "Schema.org markup"
-   ],
-   "relations": []
-  },
-  {
-   "key": "schematic-diagrams",
-   "name": "Schematic diagrams",
-   "class": "skill",
-   "kind": "skill",
-   "definition": "Reading and drawing diagrams that show the parts of a circuit or system and how they connect, using standard symbols.",
-   "certification": false,
-   "variants": [],
-   "relations": []
-  },
-  {
-   "key": "scholarship-of-teaching-and-learning",
-   "name": "Scholarship of teaching and learning",
-   "class": "skill",
-   "kind": "knowledge",
-   "definition": "The systematic study of teaching and student learning, with the findings made public so that others can build on them.",
-   "certification": false,
-   "variants": [
-    "Scholarship Of Teaching And Learning (SoTL)",
-    "SoTL"
-   ],
-   "relations": []
-  },
-  {
-   "key": "school-counseling",
-   "name": "School counseling",
-   "class": "skill",
-   "kind": "skill",
-   "definition": "Helping students with their academic, personal, social and career development as a counsellor in a school.",
-   "certification": false,
-   "variants": [],
-   "relations": []
-  },
-  {
-   "key": "schoology",
-   "name": "Schoology",
-   "class": "skill",
-   "kind": "platform",
-   "definition": "A learning management system, now owned by PowerSchool, that schools use for assignments, grading and communication among teachers, students and parents.",
-   "certification": false,
-   "variants": [],
-   "relations": []
-  },
-  {
-   "key": "scientific-computing",
-   "name": "Scientific computing",
-   "class": "skill",
-   "kind": "skill",
-   "definition": "Using computational methods and software to simulate, analyse and solve problems in science and engineering.",
-   "certification": false,
-   "variants": [
-    "Scientific Computating"
-   ],
-   "relations": []
-  },
-  {
-   "key": "scientific-modelling",
-   "name": "Scientific modelling",
-   "class": "skill",
-   "kind": "method",
-   "definition": "Building simplified mathematical or computational representations of natural systems to explain or predict their behaviour.",
-   "certification": false,
-   "variants": [],
-   "relations": []
-  },
-  {
-   "key": "scikit-learn",
-   "name": "scikit-learn",
-   "class": "skill",
-   "kind": "library",
-   "definition": "An open-source Python library of machine-learning algorithms for classification, regression, clustering and data preparation.",
-   "certification": false,
-   "variants": [
-    "Scikit Learn",
-    "sklearn"
-   ],
-   "relations": []
-  },
-  {
-   "key": "scope-statement",
-   "name": "Scope statement",
-   "class": "skill",
-   "kind": "skill",
-   "definition": "Writing the document that sets out a project's objectives, deliverables, boundaries and exclusions.",
-   "certification": false,
-   "variants": [
-    "Project scope statement"
-   ],
-   "relations": []
-  },
-  {
-   "key": "screen-design",
-   "name": "Screen design",
-   "class": "skill",
-   "kind": "skill",
-   "definition": "Designing the layout, content and visual appearance of individual screens in an app, website or device interface.",
-   "certification": false,
-   "variants": [
-    "Screen Designs"
-   ],
-   "relations": [
-    "related:user-experience-design"
-   ]
-  },
-  {
-   "key": "screen-reader",
-   "name": "Screen reader",
-   "class": "skill",
-   "kind": "tool",
-   "definition": "Assistive software that reads on-screen text and interface elements aloud, or sends them to a braille display, for blind and low-vision users.",
-   "certification": false,
-   "variants": [],
-   "relations": []
-  },
-  {
-   "key": "screening-resumes",
-   "name": "Screening resumes",
-   "class": "skill",
-   "kind": "skill",
-   "definition": "Reviewing resumes to pick the candidates who match a job's requirements.",
-   "certification": false,
-   "variants": [],
-   "relations": []
-  },
-  {
-   "key": "screw-conveyor",
-   "name": "Screw conveyor",
-   "class": "skill",
-   "kind": "tool",
-   "definition": "A conveyor that moves bulk material along a trough or tube with a rotating helical screw.",
-   "certification": false,
-   "variants": [
-    "Auger conveyor"
-   ],
-   "relations": [
-    "related:chain-conveyor"
-   ]
-  },
-  {
-   "key": "script-writing",
-   "name": "Script writing",
-   "class": "skill",
-   "kind": "skill",
-   "definition": "Writing the dialogue, action and structure of a script for film, television, theatre, radio or video.",
-   "certification": false,
-   "variants": [
-    "Scriptwriting"
-   ],
-   "relations": []
-  },
-  {
-   "key": "sd-card",
-   "name": "SD card",
-   "class": "skill",
-   "kind": "tool",
-   "definition": "A small removable flash-memory card in the Secure Digital format, used to store data in cameras, phones and other devices.",
-   "certification": false,
-   "variants": [
-    "Secure Digital card"
-   ],
-   "relations": []
-  },
-  {
-   "key": "seamanship",
-   "name": "Seamanship",
-   "class": "skill",
-   "kind": "skill",
-   "definition": "The skill of handling, navigating and maintaining a boat or ship safely at sea.",
-   "certification": false,
-   "variants": [],
-   "relations": []
-  },
-  {
-   "key": "seating-guests",
-   "name": "Seating guests",
-   "class": "skill",
-   "kind": "skill",
-   "definition": "Showing arriving guests to their tables or seats in a restaurant, event or venue.",
-   "certification": false,
-   "variants": [
-    "Seat Guests"
-   ],
-   "relations": [
-    "related:greeting-guests"
-   ]
   }
  ]
 }

@@ -1,0 +1,282 @@
+{
+ "allowed_kinds": [
+  "ability",
+  "credential",
+  "framework",
+  "human-language",
+  "knowledge",
+  "library",
+  "markup-language",
+  "method",
+  "modeling-language",
+  "platform",
+  "programming-language",
+  "skill",
+  "standard",
+  "style-language",
+  "tool",
+  "work-activity"
+ ],
+ "entries": [
+  {
+   "key": "series-79-investment-banking-representative",
+   "name": "Series 79 Investment Banking Representative",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A FINRA qualification exam and registration for investment bankers who advise on securities offerings and mergers and acquisitions.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [
+    "Series 79 Investment Banking License",
+    "Series 79"
+   ],
+   "relations": []
+  },
+  {
+   "key": "series-86-research-analyst-analysis",
+   "name": "Series 86 Research Analyst (Analysis)",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "The securities-analysis part of FINRA's research analyst qualification exams, covering valuation and financial analysis.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [
+    "Series 86 Research Analyst : Securities Analysis",
+    "Series 86"
+   ],
+   "relations": []
+  },
+  {
+   "key": "series-9-general-securities-sales-supervisor-options-module",
+   "name": "Series 9 General Securities Sales Supervisor (Options Module)",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A FINRA qualification exam and registration for general securities sales supervisors, covering the supervision of options sales.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [
+    "Series 9 General Securities Sales Supervisor License : Options",
+    "Series 9"
+   ],
+   "relations": []
+  },
+  {
+   "key": "series-99-operations-professional",
+   "name": "Series 99 Operations Professional",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A FINRA qualification exam and registration for operations staff at broker-dealers.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [
+    "Series 99"
+   ],
+   "relations": []
+  },
+  {
+   "key": "servsafe-alcohol",
+   "name": "ServSafe Alcohol",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A responsible-alcohol-service certification from the National Restaurant Association's ServSafe program.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "six-sigma-black-belt",
+   "name": "Six Sigma Black Belt",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A certification for people who lead Six Sigma process-improvement projects, higher than the Green Belt.",
+   "certification": true,
+   "certification_scope": "many-issuers",
+   "variants": [
+    "Six Sigma Black Belt Certification"
+   ],
+   "relations": []
+  },
+  {
+   "key": "six-sigma-green-belt",
+   "name": "Six Sigma Green Belt",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A certification for people who take part in or lead smaller Six Sigma process-improvement projects, below the Black Belt.",
+   "certification": true,
+   "certification_scope": "many-issuers",
+   "variants": [
+    "Six Sigma Green Belt Certification"
+   ],
+   "relations": []
+  },
+  {
+   "key": "specialist-in-blood-banking",
+   "name": "Specialist in Blood Banking",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A certification from the ASCP Board of Certification for laboratory professionals who specialise in blood banking and transfusion medicine.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [
+    "Specialist in Blood Banking (SBB-ASCP)",
+    "SBB(ASCP)"
+   ],
+   "relations": []
+  },
+  {
+   "key": "sun-certified-enterprise-architect",
+   "name": "Sun Certified Enterprise Architect",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A Sun Microsystems certification, later taken over by Oracle, for architects who design enterprise applications on the Java platform.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [
+    "Sun Certified Enterprise Architect (SCEA)",
+    "SCEA"
+   ],
+   "relations": []
+  },
+  {
+   "key": "tanker-and-hazmat-combination-endorsement",
+   "name": "Tanker and hazmat combination endorsement",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A commercial driver's licence endorsement, coded X, that combines the tanker and hazardous materials endorsements.",
+   "certification": true,
+   "certification_scope": "many-issuers",
+   "variants": [
+    "Tanker And Hazmat Combo X Endorsement"
+   ],
+   "relations": [
+    "related:hazmat-endorsement"
+   ]
+  },
+  {
+   "key": "tanker-endorsement",
+   "name": "Tanker endorsement",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A commercial driver's licence endorsement, issued by a US state, that permits driving a tank vehicle that carries liquids or gases in bulk.",
+   "certification": true,
+   "certification_scope": "many-issuers",
+   "variants": [
+    "CDL tanker endorsement"
+   ],
+   "relations": []
+  },
+  {
+   "key": "taxi-license",
+   "name": "Taxi license",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A licence issued by a city or state authority that allows a person or vehicle to operate as a taxi.",
+   "certification": true,
+   "certification_scope": "many-issuers",
+   "variants": [
+    "Taxi licence"
+   ],
+   "relations": [
+    "related:chauffeur-license"
+   ]
+  },
+  {
+   "key": "trauma-nurse-core-course",
+   "name": "Trauma Nurse Core Course",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A course from the Emergency Nurses Association that teaches nurses a structured approach to assessing and caring for trauma patients and awards a provider card on completion.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [
+    "Trauma Nurse Core Course (TNCC)",
+    "TNCC"
+   ],
+   "relations": [
+    "related:emergency-nurse-pediatric-course"
+   ]
+  },
+  {
+   "key": "web-programming-certificate",
+   "name": "Web programming certificate",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A certificate awarded for completing a course of study in web programming.",
+   "certification": true,
+   "certification_scope": "many-issuers",
+   "variants": [
+    "Web Programming Certificates"
+   ],
+   "relations": [
+    "related:web-development"
+   ]
+  },
+  {
+   "key": "web-technologies-certificate",
+   "name": "Web technologies certificate",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A certificate awarded for completing a course of study in web technologies.",
+   "certification": true,
+   "certification_scope": "many-issuers",
+   "variants": [
+    "Web Technologies Certificates"
+   ],
+   "relations": []
+  },
+  {
+   "key": "wicklander-zulawski-certification",
+   "name": "Wicklander-Zulawski certification",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A certification awarded by Wicklander-Zulawski & Associates to people who complete its training in investigative interviewing and interrogation.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "wilderness-emt",
+   "name": "Wilderness EMT",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "Emergency medical technician training combined with wilderness medicine, for treating patients far from hospital care, awarded as a course certificate by various outdoor and medical training providers.",
+   "certification": true,
+   "certification_scope": "many-issuers",
+   "variants": [
+    "WEMT",
+    "Wilderness Emergency Medical Technician"
+   ],
+   "relations": []
+  },
+  {
+   "key": "wilderness-first-responder",
+   "name": "Wilderness First Responder",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A wilderness medicine certification, taught by several training providers, for people who give emergency care in remote places where help is hours away.",
+   "certification": true,
+   "certification_scope": "many-issuers",
+   "variants": [
+    "WFR"
+   ],
+   "relations": []
+  },
+  {
+   "key": "zend-certified-php-engineer",
+   "name": "Zend Certified PHP Engineer",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A certification from Zend that shows a PHP developer has passed its exam.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [
+    "Zend Certified Engineer",
+    "ZCE",
+    "Zend PHP Certification"
+   ],
+   "relations": []
+  }
+ ]
+}

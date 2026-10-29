@@ -19,6 +19,97 @@
  ],
  "entries": [
   {
+   "key": "cocoapods",
+   "name": "CocoaPods",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "A dependency manager for Swift and Objective-C projects that downloads and links third-party libraries.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "cocoonjs",
+   "name": "CocoonJS",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "A tool from Ludei that packages HTML5 and JavaScript apps and games as native mobile apps with accelerated canvas rendering.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "cognitive-computing",
+   "name": "Cognitive computing",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "Computing systems that imitate aspects of human thinking, such as learning, reasoning and understanding language, using methods like machine learning and natural language processing.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "cognitive-load",
+   "name": "Cognitive load",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "The amount of mental effort being used in working memory at a given time, a concept used in teaching and interface design to avoid overloading people.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "collaboration",
+   "name": "Collaboration",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Working jointly with others, sharing information and effort, to reach a shared goal.",
+   "certification": false,
+   "variants": [
+    "Collaborative Skills"
+   ],
+   "relations": []
+  },
+  {
+   "key": "collaboration-software",
+   "name": "Collaboration software",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "Software that lets groups work together on shared tasks and documents, for example through shared files, chat and project boards.",
+   "certification": false,
+   "variants": [
+    "Collaborative Softwares"
+   ],
+   "relations": []
+  },
+  {
+   "key": "collaborative-planning-forecasting-and-replenishment",
+   "name": "Collaborative Planning, Forecasting and Replenishment",
+   "class": "skill",
+   "kind": "method",
+   "definition": "A supply-chain practice in which trading partners jointly plan, forecast and replenish stock using shared data.",
+   "certification": false,
+   "variants": [
+    "Collaborative Planning Forecasting And Replenishment",
+    "CPFR",
+    "Collaborative Planning, Forecasting, And Replenishment (CPFR)",
+    "Collaborative Planning Forecasting SandsReplenishment"
+   ],
+   "relations": []
+  },
+  {
+   "key": "color-matching",
+   "name": "Color matching",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Choosing or adjusting colours so that a product or print matches a reference colour, as in paint, printing, textiles and cosmetics.",
+   "certification": false,
+   "variants": [
+    "Colour matching"
+   ],
+   "relations": []
+  },
+  {
    "key": "color-material-and-finish-design",
    "name": "Color, material and finish design",
    "class": "skill",
@@ -374,96 +465,6 @@
    "definition": "Expressing ideas clearly in no more words than are needed.",
    "certification": false,
    "variants": [],
-   "relations": []
-  },
-  {
-   "key": "concourse-ci",
-   "name": "Concourse CI",
-   "class": "skill",
-   "kind": "tool",
-   "definition": "An open-source continuous integration and delivery system in which pipelines are defined in YAML and tasks run in containers.",
-   "certification": false,
-   "variants": [],
-   "relations": []
-  },
-  {
-   "key": "concurrent-engineering",
-   "name": "Concurrent engineering",
-   "class": "skill",
-   "kind": "method",
-   "definition": "An approach in which design, manufacturing and other product-development stages are carried out in parallel instead of one after another.",
-   "certification": false,
-   "variants": [
-    "Simultaneous Engineering Wikipedia",
-    "Simultaneous engineering"
-   ],
-   "relations": []
-  },
-  {
-   "key": "conducting-tours",
-   "name": "Conducting tours",
-   "class": "skill",
-   "kind": "skill",
-   "definition": "Leading groups on guided tours and presenting information about the places or facilities visited.",
-   "certification": false,
-   "variants": [
-    "Conduct Tours"
-   ],
-   "relations": []
-  },
-  {
-   "key": "cone-penetration-testing",
-   "name": "Cone penetration testing",
-   "class": "skill",
-   "kind": "method",
-   "definition": "A geotechnical test in which an instrumented cone is pushed into the ground to measure soil properties and layering.",
-   "certification": false,
-   "variants": [
-    "Cone Penetration Tests",
-    "Cone penetration test"
-   ],
-   "relations": []
-  },
-  {
-   "key": "confirmit",
-   "name": "Confirmit",
-   "class": "skill",
-   "kind": "platform",
-   "definition": "A survey and market research software platform for building surveys and analysing responses.",
-   "certification": false,
-   "variants": [],
-   "relations": []
-  },
-  {
-   "key": "conflict-catcher",
-   "name": "Conflict Catcher",
-   "class": "skill",
-   "kind": "tool",
-   "definition": "A classic Mac OS utility for managing extensions and control panels and finding conflicts between them.",
-   "certification": false,
-   "variants": [],
-   "relations": []
-  },
-  {
-   "key": "confluent",
-   "name": "Confluent",
-   "class": "skill",
-   "kind": "platform",
-   "definition": "A data streaming platform built on Apache Kafka, offered self-managed as Confluent Platform and as the Confluent Cloud service.",
-   "certification": false,
-   "variants": [],
-   "relations": []
-  },
-  {
-   "key": "confocal-microscopy",
-   "name": "Confocal microscopy",
-   "class": "skill",
-   "kind": "method",
-   "definition": "A microscopy technique that uses a pinhole to block out-of-focus light so that thin optical sections of a specimen can be imaged.",
-   "certification": false,
-   "variants": [
-    "Confocal"
-   ],
    "relations": []
   }
  ]

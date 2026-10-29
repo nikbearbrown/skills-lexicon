@@ -19,6 +19,135 @@
  ],
  "entries": [
   {
+   "key": "extensive-reading",
+   "name": "Extensive reading",
+   "class": "skill",
+   "kind": "method",
+   "definition": "A language-learning approach in which learners read large amounts of easy, enjoyable material to build fluency and vocabulary.",
+   "certification": false,
+   "variants": [
+    "Extensive Reading (Language Acquisition)"
+   ],
+   "relations": []
+  },
+  {
+   "key": "external-stakeholder-management",
+   "name": "External stakeholder management",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Identifying and working with people and organisations outside the company, such as customers, regulators and partners, to understand their interests and keep their support.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "extract-transform-load",
+   "name": "Extract, transform, load",
+   "class": "skill",
+   "kind": "method",
+   "definition": "A data-integration process that pulls data from source systems, reshapes it, and loads it into a target such as a data warehouse.",
+   "certification": false,
+   "variants": [
+    "Extraction, Transformation, and Loading (ETL)",
+    "ETL",
+    "Extraction, Transformation, and Loading"
+   ],
+   "relations": []
+  },
+  {
+   "key": "eye-surgery",
+   "name": "Eye surgery",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "Surgical operations on the eye and the tissues around it, such as cataract, glaucoma, retinal and corneal surgery.",
+   "certification": false,
+   "variants": [
+    "Eye Surgeries",
+    "Ophthalmic surgery"
+   ],
+   "relations": []
+  },
+  {
+   "key": "facebook",
+   "name": "Facebook",
+   "class": "skill",
+   "kind": "platform",
+   "definition": "A social networking platform, owned by Meta, where people and organisations post content, message each other and run ads.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "facebook-advertising",
+   "name": "Facebook advertising",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Creating, targeting and managing paid ads on Facebook through Meta's advertising tools.",
+   "certification": false,
+   "variants": [
+    "Facebook Advert",
+    "Facebook Ads"
+   ],
+   "relations": []
+  },
+  {
+   "key": "facebook-marketing",
+   "name": "Facebook marketing",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Promoting a business or brand on Facebook through pages, posts, groups and paid ads.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "facility-maintenance",
+   "name": "Facility maintenance",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Keeping a building and its equipment and systems in working order through routine upkeep and repairs.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "factoring-finance",
+   "name": "Factoring (finance)",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "A way of financing a business in which it sells its unpaid invoices to a third party at a discount in return for immediate cash.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "failure-mode-and-effects-analysis",
+   "name": "Failure mode and effects analysis",
+   "class": "skill",
+   "kind": "method",
+   "definition": "A structured method for listing the ways a product or process could fail, rating the effect and likelihood of each, and deciding what to fix first.",
+   "certification": false,
+   "variants": [
+    "Failure Mode Effects Analysis",
+    "FMEA",
+    "Failure Modes and Effects Analysis"
+   ],
+   "relations": []
+  },
+  {
+   "key": "fair-employment-and-housing-act",
+   "name": "Fair Employment and Housing Act",
+   "class": "skill",
+   "kind": "standard",
+   "definition": "A California law that prohibits discrimination and harassment in employment and housing; its usual abbreviation is FEHA, not FEMA.",
+   "certification": false,
+   "variants": [
+    "Fair Employment And Housing Act (FEMA)",
+    "FEHA"
+   ],
+   "relations": []
+  },
+  {
    "key": "family-and-consumer-sciences",
    "name": "Family and consumer sciences",
    "class": "skill",
@@ -337,131 +466,6 @@
    "certification": false,
    "variants": [
     "FINCAD (Software)"
-   ],
-   "relations": []
-  },
-  {
-   "key": "fincen-314-program",
-   "name": "FinCEN 314 program",
-   "class": "skill",
-   "kind": "standard",
-   "definition": "The information-sharing rules under Section 314 of the USA PATRIOT Act, run by FinCEN, that let law enforcement and financial institutions share information about suspected money laundering and terrorist financing.",
-   "certification": false,
-   "variants": [],
-   "relations": []
-  },
-  {
-   "key": "fine-tuning",
-   "name": "Model fine-tuning",
-   "class": "skill",
-   "kind": "method",
-   "definition": "Adapting model parameters to selected tasks or examples.",
-   "variants": [
-    "fine-tuning",
-    "instruction fine-tuning"
-   ],
-   "relations": []
-  },
-  {
-   "key": "firebase-cloud-messaging",
-   "name": "Firebase Cloud Messaging",
-   "class": "skill",
-   "kind": "platform",
-   "definition": "Google's cloud service for sending push notifications and messages to Android, iOS and web apps.",
-   "certification": false,
-   "variants": [
-    "Firebase Cloud Messaging (FCM)"
-   ],
-   "relations": []
-  },
-  {
-   "key": "first-article-inspection",
-   "name": "First article inspection",
-   "class": "skill",
-   "kind": "method",
-   "definition": "A documented check that the first part made from a new design or process meets all drawing and specification requirements.",
-   "certification": false,
-   "variants": [
-    "First Article Inspections"
-   ],
-   "relations": []
-  },
-  {
-   "key": "fis-getpaid",
-   "name": "FIS GetPaid",
-   "class": "skill",
-   "kind": "tool",
-   "definition": "FIS's software for managing accounts receivable, credit and collections.",
-   "certification": false,
-   "variants": [
-    "FIS GetPaid (Accounts Receivable Software)"
-   ],
-   "relations": []
-  },
-  {
-   "key": "flask",
-   "name": "Flask",
-   "class": "skill",
-   "kind": "framework",
-   "definition": "A lightweight Python web framework for building web applications and APIs.",
-   "certification": false,
-   "variants": [
-    "Flask (Web Framework)"
-   ],
-   "relations": []
-  },
-  {
-   "key": "flat-sketching",
-   "name": "Flat sketching",
-   "class": "skill",
-   "kind": "skill",
-   "definition": "Drawing flat, two-dimensional technical drawings of garments that show seams, stitching and proportions for design and production.",
-   "certification": false,
-   "variants": [],
-   "relations": []
-  },
-  {
-   "key": "flatbed-truck",
-   "name": "Flatbed truck",
-   "class": "skill",
-   "kind": "tool",
-   "definition": "A truck with an open, flat cargo bed and no sides or roof, used to haul large or irregular loads.",
-   "certification": false,
-   "variants": [],
-   "relations": []
-  },
-  {
-   "key": "flavor-development",
-   "name": "Flavor development",
-   "class": "skill",
-   "kind": "skill",
-   "definition": "Creating and refining flavours for food and drink products.",
-   "certification": false,
-   "variants": [],
-   "relations": []
-  },
-  {
-   "key": "flexible-single-master-operations",
-   "name": "Flexible Single Master Operations",
-   "class": "skill",
-   "kind": "knowledge",
-   "definition": "The specialised domain controller roles in Microsoft Active Directory that only one server at a time may hold, such as schema master and PDC emulator.",
-   "certification": false,
-   "variants": [
-    "Flexible Single Master Operation",
-    "FSMO"
-   ],
-   "relations": []
-  },
-  {
-   "key": "flexisign",
-   "name": "FlexiSIGN",
-   "class": "skill",
-   "kind": "tool",
-   "definition": "Sign-making and large-format print design software, from Scanvec Amiable, used to design signs and drive cutters and printers.",
-   "certification": false,
-   "variants": [
-    "Scanvec Amiable FlexiSign"
    ],
    "relations": []
   }

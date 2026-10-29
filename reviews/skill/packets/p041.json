@@ -19,6 +19,221 @@
  ],
  "entries": [
   {
+   "key": "on1",
+   "name": "ON1",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "Photo editing and organising software made by ON1, Inc., including ON1 Photo RAW.",
+   "certification": false,
+   "variants": [
+    "ON1 (Software)"
+   ],
+   "relations": []
+  },
+  {
+   "key": "onboarding",
+   "name": "Onboarding",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Guiding new employees or new customers through their first stage of joining so they can work or use a product effectively.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "oncogenomics",
+   "name": "Oncogenomics",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "The study of the genetic and genomic changes behind cancer and how they can guide diagnosis and treatment.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "oncology-sales",
+   "name": "Oncology sales",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Selling cancer drugs, devices or diagnostics to oncologists, hospitals and other cancer care providers.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "onetrust",
+   "name": "OneTrust",
+   "class": "skill",
+   "kind": "platform",
+   "definition": "A software platform for privacy, data governance, third-party risk and compliance management.",
+   "certification": false,
+   "variants": [
+    "OneTrust (Software)"
+   ],
+   "relations": []
+  },
+  {
+   "key": "online-demonstration",
+   "name": "Online demonstration",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Showing a product, process or technique to an audience remotely, using screen sharing or video.",
+   "certification": false,
+   "variants": [
+    "Online Demostration"
+   ],
+   "relations": []
+  },
+  {
+   "key": "onshape",
+   "name": "Onshape",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "A cloud-based computer-aided design system for 3D product modelling that runs in a web browser and is owned by PTC.",
+   "certification": false,
+   "variants": [
+    "Onshape (3D Modeling Software)"
+   ],
+   "relations": [
+    "broader:3d-modeling-software"
+   ]
+  },
+  {
+   "key": "open-banking",
+   "name": "Open banking",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "A system in which banks let authorised third parties access customer account data and payment services through secure APIs, with the customer's consent.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "open-network-computing",
+   "name": "Open Network Computing",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "A set of distributed computing technologies from Sun Microsystems, including ONC RPC and the Network File System.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "open-shortest-path-first",
+   "name": "Open Shortest Path First",
+   "class": "skill",
+   "kind": "standard",
+   "definition": "A link-state routing protocol for IP networks that finds shortest paths using Dijkstra's algorithm.",
+   "certification": false,
+   "variants": [
+    "OSPF"
+   ],
+   "relations": []
+  },
+  {
+   "key": "openapi-specification",
+   "name": "OpenAPI Specification",
+   "class": "skill",
+   "kind": "standard",
+   "definition": "A language-agnostic specification for describing HTTP APIs in a machine-readable YAML or JSON format, formerly known as Swagger.",
+   "certification": false,
+   "variants": [
+    "Openapi"
+   ],
+   "relations": [
+    "related:application-programming-interface"
+   ]
+  },
+  {
+   "key": "opencart",
+   "name": "OpenCart",
+   "class": "skill",
+   "kind": "platform",
+   "definition": "An open-source PHP e-commerce platform for running online stores.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "opendaylight",
+   "name": "OpenDaylight",
+   "class": "skill",
+   "kind": "platform",
+   "definition": "An open-source software-defined networking platform, hosted by the Linux Foundation, built around a network controller.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "openni",
+   "name": "OpenNI",
+   "class": "skill",
+   "kind": "framework",
+   "definition": "An open-source software framework for working with depth-sensing cameras and natural-interaction devices, such as the Microsoft Kinect.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "openstreetmap",
+   "name": "OpenStreetMap",
+   "class": "skill",
+   "kind": "platform",
+   "definition": "A collaborative project that builds a free, editable map database of the world.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "opentok",
+   "name": "OpenTok",
+   "class": "skill",
+   "kind": "platform",
+   "definition": "A WebRTC-based platform and API, originally from TokBox and now part of Vonage, for adding live video to web and mobile apps.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "opentsdb",
+   "name": "OpenTSDB",
+   "class": "skill",
+   "kind": "platform",
+   "definition": "A scalable, open-source time series database built to run on Apache HBase.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "operating-systems",
+   "name": "Operating systems",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "Understanding process, memory, storage and system resource management.",
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "operational-risk-mitigation",
+   "name": "Operational risk mitigation",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Planning and applying controls to reduce the risk of loss from failed processes, people, systems or external events.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "operationalizing-ai",
+   "name": "Operationalizing AI",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Moving AI models from prototypes into reliable production use, including deployment, monitoring and integration into business processes.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
    "key": "operations-administration-maintenance-and-provisioning",
    "name": "Operations, administration, maintenance and provisioning",
    "class": "skill",
@@ -257,217 +472,6 @@
     "Oracle Golden Gate",
     "GoldenGate"
    ],
-   "relations": []
-  },
-  {
-   "key": "oracle-hrms",
-   "name": "Oracle HRMS",
-   "class": "skill",
-   "kind": "tool",
-   "definition": "The human-resources applications of Oracle E-Business Suite, covering employee records, payroll, benefits, time and training.",
-   "certification": false,
-   "variants": [
-    "Oracle Human Resource Management System"
-   ],
-   "relations": []
-  },
-  {
-   "key": "oracle-olap",
-   "name": "Oracle OLAP",
-   "class": "skill",
-   "kind": "tool",
-   "definition": "An option of Oracle Database that stores multidimensional data in analytic workspaces and answers online analytical processing queries.",
-   "certification": false,
-   "variants": [],
-   "relations": []
-  },
-  {
-   "key": "oracle-primavera",
-   "name": "Oracle Primavera",
-   "class": "skill",
-   "kind": "tool",
-   "definition": "Oracle's family of project portfolio management software, best known for Primavera P6, used to plan and schedule large projects.",
-   "certification": false,
-   "variants": [
-    "Primavera"
-   ],
-   "relations": []
-  },
-  {
-   "key": "oracle-reports",
-   "name": "Oracle Reports",
-   "class": "skill",
-   "kind": "tool",
-   "definition": "An Oracle tool for designing and running formatted, paginated reports from the data in Oracle Database.",
-   "certification": false,
-   "variants": [],
-   "relations": []
-  },
-  {
-   "key": "oracle-workflow",
-   "name": "Oracle Workflow",
-   "class": "skill",
-   "kind": "tool",
-   "definition": "An Oracle tool, used with Oracle Database and E-Business Suite, for modelling and automating business processes as workflows.",
-   "certification": false,
-   "variants": [],
-   "relations": []
-  },
-  {
-   "key": "oral-cancer-screening",
-   "name": "Oral cancer screening",
-   "class": "skill",
-   "kind": "skill",
-   "definition": "Examining the mouth, lips, tongue and throat for early signs of cancer or precancerous lesions.",
-   "certification": false,
-   "variants": [],
-   "relations": []
-  },
-  {
-   "key": "oral-hygiene",
-   "name": "Oral hygiene",
-   "class": "skill",
-   "kind": "knowledge",
-   "definition": "The practices that keep the mouth, teeth and gums clean and healthy, such as brushing, flossing and cleaning dentures.",
-   "certification": false,
-   "variants": [],
-   "relations": []
-  },
-  {
-   "key": "order-of-draw",
-   "name": "Order of draw",
-   "class": "skill",
-   "kind": "knowledge",
-   "definition": "The recommended sequence for filling blood-collection tubes during venipuncture so that additives from one tube do not contaminate the next.",
-   "certification": false,
-   "variants": [],
-   "relations": []
-  },
-  {
-   "key": "organic-composition-of-capital",
-   "name": "Organic composition of capital",
-   "class": "skill",
-   "kind": "knowledge",
-   "definition": "In Marxian economics, the ratio of the capital spent on machinery and materials to the capital spent on wages.",
-   "certification": false,
-   "variants": [],
-   "relations": []
-  },
-  {
-   "key": "organization-development",
-   "name": "Organization development",
-   "class": "skill",
-   "kind": "knowledge",
-   "definition": "The field and practice of planned, behavioural-science-based efforts to improve how an organisation works and how its people work together.",
-   "certification": false,
-   "variants": [],
-   "relations": []
-  },
-  {
-   "key": "organizational-change",
-   "name": "Organizational change",
-   "class": "skill",
-   "kind": "knowledge",
-   "definition": "How and why an organisation alters its strategy, structure, processes or culture, and how that change is planned and managed.",
-   "certification": false,
-   "variants": [],
-   "relations": []
-  },
-  {
-   "key": "organizational-culture-change",
-   "name": "Organizational culture change",
-   "class": "skill",
-   "kind": "skill",
-   "definition": "Deliberately shifting the shared values, norms and habits of an organisation so that people work differently.",
-   "certification": false,
-   "variants": [],
-   "relations": []
-  },
-  {
-   "key": "organizational-leadership",
-   "name": "Organizational leadership",
-   "class": "skill",
-   "kind": "skill",
-   "definition": "Guiding people and setting direction across an organisation so that it meets its goals.",
-   "certification": false,
-   "variants": [],
-   "relations": [
-    "related:adaptive-leadership"
-   ]
-  },
-  {
-   "key": "orientdb",
-   "name": "OrientDB",
-   "class": "skill",
-   "kind": "tool",
-   "definition": "An open-source NoSQL database, written in Java, that combines graph, document, key-value and object models.",
-   "certification": false,
-   "variants": [],
-   "relations": []
-  },
-  {
-   "key": "orthopaedic-nursing",
-   "name": "Orthopaedic nursing",
-   "class": "skill",
-   "kind": "skill",
-   "definition": "Caring for patients with bone, joint and muscle conditions, injuries and surgery.",
-   "certification": false,
-   "variants": [],
-   "relations": []
-  },
-  {
-   "key": "otel",
-   "name": "OpenTelemetry",
-   "class": "skill",
-   "kind": "tool",
-   "definition": "Instrumentation tooling; related to observability, not a synonym.",
-   "variants": [],
-   "relations": [
-    "related:observability"
-   ]
-  },
-  {
-   "key": "outbound-logistics",
-   "name": "Outbound logistics",
-   "class": "skill",
-   "kind": "knowledge",
-   "definition": "The part of logistics that moves finished goods from a business to its customers, including order fulfilment, warehousing, transport and delivery.",
-   "certification": false,
-   "variants": [],
-   "relations": [
-    "contrast:inbound-logistics"
-   ]
-  },
-  {
-   "key": "outpatient-surgery",
-   "name": "Outpatient surgery",
-   "class": "skill",
-   "kind": "knowledge",
-   "definition": "Surgery after which the patient goes home the same day, without an overnight stay in hospital.",
-   "certification": false,
-   "variants": [
-    "Outpatient Surgeries"
-   ],
-   "relations": []
-  },
-  {
-   "key": "outsystems",
-   "name": "OutSystems",
-   "class": "skill",
-   "kind": "platform",
-   "definition": "A low-code platform for building, deploying and managing web and mobile applications.",
-   "certification": false,
-   "variants": [],
-   "relations": []
-  },
-  {
-   "key": "over-the-road-driving",
-   "name": "Over-the-road driving",
-   "class": "skill",
-   "kind": "skill",
-   "definition": "Driving a truck over long distances between cities and states, usually spending nights away from home.",
-   "certification": false,
-   "variants": [],
    "relations": []
   }
  ]

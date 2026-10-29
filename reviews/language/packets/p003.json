@@ -19,499 +19,538 @@
  ],
  "entries": [
   {
-   "key": "maithili",
-   "name": "Maithili",
+   "key": "erlang",
+   "name": "Erlang",
    "class": "language",
-   "kind": "human-language",
-   "definition": "An Indo-Aryan language spoken in the Mithila region of Bihar in India and in southeastern Nepal.",
-   "certification": false,
-   "language_type": "human",
-   "variants": [
-    "Maithili (Language)"
-   ],
-   "relations": []
-  },
-  {
-   "key": "manipuri",
-   "name": "Manipuri",
-   "class": "language",
-   "kind": "human-language",
-   "definition": "A Tibeto-Burman language of Manipur in northeastern India, also called Meitei.",
-   "certification": false,
-   "language_type": "human",
-   "variants": [
-    "Manipuri (Language)",
-    "Meitei"
-   ],
-   "relations": []
-  },
-  {
-   "key": "manx",
-   "name": "Manx",
-   "class": "language",
-   "kind": "human-language",
-   "definition": "The Celtic language of the Isle of Man, a Goidelic language closely related to Irish and Scottish Gaelic.",
-   "certification": false,
-   "language_type": "human",
-   "variants": [
-    "Manx (Language)",
-    "Manx Gaelic"
-   ],
-   "relations": []
-  },
-  {
-   "key": "marathi",
-   "name": "Marathi",
-   "class": "language",
-   "kind": "human-language",
-   "definition": "An Indo-Aryan language spoken mainly in the Indian state of Maharashtra.",
-   "certification": false,
-   "language_type": "human",
-   "variants": [
-    "Marathi (Language)"
-   ],
-   "relations": []
-  },
-  {
-   "key": "mayan-languages",
-   "name": "Mayan languages",
-   "class": "language",
-   "kind": "human-language",
-   "definition": "A family of related languages spoken by Maya peoples in Mexico, Guatemala, Belize and Honduras.",
-   "certification": false,
-   "language_type": "human",
-   "variants": [
-    "Mayan (Language)"
-   ],
-   "relations": []
-  },
-  {
-   "key": "media-center-markup-language",
-   "name": "Media Center Markup Language",
-   "class": "language",
-   "kind": "markup-language",
-   "definition": "An XML-based markup language used to build user interfaces for Windows Media Center applications.",
+   "kind": "programming-language",
+   "definition": "A functional programming language, originally developed at Ericsson, designed for concurrent, fault-tolerant systems.",
    "certification": false,
    "language_type": "programming",
    "variants": [
-    "MCML"
+    "Erlang (Programming Language)"
    ],
    "relations": []
   },
   {
-   "key": "mizo",
-   "name": "Mizo",
+   "key": "ewondo",
+   "name": "Ewondo",
    "class": "language",
    "kind": "human-language",
-   "definition": "A Tibeto-Burman language spoken mainly in the Indian state of Mizoram.",
+   "definition": "A Bantu language spoken by the Beti people of central Cameroon, around Yaoundé.",
    "certification": false,
    "language_type": "human",
    "variants": [
-    "Mizo (Language)"
+    "Ewondo (Language)"
    ],
    "relations": []
   },
   {
-   "key": "mxml",
-   "name": "MXML",
+   "key": "f",
+   "name": "F#",
    "class": "language",
-   "kind": "markup-language",
-   "definition": "An XML-based markup language created by Macromedia, later Adobe, for laying out user interfaces in Flex applications.",
+   "kind": "programming-language",
+   "definition": "A functional-first programming language for the .NET platform, developed at Microsoft Research.",
    "certification": false,
    "language_type": "programming",
    "variants": [
-    "Macromedia Flex Markup Language"
+    "F Sharp",
+    "F Sharp (Programming Language)",
+    "F# (Programming Language)"
    ],
    "relations": []
   },
   {
-   "key": "ndebele",
-   "name": "Ndebele",
-   "class": "language",
-   "kind": "human-language",
-   "definition": "The name of two related Bantu languages: Northern Ndebele, spoken mainly in Zimbabwe, and Southern Ndebele, spoken in South Africa.",
-   "certification": false,
-   "language_type": "human",
-   "variants": [
-    "Ndebele (Language)"
-   ],
-   "relations": []
-  },
-  {
-   "key": "nepali",
-   "name": "Nepali",
-   "class": "language",
-   "kind": "human-language",
-   "definition": "An Indo-Aryan language that is the official language of Nepal and is also spoken in parts of India.",
-   "certification": false,
-   "language_type": "human",
-   "variants": [
-    "Nepali (Language)"
-   ],
-   "relations": []
-  },
-  {
-   "key": "objective-c",
-   "name": "Objective-C",
+   "key": "f-2",
+   "name": "F*",
    "class": "language",
    "kind": "programming-language",
-   "definition": "An object-oriented extension of C used for Apple's macOS and iOS software.",
+   "definition": "A proof-oriented, ML-family functional programming language for writing and verifying programs, developed by Microsoft Research and Inria.",
    "certification": false,
    "language_type": "programming",
    "variants": [
-    "Objective-C (Progamming Language)",
-    "Obj-C"
+    "F* (Programming Language)"
    ],
    "relations": []
   },
   {
-   "key": "ovambo",
-   "name": "Ovambo",
+   "key": "fali",
+   "name": "Fali",
    "class": "language",
    "kind": "human-language",
-   "definition": "A Bantu language, also called Oshiwambo, spoken mainly in northern Namibia and southern Angola.",
+   "definition": "A group of related languages spoken by the Fali people of northern Cameroon.",
    "certification": false,
    "language_type": "human",
    "variants": [
-    "Ovambo (Language)",
-    "Oshiwambo"
+    "Fali (Langauge)",
+    "Fali (Language)"
    ],
    "relations": []
   },
   {
-   "key": "phoenician",
-   "name": "Phoenician",
+   "key": "fantom",
+   "name": "Fantom",
+   "class": "language",
+   "kind": "programming-language",
+   "definition": "A general-purpose, object-oriented programming language that targets the Java Virtual Machine, .NET and JavaScript.",
+   "certification": false,
+   "language_type": "programming",
+   "variants": [
+    "Fantom (Programming Language)"
+   ],
+   "relations": []
+  },
+  {
+   "key": "filipino",
+   "name": "Filipino",
    "class": "language",
    "kind": "human-language",
-   "definition": "An extinct Canaanite language of the ancient Phoenicians, written in the Phoenician alphabet.",
+   "definition": "The standardized form of Tagalog and the national language of the Philippines.",
    "certification": false,
    "language_type": "human",
    "variants": [
-    "Phoenician (Language)"
+    "Filipino (Language)",
+    "Tagalog",
+    "Tagalog (filipino) (Language)"
    ],
    "relations": []
   },
   {
-   "key": "php",
-   "name": "PHP",
+   "key": "finnish",
+   "name": "Finnish",
    "class": "language",
-   "kind": "programming-language",
-   "definition": "The PHP programming language.",
+   "kind": "human-language",
+   "definition": "A Uralic language, the main language of Finland.",
+   "certification": false,
+   "language_type": "human",
    "variants": [
-    "PHP (Scripting Language)"
+    "Finnish (Language)"
    ],
    "relations": []
   },
   {
-   "key": "php7",
-   "name": "PHP 7",
+   "key": "forth",
+   "name": "Forth",
    "class": "language",
    "kind": "programming-language",
-   "definition": "Version-specific PHP concept; not all versions of PHP.",
+   "definition": "A stack-based, extensible programming language created by Charles H. Moore.",
+   "certification": false,
+   "language_type": "programming",
    "variants": [
-    "PHP7"
+    "Forth (Programming Language)"
    ],
+   "relations": []
+  },
+  {
+   "key": "fortran",
+   "name": "Fortran",
+   "class": "language",
+   "kind": "programming-language",
+   "definition": "One of the oldest high-level programming languages, created at IBM in the 1950s and still widely used for numerical and scientific computing.",
+   "certification": false,
+   "language_type": "programming",
+   "variants": [
+    "Fortran (Programming Language)"
+   ],
+   "relations": []
+  },
+  {
+   "key": "french",
+   "name": "French",
+   "class": "language",
+   "kind": "human-language",
+   "definition": "A Romance language spoken in France and many other countries.",
+   "certification": false,
+   "language_type": "human",
+   "variants": [
+    "French Languages",
+    "French language",
+    "French (Language)"
+   ],
+   "relations": []
+  },
+  {
+   "key": "frisian",
+   "name": "Frisian",
+   "class": "language",
+   "kind": "human-language",
+   "definition": "A group of closely related West Germanic languages spoken in the Netherlands and Germany, of which West Frisian is the most widely spoken.",
+   "certification": false,
+   "language_type": "human",
+   "variants": [
+    "Frisian (Language)"
+   ],
+   "relations": []
+  },
+  {
+   "key": "fula",
+   "name": "Fula",
+   "class": "language",
+   "kind": "human-language",
+   "definition": "A Niger-Congo language spoken by the Fulani people as a chain of dialects across West and Central Africa.",
+   "certification": false,
+   "language_type": "human",
+   "variants": [
+    "Fula (fulani) (Language)",
+    "Fulani",
+    "Fulfulde"
+   ],
+   "relations": []
+  },
+  {
+   "key": "gaelic",
+   "name": "Gaelic",
+   "class": "language",
+   "kind": "human-language",
+   "definition": "The Goidelic Celtic languages, namely Irish, Scottish Gaelic and Manx, with the word most often meaning Scottish Gaelic or Irish depending on context.",
+   "certification": false,
+   "language_type": "human",
+   "variants": [
+    "Gaelic (Language)"
+   ],
+   "relations": []
+  },
+  {
+   "key": "galo",
+   "name": "Galo",
+   "class": "language",
+   "kind": "human-language",
+   "definition": "A Tibeto-Burman language spoken mainly in Arunachal Pradesh, India.",
+   "certification": false,
+   "language_type": "human",
+   "variants": [
+    "Galo (Language)"
+   ],
+   "relations": []
+  },
+  {
+   "key": "gambas",
+   "name": "Gambas",
+   "class": "language",
+   "kind": "programming-language",
+   "definition": "A free, object-oriented BASIC-like programming language and development environment for Linux.",
+   "certification": false,
+   "language_type": "programming",
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "garifuna",
+   "name": "Garifuna",
+   "class": "language",
+   "kind": "human-language",
+   "definition": "An Arawakan language spoken by the Garifuna people along the Caribbean coast of Central America.",
+   "certification": false,
+   "language_type": "human",
+   "variants": [
+    "Garifuna (Language)"
+   ],
+   "relations": []
+  },
+  {
+   "key": "german",
+   "name": "German",
+   "class": "language",
+   "kind": "human-language",
+   "definition": "A West Germanic language spoken mainly in Germany, Austria and Switzerland.",
+   "certification": false,
+   "language_type": "human",
+   "variants": [
+    "German (Language)",
+    "Deutsch"
+   ],
+   "relations": []
+  },
+  {
+   "key": "gherkin",
+   "name": "Gherkin",
+   "class": "language",
+   "kind": "programming-language",
+   "definition": "A plain-text domain-specific language that uses Given, When and Then keywords to write behaviour specifications that tools such as Cucumber can run.",
+   "certification": false,
+   "language_type": "programming",
+   "variants": [
+    "Gherkin (Scripting Language)"
+   ],
+   "relations": []
+  },
+  {
+   "key": "gikuyu",
+   "name": "Gikuyu",
+   "class": "language",
+   "kind": "human-language",
+   "definition": "A Bantu language spoken mainly by the Kikuyu people of central Kenya.",
+   "certification": false,
+   "language_type": "human",
+   "variants": [
+    "Gikuyu (Language)",
+    "Kikuyu",
+    "Kikuyu (Language)"
+   ],
+   "relations": []
+  },
+  {
+   "key": "go",
+   "name": "Go",
+   "class": "language",
+   "kind": "programming-language",
+   "definition": "A statically typed, compiled programming language designed at Google, known for simple syntax and built-in concurrency.",
+   "certification": false,
+   "language_type": "programming",
+   "variants": [
+    "Go (Programming Language)",
+    "Golang"
+   ],
+   "relations": []
+  },
+  {
+   "key": "graphql",
+   "name": "GraphQL",
+   "class": "language",
+   "kind": "programming-language",
+   "definition": "A query language for APIs, with a server-side runtime, that lets clients ask for exactly the data they need.",
+   "certification": false,
+   "language_type": "programming",
+   "variants": [],
    "relations": [
-    "broader:php"
+    "related:apollo-graphql"
    ]
   },
   {
-   "key": "plpgsql",
-   "name": "PL/pgSQL",
+   "key": "greek",
+   "name": "Greek",
+   "class": "language",
+   "kind": "human-language",
+   "definition": "An Indo-European language forming its own Hellenic branch, spoken mainly in Greece and Cyprus.",
+   "certification": false,
+   "language_type": "human",
+   "variants": [
+    "Greek (Language)"
+   ],
+   "relations": []
+  },
+  {
+   "key": "groovy",
+   "name": "Groovy",
    "class": "language",
    "kind": "programming-language",
-   "definition": "The procedural language built into PostgreSQL for writing stored functions and triggers.",
+   "definition": "A dynamic programming language for the Java Virtual Machine, with syntax close to Java's, used for scripting and build files.",
+   "certification": false,
+   "language_type": "programming",
    "variants": [
-    "plpgsql"
+    "Apache Groovy",
+    "Groovy (Programming Language)"
+   ],
+   "relations": []
+  },
+  {
+   "key": "gujarati",
+   "name": "Gujarati",
+   "class": "language",
+   "kind": "human-language",
+   "definition": "An Indo-Aryan language spoken mainly in the Indian state of Gujarat.",
+   "certification": false,
+   "language_type": "human",
+   "variants": [
+    "Gujarati (Language)"
+   ],
+   "relations": []
+  },
+  {
+   "key": "hack",
+   "name": "Hack",
+   "class": "language",
+   "kind": "programming-language",
+   "definition": "A programming language for the HipHop Virtual Machine, developed at Facebook as a statically typed dialect of PHP.",
+   "certification": false,
+   "language_type": "programming",
+   "variants": [
+    "Hack (Programming Language)"
    ],
    "relations": [
-    "part_of:postgresql"
+    "related:php"
    ]
   },
   {
-   "key": "portuguese",
-   "name": "Portuguese",
+   "key": "haitian-creole",
+   "name": "Haitian Creole",
    "class": "language",
    "kind": "human-language",
-   "definition": "A Romance language spoken in Portugal, Brazil and several other countries.",
+   "definition": "A French-based creole language, one of the two official languages of Haiti.",
    "certification": false,
    "language_type": "human",
    "variants": [
-    "Portuguese Language"
+    "Haitian Creole (Language)",
+    "Kreyòl Ayisyen",
+    "Haitian Kreyol"
    ],
    "relations": []
   },
   {
-   "key": "power-fx",
-   "name": "Power Fx",
-   "class": "language",
-   "kind": "programming-language",
-   "definition": "A low-code formula language from Microsoft, modelled on Excel formulas, used in Power Apps and the Power Platform.",
-   "certification": false,
-   "language_type": "programming",
-   "variants": [
-    "Microsoft Power Fx"
-   ],
-   "relations": []
-  },
-  {
-   "key": "prolog",
-   "name": "Prolog",
-   "class": "language",
-   "kind": "programming-language",
-   "definition": "A logic programming language in which programs are written as facts and rules and run by answering queries.",
-   "certification": false,
-   "language_type": "programming",
-   "variants": [],
-   "relations": []
-  },
-  {
-   "key": "python",
-   "name": "Python",
-   "class": "language",
-   "kind": "programming-language",
-   "definition": "Writing programs in Python.",
-   "variants": [
-    "Python (Programming Language)"
-   ],
-   "relations": []
-  },
-  {
-   "key": "quechua",
-   "name": "Quechua",
-   "class": "language",
-   "kind": "human-language",
-   "definition": "A family of Indigenous languages spoken in the Andes of South America, of which Southern Quechua has the most speakers.",
-   "certification": false,
-   "language_type": "human",
-   "variants": [
-    "Quecha (Language)",
-    "Quechua language"
-   ],
-   "relations": []
-  },
-  {
-   "key": "romanian",
-   "name": "Romanian",
-   "class": "language",
-   "kind": "human-language",
-   "definition": "A Romance language spoken mainly in Romania and Moldova.",
-   "certification": false,
-   "language_type": "human",
-   "variants": [
-    "Romanian Language"
-   ],
-   "relations": []
-  },
-  {
-   "key": "sakha",
-   "name": "Sakha",
-   "class": "language",
-   "kind": "human-language",
-   "definition": "A Turkic language spoken mainly in the Sakha Republic in the Russian Far East.",
-   "certification": false,
-   "language_type": "human",
-   "variants": [
-    "Sakha (Language)",
-    "Yakut"
-   ],
-   "relations": []
-  },
-  {
-   "key": "sango",
-   "name": "Sango",
-   "class": "language",
-   "kind": "human-language",
-   "definition": "A language of the Central African Republic, used as a lingua franca and an official language alongside French.",
-   "certification": false,
-   "language_type": "human",
-   "variants": [
-    "Sango (Language)"
-   ],
-   "relations": []
-  },
-  {
-   "key": "santali",
-   "name": "Santali",
-   "class": "language",
-   "kind": "human-language",
-   "definition": "An Austroasiatic language spoken by the Santal people of eastern India, Bangladesh and Nepal.",
-   "certification": false,
-   "language_type": "human",
-   "variants": [
-    "Santhali (Language)"
-   ],
-   "relations": []
-  },
-  {
-   "key": "saraiki",
-   "name": "Saraiki",
-   "class": "language",
-   "kind": "human-language",
-   "definition": "An Indo-Aryan language spoken mainly in the south of Punjab province in Pakistan.",
-   "certification": false,
-   "language_type": "human",
-   "variants": [
-    "Saraiki (Language)",
-    "Seraiki",
-    "Siraiki"
-   ],
-   "relations": []
-  },
-  {
-   "key": "sas-macro-language",
-   "name": "SAS macro language",
-   "class": "language",
-   "kind": "programming-language",
-   "definition": "The text-substitution language in SAS that generates and controls SAS code through macro variables and macros.",
-   "certification": false,
-   "language_type": "programming",
-   "variants": [
-    "SAS Macros",
-    "SAS macro"
-   ],
-   "relations": []
-  },
-  {
-   "key": "sass",
-   "name": "Sass",
-   "class": "language",
-   "kind": "style-language",
-   "definition": "A stylesheet language that extends CSS with variables, nesting and mixins and is compiled into ordinary CSS.",
-   "certification": false,
-   "language_type": "programming",
-   "variants": [],
-   "relations": []
-  },
-  {
-   "key": "scala",
-   "name": "Scala",
-   "class": "language",
-   "kind": "programming-language",
-   "definition": "Writing programs in Scala.",
-   "variants": [],
-   "relations": []
-  },
-  {
-   "key": "service-provisioning-markup-language",
-   "name": "Service Provisioning Markup Language",
-   "class": "language",
-   "kind": "markup-language",
-   "definition": "An OASIS XML-based standard for exchanging user, resource and service provisioning information between systems.",
-   "certification": false,
-   "language_type": "programming",
-   "variants": [
-    "Service Provisioning Markup Languages",
-    "SPML"
-   ],
-   "relations": []
-  },
-  {
-   "key": "shan",
-   "name": "Shan",
-   "class": "language",
-   "kind": "human-language",
-   "definition": "A Tai language spoken by the Shan people, mainly in Shan State, Myanmar.",
-   "certification": false,
-   "language_type": "human",
-   "variants": [
-    "Shan (Language)"
-   ],
-   "relations": []
-  },
-  {
-   "key": "silesian",
-   "name": "Silesian",
-   "class": "language",
-   "kind": "human-language",
-   "definition": "A West Slavic language spoken in Upper Silesia, mainly in southern Poland.",
-   "certification": false,
-   "language_type": "human",
-   "variants": [
-    "Silesian (Language)"
-   ],
-   "relations": []
-  },
-  {
-   "key": "slovene",
-   "name": "Slovene",
-   "class": "language",
-   "kind": "human-language",
-   "definition": "A South Slavic language spoken mainly in Slovenia.",
-   "certification": false,
-   "language_type": "human",
-   "variants": [
-    "Slovene Language",
-    "Slovenian"
-   ],
-   "relations": []
-  },
-  {
-   "key": "sogdian",
-   "name": "Sogdian",
-   "class": "language",
-   "kind": "human-language",
-   "definition": "An extinct Eastern Iranian language that served as a trade language along the Silk Road.",
-   "certification": false,
-   "language_type": "human",
-   "variants": [
-    "Sogdian (Language)"
-   ],
-   "relations": []
-  },
-  {
-   "key": "sql",
-   "name": "SQL",
-   "class": "language",
-   "kind": "programming-language",
-   "definition": "Expressing database queries and data operations in SQL.",
-   "variants": [],
-   "relations": []
-  },
-  {
-   "key": "swift-language",
-   "name": "Swift",
-   "class": "language",
-   "kind": "programming-language",
-   "definition": "The Swift programming language; the bare label is context-sensitive.",
-   "variants": [],
-   "relations": []
-  },
-  {
-   "key": "typescript",
-   "name": "TypeScript",
-   "class": "language",
-   "kind": "programming-language",
-   "definition": "Writing typed JavaScript programs with TypeScript.",
-   "variants": [],
-   "relations": []
-  },
-  {
-   "key": "uml",
-   "name": "UML",
+   "key": "hardware-description-language",
+   "name": "Hardware description language",
    "class": "language",
    "kind": "modeling-language",
-   "definition": "A language for modeling software systems.",
-   "variants": [],
-   "relations": []
-  },
-  {
-   "key": "xbrl",
-   "name": "XBRL",
-   "class": "language",
-   "kind": "markup-language",
-   "definition": "An XML-based standard language for tagging and exchanging business and financial reporting data.",
+   "definition": "A class of specialised computer languages, such as VHDL and Verilog, used to describe the structure and behaviour of electronic circuits.",
    "certification": false,
    "language_type": "programming",
-   "variants": [],
+   "variants": [
+    "Hardware Description Language (Programming Language)"
+   ],
    "relations": []
   },
   {
-   "key": "xml",
-   "name": "XML",
+   "key": "haskell",
+   "name": "Haskell",
+   "class": "language",
+   "kind": "programming-language",
+   "definition": "A purely functional programming language with lazy evaluation and a strong static type system.",
+   "certification": false,
+   "language_type": "programming",
+   "variants": [
+    "Haskell (Programming Language)"
+   ],
+   "relations": []
+  },
+  {
+   "key": "hausa",
+   "name": "Hausa",
+   "class": "language",
+   "kind": "human-language",
+   "definition": "A Chadic language of the Afroasiatic family, spoken mainly in northern Nigeria and Niger and used as a lingua franca in West Africa.",
+   "certification": false,
+   "language_type": "human",
+   "variants": [
+    "Hausa (Language)"
+   ],
+   "relations": []
+  },
+  {
+   "key": "havyaka-kannada",
+   "name": "Havyaka Kannada",
+   "class": "language",
+   "kind": "human-language",
+   "definition": "A dialect of Kannada traditionally spoken by the Havyaka Brahmin community in Karnataka and nearby areas.",
+   "certification": false,
+   "language_type": "human",
+   "variants": [
+    "Havigannada Dialects",
+    "Havigannada"
+   ],
+   "relations": []
+  },
+  {
+   "key": "hawaiian",
+   "name": "Hawaiian",
+   "class": "language",
+   "kind": "human-language",
+   "definition": "A Polynesian language native to Hawaii and one of the two official languages of the state.",
+   "certification": false,
+   "language_type": "human",
+   "variants": [
+    "Hawaiian Language",
+    "ʻŌlelo Hawaiʻi",
+    "Hawaiian (Language)"
+   ],
+   "relations": []
+  },
+  {
+   "key": "haxe",
+   "name": "Haxe",
+   "class": "language",
+   "kind": "programming-language",
+   "definition": "A high-level, cross-platform programming language and compiler that can produce code for targets such as JavaScript, C++ and the JVM.",
+   "certification": false,
+   "language_type": "programming",
+   "variants": [
+    "Haxe (Programming Language)"
+   ],
+   "relations": []
+  },
+  {
+   "key": "haya",
+   "name": "Haya",
+   "class": "language",
+   "kind": "human-language",
+   "definition": "A Bantu language spoken by the Haya people, mainly in the Kagera region of northwestern Tanzania.",
+   "certification": false,
+   "language_type": "human",
+   "variants": [
+    "Haya (Language)"
+   ],
+   "relations": []
+  },
+  {
+   "key": "hebrew",
+   "name": "Hebrew",
+   "class": "language",
+   "kind": "human-language",
+   "definition": "A Semitic language and the main official language of Israel.",
+   "certification": false,
+   "language_type": "human",
+   "variants": [
+    "Hebrew (Language)"
+   ],
+   "relations": []
+  },
+  {
+   "key": "hindi",
+   "name": "Hindi",
+   "class": "language",
+   "kind": "human-language",
+   "definition": "An Indo-Aryan language written in the Devanagari script and an official language of India.",
+   "certification": false,
+   "language_type": "human",
+   "variants": [
+    "Hindi (Language)"
+   ],
+   "relations": []
+  },
+  {
+   "key": "hmong",
+   "name": "Hmong",
+   "class": "language",
+   "kind": "human-language",
+   "definition": "A group of related Hmong-Mien languages spoken by the Hmong people in China, Southeast Asia and diaspora communities.",
+   "certification": false,
+   "language_type": "human",
+   "variants": [
+    "Hmong (Language)"
+   ],
+   "relations": []
+  },
+  {
+   "key": "hokkien",
+   "name": "Hokkien",
+   "class": "language",
+   "kind": "human-language",
+   "definition": "A group of Southern Min varieties of Chinese from Fujian, also spoken in Taiwan and Southeast Asia.",
+   "certification": false,
+   "language_type": "human",
+   "variants": [
+    "Hokkien Dialects",
+    "Hokkien Dialects (Language)"
+   ],
+   "relations": []
+  },
+  {
+   "key": "hopi",
+   "name": "Hopi",
+   "class": "language",
+   "kind": "human-language",
+   "definition": "A Uto-Aztecan language spoken by the Hopi people of northeastern Arizona.",
+   "certification": false,
+   "language_type": "human",
+   "variants": [
+    "Hopi (Language)"
+   ],
+   "relations": []
+  },
+  {
+   "key": "html",
+   "name": "HTML",
    "class": "language",
    "kind": "markup-language",
-   "definition": "A markup language for structured documents.",
+   "definition": "Structuring web documents with HTML.",
    "variants": [],
    "relations": []
   }

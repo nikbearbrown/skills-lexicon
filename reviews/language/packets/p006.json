@@ -1,0 +1,553 @@
+{
+ "allowed_kinds": [
+  "ability",
+  "credential",
+  "framework",
+  "human-language",
+  "knowledge",
+  "library",
+  "markup-language",
+  "method",
+  "modeling-language",
+  "platform",
+  "programming-language",
+  "skill",
+  "standard",
+  "style-language",
+  "tool",
+  "work-activity"
+ ],
+ "entries": [
+  {
+   "key": "pl-sql",
+   "name": "PL/SQL",
+   "class": "language",
+   "kind": "programming-language",
+   "definition": "Oracle's procedural extension of SQL, used to write stored procedures, functions and triggers in Oracle Database.",
+   "certification": false,
+   "language_type": "programming",
+   "variants": [
+    "Pl/sql (Programming Language)",
+    "Procedural Language/SQL"
+   ],
+   "relations": [
+    "related:sql"
+   ]
+  },
+  {
+   "key": "plpgsql",
+   "name": "PL/pgSQL",
+   "class": "language",
+   "kind": "programming-language",
+   "definition": "The procedural language built into PostgreSQL for writing stored functions and triggers.",
+   "variants": [
+    "plpgsql"
+   ],
+   "relations": [
+    "part_of:postgresql"
+   ]
+  },
+  {
+   "key": "polish",
+   "name": "Polish",
+   "class": "language",
+   "kind": "human-language",
+   "definition": "A West Slavic language, the official language of Poland.",
+   "certification": false,
+   "language_type": "human",
+   "variants": [
+    "Polish (Language)"
+   ],
+   "relations": []
+  },
+  {
+   "key": "portuguese",
+   "name": "Portuguese",
+   "class": "language",
+   "kind": "human-language",
+   "definition": "A Romance language spoken in Portugal, Brazil and several other countries.",
+   "certification": false,
+   "language_type": "human",
+   "variants": [
+    "Portuguese Language",
+    "Portuguese (Language)"
+   ],
+   "relations": []
+  },
+  {
+   "key": "postscript",
+   "name": "PostScript",
+   "class": "language",
+   "kind": "programming-language",
+   "definition": "A stack-based page description language and programming language from Adobe, used to describe printed pages and graphics.",
+   "certification": false,
+   "language_type": "programming",
+   "variants": [
+    "Postscript (Programming Language)"
+   ],
+   "relations": []
+  },
+  {
+   "key": "power-fx",
+   "name": "Power Fx",
+   "class": "language",
+   "kind": "programming-language",
+   "definition": "A low-code formula language from Microsoft, modelled on Excel formulas, used in Power Apps and the Power Platform.",
+   "certification": false,
+   "language_type": "programming",
+   "variants": [
+    "Microsoft Power Fx"
+   ],
+   "relations": []
+  },
+  {
+   "key": "powershell",
+   "name": "PowerShell",
+   "class": "language",
+   "kind": "programming-language",
+   "definition": "A Microsoft command-line shell and scripting language built on .NET, used for task automation and configuration management.",
+   "certification": false,
+   "language_type": "programming",
+   "variants": [
+    "Powershell (Programming Language)"
+   ],
+   "relations": []
+  },
+  {
+   "key": "prolog",
+   "name": "Prolog",
+   "class": "language",
+   "kind": "programming-language",
+   "definition": "A logic programming language in which programs are written as facts and rules and run by answering queries.",
+   "certification": false,
+   "language_type": "programming",
+   "variants": [
+    "Prolog (Programming Language)"
+   ],
+   "relations": []
+  },
+  {
+   "key": "punjabi",
+   "name": "Punjabi",
+   "class": "language",
+   "kind": "human-language",
+   "definition": "An Indo-Aryan language spoken in the Punjab region of India and Pakistan.",
+   "certification": false,
+   "language_type": "human",
+   "variants": [
+    "Punjabi (Language)",
+    "Panjabi"
+   ],
+   "relations": []
+  },
+  {
+   "key": "purescript",
+   "name": "PureScript",
+   "class": "language",
+   "kind": "programming-language",
+   "definition": "A strongly typed, purely functional programming language that compiles to JavaScript.",
+   "certification": false,
+   "language_type": "programming",
+   "variants": [
+    "Purescript (Programming Language)"
+   ],
+   "relations": []
+  },
+  {
+   "key": "python",
+   "name": "Python",
+   "class": "language",
+   "kind": "programming-language",
+   "definition": "Writing programs in Python.",
+   "variants": [
+    "Python (Programming Language)"
+   ],
+   "relations": []
+  },
+  {
+   "key": "q",
+   "name": "Q#",
+   "class": "language",
+   "kind": "programming-language",
+   "definition": "A Microsoft programming language for expressing quantum algorithms.",
+   "certification": false,
+   "language_type": "programming",
+   "variants": [
+    "Q# (Programming Language)"
+   ],
+   "relations": []
+  },
+  {
+   "key": "quechua",
+   "name": "Quechua",
+   "class": "language",
+   "kind": "human-language",
+   "definition": "A family of Indigenous languages spoken in the Andes of South America, of which Southern Quechua has the most speakers.",
+   "certification": false,
+   "language_type": "human",
+   "variants": [
+    "Quecha (Language)",
+    "Quechua language",
+    "Quechua (Language)"
+   ],
+   "relations": []
+  },
+  {
+   "key": "r",
+   "name": "R",
+   "class": "language",
+   "kind": "programming-language",
+   "definition": "A programming language and software environment for statistical computing and graphics.",
+   "certification": false,
+   "language_type": "programming",
+   "variants": [
+    "R (Programming Language)"
+   ],
+   "relations": []
+  },
+  {
+   "key": "racket",
+   "name": "Racket",
+   "class": "language",
+   "kind": "programming-language",
+   "definition": "A general-purpose programming language in the Scheme and Lisp family, designed to support creating new languages.",
+   "certification": false,
+   "language_type": "programming",
+   "variants": [
+    "Racket (Programming Language)"
+   ],
+   "relations": []
+  },
+  {
+   "key": "romanian",
+   "name": "Romanian",
+   "class": "language",
+   "kind": "human-language",
+   "definition": "A Romance language spoken mainly in Romania and Moldova.",
+   "certification": false,
+   "language_type": "human",
+   "variants": [
+    "Romanian Language",
+    "Romanian (Language)"
+   ],
+   "relations": []
+  },
+  {
+   "key": "ruby",
+   "name": "Ruby",
+   "class": "language",
+   "kind": "programming-language",
+   "definition": "A dynamic, object-oriented scripting language created by Yukihiro Matsumoto and known for its readable syntax.",
+   "certification": false,
+   "language_type": "programming",
+   "variants": [
+    "Ruby (Programming Language)"
+   ],
+   "relations": []
+  },
+  {
+   "key": "russian",
+   "name": "Russian",
+   "class": "language",
+   "kind": "human-language",
+   "definition": "An East Slavic language, the official language of Russia.",
+   "certification": false,
+   "language_type": "human",
+   "variants": [
+    "Russian (Language)"
+   ],
+   "relations": []
+  },
+  {
+   "key": "rust",
+   "name": "Rust",
+   "class": "language",
+   "kind": "programming-language",
+   "definition": "A systems programming language focused on memory safety, concurrency and performance, without a garbage collector.",
+   "certification": false,
+   "language_type": "programming",
+   "variants": [
+    "Rust (Programming Language)"
+   ],
+   "relations": []
+  },
+  {
+   "key": "sakha",
+   "name": "Sakha",
+   "class": "language",
+   "kind": "human-language",
+   "definition": "A Turkic language spoken mainly in the Sakha Republic in the Russian Far East.",
+   "certification": false,
+   "language_type": "human",
+   "variants": [
+    "Sakha (Language)",
+    "Yakut"
+   ],
+   "relations": []
+  },
+  {
+   "key": "samoan",
+   "name": "Samoan",
+   "class": "language",
+   "kind": "human-language",
+   "definition": "A Polynesian language, an official language of Samoa.",
+   "certification": false,
+   "language_type": "human",
+   "variants": [
+    "Samoan (Language)"
+   ],
+   "relations": []
+  },
+  {
+   "key": "sango",
+   "name": "Sango",
+   "class": "language",
+   "kind": "human-language",
+   "definition": "A language of the Central African Republic, used as a lingua franca and an official language alongside French.",
+   "certification": false,
+   "language_type": "human",
+   "variants": [
+    "Sango (Language)"
+   ],
+   "relations": []
+  },
+  {
+   "key": "santali",
+   "name": "Santali",
+   "class": "language",
+   "kind": "human-language",
+   "definition": "An Austroasiatic language spoken by the Santal people of eastern India, Bangladesh and Nepal.",
+   "certification": false,
+   "language_type": "human",
+   "variants": [
+    "Santhali (Language)"
+   ],
+   "relations": []
+  },
+  {
+   "key": "saraiki",
+   "name": "Saraiki",
+   "class": "language",
+   "kind": "human-language",
+   "definition": "An Indo-Aryan language spoken mainly in the south of Punjab province in Pakistan.",
+   "certification": false,
+   "language_type": "human",
+   "variants": [
+    "Saraiki (Language)",
+    "Seraiki",
+    "Siraiki"
+   ],
+   "relations": []
+  },
+  {
+   "key": "sas",
+   "name": "SAS",
+   "class": "language",
+   "kind": "programming-language",
+   "definition": "The programming language of the SAS software suite, used for data management, statistical analysis and reporting.",
+   "certification": false,
+   "language_type": "programming",
+   "variants": [
+    "Sas (Programming Language)"
+   ],
+   "relations": []
+  },
+  {
+   "key": "sas-macro-language",
+   "name": "SAS macro language",
+   "class": "language",
+   "kind": "programming-language",
+   "definition": "The text-substitution language in SAS that generates and controls SAS code through macro variables and macros.",
+   "certification": false,
+   "language_type": "programming",
+   "variants": [
+    "SAS Macros",
+    "SAS macro"
+   ],
+   "relations": []
+  },
+  {
+   "key": "sass",
+   "name": "Sass",
+   "class": "language",
+   "kind": "style-language",
+   "definition": "A stylesheet language that extends CSS with variables, nesting and mixins and is compiled into ordinary CSS.",
+   "certification": false,
+   "language_type": "programming",
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "scala",
+   "name": "Scala",
+   "class": "language",
+   "kind": "programming-language",
+   "definition": "Writing programs in Scala.",
+   "variants": [
+    "Scala (Programming Language)"
+   ],
+   "relations": []
+  },
+  {
+   "key": "scheme",
+   "name": "Scheme",
+   "class": "language",
+   "kind": "programming-language",
+   "definition": "A minimalist dialect of Lisp with lexical scoping and first-class continuations.",
+   "certification": false,
+   "language_type": "programming",
+   "variants": [
+    "Scheme (Programming Language)"
+   ],
+   "relations": []
+  },
+  {
+   "key": "scratch",
+   "name": "Scratch",
+   "class": "language",
+   "kind": "programming-language",
+   "definition": "A block-based visual programming language developed at the MIT Media Lab for teaching children to code.",
+   "certification": false,
+   "language_type": "programming",
+   "variants": [
+    "Scratch (Programming Language)"
+   ],
+   "relations": []
+  },
+  {
+   "key": "serbo-croatian",
+   "name": "Serbo-Croatian",
+   "class": "language",
+   "kind": "human-language",
+   "definition": "A South Slavic language whose standardized forms include Bosnian, Croatian, Montenegrin and Serbian.",
+   "certification": false,
+   "language_type": "human",
+   "variants": [
+    "Serbo-croatian (Language)"
+   ],
+   "relations": []
+  },
+  {
+   "key": "service-provisioning-markup-language",
+   "name": "Service Provisioning Markup Language",
+   "class": "language",
+   "kind": "markup-language",
+   "definition": "An OASIS XML-based standard for exchanging user, resource and service provisioning information between systems.",
+   "certification": false,
+   "language_type": "programming",
+   "variants": [
+    "Service Provisioning Markup Languages",
+    "SPML"
+   ],
+   "relations": []
+  },
+  {
+   "key": "sesotho",
+   "name": "Sesotho",
+   "class": "language",
+   "kind": "human-language",
+   "definition": "A Bantu language, the national language of Lesotho and one of the official languages of South Africa.",
+   "certification": false,
+   "language_type": "human",
+   "variants": [
+    "Sesotho (Language)",
+    "Southern Sotho"
+   ],
+   "relations": []
+  },
+  {
+   "key": "shan",
+   "name": "Shan",
+   "class": "language",
+   "kind": "human-language",
+   "definition": "A Tai language spoken by the Shan people, mainly in Shan State, Myanmar.",
+   "certification": false,
+   "language_type": "human",
+   "variants": [
+    "Shan (Language)"
+   ],
+   "relations": []
+  },
+  {
+   "key": "shell-scripting",
+   "name": "Shell scripting",
+   "class": "language",
+   "kind": "programming-language",
+   "definition": "The scripting languages of Unix command-line shells such as sh and Bash, used to automate sequences of commands.",
+   "certification": false,
+   "language_type": "programming",
+   "variants": [
+    "Shell (Programming Language)",
+    "Shell script"
+   ],
+   "relations": []
+  },
+  {
+   "key": "shona",
+   "name": "Shona",
+   "class": "language",
+   "kind": "human-language",
+   "definition": "A Bantu language spoken mainly in Zimbabwe.",
+   "certification": false,
+   "language_type": "human",
+   "variants": [
+    "Shona (Language)",
+    "chiShona"
+   ],
+   "relations": []
+  },
+  {
+   "key": "silesian",
+   "name": "Silesian",
+   "class": "language",
+   "kind": "human-language",
+   "definition": "A West Slavic language spoken in Upper Silesia, mainly in southern Poland.",
+   "certification": false,
+   "language_type": "human",
+   "variants": [
+    "Silesian (Language)"
+   ],
+   "relations": []
+  },
+  {
+   "key": "simula",
+   "name": "Simula",
+   "class": "language",
+   "kind": "programming-language",
+   "definition": "An early object-oriented programming language developed in the 1960s by Ole-Johan Dahl and Kristen Nygaard that introduced classes and objects.",
+   "certification": false,
+   "language_type": "programming",
+   "variants": [
+    "Simula (Programming Language)"
+   ],
+   "relations": []
+  },
+  {
+   "key": "sindhi",
+   "name": "Sindhi",
+   "class": "language",
+   "kind": "human-language",
+   "definition": "An Indo-Aryan language spoken in the Sindh province of Pakistan and parts of India.",
+   "certification": false,
+   "language_type": "human",
+   "variants": [
+    "Sindhi (Language)"
+   ],
+   "relations": []
+  },
+  {
+   "key": "sinhala",
+   "name": "Sinhala",
+   "class": "language",
+   "kind": "human-language",
+   "definition": "An Indo-Aryan language, the main language of Sri Lanka.",
+   "certification": false,
+   "language_type": "human",
+   "variants": [
+    "Sinhala (Language)",
+    "Sinhalese"
+   ],
+   "relations": []
+  }
+ ]
+}

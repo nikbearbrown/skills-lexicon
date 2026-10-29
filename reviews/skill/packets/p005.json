@@ -19,6 +19,85 @@
  ],
  "entries": [
   {
+   "key": "architectural-visualization",
+   "name": "Architectural visualization",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Producing images, animations or virtual walkthroughs that show how a planned building or space will look before it is built.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "arcsight-enterprise-security-manager",
+   "name": "ArcSight Enterprise Security Manager",
+   "class": "skill",
+   "kind": "platform",
+   "definition": "A security information and event management (SIEM) product that collects and correlates security events from across an organisation to detect threats.",
+   "certification": false,
+   "variants": [
+    "ArcSight ESM"
+   ],
+   "relations": []
+  },
+  {
+   "key": "areca-backup",
+   "name": "Areca Backup",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "A free, open-source file backup application written in Java.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "argo-cd",
+   "name": "Argo CD",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "A declarative GitOps continuous-delivery tool that keeps applications on Kubernetes in sync with configuration stored in Git.",
+   "certification": false,
+   "variants": [
+    "ArgoCD"
+   ],
+   "relations": []
+  },
+  {
+   "key": "arithmetic",
+   "name": "Arithmetic",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "The branch of mathematics that deals with calculating with numbers using addition, subtraction, multiplication and division.",
+   "certification": false,
+   "variants": [
+    "Arithmetics"
+   ],
+   "relations": []
+  },
+  {
+   "key": "arkit",
+   "name": "ARKit",
+   "class": "skill",
+   "kind": "framework",
+   "definition": "Apple's framework for building augmented reality apps on iOS and iPadOS.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "armed-forces-health-longitudinal-technology-application",
+   "name": "Armed Forces Health Longitudinal Technology Application",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "The electronic health record system that the US Department of Defense used across its Military Health System to document patient care.",
+   "certification": false,
+   "variants": [
+    "Armed Forces Health Longitudinal Technology Application (AHTLA)",
+    "AHLTA"
+   ],
+   "relations": []
+  },
+  {
    "key": "arp4754",
    "name": "ARP4754",
    "class": "skill",
@@ -371,88 +450,6 @@
    "class": "skill",
    "kind": "skill",
    "definition": "Reviewing the diagnosis and procedure codes assigned to outpatient (ambulatory) encounters to check that they are accurate, supported by the record and compliant with coding rules.",
-   "certification": false,
-   "variants": [],
-   "relations": []
-  },
-  {
-   "key": "aural-rehabilitation",
-   "name": "Aural rehabilitation",
-   "class": "skill",
-   "kind": "skill",
-   "definition": "Therapy and training that help people with hearing loss communicate, using residual hearing, hearing devices, speech-reading and communication strategies.",
-   "certification": false,
-   "variants": [
-    "Audiologic rehabilitation",
-    "Auditory rehabilitation"
-   ],
-   "relations": []
-  },
-  {
-   "key": "aurelia",
-   "name": "Aurelia",
-   "class": "skill",
-   "kind": "framework",
-   "definition": "An open-source JavaScript front-end framework for building single-page web applications.",
-   "certification": false,
-   "variants": [],
-   "relations": []
-  },
-  {
-   "key": "author-it",
-   "name": "Author-it",
-   "class": "skill",
-   "kind": "tool",
-   "definition": "Software for writing, managing and publishing technical documentation and other content from reusable components.",
-   "certification": false,
-   "variants": [
-    "AuthorIT (Software)",
-    "AuthorIT"
-   ],
-   "relations": []
-  },
-  {
-   "key": "authorised-capital",
-   "name": "Authorised capital",
-   "class": "skill",
-   "kind": "knowledge",
-   "definition": "The maximum amount of share capital a company is permitted to issue under its constitutional documents.",
-   "certification": false,
-   "variants": [
-    "Authorized capital",
-    "Authorised share capital"
-   ],
-   "relations": []
-  },
-  {
-   "key": "autism-therapy",
-   "name": "Autism therapy",
-   "class": "skill",
-   "kind": "skill",
-   "definition": "Providing therapies and interventions, such as applied behavior analysis and speech, occupational and social-skills therapy, for people on the autism spectrum.",
-   "certification": false,
-   "variants": [
-    "Autism (Therapies)",
-    "Autism therapies"
-   ],
-   "relations": []
-  },
-  {
-   "key": "auto-glass-installation-and-repair",
-   "name": "Auto glass installation and repair",
-   "class": "skill",
-   "kind": "skill",
-   "definition": "Replacing and repairing vehicle windshields and windows, including removing damaged glass and bonding in new glass.",
-   "certification": false,
-   "variants": [],
-   "relations": []
-  },
-  {
-   "key": "autodesk-123d",
-   "name": "Autodesk 123D",
-   "class": "skill",
-   "kind": "tool",
-   "definition": "A discontinued family of free Autodesk apps for 3D modelling, scanning and digital fabrication.",
    "certification": false,
    "variants": [],
    "relations": []

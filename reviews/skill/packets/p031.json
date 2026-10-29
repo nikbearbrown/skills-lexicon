@@ -19,6 +19,153 @@
  ],
  "entries": [
   {
+   "key": "ireport-designer",
+   "name": "iReport Designer",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "A graphical report designer for JasperReports, made by Jaspersoft.",
+   "certification": false,
+   "variants": [
+    "Jaspersoft iReport"
+   ],
+   "relations": []
+  },
+  {
+   "key": "ironmq",
+   "name": "IronMQ",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "A hosted message-queue service from Iron.io for passing messages between the parts of an application.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "ironpython",
+   "name": "IronPython",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "An implementation of the Python language for the .NET platform.",
+   "certification": false,
+   "variants": [],
+   "relations": [
+    "related:python",
+    "related:cpython"
+   ]
+  },
+  {
+   "key": "irrigation-agriculture",
+   "name": "Irrigation (agriculture)",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Supplying water to crops or land through channels, sprinklers or drip lines, and operating and maintaining the equipment that does so.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "irrigation-health",
+   "name": "Irrigation (health)",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Flushing a wound, body cavity, eye, ear or catheter with a stream of sterile fluid to clean it or clear it out.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "iso-10012",
+   "name": "ISO 10012",
+   "class": "skill",
+   "kind": "standard",
+   "definition": "An ISO standard with requirements for managing measurement processes and the equipment used to measure.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "iso-10993",
+   "name": "ISO 10993",
+   "class": "skill",
+   "kind": "standard",
+   "definition": "A series of ISO standards for evaluating whether medical devices are biologically safe to use on or in the body.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "iso-14000",
+   "name": "ISO 14000",
+   "class": "skill",
+   "kind": "standard",
+   "definition": "A family of ISO standards on environmental management, of which ISO 14001 sets the requirements for an environmental management system.",
+   "certification": false,
+   "variants": [
+    "ISO 14000 Standard"
+   ],
+   "relations": []
+  },
+  {
+   "key": "iso-14971",
+   "name": "ISO 14971",
+   "class": "skill",
+   "kind": "standard",
+   "definition": "An ISO standard describing how manufacturers identify, evaluate and control the risks of medical devices.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "iso-15189",
+   "name": "ISO 15189",
+   "class": "skill",
+   "kind": "standard",
+   "definition": "An ISO standard setting quality and competence requirements for medical laboratories.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "iso-19011",
+   "name": "ISO 19011",
+   "class": "skill",
+   "kind": "standard",
+   "definition": "An ISO standard giving guidance on auditing management systems, including how to plan audits and what auditors need to be competent in.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "iso-26262",
+   "name": "ISO 26262",
+   "class": "skill",
+   "kind": "standard",
+   "definition": "An ISO standard for the functional safety of electrical and electronic systems in road vehicles.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "iso-31000",
+   "name": "ISO 31000",
+   "class": "skill",
+   "kind": "standard",
+   "definition": "An ISO standard giving principles and guidelines for managing risk in any organisation.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "iso-50001",
+   "name": "ISO 50001",
+   "class": "skill",
+   "kind": "standard",
+   "definition": "An ISO standard with requirements for an energy management system that helps an organisation use energy more efficiently.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
    "key": "iso-8583",
    "name": "ISO 8583",
    "class": "skill",
@@ -62,6 +209,19 @@
    "certification": false,
    "variants": [
     "ISO 27001"
+   ],
+   "relations": []
+  },
+  {
+   "key": "iso-iec-9075-sql-standard",
+   "name": "ISO/IEC 9075 SQL standard",
+   "class": "skill",
+   "kind": "standard",
+   "definition": "The international standard that defines the SQL database query language, published by ISO and IEC and adopted by ANSI.",
+   "certification": false,
+   "variants": [
+    "Standard Sql",
+    "ANSI SQL"
    ],
    "relations": []
   },
@@ -135,6 +295,20 @@
    "definition": "Writing and maintaining the policies, procedures and records that describe an organisation's IT security controls.",
    "certification": false,
    "variants": [],
+   "relations": []
+  },
+  {
+   "key": "itu-t-t-30",
+   "name": "ITU-T T.30",
+   "class": "skill",
+   "kind": "standard",
+   "definition": "The ITU-T recommendation that defines the procedures for sending documents by fax over the public telephone network.",
+   "certification": false,
+   "variants": [
+    "T.30 Standars",
+    "T.30",
+    "ITU-T Recommendation T.30"
+   ],
    "relations": []
   },
   {
@@ -299,185 +473,6 @@
    "certification": false,
    "variants": [
     "JD Edwards Configurable Network Computing"
-   ],
-   "relations": []
-  },
-  {
-   "key": "jdbctemplate",
-   "name": "JdbcTemplate",
-   "class": "skill",
-   "kind": "library",
-   "definition": "A class in the Spring Framework that simplifies database access with JDBC by handling connections, statements and exceptions.",
-   "certification": false,
-   "variants": [],
-   "relations": []
-  },
-  {
-   "key": "jdesktop-network-components",
-   "name": "JDesktop Network Components",
-   "class": "skill",
-   "kind": "library",
-   "definition": "A Sun Microsystems SwingLabs project of components for building data-oriented Java Swing desktop applications.",
-   "certification": false,
-   "variants": [
-    "JDNC"
-   ],
-   "relations": []
-  },
-  {
-   "key": "jersey",
-   "name": "Jersey",
-   "class": "skill",
-   "kind": "framework",
-   "definition": "An open-source Java framework, the reference implementation of JAX-RS, for building RESTful web services.",
-   "certification": false,
-   "variants": [
-    "Jersey (Java Framework)"
-   ],
-   "relations": []
-  },
-  {
-   "key": "jive-software",
-   "name": "Jive Software",
-   "class": "skill",
-   "kind": "platform",
-   "definition": "Enterprise collaboration software that gives an organisation an internal social network for sharing content and discussion.",
-   "certification": false,
-   "variants": [
-    "Jive (Software)"
-   ],
-   "relations": []
-  },
-  {
-   "key": "jmock",
-   "name": "jMock",
-   "class": "skill",
-   "kind": "library",
-   "definition": "A Java library for testing with mock objects, which lets a test state the calls it expects an object to receive.",
-   "certification": false,
-   "variants": [],
-   "relations": []
-  },
-  {
-   "key": "jmockit",
-   "name": "JMockit",
-   "class": "skill",
-   "kind": "library",
-   "definition": "A Java library for mocking objects, including static methods and constructors, in unit tests.",
-   "certification": false,
-   "variants": [],
-   "relations": []
-  },
-  {
-   "key": "job-scheduling",
-   "name": "Job scheduling",
-   "class": "skill",
-   "kind": "skill",
-   "definition": "Setting up, running and monitoring automated jobs, such as nightly batch runs, with a scheduler.",
-   "certification": false,
-   "variants": [
-    "Job Scheduling (Batch Processing)",
-    "Batch job scheduling"
-   ],
-   "relations": []
-  },
-  {
-   "key": "joint-clearance-and-access-verification-system",
-   "name": "Joint Clearance and Access Verification System",
-   "class": "skill",
-   "kind": "tool",
-   "definition": "The application in the US Department of Defense's Joint Personnel Adjudication System that security managers use to verify and record personnel security clearances and access.",
-   "certification": false,
-   "variants": [
-    "Joint Clearance And Access Verification Systems",
-    "JCAVS"
-   ],
-   "relations": []
-  },
-  {
-   "key": "joint-commission-standards",
-   "name": "Joint Commission standards",
-   "class": "skill",
-   "kind": "standard",
-   "definition": "Accreditation standards for US hospitals and other health-care organisations, set by The Joint Commission (formerly JCAHO) to judge quality and patient safety.",
-   "certification": false,
-   "variants": [
-    "JCAHO Standards"
-   ],
-   "relations": []
-  },
-  {
-   "key": "jointjs",
-   "name": "JointJS",
-   "class": "skill",
-   "kind": "library",
-   "definition": "A JavaScript library for building interactive diagrams and visual editors in the browser.",
-   "certification": false,
-   "variants": [],
-   "relations": []
-  },
-  {
-   "key": "joomla",
-   "name": "Joomla",
-   "class": "skill",
-   "kind": "platform",
-   "definition": "An open-source content management system, written in PHP, for building and managing websites.",
-   "certification": false,
-   "variants": [],
-   "relations": []
-  },
-  {
-   "key": "jpeg",
-   "name": "JPEG",
-   "class": "skill",
-   "kind": "standard",
-   "definition": "A widely used standard for compressing photographs, from the Joint Photographic Experts Group, that makes small image files by discarding some detail.",
-   "certification": false,
-   "variants": [
-    "JPG"
-   ],
-   "relations": []
-  },
-  {
-   "key": "jsdata",
-   "name": "JSData",
-   "class": "skill",
-   "kind": "library",
-   "definition": "A framework-agnostic JavaScript library for managing application data in a client-side store.",
-   "certification": false,
-   "variants": [],
-   "relations": []
-  },
-  {
-   "key": "jsfiddle",
-   "name": "JSFiddle",
-   "class": "skill",
-   "kind": "tool",
-   "definition": "An online editor for writing, running and sharing snippets of HTML, CSS and JavaScript.",
-   "certification": false,
-   "variants": [],
-   "relations": []
-  },
-  {
-   "key": "jsgrid",
-   "name": "jsGrid",
-   "class": "skill",
-   "kind": "library",
-   "definition": "A lightweight jQuery plugin for showing and editing data in a table-like grid with sorting, filtering and paging.",
-   "certification": false,
-   "variants": [],
-   "relations": []
-  },
-  {
-   "key": "json-web-token",
-   "name": "JSON Web Token",
-   "class": "skill",
-   "kind": "standard",
-   "definition": "A compact, URL-safe token format, defined in RFC 7519, for passing claims between parties as a signed or encrypted JSON object, commonly used for authentication.",
-   "certification": false,
-   "variants": [
-    "JSON Web Token (JWT)",
-    "JWT"
    ],
    "relations": []
   }

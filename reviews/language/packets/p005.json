@@ -1,0 +1,558 @@
+{
+ "allowed_kinds": [
+  "ability",
+  "credential",
+  "framework",
+  "human-language",
+  "knowledge",
+  "library",
+  "markup-language",
+  "method",
+  "modeling-language",
+  "platform",
+  "programming-language",
+  "skill",
+  "standard",
+  "style-language",
+  "tool",
+  "work-activity"
+ ],
+ "entries": [
+  {
+   "key": "livescript",
+   "name": "LiveScript",
+   "class": "language",
+   "kind": "programming-language",
+   "definition": "A functional-style programming language that compiles to JavaScript, descended from CoffeeScript.",
+   "certification": false,
+   "language_type": "programming",
+   "variants": [
+    "Livescript (Programming Language)"
+   ],
+   "relations": []
+  },
+  {
+   "key": "logo",
+   "name": "Logo",
+   "class": "language",
+   "kind": "programming-language",
+   "definition": "An educational programming language known for turtle graphics, developed in the 1960s by Wally Feurzeig, Seymour Papert and others.",
+   "certification": false,
+   "language_type": "programming",
+   "variants": [
+    "Logo (Programming Language)"
+   ],
+   "relations": []
+  },
+  {
+   "key": "lua",
+   "name": "Lua",
+   "class": "language",
+   "kind": "programming-language",
+   "definition": "A lightweight, embeddable scripting language created at PUC-Rio in Brazil.",
+   "certification": false,
+   "language_type": "programming",
+   "variants": [
+    "Lua (Programming Language)"
+   ],
+   "relations": []
+  },
+  {
+   "key": "luxembourgish",
+   "name": "Luxembourgish",
+   "class": "language",
+   "kind": "human-language",
+   "definition": "A West Germanic language, a national language of Luxembourg.",
+   "certification": false,
+   "language_type": "human",
+   "variants": [
+    "Luxembourgish (Language)",
+    "Lëtzebuergesch"
+   ],
+   "relations": []
+  },
+  {
+   "key": "macedonian",
+   "name": "Macedonian",
+   "class": "language",
+   "kind": "human-language",
+   "definition": "A South Slavic language, the official language of North Macedonia.",
+   "certification": false,
+   "language_type": "human",
+   "variants": [
+    "Macedonian (Language)"
+   ],
+   "relations": []
+  },
+  {
+   "key": "maithili",
+   "name": "Maithili",
+   "class": "language",
+   "kind": "human-language",
+   "definition": "An Indo-Aryan language spoken in the Mithila region of Bihar in India and in southeastern Nepal.",
+   "certification": false,
+   "language_type": "human",
+   "variants": [
+    "Maithili (Language)"
+   ],
+   "relations": []
+  },
+  {
+   "key": "malagasy",
+   "name": "Malagasy",
+   "class": "language",
+   "kind": "human-language",
+   "definition": "An Austronesian language, the national language of Madagascar.",
+   "certification": false,
+   "language_type": "human",
+   "variants": [
+    "Malagasy (Language)"
+   ],
+   "relations": []
+  },
+  {
+   "key": "malayalam",
+   "name": "Malayalam",
+   "class": "language",
+   "kind": "human-language",
+   "definition": "A Dravidian language spoken mainly in the Indian state of Kerala.",
+   "certification": false,
+   "language_type": "human",
+   "variants": [
+    "Malayalam (Language)"
+   ],
+   "relations": []
+  },
+  {
+   "key": "maltese",
+   "name": "Maltese",
+   "class": "language",
+   "kind": "human-language",
+   "definition": "A Semitic language with many Romance loanwords, the national language of Malta.",
+   "certification": false,
+   "language_type": "human",
+   "variants": [
+    "Maltese (Language)"
+   ],
+   "relations": []
+  },
+  {
+   "key": "mandarin",
+   "name": "Mandarin",
+   "class": "language",
+   "kind": "human-language",
+   "definition": "The group of Chinese varieties spoken across northern and southwestern China, whose standard form is the official language of China.",
+   "certification": false,
+   "language_type": "human",
+   "variants": [
+    "Mandarin (Language)",
+    "Mandarin Chinese"
+   ],
+   "relations": []
+  },
+  {
+   "key": "manipuri",
+   "name": "Manipuri",
+   "class": "language",
+   "kind": "human-language",
+   "definition": "A Tibeto-Burman language of Manipur in northeastern India, also called Meitei.",
+   "certification": false,
+   "language_type": "human",
+   "variants": [
+    "Manipuri (Language)",
+    "Meitei"
+   ],
+   "relations": []
+  },
+  {
+   "key": "manx",
+   "name": "Manx",
+   "class": "language",
+   "kind": "human-language",
+   "definition": "The Celtic language of the Isle of Man, a Goidelic language closely related to Irish and Scottish Gaelic.",
+   "certification": false,
+   "language_type": "human",
+   "variants": [
+    "Manx (Language)",
+    "Manx Gaelic"
+   ],
+   "relations": []
+  },
+  {
+   "key": "marathi",
+   "name": "Marathi",
+   "class": "language",
+   "kind": "human-language",
+   "definition": "An Indo-Aryan language spoken mainly in the Indian state of Maharashtra.",
+   "certification": false,
+   "language_type": "human",
+   "variants": [
+    "Marathi (Language)"
+   ],
+   "relations": []
+  },
+  {
+   "key": "matlab",
+   "name": "MATLAB",
+   "class": "language",
+   "kind": "programming-language",
+   "definition": "A proprietary programming language and numeric computing environment from MathWorks, built around matrix operations.",
+   "certification": false,
+   "language_type": "programming",
+   "variants": [
+    "MATLAB (Programming Language)"
+   ],
+   "relations": []
+  },
+  {
+   "key": "mayan-languages",
+   "name": "Mayan languages",
+   "class": "language",
+   "kind": "human-language",
+   "definition": "A family of related languages spoken by Maya peoples in Mexico, Guatemala, Belize and Honduras.",
+   "certification": false,
+   "language_type": "human",
+   "variants": [
+    "Mayan (Language)"
+   ],
+   "relations": []
+  },
+  {
+   "key": "media-center-markup-language",
+   "name": "Media Center Markup Language",
+   "class": "language",
+   "kind": "markup-language",
+   "definition": "An XML-based markup language used to build user interfaces for Windows Media Center applications.",
+   "certification": false,
+   "language_type": "programming",
+   "variants": [
+    "MCML",
+    "Media Center Markup Language (Programming Language)"
+   ],
+   "relations": []
+  },
+  {
+   "key": "mizo",
+   "name": "Mizo",
+   "class": "language",
+   "kind": "human-language",
+   "definition": "A Tibeto-Burman language spoken mainly in the Indian state of Mizoram.",
+   "certification": false,
+   "language_type": "human",
+   "variants": [
+    "Mizo (Language)"
+   ],
+   "relations": []
+  },
+  {
+   "key": "mongolian",
+   "name": "Mongolian",
+   "class": "language",
+   "kind": "human-language",
+   "definition": "A Mongolic language, the official language of Mongolia.",
+   "certification": false,
+   "language_type": "human",
+   "variants": [
+    "Mongolian (Language)"
+   ],
+   "relations": []
+  },
+  {
+   "key": "mql4",
+   "name": "MQL4",
+   "class": "language",
+   "kind": "programming-language",
+   "definition": "A C-like programming language for writing indicators, scripts and automated trading programs on the MetaTrader 4 trading platform.",
+   "certification": false,
+   "language_type": "programming",
+   "variants": [
+    "Mql4 (metaquotes Language 4) (Programming Language)",
+    "MetaQuotes Language 4"
+   ],
+   "relations": []
+  },
+  {
+   "key": "mumps",
+   "name": "MUMPS",
+   "class": "language",
+   "kind": "programming-language",
+   "definition": "A programming language with a built-in hierarchical database, developed at Massachusetts General Hospital in the 1960s and used in healthcare systems.",
+   "certification": false,
+   "language_type": "programming",
+   "variants": [
+    "Mumps (Programming Language)",
+    "Massachusetts General Hospital Utility Multi-Programming System"
+   ],
+   "relations": []
+  },
+  {
+   "key": "mxml",
+   "name": "MXML",
+   "class": "language",
+   "kind": "markup-language",
+   "definition": "An XML-based markup language created by Macromedia, later Adobe, for laying out user interfaces in Flex applications.",
+   "certification": false,
+   "language_type": "programming",
+   "variants": [
+    "Macromedia Flex Markup Language",
+    "Macromedia Flex Markup Language (Programming Language)"
+   ],
+   "relations": []
+  },
+  {
+   "key": "ndebele",
+   "name": "Ndebele",
+   "class": "language",
+   "kind": "human-language",
+   "definition": "The name of two related Bantu languages: Northern Ndebele, spoken mainly in Zimbabwe, and Southern Ndebele, spoken in South Africa.",
+   "certification": false,
+   "language_type": "human",
+   "variants": [
+    "Ndebele (Language)"
+   ],
+   "relations": []
+  },
+  {
+   "key": "nepali",
+   "name": "Nepali",
+   "class": "language",
+   "kind": "human-language",
+   "definition": "An Indo-Aryan language that is the official language of Nepal and is also spoken in parts of India.",
+   "certification": false,
+   "language_type": "human",
+   "variants": [
+    "Nepali (Language)"
+   ],
+   "relations": []
+  },
+  {
+   "key": "nim",
+   "name": "Nim",
+   "class": "language",
+   "kind": "programming-language",
+   "definition": "A statically typed, compiled programming language with a Python-like syntax.",
+   "certification": false,
+   "language_type": "programming",
+   "variants": [
+    "Nim (Programming Language)"
+   ],
+   "relations": []
+  },
+  {
+   "key": "norwegian",
+   "name": "Norwegian",
+   "class": "language",
+   "kind": "human-language",
+   "definition": "A North Germanic language, the official language of Norway, written in the Bokmål and Nynorsk standards.",
+   "certification": false,
+   "language_type": "human",
+   "variants": [
+    "Norwegian (Language)"
+   ],
+   "relations": []
+  },
+  {
+   "key": "oberon",
+   "name": "Oberon",
+   "class": "language",
+   "kind": "programming-language",
+   "definition": "A programming language designed by Niklaus Wirth in the late 1980s as a successor to Modula-2.",
+   "certification": false,
+   "language_type": "programming",
+   "variants": [
+    "Oberon (Programming Language)"
+   ],
+   "relations": []
+  },
+  {
+   "key": "objective-c",
+   "name": "Objective-C",
+   "class": "language",
+   "kind": "programming-language",
+   "definition": "An object-oriented extension of C used for Apple's macOS and iOS software.",
+   "certification": false,
+   "language_type": "programming",
+   "variants": [
+    "Objective-C (Progamming Language)",
+    "Obj-C"
+   ],
+   "relations": []
+  },
+  {
+   "key": "ocaml",
+   "name": "OCaml",
+   "class": "language",
+   "kind": "programming-language",
+   "definition": "A general-purpose functional programming language of the ML family with an object system, developed at Inria.",
+   "certification": false,
+   "language_type": "programming",
+   "variants": [
+    "Ocaml (Programming Language)",
+    "Objective Caml"
+   ],
+   "relations": []
+  },
+  {
+   "key": "odia",
+   "name": "Odia",
+   "class": "language",
+   "kind": "human-language",
+   "definition": "An Indo-Aryan language spoken mainly in the Indian state of Odisha.",
+   "certification": false,
+   "language_type": "human",
+   "variants": [
+    "Oriya (odia) (Language)",
+    "Oriya"
+   ],
+   "relations": []
+  },
+  {
+   "key": "openedge-abl",
+   "name": "OpenEdge ABL",
+   "class": "language",
+   "kind": "programming-language",
+   "definition": "Progress Software's high-level, business-oriented programming language for the OpenEdge platform, formerly known as Progress 4GL.",
+   "certification": false,
+   "language_type": "programming",
+   "variants": [
+    "Openedge Abl (Programming Language)",
+    "Progress 4GL",
+    "OpenEdge Advanced Business Language"
+   ],
+   "relations": []
+  },
+  {
+   "key": "ovambo",
+   "name": "Ovambo",
+   "class": "language",
+   "kind": "human-language",
+   "definition": "A Bantu language, also called Oshiwambo, spoken mainly in northern Namibia and southern Angola.",
+   "certification": false,
+   "language_type": "human",
+   "variants": [
+    "Ovambo (Language)",
+    "Oshiwambo"
+   ],
+   "relations": []
+  },
+  {
+   "key": "oz",
+   "name": "Oz",
+   "class": "language",
+   "kind": "programming-language",
+   "definition": "A multiparadigm programming language supporting functional, logic, constraint and concurrent programming, implemented by the Mozart Programming System.",
+   "certification": false,
+   "language_type": "programming",
+   "variants": [
+    "Oz (Programming Language)"
+   ],
+   "relations": []
+  },
+  {
+   "key": "pascal",
+   "name": "Pascal",
+   "class": "language",
+   "kind": "programming-language",
+   "definition": "A structured, imperative programming language designed by Niklaus Wirth around 1970 and widely used for teaching programming.",
+   "certification": false,
+   "language_type": "programming",
+   "variants": [
+    "Pascal (Programming Language)"
+   ],
+   "relations": []
+  },
+  {
+   "key": "pashto",
+   "name": "Pashto",
+   "class": "language",
+   "kind": "human-language",
+   "definition": "An Eastern Iranian language spoken mainly in Afghanistan and Pakistan.",
+   "certification": false,
+   "language_type": "human",
+   "variants": [
+    "Pashto (Language)"
+   ],
+   "relations": []
+  },
+  {
+   "key": "perl",
+   "name": "Perl",
+   "class": "language",
+   "kind": "programming-language",
+   "definition": "A high-level, general-purpose scripting language known for text processing and regular expressions.",
+   "certification": false,
+   "language_type": "programming",
+   "variants": [
+    "Perl (Programming Language)"
+   ],
+   "relations": []
+  },
+  {
+   "key": "persian",
+   "name": "Persian",
+   "class": "language",
+   "kind": "human-language",
+   "definition": "An Iranian language, the official language of Iran, closely related to Dari and Tajik.",
+   "certification": false,
+   "language_type": "human",
+   "variants": [
+    "Persian (farsi) (Language)",
+    "Farsi"
+   ],
+   "relations": [
+    "related:dari"
+   ]
+  },
+  {
+   "key": "phoenician",
+   "name": "Phoenician",
+   "class": "language",
+   "kind": "human-language",
+   "definition": "An extinct Canaanite language of the ancient Phoenicians, written in the Phoenician alphabet.",
+   "certification": false,
+   "language_type": "human",
+   "variants": [
+    "Phoenician (Language)"
+   ],
+   "relations": []
+  },
+  {
+   "key": "php",
+   "name": "PHP",
+   "class": "language",
+   "kind": "programming-language",
+   "definition": "The PHP programming language.",
+   "variants": [
+    "PHP (Scripting Language)",
+    "PHP (Programming Language)"
+   ],
+   "relations": []
+  },
+  {
+   "key": "php7",
+   "name": "PHP 7",
+   "class": "language",
+   "kind": "programming-language",
+   "definition": "Version-specific PHP concept; not all versions of PHP.",
+   "variants": [
+    "PHP7"
+   ],
+   "relations": [
+    "broader:php"
+   ]
+  },
+  {
+   "key": "pl-i",
+   "name": "PL/I",
+   "class": "language",
+   "kind": "programming-language",
+   "definition": "A multi-purpose programming language developed by IBM in the 1960s for scientific, business and systems programming.",
+   "certification": false,
+   "language_type": "programming",
+   "variants": [
+    "Pl/i (Programming Language)"
+   ],
+   "relations": []
+  }
+ ]
+}

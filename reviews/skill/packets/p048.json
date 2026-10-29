@@ -19,6 +19,268 @@
  ],
  "entries": [
   {
+   "key": "quotewerks",
+   "name": "QuoteWerks",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "Software for creating sales quotes, proposals and orders that links to accounting, CRM and distributor product data.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "rack-elevation-drawings",
+   "name": "Rack elevation drawings",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Preparing or reading drawings that show the front view of an equipment rack and where each device sits in it.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "radare2",
+   "name": "Radare2",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "An open-source framework of command-line tools for disassembling, debugging and analysing binary files.",
+   "certification": false,
+   "variants": [
+    "Radare2 (Reverse Engineering Software)"
+   ],
+   "relations": [
+    "related:ghidra",
+    "related:binary-ninja"
+   ]
+  },
+  {
+   "key": "rail-safety",
+   "name": "Rail safety",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "Practices, rules and equipment used to prevent accidents and injuries on railways.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "railway-signalling",
+   "name": "Railway signalling",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "The systems and rules that control train movements and keep trains apart, such as signals, track circuits and interlockings.",
+   "certification": false,
+   "variants": [
+    "Railway signaling",
+    "Rail signalling"
+   ],
+   "relations": []
+  },
+  {
+   "key": "rally-software",
+   "name": "Rally Software",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "An agile project-management and portfolio-planning tool, made by Rally Software and later owned by CA Technologies and then Broadcom.",
+   "certification": false,
+   "variants": [
+    "Rally Softwares"
+   ],
+   "relations": []
+  },
+  {
+   "key": "rancher",
+   "name": "Rancher",
+   "class": "skill",
+   "kind": "platform",
+   "definition": "An open-source platform for deploying and managing many Kubernetes clusters, developed by Rancher Labs and later SUSE.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "random-forest",
+   "name": "Random forest",
+   "class": "skill",
+   "kind": "method",
+   "definition": "A machine-learning method that builds many decision trees on random samples of the data and combines their outputs for classification or regression.",
+   "certification": false,
+   "variants": [
+    "Random forests"
+   ],
+   "relations": []
+  },
+  {
+   "key": "random-testing",
+   "name": "Random testing",
+   "class": "skill",
+   "kind": "method",
+   "definition": "Testing software by giving it randomly generated inputs and checking that it behaves correctly.",
+   "certification": false,
+   "variants": [],
+   "relations": [
+    "broader:testing"
+   ]
+  },
+  {
+   "key": "random-variable",
+   "name": "Random variable",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "A quantity whose value depends on the outcome of a random process and is described by a probability distribution.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "randomization",
+   "name": "Randomization",
+   "class": "skill",
+   "kind": "method",
+   "definition": "Using chance to assign subjects to groups, order items or pick samples so that no systematic bias creeps in.",
+   "certification": false,
+   "variants": [
+    "Randomization (Randomness)"
+   ],
+   "relations": []
+  },
+  {
+   "key": "rankine-cycle",
+   "name": "Rankine cycle",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "A thermodynamic cycle, used in steam power plants, in which water is boiled, expanded through a turbine, condensed and pumped back to the boiler.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "ravendb",
+   "name": "RavenDB",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "A NoSQL document database that stores JSON documents and supports ACID transactions.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "ray-tracing",
+   "name": "Ray tracing",
+   "class": "skill",
+   "kind": "method",
+   "definition": "A rendering technique that makes images by following the paths of light rays through a scene and calculating how they bounce off and pass through surfaces.",
+   "certification": false,
+   "variants": [
+    "Raytracing"
+   ],
+   "relations": []
+  },
+  {
+   "key": "react",
+   "name": "React",
+   "class": "skill",
+   "kind": "library",
+   "definition": "A user-interface library; not synonymous with React Native.",
+   "variants": [
+    "React.js",
+    "React.js (Javascript Library Library)",
+    "Reactjs"
+   ],
+   "relations": []
+  },
+  {
+   "key": "reactivex",
+   "name": "ReactiveX",
+   "class": "skill",
+   "kind": "library",
+   "definition": "A family of libraries, such as RxJava and RxJS, for writing asynchronous and event-driven programs by composing streams of events called observables.",
+   "certification": false,
+   "variants": [
+    "Reactive Extensions"
+   ],
+   "relations": []
+  },
+  {
+   "key": "reading-gauges",
+   "name": "Reading gauges",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Reading analog or digital gauges to check pressure, temperature, levels or flow on equipment.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "reading-technical-drawings",
+   "name": "Reading technical drawings",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Reading technical drawings such as blueprints and schematics to understand the shapes, dimensions and instructions they show.",
+   "certification": false,
+   "variants": [
+    "Interpret Drawings",
+    "Blueprint reading"
+   ],
+   "relations": [
+    "related:engineering-drawing"
+   ]
+  },
+  {
+   "key": "reading-to-children",
+   "name": "Reading to children",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Reading books and stories aloud to children, for example to build their listening, language and interest in reading.",
+   "certification": false,
+   "variants": [
+    "Read To Children"
+   ],
+   "relations": []
+  },
+  {
+   "key": "readyapi",
+   "name": "ReadyAPI",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "A SmartBear suite of tools for testing and monitoring APIs, covering functional, security and load testing.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "real-estate",
+   "name": "Real estate",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "Land and the buildings on it, and the field of buying, selling, leasing, valuing and managing them.",
+   "certification": false,
+   "variants": [
+    "Real Estates"
+   ],
+   "relations": []
+  },
+  {
+   "key": "real-estate-contracts",
+   "name": "Real estate contracts",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "The agreements, such as purchase, sale and lease contracts, used to transfer or let property, and the rules on how they are written and enforced.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "real-estate-market-analysis",
+   "name": "Real estate market analysis",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Studying prices, supply, demand and trends in a property market to judge the value of properties and the prospects of an area.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
    "key": "real-estate-owned",
    "name": "Real estate owned",
    "class": "skill",
@@ -209,259 +471,6 @@
    "variants": [
     "Reinforced Masonry Building"
    ],
-   "relations": []
-  },
-  {
-   "key": "reinforcement-learning",
-   "name": "Reinforcement learning",
-   "class": "skill",
-   "kind": "method",
-   "definition": "Learning policies from interaction and reward feedback.",
-   "variants": [],
-   "relations": []
-  },
-  {
-   "key": "relational-database-management-system",
-   "name": "Relational database management system",
-   "class": "skill",
-   "kind": "knowledge",
-   "definition": "Software that stores data in tables of rows and columns linked by keys and is queried with SQL, such as PostgreSQL, MySQL and Oracle Database.",
-   "certification": false,
-   "variants": [
-    "Relational Database Management System (RDMS)",
-    "RDBMS"
-   ],
-   "relations": [
-    "contrast:nosql"
-   ]
-  },
-  {
-   "key": "reltio",
-   "name": "Reltio",
-   "class": "skill",
-   "kind": "platform",
-   "definition": "A cloud master data management platform that unifies and manages customer, product and other business data from many sources.",
-   "certification": false,
-   "variants": [
-    "Reltio (Master Data Management Software)"
-   ],
-   "relations": []
-  },
-  {
-   "key": "renal-nutrition",
-   "name": "Renal nutrition",
-   "class": "skill",
-   "kind": "knowledge",
-   "definition": "The study and practice of dietary care for people with kidney disease, including limits on protein, potassium, phosphorus, sodium and fluid.",
-   "certification": false,
-   "variants": [],
-   "relations": []
-  },
-  {
-   "key": "renewable-energy",
-   "name": "Renewable energy",
-   "class": "skill",
-   "kind": "knowledge",
-   "definition": "Energy from sources that are naturally replenished, such as sunlight, wind, water and geothermal heat, and the technology used to harness it.",
-   "certification": false,
-   "variants": [],
-   "relations": []
-  },
-  {
-   "key": "renewable-energy-sales",
-   "name": "Renewable energy sales",
-   "class": "skill",
-   "kind": "skill",
-   "definition": "Selling renewable energy products or services, such as solar systems or clean power contracts.",
-   "certification": false,
-   "variants": [
-    "Renewable Sales"
-   ],
-   "relations": []
-  },
-  {
-   "key": "reporting",
-   "name": "Reporting",
-   "class": "skill",
-   "kind": "skill",
-   "definition": "Gathering information and presenting it in regular or one-off reports for others to use.",
-   "certification": false,
-   "variants": [
-    "Reportng"
-   ],
-   "relations": []
-  },
-  {
-   "key": "representational-state-transfer",
-   "name": "Representational State Transfer",
-   "class": "skill",
-   "kind": "method",
-   "definition": "An architectural style for web services in which resources are identified by URLs and handled with standard HTTP methods.",
-   "certification": false,
-   "variants": [
-    "REST",
-    "RESTful"
-   ],
-   "relations": []
-  },
-  {
-   "key": "reproductive-health-care",
-   "name": "Reproductive health care",
-   "class": "skill",
-   "kind": "knowledge",
-   "definition": "Care that supports sexual and reproductive health, such as contraception, pregnancy care, fertility care and screening.",
-   "certification": false,
-   "variants": [],
-   "relations": []
-  },
-  {
-   "key": "requirejs",
-   "name": "RequireJS",
-   "class": "skill",
-   "kind": "library",
-   "definition": "A JavaScript file and module loader that implements the Asynchronous Module Definition format for browsers and Node.js.",
-   "certification": false,
-   "variants": [],
-   "relations": []
-  },
-  {
-   "key": "research-methodology",
-   "name": "Research methodology",
-   "class": "skill",
-   "kind": "knowledge",
-   "definition": "The principles and methods for designing and carrying out research, including how data is collected and analysed.",
-   "certification": false,
-   "variants": [],
-   "relations": []
-  },
-  {
-   "key": "resharper",
-   "name": "ReSharper",
-   "class": "skill",
-   "kind": "tool",
-   "definition": "A JetBrains extension for Microsoft Visual Studio that adds code analysis, quick fixes and refactoring for .NET developers.",
-   "certification": false,
-   "variants": [],
-   "relations": [
-    "related:csharp"
-   ]
-  },
-  {
-   "key": "residential-construction",
-   "name": "Residential construction",
-   "class": "skill",
-   "kind": "knowledge",
-   "definition": "Building homes and apartment buildings, as distinct from commercial or industrial construction.",
-   "certification": false,
-   "variants": [],
-   "relations": []
-  },
-  {
-   "key": "resilience-planning",
-   "name": "Resilience planning",
-   "class": "skill",
-   "kind": "skill",
-   "definition": "Planning how an organisation, community or system will keep working through shocks such as disasters, outages or climate events, and recover afterwards.",
-   "certification": false,
-   "variants": [],
-   "relations": [
-    "related:contingency-planning"
-   ]
-  },
-  {
-   "key": "resolving-guest-concerns",
-   "name": "Resolving guest concerns",
-   "class": "skill",
-   "kind": "skill",
-   "definition": "Dealing with a guest's complaints or problems, especially in hotels and restaurants, so that they are put right.",
-   "certification": false,
-   "variants": [
-    "Resolve Guest Concerns"
-   ],
-   "relations": []
-  },
-  {
-   "key": "resorcerer",
-   "name": "Resorcerer",
-   "class": "skill",
-   "kind": "tool",
-   "definition": "A resource editor for classic Macintosh software, used to view and edit the resources stored in application and system files.",
-   "certification": false,
-   "variants": [],
-   "relations": []
-  },
-  {
-   "key": "resource-mobilization",
-   "name": "Resource mobilization",
-   "class": "skill",
-   "kind": "skill",
-   "definition": "Raising and bringing together the funds, people and materials an organisation or programme needs, especially in non-profit and development work.",
-   "certification": false,
-   "variants": [],
-   "relations": []
-  },
-  {
-   "key": "responsibility-assignment-matrix",
-   "name": "Responsibility assignment matrix",
-   "class": "skill",
-   "kind": "method",
-   "definition": "A table that maps the tasks of a project to the people or roles responsible for them, often using codes such as responsible, accountable, consulted and informed.",
-   "certification": false,
-   "variants": [],
-   "relations": []
-  },
-  {
-   "key": "responsive-teaching",
-   "name": "Responsive teaching",
-   "class": "skill",
-   "kind": "skill",
-   "definition": "Adjusting instruction as a lesson happens, in response to what students say, do and need.",
-   "certification": false,
-   "variants": [],
-   "relations": []
-  },
-  {
-   "key": "rest-api-security",
-   "name": "REST API security",
-   "class": "skill",
-   "kind": "skill",
-   "definition": "Protecting RESTful web services, for example with authentication, authorisation, encryption and input validation.",
-   "certification": false,
-   "variants": [
-    "Rest Security"
-   ],
-   "relations": []
-  },
-  {
-   "key": "restaurant-management",
-   "name": "Restaurant management",
-   "class": "skill",
-   "kind": "skill",
-   "definition": "Running a restaurant's daily operations, including staff, service, purchasing, food safety and finances.",
-   "certification": false,
-   "variants": [],
-   "relations": [
-    "related:hotel-and-restaurant-management"
-   ]
-  },
-  {
-   "key": "restorative-justice",
-   "name": "Restorative justice",
-   "class": "skill",
-   "kind": "method",
-   "definition": "An approach to wrongdoing that focuses on repairing the harm done, by bringing together victims, offenders and the community, rather than only punishing.",
-   "certification": false,
-   "variants": [],
-   "relations": []
-  },
-  {
-   "key": "rethinkdb",
-   "name": "RethinkDB",
-   "class": "skill",
-   "kind": "tool",
-   "definition": "An open-source distributed document database that can push changes in query results to applications as the data changes.",
-   "certification": false,
-   "variants": [],
    "relations": []
   }
  ]

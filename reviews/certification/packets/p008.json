@@ -19,525 +19,521 @@
  ],
  "entries": [
   {
-   "key": "google-project-management-professional-certificate",
-   "name": "Google Project Management Professional Certificate",
+   "key": "certified-breast-care-nurse",
+   "name": "Certified Breast Care Nurse",
    "class": "certification",
    "kind": "credential",
-   "definition": "Google's online professional certificate covering project planning, execution and agile practice.",
+   "definition": "A certification from the Oncology Nursing Certification Corporation for nurses who care for patients with breast cancer and other breast conditions.",
    "certification": true,
    "certification_scope": "single-issuer",
    "variants": [
-    "Google Project Management Certificate"
+    "CBCN"
+   ],
+   "relations": []
+  },
+  {
+   "key": "certified-cardiographic-technician",
+   "name": "Certified Cardiographic Technician",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A certification from Cardiovascular Credentialing International for technicians who record and check electrocardiograms and related heart tests.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "certified-case-manager",
+   "name": "Certified Case Manager",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A certification from the Commission for Case Manager Certification for case managers who coordinate health and social care for clients.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "certified-child-life-specialist",
+   "name": "Certified Child Life Specialist",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A certification from the Association of Child Life Professionals for specialists who help children and families cope with illness, injury and hospital care.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [
+    "CCLS"
+   ],
+   "relations": []
+  },
+  {
+   "key": "certified-clinical-hemodialysis-technician",
+   "name": "Certified Clinical Hemodialysis Technician",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A certification from the Nephrology Nursing Certification Commission for technicians who give hemodialysis treatments in clinical settings.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [
+    "CCHT"
+   ],
+   "relations": []
+  },
+  {
+   "key": "certified-clinical-medical-assistant",
+   "name": "Certified Clinical Medical Assistant",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A certification from the National Healthcareer Association for medical assistants who do clinical tasks such as taking vital signs and drawing blood.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [
+    "CCMA"
+   ],
+   "relations": []
+  },
+  {
+   "key": "certified-clinical-research-associate",
+   "name": "Certified Clinical Research Associate",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A certification from the Association of Clinical Research Professionals for people who monitor clinical trials at study sites.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [
+    "CCRA"
+   ],
+   "relations": []
+  },
+  {
+   "key": "certified-clinical-transplant-coordinator",
+   "name": "Certified Clinical Transplant Coordinator",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A certification for coordinators who manage the clinical care of organ-transplant patients before and after their transplants.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [
+    "Certified Clinical Transplant Coordinators",
+    "CCTC"
+   ],
+   "relations": []
+  },
+  {
+   "key": "certified-coding-associate",
+   "name": "Certified Coding Associate",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "An entry-level medical coding certification from the American Health Information Management Association.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "certified-coding-specialist",
+   "name": "Certified Coding Specialist",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A medical coding certification from the American Health Information Management Association for coders who assign codes to hospital records.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "certified-continence-care-nurse",
+   "name": "Certified Continence Care Nurse",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A certification from the Wound, Ostomy and Continence Nursing Certification Board for nurses who care for people with bladder and bowel incontinence.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [
+    "CCCN"
+   ],
+   "relations": []
+  },
+  {
+   "key": "certified-control-systems-technician",
+   "name": "Certified Control Systems Technician",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A certification from the International Society of Automation, offered at three levels, for technicians who calibrate, install and troubleshoot control systems and instruments.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [
+    "CCST"
+   ],
+   "relations": []
+  },
+  {
+   "key": "certified-correctional-nurse",
+   "name": "Certified Correctional Nurse",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A certification for nurses who work in correctional facilities such as jails and prisons.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [
+    "Certified Corrections Nurse"
+   ],
+   "relations": []
+  },
+  {
+   "key": "certified-culinary-administrator",
+   "name": "Certified Culinary Administrator",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "An American Culinary Federation certification for chefs who hold administrative roles in running foodservice operations.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [
+    "Certified Culinary Administration"
    ],
    "relations": [
-    "related:project-management"
+    "broader:american-culinary-federation-certification"
    ]
   },
   {
-   "key": "google-ux-design-professional-certificate",
-   "name": "Google UX Design Professional Certificate",
+   "key": "certified-diabetes-care-and-education-specialist",
+   "name": "Certified Diabetes Care and Education Specialist",
    "class": "certification",
    "kind": "credential",
-   "definition": "Google's online professional certificate covering user research, wireframes, prototypes and usability testing.",
+   "definition": "A certification for health professionals who teach people to manage diabetes; it replaced the title Certified Diabetes Educator in 2020.",
    "certification": true,
    "certification_scope": "single-issuer",
    "variants": [
-    "Google UX Design Certificate"
+    "Certified Diabetes Educator",
+    "CDCES"
    ],
    "relations": []
   },
   {
-   "key": "graduate-realtor-institute",
-   "name": "Graduate REALTOR Institute",
+   "key": "certified-dialysis-nurse",
+   "name": "Certified Dialysis Nurse",
    "class": "certification",
    "kind": "credential",
-   "definition": "A real-estate designation of the National Association of Realtors, awarded by state Realtor associations to agents who complete a set of advanced courses.",
+   "definition": "A certification from the Nephrology Nursing Certification Commission for nurses who care for dialysis patients.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "certified-diversity-recruiter",
+   "name": "Certified Diversity Recruiter",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A certification for recruiters who find and hire candidates from diverse backgrounds.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [
+    "Certified Diversity Recruiter (CDR)"
+   ],
+   "relations": []
+  },
+  {
+   "key": "certified-documentation-integrity-practitioner",
+   "name": "Certified Documentation Integrity Practitioner",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A certification from the American Health Information Management Association for people who review clinical documentation so that it accurately and completely reflects a patient's care and condition.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [
+    "Certified Documentation Improvement Practitioner",
+    "CDIP",
+    "Certified Documentation Integrity Practitioner (CDIP)"
+   ],
+   "relations": []
+  },
+  {
+   "key": "certified-energy-manager",
+   "name": "Certified Energy Manager",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A certification from the Association of Energy Engineers for professionals who manage energy use and efficiency in buildings and facilities.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "certified-first-responder",
+   "name": "Certified First Responder",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A credential for people trained to give emergency care at the scene before an ambulance crew arrives.",
    "certification": true,
    "certification_scope": "many-issuers",
    "variants": [],
    "relations": []
   },
   {
-   "key": "hazmat-endorsement",
-   "name": "Hazmat endorsement",
+   "key": "certified-flight-registered-nurse",
+   "name": "Certified Flight Registered Nurse",
    "class": "certification",
    "kind": "credential",
-   "definition": "A commercial driver's licence endorsement that permits transporting hazardous materials, issued after a security background check.",
+   "definition": "A certification from the Board of Certification for Emergency Nursing for registered nurses who care for patients during air and ground transport.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [
+    "CFRN"
+   ],
+   "relations": []
+  },
+  {
+   "key": "certified-foot-care-nurse",
+   "name": "Certified Foot Care Nurse",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A certification from the Wound, Ostomy and Continence Nursing Certification Board for nurses who assess and care for patients' feet.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [
+    "CFCN"
+   ],
+   "relations": []
+  },
+  {
+   "key": "certified-forensic-computer-examiner",
+   "name": "Certified Forensic Computer Examiner",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A digital forensics certification from the International Association of Computer Investigative Specialists.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [
+    "Certified Forensic Computer Examination",
+    "CFCE"
+   ],
+   "relations": []
+  },
+  {
+   "key": "certified-forklift-operator",
+   "name": "Certified Forklift Operator",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "Proof that a worker has been trained and evaluated to operate forklifts safely, as US workplace-safety rules require an employer to certify.",
    "certification": true,
    "certification_scope": "many-issuers",
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "certified-gastroenterology-registered-nurse",
+   "name": "Certified Gastroenterology Registered Nurse",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A certification from the American Board of Certification for Gastroenterology Nurses for registered nurses who work in gastroenterology and endoscopy.",
+   "certification": true,
+   "certification_scope": "single-issuer",
    "variants": [
-    "Hazardous materials endorsement"
+    "CGRN"
+   ],
+   "relations": []
+  },
+  {
+   "key": "certified-health-data-analyst",
+   "name": "Certified Health Data Analyst",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A certification from the American Health Information Management Association for professionals who acquire, analyse and report on health data.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [
+    "CHDA"
+   ],
+   "relations": []
+  },
+  {
+   "key": "certified-hemodialysis-technician",
+   "name": "Certified Hemodialysis Technician",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A certification for technicians who give hemodialysis treatments to patients with kidney failure.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "certified-histotechnician",
+   "name": "Certified Histotechnician",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A certification from the ASCP Board of Certification for histotechnicians, who prepare thin tissue sections and stains for microscope examination.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [
+    "Certified Histotechnician (HT-ASCP)",
+    "HT(ASCP)"
+   ],
+   "relations": []
+  },
+  {
+   "key": "certified-histotechnologist",
+   "name": "Certified Histotechnologist",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A certification from the ASCP Board of Certification for histotechnologists, who do more advanced tissue-preparation and staining work and may supervise others.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [
+    "Certified Histotechnologist (HTL-ASCP)",
+    "HTL(ASCP)"
+   ],
+   "relations": []
+  },
+  {
+   "key": "certified-hospice-and-palliative-care-administrator",
+   "name": "Certified Hospice and Palliative Care Administrator",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A certification from the Hospice and Palliative Credentialing Center for administrators of hospice and palliative care programmes.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [
+    "CHPCA"
    ],
    "relations": [
-    "related:passenger-endorsement",
-    "related:doubles-triples-endorsement"
+    "related:advanced-certified-hospice-and-palliative-nurse"
    ]
   },
   {
-   "key": "higher-national-certificate",
-   "name": "Higher National Certificate",
+   "key": "certified-hospice-and-palliative-licensed-nurse",
+   "name": "Certified Hospice and Palliative Licensed Nurse",
    "class": "certification",
    "kind": "credential",
-   "definition": "A UK vocational qualification of about one year of full-time higher-education study, awarded by bodies such as Pearson and the Scottish Qualifications Authority.",
-   "certification": true,
-   "certification_scope": "many-issuers",
-   "variants": [
-    "HNC"
-   ],
-   "relations": []
-  },
-  {
-   "key": "housing-credit-certified-professional",
-   "name": "Housing Credit Certified Professional",
-   "class": "certification",
-   "kind": "credential",
-   "definition": "A certification for professionals who manage compliance with the rules of the Low-Income Housing Tax Credit programme.",
+   "definition": "A certification from the Hospice and Palliative Credentialing Center for licensed practical and vocational nurses who care for hospice and palliative patients.",
    "certification": true,
    "certification_scope": "single-issuer",
    "variants": [
-    "Housing Credit Ceritified Professional"
+    "CHPLN"
    ],
    "relations": [
-    "related:certified-professional-of-occupancy"
+    "related:advanced-certified-hospice-and-palliative-nurse"
    ]
   },
   {
-   "key": "iam-level-i-certification",
-   "name": "IAM Level I certification",
+   "key": "certified-hospice-and-palliative-nurse",
+   "name": "Certified Hospice and Palliative Nurse",
    "class": "certification",
    "kind": "credential",
-   "definition": "An information assurance management qualification at Level I, as defined in the U.S. Department of Defense 8570 workforce framework.",
+   "definition": "A certification from the Hospice and Palliative Credentialing Center for registered nurses who care for hospice and palliative patients.",
    "certification": true,
-   "certification_scope": "many-issuers",
-   "variants": [],
-   "relations": []
-  },
-  {
-   "key": "iam-level-ii-certification",
-   "name": "IAM Level II certification",
-   "class": "certification",
-   "kind": "credential",
-   "definition": "A Level II requirement in the US Department of Defense 8570 framework for information assurance management staff, met by holding an approved certification.",
-   "certification": true,
-   "certification_scope": "many-issuers",
-   "variants": [],
+   "certification_scope": "single-issuer",
+   "variants": [
+    "Certified Hospice And Palliative Nurses (CHPN)",
+    "CHPN"
+   ],
    "relations": [
-    "related:iam-level-i-certification"
+    "related:advanced-certified-hospice-and-palliative-nurse"
    ]
   },
   {
-   "key": "iam-level-iii-certification",
-   "name": "IAM Level III certification",
+   "key": "certified-hospice-and-palliative-nursing-assistant",
+   "name": "Certified Hospice and Palliative Nursing Assistant",
    "class": "certification",
    "kind": "credential",
-   "definition": "A Level III requirement in the US Department of Defense 8570 framework for information assurance management staff, met by holding an approved certification.",
+   "definition": "A certification from the Hospice and Palliative Credentialing Center for nursing assistants who care for hospice and palliative patients.",
    "certification": true,
-   "certification_scope": "many-issuers",
-   "variants": [],
+   "certification_scope": "single-issuer",
+   "variants": [
+    "CHPNA"
+   ],
    "relations": [
-    "related:iam-level-i-certification"
+    "related:advanced-certified-hospice-and-palliative-nurse"
    ]
   },
   {
-   "key": "iat-level-i-certification",
-   "name": "IAT Level I certification",
+   "key": "certified-in-logistics-transportation-and-distribution",
+   "name": "Certified in Logistics, Transportation and Distribution",
    "class": "certification",
    "kind": "credential",
-   "definition": "A Level I requirement in the US Department of Defense 8570 framework for information assurance technical staff, met by holding an approved certification.",
+   "definition": "A certification from the Association for Supply Chain Management for professionals who plan and manage logistics, transportation and distribution.",
    "certification": true,
-   "certification_scope": "many-issuers",
+   "certification_scope": "single-issuer",
+   "variants": [
+    "Certified In Logistics, Transportation And Distribution (CLTD)",
+    "CLTD"
+   ],
+   "relations": []
+  },
+  {
+   "key": "certified-in-public-health",
+   "name": "Certified in Public Health",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A certification from the National Board of Public Health Examiners for public health graduates who show broad knowledge of the field.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [
+    "Certified In Public Health (CPH)"
+   ],
+   "relations": []
+  },
+  {
+   "key": "certified-industrial-hygienist",
+   "name": "Certified Industrial Hygienist",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A professional certification for industrial hygienists, who anticipate, recognise, evaluate and control workplace health hazards.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [
+    "CIH"
+   ],
+   "relations": []
+  },
+  {
+   "key": "certified-information-privacy-professional",
+   "name": "Certified Information Privacy Professional",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A certification from the International Association of Privacy Professionals showing knowledge of privacy law and practice, offered for different regions.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "certified-information-systems-auditor",
+   "name": "Certified Information Systems Auditor",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A certification from ISACA for professionals who audit, control and assure the security of information systems.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [
+    "Certified Information System Auditor (CISA)"
+   ],
+   "relations": []
+  },
+  {
+   "key": "certified-inpatient-coder",
+   "name": "Certified Inpatient Coder",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A medical coding certification from AAPC for coders who assign diagnosis and procedure codes to hospital inpatient records.",
+   "certification": true,
+   "certification_scope": "single-issuer",
    "variants": [],
    "relations": [
-    "related:iam-level-i-certification"
+    "related:cpc-coder"
    ]
   },
   {
-   "key": "iat-level-ii-certification",
-   "name": "IAT Level II certification",
+   "key": "certified-insurance-counselor",
+   "name": "Certified Insurance Counselor",
    "class": "certification",
    "kind": "credential",
-   "definition": "A Level II requirement in the US Department of Defense 8570 framework for information assurance technical staff, met by holding an approved certification.",
-   "certification": true,
-   "certification_scope": "many-issuers",
-   "variants": [],
-   "relations": [
-    "related:iam-level-i-certification"
-   ]
-  },
-  {
-   "key": "iat-level-iii-certification",
-   "name": "IAT Level III certification",
-   "class": "certification",
-   "kind": "credential",
-   "definition": "A Level III requirement in the US Department of Defense 8570 framework for information assurance technical staff, met by holding an approved certification.",
-   "certification": true,
-   "certification_scope": "many-issuers",
-   "variants": [],
-   "relations": [
-    "related:iam-level-i-certification"
-   ]
-  },
-  {
-   "key": "ibhre-certification",
-   "name": "IBHRE certification",
-   "class": "certification",
-   "kind": "credential",
-   "definition": "Certifications in heart rhythm management, such as the Certified Cardiac Device Specialist and Certified Electrophysiology Specialist, awarded by the International Board of Heart Rhythm Examiners.",
+   "definition": "A designation from the National Alliance for Insurance Education & Research for insurance professionals who complete courses in coverage and risk.",
    "certification": true,
    "certification_scope": "single-issuer",
    "variants": [
-    "International Board of Heart Rhythm Examiners (IBHRE) Certification",
-    "IBHRE",
-    "International Board of Heart Rhythm Examiners certification"
-   ],
-   "relations": []
-  },
-  {
-   "key": "iiba-agile-analysis-certification",
-   "name": "IIBA Agile Analysis Certification",
-   "class": "certification",
-   "kind": "credential",
-   "definition": "A certification from the International Institute of Business Analysis for business analysts who work in agile settings.",
-   "certification": true,
-   "certification_scope": "single-issuer",
-   "variants": [
-    "IIBA-AAC"
-   ],
-   "relations": []
-  },
-  {
-   "key": "information-advice-and-guidance-qualification",
-   "name": "Information, advice and guidance qualification",
-   "class": "certification",
-   "kind": "credential",
-   "definition": "A UK vocational qualification showing competence in giving people information, advice and guidance on learning and work, offered by several awarding organisations.",
-   "certification": true,
-   "certification_scope": "many-issuers",
-   "variants": [
-    "Information Advice And Guidance (IAG) Qualification"
-   ],
-   "relations": []
-  },
-  {
-   "key": "instrument-rating",
-   "name": "Instrument rating",
-   "class": "certification",
-   "kind": "credential",
-   "definition": "A pilot qualification, added to a pilot licence or certificate, that allows flying by reference to cockpit instruments in cloud and poor visibility under instrument flight rules.",
-   "certification": true,
-   "certification_scope": "many-issuers",
-   "variants": [],
-   "relations": []
-  },
-  {
-   "key": "international-board-certified-lactation-consultant",
-   "name": "International Board Certified Lactation Consultant",
-   "class": "certification",
-   "kind": "credential",
-   "definition": "A certification for lactation consultants, awarded by the International Board of Lactation Consultant Examiners.",
-   "certification": true,
-   "certification_scope": "single-issuer",
-   "variants": [
-    "IBCLC"
-   ],
-   "relations": []
-  },
-  {
-   "key": "international-computer-driving-licence",
-   "name": "International Computer Driving Licence",
-   "class": "certification",
-   "kind": "credential",
-   "definition": "An entry-level computer skills certification, earlier known as the European Computer Driving Licence, awarded after tests at approved centres under the ICDL Foundation.",
-   "certification": true,
-   "certification_scope": "single-issuer",
-   "variants": [
-    "European Computing Driving Licence (ECDL)",
-    "ICDL",
-    "ECDL",
-    "European Computer Driving Licence",
-    "International Computer Drivering License"
-   ],
-   "relations": []
-  },
-  {
-   "key": "international-general-certificate-of-secondary-education",
-   "name": "International General Certificate of Secondary Education",
-   "class": "certification",
-   "kind": "credential",
-   "definition": "An internationally aimed secondary-school qualification, taken at about age 16 and awarded by several exam boards such as Cambridge and Pearson Edexcel, comparable to the GCSE.",
-   "certification": true,
-   "certification_scope": "many-issuers",
-   "variants": [
-    "IGCSE"
-   ],
-   "relations": [
-    "related:general-certificate-of-secondary-education"
-   ]
-  },
-  {
-   "key": "ipma-certified-project-management-associate",
-   "name": "IPMA Certified Project Management Associate",
-   "class": "certification",
-   "kind": "credential",
-   "definition": "The entry-level of the four IPMA project management certification levels, known as Level D.",
-   "certification": true,
-   "certification_scope": "many-issuers",
-   "variants": [
-    "IPMA Level D"
-   ],
-   "relations": [
-    "related:certified-senior-project-manager"
-   ]
-  },
-  {
-   "key": "itil-expert",
-   "name": "ITIL Expert",
-   "class": "certification",
-   "kind": "credential",
-   "definition": "A top-level ITIL version 3 qualification earned by collecting credits from intermediate ITIL modules.",
-   "certification": true,
-   "certification_scope": "single-issuer",
-   "variants": [
-    "ITIL Expert Certification"
-   ],
-   "relations": []
-  },
-  {
-   "key": "itil-foundation",
-   "name": "ITIL Foundation",
-   "class": "certification",
-   "kind": "credential",
-   "definition": "The entry-level ITIL qualification, covering the basic concepts and terms of ITIL service management.",
-   "certification": true,
-   "certification_scope": "single-issuer",
-   "variants": [
-    "ITIL Foundation Certification"
-   ],
-   "relations": []
-  },
-  {
-   "key": "itil-practitioner",
-   "name": "ITIL Practitioner",
-   "class": "certification",
-   "kind": "credential",
-   "definition": "An ITIL qualification on adopting and adapting ITIL guidance in an organisation, including through continual service improvement.",
-   "certification": true,
-   "certification_scope": "single-issuer",
-   "variants": [
-    "ITIL Practitioner Certification"
-   ],
-   "relations": []
-  },
-  {
-   "key": "jamf-certification",
-   "name": "Jamf certification",
-   "class": "certification",
-   "kind": "credential",
-   "definition": "Certifications awarded by Jamf, the Apple device management software company, showing skill in managing Apple devices with Jamf products.",
-   "certification": true,
-   "certification_scope": "single-issuer",
-   "variants": [],
-   "relations": []
-  },
-  {
-   "key": "juris-doctor",
-   "name": "Juris Doctor",
-   "class": "certification",
-   "kind": "credential",
-   "definition": "The professional law degree awarded in the United States and some other countries after law school, and a usual requirement to sit the bar exam in the US.",
-   "certification": true,
-   "certification_scope": "many-issuers",
-   "variants": [
-    "J.D."
-   ],
-   "relations": []
-  },
-  {
-   "key": "kenya-certificate-of-primary-education",
-   "name": "Kenya Certificate of Primary Education",
-   "class": "certification",
-   "kind": "credential",
-   "definition": "A certificate awarded by the Kenya National Examinations Council to pupils who sit the national examination at the end of primary school.",
-   "certification": true,
-   "certification_scope": "single-issuer",
-   "variants": [
-    "KCPE"
-   ],
-   "relations": []
-  },
-  {
-   "key": "kenya-certificate-of-secondary-education",
-   "name": "Kenya Certificate of Secondary Education",
-   "class": "certification",
-   "kind": "credential",
-   "definition": "A certificate awarded by the Kenya National Examinations Council to students who sit the national examination at the end of secondary school.",
-   "certification": true,
-   "certification_scope": "single-issuer",
-   "variants": [
-    "KCSE"
-   ],
-   "relations": []
-  },
-  {
-   "key": "leadership-certificate",
-   "name": "Leadership certificate",
-   "class": "certification",
-   "kind": "credential",
-   "definition": "A certificate awarded by a university, professional body or training provider for completing a course in leadership.",
-   "certification": true,
-   "certification_scope": "many-issuers",
-   "variants": [
-    "Leadership Certificates"
-   ],
-   "relations": []
-  },
-  {
-   "key": "leed-accredited-professional",
-   "name": "LEED Accredited Professional",
-   "class": "certification",
-   "kind": "credential",
-   "definition": "A professional credential from the Green Building Certification Institute showing advanced knowledge of the LEED green building rating system.",
-   "certification": true,
-   "certification_scope": "single-issuer",
-   "variants": [
-    "LEED Accredited Professional (AP)",
-    "LEED AP"
-   ],
-   "relations": []
-  },
-  {
-   "key": "leed-green-associate",
-   "name": "LEED Green Associate",
-   "class": "certification",
-   "kind": "credential",
-   "definition": "An entry-level professional credential from the Green Building Certification Institute showing basic knowledge of green building and the LEED rating system.",
-   "certification": true,
-   "certification_scope": "single-issuer",
-   "variants": [],
-   "relations": []
-  },
-  {
-   "key": "legal-nurse-consultant-certified",
-   "name": "Legal Nurse Consultant Certified",
-   "class": "certification",
-   "kind": "credential",
-   "definition": "A certification for registered nurses who pass an exam in legal nurse consulting, awarded by the American Legal Nurse Consultant Certification Board.",
-   "certification": true,
-   "certification_scope": "single-issuer",
-   "variants": [
-    "LNCC"
-   ],
-   "relations": []
-  },
-  {
-   "key": "licensed-insurance-producer",
-   "name": "Licensed insurance producer",
-   "class": "certification",
-   "kind": "credential",
-   "definition": "A licence, issued by a US state, that allows a person to sell insurance products in that state.",
-   "certification": true,
-   "certification_scope": "many-issuers",
-   "variants": [],
-   "relations": []
-  },
-  {
-   "key": "licensed-practical-nurse",
-   "name": "Licensed Practical Nurse",
-   "class": "certification",
-   "kind": "credential",
-   "definition": "A US state licence for nurses who provide basic nursing care under the direction of registered nurses and physicians.",
-   "certification": true,
-   "certification_scope": "many-issuers",
-   "variants": [
-    "LPN",
-    "Licensed Vocational Nurses"
-   ],
-   "relations": []
-  },
-  {
-   "key": "licensed-professional-engineer",
-   "name": "Licensed Professional Engineer",
-   "class": "certification",
-   "kind": "credential",
-   "definition": "A US state licence that allows an engineer to approve and take legal responsibility for engineering work.",
-   "certification": true,
-   "certification_scope": "many-issuers",
-   "variants": [
-    "Professional Engineer"
-   ],
-   "relations": []
-  },
-  {
-   "key": "loss-prevention-certified",
-   "name": "Loss Prevention Certified",
-   "class": "certification",
-   "kind": "credential",
-   "definition": "A certification from the Loss Prevention Foundation for retail loss prevention professionals.",
-   "certification": true,
-   "certification_scope": "single-issuer",
-   "variants": [],
-   "relations": []
-  },
-  {
-   "key": "lymphedema-certification",
-   "name": "Lymphedema certification",
-   "class": "certification",
-   "kind": "credential",
-   "definition": "A certification showing training in assessing and treating lymphedema, awarded by various training bodies and certifying boards.",
-   "certification": true,
-   "certification_scope": "many-issuers",
-   "variants": [],
-   "relations": []
-  },
-  {
-   "key": "master-of-business-administration",
-   "name": "Master of Business Administration",
-   "class": "certification",
-   "kind": "credential",
-   "definition": "A postgraduate degree in business management and administration.",
-   "certification": true,
-   "certification_scope": "many-issuers",
-   "variants": [
-    "Master Of Business Administration (MBA)",
-    "MBA"
-   ],
-   "relations": []
-  },
-  {
-   "key": "master-of-fine-arts",
-   "name": "Master of Fine Arts",
-   "class": "certification",
-   "kind": "credential",
-   "definition": "A postgraduate degree in a creative or performing art such as painting, creative writing, theatre or film.",
-   "certification": true,
-   "certification_scope": "many-issuers",
-   "variants": [],
-   "relations": []
-  },
-  {
-   "key": "master-of-health-administration",
-   "name": "Master of Health Administration",
-   "class": "certification",
-   "kind": "credential",
-   "definition": "A postgraduate degree in managing hospitals, health systems and other healthcare organisations.",
-   "certification": true,
-   "certification_scope": "many-issuers",
-   "variants": [
-    "MHA",
-    "Master of Healthcare Administration"
-   ],
-   "relations": []
-  },
-  {
-   "key": "master-of-laws",
-   "name": "Master of Laws",
-   "class": "certification",
-   "kind": "credential",
-   "definition": "A postgraduate law degree taken after a first law degree.",
-   "certification": true,
-   "certification_scope": "many-issuers",
-   "variants": [
-    "LL.M."
+    "Certified Insurance Counselors"
    ],
    "relations": []
   }

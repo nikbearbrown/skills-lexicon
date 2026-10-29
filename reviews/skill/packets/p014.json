@@ -19,6 +19,91 @@
  ],
  "entries": [
   {
+   "key": "correspondent-banking",
+   "name": "Correspondent banking",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "Arrangements in which one bank provides services such as payments and account access to another bank, often across borders.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "cosmetic-dermatology",
+   "name": "Cosmetic dermatology",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "The branch of dermatology that improves the appearance of skin, hair and nails, for example with fillers, lasers and peels.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "coso-framework",
+   "name": "COSO framework",
+   "class": "skill",
+   "kind": "standard",
+   "definition": "A framework published by the Committee of Sponsoring Organizations of the Treadway Commission for designing and assessing internal control and enterprise risk management.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "cost-accounting",
+   "name": "Cost accounting",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "The part of accounting that records and analyses the costs of making goods or providing services so managers can control and price them.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "cost-estimating",
+   "name": "Cost estimating",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Predicting what a project, product or job will cost before it is done.",
+   "certification": false,
+   "variants": [
+    "Cost Estimate",
+    "Cost estimation"
+   ],
+   "relations": []
+  },
+  {
+   "key": "cost-to-serve",
+   "name": "Cost to serve",
+   "class": "skill",
+   "kind": "method",
+   "definition": "A way of working out how much it costs a business to serve each customer, product or channel, counting activities such as delivery, handling and support.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "costar-real-estate-manager",
+   "name": "CoStar Real Estate Manager",
+   "class": "skill",
+   "kind": "platform",
+   "definition": "A CoStar Group cloud software product for managing leases, property portfolios and real-estate costs.",
+   "certification": false,
+   "variants": [
+    "CoStar Real Estate Manager (SAAS)"
+   ],
+   "relations": []
+  },
+  {
+   "key": "counterparty-risk",
+   "name": "Counterparty risk",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "The risk that the other party to a financial contract will fail to meet its obligations.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
    "key": "cpython",
    "name": "CPython",
    "class": "skill",
@@ -376,93 +461,6 @@
    "variants": [
     "Cured-In-Place Pipes"
    ],
-   "relations": []
-  },
-  {
-   "key": "curl",
-   "name": "cURL",
-   "class": "skill",
-   "kind": "tool",
-   "definition": "A command-line tool and library for transferring data with URLs over protocols such as HTTP and FTP.",
-   "certification": false,
-   "variants": [],
-   "relations": []
-  },
-  {
-   "key": "curriculum-evaluation",
-   "name": "Curriculum evaluation",
-   "class": "skill",
-   "kind": "skill",
-   "definition": "Judging how well a curriculum meets its goals and how well students learn from it.",
-   "certification": false,
-   "variants": [],
-   "relations": []
-  },
-  {
-   "key": "curriculum-planning",
-   "name": "Curriculum planning",
-   "class": "skill",
-   "kind": "skill",
-   "definition": "Deciding what a course or programme will teach and in what order, including its goals, content and assessment.",
-   "certification": false,
-   "variants": [],
-   "relations": []
-  },
-  {
-   "key": "custom-post-types",
-   "name": "Custom post types",
-   "class": "skill",
-   "kind": "knowledge",
-   "definition": "A WordPress feature that lets developers define their own kinds of content, beyond built-in posts and pages, with their own fields and templates.",
-   "certification": false,
-   "variants": [
-    "Custom post type"
-   ],
-   "relations": []
-  },
-  {
-   "key": "customer-engagement-planning",
-   "name": "Customer engagement planning",
-   "class": "skill",
-   "kind": "skill",
-   "definition": "Planning how and when a business will interact with its customers across channels to keep them interested and loyal.",
-   "certification": false,
-   "variants": [],
-   "relations": []
-  },
-  {
-   "key": "customer-engagement-strategy",
-   "name": "Customer engagement strategy",
-   "class": "skill",
-   "kind": "skill",
-   "definition": "Defining the long-term approach a business uses to build relationships with customers and keep them active.",
-   "certification": false,
-   "variants": [],
-   "relations": []
-  },
-  {
-   "key": "customer-experience-strategy",
-   "name": "Customer experience strategy",
-   "class": "skill",
-   "kind": "skill",
-   "definition": "Defining how a business wants customers to experience it across every contact, and the plan for achieving that.",
-   "certification": false,
-   "variants": [
-    "Customer Experience Strategy (CX)",
-    "CX strategy"
-   ],
-   "relations": [
-    "related:user-experience-design"
-   ]
-  },
-  {
-   "key": "customer-insight",
-   "name": "Customer insight",
-   "class": "skill",
-   "kind": "skill",
-   "definition": "Using data and research on customer behaviour and needs to understand customers and guide business decisions.",
-   "certification": false,
-   "variants": [],
    "relations": []
   }
  ]

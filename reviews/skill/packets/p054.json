@@ -19,165 +19,476 @@
  ],
  "entries": [
   {
-   "key": "va-loans",
-   "name": "VA loans",
+   "key": "special-education-law",
+   "name": "Special education law",
    "class": "skill",
    "kind": "knowledge",
-   "definition": "Mortgage loans guaranteed by the U.S. Department of Veterans Affairs for eligible service members and veterans.",
+   "definition": "The body of law, such as the US Individuals with Disabilities Education Act, that sets the rights and services owed to students with disabilities.",
    "certification": false,
    "variants": [],
-   "relations": []
+   "relations": [
+    "related:individualized-education-program"
+   ]
   },
   {
-   "key": "validation",
-   "name": "Data validation",
-   "class": "skill",
-   "kind": "skill",
-   "definition": "Checking data constraints, populations and transformations.",
-   "variants": [
-    "data quality"
-   ],
-   "relations": []
-  },
-  {
-   "key": "vector-search",
-   "name": "Vector search",
-   "class": "skill",
-   "kind": "method",
-   "definition": "Retrieving items using vector representations and a similarity measure.",
-   "variants": [
-    "semantic search",
-    "vector databases"
-   ],
-   "relations": []
-  },
-  {
-   "key": "vendor-management",
-   "name": "Vendor management",
-   "class": "skill",
-   "kind": "skill",
-   "definition": "Selecting, overseeing and evaluating the suppliers a business buys goods and services from.",
-   "certification": false,
-   "variants": [
-    "Managing Vendors"
-   ],
-   "relations": []
-  },
-  {
-   "key": "version-control",
-   "name": "Version control",
-   "class": "skill",
-   "kind": "method",
-   "definition": "Recording changes to files over time in a system, such as Git or Subversion, so that earlier versions can be recovered and several people can work on the same files.",
-   "certification": false,
-   "variants": [
-    "Revision Control Softwares",
-    "Revision control",
-    "Source control"
-   ],
-   "relations": []
-  },
-  {
-   "key": "visme",
-   "name": "Visme",
-   "class": "skill",
-   "kind": "tool",
-   "definition": "An online tool for making presentations, infographics and other visual content.",
-   "certification": false,
-   "variants": [
-    "Visme (Software)"
-   ],
-   "relations": []
-  },
-  {
-   "key": "vyond",
-   "name": "Vyond",
-   "class": "skill",
-   "kind": "tool",
-   "definition": "A cloud-based tool for making animated videos from templates and characters, called GoAnimate before 2018.",
-   "certification": false,
-   "variants": [
-    "GoAnimate"
-   ],
-   "relations": []
-  },
-  {
-   "key": "wave-phase",
-   "name": "Wave phase",
+   "key": "special-hazards-suppression-systems",
+   "name": "Special hazards suppression systems",
    "class": "skill",
    "kind": "knowledge",
-   "definition": "For a repeating wave, how far through its cycle it is at a given moment, usually expressed as an angle.",
-   "certification": false,
-   "variants": [
-    "Phase (Waves)"
-   ],
-   "relations": []
-  },
-  {
-   "key": "web-development",
-   "name": "Web development",
-   "class": "skill",
-   "kind": "skill",
-   "definition": "Building software delivered through web technologies.",
-   "variants": [
-    "web programming"
-   ],
-   "relations": []
-  },
-  {
-   "key": "windows-10",
-   "name": "Windows 10",
-   "class": "skill",
-   "kind": "platform",
-   "definition": "The Microsoft operating system for personal computers released in 2015.",
-   "certification": false,
-   "variants": [
-    "Microsoft Windows 10"
-   ],
-   "relations": []
-  },
-  {
-   "key": "windows-7",
-   "name": "Windows 7",
-   "class": "skill",
-   "kind": "platform",
-   "definition": "The Microsoft operating system for personal computers released in 2009.",
-   "certification": false,
-   "variants": [
-    "Microsoft Windows 7"
-   ],
-   "relations": []
-  },
-  {
-   "key": "windows-8",
-   "name": "Windows 8",
-   "class": "skill",
-   "kind": "platform",
-   "definition": "The Microsoft operating system for personal computers released in 2012, known for its tile-based Start screen.",
-   "certification": false,
-   "variants": [
-    "Microsoft Windows 8"
-   ],
-   "relations": []
-  },
-  {
-   "key": "windows-software-development",
-   "name": "Windows software development",
-   "class": "skill",
-   "kind": "skill",
-   "definition": "Writing software that runs on the Microsoft Windows operating system.",
+   "definition": "Fire suppression systems that use gas, foam or other agents to protect high-value or high-risk areas, such as data centres and flammable-liquid stores.",
    "certification": false,
    "variants": [],
    "relations": []
   },
   {
-   "key": "yahoo-messenger",
-   "name": "Yahoo Messenger",
+   "key": "special-use-airspace",
+   "name": "Special use airspace",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "Airspace in which flight activity is restricted or the activities of other users are limited, such as restricted, prohibited and military operations areas.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "specimen-processing",
+   "name": "Specimen processing",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Receiving, labelling and preparing clinical specimens so they are ready for laboratory testing.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "speech-recognition-software",
+   "name": "Speech recognition software",
    "class": "skill",
    "kind": "tool",
-   "definition": "An instant messaging service from Yahoo, shut down in 2018.",
+   "definition": "Software that turns spoken words into text or commands, such as dictation programs and voice assistants.",
+   "certification": false,
+   "variants": [
+    "Speech Recognition Softwares",
+    "Speech-to-text software"
+   ],
+   "relations": []
+  },
+  {
+   "key": "speech-therapy",
+   "name": "Speech therapy",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Assessing and treating difficulties with speech, language, voice and swallowing, usually as a speech-language pathologist.",
+   "certification": false,
+   "variants": [
+    "Speech and language therapy"
+   ],
+   "relations": []
+  },
+  {
+   "key": "sphygmomanometer",
+   "name": "Sphygmomanometer",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "A device with an inflatable cuff and a pressure gauge or display that is used to measure blood pressure.",
+   "certification": false,
+   "variants": [
+    "Sphygmomanometers"
+   ],
+   "relations": []
+  },
+  {
+   "key": "spidermonkey",
+   "name": "SpiderMonkey",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "Mozilla's JavaScript and WebAssembly engine, which runs scripts in the Firefox browser.",
    "certification": false,
    "variants": [],
+   "relations": []
+  },
+  {
+   "key": "spine-js",
+   "name": "Spine.js",
+   "class": "skill",
+   "kind": "framework",
+   "definition": "A lightweight JavaScript framework for building web applications with the model-view-controller pattern.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "spiritual-care",
+   "name": "Spiritual care",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Supporting the spiritual and emotional needs of patients, residents and their families, often as a chaplain or care worker.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "splinting",
+   "name": "Splinting",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Keeping an injured bone, joint or limb still by fixing it to a rigid support called a splint.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "spock-framework",
+   "name": "Spock Framework",
+   "class": "skill",
+   "kind": "framework",
+   "definition": "A testing and specification framework for Java and Groovy applications, in which tests are written as readable specifications.",
+   "certification": false,
+   "variants": [
+    "Spock"
+   ],
+   "relations": []
+  },
+  {
+   "key": "sport-governance",
+   "name": "Sport governance",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "The structures, rules and decision-making by which sports organisations are directed, regulated and held accountable.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "sports-journalism",
+   "name": "Sports journalism",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Reporting and writing about sports events, athletes and the business of sport for news outlets.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "spray-gun",
+   "name": "Spray gun",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "A handheld tool that uses compressed air or pressure to spray paint or other liquid coatings onto a surface.",
+   "certification": false,
+   "variants": [
+    "Paint Guns",
+    "Paint gun",
+    "Paint spray gun"
+   ],
+   "relations": []
+  },
+  {
+   "key": "sprint-retrospective",
+   "name": "Sprint retrospective",
+   "class": "skill",
+   "kind": "method",
+   "definition": "A meeting at the end of an agile sprint where the team looks back at how it worked and agrees what to improve next.",
+   "certification": false,
+   "variants": [
+    "Sprint Retrospectives"
+   ],
+   "relations": []
+  },
+  {
+   "key": "spservices",
+   "name": "SPServices",
+   "class": "skill",
+   "kind": "library",
+   "definition": "A jQuery library that wraps the SharePoint web services so that web pages can read and change SharePoint data.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "sputter-deposition",
+   "name": "Sputter deposition",
+   "class": "skill",
+   "kind": "method",
+   "definition": "A thin-film coating technique in which ions knock atoms out of a target material so that they land on a surface as a film.",
+   "certification": false,
+   "variants": [],
+   "relations": [
+    "broader:physical-vapor-deposition"
+   ]
+  },
+  {
+   "key": "spyder",
+   "name": "Spyder",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "A free Python development environment aimed at scientific computing, with an editor, console and variable explorer.",
+   "certification": false,
+   "variants": [
+    "Scientific Python Development Environment"
+   ],
+   "relations": []
+  },
+  {
+   "key": "sql-92",
+   "name": "SQL-92",
+   "class": "skill",
+   "kind": "standard",
+   "definition": "The 1992 revision of the SQL standard, which defined entry, intermediate and full levels of the database query language.",
+   "certification": false,
+   "variants": [
+    "SQL92",
+    "SQL2"
+   ],
+   "relations": [
+    "broader:sql"
+   ]
+  },
+  {
+   "key": "sql-server-analysis-services",
+   "name": "SQL Server Analysis Services",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "The Microsoft SQL Server component for online analytical processing and tabular data models used in business intelligence.",
+   "certification": false,
+   "variants": [
+    "Ssas 2012",
+    "SSAS"
+   ],
+   "relations": []
+  },
+  {
+   "key": "sql-server-express-localdb",
+   "name": "SQL Server Express LocalDB",
+   "class": "skill",
+   "kind": "platform",
+   "definition": "A lightweight version of the SQL Server Express database engine for developers that starts on demand and needs no server setup.",
+   "certification": false,
+   "variants": [
+    "Localdb"
+   ],
+   "relations": []
+  },
+  {
+   "key": "sql-server-integration-services",
+   "name": "SQL Server Integration Services",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "Microsoft's tool in SQL Server for building data integration and extract, transform and load workflows.",
+   "certification": false,
+   "variants": [
+    "SSIS"
+   ],
+   "relations": [
+    "related:business-integration-software"
+   ]
+  },
+  {
+   "key": "sql-tuning",
+   "name": "SQL tuning",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Improving the speed and resource use of SQL queries, for example by rewriting them and adjusting indexes and statistics.",
+   "certification": false,
+   "variants": [
+    "SQL performance tuning"
+   ],
+   "relations": []
+  },
+  {
+   "key": "squirrel-sql-client",
+   "name": "SQuirreL SQL Client",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "A free, Java-based graphical program for browsing and querying SQL databases through JDBC.",
+   "certification": false,
+   "variants": [
+    "Squirrel Sql"
+   ],
+   "relations": []
+  },
+  {
+   "key": "ssl-tls-security",
+   "name": "SSL/TLS security",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Protecting network traffic with the SSL and TLS protocols, including managing certificates, keys and cipher settings.",
+   "certification": false,
+   "variants": [
+    "Ssl Security",
+    "TLS security"
+   ],
+   "relations": [
+    "broader:cybersecurity"
+   ]
+  },
+  {
+   "key": "stable-diffusion",
+   "name": "Stable Diffusion",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "An open text-to-image deep-learning model from Stability AI that generates pictures from written prompts.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "stair-and-railing-construction",
+   "name": "Stair and railing construction",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Building and installing staircases and their handrails and balustrades.",
+   "certification": false,
+   "variants": [
+    "Stairs And Railings (Construction)"
+   ],
+   "relations": []
+  },
+  {
+   "key": "stakeholder-communication",
+   "name": "Stakeholder communication",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Keeping the people affected by or interested in a project or organisation informed and engaged through suitable messages and channels.",
+   "certification": false,
+   "variants": [
+    "Stakeholder Communications"
+   ],
+   "relations": [
+    "broader:communication"
+   ]
+  },
+  {
+   "key": "standard-ambient-temperature-and-pressure",
+   "name": "Standard ambient temperature and pressure",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "A set of reference conditions used in chemistry, usually 25 degrees Celsius (298.15 K) and a pressure of 1 bar.",
+   "certification": false,
+   "variants": [
+    "Standard Ambient Temperature And Pressure (SATP)",
+    "SATP"
+   ],
+   "relations": []
+  },
+  {
+   "key": "standards-of-training-certification-and-watchkeeping",
+   "name": "Standards of Training, Certification and Watchkeeping",
+   "class": "skill",
+   "kind": "standard",
+   "definition": "The International Maritime Organization convention that sets minimum standards for the training, certification and watchkeeping of seafarers.",
+   "certification": false,
+   "variants": [
+    "Standards of Training Certification and Watchkeeping",
+    "STCW",
+    "STCW Convention"
+   ],
+   "relations": []
+  },
+  {
+   "key": "stanislavski-s-system",
+   "name": "Stanislavski's system",
+   "class": "skill",
+   "kind": "method",
+   "definition": "An approach to actor training developed by Konstantin Stanislavski, in which actors build a character from its goals, circumstances and inner life.",
+   "certification": false,
+   "variants": [
+    "Stanislavski'S Systems"
+   ],
+   "relations": []
+  },
+  {
+   "key": "star-and-snowflake-schemas",
+   "name": "Star and snowflake schemas",
+   "class": "skill",
+   "kind": "method",
+   "definition": "Two ways of laying out a data warehouse: a star schema joins one central fact table directly to dimension tables, while a snowflake schema splits the dimensions into further normalised tables.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "statement-on-auditing-standards-no-70",
+   "name": "Statement on Auditing Standards No. 70",
+   "class": "skill",
+   "kind": "standard",
+   "definition": "A former US auditing standard from the AICPA for examining and reporting on the controls of a service organisation, replaced by SSAE 16.",
+   "certification": false,
+   "variants": [
+    "SAS 70"
+   ],
+   "relations": []
+  },
+  {
+   "key": "statements-on-standards-for-attestation-engagements",
+   "name": "Statements on Standards for Attestation Engagements",
+   "class": "skill",
+   "kind": "standard",
+   "definition": "Auditing standards issued by the AICPA that govern attestation engagements, such as reports on the controls of a service organisation.",
+   "certification": false,
+   "variants": [
+    "Statement On Standards For Attestation Engagements (SSAE)",
+    "SSAE"
+   ],
+   "relations": []
+  },
+  {
+   "key": "static-html",
+   "name": "Static HTML",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "Web pages written as fixed HTML files that a server sends as they are, without building them anew for each request.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "statistical-software",
+   "name": "Statistical software",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "Programs for analysing data with statistical methods, such as R, SPSS, SAS and Stata.",
+   "certification": false,
+   "variants": [
+    "Statistical Softwares"
+   ],
+   "relations": [
+    "related:statistics"
+   ]
+  },
+  {
+   "key": "statistics",
+   "name": "Statistics",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "Methods for reasoning from data and uncertainty.",
+   "variants": [
+    "statistical analysis"
+   ],
+   "relations": []
+  },
+  {
+   "key": "sterile-technique",
+   "name": "Sterile technique",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Handling instruments, materials and patients in ways that keep them free from germs during medical procedures.",
+   "certification": false,
+   "variants": [
+    "Sterile Techniques"
+   ],
+   "relations": []
+  },
+  {
+   "key": "stm32-nucleo",
+   "name": "STM32 Nucleo",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "A family of low-cost microcontroller development boards from STMicroelectronics built around STM32 chips.",
+   "certification": false,
+   "variants": [
+    "Nucleo"
+   ],
    "relations": []
   }
  ]

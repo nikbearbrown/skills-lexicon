@@ -19,6 +19,243 @@
  ],
  "entries": [
   {
+   "key": "passport-js",
+   "name": "Passport.js",
+   "class": "skill",
+   "kind": "library",
+   "definition": "Authentication middleware for Node.js, with strategies for usernames and passwords, OAuth providers and other login methods.",
+   "certification": false,
+   "variants": [
+    "PassportJS"
+   ],
+   "relations": []
+  },
+  {
+   "key": "path-to-purchase",
+   "name": "Path to purchase",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "The steps a customer goes through from first becoming aware of a product to buying it.",
+   "certification": false,
+   "variants": [
+    "Paths To Purchase"
+   ],
+   "relations": []
+  },
+  {
+   "key": "pathlore",
+   "name": "Pathlore",
+   "class": "skill",
+   "kind": "platform",
+   "definition": "A learning management system, from Pathlore Software Corporation, for delivering and tracking employee training.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "pathology-informatics",
+   "name": "Pathology informatics",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "The field that applies information technology and data science to pathology and laboratory medicine, including lab information systems and digital pathology.",
+   "certification": false,
+   "variants": [],
+   "relations": [
+    "broader:clinical-informatics",
+    "related:imaging-informatics"
+   ]
+  },
+  {
+   "key": "patient-coordination",
+   "name": "Patient coordination",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Arranging a patient's appointments, services and information across a care team so that care runs smoothly.",
+   "certification": false,
+   "variants": [],
+   "relations": [
+    "related:care-coordination"
+   ]
+  },
+  {
+   "key": "patient-education",
+   "name": "Patient education",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Teaching patients and their families about a condition, treatment or self-care so that they can manage their health.",
+   "certification": false,
+   "variants": [],
+   "relations": [
+    "related:asthma-education"
+   ]
+  },
+  {
+   "key": "patient-identification-and-matching",
+   "name": "Patient identification and matching",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "Accurately identifying a patient and linking all of their records across health-care systems to the right person.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "patient-transfer",
+   "name": "Patient transfer",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Moving a patient safely from one place to another, such as from bed to wheelchair or between care facilities, using correct lifting and equipment.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "pattern-lab",
+   "name": "Pattern Lab",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "An open-source tool for building and showing atomic-design pattern libraries (style guides) for websites.",
+   "certification": false,
+   "variants": [
+    "Pattern Lab (Software)"
+   ],
+   "relations": []
+  },
+  {
+   "key": "payment-card-industry-data-security-standard",
+   "name": "Payment Card Industry Data Security Standard",
+   "class": "skill",
+   "kind": "standard",
+   "definition": "A set of security requirements, from the PCI Security Standards Council, for organisations that store, process or transmit payment card data.",
+   "certification": false,
+   "variants": [
+    "PCI Data Security Standards",
+    "PCI DSS"
+   ],
+   "relations": []
+  },
+  {
+   "key": "pdf-conversion",
+   "name": "PDF conversion",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Converting documents to and from PDF and other formats such as Word, Excel and images.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "pdf-generation",
+   "name": "PDF generation",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Creating PDF files from other content or data, often automatically by software.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "pdf-js",
+   "name": "PDF.js",
+   "class": "skill",
+   "kind": "library",
+   "definition": "A JavaScript library from Mozilla that displays PDF documents in the browser.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "pdf-viewer",
+   "name": "PDF viewer",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "Software that opens and displays PDF files for reading and printing, and often for annotating.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "pdflib",
+   "name": "PDFlib",
+   "class": "skill",
+   "kind": "library",
+   "definition": "A commercial library, with bindings for many programming languages, for generating and processing PDF files.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "pdfnet",
+   "name": "PDFNet",
+   "class": "skill",
+   "kind": "library",
+   "definition": "A software development kit from PDFTron (now Apryse) for creating, viewing, editing and converting PDF files.",
+   "certification": false,
+   "variants": [
+    "PDFNet SDK"
+   ],
+   "relations": []
+  },
+  {
+   "key": "pdftk",
+   "name": "PDFtk",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "A command-line tool, short for PDF Toolkit, for merging, splitting, rotating and encrypting PDF files.",
+   "certification": false,
+   "variants": [
+    "PDF Toolkit"
+   ],
+   "relations": []
+  },
+  {
+   "key": "peachtree-accounting",
+   "name": "Peachtree Accounting",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "Accounting software for small businesses, originally from Peachtree Software and later sold by Sage as Sage 50.",
+   "certification": false,
+   "variants": [
+    "Peachtree (Accounting Software)",
+    "Sage Peachtree"
+   ],
+   "relations": [
+    "broader:accounting-software"
+   ]
+  },
+  {
+   "key": "pediatric-surgery",
+   "name": "Pediatric surgery",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "The surgical specialty that operates on infants, children and adolescents.",
+   "certification": false,
+   "variants": [
+    "Pediatric Surgeries"
+   ],
+   "relations": []
+  },
+  {
+   "key": "pelvic-floor",
+   "name": "Pelvic floor",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "The muscles and connective tissue at the base of the pelvis that support the bladder, bowel and, in women, the uterus.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "pelvic-floor-rehabilitation",
+   "name": "Pelvic floor rehabilitation",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Therapy, such as exercises and biofeedback, that retrains the pelvic floor muscles to treat problems like incontinence and pelvic pain.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
    "key": "pelvic-health",
    "name": "Pelvic health",
    "class": "skill",
@@ -36,6 +273,18 @@
    "definition": "The study of punishment for crime and of the management and rehabilitation of prisoners.",
    "certification": false,
    "variants": [],
+   "relations": []
+  },
+  {
+   "key": "percona-xtradb",
+   "name": "Percona XtraDB",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "A storage engine for MySQL and MariaDB, made by Percona as an enhanced fork of InnoDB.",
+   "certification": false,
+   "variants": [
+    "Xtradb"
+   ],
    "relations": []
   },
   {
@@ -206,245 +455,6 @@
    "class": "skill",
    "kind": "framework",
    "definition": "A PHP web framework delivered as a compiled C extension, for speed and low resource use.",
-   "certification": false,
-   "variants": [],
-   "relations": []
-  },
-  {
-   "key": "phantomjs",
-   "name": "PhantomJS",
-   "class": "skill",
-   "kind": "tool",
-   "definition": "A headless web browser scripted with JavaScript, used for automated testing and page rendering, which is no longer actively developed.",
-   "certification": false,
-   "variants": [],
-   "relations": []
-  },
-  {
-   "key": "pharmaceutical-batch-documentation",
-   "name": "Pharmaceutical batch documentation",
-   "class": "skill",
-   "kind": "skill",
-   "definition": "Preparing, completing and reviewing the batch records that show how each batch of a medicine was made, tested and released.",
-   "certification": false,
-   "variants": [],
-   "relations": []
-  },
-  {
-   "key": "pharmacogenetics",
-   "name": "Pharmacogenetics",
-   "class": "skill",
-   "kind": "knowledge",
-   "definition": "The study of how a person's inherited genetic differences affect their response to drugs.",
-   "certification": false,
-   "variants": [],
-   "relations": []
-  },
-  {
-   "key": "pharmacoinformatics",
-   "name": "Pharmacoinformatics",
-   "class": "skill",
-   "kind": "knowledge",
-   "definition": "The use of computing and data analysis to study drugs, how they act in the body and how they are used.",
-   "certification": false,
-   "variants": [],
-   "relations": []
-  },
-  {
-   "key": "pharmacy-operations",
-   "name": "Pharmacy operations",
-   "class": "skill",
-   "kind": "skill",
-   "definition": "Running the day-to-day work of a pharmacy, such as dispensing, inventory, billing and staffing.",
-   "certification": false,
-   "variants": [],
-   "relations": []
-  },
-  {
-   "key": "philosophy-of-religion",
-   "name": "Philosophy of religion",
-   "class": "skill",
-   "kind": "knowledge",
-   "definition": "The branch of philosophy that examines religious beliefs and concepts, such as the existence of God, evil, faith and religious language.",
-   "certification": false,
-   "variants": [],
-   "relations": []
-  },
-  {
-   "key": "philosophy-of-science",
-   "name": "Philosophy of science",
-   "class": "skill",
-   "kind": "knowledge",
-   "definition": "The branch of philosophy that studies the foundations, methods and implications of science, such as what counts as evidence and explanation.",
-   "certification": false,
-   "variants": [],
-   "relations": [
-    "related:history-of-science"
-   ]
-  },
-  {
-   "key": "photo-retouching",
-   "name": "Photo retouching",
-   "class": "skill",
-   "kind": "skill",
-   "definition": "Editing a photograph to remove flaws and improve its appearance, such as blemishes, colour and lighting.",
-   "certification": false,
-   "variants": [],
-   "relations": []
-  },
-  {
-   "key": "php-frameworks",
-   "name": "PHP frameworks",
-   "class": "skill",
-   "kind": "knowledge",
-   "definition": "Software frameworks for building web applications in PHP, such as Laravel, Symfony and CodeIgniter.",
-   "certification": false,
-   "variants": [],
-   "relations": [
-    "related:nette"
-   ]
-  },
-  {
-   "key": "phpbb",
-   "name": "phpBB",
-   "class": "skill",
-   "kind": "tool",
-   "definition": "Free, open-source forum (bulletin board) software written in PHP.",
-   "certification": false,
-   "variants": [],
-   "relations": [
-    "related:php"
-   ]
-  },
-  {
-   "key": "phpdesigner",
-   "name": "phpDesigner",
-   "class": "skill",
-   "kind": "tool",
-   "definition": "A code editor and integrated development environment for PHP, from MPSoftware, for Windows.",
-   "certification": false,
-   "variants": [],
-   "relations": []
-  },
-  {
-   "key": "phpdocx",
-   "name": "phpdocx",
-   "class": "skill",
-   "kind": "library",
-   "definition": "A PHP library for creating and editing Word (.docx) documents from code.",
-   "certification": false,
-   "variants": [],
-   "relations": [
-    "related:php"
-   ]
-  },
-  {
-   "key": "phped",
-   "name": "PhpED",
-   "class": "skill",
-   "kind": "tool",
-   "definition": "A commercial integrated development environment for PHP from NuSphere.",
-   "certification": false,
-   "variants": [],
-   "relations": [
-    "related:php"
-   ]
-  },
-  {
-   "key": "phpexcel",
-   "name": "PHPExcel",
-   "class": "skill",
-   "kind": "library",
-   "definition": "A PHP library for reading and writing spreadsheet files such as Excel; it is no longer maintained and was replaced by PhpSpreadsheet.",
-   "certification": false,
-   "variants": [],
-   "relations": []
-  },
-  {
-   "key": "phpfox",
-   "name": "phpFox",
-   "class": "skill",
-   "kind": "tool",
-   "definition": "Commercial PHP software for building social-networking websites.",
-   "certification": false,
-   "variants": [],
-   "relations": [
-    "related:php"
-   ]
-  },
-  {
-   "key": "phpgroupware",
-   "name": "phpGroupWare",
-   "class": "skill",
-   "kind": "tool",
-   "definition": "Open-source groupware software, written in PHP, with a calendar, contacts, email and other shared tools.",
-   "certification": false,
-   "variants": [],
-   "relations": []
-  },
-  {
-   "key": "phpldapadmin",
-   "name": "phpLDAPadmin",
-   "class": "skill",
-   "kind": "tool",
-   "definition": "A web-based tool, written in PHP, for browsing and administering LDAP directories.",
-   "certification": false,
-   "variants": [],
-   "relations": []
-  },
-  {
-   "key": "phplist",
-   "name": "phpList",
-   "class": "skill",
-   "kind": "tool",
-   "definition": "Open-source newsletter and mailing-list manager written in PHP.",
-   "certification": false,
-   "variants": [],
-   "relations": [
-    "related:php"
-   ]
-  },
-  {
-   "key": "phpmailer",
-   "name": "PHPMailer",
-   "class": "skill",
-   "kind": "library",
-   "definition": "A PHP library for sending email, including through SMTP, with HTML bodies and attachments.",
-   "certification": false,
-   "variants": [],
-   "relations": []
-  },
-  {
-   "key": "phppgadmin",
-   "name": "phpPgAdmin",
-   "class": "skill",
-   "kind": "tool",
-   "definition": "A web-based tool, written in PHP, for administering PostgreSQL databases.",
-   "certification": false,
-   "variants": [],
-   "relations": []
-  },
-  {
-   "key": "phpunit",
-   "name": "PHPUnit",
-   "class": "skill",
-   "kind": "framework",
-   "definition": "A unit-testing framework for PHP, in the xUnit family.",
-   "certification": false,
-   "variants": [],
-   "relations": [
-    "related:php",
-    "related:cunit",
-    "related:jsunit",
-    "related:ocunit"
-   ]
-  },
-  {
-   "key": "phpwebsite",
-   "name": "phpWebSite",
-   "class": "skill",
-   "kind": "tool",
-   "definition": "An open-source content management system written in PHP.",
    "certification": false,
    "variants": [],
    "relations": []

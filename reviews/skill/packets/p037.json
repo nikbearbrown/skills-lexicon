@@ -19,6 +19,200 @@
  ],
  "entries": [
   {
+   "key": "microstrategy-intelligence-server",
+   "name": "MicroStrategy Intelligence Server",
+   "class": "skill",
+   "kind": "platform",
+   "definition": "The server component of MicroStrategy's business intelligence software that runs queries, caches results and serves reports to users.",
+   "certification": false,
+   "variants": [
+    "Microstrategy Intelligence Servers"
+   ],
+   "relations": []
+  },
+  {
+   "key": "microstrategy-metrics",
+   "name": "MicroStrategy metrics",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "In MicroStrategy, the objects that define business calculations, such as total revenue, which reports and dashboards display.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "microstrategy-office",
+   "name": "MicroStrategy Office",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "A MicroStrategy add-in that lets users run and analyse MicroStrategy reports inside Microsoft Excel, PowerPoint and Word.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "microstrategy-olap-services",
+   "name": "MicroStrategy OLAP Services",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "A MicroStrategy extension that lets users slice and filter report results held in memory without re-querying the database.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "microstrategy-report-services",
+   "name": "MicroStrategy Report Services",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "A MicroStrategy component for building formatted, multi-section documents and dashboards from several reports.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "microstrategy-software-development-kit",
+   "name": "MicroStrategy Software Development Kit",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "A set of programming interfaces and tools for customising and extending MicroStrategy applications.",
+   "certification": false,
+   "variants": [
+    "MicroStrategy SDK"
+   ],
+   "relations": []
+  },
+  {
+   "key": "microstrategy-transaction-services",
+   "name": "MicroStrategy Transaction Services",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "A MicroStrategy feature that lets users write data back to a database from reports and documents.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "microstrategy-visual-insight",
+   "name": "MicroStrategy Visual Insight",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "A MicroStrategy interface for building interactive data visualisations and dashboards.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "microstrategy-web",
+   "name": "MicroStrategy Web",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "The web interface of MicroStrategy's business intelligence software, used to run reports and build dashboards in a browser.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "mike-urban",
+   "name": "MIKE URBAN",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "DHI software for modelling urban water systems such as sewers, stormwater drainage and water distribution.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "military-standards-and-specifications",
+   "name": "Military standards and specifications",
+   "class": "skill",
+   "kind": "standard",
+   "definition": "US Department of Defense documents, such as MIL-STD and MIL-SPEC, that set technical, quality and process requirements for defence products.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "mill-test-report",
+   "name": "Mill test report",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "A document from a metal mill that certifies the chemical and mechanical properties of a batch of material supplied with it.",
+   "certification": false,
+   "variants": [
+    "Mill test certificate"
+   ],
+   "relations": []
+  },
+  {
+   "key": "millimeter-waves",
+   "name": "Millimeter waves",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "Radio waves with wavelengths of about 1 to 10 millimetres (30 to 300 GHz), used in 5G, radar and imaging.",
+   "certification": false,
+   "variants": [
+    "mmWave",
+    "Millimetre waves"
+   ],
+   "relations": []
+  },
+  {
+   "key": "mind-mapping",
+   "name": "Mind mapping",
+   "class": "skill",
+   "kind": "method",
+   "definition": "Organising ideas as a branching diagram that spreads out from one central concept.",
+   "certification": false,
+   "variants": [
+    "Mindmapping"
+   ],
+   "relations": []
+  },
+  {
+   "key": "mineralogy",
+   "name": "Mineralogy",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "The study of minerals, including their composition, structure, properties and occurrence.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "mitre-att-ck",
+   "name": "MITRE ATT&CK",
+   "class": "skill",
+   "kind": "framework",
+   "definition": "A knowledge base from MITRE of the tactics and techniques that attackers use, organised for threat modelling and defence.",
+   "certification": false,
+   "variants": [
+    "MITRE ATT&CK Framework",
+    "ATT&CK"
+   ],
+   "relations": []
+  },
+  {
+   "key": "mixed-reality",
+   "name": "Mixed reality",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "Technology that blends real and virtual objects so that they interact in real time.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "mobile-application-design",
+   "name": "Mobile application design",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Designing the screens, navigation and interactions of apps for phones and tablets.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
    "key": "mobile-computing",
    "name": "Mobile computing",
    "class": "skill",
@@ -266,199 +460,6 @@
     "MERS"
    ],
    "relations": []
-  },
-  {
-   "key": "mosaic-art",
-   "name": "Mosaic art",
-   "class": "skill",
-   "kind": "skill",
-   "definition": "Making pictures or patterns by setting small pieces of glass, stone or tile into a surface.",
-   "certification": false,
-   "variants": [
-    "Mosaics"
-   ],
-   "relations": []
-  },
-  {
-   "key": "motion-graphics",
-   "name": "Motion graphics",
-   "class": "skill",
-   "kind": "skill",
-   "definition": "Creating animated graphic design, such as titles, logos and explainer sequences, for video and screens.",
-   "certification": false,
-   "variants": [],
-   "relations": []
-  },
-  {
-   "key": "motion-graphics-software",
-   "name": "Motion graphics software",
-   "class": "skill",
-   "kind": "tool",
-   "definition": "Software for creating animated graphics and visual effects, such as Adobe After Effects.",
-   "certification": false,
-   "variants": [],
-   "relations": []
-  },
-  {
-   "key": "motor-control-algorithms",
-   "name": "Motor control algorithms",
-   "class": "skill",
-   "kind": "method",
-   "definition": "Algorithms, such as field-oriented control, that regulate the torque, speed and position of electric motors.",
-   "certification": false,
-   "variants": [],
-   "relations": []
-  },
-  {
-   "key": "motor-control-firmware",
-   "name": "Motor control firmware",
-   "class": "skill",
-   "kind": "knowledge",
-   "definition": "Embedded software that runs on a microcontroller or drive to regulate the speed, torque or position of an electric motor.",
-   "certification": false,
-   "variants": [],
-   "relations": []
-  },
-  {
-   "key": "motor-control-software",
-   "name": "Motor control software",
-   "class": "skill",
-   "kind": "knowledge",
-   "definition": "Software that controls, configures or monitors electric motors and drives, including embedded control code and host-side tools.",
-   "certification": false,
-   "variants": [],
-   "relations": []
-  },
-  {
-   "key": "movable-type",
-   "name": "Movable Type",
-   "class": "skill",
-   "kind": "platform",
-   "definition": "A blogging and website content management platform first released by Six Apart in 2001.",
-   "certification": false,
-   "variants": [],
-   "relations": []
-  },
-  {
-   "key": "moz-pro",
-   "name": "Moz Pro",
-   "class": "skill",
-   "kind": "tool",
-   "definition": "A subscription SEO software suite from Moz for keyword research, rank tracking, site audits and link analysis.",
-   "certification": false,
-   "variants": [
-    "Moz"
-   ],
-   "relations": []
-  },
-  {
-   "key": "mp-m",
-   "name": "MP/M",
-   "class": "skill",
-   "kind": "platform",
-   "definition": "A multi-user, multitasking operating system from Digital Research that extended CP/M.",
-   "certification": false,
-   "variants": [
-    "Multi-Programming Monitor Control Program (MP/M)",
-    "Multi-Programming Monitor Control Program"
-   ],
-   "relations": []
-  },
-  {
-   "key": "mri-software",
-   "name": "MRI Software",
-   "class": "skill",
-   "kind": "platform",
-   "definition": "A provider's software platforms for managing real estate, including property and lease management.",
-   "certification": false,
-   "variants": [
-    "MRI (Property Management Software)"
-   ],
-   "relations": []
-  },
-  {
-   "key": "mstest",
-   "name": "MSTest",
-   "class": "skill",
-   "kind": "framework",
-   "definition": "Microsoft's unit testing framework for .NET code, used with Visual Studio.",
-   "certification": false,
-   "variants": [],
-   "relations": [
-    "related:testing"
-   ]
-  },
-  {
-   "key": "mud-pump",
-   "name": "Mud pump",
-   "class": "skill",
-   "kind": "tool",
-   "definition": "A high-pressure pump on a drilling rig that circulates drilling fluid down the drill string and back up the borehole.",
-   "certification": false,
-   "variants": [],
-   "relations": []
-  },
-  {
-   "key": "mulesoft",
-   "name": "MuleSoft",
-   "class": "skill",
-   "kind": "platform",
-   "definition": "Integration software, now owned by Salesforce, whose Anypoint Platform connects applications, data and APIs.",
-   "certification": false,
-   "variants": [],
-   "relations": []
-  },
-  {
-   "key": "multi-agent-systems",
-   "name": "Multi-agent systems",
-   "class": "skill",
-   "kind": "knowledge",
-   "definition": "Systems made of several autonomous agents, such as software programs or robots, that interact to cooperate or compete in solving problems.",
-   "certification": false,
-   "variants": [],
-   "relations": []
-  },
-  {
-   "key": "multi-core-processors",
-   "name": "Multi-core processors",
-   "class": "skill",
-   "kind": "knowledge",
-   "definition": "Processors that place two or more independent processing cores on one chip so they can run tasks in parallel.",
-   "certification": false,
-   "variants": [],
-   "relations": []
-  },
-  {
-   "key": "multi-core-programming",
-   "name": "Multi-core programming",
-   "class": "skill",
-   "kind": "skill",
-   "definition": "Writing software that divides work across the several cores of a processor so tasks run in parallel.",
-   "certification": false,
-   "variants": [],
-   "relations": []
-  },
-  {
-   "key": "multi-core-smp",
-   "name": "Multi-core SMP",
-   "class": "skill",
-   "kind": "knowledge",
-   "definition": "Symmetric multiprocessing on multi-core processors, where identical cores share one memory and are scheduled by a single operating system.",
-   "certification": false,
-   "variants": [],
-   "relations": []
-  },
-  {
-   "key": "multi-core-software",
-   "name": "Multi-core software",
-   "class": "skill",
-   "kind": "knowledge",
-   "definition": "Software designed or tuned to run its work in parallel across the several cores of a multi-core processor.",
-   "certification": false,
-   "variants": [],
-   "relations": [
-    "related:multi-core-processors"
-   ]
   }
  ]
 }

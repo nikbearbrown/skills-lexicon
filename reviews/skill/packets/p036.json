@@ -19,6 +19,195 @@
  ],
  "entries": [
   {
+   "key": "medical-photography",
+   "name": "Medical photography",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Photographing patients, conditions, procedures and specimens for clinical records, teaching and research.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "medical-record-formatting",
+   "name": "Medical record formatting",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Arranging patient record documents to the templates and standards a healthcare organisation requires.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "medical-records-release",
+   "name": "Medical records release",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Handling requests to disclose a patient's health records to authorised parties in line with privacy law.",
+   "certification": false,
+   "variants": [
+    "Release of information",
+    "Release of Information (ROI)"
+   ],
+   "relations": []
+  },
+  {
+   "key": "medical-ventilator",
+   "name": "Medical ventilator",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "A machine that moves air into and out of the lungs of a patient who cannot breathe well enough alone.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "mental-health-assessments",
+   "name": "Mental health assessments",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Evaluating a person's psychological state and needs through interviews, observation and standard measures.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "menu-planning",
+   "name": "Menu planning",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Choosing the dishes a restaurant, institution or event will serve, balancing cost, nutrition and taste.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "mep-design-software",
+   "name": "MEP design software",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "Software for designing and coordinating the mechanical, electrical and plumbing systems of buildings, such as Revit MEP.",
+   "certification": false,
+   "variants": [
+    "Mechanical Electrical Plumbing (MEP) Design Software",
+    "Mechanical, electrical and plumbing design software"
+   ],
+   "relations": []
+  },
+  {
+   "key": "merchandise-management",
+   "name": "Merchandise management",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Planning, buying, pricing and allocating a retailer's product range to meet sales and margin goals.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "meta-tag",
+   "name": "Meta tag",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "An HTML element in a page's head that gives metadata, such as a description, to browsers and search engines.",
+   "certification": false,
+   "variants": [
+    "Metatag"
+   ],
+   "relations": []
+  },
+  {
+   "key": "metadata-management",
+   "name": "Metadata management",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Creating, organising and maintaining the data that describes other data, such as definitions, schemas and lineage.",
+   "certification": false,
+   "variants": [
+    "Meta-Data Management"
+   ],
+   "relations": []
+  },
+  {
+   "key": "metal-detector",
+   "name": "Metal detector",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "A device that senses nearby metal objects, used in security screening, construction and treasure hunting.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "metaverse",
+   "name": "Metaverse",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "The idea of persistent, shared virtual worlds in which people interact through avatars and digital objects.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "meteor-js",
+   "name": "Meteor.js",
+   "class": "skill",
+   "kind": "framework",
+   "definition": "An open-source full-stack JavaScript framework for building web and mobile apps on Node.js.",
+   "certification": false,
+   "variants": [
+    "MeteorJS"
+   ],
+   "relations": []
+  },
+  {
+   "key": "meter-data-management",
+   "name": "Meter data management",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Collecting, validating and storing readings from utility meters, such as flow meters, so they can be used for billing and analysis.",
+   "certification": false,
+   "variants": [
+    "Meter Data Management (Flow Meters)"
+   ],
+   "relations": []
+  },
+  {
+   "key": "meter-operation-code-of-practice-agreement",
+   "name": "Meter Operation Code of Practice Agreement",
+   "class": "skill",
+   "kind": "standard",
+   "definition": "The UK electricity industry agreement that sets the rules and accreditation requirements for companies that install and maintain electricity meters.",
+   "certification": false,
+   "variants": [
+    "Meter Operation Code of Practice Agreement (MOCOPA)",
+    "MOCOPA"
+   ],
+   "relations": []
+  },
+  {
+   "key": "metric-system",
+   "name": "Metric system",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "The decimal system of measurement units built on the metre, the kilogram and the second.",
+   "certification": false,
+   "variants": [
+    "Metric Systems"
+   ],
+   "relations": []
+  },
+  {
+   "key": "microblaze",
+   "name": "MicroBlaze",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "A soft-core processor design from Xilinx (now AMD) that is built from programmable logic in an FPGA.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
    "key": "microchipping",
    "name": "Microchipping",
    "class": "skill",
@@ -125,6 +314,19 @@
    "certification": false,
    "variants": [
     "Hololens"
+   ],
+   "relations": []
+  },
+  {
+   "key": "microsoft-intune",
+   "name": "Microsoft Intune",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "Microsoft's cloud service for managing and securing devices and apps, first released as Windows Intune.",
+   "certification": false,
+   "variants": [
+    "Windows Intune",
+    "Intune"
    ],
    "relations": []
   },
@@ -256,200 +458,6 @@
    "variants": [
     "Microstrategy Desktops"
    ],
-   "relations": []
-  },
-  {
-   "key": "microstrategy-intelligence-server",
-   "name": "MicroStrategy Intelligence Server",
-   "class": "skill",
-   "kind": "platform",
-   "definition": "The server component of MicroStrategy's business intelligence software that runs queries, caches results and serves reports to users.",
-   "certification": false,
-   "variants": [
-    "Microstrategy Intelligence Servers"
-   ],
-   "relations": []
-  },
-  {
-   "key": "microstrategy-metrics",
-   "name": "MicroStrategy metrics",
-   "class": "skill",
-   "kind": "knowledge",
-   "definition": "In MicroStrategy, the objects that define business calculations, such as total revenue, which reports and dashboards display.",
-   "certification": false,
-   "variants": [],
-   "relations": []
-  },
-  {
-   "key": "microstrategy-office",
-   "name": "MicroStrategy Office",
-   "class": "skill",
-   "kind": "tool",
-   "definition": "A MicroStrategy add-in that lets users run and analyse MicroStrategy reports inside Microsoft Excel, PowerPoint and Word.",
-   "certification": false,
-   "variants": [],
-   "relations": []
-  },
-  {
-   "key": "microstrategy-olap-services",
-   "name": "MicroStrategy OLAP Services",
-   "class": "skill",
-   "kind": "tool",
-   "definition": "A MicroStrategy extension that lets users slice and filter report results held in memory without re-querying the database.",
-   "certification": false,
-   "variants": [],
-   "relations": []
-  },
-  {
-   "key": "microstrategy-report-services",
-   "name": "MicroStrategy Report Services",
-   "class": "skill",
-   "kind": "tool",
-   "definition": "A MicroStrategy component for building formatted, multi-section documents and dashboards from several reports.",
-   "certification": false,
-   "variants": [],
-   "relations": []
-  },
-  {
-   "key": "microstrategy-software-development-kit",
-   "name": "MicroStrategy Software Development Kit",
-   "class": "skill",
-   "kind": "tool",
-   "definition": "A set of programming interfaces and tools for customising and extending MicroStrategy applications.",
-   "certification": false,
-   "variants": [
-    "MicroStrategy SDK"
-   ],
-   "relations": []
-  },
-  {
-   "key": "microstrategy-transaction-services",
-   "name": "MicroStrategy Transaction Services",
-   "class": "skill",
-   "kind": "tool",
-   "definition": "A MicroStrategy feature that lets users write data back to a database from reports and documents.",
-   "certification": false,
-   "variants": [],
-   "relations": []
-  },
-  {
-   "key": "microstrategy-visual-insight",
-   "name": "MicroStrategy Visual Insight",
-   "class": "skill",
-   "kind": "tool",
-   "definition": "A MicroStrategy interface for building interactive data visualisations and dashboards.",
-   "certification": false,
-   "variants": [],
-   "relations": []
-  },
-  {
-   "key": "microstrategy-web",
-   "name": "MicroStrategy Web",
-   "class": "skill",
-   "kind": "tool",
-   "definition": "The web interface of MicroStrategy's business intelligence software, used to run reports and build dashboards in a browser.",
-   "certification": false,
-   "variants": [],
-   "relations": []
-  },
-  {
-   "key": "mike-urban",
-   "name": "MIKE URBAN",
-   "class": "skill",
-   "kind": "tool",
-   "definition": "DHI software for modelling urban water systems such as sewers, stormwater drainage and water distribution.",
-   "certification": false,
-   "variants": [],
-   "relations": []
-  },
-  {
-   "key": "military-standards-and-specifications",
-   "name": "Military standards and specifications",
-   "class": "skill",
-   "kind": "standard",
-   "definition": "US Department of Defense documents, such as MIL-STD and MIL-SPEC, that set technical, quality and process requirements for defence products.",
-   "certification": false,
-   "variants": [],
-   "relations": []
-  },
-  {
-   "key": "mill-test-report",
-   "name": "Mill test report",
-   "class": "skill",
-   "kind": "knowledge",
-   "definition": "A document from a metal mill that certifies the chemical and mechanical properties of a batch of material supplied with it.",
-   "certification": false,
-   "variants": [
-    "Mill test certificate"
-   ],
-   "relations": []
-  },
-  {
-   "key": "millimeter-waves",
-   "name": "Millimeter waves",
-   "class": "skill",
-   "kind": "knowledge",
-   "definition": "Radio waves with wavelengths of about 1 to 10 millimetres (30 to 300 GHz), used in 5G, radar and imaging.",
-   "certification": false,
-   "variants": [
-    "mmWave",
-    "Millimetre waves"
-   ],
-   "relations": []
-  },
-  {
-   "key": "mind-mapping",
-   "name": "Mind mapping",
-   "class": "skill",
-   "kind": "method",
-   "definition": "Organising ideas as a branching diagram that spreads out from one central concept.",
-   "certification": false,
-   "variants": [
-    "Mindmapping"
-   ],
-   "relations": []
-  },
-  {
-   "key": "mineralogy",
-   "name": "Mineralogy",
-   "class": "skill",
-   "kind": "knowledge",
-   "definition": "The study of minerals, including their composition, structure, properties and occurrence.",
-   "certification": false,
-   "variants": [],
-   "relations": []
-  },
-  {
-   "key": "mitre-att-ck",
-   "name": "MITRE ATT&CK",
-   "class": "skill",
-   "kind": "framework",
-   "definition": "A knowledge base from MITRE of the tactics and techniques that attackers use, organised for threat modelling and defence.",
-   "certification": false,
-   "variants": [
-    "MITRE ATT&CK Framework",
-    "ATT&CK"
-   ],
-   "relations": []
-  },
-  {
-   "key": "mixed-reality",
-   "name": "Mixed reality",
-   "class": "skill",
-   "kind": "knowledge",
-   "definition": "Technology that blends real and virtual objects so that they interact in real time.",
-   "certification": false,
-   "variants": [],
-   "relations": []
-  },
-  {
-   "key": "mobile-application-design",
-   "name": "Mobile application design",
-   "class": "skill",
-   "kind": "skill",
-   "definition": "Designing the screens, navigation and interactions of apps for phones and tablets.",
-   "certification": false,
-   "variants": [],
    "relations": []
   }
  ]

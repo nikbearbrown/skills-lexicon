@@ -19,373 +19,513 @@
  ],
  "entries": [
   {
-   "key": "security-certified-network-architect",
-   "name": "Security Certified Network Architect",
+   "key": "comptia-cybersecurity-analyst-cysa",
+   "name": "CompTIA Cybersecurity Analyst (CySA+)",
    "class": "certification",
    "kind": "credential",
-   "definition": "A certification from the Security Certified Program for designing secure network architectures.",
+   "definition": "A CompTIA certification for security analysts, covering threat detection, vulnerability management and incident response.",
    "certification": true,
    "certification_scope": "single-issuer",
    "variants": [
-    "Security Certified Network Architecture",
-    "SCNA"
+    "CySA+",
+    "CompTIA CySA+",
+    "CompTIA Cybersecurity Analyst (CySA+) CE"
    ],
-   "relations": []
+   "relations": [
+    "related:cybersecurity"
+   ]
   },
   {
-   "key": "security-check-sc-clearance",
-   "name": "Security Check (SC) clearance",
+   "key": "comptia-digital-home-technology-integrator-dhti",
+   "name": "CompTIA Digital Home Technology Integrator (DHTI+)",
    "class": "certification",
    "kind": "credential",
-   "definition": "A UK government security clearance level that allows regular access to secret assets.",
+   "definition": "A CompTIA certification for technicians who install and integrate technology systems in homes.",
    "certification": true,
    "certification_scope": "single-issuer",
    "variants": [
-    "Security Check (SC)",
-    "SC clearance"
+    "CompTIA DHTI+"
    ],
    "relations": []
   },
   {
-   "key": "senior-certified-welding-inspector",
-   "name": "Senior Certified Welding Inspector",
+   "key": "comptia-e-biz",
+   "name": "CompTIA e-Biz+",
    "class": "certification",
    "kind": "credential",
-   "definition": "An American Welding Society certification for experienced welding inspectors, ranking above the Certified Welding Inspector.",
-   "certification": true,
-   "certification_scope": "single-issuer",
-   "variants": [
-    "SCWI"
-   ],
-   "relations": []
-  },
-  {
-   "key": "series-22-direct-participation-programs-limited-representative",
-   "name": "Series 22 Direct Participation Programs Limited Representative",
-   "class": "certification",
-   "kind": "credential",
-   "definition": "A FINRA qualification exam and registration for representatives who sell direct participation programs, such as limited partnerships.",
-   "certification": true,
-   "certification_scope": "single-issuer",
-   "variants": [
-    "Series 22 Direct Participation (Limited Partnerships) License",
-    "Series 22"
-   ],
-   "relations": []
-  },
-  {
-   "key": "series-24-general-securities-principal",
-   "name": "Series 24 General Securities Principal",
-   "class": "certification",
-   "kind": "credential",
-   "definition": "A FINRA qualification exam and registration for principals who supervise a broker-dealer's general securities business.",
-   "certification": true,
-   "certification_scope": "single-issuer",
-   "variants": [
-    "Series 24 General Securities Principal License",
-    "Series 24"
-   ],
-   "relations": []
-  },
-  {
-   "key": "series-26-investment-company-and-variable-contracts-products-principal",
-   "name": "Series 26 Investment Company and Variable Contracts Products Principal",
-   "class": "certification",
-   "kind": "credential",
-   "definition": "A FINRA qualification exam and registration for principals who supervise the sale of mutual funds and variable annuities.",
-   "certification": true,
-   "certification_scope": "single-issuer",
-   "variants": [
-    "Series 26 Investment Company And Variable Contracts Products Principal License",
-    "Series 26"
-   ],
-   "relations": []
-  },
-  {
-   "key": "series-27-financial-and-operations-principal",
-   "name": "Series 27 Financial and Operations Principal",
-   "class": "certification",
-   "kind": "credential",
-   "definition": "A FINRA qualification exam and registration for principals who supervise a broker-dealer's financial reporting and operations.",
-   "certification": true,
-   "certification_scope": "single-issuer",
-   "variants": [
-    "Series 27 Financial And Operations Principal License",
-    "Series 27"
-   ],
-   "relations": []
-  },
-  {
-   "key": "series-3-national-commodity-futures",
-   "name": "Series 3 National Commodity Futures",
-   "class": "certification",
-   "kind": "credential",
-   "definition": "A qualification exam, administered through FINRA for the National Futures Association, for people who sell futures and options on futures.",
-   "certification": true,
-   "certification_scope": "single-issuer",
-   "variants": [
-    "Series 3 National Exchange License",
-    "Series 3"
-   ],
-   "relations": []
-  },
-  {
-   "key": "series-31-futures-managed-funds",
-   "name": "Series 31 Futures Managed Funds",
-   "class": "certification",
-   "kind": "credential",
-   "definition": "A qualification exam, administered through FINRA for the National Futures Association, for people who sell managed futures funds.",
-   "certification": true,
-   "certification_scope": "single-issuer",
-   "variants": [
-    "Series 31 Futures : Managed Funds License",
-    "Series 31"
-   ],
-   "relations": []
-  },
-  {
-   "key": "series-4-registered-options-principal",
-   "name": "Series 4 Registered Options Principal",
-   "class": "certification",
-   "kind": "credential",
-   "definition": "A FINRA qualification exam and registration for principals who supervise a firm's options business.",
-   "certification": true,
-   "certification_scope": "single-issuer",
-   "variants": [
-    "Series 4 Registered Options Principal License",
-    "Series 4"
-   ],
-   "relations": []
-  },
-  {
-   "key": "series-52-municipal-securities-representative",
-   "name": "Series 52 Municipal Securities Representative",
-   "class": "certification",
-   "kind": "credential",
-   "definition": "A qualification exam, written by the Municipal Securities Rulemaking Board and administered by FINRA, for representatives who sell municipal securities.",
-   "certification": true,
-   "certification_scope": "single-issuer",
-   "variants": [
-    "Series 52 Municipal Securities Representative License",
-    "Series 52"
-   ],
-   "relations": []
-  },
-  {
-   "key": "series-53-municipal-securities-principal",
-   "name": "Series 53 Municipal Securities Principal",
-   "class": "certification",
-   "kind": "credential",
-   "definition": "A qualification exam, written by the Municipal Securities Rulemaking Board and administered by FINRA, for principals who supervise a firm's municipal securities business.",
-   "certification": true,
-   "certification_scope": "single-issuer",
-   "variants": [
-    "Series 53 Municipal Securities Principal License",
-    "Series 53"
-   ],
-   "relations": []
-  },
-  {
-   "key": "series-55-equity-trader-limited-representative",
-   "name": "Series 55 Equity Trader Limited Representative",
-   "class": "certification",
-   "kind": "credential",
-   "definition": "A FINRA qualification exam and registration for traders of equity securities at broker-dealers.",
-   "certification": true,
-   "certification_scope": "single-issuer",
-   "variants": [
-    "Series 55 Equity Trader : Limited Representative License",
-    "Series 55"
-   ],
-   "relations": []
-  },
-  {
-   "key": "series-56-proprietary-trader",
-   "name": "Series 56 Proprietary Trader",
-   "class": "certification",
-   "kind": "credential",
-   "definition": "A FINRA qualification exam and registration for traders who trade a firm's own capital in securities.",
-   "certification": true,
-   "certification_scope": "single-issuer",
-   "variants": [
-    "Series 56 Proprietary Trader Qualification License",
-    "Series 56"
-   ],
-   "relations": []
-  },
-  {
-   "key": "series-6-investment-company-and-variable-contracts-products-representative",
-   "name": "Series 6 Investment Company and Variable Contracts Products Representative",
-   "class": "certification",
-   "kind": "credential",
-   "definition": "A FINRA qualification exam and registration for representatives who sell mutual funds and variable annuities.",
-   "certification": true,
-   "certification_scope": "single-issuer",
-   "variants": [
-    "Series 6 Investment Company And Variable Contracts License (Mutual Funds/Variable Annuities)",
-    "Series 6"
-   ],
-   "relations": []
-  },
-  {
-   "key": "series-63-uniform-securities-agent-state-law",
-   "name": "Series 63 Uniform Securities Agent State Law",
-   "class": "certification",
-   "kind": "credential",
-   "definition": "A state securities-law exam, written by the North American Securities Administrators Association, that most states require of people who sell securities.",
-   "certification": true,
-   "certification_scope": "many-issuers",
-   "variants": [
-    "Series 63 Uniform Securities Agent State Law License",
-    "Series 63"
-   ],
-   "relations": []
-  },
-  {
-   "key": "series-65-uniform-investment-adviser-law",
-   "name": "Series 65 Uniform Investment Adviser Law",
-   "class": "certification",
-   "kind": "credential",
-   "definition": "A state securities-law exam, written by the North American Securities Administrators Association, for people who give investment advice for a fee.",
-   "certification": true,
-   "certification_scope": "many-issuers",
-   "variants": [
-    "Series 65 Uniform Registered Investment Adviser Law License (RIA)",
-    "Series 65"
-   ],
-   "relations": []
-  },
-  {
-   "key": "series-66-uniform-combined-state-law",
-   "name": "Series 66 Uniform Combined State Law",
-   "class": "certification",
-   "kind": "credential",
-   "definition": "A state securities-law exam that combines the state-law content of the Series 63 and Series 65 exams, for people who work as both securities agents and investment adviser representatives.",
-   "certification": true,
-   "certification_scope": "many-issuers",
-   "variants": [
-    "Series 66 Uniform Investment Adviser : Combined State Laws License (Combined 63 And 65)",
-    "Series 66"
-   ],
-   "relations": []
-  },
-  {
-   "key": "series-7-general-securities-representative",
-   "name": "Series 7 General Securities Representative",
-   "class": "certification",
-   "kind": "credential",
-   "definition": "A FINRA qualification exam and registration for representatives who sell most types of securities, such as stocks, bonds and mutual funds.",
-   "certification": true,
-   "certification_scope": "single-issuer",
-   "variants": [
-    "Series 7 General Securities Representative License (Stockbroker)",
-    "Series 7"
-   ],
-   "relations": []
-  },
-  {
-   "key": "series-79-investment-banking-representative",
-   "name": "Series 79 Investment Banking Representative",
-   "class": "certification",
-   "kind": "credential",
-   "definition": "A FINRA qualification exam and registration for investment bankers who advise on securities offerings and mergers and acquisitions.",
-   "certification": true,
-   "certification_scope": "single-issuer",
-   "variants": [
-    "Series 79 Investment Banking License",
-    "Series 79"
-   ],
-   "relations": []
-  },
-  {
-   "key": "series-86-research-analyst-analysis",
-   "name": "Series 86 Research Analyst (Analysis)",
-   "class": "certification",
-   "kind": "credential",
-   "definition": "The securities-analysis part of FINRA's research analyst qualification exams, covering valuation and financial analysis.",
-   "certification": true,
-   "certification_scope": "single-issuer",
-   "variants": [
-    "Series 86 Research Analyst : Securities Analysis",
-    "Series 86"
-   ],
-   "relations": []
-  },
-  {
-   "key": "series-9-general-securities-sales-supervisor-options-module",
-   "name": "Series 9 General Securities Sales Supervisor (Options Module)",
-   "class": "certification",
-   "kind": "credential",
-   "definition": "A FINRA qualification exam and registration for general securities sales supervisors, covering the supervision of options sales.",
-   "certification": true,
-   "certification_scope": "single-issuer",
-   "variants": [
-    "Series 9 General Securities Sales Supervisor License : Options",
-    "Series 9"
-   ],
-   "relations": []
-  },
-  {
-   "key": "series-99-operations-professional",
-   "name": "Series 99 Operations Professional",
-   "class": "certification",
-   "kind": "credential",
-   "definition": "A FINRA qualification exam and registration for operations staff at broker-dealers.",
-   "certification": true,
-   "certification_scope": "single-issuer",
-   "variants": [
-    "Series 99"
-   ],
-   "relations": []
-  },
-  {
-   "key": "servsafe-alcohol",
-   "name": "ServSafe Alcohol",
-   "class": "certification",
-   "kind": "credential",
-   "definition": "A responsible-alcohol-service certification from the National Restaurant Association's ServSafe program.",
+   "definition": "A CompTIA certification covering the concepts and technology of electronic business.",
    "certification": true,
    "certification_scope": "single-issuer",
    "variants": [],
    "relations": []
   },
   {
-   "key": "six-sigma-black-belt",
-   "name": "Six Sigma Black Belt",
+   "key": "comptia-green-it-specialist",
+   "name": "CompTIA Green IT Specialist",
    "class": "certification",
    "kind": "credential",
-   "definition": "A certification for people who lead Six Sigma process-improvement projects, higher than the Green Belt.",
+   "definition": "A CompTIA certification covering environmentally responsible use and management of IT equipment.",
    "certification": true,
-   "certification_scope": "many-issuers",
-   "variants": [
-    "Six Sigma Black Belt Certification"
-   ],
+   "certification_scope": "single-issuer",
+   "variants": [],
    "relations": []
   },
   {
-   "key": "six-sigma-green-belt",
-   "name": "Six Sigma Green Belt",
+   "key": "comptia-healthcare-it-technician",
+   "name": "CompTIA Healthcare IT Technician",
    "class": "certification",
    "kind": "credential",
-   "definition": "A certification for people who take part in or lead smaller Six Sigma process-improvement projects, below the Black Belt.",
+   "definition": "A CompTIA certification for IT technicians who support healthcare settings, covering topics such as electronic health records and healthcare regulations.",
    "certification": true,
-   "certification_scope": "many-issuers",
-   "variants": [
-    "Six Sigma Green Belt Certification"
-   ],
+   "certification_scope": "single-issuer",
+   "variants": [],
    "relations": []
   },
   {
-   "key": "specialist-in-blood-banking",
-   "name": "Specialist in Blood Banking",
+   "key": "comptia-hti",
+   "name": "CompTIA HTI+",
    "class": "certification",
    "kind": "credential",
-   "definition": "A certification from the ASCP Board of Certification for laboratory professionals who specialise in blood banking and transfusion medicine.",
+   "definition": "A CompTIA certification for home technology integrators who install and integrate technology systems in homes.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "comptia-i-net",
+   "name": "CompTIA i-Net+",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A CompTIA certification covering foundational knowledge of Internet, intranet and extranet technologies.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "comptia-instructor",
+   "name": "CompTIA Instructor+",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A CompTIA certification for people who deliver technical training, covering classroom instruction skills.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "comptia-it-for-sales",
+   "name": "CompTIA IT for Sales",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A CompTIA certification covering IT concepts and terminology for people who sell technology products and services.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "comptia-it-fundamentals",
+   "name": "CompTIA IT Fundamentals+",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A CompTIA entry-level certification covering basic IT concepts such as hardware, software, networking and security.",
    "certification": true,
    "certification_scope": "single-issuer",
    "variants": [
-    "Specialist in Blood Banking (SBB-ASCP)",
-    "SBB(ASCP)"
+    "CompTIA IT Fundamentals",
+    "CompTIA ITF+",
+    "CompTIA Strata - IT Fundamentals"
+   ],
+   "relations": []
+  },
+  {
+   "key": "comptia-it-operations-specialist-cios",
+   "name": "CompTIA IT Operations Specialist (CIOS)",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A CompTIA stackable certification awarded for holding a specified combination of other CompTIA certifications, for IT operations.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [
+    "CompTIA CIOS"
+   ],
+   "relations": []
+  },
+  {
+   "key": "comptia-linux",
+   "name": "CompTIA Linux+",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A CompTIA certification covering the installation, configuration, security and troubleshooting of Linux systems.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [
+    "CompTIA Linux+ Powered By LPI"
+   ],
+   "relations": []
+  },
+  {
+   "key": "comptia-linux-network-professional-clnp",
+   "name": "CompTIA Linux Network Professional (CLNP)",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A CompTIA stackable certification awarded for holding a specified combination of other CompTIA certifications, for Linux and network administration.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [
+    "CompTIA CLNP"
+   ],
+   "relations": []
+  },
+  {
+   "key": "comptia-mobile-app-security",
+   "name": "CompTIA Mobile App Security+",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A CompTIA certification covering how to build and test mobile apps securely.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "comptia-mobility",
+   "name": "CompTIA Mobility+",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A CompTIA certification covering the management and support of mobile devices and the systems that manage them.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [
+    "CompTIA Mobility+ CE"
+   ],
+   "relations": []
+  },
+  {
+   "key": "comptia-network",
+   "name": "CompTIA Network+",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A CompTIA certification covering how to configure, manage, secure and troubleshoot wired and wireless networks.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [
+    "CompTIA Network+ CE"
+   ],
+   "relations": [
+    "related:computer-networking"
+   ]
+  },
+  {
+   "key": "comptia-network-infrastructure-professional-cnip",
+   "name": "CompTIA Network Infrastructure Professional (CNIP)",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A CompTIA stackable certification awarded for holding a specified combination of other CompTIA certifications, for network infrastructure.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [
+    "CompTIA CNIP"
+   ],
+   "relations": []
+  },
+  {
+   "key": "comptia-network-security-professional-cnsp",
+   "name": "CompTIA Network Security Professional (CNSP)",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A CompTIA stackable certification awarded for holding a specified combination of other CompTIA certifications, for network security.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [
+    "CompTIA CNSP"
+   ],
+   "relations": [
+    "related:cybersecurity"
+   ]
+  },
+  {
+   "key": "comptia-network-vulnerability-assessment-professional-cnvp",
+   "name": "CompTIA Network Vulnerability Assessment Professional (CNVP)",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A CompTIA stackable certification awarded for holding a specified combination of other CompTIA certifications, for network vulnerability assessment.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [
+    "CompTIA CNVP"
+   ],
+   "relations": []
+  },
+  {
+   "key": "comptia-pentest",
+   "name": "CompTIA PenTest+",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A CompTIA certification covering penetration testing, vulnerability assessment and vulnerability management.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [
+    "CompTIA PenTest+ CE"
+   ],
+   "relations": []
+  },
+  {
+   "key": "comptia-printing-and-document-imaging-pdi",
+   "name": "CompTIA Printing and Document Imaging (PDI+)",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A CompTIA certification for technicians who work with printing and document imaging equipment.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [
+    "CompTIA PDI+"
+   ],
+   "relations": []
+  },
+  {
+   "key": "comptia-rfid",
+   "name": "CompTIA RFID+",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A CompTIA certification covering radio-frequency identification (RFID) technology and its deployment.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "comptia-secure-cloud-professional-cscp",
+   "name": "CompTIA Secure Cloud Professional (CSCP)",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A CompTIA stackable certification awarded for holding a specified combination of other CompTIA certifications, for secure cloud work.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [
+    "CompTIA CSCP"
+   ],
+   "relations": []
+  },
+  {
+   "key": "comptia-secure-infrastructure-specialist-csis",
+   "name": "CompTIA Secure Infrastructure Specialist (CSIS)",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A CompTIA stackable certification awarded for holding a specified combination of other CompTIA certifications, for secure IT infrastructure.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [
+    "CompTIA CSIS"
+   ],
+   "relations": []
+  },
+  {
+   "key": "comptia-security",
+   "name": "CompTIA Security+",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A CompTIA certification covering core cybersecurity skills such as threats, network security, cryptography and risk management.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [
+    "CompTIA Security+ CE"
+   ],
+   "relations": []
+  },
+  {
+   "key": "comptia-security-analytics-expert-csae",
+   "name": "CompTIA Security Analytics Expert (CSAE)",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A CompTIA stackable certification awarded for holding a specified combination of other CompTIA certifications, for security analytics at expert level.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [
+    "CompTIA CSAE"
+   ],
+   "relations": []
+  },
+  {
+   "key": "comptia-security-analytics-professional-csap",
+   "name": "CompTIA Security Analytics Professional (CSAP)",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A CompTIA stackable certification awarded for holding a specified combination of other CompTIA certifications, for security analytics at professional level.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [
+    "CompTIA CSAP"
+   ],
+   "relations": []
+  },
+  {
+   "key": "comptia-security-infrastructure-expert-csie",
+   "name": "CompTIA Security Infrastructure Expert (CSIE)",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A CompTIA stackable certification awarded for holding a specified combination of other CompTIA certifications, for security infrastructure at expert level.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [
+    "CompTIA CSIE"
+   ],
+   "relations": []
+  },
+  {
+   "key": "comptia-storage",
+   "name": "CompTIA Storage+",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A CompTIA certification covering the fundamentals of data storage technology.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [
+    "CompTIA Storage+ Powered By SNIA",
+    "CompTIA Storage+ Powered By SNIA CE"
+   ],
+   "relations": []
+  },
+  {
+   "key": "comptia-systems-support-specialist-csss",
+   "name": "CompTIA Systems Support Specialist (CSSS)",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A CompTIA stackable certification awarded for holding a specified combination of other CompTIA certifications, for systems support.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [
+    "CompTIA CSSS"
+   ],
+   "relations": []
+  },
+  {
+   "key": "coronal-polishing-certificate",
+   "name": "Coronal polishing certificate",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A certificate showing that a dental assistant has been trained in coronal polishing, which some US states require before they may do it.",
+   "certification": true,
+   "certification_scope": "many-issuers",
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "counter-terrorist-check-ctc-clearance",
+   "name": "Counter Terrorist Check (CTC) clearance",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A UK government security clearance level, below Security Check (SC), for roles with unescorted access to sensitive sites or close contact with people at risk from terrorism.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [
+    "Counter Terrorist Check (CTC)",
+    "Counter Terrorist Check",
+    "CTC clearance"
+   ],
+   "relations": [
+    "related:security-check-sc-clearance"
+   ]
+  },
+  {
+   "key": "cpc-coder",
+   "name": "Certified Professional Coder",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A coding credential; CPC also names other credentials.",
+   "variants": [
+    "CPC",
+    "Certified Professional Coder (CPC)"
+   ],
+   "relations": []
+  },
+  {
+   "key": "cpc-collector",
+   "name": "Certified Professional Collector",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A collection credential; distinct from the coding credential.",
+   "variants": [
+    "CPC",
+    "Certified Professional Collector (CPC)"
+   ],
+   "relations": []
+  },
+  {
+   "key": "cpr-for-the-professional-rescuer",
+   "name": "CPR for the Professional Rescuer",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A cardiopulmonary resuscitation certification, from American Red Cross courses, for people who respond to emergencies as part of their job, such as lifeguards and first responders.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [
+    "Professional Rescuer CPR"
+   ],
+   "relations": []
+  },
+  {
+   "key": "crestron-certified-programmer",
+   "name": "Crestron Certified Programmer",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A certification from Crestron showing that a person can program Crestron control systems.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "cytogenetic-technologist-cg-ascp",
+   "name": "Cytogenetic Technologist, CG(ASCP)",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A certification from the ASCP Board of Certification for laboratory technologists who analyse chromosomes in cytogenetics laboratories.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [
+    "Cytogenetics Technologist Certification (CG-ASCP)",
+    "CG(ASCP)"
+   ],
+   "relations": []
+  },
+  {
+   "key": "dermatology-certified-nurse-practitioner",
+   "name": "Dermatology Certified Nurse Practitioner",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A certification for nurse practitioners who specialise in dermatology, awarded by the Dermatology Nurse Practitioner Certification Board.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [
+    "DCNP"
+   ],
+   "relations": []
+  },
+  {
+   "key": "dermatology-nurse-certified",
+   "name": "Dermatology Nurse Certified",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A certification for registered nurses who work in dermatology, awarded by the Dermatology Nursing Certification Board.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "developed-vetting",
+   "name": "Developed Vetting",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "The highest level of UK government security clearance, for roles with frequent and uncontrolled access to top secret assets.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [
+    "Developed Vetting (DV)",
+    "DV clearance"
    ],
    "relations": []
   }

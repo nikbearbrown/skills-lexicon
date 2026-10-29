@@ -19,6 +19,195 @@
  ],
  "entries": [
   {
+   "key": "labour-economics",
+   "name": "Labour economics",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "The branch of economics that studies labour markets, wages, employment and unemployment.",
+   "certification": false,
+   "variants": [
+    "Labor economics"
+   ],
+   "relations": []
+  },
+  {
+   "key": "labour-law",
+   "name": "Labour law",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "The body of law governing the relationship between employers, employees and trade unions.",
+   "certification": false,
+   "variants": [
+    "Labour Laws",
+    "Labor law",
+    "Labor laws"
+   ],
+   "relations": []
+  },
+  {
+   "key": "labview",
+   "name": "LabVIEW",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "National Instruments' graphical programming environment, in which programs are built by wiring together icons, used for test, measurement and control.",
+   "certification": false,
+   "variants": [
+    "Labview (Programming Language)"
+   ],
+   "relations": []
+  },
+  {
+   "key": "land-atmosphere-interactions",
+   "name": "Land-atmosphere interactions",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "The study of how the land surface and the atmosphere exchange energy, water, carbon and momentum.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "landing-page-optimization",
+   "name": "Landing page optimization",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Improving the design and content of web landing pages, often through testing, to raise the share of visitors who convert.",
+   "certification": false,
+   "variants": [
+    "Landing page optimisation"
+   ],
+   "relations": []
+  },
+  {
+   "key": "lando",
+   "name": "Lando",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "A command-line tool, built on Docker, for creating and running local development environments.",
+   "certification": false,
+   "variants": [
+    "Lando (Software)"
+   ],
+   "relations": []
+  },
+  {
+   "key": "landscape-painting",
+   "name": "Landscape painting",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Painting natural scenery such as hills, fields, water and sky.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "landscaping-and-yard-care",
+   "name": "Landscaping and yard care",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Designing, planting and maintaining gardens, lawns and other outdoor spaces around buildings.",
+   "certification": false,
+   "variants": [],
+   "relations": [
+    "related:groundskeeping-and-yard-care"
+   ]
+  },
+  {
+   "key": "langchain",
+   "name": "LangChain",
+   "class": "skill",
+   "kind": "framework",
+   "definition": "A framework for composing language-model applications.",
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "language-interpretation-and-translation",
+   "name": "Language interpretation and translation",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Converting spoken (interpretation) or written (translation) content from one language into another.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "language-teaching",
+   "name": "Language teaching",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Teaching learners to understand, speak, read and write a language, usually one that is not their first.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "large-language-models",
+   "name": "Large language models",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "Understanding and applying large models of language.",
+   "variants": [
+    "LLMs",
+    "LLM"
+   ],
+   "relations": []
+  },
+  {
+   "key": "laser-engineering",
+   "name": "Laser engineering",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "The engineering of lasers and laser-based systems, including their design, building and application.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "laser-level",
+   "name": "Laser level",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "A tool that projects a level or plumb line of laser light so that surfaces and fixtures can be aligned on a building site.",
+   "certification": false,
+   "variants": [
+    "Laser Levels"
+   ],
+   "relations": []
+  },
+  {
+   "key": "laser-printing",
+   "name": "Laser printing",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "Printing in which a laser draws an image onto a charged drum that picks up toner and transfers it to paper.",
+   "certification": false,
+   "variants": [],
+   "relations": [
+    "related:dot-matrix-printing"
+   ]
+  },
+  {
+   "key": "latin-american-and-latino-studies",
+   "name": "Latin American and Latino studies",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "The interdisciplinary academic study of the history, cultures, politics and societies of Latin America and of Latino communities, especially in the United States.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "law-enforcement-operations",
+   "name": "Law enforcement operations",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "Planning and carrying out the work of police and other law enforcement agencies.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
    "key": "law-enforcement-practices",
    "name": "Law enforcement practices",
    "class": "skill",
@@ -260,193 +449,6 @@
    "definition": "A set of web interfaces that lets applications access LinkedIn features and data, such as sign-in, sharing and marketing.",
    "certification": false,
    "variants": [],
-   "relations": []
-  },
-  {
-   "key": "linux-systems-administration",
-   "name": "Linux systems administration",
-   "class": "skill",
-   "kind": "skill",
-   "definition": "Configuring and operating Linux systems.",
-   "variants": [
-    "Linux",
-    "UNIX"
-   ],
-   "relations": []
-  },
-  {
-   "key": "liquidity-forecasting",
-   "name": "Liquidity forecasting",
-   "class": "skill",
-   "kind": "skill",
-   "definition": "Estimating a business's future cash inflows, outflows and available funds to see whether it can meet its obligations.",
-   "certification": false,
-   "variants": [
-    "Liquidity Forecastings"
-   ],
-   "relations": [
-    "broader:financial-forecasting"
-   ]
-  },
-  {
-   "key": "listwise-deletion",
-   "name": "Listwise deletion",
-   "class": "skill",
-   "kind": "method",
-   "definition": "A way of handling missing data in which any record with a missing value in the analysed variables is removed entirely.",
-   "certification": false,
-   "variants": [
-    "Complete case analysis"
-   ],
-   "relations": []
-  },
-  {
-   "key": "livedata",
-   "name": "LiveData",
-   "class": "skill",
-   "kind": "library",
-   "definition": "An Android Jetpack class that holds observable data and notifies observers only while their lifecycle is active.",
-   "certification": false,
-   "variants": [],
-   "relations": []
-  },
-  {
-   "key": "livestreaming",
-   "name": "Livestreaming",
-   "class": "skill",
-   "kind": "skill",
-   "definition": "Broadcasting live video and audio over the internet to an audience in real time.",
-   "certification": false,
-   "variants": [
-    "Livestream",
-    "Live streaming"
-   ],
-   "relations": []
-  },
-  {
-   "key": "llm-observability",
-   "name": "LLM observability",
-   "class": "skill",
-   "kind": "skill",
-   "definition": "Observability applied to LLM and agent behavior; a narrower concept.",
-   "variants": [],
-   "relations": [
-    "broader:observability"
-   ]
-  },
-  {
-   "key": "load-securement",
-   "name": "Load securement",
-   "class": "skill",
-   "kind": "skill",
-   "definition": "Fastening and restraining cargo on a vehicle so that it cannot shift or fall during transport.",
-   "certification": false,
-   "variants": [],
-   "relations": []
-  },
-  {
-   "key": "loan-administration",
-   "name": "Loan administration",
-   "class": "skill",
-   "kind": "skill",
-   "definition": "Managing a loan after it is made, including recording payments, tracking terms and handling lender and borrower paperwork.",
-   "certification": false,
-   "variants": [],
-   "relations": []
-  },
-  {
-   "key": "loan-agreements",
-   "name": "Loan agreements",
-   "class": "skill",
-   "kind": "knowledge",
-   "definition": "Knowledge of the contracts that set out the terms on which a lender provides money to a borrower.",
-   "certification": false,
-   "variants": [],
-   "relations": []
-  },
-  {
-   "key": "loan-structuring",
-   "name": "Loan structuring",
-   "class": "skill",
-   "kind": "skill",
-   "definition": "Designing the terms of a loan, such as amount, rate, term, security and covenants, to fit the borrower and lender.",
-   "certification": false,
-   "variants": [],
-   "relations": []
-  },
-  {
-   "key": "loan-syndication",
-   "name": "Loan syndication",
-   "class": "skill",
-   "kind": "skill",
-   "definition": "Arranging for a large loan to be provided by a group of lenders who share the risk.",
-   "certification": false,
-   "variants": [],
-   "relations": []
-  },
-  {
-   "key": "log-management",
-   "name": "Log management",
-   "class": "skill",
-   "kind": "skill",
-   "definition": "Collecting, storing, searching and analysing the log files that systems and applications produce.",
-   "certification": false,
-   "variants": [],
-   "relations": []
-  },
-  {
-   "key": "logic-diagrams",
-   "name": "Logic diagrams",
-   "class": "skill",
-   "kind": "method",
-   "definition": "Diagrams that show how logic gates and other elements combine to produce outputs, used to design and troubleshoot digital circuits.",
-   "certification": false,
-   "variants": [],
-   "relations": []
-  },
-  {
-   "key": "logistics-engineering",
-   "name": "Logistics engineering",
-   "class": "skill",
-   "kind": "knowledge",
-   "definition": "The engineering discipline of designing and improving how materials, equipment and information are moved and supported across a supply chain or over a system's life.",
-   "certification": false,
-   "variants": [
-    "Logistic Engineering"
-   ],
-   "relations": []
-  },
-  {
-   "key": "logistics-planning",
-   "name": "Logistics planning",
-   "class": "skill",
-   "kind": "skill",
-   "definition": "Planning how goods, equipment and people are stored and moved so they arrive where and when needed.",
-   "certification": false,
-   "variants": [],
-   "relations": []
-  },
-  {
-   "key": "logo-design",
-   "name": "Logo design",
-   "class": "skill",
-   "kind": "skill",
-   "definition": "Creating the symbol or wordmark that identifies a brand.",
-   "certification": false,
-   "variants": [],
-   "relations": []
-  },
-  {
-   "key": "long-short-term-memory",
-   "name": "Long short-term memory",
-   "class": "skill",
-   "kind": "method",
-   "definition": "A type of recurrent neural network with gated memory cells that can learn dependencies across long sequences.",
-   "certification": false,
-   "variants": [
-    "Long Short-Term Memory (LSTM)",
-    "LSTM"
-   ],
    "relations": []
   }
  ]

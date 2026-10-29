@@ -1,0 +1,525 @@
+{
+ "allowed_kinds": [
+  "ability",
+  "credential",
+  "framework",
+  "human-language",
+  "knowledge",
+  "library",
+  "markup-language",
+  "method",
+  "modeling-language",
+  "platform",
+  "programming-language",
+  "skill",
+  "standard",
+  "style-language",
+  "tool",
+  "work-activity"
+ ],
+ "entries": [
+  {
+   "key": "master-s-in-systems-engineering",
+   "name": "Master's in Systems Engineering",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A postgraduate degree in systems engineering, awarded by universities.",
+   "certification": true,
+   "certification_scope": "many-issuers",
+   "variants": [
+    "Master's degree in Systems Engineering",
+    "Masters degree in Systems Engineering"
+   ],
+   "relations": []
+  },
+  {
+   "key": "master-s-in-teaching-english-as-a-second-language",
+   "name": "Master's in Teaching English as a Second Language",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A postgraduate degree in teaching English as a second language, awarded by universities.",
+   "certification": true,
+   "certification_scope": "many-issuers",
+   "variants": [
+    "Master's degree in Teaching English as a Second Language",
+    "Masters degree in Teaching English as a Second Language"
+   ],
+   "relations": []
+  },
+  {
+   "key": "master-s-in-theater",
+   "name": "Master's in Theater",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A postgraduate degree in theater, awarded by universities.",
+   "certification": true,
+   "certification_scope": "many-issuers",
+   "variants": [
+    "Master's degree in Theater",
+    "Masters degree in Theater"
+   ],
+   "relations": []
+  },
+  {
+   "key": "master-s-in-theology",
+   "name": "Master's in Theology",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A postgraduate degree in theology, awarded by universities.",
+   "certification": true,
+   "certification_scope": "many-issuers",
+   "variants": [
+    "Master's degree in Theology",
+    "Masters degree in Theology"
+   ],
+   "relations": []
+  },
+  {
+   "key": "master-s-in-urban-planning",
+   "name": "Master's in Urban Planning",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A postgraduate degree in urban planning, awarded by universities.",
+   "certification": true,
+   "certification_scope": "many-issuers",
+   "variants": [
+    "Master's degree in Urban Planning",
+    "Masters degree in Urban Planning"
+   ],
+   "relations": []
+  },
+  {
+   "key": "master-s-in-zoology",
+   "name": "Master's in Zoology",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A postgraduate degree in zoology, awarded by universities.",
+   "certification": true,
+   "certification_scope": "many-issuers",
+   "variants": [
+    "Master's degree in Zoology",
+    "Masters degree in Zoology"
+   ],
+   "relations": []
+  },
+  {
+   "key": "matriculation-certificate",
+   "name": "Matriculation certificate",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A certificate awarded for passing the final secondary-school examinations, which in some countries qualifies the holder for university entry.",
+   "certification": true,
+   "certification_scope": "many-issuers",
+   "variants": [
+    "Martriculation Certificate"
+   ],
+   "relations": []
+  },
+  {
+   "key": "medication-aide-assistant-certification-examination",
+   "name": "Medication Aide/Assistant Certification Examination",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "An examination that leads to certification as a medication aide or assistant, who gives routine medicines under nursing supervision.",
+   "certification": true,
+   "certification_scope": "many-issuers",
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "microsoft-azure-certification",
+   "name": "Microsoft Azure certification",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "Any of the credentials Microsoft awards for skills on its Azure cloud platform.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "microsoft-certified-azure-fundamentals",
+   "name": "Microsoft Certified: Azure Fundamentals",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "An entry-level Microsoft certification that shows basic knowledge of cloud concepts and Azure services.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "microsoft-certified-azure-solutions-architect-expert",
+   "name": "Microsoft Certified: Azure Solutions Architect Expert",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A Microsoft certification for architects who design cloud and hybrid solutions on Azure, covering compute, storage, networking and security.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [
+    "Microsoft Certified Azure Solutions Architect"
+   ],
+   "relations": []
+  },
+  {
+   "key": "microsoft-certified-systems-administrator",
+   "name": "Microsoft Certified Systems Administrator",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A Microsoft certification for professionals who manage Windows server environments and networks.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [
+    "Microsoft Certified Systems Administrator (MCSA)"
+   ],
+   "relations": []
+  },
+  {
+   "key": "microsoft-dynamics-365-field-service-certification",
+   "name": "Microsoft Dynamics 365 Field Service certification",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A Microsoft certification that shows skill in configuring and implementing Dynamics 365 Field Service.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "mobile-electronics-certified-professional",
+   "name": "Mobile Electronics Certified Professional",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A certification program for installers of vehicle audio, security and other mobile electronics.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [
+    "Mobile Electronics Certification Programs",
+    "MECP"
+   ],
+   "relations": []
+  },
+  {
+   "key": "national-certified-patient-care-technician",
+   "name": "National Certified Patient Care Technician",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A certification for patient care technicians awarded by the National Center for Competency Testing (NCCT).",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [
+    "NCPCT"
+   ],
+   "relations": [
+    "related:certified-patient-care-technician"
+   ]
+  },
+  {
+   "key": "national-certified-school-counselor",
+   "name": "National Certified School Counselor",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A certification for school counselors awarded by the National Board for Certified Counselors (NBCC).",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "national-registry-emergency-medical-technician",
+   "name": "National Registry Emergency Medical Technician",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "An emergency medical technician certification awarded by the National Registry of Emergency Medical Technicians in the United States.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [
+    "NREMT"
+   ],
+   "relations": []
+  },
+  {
+   "key": "nationally-certified-school-nurse",
+   "name": "Nationally Certified School Nurse",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A certification for school nurses awarded by the National Board for Certification of School Nurses.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [
+    "NCSN"
+   ],
+   "relations": []
+  },
+  {
+   "key": "ncidq-certification",
+   "name": "NCIDQ Certification",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A certification for interior designers awarded by the Council for Interior Design Qualification (CIDQ) to those who meet its education and experience requirements and pass its exams.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [
+    "NCIDQ Certified",
+    "NCIDQ"
+   ],
+   "relations": []
+  },
+  {
+   "key": "neonatal-resuscitation-program",
+   "name": "Neonatal Resuscitation Program",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A training programme from the American Academy of Pediatrics and the American Heart Association on resuscitating newborns.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [
+    "Neonatal Resuscitation Programs",
+    "NRP"
+   ],
+   "relations": []
+  },
+  {
+   "key": "nurse-licensure",
+   "name": "Nurse licensure",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A licence, issued by a state or national nursing board, that legally permits a person to practise as a nurse.",
+   "certification": true,
+   "certification_scope": "many-issuers",
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "nurse-practitioner",
+   "name": "Nurse Practitioner",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "An advanced practice nursing credential for registered nurses with graduate education who are licensed by a state and certified in a population focus.",
+   "certification": true,
+   "certification_scope": "many-issuers",
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "nutrition-and-dietetics-technician-registered",
+   "name": "Nutrition and Dietetics Technician, Registered",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A credential from the Commission on Dietetic Registration for nutrition and dietetics technicians who have completed an accredited programme and passed the registration exam.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [
+    "Dietetic Technician Registered (DTR/NDTR)",
+    "Dietetic Technician, Registered",
+    "NDTR",
+    "DTR"
+   ],
+   "relations": []
+  },
+  {
+   "key": "occupational-health-and-safety-technologist",
+   "name": "Occupational Health and Safety Technologist",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A safety credential for technicians who support occupational health and safety work, awarded by the Board of Certified Safety Professionals (BCSP).",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [
+    "OHST"
+   ],
+   "relations": []
+  },
+  {
+   "key": "oncology-certified-nurse",
+   "name": "Oncology Certified Nurse",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A certification for registered nurses who care for people with cancer, awarded by the Oncology Nursing Certification Corporation.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [
+    "OCN"
+   ],
+   "relations": []
+  },
+  {
+   "key": "oracle-certified-associate",
+   "name": "Oracle Certified Associate",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "The entry-level tier of Oracle's certification program, awarded by Oracle after passing an exam in a product area such as Java or Oracle Database.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [
+    "Oracle Certification Asscoiate"
+   ],
+   "relations": []
+  },
+  {
+   "key": "oracle-certified-java-programmer",
+   "name": "Oracle Certified Java Programmer",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "An Oracle certification, earlier offered by Sun Microsystems, showing that a person can write programs in Java SE.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [
+    "OCJP",
+    "OCPJP"
+   ],
+   "relations": []
+  },
+  {
+   "key": "oracle-certified-master",
+   "name": "Oracle Certified Master",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "The highest tier of Oracle's certification program, awarded for passing advanced exams and, in some tracks, a practical assessment.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "oracle-database-11g-administrator-certified-associate",
+   "name": "Oracle Database 11g Administrator Certified Associate",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "An associate-level Oracle certification for administrators of Oracle Database 11g.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [
+    "Database 11g Administrator Certified Associate"
+   ],
+   "relations": []
+  },
+  {
+   "key": "orthopaedic-nurse-certified",
+   "name": "Orthopaedic Nurse Certified",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A certification for registered nurses who work in orthopaedic nursing, awarded by the Orthopaedic Nurses Certification Board.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "osha-safety-certificate",
+   "name": "OSHA safety certificate",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A card or certificate showing completion of occupational safety training under the United States Occupational Safety and Health Administration, such as its 10-hour and 30-hour Outreach courses.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [
+    "OSHA Safety Certificates",
+    "OSHA certificate"
+   ],
+   "relations": []
+  },
+  {
+   "key": "outdoor-emergency-care",
+   "name": "Outdoor Emergency Care",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A National Ski Patrol course and certification in emergency care for injured or ill people in outdoor settings such as ski areas.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "passenger-endorsement",
+   "name": "Passenger endorsement",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A commercial driver's licence endorsement that permits driving vehicles that carry passengers, such as buses.",
+   "certification": true,
+   "certification_scope": "many-issuers",
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "peace-officer-certification",
+   "name": "Peace officer certification",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A certification, awarded by a state or local peace officer standards body, showing that a person has met the training and screening requirements to serve as a sworn peace officer.",
+   "certification": true,
+   "certification_scope": "many-issuers",
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "pediatric-advanced-life-support",
+   "name": "Pediatric Advanced Life Support",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "An American Heart Association course and certification in recognising and treating seriously ill or injured infants and children.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [],
+   "relations": [
+    "related:advanced-cardiovascular-life-support",
+    "related:basic-life-support"
+   ]
+  },
+  {
+   "key": "pega-certified-business-architect",
+   "name": "Pega Certified Business Architect",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A certification from Pega Systems for business architects and analysts who capture requirements and design case lifecycles in Pega applications.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "pega-certified-decisioning-consultant",
+   "name": "Pega Certified Decisioning Consultant",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A certification from Pega Systems for specialists who design decision strategies and next-best-action logic in Pega's decisioning products.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "pega-certified-lead-system-architect",
+   "name": "Pega Certified Lead System Architect",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "The highest certification in Pega Systems' architect path, for architects who design large, enterprise-scale Pega applications.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "pega-certified-senior-system-architect",
+   "name": "Pega Certified Senior System Architect",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A certification from Pega Systems, above System Architect, for developers who design and build more complex Pega applications.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "pega-certified-system-architect",
+   "name": "Pega Certified System Architect",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A certification from Pega Systems for developers who build and configure Pega applications; the entry level of its architect path.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [],
+   "relations": []
+  }
+ ]
+}

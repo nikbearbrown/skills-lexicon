@@ -6,7 +6,7 @@ The lexicon holds what job listings ask for, in four classes: **abilities**, **c
 
 ## What you are asked to give an opinion on
 
-1. **Tag votes.** Is this tag something job listings ask for: yes, no or unsure? (`reviews/tags/`: 2,165 tags that have no entry yet.)
+1. **Tag votes.** Is this tag something job listings ask for: yes, no or unsure? (`reviews/tags/`: the 1,159 tags a model judged not a skill or left unsure, so they have no entry.)
 2. **Claim checks.** For an existing entry, is each claim right: its `definition`, its `kind`, whether it is a `certification`, the `certification_scope` (one issuer or many), the `language_type` (human or programming)? Also each variant (an alternative spelling or abbreviation) and each relation to another entry. (`reviews/skill/`, `certification/`, `language/`, `ability/`.)
 3. **A vote on the entry's tag**, in the same answer: is this concept something job listings ask for?
 
@@ -18,11 +18,11 @@ Each packet is a JSON file of about 40 entries (100 tags for tag packets), writt
 
 | Folder | What | Packets |
 |---|---|---|
-| `skill/packets/` | skills: tools, methods, standards, knowledge. Never had a second-model check | p001 to p054 (2,134 entries) |
-| `tags/packets/` | tags with no entry yet, to vote yes, no or unsure on | p001 to p022 (2,165 tags) |
-| `certification/packets/` | certifications | p001 to p011 (427 entries) |
-| `language/packets/` | human and programming languages | p001 to p003 (120 entries) |
-| `ability/packets/` | abilities not taken from O\*NET | p001 (13 entries) |
+| `skill/packets/` | skills: tools, methods, standards, knowledge. 2,134 of the 2,472 have never had a second-model check | p001 to p062 (2,472 entries) |
+| `tags/packets/` | tags with no entry, to vote yes, no or unsure on | p001 to p012 (1,159 tags) |
+| `certification/packets/` | certifications | p001 to p022 (859 entries) |
+| `language/packets/` | human and programming languages | p001 to p008 (290 entries) |
+| `ability/packets/` | abilities not taken from O\*NET | p001 (15 entries) |
 
 Do the packets in that order if you cannot do them all. A single packet is useful. Several models voting on the same packet is the point, so do not skip a packet because another model did it. Skip one only if you already answered it.
 

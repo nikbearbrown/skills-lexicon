@@ -19,6 +19,282 @@
  ],
  "entries": [
   {
+   "key": "smartbidnet",
+   "name": "SmartBidNet",
+   "class": "skill",
+   "kind": "platform",
+   "definition": "Online software for construction companies to invite subcontractors to bid and to manage bid documents and responses.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "smartphone-operation",
+   "name": "Smartphone operation",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Using a smartphone's apps, settings and features for tasks such as calls, messaging and navigation.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "snort",
+   "name": "Snort",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "An open-source network intrusion detection and prevention system that inspects traffic against rules.",
+   "certification": false,
+   "variants": [
+    "Snort (Intrusion Detection System)"
+   ],
+   "relations": [
+    "broader:network-intrusion-detection-system"
+   ]
+  },
+  {
+   "key": "snow-software",
+   "name": "Snow Software",
+   "class": "skill",
+   "kind": "platform",
+   "definition": "A software asset management platform, from the company Snow Software, for tracking software licences and usage.",
+   "certification": false,
+   "variants": [
+    "Snow (Software)"
+   ],
+   "relations": []
+  },
+  {
+   "key": "social-and-behavior-change-communication",
+   "name": "Social and behavior change communication",
+   "class": "skill",
+   "kind": "method",
+   "definition": "A public-health communication approach that uses strategic messaging and community engagement to change both individual behaviours and the social norms around them.",
+   "certification": false,
+   "variants": [
+    "SBCC",
+    "Social and behaviour change communication"
+   ],
+   "relations": [
+    "related:behavior-change-communication"
+   ]
+  },
+  {
+   "key": "social-determinants-of-health",
+   "name": "Social determinants of health",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "The non-medical conditions in which people live and work, such as income, housing and education, that shape their health.",
+   "certification": false,
+   "variants": [
+    "SDOH"
+   ],
+   "relations": []
+  },
+  {
+   "key": "social-emotional-learning",
+   "name": "Social-emotional learning",
+   "class": "skill",
+   "kind": "method",
+   "definition": "An educational approach that teaches skills such as self-awareness, self-management, empathy, relationship skills and responsible decision-making.",
+   "certification": false,
+   "variants": [
+    "SEL",
+    "Social and emotional learning"
+   ],
+   "relations": []
+  },
+  {
+   "key": "social-impact-bond",
+   "name": "Social impact bond",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "A pay-for-success contract in which private investors fund a social programme and are repaid by government only if agreed outcomes are met.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "social-media-advertising",
+   "name": "Social media advertising",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Planning, buying and running paid advertisements on social media platforms.",
+   "certification": false,
+   "variants": [
+    "Social Network Advertising"
+   ],
+   "relations": [
+    "broader:digital-advertising"
+   ]
+  },
+  {
+   "key": "social-media-analytics",
+   "name": "Social media analytics",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Collecting and analysing data from social media accounts and conversations to measure performance and audience behaviour.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "social-media-content-creation",
+   "name": "Social media content creation",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Planning and making posts, images, video and captions for an organisation's or person's social media accounts.",
+   "certification": false,
+   "variants": [],
+   "relations": [
+    "related:content-curation"
+   ]
+  },
+  {
+   "key": "social-media-content-management",
+   "name": "Social media content management",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Planning, scheduling, publishing and reviewing the content on social media accounts.",
+   "certification": false,
+   "variants": [],
+   "relations": [
+    "related:hootsuite"
+   ]
+  },
+  {
+   "key": "social-media-management",
+   "name": "Social media management",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Running social media accounts for a person or organisation, including planning and publishing posts, replying to followers and reporting on results.",
+   "certification": false,
+   "variants": [],
+   "relations": [
+    "related:hootsuite"
+   ]
+  },
+  {
+   "key": "social-media-optimization",
+   "name": "Social media optimization",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Using social media activity and content to raise the visibility of a brand or website and bring traffic to it.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "social-sustainability",
+   "name": "Social sustainability",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "The part of sustainability concerned with the wellbeing, equity and rights of the people and communities affected by an organisation or project.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "sociology-of-education",
+   "name": "Sociology of education",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "The study of how schooling and education relate to social structures, inequality and social change.",
+   "certification": false,
+   "variants": [],
+   "relations": [
+    "related:history-of-education"
+   ]
+  },
+  {
+   "key": "socket-478",
+   "name": "Socket 478",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "A 478-pin CPU socket made by Intel for later Pentium 4 and Celeron processors.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "socket-5",
+   "name": "Socket 5",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "A 320-pin CPU socket used by Intel for its Pentium processors from 75 to 133 MHz.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "sockjs",
+   "name": "SockJS",
+   "class": "skill",
+   "kind": "library",
+   "definition": "A JavaScript library that gives browsers a WebSocket-like object and falls back to other transports when WebSockets are unavailable.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "softrax",
+   "name": "Softrax",
+   "class": "skill",
+   "kind": "platform",
+   "definition": "Software for revenue recognition, billing and contract management, aimed at software and subscription companies.",
+   "certification": false,
+   "variants": [
+    "Softrax (Software)"
+   ],
+   "relations": []
+  },
+  {
+   "key": "software-architecture",
+   "name": "Software architecture",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Designing software structure and major component interactions.",
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "software-as-a-service",
+   "name": "Software as a service",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "A way of delivering software over the internet by subscription, hosted by the provider instead of installed by the customer.",
+   "certification": false,
+   "variants": [
+    "Software as a Service (SaaS)",
+    "SaaS",
+    "Software As A Services"
+   ],
+   "relations": []
+  },
+  {
+   "key": "software-defined-wan",
+   "name": "Software-defined WAN",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "A way of running a wide area network in which software centrally controls how traffic is routed across links such as broadband, MPLS and cellular.",
+   "certification": false,
+   "variants": [
+    "Software-Defined Networking Wide Area Network (SD-WAN)",
+    "SD-WAN",
+    "Software-defined wide area network"
+   ],
+   "relations": []
+  },
+  {
+   "key": "software-engineering",
+   "name": "Software engineering",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "Systematic design, construction and maintenance of software.",
+   "variants": [],
+   "relations": []
+  },
+  {
    "key": "software-localization",
    "name": "Software localization",
    "class": "skill",
@@ -161,7 +437,8 @@
    "definition": "A centralised version control system from SourceGear.",
    "certification": false,
    "variants": [
-    "SourceGear Vault (Revision Control System)"
+    "SourceGear Vault (Revision Control System)",
+    "Vault (Revision Control System)"
    ],
    "relations": []
   },
@@ -197,284 +474,6 @@
    "definition": "The teaching of students whose learning needs arise from disabilities or other exceptionalities, using adapted methods and supports.",
    "certification": false,
    "variants": [],
-   "relations": []
-  },
-  {
-   "key": "special-education-law",
-   "name": "Special education law",
-   "class": "skill",
-   "kind": "knowledge",
-   "definition": "The body of law, such as the US Individuals with Disabilities Education Act, that sets the rights and services owed to students with disabilities.",
-   "certification": false,
-   "variants": [],
-   "relations": [
-    "related:individualized-education-program"
-   ]
-  },
-  {
-   "key": "special-hazards-suppression-systems",
-   "name": "Special hazards suppression systems",
-   "class": "skill",
-   "kind": "knowledge",
-   "definition": "Fire suppression systems that use gas, foam or other agents to protect high-value or high-risk areas, such as data centres and flammable-liquid stores.",
-   "certification": false,
-   "variants": [],
-   "relations": []
-  },
-  {
-   "key": "special-use-airspace",
-   "name": "Special use airspace",
-   "class": "skill",
-   "kind": "knowledge",
-   "definition": "Airspace in which flight activity is restricted or the activities of other users are limited, such as restricted, prohibited and military operations areas.",
-   "certification": false,
-   "variants": [],
-   "relations": []
-  },
-  {
-   "key": "specimen-processing",
-   "name": "Specimen processing",
-   "class": "skill",
-   "kind": "skill",
-   "definition": "Receiving, labelling and preparing clinical specimens so they are ready for laboratory testing.",
-   "certification": false,
-   "variants": [],
-   "relations": []
-  },
-  {
-   "key": "spray-gun",
-   "name": "Spray gun",
-   "class": "skill",
-   "kind": "tool",
-   "definition": "A handheld tool that uses compressed air or pressure to spray paint or other liquid coatings onto a surface.",
-   "certification": false,
-   "variants": [
-    "Paint Guns",
-    "Paint gun",
-    "Paint spray gun"
-   ],
-   "relations": []
-  },
-  {
-   "key": "sql-92",
-   "name": "SQL-92",
-   "class": "skill",
-   "kind": "standard",
-   "definition": "The 1992 revision of the SQL standard, which defined entry, intermediate and full levels of the database query language.",
-   "certification": false,
-   "variants": [
-    "SQL92",
-    "SQL2"
-   ],
-   "relations": [
-    "broader:sql"
-   ]
-  },
-  {
-   "key": "sql-server-express-localdb",
-   "name": "SQL Server Express LocalDB",
-   "class": "skill",
-   "kind": "platform",
-   "definition": "A lightweight version of the SQL Server Express database engine for developers that starts on demand and needs no server setup.",
-   "certification": false,
-   "variants": [
-    "Localdb"
-   ],
-   "relations": []
-  },
-  {
-   "key": "sql-server-integration-services",
-   "name": "SQL Server Integration Services",
-   "class": "skill",
-   "kind": "tool",
-   "definition": "Microsoft's tool in SQL Server for building data integration and extract, transform and load workflows.",
-   "certification": false,
-   "variants": [
-    "SSIS"
-   ],
-   "relations": [
-    "related:business-integration-software"
-   ]
-  },
-  {
-   "key": "sql-tuning",
-   "name": "SQL tuning",
-   "class": "skill",
-   "kind": "skill",
-   "definition": "Improving the speed and resource use of SQL queries, for example by rewriting them and adjusting indexes and statistics.",
-   "certification": false,
-   "variants": [
-    "SQL performance tuning"
-   ],
-   "relations": []
-  },
-  {
-   "key": "statistics",
-   "name": "Statistics",
-   "class": "skill",
-   "kind": "knowledge",
-   "definition": "Methods for reasoning from data and uncertainty.",
-   "variants": [
-    "statistical analysis"
-   ],
-   "relations": []
-  },
-  {
-   "key": "stm32-nucleo",
-   "name": "STM32 Nucleo",
-   "class": "skill",
-   "kind": "tool",
-   "definition": "A family of low-cost microcontroller development boards from STMicroelectronics built around STM32 chips.",
-   "certification": false,
-   "variants": [
-    "Nucleo"
-   ],
-   "relations": []
-  },
-  {
-   "key": "swift-network",
-   "name": "SWIFT network",
-   "class": "skill",
-   "kind": "platform",
-   "definition": "Financial messaging network; not the programming language.",
-   "variants": [
-    "Swift"
-   ],
-   "relations": []
-  },
-  {
-   "key": "technical-writing",
-   "name": "Technical writing",
-   "class": "skill",
-   "kind": "skill",
-   "definition": "Communicating technical information clearly in written form.",
-   "variants": [],
-   "relations": []
-  },
-  {
-   "key": "tensorflow",
-   "name": "TensorFlow",
-   "class": "skill",
-   "kind": "library",
-   "definition": "Building and executing machine-learning models with TensorFlow.",
-   "variants": [],
-   "relations": []
-  },
-  {
-   "key": "testing",
-   "name": "Software testing",
-   "class": "skill",
-   "kind": "skill",
-   "definition": "Designing checks and cases to evaluate software behavior.",
-   "variants": [
-    "testing",
-    "Verification And Validation (Software)"
-   ],
-   "relations": []
-  },
-  {
-   "key": "tl-9000",
-   "name": "TL 9000",
-   "class": "skill",
-   "kind": "knowledge",
-   "definition": "A quality management system standard for the telecommunications industry, built on ISO 9001.",
-   "certification": false,
-   "variants": [
-    "TL9000"
-   ],
-   "relations": []
-  },
-  {
-   "key": "tool-use",
-   "name": "Agent tool use",
-   "class": "skill",
-   "kind": "skill",
-   "definition": "Connecting an agent to bounded external capabilities.",
-   "variants": [
-    "Tool Use and Function Calling",
-    "function calling"
-   ],
-   "relations": []
-  },
-  {
-   "key": "training-material-development",
-   "name": "Training material development",
-   "class": "skill",
-   "kind": "skill",
-   "definition": "Creating the guides, slides, exercises and other content used to teach people a job or a product.",
-   "certification": false,
-   "variants": [
-    "Developing Training Materials"
-   ],
-   "relations": []
-  },
-  {
-   "key": "ultratax-cs",
-   "name": "UltraTax CS",
-   "class": "skill",
-   "kind": "tool",
-   "definition": "Thomson Reuters software that accounting firms use to prepare tax returns.",
-   "certification": false,
-   "variants": [
-    "UltraTax"
-   ],
-   "relations": []
-  },
-  {
-   "key": "unisys-mapper",
-   "name": "Unisys MAPPER",
-   "class": "skill",
-   "kind": "tool",
-   "definition": "A Unisys reporting and application development system for building database reports and applications, mainly on mainframes.",
-   "certification": false,
-   "variants": [
-    "MAintain Prepare And Produce Executive Reports (MAPPER)",
-    "MAintain, Prepare, And Produce Executive Reports (MAPPER)",
-    "MAintain Prepare SandsProduce Executive Reports (MAPPER)"
-   ],
-   "relations": []
-  },
-  {
-   "key": "usability-testing",
-   "name": "Usability testing",
-   "class": "skill",
-   "kind": "method",
-   "definition": "Evaluating how people use an interface to complete tasks.",
-   "variants": [],
-   "relations": []
-  },
-  {
-   "key": "user-experience-design",
-   "name": "User experience design",
-   "class": "skill",
-   "kind": "skill",
-   "definition": "Designing interactions around user needs and usability.",
-   "variants": [
-    "UX design",
-    "user experience"
-   ],
-   "relations": []
-  },
-  {
-   "key": "user-interface-design",
-   "name": "User interface design",
-   "class": "skill",
-   "kind": "skill",
-   "definition": "Designing the visible controls and presentation of interactive software.",
-   "variants": [
-    "UI design"
-   ],
-   "relations": []
-  },
-  {
-   "key": "user-research",
-   "name": "User research",
-   "class": "skill",
-   "kind": "method",
-   "definition": "Investigating user needs and behavior to inform design.",
-   "variants": [
-    "UX Research"
-   ],
    "relations": []
   }
  ]

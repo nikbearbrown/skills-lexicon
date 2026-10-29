@@ -19,6 +19,66 @@
  ],
  "entries": [
   {
+   "key": "apache-mahout",
+   "name": "Apache Mahout",
+   "class": "skill",
+   "kind": "library",
+   "definition": "An Apache library for scalable machine learning and linear algebra on distributed data.",
+   "certification": false,
+   "variants": [
+    "Mahout"
+   ],
+   "relations": []
+  },
+  {
+   "key": "apache-mesos",
+   "name": "Apache Mesos",
+   "class": "skill",
+   "kind": "platform",
+   "definition": "An open-source cluster manager that pools the CPU, memory and storage of many machines and shares them among applications.",
+   "certification": false,
+   "variants": [
+    "Mesos"
+   ],
+   "relations": []
+  },
+  {
+   "key": "apache-nifi",
+   "name": "Apache NiFi",
+   "class": "skill",
+   "kind": "platform",
+   "definition": "A system for automating the movement of data between systems, in which data flows are designed in a web-based interface.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "apache-objectrelationalbridge",
+   "name": "Apache ObJectRelationalBridge",
+   "class": "skill",
+   "kind": "library",
+   "definition": "A Java object-relational mapping tool that stores and retrieves Java objects in relational databases.",
+   "certification": false,
+   "variants": [
+    "Apache ObJectRelationalBridge (OJB)",
+    "Apache OJB",
+    "OJB"
+   ],
+   "relations": []
+  },
+  {
+   "key": "apache-ofbiz",
+   "name": "Apache OFBiz",
+   "class": "skill",
+   "kind": "platform",
+   "definition": "An open-source Java platform for enterprise resource planning and e-commerce, made of a framework and ready-made business applications.",
+   "certification": false,
+   "variants": [
+    "OFBiz"
+   ],
+   "relations": []
+  },
+  {
    "key": "apache-openejb",
    "name": "Apache OpenEJB",
    "class": "skill",
@@ -74,6 +134,30 @@
    "definition": "An open-source engine for large-scale data processing and analytics, with programming interfaces for Scala, Java, Python and R.",
    "certification": false,
    "variants": [],
+   "relations": []
+  },
+  {
+   "key": "apache-tiles",
+   "name": "Apache Tiles",
+   "class": "skill",
+   "kind": "framework",
+   "definition": "A Java templating framework for building web pages from reusable page fragments, with version 2 widely used with Spring and Struts.",
+   "certification": false,
+   "variants": [
+    "Tiles2"
+   ],
+   "relations": []
+  },
+  {
+   "key": "apache-tinkerpop",
+   "name": "Apache TinkerPop",
+   "class": "skill",
+   "kind": "framework",
+   "definition": "An open-source graph computing framework from the Apache Software Foundation that provides the Gremlin traversal language and a common interface to graph databases.",
+   "certification": false,
+   "variants": [
+    "Tinkerpop"
+   ],
    "relations": []
   },
   {
@@ -377,85 +461,6 @@
    "definition": "Producing realistic images of a planned building or interior from a 3D design model.",
    "certification": false,
    "variants": [],
-   "relations": []
-  },
-  {
-   "key": "architectural-visualization",
-   "name": "Architectural visualization",
-   "class": "skill",
-   "kind": "skill",
-   "definition": "Producing images, animations or virtual walkthroughs that show how a planned building or space will look before it is built.",
-   "certification": false,
-   "variants": [],
-   "relations": []
-  },
-  {
-   "key": "arcsight-enterprise-security-manager",
-   "name": "ArcSight Enterprise Security Manager",
-   "class": "skill",
-   "kind": "platform",
-   "definition": "A security information and event management (SIEM) product that collects and correlates security events from across an organisation to detect threats.",
-   "certification": false,
-   "variants": [
-    "ArcSight ESM"
-   ],
-   "relations": []
-  },
-  {
-   "key": "areca-backup",
-   "name": "Areca Backup",
-   "class": "skill",
-   "kind": "tool",
-   "definition": "A free, open-source file backup application written in Java.",
-   "certification": false,
-   "variants": [],
-   "relations": []
-  },
-  {
-   "key": "argo-cd",
-   "name": "Argo CD",
-   "class": "skill",
-   "kind": "tool",
-   "definition": "A declarative GitOps continuous-delivery tool that keeps applications on Kubernetes in sync with configuration stored in Git.",
-   "certification": false,
-   "variants": [
-    "ArgoCD"
-   ],
-   "relations": []
-  },
-  {
-   "key": "arithmetic",
-   "name": "Arithmetic",
-   "class": "skill",
-   "kind": "knowledge",
-   "definition": "The branch of mathematics that deals with calculating with numbers using addition, subtraction, multiplication and division.",
-   "certification": false,
-   "variants": [
-    "Arithmetics"
-   ],
-   "relations": []
-  },
-  {
-   "key": "arkit",
-   "name": "ARKit",
-   "class": "skill",
-   "kind": "framework",
-   "definition": "Apple's framework for building augmented reality apps on iOS and iPadOS.",
-   "certification": false,
-   "variants": [],
-   "relations": []
-  },
-  {
-   "key": "armed-forces-health-longitudinal-technology-application",
-   "name": "Armed Forces Health Longitudinal Technology Application",
-   "class": "skill",
-   "kind": "tool",
-   "definition": "The electronic health record system that the US Department of Defense used across its Military Health System to document patient care.",
-   "certification": false,
-   "variants": [
-    "Armed Forces Health Longitudinal Technology Application (AHTLA)",
-    "AHLTA"
-   ],
    "relations": []
   }
  ]

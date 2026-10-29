@@ -19,6 +19,245 @@
  ],
  "entries": [
   {
+   "key": "phantomjs",
+   "name": "PhantomJS",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "A headless web browser scripted with JavaScript, used for automated testing and page rendering, which is no longer actively developed.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "pharmaceutical-batch-documentation",
+   "name": "Pharmaceutical batch documentation",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Preparing, completing and reviewing the batch records that show how each batch of a medicine was made, tested and released.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "pharmacogenetics",
+   "name": "Pharmacogenetics",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "The study of how a person's inherited genetic differences affect their response to drugs.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "pharmacoinformatics",
+   "name": "Pharmacoinformatics",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "The use of computing and data analysis to study drugs, how they act in the body and how they are used.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "pharmacy-operations",
+   "name": "Pharmacy operations",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Running the day-to-day work of a pharmacy, such as dispensing, inventory, billing and staffing.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "philosophy-of-religion",
+   "name": "Philosophy of religion",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "The branch of philosophy that examines religious beliefs and concepts, such as the existence of God, evil, faith and religious language.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "philosophy-of-science",
+   "name": "Philosophy of science",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "The branch of philosophy that studies the foundations, methods and implications of science, such as what counts as evidence and explanation.",
+   "certification": false,
+   "variants": [],
+   "relations": [
+    "related:history-of-science"
+   ]
+  },
+  {
+   "key": "photo-retouching",
+   "name": "Photo retouching",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Editing a photograph to remove flaws and improve its appearance, such as blemishes, colour and lighting.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "php-frameworks",
+   "name": "PHP frameworks",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "Software frameworks for building web applications in PHP, such as Laravel, Symfony and CodeIgniter.",
+   "certification": false,
+   "variants": [],
+   "relations": [
+    "related:nette"
+   ]
+  },
+  {
+   "key": "phpbb",
+   "name": "phpBB",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "Free, open-source forum (bulletin board) software written in PHP.",
+   "certification": false,
+   "variants": [],
+   "relations": [
+    "related:php"
+   ]
+  },
+  {
+   "key": "phpdesigner",
+   "name": "phpDesigner",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "A code editor and integrated development environment for PHP, from MPSoftware, for Windows.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "phpdocx",
+   "name": "phpdocx",
+   "class": "skill",
+   "kind": "library",
+   "definition": "A PHP library for creating and editing Word (.docx) documents from code.",
+   "certification": false,
+   "variants": [],
+   "relations": [
+    "related:php"
+   ]
+  },
+  {
+   "key": "phped",
+   "name": "PhpED",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "A commercial integrated development environment for PHP from NuSphere.",
+   "certification": false,
+   "variants": [],
+   "relations": [
+    "related:php"
+   ]
+  },
+  {
+   "key": "phpexcel",
+   "name": "PHPExcel",
+   "class": "skill",
+   "kind": "library",
+   "definition": "A PHP library for reading and writing spreadsheet files such as Excel; it is no longer maintained and was replaced by PhpSpreadsheet.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "phpfox",
+   "name": "phpFox",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "Commercial PHP software for building social-networking websites.",
+   "certification": false,
+   "variants": [],
+   "relations": [
+    "related:php"
+   ]
+  },
+  {
+   "key": "phpgroupware",
+   "name": "phpGroupWare",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "Open-source groupware software, written in PHP, with a calendar, contacts, email and other shared tools.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "phpldapadmin",
+   "name": "phpLDAPadmin",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "A web-based tool, written in PHP, for browsing and administering LDAP directories.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "phplist",
+   "name": "phpList",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "Open-source newsletter and mailing-list manager written in PHP.",
+   "certification": false,
+   "variants": [],
+   "relations": [
+    "related:php"
+   ]
+  },
+  {
+   "key": "phpmailer",
+   "name": "PHPMailer",
+   "class": "skill",
+   "kind": "library",
+   "definition": "A PHP library for sending email, including through SMTP, with HTML bodies and attachments.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "phppgadmin",
+   "name": "phpPgAdmin",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "A web-based tool, written in PHP, for administering PostgreSQL databases.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "phpunit",
+   "name": "PHPUnit",
+   "class": "skill",
+   "kind": "framework",
+   "definition": "A unit-testing framework for PHP, in the xUnit family.",
+   "certification": false,
+   "variants": [],
+   "relations": [
+    "related:php",
+    "related:cunit",
+    "related:jsunit",
+    "related:ocunit"
+   ]
+  },
+  {
+   "key": "phpwebsite",
+   "name": "phpWebSite",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "An open-source content management system written in PHP.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
    "key": "phpwiki",
    "name": "PhpWiki",
    "class": "skill",
@@ -215,7 +454,8 @@
    "certification": false,
    "variants": [
     "Platform as a Service (PaaS)",
-    "PaaS"
+    "PaaS",
+    "Platform As A Services"
    ],
    "relations": [
     "related:software-as-a-service",
@@ -231,262 +471,6 @@
    "definition": "Using play, such as toys, drawing and games, as the way children express feelings and work through problems in therapy.",
    "certification": false,
    "variants": [],
-   "relations": []
-  },
-  {
-   "key": "plink",
-   "name": "PLINK",
-   "class": "skill",
-   "kind": "tool",
-   "definition": "A free, open-source command-line toolset for analysing genotype data, mainly in genome-wide association studies and population genetics.",
-   "certification": false,
-   "variants": [],
-   "relations": []
-  },
-  {
-   "key": "plumbing-drawing",
-   "name": "Plumbing drawing",
-   "class": "skill",
-   "kind": "skill",
-   "definition": "Preparing or reading technical drawings that show the layout of pipes and fixtures in a building.",
-   "certification": false,
-   "variants": [],
-   "relations": []
-  },
-  {
-   "key": "plumbing-plans-examination",
-   "name": "Plumbing plans examination",
-   "class": "skill",
-   "kind": "skill",
-   "definition": "Reviewing plumbing plans to check that they comply with the plumbing code, typically before a building permit is issued.",
-   "certification": false,
-   "variants": [
-    "Plumbing plan review"
-   ],
-   "relations": []
-  },
-  {
-   "key": "point-to-point-tunneling-protocol",
-   "name": "Point-to-Point Tunneling Protocol",
-   "class": "skill",
-   "kind": "standard",
-   "definition": "A network protocol, described in RFC 2637, that carries PPP traffic through a tunnel to build virtual private networks.",
-   "certification": false,
-   "variants": [
-    "Point-To-Point Tunneling Protocols",
-    "PPTP"
-   ],
-   "relations": []
-  },
-  {
-   "key": "police-accountability",
-   "name": "Police accountability",
-   "class": "skill",
-   "kind": "knowledge",
-   "definition": "The laws, oversight bodies and practices, such as civilian review and use-of-force reporting, that hold police answerable for their conduct.",
-   "certification": false,
-   "variants": [],
-   "relations": []
-  },
-  {
-   "key": "police-baton",
-   "name": "Police baton",
-   "class": "skill",
-   "kind": "tool",
-   "definition": "A short club or telescoping rod carried by police and security officers for defensive control.",
-   "certification": false,
-   "variants": [
-    "Baton (Law Enforcement)"
-   ],
-   "relations": []
-  },
-  {
-   "key": "policy-analysis",
-   "name": "Policy analysis",
-   "class": "skill",
-   "kind": "skill",
-   "definition": "Evaluating public policies and their alternatives, costs and likely effects so as to advise the people who decide.",
-   "certification": false,
-   "variants": [],
-   "relations": []
-  },
-  {
-   "key": "poll-everywhere",
-   "name": "Poll Everywhere",
-   "class": "skill",
-   "kind": "tool",
-   "definition": "An online audience-response service where a presenter asks questions and participants answer from their phones or browsers, with results shown live.",
-   "certification": false,
-   "variants": [
-    "Poll Everywhere (Polling Software)"
-   ],
-   "relations": []
-  },
-  {
-   "key": "polycom",
-   "name": "Polycom",
-   "class": "skill",
-   "kind": "tool",
-   "definition": "Video and audio conferencing equipment and software from Polycom, a company that later became part of Poly.",
-   "certification": false,
-   "variants": [
-    "Polycom (Video Conferencing)"
-   ],
-   "relations": []
-  },
-  {
-   "key": "positive-airway-pressure",
-   "name": "Positive airway pressure",
-   "class": "skill",
-   "kind": "skill",
-   "definition": "Treating breathing problems such as sleep apnea by delivering pressurised air through a mask to keep the airway open, as CPAP and BiPAP machines do.",
-   "certification": false,
-   "variants": [
-    "Positive airway pressure therapy"
-   ],
-   "relations": []
-  },
-  {
-   "key": "posix",
-   "name": "POSIX",
-   "class": "skill",
-   "kind": "standard",
-   "definition": "A family of IEEE standards that define a common interface for Unix-like operating systems, covering the shell, utilities and programming interfaces.",
-   "certification": false,
-   "variants": [
-    "Portable Operating System Interface"
-   ],
-   "relations": []
-  },
-  {
-   "key": "post-office-protocol",
-   "name": "Post Office Protocol",
-   "class": "skill",
-   "kind": "standard",
-   "definition": "An internet email protocol that lets a mail program download messages from a mail server; its current version is POP3.",
-   "certification": false,
-   "variants": [
-    "POP3"
-   ],
-   "relations": []
-  },
-  {
-   "key": "postcss",
-   "name": "PostCSS",
-   "class": "skill",
-   "kind": "tool",
-   "definition": "A JavaScript tool that transforms CSS through plugins, for example to add vendor prefixes or allow newer syntax.",
-   "certification": false,
-   "variants": [],
-   "relations": [
-    "related:css"
-   ]
-  },
-  {
-   "key": "postgresql",
-   "name": "PostgreSQL",
-   "class": "skill",
-   "kind": "tool",
-   "definition": "An open-source relational database system queried with SQL.",
-   "variants": [
-    "Postgres",
-    "PG"
-   ],
-   "relations": [
-    "broader:sql"
-   ]
-  },
-  {
-   "key": "postman",
-   "name": "Postman",
-   "class": "skill",
-   "kind": "tool",
-   "definition": "A desktop and cloud application for building, testing and documenting APIs by sending requests and inspecting the responses.",
-   "certification": false,
-   "variants": [],
-   "relations": []
-  },
-  {
-   "key": "postorder-traversal",
-   "name": "Postorder traversal",
-   "class": "skill",
-   "kind": "method",
-   "definition": "Visiting every node of a tree by processing a node's children before the node itself.",
-   "certification": false,
-   "variants": [
-    "Postorder",
-    "Post-order traversal"
-   ],
-   "relations": []
-  },
-  {
-   "key": "pouchdb",
-   "name": "PouchDB",
-   "class": "skill",
-   "kind": "library",
-   "definition": "An open-source JavaScript database that runs in the browser or Node.js and can synchronise with CouchDB.",
-   "certification": false,
-   "variants": [],
-   "relations": []
-  },
-  {
-   "key": "power-automate",
-   "name": "Power Automate",
-   "class": "skill",
-   "kind": "tool",
-   "definition": "Microsoft's cloud service for building automated workflows between apps and services, first released as Microsoft Flow.",
-   "certification": false,
-   "variants": [
-    "Microsoft Flow",
-    "Microsoft Power Automate"
-   ],
-   "relations": []
-  },
-  {
-   "key": "power-flow-study",
-   "name": "Power flow study",
-   "class": "skill",
-   "kind": "skill",
-   "definition": "Calculating the voltages and the real and reactive power flowing through an electrical power system under given load conditions.",
-   "certification": false,
-   "variants": [
-    "Power-Flow Studies",
-    "Load flow study"
-   ],
-   "relations": []
-  },
-  {
-   "key": "power-tool-operation",
-   "name": "Power tool operation",
-   "class": "skill",
-   "kind": "skill",
-   "definition": "Using powered hand and bench tools, such as drills, saws and sanders, to cut, shape or join materials.",
-   "certification": false,
-   "variants": [],
-   "relations": []
-  },
-  {
-   "key": "powered-industrial-truck-operation",
-   "name": "Powered industrial truck operation",
-   "class": "skill",
-   "kind": "skill",
-   "definition": "Driving forklifts and other powered industrial trucks to move and stack loads; in the United States OSHA requires employers to train and evaluate operators.",
-   "certification": false,
-   "variants": [
-    "Powered Industrial Truck (PIT) Operation"
-   ],
-   "relations": []
-  },
-  {
-   "key": "powerschool",
-   "name": "PowerSchool",
-   "class": "skill",
-   "kind": "platform",
-   "definition": "A cloud-based student information system for schools and districts, used for attendance, grades, scheduling and communication with families.",
-   "certification": false,
-   "variants": [
-    "Pearson PowerSchool"
-   ],
    "relations": []
   }
  ]

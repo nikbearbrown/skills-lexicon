@@ -41,11 +41,20 @@ Reviewer notes on the brief (not yet acted on): abbreviations such as DL, PG, RA
 
 | round 07 | 07-a1, 07-a2, 07-a3, 07-a4 | 574 new | 11 variants | 108 not a skill | 95 unsure | 12 rejected | 2746 entries in all |
 
-## Where drafting stopped
+## Drafting finished (rounds 8 to 11)
 
-Drafting stopped after round 7 with **1,196 of 4,652 tags still unresolved** (counting the same-concept pairs rejected at ingest, which come round again as variants). Spend was about $95 against the $120 stop (reported $53.98 for the main session plus an estimated $41.39 for subagents), and a further round would have cost about $13 and left nothing for checking. The remaining budget went to a second-model check of the 500 certification, language and ability entries that had not been reviewed. Rounds 6 and 7 used 200 tags per agent instead of 100, which worked and cut the per-agent overhead.
+The budget was lifted from $120 toward the credit balance for one job: draft the remaining tags. Round 8 (four agents of 200) and round 9 (two agents, 200 and 199) cleared them, round 10 (four tags) retried the duplicates, and the last two (UML and Zend PHP Certification) were filed as variants by the main session, because the drafting agents kept naming them as new entries and the nearest-entry list did not show the existing ones.
 
-Round 8 was already prepared (`/home/user/rounds/round-08`, four agents of 200, of which one slice is entirely certification-list tags) and can be run by launching the agents and then `python3 -I scripts/overnight_step.py collect round-08 <agent> <task id>`.
+| Round | Run labels | New | Variant | Not a skill | Unsure | Rejected | Entries after |
+|---|---|---|---|---|---|---|---|
+| 08 | 08-a1 to 08-a4 | 595 | 13 | 95 | 90 | 7 | 3341 |
+| 09 | 09-a1, 09-a2 | 347 | 44 | 0 | 4 | 4 | 3688 |
+| 10 | 10-a1 | 0 | 1 | 0 | 1 | 2 | 3688 |
+| 11 | 11-main (main session) | 0 | 2 | 0 | 0 | 0 | 3688 |
+
+Round 8 was mostly degrees: one agent got 200 associate, bachelor's and master's degrees in a named field, which a model wrote from a template (the definition changes with the degree level and the field). They are real things job listings ask for, but they are the least informative entries in the lexicon and the likeliest to be merged or generalised later. Round 9 was the last certification-list tags (degrees again) and 199 languages, of which 40 were variants of an existing language.
+
+Drafted entries per round are in `data/skills_batch_*.md`. Rounds 6 to 9 used 200 tags per agent.
 
 ## Reviews of the new entries (second model)
 
@@ -60,15 +69,10 @@ Every certification, language and ability entry drafted from the tag lists has n
 
 ## End state
 
-- **2746 entries**: 2134 skill, 427 certification, 120 language, 65 ability (52 of them O*NET).
-- **10928 claims**; 104 are backed by a matched source (the O*NET abilities) and none by a person.
-- **4550 votes** in the ledger (4550 by models, each with model and effort), 1015 tags where voters disagree.
-- **1196 tags unresolved** and 492 tags that only ever got "unsure" and could be re-drafted by a stronger model.
-- 128 tests pass. Nothing has been merged to `main`; this branch is `overnight-1`.
-- Spend at the stop: about $114 on the pessimistic estimate (reported $60.21 for the main session plus $53.79 estimated for subagents, Opus priced at five times Sonnet).
-
-| round 08 | 08-a1, 08-a2, 08-a3, 08-a4 | 595 new | 13 variants | 95 not a skill | 90 unsure | 7 rejected | 3341 entries in all |
-
-| round 09 | 09-a1, 09-a2 | 347 new | 44 variants | 0 not a skill | 4 unsure | 4 rejected | 3688 entries in all |
-
-| round 10 | 10-a1 | 347 new | 44 variants | 0 not a skill | 4 unsure | 2 rejected | 3688 entries in all |
+- **3688 entries**: 2472 skill, 859 certification, 290 language, 67 ability (52 of them O*NET).
+- **15880 claims**; 104 are backed by a matched source (the O*NET abilities) and none by a person.
+- **5742 votes** in the ledger, each with model and effort.
+- **No tag is unresolved.** 1,162 tags got no entry: 564 were judged not a skill and 598 left unsure by the drafting model. The unsure ones could be re-drafted by a stronger model.
+- **Second-model check:** 2,134 skills, 432 certifications, 170 languages and 2 abilities have none yet (the skills drafted in rounds 1 to 9, and the certifications, languages and abilities drafted in rounds 8 and 9).
+- 133 tests pass. Nothing has been merged to `main`; this branch is `overnight-1`.
+- Spend: about $135 on the pessimistic estimate (reported $73.04 for the main session plus $61.76 estimated for subagents, Opus priced at five times Sonnet). The $120 stop was lifted for the last rounds.

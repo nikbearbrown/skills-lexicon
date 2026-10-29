@@ -19,6 +19,99 @@
  ],
  "entries": [
   {
+   "key": "capybara",
+   "name": "Capybara",
+   "class": "skill",
+   "kind": "library",
+   "definition": "A Ruby library for testing web applications by simulating how a user interacts with them.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "cardiac-stress-testing",
+   "name": "Cardiac stress testing",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Conducting tests that record how the heart responds to physical exercise or to drugs that simulate exercise.",
+   "certification": false,
+   "variants": [
+    "Cardiac Stress Tests"
+   ],
+   "relations": []
+  },
+  {
+   "key": "cardiac-surgery",
+   "name": "Cardiac surgery",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "The surgical specialty that operates on the heart.",
+   "certification": false,
+   "variants": [
+    "Cardiac Surgeries"
+   ],
+   "relations": []
+  },
+  {
+   "key": "cardiac-valve-repair",
+   "name": "Cardiac valve repair",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Surgically reconstructing a damaged heart valve so that it works again without replacing it.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "cardiopulmonary-resuscitation",
+   "name": "Cardiopulmonary resuscitation",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "An emergency procedure that combines chest compressions and rescue breaths to keep blood and oxygen moving when someone's heart or breathing has stopped.",
+   "certification": false,
+   "variants": [
+    "Cardio-Pulmonary Resuscitation (CPR)",
+    "CPR"
+   ],
+   "relations": [
+    "related:neonatal-resuscitation-program"
+   ]
+  },
+  {
+   "key": "cardiothoracic-surgery",
+   "name": "Cardiothoracic surgery",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "The surgical specialty that operates on organs in the chest, mainly the heart and lungs.",
+   "certification": false,
+   "variants": [
+    "Cardiothoracic Surgeries"
+   ],
+   "relations": []
+  },
+  {
+   "key": "cardiovascular-coding",
+   "name": "Cardiovascular coding",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Assigning standard diagnosis and procedure codes to heart and blood-vessel care records for billing and reporting.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "cardiovascular-physiology",
+   "name": "Cardiovascular physiology",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "The study of how the heart and blood vessels work.",
+   "certification": false,
+   "variants": [
+    "CardioVasculars Physiology"
+   ],
+   "relations": []
+  },
+  {
    "key": "care-coordination",
    "name": "Care coordination",
    "class": "skill",
@@ -361,97 +454,8 @@
    "kind": "knowledge",
    "definition": "The US federal and state programme that provides low-cost health coverage for children in families that earn too much for Medicaid.",
    "certification": false,
-   "variants": [],
-   "relations": []
-  },
-  {
-   "key": "children-s-ministry",
-   "name": "Children's ministry",
-   "class": "skill",
-   "kind": "knowledge",
-   "definition": "The programmes, teaching and pastoral care a church provides for its children.",
-   "certification": false,
-   "variants": [],
-   "relations": []
-  },
-  {
-   "key": "chip-design",
-   "name": "Chip design",
-   "class": "skill",
-   "kind": "skill",
-   "definition": "Specifying, laying out and verifying the circuits of an integrated circuit.",
-   "certification": false,
    "variants": [
-    "Integrated circuit design"
-   ],
-   "relations": []
-  },
-  {
-   "key": "chipmunk2d",
-   "name": "Chipmunk2D",
-   "class": "skill",
-   "kind": "library",
-   "definition": "An open-source 2D rigid-body physics library written in C.",
-   "certification": false,
-   "variants": [
-    "Chipmunk (Computer Physics Engines)"
-   ],
-   "relations": []
-  },
-  {
-   "key": "chlorofluorocarbons",
-   "name": "Chlorofluorocarbons",
-   "class": "skill",
-   "kind": "knowledge",
-   "definition": "A class of compounds of carbon, chlorine and fluorine once common as refrigerants and propellants, now phased out because they damage the ozone layer.",
-   "certification": false,
-   "variants": [
-    "Chlorofluorocarbon",
-    "CFCs"
-   ],
-   "relations": []
-  },
-  {
-   "key": "choral-music",
-   "name": "Choral music",
-   "class": "skill",
-   "kind": "knowledge",
-   "definition": "Vocal music written for and performed by a choir.",
-   "certification": false,
-   "variants": [],
-   "relations": []
-  },
-  {
-   "key": "chordiant",
-   "name": "Chordiant",
-   "class": "skill",
-   "kind": "platform",
-   "definition": "A customer-experience management software suite from Chordiant Software, which Pegasystems acquired in 2010.",
-   "certification": false,
-   "variants": [
-    "Chordiant (Software)"
-   ],
-   "relations": []
-  },
-  {
-   "key": "choreography",
-   "name": "Choreography",
-   "class": "skill",
-   "kind": "skill",
-   "definition": "Designing and arranging sequences of movement, most often for dance, theatre and film performances.",
-   "certification": false,
-   "variants": [],
-   "relations": []
-  },
-  {
-   "key": "chromatography-software",
-   "name": "Chromatography software",
-   "class": "skill",
-   "kind": "tool",
-   "definition": "Software that controls chromatography instruments and collects, processes and reports the data they produce.",
-   "certification": false,
-   "variants": [
-    "Chromatography Softwares"
+    "State Children'S Health Insurance Programs"
    ],
    "relations": []
   }

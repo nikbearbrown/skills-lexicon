@@ -1,0 +1,549 @@
+{
+ "allowed_kinds": [
+  "ability",
+  "credential",
+  "framework",
+  "human-language",
+  "knowledge",
+  "library",
+  "markup-language",
+  "method",
+  "modeling-language",
+  "platform",
+  "programming-language",
+  "skill",
+  "standard",
+  "style-language",
+  "tool",
+  "work-activity"
+ ],
+ "entries": [
+  {
+   "key": "slovak",
+   "name": "Slovak",
+   "class": "language",
+   "kind": "human-language",
+   "definition": "A West Slavic language, the official language of Slovakia.",
+   "certification": false,
+   "language_type": "human",
+   "variants": [
+    "Slovak (Language)"
+   ],
+   "relations": []
+  },
+  {
+   "key": "slovene",
+   "name": "Slovene",
+   "class": "language",
+   "kind": "human-language",
+   "definition": "A South Slavic language spoken mainly in Slovenia.",
+   "certification": false,
+   "language_type": "human",
+   "variants": [
+    "Slovene Language",
+    "Slovenian"
+   ],
+   "relations": []
+  },
+  {
+   "key": "smalltalk",
+   "name": "Smalltalk",
+   "class": "language",
+   "kind": "programming-language",
+   "definition": "A pure object-oriented programming language and environment developed at Xerox PARC in the 1970s.",
+   "certification": false,
+   "language_type": "programming",
+   "variants": [
+    "Smalltalk (Programming Language)"
+   ],
+   "relations": []
+  },
+  {
+   "key": "sogdian",
+   "name": "Sogdian",
+   "class": "language",
+   "kind": "human-language",
+   "definition": "An extinct Eastern Iranian language that served as a trade language along the Silk Road.",
+   "certification": false,
+   "language_type": "human",
+   "variants": [
+    "Sogdian (Language)"
+   ],
+   "relations": []
+  },
+  {
+   "key": "somali",
+   "name": "Somali",
+   "class": "language",
+   "kind": "human-language",
+   "definition": "A Cushitic language, the official language of Somalia.",
+   "certification": false,
+   "language_type": "human",
+   "variants": [
+    "Somali (Language)"
+   ],
+   "relations": []
+  },
+  {
+   "key": "spanish",
+   "name": "Spanish",
+   "class": "language",
+   "kind": "human-language",
+   "definition": "A Romance language spoken in Spain, Latin America and many other countries.",
+   "certification": false,
+   "language_type": "human",
+   "variants": [
+    "Spanish (Language)",
+    "Español"
+   ],
+   "relations": []
+  },
+  {
+   "key": "sql",
+   "name": "SQL",
+   "class": "language",
+   "kind": "programming-language",
+   "definition": "Expressing database queries and data operations in SQL.",
+   "variants": [
+    "Sql (Programming Language)"
+   ],
+   "relations": []
+  },
+  {
+   "key": "sumerian",
+   "name": "Sumerian",
+   "class": "language",
+   "kind": "human-language",
+   "definition": "An extinct language of ancient Mesopotamia, written in cuneiform and known from clay tablets.",
+   "certification": false,
+   "language_type": "human",
+   "variants": [
+    "Sumerian (Language)"
+   ],
+   "relations": []
+  },
+  {
+   "key": "sundanese",
+   "name": "Sundanese",
+   "class": "language",
+   "kind": "human-language",
+   "definition": "An Austronesian language spoken by the Sundanese people in West Java, Indonesia.",
+   "certification": false,
+   "language_type": "human",
+   "variants": [
+    "Sundanese (Language)"
+   ],
+   "relations": []
+  },
+  {
+   "key": "swabian-german",
+   "name": "Swabian German",
+   "class": "language",
+   "kind": "human-language",
+   "definition": "An Alemannic dialect of German spoken in Swabia, in the southwest of Germany.",
+   "certification": false,
+   "language_type": "human",
+   "variants": [
+    "Swabian German (Language)"
+   ],
+   "relations": []
+  },
+  {
+   "key": "swahili",
+   "name": "Swahili",
+   "class": "language",
+   "kind": "human-language",
+   "definition": "A Bantu language widely used as a lingua franca in East Africa.",
+   "certification": false,
+   "language_type": "human",
+   "variants": [
+    "Swahili (Language)",
+    "Kiswahili"
+   ],
+   "relations": []
+  },
+  {
+   "key": "swati",
+   "name": "Swati",
+   "class": "language",
+   "kind": "human-language",
+   "definition": "A Bantu language spoken in Eswatini and South Africa, also called siSwati or Swazi.",
+   "certification": false,
+   "language_type": "human",
+   "variants": [
+    "Swati (Language)",
+    "siSwati",
+    "Swazi",
+    "Siswati (swazi) (Language)"
+   ],
+   "relations": []
+  },
+  {
+   "key": "swedish",
+   "name": "Swedish",
+   "class": "language",
+   "kind": "human-language",
+   "definition": "A North Germanic language, the main language of Sweden and an official language of Finland.",
+   "certification": false,
+   "language_type": "human",
+   "variants": [
+    "Swedish (Language)"
+   ],
+   "relations": []
+  },
+  {
+   "key": "swift-language",
+   "name": "Swift",
+   "class": "language",
+   "kind": "programming-language",
+   "definition": "The Swift programming language; the bare label is context-sensitive.",
+   "variants": [
+    "Swift3",
+    "Swift (Programming Language)"
+   ],
+   "relations": []
+  },
+  {
+   "key": "systemverilog",
+   "name": "SystemVerilog",
+   "class": "language",
+   "kind": "modeling-language",
+   "definition": "A hardware description and verification language, built as an extension of Verilog, used to design and test digital circuits.",
+   "certification": false,
+   "language_type": "programming",
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "tajik",
+   "name": "Tajik",
+   "class": "language",
+   "kind": "human-language",
+   "definition": "A variety of Persian, the official language of Tajikistan.",
+   "certification": false,
+   "language_type": "human",
+   "variants": [
+    "Tajik (Language)"
+   ],
+   "relations": []
+  },
+  {
+   "key": "tamil",
+   "name": "Tamil",
+   "class": "language",
+   "kind": "human-language",
+   "definition": "A Dravidian language spoken mainly in Tamil Nadu in India, in Sri Lanka and in Singapore.",
+   "certification": false,
+   "language_type": "human",
+   "variants": [
+    "Tamil (Language)"
+   ],
+   "relations": []
+  },
+  {
+   "key": "tatar",
+   "name": "Tatar",
+   "class": "language",
+   "kind": "human-language",
+   "definition": "A Turkic language spoken mainly in Tatarstan and other parts of Russia.",
+   "certification": false,
+   "language_type": "human",
+   "variants": [
+    "Tatar (Language)"
+   ],
+   "relations": []
+  },
+  {
+   "key": "tcl",
+   "name": "Tcl",
+   "class": "language",
+   "kind": "programming-language",
+   "definition": "A dynamic scripting language, short for Tool Command Language, created by John Ousterhout.",
+   "certification": false,
+   "language_type": "programming",
+   "variants": [
+    "Tcl (Programming Language)",
+    "Tool Command Language"
+   ],
+   "relations": []
+  },
+  {
+   "key": "telugu",
+   "name": "Telugu",
+   "class": "language",
+   "kind": "human-language",
+   "definition": "A Dravidian language spoken mainly in the Indian states of Andhra Pradesh and Telangana.",
+   "certification": false,
+   "language_type": "human",
+   "variants": [
+    "Telugu (Language)"
+   ],
+   "relations": []
+  },
+  {
+   "key": "thai",
+   "name": "Thai",
+   "class": "language",
+   "kind": "human-language",
+   "definition": "A Kra-Dai language, the official language of Thailand.",
+   "certification": false,
+   "language_type": "human",
+   "variants": [
+    "Thai (Language)"
+   ],
+   "relations": []
+  },
+  {
+   "key": "tharu",
+   "name": "Tharu",
+   "class": "language",
+   "kind": "human-language",
+   "definition": "A group of Indo-Aryan languages spoken by the Tharu people of the Terai in Nepal and northern India.",
+   "certification": false,
+   "language_type": "human",
+   "variants": [
+    "Tharu (Language)"
+   ],
+   "relations": []
+  },
+  {
+   "key": "tibetan",
+   "name": "Tibetan",
+   "class": "language",
+   "kind": "human-language",
+   "definition": "A Sino-Tibetan language spoken mainly on the Tibetan Plateau and written in the Tibetan script.",
+   "certification": false,
+   "language_type": "human",
+   "variants": [
+    "Tibetan (Language)",
+    "Tibetan language"
+   ],
+   "relations": []
+  },
+  {
+   "key": "tigrinya",
+   "name": "Tigrinya",
+   "class": "language",
+   "kind": "human-language",
+   "definition": "A Semitic language spoken in Eritrea and the Tigray region of Ethiopia.",
+   "certification": false,
+   "language_type": "human",
+   "variants": [
+    "Tigrinya (Language)"
+   ],
+   "relations": []
+  },
+  {
+   "key": "tswana",
+   "name": "Tswana",
+   "class": "language",
+   "kind": "human-language",
+   "definition": "A Bantu language, the national language of Botswana and one of the official languages of South Africa.",
+   "certification": false,
+   "language_type": "human",
+   "variants": [
+    "Tswana (Language)",
+    "Setswana"
+   ],
+   "relations": []
+  },
+  {
+   "key": "tulu",
+   "name": "Tulu",
+   "class": "language",
+   "kind": "human-language",
+   "definition": "A Dravidian language spoken mainly in coastal Karnataka and northern Kerala, India.",
+   "certification": false,
+   "language_type": "human",
+   "variants": [
+    "Tulu (Language)",
+    "Tulu language"
+   ],
+   "relations": []
+  },
+  {
+   "key": "turkish",
+   "name": "Turkish",
+   "class": "language",
+   "kind": "human-language",
+   "definition": "A Turkic language spoken mainly in Turkey and Cyprus, and the official language of Turkey.",
+   "certification": false,
+   "language_type": "human",
+   "variants": [
+    "Turkish Language",
+    "Turkish (Language)"
+   ],
+   "relations": []
+  },
+  {
+   "key": "turkmen",
+   "name": "Turkmen",
+   "class": "language",
+   "kind": "human-language",
+   "definition": "A Turkic language, the official language of Turkmenistan.",
+   "certification": false,
+   "language_type": "human",
+   "variants": [
+    "Turkmen (Language)"
+   ],
+   "relations": []
+  },
+  {
+   "key": "typescript",
+   "name": "TypeScript",
+   "class": "language",
+   "kind": "programming-language",
+   "definition": "Writing typed JavaScript programs with TypeScript.",
+   "variants": [
+    "Typescript (Programming Language)"
+   ],
+   "relations": []
+  },
+  {
+   "key": "u-sql",
+   "name": "U-SQL",
+   "class": "language",
+   "kind": "programming-language",
+   "definition": "A Microsoft query language that combines SQL-like syntax with C# expressions, designed for large-scale data processing in Azure Data Lake Analytics.",
+   "certification": false,
+   "language_type": "programming",
+   "variants": [
+    "U Sql"
+   ],
+   "relations": [
+    "related:sql"
+   ]
+  },
+  {
+   "key": "ukrainian",
+   "name": "Ukrainian",
+   "class": "language",
+   "kind": "human-language",
+   "definition": "An East Slavic language, the official language of Ukraine.",
+   "certification": false,
+   "language_type": "human",
+   "variants": [
+    "Ukrainian (Language)"
+   ],
+   "relations": []
+  },
+  {
+   "key": "uml",
+   "name": "UML",
+   "class": "language",
+   "kind": "modeling-language",
+   "definition": "A language for modeling software systems.",
+   "variants": [
+    "Unified Modeling Languages"
+   ],
+   "relations": []
+  },
+  {
+   "key": "unityscript",
+   "name": "UnityScript",
+   "class": "language",
+   "kind": "programming-language",
+   "definition": "A JavaScript-like scripting language that was used to write scripts for the Unity game engine and has since been removed from it.",
+   "certification": false,
+   "language_type": "programming",
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "urdu",
+   "name": "Urdu",
+   "class": "language",
+   "kind": "human-language",
+   "definition": "An Indo-Aryan language, the national language of Pakistan and one of the official languages of India.",
+   "certification": false,
+   "language_type": "human",
+   "variants": [
+    "Urdu (Language)"
+   ],
+   "relations": []
+  },
+  {
+   "key": "uyghur",
+   "name": "Uyghur",
+   "class": "language",
+   "kind": "human-language",
+   "definition": "A Turkic language spoken mainly by the Uyghur people in Xinjiang, China.",
+   "certification": false,
+   "language_type": "human",
+   "variants": [
+    "Uighur (Language)",
+    "Uighur"
+   ],
+   "relations": []
+  },
+  {
+   "key": "uzbek",
+   "name": "Uzbek",
+   "class": "language",
+   "kind": "human-language",
+   "definition": "A Turkic language, the official language of Uzbekistan.",
+   "certification": false,
+   "language_type": "human",
+   "variants": [
+    "Uzbek (Language)"
+   ],
+   "relations": []
+  },
+  {
+   "key": "verilog",
+   "name": "Verilog",
+   "class": "language",
+   "kind": "modeling-language",
+   "definition": "A hardware description language used to model, simulate and design digital electronic circuits.",
+   "certification": false,
+   "language_type": "programming",
+   "variants": [
+    "Verilog (Programming Language)"
+   ],
+   "relations": [
+    "related:systemverilog"
+   ]
+  },
+  {
+   "key": "vhdl",
+   "name": "VHDL",
+   "class": "language",
+   "kind": "modeling-language",
+   "definition": "A hardware description language, standardized by the IEEE, used to model and design digital circuits; the name abbreviates VHSIC Hardware Description Language.",
+   "certification": false,
+   "language_type": "programming",
+   "variants": [
+    "Vhdl (Programming Language)",
+    "VHSIC Hardware Description Language"
+   ],
+   "relations": []
+  },
+  {
+   "key": "vietnamese",
+   "name": "Vietnamese",
+   "class": "language",
+   "kind": "human-language",
+   "definition": "An Austroasiatic language, the official language of Vietnam.",
+   "certification": false,
+   "language_type": "human",
+   "variants": [
+    "Vietnamese (Language)"
+   ],
+   "relations": []
+  },
+  {
+   "key": "visual-basic-for-applications",
+   "name": "Visual Basic for Applications",
+   "class": "language",
+   "kind": "programming-language",
+   "definition": "The Visual Basic-based scripting language built into Microsoft Office applications, used to automate tasks.",
+   "certification": false,
+   "language_type": "programming",
+   "variants": [
+    "Vba (Programming Language)",
+    "VBA"
+   ],
+   "relations": []
+  }
+ ]
+}

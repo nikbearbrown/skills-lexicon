@@ -1,0 +1,559 @@
+{
+ "allowed_kinds": [
+  "ability",
+  "credential",
+  "framework",
+  "human-language",
+  "knowledge",
+  "library",
+  "markup-language",
+  "method",
+  "modeling-language",
+  "platform",
+  "programming-language",
+  "skill",
+  "standard",
+  "style-language",
+  "tool",
+  "work-activity"
+ ],
+ "entries": [
+  {
+   "key": "phd-in-public-administration",
+   "name": "PhD in Public Administration",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A doctoral research degree in public administration, awarded by universities.",
+   "certification": true,
+   "certification_scope": "many-issuers",
+   "variants": [
+    "Doctor of Philosophy in Public Administration",
+    "Ph.D. in Public Administration"
+   ],
+   "relations": []
+  },
+  {
+   "key": "phd-in-public-health",
+   "name": "PhD in Public Health",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A doctoral research degree in public health, awarded by universities.",
+   "certification": true,
+   "certification_scope": "many-issuers",
+   "variants": [
+    "Doctor of Philosophy in Public Health",
+    "Ph.D. in Public Health"
+   ],
+   "relations": []
+  },
+  {
+   "key": "phd-in-quantum-computing",
+   "name": "PhD in Quantum Computing",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A doctoral research degree in quantum computing, awarded by universities.",
+   "certification": true,
+   "certification_scope": "many-issuers",
+   "variants": [
+    "Doctor of Philosophy in Quantum Computing",
+    "Ph.D. in Quantum Computing"
+   ],
+   "relations": []
+  },
+  {
+   "key": "phd-in-renewable-energy",
+   "name": "PhD in Renewable Energy",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A doctoral research degree in renewable energy, awarded by universities.",
+   "certification": true,
+   "certification_scope": "many-issuers",
+   "variants": [
+    "Doctor of Philosophy in Renewable Energy",
+    "Ph.D. in Renewable Energy"
+   ],
+   "relations": [
+    "related:renewable-energy"
+   ]
+  },
+  {
+   "key": "phd-in-robotics",
+   "name": "PhD in Robotics",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A doctoral research degree in robotics, awarded by universities.",
+   "certification": true,
+   "certification_scope": "many-issuers",
+   "variants": [
+    "Doctor of Philosophy in Robotics",
+    "Ph.D. in Robotics"
+   ],
+   "relations": []
+  },
+  {
+   "key": "phd-in-social-work",
+   "name": "PhD in Social Work",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A doctoral research degree in social work, awarded by universities.",
+   "certification": true,
+   "certification_scope": "many-issuers",
+   "variants": [
+    "Doctor of Philosophy in Social Work",
+    "Ph.D. in Social Work"
+   ],
+   "relations": []
+  },
+  {
+   "key": "phd-in-sociology",
+   "name": "PhD in Sociology",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A doctoral research degree in sociology, awarded by universities.",
+   "certification": true,
+   "certification_scope": "many-issuers",
+   "variants": [
+    "Doctor of Philosophy in Sociology",
+    "Ph.D. in Sociology"
+   ],
+   "relations": []
+  },
+  {
+   "key": "phd-in-software-engineering",
+   "name": "PhD in Software Engineering",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A doctoral research degree in software engineering, awarded by universities.",
+   "certification": true,
+   "certification_scope": "many-issuers",
+   "variants": [
+    "Doctor of Philosophy in Software Engineering",
+    "Ph.D. in Software Engineering"
+   ],
+   "relations": [
+    "related:software-engineering"
+   ]
+  },
+  {
+   "key": "phd-in-statistics",
+   "name": "PhD in Statistics",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A doctoral research degree in statistics, awarded by universities.",
+   "certification": true,
+   "certification_scope": "many-issuers",
+   "variants": [
+    "Doctor of Philosophy in Statistics",
+    "Ph.D. in Statistics"
+   ],
+   "relations": [
+    "related:statistics"
+   ]
+  },
+  {
+   "key": "phd-in-structural-engineering",
+   "name": "PhD in Structural Engineering",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A doctoral research degree in structural engineering, awarded by universities.",
+   "certification": true,
+   "certification_scope": "many-issuers",
+   "variants": [
+    "Doctor of Philosophy in Structural Engineering",
+    "Ph.D. in Structural Engineering"
+   ],
+   "relations": []
+  },
+  {
+   "key": "phd-in-systems-engineering",
+   "name": "PhD in Systems Engineering",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A doctoral research degree in systems engineering, awarded by universities.",
+   "certification": true,
+   "certification_scope": "many-issuers",
+   "variants": [
+    "Doctor of Philosophy in Systems Engineering",
+    "Ph.D. in Systems Engineering"
+   ],
+   "relations": []
+  },
+  {
+   "key": "phd-in-textile-engineering",
+   "name": "PhD in Textile Engineering",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A doctoral research degree in textile engineering, awarded by universities.",
+   "certification": true,
+   "certification_scope": "many-issuers",
+   "variants": [
+    "Doctor of Philosophy in Textile Engineering",
+    "Ph.D. in Textile Engineering"
+   ],
+   "relations": []
+  },
+  {
+   "key": "phd-in-theatre",
+   "name": "PhD in Theatre",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A doctoral research degree in theatre, awarded by universities.",
+   "certification": true,
+   "certification_scope": "many-issuers",
+   "variants": [
+    "Doctor of Philosophy in Theatre",
+    "Ph.D. in Theatre"
+   ],
+   "relations": []
+  },
+  {
+   "key": "phd-in-theology",
+   "name": "PhD in Theology",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A doctoral research degree in theology, awarded by universities.",
+   "certification": true,
+   "certification_scope": "many-issuers",
+   "variants": [
+    "Doctor of Philosophy in Theology",
+    "Ph.D. in Theology"
+   ],
+   "relations": []
+  },
+  {
+   "key": "phd-in-transportation-engineering",
+   "name": "PhD in Transportation Engineering",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A doctoral research degree in transportation engineering, awarded by universities.",
+   "certification": true,
+   "certification_scope": "many-issuers",
+   "variants": [
+    "Doctor of Philosophy in Transportation Engineering",
+    "Ph.D. in Transportation Engineering"
+   ],
+   "relations": []
+  },
+  {
+   "key": "phd-in-urban-planning",
+   "name": "PhD in Urban Planning",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A doctoral research degree in urban planning, awarded by universities.",
+   "certification": true,
+   "certification_scope": "many-issuers",
+   "variants": [
+    "Doctor of Philosophy in Urban Planning",
+    "Ph.D. in Urban Planning"
+   ],
+   "relations": []
+  },
+  {
+   "key": "phd-in-veterinary-science",
+   "name": "PhD in Veterinary Science",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A doctoral research degree in veterinary science, awarded by universities.",
+   "certification": true,
+   "certification_scope": "many-issuers",
+   "variants": [
+    "Doctor of Philosophy in Veterinary Science",
+    "Ph.D. in Veterinary Science"
+   ],
+   "relations": []
+  },
+  {
+   "key": "phd-in-water-resources-engineering",
+   "name": "PhD in Water Resources Engineering",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A doctoral research degree in water resources engineering, awarded by universities.",
+   "certification": true,
+   "certification_scope": "many-issuers",
+   "variants": [
+    "Doctor of Philosophy in Water Resources Engineering",
+    "Ph.D. in Water Resources Engineering"
+   ],
+   "relations": []
+  },
+  {
+   "key": "phd-in-welding-engineering",
+   "name": "PhD in Welding Engineering",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A doctoral research degree in welding engineering, awarded by universities.",
+   "certification": true,
+   "certification_scope": "many-issuers",
+   "variants": [
+    "Doctor of Philosophy in Welding Engineering",
+    "Ph.D. in Welding Engineering"
+   ],
+   "relations": []
+  },
+  {
+   "key": "phd-in-wood-science-and-engineering",
+   "name": "PhD in Wood Science and Engineering",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A doctoral research degree in wood science and engineering, awarded by universities.",
+   "certification": true,
+   "certification_scope": "many-issuers",
+   "variants": [
+    "Doctor of Philosophy in Wood Science and Engineering",
+    "Ph.D. in Wood Science and Engineering"
+   ],
+   "relations": []
+  },
+  {
+   "key": "pmi-agile-certified-practitioner",
+   "name": "PMI Agile Certified Practitioner",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A Project Management Institute certification for practitioners of agile approaches such as Scrum, Kanban and Lean.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [
+    "Agile Certified Practitioner",
+    "PMI-ACP"
+   ],
+   "relations": []
+  },
+  {
+   "key": "pmi-professional-in-business-analysis",
+   "name": "PMI Professional in Business Analysis",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A Project Management Institute certification for people who analyse business needs, define requirements and manage them through a project.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [
+    "PMI-PBA"
+   ],
+   "relations": []
+  },
+  {
+   "key": "pmi-risk-management-professional",
+   "name": "PMI Risk Management Professional",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A Project Management Institute certification for people who identify and assess project risks and plan responses to them.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [
+    "PMI-RMP"
+   ],
+   "relations": []
+  },
+  {
+   "key": "pmi-scheduling-professional",
+   "name": "PMI Scheduling Professional",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A Project Management Institute certification for people who develop and maintain project schedules.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [
+    "PMI-SP"
+   ],
+   "relations": []
+  },
+  {
+   "key": "portfolio-management-professional",
+   "name": "Portfolio Management Professional",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A Project Management Institute certification for people who manage a portfolio of projects and programs so that it supports an organisation's strategy.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [
+    "PfMP"
+   ],
+   "relations": []
+  },
+  {
+   "key": "progressive-care-certified-nurse",
+   "name": "Progressive Care Certified Nurse",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A nursing certification from the AACN Certification Corporation for nurses who care for acutely ill adult patients in progressive care settings.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [
+    "PCCN"
+   ],
+   "relations": []
+  },
+  {
+   "key": "project-management-certification",
+   "name": "Project management certification",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "Any professional credential that attests to a person's project-management knowledge or skill, such as the PMP or PRINCE2 certifications.",
+   "certification": true,
+   "certification_scope": "many-issuers",
+   "variants": [],
+   "relations": [
+    "related:project-management"
+   ]
+  },
+  {
+   "key": "psychiatric-mental-health-nurse-practitioner",
+   "name": "Psychiatric-Mental Health Nurse Practitioner",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A nurse practitioner credential for providing psychiatric and mental health care to patients across the lifespan.",
+   "certification": true,
+   "certification_scope": "many-issuers",
+   "variants": [
+    "PMHNP"
+   ],
+   "relations": []
+  },
+  {
+   "key": "radiology-certification",
+   "name": "Radiology certification",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "Any professional certification in radiology or radiologic technology, such as those from the American Registry of Radiologic Technologists or the American Board of Radiology.",
+   "certification": true,
+   "certification_scope": "many-issuers",
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "real-estate-broker-license",
+   "name": "Real estate broker license",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A licence, issued by a US state or similar authority, that lets a person act as a real estate broker and handle property sales or lettings for others.",
+   "certification": true,
+   "certification_scope": "many-issuers",
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "real-estate-salesperson-license",
+   "name": "Real estate salesperson license",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A licence, issued by a US state or similar authority, that lets a person sell and lease property for a licensed real estate broker.",
+   "certification": true,
+   "certification_scope": "many-issuers",
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "real-property-administrator",
+   "name": "Real Property Administrator",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A professional designation from BOMI International for people who manage commercial property, earned by completing its coursework and exams.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "red-hat-certification",
+   "name": "Red Hat certification",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "The exams and certifications that Red Hat awards for skills in Linux, automation, containers and its other software, such as RHCSA, RHCE and RHCA.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [
+    "Red Hat Certification Programs"
+   ],
+   "relations": []
+  },
+  {
+   "key": "red-hat-certified-engineer",
+   "name": "Red Hat Certified Engineer",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A Red Hat certification, above Red Hat Certified System Administrator, for engineers who automate and manage Red Hat Enterprise Linux systems.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [
+    "RHCE"
+   ],
+   "relations": []
+  },
+  {
+   "key": "registered-art-therapist",
+   "name": "Registered Art Therapist",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A credential from the Art Therapy Credentials Board for art therapists who have met its education and supervised-practice requirements.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [],
+   "relations": [
+    "related:creative-arts-therapy"
+   ]
+  },
+  {
+   "key": "registered-cardiac-electrophysiology-specialist",
+   "name": "Registered Cardiac Electrophysiology Specialist",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A credential from Cardiovascular Credentialing International for specialists who assist with electrophysiology studies and heart rhythm procedures.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [
+    "RCES"
+   ],
+   "relations": []
+  },
+  {
+   "key": "registered-cardiac-sonographer",
+   "name": "Registered Cardiac Sonographer",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A credential from Cardiovascular Credentialing International for sonographers who perform ultrasound examinations of the heart.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "registered-cardiovascular-invasive-specialist",
+   "name": "Registered Cardiovascular Invasive Specialist",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A credential from Cardiovascular Credentialing International for specialists who assist with invasive procedures in a cardiac catheterisation laboratory.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [
+    "RCIS"
+   ],
+   "relations": []
+  },
+  {
+   "key": "registered-clinical-exercise-physiologist",
+   "name": "Registered Clinical Exercise Physiologist",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A credential for exercise physiologists who plan and supervise exercise programmes for people with chronic disease or disability.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [
+    "RCEP"
+   ],
+   "relations": []
+  },
+  {
+   "key": "registered-communications-distribution-designer",
+   "name": "Registered Communications Distribution Designer",
+   "class": "certification",
+   "kind": "credential",
+   "definition": "A BICSI credential for designers of telecommunications and data cabling distribution systems in buildings.",
+   "certification": true,
+   "certification_scope": "single-issuer",
+   "variants": [
+    "RCDD"
+   ],
+   "relations": []
+  }
+ ]
+}

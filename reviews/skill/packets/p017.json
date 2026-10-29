@@ -19,6 +19,91 @@
  ],
  "entries": [
   {
+   "key": "deposition-geology",
+   "name": "Deposition (geology)",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "The geological process by which sediment, soil or rock is laid down on a landform or land mass.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "design-consultation",
+   "name": "Design consultation",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Advising clients on design choices, such as the look, layout or function of a space, product or service.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "design-documentation",
+   "name": "Design documentation",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Writing and maintaining the drawings, specifications and notes that record how something is designed.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "design-for-manufacturability",
+   "name": "Design for manufacturability",
+   "class": "skill",
+   "kind": "method",
+   "definition": "Designing a product so that it is easy and cheap to make, by taking production methods and limits into account from the start.",
+   "certification": false,
+   "variants": [
+    "Design For Manufacturability (Industrial Design)",
+    "Design for manufacturing"
+   ],
+   "relations": []
+  },
+  {
+   "key": "design-of-experiments",
+   "name": "Design of experiments",
+   "class": "skill",
+   "kind": "method",
+   "definition": "Planning experiments so that the effects of several factors on a result can be measured efficiently and fairly.",
+   "certification": false,
+   "variants": [
+    "Experimental design"
+   ],
+   "relations": []
+  },
+  {
+   "key": "design-review",
+   "name": "Design review",
+   "class": "skill",
+   "kind": "method",
+   "definition": "A formal checkpoint where a design is examined against its requirements so that problems are found before work continues.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "design-validation",
+   "name": "Design validation",
+   "class": "skill",
+   "kind": "method",
+   "definition": "Checking, usually by testing, that a finished design meets the needs of its users and its intended use.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "desktop-management",
+   "name": "Desktop management",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Setting up, updating, securing and supporting an organisation's desktop computers and their software.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
    "key": "desmos",
    "name": "Desmos",
    "class": "skill",
@@ -355,90 +440,6 @@
    "class": "skill",
    "kind": "method",
    "definition": "Using digital technology to change how an organisation works, serves its customers and competes.",
-   "certification": false,
-   "variants": [],
-   "relations": []
-  },
-  {
-   "key": "dijkstra-s-algorithm",
-   "name": "Dijkstra's algorithm",
-   "class": "skill",
-   "kind": "method",
-   "definition": "An algorithm that finds the shortest paths from one node of a weighted graph to all the others, as long as no edge weight is negative.",
-   "certification": false,
-   "variants": [
-    "Dijkstra algorithm"
-   ],
-   "relations": []
-  },
-  {
-   "key": "dimensions-cm",
-   "name": "Dimensions CM",
-   "class": "skill",
-   "kind": "tool",
-   "definition": "Software for version control and for managing changes and releases of software assets, now sold by OpenText.",
-   "certification": false,
-   "variants": [],
-   "relations": []
-  },
-  {
-   "key": "direct-digital-control",
-   "name": "Direct digital control",
-   "class": "skill",
-   "kind": "knowledge",
-   "definition": "Using microprocessor-based controllers, rather than analogue ones, to control building systems such as heating, ventilation and cooling.",
-   "certification": false,
-   "variants": [],
-   "relations": []
-  },
-  {
-   "key": "directx-video-acceleration",
-   "name": "DirectX Video Acceleration",
-   "class": "skill",
-   "kind": "library",
-   "definition": "A Microsoft programming interface that lets video decoding and processing run on a computer's graphics hardware.",
-   "certification": false,
-   "variants": [
-    "DXVA"
-   ],
-   "relations": []
-  },
-  {
-   "key": "disability-insurance",
-   "name": "Disability insurance",
-   "class": "skill",
-   "kind": "knowledge",
-   "definition": "Insurance that pays part of a person's income if illness or injury stops them from working.",
-   "certification": false,
-   "variants": [],
-   "relations": []
-  },
-  {
-   "key": "disaster-loans",
-   "name": "Disaster loans",
-   "class": "skill",
-   "kind": "knowledge",
-   "definition": "Loans that help people and businesses repair or rebuild after a disaster, most notably the low-interest loans made by the US Small Business Administration.",
-   "certification": false,
-   "variants": [],
-   "relations": []
-  },
-  {
-   "key": "discipleship",
-   "name": "Discipleship",
-   "class": "skill",
-   "kind": "skill",
-   "definition": "Teaching and mentoring people in Christian faith and practice, often one to one or in small groups.",
-   "certification": false,
-   "variants": [],
-   "relations": []
-  },
-  {
-   "key": "dispute-management",
-   "name": "Dispute management",
-   "class": "skill",
-   "kind": "skill",
-   "definition": "Handling and resolving disagreements or contested claims, such as disputed payments, between parties.",
    "certification": false,
    "variants": [],
    "relations": []

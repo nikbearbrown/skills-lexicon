@@ -1,0 +1,468 @@
+{
+ "allowed_kinds": [
+  "ability",
+  "credential",
+  "framework",
+  "human-language",
+  "knowledge",
+  "library",
+  "markup-language",
+  "method",
+  "modeling-language",
+  "platform",
+  "programming-language",
+  "skill",
+  "standard",
+  "style-language",
+  "tool",
+  "work-activity"
+ ],
+ "entries": [
+  {
+   "key": "webvr",
+   "name": "WebVR",
+   "class": "skill",
+   "kind": "library",
+   "definition": "A JavaScript API that let web pages show virtual reality content on headsets, since replaced by WebXR.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "weed-control",
+   "name": "Weed control",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Managing or removing unwanted plants in crops, lawns and other land by mechanical, chemical, cultural or biological means.",
+   "certification": false,
+   "variants": [
+    "Weed Controls"
+   ],
+   "relations": []
+  },
+  {
+   "key": "welding-symbols",
+   "name": "Welding symbols",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "The standardised symbols on engineering drawings that show the type, size, location and process of each weld.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "whatsapp",
+   "name": "WhatsApp",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "A mobile messaging and voice and video calling app owned by Meta.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "wi-fi-6",
+   "name": "Wi-Fi 6",
+   "class": "skill",
+   "kind": "standard",
+   "definition": "The Wi-Fi Alliance name for the IEEE 802.11ax wireless networking standard.",
+   "certification": false,
+   "variants": [
+    "802.11ax",
+    "IEEE 802.11ax"
+   ],
+   "relations": []
+  },
+  {
+   "key": "wi-fi-architecture",
+   "name": "Wi-Fi architecture",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "The design of Wi-Fi wireless networks, including how access points, controllers, clients and channels are arranged to give coverage and capacity.",
+   "certification": false,
+   "variants": [
+    "WiFi Architecture"
+   ],
+   "relations": []
+  },
+  {
+   "key": "wi-fi-direct",
+   "name": "Wi-Fi Direct",
+   "class": "skill",
+   "kind": "standard",
+   "definition": "A Wi-Fi Alliance specification that lets devices connect to each other directly over Wi-Fi without a router or access point.",
+   "certification": false,
+   "variants": [
+    "Wifi Direct"
+   ],
+   "relations": []
+  },
+  {
+   "key": "wi-fi-security",
+   "name": "Wi-Fi security",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "Protecting wireless networks and their users, for example with encryption protocols such as WPA2 and WPA3, authentication and access control.",
+   "certification": false,
+   "variants": [
+    "WiFi Security"
+   ],
+   "relations": [
+    "broader:cybersecurity"
+   ]
+  },
+  {
+   "key": "wi-fi-test-engineering",
+   "name": "Wi-Fi test engineering",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Testing Wi-Fi devices and networks for conformance, interoperability and performance.",
+   "certification": false,
+   "variants": [
+    "WiFi Test Engineering"
+   ],
+   "relations": []
+  },
+  {
+   "key": "wide-area-network",
+   "name": "Wide area network",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "A computer network that links sites across a large geographic area, such as cities or countries.",
+   "certification": false,
+   "variants": [
+    "Wide Area Networks"
+   ],
+   "relations": [
+    "broader:computer-networking",
+    "related:software-defined-wan"
+   ]
+  },
+  {
+   "key": "wildlife-observation",
+   "name": "Wildlife observation",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Watching and recording wild animals, their behaviour and their numbers in the field.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "will-and-testament-preparation",
+   "name": "Will and testament preparation",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Drafting a will, the legal document that states how a person's property is to be distributed after death.",
+   "certification": false,
+   "variants": [
+    "Will preparation",
+    "Will drafting"
+   ],
+   "relations": []
+  },
+  {
+   "key": "windows-10",
+   "name": "Windows 10",
+   "class": "skill",
+   "kind": "platform",
+   "definition": "The Microsoft operating system for personal computers released in 2015.",
+   "certification": false,
+   "variants": [
+    "Microsoft Windows 10"
+   ],
+   "relations": []
+  },
+  {
+   "key": "windows-7",
+   "name": "Windows 7",
+   "class": "skill",
+   "kind": "platform",
+   "definition": "The Microsoft operating system for personal computers released in 2009.",
+   "certification": false,
+   "variants": [
+    "Microsoft Windows 7"
+   ],
+   "relations": []
+  },
+  {
+   "key": "windows-8",
+   "name": "Windows 8",
+   "class": "skill",
+   "kind": "platform",
+   "definition": "The Microsoft operating system for personal computers released in 2012, known for its tile-based Start screen.",
+   "certification": false,
+   "variants": [
+    "Microsoft Windows 8"
+   ],
+   "relations": []
+  },
+  {
+   "key": "windows-meeting-space",
+   "name": "Windows Meeting Space",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "A Windows Vista feature for sharing programs and documents with other people over a network during a meeting.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "windows-performance-analyzer",
+   "name": "Windows Performance Analyzer",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "A Microsoft tool for viewing and analysing event traces to find performance problems in Windows and its software.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "windows-performance-recorder",
+   "name": "Windows Performance Recorder",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "A Microsoft tool for recording event traces of how Windows and its software perform, for later analysis.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "windows-performance-toolkit",
+   "name": "Windows Performance Toolkit",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "A set of Microsoft tools for recording and analysing event traces to diagnose performance problems on Windows.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "windows-software-development",
+   "name": "Windows software development",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Writing software that runs on the Microsoft Windows operating system.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "windows-software-trace-preprocessor",
+   "name": "Windows software trace preprocessor",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "A Microsoft preprocessor, part of the Windows Driver Kit, that adds event-tracing code to software such as drivers.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "windows-support",
+   "name": "Windows support",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Helping users with problems on computers that run Microsoft Windows.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "windows-systems-administration",
+   "name": "Windows systems administration",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Configuring and operating computers and servers that run Microsoft Windows.",
+   "certification": false,
+   "variants": [
+    "Windows System Administration"
+   ],
+   "relations": []
+  },
+  {
+   "key": "windows-vista",
+   "name": "Windows Vista",
+   "class": "skill",
+   "kind": "platform",
+   "definition": "The Microsoft operating system for personal computers released in 2007.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "windows-vista-startup-process",
+   "name": "Windows Vista startup process",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "How Windows Vista boots, using the Windows Boot Manager and the boot configuration data store in place of NTLDR and boot.ini.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "windows-xp-media-center-edition",
+   "name": "Windows XP Media Center Edition",
+   "class": "skill",
+   "kind": "platform",
+   "definition": "A version of Windows XP, first released in 2002, with extra features for recording and playing TV, music, photos and video on a home computer.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "windows-xp-professional-x64-edition",
+   "name": "Windows XP Professional x64 Edition",
+   "class": "skill",
+   "kind": "platform",
+   "definition": "The 64-bit version of Windows XP Professional for x86-64 processors, released in 2005.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "wine-education",
+   "name": "Wine education",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "Teaching and learning about wine, including grape varieties, regions, production and tasting.",
+   "certification": false,
+   "variants": [],
+   "relations": [
+    "related:certified-wine-educator"
+   ]
+  },
+  {
+   "key": "winemaking",
+   "name": "Winemaking",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Producing wine, from handling grapes and fermenting the juice to ageing and bottling it.",
+   "certification": false,
+   "variants": [
+    "Wine making"
+   ],
+   "relations": []
+  },
+  {
+   "key": "winjs",
+   "name": "WinJS",
+   "class": "skill",
+   "kind": "library",
+   "definition": "A Microsoft JavaScript library of user-interface controls and helpers for building Windows and web apps.",
+   "certification": false,
+   "variants": [
+    "Windows Library for JavaScript"
+   ],
+   "relations": []
+  },
+  {
+   "key": "wireless-technologies",
+   "name": "Wireless technologies",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "Technologies that carry data or signals without cables, such as Wi-Fi, Bluetooth, cellular and radio.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "wkwebview",
+   "name": "WKWebView",
+   "class": "skill",
+   "kind": "library",
+   "definition": "An Apple WebKit class for showing web content inside iOS and macOS apps.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "women-s-health-and-cancer-rights-act",
+   "name": "Women's Health and Cancer Rights Act",
+   "class": "skill",
+   "kind": "standard",
+   "definition": "A 1998 US federal law requiring group health plans that cover mastectomy to also cover breast reconstruction and related care.",
+   "certification": false,
+   "variants": [
+    "Women'S Health And Cancer Rights Act (WHCRA)",
+    "WHCRA"
+   ],
+   "relations": []
+  },
+  {
+   "key": "women-s-studies",
+   "name": "Women's studies",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "The interdisciplinary academic study of women's lives, history and roles in society, and of gender.",
+   "certification": false,
+   "variants": [
+    "Women’s Studies"
+   ],
+   "relations": []
+  },
+  {
+   "key": "word-embedding",
+   "name": "Word embedding",
+   "class": "skill",
+   "kind": "method",
+   "definition": "A natural-language-processing technique that represents words as lists of numbers so that words with similar meanings lie close together.",
+   "certification": false,
+   "variants": [
+    "Word embeddings"
+   ],
+   "relations": []
+  },
+  {
+   "key": "word-formation",
+   "name": "Word formation",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "The ways new words are made in a language, such as adding prefixes and suffixes, joining words and shortening them.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "word-processing",
+   "name": "Word processing",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Creating, editing and formatting documents with word-processing software.",
+   "certification": false,
+   "variants": [
+    "Word Processor"
+   ],
+   "relations": []
+  },
+  {
+   "key": "word-vba",
+   "name": "Word VBA",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Writing Visual Basic for Applications code to automate tasks and extend Microsoft Word.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "word2vec",
+   "name": "word2vec",
+   "class": "skill",
+   "kind": "method",
+   "definition": "A family of shallow neural-network models, introduced at Google in 2013, that learn word embeddings from large amounts of text.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "workers-compensation-claims",
+   "name": "Workers' compensation claims",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Handling claims for benefits that employees make after a work-related injury or illness, from filing and investigating to settling them.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  }
+ ]
+}

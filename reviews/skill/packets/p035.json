@@ -19,6 +19,199 @@
  ],
  "entries": [
   {
+   "key": "margin-lending",
+   "name": "Margin lending",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "Lending money to investors so they can buy securities, with the securities held as collateral.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "marine-navigation",
+   "name": "Marine navigation",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Finding a vessel's position and plotting and following its course at sea.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "marine-radar",
+   "name": "Marine radar",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "Radar equipment used on ships to detect other vessels, land and hazards.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "marionette-js",
+   "name": "Marionette.js",
+   "class": "skill",
+   "kind": "library",
+   "definition": "A JavaScript library built on Backbone.js that adds application structure, composite views and event handling for single-page apps.",
+   "certification": false,
+   "variants": [
+    "MarionetteJS",
+    "Backbone.Marionette"
+   ],
+   "relations": []
+  },
+  {
+   "key": "maritime-law-enforcement",
+   "name": "Maritime law enforcement",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Enforcing laws and regulations at sea and in ports, for example by patrolling, boarding vessels and stopping smuggling or illegal fishing.",
+   "certification": false,
+   "variants": [],
+   "relations": [
+    "related:law-enforcement-operations"
+   ]
+  },
+  {
+   "key": "market-capitalization",
+   "name": "Market capitalization",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "The total market value of a company's shares, found by multiplying the share price by the number of shares outstanding.",
+   "certification": false,
+   "variants": [
+    "Market cap",
+    "Market capitalisation"
+   ],
+   "relations": []
+  },
+  {
+   "key": "market-depth",
+   "name": "Market depth",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "A measure of how many buy and sell orders sit at different prices, showing how large a trade a market can absorb without the price moving much.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "marketing-management",
+   "name": "Marketing management",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Planning, coordinating and overseeing an organisation's marketing work, from research and strategy to campaigns and results.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "marketing-strategy",
+   "name": "Marketing strategy",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Deciding which customers, offers and channels a business will focus on to meet its marketing goals.",
+   "certification": false,
+   "variants": [],
+   "relations": [
+    "related:go-to-market-strategy",
+    "related:brand-strategy"
+   ]
+  },
+  {
+   "key": "masonry",
+   "name": "Masonry",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "The craft of building walls and structures by laying bricks, stone or concrete blocks with mortar.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "mass-media",
+   "name": "Mass media",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "The study of the channels, such as press, broadcasting and online platforms, that reach large audiences.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "massage",
+   "name": "Massage",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Working the muscles and soft tissue of the body by hand to ease tension and pain or to help a person relax.",
+   "certification": false,
+   "variants": [
+    "Massages"
+   ],
+   "relations": [
+    "related:anma-massage"
+   ]
+  },
+  {
+   "key": "master-production-records",
+   "name": "Master production records",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "Controlled documents that set out the materials, steps and checks for making a product batch in regulated manufacturing.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "material-flow",
+   "name": "Material flow",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "How raw materials, parts and finished goods move through a plant or supply chain, and how that movement is planned and tracked.",
+   "certification": false,
+   "variants": [],
+   "relations": []
+  },
+  {
+   "key": "materials-testing",
+   "name": "Materials testing",
+   "class": "skill",
+   "kind": "skill",
+   "definition": "Measuring the strength, hardness and other physical or chemical properties of materials to check they meet a specification.",
+   "certification": false,
+   "variants": [
+    "Materials Testing (Tests)"
+   ],
+   "relations": []
+  },
+  {
+   "key": "mathematica",
+   "name": "Mathematica",
+   "class": "skill",
+   "kind": "tool",
+   "definition": "Wolfram's software system for symbolic and numerical computation, visualisation and programming.",
+   "certification": false,
+   "variants": [
+    "Wolfram Mathematica"
+   ],
+   "relations": []
+  },
+  {
+   "key": "mathematics",
+   "name": "Mathematics",
+   "class": "skill",
+   "kind": "knowledge",
+   "definition": "The study of numbers, quantities, shapes and patterns, and of the logical reasoning used to prove facts about them.",
+   "certification": false,
+   "variants": [],
+   "relations": [
+    "related:arithmetic",
+    "related:mathematical-reasoning",
+    "related:engineering-mathematics"
+   ]
+  },
+  {
    "key": "matplotlib",
    "name": "Matplotlib",
    "class": "skill",
@@ -265,195 +458,6 @@
    "class": "skill",
    "kind": "skill",
    "definition": "The administrative and clerical skills used to run a medical office, such as scheduling patients, handling records and billing.",
-   "certification": false,
-   "variants": [],
-   "relations": []
-  },
-  {
-   "key": "medical-photography",
-   "name": "Medical photography",
-   "class": "skill",
-   "kind": "skill",
-   "definition": "Photographing patients, conditions, procedures and specimens for clinical records, teaching and research.",
-   "certification": false,
-   "variants": [],
-   "relations": []
-  },
-  {
-   "key": "medical-record-formatting",
-   "name": "Medical record formatting",
-   "class": "skill",
-   "kind": "skill",
-   "definition": "Arranging patient record documents to the templates and standards a healthcare organisation requires.",
-   "certification": false,
-   "variants": [],
-   "relations": []
-  },
-  {
-   "key": "medical-records-release",
-   "name": "Medical records release",
-   "class": "skill",
-   "kind": "skill",
-   "definition": "Handling requests to disclose a patient's health records to authorised parties in line with privacy law.",
-   "certification": false,
-   "variants": [
-    "Release of information",
-    "Release of Information (ROI)"
-   ],
-   "relations": []
-  },
-  {
-   "key": "medical-ventilator",
-   "name": "Medical ventilator",
-   "class": "skill",
-   "kind": "tool",
-   "definition": "A machine that moves air into and out of the lungs of a patient who cannot breathe well enough alone.",
-   "certification": false,
-   "variants": [],
-   "relations": []
-  },
-  {
-   "key": "mental-health-assessments",
-   "name": "Mental health assessments",
-   "class": "skill",
-   "kind": "skill",
-   "definition": "Evaluating a person's psychological state and needs through interviews, observation and standard measures.",
-   "certification": false,
-   "variants": [],
-   "relations": []
-  },
-  {
-   "key": "menu-planning",
-   "name": "Menu planning",
-   "class": "skill",
-   "kind": "skill",
-   "definition": "Choosing the dishes a restaurant, institution or event will serve, balancing cost, nutrition and taste.",
-   "certification": false,
-   "variants": [],
-   "relations": []
-  },
-  {
-   "key": "mep-design-software",
-   "name": "MEP design software",
-   "class": "skill",
-   "kind": "tool",
-   "definition": "Software for designing and coordinating the mechanical, electrical and plumbing systems of buildings, such as Revit MEP.",
-   "certification": false,
-   "variants": [
-    "Mechanical Electrical Plumbing (MEP) Design Software",
-    "Mechanical, electrical and plumbing design software"
-   ],
-   "relations": []
-  },
-  {
-   "key": "merchandise-management",
-   "name": "Merchandise management",
-   "class": "skill",
-   "kind": "skill",
-   "definition": "Planning, buying, pricing and allocating a retailer's product range to meet sales and margin goals.",
-   "certification": false,
-   "variants": [],
-   "relations": []
-  },
-  {
-   "key": "meta-tag",
-   "name": "Meta tag",
-   "class": "skill",
-   "kind": "knowledge",
-   "definition": "An HTML element in a page's head that gives metadata, such as a description, to browsers and search engines.",
-   "certification": false,
-   "variants": [
-    "Metatag"
-   ],
-   "relations": []
-  },
-  {
-   "key": "metadata-management",
-   "name": "Metadata management",
-   "class": "skill",
-   "kind": "skill",
-   "definition": "Creating, organising and maintaining the data that describes other data, such as definitions, schemas and lineage.",
-   "certification": false,
-   "variants": [
-    "Meta-Data Management"
-   ],
-   "relations": []
-  },
-  {
-   "key": "metal-detector",
-   "name": "Metal detector",
-   "class": "skill",
-   "kind": "tool",
-   "definition": "A device that senses nearby metal objects, used in security screening, construction and treasure hunting.",
-   "certification": false,
-   "variants": [],
-   "relations": []
-  },
-  {
-   "key": "metaverse",
-   "name": "Metaverse",
-   "class": "skill",
-   "kind": "knowledge",
-   "definition": "The idea of persistent, shared virtual worlds in which people interact through avatars and digital objects.",
-   "certification": false,
-   "variants": [],
-   "relations": []
-  },
-  {
-   "key": "meteor-js",
-   "name": "Meteor.js",
-   "class": "skill",
-   "kind": "framework",
-   "definition": "An open-source full-stack JavaScript framework for building web and mobile apps on Node.js.",
-   "certification": false,
-   "variants": [
-    "MeteorJS"
-   ],
-   "relations": []
-  },
-  {
-   "key": "meter-data-management",
-   "name": "Meter data management",
-   "class": "skill",
-   "kind": "skill",
-   "definition": "Collecting, validating and storing readings from utility meters, such as flow meters, so they can be used for billing and analysis.",
-   "certification": false,
-   "variants": [
-    "Meter Data Management (Flow Meters)"
-   ],
-   "relations": []
-  },
-  {
-   "key": "meter-operation-code-of-practice-agreement",
-   "name": "Meter Operation Code of Practice Agreement",
-   "class": "skill",
-   "kind": "standard",
-   "definition": "The UK electricity industry agreement that sets the rules and accreditation requirements for companies that install and maintain electricity meters.",
-   "certification": false,
-   "variants": [
-    "Meter Operation Code of Practice Agreement (MOCOPA)",
-    "MOCOPA"
-   ],
-   "relations": []
-  },
-  {
-   "key": "metric-system",
-   "name": "Metric system",
-   "class": "skill",
-   "kind": "knowledge",
-   "definition": "The decimal system of measurement units built on the metre, the kilogram and the second.",
-   "certification": false,
-   "variants": [
-    "Metric Systems"
-   ],
-   "relations": []
-  },
-  {
-   "key": "microblaze",
-   "name": "MicroBlaze",
-   "class": "skill",
-   "kind": "tool",
-   "definition": "A soft-core processor design from Xilinx (now AMD) that is built from programmable logic in an FPGA.",
    "certification": false,
    "variants": [],
    "relations": []
