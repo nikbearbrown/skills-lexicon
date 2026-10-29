@@ -1,0 +1,92 @@
+{
+ "id": "l57lp52lzn",
+ "preferred_name": "Diploma in Medical Assistant",
+ "kind": "credential",
+ "definition": "A vocational diploma awarded on completing a programme of study in medical assisting.",
+ "key": "diploma-in-medical-assistant",
+ "certification": true,
+ "certification_scope": "many-issuers",
+ "variants": [],
+ "relations": [
+  {
+   "type": "related",
+   "target": "pj8vtw9tl2"
+  },
+  {
+   "type": "related",
+   "target": "fcjozwj5xy"
+  }
+ ],
+ "verbs": [],
+ "status": "machine-drafted",
+ "provenance": {
+  "source": "drafted by model:claude-sonnet-5-5, run 2026-10-29-round-08-a4, from the name in the legacy tag list alone; no posting or outside source checked",
+  "date": "2026-10-29",
+  "reviewed_by": null,
+  "legacy_tag": {
+   "sources": [
+    {
+     "file": "data/skills-certification.csv",
+     "rows": [
+      473
+     ],
+     "class": "Certification"
+    }
+   ],
+   "class": "Certification",
+   "in_lists": [
+    "certification"
+   ]
+  }
+ },
+ "evidence": [
+  {
+   "field": "definition",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-29",
+   "run": "2026-10-29-round-08-a4",
+   "note": "basis: general-knowledge"
+  },
+  {
+   "field": "kind",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-29",
+   "run": "2026-10-29-round-08-a4",
+   "note": "basis: general-knowledge (with the definition)"
+  },
+  {
+   "field": "relation:related:pj8vtw9tl2",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-29",
+   "run": "2026-10-29-round-08-a4",
+   "note": "basis: general-knowledge"
+  },
+  {
+   "field": "relation:related:fcjozwj5xy",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-29",
+   "run": "2026-10-29-round-08-a4",
+   "note": "basis: general-knowledge"
+  },
+  {
+   "field": "certification",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-29",
+   "run": "2026-10-29-round-08-a4",
+   "note": "basis: general-knowledge"
+  },
+  {
+   "field": "certification_scope",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-29",
+   "run": "2026-10-29-round-08-a4",
+   "note": "basis: general-knowledge"
+  }
+ ]
+}

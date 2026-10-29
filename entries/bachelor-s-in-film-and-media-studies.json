@@ -1,0 +1,92 @@
+{
+ "id": "xt7s0hdv9f",
+ "preferred_name": "Bachelor's in Film and Media Studies",
+ "kind": "credential",
+ "definition": "An undergraduate degree in film and media studies, awarded by universities and colleges.",
+ "key": "bachelor-s-in-film-and-media-studies",
+ "certification": true,
+ "certification_scope": "many-issuers",
+ "variants": [
+  {
+   "label": "Bachelor's degree in Film and Media Studies",
+   "match": "word_ci"
+  },
+  {
+   "label": "Bachelors degree in Film and Media Studies",
+   "match": "word_ci"
+  }
+ ],
+ "relations": [],
+ "verbs": [],
+ "status": "machine-drafted",
+ "provenance": {
+  "source": "drafted by model:claude-sonnet-5-5, run 2026-10-29-round-08-a4, from the name in the legacy tag list alone; no posting or outside source checked",
+  "date": "2026-10-29",
+  "reviewed_by": null,
+  "legacy_tag": {
+   "sources": [
+    {
+     "file": "data/skills-certification.csv",
+     "rows": [
+      172
+     ],
+     "class": "Certification"
+    }
+   ],
+   "class": "Certification",
+   "in_lists": [
+    "certification"
+   ]
+  }
+ },
+ "evidence": [
+  {
+   "field": "definition",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-29",
+   "run": "2026-10-29-round-08-a4",
+   "note": "basis: general-knowledge"
+  },
+  {
+   "field": "kind",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-29",
+   "run": "2026-10-29-round-08-a4",
+   "note": "basis: general-knowledge (with the definition)"
+  },
+  {
+   "field": "variant:bachelor's degree in film and media studies",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-29",
+   "run": "2026-10-29-round-08-a4",
+   "note": "basis: general-knowledge"
+  },
+  {
+   "field": "variant:bachelors degree in film and media studies",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-29",
+   "run": "2026-10-29-round-08-a4",
+   "note": "basis: general-knowledge"
+  },
+  {
+   "field": "certification",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-29",
+   "run": "2026-10-29-round-08-a4",
+   "note": "basis: general-knowledge"
+  },
+  {
+   "field": "certification_scope",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-29",
+   "run": "2026-10-29-round-08-a4",
+   "note": "basis: general-knowledge"
+  }
+ ]
+}
