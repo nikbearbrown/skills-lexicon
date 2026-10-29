@@ -4,7 +4,12 @@
  "preferred_name": "User research",
  "kind": "method",
  "definition": "Investigating user needs and behavior to inform design.",
- "variants": [],
+ "variants": [
+  {
+   "label": "UX Research",
+   "match": "word_ci"
+  }
+ ],
  "relations": [],
  "verbs": [],
  "status": "proposed",
@@ -13,5 +18,15 @@
   "date": "2026-10-24",
   "review": "Awaiting taxonomy owner review; no external ontology mapping asserted",
   "reviewed_by": null
- }
+ },
+ "evidence": [
+  {
+   "field": "variant:ux research",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-29",
+   "run": "2026-10-29-pilot-100-tags",
+   "note": "same concept as User research, listed in the legacy tag list"
+  }
+ ]
 }

@@ -1,0 +1,5712 @@
+{
+ "batch": {
+  "run": "2026-10-29-pilot-100-tags",
+  "models": [
+   "model:claude-sonnet-5-5"
+  ],
+  "date": "2026-10-29",
+  "source": "data/skills_tags.csv",
+  "id_range": [
+   "skill:00085",
+   "skill:00155"
+  ],
+  "counts": {
+   "new_entries": 71,
+   "variants_added": 1,
+   "not_a_skill": 19,
+   "unsure": 9
+  },
+  "generated": "from entries/*.json by tools/batch.py; do not edit by hand",
+  "status": "machine-drafted: no claim in this batch is backed by a human check or a matched source"
+ },
+ "entries": [
+  {
+   "id": "skill:00085",
+   "preferred_name": "3D solid and surface modeling",
+   "kind": "skill",
+   "definition": "Building three-dimensional models of objects as solids and as surfaces in CAD software.",
+   "key": "3d-solid-and-surface-modeling",
+   "certification": false,
+   "variants": [],
+   "relations": [],
+   "verbs": [
+    "model"
+   ],
+   "status": "machine-drafted",
+   "provenance": {
+    "source": "drafted by model:claude-sonnet-5-5, run 2026-10-29-pilot-100-tags, from the name in the legacy tag list alone; no posting or outside source checked",
+    "date": "2026-10-29",
+    "reviewed_by": null,
+    "legacy_tag": {
+     "sources": [
+      {
+       "file": "data/skills_tags.csv",
+       "rows": [
+        10
+       ],
+       "class": "Skill"
+      }
+     ],
+     "class": "Skill",
+     "in_lists": []
+    }
+   },
+   "evidence": [
+    {
+     "field": "definition",
+     "by": "model:claude-sonnet-5-5",
+     "action": "drafted",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags",
+     "note": "basis: general-knowledge"
+    },
+    {
+     "field": "kind",
+     "by": "model:claude-sonnet-5-5",
+     "action": "drafted",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags",
+     "note": "basis: general-knowledge (with the definition)"
+    },
+    {
+     "field": "verb:model",
+     "by": "model:claude-sonnet-5-5",
+     "action": "drafted",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags",
+     "note": "basis: general-knowledge"
+    },
+    {
+     "field": "certification",
+     "by": "model:claude-sonnet-5-5",
+     "action": "drafted",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags",
+     "note": "basis: general-knowledge"
+    }
+   ]
+  },
+  {
+   "id": "skill:00086",
+   "preferred_name": "Additive manufacturing",
+   "kind": "method",
+   "definition": "Making physical objects by adding material layer by layer from a digital model, as in 3D printing.",
+   "key": "additive-manufacturing",
+   "certification": false,
+   "variants": [],
+   "relations": [],
+   "verbs": [
+    "design for",
+    "operate"
+   ],
+   "status": "machine-drafted",
+   "provenance": {
+    "source": "drafted by model:claude-sonnet-5-5, run 2026-10-29-pilot-100-tags, from the name in the legacy tag list alone; no posting or outside source checked",
+    "date": "2026-10-29",
+    "reviewed_by": null,
+    "legacy_tag": {
+     "sources": [
+      {
+       "file": "data/skills_tags.csv",
+       "rows": [
+        95
+       ],
+       "class": "Skill"
+      }
+     ],
+     "class": "Skill",
+     "in_lists": []
+    }
+   },
+   "evidence": [
+    {
+     "field": "definition",
+     "by": "model:claude-sonnet-5-5",
+     "action": "drafted",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags",
+     "note": "basis: general-knowledge"
+    },
+    {
+     "field": "kind",
+     "by": "model:claude-sonnet-5-5",
+     "action": "drafted",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags",
+     "note": "basis: general-knowledge (with the definition)"
+    },
+    {
+     "field": "verb:design for",
+     "by": "model:claude-sonnet-5-5",
+     "action": "drafted",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags",
+     "note": "basis: general-knowledge"
+    },
+    {
+     "field": "verb:operate",
+     "by": "model:claude-sonnet-5-5",
+     "action": "drafted",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags",
+     "note": "basis: general-knowledge"
+    },
+    {
+     "field": "certification",
+     "by": "model:claude-sonnet-5-5",
+     "action": "drafted",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags",
+     "note": "basis: general-knowledge"
+    }
+   ]
+  },
+  {
+   "id": "skill:00087",
+   "preferred_name": "Administering blood tests",
+   "kind": "skill",
+   "definition": "Performing blood tests on patients, typically drawing a sample and preparing it for laboratory analysis.",
+   "key": "administering-blood-tests",
+   "certification": false,
+   "variants": [],
+   "relations": [],
+   "verbs": [],
+   "status": "machine-drafted",
+   "provenance": {
+    "source": "drafted by model:claude-sonnet-5-5, run 2026-10-29-pilot-100-tags, from the name in the legacy tag list alone; no posting or outside source checked",
+    "date": "2026-10-29",
+    "reviewed_by": null,
+    "legacy_tag": {
+     "sources": [
+      {
+       "file": "data/skills_tags.csv",
+       "rows": [
+        98
+       ],
+       "class": "Skill"
+      }
+     ],
+     "class": "Skill",
+     "in_lists": []
+    }
+   },
+   "evidence": [
+    {
+     "field": "definition",
+     "by": "model:claude-sonnet-5-5",
+     "action": "drafted",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags",
+     "note": "basis: general-knowledge"
+    },
+    {
+     "field": "kind",
+     "by": "model:claude-sonnet-5-5",
+     "action": "drafted",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags",
+     "note": "basis: general-knowledge (with the definition)"
+    },
+    {
+     "field": "certification",
+     "by": "model:claude-sonnet-5-5",
+     "action": "drafted",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags",
+     "note": "basis: general-knowledge"
+    }
+   ]
+  },
+  {
+   "id": "skill:00088",
+   "preferred_name": "Adult-Gerontology Acute Care Nurse Practitioner",
+   "kind": "credential",
+   "definition": "A nurse practitioner certification for caring for acutely ill adult and older-adult patients.",
+   "key": "adult-gerontology-acute-care-nurse-practitioner",
+   "certification": true,
+   "variants": [
+    {
+     "label": "Adult/Gerontology Acute Care Nurse Practitioner",
+     "match": "word_ci"
+    },
+    {
+     "label": "AG-ACNP",
+     "match": "word_ci"
+    }
+   ],
+   "relations": [],
+   "verbs": [],
+   "status": "machine-drafted",
+   "provenance": {
+    "source": "drafted by model:claude-sonnet-5-5, run 2026-10-29-pilot-100-tags, from the name in the legacy tag list alone; no posting or outside source checked",
+    "date": "2026-10-29",
+    "reviewed_by": null,
+    "legacy_tag": {
+     "sources": [
+      {
+       "file": "data/skills_tags.csv",
+       "rows": [
+        111
+       ],
+       "class": "Skill"
+      }
+     ],
+     "class": "Skill",
+     "in_lists": []
+    }
+   },
+   "evidence": [
+    {
+     "field": "definition",
+     "by": "model:claude-sonnet-5-5",
+     "action": "drafted",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags",
+     "note": "basis: general-knowledge"
+    },
+    {
+     "field": "kind",
+     "by": "model:claude-sonnet-5-5",
+     "action": "drafted",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags",
+     "note": "basis: general-knowledge (with the definition)"
+    },
+    {
+     "field": "variant:adult/gerontology acute care nurse practitioner",
+     "by": "model:claude-sonnet-5-5",
+     "action": "drafted",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags",
+     "note": "listed in the legacy tag list; the model chose the canonical name"
+    },
+    {
+     "field": "variant:ag-acnp",
+     "by": "model:claude-sonnet-5-5",
+     "action": "drafted",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags",
+     "note": "basis: general-knowledge"
+    },
+    {
+     "field": "certification",
+     "by": "model:claude-sonnet-5-5",
+     "action": "drafted",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags",
+     "note": "basis: general-knowledge; no legacy list/class says so",
+     "flag": "not_in_legacy"
+    }
+   ]
+  },
+  {
+   "id": "skill:00089",
+   "preferred_name": "Advanced Trauma Life Support",
+   "kind": "credential",
+   "definition": "A trauma-care training course and certification from the American College of Surgeons on the first assessment and management of injured patients.",
+   "key": "advanced-trauma-life-support",
+   "certification": true,
+   "variants": [
+    {
+     "label": "ATLS",
+     "match": "exact_case"
+    }
+   ],
+   "relations": [],
+   "verbs": [],
+   "status": "machine-drafted",
+   "provenance": {
+    "source": "drafted by model:claude-sonnet-5-5, run 2026-10-29-pilot-100-tags, from the name in the legacy tag list alone; no posting or outside source checked",
+    "date": "2026-10-29",
+    "reviewed_by": null,
+    "legacy_tag": {
+     "sources": [
+      {
+       "file": "data/skills_tags.csv",
+       "rows": [
+        124
+       ],
+       "class": "Skill"
+      }
+     ],
+     "class": "Skill",
+     "in_lists": []
+    }
+   },
+   "evidence": [
+    {
+     "field": "definition",
+     "by": "model:claude-sonnet-5-5",
+     "action": "drafted",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags",
+     "note": "basis: general-knowledge"
+    },
+    {
+     "field": "kind",
+     "by": "model:claude-sonnet-5-5",
+     "action": "drafted",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags",
+     "note": "basis: general-knowledge (with the definition)"
+    },
+    {
+     "field": "variant:atls",
+     "by": "model:claude-sonnet-5-5",
+     "action": "drafted",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags",
+     "note": "basis: general-knowledge"
+    },
+    {
+     "field": "certification",
+     "by": "model:claude-sonnet-5-5",
+     "action": "drafted",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags",
+     "note": "basis: general-knowledge; no legacy list/class says so",
+     "flag": "not_in_legacy"
+    }
+   ]
+  },
+  {
+   "id": "skill:00090",
+   "preferred_name": "American Board of Medical Laboratory Immunology certification",
+   "kind": "credential",
+   "definition": "Certification by the American Board of Medical Laboratory Immunology in medical laboratory immunology.",
+   "key": "american-board-of-medical-laboratory-immunology-certification",
+   "certification": true,
+   "variants": [
+    {
+     "label": "American Board Of Medical Laboratory Immunology (ABMLI) Certified",
+     "match": "word_ci"
+    },
+    {
+     "label": "ABMLI certification",
+     "match": "word_ci"
+    },
+    {
+     "label": "ABMLI",
+     "match": "exact_case"
+    }
+   ],
+   "relations": [],
+   "verbs": [],
+   "status": "machine-drafted",
+   "provenance": {
+    "source": "drafted by model:claude-sonnet-5-5, run 2026-10-29-pilot-100-tags, from the name in the legacy tag list alone; no posting or outside source checked",
+    "date": "2026-10-29",
+    "reviewed_by": null,
+    "legacy_tag": {
+     "sources": [
+      {
+       "file": "data/skills_tags.csv",
+       "rows": [
+        182,
+        188
+       ],
+       "class": "Certification/Skill"
+      },
+      {
+       "file": "data/skills-certification.csv",
+       "rows": [
+        9
+       ],
+       "class": "Certification"
+      }
+     ],
+     "class": "Certification/Skill",
+     "in_lists": [
+      "certification"
+     ],
+     "class_conflict": true
+    }
+   },
+   "evidence": [
+    {
+     "field": "definition",
+     "by": "model:claude-sonnet-5-5",
+     "action": "drafted",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags",
+     "note": "basis: general-knowledge"
+    },
+    {
+     "field": "kind",
+     "by": "model:claude-sonnet-5-5",
+     "action": "drafted",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags",
+     "note": "basis: general-knowledge (with the definition)"
+    },
+    {
+     "field": "variant:american board of medical laboratory immunology (abmli) certified",
+     "by": "model:claude-sonnet-5-5",
+     "action": "drafted",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags",
+     "note": "listed in the legacy tag list; the model chose the canonical name"
+    },
+    {
+     "field": "variant:abmli certification",
+     "by": "model:claude-sonnet-5-5",
+     "action": "drafted",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags",
+     "note": "basis: general-knowledge"
+    },
+    {
+     "field": "variant:abmli",
+     "by": "model:claude-sonnet-5-5",
+     "action": "drafted",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags",
+     "note": "basis: general-knowledge"
+    },
+    {
+     "field": "certification",
+     "by": "model:claude-sonnet-5-5",
+     "action": "drafted",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags",
+     "note": "basis: general-knowledge"
+    }
+   ]
+  },
+  {
+   "id": "skill:00091",
+   "preferred_name": "ARKit",
+   "kind": "framework",
+   "definition": "Apple's framework for building augmented reality apps on iOS and iPadOS.",
+   "key": "arkit",
+   "certification": false,
+   "variants": [],
+   "relations": [],
+   "verbs": [
+    "build",
+    "integrate"
+   ],
+   "status": "machine-drafted",
+   "provenance": {
+    "source": "drafted by model:claude-sonnet-5-5, run 2026-10-29-pilot-100-tags, from the name in the legacy tag list alone; no posting or outside source checked",
+    "date": "2026-10-29",
+    "reviewed_by": null,
+    "legacy_tag": {
+     "sources": [
+      {
+       "file": "data/skills_tags.csv",
+       "rows": [
+        294
+       ],
+       "class": "Skill"
+      }
+     ],
+     "class": "Skill",
+     "in_lists": []
+    }
+   },
+   "evidence": [
+    {
+     "field": "definition",
+     "by": "model:claude-sonnet-5-5",
+     "action": "drafted",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags",
+     "note": "basis: general-knowledge"
+    },
+    {
+     "field": "kind",
+     "by": "model:claude-sonnet-5-5",
+     "action": "drafted",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags",
+     "note": "basis: general-knowledge (with the definition)"
+    },
+    {
+     "field": "verb:build",
+     "by": "model:claude-sonnet-5-5",
+     "action": "drafted",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags",
+     "note": "basis: general-knowledge"
+    },
+    {
+     "field": "verb:integrate",
+     "by": "model:claude-sonnet-5-5",
+     "action": "drafted",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags",
+     "note": "basis: general-knowledge"
+    },
+    {
+     "field": "certification",
+     "by": "model:claude-sonnet-5-5",
+     "action": "drafted",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags",
+     "note": "basis: general-knowledge"
+    }
+   ]
+  },
+  {
+   "id": "skill:00092",
+   "preferred_name": "AWS big data",
+   "kind": "skill",
+   "definition": "Using Amazon Web Services' data analytics and big data services, such as EMR, Redshift and Kinesis, to store and process large datasets.",
+   "key": "aws-big-data",
+   "certification": false,
+   "variants": [],
+   "relations": [],
+   "verbs": [],
+   "status": "machine-drafted",
+   "provenance": {
+    "source": "drafted by model:claude-sonnet-5-5, run 2026-10-29-pilot-100-tags, from the name in the legacy tag list alone; no posting or outside source checked",
+    "date": "2026-10-29",
+    "reviewed_by": null,
+    "legacy_tag": {
+     "sources": [
+      {
+       "file": "data/skills_tags.csv",
+       "rows": [
+        41
+       ],
+       "class": "Skill"
+      }
+     ],
+     "class": "Skill",
+     "in_lists": []
+    }
+   },
+   "evidence": [
+    {
+     "field": "definition",
+     "by": "model:claude-sonnet-5-5",
+     "action": "drafted",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags",
+     "note": "basis: general-knowledge"
+    },
+    {
+     "field": "kind",
+     "by": "model:claude-sonnet-5-5",
+     "action": "drafted",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags",
+     "note": "basis: general-knowledge (with the definition)"
+    },
+    {
+     "field": "certification",
+     "by": "model:claude-sonnet-5-5",
+     "action": "drafted",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags",
+     "note": "basis: general-knowledge"
+    }
+   ]
+  },
+  {
+   "id": "skill:00093",
+   "preferred_name": "Aymara",
+   "kind": "human-language",
+   "definition": "An indigenous language of the Andes spoken mainly in Bolivia, Peru and Chile.",
+   "key": "aymara",
+   "certification": false,
+   "language_type": "spoken",
+   "variants": [
+    {
+     "label": "Aymara (Language)",
+     "match": "word_ci"
+    }
+   ],
+   "relations": [],
+   "verbs": [],
+   "status": "machine-drafted",
+   "provenance": {
+    "source": "drafted by model:claude-sonnet-5-5, run 2026-10-29-pilot-100-tags, from the name in the legacy tag list alone; no posting or outside source checked",
+    "date": "2026-10-29",
+    "reviewed_by": null,
+    "legacy_tag": {
+     "sources": [
+      {
+       "file": "data/skills_tags.csv",
+       "rows": [
+        383
+       ],
+       "class": "Language"
+      },
+      {
+       "file": "data/skills-language.csv",
+       "rows": [
+        25
+       ],
+       "class": "Language"
+      }
+     ],
+     "class": "Language",
+     "in_lists": [
+      "language"
+     ]
+    }
+   },
+   "evidence": [
+    {
+     "field": "definition",
+     "by": "model:claude-sonnet-5-5",
+     "action": "drafted",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags",
+     "note": "basis: general-knowledge"
+    },
+    {
+     "field": "kind",
+     "by": "model:claude-sonnet-5-5",
+     "action": "drafted",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags",
+     "note": "basis: general-knowledge (with the definition)"
+    },
+    {
+     "field": "variant:aymara (language)",
+     "by": "model:claude-sonnet-5-5",
+     "action": "drafted",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags",
+     "note": "listed in the legacy tag list; the model chose the canonical name"
+    },
+    {
+     "field": "certification",
+     "by": "model:claude-sonnet-5-5",
+     "action": "drafted",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags",
+     "note": "basis: general-knowledge"
+    },
+    {
+     "field": "language_type",
+     "by": "model:claude-sonnet-5-5",
+     "action": "drafted",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags",
+     "note": "basis: general-knowledge"
+    }
+   ]
+  },
+  {
+   "id": "skill:00094",
+   "preferred_name": "Board support package",
+   "kind": "skill",
+   "definition": "Developing the low-level code and drivers that let an operating system run on a specific hardware board.",
+   "key": "board-support-package",
+   "certification": false,
+   "variants": [
+    {
+     "label": "Board Support Package (Software)",
+     "match": "word_ci"
+    },
+    {
+     "label": "BSP",
+     "match": "exact_case"
+    }
+   ],
+   "relations": [],
+   "verbs": [
+    "develop",
+    "port"
+   ],
+   "status": "machine-drafted",
+   "provenance": {
+    "source": "drafted by model:claude-sonnet-5-5, run 2026-10-29-pilot-100-tags, from the name in the legacy tag list alone; no posting or outside source checked",
+    "date": "2026-10-29",
+    "reviewed_by": null,
+    "legacy_tag": {
+     "sources": [
+      {
+       "file": "data/skills_tags.csv",
+       "rows": [
+        487
+       ],
+       "class": "Skill"
+      }
+     ],
+     "class": "Skill",
+     "in_lists": []
+    }
+   },
+   "evidence": [
+    {
+     "field": "definition",
+     "by": "model:claude-sonnet-5-5",
+     "action": "drafted",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags",
+     "note": "basis: general-knowledge"
+    },
+    {
+     "field": "kind",
+     "by": "model:claude-sonnet-5-5",
+     "action": "drafted",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags",
+     "note": "basis: general-knowledge (with the definition)"
+    },
+    {
+     "field": "variant:board support package (software)",
+     "by": "model:claude-sonnet-5-5",
+     "action": "drafted",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags",
+     "note": "listed in the legacy tag list; the model chose the canonical name"
+    },
+    {
+     "field": "variant:bsp",
+     "by": "model:claude-sonnet-5-5",
+     "action": "drafted",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags",
+     "note": "basis: general-knowledge"
+    },
+    {
+     "field": "verb:develop",
+     "by": "model:claude-sonnet-5-5",
+     "action": "drafted",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags",
+     "note": "basis: general-knowledge"
+    },
+    {
+     "field": "verb:port",
+     "by": "model:claude-sonnet-5-5",
+     "action": "drafted",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags",
+     "note": "basis: general-knowledge"
+    },
+    {
+     "field": "certification",
+     "by": "model:claude-sonnet-5-5",
+     "action": "drafted",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags",
+     "note": "basis: general-knowledge"
+    }
+   ]
+  },
+  {
+   "id": "skill:00095",
+   "preferred_name": "cAdvisor",
+   "kind": "tool",
+   "definition": "A Google-developed tool that collects and exposes resource usage and performance data for running containers.",
+   "key": "cadvisor",
+   "certification": false,
+   "variants": [],
+   "relations": [],
+   "verbs": [
+    "deploy",
+    "configure"
+   ],
+   "status": "machine-drafted",
+   "provenance": {
+    "source": "drafted by model:claude-sonnet-5-5, run 2026-10-29-pilot-100-tags, from the name in the legacy tag list alone; no posting or outside source checked",
+    "date": "2026-10-29",
+    "reviewed_by": null,
+    "legacy_tag": {
+     "sources": [
+      {
+       "file": "data/skills_tags.csv",
+       "rows": [
+        577
+       ],
+       "class": "Skill"
+      }
+     ],
+     "class": "Skill",
+     "in_lists": []
+    }
+   },
+   "evidence": [
+    {
+     "field": "definition",
+     "by": "model:claude-sonnet-5-5",
+     "action": "drafted",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags",
+     "note": "basis: general-knowledge"
+    },
+    {
+     "field": "kind",
+     "by": "model:claude-sonnet-5-5",
+     "action": "drafted",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags",
+     "note": "basis: general-knowledge (with the definition)"
+    },
+    {
+     "field": "verb:deploy",
+     "by": "model:claude-sonnet-5-5",
+     "action": "drafted",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags",
+     "note": "basis: general-knowledge"
+    },
+    {
+     "field": "verb:configure",
+     "by": "model:claude-sonnet-5-5",
+     "action": "drafted",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags",
+     "note": "basis: general-knowledge"
+    },
+    {
+     "field": "certification",
+     "by": "model:claude-sonnet-5-5",
+     "action": "drafted",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags",
+     "note": "basis: general-knowledge"
+    }
+   ]
+  },
+  {
+   "id": "skill:00096",
+   "preferred_name": "Certified Forensic Computer Examiner",
+   "kind": "credential",
+   "definition": "A digital forensics certification from the International Association of Computer Investigative Specialists.",
+   "key": "certified-forensic-computer-examiner",
+   "certification": true,
+   "variants": [
+    {
+     "label": "Certified Forensic Computer Examination",
+     "match": "word_ci"
+    },
+    {
+     "label": "CFCE",
+     "match": "exact_case"
+    }
+   ],
+   "relations": [],
+   "verbs": [],
+   "status": "machine-drafted",
+   "provenance": {
+    "source": "drafted by model:claude-sonnet-5-5, run 2026-10-29-pilot-100-tags, from the name in the legacy tag list alone; no posting or outside source checked",
+    "date": "2026-10-29",
+    "reviewed_by": null,
+    "legacy_tag": {
+     "sources": [
+      {
+       "file": "data/skills_tags.csv",
+       "rows": [
+        695
+       ],
+       "class": "Certification"
+      },
+      {
+       "file": "data/skills-certification.csv",
+       "rows": [
+        304
+       ],
+       "class": "Certification"
+      }
+     ],
+     "class": "Certification",
+     "in_lists": [
+      "certification"
+     ]
+    }
+   },
+   "evidence": [
+    {
+     "field": "definition",
+     "by": "model:claude-sonnet-5-5",
+     "action": "drafted",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags",
+     "note": "basis: general-knowledge"
+    },
+    {
+     "field": "kind",
+     "by": "model:claude-sonnet-5-5",
+     "action": "drafted",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags",
+     "note": "basis: general-knowledge (with the definition)"
+    },
+    {
+     "field": "variant:certified forensic computer examination",
+     "by": "model:claude-sonnet-5-5",
+     "action": "drafted",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags",
+     "note": "listed in the legacy tag list; the model chose the canonical name"
+    },
+    {
+     "field": "variant:cfce",
+     "by": "model:claude-sonnet-5-5",
+     "action": "drafted",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags",
+     "note": "basis: general-knowledge"
+    },
+    {
+     "field": "certification",
+     "by": "model:claude-sonnet-5-5",
+     "action": "drafted",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags",
+     "note": "basis: general-knowledge"
+    }
+   ]
+  },
+  {
+   "id": "skill:00097",
+   "preferred_name": "Certified Pediatric Emergency Nurse",
+   "kind": "credential",
+   "definition": "A nursing certification from the Board of Certification for Emergency Nursing for nurses who care for children in emergencies.",
+   "key": "certified-pediatric-emergency-nurse",
+   "certification": true,
+   "variants": [
+    {
+     "label": "CPEN",
+     "match": "exact_case"
+    }
+   ],
+   "relations": [],
+   "verbs": [],
+   "status": "machine-drafted",
+   "provenance": {
+    "source": "drafted by model:claude-sonnet-5-5, run 2026-10-29-pilot-100-tags, from the name in the legacy tag list alone; no posting or outside source checked",
+    "date": "2026-10-29",
+    "reviewed_by": null,
+    "legacy_tag": {
+     "sources": [
+      {
+       "file": "data/skills_tags.csv",
+       "rows": [
+        743
+       ],
+       "class": "Certification"
+      },
+      {
+       "file": "data/skills-certification.csv",
+       "rows": [
+        352
+       ],
+       "class": "Certification"
+      }
+     ],
+     "class": "Certification",
+     "in_lists": [
+      "certification"
+     ]
+    }
+   },
+   "evidence": [
+    {
+     "field": "definition",
+     "by": "model:claude-sonnet-5-5",
+     "action": "drafted",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags",
+     "note": "basis: general-knowledge"
+    },
+    {
+     "field": "kind",
+     "by": "model:claude-sonnet-5-5",
+     "action": "drafted",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags",
+     "note": "basis: general-knowledge (with the definition)"
+    },
+    {
+     "field": "variant:cpen",
+     "by": "model:claude-sonnet-5-5",
+     "action": "drafted",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags",
+     "note": "basis: general-knowledge"
+    },
+    {
+     "field": "certification",
+     "by": "model:claude-sonnet-5-5",
+     "action": "drafted",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags",
+     "note": "basis: general-knowledge"
+    }
+   ]
+  },
+  {
+   "id": "skill:00098",
+   "preferred_name": "Certified Professional Geologist",
+   "kind": "credential",
+   "definition": "A professional certification for geologists from the American Institute of Professional Geologists.",
+   "key": "certified-professional-geologist",
+   "certification": true,
+   "variants": [
+    {
+     "label": "CPG",
+     "match": "exact_case"
+    }
+   ],
+   "relations": [],
+   "verbs": [],
+   "status": "machine-drafted",
+   "provenance": {
+    "source": "drafted by model:claude-sonnet-5-5, run 2026-10-29-pilot-100-tags, from the name in the legacy tag list alone; no posting or outside source checked",
+    "date": "2026-10-29",
+    "reviewed_by": null,
+    "legacy_tag": {
+     "sources": [
+      {
+       "file": "data/skills_tags.csv",
+       "rows": [
+        756
+       ],
+       "class": "Certification"
+      },
+      {
+       "file": "data/skills-certification.csv",
+       "rows": [
+        365
+       ],
+       "class": "Certification"
+      }
+     ],
+     "class": "Certification",
+     "in_lists": [
+      "certification"
+     ]
+    }
+   },
+   "evidence": [
+    {
+     "field": "definition",
+     "by": "model:claude-sonnet-5-5",
+     "action": "drafted",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags",
+     "note": "basis: general-knowledge"
+    },
+    {
+     "field": "kind",
+     "by": "model:claude-sonnet-5-5",
+     "action": "drafted",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags",
+     "note": "basis: general-knowledge (with the definition)"
+    },
+    {
+     "field": "variant:cpg",
+     "by": "model:claude-sonnet-5-5",
+     "action": "drafted",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags",
+     "note": "basis: general-knowledge"
+    },
+    {
+     "field": "certification",
+     "by": "model:claude-sonnet-5-5",
+     "action": "drafted",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags",
+     "note": "basis: general-knowledge"
+    }
+   ]
+  },
+  {
+   "id": "skill:00099",
+   "preferred_name": "CompTIA Mobility+",
+   "kind": "credential",
+   "definition": "A CompTIA certification covering the management and support of mobile devices and the systems that manage them.",
+   "key": "comptia-mobility",
+   "certification": true,
+   "variants": [],
+   "relations": [],
+   "verbs": [],
+   "status": "machine-drafted",
+   "provenance": {
+    "source": "drafted by model:claude-sonnet-5-5, run 2026-10-29-pilot-100-tags, from the name in the legacy tag list alone; no posting or outside source checked",
+    "date": "2026-10-29",
+    "reviewed_by": null,
+    "legacy_tag": {
+     "sources": [
+      {
+       "file": "data/skills_tags.csv",
+       "rows": [
+        947
+       ],
+       "class": "Certification"
+      },
+      {
+       "file": "data/skills-certification.csv",
+       "rows": [
+        431
+       ],
+       "class": "Certification"
+      }
+     ],
+     "class": "Certification",
+     "in_lists": [
+      "certification"
+     ]
+    }
+   },
+   "evidence": [
+    {
+     "field": "definition",
+     "by": "model:claude-sonnet-5-5",
+     "action": "drafted",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags",
+     "note": "basis: general-knowledge"
+    },
+    {
+     "field": "kind",
+     "by": "model:claude-sonnet-5-5",
+     "action": "drafted",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags",
+     "note": "basis: general-knowledge (with the definition)"
+    },
+    {
+     "field": "certification",
+     "by": "model:claude-sonnet-5-5",
+     "action": "drafted",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags",
+     "note": "basis: general-knowledge"
+    }
+   ]
+  },
+  {
+   "id": "skill:00100",
+   "preferred_name": "Dagger 2",
+   "kind": "framework",
+   "definition": "A dependency injection framework for Java and Android that generates its code at compile time.",
+   "key": "dagger-2",
+   "certification": false,
+   "variants": [
+    {
+     "label": "Dagger2",
+     "match": "word_ci"
+    }
+   ],
+   "relations": [],
+   "verbs": [],
+   "status": "machine-drafted",
+   "provenance": {
+    "source": "drafted by model:claude-sonnet-5-5, run 2026-10-29-pilot-100-tags, from the name in the legacy tag list alone; no posting or outside source checked",
+    "date": "2026-10-29",
+    "reviewed_by": null,
+    "legacy_tag": {
+     "sources": [
+      {
+       "file": "data/skills_tags.csv",
+       "rows": [
+        1151
+       ],
+       "class": "Skill"
+      }
+     ],
+     "class": "Skill",
+     "in_lists": []
+    }
+   },
+   "evidence": [
+    {
+     "field": "definition",
+     "by": "model:claude-sonnet-5-5",
+     "action": "drafted",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags",
+     "note": "basis: general-knowledge"
+    },
+    {
+     "field": "kind",
+     "by": "model:claude-sonnet-5-5",
+     "action": "drafted",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags",
+     "note": "basis: general-knowledge (with the definition)"
+    },
+    {
+     "field": "variant:dagger2",
+     "by": "model:claude-sonnet-5-5",
+     "action": "drafted",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags",
+     "note": "basis: general-knowledge"
+    },
+    {
+     "field": "certification",
+     "by": "model:claude-sonnet-5-5",
+     "action": "drafted",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags",
+     "note": "basis: general-knowledge"
+    }
+   ]
+  },
+  {
+   "id": "skill:00101",
+   "preferred_name": "Data wrangling",
+   "kind": "skill",
+   "definition": "Cleaning, reshaping and combining raw data so it can be analysed.",
+   "key": "data-wrangling",
+   "certification": false,
+   "variants": [
+    {
+     "label": "Data munging",
+     "match": "word_ci"
+    }
+   ],
+   "relations": [
+    {
+     "type": "related",
+     "target": "skill:0004"
+    }
+   ],
+   "verbs": [
+    "clean",
+    "transform"
+   ],
+   "status": "machine-drafted",
+   "provenance": {
+    "source": "drafted by model:claude-sonnet-5-5, run 2026-10-29-pilot-100-tags, from the name in the legacy tag list alone; no posting or outside source checked",
+    "date": "2026-10-29",
+    "reviewed_by": null,
+    "legacy_tag": {
+     "sources": [
+      {
+       "file": "data/skills_tags.csv",
+       "rows": [
+        1180
+       ],
+       "class": "Skill"
+      }
+     ],
+     "class": "Skill",
+     "in_lists": []
+    }
+   },
+   "evidence": [
+    {
+     "field": "definition",
+     "by": "model:claude-sonnet-5-5",
+     "action": "drafted",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags",
+     "note": "basis: general-knowledge"
+    },
+    {
+     "field": "kind",
+     "by": "model:claude-sonnet-5-5",
+     "action": "drafted",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags",
+     "note": "basis: general-knowledge (with the definition)"
+    },
+    {
+     "field": "variant:data munging",
+     "by": "model:claude-sonnet-5-5",
+     "action": "drafted",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags",
+     "note": "basis: general-knowledge"
+    },
+    {
+     "field": "relation:related:skill:0004",
+     "by": "model:claude-sonnet-5-5",
+     "action": "drafted",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags",
+     "note": "basis: general-knowledge"
+    },
+    {
+     "field": "verb:clean",
+     "by": "model:claude-sonnet-5-5",
+     "action": "drafted",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags",
+     "note": "basis: general-knowledge"
+    },
+    {
+     "field": "verb:transform",
+     "by": "model:claude-sonnet-5-5",
+     "action": "drafted",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags",
+     "note": "basis: general-knowledge"
+    },
+    {
+     "field": "certification",
+     "by": "model:claude-sonnet-5-5",
+     "action": "drafted",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags",
+     "note": "basis: general-knowledge"
+    }
+   ]
+  },
+  {
+   "id": "skill:00102",
+   "preferred_name": "DbVisualizer",
+   "kind": "tool",
+   "definition": "A graphical database client for browsing, querying and administering many kinds of databases.",
+   "key": "dbvisualizer",
+   "certification": false,
+   "variants": [],
+   "relations": [],
+   "verbs": [
+    "query with"
+   ],
+   "status": "machine-drafted",
+   "provenance": {
+    "source": "drafted by model:claude-sonnet-5-5, run 2026-10-29-pilot-100-tags, from the name in the legacy tag list alone; no posting or outside source checked",
+    "date": "2026-10-29",
+    "reviewed_by": null,
+    "legacy_tag": {
+     "sources": [
+      {
+       "file": "data/skills_tags.csv",
+       "rows": [
+        1202
+       ],
+       "class": "Skill"
+      }
+     ],
+     "class": "Skill",
+     "in_lists": []
+    }
+   },
+   "evidence": [
+    {
+     "field": "definition",
+     "by": "model:claude-sonnet-5-5",
+     "action": "drafted",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags",
+     "note": "basis: general-knowledge"
+    },
+    {
+     "field": "kind",
+     "by": "model:claude-sonnet-5-5",
+     "action": "drafted",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags",
+     "note": "basis: general-knowledge (with the definition)"
+    },
+    {
+     "field": "verb:query with",
+     "by": "model:claude-sonnet-5-5",
+     "action": "drafted",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags",
+     "note": "basis: general-knowledge"
+    },
+    {
+     "field": "certification",
+     "by": "model:claude-sonnet-5-5",
+     "action": "drafted",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags",
+     "note": "basis: general-knowledge"
+    }
+   ]
+  },
+  {
+   "id": "skill:00103",
+   "preferred_name": "Deposition (geology)",
+   "kind": "knowledge",
+   "definition": "The geological process by which sediment, soil or rock is laid down on a landform or land mass.",
+   "key": "deposition-geology",
+   "certification": false,
+   "variants": [],
+   "relations": [],
+   "verbs": [],
+   "status": "machine-drafted",
+   "provenance": {
+    "source": "drafted by model:claude-sonnet-5-5, run 2026-10-29-pilot-100-tags, from the name in the legacy tag list alone; no posting or outside source checked",
+    "date": "2026-10-29",
+    "reviewed_by": null,
+    "legacy_tag": {
+     "sources": [
+      {
+       "file": "data/skills_tags.csv",
+       "rows": [
+        1231
+       ],
+       "class": "Skill"
+      }
+     ],
+     "class": "Skill",
+     "in_lists": []
+    }
+   },
+   "evidence": [
+    {
+     "field": "definition",
+     "by": "model:claude-sonnet-5-5",
+     "action": "drafted",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags",
+     "note": "basis: general-knowledge"
+    },
+    {
+     "field": "kind",
+     "by": "model:claude-sonnet-5-5",
+     "action": "drafted",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags",
+     "note": "basis: general-knowledge (with the definition)"
+    },
+    {
+     "field": "certification",
+     "by": "model:claude-sonnet-5-5",
+     "action": "drafted",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags",
+     "note": "basis: general-knowledge"
+    }
+   ]
+  },
+  {
+   "id": "skill:00104",
+   "preferred_name": "Deterministic methods",
+   "kind": "method",
+   "definition": "Methods whose result is fully determined by their inputs, with no randomness involved.",
+   "key": "deterministic-methods",
+   "certification": false,
+   "variants": [],
+   "relations": [],
+   "verbs": [],
+   "status": "machine-drafted",
+   "provenance": {
+    "source": "drafted by model:claude-sonnet-5-5, run 2026-10-29-pilot-100-tags, from the name in the legacy tag list alone; no posting or outside source checked",
+    "date": "2026-10-29",
+    "reviewed_by": null,
+    "legacy_tag": {
+     "sources": [
+      {
+       "file": "data/skills_tags.csv",
+       "rows": [
+        1248
+       ],
+       "class": "Skill"
+      }
+     ],
+     "class": "Skill",
+     "in_lists": []
+    }
+   },
+   "evidence": [
+    {
+     "field": "definition",
+     "by": "model:claude-sonnet-5-5",
+     "action": "drafted",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags",
+     "note": "basis: general-knowledge"
+    },
+    {
+     "field": "kind",
+     "by": "model:claude-sonnet-5-5",
+     "action": "drafted",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags",
+     "note": "basis: general-knowledge (with the definition)"
+    },
+    {
+     "field": "certification",
+     "by": "model:claude-sonnet-5-5",
+     "action": "drafted",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags",
+     "note": "basis: general-knowledge"
+    }
+   ]
+  },
+  {
+   "id": "skill:00105",
+   "preferred_name": "Doctor of Physical Therapy",
+   "kind": "credential",
+   "definition": "A doctoral degree that qualifies graduates to practise as physical therapists in the United States.",
+   "key": "doctor-of-physical-therapy",
+   "certification": true,
+   "variants": [
+    {
+     "label": "DPT",
+     "match": "exact_case"
+    }
+   ],
+   "relations": [],
+   "verbs": [],
+   "status": "machine-drafted",
+   "provenance": {
+    "source": "drafted by model:claude-sonnet-5-5, run 2026-10-29-pilot-100-tags, from the name in the legacy tag list alone; no posting or outside source checked",
+    "date": "2026-10-29",
+    "reviewed_by": null,
+    "legacy_tag": {
+     "sources": [
+      {
+       "file": "data/skills_tags.csv",
+       "rows": [
+        1321
+       ],
+       "class": "Certification"
+      },
+      {
+       "file": "data/skills-certification.csv",
+       "rows": [
+        483
+       ],
+       "class": "Certification"
+      }
+     ],
+     "class": "Certification",
+     "in_lists": [
+      "certification"
+     ]
+    }
+   },
+   "evidence": [
+    {
+     "field": "definition",
+     "by": "model:claude-sonnet-5-5",
+     "action": "drafted",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags",
+     "note": "basis: general-knowledge"
+    },
+    {
+     "field": "kind",
+     "by": "model:claude-sonnet-5-5",
+     "action": "drafted",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags",
+     "note": "basis: general-knowledge (with the definition)"
+    },
+    {
+     "field": "variant:dpt",
+     "by": "model:claude-sonnet-5-5",
+     "action": "drafted",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags",
+     "note": "basis: general-knowledge"
+    },
+    {
+     "field": "certification",
+     "by": "model:claude-sonnet-5-5",
+     "action": "drafted",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags",
+     "note": "basis: general-knowledge"
+    }
+   ]
+  },
+  {
+   "id": "skill:00106",
+   "preferred_name": "Doctor of Public Health",
+   "kind": "credential",
+   "definition": "A doctoral degree in public health focused on professional practice and leadership.",
+   "key": "doctor-of-public-health",
+   "certification": true,
+   "variants": [
+    {
+     "label": "DrPH",
+     "match": "word_ci"
+    }
+   ],
+   "relations": [],
+   "verbs": [],
+   "status": "machine-drafted",
+   "provenance": {
+    "source": "drafted by model:claude-sonnet-5-5, run 2026-10-29-pilot-100-tags, from the name in the legacy tag list alone; no posting or outside source checked",
+    "date": "2026-10-29",
+    "reviewed_by": null,
+    "legacy_tag": {
+     "sources": [
+      {
+       "file": "data/skills_tags.csv",
+       "rows": [
+        1322,
+        1325
+       ],
+       "class": "Certification"
+      },
+      {
+       "file": "data/skills-certification.csv",
+       "rows": [
+        484,
+        485
+       ],
+       "class": "Certification"
+      }
+     ],
+     "class": "Certification",
+     "in_lists": [
+      "certification"
+     ]
+    }
+   },
+   "evidence": [
+    {
+     "field": "definition",
+     "by": "model:claude-sonnet-5-5",
+     "action": "drafted",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags",
+     "note": "basis: general-knowledge"
+    },
+    {
+     "field": "kind",
+     "by": "model:claude-sonnet-5-5",
+     "action": "drafted",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags",
+     "note": "basis: general-knowledge (with the definition)"
+    },
+    {
+     "field": "variant:drph",
+     "by": "model:claude-sonnet-5-5",
+     "action": "drafted",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags",
+     "note": "basis: general-knowledge"
+    },
+    {
+     "field": "certification",
+     "by": "model:claude-sonnet-5-5",
+     "action": "drafted",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags",
+     "note": "basis: general-knowledge"
+    }
+   ]
+  },
+  {
+   "id": "skill:00107",
+   "preferred_name": "Doubles/triples endorsement",
+   "kind": "credential",
+   "definition": "A commercial driver's licence endorsement that permits towing two or three trailers.",
+   "key": "doubles-triples-endorsement",
+   "certification": true,
+   "variants": [
+    {
+     "label": "Doubles Endorsement",
+     "match": "word_ci"
+    }
+   ],
+   "relations": [],
+   "verbs": [],
+   "status": "machine-drafted",
+   "provenance": {
+    "source": "drafted by model:claude-sonnet-5-5, run 2026-10-29-pilot-100-tags, from the name in the legacy tag list alone; no posting or outside source checked",
+    "date": "2026-10-29",
+    "reviewed_by": null,
+    "legacy_tag": {
+     "sources": [
+      {
+       "file": "data/skills_tags.csv",
+       "rows": [
+        1334
+       ],
+       "class": "Certification"
+      },
+      {
+       "file": "data/skills-certification.csv",
+       "rows": [
+        490
+       ],
+       "class": "Certification"
+      }
+     ],
+     "class": "Certification",
+     "in_lists": [
+      "certification"
+     ]
+    }
+   },
+   "evidence": [
+    {
+     "field": "definition",
+     "by": "model:claude-sonnet-5-5",
+     "action": "drafted",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags",
+     "note": "basis: general-knowledge"
+    },
+    {
+     "field": "kind",
+     "by": "model:claude-sonnet-5-5",
+     "action": "drafted",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags",
+     "note": "basis: general-knowledge (with the definition)"
+    },
+    {
+     "field": "variant:doubles endorsement",
+     "by": "model:claude-sonnet-5-5",
+     "action": "drafted",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags",
+     "note": "listed in the legacy tag list; the model chose the canonical name"
+    },
+    {
+     "field": "certification",
+     "by": "model:claude-sonnet-5-5",
+     "action": "drafted",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags",
+     "note": "basis: general-knowledge"
+    }
+   ]
+  },
+  {
+   "id": "skill:00108",
+   "preferred_name": "Drone pilot certificate",
+   "kind": "credential",
+   "definition": "A certificate that allows a person to fly small unmanned aircraft commercially; in the United States, the FAA Remote Pilot Certificate under Part 107.",
+   "key": "drone-pilot-certificate",
+   "certification": true,
+   "variants": [
+    {
+     "label": "Remote Pilot Certificate",
+     "match": "word_ci"
+    }
+   ],
+   "relations": [],
+   "verbs": [],
+   "status": "machine-drafted",
+   "provenance": {
+    "source": "drafted by model:claude-sonnet-5-5, run 2026-10-29-pilot-100-tags, from the name in the legacy tag list alone; no posting or outside source checked",
+    "date": "2026-10-29",
+    "reviewed_by": null,
+    "legacy_tag": {
+     "sources": [
+      {
+       "file": "data/skills_tags.csv",
+       "rows": [
+        1340
+       ],
+       "class": "Certification"
+      },
+      {
+       "file": "data/skills-certification.csv",
+       "rows": [
+        491
+       ],
+       "class": "Certification"
+      }
+     ],
+     "class": "Certification",
+     "in_lists": [
+      "certification"
+     ]
+    }
+   },
+   "evidence": [
+    {
+     "field": "definition",
+     "by": "model:claude-sonnet-5-5",
+     "action": "drafted",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags",
+     "note": "basis: general-knowledge"
+    },
+    {
+     "field": "kind",
+     "by": "model:claude-sonnet-5-5",
+     "action": "drafted",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags",
+     "note": "basis: general-knowledge (with the definition)"
+    },
+    {
+     "field": "variant:remote pilot certificate",
+     "by": "model:claude-sonnet-5-5",
+     "action": "drafted",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags",
+     "note": "basis: general-knowledge"
+    },
+    {
+     "field": "certification",
+     "by": "model:claude-sonnet-5-5",
+     "action": "drafted",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags",
+     "note": "basis: general-knowledge"
+    }
+   ]
+  },
+  {
+   "id": "skill:00109",
+   "preferred_name": "Dynamic cycle counting",
+   "kind": "method",
+   "definition": "Cycle counting of inventory in which the timing of each count is set by rules such as item value, movement or error history.",
+   "key": "dynamic-cycle-counting",
+   "certification": false,
+   "variants": [],
+   "relations": [],
+   "verbs": [],
+   "status": "machine-drafted",
+   "provenance": {
+    "source": "drafted by model:claude-sonnet-5-5, run 2026-10-29-pilot-100-tags, from the name in the legacy tag list alone; no posting or outside source checked",
+    "date": "2026-10-29",
+    "reviewed_by": null,
+    "legacy_tag": {
+     "sources": [
+      {
+       "file": "data/skills_tags.csv",
+       "rows": [
+        1355
+       ],
+       "class": "Skill"
+      }
+     ],
+     "class": "Skill",
+     "in_lists": []
+    }
+   },
+   "evidence": [
+    {
+     "field": "definition",
+     "by": "model:claude-sonnet-5-5",
+     "action": "drafted",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags",
+     "note": "basis: general-knowledge"
+    },
+    {
+     "field": "kind",
+     "by": "model:claude-sonnet-5-5",
+     "action": "drafted",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags",
+     "note": "basis: general-knowledge (with the definition)"
+    },
+    {
+     "field": "certification",
+     "by": "model:claude-sonnet-5-5",
+     "action": "drafted",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags",
+     "note": "basis: general-knowledge"
+    }
+   ]
+  },
+  {
+   "id": "skill:00110",
+   "preferred_name": "Electronic paper",
+   "kind": "knowledge",
+   "definition": "Display technology that mimics ink on paper, reflecting light and holding an image without power, as used in e-readers.",
+   "key": "electronic-paper",
+   "certification": false,
+   "variants": [
+    {
+     "label": "E-paper",
+     "match": "word_ci"
+    }
+   ],
+   "relations": [],
+   "verbs": [],
+   "status": "machine-drafted",
+   "provenance": {
+    "source": "drafted by model:claude-sonnet-5-5, run 2026-10-29-pilot-100-tags, from the name in the legacy tag list alone; no posting or outside source checked",
+    "date": "2026-10-29",
+    "reviewed_by": null,
+    "legacy_tag": {
+     "sources": [
+      {
+       "file": "data/skills_tags.csv",
+       "rows": [
+        1403
+       ],
+       "class": "Skill"
+      }
+     ],
+     "class": "Skill",
+     "in_lists": []
+    }
+   },
+   "evidence": [
+    {
+     "field": "definition",
+     "by": "model:claude-sonnet-5-5",
+     "action": "drafted",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags",
+     "note": "basis: general-knowledge"
+    },
+    {
+     "field": "kind",
+     "by": "model:claude-sonnet-5-5",
+     "action": "drafted",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags",
+     "note": "basis: general-knowledge (with the definition)"
+    },
+    {
+     "field": "variant:e-paper",
+     "by": "model:claude-sonnet-5-5",
+     "action": "drafted",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags",
+     "note": "basis: general-knowledge"
+    },
+    {
+     "field": "certification",
+     "by": "model:claude-sonnet-5-5",
+     "action": "drafted",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags",
+     "note": "basis: general-knowledge"
+    }
+   ]
+  },
+  {
+   "id": "skill:00111",
+   "preferred_name": "Esker",
+   "kind": "tool",
+   "definition": "Cloud software for automating document-based business processes such as accounts payable and order processing.",
+   "key": "esker",
+   "certification": false,
+   "variants": [
+    {
+     "label": "Esker (Software)",
+     "match": "word_ci"
+    }
+   ],
+   "relations": [],
+   "verbs": [],
+   "status": "machine-drafted",
+   "provenance": {
+    "source": "drafted by model:claude-sonnet-5-5, run 2026-10-29-pilot-100-tags, from the name in the legacy tag list alone; no posting or outside source checked",
+    "date": "2026-10-29",
+    "reviewed_by": null,
+    "legacy_tag": {
+     "sources": [
+      {
+       "file": "data/skills_tags.csv",
+       "rows": [
+        1505
+       ],
+       "class": "Skill"
+      }
+     ],
+     "class": "Skill",
+     "in_lists": []
+    }
+   },
+   "evidence": [
+    {
+     "field": "definition",
+     "by": "model:claude-sonnet-5-5",
+     "action": "drafted",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags",
+     "note": "basis: general-knowledge"
+    },
+    {
+     "field": "kind",
+     "by": "model:claude-sonnet-5-5",
+     "action": "drafted",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags",
+     "note": "basis: general-knowledge (with the definition)"
+    },
+    {
+     "field": "variant:esker (software)",
+     "by": "model:claude-sonnet-5-5",
+     "action": "drafted",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags",
+     "note": "listed in the legacy tag list; the model chose the canonical name"
+    },
+    {
+     "field": "certification",
+     "by": "model:claude-sonnet-5-5",
+     "action": "drafted",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags",
+     "note": "basis: general-knowledge"
+    }
+   ]
+  },
+  {
+   "id": "skill:00112",
+   "preferred_name": "Express.js",
+   "kind": "framework",
+   "definition": "A minimal web application framework for Node.js.",
+   "key": "express-js",
+   "certification": false,
+   "variants": [
+    {
+     "label": "ExpressJS",
+     "match": "word_ci"
+    }
+   ],
+   "relations": [],
+   "verbs": [],
+   "status": "machine-drafted",
+   "provenance": {
+    "source": "drafted by model:claude-sonnet-5-5, run 2026-10-29-pilot-100-tags, from the name in the legacy tag list alone; no posting or outside source checked",
+    "date": "2026-10-29",
+    "reviewed_by": null,
+    "legacy_tag": {
+     "sources": [
+      {
+       "file": "data/skills_tags.csv",
+       "rows": [
+        1535
+       ],
+       "class": "Skill"
+      }
+     ],
+     "class": "Skill",
+     "in_lists": []
+    }
+   },
+   "evidence": [
+    {
+     "field": "definition",
+     "by": "model:claude-sonnet-5-5",
+     "action": "drafted",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags",
+     "note": "basis: general-knowledge"
+    },
+    {
+     "field": "kind",
+     "by": "model:claude-sonnet-5-5",
+     "action": "drafted",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags",
+     "note": "basis: general-knowledge (with the definition)"
+    },
+    {
+     "field": "variant:expressjs",
+     "by": "model:claude-sonnet-5-5",
+     "action": "drafted",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags",
+     "note": "basis: general-knowledge"
+    },
+    {
+     "field": "certification",
+     "by": "model:claude-sonnet-5-5",
+     "action": "drafted",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags",
+     "note": "basis: general-knowledge"
+    }
+   ]
+  },
+  {
+   "id": "skill:00113",
+   "preferred_name": "French",
+   "kind": "human-language",
+   "definition": "A Romance language spoken in France and many other countries.",
+   "key": "french",
+   "certification": false,
+   "language_type": "spoken",
+   "variants": [
+    {
+     "label": "French Languages",
+     "match": "word_ci"
+    },
+    {
+     "label": "French language",
+     "match": "word_ci"
+    }
+   ],
+   "relations": [],
+   "verbs": [],
+   "status": "machine-drafted",
+   "provenance": {
+    "source": "drafted by model:claude-sonnet-5-5, run 2026-10-29-pilot-100-tags, from the name in the legacy tag list alone; no posting or outside source checked",
+    "date": "2026-10-29",
+    "reviewed_by": null,
+    "legacy_tag": {
+     "sources": [
+      {
+       "file": "data/skills_tags.csv",
+       "rows": [
+        1688
+       ],
+       "class": "Language"
+      }
+     ],
+     "class": "Language",
+     "in_lists": []
+    }
+   },
+   "evidence": [
+    {
+     "field": "definition",
+     "by": "model:claude-sonnet-5-5",
+     "action": "drafted",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags",
+     "note": "basis: general-knowledge"
+    },
+    {
+     "field": "kind",
+     "by": "model:claude-sonnet-5-5",
+     "action": "drafted",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags",
+     "note": "basis: general-knowledge (with the definition)"
+    },
+    {
+     "field": "variant:french languages",
+     "by": "model:claude-sonnet-5-5",
+     "action": "drafted",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags",
+     "note": "listed in the legacy tag list; the model chose the canonical name"
+    },
+    {
+     "field": "variant:french language",
+     "by": "model:claude-sonnet-5-5",
+     "action": "drafted",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags",
+     "note": "basis: general-knowledge"
+    },
+    {
+     "field": "certification",
+     "by": "model:claude-sonnet-5-5",
+     "action": "drafted",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags",
+     "note": "basis: general-knowledge"
+    },
+    {
+     "field": "language_type",
+     "by": "model:claude-sonnet-5-5",
+     "action": "drafted",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags",
+     "note": "basis: general-knowledge"
+    }
+   ]
+  },
+  {
+   "id": "skill:00114",
+   "preferred_name": "HTML formatting",
+   "kind": "skill",
+   "definition": "Marking up and styling text and page content with HTML tags.",
+   "key": "html-formatting",
+   "certification": false,
+   "variants": [],
+   "relations": [],
+   "verbs": [],
+   "status": "machine-drafted",
+   "provenance": {
+    "source": "drafted by model:claude-sonnet-5-5, run 2026-10-29-pilot-100-tags, from the name in the legacy tag list alone; no posting or outside source checked",
+    "date": "2026-10-29",
+    "reviewed_by": null,
+    "legacy_tag": {
+     "sources": [
+      {
+       "file": "data/skills_tags.csv",
+       "rows": [
+        1942
+       ],
+       "class": "Skill"
+      }
+     ],
+     "class": "Skill",
+     "in_lists": []
+    }
+   },
+   "evidence": [
+    {
+     "field": "definition",
+     "by": "model:claude-sonnet-5-5",
+     "action": "drafted",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags",
+     "note": "basis: general-knowledge"
+    },
+    {
+     "field": "kind",
+     "by": "model:claude-sonnet-5-5",
+     "action": "drafted",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags",
+     "note": "basis: general-knowledge (with the definition)"
+    },
+    {
+     "field": "certification",
+     "by": "model:claude-sonnet-5-5",
+     "action": "drafted",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags",
+     "note": "basis: general-knowledge"
+    }
+   ]
+  },
+  {
+   "id": "skill:00115",
+   "preferred_name": "IAM Level I certification",
+   "kind": "credential",
+   "definition": "An information assurance management qualification at Level I, as defined in the U.S. Department of Defense 8570 workforce framework.",
+   "key": "iam-level-i-certification",
+   "certification": true,
+   "variants": [],
+   "relations": [],
+   "verbs": [],
+   "status": "machine-drafted",
+   "provenance": {
+    "source": "drafted by model:claude-sonnet-5-5, run 2026-10-29-pilot-100-tags, from the name in the legacy tag list alone; no posting or outside source checked",
+    "date": "2026-10-29",
+    "reviewed_by": null,
+    "legacy_tag": {
+     "sources": [
+      {
+       "file": "data/skills_tags.csv",
+       "rows": [
+        1970
+       ],
+       "class": "Certification"
+      },
+      {
+       "file": "data/skills-certification.csv",
+       "rows": [
+        532
+       ],
+       "class": "Certification"
+      }
+     ],
+     "class": "Certification",
+     "in_lists": [
+      "certification"
+     ]
+    }
+   },
+   "evidence": [
+    {
+     "field": "definition",
+     "by": "model:claude-sonnet-5-5",
+     "action": "drafted",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags",
+     "note": "basis: general-knowledge"
+    },
+    {
+     "field": "kind",
+     "by": "model:claude-sonnet-5-5",
+     "action": "drafted",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags",
+     "note": "basis: general-knowledge (with the definition)"
+    },
+    {
+     "field": "certification",
+     "by": "model:claude-sonnet-5-5",
+     "action": "drafted",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags",
+     "note": "basis: general-knowledge"
+    }
+   ]
+  },
+  {
+   "id": "skill:00116",
+   "preferred_name": "IBM POWER8",
+   "kind": "platform",
+   "definition": "IBM's eighth-generation POWER microprocessor family for servers, released in 2014.",
+   "key": "ibm-power8",
+   "certification": false,
+   "variants": [
+    {
+     "label": "IBM POWER8 Microprocessors",
+     "match": "word_ci"
+    },
+    {
+     "label": "POWER8",
+     "match": "word_ci"
+    }
+   ],
+   "relations": [],
+   "verbs": [],
+   "status": "machine-drafted",
+   "provenance": {
+    "source": "drafted by model:claude-sonnet-5-5, run 2026-10-29-pilot-100-tags, from the name in the legacy tag list alone; no posting or outside source checked",
+    "date": "2026-10-29",
+    "reviewed_by": null,
+    "legacy_tag": {
+     "sources": [
+      {
+       "file": "data/skills_tags.csv",
+       "rows": [
+        1986
+       ],
+       "class": "Skill"
+      }
+     ],
+     "class": "Skill",
+     "in_lists": []
+    }
+   },
+   "evidence": [
+    {
+     "field": "definition",
+     "by": "model:claude-sonnet-5-5",
+     "action": "drafted",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags",
+     "note": "basis: general-knowledge"
+    },
+    {
+     "field": "kind",
+     "by": "model:claude-sonnet-5-5",
+     "action": "drafted",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags",
+     "note": "basis: general-knowledge (with the definition)"
+    },
+    {
+     "field": "variant:ibm power8 microprocessors",
+     "by": "model:claude-sonnet-5-5",
+     "action": "drafted",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags",
+     "note": "listed in the legacy tag list; the model chose the canonical name"
+    },
+    {
+     "field": "variant:power8",
+     "by": "model:claude-sonnet-5-5",
+     "action": "drafted",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags",
+     "note": "basis: general-knowledge"
+    },
+    {
+     "field": "certification",
+     "by": "model:claude-sonnet-5-5",
+     "action": "drafted",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags",
+     "note": "basis: general-knowledge"
+    }
+   ]
+  },
+  {
+   "id": "skill:00117",
+   "preferred_name": "InsightVM",
+   "kind": "tool",
+   "definition": "Rapid7's vulnerability management software, which scans systems for security weaknesses and helps prioritise fixes.",
+   "key": "insightvm",
+   "certification": false,
+   "variants": [
+    {
+     "label": "InsightVM (Vulnerability Scanning Software)",
+     "match": "word_ci"
+    },
+    {
+     "label": "Rapid7 InsightVM",
+     "match": "word_ci"
+    }
+   ],
+   "relations": [],
+   "verbs": [
+    "configure",
+    "run scans with"
+   ],
+   "status": "machine-drafted",
+   "provenance": {
+    "source": "drafted by model:claude-sonnet-5-5, run 2026-10-29-pilot-100-tags, from the name in the legacy tag list alone; no posting or outside source checked",
+    "date": "2026-10-29",
+    "reviewed_by": null,
+    "legacy_tag": {
+     "sources": [
+      {
+       "file": "data/skills_tags.csv",
+       "rows": [
+        2102
+       ],
+       "class": "Skill"
+      }
+     ],
+     "class": "Skill",
+     "in_lists": []
+    }
+   },
+   "evidence": [
+    {
+     "field": "definition",
+     "by": "model:claude-sonnet-5-5",
+     "action": "drafted",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags",
+     "note": "basis: general-knowledge"
+    },
+    {
+     "field": "kind",
+     "by": "model:claude-sonnet-5-5",
+     "action": "drafted",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags",
+     "note": "basis: general-knowledge (with the definition)"
+    },
+    {
+     "field": "variant:insightvm (vulnerability scanning software)",
+     "by": "model:claude-sonnet-5-5",
+     "action": "drafted",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags",
+     "note": "listed in the legacy tag list; the model chose the canonical name"
+    },
+    {
+     "field": "variant:rapid7 insightvm",
+     "by": "model:claude-sonnet-5-5",
+     "action": "drafted",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags",
+     "note": "basis: general-knowledge"
+    },
+    {
+     "field": "verb:configure",
+     "by": "model:claude-sonnet-5-5",
+     "action": "drafted",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags",
+     "note": "basis: general-knowledge"
+    },
+    {
+     "field": "verb:run scans with",
+     "by": "model:claude-sonnet-5-5",
+     "action": "drafted",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags",
+     "note": "basis: general-knowledge"
+    },
+    {
+     "field": "certification",
+     "by": "model:claude-sonnet-5-5",
+     "action": "drafted",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags",
+     "note": "basis: general-knowledge"
+    }
+   ]
+  },
+  {
+   "id": "skill:00118",
+   "preferred_name": "Interactive 3D",
+   "kind": "skill",
+   "definition": "Building three-dimensional content that users can rotate, explore or manipulate in real time, for example in a browser or game engine.",
+   "key": "interactive-3d",
+   "certification": false,
+   "variants": [],
+   "relations": [],
+   "verbs": [],
+   "status": "machine-drafted",
+   "provenance": {
+    "source": "drafted by model:claude-sonnet-5-5, run 2026-10-29-pilot-100-tags, from the name in the legacy tag list alone; no posting or outside source checked",
+    "date": "2026-10-29",
+    "reviewed_by": null,
+    "legacy_tag": {
+     "sources": [
+      {
+       "file": "data/skills_tags.csv",
+       "rows": [
+        2126
+       ],
+       "class": "Skill"
+      }
+     ],
+     "class": "Skill",
+     "in_lists": []
+    }
+   },
+   "evidence": [
+    {
+     "field": "definition",
+     "by": "model:claude-sonnet-5-5",
+     "action": "drafted",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags",
+     "note": "basis: general-knowledge"
+    },
+    {
+     "field": "kind",
+     "by": "model:claude-sonnet-5-5",
+     "action": "drafted",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags",
+     "note": "basis: general-knowledge (with the definition)"
+    },
+    {
+     "field": "certification",
+     "by": "model:claude-sonnet-5-5",
+     "action": "drafted",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags",
+     "note": "basis: general-knowledge"
+    }
+   ]
+  },
+  {
+   "id": "skill:00119",
+   "preferred_name": "JaCoCo",
+   "kind": "library",
+   "definition": "A free Java code coverage library that measures how much of a program its tests run.",
+   "key": "jacoco",
+   "certification": false,
+   "variants": [],
+   "relations": [],
+   "verbs": [],
+   "status": "machine-drafted",
+   "provenance": {
+    "source": "drafted by model:claude-sonnet-5-5, run 2026-10-29-pilot-100-tags, from the name in the legacy tag list alone; no posting or outside source checked",
+    "date": "2026-10-29",
+    "reviewed_by": null,
+    "legacy_tag": {
+     "sources": [
+      {
+       "file": "data/skills_tags.csv",
+       "rows": [
+        2193
+       ],
+       "class": "Skill"
+      }
+     ],
+     "class": "Skill",
+     "in_lists": []
+    }
+   },
+   "evidence": [
+    {
+     "field": "definition",
+     "by": "model:claude-sonnet-5-5",
+     "action": "drafted",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags",
+     "note": "basis: general-knowledge"
+    },
+    {
+     "field": "kind",
+     "by": "model:claude-sonnet-5-5",
+     "action": "drafted",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags",
+     "note": "basis: general-knowledge (with the definition)"
+    },
+    {
+     "field": "certification",
+     "by": "model:claude-sonnet-5-5",
+     "action": "drafted",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags",
+     "note": "basis: general-knowledge"
+    }
+   ]
+  },
+  {
+   "id": "skill:00120",
+   "preferred_name": "JSData",
+   "kind": "library",
+   "definition": "A framework-agnostic JavaScript library for managing application data in a client-side store.",
+   "key": "jsdata",
+   "certification": false,
+   "variants": [],
+   "relations": [],
+   "verbs": [],
+   "status": "machine-drafted",
+   "provenance": {
+    "source": "drafted by model:claude-sonnet-5-5, run 2026-10-29-pilot-100-tags, from the name in the legacy tag list alone; no posting or outside source checked",
+    "date": "2026-10-29",
+    "reviewed_by": null,
+    "legacy_tag": {
+     "sources": [
+      {
+       "file": "data/skills_tags.csv",
+       "rows": [
+        2226
+       ],
+       "class": "Skill"
+      }
+     ],
+     "class": "Skill",
+     "in_lists": []
+    }
+   },
+   "evidence": [
+    {
+     "field": "definition",
+     "by": "model:claude-sonnet-5-5",
+     "action": "drafted",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags",
+     "note": "basis: general-knowledge"
+    },
+    {
+     "field": "kind",
+     "by": "model:claude-sonnet-5-5",
+     "action": "drafted",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags",
+     "note": "basis: general-knowledge (with the definition)"
+    },
+    {
+     "field": "certification",
+     "by": "model:claude-sonnet-5-5",
+     "action": "drafted",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags",
+     "note": "basis: general-knowledge"
+    }
+   ]
+  },
+  {
+   "id": "skill:00121",
+   "preferred_name": "Apache Karaf",
+   "kind": "platform",
+   "definition": "An Apache runtime container for deploying and managing OSGi-based Java applications.",
+   "key": "apache-karaf",
+   "certification": false,
+   "variants": [
+    {
+     "label": "Karaf",
+     "match": "word_ci"
+    }
+   ],
+   "relations": [],
+   "verbs": [],
+   "status": "machine-drafted",
+   "provenance": {
+    "source": "drafted by model:claude-sonnet-5-5, run 2026-10-29-pilot-100-tags, from the name in the legacy tag list alone; no posting or outside source checked",
+    "date": "2026-10-29",
+    "reviewed_by": null,
+    "legacy_tag": {
+     "sources": [
+      {
+       "file": "data/skills_tags.csv",
+       "rows": [
+        2247
+       ],
+       "class": "Skill"
+      }
+     ],
+     "class": "Skill",
+     "in_lists": []
+    }
+   },
+   "evidence": [
+    {
+     "field": "definition",
+     "by": "model:claude-sonnet-5-5",
+     "action": "drafted",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags",
+     "note": "basis: general-knowledge"
+    },
+    {
+     "field": "kind",
+     "by": "model:claude-sonnet-5-5",
+     "action": "drafted",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags",
+     "note": "basis: general-knowledge (with the definition)"
+    },
+    {
+     "field": "variant:karaf",
+     "by": "model:claude-sonnet-5-5",
+     "action": "drafted",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags",
+     "note": "listed in the legacy tag list; the model chose the canonical name"
+    },
+    {
+     "field": "certification",
+     "by": "model:claude-sonnet-5-5",
+     "action": "drafted",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags",
+     "note": "basis: general-knowledge"
+    }
+   ]
+  },
+  {
+   "id": "skill:00122",
+   "preferred_name": "Law enforcement operations",
+   "kind": "knowledge",
+   "definition": "Planning and carrying out the work of police and other law enforcement agencies.",
+   "key": "law-enforcement-operations",
+   "certification": false,
+   "variants": [],
+   "relations": [],
+   "verbs": [],
+   "status": "machine-drafted",
+   "provenance": {
+    "source": "drafted by model:claude-sonnet-5-5, run 2026-10-29-pilot-100-tags, from the name in the legacy tag list alone; no posting or outside source checked",
+    "date": "2026-10-29",
+    "reviewed_by": null,
+    "legacy_tag": {
+     "sources": [
+      {
+       "file": "data/skills_tags.csv",
+       "rows": [
+        2308
+       ],
+       "class": "Skill"
+      }
+     ],
+     "class": "Skill",
+     "in_lists": []
+    }
+   },
+   "evidence": [
+    {
+     "field": "definition",
+     "by": "model:claude-sonnet-5-5",
+     "action": "drafted",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags",
+     "note": "basis: general-knowledge"
+    },
+    {
+     "field": "kind",
+     "by": "model:claude-sonnet-5-5",
+     "action": "drafted",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags",
+     "note": "basis: general-knowledge (with the definition)"
+    },
+    {
+     "field": "certification",
+     "by": "model:claude-sonnet-5-5",
+     "action": "drafted",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags",
+     "note": "basis: general-knowledge"
+    }
+   ]
+  },
+  {
+   "id": "skill:00123",
+   "preferred_name": "Marathi",
+   "kind": "human-language",
+   "definition": "An Indo-Aryan language spoken mainly in the Indian state of Maharashtra.",
+   "key": "marathi",
+   "certification": false,
+   "language_type": "spoken",
+   "variants": [
+    {
+     "label": "Marathi (Language)",
+     "match": "word_ci"
+    }
+   ],
+   "relations": [],
+   "verbs": [],
+   "status": "machine-drafted",
+   "provenance": {
+    "source": "drafted by model:claude-sonnet-5-5, run 2026-10-29-pilot-100-tags, from the name in the legacy tag list alone; no posting or outside source checked",
+    "date": "2026-10-29",
+    "reviewed_by": null,
+    "legacy_tag": {
+     "sources": [
+      {
+       "file": "data/skills_tags.csv",
+       "rows": [
+        2445
+       ],
+       "class": "Language"
+      },
+      {
+       "file": "data/skills-language.csv",
+       "rows": [
+        186
+       ],
+       "class": "Language"
+      }
+     ],
+     "class": "Language",
+     "in_lists": [
+      "language"
+     ]
+    }
+   },
+   "evidence": [
+    {
+     "field": "definition",
+     "by": "model:claude-sonnet-5-5",
+     "action": "drafted",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags",
+     "note": "basis: general-knowledge"
+    },
+    {
+     "field": "kind",
+     "by": "model:claude-sonnet-5-5",
+     "action": "drafted",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags",
+     "note": "basis: general-knowledge (with the definition)"
+    },
+    {
+     "field": "variant:marathi (language)",
+     "by": "model:claude-sonnet-5-5",
+     "action": "drafted",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags",
+     "note": "listed in the legacy tag list; the model chose the canonical name"
+    },
+    {
+     "field": "certification",
+     "by": "model:claude-sonnet-5-5",
+     "action": "drafted",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags",
+     "note": "basis: general-knowledge"
+    },
+    {
+     "field": "language_type",
+     "by": "model:claude-sonnet-5-5",
+     "action": "drafted",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags",
+     "note": "basis: general-knowledge"
+    }
+   ]
+  },
+  {
+   "id": "skill:00124",
+   "preferred_name": "Master of Laws",
+   "kind": "credential",
+   "definition": "A postgraduate law degree taken after a first law degree.",
+   "key": "master-of-laws",
+   "certification": true,
+   "variants": [
+    {
+     "label": "LL.M.",
+     "match": "exact_case"
+    }
+   ],
+   "relations": [],
+   "verbs": [],
+   "status": "machine-drafted",
+   "provenance": {
+    "source": "drafted by model:claude-sonnet-5-5, run 2026-10-29-pilot-100-tags, from the name in the legacy tag list alone; no posting or outside source checked",
+    "date": "2026-10-29",
+    "reviewed_by": null,
+    "legacy_tag": {
+     "sources": [
+      {
+       "file": "data/skills_tags.csv",
+       "rows": [
+        2467,
+        2472
+       ],
+       "class": "Certification/Skill"
+      },
+      {
+       "file": "data/skills-certification.csv",
+       "rows": [
+        555
+       ],
+       "class": "Certification"
+      }
+     ],
+     "class": "Certification/Skill",
+     "in_lists": [
+      "certification"
+     ],
+     "class_conflict": true
+    }
+   },
+   "evidence": [
+    {
+     "field": "definition",
+     "by": "model:claude-sonnet-5-5",
+     "action": "drafted",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags",
+     "note": "basis: general-knowledge"
+    },
+    {
+     "field": "kind",
+     "by": "model:claude-sonnet-5-5",
+     "action": "drafted",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags",
+     "note": "basis: general-knowledge (with the definition)"
+    },
+    {
+     "field": "variant:ll.m.",
+     "by": "model:claude-sonnet-5-5",
+     "action": "drafted",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags",
+     "note": "basis: general-knowledge"
+    },
+    {
+     "field": "certification",
+     "by": "model:claude-sonnet-5-5",
+     "action": "drafted",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags",
+     "note": "basis: general-knowledge"
+    }
+   ]
+  },
+  {
+   "id": "skill:00125",
+   "preferred_name": "Master of Laws in Taxation",
+   "kind": "credential",
+   "definition": "A postgraduate law degree that specialises in tax law.",
+   "key": "master-of-laws-in-taxation",
+   "certification": true,
+   "variants": [
+    {
+     "label": "LL.M. in Taxation",
+     "match": "word_ci"
+    },
+    {
+     "label": "Master of Laws in Tax",
+     "match": "word_ci"
+    }
+   ],
+   "relations": [],
+   "verbs": [],
+   "status": "machine-drafted",
+   "provenance": {
+    "source": "drafted by model:claude-sonnet-5-5, run 2026-10-29-pilot-100-tags, from the name in the legacy tag list alone; no posting or outside source checked",
+    "date": "2026-10-29",
+    "reviewed_by": null,
+    "legacy_tag": {
+     "sources": [
+      {
+       "file": "data/skills_tags.csv",
+       "rows": [
+        2468,
+        2473
+       ],
+       "class": "Certification/Skill"
+      },
+      {
+       "file": "data/skills-certification.csv",
+       "rows": [
+        556
+       ],
+       "class": "Certification"
+      }
+     ],
+     "class": "Certification/Skill",
+     "in_lists": [
+      "certification"
+     ],
+     "class_conflict": true
+    }
+   },
+   "evidence": [
+    {
+     "field": "definition",
+     "by": "model:claude-sonnet-5-5",
+     "action": "drafted",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags",
+     "note": "basis: general-knowledge"
+    },
+    {
+     "field": "kind",
+     "by": "model:claude-sonnet-5-5",
+     "action": "drafted",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags",
+     "note": "basis: general-knowledge (with the definition)"
+    },
+    {
+     "field": "variant:ll.m. in taxation",
+     "by": "model:claude-sonnet-5-5",
+     "action": "drafted",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags",
+     "note": "basis: general-knowledge"
+    },
+    {
+     "field": "variant:master of laws in tax",
+     "by": "model:claude-sonnet-5-5",
+     "action": "drafted",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags",
+     "note": "basis: general-knowledge"
+    },
+    {
+     "field": "certification",
+     "by": "model:claude-sonnet-5-5",
+     "action": "drafted",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags",
+     "note": "basis: general-knowledge"
+    }
+   ]
+  },
+  {
+   "id": "skill:00126",
+   "preferred_name": "Master's certificate in project management",
+   "kind": "credential",
+   "definition": "A graduate-level certificate programme in project management, shorter than a master's degree.",
+   "key": "master-s-certificate-in-project-management",
+   "certification": true,
+   "variants": [
+    {
+     "label": "Masters Certificate In Project Management",
+     "match": "word_ci"
+    }
+   ],
+   "relations": [
+    {
+     "type": "related",
+     "target": "skill:0074"
+    }
+   ],
+   "verbs": [],
+   "status": "machine-drafted",
+   "provenance": {
+    "source": "drafted by model:claude-sonnet-5-5, run 2026-10-29-pilot-100-tags, from the name in the legacy tag list alone; no posting or outside source checked",
+    "date": "2026-10-29",
+    "reviewed_by": null,
+    "legacy_tag": {
+     "sources": [
+      {
+       "file": "data/skills_tags.csv",
+       "rows": [
+        2476
+       ],
+       "class": "Skill"
+      }
+     ],
+     "class": "Skill",
+     "in_lists": []
+    }
+   },
+   "evidence": [
+    {
+     "field": "definition",
+     "by": "model:claude-sonnet-5-5",
+     "action": "drafted",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags",
+     "note": "basis: general-knowledge"
+    },
+    {
+     "field": "kind",
+     "by": "model:claude-sonnet-5-5",
+     "action": "drafted",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags",
+     "note": "basis: general-knowledge (with the definition)"
+    },
+    {
+     "field": "variant:masters certificate in project management",
+     "by": "model:claude-sonnet-5-5",
+     "action": "drafted",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags",
+     "note": "listed in the legacy tag list; the model chose the canonical name"
+    },
+    {
+     "field": "relation:related:skill:0074",
+     "by": "model:claude-sonnet-5-5",
+     "action": "drafted",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags",
+     "note": "basis: general-knowledge"
+    },
+    {
+     "field": "certification",
+     "by": "model:claude-sonnet-5-5",
+     "action": "drafted",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags",
+     "note": "basis: general-knowledge; no legacy list/class says so",
+     "flag": "not_in_legacy"
+    }
+   ]
+  },
+  {
+   "id": "skill:00127",
+   "preferred_name": "Media Center Markup Language",
+   "kind": "markup-language",
+   "definition": "An XML-based markup language used to build user interfaces for Windows Media Center applications.",
+   "key": "media-center-markup-language",
+   "certification": false,
+   "language_type": "other",
+   "variants": [
+    {
+     "label": "MCML",
+     "match": "exact_case"
+    }
+   ],
+   "relations": [],
+   "verbs": [],
+   "status": "machine-drafted",
+   "provenance": {
+    "source": "drafted by model:claude-sonnet-5-5, run 2026-10-29-pilot-100-tags, from the name in the legacy tag list alone; no posting or outside source checked",
+    "date": "2026-10-29",
+    "reviewed_by": null,
+    "legacy_tag": {
+     "sources": [
+      {
+       "file": "data/skills_tags.csv",
+       "rows": [
+        2501
+       ],
+       "class": "Language"
+      }
+     ],
+     "class": "Language",
+     "in_lists": []
+    }
+   },
+   "evidence": [
+    {
+     "field": "definition",
+     "by": "model:claude-sonnet-5-5",
+     "action": "drafted",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags",
+     "note": "basis: general-knowledge"
+    },
+    {
+     "field": "kind",
+     "by": "model:claude-sonnet-5-5",
+     "action": "drafted",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags",
+     "note": "basis: general-knowledge (with the definition)"
+    },
+    {
+     "field": "variant:mcml",
+     "by": "model:claude-sonnet-5-5",
+     "action": "drafted",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags",
+     "note": "basis: general-knowledge"
+    },
+    {
+     "field": "certification",
+     "by": "model:claude-sonnet-5-5",
+     "action": "drafted",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags",
+     "note": "basis: general-knowledge"
+    },
+    {
+     "field": "language_type",
+     "by": "model:claude-sonnet-5-5",
+     "action": "drafted",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags",
+     "note": "basis: general-knowledge"
+    }
+   ]
+  },
+  {
+   "id": "skill:00128",
+   "preferred_name": "Mixed reality",
+   "kind": "knowledge",
+   "definition": "Technology that blends real and virtual objects so that they interact in real time.",
+   "key": "mixed-reality",
+   "certification": false,
+   "variants": [],
+   "relations": [],
+   "verbs": [],
+   "status": "machine-drafted",
+   "provenance": {
+    "source": "drafted by model:claude-sonnet-5-5, run 2026-10-29-pilot-100-tags, from the name in the legacy tag list alone; no posting or outside source checked",
+    "date": "2026-10-29",
+    "reviewed_by": null,
+    "legacy_tag": {
+     "sources": [
+      {
+       "file": "data/skills_tags.csv",
+       "rows": [
+        2616
+       ],
+       "class": "Skill"
+      }
+     ],
+     "class": "Skill",
+     "in_lists": []
+    }
+   },
+   "evidence": [
+    {
+     "field": "definition",
+     "by": "model:claude-sonnet-5-5",
+     "action": "drafted",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags",
+     "note": "basis: general-knowledge"
+    },
+    {
+     "field": "kind",
+     "by": "model:claude-sonnet-5-5",
+     "action": "drafted",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags",
+     "note": "basis: general-knowledge (with the definition)"
+    },
+    {
+     "field": "certification",
+     "by": "model:claude-sonnet-5-5",
+     "action": "drafted",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags",
+     "note": "basis: general-knowledge"
+    }
+   ]
+  },
+  {
+   "id": "skill:00129",
+   "preferred_name": "Natural language understanding",
+   "kind": "knowledge",
+   "definition": "The part of natural language processing concerned with getting machines to grasp the meaning and intent of human language.",
+   "key": "natural-language-understanding",
+   "certification": false,
+   "notes": "The model says this is not a language; the legacy list/class says it is. A field of study about language, not a language that people speak or program in.",
+   "variants": [
+    {
+     "label": "NLU",
+     "match": "exact_case"
+    }
+   ],
+   "relations": [
+    {
+     "type": "broader",
+     "target": "skill:0039"
+    }
+   ],
+   "verbs": [],
+   "status": "machine-drafted",
+   "provenance": {
+    "source": "drafted by model:claude-sonnet-5-5, run 2026-10-29-pilot-100-tags, from the name in the legacy tag list alone; no posting or outside source checked",
+    "date": "2026-10-29",
+    "reviewed_by": null,
+    "legacy_tag": {
+     "sources": [
+      {
+       "file": "data/skills_tags.csv",
+       "rows": [
+        2719
+       ],
+       "class": "Language"
+      }
+     ],
+     "class": "Language",
+     "in_lists": []
+    }
+   },
+   "evidence": [
+    {
+     "field": "definition",
+     "by": "model:claude-sonnet-5-5",
+     "action": "drafted",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags",
+     "note": "basis: general-knowledge"
+    },
+    {
+     "field": "kind",
+     "by": "model:claude-sonnet-5-5",
+     "action": "drafted",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags",
+     "note": "basis: general-knowledge (with the definition)"
+    },
+    {
+     "field": "variant:nlu",
+     "by": "model:claude-sonnet-5-5",
+     "action": "drafted",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags",
+     "note": "basis: general-knowledge"
+    },
+    {
+     "field": "relation:broader:skill:0039",
+     "by": "model:claude-sonnet-5-5",
+     "action": "drafted",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags",
+     "note": "basis: general-knowledge"
+    },
+    {
+     "field": "certification",
+     "by": "model:claude-sonnet-5-5",
+     "action": "drafted",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags",
+     "note": "basis: general-knowledge"
+    }
+   ]
+  },
+  {
+   "id": "skill:00130",
+   "preferred_name": "Neonatal Resuscitation Program",
+   "kind": "credential",
+   "definition": "A training programme from the American Academy of Pediatrics and the American Heart Association on resuscitating newborns.",
+   "key": "neonatal-resuscitation-program",
+   "certification": true,
+   "variants": [
+    {
+     "label": "Neonatal Resuscitation Programs",
+     "match": "word_ci"
+    },
+    {
+     "label": "NRP",
+     "match": "exact_case"
+    }
+   ],
+   "relations": [],
+   "verbs": [],
+   "status": "machine-drafted",
+   "provenance": {
+    "source": "drafted by model:claude-sonnet-5-5, run 2026-10-29-pilot-100-tags, from the name in the legacy tag list alone; no posting or outside source checked",
+    "date": "2026-10-29",
+    "reviewed_by": null,
+    "legacy_tag": {
+     "sources": [
+      {
+       "file": "data/skills_tags.csv",
+       "rows": [
+        2730
+       ],
+       "class": "Skill"
+      }
+     ],
+     "class": "Skill",
+     "in_lists": []
+    }
+   },
+   "evidence": [
+    {
+     "field": "definition",
+     "by": "model:claude-sonnet-5-5",
+     "action": "drafted",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags",
+     "note": "basis: general-knowledge"
+    },
+    {
+     "field": "kind",
+     "by": "model:claude-sonnet-5-5",
+     "action": "drafted",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags",
+     "note": "basis: general-knowledge (with the definition)"
+    },
+    {
+     "field": "variant:neonatal resuscitation programs",
+     "by": "model:claude-sonnet-5-5",
+     "action": "drafted",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags",
+     "note": "listed in the legacy tag list; the model chose the canonical name"
+    },
+    {
+     "field": "variant:nrp",
+     "by": "model:claude-sonnet-5-5",
+     "action": "drafted",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags",
+     "note": "basis: general-knowledge"
+    },
+    {
+     "field": "certification",
+     "by": "model:claude-sonnet-5-5",
+     "action": "drafted",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags",
+     "note": "basis: general-knowledge; no legacy list/class says so",
+     "flag": "not_in_legacy"
+    }
+   ]
+  },
+  {
+   "id": "skill:00131",
+   "preferred_name": "NFPA 70E",
+   "kind": "knowledge",
+   "definition": "A National Fire Protection Association standard for electrical safety in the workplace in the United States.",
+   "key": "nfpa-70e",
+   "certification": false,
+   "variants": [],
+   "relations": [],
+   "verbs": [],
+   "status": "machine-drafted",
+   "provenance": {
+    "source": "drafted by model:claude-sonnet-5-5, run 2026-10-29-pilot-100-tags, from the name in the legacy tag list alone; no posting or outside source checked",
+    "date": "2026-10-29",
+    "reviewed_by": null,
+    "legacy_tag": {
+     "sources": [
+      {
+       "file": "data/skills_tags.csv",
+       "rows": [
+        2746
+       ],
+       "class": "Skill"
+      }
+     ],
+     "class": "Skill",
+     "in_lists": []
+    }
+   },
+   "evidence": [
+    {
+     "field": "definition",
+     "by": "model:claude-sonnet-5-5",
+     "action": "drafted",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags",
+     "note": "basis: general-knowledge"
+    },
+    {
+     "field": "kind",
+     "by": "model:claude-sonnet-5-5",
+     "action": "drafted",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags",
+     "note": "basis: general-knowledge (with the definition)"
+    },
+    {
+     "field": "certification",
+     "by": "model:claude-sonnet-5-5",
+     "action": "drafted",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags",
+     "note": "basis: general-knowledge"
+    }
+   ]
+  },
+  {
+   "id": "skill:00132",
+   "preferred_name": "Objective-C",
+   "kind": "programming-language",
+   "definition": "An object-oriented extension of C used for Apple's macOS and iOS software.",
+   "key": "objective-c",
+   "certification": false,
+   "language_type": "programming",
+   "variants": [
+    {
+     "label": "Objective-C (Progamming Language)",
+     "match": "word_ci"
+    },
+    {
+     "label": "Obj-C",
+     "match": "word_ci"
+    }
+   ],
+   "relations": [],
+   "verbs": [],
+   "status": "machine-drafted",
+   "provenance": {
+    "source": "drafted by model:claude-sonnet-5-5, run 2026-10-29-pilot-100-tags, from the name in the legacy tag list alone; no posting or outside source checked",
+    "date": "2026-10-29",
+    "reviewed_by": null,
+    "legacy_tag": {
+     "sources": [
+      {
+       "file": "data/skills_tags.csv",
+       "rows": [
+        2800
+       ],
+       "class": "Language"
+      },
+      {
+       "file": "data/skills-language.csv",
+       "rows": [
+        199
+       ],
+       "class": "Language"
+      }
+     ],
+     "class": "Language",
+     "in_lists": [
+      "language"
+     ]
+    }
+   },
+   "evidence": [
+    {
+     "field": "definition",
+     "by": "model:claude-sonnet-5-5",
+     "action": "drafted",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags",
+     "note": "basis: general-knowledge"
+    },
+    {
+     "field": "kind",
+     "by": "model:claude-sonnet-5-5",
+     "action": "drafted",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags",
+     "note": "basis: general-knowledge (with the definition)"
+    },
+    {
+     "field": "variant:objective-c (progamming language)",
+     "by": "model:claude-sonnet-5-5",
+     "action": "drafted",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags",
+     "note": "listed in the legacy tag list; the model chose the canonical name"
+    },
+    {
+     "field": "variant:obj-c",
+     "by": "model:claude-sonnet-5-5",
+     "action": "drafted",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags",
+     "note": "basis: general-knowledge"
+    },
+    {
+     "field": "certification",
+     "by": "model:claude-sonnet-5-5",
+     "action": "drafted",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags",
+     "note": "basis: general-knowledge"
+    },
+    {
+     "field": "language_type",
+     "by": "model:claude-sonnet-5-5",
+     "action": "drafted",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags",
+     "note": "basis: general-knowledge"
+    }
+   ]
+  },
+  {
+   "id": "skill:00133",
+   "preferred_name": "Passenger endorsement",
+   "kind": "credential",
+   "definition": "A commercial driver's licence endorsement that permits driving vehicles that carry passengers, such as buses.",
+   "key": "passenger-endorsement",
+   "certification": true,
+   "variants": [],
+   "relations": [],
+   "verbs": [],
+   "status": "machine-drafted",
+   "provenance": {
+    "source": "drafted by model:claude-sonnet-5-5, run 2026-10-29-pilot-100-tags, from the name in the legacy tag list alone; no posting or outside source checked",
+    "date": "2026-10-29",
+    "reviewed_by": null,
+    "legacy_tag": {
+     "sources": [
+      {
+       "file": "data/skills_tags.csv",
+       "rows": [
+        2947
+       ],
+       "class": "Certification"
+      },
+      {
+       "file": "data/skills-certification.csv",
+       "rows": [
+        673
+       ],
+       "class": "Certification"
+      }
+     ],
+     "class": "Certification",
+     "in_lists": [
+      "certification"
+     ]
+    }
+   },
+   "evidence": [
+    {
+     "field": "definition",
+     "by": "model:claude-sonnet-5-5",
+     "action": "drafted",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags",
+     "note": "basis: general-knowledge"
+    },
+    {
+     "field": "kind",
+     "by": "model:claude-sonnet-5-5",
+     "action": "drafted",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags",
+     "note": "basis: general-knowledge (with the definition)"
+    },
+    {
+     "field": "certification",
+     "by": "model:claude-sonnet-5-5",
+     "action": "drafted",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags",
+     "note": "basis: general-knowledge"
+    }
+   ]
+  },
+  {
+   "id": "skill:00134",
+   "preferred_name": "Phoenician",
+   "kind": "human-language",
+   "definition": "An extinct Canaanite language of the ancient Phoenicians, written in the Phoenician alphabet.",
+   "key": "phoenician",
+   "certification": false,
+   "language_type": "spoken",
+   "variants": [
+    {
+     "label": "Phoenician (Language)",
+     "match": "word_ci"
+    }
+   ],
+   "relations": [],
+   "verbs": [],
+   "status": "machine-drafted",
+   "provenance": {
+    "source": "drafted by model:claude-sonnet-5-5, run 2026-10-29-pilot-100-tags, from the name in the legacy tag list alone; no posting or outside source checked",
+    "date": "2026-10-29",
+    "reviewed_by": null,
+    "legacy_tag": {
+     "sources": [
+      {
+       "file": "data/skills_tags.csv",
+       "rows": [
+        3028
+       ],
+       "class": "Language"
+      },
+      {
+       "file": "data/skills-language.csv",
+       "rows": [
+        210
+       ],
+       "class": "Language"
+      }
+     ],
+     "class": "Language",
+     "in_lists": [
+      "language"
+     ]
+    }
+   },
+   "evidence": [
+    {
+     "field": "definition",
+     "by": "model:claude-sonnet-5-5",
+     "action": "drafted",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags",
+     "note": "basis: general-knowledge"
+    },
+    {
+     "field": "kind",
+     "by": "model:claude-sonnet-5-5",
+     "action": "drafted",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags",
+     "note": "basis: general-knowledge (with the definition)"
+    },
+    {
+     "field": "variant:phoenician (language)",
+     "by": "model:claude-sonnet-5-5",
+     "action": "drafted",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags",
+     "note": "listed in the legacy tag list; the model chose the canonical name"
+    },
+    {
+     "field": "certification",
+     "by": "model:claude-sonnet-5-5",
+     "action": "drafted",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags",
+     "note": "basis: general-knowledge"
+    },
+    {
+     "field": "language_type",
+     "by": "model:claude-sonnet-5-5",
+     "action": "drafted",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags",
+     "note": "basis: general-knowledge"
+    }
+   ]
+  },
+  {
+   "id": "skill:00135",
+   "preferred_name": "Plumbing drawing",
+   "kind": "skill",
+   "definition": "Preparing or reading technical drawings that show the layout of pipes and fixtures in a building.",
+   "key": "plumbing-drawing",
+   "certification": false,
+   "variants": [],
+   "relations": [],
+   "verbs": [],
+   "status": "machine-drafted",
+   "provenance": {
+    "source": "drafted by model:claude-sonnet-5-5, run 2026-10-29-pilot-100-tags, from the name in the legacy tag list alone; no posting or outside source checked",
+    "date": "2026-10-29",
+    "reviewed_by": null,
+    "legacy_tag": {
+     "sources": [
+      {
+       "file": "data/skills_tags.csv",
+       "rows": [
+        3074
+       ],
+       "class": "Skill"
+      }
+     ],
+     "class": "Skill",
+     "in_lists": []
+    }
+   },
+   "evidence": [
+    {
+     "field": "definition",
+     "by": "model:claude-sonnet-5-5",
+     "action": "drafted",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags",
+     "note": "basis: general-knowledge"
+    },
+    {
+     "field": "kind",
+     "by": "model:claude-sonnet-5-5",
+     "action": "drafted",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags",
+     "note": "basis: general-knowledge (with the definition)"
+    },
+    {
+     "field": "certification",
+     "by": "model:claude-sonnet-5-5",
+     "action": "drafted",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags",
+     "note": "basis: general-knowledge"
+    }
+   ]
+  },
+  {
+   "id": "skill:00136",
+   "preferred_name": "Production support",
+   "kind": "skill",
+   "definition": "Monitoring and troubleshooting a live system to resolve problems that affect users.",
+   "key": "production-support",
+   "certification": false,
+   "variants": [],
+   "relations": [],
+   "verbs": [
+    "troubleshoot",
+    "monitor"
+   ],
+   "status": "machine-drafted",
+   "provenance": {
+    "source": "drafted by model:claude-sonnet-5-5, run 2026-10-29-pilot-100-tags, from the name in the legacy tag list alone; no posting or outside source checked",
+    "date": "2026-10-29",
+    "reviewed_by": null,
+    "legacy_tag": {
+     "sources": [
+      {
+       "file": "data/skills_tags.csv",
+       "rows": [
+        3159
+       ],
+       "class": "Skill"
+      }
+     ],
+     "class": "Skill",
+     "in_lists": []
+    }
+   },
+   "evidence": [
+    {
+     "field": "definition",
+     "by": "model:claude-sonnet-5-5",
+     "action": "drafted",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags",
+     "note": "basis: general-knowledge"
+    },
+    {
+     "field": "kind",
+     "by": "model:claude-sonnet-5-5",
+     "action": "drafted",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags",
+     "note": "basis: general-knowledge (with the definition)"
+    },
+    {
+     "field": "verb:troubleshoot",
+     "by": "model:claude-sonnet-5-5",
+     "action": "drafted",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags",
+     "note": "basis: general-knowledge"
+    },
+    {
+     "field": "verb:monitor",
+     "by": "model:claude-sonnet-5-5",
+     "action": "drafted",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags",
+     "note": "basis: general-knowledge"
+    },
+    {
+     "field": "certification",
+     "by": "model:claude-sonnet-5-5",
+     "action": "drafted",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags",
+     "note": "basis: general-knowledge"
+    }
+   ]
+  },
+  {
+   "id": "skill:00137",
+   "preferred_name": "CCH ProSystem fx Engagement",
+   "kind": "tool",
+   "definition": "Wolters Kluwer CCH software that accounting firms use to manage engagements and workpapers.",
+   "key": "cch-prosystem-fx-engagement",
+   "certification": false,
+   "variants": [
+    {
+     "label": "ProSystem Fx Engagement (Tax Software)",
+     "match": "word_ci"
+    }
+   ],
+   "relations": [],
+   "verbs": [],
+   "status": "machine-drafted",
+   "provenance": {
+    "source": "drafted by model:claude-sonnet-5-5, run 2026-10-29-pilot-100-tags, from the name in the legacy tag list alone; no posting or outside source checked",
+    "date": "2026-10-29",
+    "reviewed_by": null,
+    "legacy_tag": {
+     "sources": [
+      {
+       "file": "data/skills_tags.csv",
+       "rows": [
+        3129
+       ],
+       "class": "Skill"
+      }
+     ],
+     "class": "Skill",
+     "in_lists": []
+    }
+   },
+   "evidence": [
+    {
+     "field": "definition",
+     "by": "model:claude-sonnet-5-5",
+     "action": "drafted",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags",
+     "note": "basis: general-knowledge"
+    },
+    {
+     "field": "kind",
+     "by": "model:claude-sonnet-5-5",
+     "action": "drafted",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags",
+     "note": "basis: general-knowledge (with the definition)"
+    },
+    {
+     "field": "variant:prosystem fx engagement (tax software)",
+     "by": "model:claude-sonnet-5-5",
+     "action": "drafted",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags",
+     "note": "listed in the legacy tag list; the model chose the canonical name"
+    },
+    {
+     "field": "certification",
+     "by": "model:claude-sonnet-5-5",
+     "action": "drafted",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags",
+     "note": "basis: general-knowledge"
+    }
+   ]
+  },
+  {
+   "id": "skill:00138",
+   "preferred_name": "Reading gauges",
+   "kind": "skill",
+   "definition": "Reading analog or digital gauges to check pressure, temperature, levels or flow on equipment.",
+   "key": "reading-gauges",
+   "certification": false,
+   "variants": [],
+   "relations": [],
+   "verbs": [],
+   "status": "machine-drafted",
+   "provenance": {
+    "source": "drafted by model:claude-sonnet-5-5, run 2026-10-29-pilot-100-tags, from the name in the legacy tag list alone; no posting or outside source checked",
+    "date": "2026-10-29",
+    "reviewed_by": null,
+    "legacy_tag": {
+     "sources": [
+      {
+       "file": "data/skills_tags.csv",
+       "rows": [
+        3284
+       ],
+       "class": "Skill"
+      }
+     ],
+     "class": "Skill",
+     "in_lists": []
+    }
+   },
+   "evidence": [
+    {
+     "field": "definition",
+     "by": "model:claude-sonnet-5-5",
+     "action": "drafted",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags",
+     "note": "basis: general-knowledge"
+    },
+    {
+     "field": "kind",
+     "by": "model:claude-sonnet-5-5",
+     "action": "drafted",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags",
+     "note": "basis: general-knowledge (with the definition)"
+    },
+    {
+     "field": "certification",
+     "by": "model:claude-sonnet-5-5",
+     "action": "drafted",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags",
+     "note": "basis: general-knowledge"
+    }
+   ]
+  },
+  {
+   "id": "skill:00139",
+   "preferred_name": "Regulation SHO",
+   "kind": "knowledge",
+   "definition": "A U.S. Securities and Exchange Commission regulation governing short sales of securities, including locate and close-out requirements.",
+   "key": "regulation-sho",
+   "certification": false,
+   "variants": [],
+   "relations": [],
+   "verbs": [],
+   "status": "machine-drafted",
+   "provenance": {
+    "source": "drafted by model:claude-sonnet-5-5, run 2026-10-29-pilot-100-tags, from the name in the legacy tag list alone; no posting or outside source checked",
+    "date": "2026-10-29",
+    "reviewed_by": null,
+    "legacy_tag": {
+     "sources": [
+      {
+       "file": "data/skills_tags.csv",
+       "rows": [
+        3329
+       ],
+       "class": "Skill"
+      }
+     ],
+     "class": "Skill",
+     "in_lists": []
+    }
+   },
+   "evidence": [
+    {
+     "field": "definition",
+     "by": "model:claude-sonnet-5-5",
+     "action": "drafted",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags",
+     "note": "basis: general-knowledge"
+    },
+    {
+     "field": "kind",
+     "by": "model:claude-sonnet-5-5",
+     "action": "drafted",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags",
+     "note": "basis: general-knowledge (with the definition)"
+    },
+    {
+     "field": "certification",
+     "by": "model:claude-sonnet-5-5",
+     "action": "drafted",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags",
+     "note": "basis: general-knowledge"
+    }
+   ]
+  },
+  {
+   "id": "skill:00140",
+   "preferred_name": "Restricted Radiotelephone Operator Permit",
+   "kind": "credential",
+   "definition": "A U.S. Federal Communications Commission permit that allows a person to operate certain radio equipment, such as aircraft and marine radios.",
+   "key": "restricted-radiotelephone-operator-permit",
+   "certification": true,
+   "variants": [],
+   "relations": [],
+   "verbs": [],
+   "status": "machine-drafted",
+   "provenance": {
+    "source": "drafted by model:claude-sonnet-5-5, run 2026-10-29-pilot-100-tags, from the name in the legacy tag list alone; no posting or outside source checked",
+    "date": "2026-10-29",
+    "reviewed_by": null,
+    "legacy_tag": {
+     "sources": [
+      {
+       "file": "data/skills_tags.csv",
+       "rows": [
+        3369
+       ],
+       "class": "Skill"
+      }
+     ],
+     "class": "Skill",
+     "in_lists": []
+    }
+   },
+   "evidence": [
+    {
+     "field": "definition",
+     "by": "model:claude-sonnet-5-5",
+     "action": "drafted",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags",
+     "note": "basis: general-knowledge"
+    },
+    {
+     "field": "kind",
+     "by": "model:claude-sonnet-5-5",
+     "action": "drafted",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags",
+     "note": "basis: general-knowledge (with the definition)"
+    },
+    {
+     "field": "certification",
+     "by": "model:claude-sonnet-5-5",
+     "action": "drafted",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags",
+     "note": "basis: general-knowledge; no legacy list/class says so",
+     "flag": "not_in_legacy"
+    }
+   ]
+  },
+  {
+   "id": "skill:00141",
+   "preferred_name": "SACA Certified Industry 4.0 Associate, Basic Operations",
+   "kind": "credential",
+   "definition": "A certification from the Smart Automation Certification Alliance for basic operations in Industry 4.0 manufacturing environments.",
+   "key": "saca-certified-industry-4-0-associate-basic-operations",
+   "certification": true,
+   "variants": [
+    {
+     "label": "SACA Certified Industry 4.0 Associate Basic Operations",
+     "match": "word_ci"
+    }
+   ],
+   "relations": [],
+   "verbs": [],
+   "status": "machine-drafted",
+   "provenance": {
+    "source": "drafted by model:claude-sonnet-5-5, run 2026-10-29-pilot-100-tags, from the name in the legacy tag list alone; no posting or outside source checked",
+    "date": "2026-10-29",
+    "reviewed_by": null,
+    "legacy_tag": {
+     "sources": [
+      {
+       "file": "data/skills_tags.csv",
+       "rows": [
+        3413
+       ],
+       "class": "Certification"
+      },
+      {
+       "file": "data/skills-certification.csv",
+       "rows": [
+        796
+       ],
+       "class": "Certification"
+      }
+     ],
+     "class": "Certification",
+     "in_lists": [
+      "certification"
+     ]
+    }
+   },
+   "evidence": [
+    {
+     "field": "definition",
+     "by": "model:claude-sonnet-5-5",
+     "action": "drafted",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags",
+     "note": "basis: general-knowledge"
+    },
+    {
+     "field": "kind",
+     "by": "model:claude-sonnet-5-5",
+     "action": "drafted",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags",
+     "note": "basis: general-knowledge (with the definition)"
+    },
+    {
+     "field": "variant:saca certified industry 4.0 associate basic operations",
+     "by": "model:claude-sonnet-5-5",
+     "action": "drafted",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags",
+     "note": "listed in the legacy tag list; the model chose the canonical name"
+    },
+    {
+     "field": "certification",
+     "by": "model:claude-sonnet-5-5",
+     "action": "drafted",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags",
+     "note": "basis: general-knowledge"
+    }
+   ]
+  },
+  {
+   "id": "skill:00142",
+   "preferred_name": "Safety Trained Supervisor",
+   "kind": "credential",
+   "definition": "A safety credential for supervisors trained to manage workplace safety.",
+   "key": "safety-trained-supervisor",
+   "certification": true,
+   "variants": [
+    {
+     "label": "Safety Trained Supervision",
+     "match": "word_ci"
+    },
+    {
+     "label": "STS",
+     "match": "exact_case"
+    }
+   ],
+   "relations": [],
+   "verbs": [],
+   "status": "machine-drafted",
+   "provenance": {
+    "source": "drafted by model:claude-sonnet-5-5, run 2026-10-29-pilot-100-tags, from the name in the legacy tag list alone; no posting or outside source checked",
+    "date": "2026-10-29",
+    "reviewed_by": null,
+    "legacy_tag": {
+     "sources": [
+      {
+       "file": "data/skills_tags.csv",
+       "rows": [
+        3442
+       ],
+       "class": "Certification"
+      },
+      {
+       "file": "data/skills-certification.csv",
+       "rows": [
+        800
+       ],
+       "class": "Certification"
+      }
+     ],
+     "class": "Certification",
+     "in_lists": [
+      "certification"
+     ]
+    }
+   },
+   "evidence": [
+    {
+     "field": "definition",
+     "by": "model:claude-sonnet-5-5",
+     "action": "drafted",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags",
+     "note": "basis: general-knowledge"
+    },
+    {
+     "field": "kind",
+     "by": "model:claude-sonnet-5-5",
+     "action": "drafted",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags",
+     "note": "basis: general-knowledge (with the definition)"
+    },
+    {
+     "field": "variant:safety trained supervision",
+     "by": "model:claude-sonnet-5-5",
+     "action": "drafted",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags",
+     "note": "listed in the legacy tag list; the model chose the canonical name"
+    },
+    {
+     "field": "variant:sts",
+     "by": "model:claude-sonnet-5-5",
+     "action": "drafted",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags",
+     "note": "basis: general-knowledge"
+    },
+    {
+     "field": "certification",
+     "by": "model:claude-sonnet-5-5",
+     "action": "drafted",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags",
+     "note": "basis: general-knowledge"
+    }
+   ]
+  },
+  {
+   "id": "skill:00143",
+   "preferred_name": "Screening resumes",
+   "kind": "skill",
+   "definition": "Reviewing resumes to pick the candidates who match a job's requirements.",
+   "key": "screening-resumes",
+   "certification": false,
+   "variants": [],
+   "relations": [],
+   "verbs": [
+    "screen",
+    "shortlist"
+   ],
+   "status": "machine-drafted",
+   "provenance": {
+    "source": "drafted by model:claude-sonnet-5-5, run 2026-10-29-pilot-100-tags, from the name in the legacy tag list alone; no posting or outside source checked",
+    "date": "2026-10-29",
+    "reviewed_by": null,
+    "legacy_tag": {
+     "sources": [
+      {
+       "file": "data/skills_tags.csv",
+       "rows": [
+        3489
+       ],
+       "class": "Skill"
+      }
+     ],
+     "class": "Skill",
+     "in_lists": []
+    }
+   },
+   "evidence": [
+    {
+     "field": "definition",
+     "by": "model:claude-sonnet-5-5",
+     "action": "drafted",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags",
+     "note": "basis: general-knowledge"
+    },
+    {
+     "field": "kind",
+     "by": "model:claude-sonnet-5-5",
+     "action": "drafted",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags",
+     "note": "basis: general-knowledge (with the definition)"
+    },
+    {
+     "field": "verb:screen",
+     "by": "model:claude-sonnet-5-5",
+     "action": "drafted",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags",
+     "note": "basis: general-knowledge"
+    },
+    {
+     "field": "verb:shortlist",
+     "by": "model:claude-sonnet-5-5",
+     "action": "drafted",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags",
+     "note": "basis: general-knowledge"
+    },
+    {
+     "field": "certification",
+     "by": "model:claude-sonnet-5-5",
+     "action": "drafted",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags",
+     "note": "basis: general-knowledge"
+    }
+   ]
+  },
+  {
+   "id": "skill:00144",
+   "preferred_name": "Security Check (SC) clearance",
+   "kind": "credential",
+   "definition": "A UK government security clearance level that allows regular access to secret assets.",
+   "key": "security-check-sc-clearance",
+   "certification": true,
+   "variants": [
+    {
+     "label": "Security Check (SC)",
+     "match": "word_ci"
+    },
+    {
+     "label": "SC clearance",
+     "match": "word_ci"
+    }
+   ],
+   "relations": [],
+   "verbs": [],
+   "status": "machine-drafted",
+   "provenance": {
+    "source": "drafted by model:claude-sonnet-5-5, run 2026-10-29-pilot-100-tags, from the name in the legacy tag list alone; no posting or outside source checked",
+    "date": "2026-10-29",
+    "reviewed_by": null,
+    "legacy_tag": {
+     "sources": [
+      {
+       "file": "data/skills_tags.csv",
+       "rows": [
+        3507
+       ],
+       "class": "Skill"
+      }
+     ],
+     "class": "Skill",
+     "in_lists": []
+    }
+   },
+   "evidence": [
+    {
+     "field": "definition",
+     "by": "model:claude-sonnet-5-5",
+     "action": "drafted",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags",
+     "note": "basis: general-knowledge"
+    },
+    {
+     "field": "kind",
+     "by": "model:claude-sonnet-5-5",
+     "action": "drafted",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags",
+     "note": "basis: general-knowledge (with the definition)"
+    },
+    {
+     "field": "variant:security check (sc)",
+     "by": "model:claude-sonnet-5-5",
+     "action": "drafted",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags",
+     "note": "listed in the legacy tag list; the model chose the canonical name"
+    },
+    {
+     "field": "variant:sc clearance",
+     "by": "model:claude-sonnet-5-5",
+     "action": "drafted",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags",
+     "note": "basis: general-knowledge"
+    },
+    {
+     "field": "certification",
+     "by": "model:claude-sonnet-5-5",
+     "action": "drafted",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags",
+     "note": "basis: general-knowledge; no legacy list/class says so",
+     "flag": "not_in_legacy"
+    }
+   ]
+  },
+  {
+   "id": "skill:00145",
+   "preferred_name": "Slovene",
+   "kind": "human-language",
+   "definition": "A South Slavic language spoken mainly in Slovenia.",
+   "key": "slovene",
+   "certification": false,
+   "language_type": "spoken",
+   "variants": [
+    {
+     "label": "Slovene Language",
+     "match": "word_ci"
+    },
+    {
+     "label": "Slovenian",
+     "match": "word_ci"
+    }
+   ],
+   "relations": [],
+   "verbs": [],
+   "status": "machine-drafted",
+   "provenance": {
+    "source": "drafted by model:claude-sonnet-5-5, run 2026-10-29-pilot-100-tags, from the name in the legacy tag list alone; no posting or outside source checked",
+    "date": "2026-10-29",
+    "reviewed_by": null,
+    "legacy_tag": {
+     "sources": [
+      {
+       "file": "data/skills_tags.csv",
+       "rows": [
+        3618
+       ],
+       "class": "Language"
+      },
+      {
+       "file": "data/skills-language.csv",
+       "rows": [
+        253
+       ],
+       "class": "Language"
+      }
+     ],
+     "class": "Language",
+     "in_lists": [
+      "language"
+     ]
+    }
+   },
+   "evidence": [
+    {
+     "field": "definition",
+     "by": "model:claude-sonnet-5-5",
+     "action": "drafted",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags",
+     "note": "basis: general-knowledge"
+    },
+    {
+     "field": "kind",
+     "by": "model:claude-sonnet-5-5",
+     "action": "drafted",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags",
+     "note": "basis: general-knowledge (with the definition)"
+    },
+    {
+     "field": "variant:slovene language",
+     "by": "model:claude-sonnet-5-5",
+     "action": "drafted",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags",
+     "note": "listed in the legacy tag list; the model chose the canonical name"
+    },
+    {
+     "field": "variant:slovenian",
+     "by": "model:claude-sonnet-5-5",
+     "action": "drafted",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags",
+     "note": "basis: general-knowledge"
+    },
+    {
+     "field": "certification",
+     "by": "model:claude-sonnet-5-5",
+     "action": "drafted",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags",
+     "note": "basis: general-knowledge"
+    },
+    {
+     "field": "language_type",
+     "by": "model:claude-sonnet-5-5",
+     "action": "drafted",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags",
+     "note": "basis: general-knowledge"
+    }
+   ]
+  },
+  {
+   "id": "skill:00146",
+   "preferred_name": "Software as a service",
+   "kind": "knowledge",
+   "definition": "A way of delivering software over the internet by subscription, hosted by the provider instead of installed by the customer.",
+   "key": "software-as-a-service",
+   "certification": false,
+   "variants": [
+    {
+     "label": "Software as a Service (SaaS)",
+     "match": "word_ci"
+    },
+    {
+     "label": "SaaS",
+     "match": "word_ci"
+    }
+   ],
+   "relations": [],
+   "verbs": [],
+   "status": "machine-drafted",
+   "provenance": {
+    "source": "drafted by model:claude-sonnet-5-5, run 2026-10-29-pilot-100-tags, from the name in the legacy tag list alone; no posting or outside source checked",
+    "date": "2026-10-29",
+    "reviewed_by": null,
+    "legacy_tag": {
+     "sources": [
+      {
+       "file": "data/skills_tags.csv",
+       "rows": [
+        3666
+       ],
+       "class": "Skill"
+      }
+     ],
+     "class": "Skill",
+     "in_lists": []
+    }
+   },
+   "evidence": [
+    {
+     "field": "definition",
+     "by": "model:claude-sonnet-5-5",
+     "action": "drafted",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags",
+     "note": "basis: general-knowledge"
+    },
+    {
+     "field": "kind",
+     "by": "model:claude-sonnet-5-5",
+     "action": "drafted",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags",
+     "note": "basis: general-knowledge (with the definition)"
+    },
+    {
+     "field": "variant:software as a service (saas)",
+     "by": "model:claude-sonnet-5-5",
+     "action": "drafted",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags",
+     "note": "listed in the legacy tag list; the model chose the canonical name"
+    },
+    {
+     "field": "variant:saas",
+     "by": "model:claude-sonnet-5-5",
+     "action": "drafted",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags",
+     "note": "basis: general-knowledge"
+    },
+    {
+     "field": "certification",
+     "by": "model:claude-sonnet-5-5",
+     "action": "drafted",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags",
+     "note": "basis: general-knowledge"
+    }
+   ]
+  },
+  {
+   "id": "skill:00147",
+   "preferred_name": "Software localization",
+   "kind": "skill",
+   "definition": "Adapting software to a specific language and region, including translating text and adjusting formats such as dates and currencies.",
+   "key": "software-localization",
+   "certification": false,
+   "variants": [
+    {
+     "label": "Software localisation",
+     "match": "word_ci"
+    },
+    {
+     "label": "L10n",
+     "match": "word_ci"
+    }
+   ],
+   "relations": [],
+   "verbs": [],
+   "status": "machine-drafted",
+   "provenance": {
+    "source": "drafted by model:claude-sonnet-5-5, run 2026-10-29-pilot-100-tags, from the name in the legacy tag list alone; no posting or outside source checked",
+    "date": "2026-10-29",
+    "reviewed_by": null,
+    "legacy_tag": {
+     "sources": [
+      {
+       "file": "data/skills_tags.csv",
+       "rows": [
+        3660
+       ],
+       "class": "Skill"
+      }
+     ],
+     "class": "Skill",
+     "in_lists": []
+    }
+   },
+   "evidence": [
+    {
+     "field": "definition",
+     "by": "model:claude-sonnet-5-5",
+     "action": "drafted",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags",
+     "note": "basis: general-knowledge"
+    },
+    {
+     "field": "kind",
+     "by": "model:claude-sonnet-5-5",
+     "action": "drafted",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags",
+     "note": "basis: general-knowledge (with the definition)"
+    },
+    {
+     "field": "variant:software localisation",
+     "by": "model:claude-sonnet-5-5",
+     "action": "drafted",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags",
+     "note": "basis: general-knowledge"
+    },
+    {
+     "field": "variant:l10n",
+     "by": "model:claude-sonnet-5-5",
+     "action": "drafted",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags",
+     "note": "basis: general-knowledge"
+    },
+    {
+     "field": "certification",
+     "by": "model:claude-sonnet-5-5",
+     "action": "drafted",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags",
+     "note": "basis: general-knowledge"
+    }
+   ]
+  },
+  {
+   "id": "skill:00148",
+   "preferred_name": "Spatial-temporal reasoning",
+   "kind": "ability",
+   "definition": "The ability to understand and mentally work with how objects and events are arranged in space and change over time.",
+   "key": "spatial-temporal-reasoning",
+   "certification": false,
+   "variants": [
+    {
+     "label": "Spatial Temporal Reasoning",
+     "match": "word_ci"
+    }
+   ],
+   "relations": [],
+   "verbs": [],
+   "status": "machine-drafted",
+   "provenance": {
+    "source": "drafted by model:claude-sonnet-5-5, run 2026-10-29-pilot-100-tags, from the name in the legacy tag list alone; no posting or outside source checked",
+    "date": "2026-10-29",
+    "reviewed_by": null,
+    "legacy_tag": {
+     "sources": [
+      {
+       "file": "data/skills_tags.csv",
+       "rows": [
+        3687
+       ],
+       "class": "Skill"
+      }
+     ],
+     "class": "Skill",
+     "in_lists": []
+    }
+   },
+   "evidence": [
+    {
+     "field": "definition",
+     "by": "model:claude-sonnet-5-5",
+     "action": "drafted",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags",
+     "note": "basis: general-knowledge"
+    },
+    {
+     "field": "kind",
+     "by": "model:claude-sonnet-5-5",
+     "action": "drafted",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags",
+     "note": "basis: general-knowledge (with the definition)"
+    },
+    {
+     "field": "variant:spatial temporal reasoning",
+     "by": "model:claude-sonnet-5-5",
+     "action": "drafted",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags",
+     "note": "listed in the legacy tag list; the model chose the canonical name"
+    },
+    {
+     "field": "certification",
+     "by": "model:claude-sonnet-5-5",
+     "action": "drafted",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags",
+     "note": "basis: general-knowledge"
+    }
+   ]
+  },
+  {
+   "id": "skill:00149",
+   "preferred_name": "TL 9000",
+   "kind": "knowledge",
+   "definition": "A quality management system standard for the telecommunications industry, built on ISO 9001.",
+   "key": "tl-9000",
+   "certification": false,
+   "variants": [
+    {
+     "label": "TL9000",
+     "match": "word_ci"
+    }
+   ],
+   "relations": [],
+   "verbs": [],
+   "status": "machine-drafted",
+   "provenance": {
+    "source": "drafted by model:claude-sonnet-5-5, run 2026-10-29-pilot-100-tags, from the name in the legacy tag list alone; no posting or outside source checked",
+    "date": "2026-10-29",
+    "reviewed_by": null,
+    "legacy_tag": {
+     "sources": [
+      {
+       "file": "data/skills_tags.csv",
+       "rows": [
+        3837
+       ],
+       "class": "Skill"
+      }
+     ],
+     "class": "Skill",
+     "in_lists": []
+    }
+   },
+   "evidence": [
+    {
+     "field": "definition",
+     "by": "model:claude-sonnet-5-5",
+     "action": "drafted",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags",
+     "note": "basis: general-knowledge"
+    },
+    {
+     "field": "kind",
+     "by": "model:claude-sonnet-5-5",
+     "action": "drafted",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags",
+     "note": "basis: general-knowledge (with the definition)"
+    },
+    {
+     "field": "variant:tl9000",
+     "by": "model:claude-sonnet-5-5",
+     "action": "drafted",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags",
+     "note": "basis: general-knowledge"
+    },
+    {
+     "field": "certification",
+     "by": "model:claude-sonnet-5-5",
+     "action": "drafted",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags",
+     "note": "basis: general-knowledge"
+    }
+   ]
+  },
+  {
+   "id": "skill:00150",
+   "preferred_name": "UltraTax CS",
+   "kind": "tool",
+   "definition": "Thomson Reuters software that accounting firms use to prepare tax returns.",
+   "key": "ultratax-cs",
+   "certification": false,
+   "variants": [
+    {
+     "label": "UltraTax",
+     "match": "word_ci"
+    }
+   ],
+   "relations": [],
+   "verbs": [
+    "prepare returns in"
+   ],
+   "status": "machine-drafted",
+   "provenance": {
+    "source": "drafted by model:claude-sonnet-5-5, run 2026-10-29-pilot-100-tags, from the name in the legacy tag list alone; no posting or outside source checked",
+    "date": "2026-10-29",
+    "reviewed_by": null,
+    "legacy_tag": {
+     "sources": [
+      {
+       "file": "data/skills_tags.csv",
+       "rows": [
+        3999
+       ],
+       "class": "Skill"
+      }
+     ],
+     "class": "Skill",
+     "in_lists": []
+    }
+   },
+   "evidence": [
+    {
+     "field": "definition",
+     "by": "model:claude-sonnet-5-5",
+     "action": "drafted",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags",
+     "note": "basis: general-knowledge"
+    },
+    {
+     "field": "kind",
+     "by": "model:claude-sonnet-5-5",
+     "action": "drafted",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags",
+     "note": "basis: general-knowledge (with the definition)"
+    },
+    {
+     "field": "variant:ultratax",
+     "by": "model:claude-sonnet-5-5",
+     "action": "drafted",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags",
+     "note": "listed in the legacy tag list; the model chose the canonical name"
+    },
+    {
+     "field": "verb:prepare returns in",
+     "by": "model:claude-sonnet-5-5",
+     "action": "drafted",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags",
+     "note": "basis: general-knowledge"
+    },
+    {
+     "field": "certification",
+     "by": "model:claude-sonnet-5-5",
+     "action": "drafted",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags",
+     "note": "basis: general-knowledge"
+    }
+   ]
+  },
+  {
+   "id": "skill:00151",
+   "preferred_name": "VA loans",
+   "kind": "knowledge",
+   "definition": "Mortgage loans guaranteed by the U.S. Department of Veterans Affairs for eligible service members and veterans.",
+   "key": "va-loans",
+   "certification": false,
+   "variants": [],
+   "relations": [],
+   "verbs": [],
+   "status": "machine-drafted",
+   "provenance": {
+    "source": "drafted by model:claude-sonnet-5-5, run 2026-10-29-pilot-100-tags, from the name in the legacy tag list alone; no posting or outside source checked",
+    "date": "2026-10-29",
+    "reviewed_by": null,
+    "legacy_tag": {
+     "sources": [
+      {
+       "file": "data/skills_tags.csv",
+       "rows": [
+        4043
+       ],
+       "class": "Skill"
+      }
+     ],
+     "class": "Skill",
+     "in_lists": []
+    }
+   },
+   "evidence": [
+    {
+     "field": "definition",
+     "by": "model:claude-sonnet-5-5",
+     "action": "drafted",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags",
+     "note": "basis: general-knowledge"
+    },
+    {
+     "field": "kind",
+     "by": "model:claude-sonnet-5-5",
+     "action": "drafted",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags",
+     "note": "basis: general-knowledge (with the definition)"
+    },
+    {
+     "field": "certification",
+     "by": "model:claude-sonnet-5-5",
+     "action": "drafted",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags",
+     "note": "basis: general-knowledge"
+    }
+   ]
+  },
+  {
+   "id": "skill:00152",
+   "preferred_name": "Visme",
+   "kind": "tool",
+   "definition": "An online tool for making presentations, infographics and other visual content.",
+   "key": "visme",
+   "certification": false,
+   "variants": [
+    {
+     "label": "Visme (Software)",
+     "match": "word_ci"
+    }
+   ],
+   "relations": [],
+   "verbs": [],
+   "status": "machine-drafted",
+   "provenance": {
+    "source": "drafted by model:claude-sonnet-5-5, run 2026-10-29-pilot-100-tags, from the name in the legacy tag list alone; no posting or outside source checked",
+    "date": "2026-10-29",
+    "reviewed_by": null,
+    "legacy_tag": {
+     "sources": [
+      {
+       "file": "data/skills_tags.csv",
+       "rows": [
+        4095
+       ],
+       "class": "Skill"
+      }
+     ],
+     "class": "Skill",
+     "in_lists": []
+    }
+   },
+   "evidence": [
+    {
+     "field": "definition",
+     "by": "model:claude-sonnet-5-5",
+     "action": "drafted",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags",
+     "note": "basis: general-knowledge"
+    },
+    {
+     "field": "kind",
+     "by": "model:claude-sonnet-5-5",
+     "action": "drafted",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags",
+     "note": "basis: general-knowledge (with the definition)"
+    },
+    {
+     "field": "variant:visme (software)",
+     "by": "model:claude-sonnet-5-5",
+     "action": "drafted",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags",
+     "note": "listed in the legacy tag list; the model chose the canonical name"
+    },
+    {
+     "field": "certification",
+     "by": "model:claude-sonnet-5-5",
+     "action": "drafted",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags",
+     "note": "basis: general-knowledge"
+    }
+   ]
+  },
+  {
+   "id": "skill:00153",
+   "preferred_name": "Windows software development",
+   "kind": "skill",
+   "definition": "Writing software that runs on the Microsoft Windows operating system.",
+   "key": "windows-software-development",
+   "certification": false,
+   "variants": [],
+   "relations": [],
+   "verbs": [
+    "develop"
+   ],
+   "status": "machine-drafted",
+   "provenance": {
+    "source": "drafted by model:claude-sonnet-5-5, run 2026-10-29-pilot-100-tags, from the name in the legacy tag list alone; no posting or outside source checked",
+    "date": "2026-10-29",
+    "reviewed_by": null,
+    "legacy_tag": {
+     "sources": [
+      {
+       "file": "data/skills_tags.csv",
+       "rows": [
+        4187
+       ],
+       "class": "Skill"
+      }
+     ],
+     "class": "Skill",
+     "in_lists": []
+    }
+   },
+   "evidence": [
+    {
+     "field": "definition",
+     "by": "model:claude-sonnet-5-5",
+     "action": "drafted",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags",
+     "note": "basis: general-knowledge"
+    },
+    {
+     "field": "kind",
+     "by": "model:claude-sonnet-5-5",
+     "action": "drafted",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags",
+     "note": "basis: general-knowledge (with the definition)"
+    },
+    {
+     "field": "verb:develop",
+     "by": "model:claude-sonnet-5-5",
+     "action": "drafted",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags",
+     "note": "basis: general-knowledge"
+    },
+    {
+     "field": "certification",
+     "by": "model:claude-sonnet-5-5",
+     "action": "drafted",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags",
+     "note": "basis: general-knowledge"
+    }
+   ]
+  },
+  {
+   "id": "skill:00154",
+   "preferred_name": "XBRL",
+   "kind": "markup-language",
+   "definition": "An XML-based standard language for tagging and exchanging business and financial reporting data.",
+   "key": "xbrl",
+   "name_match": "exact_case",
+   "certification": false,
+   "language_type": "other",
+   "variants": [],
+   "relations": [],
+   "verbs": [],
+   "status": "machine-drafted",
+   "provenance": {
+    "source": "drafted by model:claude-sonnet-5-5, run 2026-10-29-pilot-100-tags, from the name in the legacy tag list alone; no posting or outside source checked",
+    "date": "2026-10-29",
+    "reviewed_by": null,
+    "legacy_tag": {
+     "sources": [
+      {
+       "file": "data/skills_tags.csv",
+       "rows": [
+        4234
+       ],
+       "class": "Language"
+      }
+     ],
+     "class": "Language",
+     "in_lists": []
+    }
+   },
+   "evidence": [
+    {
+     "field": "definition",
+     "by": "model:claude-sonnet-5-5",
+     "action": "drafted",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags",
+     "note": "basis: general-knowledge"
+    },
+    {
+     "field": "kind",
+     "by": "model:claude-sonnet-5-5",
+     "action": "drafted",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags",
+     "note": "basis: general-knowledge (with the definition)"
+    },
+    {
+     "field": "certification",
+     "by": "model:claude-sonnet-5-5",
+     "action": "drafted",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags",
+     "note": "basis: general-knowledge"
+    },
+    {
+     "field": "language_type",
+     "by": "model:claude-sonnet-5-5",
+     "action": "drafted",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags",
+     "note": "basis: general-knowledge"
+    }
+   ]
+  },
+  {
+   "id": "skill:00155",
+   "preferred_name": "Yahoo Messenger",
+   "kind": "tool",
+   "definition": "An instant messaging service from Yahoo, shut down in 2018.",
+   "key": "yahoo-messenger",
+   "certification": false,
+   "variants": [],
+   "relations": [],
+   "verbs": [],
+   "status": "machine-drafted",
+   "provenance": {
+    "source": "drafted by model:claude-sonnet-5-5, run 2026-10-29-pilot-100-tags, from the name in the legacy tag list alone; no posting or outside source checked",
+    "date": "2026-10-29",
+    "reviewed_by": null,
+    "legacy_tag": {
+     "sources": [
+      {
+       "file": "data/skills_tags.csv",
+       "rows": [
+        4241
+       ],
+       "class": "Skill"
+      }
+     ],
+     "class": "Skill",
+     "in_lists": []
+    }
+   },
+   "evidence": [
+    {
+     "field": "definition",
+     "by": "model:claude-sonnet-5-5",
+     "action": "drafted",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags",
+     "note": "basis: general-knowledge"
+    },
+    {
+     "field": "kind",
+     "by": "model:claude-sonnet-5-5",
+     "action": "drafted",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags",
+     "note": "basis: general-knowledge (with the definition)"
+    },
+    {
+     "field": "certification",
+     "by": "model:claude-sonnet-5-5",
+     "action": "drafted",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags",
+     "note": "basis: general-knowledge"
+    }
+   ]
+  }
+ ],
+ "variants_added": [
+  {
+   "term": "ux research",
+   "added_to": "skill:0054",
+   "name": "User research",
+   "note": "same concept as User research, listed in the legacy tag list"
+  }
+ ],
+ "not_a_skill": [
+  {
+   "term": "Advisories",
+   "reason": "A generic noun for a notice or warning, not a skill.",
+   "legacy_tag": {
+    "sources": [
+     {
+      "file": "data/skills_tags.csv",
+      "rows": [
+       126
+      ],
+      "class": "Skill"
+     }
+    ],
+    "class": "Skill",
+    "in_lists": []
+   }
+  },
+  {
+   "term": "Betfair",
+   "reason": "A betting exchange company and website, not a skill.",
+   "legacy_tag": {
+    "sources": [
+     {
+      "file": "data/skills_tags.csv",
+      "rows": [
+       450
+      ],
+      "class": "Skill"
+     }
+    ],
+    "class": "Skill",
+    "in_lists": []
+   }
+  },
+  {
+   "term": "Bleeding",
+   "reason": "A symptom or print term, not a skill on its own.",
+   "legacy_tag": {
+    "sources": [
+     {
+      "file": "data/skills_tags.csv",
+      "rows": [
+       476
+      ],
+      "class": "Skill"
+     }
+    ],
+    "class": "Skill",
+    "in_lists": []
+   }
+  },
+  {
+   "term": "Catering Companies",
+   "reason": "Names a type of employer, not a skill.",
+   "legacy_tag": {
+    "sources": [
+     {
+      "file": "data/skills_tags.csv",
+      "rows": [
+       636
+      ],
+      "class": "Skill"
+     }
+    ],
+    "class": "Skill",
+    "in_lists": []
+   }
+  },
+  {
+   "term": "CBHT-DT",
+   "reason": "A television station call sign, not a skill.",
+   "legacy_tag": {
+    "sources": [
+     {
+      "file": "data/skills_tags.csv",
+      "rows": [
+       555
+      ],
+      "class": "Skill"
+     }
+    ],
+    "class": "Skill",
+    "in_lists": []
+   }
+  },
+  {
+   "term": "Good Driving Record",
+   "reason": "A job requirement, not a skill.",
+   "legacy_tag": {
+    "sources": [
+     {
+      "file": "data/skills_tags.csv",
+      "rows": [
+       1773
+      ],
+      "class": "Skill"
+     }
+    ],
+    "class": "Skill",
+    "in_lists": []
+   }
+  },
+  {
+   "term": "Hotel Industry",
+   "reason": "Names an industry sector, not a skill.",
+   "legacy_tag": {
+    "sources": [
+     {
+      "file": "data/skills_tags.csv",
+      "rows": [
+       1935
+      ],
+      "class": "Skill"
+     }
+    ],
+    "class": "Skill",
+    "in_lists": []
+   }
+  },
+  {
+   "term": "Ironworker",
+   "reason": "A job title for a trade, not a skill.",
+   "legacy_tag": {
+    "sources": [
+     {
+      "file": "data/skills_tags.csv",
+      "rows": [
+       2172
+      ],
+      "class": "Skill"
+     }
+    ],
+    "class": "Skill",
+    "in_lists": []
+   }
+  },
+  {
+   "term": "Living Conditions",
+   "reason": "A generic phrase for circumstances, not a skill.",
+   "legacy_tag": {
+    "sources": [
+     {
+      "file": "data/skills_tags.csv",
+      "rows": [
+       2363
+      ],
+      "class": "Skill"
+     }
+    ],
+    "class": "Skill",
+    "in_lists": []
+   }
+  },
+  {
+   "term": "Masterpiece",
+   "reason": "A generic noun, not a skill.",
+   "legacy_tag": {
+    "sources": [
+     {
+      "file": "data/skills_tags.csv",
+      "rows": [
+       2475
+      ],
+      "class": "Skill"
+     }
+    ],
+    "class": "Skill",
+    "in_lists": []
+   }
+  },
+  {
+   "term": "Obstacles To Troop Movement",
+   "reason": "A phrase describing a battlefield condition, not a skill.",
+   "legacy_tag": {
+    "sources": [
+     {
+      "file": "data/skills_tags.csv",
+      "rows": [
+       2803
+      ],
+      "class": "Skill"
+     }
+    ],
+    "class": "Skill",
+    "in_lists": []
+   }
+  },
+  {
+   "term": "Outbreak",
+   "reason": "A generic noun for a sudden spread of disease, not a skill.",
+   "legacy_tag": {
+    "sources": [
+     {
+      "file": "data/skills_tags.csv",
+      "rows": [
+       2898
+      ],
+      "class": "Skill"
+     }
+    ],
+    "class": "Skill",
+    "in_lists": []
+   }
+  },
+  {
+   "term": "Pedals",
+   "reason": "A physical part, not a skill.",
+   "legacy_tag": {
+    "sources": [
+     {
+      "file": "data/skills_tags.csv",
+      "rows": [
+       2976
+      ],
+      "class": "Skill"
+     }
+    ],
+    "class": "Skill",
+    "in_lists": []
+   }
+  },
+  {
+   "term": "Professional Services",
+   "reason": "Names a business line or sector, not a skill.",
+   "legacy_tag": {
+    "sources": [
+     {
+      "file": "data/skills_tags.csv",
+      "rows": [
+       3167
+      ],
+      "class": "Skill"
+     }
+    ],
+    "class": "Skill",
+    "in_lists": []
+   }
+  },
+  {
+   "term": "Searchable Ornithological Research Archive (SORA)",
+   "reason": "Names a digital archive of ornithology literature, not a skill.",
+   "legacy_tag": {
+    "sources": [
+     {
+      "file": "data/skills_tags.csv",
+      "rows": [
+       3498
+      ],
+      "class": "Skill"
+     }
+    ],
+    "class": "Skill",
+    "in_lists": []
+   }
+  },
+  {
+   "term": "Short Films",
+   "reason": "A type of film, not a skill on its own.",
+   "legacy_tag": {
+    "sources": [
+     {
+      "file": "data/skills_tags.csv",
+      "rows": [
+       3583
+      ],
+      "class": "Skill"
+     }
+    ],
+    "class": "Skill",
+    "in_lists": []
+   }
+  },
+  {
+   "term": "Solutions-focused",
+   "reason": "An adjective for an attitude, not a defined skill.",
+   "legacy_tag": {
+    "sources": [
+     {
+      "file": "data/skills_tags.csv",
+      "rows": [
+       3673
+      ],
+      "class": "Skill"
+     }
+    ],
+    "class": "Skill",
+    "in_lists": []
+   }
+  },
+  {
+   "term": "Submit Button",
+   "reason": "A user interface element, not a skill.",
+   "legacy_tag": {
+    "sources": [
+     {
+      "file": "data/skills_tags.csv",
+      "rows": [
+       3777
+      ],
+      "class": "Skill"
+     }
+    ],
+    "class": "Skill",
+    "in_lists": []
+   }
+  },
+  {
+   "term": "Tabbed",
+   "reason": "An adjective for a user interface layout, not a skill.",
+   "legacy_tag": {
+    "sources": [
+     {
+      "file": "data/skills_tags.csv",
+      "rows": [
+       3839
+      ],
+      "class": "Skill"
+     }
+    ],
+    "class": "Skill",
+    "in_lists": []
+   }
+  }
+ ],
+ "unsure": [
+  {
+   "term": "Agile Edge Technologies",
+   "reason": "Looks like a company name, but I cannot confirm that or any skill it might stand for.",
+   "legacy_tag": {
+    "sources": [
+     {
+      "file": "data/skills_tags.csv",
+      "rows": [
+       135
+      ],
+      "class": "Skill"
+     }
+    ],
+    "class": "Skill",
+    "in_lists": []
+   }
+  },
+  {
+   "term": "Core Api",
+   "reason": "Could mean several different APIs; the tag alone does not say which.",
+   "legacy_tag": {
+    "sources": [
+     {
+      "file": "data/skills_tags.csv",
+      "rows": [
+       1046
+      ],
+      "class": "Skill"
+     }
+    ],
+    "class": "Skill",
+    "in_lists": []
+   }
+  },
+  {
+   "term": "Database Programmer'S Toolkits",
+   "reason": "Unclear whether this names a product, a category of libraries or a skill.",
+   "legacy_tag": {
+    "sources": [
+     {
+      "file": "data/skills_tags.csv",
+      "rows": [
+       1189
+      ],
+      "class": "Skill"
+     }
+    ],
+    "class": "Skill",
+    "in_lists": []
+   }
+  },
+  {
+   "term": "Design Surface",
+   "reason": "Could be a software design-time surface, a physical work surface or something else.",
+   "legacy_tag": {
+    "sources": [
+     {
+      "file": "data/skills_tags.csv",
+      "rows": [
+       1239
+      ],
+      "class": "Skill"
+     }
+    ],
+    "class": "Skill",
+    "in_lists": []
+   }
+  },
+  {
+   "term": "Flexi (Photoshop Plugin)",
+   "reason": "I do not know this plugin.",
+   "legacy_tag": {
+    "sources": [
+     {
+      "file": "data/skills_tags.csv",
+      "rows": [
+       1631
+      ],
+      "class": "Skill"
+     }
+    ],
+    "class": "Skill",
+    "in_lists": []
+   }
+  },
+  {
+   "term": "Functional Analysis",
+   "reason": "Means different things in mathematics, systems engineering and behavioural analysis; the tag does not say which.",
+   "legacy_tag": {
+    "sources": [
+     {
+      "file": "data/skills_tags.csv",
+      "rows": [
+       1700
+      ],
+      "class": "Skill"
+     }
+    ],
+    "class": "Skill",
+    "in_lists": []
+   }
+  },
+  {
+   "term": "Intermediate Language",
+   "reason": "Could mean a compiler intermediate language or an intermediate level of proficiency in a human language.",
+   "legacy_tag": {
+    "sources": [
+     {
+      "file": "data/skills_tags.csv",
+      "rows": [
+       2138
+      ],
+      "class": "Language"
+     }
+    ],
+    "class": "Language",
+    "in_lists": []
+   }
+  },
+  {
+   "term": "Management Training",
+   "reason": "Could mean delivering training to managers or having received it; the tag does not say.",
+   "legacy_tag": {
+    "sources": [
+     {
+      "file": "data/skills_tags.csv",
+      "rows": [
+       2435
+      ],
+      "class": "Skill"
+     }
+    ],
+    "class": "Skill",
+    "in_lists": []
+   }
+  },
+  {
+   "term": "Multi-Programming Monitor Control Program",
+   "reason": "I do not recognise this system.",
+   "legacy_tag": {
+    "sources": [
+     {
+      "file": "data/skills_tags.csv",
+      "rows": [
+       2674
+      ],
+      "class": "Skill"
+     }
+    ],
+    "class": "Skill",
+    "in_lists": []
+   }
+  }
+ ]
+}

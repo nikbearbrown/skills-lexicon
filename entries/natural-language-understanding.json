@@ -1,0 +1,83 @@
+{
+ "id": "skill:00129",
+ "preferred_name": "Natural language understanding",
+ "kind": "knowledge",
+ "definition": "The part of natural language processing concerned with getting machines to grasp the meaning and intent of human language.",
+ "key": "natural-language-understanding",
+ "certification": false,
+ "notes": "The model says this is not a language; the legacy list/class says it is. A field of study about language, not a language that people speak or program in.",
+ "variants": [
+  {
+   "label": "NLU",
+   "match": "exact_case"
+  }
+ ],
+ "relations": [
+  {
+   "type": "broader",
+   "target": "skill:0039"
+  }
+ ],
+ "verbs": [],
+ "status": "machine-drafted",
+ "provenance": {
+  "source": "drafted by model:claude-sonnet-5-5, run 2026-10-29-pilot-100-tags, from the name in the legacy tag list alone; no posting or outside source checked",
+  "date": "2026-10-29",
+  "reviewed_by": null,
+  "legacy_tag": {
+   "sources": [
+    {
+     "file": "data/skills_tags.csv",
+     "rows": [
+      2719
+     ],
+     "class": "Language"
+    }
+   ],
+   "class": "Language",
+   "in_lists": []
+  }
+ },
+ "evidence": [
+  {
+   "field": "definition",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-29",
+   "run": "2026-10-29-pilot-100-tags",
+   "note": "basis: general-knowledge"
+  },
+  {
+   "field": "kind",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-29",
+   "run": "2026-10-29-pilot-100-tags",
+   "note": "basis: general-knowledge (with the definition)"
+  },
+  {
+   "field": "variant:nlu",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-29",
+   "run": "2026-10-29-pilot-100-tags",
+   "note": "basis: general-knowledge"
+  },
+  {
+   "field": "relation:broader:skill:0039",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-29",
+   "run": "2026-10-29-pilot-100-tags",
+   "note": "basis: general-knowledge"
+  },
+  {
+   "field": "certification",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-29",
+   "run": "2026-10-29-pilot-100-tags",
+   "note": "basis: general-knowledge"
+  }
+ ]
+}

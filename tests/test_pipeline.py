@@ -165,7 +165,9 @@ class Ingest(unittest.TestCase):
         rep, _ = run_pipeline(root, [AD], {"Kubernetes": NEW}, model="my-local-model")
         self.assertEqual(rep["new"], ["Kubernetes"])
         e = json.loads((root / "entries" / "kubernetes.json").read_text())
-        self.assertEqual((e["status"], e["id"]), ("machine-drafted", "skill:0085"))
+        others, _ = L.load(root / "entries")
+        top = max(int(x["id"][6:]) for x in others if x["key"] != "kubernetes")
+        self.assertEqual((e["status"], e["id"]), ("machine-drafted", f"skill:{top + 1:05d}"))
         self.assertEqual({v["label"] for v in e["variants"]}, {"k8s"})              # guess dropped
         self.assertEqual([r["target"] for r in e["relations"]], ["skill:0019"])     # bad target and guess dropped
         self.assertEqual(e["verbs"], ["deploy"])
@@ -263,6 +265,82 @@ class Ingest(unittest.TestCase):
         self.assertEqual(rep["new"], ["Kubernetes"])
         self.assertEqual(sorted(p.name for p in (root / "entries").iterdir()), before)
         self.assertFalse((work / "done").exists())
+
+
+def tag_run(answer, in_lists=(), cls="Skill"):
+    """Draft one tag with no posting: build its request from a legacy-tag candidate, answer it, ingest."""
+    root = temp_root()
+    work = root / "work"
+    entries, _ = L.load(root / "entries")
+    cand = {"term": "Frobnicate Cert", "n_postings": 0, "quotes": [],
+            "origin": {"sources": [{"file": "data/skills_tags.csv", "rows": [7], "class": cls}], "class": cls,
+                       "in_lists": list(in_lists)}}
+    (work / "requests").mkdir(parents=True)
+    (work / "responses").mkdir()
+    for name, req in M.make([cand], entries, 0).items():
+        (work / "requests" / name).write_text(json.dumps(req))
+        (work / "responses" / name).write_text(json.dumps(answer))
+    return I.ingest(work, root, "model:m1", "run-t", "2026-10-29"), root
+
+
+def tag_answer(**ann):
+    e = {"preferred_name": "Frobnicate Cert", "kind": "credential", "definition": "A made-up credential.",
+         "definition_basis": "general-knowledge", "variants": [], "relations": [], "verbs": []}
+    e.update(ann)
+    return {"decision": "new", "variant_of": None, "reason": "r", "entry": e}
+
+
+class Annotations(unittest.TestCase):
+    def test_tag_origin_is_recorded_and_no_posting_is_claimed(self):
+        rep, root = tag_run(tag_answer(certification={"value": True, "basis": "general-knowledge"}), ["certification"], "Certification")
+        self.assertEqual(rep["new"], ["Frobnicate Cert"])
+        e = json.loads((root / "entries" / "frobnicate-cert.json").read_text())
+        self.assertTrue(e["certification"])
+        self.assertEqual(e["provenance"]["legacy_tag"]["sources"][0]["rows"], [7])
+        self.assertIn("legacy tag list alone", e["provenance"]["source"])
+        self.assertNotIn("posting", " ".join(v["note"] for v in e["evidence"] if v["field"] != "variant:frobnicate cert").replace("basis: general-knowledge", ""))
+        self.assertEqual(L.validate(L.load(root / "entries")[0]), [])
+
+    def test_model_disagreeing_with_a_legacy_list_is_flagged(self):
+        ans = tag_answer(certification={"value": False, "basis": "general-knowledge"}, annotation_note="It is a software tool.")
+        _, root = tag_run(ans, ["certification"], "Certification")
+        e = json.loads((root / "entries" / "frobnicate-cert.json").read_text())
+        self.assertIs(e["certification"], False)
+        rec = next(v for v in e["evidence"] if v["field"] == "certification")
+        self.assertEqual(rec["flag"], "disagrees_with_legacy")
+        self.assertIn("software tool", rec["note"])
+        self.assertEqual([x for x in L.claim_keys(e) if x == "certification"], ["certification"])
+        self.assertFalse(L.backs(rec))                    # a list and a model do not back a claim
+
+    def test_model_adding_a_certification_the_lists_do_not_know_is_flagged(self):
+        _, root = tag_run(tag_answer(certification={"value": True, "basis": "general-knowledge"}))
+        rec = next(v for v in json.loads((root / "entries" / "frobnicate-cert.json").read_text())["evidence"] if v["field"] == "certification")
+        self.assertEqual(rec["flag"], "not_in_legacy")
+
+    def test_not_a_language_leaves_no_field_but_keeps_the_disagreement(self):
+        ans = tag_answer(kind="knowledge", language_type={"value": None, "basis": "general-knowledge"}, annotation_note="A field of study.")
+        _, root = tag_run(ans, ["language"], "Language")
+        e = json.loads((root / "entries" / "frobnicate-cert.json").read_text())
+        self.assertNotIn("language_type", e)
+        self.assertIn("not a language", e["notes"])
+
+    def test_language_type_values(self):
+        _, root = tag_run(tag_answer(kind="programming-language", language_type={"value": "programming", "basis": "general-knowledge"}))
+        self.assertEqual(json.loads((root / "entries" / "frobnicate-cert.json").read_text())["language_type"], "programming")
+        rep, root = tag_run(tag_answer(language_type={"value": "klingon", "basis": "general-knowledge"}))
+        e = json.loads((root / "entries" / "frobnicate-cert.json").read_text())
+        self.assertNotIn("language_type", e)               # a value outside the allowed set is dropped, not saved
+
+    def test_guessed_annotation_is_dropped(self):
+        _, root = tag_run(tag_answer(certification={"value": True, "basis": "guess"}))
+        self.assertNotIn("certification", json.loads((root / "entries" / "frobnicate-cert.json").read_text()))
+
+    def test_validator_rejects_bad_values(self):
+        base = {"id": "skill:00001", "preferred_name": "A", "kind": "skill", "definition": "d", "status": "proposed",
+                "provenance": {"source": "t", "date": "2026-10-29"}, "_file": "a.json"}
+        self.assertTrue(any("certification must be" in m for m in L.validate([dict(base, certification="yes")])))
+        self.assertTrue(any("language_type must be" in m for m in L.validate([dict(base, language_type="klingon")])))
+        self.assertEqual(L.validate([dict(base, certification=True, language_type="spoken")]), [])
 
 
 class Runner(unittest.TestCase):

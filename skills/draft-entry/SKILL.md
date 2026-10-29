@@ -22,6 +22,11 @@ For `new`, the entry has:
 - `variants`: other ways to write the same concept, each with a `basis`. Leave empty if you know none.
 - `relations`: only to entries in `nearest`, by id. Types: `broader` (the target is a broader concept), `part_of` (this is a part of the target), `related`, `contrast`. Each has a `basis`.
 - `verbs`: what a posting asks you to do with it (query, deploy, maintain), each with a `basis`.
+- `certification`: `{"value": true|false, "basis": ...}`. **True** when the concept is a credential attested by an official body: a certification, certificate, licence, permit, endorsement, or an academic degree (associate, bachelor's, master's, doctorate). **False** otherwise, including a standard or regulation that a credential may test for (NFPA 70E, Regulation SHO) and a school subject. Always answer it.
+- `language_type`: `{"value": "programming"|"spoken"|"other"|null, "basis": ...}`. **programming** for a programming language; **spoken** for a human language (spoken, signed or extinct); **other** for a formal language that is not a programming language, such as a markup, query or modelling language (HTML, XBRL); **null** when the concept is not a language at all. A field of study about language (natural language processing) is not a language. Always answer it.
+- `annotation_note`: one short sentence, needed only when a legacy list in the request says the term is a certification or a language and you disagree. Say why.
+
+A request may say that a legacy certification or language list includes the tag. That list has not been checked. Treat it as a hint, decide for yourself, and disagree with it when you have reason to.
 
 `basis` says where each claim came from, and it must be honest:
 
@@ -46,7 +51,10 @@ Output exactly this shape (no code fence, no commentary):
    "preferred_name": "", "kind": "", "definition": "", "definition_basis": "posting|general-knowledge|guess",
    "variants": [{"label": "", "basis": ""}],
    "relations": [{"type": "", "target": "skill:NNNN", "basis": ""}],
-   "verbs": [{"verb": "", "basis": ""}]
+   "verbs": [{"verb": "", "basis": ""}],
+   "certification": {"value": false, "basis": ""},
+   "language_type": {"value": null, "basis": ""},
+   "annotation_note": ""
  }}
 ```
 

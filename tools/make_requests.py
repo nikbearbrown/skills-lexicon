@@ -60,11 +60,24 @@ def make(cands, entries, min_postings=3, limit=None, text=None):
             continue
         if limit and len(out) >= limit:
             break
-        out[slug(c["term"]) + ".json"] = {
+        req = {
             "task": "skills-lexicon draft-entry", "version": 1, "instructions": text,
             "term": c["term"], "n_postings": c["n_postings"], "quotes": c["quotes"],
             "nearest": nearest(c["term"], c["quotes"], entries),
             "allowed": {"kinds": kinds, "relation_types": sorted(L.REL_TYPES), "basis": ["posting", "general-knowledge", "guess"]}}
+        if c.get("origin"):
+            # A term from a list rather than a posting: say so, so nothing is claimed as seen in an ad.
+            req["origin"] = c["origin"]
+            lists = c["origin"].get("in_lists") or []
+            req["context"] = ("This term comes from a legacy tag list, not from a posting. There are no quotes, "
+                              "so no claim can have basis 'posting'. Use 'general-knowledge' only for what you know, "
+                              "and answer 'unsure' if you do not know what the term is. "
+                              + ("The legacy " + " and ".join(lists) + " list(s) include this tag. That is a hint from an "
+                                 "unchecked list, not an answer: decide `certification` and `language_type` yourself, and if you "
+                                 "disagree with a list, say so in `annotation_note`."
+                                 if lists else
+                                 "No legacy certification or language list includes this tag."))
+        out[slug(c["term"]) + ".json"] = req
     return out
 
 

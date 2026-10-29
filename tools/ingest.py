@@ -38,6 +38,44 @@ def evidence(field, by, run, today, basis, quote):
     return {"field": field, "by": by, "action": "drafted", "date": today, "run": run, "note": note}
 
 
+def annotate(e, req, out, ev, dropped, by, run, today):
+    """Add the `certification` and `language_type` annotations the model gave, each as its own claim.
+    A legacy list or class is only a hint: when the model and the hint differ, the evidence record is flagged
+    for a person. A model that says "not a language" leaves no field, so the disagreement goes in `notes`."""
+    o = req.get("origin") or {}
+    lists, cls = o.get("in_lists") or [], (o.get("class") or "").split("/")
+    legacy = {"certification": "certification" in lists or "Certification" in cls,
+              "language_type": "language" in lists or "Language" in cls}
+    why = (e.get("annotation_note") or "").strip()
+    for key in ("certification", "language_type"):
+        ann = e.get(key)
+        if not isinstance(ann, dict) or "value" not in ann:
+            continue
+        v, b = ann["value"], ann.get("basis")
+        if b not in BASIS or b == "guess":
+            dropped.append(f"{key}: basis {b!r}")
+            continue
+        if (key == "certification" and not isinstance(v, bool)) or (key == "language_type" and v is not None and v not in L.LANGUAGE_TYPES):
+            dropped.append(f"{key}: value {v!r} not allowed")
+            continue
+        yes = v if key == "certification" else v is not None
+        flag = text = None
+        if o and legacy[key] and not yes:
+            flag, text = "disagrees_with_legacy", "; disagrees with the legacy list/class: " + why
+        elif o and yes and not legacy[key]:
+            flag, text = "not_in_legacy", "; no legacy list/class says so"
+        if key == "language_type" and v is None:
+            if flag:
+                out["notes"] = (out.get("notes", "") + " The model says this is not a language; the legacy list/class says it is. " + why).strip()
+            continue
+        out[key] = v
+        rec = evidence(key, by, run, today, b, "")
+        rec["note"] = (rec["note"] + (text or ""))[:NOTE_MAX]
+        if flag:
+            rec["flag"] = flag
+        ev.append(rec)
+
+
 def build_new(resp, req, entries, by, run, today):
     """Return (entry, dropped notes). Raises ValueError when the answer cannot be used at all."""
     e = resp.get("entry")
@@ -52,7 +90,7 @@ def build_new(resp, req, entries, by, run, today):
     dbasis = e.get("definition_basis")
     if dbasis not in BASIS or dbasis == "guess":
         raise ValueError("definition_basis must be 'posting' or 'general-knowledge'; a guessed definition is not kept")
-    out = {"id": f"skill:{max(int(x['id'][6:]) for x in entries) + 1:04d}", "preferred_name": e["preferred_name"].strip(),
+    out = {"id": f"skill:{max(int(x['id'][6:]) for x in entries) + 1:05d}", "preferred_name": e["preferred_name"].strip(),
            "kind": e["kind"].strip(), "definition": e["definition"].strip()}
     out["key"] = slugify(out["preferred_name"], {x.get("key") for x in entries})
     if L.default_match(out["preferred_name"]) != "word_ci":
@@ -63,8 +101,9 @@ def build_new(resp, req, entries, by, run, today):
     if L.norm(term) not in seen:
         variants.append({"label": term, "match": L.default_match(term)})
         seen.add(L.norm(term))
+        seen_in = "listed in the legacy tag list" if req.get("origin") else "observed in postings"
         ev.append({"field": f"variant:{L.norm(term)}", "by": by, "action": "drafted", "date": today, "run": run,
-                   "note": ("observed in postings; the model chose the canonical name; quote: " + quote)[:NOTE_MAX]})
+                   "note": (seen_in + "; the model chose the canonical name" + (f"; quote: {quote}" if quote else ""))[:NOTE_MAX]})
     for v in e.get("variants") or []:
         lab, b = (v.get("label") or "").strip(), v.get("basis")
         if not lab or L.norm(lab) in seen:
@@ -95,9 +134,15 @@ def build_new(resp, req, entries, by, run, today):
             continue
         verbs.append(w)
         ev.append(evidence(f"verb:{L.norm(w)}", by, run, today, b, quote))
+    annotate(e, req, out, ev, dropped, by, run, today)
+    origin = req.get("origin")
+    prov = {"source": (f"drafted by {by}, run {run}, from the name in the legacy tag list alone; no posting or outside source checked"
+                       if origin else f"drafted by {by}, run {run}, from job postings"),
+            "date": today, "reviewed_by": None}
+    if origin:
+        prov["legacy_tag"] = origin
     out.update({"variants": variants, "relations": rels, "verbs": verbs, "status": "machine-drafted",
-                "provenance": {"source": f"drafted by {by}, run {run}, from job postings", "date": today, "reviewed_by": None},
-                "evidence": ev})
+                "provenance": prov, "evidence": ev})
     return out, dropped
 
 
@@ -113,7 +158,8 @@ def add_variant(resp, req, entries, by, run, today):
     tgt.setdefault("variants", []).append({"label": term, "match": L.default_match(term)})
     tgt.setdefault("evidence", []).append(
         {"field": f"variant:{L.norm(term)}", "by": by, "action": "drafted", "date": today, "run": run,
-         "note": ("same concept as " + tgt["preferred_name"] + ", seen in postings; quote: " + quote)[:NOTE_MAX]})
+         "note": ("same concept as " + tgt["preferred_name"] + (", listed in the legacy tag list"
+                  if req.get("origin") else ", seen in postings; quote: " + quote))[:NOTE_MAX]})
     return tgt
 
 

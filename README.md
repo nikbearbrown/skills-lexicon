@@ -6,7 +6,7 @@
 
 **Why it exists.** To count skills in job postings you have to know that "Postgres" and "PostgreSQL" are one skill, that "Swift" can mean two things, and that PostgreSQL is a kind of SQL. The counts on the explorer are only as good as this dictionary.
 
-**State.** First pass, local only. 84 entries: 81 imported from the jobs.humanitarians.ai skills registry (status `proposed`) and 3 drafted examples (status `machine-drafted`, written from general knowledge with no source checked). Nothing is `reviewed`: of 248 claims, none is backed by a human check or a matched source yet. 55 tests pass.
+**State.** First pass. 155 entries: 81 imported from the jobs.humanitarians.ai skills registry (status `proposed`), 3 drafted examples, and 71 drafted from a 100-tag pilot of the legacy tag lists (`data/skills_00085-00155.json` and `.md`). All drafted entries are `machine-drafted`, written by a model from general knowledge with no source checked. Nothing is `reviewed`: of 550 claims, none is backed by a human check or a matched source yet. 62 tests pass.
 
 **Licence and owner.** MIT, copyright Humanitarians AI Incorporated (see `LICENSE`). **Not decided yet:** who reviews entries.
 
@@ -27,4 +27,5 @@
 - The three drafted entries have not been checked against any source.
 - NanoLex was the format model; its entries appear model-written and are not used as a source here.
 - No prior-art check against ESCO, O*NET technology skills or Lightcast has been done.
-- The extractor and drafter are tested with a fake model endpoint and stub commands. They have not been run with a real language model or on real postings.
+- The extractor and drafter are tested with a fake model endpoint and stub commands. The drafter has been run once with a real model, on 100 legacy tags, answering from the tag name alone. Neither has been run on real postings.
+- The legacy certification and language lists are unchecked. The pilot model's `certification` and `language_type` answers are flagged where they differ from a list, but agreement with a list proves nothing.

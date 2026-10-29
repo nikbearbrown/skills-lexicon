@@ -19,6 +19,7 @@ ID_RE = re.compile(r"^skill:\d{4,}$")
 ACTIONS = {"drafted", "checked", "matched_source"}
 OUTCOMES = {"supports", "contradicts"}
 BY_RE = re.compile(r"^(model|human|source):\S.*$")
+LANGUAGE_TYPES = {"programming", "spoken", "other"}    # other: markup, query, modelling and similar formal languages
 
 
 def default_match(label):
@@ -60,6 +61,7 @@ def claim_keys(e):
     keys |= {f"variant:{norm(v['label'])}" for v in e.get("variants", []) if v.get("label")}
     keys |= {f"relation:{r['type']}:{r['target']}" for r in e.get("relations", []) if "type" in r and "target" in r}
     keys |= {f"verb:{norm(v)}" for v in e.get("verbs", [])}
+    keys |= {k for k in ("certification", "language_type") if k in e}
     return keys
 
 
@@ -120,6 +122,10 @@ def validate(entries):
             errs.append(f"{f}: key {e['key']!r} does not match the file name")
         if not KIND_RE.match(e["kind"]):
             errs.append(f"{f}: kind {e['kind']!r} must be lower-case words joined by hyphens")
+        if "certification" in e and not isinstance(e["certification"], bool):
+            errs.append(f"{f}: certification must be true or false")
+        if "language_type" in e and e["language_type"] not in LANGUAGE_TYPES:
+            errs.append(f"{f}: language_type must be one of {sorted(LANGUAGE_TYPES)}")
         if e["status"] not in STATUSES:
             errs.append(f"{f}: status {e['status']!r} not one of {sorted(STATUSES)}")
         p = e["provenance"]

@@ -36,6 +36,21 @@ python3 -I tools/lexicon.py validate
 
 Use several models on the same requests by pointing each at its own copy of `work/` (different `--run` labels). Disagreement between models is then visible in the records. It does not back a claim.
 
+## Drafting from the legacy tag lists (no postings)
+
+```bash
+python3 -I tools/tags_to_candidates.py work --first 100        # the next 100 unresolved tags, from all three lists
+python3 -I tools/make_requests.py work --min-postings 0
+# answer work/requests/ as above, then:
+python3 -I tools/ingest.py work --model-id <the model's id> --run <label>
+python3 -I tools/lexicon.py validate
+python3 -I tools/batch.py <label>                              # writes data/skills_<first>-<last>.json and .md
+```
+
+Requests from tags carry `origin` (file, rows, class, which legacy lists include the tag) and a `context` line saying there are no quotes, so no claim can have basis `posting`. The model must also answer `certification` and `language_type`. If a legacy list says a tag is a certification or a language and the model disagrees, the model says why and the evidence record is flagged.
+
+`tools/batch.py` writes one JSON file and one Markdown view per run into `data/`. The Markdown is rendered from the JSON beside it, and both are generated from `entries/*.json`, which stays the source of truth. Do not edit them.
+
 ## What ingest does with an answer
 
 | Answer | Result |
