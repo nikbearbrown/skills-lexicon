@@ -5,7 +5,12 @@
  "definition": "A JavaScript library for building interactive prototypes of user interfaces, originally the engine behind the Framer prototyping tool.",
  "key": "framer-js",
  "certification": false,
- "variants": [],
+ "variants": [
+  {
+   "label": "Framerjs",
+   "match": "word_ci"
+  }
+ ],
  "relations": [],
  "verbs": [],
  "status": "machine-drafted",
@@ -51,6 +56,14 @@
    "date": "2026-10-29",
    "run": "2026-10-29-round-05-a1",
    "note": "basis: general-knowledge"
+  },
+  {
+   "field": "variant:framerjs",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-29",
+   "run": "2026-10-29-round-06-a1",
+   "note": "same concept as Framer.js, listed in the legacy tag list"
   }
  ]
 }

@@ -9,6 +9,10 @@
   {
    "label": "ISO/IEC 27000-Series",
    "match": "word_ci"
+  },
+  {
+   "label": "ISO/IEC 27001 Series",
+   "match": "word_ci"
   }
  ],
  "relations": [],
@@ -64,6 +68,14 @@
    "date": "2026-10-29",
    "run": "2026-10-29-round-05-a4",
    "note": "basis: general-knowledge"
+  },
+  {
+   "field": "variant:iso/iec 27001 series",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-29",
+   "run": "2026-10-29-round-06-a1",
+   "note": "same concept as ISO/IEC 27000 series, listed in the legacy tag list"
   }
  ]
 }

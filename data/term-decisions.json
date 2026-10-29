@@ -5678,5 +5678,477 @@
   "run": "2026-10-29-round-06-a4",
   "date": "2026-10-29",
   "reason": "OVD is a bare acronym with several possible meanings and nothing here says which."
+ },
+ {
+  "term": "Imaging",
+  "decision": "unsure",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-06-a1",
+  "date": "2026-10-29",
+  "reason": "A bare word that could mean medical imaging, digital imaging, system imaging or scientific imaging."
+ },
+ {
+  "term": "Imaging Technology",
+  "decision": "unsure",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-06-a1",
+  "date": "2026-10-29",
+  "reason": "Too broad to define: it spans medical, photographic and scientific imaging."
+ },
+ {
+  "term": "Immigration",
+  "decision": "unsure",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-06-a1",
+  "date": "2026-10-29",
+  "reason": "A bare topic word that could mean immigration law, visa processing or the social topic."
+ },
+ {
+  "term": "Immigration Issues",
+  "decision": "not_a_skill",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-06-a1",
+  "date": "2026-10-29",
+  "reason": "A generic topic phrase, not a skill."
+ },
+ {
+  "term": "Impulse Control Disorder",
+  "decision": "not_a_skill",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-06-a1",
+  "date": "2026-10-29",
+  "reason": "A medical condition, not a skill."
+ },
+ {
+  "term": "Indemnity",
+  "decision": "not_a_skill",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-06-a1",
+  "date": "2026-10-29",
+  "reason": "A legal and insurance term for compensation or protection against loss, not a skill."
+ },
+ {
+  "term": "Independent Films",
+  "decision": "not_a_skill",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-06-a1",
+  "date": "2026-10-29",
+  "reason": "A category of films, not a skill."
+ },
+ {
+  "term": "Independent Pharmacy",
+  "decision": "not_a_skill",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-06-a1",
+  "date": "2026-10-29",
+  "reason": "A type of workplace, not a skill."
+ },
+ {
+  "term": "Independent Studies",
+  "decision": "not_a_skill",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-06-a1",
+  "date": "2026-10-29",
+  "reason": "A course format, not a skill."
+ },
+ {
+  "term": "Independent Test Organization (Quality)",
+  "decision": "not_a_skill",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-06-a1",
+  "date": "2026-10-29",
+  "reason": "A type of organisation, not a skill."
+ },
+ {
+  "term": "Indicators",
+  "decision": "not_a_skill",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-06-a1",
+  "date": "2026-10-29",
+  "reason": "A generic word, not a skill."
+ },
+ {
+  "term": "Individual Training And Readiness System (Army Database)",
+  "decision": "unsure",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-06-a1",
+  "date": "2026-10-29",
+  "reason": "I do not know this US Army system well enough to define it."
+ },
+ {
+  "term": "Industrial Wastewater",
+  "decision": "unsure",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-06-a1",
+  "date": "2026-10-29",
+  "reason": "Names a substance rather than a skill or field; unclear if it means treatment, regulation or something else."
+ },
+ {
+  "term": "Industrialisation",
+  "decision": "not_a_skill",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-06-a1",
+  "date": "2026-10-29",
+  "reason": "A historical and economic process, not a skill."
+ },
+ {
+  "term": "Infection Control Certification",
+  "decision": "unsure",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-06-a1",
+  "date": "2026-10-29",
+  "reason": "Generic: it could mean the CBIC Certification in Infection Control or any training certificate, so no single credential can be named."
+ },
+ {
+  "term": "Inform",
+  "decision": "unsure",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-06-a1",
+  "date": "2026-10-29",
+  "reason": "A bare word that could be the Inform interactive-fiction language or the ordinary verb."
+ },
+ {
+  "term": "Information Engineering",
+  "decision": "unsure",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-06-a1",
+  "date": "2026-10-29",
+  "reason": "Could mean a software and data-modelling methodology, an electronics-and-computing degree, or other things."
+ },
+ {
+  "term": "Information Industry",
+  "decision": "not_a_skill",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-06-a1",
+  "date": "2026-10-29",
+  "reason": "An industry, not a skill."
+ },
+ {
+  "term": "Information Source",
+  "decision": "not_a_skill",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-06-a1",
+  "date": "2026-10-29",
+  "reason": "A generic phrase, not a skill."
+ },
+ {
+  "term": "Innerhtml",
+  "decision": "unsure",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-06-a1",
+  "date": "2026-10-29",
+  "reason": "A single JavaScript DOM property; it is unclear whether it is a skill or which kind it would be."
+ },
+ {
+  "term": "Inorder",
+  "decision": "not_a_skill",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-06-a1",
+  "date": "2026-10-29",
+  "reason": "A fragment, probably the phrase 'in order' or part of 'in-order traversal', not a skill by itself."
+ },
+ {
+  "term": "Inova Health Systems",
+  "decision": "not_a_skill",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-06-a1",
+  "date": "2026-10-29",
+  "reason": "A company, not a skill."
+ },
+ {
+  "term": "Institute/Intercultural Global Studies",
+  "decision": "not_a_skill",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-06-a1",
+  "date": "2026-10-29",
+  "reason": "A garbled organisation or department name, not a skill."
+ },
+ {
+  "term": "Institute Of Chartered Accountants Of Pakistan",
+  "decision": "not_a_skill",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-06-a1",
+  "date": "2026-10-29",
+  "reason": "The name of a professional body, not a skill or credential."
+ },
+ {
+  "term": "Institutional Knowledge",
+  "decision": "not_a_skill",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-06-a1",
+  "date": "2026-10-29",
+  "reason": "A general phrase for what an organisation's people know, not a skill or field."
+ },
+ {
+  "term": "Intarsia",
+  "decision": "unsure",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-06-a1",
+  "date": "2026-10-29",
+  "reason": "Names both a knitting colour technique and a wood-inlay craft, and nothing here shows which is meant."
+ },
+ {
+  "term": "Intellectual",
+  "decision": "not_a_skill",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-06-a1",
+  "date": "2026-10-29",
+  "reason": "An adjective, not a skill."
+ },
+ {
+  "term": "Intenet Communications",
+  "decision": "unsure",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-06-a1",
+  "date": "2026-10-29",
+  "reason": "Probably a misspelling of 'Internet communications', which could mean online communication (close to Digital communications) or internet technology."
+ },
+ {
+  "term": "Interceptor",
+  "decision": "unsure",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-06-a1",
+  "date": "2026-10-29",
+  "reason": "Could be a software design pattern, a vehicle or a military system; nothing here shows which."
+ },
+ {
+  "term": "Interconnection",
+  "decision": "not_a_skill",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-06-a1",
+  "date": "2026-10-29",
+  "reason": "A generic word with unrelated meanings in networking, power and other fields."
+ },
+ {
+  "term": "Intercooler",
+  "decision": "unsure",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-06-a1",
+  "date": "2026-10-29",
+  "reason": "Could be the Intercooler.js web library or an engine part; nothing here shows which."
+ },
+ {
+  "term": "International Tourism",
+  "decision": "not_a_skill",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-06-a1",
+  "date": "2026-10-29",
+  "reason": "An industry or sector, not a skill."
+ },
+ {
+  "term": "Internet Communications",
+  "decision": "unsure",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-06-a1",
+  "date": "2026-10-29",
+  "reason": "Could mean communicating online (close to Digital communications) or internet communication technology."
+ },
+ {
+  "term": "Internet Resource Locator",
+  "decision": "unsure",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-06-a1",
+  "date": "2026-10-29",
+  "reason": "Probably a garbled expansion of URL (Uniform Resource Locator), but that is not certain."
+ },
+ {
+  "term": "Intervertebral Disk Disease",
+  "decision": "not_a_skill",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-06-a1",
+  "date": "2026-10-29",
+  "reason": "A medical condition, not a skill."
+ },
+ {
+  "term": "Intoxication",
+  "decision": "not_a_skill",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-06-a1",
+  "date": "2026-10-29",
+  "reason": "A medical condition or symptom, not a skill."
+ },
+ {
+  "term": "Investment Certificate",
+  "decision": "unsure",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-06-a1",
+  "date": "2026-10-29",
+  "reason": "Could be a financial product or a qualification from a body such as the CISI, and no single credential can be named."
+ },
+ {
+  "term": "Irb",
+  "decision": "unsure",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-06-a1",
+  "date": "2026-10-29",
+  "reason": "Could be Institutional Review Board, Ruby's interactive shell irb, or something else; nothing here shows which."
+ },
+ {
+  "term": "Iso/iec",
+  "decision": "not_a_skill",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-06-a1",
+  "date": "2026-10-29",
+  "reason": "A prefix shared by many standards, not a standard by itself."
+ },
+ {
+  "term": "Issue Management",
+  "decision": "unsure",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-06-a1",
+  "date": "2026-10-29",
+  "reason": "Means tracking and resolving project issues in some roles and managing public-policy issues in communications roles."
+ },
+ {
+  "term": "Italics",
+  "decision": "not_a_skill",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-06-a1",
+  "date": "2026-10-29",
+  "reason": "A text-formatting option, not a skill."
+ },
+ {
+  "term": "Iteratee",
+  "decision": "unsure",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-06-a1",
+  "date": "2026-10-29",
+  "reason": "Means different things in functional programming (Haskell, Scala) and in JavaScript utility libraries; nothing here shows which."
+ },
+ {
+  "term": "JAD",
+  "decision": "unsure",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-06-a1",
+  "date": "2026-10-29",
+  "reason": "Could be Joint Application Development workshops or the JAD Java decompiler; nothing here shows which."
+ },
+ {
+  "term": "Janssen Biotech",
+  "decision": "not_a_skill",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-06-a1",
+  "date": "2026-10-29",
+  "reason": "A company, not a skill."
+ },
+ {
+  "term": "Janus",
+  "decision": "unsure",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-06-a1",
+  "date": "2026-10-29",
+  "reason": "Could be the Janus WebRTC server, JanusGraph or something else; nothing here shows which."
+ },
+ {
+  "term": "Jargon",
+  "decision": "not_a_skill",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-06-a1",
+  "date": "2026-10-29",
+  "reason": "A generic word, not a skill."
+ },
+ {
+  "term": "Javascript Build",
+  "decision": "unsure",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-06-a1",
+  "date": "2026-10-29",
+  "reason": "Unclear whether it means JavaScript build tools, a build process or a particular build."
+ },
+ {
+  "term": "JavaScript Pagination Plugin",
+  "decision": "not_a_skill",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-06-a1",
+  "date": "2026-10-29",
+  "reason": "A generic description of a plugin, not a named product or skill."
+ },
+ {
+  "term": "JED",
+  "decision": "unsure",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-06-a1",
+  "date": "2026-10-29",
+  "reason": "Could be several unrelated things, such as the Joomla Extensions Directory or the JED text editor; nothing here shows which."
+ },
+ {
+  "term": "Jetbrains",
+  "decision": "not_a_skill",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-06-a1",
+  "date": "2026-10-29",
+  "reason": "A company, not a skill."
+ },
+ {
+  "term": "Jigsaw (Jigsaw Puzzles)",
+  "decision": "not_a_skill",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-06-a1",
+  "date": "2026-10-29",
+  "reason": "A hobby and toy, not a skill."
+ },
+ {
+  "term": "Jigsaw Puzzles",
+  "decision": "not_a_skill",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-06-a1",
+  "date": "2026-10-29",
+  "reason": "A hobby and toy, not a skill."
+ },
+ {
+  "term": "Jigsaw Talent Management",
+  "decision": "unsure",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-06-a1",
+  "date": "2026-10-29",
+  "reason": "Probably a software product or company, but I do not know it well enough to define it."
+ },
+ {
+  "term": "Job Satisfaction",
+  "decision": "not_a_skill",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-06-a1",
+  "date": "2026-10-29",
+  "reason": "A feeling or workplace outcome, not a skill."
+ },
+ {
+  "term": "Jsapi",
+  "decision": "unsure",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-06-a1",
+  "date": "2026-10-29",
+  "reason": "Could be the Java Speech API, the Google or ArcGIS JavaScript APIs, or something else; nothing here shows which."
+ },
+ {
+  "term": "Jury",
+  "decision": "not_a_skill",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-06-a1",
+  "date": "2026-10-29",
+  "reason": "A generic word, not a skill."
+ },
+ {
+  "term": "Just In Time",
+  "decision": "unsure",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-06-a1",
+  "date": "2026-10-29",
+  "reason": "Could be just-in-time manufacturing and inventory, JIT compilation, or just the ordinary phrase."
+ },
+ {
+  "term": "Juvenile Court",
+  "decision": "not_a_skill",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-06-a1",
+  "date": "2026-10-29",
+  "reason": "A type of court, not a skill."
+ },
+ {
+  "term": "Juvenile Delinquency",
+  "decision": "not_a_skill",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-06-a1",
+  "date": "2026-10-29",
+  "reason": "A social phenomenon, not a skill."
  }
 ]

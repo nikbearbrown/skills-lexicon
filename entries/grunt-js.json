@@ -5,7 +5,12 @@
  "definition": "A JavaScript task runner that automates repetitive build tasks, such as minifying, compiling and testing files, from a configuration file.",
  "key": "grunt-js",
  "certification": false,
- "variants": [],
+ "variants": [
+  {
+   "label": "Gruntjs",
+   "match": "word_ci"
+  }
+ ],
  "relations": [],
  "verbs": [],
  "status": "machine-drafted",
@@ -51,6 +56,14 @@
    "date": "2026-10-29",
    "run": "2026-10-29-round-05-a2",
    "note": "basis: general-knowledge"
+  },
+  {
+   "field": "variant:gruntjs",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-29",
+   "run": "2026-10-29-round-06-a1",
+   "note": "same concept as Grunt.js, listed in the legacy tag list"
   }
  ]
 }

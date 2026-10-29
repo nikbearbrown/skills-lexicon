@@ -9,6 +9,10 @@
   {
    "label": "G Suite",
    "match": "word_ci"
+  },
+  {
+   "label": "Gsuite",
+   "match": "word_ci"
   }
  ],
  "relations": [],
@@ -83,6 +87,14 @@
    "date": "2026-10-29",
    "run": "2026-10-29-round-05-a1",
    "note": "basis: general-knowledge"
+  },
+  {
+   "field": "variant:gsuite",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-29",
+   "run": "2026-10-29-round-06-a1",
+   "note": "same concept as Google Workspace, listed in the legacy tag list"
   }
  ]
 }

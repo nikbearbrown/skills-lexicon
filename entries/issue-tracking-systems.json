@@ -1,0 +1,94 @@
+{
+ "id": "li4w89q0m0",
+ "preferred_name": "Issue tracking systems",
+ "kind": "tool",
+ "definition": "Software for recording, assigning and following issues such as software bugs, tasks and support requests until they are resolved.",
+ "key": "issue-tracking-systems",
+ "certification": false,
+ "variants": [
+  {
+   "label": "Issue tracker",
+   "match": "word_ci"
+  },
+  {
+   "label": "Issue tracking software",
+   "match": "word_ci"
+  }
+ ],
+ "relations": [
+  {
+   "type": "related",
+   "target": "ve6il0e4wg"
+  }
+ ],
+ "verbs": [],
+ "status": "machine-drafted",
+ "provenance": {
+  "source": "drafted by model:claude-sonnet-5-5, run 2026-10-29-round-06-a1, from the name in the legacy tag list alone; no posting or outside source checked",
+  "date": "2026-10-29",
+  "reviewed_by": null,
+  "legacy_tag": {
+   "sources": [
+    {
+     "file": "data/skills_tags.csv",
+     "rows": [
+      2177
+     ],
+     "class": "Skill"
+    }
+   ],
+   "class": "Skill",
+   "in_lists": []
+  }
+ },
+ "evidence": [
+  {
+   "field": "definition",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-29",
+   "run": "2026-10-29-round-06-a1",
+   "note": "basis: general-knowledge"
+  },
+  {
+   "field": "kind",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-29",
+   "run": "2026-10-29-round-06-a1",
+   "note": "basis: general-knowledge (with the definition)"
+  },
+  {
+   "field": "variant:issue tracker",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-29",
+   "run": "2026-10-29-round-06-a1",
+   "note": "basis: general-knowledge"
+  },
+  {
+   "field": "variant:issue tracking software",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-29",
+   "run": "2026-10-29-round-06-a1",
+   "note": "basis: general-knowledge"
+  },
+  {
+   "field": "relation:related:ve6il0e4wg",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-29",
+   "run": "2026-10-29-round-06-a1",
+   "note": "basis: general-knowledge"
+  },
+  {
+   "field": "certification",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-29",
+   "run": "2026-10-29-round-06-a1",
+   "note": "basis: general-knowledge"
+  }
+ ]
+}

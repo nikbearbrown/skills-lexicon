@@ -22,6 +22,10 @@
   {
    "label": "European Computer Driving Licence",
    "match": "word_ci"
+  },
+  {
+   "label": "International Computer Drivering License",
+   "match": "word_ci"
   }
  ],
  "relations": [],
@@ -110,6 +114,14 @@
    "date": "2026-10-29",
    "run": "2026-10-29-round-04-a3",
    "note": "basis: general-knowledge"
+  },
+  {
+   "field": "variant:international computer drivering license",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-29",
+   "run": "2026-10-29-round-06-a1",
+   "note": "same concept as International Computer Driving Licence, listed in the legacy tag list"
   }
  ]
 }
