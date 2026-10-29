@@ -28,6 +28,74 @@ CERT_SCOPES = {"single-issuer", "many-issuers"}     # one body defines and award
 LANGUAGE_TYPES = {"programming", "spoken", "other"}    # other: markup, query, modelling and similar formal languages
 
 
+# The kinds of concept. The first four follow the O*NET content model, so skills and abilities stay separate.
+KINDS = {
+    "ability",               # an enduring attribute (O*NET Abilities): Oral Comprehension, Spatial Orientation
+    "skill",                 # a developed capacity to do something (O*NET Skills): Critical Thinking, Equipment Maintenance
+    "knowledge",             # a body of facts or a field (O*NET Knowledge): Biology, Law and Government
+    "work-activity",         # a general kind of job task (O*NET Work Activities)
+    "tool", "platform", "framework", "library",                                   # named technology (O*NET Technology Skills)
+    "programming-language", "markup-language", "style-language", "modeling-language", "human-language",
+    "method",                # a way of working or an approach
+    "standard",              # a published standard or regulation
+    "credential",            # a certification, certificate, licence, permit, endorsement, degree or clearance
+}
+KIND_ALIASES = {"regulation": "standard", "clearance": "credential", "organization": "platform"}   # kinds used before the list was fixed
+LANGUAGE_KINDS = {"programming-language", "markup-language", "style-language", "modeling-language", "human-language"}
+
+
+def top_class(e):
+    """The four-way split of what job listings ask for: ability, certification, language, and skill, which is whatever
+    is left. Worked out from `kind`, never stored: `credential` is a certification, a language kind is a language."""
+    k = e.get("kind")
+    return "ability" if k == "ability" else "certification" if k == "credential" else "language" if k in LANGUAGE_KINDS else "skill"
+
+
+EFFORTS = {"low", "medium", "high", "xhigh", "max", "unknown"}
+RUNS_FILE = "data/runs.json"
+
+
+def load_runs(root=ROOT):
+    """The registry of runs: label -> {model, effort, agent, date, note?}. Empty if there is none."""
+    p = Path(root) / RUNS_FILE
+    return json.loads(p.read_text("utf-8")) if p.exists() else {}
+
+
+def register_run(root, label, model, effort, agent=None, date=None, note=None):
+    """Record which model, at which effort, did a run. The same label cannot be registered as a different model or effort.
+    Registering a run again fills in what is missing and never changes what is already recorded (the agent, for one)."""
+    if effort not in EFFORTS:
+        raise ValueError(f"effort must be one of {sorted(EFFORTS)}")
+    runs = load_runs(root)
+    old = runs.get(label)
+    rec = {"model": model, "effort": effort, "agent": agent or (old or {}).get("agent") or "main-session"}
+    if date:
+        rec["date"] = date
+    if note:
+        rec["note"] = note
+    if old and (old["model"], old["effort"]) != (model, effort):
+        raise ValueError(f"run {label!r} is already registered as {old['model']} at {old['effort']} effort")
+    runs[label] = {**rec, **(old or {})} if old else rec
+    p = Path(root) / RUNS_FILE
+    p.parent.mkdir(exist_ok=True)
+    p.write_text(json.dumps(dict(sorted(runs.items())), indent=1, ensure_ascii=False) + "\n", "utf-8")
+    return runs[label]
+
+
+def check_runs(entries, runs):
+    """Every model's evidence that names a run must name a registered one, and the model must be the registered model."""
+    errs = []
+    for e in entries:
+        for ev in e.get("evidence", []):
+            if ev.get("run") and str(ev.get("by", "")).startswith("model:"):
+                r = runs.get(ev["run"])
+                if r is None:
+                    errs.append(f"{e.get('_file', '?')}: evidence run {ev['run']!r} is not in {RUNS_FILE}")
+                elif ev["by"] != "model:" + r["model"]:
+                    errs.append(f"{e.get('_file', '?')}: evidence by {ev['by']} but run {ev['run']!r} is registered as {r['model']}")
+    return sorted(set(errs))
+
+
 def norm_id(ref):
     """Ids are case-insensitive: compare and store them in lower case."""
     return str(ref).strip().lower()
@@ -117,6 +185,9 @@ def check_evidence(e, errs):
             errs.append(f"{f}: a {ev.get('action')} evidence needs outcome supports or contradicts")
         if ev.get("action") == "matched_source" and not ev.get("ref"):
             errs.append(f"{f}: matched_source evidence needs a ref (URL, code or ad id)")
+        if ev.get("action") == "matched_source" and not (isinstance(ev.get("organization"), dict)
+                                                          and ev["organization"].get("name") and ev["organization"].get("url")):
+            errs.append(f"{f}: matched_source evidence needs organization with a name and a link (who attests it)")
         if ev.get("action") == "matched_source" and ev.get("verification") not in VERIFICATIONS:
             errs.append(f"{f}: matched_source evidence needs verification, one of {sorted(VERIFICATIONS)}")
         if ev.get("action") == "drafted" and str(ev.get("by", "")).startswith("source:"):
@@ -161,6 +232,8 @@ def validate(entries):
             errs.append(f"{f}: key {e['key']!r} does not match the file name")
         if not KIND_RE.match(e["kind"]):
             errs.append(f"{f}: kind {e['kind']!r} must be lower-case words joined by hyphens")
+        elif e["kind"] not in KINDS:
+            errs.append(f"{f}: kind {e['kind']!r} is not one of the allowed kinds {sorted(KINDS)}")
         if "certification" in e and not isinstance(e["certification"], bool):
             errs.append(f"{f}: certification must be true or false")
         if "certification_scope" in e and e["certification_scope"] not in CERT_SCOPES:
@@ -283,6 +356,9 @@ def main(argv):
     cmd = argv[1] if len(argv) > 1 else "validate"
     entries, errs = load()
     errs += validate(entries)
+    runs = load_runs()
+    if runs:
+        errs += check_runs(entries, runs)
     for m in errs:
         print("ERROR", m)
     if cmd == "index" and not errs:

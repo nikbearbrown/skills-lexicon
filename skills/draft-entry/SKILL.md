@@ -17,7 +17,7 @@ Decide first:
 For `new`, the entry has:
 
 - `preferred_name`: the official spelling (PostgreSQL, not Postgres). The term as seen is added as a variant for you.
-- `kind`: one lower-case word or hyphenated words, preferably one already in `allowed.kinds`.
+- `kind`: exactly one of `allowed.kinds`. Keep skills and abilities apart, as O*NET does: an **ability** is an enduring attribute a person has (Oral Comprehension, Spatial Orientation); a **skill** is a developed capacity to do something (Critical Thinking, Equipment Maintenance); **knowledge** is a body of facts or a field; a named product you use is a **tool**, **platform**, **framework** or **library**; a **credential** is a certification, certificate, licence, permit, endorsement, degree or clearance; a published standard or regulation is a **standard**. If none fits, answer `unsure`.
 - `definition`: one plain sentence, and `definition_basis`.
 - `variants`: other ways to write the same concept, each with a `basis`. Leave empty if you know none.
 - `relations`: only to entries in `nearest`, by id. Types: `broader` (the target is a broader concept), `part_of` (this is a part of the target), `related`, `contrast`. Each has a `basis`.

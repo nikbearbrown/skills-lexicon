@@ -1,6 +1,6 @@
 """Add `certification`, `certification_scope` or `language_type` to entries that already exist.
 
-    python3 -I tools/annotate.py answers.json --model-id claude-sonnet-5-5 --run 2026-10-29-scope [--dry-run]
+    python3 -I tools/annotate.py answers.json --model-id claude-sonnet-5-5 --effort xhigh --run 2026-10-29-scope [--dry-run]
 
 answers.json maps an entry's key (its file name without .json) or its id to the model's answer, in the shape
 SKILL.md gives for those fields:
@@ -60,6 +60,8 @@ def main(argv=None):
     ap.add_argument("answers")
     ap.add_argument("--model-id", required=True)
     ap.add_argument("--run", required=True)
+    ap.add_argument("--effort", required=True, choices=sorted(L.EFFORTS), help="the effort level the model ran at")
+    ap.add_argument("--agent", default="main-session", help="main-session, or subagent")
     ap.add_argument("--root", default=str(L.ROOT))
     ap.add_argument("--dry-run", action="store_true")
     ap.add_argument("--date", default=datetime.date.today().isoformat())
@@ -73,6 +75,7 @@ def main(argv=None):
     if problems:
         raise SystemExit("not saved, the dictionary would not validate: " + "; ".join(problems[:4]))
     if not a.dry_run:
+        L.register_run(a.root, a.run, a.model_id, a.effort, a.agent, date=a.date)
         for e in changed:
             (Path(a.root) / "entries" / e["_file"]).write_text(
                 json.dumps(I.clean(e), indent=1, ensure_ascii=False) + "\n", "utf-8")

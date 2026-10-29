@@ -88,7 +88,89 @@
    "date": "2026-10-29",
    "run": "2026-10-29-scope-annotation",
    "note": "basis: general-knowledge"
+  },
+  {
+   "field": "definition",
+   "by": "model:claude-sonnet-5-5",
+   "action": "checked",
+   "outcome": "supports",
+   "date": "2026-10-29",
+   "run": "2026-10-29-web-check-1",
+   "note": "web check, search results only: Matches: SC allows regular access to SECRET assets. It also allows occasional supervised access to some TOP SECRET material."
+  },
+  {
+   "field": "kind",
+   "by": "model:claude-sonnet-5-5",
+   "action": "checked",
+   "outcome": "supports",
+   "date": "2026-10-29",
+   "run": "2026-10-29-pilot-100-tags-blind-redraft",
+   "note": "second draft (xhigh) gave the same value"
+  },
+  {
+   "field": "certification",
+   "by": "model:claude-sonnet-5-5",
+   "action": "checked",
+   "outcome": "contradicts",
+   "date": "2026-10-29",
+   "run": "2026-10-29-pilot-100-tags-blind-redraft",
+   "note": "second draft (xhigh) said False"
   }
  ],
- "certification_scope": "single-issuer"
+ "certification_scope": "single-issuer",
+ "credential": {
+  "credential_type": "clearance",
+  "sources": [
+   {
+    "kind": "wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Security_vetting_in_the_United_Kingdom",
+    "verification": "search-results-only",
+    "title": "Wikipedia: Security vetting in the United Kingdom (broader article that covers SC)"
+   },
+   {
+    "kind": "third-party",
+    "url": "https://govdiff.njk.onl/update/2024-09-23T15:43:00+01:00/www.gov.uk/government/publications/united-kingdom-security-vetting-clearance-levels",
+    "verification": "search-results-only",
+    "title": "Mirror/diff of the GOV.UK publication 'United Kingdom Security Vetting: clearance levels' (not the GOV.UK site itself)"
+   },
+   {
+    "kind": "third-party",
+    "url": "https://www.gov.scot/publications/recruitment-candidate-guide/pages/pre-employment-checks/",
+    "verification": "search-results-only",
+    "title": "Scottish Government: recruitment candidate guide, pre-employment checks"
+   },
+   {
+    "kind": "third-party",
+    "url": "https://community.securityclearedjobs.com/article/uk-security-vetting-levels-explained-a-full-guide-to-clearances/",
+    "verification": "search-results-only",
+    "title": "SecurityClearedJobs: UK security vetting levels explained (a recruitment site)"
+   }
+  ],
+  "official_name": "Security Check (SC), a UK national security vetting clearance level",
+  "acronym": "SC",
+  "level": "mid-level of the UK vetting hierarchy (above BPSS and CTC, below Developed Vetting)",
+  "requirements": "Employer sponsorship; the Baseline Personnel Security Standard first; a security questionnaire, criminal-record, financial and Security Service checks, sometimes an interview; a minimum UK residency of 5 years per a Scottish Government guide.",
+  "specificity": "specific-credential",
+  "fields": [
+   {
+    "label": "national security"
+   },
+   {
+    "label": "government service"
+   },
+   {
+    "label": "defence"
+   }
+  ],
+  "jurisdiction": [
+   "GB"
+  ],
+  "issuers": [
+   {
+    "name": "UK Government national security vetting (clearance is sponsored by the employing organisation for a specific post)",
+    "type": "government",
+    "country": "GB"
+   }
+  ]
+ }
 }

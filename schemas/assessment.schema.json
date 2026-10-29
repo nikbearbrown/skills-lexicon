@@ -1,0 +1,30 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/nikbearbrown/skills-lexicon/schemas/assessment.schema.json",
+  "title": "One vote on one tag, a line of data/assessments.jsonl (v0 draft)",
+  "$comment": "Asks whether a tag is something job listings ask for: a skill, an ability, a certification or a language. Any number of people and models can vote on one tag. A tag listed in a legacy list also counts as one yes, worked out from the lists and not stored here. A vote backs no claim; it shows who thinks what and where they disagree.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["tag", "key", "question", "answer", "assessor", "run", "date"],
+  "properties": {
+    "tag": { "type": "string", "minLength": 1, "description": "The tag as it is written in the legacy list." },
+    "key": { "type": "string", "minLength": 1, "description": "The tag in lower case, spaces collapsed; what votes are grouped by." },
+    "question": { "const": "skill", "description": "Is this something job listings ask for? v0 has one question." },
+    "answer": { "enum": ["yes", "no", "unsure"] },
+    "assessor": {
+      "oneOf": [
+        { "type": "object", "additionalProperties": false, "required": ["type", "model", "effort"],
+          "properties": { "type": { "const": "model" }, "model": { "type": "string", "minLength": 1 },
+                          "effort": { "enum": ["low", "medium", "high", "xhigh", "max", "unknown"], "description": "The effort level the model ran at." } } },
+        { "type": "object", "additionalProperties": false, "required": ["type", "name"],
+          "properties": { "type": { "const": "human" }, "name": { "type": "string", "minLength": 1 } } }
+      ]
+    },
+    "run": { "type": "string", "minLength": 1, "description": "The run label. For a model it is in data/runs.json." },
+    "date": { "type": "string", "format": "date" },
+    "reason": { "type": "string", "maxLength": 200, "description": "Why, when the answer is no or unsure." },
+    "entry": { "type": "string", "pattern": "^(?=.*\\d)[a-z][a-z0-9]{9}$", "description": "The entry made from this tag, if the vote was yes and made one." },
+    "variant_of": { "type": "string", "pattern": "^(?=.*\\d)[a-z][a-z0-9]{9}$", "description": "The entry this tag was added to as a variant." },
+    "proposed_name": { "type": "string", "minLength": 1, "description": "The entry name this voter proposed, when its entry is not in this repository." }
+  }
+}

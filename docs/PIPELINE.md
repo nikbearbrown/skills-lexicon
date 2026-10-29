@@ -29,8 +29,8 @@ Then get the requests answered, any one of these ways:
 Then check and save:
 
 ```bash
-python3 -I tools/ingest.py work --model-id <the model's id> --run <label> --dry-run   # look first
-python3 -I tools/ingest.py work --model-id <the model's id> --run <label>
+python3 -I tools/ingest.py work --model-id <the model's id> --effort <low|medium|high|xhigh|max> --run <label> [--agent subagent] --dry-run   # look first
+python3 -I tools/ingest.py work --model-id <the model's id> --effort <low|medium|high|xhigh|max> --run <label> [--agent subagent]
 python3 -I tools/lexicon.py validate
 ```
 
@@ -42,7 +42,7 @@ Use several models on the same requests by pointing each at its own copy of `wor
 python3 -I tools/tags_to_candidates.py work --first 100        # the next 100 unresolved tags, from all three lists
 python3 -I tools/make_requests.py work --min-postings 0
 # answer work/requests/ as above, then:
-python3 -I tools/ingest.py work --model-id <the model's id> --run <label>
+python3 -I tools/ingest.py work --model-id <the model's id> --effort <low|medium|high|xhigh|max> --run <label> [--agent subagent]
 python3 -I tools/lexicon.py validate
 python3 -I tools/batch.py <label>                              # writes data/skills_batch_NNN.json and .md
 ```

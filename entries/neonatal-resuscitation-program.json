@@ -88,7 +88,139 @@
    "date": "2026-10-29",
    "run": "2026-10-29-scope-annotation",
    "note": "basis: general-knowledge; Developed jointly by two bodies, but run as one program."
+  },
+  {
+   "field": "certification",
+   "by": "source:American Academy of Pediatrics (AAP), delivered with the American Heart Association (AHA)",
+   "action": "matched_source",
+   "kind": "issuer",
+   "verification": "search-results-only",
+   "outcome": "supports",
+   "ref": "https://www.aap.org/en/learning/neonatal-resuscitation-program/",
+   "date": "2026-10-29",
+   "run": "2026-10-29-web-check-1",
+   "note": "The AHA's page presents NRP as an interactive blended learning course from the AAP and AHA.",
+   "organization": {
+    "name": "American Academy of Pediatrics (AAP), delivered with the American Heart Association (AHA)",
+    "url": "https://www.aap.org/",
+    "type": "professional-body",
+    "country": "US"
+   }
+  },
+  {
+   "field": "certification",
+   "by": "source:Wikipedia",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "search-results-only",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/wiki/Neonatal_Resuscitation_Program",
+   "date": "2026-10-29",
+   "run": "2026-10-29-web-check-1",
+   "note": "Wikipedia has an article about it",
+   "organization": {
+    "name": "Wikimedia Foundation",
+    "url": "https://www.wikimedia.org/",
+    "type": "reference-work",
+    "country": "US"
+   }
+  },
+  {
+   "field": "definition",
+   "by": "model:claude-sonnet-5-5",
+   "action": "checked",
+   "outcome": "supports",
+   "date": "2026-10-29",
+   "run": "2026-10-29-web-check-1",
+   "note": "web check, search results only: Draft names the AAP and AHA, and the results agree. Sources differ slightly: one says the AAP and AHA developed it in 1987; Wikipedia says the AAP developed and maintai"
+  },
+  {
+   "field": "kind",
+   "by": "model:claude-sonnet-5-5",
+   "action": "checked",
+   "outcome": "supports",
+   "date": "2026-10-29",
+   "run": "2026-10-29-pilot-100-tags-blind-redraft",
+   "note": "second draft (xhigh) gave the same value"
+  },
+  {
+   "field": "certification",
+   "by": "model:claude-sonnet-5-5",
+   "action": "checked",
+   "outcome": "supports",
+   "date": "2026-10-29",
+   "run": "2026-10-29-pilot-100-tags-blind-redraft",
+   "note": "second draft (xhigh) gave the same value"
   }
  ],
- "certification_scope": "single-issuer"
+ "certification_scope": "single-issuer",
+ "credential": {
+  "credential_type": "course-completion",
+  "sources": [
+   {
+    "kind": "issuer",
+    "url": "https://www.aap.org/en/learning/neonatal-resuscitation-program/",
+    "verification": "search-results-only",
+    "snippet": "The AHA's page presents NRP as an interactive blended learning course from the AAP and AHA."
+   },
+   {
+    "kind": "wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Neonatal_Resuscitation_Program",
+    "verification": "search-results-only"
+   },
+   {
+    "kind": "issuer",
+    "url": "https://international.heart.org/resuscitation/neonatal-resuscitation-program-nrp",
+    "verification": "search-results-only",
+    "title": "American Heart Association: Neonatal Resuscitation Program (NRP)"
+   },
+   {
+    "kind": "issuer",
+    "url": "https://www.aap.org/en/pedialink/neonatal-resuscitation-program/nrp-frequently-asked-questions/nrp-general-information/",
+    "verification": "search-results-only",
+    "title": "AAP: NRP general overview (FAQ)"
+   },
+   {
+    "kind": "wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Neonatal_resuscitation",
+    "verification": "search-results-only",
+    "title": "Wikipedia: Neonatal resuscitation (broader article)"
+   }
+  ],
+  "official_name": "Neonatal Resuscitation Program (NRP)",
+  "acronym": "NRP",
+  "level": "two levels: Essentials (anyone involved in newborn care) and Advanced (those who attend births and manage resuscitations)",
+  "requirements": "Online self-paced part, then an instructor-led, hands-on session (per the AHA/AAP summary).",
+  "specificity": "specific-credential",
+  "fields": [
+   {
+    "label": "neonatal care"
+   },
+   {
+    "label": "neonatology"
+   },
+   {
+    "label": "obstetrics"
+   },
+   {
+    "label": "nursing"
+   }
+  ],
+  "jurisdiction": [
+   "US"
+  ],
+  "issuers": [
+   {
+    "name": "American Academy of Pediatrics (AAP), delivered with the American Heart Association (AHA)",
+    "type": "professional-body",
+    "country": "US",
+    "url": "https://www.aap.org/"
+   }
+  ],
+  "wikipedia": {
+   "title": "Neonatal Resuscitation Program",
+   "url": "https://en.wikipedia.org/wiki/Neonatal_Resuscitation_Program",
+   "match": "manual"
+  }
+ }
 }

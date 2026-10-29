@@ -84,7 +84,103 @@
    "date": "2026-10-29",
    "run": "2026-10-29-scope-annotation",
    "note": "basis: general-knowledge; A degree awarded by many universities."
+  },
+  {
+   "field": "certification",
+   "by": "source:Wikipedia",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "search-results-only",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/wiki/Doctor_of_Physical_Therapy",
+   "date": "2026-10-29",
+   "run": "2026-10-29-web-check-1",
+   "note": "Wikipedia has an article about it",
+   "organization": {
+    "name": "Wikimedia Foundation",
+    "url": "https://www.wikimedia.org/",
+    "type": "reference-work",
+    "country": "US"
+   }
+  },
+  {
+   "field": "kind",
+   "by": "model:claude-sonnet-5-5",
+   "action": "checked",
+   "outcome": "supports",
+   "date": "2026-10-29",
+   "run": "2026-10-29-pilot-100-tags-blind-redraft",
+   "note": "second draft (xhigh) gave the same value"
+  },
+  {
+   "field": "certification",
+   "by": "model:claude-sonnet-5-5",
+   "action": "checked",
+   "outcome": "supports",
+   "date": "2026-10-29",
+   "run": "2026-10-29-pilot-100-tags-blind-redraft",
+   "note": "second draft (xhigh) gave the same value"
   }
  ],
- "certification_scope": "many-issuers"
+ "certification_scope": "many-issuers",
+ "credential": {
+  "credential_type": "degree",
+  "sources": [
+   {
+    "kind": "wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Doctor_of_Physical_Therapy",
+    "verification": "search-results-only"
+   },
+   {
+    "kind": "third-party",
+    "url": "https://www.capteonline.org/about-capte",
+    "verification": "search-results-only",
+    "title": "CAPTE: About CAPTE (the programme accreditor, not the body that awards degrees)"
+   },
+   {
+    "kind": "wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Commission_on_Accreditation_in_Physical_Therapy_Education",
+    "verification": "search-results-only",
+    "title": "Wikipedia: Commission on Accreditation in Physical Therapy Education (the accreditor)"
+   },
+   {
+    "kind": "wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Physical_therapy_education",
+    "verification": "search-results-only",
+    "title": "Wikipedia: Physical therapy education"
+   },
+   {
+    "kind": "issuer",
+    "url": "https://pt.wustl.edu/education/doctor-of-physical-therapy/success-statistics/",
+    "verification": "search-results-only",
+    "title": "Washington University: DPT success statistics (one example programme)"
+   }
+  ],
+  "official_name": "Doctor of Physical Therapy (DPT)",
+  "acronym": "DPT",
+  "level": "doctoral (entry-level professional doctorate)",
+  "requirements": "Typically 3 to 4 years after a bachelor's degree; most programmes ask for the GRE (per Wikipedia summary). A degree from a CAPTE-accredited programme is needed to be eligible for the NPTE licensing exam.",
+  "specificity": "specific-credential",
+  "fields": [
+   {
+    "label": "physical therapy"
+   },
+   {
+    "label": "rehabilitation"
+   },
+   {
+    "label": "allied health"
+   }
+  ],
+  "jurisdiction": [
+   "US"
+  ],
+  "issuers": [],
+  "wikipedia": {
+   "title": "Doctor of Physical Therapy",
+   "url": "https://en.wikipedia.org/wiki/Doctor_of_Physical_Therapy",
+   "match": "manual"
+  }
+ },
+ "notes": "Web check (search results only) says the definition is only partly right: The degree makes graduates eligible for the licensing exam (NPTE) and state licensure; it does not itself authorise practice. 'Qualifies graduates to practise' skips that step."
 }

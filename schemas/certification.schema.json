@@ -54,6 +54,29 @@
           "items": { "$ref": "#/$defs/field" }
         },
         "level": { "type": "string", "minLength": 1, "description": "For example entry, professional, advanced, associate, bachelor, master, doctoral. Free text in v0." },
+        "specificity": {
+          "enum": ["specific-credential", "requirement-level", "generic-programme", "occupation"],
+          "description": "specific-credential: one named credential. requirement-level: a level that several credentials can satisfy (DoD IAM Level I). generic-programme: a type of programme many colleges run (a certificate in welding). occupation: a job, not a credential."
+        },
+        "status": {
+          "enum": ["active", "retired", "closed-to-new-candidates", "being-replaced", "unknown"],
+          "description": "Whether it can still be earned."
+        },
+        "status_note": { "type": "string", "minLength": 1 },
+        "accreditors": {
+          "type": "array",
+          "description": "Bodies that accredit the credential or the programmes that award it, kept apart from the issuer (CAPTE, CEPH, FSAB).",
+          "items": { "type": "object", "additionalProperties": false, "required": ["name"],
+                     "properties": { "name": { "type": "string", "minLength": 1 }, "url": { "type": "string", "format": "uri", "pattern": "^https?://" } } }
+        },
+        "related": {
+          "type": "array",
+          "description": "Other credentials and how they relate. Name them; link to an entry by id once one exists.",
+          "items": { "type": "object", "additionalProperties": false, "required": ["relation", "name"],
+                     "properties": { "relation": { "enum": ["prerequisite", "requires", "satisfies", "satisfied-by", "differs-from", "prepares-for", "replaced-by"] },
+                                     "name": { "type": "string", "minLength": 1 },
+                                     "id": { "type": "string", "pattern": "^(?=.*\\d)[a-z][a-z0-9]{9}$" } } }
+        },
         "requirements": { "type": "string", "minLength": 1, "description": "Exam, experience, prior degree and similar, only when a source states it." },
         "renewal": { "$ref": "#/$defs/renewal" },
         "jurisdiction": { "type": "array", "minItems": 1, "uniqueItems": true, "items": { "$ref": "#/$defs/country" } },

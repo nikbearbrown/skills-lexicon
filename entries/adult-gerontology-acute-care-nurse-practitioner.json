@@ -88,7 +88,102 @@
    "date": "2026-10-29",
    "run": "2026-10-29-scope-annotation",
    "note": "basis: general-knowledge; More than one US body certifies it, and state boards license nurse practitioners."
+  },
+  {
+   "field": "certification",
+   "by": "source:American Nurses Credentialing Center (ANCC); a second certifier, the American Association of Critical-Care Nurses (AACN), awards the ACNPC-AG",
+   "action": "matched_source",
+   "kind": "issuer",
+   "verification": "search-results-only",
+   "outcome": "supports",
+   "ref": "https://www.nursingworld.org/our-certifications/adult-gerontology-acute-care-nurse-practitioner/",
+   "date": "2026-10-29",
+   "run": "2026-10-29-web-check-1",
+   "note": "The ANCC Adult-Gerontology Acute Care Nurse Practitioner (AGACNP) board certification examination is a competency-based entry-level examination",
+   "organization": {
+    "name": "American Nurses Credentialing Center (ANCC); a second certifier, the American Association of Critical-Care Nurses (AACN), awards the ACNPC-AG",
+    "url": "https://www.nursingworld.org/",
+    "type": "professional-body",
+    "country": "US"
+   }
+  },
+  {
+   "field": "definition",
+   "by": "model:claude-sonnet-5-5",
+   "action": "checked",
+   "outcome": "supports",
+   "date": "2026-10-29",
+   "run": "2026-10-29-web-check-1",
+   "note": "web check, search results only: Consistent with the ANCC/AACN descriptions in the results. The draft names no issuer; there are two (ANCC and AACN), which is worth recording."
   }
  ],
- "certification_scope": "many-issuers"
+ "certification_scope": "many-issuers",
+ "credential": {
+  "credential_type": "certification",
+  "sources": [
+   {
+    "kind": "issuer",
+    "url": "https://www.nursingworld.org/our-certifications/adult-gerontology-acute-care-nurse-practitioner/",
+    "verification": "search-results-only",
+    "snippet": "The ANCC Adult-Gerontology Acute Care Nurse Practitioner (AGACNP) board certification examination is a competency-based entry-level examination"
+   },
+   {
+    "kind": "third-party",
+    "url": "https://www.onetonline.org/link/certinfo/10047-C",
+    "verification": "search-results-only",
+    "title": "O*NET OnLine: Adult-Gerontology Acute Care Nurse Practitioner Certification (AGACNP-BC)"
+   },
+   {
+    "kind": "wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Adult-gerontology_nurse_practitioner",
+    "verification": "search-results-only",
+    "title": "Wikipedia: Adult-gerontology nurse practitioner (broader article on the role, not the certification itself)"
+   },
+   {
+    "kind": "wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Acute_care_nurse_practitioner",
+    "verification": "search-results-only",
+    "title": "Wikipedia: Acute care nurse practitioner (broader article on the role)"
+   },
+   {
+    "kind": "third-party",
+    "url": "https://blog.springerpub.com/?p=4409",
+    "verification": "search-results-only",
+    "title": "Steps to Earning Your AG-ACNP or ACNPC-AG Certification (publisher blog)"
+   },
+   {
+    "kind": "third-party",
+    "url": "https://catalog.uwm.edu/health-professions-sciences/nursing/adult-gerontology-acute-care-nurse-practitioner-graduate-certificate/",
+    "verification": "search-results-only",
+    "title": "UWM AG-ACNP Graduate Certificate (an education programme that prepares for the exam, not the certification)"
+   }
+  ],
+  "official_name": "Adult-Gerontology Acute Care Nurse Practitioner Certification (AGACNP-BC) from ANCC; the parallel AACN credential is ACNPC-AG",
+  "acronym": "AGACNP-BC (ANCC); ACNPC-AG (AACN)",
+  "level": "advanced practice (graduate-prepared nurse practitioner); the certification exam itself is described as entry-level for the NP role",
+  "requirements": "Per secondary sources: a current RN/APRN licence plus a master's or higher from an accredited adult-gerontology acute care NP programme, then the certifier's exam. One Wikipedia-derived summary mentions at least 500 clinical hours. I did not see the ANCC eligibility page itself.",
+  "specificity": "specific-credential",
+  "fields": [
+   {
+    "label": "nursing"
+   },
+   {
+    "label": "advanced practice nursing"
+   },
+   {
+    "label": "acute care"
+   }
+  ],
+  "jurisdiction": [
+   "US"
+  ],
+  "issuers": [
+   {
+    "name": "American Nurses Credentialing Center (ANCC); a second certifier, the American Association of Critical-Care Nurses (AACN), awards the ACNPC-AG",
+    "url": "https://www.nursingworld.org/",
+    "type": "professional-body",
+    "country": "US"
+   }
+  ]
+ }
 }

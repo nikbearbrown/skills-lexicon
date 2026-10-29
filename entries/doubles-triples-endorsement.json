@@ -84,7 +84,85 @@
    "date": "2026-10-29",
    "run": "2026-10-29-scope-annotation",
    "note": "basis: general-knowledge; Each US state licensing agency issues it under common federal rules."
+  },
+  {
+   "field": "definition",
+   "by": "model:claude-sonnet-5-5",
+   "action": "checked",
+   "outcome": "supports",
+   "date": "2026-10-29",
+   "run": "2026-10-29-web-check-1",
+   "note": "web check, search results only: Matches: the T endorsement is for two- or three-trailer combinations."
+  },
+  {
+   "field": "kind",
+   "by": "model:claude-sonnet-5-5",
+   "action": "checked",
+   "outcome": "supports",
+   "date": "2026-10-29",
+   "run": "2026-10-29-pilot-100-tags-blind-redraft",
+   "note": "second draft (xhigh) gave the same value"
+  },
+  {
+   "field": "certification",
+   "by": "model:claude-sonnet-5-5",
+   "action": "checked",
+   "outcome": "supports",
+   "date": "2026-10-29",
+   "run": "2026-10-29-pilot-100-tags-blind-redraft",
+   "note": "second draft (xhigh) gave the same value"
   }
  ],
- "certification_scope": "many-issuers"
+ "certification_scope": "many-issuers",
+ "credential": {
+  "credential_type": "endorsement",
+  "sources": [
+   {
+    "kind": "third-party",
+    "url": "https://www.law.cornell.edu/cfr/text/49/383.93",
+    "verification": "search-results-only",
+    "title": "Cornell LII: 49 CFR 383.93, endorsements (a legal-text mirror, not the issuer)"
+   },
+   {
+    "kind": "issuer",
+    "url": "https://secure.in.gov/bmv/licenses-permits-ids/commercial-drivers-license-overview/commercial-drivers-license-endorsements-and-restrictions",
+    "verification": "search-results-only",
+    "title": "Indiana BMV: CDL endorsements and restrictions (one state's issuing agency, as an example)"
+   },
+   {
+    "kind": "issuer",
+    "url": "https://dps.mn.gov/divisions/dvs/pages/commercial-drivers-license-endorsements-and-restrictions.aspx",
+    "verification": "search-results-only",
+    "title": "Minnesota DVS: CDL endorsements and restrictions (one state's issuing agency, as an example)"
+   },
+   {
+    "kind": "third-party",
+    "url": "https://www.mynextmove.org/profile/certinfo/10937-B",
+    "verification": "search-results-only",
+    "title": "O*NET: Double/Triple Trailer Endorsement (T)"
+   },
+   {
+    "kind": "wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Commercial_driver's_license",
+    "verification": "search-results-only",
+    "title": "Wikipedia: Commercial driver's license (broader article that covers the T endorsement)"
+   }
+  ],
+  "official_name": "Double/Triple Trailer endorsement (T) on a Class A commercial driver's licence",
+  "acronym": "T",
+  "requirements": "A Class A CDL plus a doubles/triples knowledge test (no skills test), per the 49 CFR 383.93 summary. Third-party guides add state details such as passing scores; those vary.",
+  "specificity": "specific-credential",
+  "fields": [
+   {
+    "label": "commercial trucking"
+   },
+   {
+    "label": "transportation"
+   }
+  ],
+  "jurisdiction": [
+   "US"
+  ],
+  "issuers": []
+ }
 }

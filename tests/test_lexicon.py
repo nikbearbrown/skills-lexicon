@@ -10,6 +10,9 @@ P = {"source": "test", "date": "2026-10-27"}
 _REAL = L.load()[0]
 
 
+ORG = {"name": "O*NET, U.S. Department of Labor", "url": "https://www.onetcenter.org/"}
+
+
 def eid(i):
     """A valid made-up id for a test entry."""
     return f"a{i:09d}"
@@ -122,7 +125,7 @@ class CertificationScope(unittest.TestCase):
 
 class Backing(unittest.TestCase):
     def test_what_backs_a_claim(self):
-        src = {"action": "matched_source", "by": "source:enwiki-20261001", "outcome": "supports", "ref": "u", "date": "2026-10-29"}
+        src = {"action": "matched_source", "by": "source:enwiki-20261001", "outcome": "supports", "ref": "u", "date": "2026-10-29", "organization": ORG}
         self.assertTrue(L.backs({**src, "verification": "page-read"}))
         self.assertTrue(L.backs({**src, "verification": "dump-match"}))
         self.assertFalse(L.backs({**src, "verification": "search-results-only"}))     # a search snippet is not a verified source
@@ -133,10 +136,23 @@ class Backing(unittest.TestCase):
 
     def test_a_matched_source_must_say_how_much_was_verified(self):
         e = entry(1, "A", evidence=[{"field": "kind", "by": "source:x", "action": "matched_source", "outcome": "supports",
-                                     "ref": "u", "date": "2026-10-29"}])
+                                     "ref": "u", "date": "2026-10-29", "organization": ORG}])
         self.assertTrue(any("needs verification" in m for m in L.validate([e])))
         e["evidence"][0]["verification"] = "search-results-only"
         self.assertEqual(L.validate([e]), [])
+
+    def test_a_matched_source_must_say_who_attests_it_with_a_link(self):
+        base = {"field": "kind", "by": "source:x", "action": "matched_source", "outcome": "supports", "ref": "u",
+                "date": "2026-10-29", "verification": "page-read"}
+        for org in (None, {"name": "X"}, {"url": "https://x.example/"}):
+            e = entry(1, "A", evidence=[{**base, **({"organization": org} if org else {})}])
+            self.assertTrue(any("who attests it" in m for m in L.validate([e])), org)
+        self.assertEqual(L.validate([entry(1, "A", evidence=[{**base, "organization": ORG}])]), [])
+
+    def test_kind_must_be_one_of_the_allowed_kinds(self):
+        self.assertTrue(any("allowed kinds" in m for m in L.validate([entry(1, "A", kind="clearance")])))
+        for k in ("ability", "skill", "knowledge", "credential", "programming-language"):
+            self.assertEqual(L.validate([entry(1, "A", kind=k)]), [], k)
 
 
 class Validate(unittest.TestCase):
@@ -215,15 +231,15 @@ class Evidence(unittest.TestCase):
 
     def test_a_matched_source_counts_but_needs_a_ref(self):
         good = reviewed([ev("kind", "human:Bear", "checked", "supports"),
-                         ev("definition", "source:onet", "matched_source", "supports", ref="https://example.org/x", verification="page-read")])
+                         ev("definition", "source:onet", "matched_source", "supports", ref="https://example.org/x", verification="page-read", organization=ORG)])
         self.assertEqual(L.validate([good]), [])
         bad = reviewed([ev("kind", "human:Bear", "checked", "supports"),
-                        ev("definition", "source:onet", "matched_source", "supports", verification="page-read")])
+                        ev("definition", "source:onet", "matched_source", "supports", verification="page-read", organization=ORG)])
         self.assertTrue(any("needs a ref" in m for m in L.validate([bad])))
 
     def test_a_match_seen_only_in_search_results_does_not_make_an_entry_reviewable(self):
         e = reviewed([ev("kind", "human:Bear", "checked", "supports"),
-                      ev("definition", "source:web", "matched_source", "supports", ref="https://example.org/x", verification="search-results-only")])
+                      ev("definition", "source:web", "matched_source", "supports", ref="https://example.org/x", verification="search-results-only", organization=ORG)])
         self.assertTrue(any("no human check or matched source for definition" in m for m in L.validate([e])))
 
     def test_models_agreeing_never_make_an_entry_reviewed(self):

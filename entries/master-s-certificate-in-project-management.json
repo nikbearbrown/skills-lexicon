@@ -89,7 +89,77 @@
    "date": "2026-10-29",
    "run": "2026-10-29-scope-annotation",
    "note": "basis: general-knowledge; Many universities offer their own graduate certificate."
+  },
+  {
+   "field": "kind",
+   "by": "model:claude-sonnet-5-5",
+   "action": "checked",
+   "outcome": "supports",
+   "date": "2026-10-29",
+   "run": "2026-10-29-pilot-100-tags-blind-redraft",
+   "note": "second draft (xhigh) gave the same value"
+  },
+  {
+   "field": "certification",
+   "by": "model:claude-sonnet-5-5",
+   "action": "checked",
+   "outcome": "supports",
+   "date": "2026-10-29",
+   "run": "2026-10-29-pilot-100-tags-blind-redraft",
+   "note": "second draft (xhigh) gave the same value"
   }
  ],
- "certification_scope": "many-issuers"
+ "certification_scope": "many-issuers",
+ "credential": {
+  "credential_type": "certificate-program",
+  "sources": [
+   {
+    "kind": "issuer",
+    "url": "https://pdc.wisc.edu/degrees/masters-certificate-in-project-management/",
+    "verification": "search-results-only",
+    "title": "University of Wisconsin-Madison PDC: Master's Certificate in Project Management (exact title; one institution)"
+   },
+   {
+    "kind": "issuer",
+    "url": "https://www.brandeis.edu/online/academics/certificates/project-management/index.html",
+    "verification": "search-results-only",
+    "title": "Brandeis Online: Project Management certificate (credit-bearing, 12 credits)"
+   },
+   {
+    "kind": "issuer",
+    "url": "https://gradschool.unh.edu/program/graduate-certificate/project-management",
+    "verification": "search-results-only",
+    "title": "University of New Hampshire: Project Management graduate certificate"
+   },
+   {
+    "kind": "issuer",
+    "url": "https://www.villanova.edu/university/professional-studies/academics/professional-education/project-management-certificate.html",
+    "verification": "search-results-only",
+    "title": "Villanova University: Project Management Certificate"
+   },
+   {
+    "kind": "wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Graduate_certificate",
+    "verification": "search-results-only",
+    "title": "Wikipedia: Graduate certificate (broader article; the level of such certificates differs by country)"
+   }
+  ],
+  "official_name": "Master's Certificate in Project Management (exact title used by University of Wisconsin-Madison for a non-credit professional certificate); credit-bearing versions at other universities are usually titled 'Graduate Certificate in Project Management'",
+  "level": "graduate-level or professional (varies by institution)",
+  "requirements": "Varies. Examples from the results: UW-Madison, three required classes plus an applied learning review; Brandeis, four courses (12 credits); UNH, 12 credits with a 3.0 GPA minimum; Elmhurst, a bachelor's from a regionally accredited institution.",
+  "specificity": "generic-programme",
+  "fields": [
+   {
+    "label": "project management"
+   },
+   {
+    "label": "business"
+   }
+  ],
+  "jurisdiction": [
+   "US"
+  ],
+  "issuers": []
+ },
+ "notes": "Web check (search results only) says the definition is only partly right: Fits credit-bearing graduate certificates that sit below a master's. The one exact-title match found is a non-credit professional certificate, so 'graduate-level' is not safe as a general claim."
 }

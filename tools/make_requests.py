@@ -53,7 +53,7 @@ def slug(term):
 
 def make(cands, entries, min_postings=3, limit=None, text=None):
     text = text or instructions()
-    kinds = sorted({e["kind"] for e in entries})
+    kinds = sorted(L.KINDS)
     out = {}
     for c in cands:
         if c["n_postings"] < min_postings:

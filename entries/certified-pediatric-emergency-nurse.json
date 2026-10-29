@@ -84,7 +84,108 @@
    "date": "2026-10-29",
    "run": "2026-10-29-scope-annotation",
    "note": "basis: general-knowledge"
+  },
+  {
+   "field": "certification",
+   "by": "source:Board of Certification for Emergency Nursing (BCEN)",
+   "action": "matched_source",
+   "kind": "issuer",
+   "verification": "search-results-only",
+   "outcome": "supports",
+   "ref": "https://bcen.org/cpen/",
+   "date": "2026-10-29",
+   "run": "2026-10-29-web-check-1",
+   "note": "BCEN recommends, but does not require, two years of pediatric emergency nursing experience before sitting for the exam.",
+   "organization": {
+    "name": "Board of Certification for Emergency Nursing (BCEN)",
+    "url": "https://bcen.org/",
+    "type": "professional-body",
+    "country": "US"
+   }
+  },
+  {
+   "field": "definition",
+   "by": "model:claude-sonnet-5-5",
+   "action": "checked",
+   "outcome": "supports",
+   "date": "2026-10-29",
+   "run": "2026-10-29-web-check-1",
+   "note": "web check, search results only: BCEN is confirmed as issuer on its own pages. A Wikipedia-based summary said BCEN and the Pediatric Nursing Certification Board (PNCB) ran the exam jointly, but BCEN's "
+  },
+  {
+   "field": "kind",
+   "by": "model:claude-sonnet-5-5",
+   "action": "checked",
+   "outcome": "supports",
+   "date": "2026-10-29",
+   "run": "2026-10-29-pilot-100-tags-blind-redraft",
+   "note": "second draft (xhigh) gave the same value"
+  },
+  {
+   "field": "certification",
+   "by": "model:claude-sonnet-5-5",
+   "action": "checked",
+   "outcome": "supports",
+   "date": "2026-10-29",
+   "run": "2026-10-29-pilot-100-tags-blind-redraft",
+   "note": "second draft (xhigh) gave the same value"
   }
  ],
- "certification_scope": "single-issuer"
+ "certification_scope": "single-issuer",
+ "credential": {
+  "credential_type": "certification",
+  "sources": [
+   {
+    "kind": "issuer",
+    "url": "https://bcen.org/cpen/",
+    "verification": "search-results-only",
+    "snippet": "BCEN recommends, but does not require, two years of pediatric emergency nursing experience before sitting for the exam."
+   },
+   {
+    "kind": "issuer",
+    "url": "https://bcen.org/?p=12553",
+    "verification": "search-results-only",
+    "title": "BCEN: Certified Pediatric Emergency Nurse Program Overview"
+   },
+   {
+    "kind": "issuer",
+    "url": "https://bcen.org/news-releases/bcens-pediatric-emergency-nursing-certification-earns-reaccreditation/",
+    "verification": "search-results-only",
+    "title": "BCEN news release: Pediatric Emergency Nursing Certification earns reaccreditation"
+   },
+   {
+    "kind": "wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Emergency_nurse",
+    "verification": "search-results-only",
+    "title": "Wikipedia: Emergency nursing (broader article; per the search summary it covers the CPEN)"
+   }
+  ],
+  "official_name": "Certified Pediatric Emergency Nurse (CPEN)",
+  "acronym": "CPEN",
+  "level": "specialty (professional)",
+  "requirements": "Examination; BCEN pages (as summarised) recommend about two years of pediatric emergency nursing experience but do not require it.",
+  "specificity": "specific-credential",
+  "fields": [
+   {
+    "label": "emergency nursing"
+   },
+   {
+    "label": "pediatric nursing"
+   },
+   {
+    "label": "pediatric emergency care"
+   }
+  ],
+  "jurisdiction": [
+   "US"
+  ],
+  "issuers": [
+   {
+    "name": "Board of Certification for Emergency Nursing (BCEN)",
+    "type": "professional-body",
+    "country": "US",
+    "url": "https://bcen.org/"
+   }
+  ]
+ }
 }

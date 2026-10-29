@@ -76,7 +76,136 @@
    "date": "2026-10-29",
    "run": "2026-10-29-scope-annotation",
    "note": "basis: general-knowledge"
+  },
+  {
+   "field": "certification",
+   "by": "source:American College of Surgeons (ACS), Committee on Trauma",
+   "action": "matched_source",
+   "kind": "issuer",
+   "verification": "search-results-only",
+   "outcome": "supports",
+   "ref": "https://www.facs.org/quality-programs/trauma/atls",
+   "date": "2026-10-29",
+   "run": "2026-10-29-web-check-1",
+   "note": "The ACS and its Committee on Trauma (COT) have developed the ATLS Course for physicians and advanced practice providers.",
+   "organization": {
+    "name": "American College of Surgeons (ACS), Committee on Trauma",
+    "url": "https://www.facs.org/",
+    "type": "professional-body",
+    "country": "US"
+   }
+  },
+  {
+   "field": "certification",
+   "by": "source:Wikipedia",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "search-results-only",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/wiki/Advanced_trauma_life_support",
+   "date": "2026-10-29",
+   "run": "2026-10-29-web-check-1",
+   "note": "Wikipedia has an article about it",
+   "organization": {
+    "name": "Wikimedia Foundation",
+    "url": "https://www.wikimedia.org/",
+    "type": "reference-work",
+    "country": "US"
+   }
+  },
+  {
+   "field": "definition",
+   "by": "model:claude-sonnet-5-5",
+   "action": "checked",
+   "outcome": "supports",
+   "date": "2026-10-29",
+   "run": "2026-10-29-web-check-1",
+   "note": "web check, search results only: Issuer and purpose match. The draft says 'course and certification'; the results call it a course and speak of a four-year 'verification' status, so 'certification' is "
+  },
+  {
+   "field": "kind",
+   "by": "model:claude-sonnet-5-5",
+   "action": "checked",
+   "outcome": "supports",
+   "date": "2026-10-29",
+   "run": "2026-10-29-pilot-100-tags-blind-redraft",
+   "note": "second draft (xhigh) gave the same value"
+  },
+  {
+   "field": "certification",
+   "by": "model:claude-sonnet-5-5",
+   "action": "checked",
+   "outcome": "supports",
+   "date": "2026-10-29",
+   "run": "2026-10-29-pilot-100-tags-blind-redraft",
+   "note": "second draft (xhigh) gave the same value"
   }
  ],
- "certification_scope": "single-issuer"
+ "certification_scope": "single-issuer",
+ "credential": {
+  "credential_type": "course-completion",
+  "sources": [
+   {
+    "kind": "issuer",
+    "url": "https://www.facs.org/quality-programs/trauma/atls",
+    "verification": "search-results-only",
+    "snippet": "The ACS and its Committee on Trauma (COT) have developed the ATLS Course for physicians and advanced practice providers."
+   },
+   {
+    "kind": "wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Advanced_trauma_life_support",
+    "verification": "search-results-only"
+   },
+   {
+    "kind": "issuer",
+    "url": "https://www.facs.org/for-medical-professionals/news-publications/news-and-articles/bulletin/2022/july-2022-volume-107-number-7/the-cot-at-100-evolution-and-promulgation-of-atls-and-surgical-skills-training/",
+    "verification": "search-results-only",
+    "title": "ACS Bulletin: The COT at 100, evolution and promulgation of ATLS and surgical skills training (title inferred from URL; the result title was 'Unsupported Browser')"
+   },
+   {
+    "kind": "third-party",
+    "url": "https://www.vumc.org/trauma-and-scc/atls-advanced-trauma-life-support",
+    "verification": "search-results-only",
+    "title": "Vanderbilt University Medical Center: ATLS course page (a course host, not the issuer)"
+   },
+   {
+    "kind": "third-party",
+    "url": "https://www.lsuhs.edu/departments/school-of-medicine/surgery/atlscourse",
+    "verification": "search-results-only",
+    "title": "LSU Health Sciences Center: ATLS course page (a course host, not the issuer)"
+   }
+  ],
+  "official_name": "Advanced Trauma Life Support (ATLS)",
+  "acronym": "ATLS",
+  "level": "provider course for physicians and advanced practice providers",
+  "requirements": "Standard course: didactics, skills stations and testing over two days; a blended option (mATLS) moves much of the lecture content to online modules. Per course pages summarised in the results.",
+  "specificity": "specific-credential",
+  "fields": [
+   {
+    "label": "trauma care"
+   },
+   {
+    "label": "emergency medicine"
+   },
+   {
+    "label": "surgery"
+   }
+  ],
+  "jurisdiction": [
+   "INT"
+  ],
+  "issuers": [
+   {
+    "name": "American College of Surgeons (ACS), Committee on Trauma",
+    "type": "professional-body",
+    "country": "US",
+    "url": "https://www.facs.org/"
+   }
+  ],
+  "wikipedia": {
+   "title": "Advanced trauma life support",
+   "url": "https://en.wikipedia.org/wiki/Advanced_trauma_life_support",
+   "match": "manual"
+  }
+ }
 }

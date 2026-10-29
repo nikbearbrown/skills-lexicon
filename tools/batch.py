@@ -15,6 +15,7 @@ import sys
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
+import assess as AS  # noqa: E402
 import lexicon as L  # noqa: E402
 import tags_to_candidates as T  # noqa: E402
 
@@ -51,6 +52,43 @@ def where(lt):
     """Where a legacy tag came from: each file, its rows and its class."""
     parts = [f"`{Path(s['file']).name}` row {', '.join(map(str, s['rows']))} ({s['class']})" for s in lt["sources"]]
     return "legacy tag: " + "; ".join(parts)
+
+
+def extras(e, key, runs):
+    """Who else has looked at this claim: second drafts, checks, and attesting sources, with how much was verified."""
+    out = []
+    for ev in e.get("evidence", []):
+        if ev.get("field") != key:
+            continue
+        by = ev["by"]
+        if ev["action"] == "checked":
+            who = by.split(":", 1)[1] + (f" ({runs[ev['run']]['effort']})" if by.startswith("model:") and ev.get("run") in runs else "")
+            out.append(f"{who} agrees" if ev["outcome"] == "supports" else f"{who} disagrees ({ev.get('note', '')})")
+        elif ev["action"] == "matched_source":
+            org = ev.get("organization", {})
+            out.append(f"{org.get('name', by)} [{ev.get('verification')}] {ev['outcome']}")
+    return " — " + "; ".join(out) if out else ""
+
+
+def votes_for(root, entries):
+    """entry id -> the votes on its tag, worked out from the legacy lists and data/assessments.jsonl."""
+    rows = {}
+    for g in T.read_tags(root, [T.TAGS] + list(T.LISTS.values())):
+        for s in g["sources"].values():
+            rows[(s["file"], s["rows"][0])] = L.norm(g["term"])
+    tl = AS.tally(root)
+    out = {}
+    for e in entries:
+        for s in e["provenance"].get("legacy_tag", {}).get("sources", []):
+            key = rows.get((s["file"], s["rows"][0]))
+            if key in tl:
+                regs = L.load_runs(root)
+                def tag_(v):
+                    a = regs.get(v.get("run"), {}).get("agent")
+                    return AS.who(v["assessor"])[:-1] + f", {a})" if v["assessor"]["type"] == "model" and a else AS.who(v["assessor"])
+                out[e["id"]] = [{"answer": v["answer"], "by": tag_(v), "run": v.get("run")} for v in tl[key]["votes"]]
+                break
+    return out
 
 
 def collect(root, run):
@@ -100,16 +138,20 @@ def build(root, run):
     if not c["new"]:
         raise SystemExit(f"no entries were drafted in run {run!r}")
     n = batch_number(root, run)
-    models = sorted({ev["by"] for e in c["new"] for ev in e["evidence"]})
+    models = sorted({ev["by"] for e in c["new"] for ev in e["evidence"] if ev["by"].startswith("model:")})
+    legacy = any(e["provenance"].get("legacy_tag") for e in c["new"])
+    used = {ev["run"] for e in c["new"] for ev in e["evidence"] if ev.get("run")}
+    runs = {k: v for k, v in L.load_runs(root).items() if k in used}
     doc = {
         "batch": {
             "number": n, "run": run, "models": models, "date": c["new"][0]["provenance"]["date"],
-            "source": T.TAGS,
+            "source": T.TAGS if legacy else c["new"][0]["provenance"]["source"].split(", run ")[0],
             "counts": {"new_entries": len(c["new"]), "variants_added": len(c["variants_added"]),
                        "not_a_skill": len(c["not_a_skill"]), "unsure": len(c["unsure"])},
             "generated": "from entries/*.json by tools/batch.py; do not edit by hand",
             "status": "machine-drafted: no claim in this batch is backed by a human check or a matched source",
         },
+        "runs": runs, "votes": votes_for(root, c["new"]),
         "entries": c["new"], "variants_added": c["variants_added"],
         "not_a_skill": c["not_a_skill"], "unsure": c["unsure"],
     }
@@ -118,12 +160,15 @@ def build(root, run):
 
 def render_md(doc, names):
     b = doc["batch"]
+    runs = doc.get("runs", {})
     out = [f"# Skills lexicon batch {b['number']:03d}", "",
-           f"Run `{b['run']}` · {b['date']} · drafted by {', '.join(f'`{m}`' for m in b['models'])} · source `{b['source']}`", "",
+           f"Run `{b['run']}` · {b['date']} · " + (f"drafted by {', '.join(f'`{m}`' for m in b['models'])} · " if b['models'] else "imported from a source, not drafted by a model · ")
+           + f"source `{b['source']}`", "",
            "**Generated from the JSON file beside this one. Do not edit it; correct `entries/<key>.json` instead.**", "",
            "Every claim below carries a marker: ○ drafted by a model, not yet checked · ✔ backed by a human check or a matched source · "
-           "✖ contradicted. The words after a claim say what the model said it was based on. "
-           "Only ✔ counts. Nothing in this batch has it yet.", "",
+           "✖ contradicted. The words after a claim say what the model said it was based on, then who else has looked at it. "
+           "Only ✔ counts. Votes say who thinks the tag is something job listings ask for; they back nothing. "
+           "Class is worked out from kind: ability, certification, language, or skill (what is left).", "",
            "| New entries | Added as a variant | Not a skill | Unsure |", "|---|---|---|---|",
            "| {new_entries} | {variants_added} | {not_a_skill} | {unsure} |".format(**b["counts"]), "", "---", ""]
     for e in doc["entries"]:
@@ -131,18 +176,36 @@ def render_md(doc, names):
         src = where(lt) if lt else e["provenance"]["source"]
         flag = " ⚠ class conflict in the legacy lists" if lt.get("class_conflict") else ""
         out += [f"## {e['preferred_name']}", "",
-                f"`{e['id']}` · {e['kind']} · {e['status']} · {src}{flag}", ""]
+                f"`{e['id']}` · {L.top_class(e)} · {e['kind']} · {e['status']} · {src}{flag}", ""]
 
         def line(label, text, key):
-            out.append(f"- **{label}:** {text} {MARK[claim_state(e, key)]} _{basis(e, key)}_{flagged(e, key)}")
+            b_ = basis(e, key)
+            out.append(f"- **{label}:** {text} {MARK[claim_state(e, key)]}" + (f" _{b_}_" if b_ else "") + f"{flagged(e, key)}{extras(e, key, runs)}")
+        vs = doc.get("votes", {}).get(e["id"])
+        if vs:
+            groups = {}
+            for v in vs:
+                groups.setdefault(v["answer"], []).append(v["by"])
+            out.append("- **Votes (is it something job listings ask for?):** " + " · ".join(f"{a}: {', '.join(groups[a])}" for a in ("yes", "unsure", "no") if a in groups))
         line("Definition", e["definition"], "definition")
         line("Kind", e["kind"], "kind")
+        for i in e.get("identifiers", []):
+            out.append(f"- **Identifier:** {i['scheme']} `{i['code']}`")
         if "certification" in e:
             line("Certification", "yes" if e["certification"] else "no", "certification")
         if "certification_scope" in e:
             line("Certification scope", {"single-issuer": "one issuer", "many-issuers": "many issuers"}[e["certification_scope"]], "certification_scope")
         if "language_type" in e:
             line("Language type", e["language_type"], "language_type")
+        c = e.get("credential")
+        if c:
+            iss = "; ".join(f"{i['name']}" + (f" ({i['url']})" if i.get("url") else "") for i in c.get("issuers", [])) or "not mapped yet"
+            out.append(f"- **Credential:** {c.get('official_name', e['preferred_name'])} · {c['credential_type']} · {c.get('specificity', '')} · "
+                       f"status {c.get('status', 'unknown')} · issuer: {iss}")
+            if c.get("fields"):
+                out.append(f"  - field: {', '.join(f['label'] for f in c['fields'])}" + (f" · level: {c['level']}" if c.get("level") else ""))
+            for s in c["sources"][:4]:
+                out.append(f"  - source ({s['kind']}, {s['verification']}): {s['url']}")
         if e.get("notes"):
             out.append(f"- **Note:** {e['notes']} ⚠")
         for v in e.get("variants", []):

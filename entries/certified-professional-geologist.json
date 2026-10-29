@@ -84,7 +84,111 @@
    "date": "2026-10-29",
    "run": "2026-10-29-scope-annotation",
    "note": "basis: general-knowledge"
+  },
+  {
+   "field": "certification",
+   "by": "source:American Institute of Professional Geologists (AIPG)",
+   "action": "matched_source",
+   "kind": "issuer",
+   "verification": "search-results-only",
+   "outcome": "supports",
+   "ref": "https://aipg.org/page/aipgcpgapp",
+   "date": "2026-10-29",
+   "run": "2026-10-29-web-check-1",
+   "note": "Applicants for certification have a bachelor's degree or higher in the geological sciences with a minimum of 36 semester hours or 54 quarter hours of geology.",
+   "organization": {
+    "name": "American Institute of Professional Geologists (AIPG)",
+    "url": "https://aipg.org/",
+    "type": "professional-body",
+    "country": "US"
+   }
+  },
+  {
+   "field": "definition",
+   "by": "model:claude-sonnet-5-5",
+   "action": "checked",
+   "outcome": "supports",
+   "date": "2026-10-29",
+   "run": "2026-10-29-web-check-1",
+   "note": "web check, search results only: Issuer and nature match what the AIPG-side pages report."
+  },
+  {
+   "field": "kind",
+   "by": "model:claude-sonnet-5-5",
+   "action": "checked",
+   "outcome": "supports",
+   "date": "2026-10-29",
+   "run": "2026-10-29-pilot-100-tags-blind-redraft",
+   "note": "second draft (xhigh) gave the same value"
+  },
+  {
+   "field": "certification",
+   "by": "model:claude-sonnet-5-5",
+   "action": "checked",
+   "outcome": "supports",
+   "date": "2026-10-29",
+   "run": "2026-10-29-pilot-100-tags-blind-redraft",
+   "note": "second draft (xhigh) gave the same value"
   }
  ],
- "certification_scope": "single-issuer"
+ "certification_scope": "single-issuer",
+ "credential": {
+  "credential_type": "certification",
+  "sources": [
+   {
+    "kind": "issuer",
+    "url": "https://aipg.org/page/aipgcpgapp",
+    "verification": "search-results-only",
+    "snippet": "Applicants for certification have a bachelor's degree or higher in the geological sciences with a minimum of 36 semester hours or 54 quarter hours of geology."
+   },
+   {
+    "kind": "issuer",
+    "url": "https://aipg.org/page/aipgabout",
+    "verification": "search-results-only",
+    "title": "AIPG: About (result title was a generic site header)"
+   },
+   {
+    "kind": "issuer",
+    "url": "https://aipg.org/page/MembershipCategoriesandRequirements",
+    "verification": "search-results-only",
+    "title": "AIPG Membership Categories and Requirements"
+   },
+   {
+    "kind": "wikipedia",
+    "url": "https://en.wikipedia.org/wiki/List_of_professional_designations_in_the_United_States",
+    "verification": "search-results-only",
+    "title": "Wikipedia: List of professional designations in the United States (broader list that includes the CPG)"
+   },
+   {
+    "kind": "third-party",
+    "url": "https://commerce.alaska.gov/web/cbpl/ProfessionalLicensing/ProfessionalGeologists",
+    "verification": "search-results-only",
+    "title": "Alaska Division of Corporations, Business and Professional Licensing: Professional Geologists (state recognition of CPG)"
+   }
+  ],
+  "official_name": "Certified Professional Geologist (CPG)",
+  "acronym": "CPG",
+  "level": "professional",
+  "requirements": "Bachelor's or higher in geological sciences with at least 36 semester hours of geology; 8 years of professional geological work (7 with a master's, 5 with a PhD); three sponsors, two of them CPGs; review by section and national screening committees.",
+  "specificity": "specific-credential",
+  "fields": [
+   {
+    "label": "geology"
+   },
+   {
+    "label": "geoscience"
+   }
+  ],
+  "jurisdiction": [
+   "US"
+  ],
+  "issuers": [
+   {
+    "name": "American Institute of Professional Geologists (AIPG)",
+    "type": "professional-body",
+    "country": "US",
+    "url": "https://aipg.org/"
+   }
+  ]
+ }
 }

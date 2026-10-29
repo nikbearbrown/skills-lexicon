@@ -63,7 +63,108 @@
    "date": "2026-10-29",
    "run": "2026-10-29-scope-annotation",
    "note": "basis: general-knowledge"
+  },
+  {
+   "field": "certification",
+   "by": "source:Federal Communications Commission (FCC)",
+   "action": "matched_source",
+   "kind": "issuer",
+   "verification": "search-results-only",
+   "outcome": "supports",
+   "ref": "https://www.fcc.gov/types-licenses",
+   "date": "2026-10-29",
+   "run": "2026-10-29-web-check-1",
+   "note": "RR holders are authorized to operate most aircraft and aeronautical ground stations.",
+   "organization": {
+    "name": "Federal Communications Commission (FCC)",
+    "url": "https://www.fcc.gov/",
+    "type": "government",
+    "country": "US"
+   }
+  },
+  {
+   "field": "definition",
+   "by": "model:claude-sonnet-5-5",
+   "action": "checked",
+   "outcome": "supports",
+   "date": "2026-10-29",
+   "run": "2026-10-29-web-check-1",
+   "note": "web check, search results only: The draft says it allows operating certain radio equipment such as aircraft and marine radios, which matches the FCC list as summarised."
+  },
+  {
+   "field": "kind",
+   "by": "model:claude-sonnet-5-5",
+   "action": "checked",
+   "outcome": "supports",
+   "date": "2026-10-29",
+   "run": "2026-10-29-pilot-100-tags-blind-redraft",
+   "note": "second draft (xhigh) gave the same value"
+  },
+  {
+   "field": "certification",
+   "by": "model:claude-sonnet-5-5",
+   "action": "checked",
+   "outcome": "supports",
+   "date": "2026-10-29",
+   "run": "2026-10-29-pilot-100-tags-blind-redraft",
+   "note": "second draft (xhigh) gave the same value"
   }
  ],
- "certification_scope": "single-issuer"
+ "certification_scope": "single-issuer",
+ "credential": {
+  "credential_type": "permit",
+  "sources": [
+   {
+    "kind": "issuer",
+    "url": "https://www.fcc.gov/types-licenses",
+    "verification": "search-results-only",
+    "snippet": "RR holders are authorized to operate most aircraft and aeronautical ground stations."
+   },
+   {
+    "kind": "issuer",
+    "url": "https://www.fcc.gov/obtaining-license",
+    "verification": "search-results-only",
+    "title": "FCC: obtaining a license"
+   },
+   {
+    "kind": "third-party",
+    "url": "https://www.onetonline.org/link/licenseinfo?id=00-75",
+    "verification": "search-results-only",
+    "title": "O*NET OnLine: Restricted Radiotelephone Operator Permit (RP)"
+   },
+   {
+    "kind": "wikipedia",
+    "url": "https://en.wikipedia.org/wiki/General_radiotelephone_operator_license",
+    "verification": "search-results-only",
+    "title": "Wikipedia: General radiotelephone operator license (a related, broader FCC credential; the summary does not cover the RR in detail)"
+   }
+  ],
+  "official_name": "Restricted Radiotelephone Operator Permit",
+  "acronym": "RR (FCC's current code); RP (used in older listings such as O*NET)",
+  "level": "entry",
+  "requirements": "Application on FCC Form 605 through the FCC's licensing system with an FCC Registration Number. One guide says it is issued without examination and that applicants must be a legal US resident or hold a US-valid pilot certificate; the FCC-page summary on the exam point was garbled, so treat 'no exam' as likely but unconfirmed.",
+  "specificity": "specific-credential",
+  "fields": [
+   {
+    "label": "radio communications"
+   },
+   {
+    "label": "aviation"
+   },
+   {
+    "label": "marine radio"
+   }
+  ],
+  "jurisdiction": [
+   "US"
+  ],
+  "issuers": [
+   {
+    "name": "Federal Communications Commission (FCC)",
+    "type": "government",
+    "country": "US",
+    "url": "https://www.fcc.gov/"
+   }
+  ]
+ }
 }

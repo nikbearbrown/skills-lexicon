@@ -1,0 +1,81 @@
+{
+ "id": "q9yyh6jazh",
+ "key": "glare-sensitivity",
+ "preferred_name": "Glare Sensitivity",
+ "kind": "ability",
+ "definition": "The ability to see objects in the presence of a glare or bright lighting.",
+ "identifiers": [
+  {
+   "scheme": "onet-element",
+   "code": "1.A.4.a.7"
+  }
+ ],
+ "variants": [],
+ "relations": [],
+ "verbs": [],
+ "status": "proposed",
+ "provenance": {
+  "source": "imported from O*NET 30.2 Abilities (USDOL/ETA, CC BY 4.0) via jobs.humanitarians.ai data/explorer/ability-directory.json, run 2026-10-29-onet-abilities-import, definitions sha256 909f6ce0b437",
+  "date": "2026-10-29",
+  "review": "Awaiting taxonomy owner review",
+  "reviewed_by": null
+ },
+ "evidence": [
+  {
+   "field": "kind",
+   "by": "source:onet-30.2",
+   "action": "matched_source",
+   "kind": "onet",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "onet:1.A.4.a.7",
+   "date": "2026-10-29",
+   "run": "2026-10-29-onet-abilities-import",
+   "note": "O*NET 30.2 lists it under Abilities, sensory, Visual Abilities",
+   "organization": {
+    "name": "O*NET, U.S. Department of Labor, Employment and Training Administration",
+    "url": "https://www.onetcenter.org/",
+    "type": "government",
+    "country": "US"
+   },
+   "match": {
+    "dataset": "onet-30.2",
+    "dataset_id": "1.A.4.a.7",
+    "method": "import",
+    "categories": [
+     "Abilities",
+     "sensory",
+     "Visual Abilities"
+    ]
+   }
+  },
+  {
+   "field": "definition",
+   "by": "source:onet-30.2",
+   "action": "matched_source",
+   "kind": "onet",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "onet:1.A.4.a.7",
+   "date": "2026-10-29",
+   "run": "2026-10-29-onet-abilities-import",
+   "note": "the definition is O*NET 30.2's text",
+   "organization": {
+    "name": "O*NET, U.S. Department of Labor, Employment and Training Administration",
+    "url": "https://www.onetcenter.org/",
+    "type": "government",
+    "country": "US"
+   },
+   "match": {
+    "dataset": "onet-30.2",
+    "dataset_id": "1.A.4.a.7",
+    "method": "import",
+    "categories": [
+     "Abilities",
+     "sensory",
+     "Visual Abilities"
+    ]
+   }
+  }
+ ]
+}

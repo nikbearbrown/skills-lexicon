@@ -96,7 +96,93 @@
    "date": "2026-10-29",
    "run": "2026-10-29-scope-annotation",
    "note": "basis: general-knowledge"
+  },
+  {
+   "field": "certification",
+   "by": "source:Board of Certified Safety Professionals (BCSP)",
+   "action": "matched_source",
+   "kind": "issuer",
+   "verification": "search-results-only",
+   "outcome": "supports",
+   "ref": "https://bcsp.org/safety-trained-supervisor-sts",
+   "date": "2026-10-29",
+   "run": "2026-10-29-web-check-1",
+   "note": "The STS needs 30 hours of safety, health, and environmental training.",
+   "organization": {
+    "name": "Board of Certified Safety Professionals (BCSP)",
+    "url": "https://bcsp.org/",
+    "type": "professional-body",
+    "country": "US"
+   }
+  },
+  {
+   "field": "definition",
+   "by": "model:claude-sonnet-5-5",
+   "action": "checked",
+   "outcome": "supports",
+   "date": "2026-10-29",
+   "run": "2026-10-29-web-check-1",
+   "note": "web check, search results only: Consistent but vague. The draft says 'trained to manage workplace safety'; BCSP's route is training hours plus experience or education plus an exam, aimed at supervisor"
   }
  ],
- "certification_scope": "single-issuer"
+ "certification_scope": "single-issuer",
+ "credential": {
+  "credential_type": "certification",
+  "sources": [
+   {
+    "kind": "issuer",
+    "url": "https://bcsp.org/safety-trained-supervisor-sts",
+    "verification": "search-results-only",
+    "snippet": "The STS needs 30 hours of safety, health, and environmental training."
+   },
+   {
+    "kind": "issuer",
+    "url": "https://www.bcsp.org/safety-trained-supervisor-sts/application-process/",
+    "verification": "search-results-only",
+    "title": "BCSP: Safety Trained Supervisor (STS) application process"
+   },
+   {
+    "kind": "issuer",
+    "url": "https://www.bcsp.org/About/BCSP-News/over-7000-sts-and-stscs-sponsored",
+    "verification": "search-results-only",
+    "title": "BCSP news: over 7000 STS and STSC sponsored"
+   },
+   {
+    "kind": "third-party",
+    "url": "https://www.ishn.com/articles/112216-new-pathways-to-bcsps-sts-and-stsc-certifications-introduced?v=preview",
+    "verification": "search-results-only",
+    "title": "ISHN: new pathways to BCSP's STS and STSC certifications (2016)"
+   },
+   {
+    "kind": "wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Certified_safety_professional",
+    "verification": "search-results-only",
+    "title": "Wikipedia: Certified safety professional (the issuer's flagship credential; the summary does not cover the STS)"
+   }
+  ],
+  "official_name": "Safety Trained Supervisor (STS)",
+  "acronym": "STS",
+  "level": "supervisory (below the professional-level CSP)",
+  "requirements": "30 hours of safety, health and environmental training plus one of: two years of supervisory experience, four years of work experience, an associate degree or higher in a related field, or a two-year trade or apprenticeship programme; then pass the STS exam (100 multiple-choice questions per third-party sources; $185 exam fee per BCSP summary).",
+  "specificity": "specific-credential",
+  "fields": [
+   {
+    "label": "occupational safety and health"
+   },
+   {
+    "label": "supervision"
+   }
+  ],
+  "jurisdiction": [
+   "US"
+  ],
+  "issuers": [
+   {
+    "name": "Board of Certified Safety Professionals (BCSP)",
+    "type": "professional-body",
+    "country": "US",
+    "url": "https://bcsp.org/"
+   }
+  ]
+ }
 }

@@ -16,6 +16,1252 @@
   "generated": "from entries/*.json by tools/batch.py; do not edit by hand",
   "status": "machine-drafted: no claim in this batch is backed by a human check or a matched source"
  },
+ "runs": {
+  "2026-10-29-batch-002": {
+   "model": "claude-sonnet-5-5",
+   "effort": "xhigh",
+   "agent": "subagent",
+   "date": "2026-10-29",
+   "note": "subagent; model and effort read from the subagent's own transcript"
+  },
+  "2026-10-29-pilot-100-tags": {
+   "model": "claude-sonnet-5-5",
+   "effort": "xhigh",
+   "agent": "main-session",
+   "date": "2026-10-29",
+   "note": "main session; model and effort read from the session settings"
+  },
+  "2026-10-29-pilot-100-tags-blind-redraft": {
+   "model": "claude-sonnet-5-5",
+   "effort": "xhigh",
+   "agent": "subagent",
+   "date": "2026-10-29",
+   "note": "subagent; model and effort read from the subagent's own transcript"
+  },
+  "2026-10-29-scope-annotation": {
+   "model": "claude-sonnet-5-5",
+   "effort": "xhigh",
+   "agent": "main-session",
+   "date": "2026-10-29",
+   "note": "main session; model and effort read from the session settings"
+  },
+  "2026-10-29-web-check-1": {
+   "model": "claude-sonnet-5-5",
+   "effort": "xhigh",
+   "agent": "subagent",
+   "date": "2026-10-29",
+   "note": "web search only; no page was opened"
+  }
+ },
+ "votes": {
+  "kwcwko7ozp": [
+   {
+    "answer": "yes",
+    "by": "legacy tag lists",
+    "run": null
+   },
+   {
+    "answer": "yes",
+    "by": "claude-sonnet-5-5 (xhigh, main-session)",
+    "run": "2026-10-29-pilot-100-tags"
+   },
+   {
+    "answer": "yes",
+    "by": "claude-sonnet-5-5 (xhigh, subagent)",
+    "run": "2026-10-29-pilot-100-tags-blind-redraft"
+   }
+  ],
+  "u7y9o9rpyw": [
+   {
+    "answer": "yes",
+    "by": "legacy tag lists",
+    "run": null
+   },
+   {
+    "answer": "yes",
+    "by": "claude-sonnet-5-5 (xhigh, main-session)",
+    "run": "2026-10-29-pilot-100-tags"
+   },
+   {
+    "answer": "yes",
+    "by": "claude-sonnet-5-5 (xhigh, subagent)",
+    "run": "2026-10-29-pilot-100-tags-blind-redraft"
+   }
+  ],
+  "zko5ukvqdy": [
+   {
+    "answer": "yes",
+    "by": "legacy tag lists",
+    "run": null
+   },
+   {
+    "answer": "yes",
+    "by": "claude-sonnet-5-5 (xhigh, main-session)",
+    "run": "2026-10-29-pilot-100-tags"
+   },
+   {
+    "answer": "yes",
+    "by": "claude-sonnet-5-5 (xhigh, subagent)",
+    "run": "2026-10-29-pilot-100-tags-blind-redraft"
+   }
+  ],
+  "u0nv7nrdlk": [
+   {
+    "answer": "yes",
+    "by": "legacy tag lists",
+    "run": null
+   },
+   {
+    "answer": "yes",
+    "by": "claude-sonnet-5-5 (xhigh, main-session)",
+    "run": "2026-10-29-pilot-100-tags"
+   },
+   {
+    "answer": "unsure",
+    "by": "claude-sonnet-5-5 (xhigh, subagent)",
+    "run": "2026-10-29-pilot-100-tags-blind-redraft"
+   }
+  ],
+  "q9s4sj8gqa": [
+   {
+    "answer": "yes",
+    "by": "legacy tag lists",
+    "run": null
+   },
+   {
+    "answer": "yes",
+    "by": "claude-sonnet-5-5 (xhigh, main-session)",
+    "run": "2026-10-29-pilot-100-tags"
+   },
+   {
+    "answer": "yes",
+    "by": "claude-sonnet-5-5 (xhigh, subagent)",
+    "run": "2026-10-29-pilot-100-tags-blind-redraft"
+   }
+  ],
+  "u3ojnio176": [
+   {
+    "answer": "yes",
+    "by": "legacy tag lists",
+    "run": null
+   },
+   {
+    "answer": "yes",
+    "by": "claude-sonnet-5-5 (xhigh, main-session)",
+    "run": "2026-10-29-pilot-100-tags"
+   },
+   {
+    "answer": "yes",
+    "by": "claude-sonnet-5-5 (xhigh, subagent)",
+    "run": "2026-10-29-pilot-100-tags-blind-redraft"
+   }
+  ],
+  "zksf32dtwb": [
+   {
+    "answer": "yes",
+    "by": "legacy tag lists",
+    "run": null
+   },
+   {
+    "answer": "yes",
+    "by": "claude-sonnet-5-5 (xhigh, main-session)",
+    "run": "2026-10-29-pilot-100-tags"
+   },
+   {
+    "answer": "yes",
+    "by": "claude-sonnet-5-5 (xhigh, subagent)",
+    "run": "2026-10-29-pilot-100-tags-blind-redraft"
+   }
+  ],
+  "tkak2r7a31": [
+   {
+    "answer": "yes",
+    "by": "legacy tag lists",
+    "run": null
+   },
+   {
+    "answer": "yes",
+    "by": "claude-sonnet-5-5 (xhigh, main-session)",
+    "run": "2026-10-29-pilot-100-tags"
+   },
+   {
+    "answer": "yes",
+    "by": "claude-sonnet-5-5 (xhigh, subagent)",
+    "run": "2026-10-29-pilot-100-tags-blind-redraft"
+   }
+  ],
+  "scnorb90o8": [
+   {
+    "answer": "yes",
+    "by": "legacy tag lists",
+    "run": null
+   },
+   {
+    "answer": "yes",
+    "by": "claude-sonnet-5-5 (xhigh, main-session)",
+    "run": "2026-10-29-pilot-100-tags"
+   },
+   {
+    "answer": "unsure",
+    "by": "claude-sonnet-5-5 (xhigh, subagent)",
+    "run": "2026-10-29-pilot-100-tags-blind-redraft"
+   }
+  ],
+  "r46ots78g8": [
+   {
+    "answer": "yes",
+    "by": "legacy tag lists",
+    "run": null
+   },
+   {
+    "answer": "yes",
+    "by": "claude-sonnet-5-5 (xhigh, main-session)",
+    "run": "2026-10-29-pilot-100-tags"
+   },
+   {
+    "answer": "yes",
+    "by": "claude-sonnet-5-5 (xhigh, subagent)",
+    "run": "2026-10-29-pilot-100-tags-blind-redraft"
+   }
+  ],
+  "ljshci25ww": [
+   {
+    "answer": "yes",
+    "by": "legacy tag lists",
+    "run": null
+   },
+   {
+    "answer": "yes",
+    "by": "claude-sonnet-5-5 (xhigh, main-session)",
+    "run": "2026-10-29-pilot-100-tags"
+   },
+   {
+    "answer": "yes",
+    "by": "claude-sonnet-5-5 (xhigh, subagent)",
+    "run": "2026-10-29-pilot-100-tags-blind-redraft"
+   }
+  ],
+  "rzrebn0fyg": [
+   {
+    "answer": "yes",
+    "by": "legacy tag lists",
+    "run": null
+   },
+   {
+    "answer": "yes",
+    "by": "claude-sonnet-5-5 (xhigh, main-session)",
+    "run": "2026-10-29-pilot-100-tags"
+   },
+   {
+    "answer": "yes",
+    "by": "claude-sonnet-5-5 (xhigh, subagent)",
+    "run": "2026-10-29-pilot-100-tags-blind-redraft"
+   }
+  ],
+  "ieb2kta6jv": [
+   {
+    "answer": "yes",
+    "by": "legacy tag lists",
+    "run": null
+   },
+   {
+    "answer": "yes",
+    "by": "claude-sonnet-5-5 (xhigh, main-session)",
+    "run": "2026-10-29-pilot-100-tags"
+   },
+   {
+    "answer": "yes",
+    "by": "claude-sonnet-5-5 (xhigh, subagent)",
+    "run": "2026-10-29-pilot-100-tags-blind-redraft"
+   }
+  ],
+  "s1txpyxeni": [
+   {
+    "answer": "yes",
+    "by": "legacy tag lists",
+    "run": null
+   },
+   {
+    "answer": "yes",
+    "by": "claude-sonnet-5-5 (xhigh, main-session)",
+    "run": "2026-10-29-pilot-100-tags"
+   },
+   {
+    "answer": "yes",
+    "by": "claude-sonnet-5-5 (xhigh, subagent)",
+    "run": "2026-10-29-pilot-100-tags-blind-redraft"
+   }
+  ],
+  "ue0pgomm0l": [
+   {
+    "answer": "yes",
+    "by": "legacy tag lists",
+    "run": null
+   },
+   {
+    "answer": "yes",
+    "by": "claude-sonnet-5-5 (xhigh, main-session)",
+    "run": "2026-10-29-pilot-100-tags"
+   },
+   {
+    "answer": "yes",
+    "by": "claude-sonnet-5-5 (xhigh, subagent)",
+    "run": "2026-10-29-pilot-100-tags-blind-redraft"
+   }
+  ],
+  "z5cl5m7b48": [
+   {
+    "answer": "yes",
+    "by": "legacy tag lists",
+    "run": null
+   },
+   {
+    "answer": "yes",
+    "by": "claude-sonnet-5-5 (xhigh, main-session)",
+    "run": "2026-10-29-pilot-100-tags"
+   },
+   {
+    "answer": "yes",
+    "by": "claude-sonnet-5-5 (xhigh, subagent)",
+    "run": "2026-10-29-pilot-100-tags-blind-redraft"
+   }
+  ],
+  "ffswfagi3s": [
+   {
+    "answer": "yes",
+    "by": "legacy tag lists",
+    "run": null
+   },
+   {
+    "answer": "yes",
+    "by": "claude-sonnet-5-5 (xhigh, main-session)",
+    "run": "2026-10-29-pilot-100-tags"
+   },
+   {
+    "answer": "yes",
+    "by": "claude-sonnet-5-5 (xhigh, subagent)",
+    "run": "2026-10-29-pilot-100-tags-blind-redraft"
+   }
+  ],
+  "bgv8aoglzh": [
+   {
+    "answer": "yes",
+    "by": "legacy tag lists",
+    "run": null
+   },
+   {
+    "answer": "yes",
+    "by": "claude-sonnet-5-5 (xhigh, main-session)",
+    "run": "2026-10-29-pilot-100-tags"
+   },
+   {
+    "answer": "yes",
+    "by": "claude-sonnet-5-5 (xhigh, subagent)",
+    "run": "2026-10-29-pilot-100-tags-blind-redraft"
+   }
+  ],
+  "ie3ky4o9l0": [
+   {
+    "answer": "yes",
+    "by": "legacy tag lists",
+    "run": null
+   },
+   {
+    "answer": "yes",
+    "by": "claude-sonnet-5-5 (xhigh, main-session)",
+    "run": "2026-10-29-pilot-100-tags"
+   },
+   {
+    "answer": "yes",
+    "by": "claude-sonnet-5-5 (xhigh, subagent)",
+    "run": "2026-10-29-pilot-100-tags-blind-redraft"
+   }
+  ],
+  "ds71vj3zr1": [
+   {
+    "answer": "yes",
+    "by": "legacy tag lists",
+    "run": null
+   },
+   {
+    "answer": "yes",
+    "by": "claude-sonnet-5-5 (xhigh, main-session)",
+    "run": "2026-10-29-pilot-100-tags"
+   },
+   {
+    "answer": "yes",
+    "by": "claude-sonnet-5-5 (xhigh, subagent)",
+    "run": "2026-10-29-pilot-100-tags-blind-redraft"
+   }
+  ],
+  "d8uol1sujj": [
+   {
+    "answer": "yes",
+    "by": "legacy tag lists",
+    "run": null
+   },
+   {
+    "answer": "yes",
+    "by": "claude-sonnet-5-5 (xhigh, main-session)",
+    "run": "2026-10-29-pilot-100-tags"
+   },
+   {
+    "answer": "yes",
+    "by": "claude-sonnet-5-5 (xhigh, subagent)",
+    "run": "2026-10-29-pilot-100-tags-blind-redraft"
+   }
+  ],
+  "mgwpga1jmw": [
+   {
+    "answer": "yes",
+    "by": "legacy tag lists",
+    "run": null
+   },
+   {
+    "answer": "yes",
+    "by": "claude-sonnet-5-5 (xhigh, main-session)",
+    "run": "2026-10-29-pilot-100-tags"
+   },
+   {
+    "answer": "unsure",
+    "by": "claude-sonnet-5-5 (xhigh, subagent)",
+    "run": "2026-10-29-pilot-100-tags-blind-redraft"
+   }
+  ],
+  "d52wj7x3wm": [
+   {
+    "answer": "yes",
+    "by": "legacy tag lists",
+    "run": null
+   },
+   {
+    "answer": "yes",
+    "by": "claude-sonnet-5-5 (xhigh, main-session)",
+    "run": "2026-10-29-pilot-100-tags"
+   },
+   {
+    "answer": "yes",
+    "by": "claude-sonnet-5-5 (xhigh, subagent)",
+    "run": "2026-10-29-pilot-100-tags-blind-redraft"
+   }
+  ],
+  "svio15mnpv": [
+   {
+    "answer": "yes",
+    "by": "legacy tag lists",
+    "run": null
+   },
+   {
+    "answer": "yes",
+    "by": "claude-sonnet-5-5 (xhigh, main-session)",
+    "run": "2026-10-29-pilot-100-tags"
+   },
+   {
+    "answer": "yes",
+    "by": "claude-sonnet-5-5 (xhigh, subagent)",
+    "run": "2026-10-29-pilot-100-tags-blind-redraft"
+   }
+  ],
+  "xpo0iet9cq": [
+   {
+    "answer": "yes",
+    "by": "legacy tag lists",
+    "run": null
+   },
+   {
+    "answer": "yes",
+    "by": "claude-sonnet-5-5 (xhigh, main-session)",
+    "run": "2026-10-29-pilot-100-tags"
+   },
+   {
+    "answer": "yes",
+    "by": "claude-sonnet-5-5 (xhigh, subagent)",
+    "run": "2026-10-29-pilot-100-tags-blind-redraft"
+   }
+  ],
+  "ypvc3ra1n1": [
+   {
+    "answer": "yes",
+    "by": "legacy tag lists",
+    "run": null
+   },
+   {
+    "answer": "yes",
+    "by": "claude-sonnet-5-5 (xhigh, main-session)",
+    "run": "2026-10-29-pilot-100-tags"
+   },
+   {
+    "answer": "yes",
+    "by": "claude-sonnet-5-5 (xhigh, subagent)",
+    "run": "2026-10-29-pilot-100-tags-blind-redraft"
+   }
+  ],
+  "zomymgt82i": [
+   {
+    "answer": "yes",
+    "by": "legacy tag lists",
+    "run": null
+   },
+   {
+    "answer": "yes",
+    "by": "claude-sonnet-5-5 (xhigh, main-session)",
+    "run": "2026-10-29-pilot-100-tags"
+   },
+   {
+    "answer": "yes",
+    "by": "claude-sonnet-5-5 (xhigh, subagent)",
+    "run": "2026-10-29-pilot-100-tags-blind-redraft"
+   }
+  ],
+  "pis2iav0c2": [
+   {
+    "answer": "yes",
+    "by": "legacy tag lists",
+    "run": null
+   },
+   {
+    "answer": "yes",
+    "by": "claude-sonnet-5-5 (xhigh, main-session)",
+    "run": "2026-10-29-pilot-100-tags"
+   },
+   {
+    "answer": "yes",
+    "by": "claude-sonnet-5-5 (xhigh, subagent)",
+    "run": "2026-10-29-pilot-100-tags-blind-redraft"
+   }
+  ],
+  "prkfpz7o8w": [
+   {
+    "answer": "yes",
+    "by": "legacy tag lists",
+    "run": null
+   },
+   {
+    "answer": "yes",
+    "by": "claude-sonnet-5-5 (xhigh, main-session)",
+    "run": "2026-10-29-pilot-100-tags"
+   },
+   {
+    "answer": "yes",
+    "by": "claude-sonnet-5-5 (xhigh, subagent)",
+    "run": "2026-10-29-pilot-100-tags-blind-redraft"
+   }
+  ],
+  "pl9ucmohz5": [
+   {
+    "answer": "yes",
+    "by": "legacy tag lists",
+    "run": null
+   },
+   {
+    "answer": "yes",
+    "by": "claude-sonnet-5-5 (xhigh, main-session)",
+    "run": "2026-10-29-pilot-100-tags"
+   },
+   {
+    "answer": "yes",
+    "by": "claude-sonnet-5-5 (xhigh, subagent)",
+    "run": "2026-10-29-pilot-100-tags-blind-redraft"
+   }
+  ],
+  "jeai1j8uhz": [
+   {
+    "answer": "yes",
+    "by": "legacy tag lists",
+    "run": null
+   },
+   {
+    "answer": "yes",
+    "by": "claude-sonnet-5-5 (xhigh, main-session)",
+    "run": "2026-10-29-pilot-100-tags"
+   },
+   {
+    "answer": "yes",
+    "by": "claude-sonnet-5-5 (xhigh, subagent)",
+    "run": "2026-10-29-pilot-100-tags-blind-redraft"
+   }
+  ],
+  "jy5t5pwupo": [
+   {
+    "answer": "yes",
+    "by": "legacy tag lists",
+    "run": null
+   },
+   {
+    "answer": "yes",
+    "by": "claude-sonnet-5-5 (xhigh, main-session)",
+    "run": "2026-10-29-pilot-100-tags"
+   },
+   {
+    "answer": "yes",
+    "by": "claude-sonnet-5-5 (xhigh, subagent)",
+    "run": "2026-10-29-pilot-100-tags-blind-redraft"
+   }
+  ],
+  "xzgr4torrj": [
+   {
+    "answer": "yes",
+    "by": "legacy tag lists",
+    "run": null
+   },
+   {
+    "answer": "yes",
+    "by": "claude-sonnet-5-5 (xhigh, main-session)",
+    "run": "2026-10-29-pilot-100-tags"
+   },
+   {
+    "answer": "yes",
+    "by": "claude-sonnet-5-5 (xhigh, subagent)",
+    "run": "2026-10-29-pilot-100-tags-blind-redraft"
+   }
+  ],
+  "k6ns4jdo7n": [
+   {
+    "answer": "yes",
+    "by": "legacy tag lists",
+    "run": null
+   },
+   {
+    "answer": "yes",
+    "by": "claude-sonnet-5-5 (xhigh, main-session)",
+    "run": "2026-10-29-pilot-100-tags"
+   },
+   {
+    "answer": "yes",
+    "by": "claude-sonnet-5-5 (xhigh, subagent)",
+    "run": "2026-10-29-pilot-100-tags-blind-redraft"
+   }
+  ],
+  "jx2hqz8q8r": [
+   {
+    "answer": "yes",
+    "by": "legacy tag lists",
+    "run": null
+   },
+   {
+    "answer": "yes",
+    "by": "claude-sonnet-5-5 (xhigh, main-session)",
+    "run": "2026-10-29-pilot-100-tags"
+   },
+   {
+    "answer": "yes",
+    "by": "claude-sonnet-5-5 (xhigh, subagent)",
+    "run": "2026-10-29-pilot-100-tags-blind-redraft"
+   }
+  ],
+  "m9s424jy6t": [
+   {
+    "answer": "yes",
+    "by": "legacy tag lists",
+    "run": null
+   },
+   {
+    "answer": "yes",
+    "by": "claude-sonnet-5-5 (xhigh, main-session)",
+    "run": "2026-10-29-pilot-100-tags"
+   },
+   {
+    "answer": "yes",
+    "by": "claude-sonnet-5-5 (xhigh, subagent)",
+    "run": "2026-10-29-pilot-100-tags-blind-redraft"
+   }
+  ],
+  "uyk06pg91v": [
+   {
+    "answer": "yes",
+    "by": "legacy tag lists",
+    "run": null
+   },
+   {
+    "answer": "yes",
+    "by": "claude-sonnet-5-5 (xhigh, main-session)",
+    "run": "2026-10-29-pilot-100-tags"
+   },
+   {
+    "answer": "yes",
+    "by": "claude-sonnet-5-5 (xhigh, subagent)",
+    "run": "2026-10-29-pilot-100-tags-blind-redraft"
+   }
+  ],
+  "xmdqx611pm": [
+   {
+    "answer": "yes",
+    "by": "legacy tag lists",
+    "run": null
+   },
+   {
+    "answer": "yes",
+    "by": "claude-sonnet-5-5 (xhigh, main-session)",
+    "run": "2026-10-29-pilot-100-tags"
+   },
+   {
+    "answer": "yes",
+    "by": "claude-sonnet-5-5 (xhigh, subagent)",
+    "run": "2026-10-29-pilot-100-tags-blind-redraft"
+   }
+  ],
+  "i3hhtsx5w7": [
+   {
+    "answer": "yes",
+    "by": "legacy tag lists",
+    "run": null
+   },
+   {
+    "answer": "yes",
+    "by": "claude-sonnet-5-5 (xhigh, main-session)",
+    "run": "2026-10-29-pilot-100-tags"
+   },
+   {
+    "answer": "no",
+    "by": "claude-sonnet-5-5 (xhigh, subagent)",
+    "run": "2026-10-29-pilot-100-tags-blind-redraft"
+   }
+  ],
+  "o7rmvt0viw": [
+   {
+    "answer": "yes",
+    "by": "legacy tag lists",
+    "run": null
+   },
+   {
+    "answer": "yes",
+    "by": "claude-sonnet-5-5 (xhigh, main-session)",
+    "run": "2026-10-29-pilot-100-tags"
+   },
+   {
+    "answer": "yes",
+    "by": "claude-sonnet-5-5 (xhigh, subagent)",
+    "run": "2026-10-29-pilot-100-tags-blind-redraft"
+   }
+  ],
+  "w2o4zybnso": [
+   {
+    "answer": "yes",
+    "by": "legacy tag lists",
+    "run": null
+   },
+   {
+    "answer": "yes",
+    "by": "claude-sonnet-5-5 (xhigh, main-session)",
+    "run": "2026-10-29-pilot-100-tags"
+   },
+   {
+    "answer": "yes",
+    "by": "claude-sonnet-5-5 (xhigh, subagent)",
+    "run": "2026-10-29-pilot-100-tags-blind-redraft"
+   }
+  ],
+  "fj3w62grru": [
+   {
+    "answer": "yes",
+    "by": "legacy tag lists",
+    "run": null
+   },
+   {
+    "answer": "yes",
+    "by": "claude-sonnet-5-5 (xhigh, main-session)",
+    "run": "2026-10-29-pilot-100-tags"
+   },
+   {
+    "answer": "yes",
+    "by": "claude-sonnet-5-5 (xhigh, subagent)",
+    "run": "2026-10-29-pilot-100-tags-blind-redraft"
+   }
+  ],
+  "hk6558v1ji": [
+   {
+    "answer": "yes",
+    "by": "legacy tag lists",
+    "run": null
+   },
+   {
+    "answer": "yes",
+    "by": "claude-sonnet-5-5 (xhigh, main-session)",
+    "run": "2026-10-29-pilot-100-tags"
+   },
+   {
+    "answer": "yes",
+    "by": "claude-sonnet-5-5 (xhigh, subagent)",
+    "run": "2026-10-29-pilot-100-tags-blind-redraft"
+   }
+  ],
+  "hg27hw3l2c": [
+   {
+    "answer": "yes",
+    "by": "legacy tag lists",
+    "run": null
+   },
+   {
+    "answer": "yes",
+    "by": "claude-sonnet-5-5 (xhigh, main-session)",
+    "run": "2026-10-29-pilot-100-tags"
+   },
+   {
+    "answer": "yes",
+    "by": "claude-sonnet-5-5 (xhigh, subagent)",
+    "run": "2026-10-29-pilot-100-tags-blind-redraft"
+   }
+  ],
+  "sfte4xs6zx": [
+   {
+    "answer": "yes",
+    "by": "legacy tag lists",
+    "run": null
+   },
+   {
+    "answer": "yes",
+    "by": "claude-sonnet-5-5 (xhigh, main-session)",
+    "run": "2026-10-29-pilot-100-tags"
+   },
+   {
+    "answer": "yes",
+    "by": "claude-sonnet-5-5 (xhigh, subagent)",
+    "run": "2026-10-29-pilot-100-tags-blind-redraft"
+   }
+  ],
+  "ivx36sezid": [
+   {
+    "answer": "yes",
+    "by": "legacy tag lists",
+    "run": null
+   },
+   {
+    "answer": "yes",
+    "by": "claude-sonnet-5-5 (xhigh, main-session)",
+    "run": "2026-10-29-pilot-100-tags"
+   },
+   {
+    "answer": "yes",
+    "by": "claude-sonnet-5-5 (xhigh, subagent)",
+    "run": "2026-10-29-pilot-100-tags-blind-redraft"
+   }
+  ],
+  "gxbpx9za78": [
+   {
+    "answer": "yes",
+    "by": "legacy tag lists",
+    "run": null
+   },
+   {
+    "answer": "yes",
+    "by": "claude-sonnet-5-5 (xhigh, main-session)",
+    "run": "2026-10-29-pilot-100-tags"
+   },
+   {
+    "answer": "yes",
+    "by": "claude-sonnet-5-5 (xhigh, subagent)",
+    "run": "2026-10-29-pilot-100-tags-blind-redraft"
+   }
+  ],
+  "e77t10tbmi": [
+   {
+    "answer": "yes",
+    "by": "legacy tag lists",
+    "run": null
+   },
+   {
+    "answer": "yes",
+    "by": "claude-sonnet-5-5 (xhigh, main-session)",
+    "run": "2026-10-29-pilot-100-tags"
+   },
+   {
+    "answer": "yes",
+    "by": "claude-sonnet-5-5 (xhigh, subagent)",
+    "run": "2026-10-29-pilot-100-tags-blind-redraft"
+   }
+  ],
+  "iip9ks8y55": [
+   {
+    "answer": "yes",
+    "by": "legacy tag lists",
+    "run": null
+   },
+   {
+    "answer": "yes",
+    "by": "claude-sonnet-5-5 (xhigh, main-session)",
+    "run": "2026-10-29-pilot-100-tags"
+   },
+   {
+    "answer": "yes",
+    "by": "claude-sonnet-5-5 (xhigh, subagent)",
+    "run": "2026-10-29-pilot-100-tags-blind-redraft"
+   }
+  ],
+  "sli7qqx1gw": [
+   {
+    "answer": "yes",
+    "by": "legacy tag lists",
+    "run": null
+   },
+   {
+    "answer": "yes",
+    "by": "claude-sonnet-5-5 (xhigh, main-session)",
+    "run": "2026-10-29-pilot-100-tags"
+   },
+   {
+    "answer": "yes",
+    "by": "claude-sonnet-5-5 (xhigh, subagent)",
+    "run": "2026-10-29-pilot-100-tags-blind-redraft"
+   }
+  ],
+  "xlftnwk7c1": [
+   {
+    "answer": "yes",
+    "by": "legacy tag lists",
+    "run": null
+   },
+   {
+    "answer": "yes",
+    "by": "claude-sonnet-5-5 (xhigh, main-session)",
+    "run": "2026-10-29-pilot-100-tags"
+   },
+   {
+    "answer": "yes",
+    "by": "claude-sonnet-5-5 (xhigh, subagent)",
+    "run": "2026-10-29-pilot-100-tags-blind-redraft"
+   }
+  ],
+  "rbg0r9t749": [
+   {
+    "answer": "yes",
+    "by": "legacy tag lists",
+    "run": null
+   },
+   {
+    "answer": "yes",
+    "by": "claude-sonnet-5-5 (xhigh, main-session)",
+    "run": "2026-10-29-pilot-100-tags"
+   },
+   {
+    "answer": "yes",
+    "by": "claude-sonnet-5-5 (xhigh, subagent)",
+    "run": "2026-10-29-pilot-100-tags-blind-redraft"
+   }
+  ],
+  "tu36v4sy7c": [
+   {
+    "answer": "yes",
+    "by": "legacy tag lists",
+    "run": null
+   },
+   {
+    "answer": "yes",
+    "by": "claude-sonnet-5-5 (xhigh, main-session)",
+    "run": "2026-10-29-pilot-100-tags"
+   },
+   {
+    "answer": "yes",
+    "by": "claude-sonnet-5-5 (xhigh, subagent)",
+    "run": "2026-10-29-pilot-100-tags-blind-redraft"
+   }
+  ],
+  "rmkqenma3p": [
+   {
+    "answer": "yes",
+    "by": "legacy tag lists",
+    "run": null
+   },
+   {
+    "answer": "yes",
+    "by": "claude-sonnet-5-5 (xhigh, main-session)",
+    "run": "2026-10-29-pilot-100-tags"
+   },
+   {
+    "answer": "yes",
+    "by": "claude-sonnet-5-5 (xhigh, subagent)",
+    "run": "2026-10-29-pilot-100-tags-blind-redraft"
+   }
+  ],
+  "yi5wth4bnj": [
+   {
+    "answer": "yes",
+    "by": "legacy tag lists",
+    "run": null
+   },
+   {
+    "answer": "yes",
+    "by": "claude-sonnet-5-5 (xhigh, main-session)",
+    "run": "2026-10-29-pilot-100-tags"
+   },
+   {
+    "answer": "yes",
+    "by": "claude-sonnet-5-5 (xhigh, subagent)",
+    "run": "2026-10-29-pilot-100-tags-blind-redraft"
+   }
+  ],
+  "ukd3hy0vke": [
+   {
+    "answer": "yes",
+    "by": "legacy tag lists",
+    "run": null
+   },
+   {
+    "answer": "yes",
+    "by": "claude-sonnet-5-5 (xhigh, main-session)",
+    "run": "2026-10-29-pilot-100-tags"
+   },
+   {
+    "answer": "yes",
+    "by": "claude-sonnet-5-5 (xhigh, subagent)",
+    "run": "2026-10-29-pilot-100-tags-blind-redraft"
+   }
+  ],
+  "n01lv1fq0t": [
+   {
+    "answer": "yes",
+    "by": "legacy tag lists",
+    "run": null
+   },
+   {
+    "answer": "yes",
+    "by": "claude-sonnet-5-5 (xhigh, main-session)",
+    "run": "2026-10-29-pilot-100-tags"
+   },
+   {
+    "answer": "yes",
+    "by": "claude-sonnet-5-5 (xhigh, subagent)",
+    "run": "2026-10-29-pilot-100-tags-blind-redraft"
+   }
+  ],
+  "mfaw2zyj3n": [
+   {
+    "answer": "yes",
+    "by": "legacy tag lists",
+    "run": null
+   },
+   {
+    "answer": "yes",
+    "by": "claude-sonnet-5-5 (xhigh, main-session)",
+    "run": "2026-10-29-pilot-100-tags"
+   },
+   {
+    "answer": "unsure",
+    "by": "claude-sonnet-5-5 (xhigh, subagent)",
+    "run": "2026-10-29-pilot-100-tags-blind-redraft"
+   }
+  ],
+  "pqt2ajoqzd": [
+   {
+    "answer": "yes",
+    "by": "legacy tag lists",
+    "run": null
+   },
+   {
+    "answer": "yes",
+    "by": "claude-sonnet-5-5 (xhigh, main-session)",
+    "run": "2026-10-29-pilot-100-tags"
+   },
+   {
+    "answer": "yes",
+    "by": "claude-sonnet-5-5 (xhigh, subagent)",
+    "run": "2026-10-29-pilot-100-tags-blind-redraft"
+   }
+  ],
+  "b01cze4ssf": [
+   {
+    "answer": "yes",
+    "by": "legacy tag lists",
+    "run": null
+   },
+   {
+    "answer": "yes",
+    "by": "claude-sonnet-5-5 (xhigh, main-session)",
+    "run": "2026-10-29-pilot-100-tags"
+   },
+   {
+    "answer": "yes",
+    "by": "claude-sonnet-5-5 (xhigh, subagent)",
+    "run": "2026-10-29-pilot-100-tags-blind-redraft"
+   }
+  ],
+  "unurfua1et": [
+   {
+    "answer": "yes",
+    "by": "legacy tag lists",
+    "run": null
+   },
+   {
+    "answer": "yes",
+    "by": "claude-sonnet-5-5 (xhigh, main-session)",
+    "run": "2026-10-29-pilot-100-tags"
+   },
+   {
+    "answer": "yes",
+    "by": "claude-sonnet-5-5 (xhigh, subagent)",
+    "run": "2026-10-29-pilot-100-tags-blind-redraft"
+   }
+  ],
+  "rm0k01pcl6": [
+   {
+    "answer": "yes",
+    "by": "legacy tag lists",
+    "run": null
+   },
+   {
+    "answer": "yes",
+    "by": "claude-sonnet-5-5 (xhigh, main-session)",
+    "run": "2026-10-29-pilot-100-tags"
+   },
+   {
+    "answer": "yes",
+    "by": "claude-sonnet-5-5 (xhigh, subagent)",
+    "run": "2026-10-29-pilot-100-tags-blind-redraft"
+   }
+  ],
+  "yw2egk4m94": [
+   {
+    "answer": "yes",
+    "by": "legacy tag lists",
+    "run": null
+   },
+   {
+    "answer": "yes",
+    "by": "claude-sonnet-5-5 (xhigh, main-session)",
+    "run": "2026-10-29-pilot-100-tags"
+   },
+   {
+    "answer": "yes",
+    "by": "claude-sonnet-5-5 (xhigh, subagent)",
+    "run": "2026-10-29-pilot-100-tags-blind-redraft"
+   }
+  ],
+  "my2r15ngyp": [
+   {
+    "answer": "yes",
+    "by": "legacy tag lists",
+    "run": null
+   },
+   {
+    "answer": "yes",
+    "by": "claude-sonnet-5-5 (xhigh, main-session)",
+    "run": "2026-10-29-pilot-100-tags"
+   },
+   {
+    "answer": "yes",
+    "by": "claude-sonnet-5-5 (xhigh, subagent)",
+    "run": "2026-10-29-pilot-100-tags-blind-redraft"
+   }
+  ],
+  "jqn7upjsc9": [
+   {
+    "answer": "yes",
+    "by": "legacy tag lists",
+    "run": null
+   },
+   {
+    "answer": "yes",
+    "by": "claude-sonnet-5-5 (xhigh, main-session)",
+    "run": "2026-10-29-pilot-100-tags"
+   },
+   {
+    "answer": "yes",
+    "by": "claude-sonnet-5-5 (xhigh, subagent)",
+    "run": "2026-10-29-pilot-100-tags-blind-redraft"
+   }
+  ],
+  "m22mxmr88h": [
+   {
+    "answer": "yes",
+    "by": "legacy tag lists",
+    "run": null
+   },
+   {
+    "answer": "yes",
+    "by": "claude-sonnet-5-5 (xhigh, main-session)",
+    "run": "2026-10-29-pilot-100-tags"
+   },
+   {
+    "answer": "yes",
+    "by": "claude-sonnet-5-5 (xhigh, subagent)",
+    "run": "2026-10-29-pilot-100-tags-blind-redraft"
+   }
+  ],
+  "qeyll0q70q": [
+   {
+    "answer": "yes",
+    "by": "legacy tag lists",
+    "run": null
+   },
+   {
+    "answer": "yes",
+    "by": "claude-sonnet-5-5 (xhigh, main-session)",
+    "run": "2026-10-29-pilot-100-tags"
+   },
+   {
+    "answer": "yes",
+    "by": "claude-sonnet-5-5 (xhigh, subagent)",
+    "run": "2026-10-29-pilot-100-tags-blind-redraft"
+   }
+  ],
+  "s46ycd317l": [
+   {
+    "answer": "yes",
+    "by": "legacy tag lists",
+    "run": null
+   },
+   {
+    "answer": "yes",
+    "by": "claude-sonnet-5-5 (xhigh, main-session)",
+    "run": "2026-10-29-pilot-100-tags"
+   },
+   {
+    "answer": "yes",
+    "by": "claude-sonnet-5-5 (xhigh, subagent)",
+    "run": "2026-10-29-pilot-100-tags-blind-redraft"
+   }
+  ],
+  "ohwq8eavw4": [
+   {
+    "answer": "yes",
+    "by": "legacy tag lists",
+    "run": null
+   },
+   {
+    "answer": "yes",
+    "by": "claude-sonnet-5-5 (xhigh, main-session)",
+    "run": "2026-10-29-pilot-100-tags"
+   },
+   {
+    "answer": "yes",
+    "by": "claude-sonnet-5-5 (xhigh, subagent)",
+    "run": "2026-10-29-pilot-100-tags-blind-redraft"
+   }
+  ],
+  "n2v8jnsgj0": [
+   {
+    "answer": "yes",
+    "by": "legacy tag lists",
+    "run": null
+   },
+   {
+    "answer": "yes",
+    "by": "claude-sonnet-5-5 (xhigh, main-session)",
+    "run": "2026-10-29-pilot-100-tags"
+   },
+   {
+    "answer": "yes",
+    "by": "claude-sonnet-5-5 (xhigh, subagent)",
+    "run": "2026-10-29-pilot-100-tags-blind-redraft"
+   }
+  ],
+  "llq5laptmx": [
+   {
+    "answer": "yes",
+    "by": "legacy tag lists",
+    "run": null
+   },
+   {
+    "answer": "yes",
+    "by": "claude-sonnet-5-5 (xhigh, main-session)",
+    "run": "2026-10-29-pilot-100-tags"
+   },
+   {
+    "answer": "yes",
+    "by": "claude-sonnet-5-5 (xhigh, subagent)",
+    "run": "2026-10-29-pilot-100-tags-blind-redraft"
+   }
+  ]
+ },
  "entries": [
   {
    "id": "kwcwko7ozp",
@@ -83,6 +1329,24 @@
      "date": "2026-10-29",
      "run": "2026-10-29-pilot-100-tags",
      "note": "basis: general-knowledge"
+    },
+    {
+     "field": "kind",
+     "by": "model:claude-sonnet-5-5",
+     "action": "checked",
+     "outcome": "supports",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags-blind-redraft",
+     "note": "second draft (xhigh) gave the same value"
+    },
+    {
+     "field": "certification",
+     "by": "model:claude-sonnet-5-5",
+     "action": "checked",
+     "outcome": "supports",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags-blind-redraft",
+     "note": "second draft (xhigh) gave the same value"
     }
    ]
   },
@@ -161,6 +1425,24 @@
      "date": "2026-10-29",
      "run": "2026-10-29-pilot-100-tags",
      "note": "basis: general-knowledge"
+    },
+    {
+     "field": "kind",
+     "by": "model:claude-sonnet-5-5",
+     "action": "checked",
+     "outcome": "supports",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags-blind-redraft",
+     "note": "second draft (xhigh) gave the same value"
+    },
+    {
+     "field": "certification",
+     "by": "model:claude-sonnet-5-5",
+     "action": "checked",
+     "outcome": "supports",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags-blind-redraft",
+     "note": "second draft (xhigh) gave the same value"
     }
    ]
   },
@@ -220,6 +1502,24 @@
      "date": "2026-10-29",
      "run": "2026-10-29-pilot-100-tags",
      "note": "basis: general-knowledge"
+    },
+    {
+     "field": "kind",
+     "by": "model:claude-sonnet-5-5",
+     "action": "checked",
+     "outcome": "supports",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags-blind-redraft",
+     "note": "second draft (xhigh) gave the same value"
+    },
+    {
+     "field": "certification",
+     "by": "model:claude-sonnet-5-5",
+     "action": "checked",
+     "outcome": "supports",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags-blind-redraft",
+     "note": "second draft (xhigh) gave the same value"
     }
    ]
   },
@@ -313,9 +1613,104 @@
      "date": "2026-10-29",
      "run": "2026-10-29-scope-annotation",
      "note": "basis: general-knowledge; More than one US body certifies it, and state boards license nurse practitioners."
+    },
+    {
+     "field": "certification",
+     "by": "source:American Nurses Credentialing Center (ANCC); a second certifier, the American Association of Critical-Care Nurses (AACN), awards the ACNPC-AG",
+     "action": "matched_source",
+     "kind": "issuer",
+     "verification": "search-results-only",
+     "outcome": "supports",
+     "ref": "https://www.nursingworld.org/our-certifications/adult-gerontology-acute-care-nurse-practitioner/",
+     "date": "2026-10-29",
+     "run": "2026-10-29-web-check-1",
+     "note": "The ANCC Adult-Gerontology Acute Care Nurse Practitioner (AGACNP) board certification examination is a competency-based entry-level examination",
+     "organization": {
+      "name": "American Nurses Credentialing Center (ANCC); a second certifier, the American Association of Critical-Care Nurses (AACN), awards the ACNPC-AG",
+      "url": "https://www.nursingworld.org/",
+      "type": "professional-body",
+      "country": "US"
+     }
+    },
+    {
+     "field": "definition",
+     "by": "model:claude-sonnet-5-5",
+     "action": "checked",
+     "outcome": "supports",
+     "date": "2026-10-29",
+     "run": "2026-10-29-web-check-1",
+     "note": "web check, search results only: Consistent with the ANCC/AACN descriptions in the results. The draft names no issuer; there are two (ANCC and AACN), which is worth recording."
     }
    ],
-   "certification_scope": "many-issuers"
+   "certification_scope": "many-issuers",
+   "credential": {
+    "credential_type": "certification",
+    "sources": [
+     {
+      "kind": "issuer",
+      "url": "https://www.nursingworld.org/our-certifications/adult-gerontology-acute-care-nurse-practitioner/",
+      "verification": "search-results-only",
+      "snippet": "The ANCC Adult-Gerontology Acute Care Nurse Practitioner (AGACNP) board certification examination is a competency-based entry-level examination"
+     },
+     {
+      "kind": "third-party",
+      "url": "https://www.onetonline.org/link/certinfo/10047-C",
+      "verification": "search-results-only",
+      "title": "O*NET OnLine: Adult-Gerontology Acute Care Nurse Practitioner Certification (AGACNP-BC)"
+     },
+     {
+      "kind": "wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Adult-gerontology_nurse_practitioner",
+      "verification": "search-results-only",
+      "title": "Wikipedia: Adult-gerontology nurse practitioner (broader article on the role, not the certification itself)"
+     },
+     {
+      "kind": "wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Acute_care_nurse_practitioner",
+      "verification": "search-results-only",
+      "title": "Wikipedia: Acute care nurse practitioner (broader article on the role)"
+     },
+     {
+      "kind": "third-party",
+      "url": "https://blog.springerpub.com/?p=4409",
+      "verification": "search-results-only",
+      "title": "Steps to Earning Your AG-ACNP or ACNPC-AG Certification (publisher blog)"
+     },
+     {
+      "kind": "third-party",
+      "url": "https://catalog.uwm.edu/health-professions-sciences/nursing/adult-gerontology-acute-care-nurse-practitioner-graduate-certificate/",
+      "verification": "search-results-only",
+      "title": "UWM AG-ACNP Graduate Certificate (an education programme that prepares for the exam, not the certification)"
+     }
+    ],
+    "official_name": "Adult-Gerontology Acute Care Nurse Practitioner Certification (AGACNP-BC) from ANCC; the parallel AACN credential is ACNPC-AG",
+    "acronym": "AGACNP-BC (ANCC); ACNPC-AG (AACN)",
+    "level": "advanced practice (graduate-prepared nurse practitioner); the certification exam itself is described as entry-level for the NP role",
+    "requirements": "Per secondary sources: a current RN/APRN licence plus a master's or higher from an accredited adult-gerontology acute care NP programme, then the certifier's exam. One Wikipedia-derived summary mentions at least 500 clinical hours. I did not see the ANCC eligibility page itself.",
+    "specificity": "specific-credential",
+    "fields": [
+     {
+      "label": "nursing"
+     },
+     {
+      "label": "advanced practice nursing"
+     },
+     {
+      "label": "acute care"
+     }
+    ],
+    "jurisdiction": [
+     "US"
+    ],
+    "issuers": [
+     {
+      "name": "American Nurses Credentialing Center (ANCC); a second certifier, the American Association of Critical-Care Nurses (AACN), awards the ACNPC-AG",
+      "url": "https://www.nursingworld.org/",
+      "type": "professional-body",
+      "country": "US"
+     }
+    ]
+   }
   },
   {
    "id": "q9s4sj8gqa",
@@ -395,9 +1790,138 @@
      "date": "2026-10-29",
      "run": "2026-10-29-scope-annotation",
      "note": "basis: general-knowledge"
+    },
+    {
+     "field": "certification",
+     "by": "source:American College of Surgeons (ACS), Committee on Trauma",
+     "action": "matched_source",
+     "kind": "issuer",
+     "verification": "search-results-only",
+     "outcome": "supports",
+     "ref": "https://www.facs.org/quality-programs/trauma/atls",
+     "date": "2026-10-29",
+     "run": "2026-10-29-web-check-1",
+     "note": "The ACS and its Committee on Trauma (COT) have developed the ATLS Course for physicians and advanced practice providers.",
+     "organization": {
+      "name": "American College of Surgeons (ACS), Committee on Trauma",
+      "url": "https://www.facs.org/",
+      "type": "professional-body",
+      "country": "US"
+     }
+    },
+    {
+     "field": "certification",
+     "by": "source:Wikipedia",
+     "action": "matched_source",
+     "kind": "wikipedia",
+     "verification": "search-results-only",
+     "outcome": "supports",
+     "ref": "https://en.wikipedia.org/wiki/Advanced_trauma_life_support",
+     "date": "2026-10-29",
+     "run": "2026-10-29-web-check-1",
+     "note": "Wikipedia has an article about it",
+     "organization": {
+      "name": "Wikimedia Foundation",
+      "url": "https://www.wikimedia.org/",
+      "type": "reference-work",
+      "country": "US"
+     }
+    },
+    {
+     "field": "definition",
+     "by": "model:claude-sonnet-5-5",
+     "action": "checked",
+     "outcome": "supports",
+     "date": "2026-10-29",
+     "run": "2026-10-29-web-check-1",
+     "note": "web check, search results only: Issuer and purpose match. The draft says 'course and certification'; the results call it a course and speak of a four-year 'verification' status, so 'certification' is "
+    },
+    {
+     "field": "kind",
+     "by": "model:claude-sonnet-5-5",
+     "action": "checked",
+     "outcome": "supports",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags-blind-redraft",
+     "note": "second draft (xhigh) gave the same value"
+    },
+    {
+     "field": "certification",
+     "by": "model:claude-sonnet-5-5",
+     "action": "checked",
+     "outcome": "supports",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags-blind-redraft",
+     "note": "second draft (xhigh) gave the same value"
     }
    ],
-   "certification_scope": "single-issuer"
+   "certification_scope": "single-issuer",
+   "credential": {
+    "credential_type": "course-completion",
+    "sources": [
+     {
+      "kind": "issuer",
+      "url": "https://www.facs.org/quality-programs/trauma/atls",
+      "verification": "search-results-only",
+      "snippet": "The ACS and its Committee on Trauma (COT) have developed the ATLS Course for physicians and advanced practice providers."
+     },
+     {
+      "kind": "wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Advanced_trauma_life_support",
+      "verification": "search-results-only"
+     },
+     {
+      "kind": "issuer",
+      "url": "https://www.facs.org/for-medical-professionals/news-publications/news-and-articles/bulletin/2022/july-2022-volume-107-number-7/the-cot-at-100-evolution-and-promulgation-of-atls-and-surgical-skills-training/",
+      "verification": "search-results-only",
+      "title": "ACS Bulletin: The COT at 100, evolution and promulgation of ATLS and surgical skills training (title inferred from URL; the result title was 'Unsupported Browser')"
+     },
+     {
+      "kind": "third-party",
+      "url": "https://www.vumc.org/trauma-and-scc/atls-advanced-trauma-life-support",
+      "verification": "search-results-only",
+      "title": "Vanderbilt University Medical Center: ATLS course page (a course host, not the issuer)"
+     },
+     {
+      "kind": "third-party",
+      "url": "https://www.lsuhs.edu/departments/school-of-medicine/surgery/atlscourse",
+      "verification": "search-results-only",
+      "title": "LSU Health Sciences Center: ATLS course page (a course host, not the issuer)"
+     }
+    ],
+    "official_name": "Advanced Trauma Life Support (ATLS)",
+    "acronym": "ATLS",
+    "level": "provider course for physicians and advanced practice providers",
+    "requirements": "Standard course: didactics, skills stations and testing over two days; a blended option (mATLS) moves much of the lecture content to online modules. Per course pages summarised in the results.",
+    "specificity": "specific-credential",
+    "fields": [
+     {
+      "label": "trauma care"
+     },
+     {
+      "label": "emergency medicine"
+     },
+     {
+      "label": "surgery"
+     }
+    ],
+    "jurisdiction": [
+     "INT"
+    ],
+    "issuers": [
+     {
+      "name": "American College of Surgeons (ACS), Committee on Trauma",
+      "type": "professional-body",
+      "country": "US",
+      "url": "https://www.facs.org/"
+     }
+    ],
+    "wikipedia": {
+     "title": "Advanced trauma life support",
+     "url": "https://en.wikipedia.org/wiki/Advanced_trauma_life_support",
+     "match": "manual"
+    }
+   }
   },
   {
    "id": "u3ojnio176",
@@ -523,9 +2047,106 @@
      "date": "2026-10-29",
      "run": "2026-10-29-batch-002",
      "note": "same concept as American Board of Medical Laboratory Immunology certification, listed in the legacy tag list"
+    },
+    {
+     "field": "certification",
+     "by": "source:American Board of Medical Laboratory Immunology, administered through the American Society for Microbiology (ASM) certification programme",
+     "action": "matched_source",
+     "kind": "issuer",
+     "verification": "search-results-only",
+     "outcome": "supports",
+     "ref": "https://asm.org/certifications/american-board-of-medical-laboratory-immunology",
+     "date": "2026-10-29",
+     "run": "2026-10-29-web-check-1",
+     "note": "The ABMLI is no longer accepting exam applications as of June 1, 2016, and its diplomates can still recertify.",
+     "organization": {
+      "name": "American Board of Medical Laboratory Immunology, administered through the American Society for Microbiology (ASM) certification programme",
+      "url": "https://asm.org/",
+      "type": "professional-body",
+      "country": "US"
+     }
+    },
+    {
+     "field": "definition",
+     "by": "model:claude-sonnet-5-5",
+     "action": "checked",
+     "outcome": "supports",
+     "date": "2026-10-29",
+     "run": "2026-10-29-web-check-1",
+     "note": "web check, search results only: Circular but not wrong. It omits that the exam has been closed to new candidates since 2016 (per the ASM summary), which a reader would want to know."
+    },
+    {
+     "field": "kind",
+     "by": "model:claude-sonnet-5-5",
+     "action": "checked",
+     "outcome": "supports",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags-blind-redraft",
+     "note": "second draft (xhigh) gave the same value"
+    },
+    {
+     "field": "certification",
+     "by": "model:claude-sonnet-5-5",
+     "action": "checked",
+     "outcome": "supports",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags-blind-redraft",
+     "note": "second draft (xhigh) gave the same value"
     }
    ],
-   "certification_scope": "single-issuer"
+   "certification_scope": "single-issuer",
+   "credential": {
+    "credential_type": "certification",
+    "sources": [
+     {
+      "kind": "issuer",
+      "url": "https://asm.org/certifications/american-board-of-medical-laboratory-immunology",
+      "verification": "search-results-only",
+      "snippet": "The ABMLI is no longer accepting exam applications as of June 1, 2016, and its diplomates can still recertify."
+     },
+     {
+      "kind": "third-party",
+      "url": "https://www.cms.gov/files/document/hhs-approved-certification-boards.pdf",
+      "verification": "search-results-only",
+      "title": "CMS: HHS approved certification boards (CLIA laboratory director qualifications)"
+     },
+     {
+      "kind": "third-party",
+      "url": "https://www.ascp.org/content/docs/default-source/boc-pdfs/about_boc/dmli-practice-analysis-report.pdf?sfvrsn=0",
+      "verification": "search-results-only",
+      "title": "ASCP BOC: DMLI practice analysis report (the successor-style credential, a different body)"
+     }
+    ],
+    "official_name": "American Board of Medical Laboratory Immunology (ABMLI) certification",
+    "acronym": "ABMLI",
+    "level": "doctoral-level (laboratory director)",
+    "requirements": "Doctoral-level immunologists per the ASM page summary. The exam is no longer offered to new applicants, so current eligibility rules were not shown.",
+    "specificity": "specific-credential",
+    "status": "closed-to-new-candidates",
+    "status_note": "The exam is closed to new candidates, per the check's search results.",
+    "fields": [
+     {
+      "label": "medical laboratory immunology"
+     },
+     {
+      "label": "clinical laboratory science"
+     },
+     {
+      "label": "laboratory direction"
+     }
+    ],
+    "jurisdiction": [
+     "US"
+    ],
+    "issuers": [
+     {
+      "name": "American Board of Medical Laboratory Immunology, administered through the American Society for Microbiology (ASM) certification programme",
+      "type": "professional-body",
+      "country": "US",
+      "url": "https://asm.org/"
+     }
+    ]
+   }
   },
   {
    "id": "zksf32dtwb",
@@ -596,6 +2217,24 @@
      "date": "2026-10-29",
      "run": "2026-10-29-pilot-100-tags",
      "note": "basis: general-knowledge"
+    },
+    {
+     "field": "kind",
+     "by": "model:claude-sonnet-5-5",
+     "action": "checked",
+     "outcome": "supports",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags-blind-redraft",
+     "note": "second draft (xhigh) gave the same value"
+    },
+    {
+     "field": "certification",
+     "by": "model:claude-sonnet-5-5",
+     "action": "checked",
+     "outcome": "supports",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags-blind-redraft",
+     "note": "second draft (xhigh) gave the same value"
     }
    ]
   },
@@ -674,6 +2313,24 @@
      "date": "2026-10-29",
      "run": "2026-10-29-pilot-100-tags",
      "note": "basis: general-knowledge"
+    },
+    {
+     "field": "kind",
+     "by": "model:claude-sonnet-5-5",
+     "action": "checked",
+     "outcome": "supports",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags-blind-redraft",
+     "note": "second draft (xhigh) gave the same value"
+    },
+    {
+     "field": "certification",
+     "by": "model:claude-sonnet-5-5",
+     "action": "checked",
+     "outcome": "supports",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags-blind-redraft",
+     "note": "second draft (xhigh) gave the same value"
     }
    ]
   },
@@ -823,6 +2480,33 @@
      "date": "2026-10-29",
      "run": "2026-10-29-pilot-100-tags",
      "note": "basis: general-knowledge"
+    },
+    {
+     "field": "kind",
+     "by": "model:claude-sonnet-5-5",
+     "action": "checked",
+     "outcome": "supports",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags-blind-redraft",
+     "note": "second draft (xhigh) gave the same value"
+    },
+    {
+     "field": "certification",
+     "by": "model:claude-sonnet-5-5",
+     "action": "checked",
+     "outcome": "supports",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags-blind-redraft",
+     "note": "second draft (xhigh) gave the same value"
+    },
+    {
+     "field": "language_type",
+     "by": "model:claude-sonnet-5-5",
+     "action": "checked",
+     "outcome": "supports",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags-blind-redraft",
+     "note": "second draft (xhigh) gave the same value"
     }
    ]
   },
@@ -926,6 +2610,24 @@
      "date": "2026-10-29",
      "run": "2026-10-29-pilot-100-tags",
      "note": "basis: general-knowledge"
+    },
+    {
+     "field": "kind",
+     "by": "model:claude-sonnet-5-5",
+     "action": "checked",
+     "outcome": "contradicts",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags-blind-redraft",
+     "note": "second draft (xhigh) said knowledge"
+    },
+    {
+     "field": "certification",
+     "by": "model:claude-sonnet-5-5",
+     "action": "checked",
+     "outcome": "supports",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags-blind-redraft",
+     "note": "second draft (xhigh) gave the same value"
     }
    ]
   },
@@ -1004,6 +2706,24 @@
      "date": "2026-10-29",
      "run": "2026-10-29-pilot-100-tags",
      "note": "basis: general-knowledge"
+    },
+    {
+     "field": "kind",
+     "by": "model:claude-sonnet-5-5",
+     "action": "checked",
+     "outcome": "supports",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags-blind-redraft",
+     "note": "second draft (xhigh) gave the same value"
+    },
+    {
+     "field": "certification",
+     "by": "model:claude-sonnet-5-5",
+     "action": "checked",
+     "outcome": "supports",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags-blind-redraft",
+     "note": "second draft (xhigh) gave the same value"
     }
    ]
   },
@@ -1076,6 +2796,24 @@
      "date": "2026-10-29",
      "run": "2026-10-29-pilot-100-tags",
      "note": "basis: general-knowledge"
+    },
+    {
+     "field": "kind",
+     "by": "model:claude-sonnet-5-5",
+     "action": "checked",
+     "outcome": "supports",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags-blind-redraft",
+     "note": "second draft (xhigh) gave the same value"
+    },
+    {
+     "field": "certification",
+     "by": "model:claude-sonnet-5-5",
+     "action": "checked",
+     "outcome": "supports",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags-blind-redraft",
+     "note": "second draft (xhigh) gave the same value"
     }
    ]
   },
@@ -1177,9 +2915,138 @@
      "date": "2026-10-29",
      "run": "2026-10-29-scope-annotation",
      "note": "basis: general-knowledge"
+    },
+    {
+     "field": "certification",
+     "by": "source:International Association of Computer Investigative Specialists (IACIS)",
+     "action": "matched_source",
+     "kind": "issuer",
+     "verification": "search-results-only",
+     "outcome": "supports",
+     "ref": "https://www.iacis.com/certification/cfce",
+     "date": "2026-10-29",
+     "run": "2026-10-29-web-check-1",
+     "note": "The CFCE is a Windows-focused digital forensics credential run by IACIS, a volunteer non-profit.",
+     "organization": {
+      "name": "International Association of Computer Investigative Specialists (IACIS)",
+      "url": "https://www.iacis.com/",
+      "type": "nonprofit",
+      "country": "US"
+     }
+    },
+    {
+     "field": "certification",
+     "by": "source:Wikipedia",
+     "action": "matched_source",
+     "kind": "wikipedia",
+     "verification": "search-results-only",
+     "outcome": "supports",
+     "ref": "https://en.wikipedia.org/wiki/Certified_forensic_computer_examiner",
+     "date": "2026-10-29",
+     "run": "2026-10-29-web-check-1",
+     "note": "Wikipedia has an article about it",
+     "organization": {
+      "name": "Wikimedia Foundation",
+      "url": "https://www.wikimedia.org/",
+      "type": "reference-work",
+      "country": "US"
+     }
+    },
+    {
+     "field": "definition",
+     "by": "model:claude-sonnet-5-5",
+     "action": "checked",
+     "outcome": "supports",
+     "date": "2026-10-29",
+     "run": "2026-10-29-web-check-1",
+     "note": "web check, search results only: Issuer and field match. The draft omits the IACIS membership requirement and the FSAB/ISO 17024 accreditation reported on the IACIS pages."
+    },
+    {
+     "field": "kind",
+     "by": "model:claude-sonnet-5-5",
+     "action": "checked",
+     "outcome": "supports",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags-blind-redraft",
+     "note": "second draft (xhigh) gave the same value"
+    },
+    {
+     "field": "certification",
+     "by": "model:claude-sonnet-5-5",
+     "action": "checked",
+     "outcome": "supports",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags-blind-redraft",
+     "note": "second draft (xhigh) gave the same value"
     }
    ],
-   "certification_scope": "single-issuer"
+   "certification_scope": "single-issuer",
+   "credential": {
+    "credential_type": "certification",
+    "sources": [
+     {
+      "kind": "issuer",
+      "url": "https://www.iacis.com/certification/cfce",
+      "verification": "search-results-only",
+      "snippet": "The CFCE is a Windows-focused digital forensics credential run by IACIS, a volunteer non-profit."
+     },
+     {
+      "kind": "wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Certified_forensic_computer_examiner",
+      "verification": "search-results-only"
+     },
+     {
+      "kind": "issuer",
+      "url": "https://www.iacis.com/?p=49",
+      "verification": "search-results-only",
+      "title": "IACIS: Becoming Certified"
+     },
+     {
+      "kind": "issuer",
+      "url": "https://www.iacis.com/about/",
+      "verification": "search-results-only",
+      "title": "IACIS: About"
+     },
+     {
+      "kind": "third-party",
+      "url": "https://oreilly.com/library/view/computer-forensics-jumpstart/9781118067659/bapp03-anchor-5.xhtml",
+      "verification": "search-results-only",
+      "title": "O'Reilly: Computer Forensics JumpStart appendix entry on the CFCE"
+     }
+    ],
+    "official_name": "Certified Forensic Computer Examiner (CFCE)",
+    "acronym": "CFCE",
+    "level": "professional",
+    "requirements": "IACIS membership; 72 hours of computer/digital forensics training (the two-week IACIS Basic Computer Forensic Examiner course satisfies this); peer review phase (four scenario-based problems) then certification phase (practical exercise plus written exam).",
+    "specificity": "specific-credential",
+    "fields": [
+     {
+      "label": "digital forensics"
+     },
+     {
+      "label": "computer forensics"
+     },
+     {
+      "label": "law-enforcement investigation"
+     }
+    ],
+    "jurisdiction": [
+     "US"
+    ],
+    "issuers": [
+     {
+      "name": "International Association of Computer Investigative Specialists (IACIS)",
+      "type": "nonprofit",
+      "country": "US",
+      "url": "https://www.iacis.com/"
+     }
+    ],
+    "wikipedia": {
+     "title": "Certified forensic computer examiner",
+     "url": "https://en.wikipedia.org/wiki/Certified_forensic_computer_examiner",
+     "match": "manual"
+    }
+   }
   },
   {
    "id": "ue0pgomm0l",
@@ -1267,9 +3134,110 @@
      "date": "2026-10-29",
      "run": "2026-10-29-scope-annotation",
      "note": "basis: general-knowledge"
+    },
+    {
+     "field": "certification",
+     "by": "source:Board of Certification for Emergency Nursing (BCEN)",
+     "action": "matched_source",
+     "kind": "issuer",
+     "verification": "search-results-only",
+     "outcome": "supports",
+     "ref": "https://bcen.org/cpen/",
+     "date": "2026-10-29",
+     "run": "2026-10-29-web-check-1",
+     "note": "BCEN recommends, but does not require, two years of pediatric emergency nursing experience before sitting for the exam.",
+     "organization": {
+      "name": "Board of Certification for Emergency Nursing (BCEN)",
+      "url": "https://bcen.org/",
+      "type": "professional-body",
+      "country": "US"
+     }
+    },
+    {
+     "field": "definition",
+     "by": "model:claude-sonnet-5-5",
+     "action": "checked",
+     "outcome": "supports",
+     "date": "2026-10-29",
+     "run": "2026-10-29-web-check-1",
+     "note": "web check, search results only: BCEN is confirmed as issuer on its own pages. A Wikipedia-based summary said BCEN and the Pediatric Nursing Certification Board (PNCB) ran the exam jointly, but BCEN's "
+    },
+    {
+     "field": "kind",
+     "by": "model:claude-sonnet-5-5",
+     "action": "checked",
+     "outcome": "supports",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags-blind-redraft",
+     "note": "second draft (xhigh) gave the same value"
+    },
+    {
+     "field": "certification",
+     "by": "model:claude-sonnet-5-5",
+     "action": "checked",
+     "outcome": "supports",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags-blind-redraft",
+     "note": "second draft (xhigh) gave the same value"
     }
    ],
-   "certification_scope": "single-issuer"
+   "certification_scope": "single-issuer",
+   "credential": {
+    "credential_type": "certification",
+    "sources": [
+     {
+      "kind": "issuer",
+      "url": "https://bcen.org/cpen/",
+      "verification": "search-results-only",
+      "snippet": "BCEN recommends, but does not require, two years of pediatric emergency nursing experience before sitting for the exam."
+     },
+     {
+      "kind": "issuer",
+      "url": "https://bcen.org/?p=12553",
+      "verification": "search-results-only",
+      "title": "BCEN: Certified Pediatric Emergency Nurse Program Overview"
+     },
+     {
+      "kind": "issuer",
+      "url": "https://bcen.org/news-releases/bcens-pediatric-emergency-nursing-certification-earns-reaccreditation/",
+      "verification": "search-results-only",
+      "title": "BCEN news release: Pediatric Emergency Nursing Certification earns reaccreditation"
+     },
+     {
+      "kind": "wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Emergency_nurse",
+      "verification": "search-results-only",
+      "title": "Wikipedia: Emergency nursing (broader article; per the search summary it covers the CPEN)"
+     }
+    ],
+    "official_name": "Certified Pediatric Emergency Nurse (CPEN)",
+    "acronym": "CPEN",
+    "level": "specialty (professional)",
+    "requirements": "Examination; BCEN pages (as summarised) recommend about two years of pediatric emergency nursing experience but do not require it.",
+    "specificity": "specific-credential",
+    "fields": [
+     {
+      "label": "emergency nursing"
+     },
+     {
+      "label": "pediatric nursing"
+     },
+     {
+      "label": "pediatric emergency care"
+     }
+    ],
+    "jurisdiction": [
+     "US"
+    ],
+    "issuers": [
+     {
+      "name": "Board of Certification for Emergency Nursing (BCEN)",
+      "type": "professional-body",
+      "country": "US",
+      "url": "https://bcen.org/"
+     }
+    ]
+   }
   },
   {
    "id": "z5cl5m7b48",
@@ -1357,9 +3325,113 @@
      "date": "2026-10-29",
      "run": "2026-10-29-scope-annotation",
      "note": "basis: general-knowledge"
+    },
+    {
+     "field": "certification",
+     "by": "source:American Institute of Professional Geologists (AIPG)",
+     "action": "matched_source",
+     "kind": "issuer",
+     "verification": "search-results-only",
+     "outcome": "supports",
+     "ref": "https://aipg.org/page/aipgcpgapp",
+     "date": "2026-10-29",
+     "run": "2026-10-29-web-check-1",
+     "note": "Applicants for certification have a bachelor's degree or higher in the geological sciences with a minimum of 36 semester hours or 54 quarter hours of geology.",
+     "organization": {
+      "name": "American Institute of Professional Geologists (AIPG)",
+      "url": "https://aipg.org/",
+      "type": "professional-body",
+      "country": "US"
+     }
+    },
+    {
+     "field": "definition",
+     "by": "model:claude-sonnet-5-5",
+     "action": "checked",
+     "outcome": "supports",
+     "date": "2026-10-29",
+     "run": "2026-10-29-web-check-1",
+     "note": "web check, search results only: Issuer and nature match what the AIPG-side pages report."
+    },
+    {
+     "field": "kind",
+     "by": "model:claude-sonnet-5-5",
+     "action": "checked",
+     "outcome": "supports",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags-blind-redraft",
+     "note": "second draft (xhigh) gave the same value"
+    },
+    {
+     "field": "certification",
+     "by": "model:claude-sonnet-5-5",
+     "action": "checked",
+     "outcome": "supports",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags-blind-redraft",
+     "note": "second draft (xhigh) gave the same value"
     }
    ],
-   "certification_scope": "single-issuer"
+   "certification_scope": "single-issuer",
+   "credential": {
+    "credential_type": "certification",
+    "sources": [
+     {
+      "kind": "issuer",
+      "url": "https://aipg.org/page/aipgcpgapp",
+      "verification": "search-results-only",
+      "snippet": "Applicants for certification have a bachelor's degree or higher in the geological sciences with a minimum of 36 semester hours or 54 quarter hours of geology."
+     },
+     {
+      "kind": "issuer",
+      "url": "https://aipg.org/page/aipgabout",
+      "verification": "search-results-only",
+      "title": "AIPG: About (result title was a generic site header)"
+     },
+     {
+      "kind": "issuer",
+      "url": "https://aipg.org/page/MembershipCategoriesandRequirements",
+      "verification": "search-results-only",
+      "title": "AIPG Membership Categories and Requirements"
+     },
+     {
+      "kind": "wikipedia",
+      "url": "https://en.wikipedia.org/wiki/List_of_professional_designations_in_the_United_States",
+      "verification": "search-results-only",
+      "title": "Wikipedia: List of professional designations in the United States (broader list that includes the CPG)"
+     },
+     {
+      "kind": "third-party",
+      "url": "https://commerce.alaska.gov/web/cbpl/ProfessionalLicensing/ProfessionalGeologists",
+      "verification": "search-results-only",
+      "title": "Alaska Division of Corporations, Business and Professional Licensing: Professional Geologists (state recognition of CPG)"
+     }
+    ],
+    "official_name": "Certified Professional Geologist (CPG)",
+    "acronym": "CPG",
+    "level": "professional",
+    "requirements": "Bachelor's or higher in geological sciences with at least 36 semester hours of geology; 8 years of professional geological work (7 with a master's, 5 with a PhD); three sponsors, two of them CPGs; review by section and national screening committees.",
+    "specificity": "specific-credential",
+    "fields": [
+     {
+      "label": "geology"
+     },
+     {
+      "label": "geoscience"
+     }
+    ],
+    "jurisdiction": [
+     "US"
+    ],
+    "issuers": [
+     {
+      "name": "American Institute of Professional Geologists (AIPG)",
+      "type": "professional-body",
+      "country": "US",
+      "url": "https://aipg.org/"
+     }
+    ]
+   }
   },
   {
    "id": "ffswfagi3s",
@@ -1434,9 +3506,110 @@
      "date": "2026-10-29",
      "run": "2026-10-29-scope-annotation",
      "note": "basis: general-knowledge"
+    },
+    {
+     "field": "certification",
+     "by": "source:CompTIA",
+     "action": "matched_source",
+     "kind": "issuer",
+     "verification": "search-results-only",
+     "outcome": "supports",
+     "ref": "https://partners.comptia.org/certifications/mobility",
+     "date": "2026-10-29",
+     "run": "2026-10-29-web-check-1",
+     "note": "the CompTIA Mobility+ certification retired on December 15, 2017, and the organization will not renew or replace this certification exam.",
+     "organization": {
+      "name": "CompTIA",
+      "url": "https://partners.comptia.org/",
+      "type": "industry-association",
+      "country": "US"
+     }
+    },
+    {
+     "field": "definition",
+     "by": "model:claude-sonnet-5-5",
+     "action": "checked",
+     "outcome": "supports",
+     "date": "2026-10-29",
+     "run": "2026-10-29-web-check-1",
+     "note": "web check, search results only: The draft matches the exam topics. It does not say the certification is retired, which matters for a skills lexicon."
+    },
+    {
+     "field": "kind",
+     "by": "model:claude-sonnet-5-5",
+     "action": "checked",
+     "outcome": "supports",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags-blind-redraft",
+     "note": "second draft (xhigh) gave the same value"
+    },
+    {
+     "field": "certification",
+     "by": "model:claude-sonnet-5-5",
+     "action": "checked",
+     "outcome": "supports",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags-blind-redraft",
+     "note": "second draft (xhigh) gave the same value"
     }
    ],
-   "certification_scope": "single-issuer"
+   "certification_scope": "single-issuer",
+   "credential": {
+    "credential_type": "certification",
+    "sources": [
+     {
+      "kind": "issuer",
+      "url": "https://partners.comptia.org/certifications/mobility",
+      "verification": "search-results-only",
+      "snippet": "the CompTIA Mobility+ certification retired on December 15, 2017, and the organization will not renew or replace this certification exam."
+     },
+     {
+      "kind": "issuer",
+      "url": "https://comptia.org/blog/CompTIA-Introduces-CompTIA-Mobility-for-IT-Pros-Managing-Mobile-Computing-Networks",
+      "verification": "search-results-only",
+      "title": "CompTIA: Introduces CompTIA Mobility+ for IT pros managing mobile computing networks"
+     },
+     {
+      "kind": "third-party",
+      "url": "https://www.varinsights.com/doc/new-comptia-mobility-certification-addresses-skills-needed-in-mobile-0001",
+      "verification": "search-results-only",
+      "title": "VARinsights, Nov 2013: New CompTIA Mobility+ certification addresses skills needed in mobile"
+     },
+     {
+      "kind": "wikipedia",
+      "url": "https://en.wikipedia.org/wiki/CompTIA",
+      "verification": "search-results-only",
+      "title": "Wikipedia: CompTIA (the search summary found nothing specific on Mobility+ here)"
+     }
+    ],
+    "official_name": "CompTIA Mobility+",
+    "requirements": "At launch (2013): no prerequisites; CompTIA recommended 18 months of experience in a mobile environment; a 100-question, 90-minute exam. Exam topics: over-the-air technologies, network infrastructure, mobile device management, security and troubleshooting.",
+    "specificity": "specific-credential",
+    "status": "retired",
+    "status_note": "Retired on 15 December 2017; existing holders keep it for life, per CompTIA's partner page.",
+    "fields": [
+     {
+      "label": "information technology"
+     },
+     {
+      "label": "mobile device management"
+     },
+     {
+      "label": "networking"
+     }
+    ],
+    "jurisdiction": [
+     "US"
+    ],
+    "issuers": [
+     {
+      "name": "CompTIA",
+      "type": "industry-association",
+      "country": "US",
+      "url": "https://partners.comptia.org/"
+     }
+    ]
+   }
   },
   {
    "id": "bgv8aoglzh",
@@ -1507,6 +3680,24 @@
      "date": "2026-10-29",
      "run": "2026-10-29-pilot-100-tags",
      "note": "basis: general-knowledge"
+    },
+    {
+     "field": "kind",
+     "by": "model:claude-sonnet-5-5",
+     "action": "checked",
+     "outcome": "supports",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags-blind-redraft",
+     "note": "second draft (xhigh) gave the same value"
+    },
+    {
+     "field": "certification",
+     "by": "model:claude-sonnet-5-5",
+     "action": "checked",
+     "outcome": "supports",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags-blind-redraft",
+     "note": "second draft (xhigh) gave the same value"
     }
    ]
   },
@@ -1611,6 +3802,24 @@
      "date": "2026-10-29",
      "run": "2026-10-29-pilot-100-tags",
      "note": "basis: general-knowledge"
+    },
+    {
+     "field": "kind",
+     "by": "model:claude-sonnet-5-5",
+     "action": "checked",
+     "outcome": "supports",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags-blind-redraft",
+     "note": "second draft (xhigh) gave the same value"
+    },
+    {
+     "field": "certification",
+     "by": "model:claude-sonnet-5-5",
+     "action": "checked",
+     "outcome": "supports",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags-blind-redraft",
+     "note": "second draft (xhigh) gave the same value"
     }
    ]
   },
@@ -1680,6 +3889,24 @@
      "date": "2026-10-29",
      "run": "2026-10-29-pilot-100-tags",
      "note": "basis: general-knowledge"
+    },
+    {
+     "field": "kind",
+     "by": "model:claude-sonnet-5-5",
+     "action": "checked",
+     "outcome": "supports",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags-blind-redraft",
+     "note": "second draft (xhigh) gave the same value"
+    },
+    {
+     "field": "certification",
+     "by": "model:claude-sonnet-5-5",
+     "action": "checked",
+     "outcome": "supports",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags-blind-redraft",
+     "note": "second draft (xhigh) gave the same value"
     }
    ]
   },
@@ -1739,6 +3966,24 @@
      "date": "2026-10-29",
      "run": "2026-10-29-pilot-100-tags",
      "note": "basis: general-knowledge"
+    },
+    {
+     "field": "kind",
+     "by": "model:claude-sonnet-5-5",
+     "action": "checked",
+     "outcome": "supports",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags-blind-redraft",
+     "note": "second draft (xhigh) gave the same value"
+    },
+    {
+     "field": "certification",
+     "by": "model:claude-sonnet-5-5",
+     "action": "checked",
+     "outcome": "supports",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags-blind-redraft",
+     "note": "second draft (xhigh) gave the same value"
     }
    ]
   },
@@ -1887,9 +4132,105 @@
      "date": "2026-10-29",
      "run": "2026-10-29-scope-annotation",
      "note": "basis: general-knowledge; A degree awarded by many universities."
+    },
+    {
+     "field": "certification",
+     "by": "source:Wikipedia",
+     "action": "matched_source",
+     "kind": "wikipedia",
+     "verification": "search-results-only",
+     "outcome": "supports",
+     "ref": "https://en.wikipedia.org/wiki/Doctor_of_Physical_Therapy",
+     "date": "2026-10-29",
+     "run": "2026-10-29-web-check-1",
+     "note": "Wikipedia has an article about it",
+     "organization": {
+      "name": "Wikimedia Foundation",
+      "url": "https://www.wikimedia.org/",
+      "type": "reference-work",
+      "country": "US"
+     }
+    },
+    {
+     "field": "kind",
+     "by": "model:claude-sonnet-5-5",
+     "action": "checked",
+     "outcome": "supports",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags-blind-redraft",
+     "note": "second draft (xhigh) gave the same value"
+    },
+    {
+     "field": "certification",
+     "by": "model:claude-sonnet-5-5",
+     "action": "checked",
+     "outcome": "supports",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags-blind-redraft",
+     "note": "second draft (xhigh) gave the same value"
     }
    ],
-   "certification_scope": "many-issuers"
+   "certification_scope": "many-issuers",
+   "credential": {
+    "credential_type": "degree",
+    "sources": [
+     {
+      "kind": "wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Doctor_of_Physical_Therapy",
+      "verification": "search-results-only"
+     },
+     {
+      "kind": "third-party",
+      "url": "https://www.capteonline.org/about-capte",
+      "verification": "search-results-only",
+      "title": "CAPTE: About CAPTE (the programme accreditor, not the body that awards degrees)"
+     },
+     {
+      "kind": "wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Commission_on_Accreditation_in_Physical_Therapy_Education",
+      "verification": "search-results-only",
+      "title": "Wikipedia: Commission on Accreditation in Physical Therapy Education (the accreditor)"
+     },
+     {
+      "kind": "wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Physical_therapy_education",
+      "verification": "search-results-only",
+      "title": "Wikipedia: Physical therapy education"
+     },
+     {
+      "kind": "issuer",
+      "url": "https://pt.wustl.edu/education/doctor-of-physical-therapy/success-statistics/",
+      "verification": "search-results-only",
+      "title": "Washington University: DPT success statistics (one example programme)"
+     }
+    ],
+    "official_name": "Doctor of Physical Therapy (DPT)",
+    "acronym": "DPT",
+    "level": "doctoral (entry-level professional doctorate)",
+    "requirements": "Typically 3 to 4 years after a bachelor's degree; most programmes ask for the GRE (per Wikipedia summary). A degree from a CAPTE-accredited programme is needed to be eligible for the NPTE licensing exam.",
+    "specificity": "specific-credential",
+    "fields": [
+     {
+      "label": "physical therapy"
+     },
+     {
+      "label": "rehabilitation"
+     },
+     {
+      "label": "allied health"
+     }
+    ],
+    "jurisdiction": [
+     "US"
+    ],
+    "issuers": [],
+    "wikipedia": {
+     "title": "Doctor of Physical Therapy",
+     "url": "https://en.wikipedia.org/wiki/Doctor_of_Physical_Therapy",
+     "match": "manual"
+    }
+   },
+   "notes": "Web check (search results only) says the definition is only partly right: The degree makes graduates eligible for the licensing exam (NPTE) and state licensure; it does not itself authorise practice. 'Qualifies graduates to practise' skips that step."
   },
   {
    "id": "svio15mnpv",
@@ -1979,9 +4320,113 @@
      "date": "2026-10-29",
      "run": "2026-10-29-scope-annotation",
      "note": "basis: general-knowledge; A degree awarded by many universities."
+    },
+    {
+     "field": "certification",
+     "by": "source:Wikipedia",
+     "action": "matched_source",
+     "kind": "wikipedia",
+     "verification": "search-results-only",
+     "outcome": "supports",
+     "ref": "https://en.wikipedia.org/wiki/Doctor_of_Public_Health",
+     "date": "2026-10-29",
+     "run": "2026-10-29-web-check-1",
+     "note": "Wikipedia has an article about it",
+     "organization": {
+      "name": "Wikimedia Foundation",
+      "url": "https://www.wikimedia.org/",
+      "type": "reference-work",
+      "country": "US"
+     }
+    },
+    {
+     "field": "definition",
+     "by": "model:claude-sonnet-5-5",
+     "action": "checked",
+     "outcome": "supports",
+     "date": "2026-10-29",
+     "run": "2026-10-29-web-check-1",
+     "note": "web check, search results only: Matches the Wikipedia and university descriptions of a practice- and leadership-focused doctorate, as opposed to the research-focused PhD."
+    },
+    {
+     "field": "kind",
+     "by": "model:claude-sonnet-5-5",
+     "action": "checked",
+     "outcome": "supports",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags-blind-redraft",
+     "note": "second draft (xhigh) gave the same value"
+    },
+    {
+     "field": "certification",
+     "by": "model:claude-sonnet-5-5",
+     "action": "checked",
+     "outcome": "supports",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags-blind-redraft",
+     "note": "second draft (xhigh) gave the same value"
     }
    ],
-   "certification_scope": "many-issuers"
+   "certification_scope": "many-issuers",
+   "credential": {
+    "credential_type": "degree",
+    "sources": [
+     {
+      "kind": "wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Doctor_of_Public_Health",
+      "verification": "search-results-only"
+     },
+     {
+      "kind": "issuer",
+      "url": "https://hsph.harvard.edu/program/doctor-of-public-health",
+      "verification": "search-results-only",
+      "title": "Harvard T.H. Chan School of Public Health: Doctor of Public Health (one example programme)"
+     },
+     {
+      "kind": "issuer",
+      "url": "https://publichealth.berkeley.edu/academics/programs/doctor-of-public-health#bphScrollAnchor___-drph-student-directory",
+      "verification": "search-results-only",
+      "title": "UC Berkeley School of Public Health: Doctor of Public Health (one example programme; URL exactly as returned, anchor included)"
+     },
+     {
+      "kind": "wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Council_on_Education_for_Public_Health",
+      "verification": "search-results-only",
+      "title": "Wikipedia: Council on Education for Public Health (the usual accreditor)"
+     },
+     {
+      "kind": "wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Professional_degrees_of_public_health",
+      "verification": "search-results-only",
+      "title": "Wikipedia: Professional degrees of public health (broader article)"
+     }
+    ],
+    "official_name": "Doctor of Public Health (DrPH)",
+    "acronym": "DrPH",
+    "level": "doctoral (professional doctorate)",
+    "requirements": "Usually a master's in public health plus several years of public health experience (examples: at least 3 years at Georgia, 6 at Harvard); an applied capstone or doctoral project. Wikipedia notes that more schools now accept students without a master's.",
+    "specificity": "specific-credential",
+    "fields": [
+     {
+      "label": "public health"
+     },
+     {
+      "label": "health administration"
+     },
+     {
+      "label": "health leadership"
+     }
+    ],
+    "jurisdiction": [
+     "US"
+    ],
+    "issuers": [],
+    "wikipedia": {
+     "title": "Doctor of Public Health",
+     "url": "https://en.wikipedia.org/wiki/Doctor_of_Public_Health",
+     "match": "manual"
+    }
+   }
   },
   {
    "id": "xpo0iet9cq",
@@ -2069,9 +4514,87 @@
      "date": "2026-10-29",
      "run": "2026-10-29-scope-annotation",
      "note": "basis: general-knowledge; Each US state licensing agency issues it under common federal rules."
+    },
+    {
+     "field": "definition",
+     "by": "model:claude-sonnet-5-5",
+     "action": "checked",
+     "outcome": "supports",
+     "date": "2026-10-29",
+     "run": "2026-10-29-web-check-1",
+     "note": "web check, search results only: Matches: the T endorsement is for two- or three-trailer combinations."
+    },
+    {
+     "field": "kind",
+     "by": "model:claude-sonnet-5-5",
+     "action": "checked",
+     "outcome": "supports",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags-blind-redraft",
+     "note": "second draft (xhigh) gave the same value"
+    },
+    {
+     "field": "certification",
+     "by": "model:claude-sonnet-5-5",
+     "action": "checked",
+     "outcome": "supports",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags-blind-redraft",
+     "note": "second draft (xhigh) gave the same value"
     }
    ],
-   "certification_scope": "many-issuers"
+   "certification_scope": "many-issuers",
+   "credential": {
+    "credential_type": "endorsement",
+    "sources": [
+     {
+      "kind": "third-party",
+      "url": "https://www.law.cornell.edu/cfr/text/49/383.93",
+      "verification": "search-results-only",
+      "title": "Cornell LII: 49 CFR 383.93, endorsements (a legal-text mirror, not the issuer)"
+     },
+     {
+      "kind": "issuer",
+      "url": "https://secure.in.gov/bmv/licenses-permits-ids/commercial-drivers-license-overview/commercial-drivers-license-endorsements-and-restrictions",
+      "verification": "search-results-only",
+      "title": "Indiana BMV: CDL endorsements and restrictions (one state's issuing agency, as an example)"
+     },
+     {
+      "kind": "issuer",
+      "url": "https://dps.mn.gov/divisions/dvs/pages/commercial-drivers-license-endorsements-and-restrictions.aspx",
+      "verification": "search-results-only",
+      "title": "Minnesota DVS: CDL endorsements and restrictions (one state's issuing agency, as an example)"
+     },
+     {
+      "kind": "third-party",
+      "url": "https://www.mynextmove.org/profile/certinfo/10937-B",
+      "verification": "search-results-only",
+      "title": "O*NET: Double/Triple Trailer Endorsement (T)"
+     },
+     {
+      "kind": "wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Commercial_driver's_license",
+      "verification": "search-results-only",
+      "title": "Wikipedia: Commercial driver's license (broader article that covers the T endorsement)"
+     }
+    ],
+    "official_name": "Double/Triple Trailer endorsement (T) on a Class A commercial driver's licence",
+    "acronym": "T",
+    "requirements": "A Class A CDL plus a doubles/triples knowledge test (no skills test), per the 49 CFR 383.93 summary. Third-party guides add state details such as passing scores; those vary.",
+    "specificity": "specific-credential",
+    "fields": [
+     {
+      "label": "commercial trucking"
+     },
+     {
+      "label": "transportation"
+     }
+    ],
+    "jurisdiction": [
+     "US"
+    ],
+    "issuers": []
+   }
   },
   {
    "id": "ypvc3ra1n1",
@@ -2159,9 +4682,115 @@
      "date": "2026-10-29",
      "run": "2026-10-29-scope-annotation",
      "note": "basis: general-knowledge; Each country's aviation authority issues its own; in the United States the FAA does. A US-specific entry would be single-issuer."
+    },
+    {
+     "field": "certification",
+     "by": "source:Federal Aviation Administration (FAA), for the US certificate",
+     "action": "matched_source",
+     "kind": "issuer",
+     "verification": "search-results-only",
+     "outcome": "supports",
+     "ref": "https://www.faa.gov/newsroom/small-unmanned-aircraft-systems-uas-regulations-part-107",
+     "date": "2026-10-29",
+     "run": "2026-10-29-web-check-1",
+     "note": "verdict ambiguous: To operate the controls of a drone under Part 107, you need a remote pilot certificate with a small UAS rating",
+     "organization": {
+      "name": "Federal Aviation Administration (FAA), for the US certificate",
+      "url": "https://www.faa.gov/",
+      "type": "government",
+      "country": "US"
+     }
+    },
+    {
+     "field": "definition",
+     "by": "model:claude-sonnet-5-5",
+     "action": "checked",
+     "outcome": "supports",
+     "date": "2026-10-29",
+     "run": "2026-10-29-web-check-1",
+     "note": "web check, search results only: The draft already scopes the claim to the FAA Remote Pilot Certificate under Part 107, which the results confirm."
+    },
+    {
+     "field": "kind",
+     "by": "model:claude-sonnet-5-5",
+     "action": "checked",
+     "outcome": "supports",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags-blind-redraft",
+     "note": "second draft (xhigh) gave the same value"
+    },
+    {
+     "field": "certification",
+     "by": "model:claude-sonnet-5-5",
+     "action": "checked",
+     "outcome": "supports",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags-blind-redraft",
+     "note": "second draft (xhigh) gave the same value"
     }
    ],
-   "certification_scope": "many-issuers"
+   "certification_scope": "many-issuers",
+   "credential": {
+    "credential_type": "certification",
+    "sources": [
+     {
+      "kind": "issuer",
+      "url": "https://www.faa.gov/newsroom/small-unmanned-aircraft-systems-uas-regulations-part-107",
+      "verification": "search-results-only",
+      "snippet": "To operate the controls of a drone under Part 107, you need a remote pilot certificate with a small UAS rating"
+     },
+     {
+      "kind": "wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Regulation_of_UAVs_in_the_United_States",
+      "verification": "search-results-only",
+      "title": "Wikipedia: Regulation of UAVs in the United States (broader article)"
+     },
+     {
+      "kind": "wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Regulation_of_unmanned_aerial_vehicles",
+      "verification": "search-results-only",
+      "title": "Wikipedia: Regulation of unmanned aerial vehicles (international overview)"
+     },
+     {
+      "kind": "wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Pilot_certification_in_the_United_States",
+      "verification": "search-results-only",
+      "title": "Wikipedia: Pilot certification in the United States (broader article)"
+     },
+     {
+      "kind": "third-party",
+      "url": "https://www.uidaho.edu/-/media/UIdaho-Responsive/Files/research/Faculty/research-assurances/UAS/FAA_Part-107_Small-UAS-Pilot-Certification.pdf",
+      "verification": "search-results-only",
+      "title": "University of Idaho: FAA Part 107 Small UAS Pilot Certification (a university summary)"
+     }
+    ],
+    "official_name": "FAA remote pilot certificate with a small UAS rating (14 CFR Part 107), in the United States; other countries use different names",
+    "level": "entry",
+    "requirements": "US: at least 16 years old; able to read, speak, write and understand English; pass the initial aeronautical knowledge exam (Unmanned Aircraft General - Small) or, for Part 61 pilots with a recent flight review, an FAA online small UAS course; TSA security vetting; suitable physical and mental condition.",
+    "specificity": "specific-credential",
+    "fields": [
+     {
+      "label": "aviation"
+     },
+     {
+      "label": "unmanned aircraft systems"
+     },
+     {
+      "label": "drone operations"
+     }
+    ],
+    "jurisdiction": [
+     "US"
+    ],
+    "issuers": [
+     {
+      "name": "Federal Aviation Administration (FAA), for the US certificate",
+      "url": "https://www.faa.gov/",
+      "type": "government",
+      "country": "US"
+     }
+    ]
+   }
   },
   {
    "id": "zomymgt82i",
@@ -2219,6 +4848,24 @@
      "date": "2026-10-29",
      "run": "2026-10-29-pilot-100-tags",
      "note": "basis: general-knowledge"
+    },
+    {
+     "field": "kind",
+     "by": "model:claude-sonnet-5-5",
+     "action": "checked",
+     "outcome": "supports",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags-blind-redraft",
+     "note": "second draft (xhigh) gave the same value"
+    },
+    {
+     "field": "certification",
+     "by": "model:claude-sonnet-5-5",
+     "action": "checked",
+     "outcome": "supports",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags-blind-redraft",
+     "note": "second draft (xhigh) gave the same value"
     }
    ]
   },
@@ -2291,6 +4938,24 @@
      "date": "2026-10-29",
      "run": "2026-10-29-pilot-100-tags",
      "note": "basis: general-knowledge"
+    },
+    {
+     "field": "kind",
+     "by": "model:claude-sonnet-5-5",
+     "action": "checked",
+     "outcome": "supports",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags-blind-redraft",
+     "note": "second draft (xhigh) gave the same value"
+    },
+    {
+     "field": "certification",
+     "by": "model:claude-sonnet-5-5",
+     "action": "checked",
+     "outcome": "supports",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags-blind-redraft",
+     "note": "second draft (xhigh) gave the same value"
     }
    ]
   },
@@ -2363,6 +5028,24 @@
      "date": "2026-10-29",
      "run": "2026-10-29-pilot-100-tags",
      "note": "basis: general-knowledge"
+    },
+    {
+     "field": "kind",
+     "by": "model:claude-sonnet-5-5",
+     "action": "checked",
+     "outcome": "contradicts",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags-blind-redraft",
+     "note": "second draft (xhigh) said platform"
+    },
+    {
+     "field": "certification",
+     "by": "model:claude-sonnet-5-5",
+     "action": "checked",
+     "outcome": "supports",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags-blind-redraft",
+     "note": "second draft (xhigh) gave the same value"
     }
    ]
   },
@@ -2435,6 +5118,24 @@
      "date": "2026-10-29",
      "run": "2026-10-29-pilot-100-tags",
      "note": "basis: general-knowledge"
+    },
+    {
+     "field": "kind",
+     "by": "model:claude-sonnet-5-5",
+     "action": "checked",
+     "outcome": "supports",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags-blind-redraft",
+     "note": "second draft (xhigh) gave the same value"
+    },
+    {
+     "field": "certification",
+     "by": "model:claude-sonnet-5-5",
+     "action": "checked",
+     "outcome": "supports",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags-blind-redraft",
+     "note": "second draft (xhigh) gave the same value"
     }
    ]
   },
@@ -2528,6 +5229,33 @@
      "date": "2026-10-29",
      "run": "2026-10-29-pilot-100-tags",
      "note": "basis: general-knowledge"
+    },
+    {
+     "field": "kind",
+     "by": "model:claude-sonnet-5-5",
+     "action": "checked",
+     "outcome": "supports",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags-blind-redraft",
+     "note": "second draft (xhigh) gave the same value"
+    },
+    {
+     "field": "certification",
+     "by": "model:claude-sonnet-5-5",
+     "action": "checked",
+     "outcome": "supports",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags-blind-redraft",
+     "note": "second draft (xhigh) gave the same value"
+    },
+    {
+     "field": "language_type",
+     "by": "model:claude-sonnet-5-5",
+     "action": "checked",
+     "outcome": "supports",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags-blind-redraft",
+     "note": "second draft (xhigh) gave the same value"
     }
    ]
   },
@@ -2587,6 +5315,24 @@
      "date": "2026-10-29",
      "run": "2026-10-29-pilot-100-tags",
      "note": "basis: general-knowledge"
+    },
+    {
+     "field": "kind",
+     "by": "model:claude-sonnet-5-5",
+     "action": "checked",
+     "outcome": "supports",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags-blind-redraft",
+     "note": "second draft (xhigh) gave the same value"
+    },
+    {
+     "field": "certification",
+     "by": "model:claude-sonnet-5-5",
+     "action": "checked",
+     "outcome": "supports",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags-blind-redraft",
+     "note": "second draft (xhigh) gave the same value"
     }
    ]
   },
@@ -2663,9 +5409,82 @@
      "date": "2026-10-29",
      "run": "2026-10-29-scope-annotation",
      "note": "basis: general-knowledge; A Department of Defense requirement level that several different certifications can satisfy, so it is not one body's credential. Check this one."
+    },
+    {
+     "field": "certification",
+     "by": "model:claude-sonnet-5-5",
+     "action": "checked",
+     "outcome": "contradicts",
+     "date": "2026-10-29",
+     "run": "2026-10-29-web-check-1",
+     "note": "web check: not a credential a body awards; Broadly right that it is a Level I information-assurance management requirement defined in DoD 8570. It is a workforce level that certifications satisfy, not"
+    },
+    {
+     "field": "kind",
+     "by": "model:claude-sonnet-5-5",
+     "action": "checked",
+     "outcome": "contradicts",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags-blind-redraft",
+     "note": "second draft (xhigh) said standard"
+    },
+    {
+     "field": "certification",
+     "by": "model:claude-sonnet-5-5",
+     "action": "checked",
+     "outcome": "contradicts",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags-blind-redraft",
+     "note": "second draft (xhigh) said False"
     }
    ],
-   "certification_scope": "many-issuers"
+   "certification_scope": "many-issuers",
+   "credential": {
+    "credential_type": "other",
+    "sources": [
+     {
+      "kind": "third-party",
+      "url": "https://www.infosecinstitute.com/resources/dod-8570/dod-8570-iam-certification-level-i/",
+      "verification": "search-results-only",
+      "title": "Infosec Institute: DoD 8570 IAM certification, Level I (training provider)"
+     },
+     {
+      "kind": "third-party",
+      "url": "https://securityboulevard.com/2018/05/dod-8570-iam-certification-and-requirements/",
+      "verification": "search-results-only",
+      "title": "Security Boulevard: DoD 8570 IAM certification and requirements (2018)"
+     },
+     {
+      "kind": "third-party",
+      "url": "https://destcert.com/resources/dod-8570-8140-certifications/",
+      "verification": "search-results-only",
+      "title": "DestCert: Which certifications satisfy DoD 8570 and 8140 requirements (training provider)"
+     }
+    ],
+    "official_name": "Information Assurance Management (IAM) Level I, a workforce category and level in the US DoD 8570 framework (being replaced by DoD 8140)",
+    "acronym": "IAM Level I",
+    "level": "Level I (described as the computing-environment tier)",
+    "requirements": "Hold one approved baseline certification for IAM Level I. Training-provider lists name Security+ CE, CND and Cloud+, and disagree on CGRC versus CAP. Nothing from an official DoD page was returned.",
+    "specificity": "requirement-level",
+    "status": "being-replaced",
+    "status_note": "DoD 8570 is being replaced by DoD 8140.",
+    "fields": [
+     {
+      "label": "cybersecurity"
+     },
+     {
+      "label": "information assurance"
+     },
+     {
+      "label": "US Department of Defense workforce"
+     }
+    ],
+    "jurisdiction": [
+     "US"
+    ],
+    "issuers": []
+   },
+   "notes": "Web check (search results only) says the definition is only partly right: Broadly right that it is a Level I information-assurance management requirement defined in DoD 8570. It is a workforce level that certifications satisfy, not a qualification a body awards, and the framework is being replaced by DoD 8140."
   },
   {
    "id": "k6ns4jdo7n",
@@ -2748,6 +5567,24 @@
      "date": "2026-10-29",
      "run": "2026-10-29-pilot-100-tags",
      "note": "basis: general-knowledge"
+    },
+    {
+     "field": "kind",
+     "by": "model:claude-sonnet-5-5",
+     "action": "checked",
+     "outcome": "contradicts",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags-blind-redraft",
+     "note": "second draft (xhigh) said knowledge"
+    },
+    {
+     "field": "certification",
+     "by": "model:claude-sonnet-5-5",
+     "action": "checked",
+     "outcome": "supports",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags-blind-redraft",
+     "note": "second draft (xhigh) gave the same value"
     }
    ]
   },
@@ -2851,6 +5688,24 @@
      "date": "2026-10-29",
      "run": "2026-10-29-pilot-100-tags",
      "note": "basis: general-knowledge"
+    },
+    {
+     "field": "kind",
+     "by": "model:claude-sonnet-5-5",
+     "action": "checked",
+     "outcome": "supports",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags-blind-redraft",
+     "note": "second draft (xhigh) gave the same value"
+    },
+    {
+     "field": "certification",
+     "by": "model:claude-sonnet-5-5",
+     "action": "checked",
+     "outcome": "supports",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags-blind-redraft",
+     "note": "second draft (xhigh) gave the same value"
     }
    ]
   },
@@ -2910,6 +5765,24 @@
      "date": "2026-10-29",
      "run": "2026-10-29-pilot-100-tags",
      "note": "basis: general-knowledge"
+    },
+    {
+     "field": "kind",
+     "by": "model:claude-sonnet-5-5",
+     "action": "checked",
+     "outcome": "supports",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags-blind-redraft",
+     "note": "second draft (xhigh) gave the same value"
+    },
+    {
+     "field": "certification",
+     "by": "model:claude-sonnet-5-5",
+     "action": "checked",
+     "outcome": "supports",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags-blind-redraft",
+     "note": "second draft (xhigh) gave the same value"
     }
    ]
   },
@@ -2969,6 +5842,24 @@
      "date": "2026-10-29",
      "run": "2026-10-29-pilot-100-tags",
      "note": "basis: general-knowledge"
+    },
+    {
+     "field": "kind",
+     "by": "model:claude-sonnet-5-5",
+     "action": "checked",
+     "outcome": "contradicts",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags-blind-redraft",
+     "note": "second draft (xhigh) said tool"
+    },
+    {
+     "field": "certification",
+     "by": "model:claude-sonnet-5-5",
+     "action": "checked",
+     "outcome": "supports",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags-blind-redraft",
+     "note": "second draft (xhigh) gave the same value"
     }
    ]
   },
@@ -3028,6 +5919,24 @@
      "date": "2026-10-29",
      "run": "2026-10-29-pilot-100-tags",
      "note": "basis: general-knowledge"
+    },
+    {
+     "field": "kind",
+     "by": "model:claude-sonnet-5-5",
+     "action": "checked",
+     "outcome": "supports",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags-blind-redraft",
+     "note": "second draft (xhigh) gave the same value"
+    },
+    {
+     "field": "certification",
+     "by": "model:claude-sonnet-5-5",
+     "action": "checked",
+     "outcome": "supports",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags-blind-redraft",
+     "note": "second draft (xhigh) gave the same value"
     }
    ]
   },
@@ -3177,6 +6086,33 @@
      "date": "2026-10-29",
      "run": "2026-10-29-pilot-100-tags",
      "note": "basis: general-knowledge"
+    },
+    {
+     "field": "kind",
+     "by": "model:claude-sonnet-5-5",
+     "action": "checked",
+     "outcome": "supports",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags-blind-redraft",
+     "note": "second draft (xhigh) gave the same value"
+    },
+    {
+     "field": "certification",
+     "by": "model:claude-sonnet-5-5",
+     "action": "checked",
+     "outcome": "supports",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags-blind-redraft",
+     "note": "second draft (xhigh) gave the same value"
+    },
+    {
+     "field": "language_type",
+     "by": "model:claude-sonnet-5-5",
+     "action": "checked",
+     "outcome": "supports",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags-blind-redraft",
+     "note": "second draft (xhigh) gave the same value"
     }
    ]
   },
@@ -3268,9 +6204,101 @@
      "date": "2026-10-29",
      "run": "2026-10-29-scope-annotation",
      "note": "basis: general-knowledge; A degree awarded by many universities."
+    },
+    {
+     "field": "certification",
+     "by": "source:Wikipedia",
+     "action": "matched_source",
+     "kind": "wikipedia",
+     "verification": "search-results-only",
+     "outcome": "supports",
+     "ref": "https://en.wikipedia.org/wiki/Master_of_Laws",
+     "date": "2026-10-29",
+     "run": "2026-10-29-web-check-1",
+     "note": "Wikipedia has an article about it",
+     "organization": {
+      "name": "Wikimedia Foundation",
+      "url": "https://www.wikimedia.org/",
+      "type": "reference-work",
+      "country": "US"
+     }
+    },
+    {
+     "field": "definition",
+     "by": "model:claude-sonnet-5-5",
+     "action": "checked",
+     "outcome": "supports",
+     "date": "2026-10-29",
+     "run": "2026-10-29-web-check-1",
+     "note": "web check, search results only: 'Postgraduate law degree taken after a first law degree' matches the Wikipedia-based description. A few programmes admit people without a law degree."
+    },
+    {
+     "field": "kind",
+     "by": "model:claude-sonnet-5-5",
+     "action": "checked",
+     "outcome": "supports",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags-blind-redraft",
+     "note": "second draft (xhigh) gave the same value"
+    },
+    {
+     "field": "certification",
+     "by": "model:claude-sonnet-5-5",
+     "action": "checked",
+     "outcome": "supports",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags-blind-redraft",
+     "note": "second draft (xhigh) gave the same value"
     }
    ],
-   "certification_scope": "many-issuers"
+   "certification_scope": "many-issuers",
+   "credential": {
+    "credential_type": "degree",
+    "sources": [
+     {
+      "kind": "wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Master_of_Laws",
+      "verification": "search-results-only"
+     },
+     {
+      "kind": "third-party",
+      "url": "https://www.mastersportal.com/disciplines/221/master-of-laws",
+      "verification": "search-results-only",
+      "title": "Mastersportal: studying a master's in Master of Laws (LLM)"
+     },
+     {
+      "kind": "issuer",
+      "url": "https://catalog.unh.edu/law/programs-study/llm-degrees/",
+      "verification": "search-results-only",
+      "title": "University of New Hampshire: LL.M. degrees (one example programme)"
+     },
+     {
+      "kind": "wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Law_degree",
+      "verification": "search-results-only",
+      "title": "Wikipedia: Law degree (broader article)"
+     }
+    ],
+    "official_name": "Master of Laws (LL.M.)",
+    "acronym": "LL.M.",
+    "level": "postgraduate (master's)",
+    "requirements": "Normally a prior law degree: an LL.B. in Canada, a J.D. in the US and Australia per the results. Some programmes admit non-lawyers or related undergraduates.",
+    "specificity": "specific-credential",
+    "fields": [
+     {
+      "label": "law"
+     }
+    ],
+    "jurisdiction": [
+     "INT"
+    ],
+    "issuers": [],
+    "wikipedia": {
+     "title": "Master of Laws",
+     "url": "https://en.wikipedia.org/wiki/Master_of_Laws",
+     "match": "manual"
+    }
+   }
   },
   {
    "id": "fj3w62grru",
@@ -3372,9 +6400,83 @@
      "date": "2026-10-29",
      "run": "2026-10-29-scope-annotation",
      "note": "basis: general-knowledge; A degree awarded by many universities."
+    },
+    {
+     "field": "definition",
+     "by": "model:claude-sonnet-5-5",
+     "action": "checked",
+     "outcome": "supports",
+     "date": "2026-10-29",
+     "run": "2026-10-29-web-check-1",
+     "note": "web check, search results only: Matches what the programme pages and the Wikipedia-derived summary describe."
+    },
+    {
+     "field": "kind",
+     "by": "model:claude-sonnet-5-5",
+     "action": "checked",
+     "outcome": "supports",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags-blind-redraft",
+     "note": "second draft (xhigh) gave the same value"
+    },
+    {
+     "field": "certification",
+     "by": "model:claude-sonnet-5-5",
+     "action": "checked",
+     "outcome": "supports",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags-blind-redraft",
+     "note": "second draft (xhigh) gave the same value"
     }
    ],
-   "certification_scope": "many-issuers"
+   "certification_scope": "many-issuers",
+   "credential": {
+    "credential_type": "degree",
+    "sources": [
+     {
+      "kind": "issuer",
+      "url": "https://smu.edu/law/academics/graduate-programs/llm-tax/llm-tax-programs/llm-taxation",
+      "verification": "search-results-only",
+      "title": "SMU Dedman School of Law: LL.M. in Taxation (one example programme)"
+     },
+     {
+      "kind": "issuer",
+      "url": "https://www.nyls.edu/academics/programs-of-study/llm-in-taxation/",
+      "verification": "search-results-only",
+      "title": "New York Law School: LL.M. in Taxation (one example programme)"
+     },
+     {
+      "kind": "issuer",
+      "url": "https://www.grad.ubc.ca/prospective-students/graduate-degree-programs/llm-taxation",
+      "verification": "search-results-only",
+      "title": "UBC: LL.M. Taxation (one example programme)"
+     },
+     {
+      "kind": "wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Master_of_Laws",
+      "verification": "search-results-only",
+      "title": "Wikipedia: Master of Laws (broader article on the degree)"
+     }
+    ],
+    "official_name": "Master of Laws in Taxation (LL.M. in Taxation)",
+    "acronym": "LL.M. (Tax)",
+    "level": "postgraduate (master's)",
+    "requirements": "Varies by school. Example: SMU asks for a J.D. from an ABA-accredited school; UBC's non-thesis degree needs 30 credits including a 6-credit tax foundations course; a Temple-style programme asks for a basic income tax course.",
+    "specificity": "specific-credential",
+    "fields": [
+     {
+      "label": "law"
+     },
+     {
+      "label": "tax law"
+     }
+    ],
+    "jurisdiction": [
+     "US",
+     "CA"
+    ],
+    "issuers": []
+   }
   },
   {
    "id": "hk6558v1ji",
@@ -3467,9 +6569,79 @@
      "date": "2026-10-29",
      "run": "2026-10-29-scope-annotation",
      "note": "basis: general-knowledge; Many universities offer their own graduate certificate."
+    },
+    {
+     "field": "kind",
+     "by": "model:claude-sonnet-5-5",
+     "action": "checked",
+     "outcome": "supports",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags-blind-redraft",
+     "note": "second draft (xhigh) gave the same value"
+    },
+    {
+     "field": "certification",
+     "by": "model:claude-sonnet-5-5",
+     "action": "checked",
+     "outcome": "supports",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags-blind-redraft",
+     "note": "second draft (xhigh) gave the same value"
     }
    ],
-   "certification_scope": "many-issuers"
+   "certification_scope": "many-issuers",
+   "credential": {
+    "credential_type": "certificate-program",
+    "sources": [
+     {
+      "kind": "issuer",
+      "url": "https://pdc.wisc.edu/degrees/masters-certificate-in-project-management/",
+      "verification": "search-results-only",
+      "title": "University of Wisconsin-Madison PDC: Master's Certificate in Project Management (exact title; one institution)"
+     },
+     {
+      "kind": "issuer",
+      "url": "https://www.brandeis.edu/online/academics/certificates/project-management/index.html",
+      "verification": "search-results-only",
+      "title": "Brandeis Online: Project Management certificate (credit-bearing, 12 credits)"
+     },
+     {
+      "kind": "issuer",
+      "url": "https://gradschool.unh.edu/program/graduate-certificate/project-management",
+      "verification": "search-results-only",
+      "title": "University of New Hampshire: Project Management graduate certificate"
+     },
+     {
+      "kind": "issuer",
+      "url": "https://www.villanova.edu/university/professional-studies/academics/professional-education/project-management-certificate.html",
+      "verification": "search-results-only",
+      "title": "Villanova University: Project Management Certificate"
+     },
+     {
+      "kind": "wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Graduate_certificate",
+      "verification": "search-results-only",
+      "title": "Wikipedia: Graduate certificate (broader article; the level of such certificates differs by country)"
+     }
+    ],
+    "official_name": "Master's Certificate in Project Management (exact title used by University of Wisconsin-Madison for a non-credit professional certificate); credit-bearing versions at other universities are usually titled 'Graduate Certificate in Project Management'",
+    "level": "graduate-level or professional (varies by institution)",
+    "requirements": "Varies. Examples from the results: UW-Madison, three required classes plus an applied learning review; Brandeis, four courses (12 credits); UNH, 12 credits with a 3.0 GPA minimum; Elmhurst, a bachelor's from a regionally accredited institution.",
+    "specificity": "generic-programme",
+    "fields": [
+     {
+      "label": "project management"
+     },
+     {
+      "label": "business"
+     }
+    ],
+    "jurisdiction": [
+     "US"
+    ],
+    "issuers": []
+   },
+   "notes": "Web check (search results only) says the definition is only partly right: Fits credit-bearing graduate certificates that sit below a master's. The one exact-title match found is a non-credit professional certificate, so 'graduate-level' is not safe as a general claim."
   },
   {
    "id": "hg27hw3l2c",
@@ -3549,6 +6721,33 @@
      "date": "2026-10-29",
      "run": "2026-10-29-pilot-100-tags",
      "note": "basis: general-knowledge"
+    },
+    {
+     "field": "kind",
+     "by": "model:claude-sonnet-5-5",
+     "action": "checked",
+     "outcome": "supports",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags-blind-redraft",
+     "note": "second draft (xhigh) gave the same value"
+    },
+    {
+     "field": "certification",
+     "by": "model:claude-sonnet-5-5",
+     "action": "checked",
+     "outcome": "supports",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags-blind-redraft",
+     "note": "second draft (xhigh) gave the same value"
+    },
+    {
+     "field": "language_type",
+     "by": "model:claude-sonnet-5-5",
+     "action": "checked",
+     "outcome": "supports",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags-blind-redraft",
+     "note": "second draft (xhigh) gave the same value"
     }
    ]
   },
@@ -3608,6 +6807,24 @@
      "date": "2026-10-29",
      "run": "2026-10-29-pilot-100-tags",
      "note": "basis: general-knowledge"
+    },
+    {
+     "field": "kind",
+     "by": "model:claude-sonnet-5-5",
+     "action": "checked",
+     "outcome": "supports",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags-blind-redraft",
+     "note": "second draft (xhigh) gave the same value"
+    },
+    {
+     "field": "certification",
+     "by": "model:claude-sonnet-5-5",
+     "action": "checked",
+     "outcome": "supports",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags-blind-redraft",
+     "note": "second draft (xhigh) gave the same value"
     }
    ]
   },
@@ -3694,6 +6911,24 @@
      "date": "2026-10-29",
      "run": "2026-10-29-pilot-100-tags",
      "note": "basis: general-knowledge"
+    },
+    {
+     "field": "kind",
+     "by": "model:claude-sonnet-5-5",
+     "action": "checked",
+     "outcome": "contradicts",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags-blind-redraft",
+     "note": "second draft (xhigh) said method"
+    },
+    {
+     "field": "certification",
+     "by": "model:claude-sonnet-5-5",
+     "action": "checked",
+     "outcome": "supports",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags-blind-redraft",
+     "note": "second draft (xhigh) gave the same value"
     }
    ]
   },
@@ -3787,9 +7022,141 @@
      "date": "2026-10-29",
      "run": "2026-10-29-scope-annotation",
      "note": "basis: general-knowledge; Developed jointly by two bodies, but run as one program."
+    },
+    {
+     "field": "certification",
+     "by": "source:American Academy of Pediatrics (AAP), delivered with the American Heart Association (AHA)",
+     "action": "matched_source",
+     "kind": "issuer",
+     "verification": "search-results-only",
+     "outcome": "supports",
+     "ref": "https://www.aap.org/en/learning/neonatal-resuscitation-program/",
+     "date": "2026-10-29",
+     "run": "2026-10-29-web-check-1",
+     "note": "The AHA's page presents NRP as an interactive blended learning course from the AAP and AHA.",
+     "organization": {
+      "name": "American Academy of Pediatrics (AAP), delivered with the American Heart Association (AHA)",
+      "url": "https://www.aap.org/",
+      "type": "professional-body",
+      "country": "US"
+     }
+    },
+    {
+     "field": "certification",
+     "by": "source:Wikipedia",
+     "action": "matched_source",
+     "kind": "wikipedia",
+     "verification": "search-results-only",
+     "outcome": "supports",
+     "ref": "https://en.wikipedia.org/wiki/Neonatal_Resuscitation_Program",
+     "date": "2026-10-29",
+     "run": "2026-10-29-web-check-1",
+     "note": "Wikipedia has an article about it",
+     "organization": {
+      "name": "Wikimedia Foundation",
+      "url": "https://www.wikimedia.org/",
+      "type": "reference-work",
+      "country": "US"
+     }
+    },
+    {
+     "field": "definition",
+     "by": "model:claude-sonnet-5-5",
+     "action": "checked",
+     "outcome": "supports",
+     "date": "2026-10-29",
+     "run": "2026-10-29-web-check-1",
+     "note": "web check, search results only: Draft names the AAP and AHA, and the results agree. Sources differ slightly: one says the AAP and AHA developed it in 1987; Wikipedia says the AAP developed and maintai"
+    },
+    {
+     "field": "kind",
+     "by": "model:claude-sonnet-5-5",
+     "action": "checked",
+     "outcome": "supports",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags-blind-redraft",
+     "note": "second draft (xhigh) gave the same value"
+    },
+    {
+     "field": "certification",
+     "by": "model:claude-sonnet-5-5",
+     "action": "checked",
+     "outcome": "supports",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags-blind-redraft",
+     "note": "second draft (xhigh) gave the same value"
     }
    ],
-   "certification_scope": "single-issuer"
+   "certification_scope": "single-issuer",
+   "credential": {
+    "credential_type": "course-completion",
+    "sources": [
+     {
+      "kind": "issuer",
+      "url": "https://www.aap.org/en/learning/neonatal-resuscitation-program/",
+      "verification": "search-results-only",
+      "snippet": "The AHA's page presents NRP as an interactive blended learning course from the AAP and AHA."
+     },
+     {
+      "kind": "wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Neonatal_Resuscitation_Program",
+      "verification": "search-results-only"
+     },
+     {
+      "kind": "issuer",
+      "url": "https://international.heart.org/resuscitation/neonatal-resuscitation-program-nrp",
+      "verification": "search-results-only",
+      "title": "American Heart Association: Neonatal Resuscitation Program (NRP)"
+     },
+     {
+      "kind": "issuer",
+      "url": "https://www.aap.org/en/pedialink/neonatal-resuscitation-program/nrp-frequently-asked-questions/nrp-general-information/",
+      "verification": "search-results-only",
+      "title": "AAP: NRP general overview (FAQ)"
+     },
+     {
+      "kind": "wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Neonatal_resuscitation",
+      "verification": "search-results-only",
+      "title": "Wikipedia: Neonatal resuscitation (broader article)"
+     }
+    ],
+    "official_name": "Neonatal Resuscitation Program (NRP)",
+    "acronym": "NRP",
+    "level": "two levels: Essentials (anyone involved in newborn care) and Advanced (those who attend births and manage resuscitations)",
+    "requirements": "Online self-paced part, then an instructor-led, hands-on session (per the AHA/AAP summary).",
+    "specificity": "specific-credential",
+    "fields": [
+     {
+      "label": "neonatal care"
+     },
+     {
+      "label": "neonatology"
+     },
+     {
+      "label": "obstetrics"
+     },
+     {
+      "label": "nursing"
+     }
+    ],
+    "jurisdiction": [
+     "US"
+    ],
+    "issuers": [
+     {
+      "name": "American Academy of Pediatrics (AAP), delivered with the American Heart Association (AHA)",
+      "type": "professional-body",
+      "country": "US",
+      "url": "https://www.aap.org/"
+     }
+    ],
+    "wikipedia": {
+     "title": "Neonatal Resuscitation Program",
+     "url": "https://en.wikipedia.org/wiki/Neonatal_Resuscitation_Program",
+     "match": "manual"
+    }
+   }
   },
   {
    "id": "e77t10tbmi",
@@ -3847,6 +7214,24 @@
      "date": "2026-10-29",
      "run": "2026-10-29-pilot-100-tags",
      "note": "basis: general-knowledge"
+    },
+    {
+     "field": "kind",
+     "by": "model:claude-sonnet-5-5",
+     "action": "checked",
+     "outcome": "contradicts",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags-blind-redraft",
+     "note": "second draft (xhigh) said standard"
+    },
+    {
+     "field": "certification",
+     "by": "model:claude-sonnet-5-5",
+     "action": "checked",
+     "outcome": "supports",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags-blind-redraft",
+     "note": "second draft (xhigh) gave the same value"
     }
    ]
   },
@@ -3949,6 +7334,33 @@
      "date": "2026-10-29",
      "run": "2026-10-29-pilot-100-tags",
      "note": "basis: general-knowledge"
+    },
+    {
+     "field": "kind",
+     "by": "model:claude-sonnet-5-5",
+     "action": "checked",
+     "outcome": "supports",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags-blind-redraft",
+     "note": "second draft (xhigh) gave the same value"
+    },
+    {
+     "field": "certification",
+     "by": "model:claude-sonnet-5-5",
+     "action": "checked",
+     "outcome": "supports",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags-blind-redraft",
+     "note": "second draft (xhigh) gave the same value"
+    },
+    {
+     "field": "language_type",
+     "by": "model:claude-sonnet-5-5",
+     "action": "checked",
+     "outcome": "supports",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags-blind-redraft",
+     "note": "second draft (xhigh) gave the same value"
     }
    ]
   },
@@ -4025,9 +7437,90 @@
      "date": "2026-10-29",
      "run": "2026-10-29-scope-annotation",
      "note": "basis: general-knowledge; Each US state licensing agency issues it under common federal rules."
+    },
+    {
+     "field": "definition",
+     "by": "model:claude-sonnet-5-5",
+     "action": "checked",
+     "outcome": "supports",
+     "date": "2026-10-29",
+     "run": "2026-10-29-web-check-1",
+     "note": "web check, search results only: Matches: the P endorsement covers passenger vehicles such as buses. The usual threshold is 16 or more people including the driver."
+    },
+    {
+     "field": "kind",
+     "by": "model:claude-sonnet-5-5",
+     "action": "checked",
+     "outcome": "supports",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags-blind-redraft",
+     "note": "second draft (xhigh) gave the same value"
+    },
+    {
+     "field": "certification",
+     "by": "model:claude-sonnet-5-5",
+     "action": "checked",
+     "outcome": "supports",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags-blind-redraft",
+     "note": "second draft (xhigh) gave the same value"
     }
    ],
-   "certification_scope": "many-issuers"
+   "certification_scope": "many-issuers",
+   "credential": {
+    "credential_type": "endorsement",
+    "sources": [
+     {
+      "kind": "third-party",
+      "url": "https://www.law.cornell.edu/cfr/text/49/383.93",
+      "verification": "search-results-only",
+      "title": "Cornell LII: 49 CFR 383.93, endorsements (a legal-text mirror, not the issuer)"
+     },
+     {
+      "kind": "issuer",
+      "url": "https://dr-www.ncdot.gov/dmv/license-id/driver-licenses/commercial/Documents/commercial-driver-endorsements-restrictions.pdf",
+      "verification": "search-results-only",
+      "title": "North Carolina DMV: commercial driver endorsements and restrictions chart (one state's issuing agency, as an example)"
+     },
+     {
+      "kind": "issuer",
+      "url": "https://secure.in.gov/bmv/licenses-permits-ids/commercial-drivers-license-overview/commercial-drivers-license-endorsements-and-restrictions",
+      "verification": "search-results-only",
+      "title": "Indiana BMV: CDL endorsements and restrictions (one state's issuing agency, as an example)"
+     },
+     {
+      "kind": "third-party",
+      "url": "https://cdlschool.com/cdl-faq/cdl-passenger-endorsement-requirements-test-and-bus-driving-jobs",
+      "verification": "search-results-only",
+      "title": "CDLschool.com: CDL passenger endorsement requirements (a training site)"
+     },
+     {
+      "kind": "wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Commercial_driver's_license",
+      "verification": "search-results-only",
+      "title": "Wikipedia: Commercial driver's license (broader article that covers the P endorsement)"
+     }
+    ],
+    "official_name": "Passenger (P) endorsement on a commercial driver's licence",
+    "acronym": "P",
+    "requirements": "A CDL plus the passenger knowledge test and a skills test in a representative passenger vehicle; first-time applicants must complete entry-level driver training from a provider on the FMCSA Training Provider Registry; the air-brakes knowledge test applies if the bus has air brakes.",
+    "specificity": "specific-credential",
+    "fields": [
+     {
+      "label": "commercial driving"
+     },
+     {
+      "label": "passenger transport"
+     },
+     {
+      "label": "bus operation"
+     }
+    ],
+    "jurisdiction": [
+     "US"
+    ],
+    "issuers": []
+   }
   },
   {
    "id": "xlftnwk7c1",
@@ -4116,6 +7609,33 @@
      "date": "2026-10-29",
      "run": "2026-10-29-pilot-100-tags",
      "note": "basis: general-knowledge"
+    },
+    {
+     "field": "kind",
+     "by": "model:claude-sonnet-5-5",
+     "action": "checked",
+     "outcome": "supports",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags-blind-redraft",
+     "note": "second draft (xhigh) gave the same value"
+    },
+    {
+     "field": "certification",
+     "by": "model:claude-sonnet-5-5",
+     "action": "checked",
+     "outcome": "supports",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags-blind-redraft",
+     "note": "second draft (xhigh) gave the same value"
+    },
+    {
+     "field": "language_type",
+     "by": "model:claude-sonnet-5-5",
+     "action": "checked",
+     "outcome": "supports",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags-blind-redraft",
+     "note": "second draft (xhigh) gave the same value"
     }
    ]
   },
@@ -4175,6 +7695,24 @@
      "date": "2026-10-29",
      "run": "2026-10-29-pilot-100-tags",
      "note": "basis: general-knowledge"
+    },
+    {
+     "field": "kind",
+     "by": "model:claude-sonnet-5-5",
+     "action": "checked",
+     "outcome": "supports",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags-blind-redraft",
+     "note": "second draft (xhigh) gave the same value"
+    },
+    {
+     "field": "certification",
+     "by": "model:claude-sonnet-5-5",
+     "action": "checked",
+     "outcome": "supports",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags-blind-redraft",
+     "note": "second draft (xhigh) gave the same value"
     }
    ]
   },
@@ -4253,6 +7791,24 @@
      "date": "2026-10-29",
      "run": "2026-10-29-pilot-100-tags",
      "note": "basis: general-knowledge"
+    },
+    {
+     "field": "kind",
+     "by": "model:claude-sonnet-5-5",
+     "action": "checked",
+     "outcome": "supports",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags-blind-redraft",
+     "note": "second draft (xhigh) gave the same value"
+    },
+    {
+     "field": "certification",
+     "by": "model:claude-sonnet-5-5",
+     "action": "checked",
+     "outcome": "supports",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags-blind-redraft",
+     "note": "second draft (xhigh) gave the same value"
     }
    ]
   },
@@ -4312,6 +7868,24 @@
      "date": "2026-10-29",
      "run": "2026-10-29-pilot-100-tags",
      "note": "basis: general-knowledge"
+    },
+    {
+     "field": "kind",
+     "by": "model:claude-sonnet-5-5",
+     "action": "checked",
+     "outcome": "supports",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags-blind-redraft",
+     "note": "second draft (xhigh) gave the same value"
+    },
+    {
+     "field": "certification",
+     "by": "model:claude-sonnet-5-5",
+     "action": "checked",
+     "outcome": "supports",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags-blind-redraft",
+     "note": "second draft (xhigh) gave the same value"
     }
    ]
   },
@@ -4371,6 +7945,24 @@
      "date": "2026-10-29",
      "run": "2026-10-29-pilot-100-tags",
      "note": "basis: general-knowledge"
+    },
+    {
+     "field": "kind",
+     "by": "model:claude-sonnet-5-5",
+     "action": "checked",
+     "outcome": "contradicts",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags-blind-redraft",
+     "note": "second draft (xhigh) said standard"
+    },
+    {
+     "field": "certification",
+     "by": "model:claude-sonnet-5-5",
+     "action": "checked",
+     "outcome": "supports",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags-blind-redraft",
+     "note": "second draft (xhigh) gave the same value"
     }
    ]
   },
@@ -4439,9 +8031,110 @@
      "date": "2026-10-29",
      "run": "2026-10-29-scope-annotation",
      "note": "basis: general-knowledge"
+    },
+    {
+     "field": "certification",
+     "by": "source:Federal Communications Commission (FCC)",
+     "action": "matched_source",
+     "kind": "issuer",
+     "verification": "search-results-only",
+     "outcome": "supports",
+     "ref": "https://www.fcc.gov/types-licenses",
+     "date": "2026-10-29",
+     "run": "2026-10-29-web-check-1",
+     "note": "RR holders are authorized to operate most aircraft and aeronautical ground stations.",
+     "organization": {
+      "name": "Federal Communications Commission (FCC)",
+      "url": "https://www.fcc.gov/",
+      "type": "government",
+      "country": "US"
+     }
+    },
+    {
+     "field": "definition",
+     "by": "model:claude-sonnet-5-5",
+     "action": "checked",
+     "outcome": "supports",
+     "date": "2026-10-29",
+     "run": "2026-10-29-web-check-1",
+     "note": "web check, search results only: The draft says it allows operating certain radio equipment such as aircraft and marine radios, which matches the FCC list as summarised."
+    },
+    {
+     "field": "kind",
+     "by": "model:claude-sonnet-5-5",
+     "action": "checked",
+     "outcome": "supports",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags-blind-redraft",
+     "note": "second draft (xhigh) gave the same value"
+    },
+    {
+     "field": "certification",
+     "by": "model:claude-sonnet-5-5",
+     "action": "checked",
+     "outcome": "supports",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags-blind-redraft",
+     "note": "second draft (xhigh) gave the same value"
     }
    ],
-   "certification_scope": "single-issuer"
+   "certification_scope": "single-issuer",
+   "credential": {
+    "credential_type": "permit",
+    "sources": [
+     {
+      "kind": "issuer",
+      "url": "https://www.fcc.gov/types-licenses",
+      "verification": "search-results-only",
+      "snippet": "RR holders are authorized to operate most aircraft and aeronautical ground stations."
+     },
+     {
+      "kind": "issuer",
+      "url": "https://www.fcc.gov/obtaining-license",
+      "verification": "search-results-only",
+      "title": "FCC: obtaining a license"
+     },
+     {
+      "kind": "third-party",
+      "url": "https://www.onetonline.org/link/licenseinfo?id=00-75",
+      "verification": "search-results-only",
+      "title": "O*NET OnLine: Restricted Radiotelephone Operator Permit (RP)"
+     },
+     {
+      "kind": "wikipedia",
+      "url": "https://en.wikipedia.org/wiki/General_radiotelephone_operator_license",
+      "verification": "search-results-only",
+      "title": "Wikipedia: General radiotelephone operator license (a related, broader FCC credential; the summary does not cover the RR in detail)"
+     }
+    ],
+    "official_name": "Restricted Radiotelephone Operator Permit",
+    "acronym": "RR (FCC's current code); RP (used in older listings such as O*NET)",
+    "level": "entry",
+    "requirements": "Application on FCC Form 605 through the FCC's licensing system with an FCC Registration Number. One guide says it is issued without examination and that applicants must be a legal US resident or hold a US-valid pilot certificate; the FCC-page summary on the exam point was garbled, so treat 'no exam' as likely but unconfirmed.",
+    "specificity": "specific-credential",
+    "fields": [
+     {
+      "label": "radio communications"
+     },
+     {
+      "label": "aviation"
+     },
+     {
+      "label": "marine radio"
+     }
+    ],
+    "jurisdiction": [
+     "US"
+    ],
+    "issuers": [
+     {
+      "name": "Federal Communications Commission (FCC)",
+      "type": "government",
+      "country": "US",
+      "url": "https://www.fcc.gov/"
+     }
+    ]
+   }
   },
   {
    "id": "n01lv1fq0t",
@@ -4529,9 +8222,97 @@
      "date": "2026-10-29",
      "run": "2026-10-29-scope-annotation",
      "note": "basis: general-knowledge"
+    },
+    {
+     "field": "definition",
+     "by": "model:claude-sonnet-5-5",
+     "action": "checked",
+     "outcome": "supports",
+     "date": "2026-10-29",
+     "run": "2026-10-29-web-check-1",
+     "note": "web check, search results only: Issuer and purpose match. The draft omits the Silver/Gold structure and that the credential is not accredited (per the ANSI overview)."
+    },
+    {
+     "field": "kind",
+     "by": "model:claude-sonnet-5-5",
+     "action": "checked",
+     "outcome": "supports",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags-blind-redraft",
+     "note": "second draft (xhigh) gave the same value"
+    },
+    {
+     "field": "certification",
+     "by": "model:claude-sonnet-5-5",
+     "action": "checked",
+     "outcome": "supports",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags-blind-redraft",
+     "note": "second draft (xhigh) gave the same value"
     }
    ],
-   "certification_scope": "single-issuer"
+   "certification_scope": "single-issuer",
+   "credential": {
+    "credential_type": "certification",
+    "sources": [
+     {
+      "kind": "third-party",
+      "url": "https://share.ansi.org/wc/Shared%20Documents/Workcred-Reports/Understanding-Certifications-Study/Certification-Overviews/Smart-Automation-Certification-Alliance-Certified-Industry-4.0-Associate-Basic-Operations.pdf",
+      "verification": "search-results-only",
+      "title": "ANSI Workcred certification overview: SACA Certified Industry 4.0 Associate Basic Operations"
+     },
+     {
+      "kind": "third-party",
+      "url": "https://www.mynextmove.org/profile/certinfo/12826-A",
+      "verification": "search-results-only",
+      "title": "O*NET: SACA C-101 Certified Industry 4.0 Associate - Basic Operations"
+     },
+     {
+      "kind": "third-party",
+      "url": "https://www.tn.gov/content/dam/tn/education/ccte/eps/credentials/more/cte_sic_SACABasicOperations.pdf",
+      "verification": "search-results-only",
+      "title": "Tennessee Dept of Education: SACA Basic Operations credential sheet"
+     },
+     {
+      "kind": "third-party",
+      "url": "https://tech-labs.com/industrial-certifications/saca",
+      "verification": "search-results-only",
+      "title": "Tech-Labs: Smart Automation Certification Alliance (SACA) (a training provider)"
+     },
+     {
+      "kind": "third-party",
+      "url": "https://www.ncmich.edu/_binaries/_cce/c-101-certified-industry-40-associate-basic-operations-skill-standards-10-22-2019.pdf",
+      "verification": "search-results-only",
+      "title": "North Central Michigan College: C-101 skill standards (2019)"
+     }
+    ],
+    "official_name": "SACA C-101 Certified Industry 4.0 Associate - Basic Operations (also titled Smart Automation Certification Alliance Certified Industry 4.0 Associate Basic Operations)",
+    "acronym": "C-101 (SACA's credential code)",
+    "level": "entry",
+    "requirements": "No prerequisites; proctored multiple-choice exam (Silver) plus a performance-based assessment (Gold). Exam and assessment are free for selected employees or students of SACA member organisations, per the ANSI overview.",
+    "specificity": "specific-credential",
+    "fields": [
+     {
+      "label": "Industry 4.0"
+     },
+     {
+      "label": "smart manufacturing"
+     },
+     {
+      "label": "factory automation"
+     }
+    ],
+    "jurisdiction": [
+     "US"
+    ],
+    "issuers": [
+     {
+      "name": "Smart Automation Certification Alliance (SACA)",
+      "type": "nonprofit",
+      "country": "US"
+     }
+    ]
+   }
   },
   {
    "id": "mfaw2zyj3n",
@@ -4631,9 +8412,95 @@
      "date": "2026-10-29",
      "run": "2026-10-29-scope-annotation",
      "note": "basis: general-knowledge"
+    },
+    {
+     "field": "certification",
+     "by": "source:Board of Certified Safety Professionals (BCSP)",
+     "action": "matched_source",
+     "kind": "issuer",
+     "verification": "search-results-only",
+     "outcome": "supports",
+     "ref": "https://bcsp.org/safety-trained-supervisor-sts",
+     "date": "2026-10-29",
+     "run": "2026-10-29-web-check-1",
+     "note": "The STS needs 30 hours of safety, health, and environmental training.",
+     "organization": {
+      "name": "Board of Certified Safety Professionals (BCSP)",
+      "url": "https://bcsp.org/",
+      "type": "professional-body",
+      "country": "US"
+     }
+    },
+    {
+     "field": "definition",
+     "by": "model:claude-sonnet-5-5",
+     "action": "checked",
+     "outcome": "supports",
+     "date": "2026-10-29",
+     "run": "2026-10-29-web-check-1",
+     "note": "web check, search results only: Consistent but vague. The draft says 'trained to manage workplace safety'; BCSP's route is training hours plus experience or education plus an exam, aimed at supervisor"
     }
    ],
-   "certification_scope": "single-issuer"
+   "certification_scope": "single-issuer",
+   "credential": {
+    "credential_type": "certification",
+    "sources": [
+     {
+      "kind": "issuer",
+      "url": "https://bcsp.org/safety-trained-supervisor-sts",
+      "verification": "search-results-only",
+      "snippet": "The STS needs 30 hours of safety, health, and environmental training."
+     },
+     {
+      "kind": "issuer",
+      "url": "https://www.bcsp.org/safety-trained-supervisor-sts/application-process/",
+      "verification": "search-results-only",
+      "title": "BCSP: Safety Trained Supervisor (STS) application process"
+     },
+     {
+      "kind": "issuer",
+      "url": "https://www.bcsp.org/About/BCSP-News/over-7000-sts-and-stscs-sponsored",
+      "verification": "search-results-only",
+      "title": "BCSP news: over 7000 STS and STSC sponsored"
+     },
+     {
+      "kind": "third-party",
+      "url": "https://www.ishn.com/articles/112216-new-pathways-to-bcsps-sts-and-stsc-certifications-introduced?v=preview",
+      "verification": "search-results-only",
+      "title": "ISHN: new pathways to BCSP's STS and STSC certifications (2016)"
+     },
+     {
+      "kind": "wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Certified_safety_professional",
+      "verification": "search-results-only",
+      "title": "Wikipedia: Certified safety professional (the issuer's flagship credential; the summary does not cover the STS)"
+     }
+    ],
+    "official_name": "Safety Trained Supervisor (STS)",
+    "acronym": "STS",
+    "level": "supervisory (below the professional-level CSP)",
+    "requirements": "30 hours of safety, health and environmental training plus one of: two years of supervisory experience, four years of work experience, an associate degree or higher in a related field, or a two-year trade or apprenticeship programme; then pass the STS exam (100 multiple-choice questions per third-party sources; $185 exam fee per BCSP summary).",
+    "specificity": "specific-credential",
+    "fields": [
+     {
+      "label": "occupational safety and health"
+     },
+     {
+      "label": "supervision"
+     }
+    ],
+    "jurisdiction": [
+     "US"
+    ],
+    "issuers": [
+     {
+      "name": "Board of Certified Safety Professionals (BCSP)",
+      "type": "professional-body",
+      "country": "US",
+      "url": "https://bcsp.org/"
+     }
+    ]
+   }
   },
   {
    "id": "pqt2ajoqzd",
@@ -4710,6 +8577,24 @@
      "date": "2026-10-29",
      "run": "2026-10-29-pilot-100-tags",
      "note": "basis: general-knowledge"
+    },
+    {
+     "field": "kind",
+     "by": "model:claude-sonnet-5-5",
+     "action": "checked",
+     "outcome": "supports",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags-blind-redraft",
+     "note": "second draft (xhigh) gave the same value"
+    },
+    {
+     "field": "certification",
+     "by": "model:claude-sonnet-5-5",
+     "action": "checked",
+     "outcome": "supports",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags-blind-redraft",
+     "note": "second draft (xhigh) gave the same value"
     }
    ]
   },
@@ -4803,9 +8688,91 @@
      "date": "2026-10-29",
      "run": "2026-10-29-scope-annotation",
      "note": "basis: general-knowledge"
+    },
+    {
+     "field": "definition",
+     "by": "model:claude-sonnet-5-5",
+     "action": "checked",
+     "outcome": "supports",
+     "date": "2026-10-29",
+     "run": "2026-10-29-web-check-1",
+     "note": "web check, search results only: Matches: SC allows regular access to SECRET assets. It also allows occasional supervised access to some TOP SECRET material."
+    },
+    {
+     "field": "kind",
+     "by": "model:claude-sonnet-5-5",
+     "action": "checked",
+     "outcome": "supports",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags-blind-redraft",
+     "note": "second draft (xhigh) gave the same value"
+    },
+    {
+     "field": "certification",
+     "by": "model:claude-sonnet-5-5",
+     "action": "checked",
+     "outcome": "contradicts",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags-blind-redraft",
+     "note": "second draft (xhigh) said False"
     }
    ],
-   "certification_scope": "single-issuer"
+   "certification_scope": "single-issuer",
+   "credential": {
+    "credential_type": "clearance",
+    "sources": [
+     {
+      "kind": "wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Security_vetting_in_the_United_Kingdom",
+      "verification": "search-results-only",
+      "title": "Wikipedia: Security vetting in the United Kingdom (broader article that covers SC)"
+     },
+     {
+      "kind": "third-party",
+      "url": "https://govdiff.njk.onl/update/2024-09-23T15:43:00+01:00/www.gov.uk/government/publications/united-kingdom-security-vetting-clearance-levels",
+      "verification": "search-results-only",
+      "title": "Mirror/diff of the GOV.UK publication 'United Kingdom Security Vetting: clearance levels' (not the GOV.UK site itself)"
+     },
+     {
+      "kind": "third-party",
+      "url": "https://www.gov.scot/publications/recruitment-candidate-guide/pages/pre-employment-checks/",
+      "verification": "search-results-only",
+      "title": "Scottish Government: recruitment candidate guide, pre-employment checks"
+     },
+     {
+      "kind": "third-party",
+      "url": "https://community.securityclearedjobs.com/article/uk-security-vetting-levels-explained-a-full-guide-to-clearances/",
+      "verification": "search-results-only",
+      "title": "SecurityClearedJobs: UK security vetting levels explained (a recruitment site)"
+     }
+    ],
+    "official_name": "Security Check (SC), a UK national security vetting clearance level",
+    "acronym": "SC",
+    "level": "mid-level of the UK vetting hierarchy (above BPSS and CTC, below Developed Vetting)",
+    "requirements": "Employer sponsorship; the Baseline Personnel Security Standard first; a security questionnaire, criminal-record, financial and Security Service checks, sometimes an interview; a minimum UK residency of 5 years per a Scottish Government guide.",
+    "specificity": "specific-credential",
+    "fields": [
+     {
+      "label": "national security"
+     },
+     {
+      "label": "government service"
+     },
+     {
+      "label": "defence"
+     }
+    ],
+    "jurisdiction": [
+     "GB"
+    ],
+    "issuers": [
+     {
+      "name": "UK Government national security vetting (clearance is sponsored by the employing organisation for a specific post)",
+      "type": "government",
+      "country": "GB"
+     }
+    ]
+   }
   },
   {
    "id": "unurfua1et",
@@ -4906,6 +8873,33 @@
      "date": "2026-10-29",
      "run": "2026-10-29-pilot-100-tags",
      "note": "basis: general-knowledge"
+    },
+    {
+     "field": "kind",
+     "by": "model:claude-sonnet-5-5",
+     "action": "checked",
+     "outcome": "supports",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags-blind-redraft",
+     "note": "second draft (xhigh) gave the same value"
+    },
+    {
+     "field": "certification",
+     "by": "model:claude-sonnet-5-5",
+     "action": "checked",
+     "outcome": "supports",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags-blind-redraft",
+     "note": "second draft (xhigh) gave the same value"
+    },
+    {
+     "field": "language_type",
+     "by": "model:claude-sonnet-5-5",
+     "action": "checked",
+     "outcome": "supports",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags-blind-redraft",
+     "note": "second draft (xhigh) gave the same value"
     }
    ]
   },
@@ -4990,6 +8984,24 @@
      "date": "2026-10-29",
      "run": "2026-10-29-pilot-100-tags",
      "note": "basis: general-knowledge"
+    },
+    {
+     "field": "kind",
+     "by": "model:claude-sonnet-5-5",
+     "action": "checked",
+     "outcome": "supports",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags-blind-redraft",
+     "note": "second draft (xhigh) gave the same value"
+    },
+    {
+     "field": "certification",
+     "by": "model:claude-sonnet-5-5",
+     "action": "checked",
+     "outcome": "supports",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags-blind-redraft",
+     "note": "second draft (xhigh) gave the same value"
     }
    ]
   },
@@ -5074,6 +9086,24 @@
      "date": "2026-10-29",
      "run": "2026-10-29-pilot-100-tags",
      "note": "basis: general-knowledge"
+    },
+    {
+     "field": "kind",
+     "by": "model:claude-sonnet-5-5",
+     "action": "checked",
+     "outcome": "supports",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags-blind-redraft",
+     "note": "second draft (xhigh) gave the same value"
+    },
+    {
+     "field": "certification",
+     "by": "model:claude-sonnet-5-5",
+     "action": "checked",
+     "outcome": "supports",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags-blind-redraft",
+     "note": "second draft (xhigh) gave the same value"
     }
    ]
   },
@@ -5146,6 +9176,24 @@
      "date": "2026-10-29",
      "run": "2026-10-29-pilot-100-tags",
      "note": "basis: general-knowledge"
+    },
+    {
+     "field": "kind",
+     "by": "model:claude-sonnet-5-5",
+     "action": "checked",
+     "outcome": "supports",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags-blind-redraft",
+     "note": "second draft (xhigh) gave the same value"
+    },
+    {
+     "field": "certification",
+     "by": "model:claude-sonnet-5-5",
+     "action": "checked",
+     "outcome": "supports",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags-blind-redraft",
+     "note": "second draft (xhigh) gave the same value"
     }
    ]
   },
@@ -5218,6 +9266,24 @@
      "date": "2026-10-29",
      "run": "2026-10-29-pilot-100-tags",
      "note": "basis: general-knowledge"
+    },
+    {
+     "field": "kind",
+     "by": "model:claude-sonnet-5-5",
+     "action": "checked",
+     "outcome": "contradicts",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags-blind-redraft",
+     "note": "second draft (xhigh) said standard"
+    },
+    {
+     "field": "certification",
+     "by": "model:claude-sonnet-5-5",
+     "action": "checked",
+     "outcome": "supports",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags-blind-redraft",
+     "note": "second draft (xhigh) gave the same value"
     }
    ]
   },
@@ -5300,6 +9366,24 @@
      "date": "2026-10-29",
      "run": "2026-10-29-pilot-100-tags",
      "note": "basis: general-knowledge"
+    },
+    {
+     "field": "kind",
+     "by": "model:claude-sonnet-5-5",
+     "action": "checked",
+     "outcome": "supports",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags-blind-redraft",
+     "note": "second draft (xhigh) gave the same value"
+    },
+    {
+     "field": "certification",
+     "by": "model:claude-sonnet-5-5",
+     "action": "checked",
+     "outcome": "supports",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags-blind-redraft",
+     "note": "second draft (xhigh) gave the same value"
     }
    ]
   },
@@ -5359,6 +9443,24 @@
      "date": "2026-10-29",
      "run": "2026-10-29-pilot-100-tags",
      "note": "basis: general-knowledge"
+    },
+    {
+     "field": "kind",
+     "by": "model:claude-sonnet-5-5",
+     "action": "checked",
+     "outcome": "supports",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags-blind-redraft",
+     "note": "second draft (xhigh) gave the same value"
+    },
+    {
+     "field": "certification",
+     "by": "model:claude-sonnet-5-5",
+     "action": "checked",
+     "outcome": "supports",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags-blind-redraft",
+     "note": "second draft (xhigh) gave the same value"
     }
    ]
   },
@@ -5431,6 +9533,24 @@
      "date": "2026-10-29",
      "run": "2026-10-29-pilot-100-tags",
      "note": "basis: general-knowledge"
+    },
+    {
+     "field": "kind",
+     "by": "model:claude-sonnet-5-5",
+     "action": "checked",
+     "outcome": "supports",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags-blind-redraft",
+     "note": "second draft (xhigh) gave the same value"
+    },
+    {
+     "field": "certification",
+     "by": "model:claude-sonnet-5-5",
+     "action": "checked",
+     "outcome": "supports",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags-blind-redraft",
+     "note": "second draft (xhigh) gave the same value"
     }
    ]
   },
@@ -5500,6 +9620,24 @@
      "date": "2026-10-29",
      "run": "2026-10-29-pilot-100-tags",
      "note": "basis: general-knowledge"
+    },
+    {
+     "field": "kind",
+     "by": "model:claude-sonnet-5-5",
+     "action": "checked",
+     "outcome": "supports",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags-blind-redraft",
+     "note": "second draft (xhigh) gave the same value"
+    },
+    {
+     "field": "certification",
+     "by": "model:claude-sonnet-5-5",
+     "action": "checked",
+     "outcome": "supports",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags-blind-redraft",
+     "note": "second draft (xhigh) gave the same value"
     }
    ]
   },
@@ -5569,6 +9707,33 @@
      "date": "2026-10-29",
      "run": "2026-10-29-pilot-100-tags",
      "note": "basis: general-knowledge"
+    },
+    {
+     "field": "kind",
+     "by": "model:claude-sonnet-5-5",
+     "action": "checked",
+     "outcome": "supports",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags-blind-redraft",
+     "note": "second draft (xhigh) gave the same value"
+    },
+    {
+     "field": "certification",
+     "by": "model:claude-sonnet-5-5",
+     "action": "checked",
+     "outcome": "supports",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags-blind-redraft",
+     "note": "second draft (xhigh) gave the same value"
+    },
+    {
+     "field": "language_type",
+     "by": "model:claude-sonnet-5-5",
+     "action": "checked",
+     "outcome": "supports",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags-blind-redraft",
+     "note": "second draft (xhigh) gave the same value"
     }
    ]
   },
@@ -5628,6 +9793,24 @@
      "date": "2026-10-29",
      "run": "2026-10-29-pilot-100-tags",
      "note": "basis: general-knowledge"
+    },
+    {
+     "field": "kind",
+     "by": "model:claude-sonnet-5-5",
+     "action": "checked",
+     "outcome": "supports",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags-blind-redraft",
+     "note": "second draft (xhigh) gave the same value"
+    },
+    {
+     "field": "certification",
+     "by": "model:claude-sonnet-5-5",
+     "action": "checked",
+     "outcome": "supports",
+     "date": "2026-10-29",
+     "run": "2026-10-29-pilot-100-tags-blind-redraft",
+     "note": "second draft (xhigh) gave the same value"
     }
    ]
   }

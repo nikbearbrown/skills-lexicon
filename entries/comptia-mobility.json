@@ -71,7 +71,108 @@
    "date": "2026-10-29",
    "run": "2026-10-29-scope-annotation",
    "note": "basis: general-knowledge"
+  },
+  {
+   "field": "certification",
+   "by": "source:CompTIA",
+   "action": "matched_source",
+   "kind": "issuer",
+   "verification": "search-results-only",
+   "outcome": "supports",
+   "ref": "https://partners.comptia.org/certifications/mobility",
+   "date": "2026-10-29",
+   "run": "2026-10-29-web-check-1",
+   "note": "the CompTIA Mobility+ certification retired on December 15, 2017, and the organization will not renew or replace this certification exam.",
+   "organization": {
+    "name": "CompTIA",
+    "url": "https://partners.comptia.org/",
+    "type": "industry-association",
+    "country": "US"
+   }
+  },
+  {
+   "field": "definition",
+   "by": "model:claude-sonnet-5-5",
+   "action": "checked",
+   "outcome": "supports",
+   "date": "2026-10-29",
+   "run": "2026-10-29-web-check-1",
+   "note": "web check, search results only: The draft matches the exam topics. It does not say the certification is retired, which matters for a skills lexicon."
+  },
+  {
+   "field": "kind",
+   "by": "model:claude-sonnet-5-5",
+   "action": "checked",
+   "outcome": "supports",
+   "date": "2026-10-29",
+   "run": "2026-10-29-pilot-100-tags-blind-redraft",
+   "note": "second draft (xhigh) gave the same value"
+  },
+  {
+   "field": "certification",
+   "by": "model:claude-sonnet-5-5",
+   "action": "checked",
+   "outcome": "supports",
+   "date": "2026-10-29",
+   "run": "2026-10-29-pilot-100-tags-blind-redraft",
+   "note": "second draft (xhigh) gave the same value"
   }
  ],
- "certification_scope": "single-issuer"
+ "certification_scope": "single-issuer",
+ "credential": {
+  "credential_type": "certification",
+  "sources": [
+   {
+    "kind": "issuer",
+    "url": "https://partners.comptia.org/certifications/mobility",
+    "verification": "search-results-only",
+    "snippet": "the CompTIA Mobility+ certification retired on December 15, 2017, and the organization will not renew or replace this certification exam."
+   },
+   {
+    "kind": "issuer",
+    "url": "https://comptia.org/blog/CompTIA-Introduces-CompTIA-Mobility-for-IT-Pros-Managing-Mobile-Computing-Networks",
+    "verification": "search-results-only",
+    "title": "CompTIA: Introduces CompTIA Mobility+ for IT pros managing mobile computing networks"
+   },
+   {
+    "kind": "third-party",
+    "url": "https://www.varinsights.com/doc/new-comptia-mobility-certification-addresses-skills-needed-in-mobile-0001",
+    "verification": "search-results-only",
+    "title": "VARinsights, Nov 2013: New CompTIA Mobility+ certification addresses skills needed in mobile"
+   },
+   {
+    "kind": "wikipedia",
+    "url": "https://en.wikipedia.org/wiki/CompTIA",
+    "verification": "search-results-only",
+    "title": "Wikipedia: CompTIA (the search summary found nothing specific on Mobility+ here)"
+   }
+  ],
+  "official_name": "CompTIA Mobility+",
+  "requirements": "At launch (2013): no prerequisites; CompTIA recommended 18 months of experience in a mobile environment; a 100-question, 90-minute exam. Exam topics: over-the-air technologies, network infrastructure, mobile device management, security and troubleshooting.",
+  "specificity": "specific-credential",
+  "status": "retired",
+  "status_note": "Retired on 15 December 2017; existing holders keep it for life, per CompTIA's partner page.",
+  "fields": [
+   {
+    "label": "information technology"
+   },
+   {
+    "label": "mobile device management"
+   },
+   {
+    "label": "networking"
+   }
+  ],
+  "jurisdiction": [
+   "US"
+  ],
+  "issuers": [
+   {
+    "name": "CompTIA",
+    "type": "industry-association",
+    "country": "US",
+    "url": "https://partners.comptia.org/"
+   }
+  ]
+ }
 }

@@ -1,6 +1,6 @@
 """Check model answers and save the good ones as machine-drafted entries. Nothing is saved unless the whole dictionary still validates.
 
-    python3 -I tools/ingest.py work --model-id claude-sonnet-5-5 --run 2026-10-27-pilot [--dry-run]
+    python3 -I tools/ingest.py work --model-id claude-sonnet-5-5 --effort xhigh --run 2026-10-27-pilot [--dry-run]
 
 The operator names the model (--model-id) and the run; the model's own claim about who it is is never used.
 Claims a model marked basis "guess" are dropped, as are relations to ids that do not exist.
@@ -16,6 +16,7 @@ import sys
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
+import assess as AS  # noqa: E402
 import lexicon as L  # noqa: E402
 
 DECISIONS = {"new", "variant_of", "not_a_skill", "unsure"}
@@ -180,8 +181,11 @@ def clean(e):
     return {k: v for k, v in e.items() if not k.startswith("_")}
 
 
-def ingest(work, root, by, run, today, dry=False):
+def ingest(work, root, by, run, today, dry=False, effort=None, agent="main-session"):
+    """Check and save the answers. With `effort` the run is registered in data/runs.json and every decision is
+    recorded as a vote in data/assessments.jsonl, by this model at this effort."""
     root, work = Path(root), Path(work)
+    votes = []
     entries, errs = L.load(root / "entries")
     if errs + L.validate(entries):
         raise SystemExit("dictionary does not validate before ingest; fix it first")
@@ -202,6 +206,7 @@ def ingest(work, root, by, run, today, dry=False):
                 decisions.append({"term": req["term"], "decision": resp["decision"], "by": by, "run": run, "date": today,
                                   "reason": str(resp.get("reason", ""))[:200]})
                 report[resp["decision"]].append(req["term"])
+                votes.append((req["term"], {"not_a_skill": "no", "unsure": "unsure"}[resp["decision"]], str(resp.get("reason", "")), {}))
                 outcome = None
             else:
                 trial = copy.deepcopy(entries)
@@ -219,6 +224,7 @@ def ingest(work, root, by, run, today, dry=False):
                     raise ValueError("; ".join(problems[:4]))
                 entries = trial
                 report["new" if resp["decision"] == "new" else "variant"].append(label)
+                votes.append((req["term"], "yes", str(resp.get("reason", "")), {"entry": new["id"]} if resp["decision"] == "new" else {"variant_of": new["id"]}))
                 outcome = new
         except (ValueError, KeyError, TypeError) as e:
             report["rejected"].append((req["term"], str(e)))
@@ -235,6 +241,11 @@ def ingest(work, root, by, run, today, dry=False):
     if not dry and decisions:
         dec_path.parent.mkdir(exist_ok=True)
         dec_path.write_text(json.dumps(decisions, indent=1, ensure_ascii=False) + "\n", "utf-8")
+    if not dry and effort:
+        model = by[len("model:"):]
+        L.register_run(root, run, model, effort, agent, date=today)
+        who = AS.model_assessor(model, effort)
+        AS.append(root, [AS.vote(t, a, who, run, today, reason=r if a != "yes" else None, **kw) for t, a, r, kw in votes])
     return report
 
 
@@ -243,11 +254,13 @@ def main(argv=None):
     ap.add_argument("work")
     ap.add_argument("--model-id", required=True)
     ap.add_argument("--run", required=True)
+    ap.add_argument("--effort", required=True, choices=sorted(L.EFFORTS), help="the effort level the model ran at")
+    ap.add_argument("--agent", default="main-session", help="main-session, or subagent")
     ap.add_argument("--root", default=str(L.ROOT))
     ap.add_argument("--dry-run", action="store_true")
     ap.add_argument("--date", default=datetime.date.today().isoformat())
     a = ap.parse_args(argv)
-    r = ingest(a.work, a.root, "model:" + a.model_id, a.run, a.date, a.dry_run)
+    r = ingest(a.work, a.root, "model:" + a.model_id, a.run, a.date, a.dry_run, effort=a.effort, agent=a.agent)
     print(("DRY RUN: nothing written. " if a.dry_run else "") +
           f"new {len(r['new'])}, variants {len(r['variant'])}, not a skill {len(r['not_a_skill'])}, "
           f"unsure {len(r['unsure'])}, rejected {len(r['rejected'])}, claims dropped {r['dropped_claims']}")

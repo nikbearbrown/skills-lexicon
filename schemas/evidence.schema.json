@@ -24,12 +24,24 @@
     "date": { "type": "string", "format": "date" },
     "outcome": { "enum": ["supports", "contradicts"], "description": "Required for checked and matched_source." },
     "kind": {
-      "enum": ["issuer", "regulator", "standard", "wikipedia", "wikidata", "third-party"],
-      "description": "What kind of source a matched_source record points to. issuer: the body that awards the credential. regulator or standard: a body that sets or lists it."
+      "enum": ["issuer", "regulator", "standard", "onet", "bls", "esco", "sfia", "job-postings", "wikipedia", "wikidata", "third-party"],
+      "description": "What kind of source a matched_source record points to. issuer: the body that awards the credential. regulator or standard: a body that sets or lists it. onet, bls, esco, sfia: an occupational taxonomy. job-postings: job listings that ask for it."
     },
     "verification": {
       "enum": ["page-read", "search-results-only", "dump-match"],
       "description": "How much was actually verified, required for matched_source. page-read: someone opened the page and the quote is from it. dump-match: matched against a downloaded dataset. search-results-only: only a search result was seen. Only page-read and dump-match back a claim."
+    },
+    "organization": {
+      "type": "object",
+      "description": "Who attests it: the organization behind the source, with a link to the organization itself (not to one page). Required for matched_source. For a certification this is the official body that says the credential exists.",
+      "additionalProperties": false,
+      "required": ["name", "url"],
+      "properties": {
+        "name": { "type": "string", "minLength": 1 },
+        "url": { "type": "string", "format": "uri", "pattern": "^https?://" },
+        "type": { "enum": ["professional-body", "vendor", "government", "university-or-college", "industry-association", "nonprofit", "reference-work", "other"] },
+        "country": { "type": "string", "pattern": "^([A-Z]{2}|INT)$" }
+      }
     },
     "ref": { "type": "string", "minLength": 1, "description": "Required for matched_source: a URL, an identifier in the dataset (for example wikidata:Q4686912) or an ad id." },
     "run": { "type": "string", "minLength": 1, "description": "The run label of the pass that produced the record." },
@@ -46,15 +58,16 @@
       "properties": {
         "dataset": { "type": "string", "minLength": 1, "description": "For example enwiki-20261001." },
         "dataset_id": { "type": "string", "minLength": 1, "description": "The record's id in the dataset, for example a Wikipedia page id or a Wikidata QID." },
-        "method": { "enum": ["title", "redirect", "acronym", "category", "name-similarity", "manual"] },
+        "method": { "enum": ["title", "redirect", "acronym", "category", "name-similarity", "import", "manual"] },
         "score": { "type": "number", "minimum": 0, "maximum": 1, "description": "A similarity score for name-similarity matches." },
+        "count": { "type": "integer", "minimum": 0, "description": "For job-postings: how many postings in the dataset ask for it." },
         "categories": { "type": "array", "items": { "type": "string", "minLength": 1 }, "description": "What the dataset says the record is: Wikipedia categories or Wikidata classes. For the claim `certification` this is the evidence that the thing is a credential." }
       }
     }
   },
   "allOf": [
     { "if": { "properties": { "action": { "enum": ["checked", "matched_source"] } }, "required": ["action"] }, "then": { "required": ["outcome"] } },
-    { "if": { "properties": { "action": { "const": "matched_source" } }, "required": ["action"] }, "then": { "required": ["ref", "verification"] } },
+    { "if": { "properties": { "action": { "const": "matched_source" } }, "required": ["action"] }, "then": { "required": ["ref", "verification", "organization"] } },
     { "if": { "properties": { "action": { "const": "drafted" } }, "required": ["action"] }, "then": { "properties": { "by": { "not": { "pattern": "^source:" } } } } },
     { "if": { "properties": { "action": { "const": "matched_source" } }, "required": ["action"] }, "then": { "properties": { "by": { "pattern": "^source:" } } } }
   ]

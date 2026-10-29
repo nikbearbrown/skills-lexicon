@@ -86,7 +86,111 @@
    "date": "2026-10-29",
    "run": "2026-10-29-scope-annotation",
    "note": "basis: general-knowledge; A degree awarded by many universities."
+  },
+  {
+   "field": "certification",
+   "by": "source:Wikipedia",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "search-results-only",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/wiki/Doctor_of_Public_Health",
+   "date": "2026-10-29",
+   "run": "2026-10-29-web-check-1",
+   "note": "Wikipedia has an article about it",
+   "organization": {
+    "name": "Wikimedia Foundation",
+    "url": "https://www.wikimedia.org/",
+    "type": "reference-work",
+    "country": "US"
+   }
+  },
+  {
+   "field": "definition",
+   "by": "model:claude-sonnet-5-5",
+   "action": "checked",
+   "outcome": "supports",
+   "date": "2026-10-29",
+   "run": "2026-10-29-web-check-1",
+   "note": "web check, search results only: Matches the Wikipedia and university descriptions of a practice- and leadership-focused doctorate, as opposed to the research-focused PhD."
+  },
+  {
+   "field": "kind",
+   "by": "model:claude-sonnet-5-5",
+   "action": "checked",
+   "outcome": "supports",
+   "date": "2026-10-29",
+   "run": "2026-10-29-pilot-100-tags-blind-redraft",
+   "note": "second draft (xhigh) gave the same value"
+  },
+  {
+   "field": "certification",
+   "by": "model:claude-sonnet-5-5",
+   "action": "checked",
+   "outcome": "supports",
+   "date": "2026-10-29",
+   "run": "2026-10-29-pilot-100-tags-blind-redraft",
+   "note": "second draft (xhigh) gave the same value"
   }
  ],
- "certification_scope": "many-issuers"
+ "certification_scope": "many-issuers",
+ "credential": {
+  "credential_type": "degree",
+  "sources": [
+   {
+    "kind": "wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Doctor_of_Public_Health",
+    "verification": "search-results-only"
+   },
+   {
+    "kind": "issuer",
+    "url": "https://hsph.harvard.edu/program/doctor-of-public-health",
+    "verification": "search-results-only",
+    "title": "Harvard T.H. Chan School of Public Health: Doctor of Public Health (one example programme)"
+   },
+   {
+    "kind": "issuer",
+    "url": "https://publichealth.berkeley.edu/academics/programs/doctor-of-public-health#bphScrollAnchor___-drph-student-directory",
+    "verification": "search-results-only",
+    "title": "UC Berkeley School of Public Health: Doctor of Public Health (one example programme; URL exactly as returned, anchor included)"
+   },
+   {
+    "kind": "wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Council_on_Education_for_Public_Health",
+    "verification": "search-results-only",
+    "title": "Wikipedia: Council on Education for Public Health (the usual accreditor)"
+   },
+   {
+    "kind": "wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Professional_degrees_of_public_health",
+    "verification": "search-results-only",
+    "title": "Wikipedia: Professional degrees of public health (broader article)"
+   }
+  ],
+  "official_name": "Doctor of Public Health (DrPH)",
+  "acronym": "DrPH",
+  "level": "doctoral (professional doctorate)",
+  "requirements": "Usually a master's in public health plus several years of public health experience (examples: at least 3 years at Georgia, 6 at Harvard); an applied capstone or doctoral project. Wikipedia notes that more schools now accept students without a master's.",
+  "specificity": "specific-credential",
+  "fields": [
+   {
+    "label": "public health"
+   },
+   {
+    "label": "health administration"
+   },
+   {
+    "label": "health leadership"
+   }
+  ],
+  "jurisdiction": [
+   "US"
+  ],
+  "issuers": [],
+  "wikipedia": {
+   "title": "Doctor of Public Health",
+   "url": "https://en.wikipedia.org/wiki/Doctor_of_Public_Health",
+   "match": "manual"
+  }
+ }
 }

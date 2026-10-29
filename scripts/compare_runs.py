@@ -44,7 +44,7 @@ def outcomes(root, run):
             continue
         for ev in e.get("evidence", []):
             if ev.get("run") == run and ev["field"].startswith("variant:"):
-                out[ev["field"][8:]] = {"decision": "variant_of", "term": ev["field"][8:], "target": e["preferred_name"]}
+                out[ev["field"][8:]] = {"decision": "variant_of", "term": ev["field"][8:], "target": e["preferred_name"], "target_id": e["id"]}
     dec = root / "data" / "term-decisions.json"
     for d in (json.loads(dec.read_text("utf-8")) if dec.exists() else []):
         if d.get("run") == run:

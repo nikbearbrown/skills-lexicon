@@ -1,0 +1,4236 @@
+{
+ "batch": {
+  "number": 3,
+  "run": "2026-10-29-onet-abilities-import",
+  "models": [],
+  "date": "2026-10-29",
+  "source": "imported from O*NET 30.2 Abilities (USDOL/ETA, CC BY 4.0) via jobs.humanitarians.ai data/explorer/ability-directory.json",
+  "counts": {
+   "new_entries": 52,
+   "variants_added": 0,
+   "not_a_skill": 0,
+   "unsure": 0
+  },
+  "generated": "from entries/*.json by tools/batch.py; do not edit by hand",
+  "status": "machine-drafted: no claim in this batch is backed by a human check or a matched source"
+ },
+ "runs": {},
+ "votes": {},
+ "entries": [
+  {
+   "id": "dbywgn8w10",
+   "key": "arm-hand-steadiness",
+   "preferred_name": "Arm-Hand Steadiness",
+   "kind": "ability",
+   "definition": "The ability to keep your hand and arm steady while moving your arm or while holding your arm and hand in one position.",
+   "identifiers": [
+    {
+     "scheme": "onet-element",
+     "code": "1.A.2.a.1"
+    }
+   ],
+   "variants": [],
+   "relations": [],
+   "verbs": [],
+   "status": "proposed",
+   "provenance": {
+    "source": "imported from O*NET 30.2 Abilities (USDOL/ETA, CC BY 4.0) via jobs.humanitarians.ai data/explorer/ability-directory.json, run 2026-10-29-onet-abilities-import, definitions sha256 909f6ce0b437",
+    "date": "2026-10-29",
+    "review": "Awaiting taxonomy owner review",
+    "reviewed_by": null
+   },
+   "evidence": [
+    {
+     "field": "kind",
+     "by": "source:onet-30.2",
+     "action": "matched_source",
+     "kind": "onet",
+     "verification": "dump-match",
+     "outcome": "supports",
+     "ref": "onet:1.A.2.a.1",
+     "date": "2026-10-29",
+     "run": "2026-10-29-onet-abilities-import",
+     "note": "O*NET 30.2 lists it under Abilities, psychomotor, Fine Manipulative Abilities",
+     "organization": {
+      "name": "O*NET, U.S. Department of Labor, Employment and Training Administration",
+      "url": "https://www.onetcenter.org/",
+      "type": "government",
+      "country": "US"
+     },
+     "match": {
+      "dataset": "onet-30.2",
+      "dataset_id": "1.A.2.a.1",
+      "method": "import",
+      "categories": [
+       "Abilities",
+       "psychomotor",
+       "Fine Manipulative Abilities"
+      ]
+     }
+    },
+    {
+     "field": "definition",
+     "by": "source:onet-30.2",
+     "action": "matched_source",
+     "kind": "onet",
+     "verification": "dump-match",
+     "outcome": "supports",
+     "ref": "onet:1.A.2.a.1",
+     "date": "2026-10-29",
+     "run": "2026-10-29-onet-abilities-import",
+     "note": "the definition is O*NET 30.2's text",
+     "organization": {
+      "name": "O*NET, U.S. Department of Labor, Employment and Training Administration",
+      "url": "https://www.onetcenter.org/",
+      "type": "government",
+      "country": "US"
+     },
+     "match": {
+      "dataset": "onet-30.2",
+      "dataset_id": "1.A.2.a.1",
+      "method": "import",
+      "categories": [
+       "Abilities",
+       "psychomotor",
+       "Fine Manipulative Abilities"
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "gq46lt98ml",
+   "key": "auditory-attention",
+   "preferred_name": "Auditory Attention",
+   "kind": "ability",
+   "definition": "The ability to focus on a single source of sound in the presence of other distracting sounds.",
+   "identifiers": [
+    {
+     "scheme": "onet-element",
+     "code": "1.A.4.b.2"
+    }
+   ],
+   "variants": [],
+   "relations": [],
+   "verbs": [],
+   "status": "proposed",
+   "provenance": {
+    "source": "imported from O*NET 30.2 Abilities (USDOL/ETA, CC BY 4.0) via jobs.humanitarians.ai data/explorer/ability-directory.json, run 2026-10-29-onet-abilities-import, definitions sha256 909f6ce0b437",
+    "date": "2026-10-29",
+    "review": "Awaiting taxonomy owner review",
+    "reviewed_by": null
+   },
+   "evidence": [
+    {
+     "field": "kind",
+     "by": "source:onet-30.2",
+     "action": "matched_source",
+     "kind": "onet",
+     "verification": "dump-match",
+     "outcome": "supports",
+     "ref": "onet:1.A.4.b.2",
+     "date": "2026-10-29",
+     "run": "2026-10-29-onet-abilities-import",
+     "note": "O*NET 30.2 lists it under Abilities, sensory, Auditory and Speech Abilities",
+     "organization": {
+      "name": "O*NET, U.S. Department of Labor, Employment and Training Administration",
+      "url": "https://www.onetcenter.org/",
+      "type": "government",
+      "country": "US"
+     },
+     "match": {
+      "dataset": "onet-30.2",
+      "dataset_id": "1.A.4.b.2",
+      "method": "import",
+      "categories": [
+       "Abilities",
+       "sensory",
+       "Auditory and Speech Abilities"
+      ]
+     }
+    },
+    {
+     "field": "definition",
+     "by": "source:onet-30.2",
+     "action": "matched_source",
+     "kind": "onet",
+     "verification": "dump-match",
+     "outcome": "supports",
+     "ref": "onet:1.A.4.b.2",
+     "date": "2026-10-29",
+     "run": "2026-10-29-onet-abilities-import",
+     "note": "the definition is O*NET 30.2's text",
+     "organization": {
+      "name": "O*NET, U.S. Department of Labor, Employment and Training Administration",
+      "url": "https://www.onetcenter.org/",
+      "type": "government",
+      "country": "US"
+     },
+     "match": {
+      "dataset": "onet-30.2",
+      "dataset_id": "1.A.4.b.2",
+      "method": "import",
+      "categories": [
+       "Abilities",
+       "sensory",
+       "Auditory and Speech Abilities"
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "zo2ftjz7uz",
+   "key": "category-flexibility",
+   "preferred_name": "Category Flexibility",
+   "kind": "ability",
+   "definition": "The ability to generate or use different sets of rules for combining or grouping things in different ways.",
+   "identifiers": [
+    {
+     "scheme": "onet-element",
+     "code": "1.A.1.b.7"
+    }
+   ],
+   "variants": [],
+   "relations": [],
+   "verbs": [],
+   "status": "proposed",
+   "provenance": {
+    "source": "imported from O*NET 30.2 Abilities (USDOL/ETA, CC BY 4.0) via jobs.humanitarians.ai data/explorer/ability-directory.json, run 2026-10-29-onet-abilities-import, definitions sha256 909f6ce0b437",
+    "date": "2026-10-29",
+    "review": "Awaiting taxonomy owner review",
+    "reviewed_by": null
+   },
+   "evidence": [
+    {
+     "field": "kind",
+     "by": "source:onet-30.2",
+     "action": "matched_source",
+     "kind": "onet",
+     "verification": "dump-match",
+     "outcome": "supports",
+     "ref": "onet:1.A.1.b.7",
+     "date": "2026-10-29",
+     "run": "2026-10-29-onet-abilities-import",
+     "note": "O*NET 30.2 lists it under Abilities, cognitive, Idea Generation and Reasoning Abilities",
+     "organization": {
+      "name": "O*NET, U.S. Department of Labor, Employment and Training Administration",
+      "url": "https://www.onetcenter.org/",
+      "type": "government",
+      "country": "US"
+     },
+     "match": {
+      "dataset": "onet-30.2",
+      "dataset_id": "1.A.1.b.7",
+      "method": "import",
+      "categories": [
+       "Abilities",
+       "cognitive",
+       "Idea Generation and Reasoning Abilities"
+      ]
+     }
+    },
+    {
+     "field": "definition",
+     "by": "source:onet-30.2",
+     "action": "matched_source",
+     "kind": "onet",
+     "verification": "dump-match",
+     "outcome": "supports",
+     "ref": "onet:1.A.1.b.7",
+     "date": "2026-10-29",
+     "run": "2026-10-29-onet-abilities-import",
+     "note": "the definition is O*NET 30.2's text",
+     "organization": {
+      "name": "O*NET, U.S. Department of Labor, Employment and Training Administration",
+      "url": "https://www.onetcenter.org/",
+      "type": "government",
+      "country": "US"
+     },
+     "match": {
+      "dataset": "onet-30.2",
+      "dataset_id": "1.A.1.b.7",
+      "method": "import",
+      "categories": [
+       "Abilities",
+       "cognitive",
+       "Idea Generation and Reasoning Abilities"
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "qi5340vq2a",
+   "key": "control-precision",
+   "preferred_name": "Control Precision",
+   "kind": "ability",
+   "definition": "The ability to quickly and repeatedly adjust the controls of a machine or a vehicle to exact positions.",
+   "identifiers": [
+    {
+     "scheme": "onet-element",
+     "code": "1.A.2.b.1"
+    }
+   ],
+   "variants": [],
+   "relations": [],
+   "verbs": [],
+   "status": "proposed",
+   "provenance": {
+    "source": "imported from O*NET 30.2 Abilities (USDOL/ETA, CC BY 4.0) via jobs.humanitarians.ai data/explorer/ability-directory.json, run 2026-10-29-onet-abilities-import, definitions sha256 909f6ce0b437",
+    "date": "2026-10-29",
+    "review": "Awaiting taxonomy owner review",
+    "reviewed_by": null
+   },
+   "evidence": [
+    {
+     "field": "kind",
+     "by": "source:onet-30.2",
+     "action": "matched_source",
+     "kind": "onet",
+     "verification": "dump-match",
+     "outcome": "supports",
+     "ref": "onet:1.A.2.b.1",
+     "date": "2026-10-29",
+     "run": "2026-10-29-onet-abilities-import",
+     "note": "O*NET 30.2 lists it under Abilities, psychomotor, Control Movement Abilities",
+     "organization": {
+      "name": "O*NET, U.S. Department of Labor, Employment and Training Administration",
+      "url": "https://www.onetcenter.org/",
+      "type": "government",
+      "country": "US"
+     },
+     "match": {
+      "dataset": "onet-30.2",
+      "dataset_id": "1.A.2.b.1",
+      "method": "import",
+      "categories": [
+       "Abilities",
+       "psychomotor",
+       "Control Movement Abilities"
+      ]
+     }
+    },
+    {
+     "field": "definition",
+     "by": "source:onet-30.2",
+     "action": "matched_source",
+     "kind": "onet",
+     "verification": "dump-match",
+     "outcome": "supports",
+     "ref": "onet:1.A.2.b.1",
+     "date": "2026-10-29",
+     "run": "2026-10-29-onet-abilities-import",
+     "note": "the definition is O*NET 30.2's text",
+     "organization": {
+      "name": "O*NET, U.S. Department of Labor, Employment and Training Administration",
+      "url": "https://www.onetcenter.org/",
+      "type": "government",
+      "country": "US"
+     },
+     "match": {
+      "dataset": "onet-30.2",
+      "dataset_id": "1.A.2.b.1",
+      "method": "import",
+      "categories": [
+       "Abilities",
+       "psychomotor",
+       "Control Movement Abilities"
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "wclhs8ljcp",
+   "key": "deductive-reasoning",
+   "preferred_name": "Deductive Reasoning",
+   "kind": "ability",
+   "definition": "The ability to apply general rules to specific problems to produce answers that make sense.",
+   "identifiers": [
+    {
+     "scheme": "onet-element",
+     "code": "1.A.1.b.4"
+    }
+   ],
+   "variants": [],
+   "relations": [],
+   "verbs": [],
+   "status": "proposed",
+   "provenance": {
+    "source": "imported from O*NET 30.2 Abilities (USDOL/ETA, CC BY 4.0) via jobs.humanitarians.ai data/explorer/ability-directory.json, run 2026-10-29-onet-abilities-import, definitions sha256 909f6ce0b437",
+    "date": "2026-10-29",
+    "review": "Awaiting taxonomy owner review",
+    "reviewed_by": null
+   },
+   "evidence": [
+    {
+     "field": "kind",
+     "by": "source:onet-30.2",
+     "action": "matched_source",
+     "kind": "onet",
+     "verification": "dump-match",
+     "outcome": "supports",
+     "ref": "onet:1.A.1.b.4",
+     "date": "2026-10-29",
+     "run": "2026-10-29-onet-abilities-import",
+     "note": "O*NET 30.2 lists it under Abilities, cognitive, Idea Generation and Reasoning Abilities",
+     "organization": {
+      "name": "O*NET, U.S. Department of Labor, Employment and Training Administration",
+      "url": "https://www.onetcenter.org/",
+      "type": "government",
+      "country": "US"
+     },
+     "match": {
+      "dataset": "onet-30.2",
+      "dataset_id": "1.A.1.b.4",
+      "method": "import",
+      "categories": [
+       "Abilities",
+       "cognitive",
+       "Idea Generation and Reasoning Abilities"
+      ]
+     }
+    },
+    {
+     "field": "definition",
+     "by": "source:onet-30.2",
+     "action": "matched_source",
+     "kind": "onet",
+     "verification": "dump-match",
+     "outcome": "supports",
+     "ref": "onet:1.A.1.b.4",
+     "date": "2026-10-29",
+     "run": "2026-10-29-onet-abilities-import",
+     "note": "the definition is O*NET 30.2's text",
+     "organization": {
+      "name": "O*NET, U.S. Department of Labor, Employment and Training Administration",
+      "url": "https://www.onetcenter.org/",
+      "type": "government",
+      "country": "US"
+     },
+     "match": {
+      "dataset": "onet-30.2",
+      "dataset_id": "1.A.1.b.4",
+      "method": "import",
+      "categories": [
+       "Abilities",
+       "cognitive",
+       "Idea Generation and Reasoning Abilities"
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "pnlf6la7uc",
+   "key": "depth-perception",
+   "preferred_name": "Depth Perception",
+   "kind": "ability",
+   "definition": "The ability to judge which of several objects is closer or farther away from you, or to judge the distance between you and an object.",
+   "identifiers": [
+    {
+     "scheme": "onet-element",
+     "code": "1.A.4.a.6"
+    }
+   ],
+   "variants": [],
+   "relations": [],
+   "verbs": [],
+   "status": "proposed",
+   "provenance": {
+    "source": "imported from O*NET 30.2 Abilities (USDOL/ETA, CC BY 4.0) via jobs.humanitarians.ai data/explorer/ability-directory.json, run 2026-10-29-onet-abilities-import, definitions sha256 909f6ce0b437",
+    "date": "2026-10-29",
+    "review": "Awaiting taxonomy owner review",
+    "reviewed_by": null
+   },
+   "evidence": [
+    {
+     "field": "kind",
+     "by": "source:onet-30.2",
+     "action": "matched_source",
+     "kind": "onet",
+     "verification": "dump-match",
+     "outcome": "supports",
+     "ref": "onet:1.A.4.a.6",
+     "date": "2026-10-29",
+     "run": "2026-10-29-onet-abilities-import",
+     "note": "O*NET 30.2 lists it under Abilities, sensory, Visual Abilities",
+     "organization": {
+      "name": "O*NET, U.S. Department of Labor, Employment and Training Administration",
+      "url": "https://www.onetcenter.org/",
+      "type": "government",
+      "country": "US"
+     },
+     "match": {
+      "dataset": "onet-30.2",
+      "dataset_id": "1.A.4.a.6",
+      "method": "import",
+      "categories": [
+       "Abilities",
+       "sensory",
+       "Visual Abilities"
+      ]
+     }
+    },
+    {
+     "field": "definition",
+     "by": "source:onet-30.2",
+     "action": "matched_source",
+     "kind": "onet",
+     "verification": "dump-match",
+     "outcome": "supports",
+     "ref": "onet:1.A.4.a.6",
+     "date": "2026-10-29",
+     "run": "2026-10-29-onet-abilities-import",
+     "note": "the definition is O*NET 30.2's text",
+     "organization": {
+      "name": "O*NET, U.S. Department of Labor, Employment and Training Administration",
+      "url": "https://www.onetcenter.org/",
+      "type": "government",
+      "country": "US"
+     },
+     "match": {
+      "dataset": "onet-30.2",
+      "dataset_id": "1.A.4.a.6",
+      "method": "import",
+      "categories": [
+       "Abilities",
+       "sensory",
+       "Visual Abilities"
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "xbjj61um58",
+   "key": "dynamic-flexibility",
+   "preferred_name": "Dynamic Flexibility",
+   "kind": "ability",
+   "definition": "The ability to quickly and repeatedly bend, stretch, twist, or reach out with your body, arms, and/or legs.",
+   "identifiers": [
+    {
+     "scheme": "onet-element",
+     "code": "1.A.3.c.2"
+    }
+   ],
+   "variants": [],
+   "relations": [],
+   "verbs": [],
+   "status": "proposed",
+   "provenance": {
+    "source": "imported from O*NET 30.2 Abilities (USDOL/ETA, CC BY 4.0) via jobs.humanitarians.ai data/explorer/ability-directory.json, run 2026-10-29-onet-abilities-import, definitions sha256 909f6ce0b437",
+    "date": "2026-10-29",
+    "review": "Awaiting taxonomy owner review",
+    "reviewed_by": null
+   },
+   "evidence": [
+    {
+     "field": "kind",
+     "by": "source:onet-30.2",
+     "action": "matched_source",
+     "kind": "onet",
+     "verification": "dump-match",
+     "outcome": "supports",
+     "ref": "onet:1.A.3.c.2",
+     "date": "2026-10-29",
+     "run": "2026-10-29-onet-abilities-import",
+     "note": "O*NET 30.2 lists it under Abilities, physical, Flexibility, Balance, and Coordination",
+     "organization": {
+      "name": "O*NET, U.S. Department of Labor, Employment and Training Administration",
+      "url": "https://www.onetcenter.org/",
+      "type": "government",
+      "country": "US"
+     },
+     "match": {
+      "dataset": "onet-30.2",
+      "dataset_id": "1.A.3.c.2",
+      "method": "import",
+      "categories": [
+       "Abilities",
+       "physical",
+       "Flexibility, Balance, and Coordination"
+      ]
+     }
+    },
+    {
+     "field": "definition",
+     "by": "source:onet-30.2",
+     "action": "matched_source",
+     "kind": "onet",
+     "verification": "dump-match",
+     "outcome": "supports",
+     "ref": "onet:1.A.3.c.2",
+     "date": "2026-10-29",
+     "run": "2026-10-29-onet-abilities-import",
+     "note": "the definition is O*NET 30.2's text",
+     "organization": {
+      "name": "O*NET, U.S. Department of Labor, Employment and Training Administration",
+      "url": "https://www.onetcenter.org/",
+      "type": "government",
+      "country": "US"
+     },
+     "match": {
+      "dataset": "onet-30.2",
+      "dataset_id": "1.A.3.c.2",
+      "method": "import",
+      "categories": [
+       "Abilities",
+       "physical",
+       "Flexibility, Balance, and Coordination"
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "iayo0fqvz9",
+   "key": "dynamic-strength",
+   "preferred_name": "Dynamic Strength",
+   "kind": "ability",
+   "definition": "The ability to exert muscle force repeatedly or continuously over time. This involves muscular endurance and resistance to muscle fatigue.",
+   "identifiers": [
+    {
+     "scheme": "onet-element",
+     "code": "1.A.3.a.3"
+    }
+   ],
+   "variants": [],
+   "relations": [],
+   "verbs": [],
+   "status": "proposed",
+   "provenance": {
+    "source": "imported from O*NET 30.2 Abilities (USDOL/ETA, CC BY 4.0) via jobs.humanitarians.ai data/explorer/ability-directory.json, run 2026-10-29-onet-abilities-import, definitions sha256 909f6ce0b437",
+    "date": "2026-10-29",
+    "review": "Awaiting taxonomy owner review",
+    "reviewed_by": null
+   },
+   "evidence": [
+    {
+     "field": "kind",
+     "by": "source:onet-30.2",
+     "action": "matched_source",
+     "kind": "onet",
+     "verification": "dump-match",
+     "outcome": "supports",
+     "ref": "onet:1.A.3.a.3",
+     "date": "2026-10-29",
+     "run": "2026-10-29-onet-abilities-import",
+     "note": "O*NET 30.2 lists it under Abilities, physical, Physical Strength Abilities",
+     "organization": {
+      "name": "O*NET, U.S. Department of Labor, Employment and Training Administration",
+      "url": "https://www.onetcenter.org/",
+      "type": "government",
+      "country": "US"
+     },
+     "match": {
+      "dataset": "onet-30.2",
+      "dataset_id": "1.A.3.a.3",
+      "method": "import",
+      "categories": [
+       "Abilities",
+       "physical",
+       "Physical Strength Abilities"
+      ]
+     }
+    },
+    {
+     "field": "definition",
+     "by": "source:onet-30.2",
+     "action": "matched_source",
+     "kind": "onet",
+     "verification": "dump-match",
+     "outcome": "supports",
+     "ref": "onet:1.A.3.a.3",
+     "date": "2026-10-29",
+     "run": "2026-10-29-onet-abilities-import",
+     "note": "the definition is O*NET 30.2's text",
+     "organization": {
+      "name": "O*NET, U.S. Department of Labor, Employment and Training Administration",
+      "url": "https://www.onetcenter.org/",
+      "type": "government",
+      "country": "US"
+     },
+     "match": {
+      "dataset": "onet-30.2",
+      "dataset_id": "1.A.3.a.3",
+      "method": "import",
+      "categories": [
+       "Abilities",
+       "physical",
+       "Physical Strength Abilities"
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "qw33m4mbfu",
+   "key": "explosive-strength",
+   "preferred_name": "Explosive Strength",
+   "kind": "ability",
+   "definition": "The ability to use short bursts of muscle force to propel oneself (as in jumping or sprinting), or to throw an object.",
+   "identifiers": [
+    {
+     "scheme": "onet-element",
+     "code": "1.A.3.a.2"
+    }
+   ],
+   "variants": [],
+   "relations": [],
+   "verbs": [],
+   "status": "proposed",
+   "provenance": {
+    "source": "imported from O*NET 30.2 Abilities (USDOL/ETA, CC BY 4.0) via jobs.humanitarians.ai data/explorer/ability-directory.json, run 2026-10-29-onet-abilities-import, definitions sha256 909f6ce0b437",
+    "date": "2026-10-29",
+    "review": "Awaiting taxonomy owner review",
+    "reviewed_by": null
+   },
+   "evidence": [
+    {
+     "field": "kind",
+     "by": "source:onet-30.2",
+     "action": "matched_source",
+     "kind": "onet",
+     "verification": "dump-match",
+     "outcome": "supports",
+     "ref": "onet:1.A.3.a.2",
+     "date": "2026-10-29",
+     "run": "2026-10-29-onet-abilities-import",
+     "note": "O*NET 30.2 lists it under Abilities, physical, Physical Strength Abilities",
+     "organization": {
+      "name": "O*NET, U.S. Department of Labor, Employment and Training Administration",
+      "url": "https://www.onetcenter.org/",
+      "type": "government",
+      "country": "US"
+     },
+     "match": {
+      "dataset": "onet-30.2",
+      "dataset_id": "1.A.3.a.2",
+      "method": "import",
+      "categories": [
+       "Abilities",
+       "physical",
+       "Physical Strength Abilities"
+      ]
+     }
+    },
+    {
+     "field": "definition",
+     "by": "source:onet-30.2",
+     "action": "matched_source",
+     "kind": "onet",
+     "verification": "dump-match",
+     "outcome": "supports",
+     "ref": "onet:1.A.3.a.2",
+     "date": "2026-10-29",
+     "run": "2026-10-29-onet-abilities-import",
+     "note": "the definition is O*NET 30.2's text",
+     "organization": {
+      "name": "O*NET, U.S. Department of Labor, Employment and Training Administration",
+      "url": "https://www.onetcenter.org/",
+      "type": "government",
+      "country": "US"
+     },
+     "match": {
+      "dataset": "onet-30.2",
+      "dataset_id": "1.A.3.a.2",
+      "method": "import",
+      "categories": [
+       "Abilities",
+       "physical",
+       "Physical Strength Abilities"
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "zltjecmay2",
+   "key": "extent-flexibility",
+   "preferred_name": "Extent Flexibility",
+   "kind": "ability",
+   "definition": "The ability to bend, stretch, twist, or reach with your body, arms, and/or legs.",
+   "identifiers": [
+    {
+     "scheme": "onet-element",
+     "code": "1.A.3.c.1"
+    }
+   ],
+   "variants": [],
+   "relations": [],
+   "verbs": [],
+   "status": "proposed",
+   "provenance": {
+    "source": "imported from O*NET 30.2 Abilities (USDOL/ETA, CC BY 4.0) via jobs.humanitarians.ai data/explorer/ability-directory.json, run 2026-10-29-onet-abilities-import, definitions sha256 909f6ce0b437",
+    "date": "2026-10-29",
+    "review": "Awaiting taxonomy owner review",
+    "reviewed_by": null
+   },
+   "evidence": [
+    {
+     "field": "kind",
+     "by": "source:onet-30.2",
+     "action": "matched_source",
+     "kind": "onet",
+     "verification": "dump-match",
+     "outcome": "supports",
+     "ref": "onet:1.A.3.c.1",
+     "date": "2026-10-29",
+     "run": "2026-10-29-onet-abilities-import",
+     "note": "O*NET 30.2 lists it under Abilities, physical, Flexibility, Balance, and Coordination",
+     "organization": {
+      "name": "O*NET, U.S. Department of Labor, Employment and Training Administration",
+      "url": "https://www.onetcenter.org/",
+      "type": "government",
+      "country": "US"
+     },
+     "match": {
+      "dataset": "onet-30.2",
+      "dataset_id": "1.A.3.c.1",
+      "method": "import",
+      "categories": [
+       "Abilities",
+       "physical",
+       "Flexibility, Balance, and Coordination"
+      ]
+     }
+    },
+    {
+     "field": "definition",
+     "by": "source:onet-30.2",
+     "action": "matched_source",
+     "kind": "onet",
+     "verification": "dump-match",
+     "outcome": "supports",
+     "ref": "onet:1.A.3.c.1",
+     "date": "2026-10-29",
+     "run": "2026-10-29-onet-abilities-import",
+     "note": "the definition is O*NET 30.2's text",
+     "organization": {
+      "name": "O*NET, U.S. Department of Labor, Employment and Training Administration",
+      "url": "https://www.onetcenter.org/",
+      "type": "government",
+      "country": "US"
+     },
+     "match": {
+      "dataset": "onet-30.2",
+      "dataset_id": "1.A.3.c.1",
+      "method": "import",
+      "categories": [
+       "Abilities",
+       "physical",
+       "Flexibility, Balance, and Coordination"
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "liqhm0notn",
+   "key": "far-vision",
+   "preferred_name": "Far Vision",
+   "kind": "ability",
+   "definition": "The ability to see details at a distance.",
+   "identifiers": [
+    {
+     "scheme": "onet-element",
+     "code": "1.A.4.a.2"
+    }
+   ],
+   "variants": [],
+   "relations": [],
+   "verbs": [],
+   "status": "proposed",
+   "provenance": {
+    "source": "imported from O*NET 30.2 Abilities (USDOL/ETA, CC BY 4.0) via jobs.humanitarians.ai data/explorer/ability-directory.json, run 2026-10-29-onet-abilities-import, definitions sha256 909f6ce0b437",
+    "date": "2026-10-29",
+    "review": "Awaiting taxonomy owner review",
+    "reviewed_by": null
+   },
+   "evidence": [
+    {
+     "field": "kind",
+     "by": "source:onet-30.2",
+     "action": "matched_source",
+     "kind": "onet",
+     "verification": "dump-match",
+     "outcome": "supports",
+     "ref": "onet:1.A.4.a.2",
+     "date": "2026-10-29",
+     "run": "2026-10-29-onet-abilities-import",
+     "note": "O*NET 30.2 lists it under Abilities, sensory, Visual Abilities",
+     "organization": {
+      "name": "O*NET, U.S. Department of Labor, Employment and Training Administration",
+      "url": "https://www.onetcenter.org/",
+      "type": "government",
+      "country": "US"
+     },
+     "match": {
+      "dataset": "onet-30.2",
+      "dataset_id": "1.A.4.a.2",
+      "method": "import",
+      "categories": [
+       "Abilities",
+       "sensory",
+       "Visual Abilities"
+      ]
+     }
+    },
+    {
+     "field": "definition",
+     "by": "source:onet-30.2",
+     "action": "matched_source",
+     "kind": "onet",
+     "verification": "dump-match",
+     "outcome": "supports",
+     "ref": "onet:1.A.4.a.2",
+     "date": "2026-10-29",
+     "run": "2026-10-29-onet-abilities-import",
+     "note": "the definition is O*NET 30.2's text",
+     "organization": {
+      "name": "O*NET, U.S. Department of Labor, Employment and Training Administration",
+      "url": "https://www.onetcenter.org/",
+      "type": "government",
+      "country": "US"
+     },
+     "match": {
+      "dataset": "onet-30.2",
+      "dataset_id": "1.A.4.a.2",
+      "method": "import",
+      "categories": [
+       "Abilities",
+       "sensory",
+       "Visual Abilities"
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "v9gfz4advt",
+   "key": "finger-dexterity",
+   "preferred_name": "Finger Dexterity",
+   "kind": "ability",
+   "definition": "The ability to make precisely coordinated movements of the fingers of one or both hands to grasp, manipulate, or assemble very small objects.",
+   "identifiers": [
+    {
+     "scheme": "onet-element",
+     "code": "1.A.2.a.3"
+    }
+   ],
+   "variants": [],
+   "relations": [],
+   "verbs": [],
+   "status": "proposed",
+   "provenance": {
+    "source": "imported from O*NET 30.2 Abilities (USDOL/ETA, CC BY 4.0) via jobs.humanitarians.ai data/explorer/ability-directory.json, run 2026-10-29-onet-abilities-import, definitions sha256 909f6ce0b437",
+    "date": "2026-10-29",
+    "review": "Awaiting taxonomy owner review",
+    "reviewed_by": null
+   },
+   "evidence": [
+    {
+     "field": "kind",
+     "by": "source:onet-30.2",
+     "action": "matched_source",
+     "kind": "onet",
+     "verification": "dump-match",
+     "outcome": "supports",
+     "ref": "onet:1.A.2.a.3",
+     "date": "2026-10-29",
+     "run": "2026-10-29-onet-abilities-import",
+     "note": "O*NET 30.2 lists it under Abilities, psychomotor, Fine Manipulative Abilities",
+     "organization": {
+      "name": "O*NET, U.S. Department of Labor, Employment and Training Administration",
+      "url": "https://www.onetcenter.org/",
+      "type": "government",
+      "country": "US"
+     },
+     "match": {
+      "dataset": "onet-30.2",
+      "dataset_id": "1.A.2.a.3",
+      "method": "import",
+      "categories": [
+       "Abilities",
+       "psychomotor",
+       "Fine Manipulative Abilities"
+      ]
+     }
+    },
+    {
+     "field": "definition",
+     "by": "source:onet-30.2",
+     "action": "matched_source",
+     "kind": "onet",
+     "verification": "dump-match",
+     "outcome": "supports",
+     "ref": "onet:1.A.2.a.3",
+     "date": "2026-10-29",
+     "run": "2026-10-29-onet-abilities-import",
+     "note": "the definition is O*NET 30.2's text",
+     "organization": {
+      "name": "O*NET, U.S. Department of Labor, Employment and Training Administration",
+      "url": "https://www.onetcenter.org/",
+      "type": "government",
+      "country": "US"
+     },
+     "match": {
+      "dataset": "onet-30.2",
+      "dataset_id": "1.A.2.a.3",
+      "method": "import",
+      "categories": [
+       "Abilities",
+       "psychomotor",
+       "Fine Manipulative Abilities"
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "jy0dtiz3ve",
+   "key": "flexibility-of-closure",
+   "preferred_name": "Flexibility of Closure",
+   "kind": "ability",
+   "definition": "The ability to identify or detect a known pattern (a figure, object, word, or sound) that is hidden in other distracting material.",
+   "identifiers": [
+    {
+     "scheme": "onet-element",
+     "code": "1.A.1.e.2"
+    }
+   ],
+   "variants": [],
+   "relations": [],
+   "verbs": [],
+   "status": "proposed",
+   "provenance": {
+    "source": "imported from O*NET 30.2 Abilities (USDOL/ETA, CC BY 4.0) via jobs.humanitarians.ai data/explorer/ability-directory.json, run 2026-10-29-onet-abilities-import, definitions sha256 909f6ce0b437",
+    "date": "2026-10-29",
+    "review": "Awaiting taxonomy owner review",
+    "reviewed_by": null
+   },
+   "evidence": [
+    {
+     "field": "kind",
+     "by": "source:onet-30.2",
+     "action": "matched_source",
+     "kind": "onet",
+     "verification": "dump-match",
+     "outcome": "supports",
+     "ref": "onet:1.A.1.e.2",
+     "date": "2026-10-29",
+     "run": "2026-10-29-onet-abilities-import",
+     "note": "O*NET 30.2 lists it under Abilities, cognitive, Perceptual Abilities",
+     "organization": {
+      "name": "O*NET, U.S. Department of Labor, Employment and Training Administration",
+      "url": "https://www.onetcenter.org/",
+      "type": "government",
+      "country": "US"
+     },
+     "match": {
+      "dataset": "onet-30.2",
+      "dataset_id": "1.A.1.e.2",
+      "method": "import",
+      "categories": [
+       "Abilities",
+       "cognitive",
+       "Perceptual Abilities"
+      ]
+     }
+    },
+    {
+     "field": "definition",
+     "by": "source:onet-30.2",
+     "action": "matched_source",
+     "kind": "onet",
+     "verification": "dump-match",
+     "outcome": "supports",
+     "ref": "onet:1.A.1.e.2",
+     "date": "2026-10-29",
+     "run": "2026-10-29-onet-abilities-import",
+     "note": "the definition is O*NET 30.2's text",
+     "organization": {
+      "name": "O*NET, U.S. Department of Labor, Employment and Training Administration",
+      "url": "https://www.onetcenter.org/",
+      "type": "government",
+      "country": "US"
+     },
+     "match": {
+      "dataset": "onet-30.2",
+      "dataset_id": "1.A.1.e.2",
+      "method": "import",
+      "categories": [
+       "Abilities",
+       "cognitive",
+       "Perceptual Abilities"
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "pkfc0dzkvm",
+   "key": "fluency-of-ideas",
+   "preferred_name": "Fluency of Ideas",
+   "kind": "ability",
+   "definition": "The ability to come up with a number of ideas about a topic (the number of ideas is important, not their quality, correctness, or creativity).",
+   "identifiers": [
+    {
+     "scheme": "onet-element",
+     "code": "1.A.1.b.1"
+    }
+   ],
+   "variants": [],
+   "relations": [],
+   "verbs": [],
+   "status": "proposed",
+   "provenance": {
+    "source": "imported from O*NET 30.2 Abilities (USDOL/ETA, CC BY 4.0) via jobs.humanitarians.ai data/explorer/ability-directory.json, run 2026-10-29-onet-abilities-import, definitions sha256 909f6ce0b437",
+    "date": "2026-10-29",
+    "review": "Awaiting taxonomy owner review",
+    "reviewed_by": null
+   },
+   "evidence": [
+    {
+     "field": "kind",
+     "by": "source:onet-30.2",
+     "action": "matched_source",
+     "kind": "onet",
+     "verification": "dump-match",
+     "outcome": "supports",
+     "ref": "onet:1.A.1.b.1",
+     "date": "2026-10-29",
+     "run": "2026-10-29-onet-abilities-import",
+     "note": "O*NET 30.2 lists it under Abilities, cognitive, Idea Generation and Reasoning Abilities",
+     "organization": {
+      "name": "O*NET, U.S. Department of Labor, Employment and Training Administration",
+      "url": "https://www.onetcenter.org/",
+      "type": "government",
+      "country": "US"
+     },
+     "match": {
+      "dataset": "onet-30.2",
+      "dataset_id": "1.A.1.b.1",
+      "method": "import",
+      "categories": [
+       "Abilities",
+       "cognitive",
+       "Idea Generation and Reasoning Abilities"
+      ]
+     }
+    },
+    {
+     "field": "definition",
+     "by": "source:onet-30.2",
+     "action": "matched_source",
+     "kind": "onet",
+     "verification": "dump-match",
+     "outcome": "supports",
+     "ref": "onet:1.A.1.b.1",
+     "date": "2026-10-29",
+     "run": "2026-10-29-onet-abilities-import",
+     "note": "the definition is O*NET 30.2's text",
+     "organization": {
+      "name": "O*NET, U.S. Department of Labor, Employment and Training Administration",
+      "url": "https://www.onetcenter.org/",
+      "type": "government",
+      "country": "US"
+     },
+     "match": {
+      "dataset": "onet-30.2",
+      "dataset_id": "1.A.1.b.1",
+      "method": "import",
+      "categories": [
+       "Abilities",
+       "cognitive",
+       "Idea Generation and Reasoning Abilities"
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "q9yyh6jazh",
+   "key": "glare-sensitivity",
+   "preferred_name": "Glare Sensitivity",
+   "kind": "ability",
+   "definition": "The ability to see objects in the presence of a glare or bright lighting.",
+   "identifiers": [
+    {
+     "scheme": "onet-element",
+     "code": "1.A.4.a.7"
+    }
+   ],
+   "variants": [],
+   "relations": [],
+   "verbs": [],
+   "status": "proposed",
+   "provenance": {
+    "source": "imported from O*NET 30.2 Abilities (USDOL/ETA, CC BY 4.0) via jobs.humanitarians.ai data/explorer/ability-directory.json, run 2026-10-29-onet-abilities-import, definitions sha256 909f6ce0b437",
+    "date": "2026-10-29",
+    "review": "Awaiting taxonomy owner review",
+    "reviewed_by": null
+   },
+   "evidence": [
+    {
+     "field": "kind",
+     "by": "source:onet-30.2",
+     "action": "matched_source",
+     "kind": "onet",
+     "verification": "dump-match",
+     "outcome": "supports",
+     "ref": "onet:1.A.4.a.7",
+     "date": "2026-10-29",
+     "run": "2026-10-29-onet-abilities-import",
+     "note": "O*NET 30.2 lists it under Abilities, sensory, Visual Abilities",
+     "organization": {
+      "name": "O*NET, U.S. Department of Labor, Employment and Training Administration",
+      "url": "https://www.onetcenter.org/",
+      "type": "government",
+      "country": "US"
+     },
+     "match": {
+      "dataset": "onet-30.2",
+      "dataset_id": "1.A.4.a.7",
+      "method": "import",
+      "categories": [
+       "Abilities",
+       "sensory",
+       "Visual Abilities"
+      ]
+     }
+    },
+    {
+     "field": "definition",
+     "by": "source:onet-30.2",
+     "action": "matched_source",
+     "kind": "onet",
+     "verification": "dump-match",
+     "outcome": "supports",
+     "ref": "onet:1.A.4.a.7",
+     "date": "2026-10-29",
+     "run": "2026-10-29-onet-abilities-import",
+     "note": "the definition is O*NET 30.2's text",
+     "organization": {
+      "name": "O*NET, U.S. Department of Labor, Employment and Training Administration",
+      "url": "https://www.onetcenter.org/",
+      "type": "government",
+      "country": "US"
+     },
+     "match": {
+      "dataset": "onet-30.2",
+      "dataset_id": "1.A.4.a.7",
+      "method": "import",
+      "categories": [
+       "Abilities",
+       "sensory",
+       "Visual Abilities"
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "wx2f68rm4b",
+   "key": "gross-body-coordination",
+   "preferred_name": "Gross Body Coordination",
+   "kind": "ability",
+   "definition": "The ability to coordinate the movement of your arms, legs, and torso together when the whole body is in motion.",
+   "identifiers": [
+    {
+     "scheme": "onet-element",
+     "code": "1.A.3.c.3"
+    }
+   ],
+   "variants": [],
+   "relations": [],
+   "verbs": [],
+   "status": "proposed",
+   "provenance": {
+    "source": "imported from O*NET 30.2 Abilities (USDOL/ETA, CC BY 4.0) via jobs.humanitarians.ai data/explorer/ability-directory.json, run 2026-10-29-onet-abilities-import, definitions sha256 909f6ce0b437",
+    "date": "2026-10-29",
+    "review": "Awaiting taxonomy owner review",
+    "reviewed_by": null
+   },
+   "evidence": [
+    {
+     "field": "kind",
+     "by": "source:onet-30.2",
+     "action": "matched_source",
+     "kind": "onet",
+     "verification": "dump-match",
+     "outcome": "supports",
+     "ref": "onet:1.A.3.c.3",
+     "date": "2026-10-29",
+     "run": "2026-10-29-onet-abilities-import",
+     "note": "O*NET 30.2 lists it under Abilities, physical, Flexibility, Balance, and Coordination",
+     "organization": {
+      "name": "O*NET, U.S. Department of Labor, Employment and Training Administration",
+      "url": "https://www.onetcenter.org/",
+      "type": "government",
+      "country": "US"
+     },
+     "match": {
+      "dataset": "onet-30.2",
+      "dataset_id": "1.A.3.c.3",
+      "method": "import",
+      "categories": [
+       "Abilities",
+       "physical",
+       "Flexibility, Balance, and Coordination"
+      ]
+     }
+    },
+    {
+     "field": "definition",
+     "by": "source:onet-30.2",
+     "action": "matched_source",
+     "kind": "onet",
+     "verification": "dump-match",
+     "outcome": "supports",
+     "ref": "onet:1.A.3.c.3",
+     "date": "2026-10-29",
+     "run": "2026-10-29-onet-abilities-import",
+     "note": "the definition is O*NET 30.2's text",
+     "organization": {
+      "name": "O*NET, U.S. Department of Labor, Employment and Training Administration",
+      "url": "https://www.onetcenter.org/",
+      "type": "government",
+      "country": "US"
+     },
+     "match": {
+      "dataset": "onet-30.2",
+      "dataset_id": "1.A.3.c.3",
+      "method": "import",
+      "categories": [
+       "Abilities",
+       "physical",
+       "Flexibility, Balance, and Coordination"
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "j2f27wcnfn",
+   "key": "gross-body-equilibrium",
+   "preferred_name": "Gross Body Equilibrium",
+   "kind": "ability",
+   "definition": "The ability to keep or regain your body balance or stay upright when in an unstable position.",
+   "identifiers": [
+    {
+     "scheme": "onet-element",
+     "code": "1.A.3.c.4"
+    }
+   ],
+   "variants": [],
+   "relations": [],
+   "verbs": [],
+   "status": "proposed",
+   "provenance": {
+    "source": "imported from O*NET 30.2 Abilities (USDOL/ETA, CC BY 4.0) via jobs.humanitarians.ai data/explorer/ability-directory.json, run 2026-10-29-onet-abilities-import, definitions sha256 909f6ce0b437",
+    "date": "2026-10-29",
+    "review": "Awaiting taxonomy owner review",
+    "reviewed_by": null
+   },
+   "evidence": [
+    {
+     "field": "kind",
+     "by": "source:onet-30.2",
+     "action": "matched_source",
+     "kind": "onet",
+     "verification": "dump-match",
+     "outcome": "supports",
+     "ref": "onet:1.A.3.c.4",
+     "date": "2026-10-29",
+     "run": "2026-10-29-onet-abilities-import",
+     "note": "O*NET 30.2 lists it under Abilities, physical, Flexibility, Balance, and Coordination",
+     "organization": {
+      "name": "O*NET, U.S. Department of Labor, Employment and Training Administration",
+      "url": "https://www.onetcenter.org/",
+      "type": "government",
+      "country": "US"
+     },
+     "match": {
+      "dataset": "onet-30.2",
+      "dataset_id": "1.A.3.c.4",
+      "method": "import",
+      "categories": [
+       "Abilities",
+       "physical",
+       "Flexibility, Balance, and Coordination"
+      ]
+     }
+    },
+    {
+     "field": "definition",
+     "by": "source:onet-30.2",
+     "action": "matched_source",
+     "kind": "onet",
+     "verification": "dump-match",
+     "outcome": "supports",
+     "ref": "onet:1.A.3.c.4",
+     "date": "2026-10-29",
+     "run": "2026-10-29-onet-abilities-import",
+     "note": "the definition is O*NET 30.2's text",
+     "organization": {
+      "name": "O*NET, U.S. Department of Labor, Employment and Training Administration",
+      "url": "https://www.onetcenter.org/",
+      "type": "government",
+      "country": "US"
+     },
+     "match": {
+      "dataset": "onet-30.2",
+      "dataset_id": "1.A.3.c.4",
+      "method": "import",
+      "categories": [
+       "Abilities",
+       "physical",
+       "Flexibility, Balance, and Coordination"
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "huqfhwdt71",
+   "key": "hearing-sensitivity",
+   "preferred_name": "Hearing Sensitivity",
+   "kind": "ability",
+   "definition": "The ability to detect or tell the differences between sounds that vary in pitch and loudness.",
+   "identifiers": [
+    {
+     "scheme": "onet-element",
+     "code": "1.A.4.b.1"
+    }
+   ],
+   "variants": [],
+   "relations": [],
+   "verbs": [],
+   "status": "proposed",
+   "provenance": {
+    "source": "imported from O*NET 30.2 Abilities (USDOL/ETA, CC BY 4.0) via jobs.humanitarians.ai data/explorer/ability-directory.json, run 2026-10-29-onet-abilities-import, definitions sha256 909f6ce0b437",
+    "date": "2026-10-29",
+    "review": "Awaiting taxonomy owner review",
+    "reviewed_by": null
+   },
+   "evidence": [
+    {
+     "field": "kind",
+     "by": "source:onet-30.2",
+     "action": "matched_source",
+     "kind": "onet",
+     "verification": "dump-match",
+     "outcome": "supports",
+     "ref": "onet:1.A.4.b.1",
+     "date": "2026-10-29",
+     "run": "2026-10-29-onet-abilities-import",
+     "note": "O*NET 30.2 lists it under Abilities, sensory, Auditory and Speech Abilities",
+     "organization": {
+      "name": "O*NET, U.S. Department of Labor, Employment and Training Administration",
+      "url": "https://www.onetcenter.org/",
+      "type": "government",
+      "country": "US"
+     },
+     "match": {
+      "dataset": "onet-30.2",
+      "dataset_id": "1.A.4.b.1",
+      "method": "import",
+      "categories": [
+       "Abilities",
+       "sensory",
+       "Auditory and Speech Abilities"
+      ]
+     }
+    },
+    {
+     "field": "definition",
+     "by": "source:onet-30.2",
+     "action": "matched_source",
+     "kind": "onet",
+     "verification": "dump-match",
+     "outcome": "supports",
+     "ref": "onet:1.A.4.b.1",
+     "date": "2026-10-29",
+     "run": "2026-10-29-onet-abilities-import",
+     "note": "the definition is O*NET 30.2's text",
+     "organization": {
+      "name": "O*NET, U.S. Department of Labor, Employment and Training Administration",
+      "url": "https://www.onetcenter.org/",
+      "type": "government",
+      "country": "US"
+     },
+     "match": {
+      "dataset": "onet-30.2",
+      "dataset_id": "1.A.4.b.1",
+      "method": "import",
+      "categories": [
+       "Abilities",
+       "sensory",
+       "Auditory and Speech Abilities"
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "xk73ola6io",
+   "key": "inductive-reasoning",
+   "preferred_name": "Inductive Reasoning",
+   "kind": "ability",
+   "definition": "The ability to combine pieces of information to form general rules or conclusions (includes finding a relationship among seemingly unrelated events).",
+   "identifiers": [
+    {
+     "scheme": "onet-element",
+     "code": "1.A.1.b.5"
+    }
+   ],
+   "variants": [],
+   "relations": [],
+   "verbs": [],
+   "status": "proposed",
+   "provenance": {
+    "source": "imported from O*NET 30.2 Abilities (USDOL/ETA, CC BY 4.0) via jobs.humanitarians.ai data/explorer/ability-directory.json, run 2026-10-29-onet-abilities-import, definitions sha256 909f6ce0b437",
+    "date": "2026-10-29",
+    "review": "Awaiting taxonomy owner review",
+    "reviewed_by": null
+   },
+   "evidence": [
+    {
+     "field": "kind",
+     "by": "source:onet-30.2",
+     "action": "matched_source",
+     "kind": "onet",
+     "verification": "dump-match",
+     "outcome": "supports",
+     "ref": "onet:1.A.1.b.5",
+     "date": "2026-10-29",
+     "run": "2026-10-29-onet-abilities-import",
+     "note": "O*NET 30.2 lists it under Abilities, cognitive, Idea Generation and Reasoning Abilities",
+     "organization": {
+      "name": "O*NET, U.S. Department of Labor, Employment and Training Administration",
+      "url": "https://www.onetcenter.org/",
+      "type": "government",
+      "country": "US"
+     },
+     "match": {
+      "dataset": "onet-30.2",
+      "dataset_id": "1.A.1.b.5",
+      "method": "import",
+      "categories": [
+       "Abilities",
+       "cognitive",
+       "Idea Generation and Reasoning Abilities"
+      ]
+     }
+    },
+    {
+     "field": "definition",
+     "by": "source:onet-30.2",
+     "action": "matched_source",
+     "kind": "onet",
+     "verification": "dump-match",
+     "outcome": "supports",
+     "ref": "onet:1.A.1.b.5",
+     "date": "2026-10-29",
+     "run": "2026-10-29-onet-abilities-import",
+     "note": "the definition is O*NET 30.2's text",
+     "organization": {
+      "name": "O*NET, U.S. Department of Labor, Employment and Training Administration",
+      "url": "https://www.onetcenter.org/",
+      "type": "government",
+      "country": "US"
+     },
+     "match": {
+      "dataset": "onet-30.2",
+      "dataset_id": "1.A.1.b.5",
+      "method": "import",
+      "categories": [
+       "Abilities",
+       "cognitive",
+       "Idea Generation and Reasoning Abilities"
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "xw3kcuaybt",
+   "key": "information-ordering",
+   "preferred_name": "Information Ordering",
+   "kind": "ability",
+   "definition": "The ability to arrange things or actions in a certain order or pattern according to a specific rule or set of rules (e.g., patterns of numbers, letters, words, pictures, mathematical operations).",
+   "identifiers": [
+    {
+     "scheme": "onet-element",
+     "code": "1.A.1.b.6"
+    }
+   ],
+   "variants": [],
+   "relations": [],
+   "verbs": [],
+   "status": "proposed",
+   "provenance": {
+    "source": "imported from O*NET 30.2 Abilities (USDOL/ETA, CC BY 4.0) via jobs.humanitarians.ai data/explorer/ability-directory.json, run 2026-10-29-onet-abilities-import, definitions sha256 909f6ce0b437",
+    "date": "2026-10-29",
+    "review": "Awaiting taxonomy owner review",
+    "reviewed_by": null
+   },
+   "evidence": [
+    {
+     "field": "kind",
+     "by": "source:onet-30.2",
+     "action": "matched_source",
+     "kind": "onet",
+     "verification": "dump-match",
+     "outcome": "supports",
+     "ref": "onet:1.A.1.b.6",
+     "date": "2026-10-29",
+     "run": "2026-10-29-onet-abilities-import",
+     "note": "O*NET 30.2 lists it under Abilities, cognitive, Idea Generation and Reasoning Abilities",
+     "organization": {
+      "name": "O*NET, U.S. Department of Labor, Employment and Training Administration",
+      "url": "https://www.onetcenter.org/",
+      "type": "government",
+      "country": "US"
+     },
+     "match": {
+      "dataset": "onet-30.2",
+      "dataset_id": "1.A.1.b.6",
+      "method": "import",
+      "categories": [
+       "Abilities",
+       "cognitive",
+       "Idea Generation and Reasoning Abilities"
+      ]
+     }
+    },
+    {
+     "field": "definition",
+     "by": "source:onet-30.2",
+     "action": "matched_source",
+     "kind": "onet",
+     "verification": "dump-match",
+     "outcome": "supports",
+     "ref": "onet:1.A.1.b.6",
+     "date": "2026-10-29",
+     "run": "2026-10-29-onet-abilities-import",
+     "note": "the definition is O*NET 30.2's text",
+     "organization": {
+      "name": "O*NET, U.S. Department of Labor, Employment and Training Administration",
+      "url": "https://www.onetcenter.org/",
+      "type": "government",
+      "country": "US"
+     },
+     "match": {
+      "dataset": "onet-30.2",
+      "dataset_id": "1.A.1.b.6",
+      "method": "import",
+      "categories": [
+       "Abilities",
+       "cognitive",
+       "Idea Generation and Reasoning Abilities"
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "jc7evcedfy",
+   "key": "manual-dexterity",
+   "preferred_name": "Manual Dexterity",
+   "kind": "ability",
+   "definition": "The ability to quickly move your hand, your hand together with your arm, or your two hands to grasp, manipulate, or assemble objects.",
+   "identifiers": [
+    {
+     "scheme": "onet-element",
+     "code": "1.A.2.a.2"
+    }
+   ],
+   "variants": [],
+   "relations": [],
+   "verbs": [],
+   "status": "proposed",
+   "provenance": {
+    "source": "imported from O*NET 30.2 Abilities (USDOL/ETA, CC BY 4.0) via jobs.humanitarians.ai data/explorer/ability-directory.json, run 2026-10-29-onet-abilities-import, definitions sha256 909f6ce0b437",
+    "date": "2026-10-29",
+    "review": "Awaiting taxonomy owner review",
+    "reviewed_by": null
+   },
+   "evidence": [
+    {
+     "field": "kind",
+     "by": "source:onet-30.2",
+     "action": "matched_source",
+     "kind": "onet",
+     "verification": "dump-match",
+     "outcome": "supports",
+     "ref": "onet:1.A.2.a.2",
+     "date": "2026-10-29",
+     "run": "2026-10-29-onet-abilities-import",
+     "note": "O*NET 30.2 lists it under Abilities, psychomotor, Fine Manipulative Abilities",
+     "organization": {
+      "name": "O*NET, U.S. Department of Labor, Employment and Training Administration",
+      "url": "https://www.onetcenter.org/",
+      "type": "government",
+      "country": "US"
+     },
+     "match": {
+      "dataset": "onet-30.2",
+      "dataset_id": "1.A.2.a.2",
+      "method": "import",
+      "categories": [
+       "Abilities",
+       "psychomotor",
+       "Fine Manipulative Abilities"
+      ]
+     }
+    },
+    {
+     "field": "definition",
+     "by": "source:onet-30.2",
+     "action": "matched_source",
+     "kind": "onet",
+     "verification": "dump-match",
+     "outcome": "supports",
+     "ref": "onet:1.A.2.a.2",
+     "date": "2026-10-29",
+     "run": "2026-10-29-onet-abilities-import",
+     "note": "the definition is O*NET 30.2's text",
+     "organization": {
+      "name": "O*NET, U.S. Department of Labor, Employment and Training Administration",
+      "url": "https://www.onetcenter.org/",
+      "type": "government",
+      "country": "US"
+     },
+     "match": {
+      "dataset": "onet-30.2",
+      "dataset_id": "1.A.2.a.2",
+      "method": "import",
+      "categories": [
+       "Abilities",
+       "psychomotor",
+       "Fine Manipulative Abilities"
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "ec2b8ggmp3",
+   "key": "mathematical-reasoning",
+   "preferred_name": "Mathematical Reasoning",
+   "kind": "ability",
+   "definition": "The ability to choose the right mathematical methods or formulas to solve a problem.",
+   "identifiers": [
+    {
+     "scheme": "onet-element",
+     "code": "1.A.1.c.1"
+    }
+   ],
+   "variants": [],
+   "relations": [],
+   "verbs": [],
+   "status": "proposed",
+   "provenance": {
+    "source": "imported from O*NET 30.2 Abilities (USDOL/ETA, CC BY 4.0) via jobs.humanitarians.ai data/explorer/ability-directory.json, run 2026-10-29-onet-abilities-import, definitions sha256 909f6ce0b437",
+    "date": "2026-10-29",
+    "review": "Awaiting taxonomy owner review",
+    "reviewed_by": null
+   },
+   "evidence": [
+    {
+     "field": "kind",
+     "by": "source:onet-30.2",
+     "action": "matched_source",
+     "kind": "onet",
+     "verification": "dump-match",
+     "outcome": "supports",
+     "ref": "onet:1.A.1.c.1",
+     "date": "2026-10-29",
+     "run": "2026-10-29-onet-abilities-import",
+     "note": "O*NET 30.2 lists it under Abilities, cognitive, Quantitative Abilities",
+     "organization": {
+      "name": "O*NET, U.S. Department of Labor, Employment and Training Administration",
+      "url": "https://www.onetcenter.org/",
+      "type": "government",
+      "country": "US"
+     },
+     "match": {
+      "dataset": "onet-30.2",
+      "dataset_id": "1.A.1.c.1",
+      "method": "import",
+      "categories": [
+       "Abilities",
+       "cognitive",
+       "Quantitative Abilities"
+      ]
+     }
+    },
+    {
+     "field": "definition",
+     "by": "source:onet-30.2",
+     "action": "matched_source",
+     "kind": "onet",
+     "verification": "dump-match",
+     "outcome": "supports",
+     "ref": "onet:1.A.1.c.1",
+     "date": "2026-10-29",
+     "run": "2026-10-29-onet-abilities-import",
+     "note": "the definition is O*NET 30.2's text",
+     "organization": {
+      "name": "O*NET, U.S. Department of Labor, Employment and Training Administration",
+      "url": "https://www.onetcenter.org/",
+      "type": "government",
+      "country": "US"
+     },
+     "match": {
+      "dataset": "onet-30.2",
+      "dataset_id": "1.A.1.c.1",
+      "method": "import",
+      "categories": [
+       "Abilities",
+       "cognitive",
+       "Quantitative Abilities"
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "jh2rauw9ao",
+   "key": "memorization",
+   "preferred_name": "Memorization",
+   "kind": "ability",
+   "definition": "The ability to remember information such as words, numbers, pictures, and procedures.",
+   "identifiers": [
+    {
+     "scheme": "onet-element",
+     "code": "1.A.1.d.1"
+    }
+   ],
+   "variants": [],
+   "relations": [],
+   "verbs": [],
+   "status": "proposed",
+   "provenance": {
+    "source": "imported from O*NET 30.2 Abilities (USDOL/ETA, CC BY 4.0) via jobs.humanitarians.ai data/explorer/ability-directory.json, run 2026-10-29-onet-abilities-import, definitions sha256 909f6ce0b437",
+    "date": "2026-10-29",
+    "review": "Awaiting taxonomy owner review",
+    "reviewed_by": null
+   },
+   "evidence": [
+    {
+     "field": "kind",
+     "by": "source:onet-30.2",
+     "action": "matched_source",
+     "kind": "onet",
+     "verification": "dump-match",
+     "outcome": "supports",
+     "ref": "onet:1.A.1.d.1",
+     "date": "2026-10-29",
+     "run": "2026-10-29-onet-abilities-import",
+     "note": "O*NET 30.2 lists it under Abilities, cognitive, Memory",
+     "organization": {
+      "name": "O*NET, U.S. Department of Labor, Employment and Training Administration",
+      "url": "https://www.onetcenter.org/",
+      "type": "government",
+      "country": "US"
+     },
+     "match": {
+      "dataset": "onet-30.2",
+      "dataset_id": "1.A.1.d.1",
+      "method": "import",
+      "categories": [
+       "Abilities",
+       "cognitive",
+       "Memory"
+      ]
+     }
+    },
+    {
+     "field": "definition",
+     "by": "source:onet-30.2",
+     "action": "matched_source",
+     "kind": "onet",
+     "verification": "dump-match",
+     "outcome": "supports",
+     "ref": "onet:1.A.1.d.1",
+     "date": "2026-10-29",
+     "run": "2026-10-29-onet-abilities-import",
+     "note": "the definition is O*NET 30.2's text",
+     "organization": {
+      "name": "O*NET, U.S. Department of Labor, Employment and Training Administration",
+      "url": "https://www.onetcenter.org/",
+      "type": "government",
+      "country": "US"
+     },
+     "match": {
+      "dataset": "onet-30.2",
+      "dataset_id": "1.A.1.d.1",
+      "method": "import",
+      "categories": [
+       "Abilities",
+       "cognitive",
+       "Memory"
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "oj8tgn6rrs",
+   "key": "multilimb-coordination",
+   "preferred_name": "Multilimb Coordination",
+   "kind": "ability",
+   "definition": "The ability to coordinate two or more limbs (for example, two arms, two legs, or one leg and one arm) while sitting, standing, or lying down. It does not involve performing the activities while the whole body is in motion.",
+   "identifiers": [
+    {
+     "scheme": "onet-element",
+     "code": "1.A.2.b.2"
+    }
+   ],
+   "variants": [],
+   "relations": [],
+   "verbs": [],
+   "status": "proposed",
+   "provenance": {
+    "source": "imported from O*NET 30.2 Abilities (USDOL/ETA, CC BY 4.0) via jobs.humanitarians.ai data/explorer/ability-directory.json, run 2026-10-29-onet-abilities-import, definitions sha256 909f6ce0b437",
+    "date": "2026-10-29",
+    "review": "Awaiting taxonomy owner review",
+    "reviewed_by": null
+   },
+   "evidence": [
+    {
+     "field": "kind",
+     "by": "source:onet-30.2",
+     "action": "matched_source",
+     "kind": "onet",
+     "verification": "dump-match",
+     "outcome": "supports",
+     "ref": "onet:1.A.2.b.2",
+     "date": "2026-10-29",
+     "run": "2026-10-29-onet-abilities-import",
+     "note": "O*NET 30.2 lists it under Abilities, psychomotor, Control Movement Abilities",
+     "organization": {
+      "name": "O*NET, U.S. Department of Labor, Employment and Training Administration",
+      "url": "https://www.onetcenter.org/",
+      "type": "government",
+      "country": "US"
+     },
+     "match": {
+      "dataset": "onet-30.2",
+      "dataset_id": "1.A.2.b.2",
+      "method": "import",
+      "categories": [
+       "Abilities",
+       "psychomotor",
+       "Control Movement Abilities"
+      ]
+     }
+    },
+    {
+     "field": "definition",
+     "by": "source:onet-30.2",
+     "action": "matched_source",
+     "kind": "onet",
+     "verification": "dump-match",
+     "outcome": "supports",
+     "ref": "onet:1.A.2.b.2",
+     "date": "2026-10-29",
+     "run": "2026-10-29-onet-abilities-import",
+     "note": "the definition is O*NET 30.2's text",
+     "organization": {
+      "name": "O*NET, U.S. Department of Labor, Employment and Training Administration",
+      "url": "https://www.onetcenter.org/",
+      "type": "government",
+      "country": "US"
+     },
+     "match": {
+      "dataset": "onet-30.2",
+      "dataset_id": "1.A.2.b.2",
+      "method": "import",
+      "categories": [
+       "Abilities",
+       "psychomotor",
+       "Control Movement Abilities"
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "gr0hvlp5yb",
+   "key": "near-vision",
+   "preferred_name": "Near Vision",
+   "kind": "ability",
+   "definition": "The ability to see details at close range (within a few feet of the observer).",
+   "identifiers": [
+    {
+     "scheme": "onet-element",
+     "code": "1.A.4.a.1"
+    }
+   ],
+   "variants": [],
+   "relations": [],
+   "verbs": [],
+   "status": "proposed",
+   "provenance": {
+    "source": "imported from O*NET 30.2 Abilities (USDOL/ETA, CC BY 4.0) via jobs.humanitarians.ai data/explorer/ability-directory.json, run 2026-10-29-onet-abilities-import, definitions sha256 909f6ce0b437",
+    "date": "2026-10-29",
+    "review": "Awaiting taxonomy owner review",
+    "reviewed_by": null
+   },
+   "evidence": [
+    {
+     "field": "kind",
+     "by": "source:onet-30.2",
+     "action": "matched_source",
+     "kind": "onet",
+     "verification": "dump-match",
+     "outcome": "supports",
+     "ref": "onet:1.A.4.a.1",
+     "date": "2026-10-29",
+     "run": "2026-10-29-onet-abilities-import",
+     "note": "O*NET 30.2 lists it under Abilities, sensory, Visual Abilities",
+     "organization": {
+      "name": "O*NET, U.S. Department of Labor, Employment and Training Administration",
+      "url": "https://www.onetcenter.org/",
+      "type": "government",
+      "country": "US"
+     },
+     "match": {
+      "dataset": "onet-30.2",
+      "dataset_id": "1.A.4.a.1",
+      "method": "import",
+      "categories": [
+       "Abilities",
+       "sensory",
+       "Visual Abilities"
+      ]
+     }
+    },
+    {
+     "field": "definition",
+     "by": "source:onet-30.2",
+     "action": "matched_source",
+     "kind": "onet",
+     "verification": "dump-match",
+     "outcome": "supports",
+     "ref": "onet:1.A.4.a.1",
+     "date": "2026-10-29",
+     "run": "2026-10-29-onet-abilities-import",
+     "note": "the definition is O*NET 30.2's text",
+     "organization": {
+      "name": "O*NET, U.S. Department of Labor, Employment and Training Administration",
+      "url": "https://www.onetcenter.org/",
+      "type": "government",
+      "country": "US"
+     },
+     "match": {
+      "dataset": "onet-30.2",
+      "dataset_id": "1.A.4.a.1",
+      "method": "import",
+      "categories": [
+       "Abilities",
+       "sensory",
+       "Visual Abilities"
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "jnssutztq4",
+   "key": "night-vision",
+   "preferred_name": "Night Vision",
+   "kind": "ability",
+   "definition": "The ability to see under low-light conditions.",
+   "identifiers": [
+    {
+     "scheme": "onet-element",
+     "code": "1.A.4.a.4"
+    }
+   ],
+   "variants": [],
+   "relations": [],
+   "verbs": [],
+   "status": "proposed",
+   "provenance": {
+    "source": "imported from O*NET 30.2 Abilities (USDOL/ETA, CC BY 4.0) via jobs.humanitarians.ai data/explorer/ability-directory.json, run 2026-10-29-onet-abilities-import, definitions sha256 909f6ce0b437",
+    "date": "2026-10-29",
+    "review": "Awaiting taxonomy owner review",
+    "reviewed_by": null
+   },
+   "evidence": [
+    {
+     "field": "kind",
+     "by": "source:onet-30.2",
+     "action": "matched_source",
+     "kind": "onet",
+     "verification": "dump-match",
+     "outcome": "supports",
+     "ref": "onet:1.A.4.a.4",
+     "date": "2026-10-29",
+     "run": "2026-10-29-onet-abilities-import",
+     "note": "O*NET 30.2 lists it under Abilities, sensory, Visual Abilities",
+     "organization": {
+      "name": "O*NET, U.S. Department of Labor, Employment and Training Administration",
+      "url": "https://www.onetcenter.org/",
+      "type": "government",
+      "country": "US"
+     },
+     "match": {
+      "dataset": "onet-30.2",
+      "dataset_id": "1.A.4.a.4",
+      "method": "import",
+      "categories": [
+       "Abilities",
+       "sensory",
+       "Visual Abilities"
+      ]
+     }
+    },
+    {
+     "field": "definition",
+     "by": "source:onet-30.2",
+     "action": "matched_source",
+     "kind": "onet",
+     "verification": "dump-match",
+     "outcome": "supports",
+     "ref": "onet:1.A.4.a.4",
+     "date": "2026-10-29",
+     "run": "2026-10-29-onet-abilities-import",
+     "note": "the definition is O*NET 30.2's text",
+     "organization": {
+      "name": "O*NET, U.S. Department of Labor, Employment and Training Administration",
+      "url": "https://www.onetcenter.org/",
+      "type": "government",
+      "country": "US"
+     },
+     "match": {
+      "dataset": "onet-30.2",
+      "dataset_id": "1.A.4.a.4",
+      "method": "import",
+      "categories": [
+       "Abilities",
+       "sensory",
+       "Visual Abilities"
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "o37ow8vloe",
+   "key": "number-facility",
+   "preferred_name": "Number Facility",
+   "kind": "ability",
+   "definition": "The ability to add, subtract, multiply, or divide quickly and correctly.",
+   "identifiers": [
+    {
+     "scheme": "onet-element",
+     "code": "1.A.1.c.2"
+    }
+   ],
+   "variants": [],
+   "relations": [],
+   "verbs": [],
+   "status": "proposed",
+   "provenance": {
+    "source": "imported from O*NET 30.2 Abilities (USDOL/ETA, CC BY 4.0) via jobs.humanitarians.ai data/explorer/ability-directory.json, run 2026-10-29-onet-abilities-import, definitions sha256 909f6ce0b437",
+    "date": "2026-10-29",
+    "review": "Awaiting taxonomy owner review",
+    "reviewed_by": null
+   },
+   "evidence": [
+    {
+     "field": "kind",
+     "by": "source:onet-30.2",
+     "action": "matched_source",
+     "kind": "onet",
+     "verification": "dump-match",
+     "outcome": "supports",
+     "ref": "onet:1.A.1.c.2",
+     "date": "2026-10-29",
+     "run": "2026-10-29-onet-abilities-import",
+     "note": "O*NET 30.2 lists it under Abilities, cognitive, Quantitative Abilities",
+     "organization": {
+      "name": "O*NET, U.S. Department of Labor, Employment and Training Administration",
+      "url": "https://www.onetcenter.org/",
+      "type": "government",
+      "country": "US"
+     },
+     "match": {
+      "dataset": "onet-30.2",
+      "dataset_id": "1.A.1.c.2",
+      "method": "import",
+      "categories": [
+       "Abilities",
+       "cognitive",
+       "Quantitative Abilities"
+      ]
+     }
+    },
+    {
+     "field": "definition",
+     "by": "source:onet-30.2",
+     "action": "matched_source",
+     "kind": "onet",
+     "verification": "dump-match",
+     "outcome": "supports",
+     "ref": "onet:1.A.1.c.2",
+     "date": "2026-10-29",
+     "run": "2026-10-29-onet-abilities-import",
+     "note": "the definition is O*NET 30.2's text",
+     "organization": {
+      "name": "O*NET, U.S. Department of Labor, Employment and Training Administration",
+      "url": "https://www.onetcenter.org/",
+      "type": "government",
+      "country": "US"
+     },
+     "match": {
+      "dataset": "onet-30.2",
+      "dataset_id": "1.A.1.c.2",
+      "method": "import",
+      "categories": [
+       "Abilities",
+       "cognitive",
+       "Quantitative Abilities"
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "l1hwn9qrn9",
+   "key": "oral-comprehension",
+   "preferred_name": "Oral Comprehension",
+   "kind": "ability",
+   "definition": "The ability to listen to and understand information and ideas presented through spoken words and sentences.",
+   "identifiers": [
+    {
+     "scheme": "onet-element",
+     "code": "1.A.1.a.1"
+    }
+   ],
+   "variants": [],
+   "relations": [],
+   "verbs": [],
+   "status": "proposed",
+   "provenance": {
+    "source": "imported from O*NET 30.2 Abilities (USDOL/ETA, CC BY 4.0) via jobs.humanitarians.ai data/explorer/ability-directory.json, run 2026-10-29-onet-abilities-import, definitions sha256 909f6ce0b437",
+    "date": "2026-10-29",
+    "review": "Awaiting taxonomy owner review",
+    "reviewed_by": null
+   },
+   "evidence": [
+    {
+     "field": "kind",
+     "by": "source:onet-30.2",
+     "action": "matched_source",
+     "kind": "onet",
+     "verification": "dump-match",
+     "outcome": "supports",
+     "ref": "onet:1.A.1.a.1",
+     "date": "2026-10-29",
+     "run": "2026-10-29-onet-abilities-import",
+     "note": "O*NET 30.2 lists it under Abilities, cognitive, Verbal Abilities",
+     "organization": {
+      "name": "O*NET, U.S. Department of Labor, Employment and Training Administration",
+      "url": "https://www.onetcenter.org/",
+      "type": "government",
+      "country": "US"
+     },
+     "match": {
+      "dataset": "onet-30.2",
+      "dataset_id": "1.A.1.a.1",
+      "method": "import",
+      "categories": [
+       "Abilities",
+       "cognitive",
+       "Verbal Abilities"
+      ]
+     }
+    },
+    {
+     "field": "definition",
+     "by": "source:onet-30.2",
+     "action": "matched_source",
+     "kind": "onet",
+     "verification": "dump-match",
+     "outcome": "supports",
+     "ref": "onet:1.A.1.a.1",
+     "date": "2026-10-29",
+     "run": "2026-10-29-onet-abilities-import",
+     "note": "the definition is O*NET 30.2's text",
+     "organization": {
+      "name": "O*NET, U.S. Department of Labor, Employment and Training Administration",
+      "url": "https://www.onetcenter.org/",
+      "type": "government",
+      "country": "US"
+     },
+     "match": {
+      "dataset": "onet-30.2",
+      "dataset_id": "1.A.1.a.1",
+      "method": "import",
+      "categories": [
+       "Abilities",
+       "cognitive",
+       "Verbal Abilities"
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "jw6x9szvrd",
+   "key": "oral-expression",
+   "preferred_name": "Oral Expression",
+   "kind": "ability",
+   "definition": "The ability to communicate information and ideas in speaking so others will understand.",
+   "identifiers": [
+    {
+     "scheme": "onet-element",
+     "code": "1.A.1.a.3"
+    }
+   ],
+   "variants": [],
+   "relations": [],
+   "verbs": [],
+   "status": "proposed",
+   "provenance": {
+    "source": "imported from O*NET 30.2 Abilities (USDOL/ETA, CC BY 4.0) via jobs.humanitarians.ai data/explorer/ability-directory.json, run 2026-10-29-onet-abilities-import, definitions sha256 909f6ce0b437",
+    "date": "2026-10-29",
+    "review": "Awaiting taxonomy owner review",
+    "reviewed_by": null
+   },
+   "evidence": [
+    {
+     "field": "kind",
+     "by": "source:onet-30.2",
+     "action": "matched_source",
+     "kind": "onet",
+     "verification": "dump-match",
+     "outcome": "supports",
+     "ref": "onet:1.A.1.a.3",
+     "date": "2026-10-29",
+     "run": "2026-10-29-onet-abilities-import",
+     "note": "O*NET 30.2 lists it under Abilities, cognitive, Verbal Abilities",
+     "organization": {
+      "name": "O*NET, U.S. Department of Labor, Employment and Training Administration",
+      "url": "https://www.onetcenter.org/",
+      "type": "government",
+      "country": "US"
+     },
+     "match": {
+      "dataset": "onet-30.2",
+      "dataset_id": "1.A.1.a.3",
+      "method": "import",
+      "categories": [
+       "Abilities",
+       "cognitive",
+       "Verbal Abilities"
+      ]
+     }
+    },
+    {
+     "field": "definition",
+     "by": "source:onet-30.2",
+     "action": "matched_source",
+     "kind": "onet",
+     "verification": "dump-match",
+     "outcome": "supports",
+     "ref": "onet:1.A.1.a.3",
+     "date": "2026-10-29",
+     "run": "2026-10-29-onet-abilities-import",
+     "note": "the definition is O*NET 30.2's text",
+     "organization": {
+      "name": "O*NET, U.S. Department of Labor, Employment and Training Administration",
+      "url": "https://www.onetcenter.org/",
+      "type": "government",
+      "country": "US"
+     },
+     "match": {
+      "dataset": "onet-30.2",
+      "dataset_id": "1.A.1.a.3",
+      "method": "import",
+      "categories": [
+       "Abilities",
+       "cognitive",
+       "Verbal Abilities"
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "yvb9iuakkb",
+   "key": "originality",
+   "preferred_name": "Originality",
+   "kind": "ability",
+   "definition": "The ability to come up with unusual or clever ideas about a given topic or situation, or to develop creative ways to solve a problem.",
+   "identifiers": [
+    {
+     "scheme": "onet-element",
+     "code": "1.A.1.b.2"
+    }
+   ],
+   "variants": [],
+   "relations": [],
+   "verbs": [],
+   "status": "proposed",
+   "provenance": {
+    "source": "imported from O*NET 30.2 Abilities (USDOL/ETA, CC BY 4.0) via jobs.humanitarians.ai data/explorer/ability-directory.json, run 2026-10-29-onet-abilities-import, definitions sha256 909f6ce0b437",
+    "date": "2026-10-29",
+    "review": "Awaiting taxonomy owner review",
+    "reviewed_by": null
+   },
+   "evidence": [
+    {
+     "field": "kind",
+     "by": "source:onet-30.2",
+     "action": "matched_source",
+     "kind": "onet",
+     "verification": "dump-match",
+     "outcome": "supports",
+     "ref": "onet:1.A.1.b.2",
+     "date": "2026-10-29",
+     "run": "2026-10-29-onet-abilities-import",
+     "note": "O*NET 30.2 lists it under Abilities, cognitive, Idea Generation and Reasoning Abilities",
+     "organization": {
+      "name": "O*NET, U.S. Department of Labor, Employment and Training Administration",
+      "url": "https://www.onetcenter.org/",
+      "type": "government",
+      "country": "US"
+     },
+     "match": {
+      "dataset": "onet-30.2",
+      "dataset_id": "1.A.1.b.2",
+      "method": "import",
+      "categories": [
+       "Abilities",
+       "cognitive",
+       "Idea Generation and Reasoning Abilities"
+      ]
+     }
+    },
+    {
+     "field": "definition",
+     "by": "source:onet-30.2",
+     "action": "matched_source",
+     "kind": "onet",
+     "verification": "dump-match",
+     "outcome": "supports",
+     "ref": "onet:1.A.1.b.2",
+     "date": "2026-10-29",
+     "run": "2026-10-29-onet-abilities-import",
+     "note": "the definition is O*NET 30.2's text",
+     "organization": {
+      "name": "O*NET, U.S. Department of Labor, Employment and Training Administration",
+      "url": "https://www.onetcenter.org/",
+      "type": "government",
+      "country": "US"
+     },
+     "match": {
+      "dataset": "onet-30.2",
+      "dataset_id": "1.A.1.b.2",
+      "method": "import",
+      "categories": [
+       "Abilities",
+       "cognitive",
+       "Idea Generation and Reasoning Abilities"
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "sohvi65uoe",
+   "key": "perceptual-speed",
+   "preferred_name": "Perceptual Speed",
+   "kind": "ability",
+   "definition": "The ability to quickly and accurately compare similarities and differences among sets of letters, numbers, objects, pictures, or patterns. The things to be compared may be presented at the same time or one after the other. This ability also includes comparing a presented object with a remembered object.",
+   "identifiers": [
+    {
+     "scheme": "onet-element",
+     "code": "1.A.1.e.3"
+    }
+   ],
+   "variants": [],
+   "relations": [],
+   "verbs": [],
+   "status": "proposed",
+   "provenance": {
+    "source": "imported from O*NET 30.2 Abilities (USDOL/ETA, CC BY 4.0) via jobs.humanitarians.ai data/explorer/ability-directory.json, run 2026-10-29-onet-abilities-import, definitions sha256 909f6ce0b437",
+    "date": "2026-10-29",
+    "review": "Awaiting taxonomy owner review",
+    "reviewed_by": null
+   },
+   "evidence": [
+    {
+     "field": "kind",
+     "by": "source:onet-30.2",
+     "action": "matched_source",
+     "kind": "onet",
+     "verification": "dump-match",
+     "outcome": "supports",
+     "ref": "onet:1.A.1.e.3",
+     "date": "2026-10-29",
+     "run": "2026-10-29-onet-abilities-import",
+     "note": "O*NET 30.2 lists it under Abilities, cognitive, Perceptual Abilities",
+     "organization": {
+      "name": "O*NET, U.S. Department of Labor, Employment and Training Administration",
+      "url": "https://www.onetcenter.org/",
+      "type": "government",
+      "country": "US"
+     },
+     "match": {
+      "dataset": "onet-30.2",
+      "dataset_id": "1.A.1.e.3",
+      "method": "import",
+      "categories": [
+       "Abilities",
+       "cognitive",
+       "Perceptual Abilities"
+      ]
+     }
+    },
+    {
+     "field": "definition",
+     "by": "source:onet-30.2",
+     "action": "matched_source",
+     "kind": "onet",
+     "verification": "dump-match",
+     "outcome": "supports",
+     "ref": "onet:1.A.1.e.3",
+     "date": "2026-10-29",
+     "run": "2026-10-29-onet-abilities-import",
+     "note": "the definition is O*NET 30.2's text",
+     "organization": {
+      "name": "O*NET, U.S. Department of Labor, Employment and Training Administration",
+      "url": "https://www.onetcenter.org/",
+      "type": "government",
+      "country": "US"
+     },
+     "match": {
+      "dataset": "onet-30.2",
+      "dataset_id": "1.A.1.e.3",
+      "method": "import",
+      "categories": [
+       "Abilities",
+       "cognitive",
+       "Perceptual Abilities"
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "ql1b59a2y6",
+   "key": "peripheral-vision",
+   "preferred_name": "Peripheral Vision",
+   "kind": "ability",
+   "definition": "The ability to see objects or movement of objects to one's side when the eyes are looking ahead.",
+   "identifiers": [
+    {
+     "scheme": "onet-element",
+     "code": "1.A.4.a.5"
+    }
+   ],
+   "variants": [],
+   "relations": [],
+   "verbs": [],
+   "status": "proposed",
+   "provenance": {
+    "source": "imported from O*NET 30.2 Abilities (USDOL/ETA, CC BY 4.0) via jobs.humanitarians.ai data/explorer/ability-directory.json, run 2026-10-29-onet-abilities-import, definitions sha256 909f6ce0b437",
+    "date": "2026-10-29",
+    "review": "Awaiting taxonomy owner review",
+    "reviewed_by": null
+   },
+   "evidence": [
+    {
+     "field": "kind",
+     "by": "source:onet-30.2",
+     "action": "matched_source",
+     "kind": "onet",
+     "verification": "dump-match",
+     "outcome": "supports",
+     "ref": "onet:1.A.4.a.5",
+     "date": "2026-10-29",
+     "run": "2026-10-29-onet-abilities-import",
+     "note": "O*NET 30.2 lists it under Abilities, sensory, Visual Abilities",
+     "organization": {
+      "name": "O*NET, U.S. Department of Labor, Employment and Training Administration",
+      "url": "https://www.onetcenter.org/",
+      "type": "government",
+      "country": "US"
+     },
+     "match": {
+      "dataset": "onet-30.2",
+      "dataset_id": "1.A.4.a.5",
+      "method": "import",
+      "categories": [
+       "Abilities",
+       "sensory",
+       "Visual Abilities"
+      ]
+     }
+    },
+    {
+     "field": "definition",
+     "by": "source:onet-30.2",
+     "action": "matched_source",
+     "kind": "onet",
+     "verification": "dump-match",
+     "outcome": "supports",
+     "ref": "onet:1.A.4.a.5",
+     "date": "2026-10-29",
+     "run": "2026-10-29-onet-abilities-import",
+     "note": "the definition is O*NET 30.2's text",
+     "organization": {
+      "name": "O*NET, U.S. Department of Labor, Employment and Training Administration",
+      "url": "https://www.onetcenter.org/",
+      "type": "government",
+      "country": "US"
+     },
+     "match": {
+      "dataset": "onet-30.2",
+      "dataset_id": "1.A.4.a.5",
+      "method": "import",
+      "categories": [
+       "Abilities",
+       "sensory",
+       "Visual Abilities"
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "y2z5t8l784",
+   "key": "problem-sensitivity",
+   "preferred_name": "Problem Sensitivity",
+   "kind": "ability",
+   "definition": "The ability to tell when something is wrong or is likely to go wrong. It does not involve solving the problem, only recognizing that there is a problem.",
+   "identifiers": [
+    {
+     "scheme": "onet-element",
+     "code": "1.A.1.b.3"
+    }
+   ],
+   "variants": [],
+   "relations": [],
+   "verbs": [],
+   "status": "proposed",
+   "provenance": {
+    "source": "imported from O*NET 30.2 Abilities (USDOL/ETA, CC BY 4.0) via jobs.humanitarians.ai data/explorer/ability-directory.json, run 2026-10-29-onet-abilities-import, definitions sha256 909f6ce0b437",
+    "date": "2026-10-29",
+    "review": "Awaiting taxonomy owner review",
+    "reviewed_by": null
+   },
+   "evidence": [
+    {
+     "field": "kind",
+     "by": "source:onet-30.2",
+     "action": "matched_source",
+     "kind": "onet",
+     "verification": "dump-match",
+     "outcome": "supports",
+     "ref": "onet:1.A.1.b.3",
+     "date": "2026-10-29",
+     "run": "2026-10-29-onet-abilities-import",
+     "note": "O*NET 30.2 lists it under Abilities, cognitive, Idea Generation and Reasoning Abilities",
+     "organization": {
+      "name": "O*NET, U.S. Department of Labor, Employment and Training Administration",
+      "url": "https://www.onetcenter.org/",
+      "type": "government",
+      "country": "US"
+     },
+     "match": {
+      "dataset": "onet-30.2",
+      "dataset_id": "1.A.1.b.3",
+      "method": "import",
+      "categories": [
+       "Abilities",
+       "cognitive",
+       "Idea Generation and Reasoning Abilities"
+      ]
+     }
+    },
+    {
+     "field": "definition",
+     "by": "source:onet-30.2",
+     "action": "matched_source",
+     "kind": "onet",
+     "verification": "dump-match",
+     "outcome": "supports",
+     "ref": "onet:1.A.1.b.3",
+     "date": "2026-10-29",
+     "run": "2026-10-29-onet-abilities-import",
+     "note": "the definition is O*NET 30.2's text",
+     "organization": {
+      "name": "O*NET, U.S. Department of Labor, Employment and Training Administration",
+      "url": "https://www.onetcenter.org/",
+      "type": "government",
+      "country": "US"
+     },
+     "match": {
+      "dataset": "onet-30.2",
+      "dataset_id": "1.A.1.b.3",
+      "method": "import",
+      "categories": [
+       "Abilities",
+       "cognitive",
+       "Idea Generation and Reasoning Abilities"
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "srf5navpeq",
+   "key": "rate-control",
+   "preferred_name": "Rate Control",
+   "kind": "ability",
+   "definition": "The ability to time your movements or the movement of a piece of equipment in anticipation of changes in the speed and/or direction of a moving object or scene.",
+   "identifiers": [
+    {
+     "scheme": "onet-element",
+     "code": "1.A.2.b.4"
+    }
+   ],
+   "variants": [],
+   "relations": [],
+   "verbs": [],
+   "status": "proposed",
+   "provenance": {
+    "source": "imported from O*NET 30.2 Abilities (USDOL/ETA, CC BY 4.0) via jobs.humanitarians.ai data/explorer/ability-directory.json, run 2026-10-29-onet-abilities-import, definitions sha256 909f6ce0b437",
+    "date": "2026-10-29",
+    "review": "Awaiting taxonomy owner review",
+    "reviewed_by": null
+   },
+   "evidence": [
+    {
+     "field": "kind",
+     "by": "source:onet-30.2",
+     "action": "matched_source",
+     "kind": "onet",
+     "verification": "dump-match",
+     "outcome": "supports",
+     "ref": "onet:1.A.2.b.4",
+     "date": "2026-10-29",
+     "run": "2026-10-29-onet-abilities-import",
+     "note": "O*NET 30.2 lists it under Abilities, psychomotor, Control Movement Abilities",
+     "organization": {
+      "name": "O*NET, U.S. Department of Labor, Employment and Training Administration",
+      "url": "https://www.onetcenter.org/",
+      "type": "government",
+      "country": "US"
+     },
+     "match": {
+      "dataset": "onet-30.2",
+      "dataset_id": "1.A.2.b.4",
+      "method": "import",
+      "categories": [
+       "Abilities",
+       "psychomotor",
+       "Control Movement Abilities"
+      ]
+     }
+    },
+    {
+     "field": "definition",
+     "by": "source:onet-30.2",
+     "action": "matched_source",
+     "kind": "onet",
+     "verification": "dump-match",
+     "outcome": "supports",
+     "ref": "onet:1.A.2.b.4",
+     "date": "2026-10-29",
+     "run": "2026-10-29-onet-abilities-import",
+     "note": "the definition is O*NET 30.2's text",
+     "organization": {
+      "name": "O*NET, U.S. Department of Labor, Employment and Training Administration",
+      "url": "https://www.onetcenter.org/",
+      "type": "government",
+      "country": "US"
+     },
+     "match": {
+      "dataset": "onet-30.2",
+      "dataset_id": "1.A.2.b.4",
+      "method": "import",
+      "categories": [
+       "Abilities",
+       "psychomotor",
+       "Control Movement Abilities"
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "gg3liy57bv",
+   "key": "reaction-time",
+   "preferred_name": "Reaction Time",
+   "kind": "ability",
+   "definition": "The ability to quickly respond (with the hand, finger, or foot) to a signal (sound, light, picture) when it appears.",
+   "identifiers": [
+    {
+     "scheme": "onet-element",
+     "code": "1.A.2.c.1"
+    }
+   ],
+   "variants": [],
+   "relations": [],
+   "verbs": [],
+   "status": "proposed",
+   "provenance": {
+    "source": "imported from O*NET 30.2 Abilities (USDOL/ETA, CC BY 4.0) via jobs.humanitarians.ai data/explorer/ability-directory.json, run 2026-10-29-onet-abilities-import, definitions sha256 909f6ce0b437",
+    "date": "2026-10-29",
+    "review": "Awaiting taxonomy owner review",
+    "reviewed_by": null
+   },
+   "evidence": [
+    {
+     "field": "kind",
+     "by": "source:onet-30.2",
+     "action": "matched_source",
+     "kind": "onet",
+     "verification": "dump-match",
+     "outcome": "supports",
+     "ref": "onet:1.A.2.c.1",
+     "date": "2026-10-29",
+     "run": "2026-10-29-onet-abilities-import",
+     "note": "O*NET 30.2 lists it under Abilities, psychomotor, Reaction Time and Speed Abilities",
+     "organization": {
+      "name": "O*NET, U.S. Department of Labor, Employment and Training Administration",
+      "url": "https://www.onetcenter.org/",
+      "type": "government",
+      "country": "US"
+     },
+     "match": {
+      "dataset": "onet-30.2",
+      "dataset_id": "1.A.2.c.1",
+      "method": "import",
+      "categories": [
+       "Abilities",
+       "psychomotor",
+       "Reaction Time and Speed Abilities"
+      ]
+     }
+    },
+    {
+     "field": "definition",
+     "by": "source:onet-30.2",
+     "action": "matched_source",
+     "kind": "onet",
+     "verification": "dump-match",
+     "outcome": "supports",
+     "ref": "onet:1.A.2.c.1",
+     "date": "2026-10-29",
+     "run": "2026-10-29-onet-abilities-import",
+     "note": "the definition is O*NET 30.2's text",
+     "organization": {
+      "name": "O*NET, U.S. Department of Labor, Employment and Training Administration",
+      "url": "https://www.onetcenter.org/",
+      "type": "government",
+      "country": "US"
+     },
+     "match": {
+      "dataset": "onet-30.2",
+      "dataset_id": "1.A.2.c.1",
+      "method": "import",
+      "categories": [
+       "Abilities",
+       "psychomotor",
+       "Reaction Time and Speed Abilities"
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "crsg1gr1gz",
+   "key": "response-orientation",
+   "preferred_name": "Response Orientation",
+   "kind": "ability",
+   "definition": "The ability to choose quickly between two or more movements in response to two or more different signals (lights, sounds, pictures). It includes the speed with which the correct response is started with the hand, foot, or other body part.",
+   "identifiers": [
+    {
+     "scheme": "onet-element",
+     "code": "1.A.2.b.3"
+    }
+   ],
+   "variants": [],
+   "relations": [],
+   "verbs": [],
+   "status": "proposed",
+   "provenance": {
+    "source": "imported from O*NET 30.2 Abilities (USDOL/ETA, CC BY 4.0) via jobs.humanitarians.ai data/explorer/ability-directory.json, run 2026-10-29-onet-abilities-import, definitions sha256 909f6ce0b437",
+    "date": "2026-10-29",
+    "review": "Awaiting taxonomy owner review",
+    "reviewed_by": null
+   },
+   "evidence": [
+    {
+     "field": "kind",
+     "by": "source:onet-30.2",
+     "action": "matched_source",
+     "kind": "onet",
+     "verification": "dump-match",
+     "outcome": "supports",
+     "ref": "onet:1.A.2.b.3",
+     "date": "2026-10-29",
+     "run": "2026-10-29-onet-abilities-import",
+     "note": "O*NET 30.2 lists it under Abilities, psychomotor, Control Movement Abilities",
+     "organization": {
+      "name": "O*NET, U.S. Department of Labor, Employment and Training Administration",
+      "url": "https://www.onetcenter.org/",
+      "type": "government",
+      "country": "US"
+     },
+     "match": {
+      "dataset": "onet-30.2",
+      "dataset_id": "1.A.2.b.3",
+      "method": "import",
+      "categories": [
+       "Abilities",
+       "psychomotor",
+       "Control Movement Abilities"
+      ]
+     }
+    },
+    {
+     "field": "definition",
+     "by": "source:onet-30.2",
+     "action": "matched_source",
+     "kind": "onet",
+     "verification": "dump-match",
+     "outcome": "supports",
+     "ref": "onet:1.A.2.b.3",
+     "date": "2026-10-29",
+     "run": "2026-10-29-onet-abilities-import",
+     "note": "the definition is O*NET 30.2's text",
+     "organization": {
+      "name": "O*NET, U.S. Department of Labor, Employment and Training Administration",
+      "url": "https://www.onetcenter.org/",
+      "type": "government",
+      "country": "US"
+     },
+     "match": {
+      "dataset": "onet-30.2",
+      "dataset_id": "1.A.2.b.3",
+      "method": "import",
+      "categories": [
+       "Abilities",
+       "psychomotor",
+       "Control Movement Abilities"
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "qhlfkhgfw3",
+   "key": "selective-attention",
+   "preferred_name": "Selective Attention",
+   "kind": "ability",
+   "definition": "The ability to concentrate on a task over a period of time without being distracted.",
+   "identifiers": [
+    {
+     "scheme": "onet-element",
+     "code": "1.A.1.g.1"
+    }
+   ],
+   "variants": [],
+   "relations": [],
+   "verbs": [],
+   "status": "proposed",
+   "provenance": {
+    "source": "imported from O*NET 30.2 Abilities (USDOL/ETA, CC BY 4.0) via jobs.humanitarians.ai data/explorer/ability-directory.json, run 2026-10-29-onet-abilities-import, definitions sha256 909f6ce0b437",
+    "date": "2026-10-29",
+    "review": "Awaiting taxonomy owner review",
+    "reviewed_by": null
+   },
+   "evidence": [
+    {
+     "field": "kind",
+     "by": "source:onet-30.2",
+     "action": "matched_source",
+     "kind": "onet",
+     "verification": "dump-match",
+     "outcome": "supports",
+     "ref": "onet:1.A.1.g.1",
+     "date": "2026-10-29",
+     "run": "2026-10-29-onet-abilities-import",
+     "note": "O*NET 30.2 lists it under Abilities, cognitive, Attentiveness",
+     "organization": {
+      "name": "O*NET, U.S. Department of Labor, Employment and Training Administration",
+      "url": "https://www.onetcenter.org/",
+      "type": "government",
+      "country": "US"
+     },
+     "match": {
+      "dataset": "onet-30.2",
+      "dataset_id": "1.A.1.g.1",
+      "method": "import",
+      "categories": [
+       "Abilities",
+       "cognitive",
+       "Attentiveness"
+      ]
+     }
+    },
+    {
+     "field": "definition",
+     "by": "source:onet-30.2",
+     "action": "matched_source",
+     "kind": "onet",
+     "verification": "dump-match",
+     "outcome": "supports",
+     "ref": "onet:1.A.1.g.1",
+     "date": "2026-10-29",
+     "run": "2026-10-29-onet-abilities-import",
+     "note": "the definition is O*NET 30.2's text",
+     "organization": {
+      "name": "O*NET, U.S. Department of Labor, Employment and Training Administration",
+      "url": "https://www.onetcenter.org/",
+      "type": "government",
+      "country": "US"
+     },
+     "match": {
+      "dataset": "onet-30.2",
+      "dataset_id": "1.A.1.g.1",
+      "method": "import",
+      "categories": [
+       "Abilities",
+       "cognitive",
+       "Attentiveness"
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "a15hsq0i5n",
+   "key": "sound-localization",
+   "preferred_name": "Sound Localization",
+   "kind": "ability",
+   "definition": "The ability to tell the direction from which a sound originated.",
+   "identifiers": [
+    {
+     "scheme": "onet-element",
+     "code": "1.A.4.b.3"
+    }
+   ],
+   "variants": [],
+   "relations": [],
+   "verbs": [],
+   "status": "proposed",
+   "provenance": {
+    "source": "imported from O*NET 30.2 Abilities (USDOL/ETA, CC BY 4.0) via jobs.humanitarians.ai data/explorer/ability-directory.json, run 2026-10-29-onet-abilities-import, definitions sha256 909f6ce0b437",
+    "date": "2026-10-29",
+    "review": "Awaiting taxonomy owner review",
+    "reviewed_by": null
+   },
+   "evidence": [
+    {
+     "field": "kind",
+     "by": "source:onet-30.2",
+     "action": "matched_source",
+     "kind": "onet",
+     "verification": "dump-match",
+     "outcome": "supports",
+     "ref": "onet:1.A.4.b.3",
+     "date": "2026-10-29",
+     "run": "2026-10-29-onet-abilities-import",
+     "note": "O*NET 30.2 lists it under Abilities, sensory, Auditory and Speech Abilities",
+     "organization": {
+      "name": "O*NET, U.S. Department of Labor, Employment and Training Administration",
+      "url": "https://www.onetcenter.org/",
+      "type": "government",
+      "country": "US"
+     },
+     "match": {
+      "dataset": "onet-30.2",
+      "dataset_id": "1.A.4.b.3",
+      "method": "import",
+      "categories": [
+       "Abilities",
+       "sensory",
+       "Auditory and Speech Abilities"
+      ]
+     }
+    },
+    {
+     "field": "definition",
+     "by": "source:onet-30.2",
+     "action": "matched_source",
+     "kind": "onet",
+     "verification": "dump-match",
+     "outcome": "supports",
+     "ref": "onet:1.A.4.b.3",
+     "date": "2026-10-29",
+     "run": "2026-10-29-onet-abilities-import",
+     "note": "the definition is O*NET 30.2's text",
+     "organization": {
+      "name": "O*NET, U.S. Department of Labor, Employment and Training Administration",
+      "url": "https://www.onetcenter.org/",
+      "type": "government",
+      "country": "US"
+     },
+     "match": {
+      "dataset": "onet-30.2",
+      "dataset_id": "1.A.4.b.3",
+      "method": "import",
+      "categories": [
+       "Abilities",
+       "sensory",
+       "Auditory and Speech Abilities"
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "hctsy3pwrq",
+   "key": "spatial-orientation",
+   "preferred_name": "Spatial Orientation",
+   "kind": "ability",
+   "definition": "The ability to know your location in relation to the environment or to know where other objects are in relation to you.",
+   "identifiers": [
+    {
+     "scheme": "onet-element",
+     "code": "1.A.1.f.1"
+    }
+   ],
+   "variants": [],
+   "relations": [],
+   "verbs": [],
+   "status": "proposed",
+   "provenance": {
+    "source": "imported from O*NET 30.2 Abilities (USDOL/ETA, CC BY 4.0) via jobs.humanitarians.ai data/explorer/ability-directory.json, run 2026-10-29-onet-abilities-import, definitions sha256 909f6ce0b437",
+    "date": "2026-10-29",
+    "review": "Awaiting taxonomy owner review",
+    "reviewed_by": null
+   },
+   "evidence": [
+    {
+     "field": "kind",
+     "by": "source:onet-30.2",
+     "action": "matched_source",
+     "kind": "onet",
+     "verification": "dump-match",
+     "outcome": "supports",
+     "ref": "onet:1.A.1.f.1",
+     "date": "2026-10-29",
+     "run": "2026-10-29-onet-abilities-import",
+     "note": "O*NET 30.2 lists it under Abilities, cognitive, Spatial Abilities",
+     "organization": {
+      "name": "O*NET, U.S. Department of Labor, Employment and Training Administration",
+      "url": "https://www.onetcenter.org/",
+      "type": "government",
+      "country": "US"
+     },
+     "match": {
+      "dataset": "onet-30.2",
+      "dataset_id": "1.A.1.f.1",
+      "method": "import",
+      "categories": [
+       "Abilities",
+       "cognitive",
+       "Spatial Abilities"
+      ]
+     }
+    },
+    {
+     "field": "definition",
+     "by": "source:onet-30.2",
+     "action": "matched_source",
+     "kind": "onet",
+     "verification": "dump-match",
+     "outcome": "supports",
+     "ref": "onet:1.A.1.f.1",
+     "date": "2026-10-29",
+     "run": "2026-10-29-onet-abilities-import",
+     "note": "the definition is O*NET 30.2's text",
+     "organization": {
+      "name": "O*NET, U.S. Department of Labor, Employment and Training Administration",
+      "url": "https://www.onetcenter.org/",
+      "type": "government",
+      "country": "US"
+     },
+     "match": {
+      "dataset": "onet-30.2",
+      "dataset_id": "1.A.1.f.1",
+      "method": "import",
+      "categories": [
+       "Abilities",
+       "cognitive",
+       "Spatial Abilities"
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "fnfui6ih6n",
+   "key": "speech-clarity",
+   "preferred_name": "Speech Clarity",
+   "kind": "ability",
+   "definition": "The ability to speak clearly so others can understand you.",
+   "identifiers": [
+    {
+     "scheme": "onet-element",
+     "code": "1.A.4.b.5"
+    }
+   ],
+   "variants": [],
+   "relations": [],
+   "verbs": [],
+   "status": "proposed",
+   "provenance": {
+    "source": "imported from O*NET 30.2 Abilities (USDOL/ETA, CC BY 4.0) via jobs.humanitarians.ai data/explorer/ability-directory.json, run 2026-10-29-onet-abilities-import, definitions sha256 909f6ce0b437",
+    "date": "2026-10-29",
+    "review": "Awaiting taxonomy owner review",
+    "reviewed_by": null
+   },
+   "evidence": [
+    {
+     "field": "kind",
+     "by": "source:onet-30.2",
+     "action": "matched_source",
+     "kind": "onet",
+     "verification": "dump-match",
+     "outcome": "supports",
+     "ref": "onet:1.A.4.b.5",
+     "date": "2026-10-29",
+     "run": "2026-10-29-onet-abilities-import",
+     "note": "O*NET 30.2 lists it under Abilities, sensory, Auditory and Speech Abilities",
+     "organization": {
+      "name": "O*NET, U.S. Department of Labor, Employment and Training Administration",
+      "url": "https://www.onetcenter.org/",
+      "type": "government",
+      "country": "US"
+     },
+     "match": {
+      "dataset": "onet-30.2",
+      "dataset_id": "1.A.4.b.5",
+      "method": "import",
+      "categories": [
+       "Abilities",
+       "sensory",
+       "Auditory and Speech Abilities"
+      ]
+     }
+    },
+    {
+     "field": "definition",
+     "by": "source:onet-30.2",
+     "action": "matched_source",
+     "kind": "onet",
+     "verification": "dump-match",
+     "outcome": "supports",
+     "ref": "onet:1.A.4.b.5",
+     "date": "2026-10-29",
+     "run": "2026-10-29-onet-abilities-import",
+     "note": "the definition is O*NET 30.2's text",
+     "organization": {
+      "name": "O*NET, U.S. Department of Labor, Employment and Training Administration",
+      "url": "https://www.onetcenter.org/",
+      "type": "government",
+      "country": "US"
+     },
+     "match": {
+      "dataset": "onet-30.2",
+      "dataset_id": "1.A.4.b.5",
+      "method": "import",
+      "categories": [
+       "Abilities",
+       "sensory",
+       "Auditory and Speech Abilities"
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "enx40y6s0v",
+   "key": "speech-recognition",
+   "preferred_name": "Speech Recognition",
+   "kind": "ability",
+   "definition": "The ability to identify and understand the speech of another person.",
+   "identifiers": [
+    {
+     "scheme": "onet-element",
+     "code": "1.A.4.b.4"
+    }
+   ],
+   "variants": [],
+   "relations": [],
+   "verbs": [],
+   "status": "proposed",
+   "provenance": {
+    "source": "imported from O*NET 30.2 Abilities (USDOL/ETA, CC BY 4.0) via jobs.humanitarians.ai data/explorer/ability-directory.json, run 2026-10-29-onet-abilities-import, definitions sha256 909f6ce0b437",
+    "date": "2026-10-29",
+    "review": "Awaiting taxonomy owner review",
+    "reviewed_by": null
+   },
+   "evidence": [
+    {
+     "field": "kind",
+     "by": "source:onet-30.2",
+     "action": "matched_source",
+     "kind": "onet",
+     "verification": "dump-match",
+     "outcome": "supports",
+     "ref": "onet:1.A.4.b.4",
+     "date": "2026-10-29",
+     "run": "2026-10-29-onet-abilities-import",
+     "note": "O*NET 30.2 lists it under Abilities, sensory, Auditory and Speech Abilities",
+     "organization": {
+      "name": "O*NET, U.S. Department of Labor, Employment and Training Administration",
+      "url": "https://www.onetcenter.org/",
+      "type": "government",
+      "country": "US"
+     },
+     "match": {
+      "dataset": "onet-30.2",
+      "dataset_id": "1.A.4.b.4",
+      "method": "import",
+      "categories": [
+       "Abilities",
+       "sensory",
+       "Auditory and Speech Abilities"
+      ]
+     }
+    },
+    {
+     "field": "definition",
+     "by": "source:onet-30.2",
+     "action": "matched_source",
+     "kind": "onet",
+     "verification": "dump-match",
+     "outcome": "supports",
+     "ref": "onet:1.A.4.b.4",
+     "date": "2026-10-29",
+     "run": "2026-10-29-onet-abilities-import",
+     "note": "the definition is O*NET 30.2's text",
+     "organization": {
+      "name": "O*NET, U.S. Department of Labor, Employment and Training Administration",
+      "url": "https://www.onetcenter.org/",
+      "type": "government",
+      "country": "US"
+     },
+     "match": {
+      "dataset": "onet-30.2",
+      "dataset_id": "1.A.4.b.4",
+      "method": "import",
+      "categories": [
+       "Abilities",
+       "sensory",
+       "Auditory and Speech Abilities"
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "q0u0azoaf6",
+   "key": "speed-of-closure",
+   "preferred_name": "Speed of Closure",
+   "kind": "ability",
+   "definition": "The ability to quickly make sense of, combine, and organize information into meaningful patterns.",
+   "identifiers": [
+    {
+     "scheme": "onet-element",
+     "code": "1.A.1.e.1"
+    }
+   ],
+   "variants": [],
+   "relations": [],
+   "verbs": [],
+   "status": "proposed",
+   "provenance": {
+    "source": "imported from O*NET 30.2 Abilities (USDOL/ETA, CC BY 4.0) via jobs.humanitarians.ai data/explorer/ability-directory.json, run 2026-10-29-onet-abilities-import, definitions sha256 909f6ce0b437",
+    "date": "2026-10-29",
+    "review": "Awaiting taxonomy owner review",
+    "reviewed_by": null
+   },
+   "evidence": [
+    {
+     "field": "kind",
+     "by": "source:onet-30.2",
+     "action": "matched_source",
+     "kind": "onet",
+     "verification": "dump-match",
+     "outcome": "supports",
+     "ref": "onet:1.A.1.e.1",
+     "date": "2026-10-29",
+     "run": "2026-10-29-onet-abilities-import",
+     "note": "O*NET 30.2 lists it under Abilities, cognitive, Perceptual Abilities",
+     "organization": {
+      "name": "O*NET, U.S. Department of Labor, Employment and Training Administration",
+      "url": "https://www.onetcenter.org/",
+      "type": "government",
+      "country": "US"
+     },
+     "match": {
+      "dataset": "onet-30.2",
+      "dataset_id": "1.A.1.e.1",
+      "method": "import",
+      "categories": [
+       "Abilities",
+       "cognitive",
+       "Perceptual Abilities"
+      ]
+     }
+    },
+    {
+     "field": "definition",
+     "by": "source:onet-30.2",
+     "action": "matched_source",
+     "kind": "onet",
+     "verification": "dump-match",
+     "outcome": "supports",
+     "ref": "onet:1.A.1.e.1",
+     "date": "2026-10-29",
+     "run": "2026-10-29-onet-abilities-import",
+     "note": "the definition is O*NET 30.2's text",
+     "organization": {
+      "name": "O*NET, U.S. Department of Labor, Employment and Training Administration",
+      "url": "https://www.onetcenter.org/",
+      "type": "government",
+      "country": "US"
+     },
+     "match": {
+      "dataset": "onet-30.2",
+      "dataset_id": "1.A.1.e.1",
+      "method": "import",
+      "categories": [
+       "Abilities",
+       "cognitive",
+       "Perceptual Abilities"
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "ckxpuw0cke",
+   "key": "speed-of-limb-movement",
+   "preferred_name": "Speed of Limb Movement",
+   "kind": "ability",
+   "definition": "The ability to quickly move the arms and legs.",
+   "identifiers": [
+    {
+     "scheme": "onet-element",
+     "code": "1.A.2.c.3"
+    }
+   ],
+   "variants": [],
+   "relations": [],
+   "verbs": [],
+   "status": "proposed",
+   "provenance": {
+    "source": "imported from O*NET 30.2 Abilities (USDOL/ETA, CC BY 4.0) via jobs.humanitarians.ai data/explorer/ability-directory.json, run 2026-10-29-onet-abilities-import, definitions sha256 909f6ce0b437",
+    "date": "2026-10-29",
+    "review": "Awaiting taxonomy owner review",
+    "reviewed_by": null
+   },
+   "evidence": [
+    {
+     "field": "kind",
+     "by": "source:onet-30.2",
+     "action": "matched_source",
+     "kind": "onet",
+     "verification": "dump-match",
+     "outcome": "supports",
+     "ref": "onet:1.A.2.c.3",
+     "date": "2026-10-29",
+     "run": "2026-10-29-onet-abilities-import",
+     "note": "O*NET 30.2 lists it under Abilities, psychomotor, Reaction Time and Speed Abilities",
+     "organization": {
+      "name": "O*NET, U.S. Department of Labor, Employment and Training Administration",
+      "url": "https://www.onetcenter.org/",
+      "type": "government",
+      "country": "US"
+     },
+     "match": {
+      "dataset": "onet-30.2",
+      "dataset_id": "1.A.2.c.3",
+      "method": "import",
+      "categories": [
+       "Abilities",
+       "psychomotor",
+       "Reaction Time and Speed Abilities"
+      ]
+     }
+    },
+    {
+     "field": "definition",
+     "by": "source:onet-30.2",
+     "action": "matched_source",
+     "kind": "onet",
+     "verification": "dump-match",
+     "outcome": "supports",
+     "ref": "onet:1.A.2.c.3",
+     "date": "2026-10-29",
+     "run": "2026-10-29-onet-abilities-import",
+     "note": "the definition is O*NET 30.2's text",
+     "organization": {
+      "name": "O*NET, U.S. Department of Labor, Employment and Training Administration",
+      "url": "https://www.onetcenter.org/",
+      "type": "government",
+      "country": "US"
+     },
+     "match": {
+      "dataset": "onet-30.2",
+      "dataset_id": "1.A.2.c.3",
+      "method": "import",
+      "categories": [
+       "Abilities",
+       "psychomotor",
+       "Reaction Time and Speed Abilities"
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "xcifis2ksa",
+   "key": "stamina",
+   "preferred_name": "Stamina",
+   "kind": "ability",
+   "definition": "The ability to exert yourself physically over long periods of time without getting winded or out of breath.",
+   "identifiers": [
+    {
+     "scheme": "onet-element",
+     "code": "1.A.3.b.1"
+    }
+   ],
+   "variants": [],
+   "relations": [],
+   "verbs": [],
+   "status": "proposed",
+   "provenance": {
+    "source": "imported from O*NET 30.2 Abilities (USDOL/ETA, CC BY 4.0) via jobs.humanitarians.ai data/explorer/ability-directory.json, run 2026-10-29-onet-abilities-import, definitions sha256 909f6ce0b437",
+    "date": "2026-10-29",
+    "review": "Awaiting taxonomy owner review",
+    "reviewed_by": null
+   },
+   "evidence": [
+    {
+     "field": "kind",
+     "by": "source:onet-30.2",
+     "action": "matched_source",
+     "kind": "onet",
+     "verification": "dump-match",
+     "outcome": "supports",
+     "ref": "onet:1.A.3.b.1",
+     "date": "2026-10-29",
+     "run": "2026-10-29-onet-abilities-import",
+     "note": "O*NET 30.2 lists it under Abilities, physical, Endurance",
+     "organization": {
+      "name": "O*NET, U.S. Department of Labor, Employment and Training Administration",
+      "url": "https://www.onetcenter.org/",
+      "type": "government",
+      "country": "US"
+     },
+     "match": {
+      "dataset": "onet-30.2",
+      "dataset_id": "1.A.3.b.1",
+      "method": "import",
+      "categories": [
+       "Abilities",
+       "physical",
+       "Endurance"
+      ]
+     }
+    },
+    {
+     "field": "definition",
+     "by": "source:onet-30.2",
+     "action": "matched_source",
+     "kind": "onet",
+     "verification": "dump-match",
+     "outcome": "supports",
+     "ref": "onet:1.A.3.b.1",
+     "date": "2026-10-29",
+     "run": "2026-10-29-onet-abilities-import",
+     "note": "the definition is O*NET 30.2's text",
+     "organization": {
+      "name": "O*NET, U.S. Department of Labor, Employment and Training Administration",
+      "url": "https://www.onetcenter.org/",
+      "type": "government",
+      "country": "US"
+     },
+     "match": {
+      "dataset": "onet-30.2",
+      "dataset_id": "1.A.3.b.1",
+      "method": "import",
+      "categories": [
+       "Abilities",
+       "physical",
+       "Endurance"
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "hjh9isz4cp",
+   "key": "static-strength",
+   "preferred_name": "Static Strength",
+   "kind": "ability",
+   "definition": "The ability to exert maximum muscle force to lift, push, pull, or carry objects.",
+   "identifiers": [
+    {
+     "scheme": "onet-element",
+     "code": "1.A.3.a.1"
+    }
+   ],
+   "variants": [],
+   "relations": [],
+   "verbs": [],
+   "status": "proposed",
+   "provenance": {
+    "source": "imported from O*NET 30.2 Abilities (USDOL/ETA, CC BY 4.0) via jobs.humanitarians.ai data/explorer/ability-directory.json, run 2026-10-29-onet-abilities-import, definitions sha256 909f6ce0b437",
+    "date": "2026-10-29",
+    "review": "Awaiting taxonomy owner review",
+    "reviewed_by": null
+   },
+   "evidence": [
+    {
+     "field": "kind",
+     "by": "source:onet-30.2",
+     "action": "matched_source",
+     "kind": "onet",
+     "verification": "dump-match",
+     "outcome": "supports",
+     "ref": "onet:1.A.3.a.1",
+     "date": "2026-10-29",
+     "run": "2026-10-29-onet-abilities-import",
+     "note": "O*NET 30.2 lists it under Abilities, physical, Physical Strength Abilities",
+     "organization": {
+      "name": "O*NET, U.S. Department of Labor, Employment and Training Administration",
+      "url": "https://www.onetcenter.org/",
+      "type": "government",
+      "country": "US"
+     },
+     "match": {
+      "dataset": "onet-30.2",
+      "dataset_id": "1.A.3.a.1",
+      "method": "import",
+      "categories": [
+       "Abilities",
+       "physical",
+       "Physical Strength Abilities"
+      ]
+     }
+    },
+    {
+     "field": "definition",
+     "by": "source:onet-30.2",
+     "action": "matched_source",
+     "kind": "onet",
+     "verification": "dump-match",
+     "outcome": "supports",
+     "ref": "onet:1.A.3.a.1",
+     "date": "2026-10-29",
+     "run": "2026-10-29-onet-abilities-import",
+     "note": "the definition is O*NET 30.2's text",
+     "organization": {
+      "name": "O*NET, U.S. Department of Labor, Employment and Training Administration",
+      "url": "https://www.onetcenter.org/",
+      "type": "government",
+      "country": "US"
+     },
+     "match": {
+      "dataset": "onet-30.2",
+      "dataset_id": "1.A.3.a.1",
+      "method": "import",
+      "categories": [
+       "Abilities",
+       "physical",
+       "Physical Strength Abilities"
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "t6ptjyq1kp",
+   "key": "time-sharing",
+   "preferred_name": "Time Sharing",
+   "kind": "ability",
+   "definition": "The ability to shift back and forth between two or more activities or sources of information (such as speech, sounds, touch, or other sources).",
+   "identifiers": [
+    {
+     "scheme": "onet-element",
+     "code": "1.A.1.g.2"
+    }
+   ],
+   "variants": [],
+   "relations": [],
+   "verbs": [],
+   "status": "proposed",
+   "provenance": {
+    "source": "imported from O*NET 30.2 Abilities (USDOL/ETA, CC BY 4.0) via jobs.humanitarians.ai data/explorer/ability-directory.json, run 2026-10-29-onet-abilities-import, definitions sha256 909f6ce0b437",
+    "date": "2026-10-29",
+    "review": "Awaiting taxonomy owner review",
+    "reviewed_by": null
+   },
+   "evidence": [
+    {
+     "field": "kind",
+     "by": "source:onet-30.2",
+     "action": "matched_source",
+     "kind": "onet",
+     "verification": "dump-match",
+     "outcome": "supports",
+     "ref": "onet:1.A.1.g.2",
+     "date": "2026-10-29",
+     "run": "2026-10-29-onet-abilities-import",
+     "note": "O*NET 30.2 lists it under Abilities, cognitive, Attentiveness",
+     "organization": {
+      "name": "O*NET, U.S. Department of Labor, Employment and Training Administration",
+      "url": "https://www.onetcenter.org/",
+      "type": "government",
+      "country": "US"
+     },
+     "match": {
+      "dataset": "onet-30.2",
+      "dataset_id": "1.A.1.g.2",
+      "method": "import",
+      "categories": [
+       "Abilities",
+       "cognitive",
+       "Attentiveness"
+      ]
+     }
+    },
+    {
+     "field": "definition",
+     "by": "source:onet-30.2",
+     "action": "matched_source",
+     "kind": "onet",
+     "verification": "dump-match",
+     "outcome": "supports",
+     "ref": "onet:1.A.1.g.2",
+     "date": "2026-10-29",
+     "run": "2026-10-29-onet-abilities-import",
+     "note": "the definition is O*NET 30.2's text",
+     "organization": {
+      "name": "O*NET, U.S. Department of Labor, Employment and Training Administration",
+      "url": "https://www.onetcenter.org/",
+      "type": "government",
+      "country": "US"
+     },
+     "match": {
+      "dataset": "onet-30.2",
+      "dataset_id": "1.A.1.g.2",
+      "method": "import",
+      "categories": [
+       "Abilities",
+       "cognitive",
+       "Attentiveness"
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "q19rzqt2qa",
+   "key": "trunk-strength",
+   "preferred_name": "Trunk Strength",
+   "kind": "ability",
+   "definition": "The ability to use your abdominal and lower back muscles to support part of the body repeatedly or continuously over time without \"giving out\" or fatiguing.",
+   "identifiers": [
+    {
+     "scheme": "onet-element",
+     "code": "1.A.3.a.4"
+    }
+   ],
+   "variants": [],
+   "relations": [],
+   "verbs": [],
+   "status": "proposed",
+   "provenance": {
+    "source": "imported from O*NET 30.2 Abilities (USDOL/ETA, CC BY 4.0) via jobs.humanitarians.ai data/explorer/ability-directory.json, run 2026-10-29-onet-abilities-import, definitions sha256 909f6ce0b437",
+    "date": "2026-10-29",
+    "review": "Awaiting taxonomy owner review",
+    "reviewed_by": null
+   },
+   "evidence": [
+    {
+     "field": "kind",
+     "by": "source:onet-30.2",
+     "action": "matched_source",
+     "kind": "onet",
+     "verification": "dump-match",
+     "outcome": "supports",
+     "ref": "onet:1.A.3.a.4",
+     "date": "2026-10-29",
+     "run": "2026-10-29-onet-abilities-import",
+     "note": "O*NET 30.2 lists it under Abilities, physical, Physical Strength Abilities",
+     "organization": {
+      "name": "O*NET, U.S. Department of Labor, Employment and Training Administration",
+      "url": "https://www.onetcenter.org/",
+      "type": "government",
+      "country": "US"
+     },
+     "match": {
+      "dataset": "onet-30.2",
+      "dataset_id": "1.A.3.a.4",
+      "method": "import",
+      "categories": [
+       "Abilities",
+       "physical",
+       "Physical Strength Abilities"
+      ]
+     }
+    },
+    {
+     "field": "definition",
+     "by": "source:onet-30.2",
+     "action": "matched_source",
+     "kind": "onet",
+     "verification": "dump-match",
+     "outcome": "supports",
+     "ref": "onet:1.A.3.a.4",
+     "date": "2026-10-29",
+     "run": "2026-10-29-onet-abilities-import",
+     "note": "the definition is O*NET 30.2's text",
+     "organization": {
+      "name": "O*NET, U.S. Department of Labor, Employment and Training Administration",
+      "url": "https://www.onetcenter.org/",
+      "type": "government",
+      "country": "US"
+     },
+     "match": {
+      "dataset": "onet-30.2",
+      "dataset_id": "1.A.3.a.4",
+      "method": "import",
+      "categories": [
+       "Abilities",
+       "physical",
+       "Physical Strength Abilities"
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "zctapidef2",
+   "key": "visual-color-discrimination",
+   "preferred_name": "Visual Color Discrimination",
+   "kind": "ability",
+   "definition": "The ability to match or detect differences between colors, including shades of color and brightness.",
+   "identifiers": [
+    {
+     "scheme": "onet-element",
+     "code": "1.A.4.a.3"
+    }
+   ],
+   "variants": [],
+   "relations": [],
+   "verbs": [],
+   "status": "proposed",
+   "provenance": {
+    "source": "imported from O*NET 30.2 Abilities (USDOL/ETA, CC BY 4.0) via jobs.humanitarians.ai data/explorer/ability-directory.json, run 2026-10-29-onet-abilities-import, definitions sha256 909f6ce0b437",
+    "date": "2026-10-29",
+    "review": "Awaiting taxonomy owner review",
+    "reviewed_by": null
+   },
+   "evidence": [
+    {
+     "field": "kind",
+     "by": "source:onet-30.2",
+     "action": "matched_source",
+     "kind": "onet",
+     "verification": "dump-match",
+     "outcome": "supports",
+     "ref": "onet:1.A.4.a.3",
+     "date": "2026-10-29",
+     "run": "2026-10-29-onet-abilities-import",
+     "note": "O*NET 30.2 lists it under Abilities, sensory, Visual Abilities",
+     "organization": {
+      "name": "O*NET, U.S. Department of Labor, Employment and Training Administration",
+      "url": "https://www.onetcenter.org/",
+      "type": "government",
+      "country": "US"
+     },
+     "match": {
+      "dataset": "onet-30.2",
+      "dataset_id": "1.A.4.a.3",
+      "method": "import",
+      "categories": [
+       "Abilities",
+       "sensory",
+       "Visual Abilities"
+      ]
+     }
+    },
+    {
+     "field": "definition",
+     "by": "source:onet-30.2",
+     "action": "matched_source",
+     "kind": "onet",
+     "verification": "dump-match",
+     "outcome": "supports",
+     "ref": "onet:1.A.4.a.3",
+     "date": "2026-10-29",
+     "run": "2026-10-29-onet-abilities-import",
+     "note": "the definition is O*NET 30.2's text",
+     "organization": {
+      "name": "O*NET, U.S. Department of Labor, Employment and Training Administration",
+      "url": "https://www.onetcenter.org/",
+      "type": "government",
+      "country": "US"
+     },
+     "match": {
+      "dataset": "onet-30.2",
+      "dataset_id": "1.A.4.a.3",
+      "method": "import",
+      "categories": [
+       "Abilities",
+       "sensory",
+       "Visual Abilities"
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "xhr0najg6f",
+   "key": "visualization",
+   "preferred_name": "Visualization",
+   "kind": "ability",
+   "definition": "The ability to imagine how something will look after it is moved around or when its parts are moved or rearranged.",
+   "identifiers": [
+    {
+     "scheme": "onet-element",
+     "code": "1.A.1.f.2"
+    }
+   ],
+   "variants": [],
+   "relations": [],
+   "verbs": [],
+   "status": "proposed",
+   "provenance": {
+    "source": "imported from O*NET 30.2 Abilities (USDOL/ETA, CC BY 4.0) via jobs.humanitarians.ai data/explorer/ability-directory.json, run 2026-10-29-onet-abilities-import, definitions sha256 909f6ce0b437",
+    "date": "2026-10-29",
+    "review": "Awaiting taxonomy owner review",
+    "reviewed_by": null
+   },
+   "evidence": [
+    {
+     "field": "kind",
+     "by": "source:onet-30.2",
+     "action": "matched_source",
+     "kind": "onet",
+     "verification": "dump-match",
+     "outcome": "supports",
+     "ref": "onet:1.A.1.f.2",
+     "date": "2026-10-29",
+     "run": "2026-10-29-onet-abilities-import",
+     "note": "O*NET 30.2 lists it under Abilities, cognitive, Spatial Abilities",
+     "organization": {
+      "name": "O*NET, U.S. Department of Labor, Employment and Training Administration",
+      "url": "https://www.onetcenter.org/",
+      "type": "government",
+      "country": "US"
+     },
+     "match": {
+      "dataset": "onet-30.2",
+      "dataset_id": "1.A.1.f.2",
+      "method": "import",
+      "categories": [
+       "Abilities",
+       "cognitive",
+       "Spatial Abilities"
+      ]
+     }
+    },
+    {
+     "field": "definition",
+     "by": "source:onet-30.2",
+     "action": "matched_source",
+     "kind": "onet",
+     "verification": "dump-match",
+     "outcome": "supports",
+     "ref": "onet:1.A.1.f.2",
+     "date": "2026-10-29",
+     "run": "2026-10-29-onet-abilities-import",
+     "note": "the definition is O*NET 30.2's text",
+     "organization": {
+      "name": "O*NET, U.S. Department of Labor, Employment and Training Administration",
+      "url": "https://www.onetcenter.org/",
+      "type": "government",
+      "country": "US"
+     },
+     "match": {
+      "dataset": "onet-30.2",
+      "dataset_id": "1.A.1.f.2",
+      "method": "import",
+      "categories": [
+       "Abilities",
+       "cognitive",
+       "Spatial Abilities"
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "aqqbcc2yzm",
+   "key": "wrist-finger-speed",
+   "preferred_name": "Wrist-Finger Speed",
+   "kind": "ability",
+   "definition": "The ability to make fast, simple, repeated movements of the fingers, hands, and wrists.",
+   "identifiers": [
+    {
+     "scheme": "onet-element",
+     "code": "1.A.2.c.2"
+    }
+   ],
+   "variants": [],
+   "relations": [],
+   "verbs": [],
+   "status": "proposed",
+   "provenance": {
+    "source": "imported from O*NET 30.2 Abilities (USDOL/ETA, CC BY 4.0) via jobs.humanitarians.ai data/explorer/ability-directory.json, run 2026-10-29-onet-abilities-import, definitions sha256 909f6ce0b437",
+    "date": "2026-10-29",
+    "review": "Awaiting taxonomy owner review",
+    "reviewed_by": null
+   },
+   "evidence": [
+    {
+     "field": "kind",
+     "by": "source:onet-30.2",
+     "action": "matched_source",
+     "kind": "onet",
+     "verification": "dump-match",
+     "outcome": "supports",
+     "ref": "onet:1.A.2.c.2",
+     "date": "2026-10-29",
+     "run": "2026-10-29-onet-abilities-import",
+     "note": "O*NET 30.2 lists it under Abilities, psychomotor, Reaction Time and Speed Abilities",
+     "organization": {
+      "name": "O*NET, U.S. Department of Labor, Employment and Training Administration",
+      "url": "https://www.onetcenter.org/",
+      "type": "government",
+      "country": "US"
+     },
+     "match": {
+      "dataset": "onet-30.2",
+      "dataset_id": "1.A.2.c.2",
+      "method": "import",
+      "categories": [
+       "Abilities",
+       "psychomotor",
+       "Reaction Time and Speed Abilities"
+      ]
+     }
+    },
+    {
+     "field": "definition",
+     "by": "source:onet-30.2",
+     "action": "matched_source",
+     "kind": "onet",
+     "verification": "dump-match",
+     "outcome": "supports",
+     "ref": "onet:1.A.2.c.2",
+     "date": "2026-10-29",
+     "run": "2026-10-29-onet-abilities-import",
+     "note": "the definition is O*NET 30.2's text",
+     "organization": {
+      "name": "O*NET, U.S. Department of Labor, Employment and Training Administration",
+      "url": "https://www.onetcenter.org/",
+      "type": "government",
+      "country": "US"
+     },
+     "match": {
+      "dataset": "onet-30.2",
+      "dataset_id": "1.A.2.c.2",
+      "method": "import",
+      "categories": [
+       "Abilities",
+       "psychomotor",
+       "Reaction Time and Speed Abilities"
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "ts63qo7sda",
+   "key": "written-comprehension",
+   "preferred_name": "Written Comprehension",
+   "kind": "ability",
+   "definition": "The ability to read and understand information and ideas presented in writing.",
+   "identifiers": [
+    {
+     "scheme": "onet-element",
+     "code": "1.A.1.a.2"
+    }
+   ],
+   "variants": [],
+   "relations": [],
+   "verbs": [],
+   "status": "proposed",
+   "provenance": {
+    "source": "imported from O*NET 30.2 Abilities (USDOL/ETA, CC BY 4.0) via jobs.humanitarians.ai data/explorer/ability-directory.json, run 2026-10-29-onet-abilities-import, definitions sha256 909f6ce0b437",
+    "date": "2026-10-29",
+    "review": "Awaiting taxonomy owner review",
+    "reviewed_by": null
+   },
+   "evidence": [
+    {
+     "field": "kind",
+     "by": "source:onet-30.2",
+     "action": "matched_source",
+     "kind": "onet",
+     "verification": "dump-match",
+     "outcome": "supports",
+     "ref": "onet:1.A.1.a.2",
+     "date": "2026-10-29",
+     "run": "2026-10-29-onet-abilities-import",
+     "note": "O*NET 30.2 lists it under Abilities, cognitive, Verbal Abilities",
+     "organization": {
+      "name": "O*NET, U.S. Department of Labor, Employment and Training Administration",
+      "url": "https://www.onetcenter.org/",
+      "type": "government",
+      "country": "US"
+     },
+     "match": {
+      "dataset": "onet-30.2",
+      "dataset_id": "1.A.1.a.2",
+      "method": "import",
+      "categories": [
+       "Abilities",
+       "cognitive",
+       "Verbal Abilities"
+      ]
+     }
+    },
+    {
+     "field": "definition",
+     "by": "source:onet-30.2",
+     "action": "matched_source",
+     "kind": "onet",
+     "verification": "dump-match",
+     "outcome": "supports",
+     "ref": "onet:1.A.1.a.2",
+     "date": "2026-10-29",
+     "run": "2026-10-29-onet-abilities-import",
+     "note": "the definition is O*NET 30.2's text",
+     "organization": {
+      "name": "O*NET, U.S. Department of Labor, Employment and Training Administration",
+      "url": "https://www.onetcenter.org/",
+      "type": "government",
+      "country": "US"
+     },
+     "match": {
+      "dataset": "onet-30.2",
+      "dataset_id": "1.A.1.a.2",
+      "method": "import",
+      "categories": [
+       "Abilities",
+       "cognitive",
+       "Verbal Abilities"
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "v2bj7va4w6",
+   "key": "written-expression",
+   "preferred_name": "Written Expression",
+   "kind": "ability",
+   "definition": "The ability to communicate information and ideas in writing so others will understand.",
+   "identifiers": [
+    {
+     "scheme": "onet-element",
+     "code": "1.A.1.a.4"
+    }
+   ],
+   "variants": [],
+   "relations": [],
+   "verbs": [],
+   "status": "proposed",
+   "provenance": {
+    "source": "imported from O*NET 30.2 Abilities (USDOL/ETA, CC BY 4.0) via jobs.humanitarians.ai data/explorer/ability-directory.json, run 2026-10-29-onet-abilities-import, definitions sha256 909f6ce0b437",
+    "date": "2026-10-29",
+    "review": "Awaiting taxonomy owner review",
+    "reviewed_by": null
+   },
+   "evidence": [
+    {
+     "field": "kind",
+     "by": "source:onet-30.2",
+     "action": "matched_source",
+     "kind": "onet",
+     "verification": "dump-match",
+     "outcome": "supports",
+     "ref": "onet:1.A.1.a.4",
+     "date": "2026-10-29",
+     "run": "2026-10-29-onet-abilities-import",
+     "note": "O*NET 30.2 lists it under Abilities, cognitive, Verbal Abilities",
+     "organization": {
+      "name": "O*NET, U.S. Department of Labor, Employment and Training Administration",
+      "url": "https://www.onetcenter.org/",
+      "type": "government",
+      "country": "US"
+     },
+     "match": {
+      "dataset": "onet-30.2",
+      "dataset_id": "1.A.1.a.4",
+      "method": "import",
+      "categories": [
+       "Abilities",
+       "cognitive",
+       "Verbal Abilities"
+      ]
+     }
+    },
+    {
+     "field": "definition",
+     "by": "source:onet-30.2",
+     "action": "matched_source",
+     "kind": "onet",
+     "verification": "dump-match",
+     "outcome": "supports",
+     "ref": "onet:1.A.1.a.4",
+     "date": "2026-10-29",
+     "run": "2026-10-29-onet-abilities-import",
+     "note": "the definition is O*NET 30.2's text",
+     "organization": {
+      "name": "O*NET, U.S. Department of Labor, Employment and Training Administration",
+      "url": "https://www.onetcenter.org/",
+      "type": "government",
+      "country": "US"
+     },
+     "match": {
+      "dataset": "onet-30.2",
+      "dataset_id": "1.A.1.a.4",
+      "method": "import",
+      "categories": [
+       "Abilities",
+       "cognitive",
+       "Verbal Abilities"
+      ]
+     }
+    }
+   ]
+  }
+ ],
+ "variants_added": [],
+ "not_a_skill": [],
+ "unsure": []
+}

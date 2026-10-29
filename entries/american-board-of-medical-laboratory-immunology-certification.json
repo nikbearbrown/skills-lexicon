@@ -122,7 +122,104 @@
    "date": "2026-10-29",
    "run": "2026-10-29-batch-002",
    "note": "same concept as American Board of Medical Laboratory Immunology certification, listed in the legacy tag list"
+  },
+  {
+   "field": "certification",
+   "by": "source:American Board of Medical Laboratory Immunology, administered through the American Society for Microbiology (ASM) certification programme",
+   "action": "matched_source",
+   "kind": "issuer",
+   "verification": "search-results-only",
+   "outcome": "supports",
+   "ref": "https://asm.org/certifications/american-board-of-medical-laboratory-immunology",
+   "date": "2026-10-29",
+   "run": "2026-10-29-web-check-1",
+   "note": "The ABMLI is no longer accepting exam applications as of June 1, 2016, and its diplomates can still recertify.",
+   "organization": {
+    "name": "American Board of Medical Laboratory Immunology, administered through the American Society for Microbiology (ASM) certification programme",
+    "url": "https://asm.org/",
+    "type": "professional-body",
+    "country": "US"
+   }
+  },
+  {
+   "field": "definition",
+   "by": "model:claude-sonnet-5-5",
+   "action": "checked",
+   "outcome": "supports",
+   "date": "2026-10-29",
+   "run": "2026-10-29-web-check-1",
+   "note": "web check, search results only: Circular but not wrong. It omits that the exam has been closed to new candidates since 2016 (per the ASM summary), which a reader would want to know."
+  },
+  {
+   "field": "kind",
+   "by": "model:claude-sonnet-5-5",
+   "action": "checked",
+   "outcome": "supports",
+   "date": "2026-10-29",
+   "run": "2026-10-29-pilot-100-tags-blind-redraft",
+   "note": "second draft (xhigh) gave the same value"
+  },
+  {
+   "field": "certification",
+   "by": "model:claude-sonnet-5-5",
+   "action": "checked",
+   "outcome": "supports",
+   "date": "2026-10-29",
+   "run": "2026-10-29-pilot-100-tags-blind-redraft",
+   "note": "second draft (xhigh) gave the same value"
   }
  ],
- "certification_scope": "single-issuer"
+ "certification_scope": "single-issuer",
+ "credential": {
+  "credential_type": "certification",
+  "sources": [
+   {
+    "kind": "issuer",
+    "url": "https://asm.org/certifications/american-board-of-medical-laboratory-immunology",
+    "verification": "search-results-only",
+    "snippet": "The ABMLI is no longer accepting exam applications as of June 1, 2016, and its diplomates can still recertify."
+   },
+   {
+    "kind": "third-party",
+    "url": "https://www.cms.gov/files/document/hhs-approved-certification-boards.pdf",
+    "verification": "search-results-only",
+    "title": "CMS: HHS approved certification boards (CLIA laboratory director qualifications)"
+   },
+   {
+    "kind": "third-party",
+    "url": "https://www.ascp.org/content/docs/default-source/boc-pdfs/about_boc/dmli-practice-analysis-report.pdf?sfvrsn=0",
+    "verification": "search-results-only",
+    "title": "ASCP BOC: DMLI practice analysis report (the successor-style credential, a different body)"
+   }
+  ],
+  "official_name": "American Board of Medical Laboratory Immunology (ABMLI) certification",
+  "acronym": "ABMLI",
+  "level": "doctoral-level (laboratory director)",
+  "requirements": "Doctoral-level immunologists per the ASM page summary. The exam is no longer offered to new applicants, so current eligibility rules were not shown.",
+  "specificity": "specific-credential",
+  "status": "closed-to-new-candidates",
+  "status_note": "The exam is closed to new candidates, per the check's search results.",
+  "fields": [
+   {
+    "label": "medical laboratory immunology"
+   },
+   {
+    "label": "clinical laboratory science"
+   },
+   {
+    "label": "laboratory direction"
+   }
+  ],
+  "jurisdiction": [
+   "US"
+  ],
+  "issuers": [
+   {
+    "name": "American Board of Medical Laboratory Immunology, administered through the American Society for Microbiology (ASM) certification programme",
+    "type": "professional-body",
+    "country": "US",
+    "url": "https://asm.org/"
+   }
+  ]
+ }
 }

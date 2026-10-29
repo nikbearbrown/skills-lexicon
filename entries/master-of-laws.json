@@ -86,7 +86,99 @@
    "date": "2026-10-29",
    "run": "2026-10-29-scope-annotation",
    "note": "basis: general-knowledge; A degree awarded by many universities."
+  },
+  {
+   "field": "certification",
+   "by": "source:Wikipedia",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "search-results-only",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/wiki/Master_of_Laws",
+   "date": "2026-10-29",
+   "run": "2026-10-29-web-check-1",
+   "note": "Wikipedia has an article about it",
+   "organization": {
+    "name": "Wikimedia Foundation",
+    "url": "https://www.wikimedia.org/",
+    "type": "reference-work",
+    "country": "US"
+   }
+  },
+  {
+   "field": "definition",
+   "by": "model:claude-sonnet-5-5",
+   "action": "checked",
+   "outcome": "supports",
+   "date": "2026-10-29",
+   "run": "2026-10-29-web-check-1",
+   "note": "web check, search results only: 'Postgraduate law degree taken after a first law degree' matches the Wikipedia-based description. A few programmes admit people without a law degree."
+  },
+  {
+   "field": "kind",
+   "by": "model:claude-sonnet-5-5",
+   "action": "checked",
+   "outcome": "supports",
+   "date": "2026-10-29",
+   "run": "2026-10-29-pilot-100-tags-blind-redraft",
+   "note": "second draft (xhigh) gave the same value"
+  },
+  {
+   "field": "certification",
+   "by": "model:claude-sonnet-5-5",
+   "action": "checked",
+   "outcome": "supports",
+   "date": "2026-10-29",
+   "run": "2026-10-29-pilot-100-tags-blind-redraft",
+   "note": "second draft (xhigh) gave the same value"
   }
  ],
- "certification_scope": "many-issuers"
+ "certification_scope": "many-issuers",
+ "credential": {
+  "credential_type": "degree",
+  "sources": [
+   {
+    "kind": "wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Master_of_Laws",
+    "verification": "search-results-only"
+   },
+   {
+    "kind": "third-party",
+    "url": "https://www.mastersportal.com/disciplines/221/master-of-laws",
+    "verification": "search-results-only",
+    "title": "Mastersportal: studying a master's in Master of Laws (LLM)"
+   },
+   {
+    "kind": "issuer",
+    "url": "https://catalog.unh.edu/law/programs-study/llm-degrees/",
+    "verification": "search-results-only",
+    "title": "University of New Hampshire: LL.M. degrees (one example programme)"
+   },
+   {
+    "kind": "wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Law_degree",
+    "verification": "search-results-only",
+    "title": "Wikipedia: Law degree (broader article)"
+   }
+  ],
+  "official_name": "Master of Laws (LL.M.)",
+  "acronym": "LL.M.",
+  "level": "postgraduate (master's)",
+  "requirements": "Normally a prior law degree: an LL.B. in Canada, a J.D. in the US and Australia per the results. Some programmes admit non-lawyers or related undergraduates.",
+  "specificity": "specific-credential",
+  "fields": [
+   {
+    "label": "law"
+   }
+  ],
+  "jurisdiction": [
+   "INT"
+  ],
+  "issuers": [],
+  "wikipedia": {
+   "title": "Master of Laws",
+   "url": "https://en.wikipedia.org/wiki/Master_of_Laws",
+   "match": "manual"
+  }
+ }
 }

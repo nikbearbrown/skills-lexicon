@@ -389,7 +389,7 @@ class AnnotateExisting(unittest.TestCase):
 
     def go(self, answers, dry=False):
         self.answers.write_text(json.dumps(answers))
-        argv = [str(self.answers), "--model-id", "m2", "--run", "scope-run", "--root", str(self.root), "--date", "2026-10-29"]
+        argv = [str(self.answers), "--model-id", "m2", "--effort", "high", "--run", "scope-run", "--root", str(self.root), "--date", "2026-10-29"]
         return A.main(argv + (["--dry-run"] if dry else []))
 
     def entry(self):

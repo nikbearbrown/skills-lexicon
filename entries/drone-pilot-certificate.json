@@ -84,7 +84,113 @@
    "date": "2026-10-29",
    "run": "2026-10-29-scope-annotation",
    "note": "basis: general-knowledge; Each country's aviation authority issues its own; in the United States the FAA does. A US-specific entry would be single-issuer."
+  },
+  {
+   "field": "certification",
+   "by": "source:Federal Aviation Administration (FAA), for the US certificate",
+   "action": "matched_source",
+   "kind": "issuer",
+   "verification": "search-results-only",
+   "outcome": "supports",
+   "ref": "https://www.faa.gov/newsroom/small-unmanned-aircraft-systems-uas-regulations-part-107",
+   "date": "2026-10-29",
+   "run": "2026-10-29-web-check-1",
+   "note": "verdict ambiguous: To operate the controls of a drone under Part 107, you need a remote pilot certificate with a small UAS rating",
+   "organization": {
+    "name": "Federal Aviation Administration (FAA), for the US certificate",
+    "url": "https://www.faa.gov/",
+    "type": "government",
+    "country": "US"
+   }
+  },
+  {
+   "field": "definition",
+   "by": "model:claude-sonnet-5-5",
+   "action": "checked",
+   "outcome": "supports",
+   "date": "2026-10-29",
+   "run": "2026-10-29-web-check-1",
+   "note": "web check, search results only: The draft already scopes the claim to the FAA Remote Pilot Certificate under Part 107, which the results confirm."
+  },
+  {
+   "field": "kind",
+   "by": "model:claude-sonnet-5-5",
+   "action": "checked",
+   "outcome": "supports",
+   "date": "2026-10-29",
+   "run": "2026-10-29-pilot-100-tags-blind-redraft",
+   "note": "second draft (xhigh) gave the same value"
+  },
+  {
+   "field": "certification",
+   "by": "model:claude-sonnet-5-5",
+   "action": "checked",
+   "outcome": "supports",
+   "date": "2026-10-29",
+   "run": "2026-10-29-pilot-100-tags-blind-redraft",
+   "note": "second draft (xhigh) gave the same value"
   }
  ],
- "certification_scope": "many-issuers"
+ "certification_scope": "many-issuers",
+ "credential": {
+  "credential_type": "certification",
+  "sources": [
+   {
+    "kind": "issuer",
+    "url": "https://www.faa.gov/newsroom/small-unmanned-aircraft-systems-uas-regulations-part-107",
+    "verification": "search-results-only",
+    "snippet": "To operate the controls of a drone under Part 107, you need a remote pilot certificate with a small UAS rating"
+   },
+   {
+    "kind": "wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Regulation_of_UAVs_in_the_United_States",
+    "verification": "search-results-only",
+    "title": "Wikipedia: Regulation of UAVs in the United States (broader article)"
+   },
+   {
+    "kind": "wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Regulation_of_unmanned_aerial_vehicles",
+    "verification": "search-results-only",
+    "title": "Wikipedia: Regulation of unmanned aerial vehicles (international overview)"
+   },
+   {
+    "kind": "wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Pilot_certification_in_the_United_States",
+    "verification": "search-results-only",
+    "title": "Wikipedia: Pilot certification in the United States (broader article)"
+   },
+   {
+    "kind": "third-party",
+    "url": "https://www.uidaho.edu/-/media/UIdaho-Responsive/Files/research/Faculty/research-assurances/UAS/FAA_Part-107_Small-UAS-Pilot-Certification.pdf",
+    "verification": "search-results-only",
+    "title": "University of Idaho: FAA Part 107 Small UAS Pilot Certification (a university summary)"
+   }
+  ],
+  "official_name": "FAA remote pilot certificate with a small UAS rating (14 CFR Part 107), in the United States; other countries use different names",
+  "level": "entry",
+  "requirements": "US: at least 16 years old; able to read, speak, write and understand English; pass the initial aeronautical knowledge exam (Unmanned Aircraft General - Small) or, for Part 61 pilots with a recent flight review, an FAA online small UAS course; TSA security vetting; suitable physical and mental condition.",
+  "specificity": "specific-credential",
+  "fields": [
+   {
+    "label": "aviation"
+   },
+   {
+    "label": "unmanned aircraft systems"
+   },
+   {
+    "label": "drone operations"
+   }
+  ],
+  "jurisdiction": [
+   "US"
+  ],
+  "issuers": [
+   {
+    "name": "Federal Aviation Administration (FAA), for the US certificate",
+    "url": "https://www.faa.gov/",
+    "type": "government",
+    "country": "US"
+   }
+  ]
+ }
 }

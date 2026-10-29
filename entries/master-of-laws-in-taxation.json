@@ -98,7 +98,81 @@
    "date": "2026-10-29",
    "run": "2026-10-29-scope-annotation",
    "note": "basis: general-knowledge; A degree awarded by many universities."
+  },
+  {
+   "field": "definition",
+   "by": "model:claude-sonnet-5-5",
+   "action": "checked",
+   "outcome": "supports",
+   "date": "2026-10-29",
+   "run": "2026-10-29-web-check-1",
+   "note": "web check, search results only: Matches what the programme pages and the Wikipedia-derived summary describe."
+  },
+  {
+   "field": "kind",
+   "by": "model:claude-sonnet-5-5",
+   "action": "checked",
+   "outcome": "supports",
+   "date": "2026-10-29",
+   "run": "2026-10-29-pilot-100-tags-blind-redraft",
+   "note": "second draft (xhigh) gave the same value"
+  },
+  {
+   "field": "certification",
+   "by": "model:claude-sonnet-5-5",
+   "action": "checked",
+   "outcome": "supports",
+   "date": "2026-10-29",
+   "run": "2026-10-29-pilot-100-tags-blind-redraft",
+   "note": "second draft (xhigh) gave the same value"
   }
  ],
- "certification_scope": "many-issuers"
+ "certification_scope": "many-issuers",
+ "credential": {
+  "credential_type": "degree",
+  "sources": [
+   {
+    "kind": "issuer",
+    "url": "https://smu.edu/law/academics/graduate-programs/llm-tax/llm-tax-programs/llm-taxation",
+    "verification": "search-results-only",
+    "title": "SMU Dedman School of Law: LL.M. in Taxation (one example programme)"
+   },
+   {
+    "kind": "issuer",
+    "url": "https://www.nyls.edu/academics/programs-of-study/llm-in-taxation/",
+    "verification": "search-results-only",
+    "title": "New York Law School: LL.M. in Taxation (one example programme)"
+   },
+   {
+    "kind": "issuer",
+    "url": "https://www.grad.ubc.ca/prospective-students/graduate-degree-programs/llm-taxation",
+    "verification": "search-results-only",
+    "title": "UBC: LL.M. Taxation (one example programme)"
+   },
+   {
+    "kind": "wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Master_of_Laws",
+    "verification": "search-results-only",
+    "title": "Wikipedia: Master of Laws (broader article on the degree)"
+   }
+  ],
+  "official_name": "Master of Laws in Taxation (LL.M. in Taxation)",
+  "acronym": "LL.M. (Tax)",
+  "level": "postgraduate (master's)",
+  "requirements": "Varies by school. Example: SMU asks for a J.D. from an ABA-accredited school; UBC's non-thesis degree needs 30 credits including a 6-credit tax foundations course; a Temple-style programme asks for a basic income tax course.",
+  "specificity": "specific-credential",
+  "fields": [
+   {
+    "label": "law"
+   },
+   {
+    "label": "tax law"
+   }
+  ],
+  "jurisdiction": [
+   "US",
+   "CA"
+  ],
+  "issuers": []
+ }
 }

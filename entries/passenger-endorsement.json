@@ -71,7 +71,88 @@
    "date": "2026-10-29",
    "run": "2026-10-29-scope-annotation",
    "note": "basis: general-knowledge; Each US state licensing agency issues it under common federal rules."
+  },
+  {
+   "field": "definition",
+   "by": "model:claude-sonnet-5-5",
+   "action": "checked",
+   "outcome": "supports",
+   "date": "2026-10-29",
+   "run": "2026-10-29-web-check-1",
+   "note": "web check, search results only: Matches: the P endorsement covers passenger vehicles such as buses. The usual threshold is 16 or more people including the driver."
+  },
+  {
+   "field": "kind",
+   "by": "model:claude-sonnet-5-5",
+   "action": "checked",
+   "outcome": "supports",
+   "date": "2026-10-29",
+   "run": "2026-10-29-pilot-100-tags-blind-redraft",
+   "note": "second draft (xhigh) gave the same value"
+  },
+  {
+   "field": "certification",
+   "by": "model:claude-sonnet-5-5",
+   "action": "checked",
+   "outcome": "supports",
+   "date": "2026-10-29",
+   "run": "2026-10-29-pilot-100-tags-blind-redraft",
+   "note": "second draft (xhigh) gave the same value"
   }
  ],
- "certification_scope": "many-issuers"
+ "certification_scope": "many-issuers",
+ "credential": {
+  "credential_type": "endorsement",
+  "sources": [
+   {
+    "kind": "third-party",
+    "url": "https://www.law.cornell.edu/cfr/text/49/383.93",
+    "verification": "search-results-only",
+    "title": "Cornell LII: 49 CFR 383.93, endorsements (a legal-text mirror, not the issuer)"
+   },
+   {
+    "kind": "issuer",
+    "url": "https://dr-www.ncdot.gov/dmv/license-id/driver-licenses/commercial/Documents/commercial-driver-endorsements-restrictions.pdf",
+    "verification": "search-results-only",
+    "title": "North Carolina DMV: commercial driver endorsements and restrictions chart (one state's issuing agency, as an example)"
+   },
+   {
+    "kind": "issuer",
+    "url": "https://secure.in.gov/bmv/licenses-permits-ids/commercial-drivers-license-overview/commercial-drivers-license-endorsements-and-restrictions",
+    "verification": "search-results-only",
+    "title": "Indiana BMV: CDL endorsements and restrictions (one state's issuing agency, as an example)"
+   },
+   {
+    "kind": "third-party",
+    "url": "https://cdlschool.com/cdl-faq/cdl-passenger-endorsement-requirements-test-and-bus-driving-jobs",
+    "verification": "search-results-only",
+    "title": "CDLschool.com: CDL passenger endorsement requirements (a training site)"
+   },
+   {
+    "kind": "wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Commercial_driver's_license",
+    "verification": "search-results-only",
+    "title": "Wikipedia: Commercial driver's license (broader article that covers the P endorsement)"
+   }
+  ],
+  "official_name": "Passenger (P) endorsement on a commercial driver's licence",
+  "acronym": "P",
+  "requirements": "A CDL plus the passenger knowledge test and a skills test in a representative passenger vehicle; first-time applicants must complete entry-level driver training from a provider on the FMCSA Training Provider Registry; the air-brakes knowledge test applies if the bus has air brakes.",
+  "specificity": "specific-credential",
+  "fields": [
+   {
+    "label": "commercial driving"
+   },
+   {
+    "label": "passenger transport"
+   },
+   {
+    "label": "bus operation"
+   }
+  ],
+  "jurisdiction": [
+   "US"
+  ],
+  "issuers": []
+ }
 }

@@ -96,7 +96,136 @@
    "date": "2026-10-29",
    "run": "2026-10-29-scope-annotation",
    "note": "basis: general-knowledge"
+  },
+  {
+   "field": "certification",
+   "by": "source:International Association of Computer Investigative Specialists (IACIS)",
+   "action": "matched_source",
+   "kind": "issuer",
+   "verification": "search-results-only",
+   "outcome": "supports",
+   "ref": "https://www.iacis.com/certification/cfce",
+   "date": "2026-10-29",
+   "run": "2026-10-29-web-check-1",
+   "note": "The CFCE is a Windows-focused digital forensics credential run by IACIS, a volunteer non-profit.",
+   "organization": {
+    "name": "International Association of Computer Investigative Specialists (IACIS)",
+    "url": "https://www.iacis.com/",
+    "type": "nonprofit",
+    "country": "US"
+   }
+  },
+  {
+   "field": "certification",
+   "by": "source:Wikipedia",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "search-results-only",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/wiki/Certified_forensic_computer_examiner",
+   "date": "2026-10-29",
+   "run": "2026-10-29-web-check-1",
+   "note": "Wikipedia has an article about it",
+   "organization": {
+    "name": "Wikimedia Foundation",
+    "url": "https://www.wikimedia.org/",
+    "type": "reference-work",
+    "country": "US"
+   }
+  },
+  {
+   "field": "definition",
+   "by": "model:claude-sonnet-5-5",
+   "action": "checked",
+   "outcome": "supports",
+   "date": "2026-10-29",
+   "run": "2026-10-29-web-check-1",
+   "note": "web check, search results only: Issuer and field match. The draft omits the IACIS membership requirement and the FSAB/ISO 17024 accreditation reported on the IACIS pages."
+  },
+  {
+   "field": "kind",
+   "by": "model:claude-sonnet-5-5",
+   "action": "checked",
+   "outcome": "supports",
+   "date": "2026-10-29",
+   "run": "2026-10-29-pilot-100-tags-blind-redraft",
+   "note": "second draft (xhigh) gave the same value"
+  },
+  {
+   "field": "certification",
+   "by": "model:claude-sonnet-5-5",
+   "action": "checked",
+   "outcome": "supports",
+   "date": "2026-10-29",
+   "run": "2026-10-29-pilot-100-tags-blind-redraft",
+   "note": "second draft (xhigh) gave the same value"
   }
  ],
- "certification_scope": "single-issuer"
+ "certification_scope": "single-issuer",
+ "credential": {
+  "credential_type": "certification",
+  "sources": [
+   {
+    "kind": "issuer",
+    "url": "https://www.iacis.com/certification/cfce",
+    "verification": "search-results-only",
+    "snippet": "The CFCE is a Windows-focused digital forensics credential run by IACIS, a volunteer non-profit."
+   },
+   {
+    "kind": "wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Certified_forensic_computer_examiner",
+    "verification": "search-results-only"
+   },
+   {
+    "kind": "issuer",
+    "url": "https://www.iacis.com/?p=49",
+    "verification": "search-results-only",
+    "title": "IACIS: Becoming Certified"
+   },
+   {
+    "kind": "issuer",
+    "url": "https://www.iacis.com/about/",
+    "verification": "search-results-only",
+    "title": "IACIS: About"
+   },
+   {
+    "kind": "third-party",
+    "url": "https://oreilly.com/library/view/computer-forensics-jumpstart/9781118067659/bapp03-anchor-5.xhtml",
+    "verification": "search-results-only",
+    "title": "O'Reilly: Computer Forensics JumpStart appendix entry on the CFCE"
+   }
+  ],
+  "official_name": "Certified Forensic Computer Examiner (CFCE)",
+  "acronym": "CFCE",
+  "level": "professional",
+  "requirements": "IACIS membership; 72 hours of computer/digital forensics training (the two-week IACIS Basic Computer Forensic Examiner course satisfies this); peer review phase (four scenario-based problems) then certification phase (practical exercise plus written exam).",
+  "specificity": "specific-credential",
+  "fields": [
+   {
+    "label": "digital forensics"
+   },
+   {
+    "label": "computer forensics"
+   },
+   {
+    "label": "law-enforcement investigation"
+   }
+  ],
+  "jurisdiction": [
+   "US"
+  ],
+  "issuers": [
+   {
+    "name": "International Association of Computer Investigative Specialists (IACIS)",
+    "type": "nonprofit",
+    "country": "US",
+    "url": "https://www.iacis.com/"
+   }
+  ],
+  "wikipedia": {
+   "title": "Certified forensic computer examiner",
+   "url": "https://en.wikipedia.org/wiki/Certified_forensic_computer_examiner",
+   "match": "manual"
+  }
+ }
 }

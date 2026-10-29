@@ -142,14 +142,18 @@ class EntryAndEvidence(unittest.TestCase):
 
     def test_a_dump_match_record_passes(self):
         self.assertEqual(self.evok(action="matched_source", by="source:enwiki-20261001", kind="wikipedia", verification="dump-match",
-                                   outcome="supports", ref="wikidata:Q4686912", run="wikipedia-dump-1",
+                                   organization={"name": "Wikimedia Foundation", "url": "https://www.wikimedia.org/"}, outcome="supports", ref="wikidata:Q4686912", run="wikipedia-dump-1",
                                    match={"dataset": "enwiki-20261001", "dataset_id": "page_id:123", "method": "redirect",
                                           "categories": ["Professional certification"]}), [])
 
     def test_evidence_rules(self):
-        self.assertTrue(self.evok(action="matched_source", by="source:x", outcome="supports", verification="dump-match"))   # needs a ref
-        self.assertTrue(self.evok(action="matched_source", by="source:x", outcome="supports", ref="u"))                    # needs verification
-        self.assertTrue(self.evok(action="matched_source", by="model:m", outcome="supports", ref="u", verification="page-read"))   # a model is not a source
+        org = {"name": "X", "url": "https://x.example/"}
+        self.assertTrue(self.evok(action="matched_source", by="source:x", outcome="supports", verification="dump-match", organization=org))   # needs a ref
+        self.assertTrue(self.evok(action="matched_source", by="source:x", outcome="supports", ref="u", organization=org))                    # needs verification
+        self.assertTrue(self.evok(action="matched_source", by="source:x", outcome="supports", ref="u", verification="page-read"))            # needs an organization
+        self.assertTrue(self.evok(action="matched_source", by="source:x", outcome="supports", ref="u", verification="page-read",
+                                  organization={"name": "X"}))                                                                                 # and a link to it
+        self.assertTrue(self.evok(action="matched_source", by="model:m", outcome="supports", ref="u", verification="page-read", organization=org))   # a model is not a source
         self.assertTrue(self.evok(action="checked", by="human:Bear"))                                            # needs an outcome
         self.assertTrue(self.evok(by="source:enwiki"))                                                           # a source cannot draft
         self.assertTrue(self.evok(by="Bear"))
@@ -165,6 +169,33 @@ class EntryAndEvidence(unittest.TestCase):
         self.assertTrue([x.message for x in self.ve.iter_errors({**base, "status": "deprecated"})])             # deprecated needs replacements
         self.assertTrue([x.message for x in self.ve.iter_errors({**base, "id": "skill:0001"})])
         self.assertTrue([x.message for x in self.ve.iter_errors({**base, "certification_scope": "single-issuer"})])
+
+
+@unittest.skipIf(jsonschema is None, "jsonschema is not installed")
+class VotesAndRuns(unittest.TestCase):
+    def test_every_stored_vote_conforms(self):
+        v = jsonschema.Draft202012Validator(json.loads((ROOT / "schemas" / "assessment.schema.json").read_text("utf-8")))
+        lines = [json.loads(x) for x in (ROOT / "data" / "assessments.jsonl").read_text("utf-8").splitlines() if x.strip()]
+        self.assertGreaterEqual(len(lines), 300)
+        for rec in lines:
+            self.assertEqual([x.message for x in v.iter_errors(rec)], [], rec["tag"])
+
+    def test_the_run_registry_conforms_and_a_bad_one_does_not(self):
+        v = jsonschema.Draft202012Validator(json.loads((ROOT / "schemas" / "run.schema.json").read_text("utf-8")))
+        runs = json.loads((ROOT / "data" / "runs.json").read_text("utf-8"))
+        self.assertEqual([x.message for x in v.iter_errors(runs)], [])
+        self.assertTrue(list(v.iter_errors({"r": {"model": "m", "effort": "extra", "agent": "main-session"}})))
+        self.assertTrue(list(v.iter_errors({"r": {"model": "m", "effort": "high"}})))
+
+    def test_a_vote_needs_an_assessor_who_is_a_model_with_effort_or_a_named_person(self):
+        v = jsonschema.Draft202012Validator(json.loads((ROOT / "schemas" / "assessment.schema.json").read_text("utf-8")))
+        base = {"tag": "T", "key": "t", "question": "skill", "answer": "yes", "run": "r", "date": "2026-10-29"}
+        ok = lambda a: not list(v.iter_errors({**base, "assessor": a}))  # noqa: E731
+        self.assertTrue(ok({"type": "model", "model": "m", "effort": "xhigh"}))
+        self.assertTrue(ok({"type": "human", "name": "Bear"}))
+        self.assertFalse(ok({"type": "model", "model": "m"}))
+        self.assertFalse(ok({"type": "human"}))
+        self.assertFalse(list(v.iter_errors({**base, "assessor": {"type": "human", "name": "B"}, "answer": "maybe"})) == [])
 
 
 if __name__ == "__main__":

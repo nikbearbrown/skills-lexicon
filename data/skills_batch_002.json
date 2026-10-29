@@ -16,6 +16,864 @@
   "generated": "from entries/*.json by tools/batch.py; do not edit by hand",
   "status": "machine-drafted: no claim in this batch is backed by a human check or a matched source"
  },
+ "runs": {
+  "2026-10-29-batch-002": {
+   "model": "claude-sonnet-5-5",
+   "effort": "xhigh",
+   "agent": "subagent",
+   "date": "2026-10-29",
+   "note": "subagent; model and effort read from the subagent's own transcript"
+  },
+  "2026-10-29-scope-annotation-batch-002": {
+   "model": "claude-sonnet-5-5",
+   "effort": "xhigh",
+   "agent": "main-session",
+   "date": "2026-10-29",
+   "note": "main session; model and effort read from the session settings"
+  }
+ },
+ "votes": {
+  "rgmb82njzm": [
+   {
+    "answer": "yes",
+    "by": "legacy tag lists",
+    "run": null
+   },
+   {
+    "answer": "yes",
+    "by": "claude-sonnet-5-5 (xhigh, subagent)",
+    "run": "2026-10-29-batch-002"
+   }
+  ],
+  "vybdl8cbsd": [
+   {
+    "answer": "yes",
+    "by": "legacy tag lists",
+    "run": null
+   },
+   {
+    "answer": "yes",
+    "by": "claude-sonnet-5-5 (xhigh, subagent)",
+    "run": "2026-10-29-batch-002"
+   }
+  ],
+  "cw49d7xovz": [
+   {
+    "answer": "yes",
+    "by": "legacy tag lists",
+    "run": null
+   },
+   {
+    "answer": "yes",
+    "by": "claude-sonnet-5-5 (xhigh, subagent)",
+    "run": "2026-10-29-batch-002"
+   }
+  ],
+  "xaw12yw4wk": [
+   {
+    "answer": "yes",
+    "by": "legacy tag lists",
+    "run": null
+   },
+   {
+    "answer": "yes",
+    "by": "claude-sonnet-5-5 (xhigh, subagent)",
+    "run": "2026-10-29-batch-002"
+   }
+  ],
+  "jx7it8oo69": [
+   {
+    "answer": "yes",
+    "by": "legacy tag lists",
+    "run": null
+   },
+   {
+    "answer": "yes",
+    "by": "claude-sonnet-5-5 (xhigh, subagent)",
+    "run": "2026-10-29-batch-002"
+   }
+  ],
+  "ie5zqb9lez": [
+   {
+    "answer": "yes",
+    "by": "legacy tag lists",
+    "run": null
+   },
+   {
+    "answer": "yes",
+    "by": "claude-sonnet-5-5 (xhigh, subagent)",
+    "run": "2026-10-29-batch-002"
+   }
+  ],
+  "t79xst2o2u": [
+   {
+    "answer": "yes",
+    "by": "legacy tag lists",
+    "run": null
+   },
+   {
+    "answer": "yes",
+    "by": "claude-sonnet-5-5 (xhigh, subagent)",
+    "run": "2026-10-29-batch-002"
+   }
+  ],
+  "mo4nl9t5c8": [
+   {
+    "answer": "yes",
+    "by": "legacy tag lists",
+    "run": null
+   },
+   {
+    "answer": "yes",
+    "by": "claude-sonnet-5-5 (xhigh, subagent)",
+    "run": "2026-10-29-batch-002"
+   }
+  ],
+  "xuaqr3xw13": [
+   {
+    "answer": "yes",
+    "by": "legacy tag lists",
+    "run": null
+   },
+   {
+    "answer": "yes",
+    "by": "claude-sonnet-5-5 (xhigh, subagent)",
+    "run": "2026-10-29-batch-002"
+   }
+  ],
+  "x1ik9vrk6z": [
+   {
+    "answer": "yes",
+    "by": "legacy tag lists",
+    "run": null
+   },
+   {
+    "answer": "yes",
+    "by": "claude-sonnet-5-5 (xhigh, subagent)",
+    "run": "2026-10-29-batch-002"
+   }
+  ],
+  "q79kcfioa9": [
+   {
+    "answer": "yes",
+    "by": "legacy tag lists",
+    "run": null
+   },
+   {
+    "answer": "yes",
+    "by": "claude-sonnet-5-5 (xhigh, subagent)",
+    "run": "2026-10-29-batch-002"
+   }
+  ],
+  "shp7k2eln7": [
+   {
+    "answer": "yes",
+    "by": "legacy tag lists",
+    "run": null
+   },
+   {
+    "answer": "yes",
+    "by": "claude-sonnet-5-5 (xhigh, subagent)",
+    "run": "2026-10-29-batch-002"
+   }
+  ],
+  "tmruyf3737": [
+   {
+    "answer": "yes",
+    "by": "legacy tag lists",
+    "run": null
+   },
+   {
+    "answer": "yes",
+    "by": "claude-sonnet-5-5 (xhigh, subagent)",
+    "run": "2026-10-29-batch-002"
+   }
+  ],
+  "n40b1v2pun": [
+   {
+    "answer": "yes",
+    "by": "legacy tag lists",
+    "run": null
+   },
+   {
+    "answer": "yes",
+    "by": "claude-sonnet-5-5 (xhigh, subagent)",
+    "run": "2026-10-29-batch-002"
+   }
+  ],
+  "d16eizgfld": [
+   {
+    "answer": "yes",
+    "by": "legacy tag lists",
+    "run": null
+   },
+   {
+    "answer": "yes",
+    "by": "claude-sonnet-5-5 (xhigh, subagent)",
+    "run": "2026-10-29-batch-002"
+   }
+  ],
+  "dcojl2vxs3": [
+   {
+    "answer": "yes",
+    "by": "legacy tag lists",
+    "run": null
+   },
+   {
+    "answer": "yes",
+    "by": "claude-sonnet-5-5 (xhigh, subagent)",
+    "run": "2026-10-29-batch-002"
+   }
+  ],
+  "y80oj040jw": [
+   {
+    "answer": "yes",
+    "by": "legacy tag lists",
+    "run": null
+   },
+   {
+    "answer": "yes",
+    "by": "claude-sonnet-5-5 (xhigh, subagent)",
+    "run": "2026-10-29-batch-002"
+   }
+  ],
+  "rivr9g4ool": [
+   {
+    "answer": "yes",
+    "by": "legacy tag lists",
+    "run": null
+   },
+   {
+    "answer": "yes",
+    "by": "claude-sonnet-5-5 (xhigh, subagent)",
+    "run": "2026-10-29-batch-002"
+   }
+  ],
+  "g0px5fvj2a": [
+   {
+    "answer": "yes",
+    "by": "legacy tag lists",
+    "run": null
+   },
+   {
+    "answer": "yes",
+    "by": "claude-sonnet-5-5 (xhigh, subagent)",
+    "run": "2026-10-29-batch-002"
+   }
+  ],
+  "a0cpzx7lc1": [
+   {
+    "answer": "yes",
+    "by": "legacy tag lists",
+    "run": null
+   },
+   {
+    "answer": "yes",
+    "by": "claude-sonnet-5-5 (xhigh, subagent)",
+    "run": "2026-10-29-batch-002"
+   }
+  ],
+  "ds2v2gms4a": [
+   {
+    "answer": "yes",
+    "by": "legacy tag lists",
+    "run": null
+   },
+   {
+    "answer": "yes",
+    "by": "claude-sonnet-5-5 (xhigh, subagent)",
+    "run": "2026-10-29-batch-002"
+   }
+  ],
+  "uga6m4y1c2": [
+   {
+    "answer": "yes",
+    "by": "legacy tag lists",
+    "run": null
+   },
+   {
+    "answer": "yes",
+    "by": "claude-sonnet-5-5 (xhigh, subagent)",
+    "run": "2026-10-29-batch-002"
+   }
+  ],
+  "qwxq4g1dxk": [
+   {
+    "answer": "yes",
+    "by": "legacy tag lists",
+    "run": null
+   },
+   {
+    "answer": "yes",
+    "by": "claude-sonnet-5-5 (xhigh, subagent)",
+    "run": "2026-10-29-batch-002"
+   }
+  ],
+  "nqi6z4463l": [
+   {
+    "answer": "yes",
+    "by": "legacy tag lists",
+    "run": null
+   },
+   {
+    "answer": "yes",
+    "by": "claude-sonnet-5-5 (xhigh, subagent)",
+    "run": "2026-10-29-batch-002"
+   }
+  ],
+  "qtajo535yk": [
+   {
+    "answer": "yes",
+    "by": "legacy tag lists",
+    "run": null
+   },
+   {
+    "answer": "yes",
+    "by": "claude-sonnet-5-5 (xhigh, subagent)",
+    "run": "2026-10-29-batch-002"
+   }
+  ],
+  "kaq3khj4zt": [
+   {
+    "answer": "yes",
+    "by": "legacy tag lists",
+    "run": null
+   },
+   {
+    "answer": "yes",
+    "by": "claude-sonnet-5-5 (xhigh, subagent)",
+    "run": "2026-10-29-batch-002"
+   }
+  ],
+  "px641yid6a": [
+   {
+    "answer": "yes",
+    "by": "legacy tag lists",
+    "run": null
+   },
+   {
+    "answer": "yes",
+    "by": "claude-sonnet-5-5 (xhigh, subagent)",
+    "run": "2026-10-29-batch-002"
+   }
+  ],
+  "nv1m32nwsp": [
+   {
+    "answer": "yes",
+    "by": "legacy tag lists",
+    "run": null
+   },
+   {
+    "answer": "yes",
+    "by": "claude-sonnet-5-5 (xhigh, subagent)",
+    "run": "2026-10-29-batch-002"
+   }
+  ],
+  "wpvzxxfp8w": [
+   {
+    "answer": "yes",
+    "by": "legacy tag lists",
+    "run": null
+   },
+   {
+    "answer": "yes",
+    "by": "claude-sonnet-5-5 (xhigh, subagent)",
+    "run": "2026-10-29-batch-002"
+   }
+  ],
+  "kh1pwxmv04": [
+   {
+    "answer": "yes",
+    "by": "legacy tag lists",
+    "run": null
+   },
+   {
+    "answer": "yes",
+    "by": "claude-sonnet-5-5 (xhigh, subagent)",
+    "run": "2026-10-29-batch-002"
+   }
+  ],
+  "eqkun4vakq": [
+   {
+    "answer": "yes",
+    "by": "legacy tag lists",
+    "run": null
+   },
+   {
+    "answer": "yes",
+    "by": "claude-sonnet-5-5 (xhigh, subagent)",
+    "run": "2026-10-29-batch-002"
+   }
+  ],
+  "gd6cpzm0po": [
+   {
+    "answer": "yes",
+    "by": "legacy tag lists",
+    "run": null
+   },
+   {
+    "answer": "yes",
+    "by": "claude-sonnet-5-5 (xhigh, subagent)",
+    "run": "2026-10-29-batch-002"
+   }
+  ],
+  "calqr5kns5": [
+   {
+    "answer": "yes",
+    "by": "legacy tag lists",
+    "run": null
+   },
+   {
+    "answer": "yes",
+    "by": "claude-sonnet-5-5 (xhigh, subagent)",
+    "run": "2026-10-29-batch-002"
+   }
+  ],
+  "oaaan86zwe": [
+   {
+    "answer": "yes",
+    "by": "legacy tag lists",
+    "run": null
+   },
+   {
+    "answer": "yes",
+    "by": "claude-sonnet-5-5 (xhigh, subagent)",
+    "run": "2026-10-29-batch-002"
+   }
+  ],
+  "sordsd3iq2": [
+   {
+    "answer": "yes",
+    "by": "legacy tag lists",
+    "run": null
+   },
+   {
+    "answer": "yes",
+    "by": "claude-sonnet-5-5 (xhigh, subagent)",
+    "run": "2026-10-29-batch-002"
+   }
+  ],
+  "ydp6a13kjq": [
+   {
+    "answer": "yes",
+    "by": "legacy tag lists",
+    "run": null
+   },
+   {
+    "answer": "yes",
+    "by": "claude-sonnet-5-5 (xhigh, subagent)",
+    "run": "2026-10-29-batch-002"
+   }
+  ],
+  "yegnhni99h": [
+   {
+    "answer": "yes",
+    "by": "legacy tag lists",
+    "run": null
+   },
+   {
+    "answer": "yes",
+    "by": "claude-sonnet-5-5 (xhigh, subagent)",
+    "run": "2026-10-29-batch-002"
+   }
+  ],
+  "t5cy0zpwuy": [
+   {
+    "answer": "yes",
+    "by": "legacy tag lists",
+    "run": null
+   },
+   {
+    "answer": "yes",
+    "by": "claude-sonnet-5-5 (xhigh, subagent)",
+    "run": "2026-10-29-batch-002"
+   }
+  ],
+  "jyl5hk0swj": [
+   {
+    "answer": "yes",
+    "by": "legacy tag lists",
+    "run": null
+   },
+   {
+    "answer": "yes",
+    "by": "claude-sonnet-5-5 (xhigh, subagent)",
+    "run": "2026-10-29-batch-002"
+   }
+  ],
+  "rhn76haere": [
+   {
+    "answer": "yes",
+    "by": "legacy tag lists",
+    "run": null
+   },
+   {
+    "answer": "yes",
+    "by": "claude-sonnet-5-5 (xhigh, subagent)",
+    "run": "2026-10-29-batch-002"
+   }
+  ],
+  "wk12bqmtty": [
+   {
+    "answer": "yes",
+    "by": "legacy tag lists",
+    "run": null
+   },
+   {
+    "answer": "yes",
+    "by": "claude-sonnet-5-5 (xhigh, subagent)",
+    "run": "2026-10-29-batch-002"
+   }
+  ],
+  "oq06rmk4iu": [
+   {
+    "answer": "yes",
+    "by": "legacy tag lists",
+    "run": null
+   },
+   {
+    "answer": "yes",
+    "by": "claude-sonnet-5-5 (xhigh, subagent)",
+    "run": "2026-10-29-batch-002"
+   }
+  ],
+  "d0ayx8tpi3": [
+   {
+    "answer": "yes",
+    "by": "legacy tag lists",
+    "run": null
+   },
+   {
+    "answer": "yes",
+    "by": "claude-sonnet-5-5 (xhigh, subagent)",
+    "run": "2026-10-29-batch-002"
+   }
+  ],
+  "qukrgv9x75": [
+   {
+    "answer": "yes",
+    "by": "legacy tag lists",
+    "run": null
+   },
+   {
+    "answer": "yes",
+    "by": "claude-sonnet-5-5 (xhigh, subagent)",
+    "run": "2026-10-29-batch-002"
+   }
+  ],
+  "vmr98s77kp": [
+   {
+    "answer": "yes",
+    "by": "legacy tag lists",
+    "run": null
+   },
+   {
+    "answer": "yes",
+    "by": "claude-sonnet-5-5 (xhigh, subagent)",
+    "run": "2026-10-29-batch-002"
+   }
+  ],
+  "qq4qgc7k78": [
+   {
+    "answer": "yes",
+    "by": "legacy tag lists",
+    "run": null
+   },
+   {
+    "answer": "yes",
+    "by": "claude-sonnet-5-5 (xhigh, subagent)",
+    "run": "2026-10-29-batch-002"
+   }
+  ],
+  "o0bkdduxor": [
+   {
+    "answer": "yes",
+    "by": "legacy tag lists",
+    "run": null
+   },
+   {
+    "answer": "yes",
+    "by": "claude-sonnet-5-5 (xhigh, subagent)",
+    "run": "2026-10-29-batch-002"
+   }
+  ],
+  "xstca7bdbk": [
+   {
+    "answer": "yes",
+    "by": "legacy tag lists",
+    "run": null
+   },
+   {
+    "answer": "yes",
+    "by": "claude-sonnet-5-5 (xhigh, subagent)",
+    "run": "2026-10-29-batch-002"
+   }
+  ],
+  "mbal4qqzlq": [
+   {
+    "answer": "yes",
+    "by": "legacy tag lists",
+    "run": null
+   },
+   {
+    "answer": "yes",
+    "by": "claude-sonnet-5-5 (xhigh, subagent)",
+    "run": "2026-10-29-batch-002"
+   }
+  ],
+  "tl1644tlhi": [
+   {
+    "answer": "yes",
+    "by": "legacy tag lists",
+    "run": null
+   },
+   {
+    "answer": "yes",
+    "by": "claude-sonnet-5-5 (xhigh, subagent)",
+    "run": "2026-10-29-batch-002"
+   }
+  ],
+  "ppo11nahux": [
+   {
+    "answer": "yes",
+    "by": "legacy tag lists",
+    "run": null
+   },
+   {
+    "answer": "yes",
+    "by": "claude-sonnet-5-5 (xhigh, subagent)",
+    "run": "2026-10-29-batch-002"
+   }
+  ],
+  "aivu2hknkc": [
+   {
+    "answer": "yes",
+    "by": "legacy tag lists",
+    "run": null
+   },
+   {
+    "answer": "yes",
+    "by": "claude-sonnet-5-5 (xhigh, subagent)",
+    "run": "2026-10-29-batch-002"
+   }
+  ],
+  "fkq839wai8": [
+   {
+    "answer": "yes",
+    "by": "legacy tag lists",
+    "run": null
+   },
+   {
+    "answer": "yes",
+    "by": "claude-sonnet-5-5 (xhigh, subagent)",
+    "run": "2026-10-29-batch-002"
+   }
+  ],
+  "i4m07o2di6": [
+   {
+    "answer": "yes",
+    "by": "legacy tag lists",
+    "run": null
+   },
+   {
+    "answer": "yes",
+    "by": "claude-sonnet-5-5 (xhigh, subagent)",
+    "run": "2026-10-29-batch-002"
+   }
+  ],
+  "rpn2bwtxnp": [
+   {
+    "answer": "yes",
+    "by": "legacy tag lists",
+    "run": null
+   },
+   {
+    "answer": "yes",
+    "by": "claude-sonnet-5-5 (xhigh, subagent)",
+    "run": "2026-10-29-batch-002"
+   }
+  ],
+  "wjy1358i16": [
+   {
+    "answer": "yes",
+    "by": "legacy tag lists",
+    "run": null
+   },
+   {
+    "answer": "yes",
+    "by": "claude-sonnet-5-5 (xhigh, subagent)",
+    "run": "2026-10-29-batch-002"
+   }
+  ],
+  "thlaos2081": [
+   {
+    "answer": "yes",
+    "by": "legacy tag lists",
+    "run": null
+   },
+   {
+    "answer": "yes",
+    "by": "claude-sonnet-5-5 (xhigh, subagent)",
+    "run": "2026-10-29-batch-002"
+   }
+  ],
+  "vroxc5a0gz": [
+   {
+    "answer": "yes",
+    "by": "legacy tag lists",
+    "run": null
+   },
+   {
+    "answer": "yes",
+    "by": "claude-sonnet-5-5 (xhigh, subagent)",
+    "run": "2026-10-29-batch-002"
+   }
+  ],
+  "u72pap9snn": [
+   {
+    "answer": "yes",
+    "by": "legacy tag lists",
+    "run": null
+   },
+   {
+    "answer": "yes",
+    "by": "claude-sonnet-5-5 (xhigh, subagent)",
+    "run": "2026-10-29-batch-002"
+   }
+  ],
+  "kmcb9apauo": [
+   {
+    "answer": "yes",
+    "by": "legacy tag lists",
+    "run": null
+   },
+   {
+    "answer": "yes",
+    "by": "claude-sonnet-5-5 (xhigh, subagent)",
+    "run": "2026-10-29-batch-002"
+   }
+  ],
+  "f9s025tlam": [
+   {
+    "answer": "yes",
+    "by": "legacy tag lists",
+    "run": null
+   },
+   {
+    "answer": "yes",
+    "by": "claude-sonnet-5-5 (xhigh, subagent)",
+    "run": "2026-10-29-batch-002"
+   }
+  ],
+  "n6a28897om": [
+   {
+    "answer": "yes",
+    "by": "legacy tag lists",
+    "run": null
+   },
+   {
+    "answer": "yes",
+    "by": "claude-sonnet-5-5 (xhigh, subagent)",
+    "run": "2026-10-29-batch-002"
+   }
+  ],
+  "kba5p9by94": [
+   {
+    "answer": "yes",
+    "by": "legacy tag lists",
+    "run": null
+   },
+   {
+    "answer": "yes",
+    "by": "claude-sonnet-5-5 (xhigh, subagent)",
+    "run": "2026-10-29-batch-002"
+   }
+  ],
+  "lrg2eu09em": [
+   {
+    "answer": "yes",
+    "by": "legacy tag lists",
+    "run": null
+   },
+   {
+    "answer": "yes",
+    "by": "claude-sonnet-5-5 (xhigh, subagent)",
+    "run": "2026-10-29-batch-002"
+   }
+  ],
+  "mldj16hibf": [
+   {
+    "answer": "yes",
+    "by": "legacy tag lists",
+    "run": null
+   },
+   {
+    "answer": "yes",
+    "by": "claude-sonnet-5-5 (xhigh, subagent)",
+    "run": "2026-10-29-batch-002"
+   }
+  ],
+  "hh5zk4fi3o": [
+   {
+    "answer": "yes",
+    "by": "legacy tag lists",
+    "run": null
+   },
+   {
+    "answer": "yes",
+    "by": "claude-sonnet-5-5 (xhigh, subagent)",
+    "run": "2026-10-29-batch-002"
+   }
+  ],
+  "ft1f82qoac": [
+   {
+    "answer": "yes",
+    "by": "legacy tag lists",
+    "run": null
+   },
+   {
+    "answer": "yes",
+    "by": "claude-sonnet-5-5 (xhigh, subagent)",
+    "run": "2026-10-29-batch-002"
+   }
+  ],
+  "kazbc7sp8z": [
+   {
+    "answer": "yes",
+    "by": "legacy tag lists",
+    "run": null
+   },
+   {
+    "answer": "yes",
+    "by": "claude-sonnet-5-5 (xhigh, subagent)",
+    "run": "2026-10-29-batch-002"
+   }
+  ],
+  "bshzmdl45a": [
+   {
+    "answer": "yes",
+    "by": "legacy tag lists",
+    "run": null
+   },
+   {
+    "answer": "yes",
+    "by": "claude-sonnet-5-5 (xhigh, subagent)",
+    "run": "2026-10-29-batch-002"
+   }
+  ],
+  "ph6tkwz6c2": [
+   {
+    "answer": "yes",
+    "by": "legacy tag lists",
+    "run": null
+   },
+   {
+    "answer": "yes",
+    "by": "claude-sonnet-5-5 (xhigh, subagent)",
+    "run": "2026-10-29-batch-002"
+   }
+  ]
+ },
  "entries": [
   {
    "id": "rgmb82njzm",
@@ -5116,7 +5974,7 @@
    "preferred_name": "ÄKTA",
    "kind": "tool",
    "definition": "A family of liquid chromatography systems, now sold by Cytiva, used mainly to purify proteins and other biomolecules.",
-   "key": "kta",
+   "key": "akta",
    "name_match": "exact_case",
    "certification": false,
    "variants": [

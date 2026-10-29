@@ -1,0 +1,22 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/nikbearbrown/skills-lexicon/schemas/run.schema.json",
+  "title": "data/runs.json: which model, at which effort, made each run (v0 draft)",
+  "$comment": "Evidence and votes name a run; this says who ran it. The operator, not the model, supplies these values.",
+  "type": "object",
+  "additionalProperties": { "$ref": "#/$defs/run" },
+  "$defs": {
+    "run": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["model", "effort", "agent"],
+      "properties": {
+        "model": { "type": "string", "minLength": 1, "description": "The model id, for example claude-sonnet-5-5." },
+        "effort": { "enum": ["low", "medium", "high", "xhigh", "max", "unknown"], "description": "The effort level it ran at. xhigh is called extra high in the apps." },
+        "agent": { "enum": ["main-session", "subagent"] },
+        "date": { "type": "string", "format": "date" },
+        "note": { "type": "string", "minLength": 1, "description": "Where the model and effort were read from." }
+      }
+    }
+  }
+}

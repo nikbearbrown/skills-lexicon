@@ -11,7 +11,18 @@
     "former_ids": { "type": "array", "uniqueItems": true, "items": { "type": "string", "minLength": 1 }, "description": "Ids this entry had before, such as the registry's skill:0082." },
     "key": { "type": "string", "pattern": "^[a-z0-9][a-z0-9-]*$", "description": "Short slug; the file name without .json." },
     "preferred_name": { "type": "string", "minLength": 1, "description": "The canonical name, in the official spelling." },
-    "kind": { "type": "string", "pattern": "^[a-z][a-z-]*$", "description": "Lower-case words joined by hyphens, such as programming-language, tool, credential." },
+    "kind": {
+      "enum": ["ability", "skill", "knowledge", "work-activity", "tool", "platform", "framework", "library", "programming-language", "markup-language",
+               "style-language", "modeling-language", "human-language", "method", "standard", "credential"],
+      "description": "What sort of concept. ability, skill, knowledge and work-activity follow the O*NET content model, so skills and abilities stay separate."
+    },
+    "identifiers": {
+      "type": "array",
+      "description": "Codes other systems use for it, such as an O*NET element id.",
+      "items": { "type": "object", "additionalProperties": false, "required": ["scheme", "code"],
+                 "properties": { "scheme": { "type": "string", "pattern": "^[a-z0-9-]+$", "description": "For example onet-element, onet-soc, fcc-code." },
+                                 "code": { "type": "string", "minLength": 1 } } }
+    },
     "definition": { "type": "string", "minLength": 1, "description": "One plain sentence, in our own words." },
     "name_match": { "enum": ["word_ci", "exact_case"], "default": "word_ci" },
     "needs_context": { "type": "array", "items": { "type": "string", "minLength": 1 } },
