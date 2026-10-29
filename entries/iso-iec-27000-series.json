@@ -76,6 +76,47 @@
    "date": "2026-10-29",
    "run": "2026-10-29-round-06-a1",
    "note": "same concept as ISO/IEC 27000 series, listed in the legacy tag list"
+  },
+  {
+   "field": "definition",
+   "by": "model:claude-opus-5-5",
+   "action": "checked",
+   "outcome": "supports",
+   "date": "2026-10-29",
+   "run": "2026-10-29-review-5h-opus"
+  },
+  {
+   "field": "kind",
+   "by": "model:claude-opus-5-5",
+   "action": "checked",
+   "outcome": "supports",
+   "date": "2026-10-29",
+   "run": "2026-10-29-review-5h-opus"
+  },
+  {
+   "field": "certification",
+   "by": "model:claude-opus-5-5",
+   "action": "checked",
+   "outcome": "supports",
+   "date": "2026-10-29",
+   "run": "2026-10-29-review-5h-opus"
+  },
+  {
+   "field": "variant:iso/iec 27000-series",
+   "by": "model:claude-opus-5-5",
+   "action": "checked",
+   "outcome": "supports",
+   "date": "2026-10-29",
+   "run": "2026-10-29-review-5h-opus"
+  },
+  {
+   "field": "variant:iso/iec 27001 series",
+   "by": "model:claude-opus-5-5",
+   "action": "checked",
+   "outcome": "contradicts",
+   "date": "2026-10-29",
+   "run": "2026-10-29-review-5h-opus",
+   "note": "Names the single 27001 standard, not the 27000 family."
   }
  ]
 }

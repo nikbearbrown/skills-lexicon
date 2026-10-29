@@ -74,6 +74,39 @@
    "run": "2026-10-29-round-03-a4",
    "note": "basis: general-knowledge; disagrees with the legacy list/class: A legacy list calls this a certification, but DO-178B/C is a standard that software is assessed against, not a credential awarded to a p",
    "flag": "disagrees_with_legacy"
+  },
+  {
+   "field": "definition",
+   "by": "model:claude-opus-5-5",
+   "action": "checked",
+   "outcome": "supports",
+   "date": "2026-10-29",
+   "run": "2026-10-29-review-5d-opus",
+   "note": "Strictly an accepted means of compliance (FAA AC 20-115), not a mandatory rule, though de facto required."
+  },
+  {
+   "field": "kind",
+   "by": "model:claude-opus-5-5",
+   "action": "checked",
+   "outcome": "supports",
+   "date": "2026-10-29",
+   "run": "2026-10-29-review-5d-opus"
+  },
+  {
+   "field": "certification",
+   "by": "model:claude-opus-5-5",
+   "action": "checked",
+   "outcome": "supports",
+   "date": "2026-10-29",
+   "run": "2026-10-29-review-5d-opus"
+  },
+  {
+   "field": "variant:do-178b/c (software considerations in airborne systems and equipment certification)",
+   "by": "model:claude-opus-5-5",
+   "action": "checked",
+   "outcome": "supports",
+   "date": "2026-10-29",
+   "run": "2026-10-29-review-5d-opus"
   }
  ]
 }
