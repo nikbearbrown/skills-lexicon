@@ -123,6 +123,56 @@
    "date": "2026-10-29",
    "run": "2026-10-29-web-check-1",
    "note": "web check, search results only: Consistent but vague. The draft says 'trained to manage workplace safety'; BCSP's route is training hours plus experience or education plus an exam, aimed at supervisor"
+  },
+  {
+   "field": "definition",
+   "by": "model:claude-opus-5-5",
+   "action": "checked",
+   "outcome": "supports",
+   "date": "2026-10-29",
+   "run": "2026-10-29-review-3d-opus",
+   "note": "Issued by the Board of Certified Safety Professionals (BCSP) for supervisors and leaders with safety duties."
+  },
+  {
+   "field": "kind",
+   "by": "model:claude-opus-5-5",
+   "action": "checked",
+   "outcome": "supports",
+   "date": "2026-10-29",
+   "run": "2026-10-29-review-3d-opus"
+  },
+  {
+   "field": "certification",
+   "by": "model:claude-opus-5-5",
+   "action": "checked",
+   "outcome": "supports",
+   "date": "2026-10-29",
+   "run": "2026-10-29-review-3d-opus"
+  },
+  {
+   "field": "certification_scope",
+   "by": "model:claude-opus-5-5",
+   "action": "checked",
+   "outcome": "supports",
+   "date": "2026-10-29",
+   "run": "2026-10-29-review-3d-opus"
+  },
+  {
+   "field": "variant:safety trained supervision",
+   "by": "model:claude-opus-5-5",
+   "action": "checked",
+   "outcome": "supports",
+   "date": "2026-10-29",
+   "run": "2026-10-29-review-3d-opus"
+  },
+  {
+   "field": "variant:sts",
+   "by": "model:claude-opus-5-5",
+   "action": "checked",
+   "outcome": "contradicts",
+   "date": "2026-10-29",
+   "run": "2026-10-29-review-3d-opus",
+   "note": "STS also means AWS Security Token Service, Society of Thoracic Surgeons, etc."
   }
  ],
  "certification_scope": "single-issuer",
