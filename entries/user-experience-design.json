@@ -15,6 +15,10 @@
   {
    "label": "user experience",
    "match": "word_ci"
+  },
+  {
+   "label": "User Experience Design (UX)",
+   "match": "word_ci"
   }
  ],
  "relations": [],
@@ -59,6 +63,14 @@
    "date": "2026-10-29",
    "run": "2026-10-29-review-2c-opus",
    "note": "The experience/field itself, generic phrase; not the design practice."
+  },
+  {
+   "field": "variant:user experience design (ux)",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-29",
+   "run": "2026-10-29-round-08-a2",
+   "note": "same concept as User experience design, listed in the legacy tag list"
   }
  ]
 }

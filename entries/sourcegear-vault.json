@@ -9,6 +9,10 @@
   {
    "label": "SourceGear Vault (Revision Control System)",
    "match": "word_ci"
+  },
+  {
+   "label": "Vault (Revision Control System)",
+   "match": "word_ci"
   }
  ],
  "relations": [],
@@ -64,6 +68,14 @@
    "date": "2026-10-29",
    "run": "2026-10-29-round-07-a4",
    "note": "basis: general-knowledge"
+  },
+  {
+   "field": "variant:vault (revision control system)",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-29",
+   "run": "2026-10-29-round-08-a2",
+   "note": "same concept as SourceGear Vault, listed in the legacy tag list"
   }
  ]
 }

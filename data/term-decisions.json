@@ -8694,5 +8694,565 @@
   "run": "2026-10-29-round-08-a3",
   "date": "2026-10-29",
   "reason": "I think this may be an XQuery processor, but the name is shared with other things and I am not sure."
+ },
+ {
+  "term": "Thermal",
+  "decision": "not_a_skill",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-08-a2",
+  "date": "2026-10-29",
+  "reason": "A generic adjective with no single skill behind it."
+ },
+ {
+  "term": "Thermophile",
+  "decision": "not_a_skill",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-08-a2",
+  "date": "2026-10-29",
+  "reason": "An organism that thrives at high temperatures, not a skill."
+ },
+ {
+  "term": "Thinking Processes",
+  "decision": "unsure",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-08-a2",
+  "date": "2026-10-29",
+  "reason": "Could mean generic cognition or the Theory of Constraints Thinking Processes; cannot tell without context."
+ },
+ {
+  "term": "Thread",
+  "decision": "unsure",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-08-a2",
+  "date": "2026-10-29",
+  "reason": "A bare word that could mean a software thread, sewing thread or a messaging thread; cannot tell which."
+ },
+ {
+  "term": "Throttling",
+  "decision": "unsure",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-08-a2",
+  "date": "2026-10-29",
+  "reason": "Could mean rate limiting in software, engine throttle control or CPU throttling; cannot tell which."
+ },
+ {
+  "term": "Thumbnail",
+  "decision": "not_a_skill",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-08-a2",
+  "date": "2026-10-29",
+  "reason": "A small preview image, which is a UI element rather than a skill."
+ },
+ {
+  "term": "Thyroid",
+  "decision": "not_a_skill",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-08-a2",
+  "date": "2026-10-29",
+  "reason": "An organ of the body, not a skill."
+ },
+ {
+  "term": "Tilt Test",
+  "decision": "unsure",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-08-a2",
+  "date": "2026-10-29",
+  "reason": "Used both for the cardiology tilt table test and for product or vehicle stability tests; cannot tell which."
+ },
+ {
+  "term": "Time Consistency",
+  "decision": "unsure",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-08-a2",
+  "date": "2026-10-29",
+  "reason": "Could be dynamic time consistency in economics or consistency of time data; cannot tell which."
+ },
+ {
+  "term": "Time Deviation",
+  "decision": "unsure",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-08-a2",
+  "date": "2026-10-29",
+  "reason": "Could be the telecom synchronisation measure (TDEV) or a generic schedule variance; cannot tell which."
+ },
+ {
+  "term": "Time Limit",
+  "decision": "not_a_skill",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-08-a2",
+  "date": "2026-10-29",
+  "reason": "A generic phrase for a deadline, not a skill."
+ },
+ {
+  "term": "Tolerance",
+  "decision": "not_a_skill",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-08-a2",
+  "date": "2026-10-29",
+  "reason": "A generic word that could mean engineering tolerance, stress tolerance or many other things."
+ },
+ {
+  "term": "Tourism",
+  "decision": "not_a_skill",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-08-a2",
+  "date": "2026-10-29",
+  "reason": "An industry, not a skill."
+ },
+ {
+  "term": "Trac Pipes",
+  "decision": "unsure",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-08-a2",
+  "date": "2026-10-29",
+  "reason": "Could be a brand of flexible gas piping or a plugin for the Trac issue tracker; cannot tell which."
+ },
+ {
+  "term": "Traction Equipment",
+  "decision": "unsure",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-08-a2",
+  "date": "2026-10-29",
+  "reason": "Could mean physical-therapy traction devices or railway and vehicle traction equipment; cannot tell which."
+ },
+ {
+  "term": "Traffic Control Supervisor",
+  "decision": "unsure",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-08-a2",
+  "date": "2026-10-29",
+  "reason": "Could be a job title or a jurisdiction-specific road-works credential; I do not know which body would issue it."
+ },
+ {
+  "term": "Trans-European Mobility Programme For University Studies (TEMPUS)",
+  "decision": "not_a_skill",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-08-a2",
+  "date": "2026-10-29",
+  "reason": "The name of an EU funding programme, not a skill."
+ },
+ {
+  "term": "Transformation",
+  "decision": "not_a_skill",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-08-a2",
+  "date": "2026-10-29",
+  "reason": "A generic word with no single skill behind it."
+ },
+ {
+  "term": "Transformers Oil",
+  "decision": "not_a_skill",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-08-a2",
+  "date": "2026-10-29",
+  "reason": "A material used in electrical transformers, not a skill."
+ },
+ {
+  "term": "Transition Plans",
+  "decision": "unsure",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-08-a2",
+  "date": "2026-10-29",
+  "reason": "Meaning depends on context (education, healthcare discharge, project handover or climate); cannot tell which."
+ },
+ {
+  "term": "Transmission Systems",
+  "decision": "unsure",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-08-a2",
+  "date": "2026-10-29",
+  "reason": "Could mean telecom, power or vehicle transmission; cannot tell which."
+ },
+ {
+  "term": "Transport Company",
+  "decision": "not_a_skill",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-08-a2",
+  "date": "2026-10-29",
+  "reason": "A type of business, not a skill."
+ },
+ {
+  "term": "Trauma",
+  "decision": "not_a_skill",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-08-a2",
+  "date": "2026-10-29",
+  "reason": "A generic word for injury or distress, not a skill."
+ },
+ {
+  "term": "Traveler'S Checks",
+  "decision": "not_a_skill",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-08-a2",
+  "date": "2026-10-29",
+  "reason": "A financial instrument, not a skill."
+ },
+ {
+  "term": "Traveler'S Cheques",
+  "decision": "not_a_skill",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-08-a2",
+  "date": "2026-10-29",
+  "reason": "A financial instrument, not a skill."
+ },
+ {
+  "term": "Tree Stump",
+  "decision": "not_a_skill",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-08-a2",
+  "date": "2026-10-29",
+  "reason": "A physical object, not a skill."
+ },
+ {
+  "term": "Treetop",
+  "decision": "unsure",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-08-a2",
+  "date": "2026-10-29",
+  "reason": "Could be the Ruby parsing library Treetop or an ordinary word; cannot tell which."
+ },
+ {
+  "term": "Triangles",
+  "decision": "not_a_skill",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-08-a2",
+  "date": "2026-10-29",
+  "reason": "A basic geometric shape, not a skill in itself."
+ },
+ {
+  "term": "Tribute",
+  "decision": "not_a_skill",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-08-a2",
+  "date": "2026-10-29",
+  "reason": "A generic word with no skill behind it."
+ },
+ {
+  "term": "Trident",
+  "decision": "unsure",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-08-a2",
+  "date": "2026-10-29",
+  "reason": "Could be a browser engine, Apache Storm's Trident API or something else; cannot tell which."
+ },
+ {
+  "term": "Trope",
+  "decision": "not_a_skill",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-08-a2",
+  "date": "2026-10-29",
+  "reason": "A generic word for a recurring literary device, not a skill."
+ },
+ {
+  "term": "Truck Stop",
+  "decision": "not_a_skill",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-08-a2",
+  "date": "2026-10-29",
+  "reason": "A place, not a skill."
+ },
+ {
+  "term": "Trust",
+  "decision": "not_a_skill",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-08-a2",
+  "date": "2026-10-29",
+  "reason": "A generic word with no single skill behind it."
+ },
+ {
+  "term": "Trustworthy",
+  "decision": "not_a_skill",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-08-a2",
+  "date": "2026-10-29",
+  "reason": "A generic adjective, not a skill."
+ },
+ {
+  "term": "Truthful",
+  "decision": "not_a_skill",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-08-a2",
+  "date": "2026-10-29",
+  "reason": "A generic adjective, not a skill."
+ },
+ {
+  "term": "Tweaking",
+  "decision": "not_a_skill",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-08-a2",
+  "date": "2026-10-29",
+  "reason": "A generic word for making small adjustments, not a skill."
+ },
+ {
+  "term": "Tween",
+  "decision": "unsure",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-08-a2",
+  "date": "2026-10-29",
+  "reason": "Could mean animation in-betweening, the tween.js library or the age group; cannot tell which."
+ },
+ {
+  "term": "Typeof",
+  "decision": "not_a_skill",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-08-a2",
+  "date": "2026-10-29",
+  "reason": "A keyword or operator found in several programming languages, not a skill."
+ },
+ {
+  "term": "Ubi (Language)",
+  "decision": "unsure",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-08-a2",
+  "date": "2026-10-29",
+  "reason": "I am not sure which language is meant by Ubi, so I will not define it."
+ },
+ {
+  "term": "UDL",
+  "decision": "unsure",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-08-a2",
+  "date": "2026-10-29",
+  "reason": "A bare abbreviation that could be Universal Design for Learning or several technical meanings; cannot tell which."
+ },
+ {
+  "term": "UN Race-to-Zero Emissions Breakthroughs",
+  "decision": "not_a_skill",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-08-a2",
+  "date": "2026-10-29",
+  "reason": "The name of a UN-backed climate campaign, not a skill."
+ },
+ {
+  "term": "Unemployment Mortgage Assistance",
+  "decision": "unsure",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-08-a2",
+  "date": "2026-10-29",
+  "reason": "A mortgage-servicing relief programme; unclear whether it is meant as a skill or as a product name."
+ },
+ {
+  "term": "Uniface (Lithics)",
+  "decision": "not_a_skill",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-08-a2",
+  "date": "2026-10-29",
+  "reason": "An archaeological term for a stone tool flaked on one side, not a skill."
+ },
+ {
+  "term": "Uningine",
+  "decision": "unsure",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-08-a2",
+  "date": "2026-10-29",
+  "reason": "I do not recognise this term and cannot tell what it is meant to be."
+ },
+ {
+  "term": "United Nations Environment Programme Finance Initiative Treaties (UNEP-FI)",
+  "decision": "not_a_skill",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-08-a2",
+  "date": "2026-10-29",
+  "reason": "The name of a UN financial-sector initiative, not a skill."
+ },
+ {
+  "term": "Univision Communications",
+  "decision": "not_a_skill",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-08-a2",
+  "date": "2026-10-29",
+  "reason": "A company, not a skill."
+ },
+ {
+  "term": "Unloading",
+  "decision": "not_a_skill",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-08-a2",
+  "date": "2026-10-29",
+  "reason": "A generic word for taking goods off a vehicle, not a defined skill on its own."
+ },
+ {
+  "term": "Urban Agglomeration",
+  "decision": "not_a_skill",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-08-a2",
+  "date": "2026-10-29",
+  "reason": "A demographic term for a continuous built-up area, not a skill."
+ },
+ {
+  "term": "User Interface",
+  "decision": "not_a_skill",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-08-a2",
+  "date": "2026-10-29",
+  "reason": "A generic noun for the part of software people see; the skill is user interface design, which is already listed."
+ },
+ {
+  "term": "User Object",
+  "decision": "not_a_skill",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-08-a2",
+  "date": "2026-10-29",
+  "reason": "A generic software term for an object that represents a user, not a skill."
+ },
+ {
+  "term": "Value Creation Through Knowledge Management",
+  "decision": "unsure",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-08-a2",
+  "date": "2026-10-29",
+  "reason": "A composite phrase, not a single established concept; the underlying idea is knowledge management."
+ },
+ {
+  "term": "Value Systems",
+  "decision": "not_a_skill",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-08-a2",
+  "date": "2026-10-29",
+  "reason": "A generic phrase that could mean personal values, ethics or business systems."
+ },
+ {
+  "term": "Valve Replacement",
+  "decision": "unsure",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-08-a2",
+  "date": "2026-10-29",
+  "reason": "Could mean heart valve replacement surgery or replacing industrial valves; cannot tell which."
+ },
+ {
+  "term": "Vector Controls",
+  "decision": "unsure",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-08-a2",
+  "date": "2026-10-29",
+  "reason": "Could mean disease-vector (pest) control, motor vector control or something else; cannot tell which."
+ },
+ {
+  "term": "Veritas Softwares",
+  "decision": "not_a_skill",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-08-a2",
+  "date": "2026-10-29",
+  "reason": "A software company name, not a skill."
+ },
+ {
+  "term": "Vertical Reflex Therapy",
+  "decision": "unsure",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-08-a2",
+  "date": "2026-10-29",
+  "reason": "I do not know with confidence what this therapy is, so I will not define it."
+ },
+ {
+  "term": "VHD",
+  "decision": "unsure",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-08-a2",
+  "date": "2026-10-29",
+  "reason": "A bare abbreviation that could be a virtual hard disk format, a veterinary degree or a disease; cannot tell which."
+ },
+ {
+  "term": "Vibration Theory Of Olfaction",
+  "decision": "not_a_skill",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-08-a2",
+  "date": "2026-10-29",
+  "reason": "A scientific hypothesis about how smell works, not a skill."
+ },
+ {
+  "term": "Vibrators",
+  "decision": "not_a_skill",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-08-a2",
+  "date": "2026-10-29",
+  "reason": "A generic or ambiguous product word, not a skill."
+ },
+ {
+  "term": "Virtual Earth",
+  "decision": "unsure",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-08-a2",
+  "date": "2026-10-29",
+  "reason": "Probably the Microsoft mapping product now called Bing Maps, but it could also be a generic phrase; cannot tell."
+ },
+ {
+  "term": "Virtual Office",
+  "decision": "not_a_skill",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-08-a2",
+  "date": "2026-10-29",
+  "reason": "A generic phrase for remote working or shared office services, not a defined skill."
+ },
+ {
+  "term": "Virtual Reality Scene Generators",
+  "decision": "unsure",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-08-a2",
+  "date": "2026-10-29",
+  "reason": "A descriptive phrase rather than a named tool or established field; cannot tell what is meant."
+ },
+ {
+  "term": "Virtual RF Environment",
+  "decision": "unsure",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-08-a2",
+  "date": "2026-10-29",
+  "reason": "I do not recognise this as an established tool or field; cannot tell what is meant."
+ },
+ {
+  "term": "Virtual Team",
+  "decision": "not_a_skill",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-08-a2",
+  "date": "2026-10-29",
+  "reason": "A generic term for a team that works remotely, not a skill."
+ },
+ {
+  "term": "Virtuoso",
+  "decision": "unsure",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-08-a2",
+  "date": "2026-10-29",
+  "reason": "An ordinary word that is also the name of at least two software products (OpenLink Virtuoso and Cadence Virtuoso); cannot tell which."
+ },
+ {
+  "term": "Visas",
+  "decision": "not_a_skill",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-08-a2",
+  "date": "2026-10-29",
+  "reason": "A generic word for immigration or travel documents, not a skill."
+ },
+ {
+  "term": "Vision Quest",
+  "decision": "not_a_skill",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-08-a2",
+  "date": "2026-10-29",
+  "reason": "A ritual, film title or organisation name, not a skill."
+ },
+ {
+  "term": "Visual Assets",
+  "decision": "not_a_skill",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-08-a2",
+  "date": "2026-10-29",
+  "reason": "A generic phrase for images and graphics, not a skill."
+ },
+ {
+  "term": "Visual Impairment Due To Intracranial Pressure",
+  "decision": "not_a_skill",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-08-a2",
+  "date": "2026-10-29",
+  "reason": "A clinical sign or symptom, not a skill."
+ },
+ {
+  "term": "Visual Modeler",
+  "decision": "unsure",
+  "by": "model:claude-sonnet-5-5",
+  "run": "2026-10-29-round-08-a2",
+  "date": "2026-10-29",
+  "reason": "Could be Microsoft's older UML modelling tool or another modelling product; cannot tell which."
  }
 ]
