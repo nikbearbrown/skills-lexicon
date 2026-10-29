@@ -1,0 +1,81 @@
+{
+ "id": "dm5iivuzvs",
+ "preferred_name": "Meter Operation Code of Practice Agreement",
+ "kind": "standard",
+ "definition": "The UK electricity industry agreement that sets the rules and accreditation requirements for companies that install and maintain electricity meters.",
+ "key": "meter-operation-code-of-practice-agreement",
+ "certification": false,
+ "variants": [
+  {
+   "label": "Meter Operation Code of Practice Agreement (MOCOPA)",
+   "match": "word_ci"
+  },
+  {
+   "label": "MOCOPA",
+   "match": "word_ci"
+  }
+ ],
+ "relations": [],
+ "verbs": [],
+ "status": "machine-drafted",
+ "provenance": {
+  "source": "drafted by model:claude-sonnet-5-5, run 2026-10-29-round-06-a3, from the name in the legacy tag list alone; no posting or outside source checked",
+  "date": "2026-10-29",
+  "reviewed_by": null,
+  "legacy_tag": {
+   "sources": [
+    {
+     "file": "data/skills_tags.csv",
+     "rows": [
+      2543
+     ],
+     "class": "Skill"
+    }
+   ],
+   "class": "Skill",
+   "in_lists": []
+  }
+ },
+ "evidence": [
+  {
+   "field": "definition",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-29",
+   "run": "2026-10-29-round-06-a3",
+   "note": "basis: general-knowledge"
+  },
+  {
+   "field": "kind",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-29",
+   "run": "2026-10-29-round-06-a3",
+   "note": "basis: general-knowledge (with the definition)"
+  },
+  {
+   "field": "variant:meter operation code of practice agreement (mocopa)",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-29",
+   "run": "2026-10-29-round-06-a3",
+   "note": "listed in the legacy tag list; the model chose the canonical name"
+  },
+  {
+   "field": "variant:mocopa",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-29",
+   "run": "2026-10-29-round-06-a3",
+   "note": "basis: general-knowledge"
+  },
+  {
+   "field": "certification",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-29",
+   "run": "2026-10-29-round-06-a3",
+   "note": "basis: general-knowledge"
+  }
+ ]
+}

@@ -1,0 +1,93 @@
+{
+ "id": "so9zp6tzyh",
+ "preferred_name": "Mathematics",
+ "kind": "knowledge",
+ "definition": "The study of numbers, quantities, shapes and patterns, and of the logical reasoning used to prove facts about them.",
+ "key": "mathematics",
+ "certification": false,
+ "variants": [],
+ "relations": [
+  {
+   "type": "related",
+   "target": "hzccoii598"
+  },
+  {
+   "type": "related",
+   "target": "ec2b8ggmp3"
+  },
+  {
+   "type": "related",
+   "target": "kgaqqkj85g"
+  }
+ ],
+ "verbs": [],
+ "status": "machine-drafted",
+ "provenance": {
+  "source": "drafted by model:claude-sonnet-5-5, run 2026-10-29-round-06-a3, from the name in the legacy tag list alone; no posting or outside source checked",
+  "date": "2026-10-29",
+  "reviewed_by": null,
+  "legacy_tag": {
+   "sources": [
+    {
+     "file": "data/skills_tags.csv",
+     "rows": [
+      2480
+     ],
+     "class": "Skill"
+    }
+   ],
+   "class": "Skill",
+   "in_lists": []
+  }
+ },
+ "evidence": [
+  {
+   "field": "definition",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-29",
+   "run": "2026-10-29-round-06-a3",
+   "note": "basis: general-knowledge"
+  },
+  {
+   "field": "kind",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-29",
+   "run": "2026-10-29-round-06-a3",
+   "note": "basis: general-knowledge (with the definition)"
+  },
+  {
+   "field": "relation:related:hzccoii598",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-29",
+   "run": "2026-10-29-round-06-a3",
+   "note": "basis: general-knowledge"
+  },
+  {
+   "field": "relation:related:ec2b8ggmp3",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-29",
+   "run": "2026-10-29-round-06-a3",
+   "note": "basis: general-knowledge"
+  },
+  {
+   "field": "relation:related:kgaqqkj85g",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-29",
+   "run": "2026-10-29-round-06-a3",
+   "note": "basis: general-knowledge"
+  },
+  {
+   "field": "certification",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-29",
+   "run": "2026-10-29-round-06-a3",
+   "note": "basis: general-knowledge"
+  }
+ ]
+}

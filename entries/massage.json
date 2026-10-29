@@ -1,0 +1,82 @@
+{
+ "id": "jdzffpay1e",
+ "preferred_name": "Massage",
+ "kind": "skill",
+ "definition": "Working the muscles and soft tissue of the body by hand to ease tension and pain or to help a person relax.",
+ "key": "massage",
+ "certification": false,
+ "variants": [
+  {
+   "label": "Massages",
+   "match": "word_ci"
+  }
+ ],
+ "relations": [
+  {
+   "type": "related",
+   "target": "x8xjrkaqqf"
+  }
+ ],
+ "verbs": [],
+ "status": "machine-drafted",
+ "provenance": {
+  "source": "drafted by model:claude-sonnet-5-5, run 2026-10-29-round-06-a3, from the name in the legacy tag list alone; no posting or outside source checked",
+  "date": "2026-10-29",
+  "reviewed_by": null,
+  "legacy_tag": {
+   "sources": [
+    {
+     "file": "data/skills_tags.csv",
+     "rows": [
+      2463
+     ],
+     "class": "Skill"
+    }
+   ],
+   "class": "Skill",
+   "in_lists": []
+  }
+ },
+ "evidence": [
+  {
+   "field": "definition",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-29",
+   "run": "2026-10-29-round-06-a3",
+   "note": "basis: general-knowledge"
+  },
+  {
+   "field": "kind",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-29",
+   "run": "2026-10-29-round-06-a3",
+   "note": "basis: general-knowledge (with the definition)"
+  },
+  {
+   "field": "variant:massages",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-29",
+   "run": "2026-10-29-round-06-a3",
+   "note": "listed in the legacy tag list; the model chose the canonical name"
+  },
+  {
+   "field": "relation:related:x8xjrkaqqf",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-29",
+   "run": "2026-10-29-round-06-a3",
+   "note": "basis: general-knowledge"
+  },
+  {
+   "field": "certification",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-29",
+   "run": "2026-10-29-round-06-a3",
+   "note": "basis: general-knowledge"
+  }
+ ]
+}
