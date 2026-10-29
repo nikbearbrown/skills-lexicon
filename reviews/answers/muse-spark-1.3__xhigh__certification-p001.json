@@ -1,0 +1,1250 @@
+{
+ "answers": [
+  {
+   "claims": {
+    "certification": {
+     "verdict": "supports"
+    },
+    "certification_scope": {
+     "verdict": "supports"
+    },
+    "definition": {
+     "verdict": "supports"
+    },
+    "kind": {
+     "verdict": "supports"
+    }
+   },
+   "job_listing_vote": {
+    "answer": "yes"
+   },
+   "key": "aci-concrete-strength-testing-technician",
+   "relations": {
+    "bad": [],
+    "ok": []
+   },
+   "variants": {
+    "bad": [],
+    "ok": [
+     "Concrete Strength Testing Technician"
+    ]
+   }
+  },
+  {
+   "claims": {
+    "certification": {
+     "verdict": "supports"
+    },
+    "certification_scope": {
+     "verdict": "supports"
+    },
+    "definition": {
+     "verdict": "supports"
+    },
+    "kind": {
+     "verdict": "supports"
+    }
+   },
+   "job_listing_vote": {
+    "answer": "yes"
+   },
+   "key": "activity-director-certified",
+   "relations": {
+    "bad": [],
+    "ok": []
+   },
+   "variants": {
+    "bad": [],
+    "ok": []
+   }
+  },
+  {
+   "claims": {
+    "certification": {
+     "verdict": "supports"
+    },
+    "certification_scope": {
+     "verdict": "supports"
+    },
+    "definition": {
+     "verdict": "supports"
+    },
+    "kind": {
+     "verdict": "supports"
+    }
+   },
+   "job_listing_vote": {
+    "answer": "yes"
+   },
+   "key": "acute-care-nurse-practitioner",
+   "relations": {
+    "bad": [],
+    "ok": [
+     "related:adult-gerontology-acute-care-nurse-practitioner"
+    ]
+   },
+   "variants": {
+    "bad": [],
+    "ok": []
+   }
+  },
+  {
+   "claims": {
+    "certification": {
+     "verdict": "supports"
+    },
+    "certification_scope": {
+     "verdict": "supports"
+    },
+    "definition": {
+     "verdict": "supports"
+    },
+    "kind": {
+     "verdict": "supports"
+    }
+   },
+   "job_listing_vote": {
+    "answer": "yes"
+   },
+   "key": "adult-acute-care-nurse-practitioner",
+   "relations": {
+    "bad": [],
+    "ok": [
+     "broader:acute-care-nurse-practitioner",
+     "related:adult-gerontology-acute-care-nurse-practitioner"
+    ]
+   },
+   "variants": {
+    "bad": [],
+    "ok": []
+   }
+  },
+  {
+   "claims": {
+    "certification": {
+     "verdict": "supports"
+    },
+    "certification_scope": {
+     "verdict": "supports"
+    },
+    "definition": {
+     "verdict": "supports"
+    },
+    "kind": {
+     "verdict": "supports"
+    }
+   },
+   "job_listing_vote": {
+    "answer": "yes"
+   },
+   "key": "adult-gerontology-acute-care-nurse-practitioner",
+   "relations": {
+    "bad": [],
+    "ok": []
+   },
+   "variants": {
+    "bad": [],
+    "ok": [
+     "Adult/Gerontology Acute Care Nurse Practitioner",
+     "AG-ACNP"
+    ]
+   }
+  },
+  {
+   "claims": {
+    "certification": {
+     "verdict": "supports"
+    },
+    "certification_scope": {
+     "verdict": "supports"
+    },
+    "definition": {
+     "verdict": "supports"
+    },
+    "kind": {
+     "verdict": "supports"
+    }
+   },
+   "job_listing_vote": {
+    "answer": "yes"
+   },
+   "key": "adult-nurse-practitioner",
+   "relations": {
+    "bad": [],
+    "ok": []
+   },
+   "variants": {
+    "bad": [],
+    "ok": []
+   }
+  },
+  {
+   "claims": {
+    "certification": {
+     "verdict": "supports"
+    },
+    "certification_scope": {
+     "verdict": "supports"
+    },
+    "definition": {
+     "verdict": "supports"
+    },
+    "kind": {
+     "verdict": "supports"
+    }
+   },
+   "job_listing_vote": {
+    "answer": "yes"
+   },
+   "key": "advanced-cardiovascular-life-support",
+   "relations": {
+    "bad": [],
+    "ok": [
+     "related:advanced-trauma-life-support"
+    ]
+   },
+   "variants": {
+    "bad": [],
+    "ok": [
+     "Advanced Cardiovascular Life Support (ACLS)",
+     "ACLS",
+     "Advanced Cardiac Life Support"
+    ]
+   }
+  },
+  {
+   "claims": {
+    "certification": {
+     "verdict": "supports"
+    },
+    "certification_scope": {
+     "verdict": "supports"
+    },
+    "definition": {
+     "verdict": "supports"
+    },
+    "kind": {
+     "verdict": "supports"
+    }
+   },
+   "job_listing_vote": {
+    "answer": "yes"
+   },
+   "key": "advanced-certified-fund-raising-executive",
+   "relations": {
+    "bad": [],
+    "ok": []
+   },
+   "variants": {
+    "bad": [],
+    "ok": [
+     "ACFRE"
+    ]
+   }
+  },
+  {
+   "claims": {
+    "certification": {
+     "verdict": "supports"
+    },
+    "certification_scope": {
+     "verdict": "supports"
+    },
+    "definition": {
+     "verdict": "supports"
+    },
+    "kind": {
+     "verdict": "supports"
+    }
+   },
+   "job_listing_vote": {
+    "answer": "yes"
+   },
+   "key": "advanced-certified-hospice-and-palliative-nurse",
+   "relations": {
+    "bad": [],
+    "ok": []
+   },
+   "variants": {
+    "bad": [],
+    "ok": [
+     "ACHPN"
+    ]
+   }
+  },
+  {
+   "claims": {
+    "certification": {
+     "verdict": "supports"
+    },
+    "certification_scope": {
+     "verdict": "supports"
+    },
+    "definition": {
+     "verdict": "supports"
+    },
+    "kind": {
+     "verdict": "supports"
+    }
+   },
+   "job_listing_vote": {
+    "answer": "yes"
+   },
+   "key": "advanced-oncology-certified-clinical-nurse-specialist",
+   "relations": {
+    "bad": [],
+    "ok": []
+   },
+   "variants": {
+    "bad": [
+     {
+      "label": "Advanced Oncology Certified Clinical Nursing",
+      "note": "garbled: the credential is 'Clinical Nurse Specialist', not 'Clinical Nursing'"
+     }
+    ],
+    "ok": [
+     "AOCNS"
+    ]
+   }
+  },
+  {
+   "claims": {
+    "certification": {
+     "verdict": "supports"
+    },
+    "certification_scope": {
+     "verdict": "supports"
+    },
+    "definition": {
+     "verdict": "supports"
+    },
+    "kind": {
+     "verdict": "supports"
+    }
+   },
+   "job_listing_vote": {
+    "answer": "yes"
+   },
+   "key": "advanced-oncology-certified-nurse-practitioner",
+   "relations": {
+    "bad": [],
+    "ok": []
+   },
+   "variants": {
+    "bad": [],
+    "ok": [
+     "AOCNP"
+    ]
+   }
+  },
+  {
+   "claims": {
+    "certification": {
+     "verdict": "supports"
+    },
+    "certification_scope": {
+     "verdict": "supports"
+    },
+    "definition": {
+     "verdict": "supports"
+    },
+    "kind": {
+     "verdict": "supports"
+    }
+   },
+   "job_listing_vote": {
+    "answer": "yes"
+   },
+   "key": "advanced-trauma-life-support",
+   "relations": {
+    "bad": [],
+    "ok": []
+   },
+   "variants": {
+    "bad": [],
+    "ok": [
+     "ATLS"
+    ]
+   }
+  },
+  {
+   "claims": {
+    "certification": {
+     "verdict": "supports"
+    },
+    "certification_scope": {
+     "verdict": "supports"
+    },
+    "definition": {
+     "verdict": "supports"
+    },
+    "kind": {
+     "verdict": "supports"
+    }
+   },
+   "job_listing_vote": {
+    "answer": "yes"
+   },
+   "key": "aerial-lift-certification",
+   "relations": {
+    "bad": [],
+    "ok": []
+   },
+   "variants": {
+    "bad": [],
+    "ok": [
+     "Aerial lift operator certification"
+    ]
+   }
+  },
+  {
+   "claims": {
+    "certification": {
+     "verdict": "supports"
+    },
+    "certification_scope": {
+     "verdict": "supports"
+    },
+    "definition": {
+     "verdict": "supports"
+    },
+    "kind": {
+     "verdict": "supports"
+    }
+   },
+   "job_listing_vote": {
+    "answer": "yes"
+   },
+   "key": "aids-certified-registered-nurse",
+   "relations": {
+    "bad": [],
+    "ok": []
+   },
+   "variants": {
+    "bad": [],
+    "ok": [
+     "ACRN"
+    ]
+   }
+  },
+  {
+   "claims": {
+    "certification": {
+     "verdict": "supports"
+    },
+    "certification_scope": {
+     "verdict": "supports"
+    },
+    "definition": {
+     "verdict": "supports"
+    },
+    "kind": {
+     "verdict": "supports"
+    }
+   },
+   "job_listing_vote": {
+    "answer": "yes"
+   },
+   "key": "airline-transport-pilot-certificate",
+   "relations": {
+    "bad": [],
+    "ok": [
+     "related:drone-pilot-certificate"
+    ]
+   },
+   "variants": {
+    "bad": [],
+    "ok": [
+     "Airline Transport Pilot Certificate (ATP)",
+     "ATP certificate"
+    ]
+   }
+  },
+  {
+   "claims": {
+    "certification": {
+     "verdict": "supports"
+    },
+    "certification_scope": {
+     "verdict": "supports"
+    },
+    "definition": {
+     "verdict": "supports"
+    },
+    "kind": {
+     "verdict": "supports"
+    }
+   },
+   "job_listing_vote": {
+    "answer": "yes"
+   },
+   "key": "all-terrain-vehicle-certification",
+   "relations": {
+    "bad": [],
+    "ok": []
+   },
+   "variants": {
+    "bad": [],
+    "ok": [
+     "All Terrain Vehicle (ATV) Certification",
+     "ATV certification"
+    ]
+   }
+  },
+  {
+   "claims": {
+    "certification": {
+     "verdict": "supports"
+    },
+    "certification_scope": {
+     "verdict": "supports"
+    },
+    "definition": {
+     "verdict": "supports"
+    },
+    "kind": {
+     "verdict": "supports"
+    }
+   },
+   "job_listing_vote": {
+    "answer": "yes"
+   },
+   "key": "american-board-of-medical-laboratory-immunology-certification",
+   "relations": {
+    "bad": [],
+    "ok": []
+   },
+   "variants": {
+    "bad": [],
+    "ok": [
+     "American Board Of Medical Laboratory Immunology (ABMLI) Certified",
+     "ABMLI certification",
+     "ABMLI",
+     "ABMLI Certified"
+    ]
+   }
+  },
+  {
+   "claims": {
+    "certification": {
+     "verdict": "supports"
+    },
+    "certification_scope": {
+     "verdict": "supports"
+    },
+    "definition": {
+     "verdict": "supports"
+    },
+    "kind": {
+     "verdict": "supports"
+    }
+   },
+   "job_listing_vote": {
+    "answer": "yes"
+   },
+   "key": "american-board-of-medical-microbiology-certification",
+   "relations": {
+    "bad": [],
+    "ok": []
+   },
+   "variants": {
+    "bad": [],
+    "ok": [
+     "ABMM Certified",
+     "ABMM certification",
+     "ABMM",
+     "American Board Of Medical Microbiology (ABMM) Certified"
+    ]
+   }
+  },
+  {
+   "claims": {
+    "certification": {
+     "verdict": "supports"
+    },
+    "certification_scope": {
+     "verdict": "supports"
+    },
+    "definition": {
+     "verdict": "supports"
+    },
+    "kind": {
+     "verdict": "supports"
+    }
+   },
+   "job_listing_vote": {
+    "answer": "yes"
+   },
+   "key": "american-board-of-neurophysiologic-monitoring-certification",
+   "relations": {
+    "bad": [],
+    "ok": []
+   },
+   "variants": {
+    "bad": [
+     {
+      "label": "American Board Of Neurophysiologic Monitoring",
+      "note": "names the issuing body, not the certification"
+     }
+    ],
+    "ok": []
+   }
+  },
+  {
+   "claims": {
+    "certification": {
+     "verdict": "supports"
+    },
+    "certification_scope": {
+     "verdict": "supports"
+    },
+    "definition": {
+     "verdict": "supports"
+    },
+    "kind": {
+     "verdict": "supports"
+    }
+   },
+   "job_listing_vote": {
+    "answer": "yes"
+   },
+   "key": "american-board-of-optometry-certification",
+   "relations": {
+    "bad": [],
+    "ok": []
+   },
+   "variants": {
+    "bad": [
+     {
+      "label": "American Board Of Optometry",
+      "note": "names the issuing body, not the certification"
+     }
+    ],
+    "ok": [
+     "American Board Of Optometry Certified"
+    ]
+   }
+  },
+  {
+   "claims": {
+    "certification": {
+     "verdict": "supports"
+    },
+    "certification_scope": {
+     "verdict": "supports"
+    },
+    "definition": {
+     "verdict": "supports"
+    },
+    "kind": {
+     "verdict": "supports"
+    }
+   },
+   "job_listing_vote": {
+    "answer": "yes"
+   },
+   "key": "american-board-of-pathology-certification",
+   "relations": {
+    "bad": [],
+    "ok": []
+   },
+   "variants": {
+    "bad": [],
+    "ok": [
+     "ABPath certification"
+    ]
+   }
+  },
+  {
+   "claims": {
+    "certification": {
+     "verdict": "supports"
+    },
+    "certification_scope": {
+     "verdict": "supports"
+    },
+    "definition": {
+     "verdict": "supports"
+    },
+    "kind": {
+     "verdict": "supports"
+    }
+   },
+   "job_listing_vote": {
+    "answer": "yes"
+   },
+   "key": "american-culinary-federation-certification",
+   "relations": {
+    "bad": [],
+    "ok": []
+   },
+   "variants": {
+    "bad": [
+     {
+      "label": "American Culinary Federation",
+      "note": "names the issuing body, not the certification"
+     }
+    ],
+    "ok": [
+     "ACF certification"
+    ]
+   }
+  },
+  {
+   "claims": {
+    "certification": {
+     "verdict": "supports"
+    },
+    "certification_scope": {
+     "verdict": "supports"
+    },
+    "definition": {
+     "verdict": "supports"
+    },
+    "kind": {
+     "verdict": "supports"
+    }
+   },
+   "job_listing_vote": {
+    "answer": "yes"
+   },
+   "key": "american-medical-technologists-certification",
+   "relations": {
+    "bad": [],
+    "ok": []
+   },
+   "variants": {
+    "bad": [
+     {
+      "label": "American Medical Technologists",
+      "note": "names the issuing body, not the certification"
+     }
+    ],
+    "ok": [
+     "AMT certification"
+    ]
+   }
+  },
+  {
+   "claims": {
+    "certification": {
+     "verdict": "supports"
+    },
+    "certification_scope": {
+     "verdict": "supports"
+    },
+    "definition": {
+     "verdict": "supports"
+    },
+    "kind": {
+     "verdict": "supports"
+    }
+   },
+   "job_listing_vote": {
+    "answer": "yes"
+   },
+   "key": "american-osteopathic-board-of-nuclear-medicine-certification",
+   "relations": {
+    "bad": [],
+    "ok": []
+   },
+   "variants": {
+    "bad": [],
+    "ok": [
+     "American Osteopathic Board Of Nuclear Medicine (AOBNM) Certified",
+     "AOBNM certification",
+     "AOBNM"
+    ]
+   }
+  },
+  {
+   "claims": {
+    "certification": {
+     "verdict": "supports"
+    },
+    "certification_scope": {
+     "verdict": "supports"
+    },
+    "definition": {
+     "verdict": "supports"
+    },
+    "kind": {
+     "verdict": "supports"
+    }
+   },
+   "job_listing_vote": {
+    "answer": "yes"
+   },
+   "key": "american-society-of-pension-professionals-and-actuaries-certification",
+   "relations": {
+    "bad": [],
+    "ok": []
+   },
+   "variants": {
+    "bad": [
+     {
+      "label": "American Society of Pension Professionals and Actuaries",
+      "note": "names the issuing body, not the certification"
+     }
+    ],
+    "ok": [
+     "ASPPA certification",
+     "ASPPA"
+    ]
+   }
+  },
+  {
+   "claims": {
+    "certification": {
+     "verdict": "supports"
+    },
+    "certification_scope": {
+     "verdict": "supports"
+    },
+    "definition": {
+     "verdict": "supports"
+    },
+    "kind": {
+     "verdict": "supports"
+    }
+   },
+   "job_listing_vote": {
+    "answer": "yes"
+   },
+   "key": "american-welding-society-certification",
+   "relations": {
+    "bad": [],
+    "ok": []
+   },
+   "variants": {
+    "bad": [],
+    "ok": []
+   }
+  },
+  {
+   "claims": {
+    "certification": {
+     "verdict": "supports"
+    },
+    "definition": {
+     "verdict": "supports"
+    },
+    "kind": {
+     "verdict": "supports"
+    }
+   },
+   "job_listing_vote": {
+    "answer": "yes"
+   },
+   "key": "aquatic-facility-operator",
+   "relations": {
+    "bad": [],
+    "ok": []
+   },
+   "variants": {
+    "bad": [],
+    "ok": []
+   }
+  },
+  {
+   "claims": {
+    "certification": {
+     "verdict": "supports"
+    },
+    "certification_scope": {
+     "verdict": "supports"
+    },
+    "definition": {
+     "verdict": "supports"
+    },
+    "kind": {
+     "verdict": "supports"
+    }
+   },
+   "job_listing_vote": {
+    "answer": "yes"
+   },
+   "key": "ascm-certification",
+   "relations": {
+    "bad": [],
+    "ok": []
+   },
+   "variants": {
+    "bad": [],
+    "ok": [
+     "American Production And Inventory Control Society (APICS) Certification",
+     "APICS certification",
+     "APICS certified"
+    ]
+   }
+  },
+  {
+   "claims": {
+    "certification": {
+     "verdict": "supports"
+    },
+    "certification_scope": {
+     "verdict": "supports"
+    },
+    "definition": {
+     "verdict": "supports"
+    },
+    "kind": {
+     "verdict": "supports"
+    }
+   },
+   "job_listing_vote": {
+    "answer": "yes"
+   },
+   "key": "asq-certification",
+   "relations": {
+    "bad": [],
+    "ok": []
+   },
+   "variants": {
+    "bad": [],
+    "ok": [
+     "(American Society For Quality) ASQ Certified",
+     "American Society for Quality certification",
+     "ASQ certified"
+    ]
+   }
+  },
+  {
+   "claims": {
+    "certification": {
+     "verdict": "supports"
+    },
+    "certification_scope": {
+     "verdict": "supports"
+    },
+    "definition": {
+     "verdict": "supports"
+    },
+    "kind": {
+     "verdict": "supports"
+    }
+   },
+   "job_listing_vote": {
+    "answer": "yes"
+   },
+   "key": "asq-certified-biomedical-auditor",
+   "relations": {
+    "bad": [],
+    "ok": []
+   },
+   "variants": {
+    "bad": [],
+    "ok": [
+     "Biomedical Auditor Certification",
+     "Certified Biomedical Auditor"
+    ]
+   }
+  },
+  {
+   "claims": {
+    "certification": {
+     "verdict": "supports"
+    },
+    "certification_scope": {
+     "verdict": "supports"
+    },
+    "definition": {
+     "verdict": "supports"
+    },
+    "kind": {
+     "verdict": "supports"
+    }
+   },
+   "job_listing_vote": {
+    "answer": "yes"
+   },
+   "key": "assisted-housing-manager-ahm",
+   "relations": {
+    "bad": [],
+    "ok": []
+   },
+   "variants": {
+    "bad": [],
+    "ok": [
+     "Assisted Housing Manager Certification (AHM)",
+     "AHM"
+    ]
+   }
+  },
+  {
+   "claims": {
+    "certification": {
+     "note": "A degree rather than a certification proper, but a credential attested by accredited institutions.",
+     "verdict": "supports"
+    },
+    "certification_scope": {
+     "verdict": "supports"
+    },
+    "definition": {
+     "verdict": "supports"
+    },
+    "kind": {
+     "verdict": "supports"
+    }
+   },
+   "job_listing_vote": {
+    "answer": "yes"
+   },
+   "key": "associate-degree-in-nursing",
+   "relations": {
+    "bad": [],
+    "ok": []
+   },
+   "variants": {
+    "bad": [],
+    "ok": [
+     "Associates Degree In Nursing"
+    ]
+   }
+  },
+  {
+   "claims": {
+    "certification": {
+     "verdict": "supports"
+    },
+    "certification_scope": {
+     "verdict": "supports"
+    },
+    "definition": {
+     "verdict": "supports"
+    },
+    "kind": {
+     "verdict": "supports"
+    }
+   },
+   "job_listing_vote": {
+    "answer": "yes"
+   },
+   "key": "associate-of-the-society-of-actuaries",
+   "relations": {
+    "bad": [],
+    "ok": []
+   },
+   "variants": {
+    "bad": [],
+    "ok": []
+   }
+  },
+  {
+   "claims": {
+    "certification": {
+     "verdict": "supports"
+    },
+    "certification_scope": {
+     "verdict": "supports"
+    },
+    "definition": {
+     "verdict": "supports"
+    },
+    "kind": {
+     "verdict": "supports"
+    }
+   },
+   "job_listing_vote": {
+    "answer": "yes"
+   },
+   "key": "associate-professional-in-talent-development",
+   "relations": {
+    "bad": [],
+    "ok": []
+   },
+   "variants": {
+    "bad": [],
+    "ok": [
+     "APTD"
+    ]
+   }
+  },
+  {
+   "claims": {
+    "certification": {
+     "verdict": "supports"
+    },
+    "certification_scope": {
+     "verdict": "supports"
+    },
+    "definition": {
+     "verdict": "supports"
+    },
+    "kind": {
+     "verdict": "supports"
+    }
+   },
+   "job_listing_vote": {
+    "answer": "yes"
+   },
+   "key": "association-management-specialist-ams",
+   "relations": {
+    "bad": [],
+    "ok": []
+   },
+   "variants": {
+    "bad": [],
+    "ok": [
+     "AMS"
+    ]
+   }
+  },
+  {
+   "claims": {
+    "certification": {
+     "verdict": "supports"
+    },
+    "certification_scope": {
+     "verdict": "supports"
+    },
+    "definition": {
+     "verdict": "supports"
+    },
+    "kind": {
+     "verdict": "supports"
+    }
+   },
+   "job_listing_vote": {
+    "answer": "yes"
+   },
+   "key": "atssa-certification",
+   "relations": {
+    "bad": [],
+    "ok": []
+   },
+   "variants": {
+    "bad": [],
+    "ok": [
+     "American Traffic Safety Services Association (ATSSA) Certificate",
+     "ATSSA certificate",
+     "American Traffic Safety Services Association certificate"
+    ]
+   }
+  },
+  {
+   "claims": {
+    "certification": {
+     "verdict": "supports"
+    },
+    "certification_scope": {
+     "verdict": "supports"
+    },
+    "definition": {
+     "verdict": "supports"
+    },
+    "kind": {
+     "verdict": "supports"
+    }
+   },
+   "job_listing_vote": {
+    "answer": "yes"
+   },
+   "key": "bachelor-of-science-in-business",
+   "relations": {
+    "bad": [],
+    "ok": []
+   },
+   "variants": {
+    "bad": [],
+    "ok": []
+   }
+  },
+  {
+   "claims": {
+    "certification": {
+     "verdict": "supports"
+    },
+    "certification_scope": {
+     "verdict": "supports"
+    },
+    "definition": {
+     "verdict": "supports"
+    },
+    "kind": {
+     "verdict": "supports"
+    }
+   },
+   "job_listing_vote": {
+    "answer": "yes"
+   },
+   "key": "bachelor-of-science-in-business-administration",
+   "relations": {
+    "bad": [],
+    "ok": []
+   },
+   "variants": {
+    "bad": [],
+    "ok": [
+     "BSBA"
+    ]
+   }
+  },
+  {
+   "claims": {
+    "certification": {
+     "verdict": "supports"
+    },
+    "certification_scope": {
+     "verdict": "supports"
+    },
+    "definition": {
+     "verdict": "supports"
+    },
+    "kind": {
+     "verdict": "supports"
+    }
+   },
+   "job_listing_vote": {
+    "answer": "yes"
+   },
+   "key": "bachelor-of-science-in-nursing",
+   "relations": {
+    "bad": [],
+    "ok": []
+   },
+   "variants": {
+    "bad": [],
+    "ok": [
+     "Bachelor Of Science in Nursing (BSN)",
+     "BSN"
+    ]
+   }
+  },
+  {
+   "claims": {
+    "certification": {
+     "verdict": "supports"
+    },
+    "certification_scope": {
+     "verdict": "supports"
+    },
+    "definition": {
+     "verdict": "supports"
+    },
+    "kind": {
+     "verdict": "supports"
+    }
+   },
+   "job_listing_vote": {
+    "answer": "yes"
+   },
+   "key": "bachelor-of-science-in-pharmacy",
+   "relations": {
+    "bad": [],
+    "ok": []
+   },
+   "variants": {
+    "bad": [],
+    "ok": []
+   }
+  }
+ ],
+ "packet": "certification/p001",
+ "reviewer": {
+  "date": "2026-10-29",
+  "effort": "xhigh",
+  "model": "muse-spark-1.3"
+ }
+}
