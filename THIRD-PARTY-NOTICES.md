@@ -2,7 +2,7 @@
 
 ## O*NET data: CC BY 4.0
 
-`data/` and `entries/` contain material from the O*NET 30.2 database (abilities: element ids, names and definitions), U.S. Department of Labor, Employment and Training Administration (USDOL/ETA), under the Creative Commons Attribution 4.0 International license. The material was selected and reformatted here. USDOL/ETA has not approved, endorsed or tested those changes.
+`data/`, `entries/` and `abilities/` contain material from the O*NET 30.2 database (abilities: element ids, names and definitions, and the level ratings for 894 occupations), U.S. Department of Labor, Employment and Training Administration (USDOL/ETA), under the Creative Commons Attribution 4.0 International license. The material was selected and reformatted here. USDOL/ETA has not approved, endorsed or tested those changes.
 
 - O*NET database releases: https://www.onetcenter.org/db_releases.html
 - License guidance: https://www.onetcenter.org/license_db.html
