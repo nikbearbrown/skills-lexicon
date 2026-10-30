@@ -116,6 +116,48 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "2026-10-29-review-5c-opus"
+  },
+  {
+   "field": "definition",
+   "by": "model:gpt-6",
+   "action": "checked",
+   "outcome": "supports",
+   "date": "2026-10-29",
+   "run": "external-2026-10-29-gpt-6-unknown",
+   "note": "A shared codebase is typical, but the general cross-platform goal can also involve platform-specific code."
+  },
+  {
+   "field": "kind",
+   "by": "model:gpt-6",
+   "action": "checked",
+   "outcome": "supports",
+   "date": "2026-10-29",
+   "run": "external-2026-10-29-gpt-6-unknown"
+  },
+  {
+   "field": "certification",
+   "by": "model:gpt-6",
+   "action": "checked",
+   "outcome": "supports",
+   "date": "2026-10-29",
+   "run": "external-2026-10-29-gpt-6-unknown"
+  },
+  {
+   "field": "variant:cross-platform application development",
+   "by": "model:gpt-6",
+   "action": "checked",
+   "outcome": "supports",
+   "date": "2026-10-29",
+   "run": "external-2026-10-29-gpt-6-unknown"
+  },
+  {
+   "field": "variant:cross-platform applications",
+   "by": "model:gpt-6",
+   "action": "checked",
+   "outcome": "contradicts",
+   "date": "2026-10-29",
+   "run": "external-2026-10-29-gpt-6-unknown",
+   "note": "Names the resulting applications, not the development activity."
   }
  ]
 }

@@ -96,6 +96,41 @@
    "date": "2026-10-29",
    "run": "2026-10-29-review-3c-opus",
    "note": "Passing leads to state certification as a medication aide."
+  },
+  {
+   "field": "definition",
+   "by": "model:gpt-6",
+   "action": "checked",
+   "outcome": "supports",
+   "date": "2026-10-29",
+   "run": "external-2026-10-29-gpt-6-unknown"
+  },
+  {
+   "field": "kind",
+   "by": "model:gpt-6",
+   "action": "checked",
+   "outcome": "contradicts",
+   "date": "2026-10-29",
+   "run": "external-2026-10-29-gpt-6-unknown",
+   "note": "MACE is an examination, not itself an awarded credential."
+  },
+  {
+   "field": "certification",
+   "by": "model:gpt-6",
+   "action": "checked",
+   "outcome": "contradicts",
+   "date": "2026-10-29",
+   "run": "external-2026-10-29-gpt-6-unknown",
+   "note": "Taking or passing the exam is distinct from a jurisdiction awarding medication-aide certification."
+  },
+  {
+   "field": "certification_scope",
+   "by": "model:gpt-6",
+   "action": "checked",
+   "outcome": "contradicts",
+   "date": "2026-10-29",
+   "run": "external-2026-10-29-gpt-6-unknown",
+   "note": "Multiple jurisdictional credentials are not multiple issuers of the examination itself."
   }
  ]
 }

@@ -39,6 +39,57 @@
    "date": "2026-10-29",
    "run": "2026-10-29-review-2c-opus",
    "note": "Statistical methodology/field (Rubin, Pearl), not the same as the reasoning ability."
+  },
+  {
+   "field": "definition",
+   "by": "model:gpt-6",
+   "action": "checked",
+   "outcome": "supports",
+   "date": "2026-10-29",
+   "run": "external-2026-10-29-gpt-6-unknown",
+   "note": "This captures an important distinction, but causal reasoning also includes identifying and explaining cause-and-effect relationships."
+  },
+  {
+   "field": "kind",
+   "by": "model:gpt-6",
+   "action": "checked",
+   "outcome": "supports",
+   "date": "2026-10-29",
+   "run": "external-2026-10-29-gpt-6-unknown"
+  },
+  {
+   "field": "variant:causal inference",
+   "by": "model:gpt-6",
+   "action": "checked",
+   "outcome": "contradicts",
+   "date": "2026-10-29",
+   "run": "external-2026-10-29-gpt-6-unknown",
+   "note": "Causal inference is a methodological task or field, not necessarily the general personal reasoning capacity."
+  },
+  {
+   "field": "definition",
+   "by": "model:muse-spark-1.3",
+   "action": "checked",
+   "outcome": "supports",
+   "date": "2026-10-29",
+   "run": "external-2026-10-29-muse-spark-1-3-xhigh"
+  },
+  {
+   "field": "kind",
+   "by": "model:muse-spark-1.3",
+   "action": "checked",
+   "outcome": "supports",
+   "date": "2026-10-29",
+   "run": "external-2026-10-29-muse-spark-1-3-xhigh"
+  },
+  {
+   "field": "variant:causal inference",
+   "by": "model:muse-spark-1.3",
+   "action": "checked",
+   "outcome": "contradicts",
+   "date": "2026-10-29",
+   "run": "external-2026-10-29-muse-spark-1-3-xhigh",
+   "note": "causal inference is the statistical discipline; this entry is the cognitive ability"
   }
  ]
 }

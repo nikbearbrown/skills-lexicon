@@ -145,6 +145,48 @@
    "date": "2026-10-29",
    "run": "2026-10-29-review-2c-opus",
    "note": "PostgreSQL is a DBMS, not a narrower kind of the SQL language; 'related' fits."
+  },
+  {
+   "field": "definition",
+   "by": "model:gpt-6",
+   "action": "checked",
+   "outcome": "supports",
+   "date": "2026-10-29",
+   "run": "external-2026-10-29-gpt-6-unknown",
+   "note": "PostgreSQL is more specifically an object-relational DBMS."
+  },
+  {
+   "field": "kind",
+   "by": "model:gpt-6",
+   "action": "checked",
+   "outcome": "supports",
+   "date": "2026-10-29",
+   "run": "external-2026-10-29-gpt-6-unknown"
+  },
+  {
+   "field": "variant:postgres",
+   "by": "model:gpt-6",
+   "action": "checked",
+   "outcome": "supports",
+   "date": "2026-10-29",
+   "run": "external-2026-10-29-gpt-6-unknown"
+  },
+  {
+   "field": "variant:pg",
+   "by": "model:gpt-6",
+   "action": "checked",
+   "outcome": "supports",
+   "date": "2026-10-29",
+   "run": "external-2026-10-29-gpt-6-unknown"
+  },
+  {
+   "field": "relation:broader:f69xny35zm",
+   "by": "model:gpt-6",
+   "action": "checked",
+   "outcome": "contradicts",
+   "date": "2026-10-29",
+   "run": "external-2026-10-29-gpt-6-unknown",
+   "note": "SQL is a query language, not a broader kind of database system; PostgreSQL uses SQL rather than being a subtype of it."
   }
  ]
 }

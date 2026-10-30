@@ -70,6 +70,15 @@
    "date": "2026-10-29",
    "run": "2026-10-29-review-5b-opus",
    "note": "ACPE is the main US accreditor; CPSP also certifies"
+  },
+  {
+   "field": "definition",
+   "by": "model:gpt-6",
+   "action": "checked",
+   "outcome": "supports",
+   "date": "2026-10-29",
+   "run": "external-2026-10-29-gpt-6-unknown",
+   "note": "ACPE is a major accreditor; not every clinical pastoral education program is accredited by ACPE."
   }
  ]
 }

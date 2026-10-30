@@ -143,6 +143,55 @@
    "date": "2026-10-29",
    "run": "2026-10-29-review-3b-opus",
    "note": "Also CUPA-HR and California's Certified Unified Program Agency."
+  },
+  {
+   "field": "definition",
+   "by": "model:gpt-6",
+   "action": "checked",
+   "outcome": "supports",
+   "date": "2026-10-29",
+   "run": "external-2026-10-29-gpt-6-unknown"
+  },
+  {
+   "field": "kind",
+   "by": "model:gpt-6",
+   "action": "checked",
+   "outcome": "supports",
+   "date": "2026-10-29",
+   "run": "external-2026-10-29-gpt-6-unknown"
+  },
+  {
+   "field": "certification",
+   "by": "model:gpt-6",
+   "action": "checked",
+   "outcome": "supports",
+   "date": "2026-10-29",
+   "run": "external-2026-10-29-gpt-6-unknown"
+  },
+  {
+   "field": "certification_scope",
+   "by": "model:gpt-6",
+   "action": "checked",
+   "outcome": "supports",
+   "date": "2026-10-29",
+   "run": "external-2026-10-29-gpt-6-unknown"
+  },
+  {
+   "field": "variant:cupa",
+   "by": "model:gpt-6",
+   "action": "checked",
+   "outcome": "supports",
+   "date": "2026-10-29",
+   "run": "external-2026-10-29-gpt-6-unknown"
+  },
+  {
+   "field": "variant:certified urologic physician's assistant",
+   "by": "model:gpt-6",
+   "action": "checked",
+   "outcome": "contradicts",
+   "date": "2026-10-29",
+   "run": "external-2026-10-29-gpt-6-unknown",
+   "note": "The professional title is Physician Assistant, without a possessive."
   }
  ]
 }

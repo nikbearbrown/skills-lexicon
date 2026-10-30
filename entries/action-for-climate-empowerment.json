@@ -97,6 +97,72 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "2026-10-29-review-2a-opus"
+  },
+  {
+   "field": "definition",
+   "by": "model:gpt-6",
+   "action": "checked",
+   "outcome": "supports",
+   "date": "2026-10-29",
+   "run": "external-2026-10-29-gpt-6-unknown",
+   "note": "Broadly correct, but international cooperation is also one of ACE's six elements."
+  },
+  {
+   "field": "kind",
+   "by": "model:gpt-6",
+   "action": "checked",
+   "outcome": "supports",
+   "date": "2026-10-29",
+   "run": "external-2026-10-29-gpt-6-unknown"
+  },
+  {
+   "field": "certification",
+   "by": "model:gpt-6",
+   "action": "checked",
+   "outcome": "supports",
+   "date": "2026-10-29",
+   "run": "external-2026-10-29-gpt-6-unknown"
+  },
+  {
+   "field": "variant:action for climate empowerment (ace)",
+   "by": "model:gpt-6",
+   "action": "checked",
+   "outcome": "supports",
+   "date": "2026-10-29",
+   "run": "external-2026-10-29-gpt-6-unknown"
+  },
+  {
+   "field": "certification",
+   "by": "model:muse-spark-1.3",
+   "action": "checked",
+   "outcome": "supports",
+   "date": "2026-10-29",
+   "run": "external-2026-10-29-muse-spark-1-3-xhigh"
+  },
+  {
+   "field": "definition",
+   "by": "model:muse-spark-1.3",
+   "action": "checked",
+   "outcome": "supports",
+   "date": "2026-10-29",
+   "run": "external-2026-10-29-muse-spark-1-3-xhigh",
+   "note": "Omits the sixth ACE element, international cooperation; otherwise accurate."
+  },
+  {
+   "field": "kind",
+   "by": "model:muse-spark-1.3",
+   "action": "checked",
+   "outcome": "supports",
+   "date": "2026-10-29",
+   "run": "external-2026-10-29-muse-spark-1-3-xhigh"
+  },
+  {
+   "field": "variant:action for climate empowerment (ace)",
+   "by": "model:muse-spark-1.3",
+   "action": "checked",
+   "outcome": "supports",
+   "date": "2026-10-29",
+   "run": "external-2026-10-29-muse-spark-1-3-xhigh"
   }
  ]
 }

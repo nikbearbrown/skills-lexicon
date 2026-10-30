@@ -59,6 +59,41 @@
    "date": "2026-10-29",
    "run": "2026-10-29-round-03-a4",
    "note": "same concept as Data provenance, listed in the legacy tag list"
+  },
+  {
+   "field": "definition",
+   "by": "model:gpt-6",
+   "action": "checked",
+   "outcome": "supports",
+   "date": "2026-10-29",
+   "run": "external-2026-10-29-gpt-6-unknown",
+   "note": "Provenance can also include who produced data, when, under what conditions and with what supporting evidence."
+  },
+  {
+   "field": "kind",
+   "by": "model:gpt-6",
+   "action": "checked",
+   "outcome": "supports",
+   "date": "2026-10-29",
+   "run": "external-2026-10-29-gpt-6-unknown"
+  },
+  {
+   "field": "variant:lineage",
+   "by": "model:gpt-6",
+   "action": "checked",
+   "outcome": "contradicts",
+   "date": "2026-10-29",
+   "run": "external-2026-10-29-gpt-6-unknown",
+   "note": "Unqualified lineage is broader and ambiguous; it does not uniquely identify data provenance."
+  },
+  {
+   "field": "variant:data lineage",
+   "by": "model:gpt-6",
+   "action": "checked",
+   "outcome": "contradicts",
+   "date": "2026-10-29",
+   "run": "external-2026-10-29-gpt-6-unknown",
+   "note": "Lineage emphasizes data flows and transformations; provenance can also include contextual origin and responsibility."
   }
  ]
 }

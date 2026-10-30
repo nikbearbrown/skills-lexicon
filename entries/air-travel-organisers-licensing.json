@@ -110,6 +110,89 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "2026-10-29-review-2a-opus"
+  },
+  {
+   "field": "definition",
+   "by": "model:gpt-6",
+   "action": "checked",
+   "outcome": "supports",
+   "date": "2026-10-29",
+   "run": "external-2026-10-29-gpt-6-unknown"
+  },
+  {
+   "field": "kind",
+   "by": "model:gpt-6",
+   "action": "checked",
+   "outcome": "contradicts",
+   "date": "2026-10-29",
+   "run": "external-2026-10-29-gpt-6-unknown",
+   "note": "ATOL is a statutory licensing and financial-protection scheme; knowledge fits the scheme better than standard."
+  },
+  {
+   "field": "certification",
+   "by": "model:gpt-6",
+   "action": "checked",
+   "outcome": "supports",
+   "date": "2026-10-29",
+   "run": "external-2026-10-29-gpt-6-unknown",
+   "note": "This entry names the scheme; a licence granted under it would be a credential."
+  },
+  {
+   "field": "variant:air travel organiser's licensing",
+   "by": "model:gpt-6",
+   "action": "checked",
+   "outcome": "supports",
+   "date": "2026-10-29",
+   "run": "external-2026-10-29-gpt-6-unknown"
+  },
+  {
+   "field": "variant:atol",
+   "by": "model:gpt-6",
+   "action": "checked",
+   "outcome": "supports",
+   "date": "2026-10-29",
+   "run": "external-2026-10-29-gpt-6-unknown"
+  },
+  {
+   "field": "certification",
+   "by": "model:muse-spark-1.3",
+   "action": "checked",
+   "outcome": "supports",
+   "date": "2026-10-29",
+   "run": "external-2026-10-29-muse-spark-1-3-xhigh"
+  },
+  {
+   "field": "definition",
+   "by": "model:muse-spark-1.3",
+   "action": "checked",
+   "outcome": "supports",
+   "date": "2026-10-29",
+   "run": "external-2026-10-29-muse-spark-1-3-xhigh"
+  },
+  {
+   "field": "kind",
+   "by": "model:muse-spark-1.3",
+   "action": "checked",
+   "outcome": "contradicts",
+   "date": "2026-10-29",
+   "run": "external-2026-10-29-muse-spark-1-3-xhigh",
+   "note": "ATOL is a statutory licensing and consumer-protection scheme run by the CAA, not a published standard."
+  },
+  {
+   "field": "variant:air travel organiser's licensing",
+   "by": "model:muse-spark-1.3",
+   "action": "checked",
+   "outcome": "supports",
+   "date": "2026-10-29",
+   "run": "external-2026-10-29-muse-spark-1-3-xhigh"
+  },
+  {
+   "field": "variant:atol",
+   "by": "model:muse-spark-1.3",
+   "action": "checked",
+   "outcome": "supports",
+   "date": "2026-10-29",
+   "run": "external-2026-10-29-muse-spark-1-3-xhigh"
   }
  ]
 }

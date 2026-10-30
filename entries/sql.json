@@ -47,6 +47,23 @@
    "date": "2026-10-29",
    "run": "2026-10-29-round-09-a2",
    "note": "same concept as SQL, listed in the legacy tag list"
+  },
+  {
+   "field": "definition",
+   "by": "model:gpt-6",
+   "action": "checked",
+   "outcome": "supports",
+   "date": "2026-10-29",
+   "run": "external-2026-10-29-gpt-6-unknown",
+   "note": "This is accurate but minimally informative about SQL as a language."
+  },
+  {
+   "field": "kind",
+   "by": "model:gpt-6",
+   "action": "checked",
+   "outcome": "supports",
+   "date": "2026-10-29",
+   "run": "external-2026-10-29-gpt-6-unknown"
   }
  ]
 }

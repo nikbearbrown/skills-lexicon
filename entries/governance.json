@@ -48,6 +48,32 @@
    "date": "2026-10-29",
    "run": "2026-10-29-review-2c-opus",
    "note": "Generic process checkpoint (stage gates), not a synonym for AI governance."
+  },
+  {
+   "field": "definition",
+   "by": "model:gpt-6",
+   "action": "checked",
+   "outcome": "supports",
+   "date": "2026-10-29",
+   "run": "external-2026-10-29-gpt-6-unknown",
+   "note": "Correct but narrow; AI governance also covers roles, oversight, monitoring and risk management throughout the lifecycle."
+  },
+  {
+   "field": "kind",
+   "by": "model:gpt-6",
+   "action": "checked",
+   "outcome": "supports",
+   "date": "2026-10-29",
+   "run": "external-2026-10-29-gpt-6-unknown"
+  },
+  {
+   "field": "variant:approval gates",
+   "by": "model:gpt-6",
+   "action": "checked",
+   "outcome": "contradicts",
+   "date": "2026-10-29",
+   "run": "external-2026-10-29-gpt-6-unknown",
+   "note": "Approval gates are one governance mechanism, not an equivalent term for AI governance."
   }
  ]
 }

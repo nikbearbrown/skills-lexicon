@@ -48,6 +48,32 @@
    "date": "2026-10-29",
    "run": "2026-10-29-review-2b-opus",
    "note": "Generic word; also patient, product or GPS positioning; not specific to brand positioning."
+  },
+  {
+   "field": "definition",
+   "by": "model:gpt-6",
+   "action": "checked",
+   "outcome": "supports",
+   "date": "2026-10-29",
+   "run": "external-2026-10-29-gpt-6-unknown",
+   "note": "Too terse: positioning establishes a brand's distinct place relative to alternatives for a target audience."
+  },
+  {
+   "field": "kind",
+   "by": "model:gpt-6",
+   "action": "checked",
+   "outcome": "supports",
+   "date": "2026-10-29",
+   "run": "external-2026-10-29-gpt-6-unknown"
+  },
+  {
+   "field": "variant:positioning",
+   "by": "model:gpt-6",
+   "action": "checked",
+   "outcome": "contradicts",
+   "date": "2026-10-29",
+   "run": "external-2026-10-29-gpt-6-unknown",
+   "note": "Unqualified positioning can denote many concepts; it is broader and more ambiguous than brand positioning."
   }
  ]
 }

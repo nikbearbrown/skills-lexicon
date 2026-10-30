@@ -95,11 +95,26 @@ Almost all the contradictions are variants. Reviewers marked a variant bad when 
 
 As with the earlier reviews, a reviewer is more agreeable than a drafter, so a 98% `supports` rate is weak evidence; the contradictions, unsures and `no` votes are the signal. The first-pass drafts were not bad at the level a reviewer can see from memory. They may be wrong in ways memory cannot show, which is what the source-matching passes are for.
 
+## Outside reviews (GPT-6 and Muse Spark 1.3)
+
+Two models outside the project read the packets from the public repository and left answer files, which `tools/check_claims.py apply-reviews` recorded on 2026-10-30. Both name themselves; model and effort are self-reported and not verified (the runs are marked `external`).
+
+| Reviewer | Covered | Supports | Contradicts |
+|---|---|---|---|
+| `gpt-6`, effort unknown (PR #2) | all 2,694 entries (2,134 skills, 427 certifications, 120 languages, 13 abilities) and 2,165 tags | 10,146 | 405 on 330 entries: 189 claims (114 definitions, 40 kinds, 18 scopes, 16 certification flags, 1 language type), 215 variants, 1 relation |
+| `muse-spark-1.3`, xhigh | 242 entries and 200 tags (packets 1 and 2 only) | 1,142 | 28 on 26 entries |
+
+The GPT-6 answers cover the packet boundaries of the first snapshot (`e7fceae`); the packets have been rebuilt since, but answers are keyed by entry key and tag text, so they apply to the right entries.
+
+**The reviewers disagree far more than the earlier checks did.** Of the 8,428 definition, kind, certification and scope claims that GPT-6 and the Opus reviewers both judged, GPT-6 contradicted 184, Opus 21, and they agree on 15. The earlier statement that every entry has had one second-model check is true, but the second model was a Claude reviewing a Claude draft. A model from another family finds many more issues; some are real, some are pedantic (a definition that does not mention that a product was retired, or that a process also happens underwater).
+
+`docs/REVIEW-FLAGS.md` now begins with the claims contradicted by two or more different models: 114 claims (109 by two models, 5 by three), of which 20 are definition, kind, certification or scope claims (10 of them `kind`) and 94 are variants or relations. The ten `kind` cases are mostly a standard filed as `knowledge` (ABEC scale, NFPA 70E, TL 9000), which suggests a rule for the drafting brief rather than ten separate fixes.
+
 ## End state
 
 - **3688 entries**: 2472 skill, 859 certification, 290 language, 67 ability (52 of them O*NET).
 - **15880 claims**; 104 are backed by a matched source (the O*NET abilities) and none by a person.
-- **8480 votes** in the ledger, each with model and effort.
+- **13697 votes** in the ledger, each with model and effort.
 - **No tag is unresolved.** 1,162 tags got no entry: 564 were judged not a skill and 598 left unsure by the drafting model. The unsure ones could be re-drafted by a stronger model.
 - **Second-model check:** every entry that did not come from O\*NET has had one, by a model other than the drafter. None has had a check by a person.
 - 133 tests pass. Merged into `main` as a fast-forward from `overnight-1`; later reviews were committed directly to `main`.

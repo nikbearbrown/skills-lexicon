@@ -49,6 +49,32 @@
    "date": "2026-10-29",
    "run": "2026-10-29-review-2c-opus",
    "note": "Bare label collides with generic AI guardrails concept (key guardrails)."
+  },
+  {
+   "field": "definition",
+   "by": "model:gpt-6",
+   "action": "checked",
+   "outcome": "supports",
+   "date": "2026-10-29",
+   "run": "external-2026-10-29-gpt-6-unknown",
+   "note": "True distinction but uninformative; describe the library's validation and enforcement of structured AI outputs."
+  },
+  {
+   "field": "kind",
+   "by": "model:gpt-6",
+   "action": "checked",
+   "outcome": "supports",
+   "date": "2026-10-29",
+   "run": "external-2026-10-29-gpt-6-unknown"
+  },
+  {
+   "field": "variant:guardrails",
+   "by": "model:gpt-6",
+   "action": "checked",
+   "outcome": "contradicts",
+   "date": "2026-10-29",
+   "run": "external-2026-10-29-gpt-6-unknown",
+   "note": "Ambiguous with the generic guardrail concept; use the product's disambiguated name Guardrails AI."
   }
  ]
 }

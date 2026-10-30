@@ -130,6 +130,42 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "2026-10-29-review-1-opus"
+  },
+  {
+   "field": "definition",
+   "by": "model:gpt-6",
+   "action": "checked",
+   "outcome": "contradicts",
+   "date": "2026-10-29",
+   "run": "external-2026-10-29-gpt-6-unknown",
+   "note": "IAM Level I is a workforce category with qualification requirements, not an independently awarded certification."
+  },
+  {
+   "field": "kind",
+   "by": "model:gpt-6",
+   "action": "checked",
+   "outcome": "contradicts",
+   "date": "2026-10-29",
+   "run": "external-2026-10-29-gpt-6-unknown",
+   "note": "This is a workforce qualification category, not a credential."
+  },
+  {
+   "field": "certification",
+   "by": "model:gpt-6",
+   "action": "checked",
+   "outcome": "contradicts",
+   "date": "2026-10-29",
+   "run": "external-2026-10-29-gpt-6-unknown",
+   "note": "DoD does not award an IAM Level I certification; approved credentials satisfy the category's requirements."
+  },
+  {
+   "field": "certification_scope",
+   "by": "model:gpt-6",
+   "action": "checked",
+   "outcome": "contradicts",
+   "date": "2026-10-29",
+   "run": "external-2026-10-29-gpt-6-unknown",
+   "note": "The category is not itself issued; multiple approved credentials are distinct from multiple issuers of one credential."
   }
  ],
  "certification_scope": "many-issuers",

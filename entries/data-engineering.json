@@ -47,6 +47,32 @@
    "date": "2026-10-29",
    "run": "2026-10-29-review-2c-opus",
    "note": "An artifact/subtask of data engineering, not a synonym."
+  },
+  {
+   "field": "definition",
+   "by": "model:gpt-6",
+   "action": "checked",
+   "outcome": "supports",
+   "date": "2026-10-29",
+   "run": "external-2026-10-29-gpt-6-unknown",
+   "note": "Correct but terse; collection, ingestion, storage and delivery are also central responsibilities."
+  },
+  {
+   "field": "kind",
+   "by": "model:gpt-6",
+   "action": "checked",
+   "outcome": "supports",
+   "date": "2026-10-29",
+   "run": "external-2026-10-29-gpt-6-unknown"
+  },
+  {
+   "field": "variant:data pipelines",
+   "by": "model:gpt-6",
+   "action": "checked",
+   "outcome": "contradicts",
+   "date": "2026-10-29",
+   "run": "external-2026-10-29-gpt-6-unknown",
+   "note": "Pipelines are systems built and operated in data engineering, not a synonym for the discipline."
   }
  ]
 }

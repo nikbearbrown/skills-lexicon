@@ -436,5 +436,19 @@
   "agent": "subagent",
   "date": "2026-10-29",
   "note": "web search only; no page was opened"
+ },
+ "external-2026-10-29-gpt-6-unknown": {
+  "model": "gpt-6",
+  "effort": "unknown",
+  "agent": "external",
+  "date": "2026-10-29",
+  "note": "an outside model; model and effort are self-reported by the reviewer and not verified"
+ },
+ "external-2026-10-29-muse-spark-1-3-xhigh": {
+  "model": "muse-spark-1.3",
+  "effort": "xhigh",
+  "agent": "external",
+  "date": "2026-10-29",
+  "note": "an outside model; model and effort are self-reported by the reviewer and not verified"
  }
 }

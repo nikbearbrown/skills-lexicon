@@ -61,6 +61,41 @@
    "date": "2026-10-29",
    "run": "2026-10-29-review-2c-opus",
    "note": "A specific scoring rule for probabilistic forecasts, not a synonym."
+  },
+  {
+   "field": "definition",
+   "by": "model:gpt-6",
+   "action": "checked",
+   "outcome": "supports",
+   "date": "2026-10-29",
+   "run": "external-2026-10-29-gpt-6-unknown",
+   "note": "Describes evaluating calibration; recalibration also adjusts predictions to align probabilities with observed frequencies."
+  },
+  {
+   "field": "kind",
+   "by": "model:gpt-6",
+   "action": "checked",
+   "outcome": "supports",
+   "date": "2026-10-29",
+   "run": "external-2026-10-29-gpt-6-unknown"
+  },
+  {
+   "field": "variant:calibration",
+   "by": "model:gpt-6",
+   "action": "checked",
+   "outcome": "contradicts",
+   "date": "2026-10-29",
+   "run": "external-2026-10-29-gpt-6-unknown",
+   "note": "Unqualified calibration also covers instruments and other processes; it does not uniquely mean probability calibration."
+  },
+  {
+   "field": "variant:brier score",
+   "by": "model:gpt-6",
+   "action": "checked",
+   "outcome": "contradicts",
+   "date": "2026-10-29",
+   "run": "external-2026-10-29-gpt-6-unknown",
+   "note": "A scoring rule for probabilistic predictions, not a synonym for calibration; it also reflects discrimination and uncertainty."
   }
  ]
 }

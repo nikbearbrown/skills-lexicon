@@ -162,6 +162,121 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "2026-10-29-review-3a-opus"
+  },
+  {
+   "field": "definition",
+   "by": "model:gpt-6",
+   "action": "checked",
+   "outcome": "supports",
+   "date": "2026-10-29",
+   "run": "external-2026-10-29-gpt-6-unknown"
+  },
+  {
+   "field": "kind",
+   "by": "model:gpt-6",
+   "action": "checked",
+   "outcome": "supports",
+   "date": "2026-10-29",
+   "run": "external-2026-10-29-gpt-6-unknown"
+  },
+  {
+   "field": "certification",
+   "by": "model:gpt-6",
+   "action": "checked",
+   "outcome": "supports",
+   "date": "2026-10-29",
+   "run": "external-2026-10-29-gpt-6-unknown"
+  },
+  {
+   "field": "certification_scope",
+   "by": "model:gpt-6",
+   "action": "checked",
+   "outcome": "supports",
+   "date": "2026-10-29",
+   "run": "external-2026-10-29-gpt-6-unknown"
+  },
+  {
+   "field": "variant:asppa certification",
+   "by": "model:gpt-6",
+   "action": "checked",
+   "outcome": "supports",
+   "date": "2026-10-29",
+   "run": "external-2026-10-29-gpt-6-unknown"
+  },
+  {
+   "field": "variant:american society of pension professionals and actuaries",
+   "by": "model:gpt-6",
+   "action": "checked",
+   "outcome": "contradicts",
+   "date": "2026-10-29",
+   "run": "external-2026-10-29-gpt-6-unknown",
+   "note": "This is the issuing organization, not its certification."
+  },
+  {
+   "field": "variant:asppa",
+   "by": "model:gpt-6",
+   "action": "checked",
+   "outcome": "contradicts",
+   "date": "2026-10-29",
+   "run": "external-2026-10-29-gpt-6-unknown",
+   "note": "This abbreviates the issuing organization rather than its credentials."
+  },
+  {
+   "field": "certification",
+   "by": "model:muse-spark-1.3",
+   "action": "checked",
+   "outcome": "supports",
+   "date": "2026-10-29",
+   "run": "external-2026-10-29-muse-spark-1-3-xhigh"
+  },
+  {
+   "field": "certification_scope",
+   "by": "model:muse-spark-1.3",
+   "action": "checked",
+   "outcome": "supports",
+   "date": "2026-10-29",
+   "run": "external-2026-10-29-muse-spark-1-3-xhigh"
+  },
+  {
+   "field": "definition",
+   "by": "model:muse-spark-1.3",
+   "action": "checked",
+   "outcome": "supports",
+   "date": "2026-10-29",
+   "run": "external-2026-10-29-muse-spark-1-3-xhigh"
+  },
+  {
+   "field": "kind",
+   "by": "model:muse-spark-1.3",
+   "action": "checked",
+   "outcome": "supports",
+   "date": "2026-10-29",
+   "run": "external-2026-10-29-muse-spark-1-3-xhigh"
+  },
+  {
+   "field": "variant:asppa certification",
+   "by": "model:muse-spark-1.3",
+   "action": "checked",
+   "outcome": "supports",
+   "date": "2026-10-29",
+   "run": "external-2026-10-29-muse-spark-1-3-xhigh"
+  },
+  {
+   "field": "variant:asppa",
+   "by": "model:muse-spark-1.3",
+   "action": "checked",
+   "outcome": "supports",
+   "date": "2026-10-29",
+   "run": "external-2026-10-29-muse-spark-1-3-xhigh"
+  },
+  {
+   "field": "variant:american society of pension professionals and actuaries",
+   "by": "model:muse-spark-1.3",
+   "action": "checked",
+   "outcome": "contradicts",
+   "date": "2026-10-29",
+   "run": "external-2026-10-29-muse-spark-1-3-xhigh",
+   "note": "names the issuing body, not the certification"
   }
  ]
 }
