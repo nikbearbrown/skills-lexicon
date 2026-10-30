@@ -1,0 +1,20 @@
+{
+  "records_with_usable_source_url": 356822,
+  "distinct_source_url_values": 327959,
+  "normalization": "Lowercase scheme/host and remove fragment; keep path and full query. Exclude root URLs.",
+  "limitation": "Shared URLs indicate potential shared postings or shared landing pages; distinct URLs do not establish independent collection. No job-count estimate is inferred.",
+  "overlap_pairs": [
+    {
+      "datasets": [
+        "q1n9huan/global-job-market-postings-dataset",
+        "robgundling/veritahire-verified-jobs-feed-open-sample"
+      ],
+      "shared_url_values": 27,
+      "examples": [
+        "https://job-boards.greenhouse.io/affirm/jobs/7799164003",
+        "https://job-boards.greenhouse.io/anthropic/jobs/5194670008",
+        "https://job-boards.greenhouse.io/anthropic/jobs/5160180008"
+      ]
+    }
+  ]
+}

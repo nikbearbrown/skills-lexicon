@@ -1,0 +1,33 @@
+{
+  "kaggle": {
+    "passed": true,
+    "schema_valid_observations": 8506,
+    "unique_observation_ids": 8506,
+    "baseline_commit": "7531b4c376fd6bc78c1a888cf7a3db035d1915f7",
+    "baseline_files_verified": 3692,
+    "existing_local_entry_tag_decision_files_unchanged": 281,
+    "archive_hashes_verified": 8,
+    "source_members_verified": 9,
+    "source_records_replayed": 2717462,
+    "record_examples_verified": 16977,
+    "posting_excerpts_replayed_at_exact_offsets": 3895,
+    "all_field_aggregate_counts_forms_and_resolution_flags_reproduced": true,
+    "disk_free_gib": 130.6
+  },
+  "kaggle-expansion-2026-10-30": {
+    "passed": true,
+    "schema_valid_observations": 13027,
+    "unique_observation_ids": 13027,
+    "baseline_commit": "7531b4c376fd6bc78c1a888cf7a3db035d1915f7",
+    "baseline_files_verified": 3692,
+    "existing_local_entry_tag_decision_files_unchanged": 281,
+    "archive_hashes_verified": 24,
+    "source_records_replayed": 700722,
+    "record_examples_verified": 28003,
+    "posting_excerpts_replayed_at_exact_offsets": 5796,
+    "all_field_aggregate_counts_forms_and_resolution_flags_reproduced": true,
+    "disk_free_gib": 130.18,
+    "source_views_verified": 41,
+    "distinct_archive_members_verified": 27
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "data/source-occurrences/kaggle-publication-2026-10-30/README.md": {
+    "sha256": "755a3e7cfe59aa72cdb23deac9ec9464105ae4b9867c28baaf7912bbcf511fc4",
+    "bytes": 4173
+  },
+  "data/source-occurrences/kaggle-publication-2026-10-30/candidate-queue.json": {
+    "sha256": "5a2a8368b4a044fbf452b157aefb70b50ee0d991bbb6961f8dd9a5d70ff8d804",
+    "bytes": 742599
+  },
+  "data/source-occurrences/kaggle-publication-2026-10-30/input-hashes.json": {
+    "sha256": "d9ac897e2fdcb1a04b9399b6c9de5277a99e224851ccae38fbe674ae759add1c",
+    "bytes": 1348
+  },
+  "data/source-occurrences/kaggle-publication-2026-10-30/observations.jsonl": {
+    "sha256": "45e1e0fc1efb8378083a4ec31d29d5e72e869403d8fd99af617b2f3127172ea5",
+    "bytes": 48491741
+  },
+  "data/source-occurrences/kaggle-publication-2026-10-30/prepublication-verification.json": {
+    "sha256": "e80ea8a4a7a57ddc77e2da2765c7cd32d086aa6353d0b4044edcb980db8d6565",
+    "bytes": 1247
+  },
+  "data/source-occurrences/kaggle-publication-2026-10-30/sources.json": {
+    "sha256": "92dfb7ab8f36a2dbc3095e4c4c53d5322abff535c03e56f5a7ca4ffc4017dad9",
+    "bytes": 105476
+  },
+  "data/source-occurrences/kaggle-publication-2026-10-30/subject-registry.json": {
+    "sha256": "38acf293ad71c086e58dc7ba584105913a7493830190a0cf7585d4b2acaf50a5",
+    "bytes": 696181
+  },
+  "data/source-occurrences/kaggle-publication-2026-10-30/summary.json": {
+    "sha256": "cbaed9082fb5d5326550ba17f5b5c45c17b0734c9790c1c8c7b19db83e962050",
+    "bytes": 1454
+  },
+  "data/source-occurrences/kaggle-publication-2026-10-30/url-overlap.json": {
+    "sha256": "775513085b6a926c755af955af7079a00c02a8877422873a869456fb662a1d39",
+    "bytes": 829
+  },
+  "schemas/source-occurrence.schema.json": {
+    "sha256": "67498dc1137def3f4c633870ab2161579f8684d7f7ba08c8dff7ade747441622",
+    "bytes": 8379
+  },
+  "tools/publish_kaggle_evidence.py": {
+    "sha256": "c1569a005e2494a393c12bab90eab1d10b5e795b6deb95fcb4b1618e9f62bba9",
+    "bytes": 14719
+  },
+  "tools/verify_kaggle_publication.py": {
+    "sha256": "ea4237a2ebc7e198d49b6141e9acc78895145e4189a965c542affefab4912ce2",
+    "bytes": 3583
+  }
+}

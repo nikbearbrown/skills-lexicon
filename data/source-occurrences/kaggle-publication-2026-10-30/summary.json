@@ -1,0 +1,33 @@
+{
+  "baseline_commit": "7531b4c376fd6bc78c1a888cf7a3db035d1915f7",
+  "publication_base_commit": "e8ce1744e920e02889827c32d7b51247501c6e3f",
+  "baseline_entries": 3688,
+  "baseline_normalized_names_and_variants": 6625,
+  "local_observations": 21533,
+  "published_observations": 19766,
+  "published_datasets": 30,
+  "existing_entries_linked": 2568,
+  "existing_entry_classes": {
+    "skill": 1781,
+    "certification": 536,
+    "language": 188,
+    "ability": 63
+  },
+  "active_pending_candidates": 303,
+  "scope_holds": 2,
+  "candidates_without_publishable_observations": [],
+  "candidates_matching_current_main_labels": {},
+  "omitted_observations": {
+    "arbazkhan971/allskillandnonskill": 1193,
+    "anandhuh/data-science-jobs-in-india": 574
+  },
+  "omission_reasons": {
+    "arbazkhan971/allskillandnonskill": "Copyright-only declaration; redistribution permission unresolved.",
+    "anandhuh/data-science-jobs-in-india": "Combined database/content license label lacks verified exact license version and URI."
+  },
+  "job_text_excerpts_removed": 9691,
+  "sensitive_posting_urls_removed": 0,
+  "coverage": "32 locally inspected datasets; 35 skill-field files; 1,867,517 skill-field records. Not exhaustive Kaggle coverage. 30 datasets represented in public observations.",
+  "source_independence": "Not established. Known derivative families and partial URL overlap are recorded; counts are not votes or independent jobs.",
+  "entry_changes": false
+}

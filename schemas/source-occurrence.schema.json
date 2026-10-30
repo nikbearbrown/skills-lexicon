@@ -1,0 +1,338 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/nikbearbrown/skills-lexicon/schemas/source-occurrence.schema.json",
+  "title": "Additive source occurrence observation keyed to a lexicon entry or candidate",
+  "description": "Companion JSONL handoff for observed surface-form usage. Not an entry claim-evidence record and not an automatic kind/definition endorsement.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "subject",
+    "observation"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z][a-z0-9]{9}$"
+    },
+    "candidate_key": {
+      "type": "string",
+      "pattern": "^kaggle-candidate:[0-9a-f]{16}$"
+    },
+    "subject": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "label",
+        "baseline_commit"
+      ],
+      "properties": {
+        "label": {
+          "type": "string",
+          "minLength": 1
+        },
+        "baseline_commit": {
+          "type": "string",
+          "pattern": "^[0-9a-f]{40}$"
+        },
+        "entry_kind": {
+          "type": "string"
+        },
+        "entry_class": {
+          "type": "string"
+        },
+        "candidate_status": {
+          "const": "pending"
+        }
+      }
+    },
+    "observation": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "observation_id",
+        "by",
+        "action",
+        "date",
+        "run",
+        "source_id",
+        "source_url",
+        "dataset_version",
+        "license_as_recorded",
+        "source_type",
+        "source_family",
+        "member",
+        "member_sha256",
+        "claim",
+        "verification",
+        "extraction",
+        "counts",
+        "matched_forms",
+        "examples",
+        "limitations"
+      ],
+      "properties": {
+        "observation_id": {
+          "type": "string",
+          "pattern": "^sha256:[0-9a-f]{64}$"
+        },
+        "by": {
+          "type": "string",
+          "pattern": "^source:kaggle:"
+        },
+        "action": {
+          "const": "observed"
+        },
+        "date": {
+          "type": "string",
+          "format": "date"
+        },
+        "run": {
+          "type": "string"
+        },
+        "source_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "source_url": {
+          "type": "string",
+          "format": "uri"
+        },
+        "dataset_version": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "license_as_recorded": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "source_type": {
+          "enum": [
+            "curated-vocabulary",
+            "curated-taxonomy",
+            "curated-role-skill-mapping",
+            "aggregate-vocabulary",
+            "posting-extracted-labels",
+            "posting-normalized-labels",
+            "posting-derived-keywords",
+            "archived-job-posting-text"
+          ]
+        },
+        "source_family": {
+          "type": "string",
+          "minLength": 1
+        },
+        "member": {
+          "type": "string"
+        },
+        "member_sha256": {
+          "type": "string",
+          "pattern": "^[0-9a-f]{64}$"
+        },
+        "claim": {
+          "enum": [
+            "surface-form-occurs-in-skill-field",
+            "surface-form-occurs-in-archived-job-text"
+          ]
+        },
+        "verification": {
+          "const": "dump-match"
+        },
+        "extraction": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "method",
+            "column",
+            "normalization",
+            "match_rules"
+          ],
+          "properties": {
+            "method": {
+              "enum": [
+                "whole-label-match",
+                "sampled-literal-text-match"
+              ]
+            },
+            "column": {
+              "type": "string"
+            },
+            "normalization": {
+              "type": "string"
+            },
+            "match_rules": {
+              "type": "string"
+            },
+            "parser": {
+              "type": "string"
+            }
+          }
+        },
+        "counts": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "records",
+            "records_without_resolution_flags",
+            "records_requiring_resolution"
+          ],
+          "properties": {
+            "records": {
+              "type": "integer",
+              "minimum": 1
+            },
+            "records_without_resolution_flags": {
+              "type": "integer",
+              "minimum": 0
+            },
+            "records_requiring_resolution": {
+              "type": "integer",
+              "minimum": 0
+            },
+            "distinct_posting_ids": {
+              "type": "integer",
+              "minimum": 0
+            },
+            "sampled_posting_links": {
+              "type": "integer",
+              "minimum": 0
+            }
+          }
+        },
+        "matched_forms": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "observed_label",
+              "lexicon_form",
+              "form_type",
+              "match_rule",
+              "flags",
+              "count"
+            ],
+            "properties": {
+              "observed_label": {
+                "type": "string"
+              },
+              "lexicon_form": {
+                "type": "string"
+              },
+              "form_type": {
+                "enum": [
+                  "canonical",
+                  "variant",
+                  "candidate-label",
+                  "candidate-proposed-alias"
+                ]
+              },
+              "match_rule": {
+                "enum": [
+                  "word_ci",
+                  "exact_case"
+                ]
+              },
+              "flags": {
+                "type": "array",
+                "uniqueItems": true,
+                "items": {
+                  "enum": [
+                    "case_rule_not_met",
+                    "context_not_resolved",
+                    "ambiguous_surface",
+                    "candidate_alias_unverified"
+                  ]
+                }
+              },
+              "count": {
+                "type": "integer",
+                "minimum": 1
+              }
+            }
+          }
+        },
+        "examples": {
+          "type": "array",
+          "minItems": 1,
+          "maxItems": 5,
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "csv_record",
+              "observed_labels"
+            ],
+            "properties": {
+              "csv_record": {
+                "type": "integer",
+                "minimum": 2
+              },
+              "observed_labels": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "posting_url": {
+                "type": "string",
+                "format": "uri"
+              },
+              "posting_id_sha256": {
+                "type": "string",
+                "pattern": "^[0-9a-f]{64}$"
+              },
+              "quote": {
+                "type": "string",
+                "maxLength": 200
+              },
+              "start_character": {
+                "type": "integer",
+                "minimum": 0
+              },
+              "end_character": {
+                "type": "integer",
+                "minimum": 1
+              },
+              "quote_sha256": {
+                "type": "string",
+                "pattern": "^[0-9a-f]{64}$"
+              }
+            }
+          }
+        },
+        "limitations": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "minItems": 1
+        }
+      }
+    }
+  },
+  "oneOf": [
+    {
+      "required": [
+        "id"
+      ],
+      "not": {
+        "required": [
+          "candidate_key"
+        ]
+      }
+    },
+    {
+      "required": [
+        "candidate_key"
+      ],
+      "not": {
+        "required": [
+          "id"
+        ]
+      }
+    }
+  ]
+}
