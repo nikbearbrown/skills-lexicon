@@ -3,21 +3,6 @@
  "preferred_name": "Student development",
  "kind": "skill",
  "definition": "Supporting students' personal, social and academic growth, as in the student-affairs work of colleges and universities.",
- "description": {
-  "text": "A body of scholarship that seeks to explain how students learn, grow and develop in post-secondary education. It is a collection of theories about how college students develop holistically while enrolled.",
-  "adapted": true,
-  "source": {
-   "name": "English Wikipedia",
-   "title": "Student development theories",
-   "page_id": 5777246,
-   "rev_id": 1358554112,
-   "rev_timestamp": "2026-06-09T12:36:15Z",
-   "url": "https://en.wikipedia.org/w/index.php?title=Student_development_theories&oldid=1358554112",
-   "dump": "20261001",
-   "licence": "CC BY-SA 4.0",
-   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
-  }
- },
  "key": "student-development",
  "certification": false,
  "variants": [],
@@ -90,50 +75,6 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "2026-10-29-review-5p-opus"
-  },
-  {
-   "field": "description",
-   "by": "model:claude-sonnet-5-5",
-   "action": "drafted",
-   "date": "2026-10-31",
-   "run": "2026-10-31-desc-rewrite-g",
-   "note": "adapted from the lead of Wikipedia: Student development theories, revision 1358554112"
-  },
-  {
-   "field": "description",
-   "by": "source:wikipedia-enwiki-20261001",
-   "action": "matched_source",
-   "kind": "wikipedia",
-   "verification": "dump-match",
-   "outcome": "supports",
-   "ref": "https://en.wikipedia.org/w/index.php?title=Student_development_theories&oldid=1358554112",
-   "date": "2026-10-31",
-   "run": "2026-10-31-desc-rewrite-g",
-   "organization": {
-    "name": "Wikipedia, Wikimedia Foundation",
-    "url": "https://en.wikipedia.org/",
-    "type": "reference-work",
-    "country": "INT"
-   },
-   "note": "the page was matched to the entry by title rule and category fit, not by a person",
-   "match": {
-    "dataset": "enwiki-20261001",
-    "dataset_id": "5777246",
-    "method": "redirect",
-    "categories": [
-     "Educational psychology",
-     "Education theory"
-    ]
-   }
-  },
-  {
-   "field": "description",
-   "by": "model:claude-opus-5-5",
-   "action": "checked",
-   "outcome": "contradicts",
-   "date": "2026-10-31",
-   "run": "2026-10-31-desc-check-e",
-   "note": "wrong-subject: Entry is a skill/practice; lead is about student development theory, a body of scholarship."
   }
  ]
 }

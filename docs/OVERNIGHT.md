@@ -110,10 +110,26 @@ The GPT-6 answers cover the packet boundaries of the first snapshot (`e7fceae`);
 
 `docs/REVIEW-FLAGS.md` now begins with the claims contradicted by two or more different models: 114 claims (109 by two models, 5 by three), of which 20 are definition, kind, certification or scope claims (10 of them `kind`) and 94 are variants or relations. The ten `kind` cases are mostly a standard filed as `knowledge` (ABEC scale, NFPA 70E, TL 9000), which suggests a rule for the drafting brief rather than ten separate fixes.
 
+## Descriptions from Wikipedia (2026-10-31)
+
+Each entry whose resolved Wikipedia page is the same thing (relation `same`, 1,284 entries) was given a `description` adapted from the article's lead, with the revision permalink, the dump (20261001) and the licence (CC BY-SA 4.0) on the entry. Field and rules: `docs/SCHEMAS.md`. Matching and the relation: `data/wikipedia-match/20261001/README.md`.
+
+| Step | Who | Result |
+|---|---|---|
+| Rewrite from the lead, using only facts in the lead | 7 Sonnet runs (claude-sonnet-5-5, medium effort as read from the transcripts) | 1,235 described, 49 set aside (the lead was about another thing, or too thin) |
+| Check each description against its lead | 5 Opus runs (claude-opus-5-5, medium effort) | 1,197 faithful, 38 flagged: 18 wrong subject, 16 changes meaning, 4 adds information |
+| Remove the wrong-subject descriptions | `descriptions.py prune` | 18 removed; each is kept, with its evidence, in `description-skipped.jsonl` |
+
+**Result: 1,217 entries have a description** (995 skills, 171 languages, 48 certifications, 3 abilities). 20 more carry a flag: a wording problem a person should read (a past tense where the lead is present, a qualifier dropped).
+
+What the wrong-subject check caught is mostly one pattern: the entry is a product (Salesforce, AWS, MuleSoft, Canva, ServiceNow) and the lead is about the company. Several rewriters had marked these ok despite the rule, so the check mattered. A few were judged close calls (AWS, Alibaba Cloud, Canva, whose leads also describe the product), and the removal can be reversed from the skipped file.
+
+**What counts as backed.** Each description has a `matched_source` record with verification `dump-match`, so the count of claims backed by a matched source rose from 104 to 1,321. The text is from the source revision, but a rule matched the article to the entry (an estimated 97% right in a small sample), and models wrote and checked the wording. No person has looked at any of it. Read the number as "derived from a named source", not "verified".
+
 ## End state
 
 - **3688 entries**: 2472 skill, 859 certification, 290 language, 67 ability (52 of them O*NET).
-- **15880 claims**; 104 are backed by a matched source (the O*NET abilities) and none by a person.
+- **17097 claims**; 1,321 are backed by a matched source (104 O*NET abilities and 1,217 Wikipedia descriptions) and none by a person.
 - **13697 votes** in the ledger, each with model and effort.
 - **No tag is unresolved.** 1,162 tags got no entry: 564 were judged not a skill and 598 left unsure by the drafting model. The unsure ones could be re-drafted by a stronger model.
 - **Second-model check:** every entry that did not come from O\*NET has had one, by a model other than the drafter. None has had a check by a person.

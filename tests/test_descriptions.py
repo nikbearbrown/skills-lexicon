@@ -80,6 +80,19 @@ class Descriptions(unittest.TestCase):
         self.assertEqual((ev[0]["outcome"], ev[0]["by"]), ("contradicts", "model:claude-opus-5-5"))
         self.assertFalse(L.backs(ev[0]))
 
+    def test_prune_removes_only_wrong_subject_descriptions_and_keeps_the_record(self):
+        self.answers([{"key": "git", "verdict": "ok", "description": "A system that tracks changes to files."}, {"key": "mercury", "verdict": "ok", "description": "A planet."}])
+        D.apply(str(self.d), str(self.out), "rewrite", "claude-sonnet-5-5", "xhigh", "run-a", "2026-10-31", str(self.w))
+        self.answers([{"key": "git", "verdict": "wrong-subject", "note": "the lead is about the company"}, {"key": "mercury", "verdict": "changes-meaning", "note": "tense"}])
+        D.apply(str(self.d), str(self.out), "check", "claude-opus-5-5", "xhigh", "run-c", "2026-10-31", str(self.w))
+        self.assertEqual(D.prune(str(self.d), str(self.w), "2026-10-31"), 1)
+        es = self.load()
+        self.assertNotIn("description", es["git"])
+        self.assertIn("description", es["mercury"])                                     # a wording problem is flagged, not removed
+        row = json.loads((self.w / "description-skipped.jsonl").read_text().splitlines()[-1])
+        self.assertEqual((row["entry_key"], len(row["evidence"])), ("git", 3))
+        self.assertEqual(L.validate(list(es.values())), [])
+
     def test_validator_rejects_a_description_without_its_source_evidence_or_licence(self):
         e = entry("aaaaaaaaa9", "x", "X")
         e["_file"] = "x.json"

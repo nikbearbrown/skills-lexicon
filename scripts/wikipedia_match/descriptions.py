@@ -3,6 +3,7 @@
 
     python3 -I scripts/wikipedia_match/descriptions.py packets OUTDIR [--size 60] [--data data/wikipedia-match/20261001]
     python3 -I scripts/wikipedia_match/descriptions.py check-packets OUTDIR [--size 60]
+    python3 -I scripts/wikipedia_match/descriptions.py prune     # remove descriptions the check judged wrong-subject
     python3 -I scripts/wikipedia_match/descriptions.py apply OUTDIR --stage rewrite --model-id claude-sonnet-5-5 --effort xhigh --run RUN
     python3 -I scripts/wikipedia_match/descriptions.py apply OUTDIR --stage check   --model-id claude-opus-5-5   --effort xhigh --run RUN
 
@@ -115,6 +116,37 @@ def check_packets(root, out, size, data):
     print("%d items in %d check packets under %s" % (len(items), (len(items) + size - 1) // size, out))
 
 
+def prune(root, data, today):
+    """Take off a description that the check judged wrong-subject: its text describes another thing than the entry. The description and its
+    evidence records are written to description-skipped.jsonl so nothing is lost; wording problems (changes-meaning, adds-information) stay, flagged."""
+    entries, _ = L.load(os.path.join(root, "entries"))
+    rows, touched = [], set()
+    for e in entries:
+        if "description" not in e:
+            continue
+        bad = [v for v in e.get("evidence", []) if v.get("field") == "description" and v.get("action") == "checked" and v.get("outcome") == "contradicts"
+               and str(v.get("note", "")).startswith("wrong-subject")]
+        if not bad:
+            continue
+        rows.append({"entry_key": e["key"], "verdict": "wrong-subject", "removed": today, "note": bad[0]["note"][:200], "description": e["description"],
+                     "evidence": [v for v in e["evidence"] if v.get("field") == "description"]})
+        e["evidence"] = [v for v in e["evidence"] if v.get("field") != "description"]
+        del e["description"]
+        touched.add(e["_file"])
+    errs = L.validate(entries)
+    if errs:
+        raise SystemExit("not saved, the dictionary would not validate: " + "; ".join(errs[:4]))
+    for e in entries:
+        if e["_file"] in touched:
+            with open(os.path.join(root, "entries", e["_file"]), "w", encoding="utf-8") as f:
+                f.write(json.dumps({k: v for k, v in e.items() if not k.startswith("_")}, indent=1, ensure_ascii=False) + "\n")
+    with open(os.path.join(data, "description-skipped.jsonl"), "a", encoding="utf-8") as f:
+        for r in rows:
+            f.write(json.dumps(r, ensure_ascii=False) + "\n")
+    print("removed %d wrong-subject descriptions (kept in description-skipped.jsonl)" % len(rows))
+    return len(rows)
+
+
 def put_after(e, key, value, after="definition"):
     new = {}
     for k, v in e.items():
@@ -205,15 +237,18 @@ def main(argv=None):
     sub = ap.add_subparsers(dest="cmd", required=True)
     p = sub.add_parser("packets"); p.add_argument("out"); p.add_argument("--size", type=int, default=60)
     c = sub.add_parser("check-packets"); c.add_argument("out"); c.add_argument("--size", type=int, default=60)
+    r = sub.add_parser("prune")
     q = sub.add_parser("apply"); q.add_argument("out"); q.add_argument("--stage", choices=["rewrite", "check"], required=True)
     q.add_argument("--model-id", required=True); q.add_argument("--effort", required=True, choices=sorted(L.EFFORTS)); q.add_argument("--run", required=True)
     q.add_argument("--only"); q.add_argument("--agent", default="subagent")
-    for x in (p, c, q):
+    for x in (p, c, r, q):
         x.add_argument("--root", default=ROOT); x.add_argument("--data", default=os.path.join(ROOT, "data", "wikipedia-match", "20261001"))
         x.add_argument("--date", default=datetime.date.today().isoformat())
     a = ap.parse_args(argv)
     if a.cmd == "packets":
         packets(a.root, a.out, a.size, a.data)
+    elif a.cmd == "prune":
+        prune(a.root, a.data, a.date)
     elif a.cmd == "check-packets":
         check_packets(a.root, a.out, a.size, a.data)
     else:
