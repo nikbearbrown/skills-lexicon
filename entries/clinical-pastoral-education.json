@@ -3,6 +3,21 @@
  "preferred_name": "Clinical pastoral education",
  "kind": "knowledge",
  "definition": "A programme of supervised, hands-on training in spiritual care for chaplains and ministers, accredited in the United States by the Association for Clinical Pastoral Education.",
+ "description": {
+  "text": "Education that teaches pastoral care, spiritual care and chaplaincy to clergy and others. Learning is hands-on, usually in healthcare settings with patients, in units of 400 hours.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "Clinical pastoral education",
+   "page_id": 2522625,
+   "rev_id": 1366758044,
+   "rev_timestamp": "2026-07-30T01:13:02Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=Clinical_pastoral_education&oldid=1366758044",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "clinical-pastoral-education",
  "certification": false,
  "variants": [],
@@ -79,6 +94,41 @@
    "date": "2026-10-29",
    "run": "external-2026-10-29-gpt-6-unknown",
    "note": "ACPE is a major accreditor; not every clinical pastoral education program is accredited by ACPE."
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-b",
+   "note": "adapted from the lead of Wikipedia: Clinical pastoral education, revision 1366758044"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=Clinical_pastoral_education&oldid=1366758044",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-b",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "2522625",
+    "method": "title",
+    "categories": [
+     "Chaplains",
+     "Religious education"
+    ]
+   }
   }
  ]
 }

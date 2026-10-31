@@ -3,6 +3,21 @@
  "preferred_name": "Heat bending of wood",
  "kind": "skill",
  "definition": "Shaping wood into curves by softening it with heat or steam and bending it around a form.",
+ "description": {
+  "text": "The procedure of bending wood into curves and shapes using moisture and a bending iron. The moisture and heat reorganize the wood fibers so the wood does not spring back; it is used in woodworking and for making the sides of stringed musical instruments.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "Heat bending of wood",
+   "page_id": 21305388,
+   "rev_id": 1271395814,
+   "rev_timestamp": "2025-01-23T21:49:03Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=Heat_bending_of_wood&oldid=1271395814",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "heat-bending-of-wood",
  "certification": false,
  "variants": [],
@@ -99,6 +114,40 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "external-2026-10-29-gpt-6-unknown"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-c",
+   "note": "adapted from the lead of Wikipedia: Heat bending of wood, revision 1271395814"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=Heat_bending_of_wood&oldid=1271395814",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-c",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "21305388",
+    "method": "title",
+    "categories": [
+     "Woodworking techniques"
+    ]
+   }
   }
  ]
 }

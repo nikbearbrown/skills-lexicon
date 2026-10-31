@@ -3,6 +3,21 @@
  "preferred_name": "Single sign-on",
  "kind": "method",
  "definition": "An authentication approach that lets a user sign in once to reach several separate applications.",
+ "description": {
+  "text": "An authentication scheme that lets a user log in with a single ID to any of several related but independent software systems. True single sign-on lets the user log in once and use services without re-entering credentials.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "Single sign-on",
+   "page_id": 927470,
+   "rev_id": 1374111359,
+   "rev_timestamp": "2026-09-09T22:45:16Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=Single_sign-on&oldid=1374111359",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "single-sign-on",
  "certification": false,
  "variants": [
@@ -128,6 +143,41 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "external-2026-10-29-gpt-6-unknown"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-f",
+   "note": "adapted from the lead of Wikipedia: Single sign-on, revision 1374111359"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=Single_sign-on&oldid=1374111359",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-f",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "927470",
+    "method": "title",
+    "categories": [
+     "Password authentication",
+     "Federated identity"
+    ]
+   }
   }
  ]
 }

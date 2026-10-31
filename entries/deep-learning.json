@@ -7,6 +7,21 @@
  "preferred_name": "Deep learning",
  "kind": "method",
  "definition": "Developing models built from multiple neural-network layers.",
+ "description": {
+  "text": "In machine learning, an approach that uses multilayered neural networks for tasks such as classification, regression and representation learning. It stacks artificial neurons into layers and trains them to process data.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "Deep learning",
+   "page_id": 32472154,
+   "rev_id": 1378632336,
+   "rev_timestamp": "2026-10-05T10:02:43Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=Deep_learning&oldid=1378632336",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "variants": [
   {
    "label": "DL",
@@ -72,6 +87,41 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "external-2026-10-29-gpt-6-unknown"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-b",
+   "note": "adapted from the lead of Wikipedia: Deep learning, revision 1378632336"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=Deep_learning&oldid=1378632336",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-b",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "32472154",
+    "method": "title",
+    "categories": [
+     "Deep learning",
+     "Articles containing video clips"
+    ]
+   }
   }
  ]
 }

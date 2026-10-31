@@ -3,6 +3,21 @@
  "preferred_name": "Material flow",
  "kind": "knowledge",
  "definition": "How raw materials, parts and finished goods move through a plant or supply chain, and how that movement is planned and tracked.",
+ "description": {
+  "text": "Material flow is the description of the movement of raw materials, parts, components and final products as a flow of entities. The term applies mainly to advanced modeling of supply chain management, and specialized simulation tools exist for complex flows.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "Material flow",
+   "page_id": 22674559,
+   "rev_id": 1278063911,
+   "rev_timestamp": "2025-02-28T08:01:15Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=Material_flow&oldid=1278063911",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "material-flow",
  "certification": false,
  "variants": [],
@@ -99,6 +114,44 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "external-2026-10-29-gpt-6-unknown"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-d",
+   "note": "adapted from the lead of Wikipedia: Material flow, revision 1278063911"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=Material_flow&oldid=1278063911",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-d",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "22674559",
+    "method": "title",
+    "categories": [
+     "Control engineering",
+     "Industrial ecology",
+     "Industrial engineering",
+     "Systems ecology",
+     "Resource economics"
+    ]
+   }
   }
  ]
 }

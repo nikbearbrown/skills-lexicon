@@ -3,6 +3,21 @@
  "preferred_name": "Problem solving",
  "kind": "skill",
  "definition": "Working out what is causing a problem and finding and carrying out a way to resolve it.",
+ "description": {
+  "text": "The process of achieving a goal by overcoming obstacles. Problems range from simple personal tasks to complex business and technical issues, and tasks can be well-defined or not.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "Problem solving",
+   "page_id": 1467948,
+   "rev_id": 1378905256,
+   "rev_timestamp": "2026-10-06T21:07:25Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=Problem_solving&oldid=1378905256",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "problem-solving",
  "certification": false,
  "variants": [
@@ -157,6 +172,46 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "external-2026-10-29-gpt-6-unknown"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-f",
+   "note": "adapted from the lead of Wikipedia: Problem solving, revision 1378905256"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=Problem_solving&oldid=1378905256",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-f",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "1467948",
+    "method": "title",
+    "categories": [
+     "Problem solving",
+     "Reasoning",
+     "Artificial intelligence",
+     "Educational psychology",
+     "Cognitive psychology",
+     "Neuropsychological assessment",
+     "Psychology articles needing expert attention"
+    ]
+   }
   }
  ]
 }

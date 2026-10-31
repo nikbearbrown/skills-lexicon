@@ -3,6 +3,21 @@
  "preferred_name": "Organization development",
  "kind": "knowledge",
  "definition": "The field and practice of planned, behavioural-science-based efforts to improve how an organisation works and how its people work together.",
+ "description": {
+  "text": "The study and use of practices, systems and techniques that bring about organizational change, aiming to change the performance or culture of a group or organization. It applies behavioral science to increase individual and organizational effectiveness and emerged from 1930s human relations studies.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "Organization development",
+   "page_id": 226594,
+   "rev_id": 1377514728,
+   "rev_timestamp": "2026-09-29T20:16:24Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=Organization_development&oldid=1377514728",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "organization-development",
  "certification": false,
  "variants": [],
@@ -99,6 +114,41 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "external-2026-10-29-gpt-6-unknown"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-e",
+   "note": "adapted from the lead of Wikipedia: Organization development, revision 1377514728"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=Organization_development&oldid=1377514728",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-e",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "226594",
+    "method": "title",
+    "categories": [
+     "Change management",
+     "Organizational theory"
+    ]
+   }
   }
  ]
 }

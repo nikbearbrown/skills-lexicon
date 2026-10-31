@@ -3,6 +3,21 @@
  "preferred_name": "WinJS",
  "kind": "library",
  "definition": "A Microsoft JavaScript library of user-interface controls and helpers for building Windows and web apps.",
+ "description": {
+  "text": "An open-source JavaScript library from Microsoft designed to ease development of Windows Store, Windows Phone and Xbox One apps using HTML5 and JavaScript, as an alternative to WinRT XAML with C#, VB.NET or C++.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "WinJS",
+   "page_id": 42206259,
+   "rev_id": 1352273161,
+   "rev_timestamp": "2026-05-03T06:14:26Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=WinJS&oldid=1352273161",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "winjs",
  "certification": false,
  "variants": [
@@ -96,6 +111,47 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "2026-10-29-review-5r-opus"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-g",
+   "note": "adapted from the lead of Wikipedia: WinJS, revision 1352273161"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=WinJS&oldid=1352273161",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-g",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "42206259",
+    "method": "title",
+    "categories": [
+     "JavaScript libraries",
+     "Microsoft application programming interfaces",
+     "Microsoft free software",
+     "Software using the Apache license",
+     "Windows 8",
+     "Windows Phone",
+     "Windows technology",
+     "2012 software"
+    ]
+   }
   }
  ]
 }

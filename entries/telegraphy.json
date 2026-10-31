@@ -3,6 +3,21 @@
  "preferred_name": "Telegraphy",
  "kind": "skill",
  "definition": "Sending and receiving messages over a telegraph line or radio link, typically as Morse code.",
+ "description": {
+  "text": "The long-distance transmission of messages using symbolic codes known to the recipient, rather than the physical exchange of an object carrying the message. Flag semaphore is telegraphy; pigeon post is not.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "Telegraphy",
+   "page_id": 30010,
+   "rev_id": 1371244752,
+   "rev_timestamp": "2026-08-25T11:52:39Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=Telegraphy&oldid=1371244752",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "telegraphy",
  "certification": false,
  "variants": [],
@@ -75,6 +90,41 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "2026-10-29-review-5p-opus"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-g",
+   "note": "adapted from the lead of Wikipedia: Telegraphy, revision 1371244752"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=Telegraphy&oldid=1371244752",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-g",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "30010",
+    "method": "title",
+    "categories": [
+     "Telegraphy",
+     "Telecommunications"
+    ]
+   }
   }
  ]
 }

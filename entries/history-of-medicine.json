@@ -3,6 +3,21 @@
  "preferred_name": "History of medicine",
  "kind": "knowledge",
  "definition": "The study of how medical practice, knowledge and institutions have developed over time.",
+ "description": {
+  "text": "The study and documentation of how medical treatments, practices and knowledge have evolved over time. It is a multidisciplinary field, and medical historians draw on other humanities fields such as economics.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "History of medicine",
+   "page_id": 14194,
+   "rev_id": 1375013904,
+   "rev_timestamp": "2026-09-15T11:12:19Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=History_of_medicine&oldid=1375013904",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "history-of-medicine",
  "certification": false,
  "variants": [],
@@ -99,6 +114,42 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "external-2026-10-29-gpt-6-unknown"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-c",
+   "note": "adapted from the lead of Wikipedia: History of medicine, revision 1375013904"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=History_of_medicine&oldid=1375013904",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-c",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "14194",
+    "method": "title",
+    "categories": [
+     "History of medicine",
+     "History of science by discipline",
+     "History by topic"
+    ]
+   }
   }
  ]
 }

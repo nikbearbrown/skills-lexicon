@@ -3,6 +3,21 @@
  "preferred_name": "Food preservation",
  "kind": "skill",
  "definition": "Treating or storing food, for example by canning, freezing, drying, salting or pickling, to stop it spoiling.",
+ "description": {
+  "text": "Processes that make food more resistant to microorganism growth and slow the oxidation of fats, slowing decomposition and rancidity. They may also prevent visual deterioration such as browning in cut apples, and help reduce food waste.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "Food preservation",
+   "page_id": 10834,
+   "rev_id": 1324600990,
+   "rev_timestamp": "2025-11-28T15:54:06Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=Food_preservation&oldid=1324600990",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "food-preservation",
  "certification": false,
  "variants": [],
@@ -100,6 +115,41 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "external-2026-10-29-gpt-6-unknown"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-c",
+   "note": "adapted from the lead of Wikipedia: Food preservation, revision 1324600990"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=Food_preservation&oldid=1324600990",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-c",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "10834",
+    "method": "title",
+    "categories": [
+     "Food preservation",
+     "Garde manger"
+    ]
+   }
   }
  ]
 }

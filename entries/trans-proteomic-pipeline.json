@@ -3,6 +3,21 @@
  "preferred_name": "Trans-Proteomic Pipeline",
  "kind": "tool",
  "definition": "An open-source software suite for processing and validating mass spectrometry proteomics data, from peptide identification to protein quantification.",
+ "description": {
+  "text": "Open-source data analysis software for proteomics, developed at the Institute for Systems Biology by the Ruedi Aebersold group. It includes PeptideProphet, ProteinProphet, ASAPRatio, XPRESS and Libra.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "Trans-Proteomic Pipeline",
+   "page_id": 7633054,
+   "rev_id": 1294077958,
+   "rev_timestamp": "2025-06-05T12:49:40Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=Trans-Proteomic_Pipeline&oldid=1294077958",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "trans-proteomic-pipeline",
  "certification": false,
  "variants": [],
@@ -75,6 +90,44 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "2026-10-29-review-5q-opus"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-g",
+   "note": "adapted from the lead of Wikipedia: Trans-Proteomic Pipeline, revision 1294077958"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=Trans-Proteomic_Pipeline&oldid=1294077958",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-g",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "7633054",
+    "method": "title",
+    "categories": [
+     "Free science software",
+     "Bioinformatics software",
+     "Mass spectrometry software",
+     "Proteomics",
+     "Chromatography software"
+    ]
+   }
   }
  ]
 }

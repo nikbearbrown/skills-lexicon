@@ -3,6 +3,21 @@
  "preferred_name": "Google+",
  "kind": "platform",
  "definition": "Google's social network, launched in 2011 and shut down for consumers in 2019.",
+ "description": {
+  "text": "A social network owned and operated by Google that ceased operations in 2019. Launched in 2011 to challenge other social networks, it linked other Google products such as Drive, Blogger, AdSense and YouTube.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "Google+",
+   "page_id": 32242976,
+   "rev_id": 1378869684,
+   "rev_timestamp": "2026-10-06T16:49:22Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=Google%2B&oldid=1378869684",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "google",
  "certification": false,
  "variants": [],
@@ -100,6 +115,49 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "external-2026-10-29-gpt-6-unknown"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-c",
+   "note": "adapted from the lead of Wikipedia: Google+, revision 1378869684"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=Google%2B&oldid=1378869684",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-c",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "32242976",
+    "method": "title",
+    "categories": [
+     "2011 establishments in California",
+     "2019 disestablishments in California",
+     "Blog hosting services",
+     "Defunct social networking services",
+     "Discontinued Google services",
+     "Discontinued Google software",
+     "Internet properties disestablished in 2019",
+     "Internet properties established in 2011",
+     "Products and services discontinued in 2019",
+     "Social information processing"
+    ]
+   }
   }
  ]
 }

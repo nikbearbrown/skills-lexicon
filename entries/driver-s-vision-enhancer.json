@@ -3,6 +3,21 @@
  "preferred_name": "Driver's Vision Enhancer",
  "kind": "tool",
  "definition": "A thermal-imaging device that lets a vehicle driver see the road in darkness, smoke, fog or dust.",
+ "description": {
+  "text": "A passive thermal imaging system that helps a vehicle driver see in poor conditions such as darkness, fog, smoke or dust. It is made up of a display control module, a sensor module and pan and tilt modules, and is typically used in tactical military vehicles.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "Driver's vision enhancer",
+   "page_id": 17097734,
+   "rev_id": 1114799933,
+   "rev_timestamp": "2022-10-08T09:37:43Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=Driver's_vision_enhancer&oldid=1114799933",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "driver-s-vision-enhancer",
  "certification": false,
  "variants": [
@@ -129,6 +144,42 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "external-2026-10-29-gpt-6-unknown"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-c",
+   "note": "adapted from the lead of Wikipedia: Driver's vision enhancer, revision 1114799933"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=Driver's_vision_enhancer&oldid=1114799933",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-c",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "17097734",
+    "method": "title",
+    "categories": [
+     "Military optical devices",
+     "Military electronics",
+     "Military sensor technology"
+    ]
+   }
   }
  ]
 }

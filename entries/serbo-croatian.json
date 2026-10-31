@@ -3,6 +3,21 @@
  "preferred_name": "Serbo-Croatian",
  "kind": "human-language",
  "definition": "A South Slavic language whose standardized forms include Bosnian, Croatian, Montenegrin and Serbian.",
+ "description": {
+  "text": "A Western South Slavic language, also called Bosnian-Croatian-Montenegrin-Serbian, and the primary language of Serbia, Croatia, Bosnia and Herzegovina, and Montenegro. It is pluricentric, with four mutually intelligible standard varieties: Serbian, Croatian, Bosnian and Montenegrin.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "Serbo-Croatian",
+   "page_id": 27730,
+   "rev_id": 1371611210,
+   "rev_timestamp": "2026-08-27T11:15:05Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=Serbo-Croatian&oldid=1371611210",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "serbo-croatian",
  "certification": false,
  "language_type": "human",
@@ -134,6 +149,51 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "2026-10-29-review-4e-opus"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-f",
+   "note": "adapted from the lead of Wikipedia: Serbo-Croatian, revision 1371611210"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=Serbo-Croatian&oldid=1371611210",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-f",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "27730",
+    "method": "title",
+    "categories": [
+     "Serbo-Croatian",
+     "Dialect levelling",
+     "Languages of Bosnia and Herzegovina",
+     "Languages of Croatia",
+     "Languages of Kosovo",
+     "Languages of Montenegro",
+     "Languages of Serbia",
+     "Languages of Slovenia",
+     "South Slavic languages",
+     "Languages written in Cyrillic script",
+     "Slavic languages written in Latin script",
+     "Pitch-accent language"
+    ]
+   }
   }
  ]
 }

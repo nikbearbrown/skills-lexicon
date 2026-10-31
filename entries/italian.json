@@ -3,6 +3,21 @@
  "preferred_name": "Italian",
  "kind": "human-language",
  "definition": "A Romance language spoken mainly in Italy and Switzerland.",
+ "description": {
+  "text": "Italian is a Romance language of the Indo-European family, a standardised form of literary Florentine Tuscan. It is an official language in Italy, San Marino and Switzerland, with roughly 64 million native speakers.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "Italian language",
+   "page_id": 14708,
+   "rev_id": 1377668436,
+   "rev_timestamp": "2026-09-30T13:08:06Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=Italian_language&oldid=1377668436",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "italian",
  "certification": false,
  "language_type": "human",
@@ -134,6 +149,52 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "2026-10-29-review-4e-opus"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-d",
+   "note": "adapted from the lead of Wikipedia: Italian language, revision 1377668436"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=Italian_language&oldid=1377668436",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-d",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "14708",
+    "method": "redirect",
+    "categories": [
+     "Italian language",
+     "Fusional languages",
+     "Languages attested since the 10th century",
+     "Languages of Italy",
+     "Languages of Monaco",
+     "Languages of San Marino",
+     "Languages of Switzerland",
+     "Languages of Vatican City",
+     "Languages of Slovenia",
+     "Languages of Croatia",
+     "Subject–verb–object languages",
+     "Syllable-timed languages",
+     "Italo-Dalmatian languages"
+    ]
+   }
   }
  ]
 }

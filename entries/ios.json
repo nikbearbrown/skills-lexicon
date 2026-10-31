@@ -3,6 +3,21 @@
  "preferred_name": "iOS",
  "kind": "platform",
  "definition": "The mobile operating system that Apple makes for the iPhone.",
+ "description": {
+  "text": "iOS, formerly iPhone OS, is the mobile operating system Apple created for its iPhone smartphones. It is also the basis for other Apple operating systems, including iPadOS.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "IOS",
+   "page_id": 16161443,
+   "rev_id": 1375888864,
+   "rev_timestamp": "2026-09-20T18:10:09Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=IOS&oldid=1375888864",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "ios",
  "name_match": "exact_case",
  "certification": false,
@@ -157,6 +172,51 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "external-2026-10-29-gpt-6-unknown"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-d",
+   "note": "adapted from the lead of Wikipedia: IOS, revision 1375888864"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=IOS&oldid=1375888864",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-d",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "16161443",
+    "method": "title",
+    "categories": [
+     "2007 software",
+     "IOS",
+     "Apple Inc.",
+     "Apple Inc. operating systems",
+     "Apple Inc. software",
+     "ARM operating systems",
+     "Computing platforms",
+     "Mach (kernel)",
+     "Mobile operating systems",
+     "Products introduced in 2007",
+     "Smartphone operating systems",
+     "Tablet operating systems"
+    ]
+   }
   }
  ]
 }

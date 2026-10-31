@@ -3,6 +3,21 @@
  "preferred_name": "ArangoDB",
  "kind": "platform",
  "definition": "A multi-model database that stores documents, graphs and key-value data and is queried with its own language, AQL.",
+ "description": {
+  "text": "A multi-model NoSQL database system developed by ArangoDB Inc. It supports graph, JSON document and key/value data in one core with a unified, mainly declarative query language called AQL.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "ArangoDB",
+   "page_id": 47577922,
+   "rev_id": 1375046436,
+   "rev_timestamp": "2026-09-15T15:00:14Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=ArangoDB&oldid=1375046436",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "arangodb",
  "certification": false,
  "variants": [],
@@ -99,6 +114,50 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "external-2026-10-29-gpt-6-unknown"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-a",
+   "note": "adapted from the lead of Wikipedia: ArangoDB, revision 1375046436"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=ArangoDB&oldid=1375046436",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-a",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "47577922",
+    "method": "title",
+    "categories": [
+     "2011 software",
+     "Free database management systems",
+     "NoSQL products",
+     "NoSQL",
+     "Document-oriented databases",
+     "Graph databases",
+     "Structured storage",
+     "Distributed computing architecture",
+     "Database-related software for Linux",
+     "Key-value databases",
+     "Software using the Business Source License"
+    ]
+   }
   }
  ]
 }

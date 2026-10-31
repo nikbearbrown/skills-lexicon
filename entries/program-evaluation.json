@@ -3,6 +3,21 @@
  "preferred_name": "Program evaluation",
  "kind": "skill",
  "definition": "Systematically gathering and analysing evidence to judge how well a programme works and whether it meets its goals.",
+ "description": {
+  "text": "A systematic method for collecting, analyzing and using information to answer questions about projects, policies and programs, particularly their effectiveness and efficiency (value for money).",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "Program evaluation",
+   "page_id": 619350,
+   "rev_id": 1377735916,
+   "rev_timestamp": "2026-09-30T21:48:29Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=Program_evaluation&oldid=1377735916",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "program-evaluation",
  "certification": false,
  "variants": [
@@ -157,6 +172,42 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "external-2026-10-29-gpt-6-unknown"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-f",
+   "note": "adapted from the lead of Wikipedia: Program evaluation, revision 1377735916"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=Program_evaluation&oldid=1377735916",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-f",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "619350",
+    "method": "title",
+    "categories": [
+     "Impact assessment",
+     "Educational evaluation methods",
+     "Public policy research"
+    ]
+   }
   }
  ]
 }

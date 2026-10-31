@@ -6,6 +6,21 @@
  "preferred_name": "Doctor of Physical Therapy",
  "kind": "credential",
  "definition": "A doctoral degree that qualifies graduates to practise as physical therapists in the United States.",
+ "description": {
+  "text": "A qualifying degree in physical therapy (DPT). In the United States it is a graduate-level first professional or doctoral degree for professional practice.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "Doctor of Physical Therapy",
+   "page_id": 2110699,
+   "rev_id": 1376786787,
+   "rev_timestamp": "2026-09-26T05:44:34Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=Doctor_of_Physical_Therapy&oldid=1376786787",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "doctor-of-physical-therapy",
  "certification": true,
  "variants": [
@@ -201,6 +216,42 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "external-2026-10-29-gpt-6-unknown"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-b",
+   "note": "adapted from the lead of Wikipedia: Doctor of Physical Therapy, revision 1376786787"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=Doctor_of_Physical_Therapy&oldid=1376786787",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-b",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "2110699",
+    "method": "title",
+    "categories": [
+     "Physical therapy",
+     "Doctoral degrees",
+     "Academic degrees in healthcare"
+    ]
+   }
   }
  ],
  "certification_scope": "many-issuers",

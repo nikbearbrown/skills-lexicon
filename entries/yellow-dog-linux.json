@@ -3,6 +3,21 @@
  "preferred_name": "Yellow Dog Linux",
  "kind": "platform",
  "definition": "A Linux distribution for PowerPC computers, made by Terra Soft Solutions.",
+ "description": {
+  "text": "A discontinued free and open-source operating system for high-performance computing on multi-core architectures, focused on GPU systems and POWER7 computers. It was first released for Apple Macintosh PowerPC computers.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "Yellow Dog Linux",
+   "page_id": 246708,
+   "rev_id": 1375239485,
+   "rev_timestamp": "2026-09-16T16:42:46Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=Yellow_Dog_Linux&oldid=1375239485",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "yellow-dog-linux",
  "certification": false,
  "variants": [],
@@ -76,6 +91,45 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "2026-10-29-review-5r-opus"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-g",
+   "note": "adapted from the lead of Wikipedia: Yellow Dog Linux, revision 1375239485"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=Yellow_Dog_Linux&oldid=1375239485",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-g",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "246708",
+    "method": "title",
+    "categories": [
+     "Cell BE architecture",
+     "Discontinued Linux distributions",
+     "Linux distributions",
+     "Platform-specific Linux distributions",
+     "PlayStation 3 software",
+     "PowerPC Linux distributions"
+    ]
+   }
   }
  ]
 }

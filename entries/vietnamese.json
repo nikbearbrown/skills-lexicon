@@ -3,6 +3,21 @@
  "preferred_name": "Vietnamese",
  "kind": "human-language",
  "definition": "An Austroasiatic language, the official language of Vietnam.",
+ "description": {
+  "text": "An Austroasiatic language of the Vietic subgroup, spoken mainly throughout Vietnam, where it is the official language. It has around 86 million native speakers and 11 million second-language speakers.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "Vietnamese language",
+   "page_id": 32511,
+   "rev_id": 1376459541,
+   "rev_timestamp": "2026-09-24T07:07:42Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=Vietnamese_language&oldid=1376459541",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "vietnamese",
  "certification": false,
  "language_type": "human",
@@ -134,6 +149,50 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "2026-10-29-review-4e-opus"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-g",
+   "note": "adapted from the lead of Wikipedia: Vietnamese language, revision 1376459541"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=Vietnamese_language&oldid=1376459541",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-g",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "32511",
+    "method": "redirect",
+    "categories": [
+     "Vietnamese language",
+     "Analytic languages",
+     "Isolating languages",
+     "Languages of Vietnam",
+     "Languages of Cambodia",
+     "Languages of China",
+     "Languages of the Czech Republic",
+     "Languages of Taiwan",
+     "Subject–verb–object languages",
+     "Vietic languages",
+     "Tonal languages in non-tonal families"
+    ]
+   }
   }
  ]
 }

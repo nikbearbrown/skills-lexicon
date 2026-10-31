@@ -3,6 +3,21 @@
  "preferred_name": "Microsoft HoloLens",
  "kind": "tool",
  "definition": "A mixed-reality headset made by Microsoft that overlays holograms on the user's view of the real world.",
+ "description": {
+  "text": "An augmented reality / mixed reality headset developed and made by Microsoft. It runs the Windows Mixed Reality platform on Windows 10, and its positional tracking draws on technology from the Microsoft Kinect.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "Microsoft HoloLens",
+   "page_id": 45153914,
+   "rev_id": 1360709225,
+   "rev_timestamp": "2026-06-23T03:10:55Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=Microsoft_HoloLens&oldid=1360709225",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "microsoft-hololens",
  "certification": false,
  "variants": [
@@ -129,6 +144,49 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "external-2026-10-29-gpt-6-unknown"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-e",
+   "note": "adapted from the lead of Wikipedia: Microsoft HoloLens, revision 1360709225"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=Microsoft_HoloLens&oldid=1360709225",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-e",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "45153914",
+    "method": "title",
+    "categories": [
+     "Augmented reality",
+     "Computer-related introductions in 2016",
+     "Computing input devices",
+     "Gesture recognition",
+     "Head-mounted displays",
+     "History of human–computer interaction",
+     "Microsoft hardware",
+     "Mixed reality",
+     "Wearable devices",
+     "Windows 10"
+    ]
+   }
   }
  ]
 }

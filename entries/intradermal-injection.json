@@ -3,6 +3,21 @@
  "preferred_name": "Intradermal injection",
  "kind": "skill",
  "definition": "Injecting a small amount of a substance into the layer of skin just under the surface, as in a tuberculin skin test.",
+ "description": {
+  "text": "An intradermal injection is a shallow injection of a substance into the dermis, the skin layer between the epidermis and hypodermis. For some substances it gives faster uptake than subcutaneous injection, for example stronger immune responses to vaccines.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "Intradermal injection",
+   "page_id": 25284347,
+   "rev_id": 1371456022,
+   "rev_timestamp": "2026-08-26T15:13:42Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=Intradermal_injection&oldid=1371456022",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "intradermal-injection",
  "certification": false,
  "variants": [
@@ -131,6 +146,41 @@
    "date": "2026-10-29",
    "run": "external-2026-10-29-gpt-6-unknown",
    "note": "An adjective describing location/route; it is not synonymous with the procedure of intradermal injection."
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-d",
+   "note": "adapted from the lead of Wikipedia: Intradermal injection, revision 1371456022"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=Intradermal_injection&oldid=1371456022",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-d",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "25284347",
+    "method": "title",
+    "categories": [
+     "Medical procedures",
+     "Injection (medicine)"
+    ]
+   }
   }
  ]
 }

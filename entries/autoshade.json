@@ -3,6 +3,21 @@
  "preferred_name": "Autoshade",
  "kind": "tool",
  "definition": "A discontinued Autodesk add-on for producing shaded, rendered images of AutoCAD models.",
+ "description": {
+  "text": "An early 3D rendering package for use with AutoCAD, developed by Autodesk in 1987. It became obsolete after Autodesk released 3D Studio.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "AutoShade",
+   "page_id": 4864915,
+   "rev_id": 1363689147,
+   "rev_timestamp": "2026-07-11T18:48:02Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=AutoShade&oldid=1363689147",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "autoshade",
  "certification": false,
  "variants": [],
@@ -100,6 +115,42 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "external-2026-10-29-gpt-6-unknown"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-a",
+   "note": "adapted from the lead of Wikipedia: AutoShade, revision 1363689147"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=AutoShade&oldid=1363689147",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-a",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "4864915",
+    "method": "title",
+    "categories": [
+     "3D graphics software",
+     "Computer-aided design software",
+     "Autodesk discontinued products"
+    ]
+   }
   }
  ]
 }

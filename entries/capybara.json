@@ -3,6 +3,21 @@
  "preferred_name": "Capybara",
  "kind": "library",
  "definition": "A Ruby library for testing web applications by simulating how a user interacts with them.",
+ "description": {
+  "text": "A web-based test automation tool written in Ruby. It simulates user scenarios to test web applications for behavior-driven development, mimicking real users by receiving pages, parsing HTML and submitting forms.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "Capybara (software)",
+   "page_id": 49343792,
+   "rev_id": 1325395427,
+   "rev_timestamp": "2025-12-02T21:42:50Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=Capybara_(software)&oldid=1325395427",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "capybara",
  "certification": false,
  "variants": [],
@@ -99,6 +114,47 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "external-2026-10-29-gpt-6-unknown"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-b",
+   "note": "adapted from the lead of Wikipedia: Capybara (software), revision 1325395427"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=Capybara_(software)&oldid=1325395427",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-b",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "49343792",
+    "method": "title",
+    "categories": [
+     "Software testing tools",
+     "Software using the MIT license",
+     "Graphical user interface testing",
+     "Load testing tools",
+     "Unit testing frameworks",
+     "Web development software",
+     "Web scraping",
+     "Free software programmed in Ruby"
+    ]
+   }
   }
  ]
 }

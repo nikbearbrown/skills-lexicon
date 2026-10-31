@@ -3,6 +3,21 @@
  "preferred_name": "Serial Line Internet Protocol",
  "kind": "standard",
  "definition": "A simple protocol that carries IP packets over serial lines such as dial-up modem links, described in RFC 1055.",
+ "description": {
+  "text": "An encapsulation of the Internet Protocol designed to work over serial ports and router connections. On personal computers it has largely been replaced by the Point-to-Point Protocol, but it is still preferred on microcontrollers for its simplicity.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "Serial Line Internet Protocol",
+   "page_id": 101421,
+   "rev_id": 1355188707,
+   "rev_timestamp": "2026-05-20T11:30:18Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=Serial_Line_Internet_Protocol&oldid=1355188707",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "serial-line-internet-protocol",
  "certification": false,
  "variants": [
@@ -188,6 +203,42 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "external-2026-10-29-gpt-6-unknown"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-f",
+   "note": "adapted from the lead of Wikipedia: Serial Line Internet Protocol, revision 1355188707"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=Serial_Line_Internet_Protocol&oldid=1355188707",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-f",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "101421",
+    "method": "title",
+    "categories": [
+     "Internet protocols",
+     "Link protocols",
+     "Logical link control"
+    ]
+   }
   }
  ]
 }

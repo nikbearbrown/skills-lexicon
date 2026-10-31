@@ -3,6 +3,21 @@
  "preferred_name": "Process hazard analysis",
  "kind": "method",
  "definition": "A structured review of an industrial or chemical process to identify its hazards and judge whether its safeguards are adequate.",
+ "description": {
+  "text": "An exercise to identify hazards in a process facility and assess the associated risk qualitatively or semi-quantitatively. It helps managers and employees decide how to improve safety and reduce the consequences of unplanned releases of hazardous materials, fires and explosions.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "Process hazard analysis",
+   "page_id": 19046783,
+   "rev_id": 1215800171,
+   "rev_timestamp": "2024-03-27T05:43:44Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=Process_hazard_analysis&oldid=1215800171",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "process-hazard-analysis",
  "certification": false,
  "variants": [
@@ -158,6 +173,40 @@
    "date": "2026-10-29",
    "run": "external-2026-10-29-gpt-6-unknown",
    "note": "Anlysis is a misspelling of analysis."
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-f",
+   "note": "adapted from the lead of Wikipedia: Process hazard analysis, revision 1215800171"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=Process_hazard_analysis&oldid=1215800171",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-f",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "19046783",
+    "method": "title",
+    "categories": [
+     "Process safety"
+    ]
+   }
   }
  ]
 }

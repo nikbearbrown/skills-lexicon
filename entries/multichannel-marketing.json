@@ -3,6 +3,21 @@
  "preferred_name": "Multichannel marketing",
  "kind": "skill",
  "definition": "Marketing to customers through several channels, such as email, social media, stores and websites, at the same time.",
+ "description": {
+  "text": "Blending different distribution and promotional channels, such as a store, website or mail-order catalogue, so consumers can buy in whichever way suits them. It needs good supply chain systems and may be backed by return-on-investment analysis per channel.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "Multichannel marketing",
+   "page_id": 293099,
+   "rev_id": 1326321060,
+   "rev_timestamp": "2025-12-08T09:12:03Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=Multichannel_marketing&oldid=1326321060",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "multichannel-marketing",
  "certification": false,
  "variants": [],
@@ -128,6 +143,40 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "external-2026-10-29-gpt-6-unknown"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-e",
+   "note": "adapted from the lead of Wikipedia: Multichannel marketing, revision 1326321060"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=Multichannel_marketing&oldid=1326321060",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-e",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "293099",
+    "method": "title",
+    "categories": [
+     "Distribution (marketing)"
+    ]
+   }
   }
  ]
 }

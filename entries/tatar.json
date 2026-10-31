@@ -3,6 +3,21 @@
  "preferred_name": "Tatar",
  "kind": "human-language",
  "definition": "A Turkic language spoken mainly in Tatarstan and other parts of Russia.",
+ "description": {
+  "text": "A Turkic language of the Kipchak branch, spoken by the Tatars mainly in the Republic of Tatarstan, the Volga-Ural region and other regions of Russia. Its two main dialects are the Central and Western dialects.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "Tatar language",
+   "page_id": 189720,
+   "rev_id": 1372057434,
+   "rev_timestamp": "2026-08-30T02:34:57Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=Tatar_language&oldid=1372057434",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "tatar",
  "certification": false,
  "language_type": "human",
@@ -134,6 +149,54 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "2026-10-29-review-4e-opus"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-g",
+   "note": "adapted from the lead of Wikipedia: Tatar language, revision 1372057434"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=Tatar_language&oldid=1372057434",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-g",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "189720",
+    "method": "redirect",
+    "categories": [
+     "Tatar language",
+     "Agglutinative languages",
+     "Languages of Azerbaijan",
+     "Languages of China",
+     "Languages of Finland",
+     "Languages of Kazakhstan",
+     "Indigenous languages of European Russia",
+     "Languages of Turkey",
+     "Languages of Ukraine",
+     "Languages of Uzbekistan",
+     "Vowel-harmony languages",
+     "Vulnerable languages",
+     "Endangered Turkic languages",
+     "Endangered languages of Europe",
+     "Endangered languages of China"
+    ]
+   }
   }
  ]
 }

@@ -3,6 +3,21 @@
  "preferred_name": "ShareFile",
  "kind": "platform",
  "definition": "A cloud service for storing, sharing and collaborating on business files securely, originally from Citrix.",
+ "description": {
+  "text": "Content collaboration, file sharing and sync software for the document tasks and workflow needs of small and large businesses. It also offers cloud-based or on-premises storage, virtual data rooms and client portals, and is owned by Progress Software.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "ShareFile",
+   "page_id": 16092817,
+   "rev_id": 1368627524,
+   "rev_timestamp": "2026-08-10T04:26:38Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=ShareFile&oldid=1368627524",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "sharefile",
  "certification": false,
  "variants": [
@@ -130,6 +145,49 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "external-2026-10-29-gpt-6-unknown"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-f",
+   "note": "adapted from the lead of Wikipedia: ShareFile, revision 1368627524"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=ShareFile&oldid=1368627524",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-f",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "16092817",
+    "method": "title",
+    "categories": [
+     "File hosting",
+     "File sharing services",
+     "Research Triangle",
+     "Cloud computing providers",
+     "Data synchronization",
+     "Companies based in Raleigh, North Carolina",
+     "Internet properties established in 2005",
+     "2005 establishments in North Carolina",
+     "2011 mergers and acquisitions",
+     "2024 mergers and acquisitions"
+    ]
+   }
   }
  ]
 }

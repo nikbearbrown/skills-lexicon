@@ -3,6 +3,21 @@
  "preferred_name": "Winemaking",
  "kind": "skill",
  "definition": "Producing wine, from handling grapes and fermenting the juice to ageing and bottling it.",
+ "description": {
+  "text": "The production of wine, from selecting the fruit through fermenting it into alcohol to bottling the finished liquid. The science of wine and winemaking is called oenology.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "Winemaking",
+   "page_id": 373172,
+   "rev_id": 1375469478,
+   "rev_timestamp": "2026-09-17T23:55:02Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=Winemaking&oldid=1375469478",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "winemaking",
  "certification": false,
  "variants": [
@@ -96,6 +111,41 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "2026-10-29-review-5r-opus"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-g",
+   "note": "adapted from the lead of Wikipedia: Winemaking, revision 1375469478"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=Winemaking&oldid=1375469478",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-g",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "373172",
+    "method": "title",
+    "categories": [
+     "Winemaking",
+     "Fermentation in food processing"
+    ]
+   }
   }
  ]
 }

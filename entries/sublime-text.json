@@ -3,6 +3,21 @@
  "preferred_name": "Sublime Text",
  "kind": "tool",
  "definition": "A cross-platform text and source-code editor with fast search, multiple selections and a plugin system.",
+ "description": {
+  "text": "A text and source code editor with a minimal interface, syntax highlighting, code folding, regular-expression search and replace, and customizable themes. It runs on Windows, macOS and Linux, and can be extended with plugins written in Python.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "Sublime Text",
+   "page_id": 32794687,
+   "rev_id": 1373669557,
+   "rev_timestamp": "2026-09-07T05:35:51Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=Sublime_Text&oldid=1373669557",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "sublime-text",
  "certification": false,
  "variants": [
@@ -96,6 +111,49 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "2026-10-29-review-5p-opus"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-g",
+   "note": "adapted from the lead of Wikipedia: Sublime Text, revision 1373669557"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=Sublime_Text&oldid=1373669557",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-g",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "32794687",
+    "method": "title",
+    "categories": [
+     "Software programmed in C++",
+     "Cross-platform software",
+     "HTML editors",
+     "Linux text editors",
+     "MacOS text editors",
+     "Software programmed in Python",
+     "Text editors",
+     "Unix text editors",
+     "Windows text editors",
+     "XML editors"
+    ]
+   }
   }
  ]
 }

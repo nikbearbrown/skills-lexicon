@@ -3,6 +3,21 @@
  "preferred_name": "Native American studies",
  "kind": "knowledge",
  "definition": "An interdisciplinary academic field that studies the histories, cultures, politics and societies of Native American peoples.",
+ "description": {
+  "text": "An interdisciplinary academic field that examines the history, culture, politics, spirituality, sociology and contemporary experience of Indigenous peoples of the Americas. It is also called American Indian, Indigenous American, Aboriginal, Native or First Nations studies.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "Native American studies",
+   "page_id": 2230332,
+   "rev_id": 1371665623,
+   "rev_timestamp": "2026-08-27T19:06:14Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=Native_American_studies&oldid=1371665623",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "native-american-studies",
  "certification": false,
  "variants": [],
@@ -99,6 +114,43 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "external-2026-10-29-gpt-6-unknown"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-e",
+   "note": "adapted from the lead of Wikipedia: Native American studies, revision 1371665623"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=Native_American_studies&oldid=1371665623",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-e",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "2230332",
+    "method": "title",
+    "categories": [
+     "Native American studies",
+     "Native American topics",
+     "American studies",
+     "Postmodernism"
+    ]
+   }
   }
  ]
 }

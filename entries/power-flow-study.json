@@ -3,6 +3,21 @@
  "preferred_name": "Power flow study",
  "kind": "skill",
  "definition": "Calculating the voltages and the real and reactive power flowing through an electrical power system under given load conditions.",
+ "description": {
+  "text": "A numerical analysis of the flow of electric power in an interconnected system, also called load-flow analysis. It examines normal steady-state operation and gives the voltage magnitude and phase angle at each bus and the power flowing in each line.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "Power-flow study",
+   "page_id": 670376,
+   "rev_id": 1343643332,
+   "rev_timestamp": "2026-03-15T15:29:53Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=Power-flow_study&oldid=1343643332",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "power-flow-study",
  "certification": false,
  "variants": [
@@ -156,6 +171,41 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "external-2026-10-29-gpt-6-unknown"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-f",
+   "note": "adapted from the lead of Wikipedia: Power-flow study, revision 1343643332"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=Power-flow_study&oldid=1343643332",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-f",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "670376",
+    "method": "title",
+    "categories": [
+     "Electric power distribution",
+     "Power engineering"
+    ]
+   }
   }
  ]
 }

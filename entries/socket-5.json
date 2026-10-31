@@ -3,6 +3,21 @@
  "preferred_name": "Socket 5",
  "kind": "tool",
  "definition": "A 320-pin CPU socket used by Intel for its Pentium processors from 75 to 133 MHz.",
+ "description": {
+  "text": "A 320-pin CPU socket for the second generation of Intel Pentium processors and some early Pentium MMX and OverDrive processors. It superseded Socket 4 and was the first to use a staggered pin grid array.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "Socket 5",
+   "page_id": 1979543,
+   "rev_id": 1353024012,
+   "rev_timestamp": "2026-05-07T18:15:46Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=Socket_5&oldid=1353024012",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "socket-5",
  "certification": false,
  "variants": [],
@@ -99,6 +114,41 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "external-2026-10-29-gpt-6-unknown"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-g",
+   "note": "adapted from the lead of Wikipedia: Socket 5, revision 1353024012"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=Socket_5&oldid=1353024012",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-g",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "1979543",
+    "method": "title",
+    "categories": [
+     "CPU sockets",
+     "Computer-related introductions in 1994"
+    ]
+   }
   }
  ]
 }

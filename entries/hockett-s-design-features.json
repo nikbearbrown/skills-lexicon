@@ -3,6 +3,21 @@
  "preferred_name": "Hockett's design features",
  "kind": "knowledge",
  "definition": "A set of features proposed by the linguist Charles Hockett that characterise human language and set it apart from animal communication.",
+ "description": {
+  "text": "A set of features that characterize human language and set it apart from animal communication, defined by linguist Charles F. Hockett in the 1960s. He originally counted 13, of which primate communication uses the first 9.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "Hockett's design features",
+   "page_id": 39356537,
+   "rev_id": 1376284083,
+   "rev_timestamp": "2026-09-23T05:39:46Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=Hockett's_design_features&oldid=1376284083",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "hockett-s-design-features",
  "certification": false,
  "variants": [],
@@ -101,6 +116,41 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "external-2026-10-29-gpt-6-unknown"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-c",
+   "note": "adapted from the lead of Wikipedia: Hockett's design features, revision 1376284083"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=Hockett's_design_features&oldid=1376284083",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-c",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "39356537",
+    "method": "title",
+    "categories": [
+     "Linguistics",
+     "Human communication"
+    ]
+   }
   }
  ]
 }

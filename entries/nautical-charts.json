@@ -3,6 +3,21 @@
  "preferred_name": "Nautical charts",
  "kind": "knowledge",
  "definition": "Maps made for marine navigation that show water depths, coastlines, hazards and aids to navigation.",
+ "description": {
+  "text": "A graphic representation of a sea region or water body and nearby coasts. Depending on scale it shows water depths, seabed features, coastline, hazards, aids to navigation, tides and currents. They are essential for marine navigation and many countries require ships to carry them.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "Nautical chart",
+   "page_id": 238244,
+   "rev_id": 1371051529,
+   "rev_timestamp": "2026-08-24T08:39:22Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=Nautical_chart&oldid=1371051529",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "nautical-charts",
  "certification": false,
  "variants": [],
@@ -99,6 +114,40 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "external-2026-10-29-gpt-6-unknown"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-e",
+   "note": "adapted from the lead of Wikipedia: Nautical chart, revision 1371051529"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=Nautical_chart&oldid=1371051529",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-e",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "238244",
+    "method": "title",
+    "categories": [
+     "Nautical charts"
+    ]
+   }
   }
  ]
 }

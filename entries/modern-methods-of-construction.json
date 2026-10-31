@@ -3,6 +3,21 @@
  "preferred_name": "Modern methods of construction",
  "kind": "method",
  "definition": "Building approaches, such as offsite and modular manufacture, that move much of the construction work from the site into a factory.",
+ "description": {
+  "text": "A mainly UK term for 'smart construction' processes that improve on traditional building through standardised components, design for manufacture and assembly, prefabrication, off-site and modular building, and 3D printing. It is especially linked to housing.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "Modern methods of construction",
+   "page_id": 76386646,
+   "rev_id": 1327342144,
+   "rev_timestamp": "2025-12-13T23:07:11Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=Modern_methods_of_construction&oldid=1327342144",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "modern-methods-of-construction",
  "certification": false,
  "variants": [
@@ -129,6 +144,42 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "external-2026-10-29-gpt-6-unknown"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-e",
+   "note": "adapted from the lead of Wikipedia: Modern methods of construction, revision 1327342144"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=Modern_methods_of_construction&oldid=1327342144",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-e",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "76386646",
+    "method": "title",
+    "categories": [
+     "Construction",
+     "Building engineering",
+     "Construction industry in the United Kingdom"
+    ]
+   }
   }
  ]
 }

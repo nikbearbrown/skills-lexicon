@@ -3,6 +3,21 @@
  "preferred_name": "Padrino",
  "kind": "framework",
  "definition": "A Ruby web framework built on top of Sinatra that adds helpers, generators and a modular structure.",
+ "description": {
+  "text": "A free and open-source web framework written in Ruby and based on Sinatra, an alternative to Ruby on Rails and similar frameworks. It depends on the Rack web server interface and was created to extend Sinatra to support rich web applications more easily.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "Padrino (web framework)",
+   "page_id": 35152483,
+   "rev_id": 1359226334,
+   "rev_timestamp": "2026-06-13T23:33:00Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=Padrino_(web_framework)&oldid=1359226334",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "padrino",
  "certification": false,
  "variants": [],
@@ -99,6 +114,42 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "external-2026-10-29-gpt-6-unknown"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-e",
+   "note": "adapted from the lead of Wikipedia: Padrino (web framework), revision 1359226334"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=Padrino_(web_framework)&oldid=1359226334",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-e",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "35152483",
+    "method": "title",
+    "categories": [
+     "Free software programmed in Ruby",
+     "Web frameworks",
+     "Software using the MIT license"
+    ]
+   }
   }
  ]
 }

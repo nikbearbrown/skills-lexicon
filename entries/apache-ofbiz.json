@@ -3,6 +3,21 @@
  "preferred_name": "Apache OFBiz",
  "kind": "platform",
  "definition": "An open-source Java platform for enterprise resource planning and e-commerce, made of a framework and ready-made business applications.",
+ "description": {
+  "text": "An open-source enterprise resource planning (ERP) system with business applications for accounting, CRM, order management, warehousing, manufacturing and MRP. It is an Apache Software Foundation top-level project.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "Apache OFBiz",
+   "page_id": 7528242,
+   "rev_id": 1347524101,
+   "rev_timestamp": "2026-04-07T06:01:46Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=Apache_OFBiz&oldid=1347524101",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "apache-ofbiz",
  "certification": false,
  "variants": [
@@ -128,6 +143,47 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "external-2026-10-29-gpt-6-unknown"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-a",
+   "note": "adapted from the lead of Wikipedia: Apache OFBiz, revision 1347524101"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=Apache_OFBiz&oldid=1347524101",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-a",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "7528242",
+    "method": "title",
+    "categories": [
+     "Apache Software Foundation projects",
+     "Free accounting software",
+     "Free e-commerce software",
+     "Free industrial software",
+     "Free ERP software",
+     "Free software programmed in Java",
+     "Web applications",
+     "Software using the Apache license"
+    ]
+   }
   }
  ]
 }

@@ -3,6 +3,21 @@
  "preferred_name": "Real Property Administrator",
  "kind": "credential",
  "definition": "A professional designation from BOMI International for people who manage commercial property, earned by completing its coursework and exams.",
+ "description": {
+  "text": "A professional designation for commercial property managers, awarded to people with several years of experience who complete the Building Owners and Managers Association advanced study program. It is administered by BOMI International, a nonprofit property and facility management institute.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "Real Property Administrator",
+   "page_id": 11053564,
+   "rev_id": 1333696619,
+   "rev_timestamp": "2026-01-19T06:20:55Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=Real_Property_Administrator&oldid=1333696619",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "real-property-administrator",
  "certification": true,
  "certification_scope": "single-issuer",
@@ -133,6 +148,41 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "external-2026-10-29-gpt-6-unknown"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-f",
+   "note": "adapted from the lead of Wikipedia: Real Property Administrator, revision 1333696619"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=Real_Property_Administrator&oldid=1333696619",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-f",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "11053564",
+    "method": "title",
+    "categories": [
+     "Property management",
+     "Financial services occupations"
+    ]
+   }
   }
  ]
 }

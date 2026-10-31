@@ -3,6 +3,21 @@
  "preferred_name": "GLPI",
  "kind": "tool",
  "definition": "An open-source web application, developed in France, for managing IT assets and running a help desk.",
+ "description": {
+  "text": "An open-source IT asset management, issue tracking and service desk system written in PHP and released under the GNU General Public License. This web-based application helps companies manage their information systems, including building an inventory of their assets.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "GLPI",
+   "page_id": 25988513,
+   "rev_id": 1339186570,
+   "rev_timestamp": "2026-02-19T10:06:54Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=GLPI&oldid=1339186570",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "glpi",
  "name_match": "exact_case",
  "certification": false,
@@ -157,6 +172,44 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "external-2026-10-29-gpt-6-unknown"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-c",
+   "note": "adapted from the lead of Wikipedia: GLPI, revision 1339186570"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=GLPI&oldid=1339186570",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-c",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "25988513",
+    "method": "title",
+    "categories": [
+     "Free network-related software",
+     "Help desk software",
+     "Bug and issue tracking software",
+     "Free software programmed in PHP",
+     "Software using the GNU General Public License"
+    ]
+   }
   }
  ]
 }

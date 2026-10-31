@@ -3,6 +3,21 @@
  "preferred_name": "Artificial intelligence",
  "kind": "knowledge",
  "definition": "The field of computer science concerned with building systems that perform tasks that normally need human intelligence, such as learning, reasoning and perception.",
+ "description": {
+  "text": "The capability of computational systems to perform tasks usually associated with human intelligence, such as learning, reasoning, problem-solving, perception and decision-making. It is a research field in engineering, mathematics and computer science.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "Artificial intelligence",
+   "page_id": 1164,
+   "rev_id": 1378534951,
+   "rev_timestamp": "2026-10-04T22:44:59Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=Artificial_intelligence&oldid=1378534951",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "artificial-intelligence",
  "certification": false,
  "variants": [
@@ -128,6 +143,46 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "external-2026-10-29-gpt-6-unknown"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-a",
+   "note": "adapted from the lead of Wikipedia: Artificial intelligence, revision 1378534951"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=Artificial_intelligence&oldid=1378534951",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-a",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "1164",
+    "method": "title",
+    "categories": [
+     "Artificial intelligence",
+     "Computational fields of study",
+     "Computational neuroscience",
+     "Cybernetics",
+     "Data science",
+     "Formal sciences",
+     "Intelligence by type"
+    ]
+   }
   }
  ]
 }

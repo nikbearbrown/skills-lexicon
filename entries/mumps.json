@@ -3,6 +3,21 @@
  "preferred_name": "MUMPS",
  "kind": "programming-language",
  "definition": "A programming language with a built-in hierarchical database, developed at Massachusetts General Hospital in the 1960s and used in healthcare systems.",
+ "description": {
+  "text": "An imperative, high-level programming language, also called M, with an integrated key-value transaction database. It was developed at Massachusetts General Hospital for patient records and is widely used in health information and electronic health record systems in the US.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "MUMPS",
+   "page_id": 19723,
+   "rev_id": 1370059139,
+   "rev_timestamp": "2026-08-18T22:22:32Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=MUMPS&oldid=1370059139",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "mumps",
  "name_match": "exact_case",
  "certification": false,
@@ -146,6 +161,53 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "2026-10-29-review-4e-opus"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-e",
+   "note": "adapted from the lead of Wikipedia: MUMPS, revision 1370059139"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=MUMPS&oldid=1370059139",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-e",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "19723",
+    "method": "title",
+    "categories": [
+     "MUMPS programming language",
+     "Data processing",
+     "Data-centric programming languages",
+     "Digital Equipment Corporation",
+     "Dynamically typed programming languages",
+     "Health informatics",
+     "IEC standards",
+     "ISO standards",
+     "Massachusetts General Hospital",
+     "PDP-11",
+     "Persistent programming languages",
+     "Programming languages with an ISO standard",
+     "Scripting languages",
+     "Programming languages created in 1966"
+    ]
+   }
   }
  ]
 }

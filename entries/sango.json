@@ -3,6 +3,21 @@
  "preferred_name": "Sango",
  "kind": "human-language",
  "definition": "A language of the Central African Republic, used as a lingua franca and an official language alongside French.",
+ "description": {
+  "text": "A major language of Central Africa, spoken especially in the Central African Republic, southern Chad and the Democratic Republic of the Congo. It is an official language of the Central African Republic, where it is used as a lingua franca.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "Sango language",
+   "page_id": 371408,
+   "rev_id": 1357428990,
+   "rev_timestamp": "2026-06-02T16:02:00Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=Sango_language&oldid=1357428990",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "sango",
  "certification": false,
  "language_type": "human",
@@ -162,6 +177,42 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "external-2026-10-29-gpt-6-unknown"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-f",
+   "note": "adapted from the lead of Wikipedia: Sango language, revision 1357428990"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=Sango_language&oldid=1357428990",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-f",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "371408",
+    "method": "redirect",
+    "categories": [
+     "African-based pidgins and creoles",
+     "Languages of the Democratic Republic of the Congo",
+     "Languages of the Central African Republic"
+    ]
+   }
   }
  ]
 }

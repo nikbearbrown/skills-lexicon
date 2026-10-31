@@ -3,6 +3,21 @@
  "preferred_name": "Market capitalization",
  "kind": "knowledge",
  "definition": "The total market value of a company's shares, found by multiplying the share price by the number of shares outstanding.",
+ "description": {
+  "text": "Market capitalization, or market cap, is the total value of a publicly traded company's outstanding common shares. It equals the market price per common share multiplied by the number of common shares outstanding.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "Market capitalization",
+   "page_id": 58829,
+   "rev_id": 1378289853,
+   "rev_timestamp": "2026-10-03T21:00:57Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=Market_capitalization&oldid=1378289853",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "market-capitalization",
  "certification": false,
  "variants": [
@@ -156,6 +171,41 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "external-2026-10-29-gpt-6-unknown"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-d",
+   "note": "adapted from the lead of Wikipedia: Market capitalization, revision 1378289853"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=Market_capitalization&oldid=1378289853",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-d",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "58829",
+    "method": "title",
+    "categories": [
+     "Publicly traded companies",
+     "Business terms"
+    ]
+   }
   }
  ]
 }

@@ -3,6 +3,21 @@
  "preferred_name": "Clinical data repository",
  "kind": "tool",
  "definition": "A database that gathers patient data from several clinical systems in one place so that it can be viewed, reported on and reused.",
+ "description": {
+  "text": "A real-time database that pulls data from many clinical sources into one view of a single patient. It is built so clinicians can retrieve one patient's data rather than study groups of patients.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "Clinical data repository",
+   "page_id": 4466421,
+   "rev_id": 1328502243,
+   "rev_timestamp": "2025-12-20T07:54:31Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=Clinical_data_repository&oldid=1328502243",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "clinical-data-repository",
  "certification": false,
  "variants": [],
@@ -99,6 +114,41 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "external-2026-10-29-gpt-6-unknown"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-b",
+   "note": "adapted from the lead of Wikipedia: Clinical data repository, revision 1328502243"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=Clinical_data_repository&oldid=1328502243",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-b",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "4466421",
+    "method": "title",
+    "categories": [
+     "Real-time databases",
+     "Health informatics"
+    ]
+   }
   }
  ]
 }

@@ -7,6 +7,21 @@
  "preferred_name": "Generative AI",
  "kind": "knowledge",
  "definition": "Methods for learning models that generate new content.",
+ "description": {
+  "text": "A subfield of artificial intelligence that uses generative models to produce text, images, video, audio, code or other digital data. The models learn patterns from training data and generate new data in response to input, often natural language prompts.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "Generative AI",
+   "page_id": 73291755,
+   "rev_id": 1379030331,
+   "rev_timestamp": "2026-10-07T13:52:05Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=Generative_AI&oldid=1379030331",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "variants": [
   {
    "label": "GenAI",
@@ -114,6 +129,49 @@
    "date": "2026-10-29",
    "run": "external-2026-10-29-gpt-6-unknown",
    "note": "Names models rather than the broader field/methods of generative AI."
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-c",
+   "note": "adapted from the lead of Wikipedia: Generative AI, revision 1379030331"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=Generative_AI&oldid=1379030331",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-c",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "73291755",
+    "method": "title",
+    "categories": [
+     "Artificial neural networks",
+     "Deep learning",
+     "Machine learning",
+     "Generative AI",
+     "2020s fads and trends",
+     "2020s in computing",
+     "2023 in computing",
+     "2024 in computing",
+     "2025 in computing",
+     "Articles containing video clips"
+    ]
+   }
   }
  ]
 }

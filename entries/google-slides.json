@@ -3,6 +3,21 @@
  "preferred_name": "Google Slides",
  "kind": "tool",
  "definition": "Google's web-based application for creating, editing and sharing presentation slides online.",
+ "description": {
+  "text": "A presentation program in Google's free, web-based Google Docs suite. It runs as a web application, on Android and iOS, and on ChromeOS, works with Microsoft PowerPoint file formats, and lets users edit files online and collaborate in real time.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "Google Slides",
+   "page_id": 39684326,
+   "rev_id": 1377521073,
+   "rev_timestamp": "2026-09-29T20:54:18Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=Google_Slides&oldid=1377521073",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "google-slides",
  "certification": false,
  "variants": [],
@@ -99,6 +114,41 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "external-2026-10-29-gpt-6-unknown"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-c",
+   "note": "adapted from the lead of Wikipedia: Google Slides, revision 1377521073"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=Google_Slides&oldid=1377521073",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-c",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "39684326",
+    "method": "title",
+    "categories": [
+     "Google software",
+     "Google Docs Editors"
+    ]
+   }
   }
  ]
 }

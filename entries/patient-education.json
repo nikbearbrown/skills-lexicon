@@ -3,6 +3,21 @@
  "preferred_name": "Patient education",
  "kind": "skill",
  "definition": "Teaching patients and their families about a condition, treatment or self-care so that they can manage their health.",
+ "description": {
+  "text": "A planned, interactive learning process designed to support and enable expert patients to manage life with a disease and/or optimise their health and well-being.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "Patient education",
+   "page_id": 11780498,
+   "rev_id": 1369996046,
+   "rev_timestamp": "2026-08-18T13:50:34Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=Patient_education&oldid=1369996046",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "patient-education",
  "certification": false,
  "variants": [],
@@ -128,6 +143,42 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "external-2026-10-29-gpt-6-unknown"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-e",
+   "note": "adapted from the lead of Wikipedia: Patient education, revision 1369996046"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=Patient_education&oldid=1369996046",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-e",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "11780498",
+    "method": "title",
+    "categories": [
+     "Public health education",
+     "Health education",
+     "Patient"
+    ]
+   }
   }
  ]
 }

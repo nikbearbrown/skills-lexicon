@@ -3,6 +3,21 @@
  "preferred_name": "Vision rehabilitation",
  "kind": "skill",
  "definition": "Training and therapy that help people with vision loss use their remaining sight and other abilities to manage everyday tasks.",
+ "description": {
+  "text": "Medical rehabilitation to improve independent living skills in people with low vision or blindness. It aims to restore functional ability, quality of life and independence for someone who has lost visual function through illness or injury.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "Vision rehabilitation",
+   "page_id": 41121734,
+   "rev_id": 1367816318,
+   "rev_timestamp": "2026-08-05T10:14:49Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=Vision_rehabilitation&oldid=1367816318",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "vision-rehabilitation",
  "certification": false,
  "variants": [],
@@ -96,6 +111,42 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "2026-10-29-review-5q-opus"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-g",
+   "note": "adapted from the lead of Wikipedia: Vision rehabilitation, revision 1367816318"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=Vision_rehabilitation&oldid=1367816318",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-g",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "41121734",
+    "method": "title",
+    "categories": [
+     "Visual disturbances and blindness",
+     "Vision",
+     "Genetic engineering"
+    ]
+   }
   }
  ]
 }

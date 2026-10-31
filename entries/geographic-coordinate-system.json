@@ -3,6 +3,21 @@
  "preferred_name": "Geographic coordinate system",
  "kind": "knowledge",
  "definition": "A reference system that gives any position on the Earth's surface by latitude and longitude.",
+ "description": {
+  "text": "A spherical or geodetic coordinate system that gives positions on Earth as latitude and longitude. It is the simplest, oldest and most widely used type of spatial reference system and forms the basis for most others.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "Geographic coordinate system",
+   "page_id": 48361,
+   "rev_id": 1376521784,
+   "rev_timestamp": "2026-09-24T17:37:38Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=Geographic_coordinate_system&oldid=1376521784",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "geographic-coordinate-system",
  "certification": false,
  "variants": [],
@@ -100,6 +115,44 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "external-2026-10-29-gpt-6-unknown"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-c",
+   "note": "adapted from the lead of Wikipedia: Geographic coordinate system, revision 1376521784"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=Geographic_coordinate_system&oldid=1376521784",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-c",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "48361",
+    "method": "title",
+    "categories": [
+     "Geographic coordinate systems",
+     "Cartography",
+     "Geographic position",
+     "Geodesy",
+     "Navigation"
+    ]
+   }
   }
  ]
 }

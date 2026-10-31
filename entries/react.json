@@ -7,6 +7,21 @@
  "preferred_name": "React",
  "kind": "library",
  "definition": "A user-interface library; not synonymous with React Native.",
+ "description": {
+  "text": "A free and open-source front-end JavaScript library for building component-based user interfaces. It is governed by the React Foundation, hosted by the Linux Foundation, and is one of the most commonly used web technologies.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "React (software)",
+   "page_id": 44926137,
+   "rev_id": 1372638253,
+   "rev_timestamp": "2026-09-01T15:50:14Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=React_(software)&oldid=1372638253",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "variants": [
   {
    "label": "React.js",
@@ -112,6 +127,45 @@
    "date": "2026-10-29",
    "run": "external-2026-10-29-gpt-6-unknown",
    "note": "The qualifier repeats Library and is malformed."
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-f",
+   "note": "adapted from the lead of Wikipedia: React (software), revision 1372638253"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=React_(software)&oldid=1372638253",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-f",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "44926137",
+    "method": "title",
+    "categories": [
+     "2015 software",
+     "Ajax (programming)",
+     "Facebook software",
+     "JavaScript libraries",
+     "Software using the MIT license",
+     "Web applications"
+    ]
+   }
   }
  ]
 }

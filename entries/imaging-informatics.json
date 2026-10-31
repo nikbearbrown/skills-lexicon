@@ -3,6 +3,21 @@
  "preferred_name": "Imaging informatics",
  "kind": "knowledge",
  "definition": "The field that applies information technology to medical images, covering how they are acquired, stored, shared and analysed.",
+ "description": {
+  "text": "Imaging informatics, also called radiology informatics, is a subspecialty of biomedical informatics. It aims to improve the efficiency, accuracy and reliability of medical imaging services, studying how image information is retrieved, analyzed and exchanged.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "Imaging informatics",
+   "page_id": 14611016,
+   "rev_id": 1361877754,
+   "rev_timestamp": "2026-06-30T16:31:23Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=Imaging_informatics&oldid=1361877754",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "imaging-informatics",
  "certification": false,
  "variants": [],
@@ -128,6 +143,41 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "external-2026-10-29-gpt-6-unknown"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-d",
+   "note": "adapted from the lead of Wikipedia: Imaging informatics, revision 1361877754"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=Imaging_informatics&oldid=1361877754",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-d",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "14611016",
+    "method": "title",
+    "categories": [
+     "Bioinformatics",
+     "Computing in medical imaging"
+    ]
+   }
   }
  ]
 }

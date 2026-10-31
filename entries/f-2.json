@@ -3,6 +3,21 @@
  "preferred_name": "F*",
  "kind": "programming-language",
  "definition": "A proof-oriented, ML-family functional programming language for writing and verifying programs, developed by Microsoft Research and Inria.",
+ "description": {
+  "text": "A high-level, multi-paradigm, functional and object-oriented programming language inspired by ML, Caml and OCaml, intended for program verification. It is a joint project of Microsoft Research and Inria, and its type system includes dependent, refinement and monadic effect types.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "F* (programming language)",
+   "page_id": 38420593,
+   "rev_id": 1371120897,
+   "rev_timestamp": "2026-08-24T18:25:55Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=F%2A_(programming_language)&oldid=1371120897",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "f-2",
  "name_match": "exact_case",
  "certification": false,
@@ -126,6 +141,54 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "2026-10-29-review-4e-opus"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-c",
+   "note": "adapted from the lead of Wikipedia: F* (programming language), revision 1371120897"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=F%2A_(programming_language)&oldid=1371120897",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-c",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "38420593",
+    "method": "title",
+    "categories": [
+     "High-level programming languages",
+     "Functional languages",
+     "OCaml programming language family",
+     ".NET programming languages",
+     "Microsoft programming languages",
+     "Microsoft Research",
+     "Microsoft free software",
+     "Dependently typed languages",
+     "Automated theorem proving",
+     "Programming languages created in 2011",
+     "Proof assistants",
+     "2011 software",
+     "Cross-platform free software",
+     "Software using the Apache license",
+     "Statically typed programming languages"
+    ]
+   }
   }
  ]
 }

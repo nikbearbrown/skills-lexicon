@@ -3,6 +3,21 @@
  "preferred_name": "Orthopaedic Nurse Certified",
  "kind": "credential",
  "definition": "A certification for registered nurses who work in orthopaedic nursing, awarded by the Orthopaedic Nurses Certification Board.",
+ "description": {
+  "text": "The designation for an orthopaedic nurse who has earned nursing board certification from the Orthopaedic Nurses Certification Board.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "Orthopaedic Nurse Certified",
+   "page_id": 7445803,
+   "rev_id": 1260552201,
+   "rev_timestamp": "2024-12-01T11:31:43Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=Orthopaedic_Nurse_Certified&oldid=1260552201",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "orthopaedic-nurse-certified",
  "certification": true,
  "certification_scope": "single-issuer",
@@ -125,6 +140,41 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "external-2026-10-29-gpt-6-unknown"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-e",
+   "note": "adapted from the lead of Wikipedia: Orthopaedic Nurse Certified, revision 1260552201"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=Orthopaedic_Nurse_Certified&oldid=1260552201",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-e",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "7445803",
+    "method": "title",
+    "categories": [
+     "Nursing credentials and certifications",
+     "Orthopedics"
+    ]
+   }
   }
  ]
 }

@@ -3,6 +3,21 @@
  "preferred_name": "Flutter",
  "kind": "framework",
  "definition": "Google's open-source toolkit for building natively compiled mobile, web and desktop apps from one codebase, written in the Dart language.",
+ "description": {
+  "text": "An open-source UI software development kit created by Google for building cross-platform applications from a single codebase for web, Android, iOS, Linux, macOS, Windows and Fuchsia. Google uses it in apps such as Google Pay and Google Earth.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "Flutter (software)",
+   "page_id": 54699721,
+   "rev_id": 1378968351,
+   "rev_timestamp": "2026-10-07T03:47:39Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=Flutter_(software)&oldid=1378968351",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "flutter",
  "certification": false,
  "variants": [
@@ -148,6 +163,45 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "external-2026-10-29-gpt-6-unknown"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-c",
+   "note": "adapted from the lead of Wikipedia: Flutter (software), revision 1378968351"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=Flutter_(software)&oldid=1378968351",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-c",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "54699721",
+    "method": "title",
+    "categories": [
+     "2017 software",
+     "Google software",
+     "Programming tools",
+     "Free software programmed in Dart",
+     "Software frameworks",
+     "Software using the BSD license"
+    ]
+   }
   }
  ]
 }

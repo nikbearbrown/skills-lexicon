@@ -3,6 +3,21 @@
  "preferred_name": "erwin Data Modeler",
  "kind": "tool",
  "definition": "Software for designing, documenting and generating database structures, originally ERwin and now sold by Quest Software.",
+ "description": {
+  "text": "Computer software for data modeling, formerly styled ERwin and originally developed by Logic Works. Its engine is based on the IDEF1X method, and it also supports information technology engineering and dimensional modeling notations.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "Erwin Data Modeler",
+   "page_id": 9502078,
+   "rev_id": 1378058308,
+   "rev_timestamp": "2026-10-02T18:46:08Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=Erwin_Data_Modeler&oldid=1378058308",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "erwin-data-modeler",
  "certification": false,
  "variants": [
@@ -213,6 +228,44 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "external-2026-10-29-gpt-6-unknown"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-c",
+   "note": "adapted from the lead of Wikipedia: Erwin Data Modeler, revision 1378058308"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=Erwin_Data_Modeler&oldid=1378058308",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-c",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "9502078",
+    "method": "title",
+    "categories": [
+     "Data modeling tools",
+     "Oracle Database tools",
+     "Microsoft database software",
+     "Sybase",
+     "Computer Associates"
+    ]
+   }
   }
  ]
 }

@@ -7,6 +7,21 @@
  "preferred_name": "PyTorch",
  "kind": "library",
  "definition": "Building and training tensor-based machine-learning models with PyTorch.",
+ "description": {
+  "text": "An open-source deep learning library, originally developed by Meta Platforms and now supported by the Linux Foundation. It offers a high-level API that simplifies model training and inference to a few lines of code, and is the successor to Torch.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "PyTorch",
+   "page_id": 54022970,
+   "rev_id": 1378376798,
+   "rev_timestamp": "2026-10-04T05:14:47Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=PyTorch&oldid=1378376798",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "variants": [],
  "relations": [],
  "verbs": [],
@@ -50,6 +65,47 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "external-2026-10-29-gpt-6-unknown"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-f",
+   "note": "adapted from the lead of Wikipedia: PyTorch, revision 1378376798"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=PyTorch&oldid=1378376798",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-f",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "54022970",
+    "method": "title",
+    "categories": [
+     "Deep learning software",
+     "Facebook software",
+     "Free science software",
+     "Free software programmed in C",
+     "Free software programmed in Python",
+     "Open-source artificial intelligence",
+     "Python (programming language) scientific libraries",
+     "Software using the BSD license"
+    ]
+   }
   }
  ]
 }

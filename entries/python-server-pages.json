@@ -3,6 +3,21 @@
  "preferred_name": "Python Server Pages",
  "kind": "framework",
  "definition": "A way of embedding Python code in HTML pages so that a web server runs it to produce the page, much as PHP and JavaServer Pages do.",
+ "description": {
+  "text": "A name used by several implementations of server-side script engines that create dynamic web pages by embedding Python in HTML. Examples include versions shipped with mod_python, Spyce and Webware for Python.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "Python Server Pages",
+   "page_id": 21965279,
+   "rev_id": 1358465342,
+   "rev_timestamp": "2026-06-08T21:27:43Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=Python_Server_Pages&oldid=1358465342",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "python-server-pages",
  "certification": false,
  "variants": [],
@@ -83,6 +98,40 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "external-2026-10-29-gpt-6-unknown"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-f",
+   "note": "adapted from the lead of Wikipedia: Python Server Pages, revision 1358465342"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=Python_Server_Pages&oldid=1358465342",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-f",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "21965279",
+    "method": "title",
+    "categories": [
+     "Python (programming language)"
+    ]
+   }
   }
  ]
 }

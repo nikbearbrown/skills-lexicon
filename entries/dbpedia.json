@@ -3,6 +3,21 @@
  "preferred_name": "DBpedia",
  "kind": "platform",
  "definition": "A community project that extracts structured data from Wikipedia and publishes it as linked open data that can be queried with SPARQL.",
+ "description": {
+  "text": "A project that extracts structured content from Wikipedia and makes it available on the web. It lets users query relationships and properties of Wikipedia resources and links to related datasets.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "DBpedia",
+   "page_id": 11865154,
+   "rev_id": 1376014423,
+   "rev_timestamp": "2026-09-21T13:52:09Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=DBpedia&oldid=1376014423",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "dbpedia",
  "certification": false,
  "variants": [],
@@ -100,6 +115,47 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "external-2026-10-29-gpt-6-unknown"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-b",
+   "note": "adapted from the lead of Wikipedia: DBpedia, revision 1376014423"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=DBpedia&oldid=1376014423",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-b",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "11865154",
+    "method": "title",
+    "categories": [
+     "Free software culture and documents",
+     "Open data",
+     "Semantic Web",
+     "Knowledge bases",
+     "History of Wikipedia",
+     "Java (software platform)",
+     "Free software programmed in Scala",
+     "Software using the GNU General Public License"
+    ]
+   }
   }
  ]
 }

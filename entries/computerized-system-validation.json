@@ -3,6 +3,21 @@
  "preferred_name": "Computerized system validation",
  "kind": "method",
  "definition": "The documented process of showing that a computerised system consistently does what it is meant to do, used in regulated industries such as pharmaceuticals.",
+ "description": {
+  "text": "The process of testing and qualifying a regulated computerized system, for example under US FDA 21 CFR Part 11, to ensure it does exactly what it is designed to do consistently, as safely and reliably as paper-based records.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "Computerized system validation",
+   "page_id": 746959,
+   "rev_id": 1367986540,
+   "rev_timestamp": "2026-08-06T10:43:57Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=Computerized_system_validation&oldid=1367986540",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "computerized-system-validation",
  "certification": false,
  "variants": [
@@ -128,6 +143,41 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "external-2026-10-29-gpt-6-unknown"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-b",
+   "note": "adapted from the lead of Wikipedia: Computerized system validation, revision 1367986540"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=Computerized_system_validation&oldid=1367986540",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-b",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "746959",
+    "method": "title",
+    "categories": [
+     "Quality control",
+     "Software quality"
+    ]
+   }
   }
  ]
 }

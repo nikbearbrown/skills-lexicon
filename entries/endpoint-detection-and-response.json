@@ -3,6 +3,21 @@
  "preferred_name": "Endpoint detection and response",
  "kind": "tool",
  "definition": "Security software that continuously monitors computers and other endpoints for suspicious activity and helps investigate and respond to threats.",
+ "description": {
+  "text": "A cybersecurity technology that continuously monitors an endpoint, such as a phone, laptop or Internet of things device, to counter malicious cyber threats.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "Endpoint detection and response",
+   "page_id": 61790376,
+   "rev_id": 1346952309,
+   "rev_timestamp": "2026-04-03T20:51:27Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=Endpoint_detection_and_response&oldid=1346952309",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "endpoint-detection-and-response",
  "certification": false,
  "variants": [
@@ -129,6 +144,40 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "external-2026-10-29-gpt-6-unknown"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-c",
+   "note": "adapted from the lead of Wikipedia: Endpoint detection and response, revision 1346952309"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=Endpoint_detection_and_response&oldid=1346952309",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-c",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "61790376",
+    "method": "title",
+    "categories": [
+     "Security technology"
+    ]
+   }
   }
  ]
 }

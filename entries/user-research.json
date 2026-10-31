@@ -7,6 +7,21 @@
  "preferred_name": "User research",
  "kind": "method",
  "definition": "Investigating user needs and behavior to inform design.",
+ "description": {
+  "text": "Investigation to understand user behaviors, needs and motivations through interviews, surveys, usability evaluations and other feedback methods. It is used to see how people interact with products and whether designs meet their needs, to improve user experience.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "User research",
+   "page_id": 42075836,
+   "rev_id": 1366354968,
+   "rev_timestamp": "2026-07-27T14:57:05Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=User_research&oldid=1366354968",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "variants": [
   {
    "label": "UX Research",
@@ -78,6 +93,43 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "external-2026-10-29-gpt-6-unknown"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-g",
+   "note": "adapted from the lead of Wikipedia: User research, revision 1366354968"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=User_research&oldid=1366354968",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-g",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "42075836",
+    "method": "title",
+    "categories": [
+     "Customer experience",
+     "User interfaces",
+     "Market research",
+     "Design"
+    ]
+   }
   }
  ]
 }

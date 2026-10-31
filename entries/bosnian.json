@@ -3,6 +3,21 @@
  "preferred_name": "Bosnian",
  "kind": "human-language",
  "definition": "A South Slavic language, one of the official languages of Bosnia and Herzegovina, closely related to Croatian and Serbian.",
+ "description": {
+  "text": "The standard variety of Serbo-Croatian used mainly by Bosniaks. It is an official language of Bosnia and Herzegovina, co-official in Montenegro, and is written in both Latin and Cyrillic alphabets.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "Bosnian language",
+   "page_id": 177772,
+   "rev_id": 1377648005,
+   "rev_timestamp": "2026-09-30T09:45:37Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=Bosnian_language&oldid=1377648005",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "bosnian",
  "certification": false,
  "language_type": "human",
@@ -134,6 +149,52 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "2026-10-29-review-4d-opus"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-a",
+   "note": "adapted from the lead of Wikipedia: Bosnian language, revision 1377648005"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=Bosnian_language&oldid=1377648005",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-a",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "177772",
+    "method": "redirect",
+    "categories": [
+     "Bosnian language",
+     "Languages of Albania",
+     "Languages of Bosnia and Herzegovina",
+     "Languages of Croatia",
+     "Languages of Serbia",
+     "Languages of Montenegro",
+     "Languages of Kosovo",
+     "Languages of Turkey",
+     "Articles containing video clips",
+     "Slavic languages written in Latin script",
+     "Languages written in Cyrillic script",
+     "Standard varieties of Serbo-Croatian",
+     "Bosnian studies"
+    ]
+   }
   }
  ]
 }

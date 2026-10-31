@@ -3,6 +3,21 @@
  "preferred_name": "Information technology audit",
  "kind": "skill",
  "definition": "Examining an organisation's IT systems, controls and processes to judge whether they protect assets, keep data accurate and follow policy and regulation.",
+ "description": {
+  "text": "An information technology audit is an examination of the management controls in an organisation's IT infrastructure and business applications. It judges whether the systems safeguard assets, maintain data integrity and operate effectively.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "Information technology audit",
+   "page_id": 1724471,
+   "rev_id": 1361721172,
+   "rev_timestamp": "2026-06-29T17:59:53Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=Information_technology_audit&oldid=1361721172",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "information-technology-audit",
  "certification": false,
  "variants": [
@@ -195,6 +210,42 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "external-2026-10-29-gpt-6-unknown"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-d",
+   "note": "adapted from the lead of Wikipedia: Information technology audit, revision 1361721172"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=Information_technology_audit&oldid=1361721172",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-d",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "1724471",
+    "method": "title",
+    "categories": [
+     "Information technology audit",
+     "Data processing",
+     "Regulation of technologies"
+    ]
+   }
   }
  ]
 }

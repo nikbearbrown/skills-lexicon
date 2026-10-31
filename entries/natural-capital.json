@@ -3,6 +3,21 @@
  "preferred_name": "Natural capital",
  "kind": "knowledge",
  "definition": "The world's stock of natural assets, such as land, water, air and living things, that provides goods and services to people.",
+ "description": {
+  "text": "The world's stock of natural resources, including geology, soils, air, water and all living organisms. Some of it provides people with free goods and services, often called ecosystem services, which underpin the economy and society.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "Natural capital",
+   "page_id": 45795,
+   "rev_id": 1363379817,
+   "rev_timestamp": "2026-07-09T21:06:28Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=Natural_capital&oldid=1363379817",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "natural-capital",
  "certification": false,
  "variants": [],
@@ -99,6 +114,43 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "external-2026-10-29-gpt-6-unknown"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-e",
+   "note": "adapted from the lead of Wikipedia: Natural capital, revision 1363379817"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=Natural_capital&oldid=1363379817",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-e",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "45795",
+    "method": "title",
+    "categories": [
+     "Capital (economics)",
+     "Natural resources",
+     "Ecological economics",
+     "Environmental social science concepts"
+    ]
+   }
   }
  ]
 }

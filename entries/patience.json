@@ -3,6 +3,21 @@
  "preferred_name": "Patience",
  "kind": "ability",
  "definition": "The capacity to stay calm and keep working or waiting without annoyance when things are slow, difficult or repetitive.",
+ "description": {
+  "text": "The ability to endure difficult or undesired long-term circumstances. It means staying resilient or tolerant through delay, provocation or stress without reacting negatively, and can also describe a disciplined, steadfast character trait.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "Patience",
+   "page_id": 47796,
+   "rev_id": 1365436396,
+   "rev_timestamp": "2026-07-22T11:46:49Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=Patience&oldid=1365436396",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "patience",
  "certification": false,
  "variants": [],
@@ -123,6 +138,45 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "external-2026-10-29-muse-spark-1-3-xhigh"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-e",
+   "note": "adapted from the lead of Wikipedia: Patience, revision 1365436396"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=Patience&oldid=1365436396",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-e",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "47796",
+    "method": "title",
+    "categories": [
+     "Spirituality",
+     "Emotions",
+     "Time management",
+     "Virtue",
+     "Seven virtues",
+     "Fruit of the Holy Spirit"
+    ]
+   }
   }
  ]
 }

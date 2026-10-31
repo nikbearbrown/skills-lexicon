@@ -3,6 +3,21 @@
  "preferred_name": "Professional negligence in English law",
  "kind": "knowledge",
  "definition": "The area of English law about claims against professionals, such as solicitors and surveyors, who fail to meet the standard of care expected of them.",
+ "description": {
+  "text": "In English tort law, a subset of negligence covering defendants who presented themselves as having more than average skills. It relies on showing a duty of care owed and a breach of it.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "Professional negligence in English law",
+   "page_id": 3395066,
+   "rev_id": 1329246220,
+   "rev_timestamp": "2025-12-24T18:26:59Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=Professional_negligence_in_English_law&oldid=1329246220",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "professional-negligence-in-english-law",
  "certification": false,
  "variants": [],
@@ -99,6 +114,43 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "external-2026-10-29-gpt-6-unknown"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-f",
+   "note": "adapted from the lead of Wikipedia: Professional negligence in English law, revision 1329246220"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=Professional_negligence_in_English_law&oldid=1329246220",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-f",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "3395066",
+    "method": "title",
+    "categories": [
+     "English law",
+     "English tort law",
+     "Law of negligence",
+     "Professional ethics"
+    ]
+   }
   }
  ]
 }

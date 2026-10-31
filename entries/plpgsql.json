@@ -7,6 +7,21 @@
  "preferred_name": "PL/pgSQL",
  "kind": "programming-language",
  "definition": "The procedural language built into PostgreSQL for writing stored functions and triggers.",
+ "description": {
+  "text": "A procedural programming language supported by the PostgreSQL database, closely resembling Oracle's PL/SQL. It allows more procedural control than plain SQL, including loops and other control structures.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "PL/pgSQL",
+   "page_id": 1545014,
+   "rev_id": 1321570456,
+   "rev_timestamp": "2025-11-11T09:05:16Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=PL%2FpgSQL&oldid=1321570456",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "variants": [
   {
    "label": "plpgsql",
@@ -137,6 +152,42 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "external-2026-10-29-gpt-6-unknown"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-f",
+   "note": "adapted from the lead of Wikipedia: PL/pgSQL, revision 1321570456"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=PL%2FpgSQL&oldid=1321570456",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-f",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "1545014",
+    "method": "title",
+    "categories": [
+     "SQL",
+     "PostgreSQL",
+     "Data-centric programming languages"
+    ]
+   }
   }
  ]
 }

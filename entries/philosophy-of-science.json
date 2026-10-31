@@ -3,6 +3,21 @@
  "preferred_name": "Philosophy of science",
  "kind": "knowledge",
  "definition": "The branch of philosophy that studies the foundations, methods and implications of science, such as what counts as evidence and explanation.",
+ "description": {
+  "text": "The branch of philosophy concerned with the foundations, methods and implications of science. Central questions include how science differs from non-science, how reliable scientific theories are, and the purpose and meaning of science.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "Philosophy of science",
+   "page_id": 37010,
+   "rev_id": 1376331797,
+   "rev_timestamp": "2026-09-23T14:13:41Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=Philosophy_of_science&oldid=1376331797",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "philosophy-of-science",
  "certification": false,
  "variants": [],
@@ -128,6 +143,45 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "external-2026-10-29-gpt-6-unknown"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-e",
+   "note": "adapted from the lead of Wikipedia: Philosophy of science, revision 1376331797"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=Philosophy_of_science&oldid=1376331797",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-e",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "37010",
+    "method": "title",
+    "categories": [
+     "Philosophy of science",
+     "Academic discipline interactions",
+     "Analytic philosophy",
+     "Historiography of science",
+     "Philosophy by topic",
+     "Science studies"
+    ]
+   }
   }
  ]
 }

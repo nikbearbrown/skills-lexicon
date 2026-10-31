@@ -7,6 +7,21 @@
  "preferred_name": "Parallel computing",
  "kind": "method",
  "definition": "Dividing computation into work performed concurrently.",
+ "description": {
+  "text": "A type of computation in which many calculations or processes are carried out at the same time, often by splitting large problems into smaller ones. Forms include bit-level, instruction-level, data and task parallelism. It is now the dominant paradigm in computer architecture.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "Parallel computing",
+   "page_id": 145162,
+   "rev_id": 1378851310,
+   "rev_timestamp": "2026-10-06T14:10:18Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=Parallel_computing&oldid=1378851310",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "variants": [
   {
    "label": "parallelization",
@@ -91,6 +106,42 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "external-2026-10-29-gpt-6-unknown"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-e",
+   "note": "adapted from the lead of Wikipedia: Parallel computing, revision 1378851310"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=Parallel_computing&oldid=1378851310",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-e",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "145162",
+    "method": "title",
+    "categories": [
+     "Parallel computing",
+     "Concurrent computing",
+     "Distributed computing"
+    ]
+   }
   }
  ]
 }

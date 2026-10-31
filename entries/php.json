@@ -7,6 +7,21 @@
  "preferred_name": "PHP",
  "kind": "programming-language",
  "definition": "The PHP programming language.",
+ "description": {
+  "text": "A general-purpose scripting language geared towards web development, created by Rasmus Lerdorf in 1993 and released in 1995. PHP code is usually run on a web server by an interpreter and can produce output such as generated HTML. The reference implementation is produced by the PHP Group.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "PHP",
+   "page_id": 24131,
+   "rev_id": 1377202799,
+   "rev_timestamp": "2026-09-28T07:57:48Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=PHP&oldid=1377202799",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "name_match": "exact_case",
  "variants": [
   {
@@ -84,6 +99,54 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "external-2026-10-29-gpt-6-unknown"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-e",
+   "note": "adapted from the lead of Wikipedia: PHP, revision 1377202799"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=PHP&oldid=1377202799",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-e",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "24131",
+    "method": "title",
+    "categories": [
+     "PHP",
+     "1995 software",
+     "Free software programmed in C",
+     "Articles with example PHP code",
+     "Class-based programming languages",
+     "Cross-platform software",
+     "Dynamic programming languages",
+     "Dynamically typed programming languages",
+     "Filename extensions",
+     "Free and open source interpreters",
+     "High-level programming languages",
+     "Internet terminology",
+     "Object-oriented programming languages",
+     "Software programmed in PHP",
+     "Procedural programming languages"
+    ]
+   }
   }
  ]
 }

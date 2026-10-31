@@ -3,6 +3,21 @@
  "preferred_name": "Oncogenomics",
  "kind": "knowledge",
  "definition": "The study of the genetic and genomic changes behind cancer and how they can guide diagnosis and treatment.",
+ "description": {
+  "text": "A sub-field of genomics that characterizes cancer-associated genes, focusing on genomic, epigenomic and transcript alterations in cancer. It aims to find new oncogenes and tumor suppressor genes to help diagnose cancer, predict outcomes and identify therapy targets.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "Oncogenomics",
+   "page_id": 7737653,
+   "rev_id": 1373668678,
+   "rev_timestamp": "2026-09-07T05:27:46Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=Oncogenomics&oldid=1373668678",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "oncogenomics",
  "certification": false,
  "variants": [],
@@ -99,6 +114,42 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "external-2026-10-29-gpt-6-unknown"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-e",
+   "note": "adapted from the lead of Wikipedia: Oncogenomics, revision 1373668678"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=Oncogenomics&oldid=1373668678",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-e",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "7737653",
+    "method": "title",
+    "categories": [
+     "Applied genetics",
+     "Biotechnology",
+     "Medical genetics"
+    ]
+   }
   }
  ]
 }

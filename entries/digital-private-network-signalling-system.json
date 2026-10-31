@@ -3,6 +3,21 @@
  "preferred_name": "Digital Private Network Signalling System",
  "kind": "standard",
  "definition": "A signalling protocol, developed by British Telecom, that lets private telephone exchanges of different makers share calls and features over digital links.",
+ "description": {
+  "text": "A network protocol used on digital trunk lines to connect to PABX phone systems, supporting a defined set of inter-networking facilities. It was originally defined by British Telecom.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "Digital Private Network Signalling System",
+   "page_id": 8965,
+   "rev_id": 1293011994,
+   "rev_timestamp": "2025-05-30T04:01:05Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=Digital_Private_Network_Signalling_System&oldid=1293011994",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "digital-private-network-signalling-system",
  "certification": false,
  "variants": [
@@ -156,6 +171,43 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "external-2026-10-29-gpt-6-unknown"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-b",
+   "note": "adapted from the lead of Wikipedia: Digital Private Network Signalling System, revision 1293011994"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=Digital_Private_Network_Signalling_System&oldid=1293011994",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-b",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "8965",
+    "method": "title",
+    "categories": [
+     "BT Group",
+     "History of telecommunications in the United Kingdom",
+     "Network protocols",
+     "Telephony signals"
+    ]
+   }
   }
  ]
 }

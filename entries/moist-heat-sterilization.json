@@ -3,6 +3,21 @@
  "preferred_name": "Moist heat sterilization",
  "kind": "method",
  "definition": "Killing microorganisms on equipment or materials with pressurised steam, usually in an autoclave.",
+ "description": {
+  "text": "Sterilization techniques that use hot water vapor to destroy micro-organisms by denaturing their macromolecules. Heating is one of the earliest forms of sterilization.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "Moist heat sterilization",
+   "page_id": 17199306,
+   "rev_id": 1360710224,
+   "rev_timestamp": "2026-06-23T03:18:19Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=Moist_heat_sterilization&oldid=1360710224",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "moist-heat-sterilization",
  "certification": false,
  "variants": [
@@ -129,6 +144,41 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "external-2026-10-29-gpt-6-unknown"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-e",
+   "note": "adapted from the lead of Wikipedia: Moist heat sterilization, revision 1360710224"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=Moist_heat_sterilization&oldid=1360710224",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-e",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "17199306",
+    "method": "title",
+    "categories": [
+     "Medical hygiene",
+     "Sterilization (microbiology)"
+    ]
+   }
   }
  ]
 }

@@ -3,6 +3,21 @@
  "preferred_name": "Registered Health Information Administrator",
  "kind": "credential",
  "definition": "A credential from AHIMA for health information managers who oversee patient records, health data and privacy.",
+ "description": {
+  "text": "A professional certification in health information management in the United States, administered by the American Health Information Management Association. It was previously known as registered record administrator and is earned by passing an exam.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "Registered health information administrator",
+   "page_id": 37027994,
+   "rev_id": 1319237881,
+   "rev_timestamp": "2025-10-28T16:24:31Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=Registered_health_information_administrator&oldid=1319237881",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "registered-health-information-administrator",
  "certification": true,
  "certification_scope": "single-issuer",
@@ -154,6 +169,42 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "external-2026-10-29-gpt-6-unknown"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-f",
+   "note": "adapted from the lead of Wikipedia: Registered health information administrator, revision 1319237881"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=Registered_health_information_administrator&oldid=1319237881",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-f",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "37027994",
+    "method": "title",
+    "categories": [
+     "Allied health professions",
+     "Health care occupations",
+     "Health informaticians"
+    ]
+   }
   }
  ]
 }

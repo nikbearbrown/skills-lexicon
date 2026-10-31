@@ -3,6 +3,21 @@
  "preferred_name": "Sociology of education",
  "kind": "knowledge",
  "definition": "The study of how schooling and education relate to social structures, inequality and social change.",
+ "description": {
+  "text": "The study of how public institutions and individual experiences affect education and its outcomes. It mostly concerns the public schooling systems of modern industrial societies, including higher, adult and continuing education.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "Sociology of education",
+   "page_id": 5704308,
+   "rev_id": 1373042695,
+   "rev_timestamp": "2026-09-03T18:23:54Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=Sociology_of_education&oldid=1373042695",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "sociology-of-education",
  "certification": false,
  "variants": [],
@@ -128,6 +143,41 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "external-2026-10-29-gpt-6-unknown"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-g",
+   "note": "adapted from the lead of Wikipedia: Sociology of education, revision 1373042695"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=Sociology_of_education&oldid=1373042695",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-g",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "5704308",
+    "method": "title",
+    "categories": [
+     "Sociology of education",
+     "Educational research"
+    ]
+   }
   }
  ]
 }

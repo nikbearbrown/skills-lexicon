@@ -3,6 +3,21 @@
  "preferred_name": "Contact tracing",
  "kind": "method",
  "definition": "A public health method of identifying and notifying people who were exposed to someone with an infectious disease, so that spread can be limited.",
+ "description": {
+  "text": "A public health process of identifying people who may have been exposed to an infected person and collecting data to assess transmission. Contacts are tested and isolated or treated to reduce infections.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "Contact tracing",
+   "page_id": 1724851,
+   "rev_id": 1374229365,
+   "rev_timestamp": "2026-09-10T17:38:41Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=Contact_tracing&oldid=1374229365",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "contact-tracing",
  "certification": false,
  "variants": [],
@@ -99,6 +114,45 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "external-2026-10-29-gpt-6-unknown"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-b",
+   "note": "adapted from the lead of Wikipedia: Contact tracing, revision 1374229365"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=Contact_tracing&oldid=1374229365",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-b",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "1724851",
+    "method": "title",
+    "categories": [
+     "Public health",
+     "Articles containing video clips",
+     "Infection-control measures",
+     "Epidemiology",
+     "Pandemics",
+     "Medical monitoring"
+    ]
+   }
   }
  ]
 }

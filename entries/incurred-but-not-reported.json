@@ -3,6 +3,21 @@
  "preferred_name": "Incurred but not reported",
  "kind": "knowledge",
  "definition": "In insurance, the estimated cost of claims for events that have already happened but have not yet been reported to or settled by the insurer.",
+ "description": {
+  "text": "In insurance, incurred but not reported (IBNR) claims are the amount an insurer owes for covered losses that have happened but not yet been reported. It is an estimate, since the number and severity of such losses are unknown.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "Incurred but not reported",
+   "page_id": 6974619,
+   "rev_id": 1359833250,
+   "rev_timestamp": "2026-06-17T14:09:26Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=Incurred_but_not_reported&oldid=1359833250",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "incurred-but-not-reported",
  "certification": false,
  "variants": [
@@ -130,6 +145,40 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "external-2026-10-29-gpt-6-unknown"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-d",
+   "note": "adapted from the lead of Wikipedia: Incurred but not reported, revision 1359833250"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=Incurred_but_not_reported&oldid=1359833250",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-d",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "6974619",
+    "method": "title",
+    "categories": [
+     "Actuarial science"
+    ]
+   }
   }
  ]
 }

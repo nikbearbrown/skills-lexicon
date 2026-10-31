@@ -3,6 +3,21 @@
  "preferred_name": "Shaolin kung fu",
  "kind": "skill",
  "definition": "A family of Chinese martial arts associated with the Shaolin Temple; Sil Lum is the Cantonese rendering of Shaolin.",
+ "description": {
+  "text": "The largest and most famous style of kung fu, combining Mahayana Buddhist and Chan philosophy with martial arts. It was developed over 1500 years at the Shaolin Temple in Henan, China.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "Shaolin kung fu",
+   "page_id": 239585,
+   "rev_id": 1374773868,
+   "rev_timestamp": "2026-09-14T01:11:22Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=Shaolin_kung_fu&oldid=1374773868",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "shaolin-kung-fu",
  "certification": false,
  "variants": [
@@ -156,6 +171,42 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "external-2026-10-29-gpt-6-unknown"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-f",
+   "note": "adapted from the lead of Wikipedia: Shaolin kung fu, revision 1374773868"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=Shaolin_kung_fu&oldid=1374773868",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-f",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "239585",
+    "method": "title",
+    "categories": [
+     "Chinese martial arts",
+     "Buddhist martial arts",
+     "Shaolin Monastery"
+    ]
+   }
   }
  ]
 }

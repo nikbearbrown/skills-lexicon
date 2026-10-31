@@ -3,6 +3,21 @@
  "preferred_name": "Lawful interception",
  "kind": "knowledge",
  "definition": "The legally authorised interception of telephone and data communications by network operators for law enforcement and security agencies.",
+ "description": {
+  "text": "Lawful interception refers to telecommunications network facilities that let law enforcement agencies with court orders or other legal authorization selectively wiretap individual subscribers. Most countries require licensed operators to provide interception gateways.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "Lawful interception",
+   "page_id": 1833462,
+   "rev_id": 1363426759,
+   "rev_timestamp": "2026-07-10T03:08:04Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=Lawful_interception&oldid=1363426759",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "lawful-interception",
  "certification": false,
  "variants": [
@@ -129,6 +144,43 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "external-2026-10-29-gpt-6-unknown"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-d",
+   "note": "adapted from the lead of Wikipedia: Lawful interception, revision 1363426759"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=Lawful_interception&oldid=1363426759",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-d",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "1833462",
+    "method": "title",
+    "categories": [
+     "Privacy of telecommunications",
+     "Surveillance",
+     "Voice over IP",
+     "Law enforcement agency powers"
+    ]
+   }
   }
  ]
 }

@@ -3,6 +3,21 @@
  "preferred_name": "Dijkstra's algorithm",
  "kind": "method",
  "definition": "An algorithm that finds the shortest paths from one node of a weighted graph to all the others, as long as no edge weight is negative.",
+ "description": {
+  "text": "An algorithm for finding the shortest paths between nodes in a weighted graph, such as a road network. It finds the shortest path from a source node to every other node, and was conceived by Edsger W. Dijkstra.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "Dijkstra's algorithm",
+   "page_id": 45809,
+   "rev_id": 1378301409,
+   "rev_timestamp": "2026-10-03T22:00:49Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=Dijkstra's_algorithm&oldid=1378301409",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "dijkstra-s-algorithm",
  "certification": false,
  "variants": [
@@ -128,6 +143,49 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "external-2026-10-29-gpt-6-unknown"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-b",
+   "note": "adapted from the lead of Wikipedia: Dijkstra's algorithm, revision 1378301409"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=Dijkstra's_algorithm&oldid=1378301409",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-b",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "45809",
+    "method": "title",
+    "categories": [
+     "Edsger W. Dijkstra",
+     "1959 in computing",
+     "Graph algorithms",
+     "Search algorithms",
+     "Greedy algorithms",
+     "Routing algorithms",
+     "Combinatorial optimization",
+     "Articles with example pseudocode",
+     "Dutch inventions",
+     "Graph distance"
+    ]
+   }
   }
  ]
 }

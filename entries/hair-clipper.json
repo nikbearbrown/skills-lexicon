@@ -3,6 +3,21 @@
  "preferred_name": "Hair clipper",
  "kind": "tool",
  "definition": "An electric device with a moving blade that is used to cut or trim hair, common in barbering.",
+ "description": {
+  "text": "A specialised tool used to cut human hair. It works on the same principle as scissors but is distinct from scissors and razors; heavier-duty versions are used to shear sheep.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "Hair clipper",
+   "page_id": 2073058,
+   "rev_id": 1362072107,
+   "rev_timestamp": "2026-07-01T19:36:14Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=Hair_clipper&oldid=1362072107",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "hair-clipper",
  "certification": false,
  "variants": [],
@@ -100,6 +115,42 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "external-2026-10-29-gpt-6-unknown"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-c",
+   "note": "adapted from the lead of Wikipedia: Hair clipper, revision 1362072107"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=Hair_clipper&oldid=1362072107",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-c",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "2073058",
+    "method": "title",
+    "categories": [
+     "Cutting tools",
+     "Hairdressing",
+     "Mechanical hand tools"
+    ]
+   }
   }
  ]
 }

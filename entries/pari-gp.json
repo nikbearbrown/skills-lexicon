@@ -3,6 +3,21 @@
  "preferred_name": "PARI/GP",
  "kind": "tool",
  "definition": "A computer algebra system for fast computations in number theory, with its own scripting language called GP.",
+ "description": {
+  "text": "A computer algebra system whose main aim is to make number theory computations easier. It runs on most common operating systems and is distributed under the GNU General Public License from version 2.1.0.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "PARI/GP",
+   "page_id": 24383128,
+   "rev_id": 1276798881,
+   "rev_timestamp": "2025-02-20T20:43:20Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=PARI%2FGP&oldid=1276798881",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "pari-gp",
  "certification": false,
  "notes": "The model says this is not a language; the legacy list/class says it is. PARI/GP is a computer algebra system; its scripting language is called GP, so the product is a tool, not itself a language.",
@@ -109,6 +124,47 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "2026-10-29-review-5l-opus"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-e",
+   "note": "adapted from the lead of Wikipedia: PARI/GP, revision 1276798881"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=PARI%2FGP&oldid=1276798881",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-e",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "24383128",
+    "method": "title",
+    "categories": [
+     "1985 software",
+     "C (programming language) libraries",
+     "Command-line software",
+     "Computer algebra system software for Linux",
+     "Cross-platform free software",
+     "Free computer algebra systems",
+     "Free software programmed in C",
+     "Portable software"
+    ]
+   }
   }
  ]
 }

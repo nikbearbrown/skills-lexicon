@@ -3,6 +3,21 @@
  "preferred_name": "Chromatography software",
  "kind": "tool",
  "definition": "Software that controls chromatography instruments and collects, processes and reports the data they produce.",
+ "description": {
+  "text": "Software, also called a chromatography data system, on the data station of a chromatographic instrument. It collects, analyzes and manages the data produced during chromatographic analysis.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "Chromatography software",
+   "page_id": 17671709,
+   "rev_id": 1309894604,
+   "rev_timestamp": "2025-09-06T15:09:35Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=Chromatography_software&oldid=1309894604",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "chromatography-software",
  "certification": false,
  "variants": [
@@ -129,6 +144,40 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "external-2026-10-29-gpt-6-unknown"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-b",
+   "note": "adapted from the lead of Wikipedia: Chromatography software, revision 1309894604"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=Chromatography_software&oldid=1309894604",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-b",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "17671709",
+    "method": "title",
+    "categories": [
+     "Chromatography software"
+    ]
+   }
   }
  ]
 }

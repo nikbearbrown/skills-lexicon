@@ -3,6 +3,21 @@
  "preferred_name": "Immunization",
  "kind": "knowledge",
  "definition": "The use of vaccines to make people resistant to specific infectious diseases, including which vaccines are given, when and to whom.",
+ "description": {
+  "text": "Immunization is the process by which a person's immune system becomes fortified against an infectious agent. After exposure to foreign molecules, the body builds immunological memory so it can respond quickly to later encounters.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "Immunization",
+   "page_id": 284029,
+   "rev_id": 1334423809,
+   "rev_timestamp": "2026-01-23T13:10:01Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=Immunization&oldid=1334423809",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "immunization",
  "certification": false,
  "variants": [],
@@ -100,6 +115,41 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "external-2026-10-29-gpt-6-unknown"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-d",
+   "note": "adapted from the lead of Wikipedia: Immunization, revision 1334423809"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=Immunization&oldid=1334423809",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-d",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "284029",
+    "method": "title",
+    "categories": [
+     "Immune system",
+     "Vaccination"
+    ]
+   }
   }
  ]
 }

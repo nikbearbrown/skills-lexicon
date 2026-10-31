@@ -3,6 +3,21 @@
  "preferred_name": "Microsoft Bookings",
  "kind": "tool",
  "definition": "A Microsoft 365 app that lets customers book appointments online and helps staff manage their schedules.",
+ "description": {
+  "text": "A Microsoft scheduling tool, part of the Microsoft Office family, that lets customers of small businesses and companies book appointments. It is available to Office 365 Business Premium subscribers.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "Microsoft Bookings",
+   "page_id": 54334942,
+   "rev_id": 1376129230,
+   "rev_timestamp": "2026-09-22T06:08:03Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=Microsoft_Bookings&oldid=1376129230",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "microsoft-bookings",
  "certification": false,
  "variants": [],
@@ -99,6 +114,41 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "external-2026-10-29-gpt-6-unknown"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-e",
+   "note": "adapted from the lead of Wikipedia: Microsoft Bookings, revision 1376129230"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=Microsoft_Bookings&oldid=1376129230",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-e",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "54334942",
+    "method": "title",
+    "categories": [
+     "Microsoft Office",
+     "Cloud applications"
+    ]
+   }
   }
  ]
 }

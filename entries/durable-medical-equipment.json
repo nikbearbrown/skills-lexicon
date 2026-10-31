@@ -3,6 +3,21 @@
  "preferred_name": "Durable medical equipment",
  "kind": "tool",
  "definition": "Reusable medical equipment prescribed for use at home, such as wheelchairs, hospital beds and walkers.",
+ "description": {
+  "text": "A category of medical devices designed to help people with disabilities, injuries or chronic health conditions. They are prescribed by healthcare professionals and are intended for repeated use over a long period.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "Durable medical equipment",
+   "page_id": 8052331,
+   "rev_id": 1368877117,
+   "rev_timestamp": "2026-08-11T15:59:59Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=Durable_medical_equipment&oldid=1368877117",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "durable-medical-equipment",
  "certification": false,
  "variants": [],
@@ -129,6 +144,40 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "external-2026-10-29-gpt-6-unknown"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-c",
+   "note": "adapted from the lead of Wikipedia: Durable medical equipment, revision 1368877117"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=Durable_medical_equipment&oldid=1368877117",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-c",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "8052331",
+    "method": "title",
+    "categories": [
+     "Medical equipment"
+    ]
+   }
   }
  ]
 }

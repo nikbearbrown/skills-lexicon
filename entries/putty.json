@@ -3,6 +3,21 @@
  "preferred_name": "PuTTY",
  "kind": "tool",
  "definition": "A free terminal program, first made for Windows, that connects to remote machines over SSH, Telnet and serial lines.",
+ "description": {
+  "text": "A free and open-source terminal emulator, serial console and network file transfer application. It supports protocols including SCP, SSH, Telnet, rlogin and raw socket connections, and can connect to a serial port. It was originally written for Windows.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "PuTTY",
+   "page_id": 612928,
+   "rev_id": 1360563346,
+   "rev_timestamp": "2026-06-22T07:53:21Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=PuTTY&oldid=1360563346",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "putty",
  "certification": false,
  "variants": [],
@@ -99,6 +114,51 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "external-2026-10-29-gpt-6-unknown"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-f",
+   "note": "adapted from the lead of Wikipedia: PuTTY, revision 1360563346"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=PuTTY&oldid=1360563346",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-f",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "612928",
+    "method": "title",
+    "categories": [
+     "1998 software",
+     "Cross-platform free software",
+     "Cryptographic software",
+     "Free communication software",
+     "Free software programmed in C",
+     "Free terminal emulators",
+     "Portable software",
+     "Secure Shell",
+     "SSH File Transfer Protocol clients",
+     "Software using the MIT license",
+     "Symbian software",
+     "Telnet"
+    ]
+   }
   }
  ]
 }

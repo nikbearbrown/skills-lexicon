@@ -3,6 +3,21 @@
  "preferred_name": "Crime mapping",
  "kind": "skill",
  "definition": "Plotting crime data on maps to find hotspots and patterns that guide policing.",
+ "description": {
+  "text": "Used by law enforcement analysts to map, visualize and analyze crime patterns, typically with Geographic Information Systems. It helps identify crime hot spots and trends and is a key part of crime analysis.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "Crime mapping",
+   "page_id": 1386551,
+   "rev_id": 1318439615,
+   "rev_timestamp": "2025-10-23T21:32:46Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=Crime_mapping&oldid=1318439615",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "crime-mapping",
  "certification": false,
  "variants": [],
@@ -99,6 +114,46 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "external-2026-10-29-gpt-6-unknown"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-b",
+   "note": "adapted from the lead of Wikipedia: Crime mapping, revision 1318439615"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=Crime_mapping&oldid=1318439615",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-b",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "1386551",
+    "method": "title",
+    "categories": [
+     "Crime mapping",
+     "Applications of geographic information systems",
+     "Criminology",
+     "Human geography",
+     "Law enforcement techniques",
+     "Crime statistics",
+     "Types of map"
+    ]
+   }
   }
  ]
 }

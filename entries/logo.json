@@ -3,6 +3,21 @@
  "preferred_name": "Logo",
  "kind": "programming-language",
  "definition": "An educational programming language known for turtle graphics, developed in the 1960s by Wally Feurzeig, Seymour Papert and others.",
+ "description": {
+  "text": "Logo is an educational, general-purpose programming language designed in 1967 by Wally Feurzeig, Seymour Papert and Cynthia Solomon. It is widely known for turtle graphics, where movement commands draw lines on screen or with a small robot.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "Logo (programming language)",
+   "page_id": 18334,
+   "rev_id": 1378299459,
+   "rev_timestamp": "2026-10-03T21:48:54Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=Logo_(programming_language)&oldid=1378299459",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "logo",
  "certification": false,
  "language_type": "programming",
@@ -125,6 +140,50 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "2026-10-29-review-4e-opus"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-d",
+   "note": "adapted from the lead of Wikipedia: Logo (programming language), revision 1378299459"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=Logo_(programming_language)&oldid=1378299459",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-d",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "18334",
+    "method": "title",
+    "categories": [
+     "1967 in robotics",
+     "Apple II software",
+     "Dynamically typed programming languages",
+     "Educational programming languages",
+     "Free educational software",
+     "Functional languages",
+     "Lisp programming language family",
+     "Logo programming language family",
+     "Programming languages",
+     "Programming languages created in 1967",
+     "Robot programming languages"
+    ]
+   }
   }
  ]
 }

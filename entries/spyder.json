@@ -3,6 +3,21 @@
  "preferred_name": "Spyder",
  "kind": "tool",
  "definition": "A free Python development environment aimed at scientific computing, with an editor, console and variable explorer.",
+ "description": {
+  "text": "An open-source, cross-platform integrated development environment (IDE) for scientific programming in Python. It integrates with prominent packages of the scientific Python stack.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "Spyder (software)",
+   "page_id": 34226513,
+   "rev_id": 1374399727,
+   "rev_timestamp": "2026-09-11T20:54:25Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=Spyder_(software)&oldid=1374399727",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "spyder",
  "certification": false,
  "variants": [
@@ -96,6 +111,46 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "2026-10-29-review-5p-opus"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-g",
+   "note": "adapted from the lead of Wikipedia: Spyder (software), revision 1374399727"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=Spyder_(software)&oldid=1374399727",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-g",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "34226513",
+    "method": "title",
+    "categories": [
+     "Free integrated development environments",
+     "Free integrated development environments for Python",
+     "Free mathematics software",
+     "Free science software",
+     "Python (programming language) development tools",
+     "Software programmed in Python",
+     "Software using the MIT license"
+    ]
+   }
   }
  ]
 }

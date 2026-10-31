@@ -3,6 +3,21 @@
  "preferred_name": "HTML emails",
  "kind": "skill",
  "definition": "Designing and coding email messages in HTML, allowing for the uneven way email clients display them.",
+ "description": {
+  "text": "HTML email uses a subset of HTML to give email formatting that plain text lacks, such as links that hide the URL, text that wraps to the window width, and images placed inline.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "HTML email",
+   "page_id": 4142564,
+   "rev_id": 1364071467,
+   "rev_timestamp": "2026-07-14T08:39:22Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=HTML_email&oldid=1364071467",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "html-emails",
  "certification": false,
  "variants": [
@@ -128,6 +143,42 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "external-2026-10-29-gpt-6-unknown"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-d",
+   "note": "adapted from the lead of Wikipedia: HTML email, revision 1364071467"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=HTML_email&oldid=1364071467",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-d",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "4142564",
+    "method": "title",
+    "categories": [
+     "Email",
+     "Internet terminology",
+     "HTML"
+    ]
+   }
   }
  ]
 }

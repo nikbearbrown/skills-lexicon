@@ -3,6 +3,21 @@
  "preferred_name": "Psychiatric-Mental Health Nurse Practitioner",
  "kind": "credential",
  "definition": "A nurse practitioner credential for providing psychiatric and mental health care to patients across the lifespan.",
+ "description": {
+  "text": "In the United States, an advanced practice registered nurse trained to provide mental health services to patients and families. They diagnose, conduct therapy and prescribe medications for psychiatric disorders and substance abuse problems.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "Psychiatric-mental health nurse practitioner",
+   "page_id": 9413191,
+   "rev_id": 1373461413,
+   "rev_timestamp": "2026-09-06T02:58:26Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=Psychiatric-mental_health_nurse_practitioner&oldid=1373461413",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "psychiatric-mental-health-nurse-practitioner",
  "certification": true,
  "certification_scope": "many-issuers",
@@ -146,6 +161,43 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "external-2026-10-29-gpt-6-unknown"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-f",
+   "note": "adapted from the lead of Wikipedia: Psychiatric-mental health nurse practitioner, revision 1373461413"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=Psychiatric-mental_health_nurse_practitioner&oldid=1373461413",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-f",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "9413191",
+    "method": "title",
+    "categories": [
+     "Mental health occupations",
+     "Counseling",
+     "Psychiatric nursing",
+     "Advanced practice registered nursing"
+    ]
+   }
   }
  ]
 }

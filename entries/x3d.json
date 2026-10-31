@@ -3,6 +3,21 @@
  "preferred_name": "X3D",
  "kind": "markup-language",
  "definition": "An ISO standard, XML-based format and language for describing interactive 3D scenes for the web, the successor to VRML.",
+ "description": {
+  "text": "A set of royalty-free ISO/IEC standards for declaratively representing 3D computer graphics. It includes several graphics file formats, programming-language API definitions and run-time specifications for interactive, network-capable 3D data.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "X3D",
+   "page_id": 236960,
+   "rev_id": 1306965831,
+   "rev_timestamp": "2025-08-20T18:43:57Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=X3D&oldid=1306965831",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "x3d",
  "name_match": "exact_case",
  "certification": false,
@@ -115,6 +130,44 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "2026-10-29-review-4e-opus"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-g",
+   "note": "adapted from the lead of Wikipedia: X3D, revision 1306965831"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=X3D&oldid=1306965831",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-g",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "236960",
+    "method": "title",
+    "categories": [
+     "3D graphics file formats",
+     "Graphics standards",
+     "ISO/IEC 19775",
+     "Vector graphics markup languages",
+     "Virtual reality"
+    ]
+   }
   }
  ]
 }

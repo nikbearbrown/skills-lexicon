@@ -3,6 +3,21 @@
  "preferred_name": "Japanese",
  "kind": "human-language",
  "definition": "The language of Japan, written with kanji and kana.",
+ "description": {
+  "text": "Japanese is the principal language of the Japonic language family, with around 123 million speakers, mainly in Japan, where it is the national language, and in the Japanese diaspora.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "Japanese language",
+   "page_id": 15606,
+   "rev_id": 1378268196,
+   "rev_timestamp": "2026-10-03T19:20:25Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=Japanese_language&oldid=1378268196",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "japanese",
  "certification": false,
  "language_type": "human",
@@ -135,6 +150,47 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "2026-10-29-review-4e-opus"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-d",
+   "note": "adapted from the lead of Wikipedia: Japanese language, revision 1378268196"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=Japanese_language&oldid=1378268196",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-d",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "15606",
+    "method": "redirect",
+    "categories": [
+     "Japanese language",
+     "Agglutinative languages",
+     "Languages attested since the 8th century",
+     "Languages of Japan",
+     "Languages of Palau",
+     "Pitch-accent language",
+     "Subject–object–verb languages",
+     "Syllable-timed languages"
+    ]
+   }
   }
  ]
 }

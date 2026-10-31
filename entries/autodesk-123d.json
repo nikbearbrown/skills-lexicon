@@ -3,6 +3,21 @@
  "preferred_name": "Autodesk 123D",
  "kind": "tool",
  "definition": "A discontinued family of free Autodesk apps for 3D modelling, scanning and digital fabrication.",
+ "description": {
+  "text": "A discontinued suite of hobbyist CAD and 3D modelling tools from Autodesk, based on Autodesk Inventor. It has assembly and constraint support, STL export and a library of ready-made objects.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "Autodesk 123D",
+   "page_id": 32165204,
+   "rev_id": 1301017819,
+   "rev_timestamp": "2025-07-17T17:19:42Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=Autodesk_123D&oldid=1301017819",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "autodesk-123d",
  "certification": false,
  "variants": [],
@@ -99,6 +114,44 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "external-2026-10-29-gpt-6-unknown"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-a",
+   "note": "adapted from the lead of Wikipedia: Autodesk 123D, revision 1301017819"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=Autodesk_123D&oldid=1301017819",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-a",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "32165204",
+    "method": "title",
+    "categories": [
+     "2009 software",
+     "Autodesk discontinued products",
+     "3D graphics software",
+     "Articles containing video clips",
+     "Computer-aided design software"
+    ]
+   }
   }
  ]
 }

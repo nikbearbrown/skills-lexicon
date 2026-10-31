@@ -3,6 +3,21 @@
  "preferred_name": "PDFtk",
  "kind": "tool",
  "definition": "A command-line tool, short for PDF Toolkit, for merging, splitting, rotating and encrypting PDF files.",
+ "description": {
+  "text": "A toolkit, short for PDF Toolkit, for manipulating PDF documents on Linux, Windows and macOS. It can join, shuffle, split and rotate PDFs and show or update metadata, and comes in open-source command-line, freeware and paid versions.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "PDFtk",
+   "page_id": 4219905,
+   "rev_id": 1331405932,
+   "rev_timestamp": "2026-01-06T04:16:02Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=PDFtk&oldid=1331405932",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "pdftk",
  "certification": false,
  "variants": [
@@ -128,6 +143,42 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "external-2026-10-29-gpt-6-unknown"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-e",
+   "note": "adapted from the lead of Wikipedia: PDFtk, revision 1331405932"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=PDFtk&oldid=1331405932",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-e",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "4219905",
+    "method": "title",
+    "categories": [
+     "Free PDF software",
+     "Free software programmed in Java",
+     "Software using the GNU General Public License"
+    ]
+   }
   }
  ]
 }

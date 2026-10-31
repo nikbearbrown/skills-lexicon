@@ -3,6 +3,21 @@
  "preferred_name": "OutSystems",
  "kind": "platform",
  "definition": "A low-code platform for building, deploying and managing web and mobile applications.",
+ "description": {
+  "text": "An AI development platform for building, deploying and managing AI apps and agents to speed up enterprise development. It was founded in 2001 in Lisbon, Portugal.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "OutSystems",
+   "page_id": 4165017,
+   "rev_id": 1370481317,
+   "rev_timestamp": "2026-08-21T10:09:17Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=OutSystems&oldid=1370481317",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "outsystems",
  "certification": false,
  "variants": [],
@@ -99,6 +114,44 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "external-2026-10-29-gpt-6-unknown"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-e",
+   "note": "adapted from the lead of Wikipedia: OutSystems, revision 1370481317"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=OutSystems&oldid=1370481317",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-e",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "4165017",
+    "method": "title",
+    "categories": [
+     "Cloud computing providers",
+     "Cloud platforms",
+     "2001 establishments in Portugal",
+     "Low Code Application Platform",
+     "KKR & Co. companies"
+    ]
+   }
   }
  ]
 }

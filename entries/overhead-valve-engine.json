@@ -3,6 +3,21 @@
  "preferred_name": "Overhead valve engine",
  "kind": "knowledge",
  "definition": "A piston engine whose valves sit in the cylinder head and are operated by pushrods from a camshaft in the engine block.",
+ "description": {
+  "text": "A piston engine, also called a pushrod engine, whose valves are in the cylinder head above the combustion chamber, unlike older flathead engines. The term is usually limited to engines with the camshaft in the block, using pushrods and rocker arms to move the valves.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "Overhead valve engine",
+   "page_id": 1081905,
+   "rev_id": 1376335468,
+   "rev_timestamp": "2026-09-23T14:43:13Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=Overhead_valve_engine&oldid=1376335468",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "overhead-valve-engine",
  "certification": false,
  "variants": [
@@ -158,6 +173,43 @@
    "date": "2026-10-29",
    "run": "external-2026-10-29-gpt-6-unknown",
    "note": "Names a valve arrangement rather than specifically the complete pushrod-engine concept."
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-e",
+   "note": "adapted from the lead of Wikipedia: Overhead valve engine, revision 1376335468"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=Overhead_valve_engine&oldid=1376335468",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-e",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "1081905",
+    "method": "title",
+    "categories": [
+     "Cam-in-block valvetrain configurations",
+     "Engine valvetrain configurations",
+     "Motorcycle engines",
+     "Scottish inventions"
+    ]
+   }
   }
  ]
 }

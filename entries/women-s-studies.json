@@ -3,6 +3,21 @@
  "preferred_name": "Women's studies",
  "kind": "knowledge",
  "definition": "The interdisciplinary academic study of women's lives, history and roles in society, and of gender.",
+ "description": {
+  "text": "An academic field that uses feminist and interdisciplinary methods to put women's lives and experiences at the center of study. It examines social and cultural constructs of gender, systems of privilege and oppression, and how power and gender intersect with race, class and other identities.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "Women's studies",
+   "page_id": 445022,
+   "rev_id": 1372948269,
+   "rev_timestamp": "2026-09-03T03:29:42Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=Women's_studies&oldid=1372948269",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "women-s-studies",
  "certification": false,
  "variants": [
@@ -96,6 +111,40 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "2026-10-29-review-5r-opus"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-g",
+   "note": "adapted from the lead of Wikipedia: Women's studies, revision 1372948269"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=Women's_studies&oldid=1372948269",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-g",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "445022",
+    "method": "title",
+    "categories": [
+     "Women's studies"
+    ]
+   }
   }
  ]
 }

@@ -3,6 +3,21 @@
  "preferred_name": "Electrosurgery",
  "kind": "method",
  "definition": "Using high-frequency electric current to cut, coagulate or destroy tissue during surgery.",
+ "description": {
+  "text": "The use of high-frequency alternating electrical current on body tissue to cut, coagulate, desiccate or fulgurate it. Its benefits include precise cuts with limited blood loss, and the devices are common in surgical operations.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "Electrosurgery",
+   "page_id": 3553341,
+   "rev_id": 1373692469,
+   "rev_timestamp": "2026-09-07T10:28:04Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=Electrosurgery&oldid=1373692469",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "electrosurgery",
  "certification": false,
  "variants": [],
@@ -99,6 +114,41 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "external-2026-10-29-gpt-6-unknown"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-c",
+   "note": "adapted from the lead of Wikipedia: Electrosurgery, revision 1373692469"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=Electrosurgery&oldid=1373692469",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-c",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "3553341",
+    "method": "title",
+    "categories": [
+     "Surgery",
+     "Veterinary procedures"
+    ]
+   }
   }
  ]
 }

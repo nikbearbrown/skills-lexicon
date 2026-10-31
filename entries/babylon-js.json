@@ -3,6 +3,21 @@
  "preferred_name": "Babylon.js",
  "kind": "framework",
  "definition": "An open-source JavaScript and TypeScript engine for building 3D graphics, games and interactive experiences in web browsers.",
+ "description": {
+  "text": "A JavaScript library and 3D engine for displaying real-time 3D graphics in a web browser using HTML5. Its source is on GitHub under the Apache License 2.0.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "Babylon.js",
+   "page_id": 54900827,
+   "rev_id": 1376574005,
+   "rev_timestamp": "2026-09-25T00:59:53Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=Babylon.js&oldid=1376574005",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "babylon-js",
  "certification": false,
  "variants": [
@@ -120,6 +135,48 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "external-2026-10-29-gpt-6-unknown"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-a",
+   "note": "adapted from the lead of Wikipedia: Babylon.js, revision 1376574005"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=Babylon.js&oldid=1376574005",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-a",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "54900827",
+    "method": "title",
+    "categories": [
+     "2013 software",
+     "3D scenegraph APIs",
+     "Cross-platform software",
+     "Free 3D graphics software",
+     "Graphics libraries",
+     "JavaScript libraries",
+     "Microsoft free software",
+     "Software using the Apache license",
+     "WebGL"
+    ]
+   }
   }
  ]
 }

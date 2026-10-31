@@ -7,6 +7,21 @@
  "preferred_name": "Distributed computing",
  "kind": "knowledge",
  "definition": "Coordinating computation across multiple networked systems.",
+ "description": {
+  "text": "A field of computer science that studies distributed systems, whose components sit on different networked computers. The components coordinate by passing messages to reach a common goal.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "Distributed computing",
+   "page_id": 8501,
+   "rev_id": 1376696275,
+   "rev_timestamp": "2026-09-25T18:39:33Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=Distributed_computing&oldid=1376696275",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "variants": [
   {
    "label": "distributed systems",
@@ -71,6 +86,40 @@
    "date": "2026-10-29",
    "run": "external-2026-10-29-gpt-6-unknown",
    "note": "Distributed systems are the systems studied/built; distributed computing is the coordination of computation on them."
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-b",
+   "note": "adapted from the lead of Wikipedia: Distributed computing, revision 1376696275"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=Distributed_computing&oldid=1376696275",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-b",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "8501",
+    "method": "title",
+    "categories": [
+     "Distributed computing"
+    ]
+   }
   }
  ]
 }

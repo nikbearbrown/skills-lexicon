@@ -3,6 +3,21 @@
  "preferred_name": "Certified Insurance Counselor",
  "kind": "credential",
  "definition": "A designation from the National Alliance for Insurance Education & Research for insurance professionals who complete courses in coverage and risk.",
+ "description": {
+  "text": "A US insurance agent professional certification started in 1969 by the National Alliance for Insurance Education & Research. Some of its courses can count toward state continuing education requirements for agent licensing.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "Certified Insurance Counselor",
+   "page_id": 13113032,
+   "rev_id": 935793527,
+   "rev_timestamp": "2020-01-14T19:45:14Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=Certified_Insurance_Counselor&oldid=935793527",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "certified-insurance-counselor",
  "certification": true,
  "certification_scope": "single-issuer",
@@ -164,6 +179,41 @@
    "date": "2026-10-29",
    "run": "external-2026-10-29-gpt-6-unknown",
    "note": "This denotes multiple holders rather than the singular credential."
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-b",
+   "note": "adapted from the lead of Wikipedia: Certified Insurance Counselor, revision 935793527"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=Certified_Insurance_Counselor&oldid=935793527",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-b",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "13113032",
+    "method": "title",
+    "categories": [
+     "Insurance industry",
+     "Professional titles and certifications"
+    ]
+   }
   }
  ]
 }

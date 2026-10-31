@@ -3,6 +3,21 @@
  "preferred_name": "Field-programmable gate array",
  "kind": "knowledge",
  "definition": "An integrated circuit whose logic can be configured after manufacture, using a hardware description language, to implement custom digital circuits.",
+ "description": {
+  "text": "A configurable integrated circuit (FPGA) that can be reprogrammed after manufacturing. It is a type of programmable logic device made of a grid of programmable logic blocks that can be configured in the field to perform various digital functions.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "Field-programmable gate array",
+   "page_id": 10969,
+   "rev_id": 1378901803,
+   "rev_timestamp": "2026-10-06T20:41:59Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=Field-programmable_gate_array&oldid=1378901803",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "field-programmable-gate-array",
  "certification": false,
  "variants": [
@@ -130,6 +145,46 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "external-2026-10-29-gpt-6-unknown"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-c",
+   "note": "adapted from the lead of Wikipedia: Field-programmable gate array, revision 1378901803"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=Field-programmable_gate_array&oldid=1378901803",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-c",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "10969",
+    "method": "title",
+    "categories": [
+     "Field-programmable gate arrays",
+     "Gate arrays",
+     "Integrated circuits",
+     "Semiconductor devices",
+     "OpenCL compute devices",
+     "American inventions",
+     "Hardware acceleration"
+    ]
+   }
   }
  ]
 }

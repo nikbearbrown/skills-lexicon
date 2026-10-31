@@ -3,6 +3,21 @@
  "preferred_name": "Ingres",
  "kind": "tool",
  "definition": "A relational database management system that began as a University of California, Berkeley research project and was later developed commercially by Ingres Corporation and then Actian.",
+ "description": {
+  "text": "Ingres is a proprietary SQL relational database management system for large commercial and government applications. It began as a research project at UC Berkeley in the early 1970s.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "Ingres (database)",
+   "page_id": 84394,
+   "rev_id": 1371639403,
+   "rev_timestamp": "2026-08-27T15:38:46Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=Ingres_(database)&oldid=1371639403",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "ingres",
  "certification": false,
  "variants": [],
@@ -110,6 +125,44 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "external-2026-10-29-gpt-6-unknown"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-d",
+   "note": "adapted from the lead of Wikipedia: Ingres (database), revision 1371639403"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=Ingres_(database)&oldid=1371639403",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-d",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "84394",
+    "method": "title",
+    "categories": [
+     "Computer-related introductions in the 1970s",
+     "Client-server database management systems",
+     "Cross-platform software",
+     "Free database management systems",
+     "Relational database management systems"
+    ]
+   }
   }
  ]
 }

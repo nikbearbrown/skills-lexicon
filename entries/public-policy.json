@@ -3,6 +3,21 @@
  "preferred_name": "Public policy",
  "kind": "knowledge",
  "definition": "The laws, rules and government actions that address public problems, and the study of how they are made and what effects they have.",
+ "description": {
+  "text": "A proposal or decided set of laws, regulations, guidelines and actions to address social issues, often carried out through programs. It governs areas such as education, health care, employment and transportation, and its implementation is public administration.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "Public policy",
+   "page_id": 153324,
+   "rev_id": 1378054674,
+   "rev_timestamp": "2026-10-02T18:16:43Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=Public_policy&oldid=1378054674",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "public-policy",
  "certification": false,
  "variants": [
@@ -128,6 +143,44 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "external-2026-10-29-gpt-6-unknown"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-f",
+   "note": "adapted from the lead of Wikipedia: Public policy, revision 1378054674"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=Public_policy&oldid=1378054674",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-f",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "153324",
+    "method": "title",
+    "categories": [
+     "Public policy",
+     "Political science",
+     "Public administration",
+     "Public economics",
+     "Social policy"
+    ]
+   }
   }
  ]
 }

@@ -3,6 +3,21 @@
  "preferred_name": "Foreign Account Tax Compliance Act",
  "kind": "standard",
  "definition": "A 2010 United States law that requires foreign financial institutions to report accounts held by US taxpayers to the US tax authority.",
+ "description": {
+  "text": "A 2010 US federal law requiring non-US foreign financial institutions to search their records for customers with signs of a US connection and report those assets and people to the US Treasury Department. It also requires such persons to report their non-US financial accounts.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "Foreign Account Tax Compliance Act",
+   "page_id": 34084825,
+   "rev_id": 1368721867,
+   "rev_timestamp": "2026-08-10T18:45:43Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=Foreign_Account_Tax_Compliance_Act&oldid=1368721867",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "foreign-account-tax-compliance-act",
  "certification": false,
  "variants": [
@@ -122,6 +137,44 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "external-2026-10-29-gpt-6-unknown"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-c",
+   "note": "adapted from the lead of Wikipedia: Foreign Account Tax Compliance Act, revision 1368721867"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=Foreign_Account_Tax_Compliance_Act&oldid=1368721867",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-c",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "34084825",
+    "method": "title",
+    "categories": [
+     "Acts of the 111th United States Congress",
+     "United States federal taxation legislation",
+     "International taxation",
+     "Taxation-related lists",
+     "United States tax law"
+    ]
+   }
   }
  ]
 }

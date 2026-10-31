@@ -3,6 +3,21 @@
  "preferred_name": "Extended validation certificate",
  "kind": "knowledge",
  "definition": "A type of TLS/SSL digital certificate issued only after the certificate authority has checked in detail the legal identity of the organisation that requests it.",
+ "description": {
+  "text": "An X.509 certificate that proves the legal entity of its owner, signed by a certificate authority key allowed to issue such certificates. It can be used like any other X.509 certificate, for example to secure HTTPS web traffic or sign software and documents.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "Extended Validation Certificate",
+   "page_id": 7104097,
+   "rev_id": 1374704287,
+   "rev_timestamp": "2026-09-13T16:55:05Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=Extended_Validation_Certificate&oldid=1374704287",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "extended-validation-certificate",
  "certification": false,
  "variants": [
@@ -157,6 +172,44 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "external-2026-10-29-gpt-6-unknown"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-c",
+   "note": "adapted from the lead of Wikipedia: Extended Validation Certificate, revision 1374704287"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=Extended_Validation_Certificate&oldid=1374704287",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-c",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "7104097",
+    "method": "title",
+    "categories": [
+     "Key management",
+     "E-commerce",
+     "Public key infrastructure",
+     "Transport Layer Security",
+     "2007 introductions"
+    ]
+   }
   }
  ]
 }

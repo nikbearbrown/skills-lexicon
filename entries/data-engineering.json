@@ -7,6 +7,21 @@
  "preferred_name": "Data engineering",
  "kind": "skill",
  "definition": "Building and operating reliable data processing systems.",
+ "description": {
+  "text": "A software engineering approach to building data systems that enable data to be collected and used. The data is usually meant for later analysis and data science, which often involves machine learning.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "Data engineering",
+   "page_id": 455220,
+   "rev_id": 1371670129,
+   "rev_timestamp": "2026-08-27T19:41:03Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=Data_engineering&oldid=1371670129",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "variants": [
   {
    "label": "data pipelines",
@@ -73,6 +88,44 @@
    "date": "2026-10-29",
    "run": "external-2026-10-29-gpt-6-unknown",
    "note": "Pipelines are systems built and operated in data engineering, not a synonym for the discipline."
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-b",
+   "note": "adapted from the lead of Wikipedia: Data engineering, revision 1371670129"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=Data_engineering&oldid=1371670129",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-b",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "455220",
+    "method": "title",
+    "categories": [
+     "Software engineering",
+     "Information systems",
+     "Data management",
+     "Data engineering",
+     "Engineering disciplines"
+    ]
+   }
   }
  ]
 }

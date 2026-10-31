@@ -3,6 +3,21 @@
  "preferred_name": "LEGO Digital Designer",
  "kind": "tool",
  "definition": "Free LEGO software for designing virtual models with digital bricks on a computer.",
+ "description": {
+  "text": "Lego Digital Designer was discontinued CAD software made by Qube Software and the Lego Group. People used it to design virtual models from virtual Lego bricks, which could be saved locally or uploaded to the Lego website for sharing and ordering.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "Lego Digital Designer",
+   "page_id": 13379593,
+   "rev_id": 1370655450,
+   "rev_timestamp": "2026-08-22T09:25:52Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=Lego_Digital_Designer&oldid=1370655450",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "lego-digital-designer",
  "certification": false,
  "variants": [],
@@ -120,6 +135,43 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "external-2026-10-29-gpt-6-unknown"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-d",
+   "note": "adapted from the lead of Wikipedia: Lego Digital Designer, revision 1370655450"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=Lego_Digital_Designer&oldid=1370655450",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-d",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "13379593",
+    "method": "title",
+    "categories": [
+     "2003 software",
+     "Lego products",
+     "Free computer-aided design software",
+     "Discontinued software"
+    ]
+   }
   }
  ]
 }

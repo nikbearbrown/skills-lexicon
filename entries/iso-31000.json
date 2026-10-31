@@ -3,6 +3,21 @@
  "preferred_name": "ISO 31000",
  "kind": "standard",
  "definition": "An ISO standard giving principles and guidelines for managing risk in any organisation.",
+ "description": {
+  "text": "ISO 31000 is a set of international risk management standards from ISO. They give a consistent vocabulary and methodology for assessing and managing risk and are designed to fit into an integrated management system.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "ISO 31000",
+   "page_id": 23440695,
+   "rev_id": 1376229888,
+   "rev_timestamp": "2026-09-22T22:36:43Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=ISO_31000&oldid=1376229888",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "iso-31000",
  "certification": false,
  "variants": [],
@@ -99,6 +114,42 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "external-2026-10-29-gpt-6-unknown"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-d",
+   "note": "adapted from the lead of Wikipedia: ISO 31000, revision 1376229888"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=ISO_31000&oldid=1376229888",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-d",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "23440695",
+    "method": "title",
+    "categories": [
+     "ISO standards",
+     "Risk factors",
+     "Risk"
+    ]
+   }
   }
  ]
 }

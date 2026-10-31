@@ -7,6 +7,21 @@
  "preferred_name": "Usability testing",
  "kind": "method",
  "definition": "Evaluating how people use an interface to complete tasks.",
+ "description": {
+  "text": "A technique in user-centered interaction design for evaluating a product by testing it on users. It gives direct input on how real users use the system and focuses on how intuitive the design is to people with no prior exposure.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "Usability testing",
+   "page_id": 32288,
+   "rev_id": 1374395628,
+   "rev_timestamp": "2026-09-11T20:24:58Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=Usability_testing&oldid=1374395628",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "variants": [],
  "relations": [],
  "verbs": [],
@@ -49,6 +64,43 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "external-2026-10-29-gpt-6-unknown"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-g",
+   "note": "adapted from the lead of Wikipedia: Usability testing, revision 1374395628"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=Usability_testing&oldid=1374395628",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-g",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "32288",
+    "method": "title",
+    "categories": [
+     "Usability",
+     "Software testing",
+     "Educational technology",
+     "Product testing"
+    ]
+   }
   }
  ]
 }

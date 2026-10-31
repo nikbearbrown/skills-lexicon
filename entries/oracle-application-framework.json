@@ -3,6 +3,21 @@
  "preferred_name": "Oracle Application Framework",
  "kind": "framework",
  "definition": "Oracle's Java-based framework for building and customising the web user interfaces of Oracle E-Business Suite applications.",
+ "description": {
+  "text": "A proprietary Oracle framework for application development within the Oracle E-Business Suite, also available to customers for personalizations, customizations and custom applications. It is a model-view-controller framework built on Java EE technologies.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "Oracle Application Framework",
+   "page_id": 11326648,
+   "rev_id": 1330899132,
+   "rev_timestamp": "2026-01-03T06:15:28Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=Oracle_Application_Framework&oldid=1330899132",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "oracle-application-framework",
  "certification": false,
  "variants": [
@@ -157,6 +172,40 @@
    "date": "2026-10-29",
    "run": "external-2026-10-29-gpt-6-unknown",
    "note": "The proper product name is Oracle Application Framework, singular."
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-e",
+   "note": "adapted from the lead of Wikipedia: Oracle Application Framework, revision 1330899132"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=Oracle_Application_Framework&oldid=1330899132",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-e",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "11326648",
+    "method": "title",
+    "categories": [
+     "Oracle software"
+    ]
+   }
   }
  ]
 }

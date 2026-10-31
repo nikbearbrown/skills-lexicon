@@ -3,6 +3,21 @@
  "preferred_name": "Behavioural science",
  "kind": "knowledge",
  "definition": "The study of human and animal behaviour through observation and experiment, drawing on fields such as psychology, sociology and economics.",
+ "description": {
+  "text": "The branch of science concerned with theorizing about, categorizing and judging human behaviour. It sits between fields such as psychology, cognitive science, neuroscience and social science.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "Behavioural sciences",
+   "page_id": 1589303,
+   "rev_id": 1363533098,
+   "rev_timestamp": "2026-07-10T20:19:13Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=Behavioural_sciences&oldid=1363533098",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "behavioural-science",
  "certification": false,
  "variants": [
@@ -128,6 +143,41 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "external-2026-10-29-gpt-6-unknown"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-a",
+   "note": "adapted from the lead of Wikipedia: Behavioural sciences, revision 1363533098"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=Behavioural_sciences&oldid=1363533098",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-a",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "1589303",
+    "method": "title",
+    "categories": [
+     "Behavioural sciences",
+     "Cognitive science"
+    ]
+   }
   }
  ]
 }

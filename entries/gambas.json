@@ -3,6 +3,21 @@
  "preferred_name": "Gambas",
  "kind": "programming-language",
  "definition": "A free, object-oriented BASIC-like programming language and development environment for Linux.",
+ "description": {
+  "text": "An object-oriented dialect of the BASIC programming language, together with its integrated development environment. It is designed to run on Linux and other Unix-like systems, and its name stands for Gambas Almost Means BASIC.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "Gambas",
+   "page_id": 215824,
+   "rev_id": 1377838442,
+   "rev_timestamp": "2026-10-01T12:31:22Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=Gambas&oldid=1377838442",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "gambas",
  "certification": false,
  "language_type": "programming",
@@ -157,6 +172,54 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "external-2026-10-29-muse-spark-1-3-xhigh"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-c",
+   "note": "adapted from the lead of Wikipedia: Gambas, revision 1377838442"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=Gambas&oldid=1377838442",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-c",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "215824",
+    "method": "title",
+    "categories": [
+     "BASIC compilers",
+     "BASIC interpreters",
+     "BASIC programming language family",
+     "Free integrated development environments",
+     "Free software programmed in BASIC",
+     "Linux integrated development environments",
+     "Linux programming tools",
+     "Object-oriented programming languages",
+     "Procedural programming languages",
+     "Programming languages created in 1999",
+     "Self-hosting software",
+     "Software that uses Qt",
+     "Software that uses GTK",
+     "Software using the GNU General Public License",
+     "User interface builders"
+    ]
+   }
   }
  ]
 }

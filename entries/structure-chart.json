@@ -3,6 +3,21 @@
  "preferred_name": "Structure chart",
  "kind": "method",
  "definition": "A diagram that breaks a system down into its parts, such as the modules of a program, and shows how they relate.",
+ "description": {
+  "text": "A chart used in structured programming to arrange program modules into a tree. Each module is a box containing its name, and the tree shows the relationships between modules.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "Structure chart",
+   "page_id": 20208804,
+   "rev_id": 1277243840,
+   "rev_timestamp": "2025-02-23T15:04:07Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=Structure_chart&oldid=1277243840",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "structure-chart",
  "certification": false,
  "variants": [],
@@ -75,6 +90,41 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "2026-10-29-review-5p-opus"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-g",
+   "note": "adapted from the lead of Wikipedia: Structure chart, revision 1277243840"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=Structure_chart&oldid=1277243840",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-g",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "20208804",
+    "method": "title",
+    "categories": [
+     "Charts",
+     "Systems analysis"
+    ]
+   }
   }
  ]
 }

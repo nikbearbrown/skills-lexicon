@@ -3,6 +3,21 @@
  "preferred_name": "Environmental, social and governance",
  "kind": "knowledge",
  "definition": "The environmental, social and governance factors used to judge how sustainable and ethical an organisation's conduct is.",
+ "description": {
+  "text": "Shorthand (ESG) for an investing principle that prioritizes environmental issues, social issues and corporate governance. It is sometimes called responsible or impact investing and is often used interchangeably with corporate social responsibility and sustainability.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "Environmental, social, and governance",
+   "page_id": 27303774,
+   "rev_id": 1376158469,
+   "rev_timestamp": "2026-09-22T12:20:58Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=Environmental,_social,_and_governance&oldid=1376158469",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "environmental-social-and-governance",
  "certification": false,
  "variants": [
@@ -157,6 +172,46 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "external-2026-10-29-gpt-6-unknown"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-c",
+   "note": "adapted from the lead of Wikipedia: Environmental, social, and governance, revision 1376158469"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=Environmental,_social,_and_governance&oldid=1376158469",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-c",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "27303774",
+    "method": "title",
+    "categories": [
+     "Environmentalism",
+     "Ethical banking",
+     "Ethical investment",
+     "Corporate governance",
+     "Governance",
+     "Corporations",
+     "Social systems"
+    ]
+   }
   }
  ]
 }

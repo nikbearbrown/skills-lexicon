@@ -3,6 +3,21 @@
  "preferred_name": "Non-fungible tokens",
  "kind": "knowledge",
  "definition": "Unique blockchain-based tokens that record ownership of a digital or physical item.",
+ "description": {
+  "text": "A unique digital identifier recorded on a blockchain and used to certify ownership and authenticity, often tied to digital files such as artworks, photos, videos and audio. Unlike cryptocurrencies, they cannot be copied, substituted or subdivided, but can be sold and traded.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "Non-fungible token",
+   "page_id": 57306201,
+   "rev_id": 1376005156,
+   "rev_timestamp": "2026-09-21T12:12:36Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=Non-fungible_token&oldid=1376005156",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "non-fungible-tokens",
  "certification": false,
  "variants": [
@@ -186,6 +201,50 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "external-2026-10-29-gpt-6-unknown"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-e",
+   "note": "adapted from the lead of Wikipedia: Non-fungible token, revision 1376005156"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=Non-fungible_token&oldid=1376005156",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-e",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "57306201",
+    "method": "title",
+    "categories": [
+     "2020s fads and trends",
+     "Non-fungible tokens",
+     "Internet properties established in 2014",
+     "Ownership",
+     "Blockchains",
+     "Blockchain art",
+     "Digital art",
+     "Digital artworks",
+     "Real estate",
+     "Innovation",
+     "Pyramid and Ponzi schemes"
+    ]
+   }
   }
  ]
 }

@@ -3,6 +3,21 @@
  "preferred_name": "Drug Quality and Security Act",
  "kind": "standard",
  "definition": "A 2013 US federal law that set national requirements for tracing prescription drugs through the supply chain and for regulating compounding pharmacies.",
+ "description": {
+  "text": "A US law that amended the Federal Food, Drug, and Cosmetic Act to give the Food and Drug Administration more authority to regulate and monitor the making of compounded drugs. It was written in response to a 2012 meningitis outbreak and signed in November 2013.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "Drug Quality and Security Act",
+   "page_id": 41026399,
+   "rev_id": 1372749415,
+   "rev_timestamp": "2026-09-02T02:57:17Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=Drug_Quality_and_Security_Act&oldid=1372749415",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "drug-quality-and-security-act",
  "certification": false,
  "variants": [
@@ -121,6 +136,41 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "external-2026-10-29-gpt-6-unknown"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-c",
+   "note": "adapted from the lead of Wikipedia: Drug Quality and Security Act, revision 1372749415"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=Drug_Quality_and_Security_Act&oldid=1372749415",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-c",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "41026399",
+    "method": "title",
+    "categories": [
+     "Acts of the 113th United States Congress",
+     "Pharmaceuticals policy"
+    ]
+   }
   }
  ]
 }

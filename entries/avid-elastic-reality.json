@@ -3,6 +3,21 @@
  "preferred_name": "Avid Elastic Reality",
  "kind": "tool",
  "definition": "A discontinued Avid application for warping and morphing images and video.",
+ "description": {
+  "text": "A warping and morphing software application for Windows, Macintosh and Silicon Graphics workstations, discontinued in 1999.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "Avid Elastic Reality",
+   "page_id": 6162569,
+   "rev_id": 1370398787,
+   "rev_timestamp": "2026-08-20T22:29:38Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=Avid_Elastic_Reality&oldid=1370398787",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "avid-elastic-reality",
  "certification": false,
  "variants": [],
@@ -100,6 +115,49 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "external-2026-10-29-gpt-6-unknown"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-a",
+   "note": "adapted from the lead of Wikipedia: Avid Elastic Reality, revision 1370398787"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=Avid_Elastic_Reality&oldid=1370398787",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-a",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "6162569",
+    "method": "title",
+    "categories": [
+     "1992 software",
+     "1993 software",
+     "Products and services discontinued in 1999",
+     "Amiga software",
+     "Animation software",
+     "Discontinued software",
+     "IRIX software",
+     "Classic Mac OS graphics software",
+     "Proprietary software",
+     "Windows graphics-related software"
+    ]
+   }
   }
  ]
 }

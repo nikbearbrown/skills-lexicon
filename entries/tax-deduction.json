@@ -3,6 +3,21 @@
  "preferred_name": "Tax deduction",
  "kind": "knowledge",
  "definition": "An expense or allowance that the tax rules let a person or business subtract from taxable income.",
+ "description": {
+  "text": "An amount deducted from taxable income, usually based on expenses incurred to produce additional income. It is a form of tax incentive that reduces taxable income, unlike a tax credit, which reduces the tax itself.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "Tax deduction",
+   "page_id": 299485,
+   "rev_id": 1348746395,
+   "rev_timestamp": "2026-04-14T03:02:10Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=Tax_deduction&oldid=1348746395",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "tax-deduction",
  "certification": false,
  "variants": [],
@@ -75,6 +90,40 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "2026-10-29-review-5p-opus"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-g",
+   "note": "adapted from the lead of Wikipedia: Tax deduction, revision 1348746395"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=Tax_deduction&oldid=1348746395",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-g",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "299485",
+    "method": "title",
+    "categories": [
+     "Tax terms"
+    ]
+   }
   }
  ]
 }

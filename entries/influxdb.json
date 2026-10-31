@@ -3,6 +3,21 @@
  "preferred_name": "InfluxDB",
  "kind": "tool",
  "definition": "An open-source time-series database from InfluxData for storing and querying timestamped data such as metrics and events.",
+ "description": {
+  "text": "InfluxDB is a time series database developed by InfluxData. It is used to store and retrieve time series data in areas such as operations monitoring, application metrics, Internet of Things sensor data and real-time analytics.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "InfluxDB",
+   "page_id": 51310437,
+   "rev_id": 1359575084,
+   "rev_timestamp": "2026-06-16T01:30:39Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=InfluxDB&oldid=1359575084",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "influxdb",
  "certification": false,
  "variants": [],
@@ -109,6 +124,44 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "external-2026-10-29-gpt-6-unknown"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-d",
+   "note": "adapted from the lead of Wikipedia: InfluxDB, revision 1359575084"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=InfluxDB&oldid=1359575084",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-d",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "51310437",
+    "method": "title",
+    "categories": [
+     "2013 software",
+     "Software using the MIT license",
+     "Structured storage",
+     "Time series software",
+     "Free software programmed in Rust"
+    ]
+   }
   }
  ]
 }

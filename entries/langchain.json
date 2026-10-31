@@ -7,6 +7,21 @@
  "preferred_name": "LangChain",
  "kind": "framework",
  "definition": "A framework for composing language-model applications.",
+ "description": {
+  "text": "LangChain is a software framework that helps integrate large language models into applications. Its use cases include document analysis and summarization, chatbots and code analysis.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "LangChain",
+   "page_id": 73577626,
+   "rev_id": 1378629920,
+   "rev_timestamp": "2026-10-05T09:33:49Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=LangChain&oldid=1378629920",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "variants": [],
  "relations": [],
  "verbs": [],
@@ -49,6 +64,43 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "external-2026-10-29-gpt-6-unknown"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-d",
+   "note": "adapted from the lead of Wikipedia: LangChain, revision 1378629920"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=LangChain&oldid=1378629920",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-d",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "73577626",
+    "method": "title",
+    "categories": [
+     "AI software",
+     "Large language models",
+     "Software frameworks",
+     "2022 software"
+    ]
+   }
   }
  ]
 }

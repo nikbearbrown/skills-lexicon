@@ -3,6 +3,21 @@
  "preferred_name": "bzip2",
  "kind": "tool",
  "definition": "A free compression program and file format that shrinks files using the Burrows-Wheeler transform and Huffman coding.",
+ "description": {
+  "text": "A file compression format and program that uses the Burrows-Wheeler algorithm to compress a single file. It is not an archiver, so it relies on tools like tar to handle multiple files.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "Bzip2",
+   "page_id": 66255,
+   "rev_id": 1363730836,
+   "rev_timestamp": "2026-07-12T01:39:59Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=Bzip2&oldid=1363730836",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "bzip2",
  "certification": false,
  "variants": [],
@@ -99,6 +114,45 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "external-2026-10-29-gpt-6-unknown"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-a",
+   "note": "adapted from the lead of Wikipedia: Bzip2, revision 1363730836"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=Bzip2&oldid=1363730836",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-a",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "66255",
+    "method": "title",
+    "categories": [
+     "1996 software",
+     "Archive formats",
+     "Cross-platform software",
+     "Free data compression software",
+     "Lossless compression algorithms",
+     "Unix archivers and compression-related utilities"
+    ]
+   }
   }
  ]
 }

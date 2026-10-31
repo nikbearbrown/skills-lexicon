@@ -3,6 +3,21 @@
  "preferred_name": "Windows 10",
  "kind": "platform",
  "definition": "The Microsoft operating system for personal computers released in 2015.",
+ "description": {
+  "text": "A major release of the Windows NT operating system developed by Microsoft, the successor to Windows 8.1. It was a free upgrade for users of Windows 7, 8 and 8.1.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "Windows 10",
+   "page_id": 43989914,
+   "rev_id": 1378821932,
+   "rev_timestamp": "2026-10-06T08:55:02Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=Windows_10&oldid=1378821932",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "windows-10",
  "certification": false,
  "variants": [
@@ -128,6 +143,49 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "external-2026-10-29-gpt-6-unknown"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-g",
+   "note": "adapted from the lead of Wikipedia: Windows 10, revision 1378821932"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=Windows_10&oldid=1378821932",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-g",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "43989914",
+    "method": "title",
+    "categories": [
+     "Windows 10",
+     "2015 software",
+     "ARM operating systems",
+     "IA-32 operating systems",
+     "Proprietary operating systems",
+     "Tablet operating systems",
+     "Windows NT",
+     "X86-64 operating systems",
+     "Microsoft Windows",
+     "Products and services discontinued in 2025"
+    ]
+   }
   }
  ]
 }

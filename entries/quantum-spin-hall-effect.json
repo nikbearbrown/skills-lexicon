@@ -3,6 +3,21 @@
  "preferred_name": "Quantum spin Hall effect",
  "kind": "knowledge",
  "definition": "A state of matter in which a material's interior is an electrical insulator while its edges carry currents of electrons whose spin direction depends on the direction they travel.",
+ "description": {
+  "text": "A state of matter in two-dimensional semiconductors with a quantized spin-Hall conductance and a vanishing charge-Hall conductance. It is related to the integer quantum Hall state but does not need a large magnetic field.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "Quantum spin Hall effect",
+   "page_id": 13495046,
+   "rev_id": 1368674809,
+   "rev_timestamp": "2026-08-10T12:39:37Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=Quantum_spin_Hall_effect&oldid=1368674809",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "quantum-spin-hall-effect",
  "certification": false,
  "variants": [
@@ -128,6 +143,43 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "external-2026-10-29-gpt-6-unknown"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-f",
+   "note": "adapted from the lead of Wikipedia: Quantum spin Hall effect, revision 1368674809"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=Quantum_spin_Hall_effect&oldid=1368674809",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-f",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "13495046",
+    "method": "title",
+    "categories": [
+     "Hall effect",
+     "Condensed matter physics",
+     "Quantum electronics",
+     "Spintronics"
+    ]
+   }
   }
  ]
 }

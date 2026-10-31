@@ -3,6 +3,21 @@
  "preferred_name": "Microsoft Transaction Server",
  "kind": "platform",
  "definition": "A Microsoft runtime from the 1990s for running and managing transactions and components in Windows server applications, later merged into COM+.",
+ "description": {
+  "text": "Former software that gave Component Object Model (COM) components services such as automated transaction management, instance management and role-based security, to ease building large distributed applications. In Windows 2000 it was renamed COM+.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "Microsoft Transaction Server",
+   "page_id": 3117974,
+   "rev_id": 1278228894,
+   "rev_timestamp": "2025-03-01T06:11:38Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=Microsoft_Transaction_Server&oldid=1278228894",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "microsoft-transaction-server",
  "certification": false,
  "variants": [],
@@ -99,6 +114,45 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "external-2026-10-29-gpt-6-unknown"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-e",
+   "note": "adapted from the lead of Wikipedia: Microsoft Transaction Server, revision 1278228894"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=Microsoft_Transaction_Server&oldid=1278228894",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-e",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "3117974",
+    "method": "title",
+    "categories": [
+     "Windows components",
+     "Windows communication and services",
+     "Inter-process communication",
+     "Microsoft application programming interfaces",
+     "Component-based software engineering",
+     "Transaction processing"
+    ]
+   }
   }
  ]
 }

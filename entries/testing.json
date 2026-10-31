@@ -7,6 +7,21 @@
  "preferred_name": "Software testing",
  "kind": "skill",
  "definition": "Designing checks and cases to evaluate software behavior.",
+ "description": {
+  "text": "The act of checking whether software meets its intended objectives and satisfies expectations. It gives objective, independent information about software quality and risk of failure, but cannot prove correctness in all scenarios.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "Software testing",
+   "page_id": 29090,
+   "rev_id": 1378932017,
+   "rev_timestamp": "2026-10-07T00:08:56Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=Software_testing&oldid=1378932017",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "variants": [
   {
    "label": "testing",
@@ -93,6 +108,41 @@
    "date": "2026-10-29",
    "run": "external-2026-10-29-gpt-6-unknown",
    "note": "Verification and validation include reviews and other non-testing methods, so they are broader than software testing."
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-g",
+   "note": "adapted from the lead of Wikipedia: Software testing, revision 1378932017"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=Software_testing&oldid=1378932017",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-g",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "29090",
+    "method": "title",
+    "categories": [
+     "Software testing",
+     "Software engineering terminology"
+    ]
+   }
   }
  ]
 }

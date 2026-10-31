@@ -3,6 +3,21 @@
  "preferred_name": "Assembly language",
  "kind": "programming-language",
  "definition": "A family of low-level programming languages in which each statement corresponds closely to a machine instruction of a particular processor.",
+ "description": {
+  "text": "A low-level programming language with a very strong correspondence between its instructions and the machine code instructions of the architecture. It usually has one statement per machine code instruction.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "Assembly language",
+   "page_id": 1368,
+   "rev_id": 1378014107,
+   "rev_timestamp": "2026-10-02T12:48:31Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=Assembly_language&oldid=1378014107",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "assembly-language",
  "certification": false,
  "language_type": "programming",
@@ -125,6 +140,45 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "2026-10-29-review-4d-opus"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-a",
+   "note": "adapted from the lead of Wikipedia: Assembly language, revision 1378014107"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=Assembly_language&oldid=1378014107",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-a",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "1368",
+    "method": "title",
+    "categories": [
+     "Assembly languages",
+     "Computer-related introductions in 1949",
+     "Embedded systems",
+     "Low-level programming languages",
+     "Programming language implementation",
+     "Programming languages created in 1949"
+    ]
+   }
   }
  ]
 }

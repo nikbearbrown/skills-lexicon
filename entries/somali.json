@@ -3,6 +3,21 @@
  "preferred_name": "Somali",
  "kind": "human-language",
  "definition": "A Cushitic language, the official language of Somalia.",
+ "description": {
+  "text": "A Cushitic language of the Afroasiatic family, spoken mainly in Greater Somalia and by the Somali diaspora. It is an official language in Somalia, Somaliland and Ethiopia, and is officially written in the Somali Latin alphabet.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "Somali language",
+   "page_id": 441357,
+   "rev_id": 1370190422,
+   "rev_timestamp": "2026-08-19T17:09:57Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=Somali_language&oldid=1370190422",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "somali",
  "certification": false,
  "language_type": "human",
@@ -135,6 +150,47 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "2026-10-29-review-4e-opus"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-g",
+   "note": "adapted from the lead of Wikipedia: Somali language, revision 1370190422"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=Somali_language&oldid=1370190422",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-g",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "441357",
+    "method": "redirect",
+    "categories": [
+     "Somali language",
+     "Agglutinative languages",
+     "Subject–object–verb languages",
+     "pitch-accent language",
+     "Languages of Somalia",
+     "Languages of Ethiopia",
+     "Languages of Kenya",
+     "Languages of Djibouti"
+    ]
+   }
   }
  ]
 }

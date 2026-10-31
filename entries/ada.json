@@ -3,6 +3,21 @@
  "preferred_name": "Ada",
  "kind": "programming-language",
  "definition": "A statically typed, structured programming language designed for reliable, long-lived embedded and safety-critical software.",
+ "description": {
+  "text": "A structured, statically typed, imperative and object-oriented high-level programming language inspired by Pascal. It has built-in support for design by contract, very strong typing, explicit concurrency and tasks, and is an international technical standard.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "Ada (programming language)",
+   "page_id": 1242,
+   "rev_id": 1365106242,
+   "rev_timestamp": "2026-07-20T07:57:57Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=Ada_(programming_language)&oldid=1365106242",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "ada",
  "name_match": "exact_case",
  "certification": false,
@@ -116,6 +131,54 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "2026-10-29-review-4d-opus"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-a",
+   "note": "adapted from the lead of Wikipedia: Ada (programming language), revision 1365106242"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=Ada_(programming_language)&oldid=1365106242",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-a",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "1242",
+    "method": "title",
+    "categories": [
+     "Ada (programming language)",
+     "Programming languages",
+     "Compiled programming languages",
+     ".NET programming languages",
+     "Avionics programming languages",
+     "High-integrity programming languages",
+     "Multi-paradigm programming languages",
+     "Programming language standards",
+     "Programming languages created in 1980",
+     "Programming languages with an ISO standard",
+     "Statically typed programming languages",
+     "Systems programming languages",
+     "1980 software",
+     "High-level programming languages",
+     "Ada Lovelace"
+    ]
+   }
   }
  ]
 }

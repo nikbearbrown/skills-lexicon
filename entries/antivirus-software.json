@@ -3,6 +3,21 @@
  "preferred_name": "Antivirus software",
  "kind": "tool",
  "definition": "Software that detects, blocks and removes malicious software such as viruses, worms and ransomware from a computer or network.",
+ "description": {
+  "text": "Software intended to prevent, detect and remove malware. It was originally built to detect computer viruses, and some products also protect against malicious URLs, spam and phishing.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "Antivirus software",
+   "page_id": 268622,
+   "rev_id": 1369245436,
+   "rev_timestamp": "2026-08-13T19:50:09Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=Antivirus_software&oldid=1369245436",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "antivirus-software",
  "certification": false,
  "variants": [
@@ -204,6 +219,41 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "external-2026-10-29-gpt-6-unknown"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-a",
+   "note": "adapted from the lead of Wikipedia: Antivirus software, revision 1369245436"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=Antivirus_software&oldid=1369245436",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-a",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "268622",
+    "method": "title",
+    "categories": [
+     "Antivirus software",
+     "Utility software types"
+    ]
+   }
   }
  ]
 }

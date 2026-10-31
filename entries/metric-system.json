@@ -3,6 +3,21 @@
  "preferred_name": "Metric system",
  "kind": "knowledge",
  "definition": "The decimal system of measurement units built on the metre, the kilogram and the second.",
+ "description": {
+  "text": "A family of measurement systems built on standard base units and decimal prefixes such as kilo and milli. The International System of Units (SI) is the best-known example.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "Metric system",
+   "page_id": 44142,
+   "rev_id": 1378215284,
+   "rev_timestamp": "2026-10-03T14:41:10Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=Metric_system&oldid=1378215284",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "metric-system",
  "certification": false,
  "variants": [
@@ -129,6 +144,42 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "external-2026-10-29-gpt-6-unknown"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-e",
+   "note": "adapted from the lead of Wikipedia: Metric system, revision 1378215284"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=Metric_system&oldid=1378215284",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-e",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "44142",
+    "method": "title",
+    "categories": [
+     "Metric system",
+     "International System of Units",
+     "French inventions"
+    ]
+   }
   }
  ]
 }

@@ -3,6 +3,21 @@
  "preferred_name": "Kotlin",
  "kind": "programming-language",
  "definition": "A statically typed programming language from JetBrains that runs on the Java Virtual Machine and is widely used for Android apps.",
+ "description": {
+  "text": "Kotlin is a cross-platform, statically typed, general-purpose high-level programming language with type inference. It is designed to work fully with Java, mainly targets the JVM, and has null-safety features that reduce runtime errors.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "Kotlin",
+   "page_id": 41819039,
+   "rev_id": 1374735409,
+   "rev_timestamp": "2026-09-13T20:52:39Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=Kotlin&oldid=1374735409",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "kotlin",
  "certification": false,
  "language_type": "programming",
@@ -125,6 +140,50 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "2026-10-29-review-4e-opus"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-d",
+   "note": "adapted from the lead of Wikipedia: Kotlin, revision 1374735409"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=Kotlin&oldid=1374735409",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-d",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "41819039",
+    "method": "title",
+    "categories": [
+     "2011 software",
+     "Free software projects",
+     "High-level programming languages",
+     "Java programming language family",
+     "JVM programming languages",
+     "Object-oriented programming languages",
+     "Programming languages",
+     "Programming languages created in 2011",
+     "Software using the Apache license",
+     "Statically typed programming languages",
+     "Extensible syntax programming languages"
+    ]
+   }
   }
  ]
 }

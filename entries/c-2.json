@@ -3,6 +3,21 @@
  "preferred_name": "C",
  "kind": "programming-language",
  "definition": "A general-purpose procedural programming language created by Dennis Ritchie at Bell Labs in the early 1970s.",
+ "description": {
+  "text": "A general-purpose programming language created in 1972 by Dennis Ritchie. It gives programmers fairly direct access to CPU features and is used to implement operating systems, device drivers and protocol stacks.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "C (programming language)",
+   "page_id": 6021,
+   "rev_id": 1378277749,
+   "rev_timestamp": "2026-10-03T20:07:01Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=C_(programming_language)&oldid=1378277749",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "c-2",
  "name_match": "exact_case",
  "certification": false,
@@ -126,6 +141,52 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "2026-10-29-review-4d-opus"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-a",
+   "note": "adapted from the lead of Wikipedia: C (programming language), revision 1378277749"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=C_(programming_language)&oldid=1378277749",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-a",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "6021",
+    "method": "title",
+    "categories": [
+     "C (programming language)",
+     "American inventions",
+     "Articles with example C code",
+     "C programming language family",
+     "Cross-platform software",
+     "High-level programming languages",
+     "Procedural programming languages",
+     "Structured programming languages",
+     "Programming languages created in 1972",
+     "Programming languages with an ISO standard",
+     "Statically typed programming languages",
+     "Systems programming languages",
+     "Compiled programming languages"
+    ]
+   }
   }
  ]
 }

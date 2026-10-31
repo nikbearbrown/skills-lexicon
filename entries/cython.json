@@ -3,6 +3,21 @@
  "preferred_name": "Cython",
  "kind": "programming-language",
  "definition": "A programming language that is a superset of Python and is compiled to C to build fast Python extension modules.",
+ "description": {
+  "text": "A superset of the Python programming language that lets developers write Python code, with optional C-inspired extensions, that runs with performance comparable to C. It compiles to C and is typically used to make CPython extension modules.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "Cython",
+   "page_id": 18384111,
+   "rev_id": 1375360084,
+   "rev_timestamp": "2026-09-17T09:57:47Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=Cython&oldid=1375360084",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "cython",
  "certification": false,
  "language_type": "programming",
@@ -147,6 +162,44 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "2026-10-29-review-4d-opus"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-b",
+   "note": "adapted from the lead of Wikipedia: Cython, revision 1375360084"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=Cython&oldid=1375360084",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-b",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "18384111",
+    "method": "title",
+    "categories": [
+     "Articles with example Python (programming language) code",
+     "Python (programming language)",
+     "Python (programming language) implementations",
+     "Software using the Apache license",
+     "Source-to-source compilers"
+    ]
+   }
   }
  ]
 }

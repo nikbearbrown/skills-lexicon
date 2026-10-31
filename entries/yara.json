@@ -3,6 +3,21 @@
  "preferred_name": "YARA",
  "kind": "tool",
  "definition": "An open-source tool that identifies and classifies malware by matching files against rules that describe text or binary patterns.",
+ "description": {
+  "text": "A tool used mainly in malware research and detection. It describes malware families with rules made of strings and a Boolean expression, based on regular expressions or textual or binary patterns.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "YARA",
+   "page_id": 26289898,
+   "rev_id": 1377075767,
+   "rev_timestamp": "2026-09-27T19:49:16Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=YARA&oldid=1377075767",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "yara",
  "name_match": "exact_case",
  "certification": false,
@@ -97,6 +112,41 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "2026-10-29-review-5r-opus"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-g",
+   "note": "adapted from the lead of Wikipedia: YARA, revision 1377075767"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=YARA&oldid=1377075767",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-g",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "26289898",
+    "method": "title",
+    "categories": [
+     "2013 software",
+     "Computer forensics"
+    ]
+   }
   }
  ]
 }

@@ -3,6 +3,21 @@
  "preferred_name": "Trace (linear algebra)",
  "kind": "knowledge",
  "definition": "The sum of the entries on the main diagonal of a square matrix.",
+ "description": {
+  "text": "In linear algebra, the sum of the elements on the main diagonal of a square matrix. It equals the sum of the matrix's eigenvalues, and similar matrices have the same trace.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "Trace (linear algebra)",
+   "page_id": 43270,
+   "rev_id": 1377100637,
+   "rev_timestamp": "2026-09-27T22:09:52Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=Trace_(linear_algebra)&oldid=1377100637",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "trace-linear-algebra",
  "certification": false,
  "variants": [],
@@ -75,6 +90,42 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "2026-10-29-review-5q-opus"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-g",
+   "note": "adapted from the lead of Wikipedia: Trace (linear algebra), revision 1377100637"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=Trace_(linear_algebra)&oldid=1377100637",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-g",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "43270",
+    "method": "title",
+    "categories": [
+     "Linear algebra",
+     "Matrix theory",
+     "Trace theory"
+    ]
+   }
   }
  ]
 }

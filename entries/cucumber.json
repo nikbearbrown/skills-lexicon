@@ -3,6 +3,21 @@
  "preferred_name": "Cucumber",
  "kind": "tool",
  "definition": "A behaviour-driven development tool that runs plain-language Gherkin specifications as automated tests.",
+ "description": {
+  "text": "A software tool that supports behavior-driven development. Its plain-language parser, Gherkin, lets expected behaviors be written in text customers can understand, and it is often used for testing other software.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "Cucumber (software)",
+   "page_id": 32539255,
+   "rev_id": 1375141638,
+   "rev_timestamp": "2026-09-16T02:08:15Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=Cucumber_(software)&oldid=1375141638",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "cucumber",
  "certification": false,
  "variants": [
@@ -128,6 +143,42 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "external-2026-10-29-gpt-6-unknown"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-b",
+   "note": "adapted from the lead of Wikipedia: Cucumber (software), revision 1375141638"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=Cucumber_(software)&oldid=1375141638",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-b",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "32539255",
+    "method": "title",
+    "categories": [
+     "Free software programmed in Ruby",
+     "Free software testing tools",
+     "Software using the MIT license"
+    ]
+   }
   }
  ]
 }

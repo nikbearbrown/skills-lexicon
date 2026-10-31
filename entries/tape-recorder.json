@@ -3,6 +3,21 @@
  "preferred_name": "Tape recorder",
  "kind": "tool",
  "definition": "A device that records and plays back sound on magnetic tape.",
+ "description": {
+  "text": "A sound recording and reproduction device that records and plays back sound, usually using magnetic tape for storage. It is also known as a tape deck, tape player or tape machine.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "Tape recorder",
+   "page_id": 70912,
+   "rev_id": 1371102753,
+   "rev_timestamp": "2026-08-24T16:03:58Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=Tape_recorder&oldid=1371102753",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "tape-recorder",
  "certification": false,
  "variants": [],
@@ -75,6 +90,47 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "2026-10-29-review-5p-opus"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-g",
+   "note": "adapted from the lead of Wikipedia: Tape recorder, revision 1371102753"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=Tape_recorder&oldid=1371102753",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-g",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "70912",
+    "method": "title",
+    "categories": [
+     "Audio players",
+     "Audio storage",
+     "Sound production technology",
+     "Sound recording",
+     "Sound recording technology",
+     "Articles containing video clips",
+     "Tape recording",
+     "Audiovisual introductions in 1886"
+    ]
+   }
   }
  ]
 }

@@ -3,6 +3,21 @@
  "preferred_name": "Pilates",
  "kind": "method",
  "definition": "A system of low-impact exercises, developed by Joseph Pilates, that builds core strength, flexibility and posture.",
+ "description": {
+  "text": "A mind-body exercise method developed in the early 20th century by Joseph Pilates, who called it Contrology. It is practiced worldwide, and evidence that it relieves problems such as lower back pain is limited.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "Pilates",
+   "page_id": 491936,
+   "rev_id": 1371987153,
+   "rev_timestamp": "2026-08-29T18:44:47Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=Pilates&oldid=1371987153",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "pilates",
  "certification": false,
  "variants": [],
@@ -99,6 +114,44 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "external-2026-10-29-gpt-6-unknown"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-f",
+   "note": "adapted from the lead of Wikipedia: Pilates, revision 1371987153"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=Pilates&oldid=1371987153",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-f",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "491936",
+    "method": "title",
+    "categories": [
+     "Pilates",
+     "Bodyweight exercises",
+     "Physical culture",
+     "Physical exercise",
+     "Mind–body interventions"
+    ]
+   }
   }
  ]
 }

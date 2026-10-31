@@ -3,6 +3,21 @@
  "preferred_name": "Engineering mathematics",
  "kind": "knowledge",
  "definition": "The mathematics, such as calculus, linear algebra and differential equations, used to model and solve engineering problems.",
+ "description": {
+  "text": "A branch of applied mathematics covering the mathematical methods and techniques typically used in engineering and industry. It is an interdisciplinary subject motivated by the needs of engineers.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "Engineering mathematics",
+   "page_id": 5381408,
+   "rev_id": 1371073940,
+   "rev_timestamp": "2026-08-24T12:23:03Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=Engineering_mathematics&oldid=1371073940",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "engineering-mathematics",
  "certification": false,
  "variants": [],
@@ -99,6 +114,40 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "external-2026-10-29-gpt-6-unknown"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-c",
+   "note": "adapted from the lead of Wikipedia: Engineering mathematics, revision 1371073940"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=Engineering_mathematics&oldid=1371073940",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-c",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "5381408",
+    "method": "title",
+    "categories": [
+     "Applied mathematics"
+    ]
+   }
   }
  ]
 }

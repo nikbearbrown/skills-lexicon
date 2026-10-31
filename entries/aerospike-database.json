@@ -3,6 +3,21 @@
  "preferred_name": "Aerospike Database",
  "kind": "tool",
  "definition": "A distributed NoSQL database built for fast, large-scale key-value access.",
+ "description": {
+  "text": "A real-time, high-performance NoSQL database for applications that cannot have downtime and need high read and write throughput. It offers key-value, JSON document, graph and vector-search models.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "Aerospike (database)",
+   "page_id": 37374068,
+   "rev_id": 1326499206,
+   "rev_timestamp": "2025-12-09T07:47:02Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=Aerospike_(database)&oldid=1326499206",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "aerospike-database",
  "certification": false,
  "variants": [
@@ -170,6 +185,48 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "external-2026-10-29-muse-spark-1-3-xhigh"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-a",
+   "note": "adapted from the lead of Wikipedia: Aerospike (database), revision 1326499206"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=Aerospike_(database)&oldid=1326499206",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-a",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "37374068",
+    "method": "title",
+    "categories": [
+     "Client-server database management systems",
+     "Distributed data stores",
+     "Distributed computing architecture",
+     "Document-oriented databases",
+     "Free database management systems",
+     "Key-value databases",
+     "NoSQL",
+     "Software using the GNU Affero General Public License",
+     "Structured storage"
+    ]
+   }
   }
  ]
 }

@@ -3,6 +3,21 @@
  "preferred_name": "Safe Drinking Water Act",
  "kind": "standard",
  "definition": "The US federal law that sets standards for the quality of public drinking water and requires water systems to meet them.",
+ "description": {
+  "text": "The primary US federal law intended to ensure safe drinking water for the public. It requires the Environmental Protection Agency to set drinking water quality standards and oversee the states, localities and water suppliers that apply them to public water systems.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "Safe Drinking Water Act",
+   "page_id": 3129799,
+   "rev_id": 1366077279,
+   "rev_timestamp": "2026-07-26T03:45:45Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=Safe_Drinking_Water_Act&oldid=1366077279",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "safe-drinking-water-act",
  "certification": false,
  "variants": [
@@ -149,6 +164,45 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "external-2026-10-29-gpt-6-unknown"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-f",
+   "note": "adapted from the lead of Wikipedia: Safe Drinking Water Act, revision 1366077279"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=Safe_Drinking_Water_Act&oldid=1366077279",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-f",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "3129799",
+    "method": "title",
+    "categories": [
+     "1974 in law",
+     "1974 in the environment",
+     "1974 in the United States",
+     "Drinking water regulation",
+     "United States federal environmental legislation",
+     "Water supply and sanitation in the United States"
+    ]
+   }
   }
  ]
 }

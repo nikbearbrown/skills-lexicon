@@ -7,6 +7,21 @@
  "preferred_name": "TensorFlow",
  "kind": "library",
  "definition": "Building and executing machine-learning models with TensorFlow.",
+ "description": {
+  "text": "A free, open-source software library for machine learning and AI, used mainly for training and inference of neural networks. It is one of the most popular deep learning frameworks and was developed by the Google Brain team.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "TensorFlow",
+   "page_id": 48508507,
+   "rev_id": 1375102350,
+   "rev_timestamp": "2026-09-15T22:00:33Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=TensorFlow&oldid=1375102350",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "variants": [],
  "relations": [],
  "verbs": [],
@@ -50,6 +65,48 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "external-2026-10-29-gpt-6-unknown"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-g",
+   "note": "adapted from the lead of Wikipedia: TensorFlow, revision 1375102350"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=TensorFlow&oldid=1375102350",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-g",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "48508507",
+    "method": "title",
+    "categories": [
+     "Deep learning software",
+     "Free software programmed in C++",
+     "Free software programmed in Python",
+     "Free statistical software",
+     "Google software",
+     "Open-source artificial intelligence",
+     "Python (programming language) scientific libraries",
+     "Software using the Apache license",
+     "2015 software"
+    ]
+   }
   }
  ]
 }

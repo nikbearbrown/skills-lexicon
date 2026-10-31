@@ -3,6 +3,21 @@
  "preferred_name": "Selenium",
  "kind": "framework",
  "definition": "An open-source suite for automating web browsers, mainly used to write automated tests for web applications.",
+ "description": {
+  "text": "An open source umbrella project of tools and libraries for browser automation. It includes a playback tool for writing functional tests across modern browsers (Selenium IDE) and a test language (Selenese) for writing tests in languages such as Java, Python, C# and JavaScript.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "Selenium (software)",
+   "page_id": 4544097,
+   "rev_id": 1371333749,
+   "rev_timestamp": "2026-08-25T23:17:09Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=Selenium_(software)&oldid=1371333749",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "selenium",
  "certification": false,
  "variants": [],
@@ -109,6 +124,45 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "external-2026-10-29-gpt-6-unknown"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-f",
+   "note": "adapted from the lead of Wikipedia: Selenium (software), revision 1371333749"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=Selenium_(software)&oldid=1371333749",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-f",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "4544097",
+    "method": "title",
+    "categories": [
+     "Graphical user interface testing",
+     "Load testing tools",
+     "Unit testing frameworks",
+     "Web development software",
+     "Software testing tools",
+     "Open source projects"
+    ]
+   }
   }
  ]
 }

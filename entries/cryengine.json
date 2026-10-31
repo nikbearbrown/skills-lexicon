@@ -3,6 +3,21 @@
  "preferred_name": "CryEngine",
  "kind": "tool",
  "definition": "A game engine from Crytek for building 3D games and real-time visualisations.",
+ "description": {
+  "text": "A game engine designed by the German developer Crytek, used in all of its titles starting with Far Cry. It has also been used for third-party games under Crytek's licensing scheme.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "CryEngine",
+   "page_id": 1241866,
+   "rev_id": 1375501089,
+   "rev_timestamp": "2026-09-18T04:21:46Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=CryEngine&oldid=1375501089",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "cryengine",
  "certification": false,
  "variants": [
@@ -130,6 +145,49 @@
    "date": "2026-10-29",
    "run": "external-2026-10-29-gpt-6-unknown",
    "note": "CryEngine is the product name; this pluralized form is not an established alternate name."
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-b",
+   "note": "adapted from the lead of Wikipedia: CryEngine, revision 1375501089"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=CryEngine&oldid=1375501089",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-b",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "1241866",
+    "method": "title",
+    "categories": [
+     "2004 software",
+     "Game engines for Linux",
+     "Game engines that support Mantle (API)",
+     "Lua (programming language)-scriptable game engines",
+     "Proprietary software that uses Qt",
+     "Video game development software",
+     "Video game engines",
+     ".NET game engines",
+     "Virtual reality",
+     "Far Cry"
+    ]
+   }
   }
  ]
 }

@@ -3,6 +3,21 @@
  "preferred_name": "D3.js",
  "kind": "library",
  "definition": "A JavaScript library for binding data to page elements and building interactive data visualisations with SVG, HTML and CSS.",
+ "description": {
+  "text": "A JavaScript library for producing dynamic, interactive data visualizations in web browsers, short for Data-Driven Documents. It uses SVG, HTML5 and CSS standards and succeeded the earlier Protovis framework.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "D3.js",
+   "page_id": 36177168,
+   "rev_id": 1372698578,
+   "rev_timestamp": "2026-09-01T21:31:40Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=D3.js&oldid=1372698578",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "d3-js",
  "certification": false,
  "variants": [],
@@ -128,6 +143,47 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "external-2026-10-29-gpt-6-unknown"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-b",
+   "note": "adapted from the lead of Wikipedia: D3.js, revision 1372698578"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=D3.js&oldid=1372698578",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-b",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "36177168",
+    "method": "title",
+    "categories": [
+     "Articles with example JavaScript code",
+     "D3.js",
+     "Free data analysis software",
+     "Free software programmed in JavaScript",
+     "JavaScript libraries",
+     "JavaScript visualization toolkits",
+     "Software using the BSD license",
+     "Visualization API"
+    ]
+   }
   }
  ]
 }

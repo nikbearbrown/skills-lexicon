@@ -3,6 +3,21 @@
  "preferred_name": "Next.js",
  "kind": "framework",
  "definition": "A React-based framework for building server-rendered and static web applications.",
+ "description": {
+  "text": "An open-source full-stack web development framework created by Vercel that provides React-based web applications with server-side and static rendering. Traditional React apps render only in the browser, while Next.js adds rendering on the server.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "Next.js",
+   "page_id": 60172264,
+   "rev_id": 1363663882,
+   "rev_timestamp": "2026-07-11T15:21:04Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=Next.js&oldid=1363663882",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "next-js",
  "certification": false,
  "variants": [],
@@ -128,6 +143,42 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "external-2026-10-29-gpt-6-unknown"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-e",
+   "note": "adapted from the lead of Wikipedia: Next.js, revision 1363663882"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=Next.js&oldid=1363663882",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-e",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "60172264",
+    "method": "title",
+    "categories": [
+     "JavaScript web frameworks",
+     "Software using the MIT license",
+     "Free static website generators"
+    ]
+   }
   }
  ]
 }

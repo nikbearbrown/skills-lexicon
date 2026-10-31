@@ -3,6 +3,21 @@
  "preferred_name": "Engineering economics",
  "kind": "knowledge",
  "definition": "The application of economic analysis, such as cost-benefit comparison, present worth and break-even analysis, to engineering decisions.",
+ "description": {
+  "text": "A subset of economics, previously called engineering economy, concerned with applying economic principles to engineering decisions. It draws on microeconomics and studies how individuals and firms decide how to allocate limited resources.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "Engineering economics",
+   "page_id": 7977203,
+   "rev_id": 1377287070,
+   "rev_timestamp": "2026-09-28T18:31:18Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=Engineering_economics&oldid=1377287070",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "engineering-economics",
  "certification": false,
  "variants": [],
@@ -99,6 +114,44 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "external-2026-10-29-gpt-6-unknown"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-c",
+   "note": "adapted from the lead of Wikipedia: Engineering economics, revision 1377287070"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=Engineering_economics&oldid=1377287070",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-c",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "7977203",
+    "method": "title",
+    "categories": [
+     "Business economics",
+     "Engineering economics",
+     "Cost engineering",
+     "Civil engineering",
+     "Economic theories"
+    ]
+   }
   }
  ]
 }

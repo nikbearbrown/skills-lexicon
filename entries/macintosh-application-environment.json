@@ -3,6 +3,21 @@
  "preferred_name": "Macintosh Application Environment",
  "kind": "platform",
  "definition": "Apple software from the mid-1990s that let Mac OS applications run on Unix workstations.",
+ "description": {
+  "text": "The Macintosh Application Environment (MAE) was a software package introduced by Apple in 1994 that let certain Unix-based workstations run System 7 and its application software.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "Macintosh Application Environment",
+   "page_id": 3655129,
+   "rev_id": 1252174241,
+   "rev_timestamp": "2024-10-20T04:47:25Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=Macintosh_Application_Environment&oldid=1252174241",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "macintosh-application-environment",
  "certification": false,
  "variants": [],
@@ -100,6 +115,42 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "external-2026-10-29-gpt-6-unknown"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-d",
+   "note": "adapted from the lead of Wikipedia: Macintosh Application Environment, revision 1252174241"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=Macintosh_Application_Environment&oldid=1252174241",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-d",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "3655129",
+    "method": "title",
+    "categories": [
+     "Apple Inc. software",
+     "Unix emulation software",
+     "Products introduced in 1994"
+    ]
+   }
   }
  ]
 }

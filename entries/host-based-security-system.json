@@ -3,6 +3,21 @@
  "preferred_name": "Host Based Security System",
  "kind": "platform",
  "definition": "The US Department of Defense's endpoint security suite, built on McAfee ePolicy Orchestrator, for monitoring and protecting hosts.",
+ "description": {
+  "text": "The Host Based Security System (HBSS) is the commercial software suite the US Department of Defense uses to monitor, detect and defend its computer networks and systems.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "Host Based Security System",
+   "page_id": 31285693,
+   "rev_id": 1356487750,
+   "rev_timestamp": "2026-05-28T02:14:04Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=Host_Based_Security_System&oldid=1356487750",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "host-based-security-system",
  "certification": false,
  "variants": [
@@ -157,6 +172,42 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "external-2026-10-29-gpt-6-unknown"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-d",
+   "note": "adapted from the lead of Wikipedia: Host Based Security System, revision 1356487750"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=Host_Based_Security_System&oldid=1356487750",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-d",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "31285693",
+    "method": "title",
+    "categories": [
+     "United States Department of Defense",
+     "Computer security",
+     "Computer networking"
+    ]
+   }
   }
  ]
 }

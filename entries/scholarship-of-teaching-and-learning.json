@@ -3,6 +3,21 @@
  "preferred_name": "Scholarship of teaching and learning",
  "kind": "knowledge",
  "definition": "The systematic study of teaching and student learning, with the findings made public so that others can build on them.",
+ "description": {
+  "text": "Systematic inquiry into student learning that advances teaching practice in higher education by making the findings public. Five principles for good practice are inquiry focused on student learning, grounded in context, methodologically sound, done in partnership with students, and appropriately public.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "Scholarship of teaching and learning",
+   "page_id": 4107919,
+   "rev_id": 1352713997,
+   "rev_timestamp": "2026-05-05T20:51:27Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=Scholarship_of_teaching_and_learning&oldid=1352713997",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "scholarship-of-teaching-and-learning",
  "certification": false,
  "variants": [
@@ -156,6 +171,41 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "external-2026-10-29-gpt-6-unknown"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-f",
+   "note": "adapted from the lead of Wikipedia: Scholarship of teaching and learning, revision 1352713997"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=Scholarship_of_teaching_and_learning&oldid=1352713997",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-f",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "4107919",
+    "method": "title",
+    "categories": [
+     "Teaching",
+     "Education by method"
+    ]
+   }
   }
  ]
 }

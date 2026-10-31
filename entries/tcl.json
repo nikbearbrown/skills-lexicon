@@ -3,6 +3,21 @@
  "preferred_name": "Tcl",
  "kind": "programming-language",
  "definition": "A dynamic scripting language, short for Tool Command Language, created by John Ousterhout.",
+ "description": {
+  "text": "A high-level, general-purpose, interpreted, dynamic programming language, originally Tool Command Language. It was designed to be simple but powerful, and treats everything as a command, even variable assignment and procedure definition.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "Tcl (programming language)",
+   "page_id": 39880682,
+   "rev_id": 1366336528,
+   "rev_timestamp": "2026-07-27T12:37:17Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=Tcl_(programming_language)&oldid=1366336528",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "tcl",
  "name_match": "exact_case",
  "certification": false,
@@ -146,6 +161,54 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "2026-10-29-review-4e-opus"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-g",
+   "note": "adapted from the lead of Wikipedia: Tcl (programming language), revision 1366336528"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=Tcl_(programming_language)&oldid=1366336528",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-g",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "39880682",
+    "method": "title",
+    "categories": [
+     "American inventions",
+     "Cross-platform free software",
+     "Cross-platform software",
+     "Dynamically typed programming languages",
+     "Free and open source interpreters",
+     "Free software programmed in C",
+     "High-level programming languages",
+     "Multi-paradigm programming languages",
+     "Object-oriented programming languages",
+     "Procedural programming languages",
+     "Programming languages created in 1988",
+     "Scripting languages",
+     "Tcl programming language family",
+     "Text-oriented programming languages",
+     "Homoiconic programming languages"
+    ]
+   }
   }
  ]
 }

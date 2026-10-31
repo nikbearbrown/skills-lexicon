@@ -3,6 +3,21 @@
  "preferred_name": "MicroBlaze",
  "kind": "tool",
  "definition": "A soft-core processor design from Xilinx (now AMD) that is built from programmable logic in an FPGA.",
+ "description": {
+  "text": "A soft microprocessor core designed for Xilinx field-programmable gate arrays (FPGAs). It is implemented entirely in the FPGA's general-purpose memory and logic fabric.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "MicroBlaze",
+   "page_id": 1754605,
+   "rev_id": 1325827299,
+   "rev_timestamp": "2025-12-05T12:08:52Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=MicroBlaze&oldid=1325827299",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "microblaze",
  "certification": false,
  "variants": [],
@@ -100,6 +115,40 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "external-2026-10-29-gpt-6-unknown"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-e",
+   "note": "adapted from the lead of Wikipedia: MicroBlaze, revision 1325827299"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=MicroBlaze&oldid=1325827299",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-e",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "1754605",
+    "method": "title",
+    "categories": [
+     "Soft microprocessors"
+    ]
+   }
   }
  ]
 }

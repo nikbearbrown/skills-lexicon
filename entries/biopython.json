@@ -3,6 +3,21 @@
  "preferred_name": "Biopython",
  "kind": "library",
  "definition": "An open-source Python library of tools for computational biology and bioinformatics, such as reading sequence files and working with protein structures.",
+ "description": {
+  "text": "An open-source collection of non-commercial Python modules for computational biology and bioinformatics. It gives researchers well-tested, reusable code so they can focus on scientific questions.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "Biopython",
+   "page_id": 559868,
+   "rev_id": 1361406744,
+   "rev_timestamp": "2026-06-27T19:23:32Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=Biopython&oldid=1361406744",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "biopython",
  "certification": false,
  "variants": [],
@@ -128,6 +143,45 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "external-2026-10-29-gpt-6-unknown"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-a",
+   "note": "adapted from the lead of Wikipedia: Biopython, revision 1361406744"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=Biopython&oldid=1361406744",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-a",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "559868",
+    "method": "title",
+    "categories": [
+     "Articles with example Python (programming language) code",
+     "Bioinformatics software",
+     "Computational science",
+     "Python (programming language) scientific libraries",
+     "Free bioinformatics software",
+     "Software using the BSD license"
+    ]
+   }
   }
  ]
 }

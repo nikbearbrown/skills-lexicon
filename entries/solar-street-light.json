@@ -3,6 +3,21 @@
  "preferred_name": "Solar street light",
  "kind": "tool",
  "definition": "A street lamp powered by a solar panel and battery that switches on automatically at dusk.",
+ "description": {
+  "text": "A raised light source powered by solar panels mounted on the lighting structure or pole. The panels charge a rechargeable battery that powers a fluorescent or LED lamp at night.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "Solar street light",
+   "page_id": 32385824,
+   "rev_id": 1252486368,
+   "rev_timestamp": "2024-10-21T15:37:33Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=Solar_street_light&oldid=1252486368",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "solar-street-light",
  "certification": false,
  "variants": [],
@@ -99,6 +114,42 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "external-2026-10-29-gpt-6-unknown"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-g",
+   "note": "adapted from the lead of Wikipedia: Solar street light, revision 1252486368"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=Solar_street_light&oldid=1252486368",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-g",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "32385824",
+    "method": "title",
+    "categories": [
+     "Solar energy",
+     "Street lighting",
+     "Applications of photovoltaics"
+    ]
+   }
   }
  ]
 }

@@ -3,6 +3,21 @@
  "preferred_name": "Movable Type",
  "kind": "platform",
  "definition": "A blogging and website content management platform first released by Six Apart in 2001.",
+ "description": {
+  "text": "A weblog publishing system developed by the company Six Apart, publicly released in 2001. It is proprietary software, though an open-source version was offered under the GPL from 2007 to 2013.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "Movable Type",
+   "page_id": 304871,
+   "rev_id": 1378936585,
+   "rev_timestamp": "2026-10-07T00:32:16Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=Movable_Type&oldid=1378936585",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "movable-type",
  "certification": false,
  "variants": [],
@@ -99,6 +114,44 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "external-2026-10-29-gpt-6-unknown"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-e",
+   "note": "adapted from the lead of Wikipedia: Movable Type, revision 1378936585"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=Movable_Type&oldid=1378936585",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-e",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "304871",
+    "method": "title",
+    "categories": [
+     "Content management systems",
+     "Software programmed in Perl",
+     "Blog software",
+     "2001 software",
+     "Blog hosting services"
+    ]
+   }
   }
  ]
 }

@@ -3,6 +3,21 @@
  "preferred_name": "Kokborok",
  "kind": "human-language",
  "definition": "A Tibeto-Burman language spoken mainly in Tripura, India, and in Bangladesh, also called Tripuri.",
+ "description": {
+  "text": "Kokborok, or Tripuri, is a Tibeto-Burman language of the Indian state of Tripura and neighbouring areas of Bangladesh. It is one of the ancient languages of Northeast India.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "Kokborok",
+   "page_id": 1039080,
+   "rev_id": 1378187763,
+   "rev_timestamp": "2026-10-03T10:42:06Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=Kokborok&oldid=1378187763",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "kokborok",
  "certification": false,
  "language_type": "human",
@@ -142,6 +157,49 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "2026-10-29-review-4e-opus"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-d",
+   "note": "adapted from the lead of Wikipedia: Kokborok, revision 1378187763"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=Kokborok&oldid=1378187763",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-d",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "1039080",
+    "method": "title",
+    "categories": [
+     "Kokborok",
+     "Languages of Assam",
+     "Languages of Bangladesh",
+     "Languages of Mizoram",
+     "Languages of Myanmar",
+     "Languages of Tripura",
+     "Languages of West Bengal",
+     "Sal languages",
+     "Vulnerable languages",
+     "Tripuri culture"
+    ]
+   }
   }
  ]
 }

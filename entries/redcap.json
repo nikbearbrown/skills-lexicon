@@ -3,6 +3,21 @@
  "preferred_name": "REDCap",
  "kind": "tool",
  "definition": "A web application, developed at Vanderbilt University, for building and managing online surveys and research databases.",
+ "description": {
+  "text": "A browser-based, metadata-driven electronic data capture software and workflow methodology for designing clinical and translational research databases. It is widely used in academic research through the international REDCap Consortium.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "REDCap",
+   "page_id": 28309569,
+   "rev_id": 1347893298,
+   "rev_timestamp": "2026-04-09T13:22:41Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=REDCap&oldid=1347893298",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "redcap",
  "certification": false,
  "variants": [
@@ -185,6 +200,41 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "external-2026-10-29-gpt-6-unknown"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-f",
+   "note": "adapted from the lead of Wikipedia: REDCap, revision 1347893298"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=REDCap&oldid=1347893298",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-f",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "28309569",
+    "method": "title",
+    "categories": [
+     "Medical software",
+     "Medical databases"
+    ]
+   }
   }
  ]
 }

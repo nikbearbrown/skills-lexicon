@@ -3,6 +3,21 @@
  "preferred_name": "VisSim",
  "kind": "tool",
  "definition": "A visual block-diagram program for modelling and simulating dynamic systems.",
+ "description": {
+  "text": "A visual block diagram program, with its own visual language, for simulating dynamical systems and model-based design of embedded systems. Its products have been rebranded as Altair Embed.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "VisSim",
+   "page_id": 3545503,
+   "rev_id": 1333815536,
+   "rev_timestamp": "2026-01-19T22:29:48Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=VisSim&oldid=1333815536",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "vissim",
  "certification": false,
  "variants": [
@@ -97,6 +112,45 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "2026-10-29-review-5q-opus"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-g",
+   "note": "adapted from the lead of Wikipedia: VisSim, revision 1333815536"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=VisSim&oldid=1333815536",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-g",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "3545503",
+    "method": "title",
+    "categories": [
+     "Mathematical modeling",
+     "Numerical software",
+     "Real-time simulation",
+     "Simulation programming languages",
+     "Visual programming languages",
+     "Articles containing video clips"
+    ]
+   }
   }
  ]
 }

@@ -3,6 +3,21 @@
  "preferred_name": "Korean",
  "kind": "human-language",
  "definition": "The language of Korea, written in the Hangul script and spoken in North and South Korea.",
+ "description": {
+  "text": "Korean is a Koreanic language native to Korea, with about 81 million speakers. It is the official language of both North and South Korea and is written in the Hangul alphabet.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "Korean language",
+   "page_id": 16756,
+   "rev_id": 1378858461,
+   "rev_timestamp": "2026-10-06T15:12:59Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=Korean_language&oldid=1378858461",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "korean",
  "certification": false,
  "language_type": "human",
@@ -134,6 +149,47 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "2026-10-29-review-4e-opus"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-d",
+   "note": "adapted from the lead of Wikipedia: Korean language, revision 1378858461"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=Korean_language&oldid=1378858461",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-d",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "16756",
+    "method": "redirect",
+    "categories": [
+     "Korean language",
+     "Agglutinative languages",
+     "Languages attested since the 4th century",
+     "Languages of North Korea",
+     "Languages of South Korea",
+     "National symbols of Korea",
+     "Subject–object–verb languages",
+     "Syllable-timed languages"
+    ]
+   }
   }
  ]
 }

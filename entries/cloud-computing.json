@@ -7,6 +7,21 @@
  "preferred_name": "Cloud computing",
  "kind": "knowledge",
  "definition": "Designing and using remotely provisioned computing services.",
+ "description": {
+  "text": "A model, defined by ISO, for network access to a scalable, elastic pool of shareable physical or virtual resources with self-service provisioning and administration on demand. It is commonly called the cloud.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "Cloud computing",
+   "page_id": 19541494,
+   "rev_id": 1378671266,
+   "rev_timestamp": "2026-10-05T16:11:16Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=Cloud_computing&oldid=1378671266",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "variants": [],
  "relations": [],
  "verbs": [],
@@ -50,6 +65,41 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "external-2026-10-29-gpt-6-unknown"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-b",
+   "note": "adapted from the lead of Wikipedia: Cloud computing, revision 1378671266"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=Cloud_computing&oldid=1378671266",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-b",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "19541494",
+    "method": "title",
+    "categories": [
+     "Cloud computing",
+     "Cloud infrastructure"
+    ]
+   }
   }
  ]
 }

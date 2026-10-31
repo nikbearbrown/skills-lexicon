@@ -3,6 +3,21 @@
  "preferred_name": "Simple Mail Transfer Protocol",
  "kind": "standard",
  "definition": "The internet protocol used to send email from mail clients to servers and between mail servers.",
+ "description": {
+  "text": "An Internet standard communication protocol for electronic mail transmission. Mail servers and other message transfer agents use it to send and receive mail, and email clients typically use it only to send messages to a server, with IMAP and POP used for retrieval.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "Simple Mail Transfer Protocol",
+   "page_id": 27675,
+   "rev_id": 1377691516,
+   "rev_timestamp": "2026-09-30T16:28:54Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=Simple_Mail_Transfer_Protocol&oldid=1377691516",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "simple-mail-transfer-protocol",
  "certification": false,
  "variants": [
@@ -157,6 +172,40 @@
    "date": "2026-10-29",
    "run": "external-2026-10-29-gpt-6-unknown",
    "note": "SMTP names one specific protocol; the plural is not its standard name."
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-f",
+   "note": "adapted from the lead of Wikipedia: Simple Mail Transfer Protocol, revision 1377691516"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=Simple_Mail_Transfer_Protocol&oldid=1377691516",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-f",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "27675",
+    "method": "title",
+    "categories": [
+     "Internet mail protocols"
+    ]
+   }
   }
  ]
 }

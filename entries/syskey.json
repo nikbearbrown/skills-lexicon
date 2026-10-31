@@ -3,6 +3,21 @@
  "preferred_name": "Syskey",
  "kind": "tool",
  "definition": "A legacy Windows utility that protected the account database with an extra startup key or password; Microsoft removed it in Windows 10 version 1709.",
+ "description": {
+  "text": "A discontinued Windows NT component, also called the SAM Lock Tool, that encrypted the Security Account Manager database with a 128-bit RC4 key. It was removed in 2017 because its cryptography is considered insecure.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "Syskey",
+   "page_id": 472823,
+   "rev_id": 1370648902,
+   "rev_timestamp": "2026-08-22T07:56:26Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=Syskey&oldid=1370648902",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "syskey",
  "certification": false,
  "variants": [],
@@ -75,6 +90,42 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "2026-10-29-review-5p-opus"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-g",
+   "note": "adapted from the lead of Wikipedia: Syskey, revision 1370648902"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=Syskey&oldid=1370648902",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-g",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "472823",
+    "method": "title",
+    "categories": [
+     "Cryptographic software",
+     "Microsoft Windows security technology",
+     "Windows administration"
+    ]
+   }
   }
  ]
 }

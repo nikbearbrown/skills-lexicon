@@ -3,6 +3,21 @@
  "preferred_name": "Extended reality",
  "kind": "knowledge",
  "definition": "An umbrella term for technologies that combine real and virtual environments, including virtual, augmented and mixed reality.",
+ "description": {
+  "text": "An umbrella term (XR) for immersive technologies including augmented reality and virtual reality, and ways to blend between and go beyond them. It aims to give users an immersive experience in a virtual, augmented, intelligent or digital environment.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "Extended reality",
+   "page_id": 46512443,
+   "rev_id": 1374287632,
+   "rev_timestamp": "2026-09-11T01:52:08Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=Extended_reality&oldid=1374287632",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "extended-reality",
  "certification": false,
  "variants": [
@@ -158,6 +173,45 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "external-2026-10-29-gpt-6-unknown"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-c",
+   "note": "adapted from the lead of Wikipedia: Extended reality, revision 1374287632"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=Extended_reality&oldid=1374287632",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-c",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "46512443",
+    "method": "title",
+    "categories": [
+     "Extended reality",
+     "User interface techniques",
+     "Wearable computers",
+     "Wearable devices",
+     "Subfields of computer science",
+     "Science fiction themes"
+    ]
+   }
   }
  ]
 }

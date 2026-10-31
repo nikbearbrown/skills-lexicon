@@ -3,6 +3,21 @@
  "preferred_name": "Professionalism",
  "kind": "skill",
  "definition": "Behaving in line with the standards of conduct, reliability and courtesy expected in a workplace.",
+ "description": {
+  "text": "A set of standards an individual is expected to follow in a workplace, usually to appear serious, uniform or respectful. It is typically a mix of professional ethics, appropriate behavior and dress code, and varies between workplaces and cultures.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "Professionalism",
+   "page_id": 1792026,
+   "rev_id": 1361804318,
+   "rev_timestamp": "2026-06-30T05:10:50Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=Professionalism&oldid=1361804318",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "professionalism",
  "certification": false,
  "variants": [],
@@ -99,6 +114,43 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "external-2026-10-29-gpt-6-unknown"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-f",
+   "note": "adapted from the lead of Wikipedia: Professionalism, revision 1361804318"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=Professionalism&oldid=1361804318",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-f",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "1792026",
+    "method": "title",
+    "categories": [
+     "Corporate jargon",
+     "Business terms",
+     "Workwear",
+     "Brand management"
+    ]
+   }
   }
  ]
 }

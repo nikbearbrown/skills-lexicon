@@ -3,6 +3,21 @@
  "preferred_name": "Protein-protein interaction",
  "kind": "knowledge",
  "definition": "The physical contacts between proteins that carry out biological functions, and the methods used to detect and study them.",
+ "description": {
+  "text": "Physical contacts of high specificity between two or more protein molecules, caused by biochemical events and forces such as electrostatic forces, hydrogen bonding and the hydrophobic effect. Many cellular molecular processes are carried out by such interactions.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "Protein–protein interaction",
+   "page_id": 2161878,
+   "rev_id": 1372525531,
+   "rev_timestamp": "2026-09-01T03:00:51Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=Protein%E2%80%93protein_interaction&oldid=1372525531",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "protein-protein-interaction",
  "certification": false,
  "variants": [
@@ -128,6 +143,47 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "external-2026-10-29-gpt-6-unknown"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-f",
+   "note": "adapted from the lead of Wikipedia: Protein–protein interaction, revision 1372525531"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=Protein%E2%80%93protein_interaction&oldid=1372525531",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-f",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "2161878",
+    "method": "title",
+    "categories": [
+     "Proteomics",
+     "Signal transduction",
+     "Biophysics",
+     "Biochemistry methods",
+     "Biotechnology",
+     "Quantum chemistry",
+     "Protein–protein interaction assays",
+     "Protein complexes"
+    ]
+   }
   }
  ]
 }

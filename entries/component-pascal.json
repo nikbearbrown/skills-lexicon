@@ -3,6 +3,21 @@
  "preferred_name": "Component Pascal",
  "kind": "programming-language",
  "definition": "A programming language in the Pascal and Oberon tradition, a refinement of Oberon-2 designed by Oberon microsystems.",
+ "description": {
+  "text": "A programming language in the tradition of Pascal, Modula-2 and Oberon. It is a minor variant and refinement of Oberon-2 with a more expressive type system and built-in string support, and is incompatible with Pascal.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "Component Pascal",
+   "page_id": 357599,
+   "rev_id": 1373333587,
+   "rev_timestamp": "2026-09-05T11:00:54Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=Component_Pascal&oldid=1373333587",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "component-pascal",
  "certification": false,
  "language_type": "programming",
@@ -125,6 +140,43 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "2026-10-29-review-4d-opus"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-b",
+   "note": "adapted from the lead of Wikipedia: Component Pascal, revision 1373333587"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=Component_Pascal&oldid=1373333587",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-b",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "357599",
+    "method": "title",
+    "categories": [
+     ".NET programming languages",
+     "Oberon programming language family",
+     "Modula programming language family",
+     "Component-based software engineering"
+    ]
+   }
   }
  ]
 }

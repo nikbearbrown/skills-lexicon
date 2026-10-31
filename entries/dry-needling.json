@@ -3,6 +3,21 @@
  "preferred_name": "Dry needling",
  "kind": "method",
  "definition": "A therapy technique in which thin needles are inserted into myofascial trigger points to relieve pain and improve movement.",
+ "description": {
+  "text": "A treatment technique, also called trigger point dry needling, used by healthcare practitioners such as physical therapists, physicians and chiropractors. It involves inserting solid or hollow needles; some see it as adapted from acupuncture, others as a variation of trigger point injections.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "Dry needling",
+   "page_id": 7236219,
+   "rev_id": 1362352202,
+   "rev_timestamp": "2026-07-03T11:07:07Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=Dry_needling&oldid=1362352202",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "dry-needling",
  "certification": false,
  "variants": [],
@@ -100,6 +115,45 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "external-2026-10-29-gpt-6-unknown"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-c",
+   "note": "adapted from the lead of Wikipedia: Dry needling, revision 1362352202"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=Dry_needling&oldid=1362352202",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-c",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "7236219",
+    "method": "title",
+    "categories": [
+     "Alternative medicine",
+     "Acupuncture",
+     "Chiropractic",
+     "Pain management",
+     "Physical therapy",
+     "Pseudoscience"
+    ]
+   }
   }
  ]
 }

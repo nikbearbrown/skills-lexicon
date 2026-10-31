@@ -3,6 +3,21 @@
  "preferred_name": "Intraoperative neurophysiological monitoring",
  "kind": "skill",
  "definition": "Using electrical tests such as EEG, evoked potentials and EMG during surgery to monitor the nervous system and warn the surgeon of possible injury.",
+ "description": {
+  "text": "Intraoperative neurophysiological monitoring uses methods such as EEG, EMG and evoked potentials to monitor nerves, the spinal cord and parts of the brain during surgery. Its purpose is to reduce the risk of nervous system damage to the patient.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "Intraoperative neurophysiological monitoring",
+   "page_id": 2539375,
+   "rev_id": 1361618891,
+   "rev_timestamp": "2026-06-29T02:23:21Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=Intraoperative_neurophysiological_monitoring&oldid=1361618891",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "intraoperative-neurophysiological-monitoring",
  "certification": false,
  "variants": [
@@ -241,6 +256,45 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "external-2026-10-29-gpt-6-unknown"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-d",
+   "note": "adapted from the lead of Wikipedia: Intraoperative neurophysiological monitoring, revision 1361618891"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=Intraoperative_neurophysiological_monitoring&oldid=1361618891",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-d",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "2539375",
+    "method": "title",
+    "categories": [
+     "Diagnostic neurology",
+     "Diagnostic surgery",
+     "Electrodiagnosis",
+     "Electroencephalography",
+     "Anesthesia",
+     "Medical monitoring"
+    ]
+   }
   }
  ]
 }

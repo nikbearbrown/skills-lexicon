@@ -3,6 +3,21 @@
  "preferred_name": "Group work",
  "kind": "skill",
  "definition": "Working with other people in a group toward a shared task or goal.",
+ "description": {
+  "text": "A form of voluntary association of members benefiting from cooperative learning, intended to raise the total output compared with working alone. It aims to cater for individual differences and develop skills such as communication, collaboration and critical thinking.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "Group work",
+   "page_id": 18816139,
+   "rev_id": 1319602972,
+   "rev_timestamp": "2025-10-30T20:02:04Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=Group_work&oldid=1319602972",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "group-work",
  "certification": false,
  "variants": [],
@@ -99,6 +114,42 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "external-2026-10-29-gpt-6-unknown"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-c",
+   "note": "adapted from the lead of Wikipedia: Group work, revision 1319602972"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=Group_work&oldid=1319602972",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-c",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "18816139",
+    "method": "title",
+    "categories": [
+     "Group psychotherapy",
+     "Group processes",
+     "Social work"
+    ]
+   }
   }
  ]
 }

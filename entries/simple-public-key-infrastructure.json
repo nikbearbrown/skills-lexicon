@@ -3,6 +3,21 @@
  "preferred_name": "Simple Public Key Infrastructure",
  "kind": "standard",
  "definition": "An IETF proposal for authorisation certificates that bind permissions to public keys instead of names, described in RFC 2693.",
+ "description": {
+  "text": "An attempt to overcome the complexity of traditional X.509 public key infrastructure, specified in two IETF RFCs that never went beyond experimental status. It defined an authorization certificate format for delineating privileges.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "Simple public-key infrastructure",
+   "page_id": 750227,
+   "rev_id": 1351449026,
+   "rev_timestamp": "2026-04-28T01:10:51Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=Simple_public-key_infrastructure&oldid=1351449026",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "simple-public-key-infrastructure",
  "certification": false,
  "variants": [
@@ -158,6 +173,40 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "external-2026-10-29-gpt-6-unknown"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-f",
+   "note": "adapted from the lead of Wikipedia: Simple public-key infrastructure, revision 1351449026"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=Simple_public-key_infrastructure&oldid=1351449026",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-f",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "750227",
+    "method": "title",
+    "categories": [
+     "Key management"
+    ]
+   }
   }
  ]
 }

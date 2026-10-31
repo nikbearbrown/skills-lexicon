@@ -3,6 +3,21 @@
  "preferred_name": "Secure coding",
  "kind": "skill",
  "definition": "Writing software in ways that avoid common security flaws, such as injection, unsafe input handling and memory errors.",
+ "description": {
+  "text": "The practice of developing software so as to guard against accidentally introducing security vulnerabilities. Most vulnerabilities come from a small number of common programming errors, so finding insecure coding practices and replacing them helps prevent them.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "Secure coding",
+   "page_id": 15975685,
+   "rev_id": 1362514479,
+   "rev_timestamp": "2026-07-04T13:25:43Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=Secure_coding&oldid=1362514479",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "secure-coding",
  "certification": false,
  "variants": [
@@ -156,6 +171,40 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "external-2026-10-29-gpt-6-unknown"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-f",
+   "note": "adapted from the lead of Wikipedia: Secure coding, revision 1362514479"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=Secure_coding&oldid=1362514479",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-f",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "15975685",
+    "method": "title",
+    "categories": [
+     "Computer security"
+    ]
+   }
   }
  ]
 }

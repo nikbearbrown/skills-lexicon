@@ -3,6 +3,21 @@
  "preferred_name": "Box Backup",
  "kind": "tool",
  "definition": "An open-source automatic online backup system with a client and a server.",
+ "description": {
+  "text": "An open-source, fully automatic online backup system in which client software sends backup data to a server. Data is encrypted with SSL and protected by a further layer of on-disk encryption.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "Box Backup",
+   "page_id": 31301934,
+   "rev_id": 1355697550,
+   "rev_timestamp": "2026-05-23T10:43:37Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=Box_Backup&oldid=1355697550",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "box-backup",
  "certification": false,
  "variants": [],
@@ -99,6 +114,46 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "external-2026-10-29-gpt-6-unknown"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-a",
+   "note": "adapted from the lead of Wikipedia: Box Backup, revision 1355697550"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=Box_Backup&oldid=1355697550",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-a",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "31301934",
+    "method": "title",
+    "categories": [
+     "Free software programmed in C++",
+     "Free backup software",
+     "Backup software for Linux",
+     "Backup software for Windows",
+     "Backup software for macOS",
+     "Software using the GNU General Public License",
+     "Software using the BSD license"
+    ]
+   }
   }
  ]
 }

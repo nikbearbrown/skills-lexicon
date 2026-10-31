@@ -3,6 +3,21 @@
  "preferred_name": "Julia",
  "kind": "programming-language",
  "definition": "A high-level, dynamic programming language designed for fast numerical and scientific computing.",
+ "description": {
+  "text": "Julia is a dynamic, general-purpose, high-level programming language. Its design features include parametric polymorphism, multiple dispatch as a core paradigm, just-in-time compilation and parallel garbage collection.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "Julia (programming language)",
+   "page_id": 38455554,
+   "rev_id": 1377920182,
+   "rev_timestamp": "2026-10-01T23:47:29Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=Julia_(programming_language)&oldid=1377920182",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "julia",
  "certification": false,
  "language_type": "programming",
@@ -125,6 +140,54 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "2026-10-29-review-4e-opus"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-d",
+   "note": "adapted from the lead of Wikipedia: Julia (programming language), revision 1377920182"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=Julia_(programming_language)&oldid=1377920182",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-d",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "38455554",
+    "method": "title",
+    "categories": [
+     "2012 software",
+     "Array programming languages",
+     "Articles with example Julia code",
+     "Notebook interface",
+     "Cross-platform software",
+     "Data mining and machine learning software",
+     "Data-centric programming languages",
+     "Dynamically typed programming languages",
+     "Free and open source compilers",
+     "Free and open source interpreters",
+     "Free computer libraries",
+     "Free data analysis software",
+     "Free data and information visualization software",
+     "Free software programmed in C",
+     "Free software programmed in Julia"
+    ]
+   }
   }
  ]
 }

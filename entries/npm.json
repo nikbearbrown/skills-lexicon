@@ -3,6 +3,21 @@
  "preferred_name": "npm",
  "kind": "tool",
  "definition": "The default package manager for Node.js, used to install and manage JavaScript packages.",
+ "description": {
+  "text": "A package manager for JavaScript, the default for the Node.js runtime. It has a command line client and an online registry of public and paid private packages, managed by npm, Inc., a subsidiary of GitHub.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "Npm",
+   "page_id": 32102343,
+   "rev_id": 1375165087,
+   "rev_timestamp": "2026-09-16T04:36:44Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=Npm&oldid=1375165087",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "npm",
  "name_match": "exact_case",
  "certification": false,
@@ -131,6 +146,46 @@
    "date": "2026-10-29",
    "run": "external-2026-10-29-gpt-6-unknown",
    "note": "npm is not officially an acronym for Node Package Manager; this is a common but inaccurate expansion."
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-e",
+   "note": "adapted from the lead of Wikipedia: Npm, revision 1375165087"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=Npm&oldid=1375165087",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-e",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "32102343",
+    "method": "title",
+    "categories": [
+     "2010 software",
+     "Command-line package management systems",
+     "Free package management systems",
+     "Free software programmed in JavaScript",
+     "JavaScript programming tools",
+     "Microsoft free software",
+     "Software using the Artistic license"
+    ]
+   }
   }
  ]
 }

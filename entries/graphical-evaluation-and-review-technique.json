@@ -3,6 +3,21 @@
  "preferred_name": "Graphical Evaluation and Review Technique",
  "kind": "method",
  "definition": "A network-analysis technique for planning projects whose activities have uncertain outcomes and may loop back.",
+ "description": {
+  "text": "A network analysis technique (GERT) used in project management that allows probabilistic treatment of both network logic and activity duration estimates. It was first described in 1966 and is only rarely used in complex systems.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "Graphical Evaluation and Review Technique",
+   "page_id": 2607554,
+   "rev_id": 1306416784,
+   "rev_timestamp": "2025-08-17T16:43:52Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=Graphical_Evaluation_and_Review_Technique&oldid=1306416784",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "graphical-evaluation-and-review-technique",
  "certification": false,
  "variants": [],
@@ -99,6 +114,41 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "external-2026-10-29-gpt-6-unknown"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-c",
+   "note": "adapted from the lead of Wikipedia: Graphical Evaluation and Review Technique, revision 1306416784"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=Graphical_Evaluation_and_Review_Technique&oldid=1306416784",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-c",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "2607554",
+    "method": "title",
+    "categories": [
+     "Project management techniques",
+     "Network analysis"
+    ]
+   }
   }
  ]
 }

@@ -3,6 +3,21 @@
  "preferred_name": "LinkedIn",
  "kind": "platform",
  "definition": "A professional social networking platform used for networking, recruiting, job search and marketing.",
+ "description": {
+  "text": "LinkedIn is an American business and employment-oriented social networking service used worldwide. It is mainly used for professional networking and career development, letting job seekers post CVs and employers post job listings.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "LinkedIn",
+   "page_id": 970755,
+   "rev_id": 1377917982,
+   "rev_timestamp": "2026-10-01T23:35:34Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=LinkedIn&oldid=1377917982",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "linkedin",
  "certification": false,
  "variants": [],
@@ -118,6 +133,53 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "external-2026-10-29-gpt-6-unknown"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-d",
+   "note": "adapted from the lead of Wikipedia: LinkedIn, revision 1377917982"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=LinkedIn&oldid=1377917982",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-d",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "970755",
+    "method": "title",
+    "categories": [
+     "LinkedIn",
+     "2002 establishments in California",
+     "2011 initial public offerings",
+     "Companies based in Sunnyvale, California",
+     "Business services companies established in 2002",
+     "Internet properties established in 2002",
+     "Recruitment",
+     "American social networking websites",
+     "Employment social networks",
+     "Employment websites in the United States",
+     "Companies formerly listed on the New York Stock Exchange",
+     "Microsoft acquisitions",
+     "Microsoft subsidiaries",
+     "2016 mergers and acquisitions"
+    ]
+   }
   }
  ]
 }

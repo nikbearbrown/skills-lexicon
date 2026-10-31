@@ -3,6 +3,21 @@
  "preferred_name": "Physical security",
  "kind": "knowledge",
  "definition": "Protecting people, buildings and equipment from physical threats such as intrusion, theft and damage, using measures like locks, barriers, cameras and guards.",
+ "description": {
+  "text": "Security measures that deny unauthorized access to facilities, equipment and resources and protect people and property from harm such as theft or attacks. It uses layered systems like CCTV, guards, barriers, locks, access control and fire protection.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "Physical security",
+   "page_id": 58725,
+   "rev_id": 1354323404,
+   "rev_timestamp": "2026-05-15T18:21:05Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=Physical_security&oldid=1354323404",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "physical-security",
  "certification": false,
  "variants": [],
@@ -128,6 +143,47 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "external-2026-10-29-gpt-6-unknown"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-f",
+   "note": "adapted from the lead of Wikipedia: Physical security, revision 1354323404"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=Physical_security&oldid=1354323404",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-f",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "58725",
+    "method": "title",
+    "categories": [
+     "Physical security",
+     "Security",
+     "Crime prevention",
+     "Public safety",
+     "National security",
+     "Warning systems",
+     "Security engineering",
+     "Perimeter security"
+    ]
+   }
   }
  ]
 }

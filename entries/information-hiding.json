@@ -3,6 +3,21 @@
  "preferred_name": "Information hiding",
  "kind": "method",
  "definition": "A software design principle in which a module keeps its internal details private behind a stable interface, so changes inside it do not affect the rest of the program.",
+ "description": {
+  "text": "Information hiding is the software design principle of separating the design decisions most likely to change, so that a stable interface shields the rest of the program if those decisions change.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "Information hiding",
+   "page_id": 23292380,
+   "rev_id": 1227778952,
+   "rev_timestamp": "2024-06-07T19:04:15Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=Information_hiding&oldid=1227778952",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "information-hiding",
  "certification": false,
  "variants": [],
@@ -99,6 +114,41 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "external-2026-10-29-gpt-6-unknown"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-d",
+   "note": "adapted from the lead of Wikipedia: Information hiding, revision 1227778952"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=Information_hiding&oldid=1227778952",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-d",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "23292380",
+    "method": "title",
+    "categories": [
+     "Object-oriented programming",
+     "Programming principles"
+    ]
+   }
   }
  ]
 }

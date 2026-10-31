@@ -6,6 +6,21 @@
  "preferred_name": "Production support",
  "kind": "skill",
  "definition": "Monitoring and troubleshooting a live system to resolve problems that affect users.",
+ "description": {
+  "text": "Supporting the IT systems and applications an organization and its users currently use. Analysts or engineers monitor production environments, servers and scheduled jobs, handle incidents and requests, and either solve them or escalate them to other IT teams.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "Production support",
+   "page_id": 18356461,
+   "rev_id": 1267071264,
+   "rev_timestamp": "2025-01-03T13:27:15Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=Production_support&oldid=1267071264",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "production-support",
  "certification": false,
  "variants": [],
@@ -140,6 +155,40 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "external-2026-10-29-gpt-6-unknown"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-f",
+   "note": "adapted from the lead of Wikipedia: Production support, revision 1267071264"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=Production_support&oldid=1267071264",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-f",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "18356461",
+    "method": "title",
+    "categories": [
+     "Information technology management"
+    ]
+   }
   }
  ]
 }

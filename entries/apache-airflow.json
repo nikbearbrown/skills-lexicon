@@ -3,6 +3,21 @@
  "preferred_name": "Apache Airflow",
  "kind": "platform",
  "definition": "An open-source platform for writing, scheduling and monitoring data workflows as Python code.",
+ "description": {
+  "text": "An open-source workflow management platform for data engineering pipelines. It started at Airbnb in 2014 and lets users programmatically author, schedule and monitor workflows through a built-in user interface.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "Apache Airflow",
+   "page_id": 61928892,
+   "rev_id": 1378048520,
+   "rev_timestamp": "2026-10-02T17:26:14Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=Apache_Airflow&oldid=1378048520",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "apache-airflow",
  "certification": false,
  "variants": [],
@@ -109,6 +124,43 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "external-2026-10-29-gpt-6-unknown"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-a",
+   "note": "adapted from the lead of Wikipedia: Apache Airflow, revision 1378048520"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=Apache_Airflow&oldid=1378048520",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-a",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "61928892",
+    "method": "title",
+    "categories": [
+     "Apache Software Foundation projects",
+     "Big data products",
+     "Free software programmed in Python",
+     "Software using the Apache license"
+    ]
+   }
   }
  ]
 }

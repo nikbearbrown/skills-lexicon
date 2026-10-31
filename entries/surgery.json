@@ -3,6 +3,21 @@
  "preferred_name": "Surgery",
  "kind": "knowledge",
  "definition": "The branch of medicine that treats injuries and diseases by operating on the body.",
+ "description": {
+  "text": "A medical specialty that uses manual and instrumental techniques to diagnose or treat conditions such as trauma, disease and injury, to alter bodily functions, to reconstruct appearance, or to remove unwanted tissue and foreign bodies.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "Surgery",
+   "page_id": 45599,
+   "rev_id": 1378750914,
+   "rev_timestamp": "2026-10-06T00:55:28Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=Surgery&oldid=1378750914",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "surgery",
  "certification": false,
  "variants": [
@@ -97,6 +112,41 @@
    "date": "2026-10-29",
    "run": "2026-10-29-review-5p-opus",
    "note": "plural means individual operations or (UK) GP practices, not the field"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-g",
+   "note": "adapted from the lead of Wikipedia: Surgery, revision 1378750914"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=Surgery&oldid=1378750914",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-g",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "45599",
+    "method": "title",
+    "categories": [
+     "Surgery",
+     "Medical specialties"
+    ]
+   }
   }
  ]
 }

@@ -3,6 +3,21 @@
  "preferred_name": "Windows XP Professional x64 Edition",
  "kind": "platform",
  "definition": "The 64-bit version of Windows XP Professional for x86-64 processors, released in 2005.",
+ "description": {
+  "text": "An edition of Windows XP that supports the x86-64 architecture, designed to use the expanded 64-bit memory address space. It was released alongside the x86-64 versions of Windows Server 2003.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "Windows XP Professional x64 Edition",
+   "page_id": 615924,
+   "rev_id": 1378833552,
+   "rev_timestamp": "2026-10-06T11:02:01Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=Windows_XP_Professional_x64_Edition&oldid=1378833552",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "windows-xp-professional-x64-edition",
  "certification": false,
  "variants": [],
@@ -75,6 +90,42 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "2026-10-29-review-5r-opus"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-g",
+   "note": "adapted from the lead of Wikipedia: Windows XP Professional x64 Edition, revision 1378833552"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=Windows_XP_Professional_x64_Edition&oldid=1378833552",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-g",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "615924",
+    "method": "title",
+    "categories": [
+     "Windows XP",
+     "X86-64 operating systems",
+     "Microsoft Windows"
+    ]
+   }
   }
  ]
 }

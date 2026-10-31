@@ -3,6 +3,21 @@
  "preferred_name": "Wi-Fi 6",
  "kind": "standard",
  "definition": "The Wi-Fi Alliance name for the IEEE 802.11ax wireless networking standard.",
+ "description": {
+  "text": "The IEEE 802.11ax standard for wireless networks, marketed as Wi-Fi 6. It works in the 2.4 GHz and 5 GHz bands (6 GHz in Wi-Fi 6E) and upgrades Wi-Fi 5 with better performance in crowded places.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "Wi-Fi 6",
+   "page_id": 48971736,
+   "rev_id": 1373847335,
+   "rev_timestamp": "2026-09-08T08:07:47Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=Wi-Fi_6&oldid=1373847335",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "wi-fi-6",
  "certification": false,
  "variants": [
@@ -116,6 +131,41 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "2026-10-29-review-5r-opus"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-g",
+   "note": "adapted from the lead of Wikipedia: Wi-Fi 6, revision 1373847335"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=Wi-Fi_6&oldid=1373847335",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-g",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "48971736",
+    "method": "title",
+    "categories": [
+     "IEEE 802.11",
+     "Wi-Fi"
+    ]
+   }
   }
  ]
 }

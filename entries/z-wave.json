@@ -3,6 +3,21 @@
  "preferred_name": "Z-Wave",
  "kind": "standard",
  "definition": "A low-power wireless protocol that smart-home devices such as sensors, locks and switches use to communicate.",
+ "description": {
+  "text": "A wireless communications protocol used mainly for residential and commercial building automation. It is a low-energy radio mesh network for wirelessly controlling smart home devices such as lights, locks, thermostats and sensors.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "Z-Wave",
+   "page_id": 2685825,
+   "rev_id": 1378305846,
+   "rev_timestamp": "2026-10-03T22:28:25Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=Z-Wave&oldid=1378305846",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "z-wave",
  "certification": false,
  "variants": [
@@ -97,6 +112,50 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "2026-10-29-review-5r-opus"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-g",
+   "note": "adapted from the lead of Wikipedia: Z-Wave, revision 1378305846"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=Z-Wave&oldid=1378305846",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-g",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "2685825",
+    "method": "title",
+    "categories": [
+     "Home automation",
+     "Building automation",
+     "2001 software",
+     "Wireless sensor network",
+     "Personal area networks",
+     "Mesh networking",
+     "Computer access control protocols",
+     "Network protocols",
+     "Computer network security",
+     "Internet of things",
+     "Wireless communication systems"
+    ]
+   }
   }
  ]
 }

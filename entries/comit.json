@@ -3,6 +3,21 @@
  "preferred_name": "COMIT",
  "kind": "programming-language",
  "definition": "An early string-processing programming language developed at MIT in the 1950s for linguistic research and machine translation.",
+ "description": {
+  "text": "The first string processing language, developed from 1957 to 1965 by Victor Yngve and collaborators on IBM 700/7000 series computers. It was created to support linguistics research, especially machine translation, and led to the creation of SNOBOL.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "COMIT",
+   "page_id": 1012894,
+   "rev_id": 1337294180,
+   "rev_timestamp": "2026-02-08T16:03:48Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=COMIT&oldid=1337294180",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "comit",
  "name_match": "exact_case",
  "certification": false,
@@ -158,6 +173,42 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "external-2026-10-29-muse-spark-1-3-xhigh"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-b",
+   "note": "adapted from the lead of Wikipedia: COMIT, revision 1337294180"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=COMIT&oldid=1337294180",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-b",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "1012894",
+    "method": "title",
+    "categories": [
+     "Text-oriented programming languages",
+     "Pattern matching programming languages",
+     "Programming languages created in 1957"
+    ]
+   }
   }
  ]
 }

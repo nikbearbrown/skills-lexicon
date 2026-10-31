@@ -3,6 +3,21 @@
  "preferred_name": "ISO 10993",
  "kind": "standard",
  "definition": "A series of ISO standards for evaluating whether medical devices are biologically safe to use on or in the body.",
+ "description": {
+  "text": "ISO 10993 is a series of standards for evaluating the biocompatibility of medical devices in order to manage biological risk. It is part of the international harmonisation of how safe medical devices are evaluated.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "ISO 10993",
+   "page_id": 1963514,
+   "rev_id": 1369810393,
+   "rev_timestamp": "2026-08-17T08:47:43Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=ISO_10993&oldid=1369810393",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "iso-10993",
  "certification": false,
  "variants": [],
@@ -99,6 +114,42 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "external-2026-10-29-gpt-6-unknown"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-d",
+   "note": "adapted from the lead of Wikipedia: ISO 10993, revision 1369810393"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=ISO_10993&oldid=1369810393",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-d",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "1963514",
+    "method": "title",
+    "categories": [
+     "ISO standards",
+     "Regulation of medical devices",
+     "Medical devices"
+    ]
+   }
   }
  ]
 }

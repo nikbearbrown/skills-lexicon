@@ -3,6 +3,21 @@
  "preferred_name": "Tape measure",
  "kind": "tool",
  "definition": "A flexible ruler, usually a metal or cloth tape wound into a case, used to measure length and distance.",
+ "description": {
+  "text": "A long, flexible ruler used to measure length or distance. It usually has a ribbon of cloth, plastic, fibreglass or metal strip with linear measurement markings.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "Tape measure",
+   "page_id": 513257,
+   "rev_id": 1371885545,
+   "rev_timestamp": "2026-08-29T02:53:10Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=Tape_measure&oldid=1371885545",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "tape-measure",
  "certification": false,
  "variants": [],
@@ -75,6 +90,44 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "2026-10-29-review-5p-opus"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-g",
+   "note": "adapted from the lead of Wikipedia: Tape measure, revision 1371885545"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=Tape_measure&oldid=1371885545",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-g",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "513257",
+    "method": "title",
+    "categories": [
+     "Length, distance, or range measuring devices",
+     "Metalworking measuring instruments",
+     "Woodworking measuring instruments",
+     "Sewing equipment",
+     "Surveying instruments"
+    ]
+   }
   }
  ]
 }

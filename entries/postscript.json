@@ -3,6 +3,21 @@
  "preferred_name": "PostScript",
  "kind": "programming-language",
  "definition": "A stack-based page description language and programming language from Adobe, used to describe printed pages and graphics.",
+ "description": {
+  "text": "A page description language and dynamically typed, stack-based programming language. It is most commonly used in electronic and desktop publishing, and was created at Adobe Systems.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "PostScript",
+   "page_id": 24080,
+   "rev_id": 1377551820,
+   "rev_timestamp": "2026-09-30T00:02:39Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=PostScript&oldid=1377551820",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "postscript",
  "certification": false,
  "language_type": "programming",
@@ -125,6 +140,54 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "2026-10-29-review-4e-opus"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-f",
+   "note": "adapted from the lead of Wikipedia: PostScript, revision 1377551820"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=PostScript&oldid=1377551820",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-f",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "24080",
+    "method": "title",
+    "categories": [
+     "PostScript",
+     "Adobe Inc.",
+     "Computer printing",
+     "Programming languages created in 1982",
+     "Concatenative programming languages",
+     "Digital press",
+     "Digital typography",
+     "Dynamically typed programming languages",
+     "Office document file formats",
+     "Open formats",
+     "Page description languages",
+     "Printing technology",
+     "Stack-based virtual machines",
+     "Stack-oriented programming languages",
+     "Technical communication"
+    ]
+   }
   }
  ]
 }

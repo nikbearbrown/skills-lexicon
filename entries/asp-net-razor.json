@@ -3,6 +3,21 @@
  "preferred_name": "ASP.NET Razor",
  "kind": "markup-language",
  "definition": "A markup syntax from Microsoft for embedding C# or Visual Basic code in HTML to generate web pages on the server.",
+ "description": {
+  "text": "An ASP.NET programming syntax for creating dynamic web pages with C# or VB.NET. It is a simple view engine released with MVC 3 and later became part of ASP.NET Core.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "ASP.NET Razor",
+   "page_id": 32350506,
+   "rev_id": 1357265737,
+   "rev_timestamp": "2026-06-01T18:08:17Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=ASP.NET_Razor&oldid=1357265737",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "asp-net-razor",
  "certification": false,
  "language_type": "programming",
@@ -167,6 +182,49 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "external-2026-10-29-muse-spark-1-3-xhigh"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-a",
+   "note": "adapted from the lead of Wikipedia: ASP.NET Razor, revision 1357265737"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=ASP.NET_Razor&oldid=1357265737",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-a",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "32350506",
+    "method": "title",
+    "categories": [
+     "ASP.NET",
+     "2010 software",
+     "Free software programmed in C Sharp",
+     "Microsoft application programming interfaces",
+     "Microsoft free software",
+     "Microsoft Visual Studio",
+     "Software using the Apache license",
+     "Template engines",
+     "Web frameworks",
+     "Windows-only free software"
+    ]
+   }
   }
  ]
 }

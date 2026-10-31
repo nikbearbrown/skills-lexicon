@@ -3,6 +3,21 @@
  "preferred_name": "Asset turnover",
  "kind": "knowledge",
  "definition": "A financial ratio that compares a company's sales with its assets to show how efficiently the assets are used to generate revenue.",
+ "description": {
+  "text": "A financial ratio measuring how efficiently a company uses its assets to generate sales revenue. It is a profitability ratio and can be divided into subtypes such as fixed asset turnover.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "Asset turnover",
+   "page_id": 7396128,
+   "rev_id": 1367641584,
+   "rev_timestamp": "2026-08-04T08:21:29Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=Asset_turnover&oldid=1367641584",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "asset-turnover",
  "certification": false,
  "variants": [
@@ -156,6 +171,41 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "external-2026-10-29-gpt-6-unknown"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-a",
+   "note": "adapted from the lead of Wikipedia: Asset turnover, revision 1367641584"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=Asset_turnover&oldid=1367641584",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-a",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "7396128",
+    "method": "title",
+    "categories": [
+     "Financial ratios",
+     "Fundamental analysis"
+    ]
+   }
   }
  ]
 }

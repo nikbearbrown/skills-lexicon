@@ -3,6 +3,21 @@
  "preferred_name": "Wildlife observation",
  "kind": "skill",
  "definition": "Watching and recording wild animals, their behaviour and their numbers in the field.",
+ "description": {
+  "text": "The practice of noting the occurrence or abundance of animal species at a specific place and time, for research or recreation. Bird watching and whale watching are common examples.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "Wildlife observation",
+   "page_id": 13984801,
+   "rev_id": 1377886567,
+   "rev_timestamp": "2026-10-01T19:17:42Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=Wildlife_observation&oldid=1377886567",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "wildlife-observation",
  "certification": false,
  "variants": [],
@@ -75,6 +90,43 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "2026-10-29-review-5r-opus"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-g",
+   "note": "adapted from the lead of Wikipedia: Wildlife observation, revision 1377886567"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=Wildlife_observation&oldid=1377886567",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-g",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "13984801",
+    "method": "title",
+    "categories": [
+     "Birdwatching",
+     "Environmental science",
+     "Observation hobbies",
+     "Research methods"
+    ]
+   }
   }
  ]
 }

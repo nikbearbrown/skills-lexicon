@@ -3,6 +3,21 @@
  "preferred_name": "POSIX",
  "kind": "standard",
  "definition": "A family of IEEE standards that define a common interface for Unix-like operating systems, covering the shell, utilities and programming interfaces.",
+ "description": {
+  "text": "A family of standards specified by the IEEE Computer Society to keep operating systems compatible. It defines application programming interfaces, a command-line shell and shell commands, originally derived from Unix.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "POSIX",
+   "page_id": 23305,
+   "rev_id": 1378922719,
+   "rev_timestamp": "2026-10-06T23:09:41Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=POSIX&oldid=1378922719",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "posix",
  "name_match": "exact_case",
  "certification": false,
@@ -129,6 +144,45 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "external-2026-10-29-gpt-6-unknown"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-f",
+   "note": "adapted from the lead of Wikipedia: POSIX, revision 1378922719"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=POSIX&oldid=1378922719",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-f",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "23305",
+    "method": "title",
+    "categories": [
+     "POSIX",
+     "Application programming interfaces",
+     "Open Group standards",
+     "IEC standards",
+     "IEEE standards",
+     "ISO standards"
+    ]
+   }
   }
  ]
 }

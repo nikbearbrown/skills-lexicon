@@ -3,6 +3,21 @@
  "preferred_name": "Design review",
  "kind": "method",
  "definition": "A formal checkpoint where a design is examined against its requirements so that problems are found before work continues.",
+ "description": {
+  "text": "A milestone in product development where a design is evaluated against its requirements to verify earlier work and find issues before committing to further work. A successful final design review triggers product launch or release.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "Design review",
+   "page_id": 27718879,
+   "rev_id": 1276754419,
+   "rev_timestamp": "2025-02-20T15:16:51Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=Design_review&oldid=1276754419",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "design-review",
  "certification": false,
  "variants": [],
@@ -99,6 +114,40 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "external-2026-10-29-gpt-6-unknown"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-b",
+   "note": "adapted from the lead of Wikipedia: Design review, revision 1276754419"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=Design_review&oldid=1276754419",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-b",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "27718879",
+    "method": "title",
+    "categories": [
+     "Engineering concepts"
+    ]
+   }
   }
  ]
 }

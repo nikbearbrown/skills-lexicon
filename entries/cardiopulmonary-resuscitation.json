@@ -3,6 +3,21 @@
  "preferred_name": "Cardiopulmonary resuscitation",
  "kind": "skill",
  "definition": "An emergency procedure that combines chest compressions and rescue breaths to keep blood and oxygen moving when someone's heart or breathing has stopped.",
+ "description": {
+  "text": "An emergency procedure for cardiac or respiratory arrest, using chest compressions, often with artificial ventilation. It aims to preserve brain function and keep blood circulating until normal breathing and heartbeat return.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "Cardiopulmonary resuscitation",
+   "page_id": 66392,
+   "rev_id": 1373018585,
+   "rev_timestamp": "2026-09-03T15:01:14Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=Cardiopulmonary_resuscitation&oldid=1373018585",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "cardiopulmonary-resuscitation",
  "certification": false,
  "variants": [
@@ -187,6 +202,41 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "external-2026-10-29-gpt-6-unknown"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-b",
+   "note": "adapted from the lead of Wikipedia: Cardiopulmonary resuscitation, revision 1373018585"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=Cardiopulmonary_resuscitation&oldid=1373018585",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-b",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "66392",
+    "method": "title",
+    "categories": [
+     "Cardiopulmonary resuscitation",
+     "Articles containing video clips"
+    ]
+   }
   }
  ]
 }

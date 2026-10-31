@@ -3,6 +3,21 @@
  "preferred_name": "Heritrix",
  "kind": "tool",
  "definition": "An open-source, archival-quality web crawler developed by the Internet Archive.",
+ "description": {
+  "text": "A web crawler designed for web archiving, written in Java and available under a free software license. It was originally written in collaboration by the Internet Archive, the National Library of Norway and the National Library of Iceland, and is used through a web browser interface or command-line tool.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "Heritrix",
+   "page_id": 5681427,
+   "rev_id": 1369019666,
+   "rev_timestamp": "2026-08-12T11:16:47Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=Heritrix&oldid=1369019666",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "heritrix",
  "certification": false,
  "variants": [],
@@ -99,6 +114,44 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "external-2026-10-29-gpt-6-unknown"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-c",
+   "note": "adapted from the lead of Wikipedia: Heritrix, revision 1369019666"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=Heritrix&oldid=1369019666",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-c",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "5681427",
+    "method": "title",
+    "categories": [
+     "Web archiving",
+     "Free software programmed in Java",
+     "Free web crawlers",
+     "2014 software",
+     "Software using the Apache license"
+    ]
+   }
   }
  ]
 }

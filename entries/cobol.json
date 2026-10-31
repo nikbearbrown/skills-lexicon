@@ -3,6 +3,21 @@
  "preferred_name": "COBOL",
  "kind": "programming-language",
  "definition": "A business-oriented programming language dating from 1959, still used in banking, insurance and government mainframe systems.",
+ "description": {
+  "text": "A compiled, English-like programming language designed for business use. It is mainly used in business, finance and administrative systems and is still widely used on mainframes for large batch and transaction processing.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "COBOL",
+   "page_id": 6799,
+   "rev_id": 1378547331,
+   "rev_timestamp": "2026-10-04T23:46:45Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=COBOL&oldid=1378547331",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "cobol",
  "name_match": "exact_case",
  "certification": false,
@@ -126,6 +141,53 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "2026-10-29-review-4d-opus"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-b",
+   "note": "adapted from the lead of Wikipedia: COBOL, revision 1378547331"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=COBOL&oldid=1378547331",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-b",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "6799",
+    "method": "title",
+    "categories": [
+     "COBOL",
+     ".NET programming languages",
+     "1959 software",
+     "Class-based programming languages",
+     "Compiled programming languages",
+     "Computer-related introductions in 1959",
+     "Cross-platform software",
+     "Object-oriented programming languages",
+     "Procedural programming languages",
+     "Programming languages created by women",
+     "Programming languages created in 1959",
+     "Programming languages with an ISO standard",
+     "Statically typed programming languages",
+     "Structured programming languages"
+    ]
+   }
   }
  ]
 }

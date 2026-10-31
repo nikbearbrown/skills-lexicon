@@ -3,6 +3,21 @@
  "preferred_name": "Endovascular aneurysm repair",
  "kind": "skill",
  "definition": "A minimally invasive procedure that repairs an aortic aneurysm by placing a stent graft inside the vessel through small incisions in the groin.",
+ "description": {
+  "text": "A minimally invasive endovascular surgery used to treat disease of the aorta, most commonly an abdominal aortic aneurysm. An expandable stent graft is placed inside the aorta without operating directly on it; the thoracic version is called TEVAR.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "Endovascular aneurysm repair",
+   "page_id": 11069162,
+   "rev_id": 1375267798,
+   "rev_timestamp": "2026-09-16T20:25:18Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=Endovascular_aneurysm_repair&oldid=1375267798",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "endovascular-aneurysm-repair",
  "certification": false,
  "variants": [
@@ -159,6 +174,42 @@
    "date": "2026-10-29",
    "run": "external-2026-10-29-gpt-6-unknown",
    "note": "Endovasculars is malformed; the adjective is endovascular."
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-c",
+   "note": "adapted from the lead of Wikipedia: Endovascular aneurysm repair, revision 1375267798"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=Endovascular_aneurysm_repair&oldid=1375267798",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-c",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "11069162",
+    "method": "title",
+    "categories": [
+     "Diseases of the aorta",
+     "Interventional radiology",
+     "Vascular surgery"
+    ]
+   }
   }
  ]
 }

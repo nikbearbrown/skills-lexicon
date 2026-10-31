@@ -3,6 +3,21 @@
  "preferred_name": "Engineering education",
  "kind": "knowledge",
  "definition": "The teaching of engineering and the study of how engineering is best learned.",
+ "description": {
+  "text": "The activity of teaching the knowledge and principles behind engineering practice. It includes initial degrees and any advanced education and specializations, and is typically followed by exams and supervised training needed for a professional engineering license.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "Engineering education",
+   "page_id": 8081063,
+   "rev_id": 1368678958,
+   "rev_timestamp": "2026-08-10T13:17:34Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=Engineering_education&oldid=1368678958",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "engineering-education",
  "certification": false,
  "variants": [],
@@ -99,6 +114,40 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "external-2026-10-29-gpt-6-unknown"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-c",
+   "note": "adapted from the lead of Wikipedia: Engineering education, revision 1368678958"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=Engineering_education&oldid=1368678958",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-c",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "8081063",
+    "method": "title",
+    "categories": [
+     "Engineering education"
+    ]
+   }
   }
  ]
 }

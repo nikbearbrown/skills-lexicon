@@ -3,6 +3,21 @@
  "preferred_name": "Design for manufacturability",
  "kind": "method",
  "definition": "Designing a product so that it is easy and cheap to make, by taking production methods and limits into account from the start.",
+ "description": {
+  "text": "The engineering practice of designing a product to reduce its manufacturing cost and make it easier to make. Factors include the type and form of raw material, dimensional tolerances and secondary processing.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "Design for manufacturability",
+   "page_id": 3497359,
+   "rev_id": 1374322160,
+   "rev_timestamp": "2026-09-11T08:13:52Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=Design_for_manufacturability&oldid=1374322160",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "design-for-manufacturability",
  "certification": false,
  "variants": [
@@ -156,6 +171,45 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "external-2026-10-29-gpt-6-unknown"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-b",
+   "note": "adapted from the lead of Wikipedia: Design for manufacturability, revision 1374322160"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=Design_for_manufacturability&oldid=1374322160",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-b",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "3497359",
+    "method": "title",
+    "categories": [
+     "Industrial design",
+     "Design for X",
+     "Digital electronics",
+     "Electronic design automation",
+     "Manufacturing",
+     "Mechanical engineering"
+    ]
+   }
   }
  ]
 }

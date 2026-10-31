@@ -3,6 +3,21 @@
  "preferred_name": "Carrot2",
  "kind": "tool",
  "definition": "An open-source search results clustering engine that groups documents and search results into topics.",
+ "description": {
+  "text": "An open source search results clustering engine. It automatically groups small collections of documents, such as search results, into thematic categories. It is written in Java.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "Carrot2",
+   "page_id": 8498167,
+   "rev_id": 1342393399,
+   "rev_timestamp": "2026-03-08T18:44:53Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=Carrot2&oldid=1342393399",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "carrot2",
  "certification": false,
  "variants": [],
@@ -99,6 +114,41 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "external-2026-10-29-gpt-6-unknown"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-b",
+   "note": "adapted from the lead of Wikipedia: Carrot2, revision 1342393399"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=Carrot2&oldid=1342393399",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-b",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "8498167",
+    "method": "title",
+    "categories": [
+     "Internet search engines",
+     "Software using the BSD license"
+    ]
+   }
   }
  ]
 }

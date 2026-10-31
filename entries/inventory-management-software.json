@@ -3,6 +3,21 @@
  "preferred_name": "Inventory management software",
  "kind": "tool",
  "definition": "Software for tracking stock levels, orders, sales and deliveries so that a business knows what it has and where.",
+ "description": {
+  "text": "Inventory management software records, tracks and manages inventory levels, orders, sales, deliveries and stock movements. It is used in retail, warehousing, distribution and manufacturing.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "Inventory management software",
+   "page_id": 28399034,
+   "rev_id": 1364231655,
+   "rev_timestamp": "2026-07-15T09:01:12Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=Inventory_management_software&oldid=1364231655",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "inventory-management-software",
  "certification": false,
  "variants": [],
@@ -99,6 +114,42 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "external-2026-10-29-gpt-6-unknown"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-d",
+   "note": "adapted from the lead of Wikipedia: Inventory management software, revision 1364231655"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=Inventory_management_software&oldid=1364231655",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-d",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "28399034",
+    "method": "title",
+    "categories": [
+     "Inventory",
+     "Logistics",
+     "Manufacturing software"
+    ]
+   }
   }
  ]
 }

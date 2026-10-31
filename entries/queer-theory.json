@@ -3,6 +3,21 @@
  "preferred_name": "Queer theory",
  "kind": "knowledge",
  "definition": "An academic field, emerging in the early 1990s, that examines how categories of sexuality and gender are made and challenged in culture and society.",
+ "description": {
+  "text": "A field of post-structuralist critical theory that studies gender and sexual practices outside heterosexuality and challenges heteronormativity. Queer theorists tend to be critical of essentialist views and study sexuality and gender as social and cultural phenomena.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "Queer theory",
+   "page_id": 148979,
+   "rev_id": 1378401504,
+   "rev_timestamp": "2026-10-04T08:29:01Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=Queer_theory&oldid=1378401504",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "queer-theory",
  "certification": false,
  "variants": [],
@@ -99,6 +114,41 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "external-2026-10-29-gpt-6-unknown"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-f",
+   "note": "adapted from the lead of Wikipedia: Queer theory, revision 1378401504"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=Queer_theory&oldid=1378401504",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-f",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "148979",
+    "method": "title",
+    "categories": [
+     "Queer theory",
+     "1990s introductions"
+    ]
+   }
   }
  ]
 }

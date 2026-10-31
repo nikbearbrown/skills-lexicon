@@ -3,6 +3,21 @@
  "preferred_name": "PHPUnit",
  "kind": "framework",
  "definition": "A unit-testing framework for PHP, in the xUnit family.",
+ "description": {
+  "text": "A unit testing framework for the PHP programming language, following the xUnit architecture that began with SUnit and became popular with JUnit. It was created by Sebastian Bergmann and is developed on GitHub.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "PHPUnit",
+   "page_id": 17401978,
+   "rev_id": 1295067061,
+   "rev_timestamp": "2025-06-11T13:42:35Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=PHPUnit&oldid=1295067061",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "phpunit",
  "certification": false,
  "variants": [],
@@ -212,6 +227,43 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "external-2026-10-29-gpt-6-unknown"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-e",
+   "note": "adapted from the lead of Wikipedia: PHPUnit, revision 1295067061"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=PHPUnit&oldid=1295067061",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-e",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "17401978",
+    "method": "title",
+    "categories": [
+     "Extreme programming",
+     "PHP frameworks",
+     "Unit testing frameworks",
+     "Software using the BSD license"
+    ]
+   }
   }
  ]
 }

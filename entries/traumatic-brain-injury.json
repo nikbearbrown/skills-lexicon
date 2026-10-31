@@ -3,6 +3,21 @@
  "preferred_name": "Traumatic brain injury",
  "kind": "knowledge",
  "definition": "Damage to the brain caused by an external force such as a blow, fall or blast, ranging from mild concussion to severe injury.",
+ "description": {
+  "text": "An injury to the brain caused by an external force, also called an intracranial injury. It ranges from mild (concussion) to severe, and can be closed or penetrating.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "Traumatic brain injury",
+   "page_id": 1057414,
+   "rev_id": 1376408253,
+   "rev_timestamp": "2026-09-24T00:39:54Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=Traumatic_brain_injury&oldid=1376408253",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "traumatic-brain-injury",
  "certification": false,
  "variants": [
@@ -96,6 +111,43 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "2026-10-29-review-5q-opus"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-g",
+   "note": "adapted from the lead of Wikipedia: Traumatic brain injury, revision 1376408253"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=Traumatic_brain_injury&oldid=1376408253",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-g",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "1057414",
+    "method": "title",
+    "categories": [
+     "Medical emergencies",
+     "Intensive care medicine",
+     "Traumatic brain injury",
+     "Disorders causing seizures"
+    ]
+   }
   }
  ]
 }

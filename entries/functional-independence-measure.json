@@ -3,6 +3,21 @@
  "preferred_name": "Functional Independence Measure",
  "kind": "tool",
  "definition": "An 18-item clinical scale that rates a patient's need for help with daily activities, used mainly in rehabilitation.",
+ "description": {
+  "text": "An assessment tool (FIM) that evaluates the functional status of patients during rehabilitation after a stroke, brain or spinal cord injury or cancer. It is used in hospitals and nursing facilities, performed on admission to and departure from rehabilitation.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "Functional Independence Measure",
+   "page_id": 48342958,
+   "rev_id": 1021840257,
+   "rev_timestamp": "2021-05-06T23:45:01Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=Functional_Independence_Measure&oldid=1021840257",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "functional-independence-measure",
  "certification": false,
  "variants": [
@@ -139,6 +154,40 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "external-2026-10-29-gpt-6-unknown"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-c",
+   "note": "adapted from the lead of Wikipedia: Functional Independence Measure, revision 1021840257"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=Functional_Independence_Measure&oldid=1021840257",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-c",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "48342958",
+    "method": "title",
+    "categories": [
+     "Neurotrauma"
+    ]
+   }
   }
  ]
 }

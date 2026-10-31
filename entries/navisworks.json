@@ -3,6 +3,21 @@
  "preferred_name": "Navisworks",
  "kind": "tool",
  "definition": "Autodesk software that combines design and construction models of a building project so they can be reviewed and checked for clashes.",
+ "description": {
+  "text": "A 3D design review package for Windows, previously called JetStream, used mainly in architecture, engineering and construction. It combines 3D models from other design tools, lets users navigate and review them with comments, redlining and measurements, and has plug-ins for interference detection and 4D simulation.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "Navisworks",
+   "page_id": 8665933,
+   "rev_id": 1288552271,
+   "rev_timestamp": "2025-05-03T11:43:10Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=Navisworks&oldid=1288552271",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "navisworks",
  "certification": false,
  "variants": [
@@ -156,6 +171,45 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "external-2026-10-29-gpt-6-unknown"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-e",
+   "note": "adapted from the lead of Wikipedia: Navisworks, revision 1288552271"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=Navisworks&oldid=1288552271",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-e",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "8665933",
+    "method": "title",
+    "categories": [
+     "Autodesk products",
+     "3D graphics software",
+     "BIM software",
+     "Building information modeling",
+     "Computer-aided design software",
+     "Windows graphics-related software"
+    ]
+   }
   }
  ]
 }

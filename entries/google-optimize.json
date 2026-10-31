@@ -3,6 +3,21 @@
  "preferred_name": "Google Optimize",
  "kind": "tool",
  "definition": "A Google tool for running website A/B tests and personalisation experiments, discontinued in 2023.",
+ "description": {
+  "text": "A web analytics and testing tool from Google, formerly Google Website Optimizer, that is no longer available. It let online marketers and webmasters run experiments to increase visitor conversion rates and satisfaction, using a WYSIWYG editor for each tested version.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "Google Optimize",
+   "page_id": 12003767,
+   "rev_id": 1376127112,
+   "rev_timestamp": "2026-09-22T05:49:51Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=Google_Optimize&oldid=1376127112",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "google-optimize",
  "certification": false,
  "variants": [],
@@ -100,6 +115,42 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "external-2026-10-29-gpt-6-unknown"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-c",
+   "note": "adapted from the lead of Wikipedia: Google Optimize, revision 1376127112"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=Google_Optimize&oldid=1376127112",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-c",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "12003767",
+    "method": "title",
+    "categories": [
+     "Discontinued Google services",
+     "Web analytics",
+     "Products and services discontinued in 2023"
+    ]
+   }
   }
  ]
 }

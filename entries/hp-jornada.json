@@ -3,6 +3,21 @@
  "preferred_name": "HP Jornada",
  "kind": "tool",
  "definition": "A line of Hewlett-Packard handheld computers and personal digital assistants running Windows CE.",
+ "description": {
+  "text": "The Jornada was a line of personal digital assistants made by Hewlett-Packard, including Palm-Size PCs, Handheld PCs and Pocket PCs. It ran Microsoft operating systems and was later succeeded by the iPAQ.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "HP Jornada",
+   "page_id": 4033394,
+   "rev_id": 1370495389,
+   "rev_timestamp": "2026-08-21T12:44:15Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=HP_Jornada&oldid=1370495389",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "hp-jornada",
  "certification": false,
  "variants": [
@@ -128,6 +143,44 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "external-2026-10-29-gpt-6-unknown"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-d",
+   "note": "adapted from the lead of Wikipedia: HP Jornada, revision 1370495389"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=HP_Jornada&oldid=1370495389",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-d",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "4033394",
+    "method": "title",
+    "categories": [
+     "Windows CE devices",
+     "Windows Mobile Professional devices",
+     "Windows Mobile Classic devices",
+     "Embedded Linux",
+     "HP PDAs"
+    ]
+   }
   }
  ]
 }

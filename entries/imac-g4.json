@@ -3,6 +3,21 @@
  "preferred_name": "iMac G4",
  "kind": "platform",
  "definition": "Apple's all-in-one desktop computer with a flat display on an adjustable arm, sold from 2002 to 2004.",
+ "description": {
+  "text": "The iMac G4 was an all-in-one personal computer made by Apple from 2002 to 2004. It had a hemispheric base holding the components and a flat LCD screen on an adjustable arm that could tilt and swivel.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "IMac G4",
+   "page_id": 1196694,
+   "rev_id": 1375723193,
+   "rev_timestamp": "2026-09-19T16:56:48Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=IMac_G4&oldid=1375723193",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "imac-g4",
  "certification": false,
  "variants": [],
@@ -99,6 +114,46 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "external-2026-10-29-gpt-6-unknown"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-d",
+   "note": "adapted from the lead of Wikipedia: IMac G4, revision 1375723193"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=IMac_G4&oldid=1375723193",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-d",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "1196694",
+    "method": "title",
+    "categories": [
+     "IMac family",
+     "Macintosh all-in-ones",
+     "PowerPC Macintosh computers",
+     "Computer-related introductions in 2002",
+     "Discontinued Apple Inc. products",
+     "Collection of the Museum of Modern Art (New York City)",
+     "Collection of the Science Museum, London"
+    ]
+   }
   }
  ]
 }

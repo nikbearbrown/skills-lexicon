@@ -7,6 +7,21 @@
  "preferred_name": "PostgreSQL",
  "kind": "tool",
  "definition": "An open-source relational database system queried with SQL.",
+ "description": {
+  "text": "A free and open-source relational database management system, also called Postgres, emphasizing extensibility and SQL compliance. It supports ACID transactions, views, triggers, foreign keys and stored procedures, and runs on all major operating systems.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "PostgreSQL",
+   "page_id": 23824,
+   "rev_id": 1378290712,
+   "rev_timestamp": "2026-10-03T21:04:43Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=PostgreSQL&oldid=1378290712",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "variants": [
   {
    "label": "Postgres",
@@ -187,6 +202,49 @@
    "date": "2026-10-29",
    "run": "external-2026-10-29-gpt-6-unknown",
    "note": "SQL is a query language, not a broader kind of database system; PostgreSQL uses SQL rather than being a subtype of it."
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-f",
+   "note": "adapted from the lead of Wikipedia: PostgreSQL, revision 1378290712"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=PostgreSQL&oldid=1378290712",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-f",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "23824",
+    "method": "title",
+    "categories": [
+     "PostgreSQL",
+     "1996 software",
+     "Client-server database management systems",
+     "Cross-platform software",
+     "Free database management systems",
+     "Free software programmed in C",
+     "ORDBMS software for Linux",
+     "Relational database management software for Linux",
+     "Software that uses Meson",
+     "Vector databases"
+    ]
+   }
   }
  ]
 }

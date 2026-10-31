@@ -3,6 +3,21 @@
  "preferred_name": "Engineer in Training",
  "kind": "credential",
  "definition": "A US designation given by a state licensing board to a graduate engineer who has passed the Fundamentals of Engineering exam, the first step toward a Professional Engineer licence.",
+ "description": {
+  "text": "A professional designation from the US National Council of Examiners for Engineering and Surveying for a person certified by the state as having met two requirements, including completing at least three years at an ABET-accredited engineering program or approved related science curriculum.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "Engineer in training",
+   "page_id": 9977829,
+   "rev_id": 1361441071,
+   "rev_timestamp": "2026-06-27T22:53:42Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=Engineer_in_training&oldid=1361441071",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "engineer-in-training",
  "certification": true,
  "certification_scope": "many-issuers",
@@ -191,6 +206,41 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "external-2026-10-29-gpt-6-unknown"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-c",
+   "note": "adapted from the lead of Wikipedia: Engineer in training, revision 1361441071"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=Engineer_in_training&oldid=1361441071",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-c",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "9977829",
+    "method": "title",
+    "categories": [
+     "Engineering education",
+     "Professional certification in engineering"
+    ]
+   }
   }
  ]
 }

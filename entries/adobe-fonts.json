@@ -3,6 +3,21 @@
  "preferred_name": "Adobe Fonts",
  "kind": "platform",
  "definition": "Adobe's subscription font service, formerly called Typekit, which supplies fonts for websites and desktop applications.",
+ "description": {
+  "text": "An online service, formerly called Typekit, giving subscribers access to a font library under one license. Fonts can be used directly on websites or synced through Adobe Creative Cloud to applications.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "Adobe Fonts",
+   "page_id": 24292829,
+   "rev_id": 1339819525,
+   "rev_timestamp": "2026-02-22T13:57:57Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=Adobe_Fonts&oldid=1339819525",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "adobe-fonts",
  "certification": false,
  "variants": [
@@ -96,6 +111,42 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "2026-10-29-review-5a-opus"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-a",
+   "note": "adapted from the lead of Wikipedia: Adobe Fonts, revision 1339819525"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=Adobe_Fonts&oldid=1339819525",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-a",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "24292829",
+    "method": "title",
+    "categories": [
+     "Adobe Inc.",
+     "Digital typography",
+     "Web design"
+    ]
+   }
   }
  ]
 }

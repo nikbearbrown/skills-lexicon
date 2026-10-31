@@ -3,6 +3,21 @@
  "preferred_name": "PL/I",
  "kind": "programming-language",
  "definition": "A multi-purpose programming language developed by IBM in the 1960s for scientific, business and systems programming.",
+ "description": {
+  "text": "A procedural, imperative programming language initially developed by IBM, designed for scientific, engineering, business and system programming. It has been in continuous use since the 1960s and has an ANSI standard.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "PL/I",
+   "page_id": 23708,
+   "rev_id": 1372789341,
+   "rev_timestamp": "2026-09-02T07:37:43Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=PL%2FI&oldid=1372789341",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "pl-i",
  "name_match": "exact_case",
  "certification": false,
@@ -126,6 +141,48 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "2026-10-29-review-4e-opus"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-f",
+   "note": "adapted from the lead of Wikipedia: PL/I, revision 1372789341"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=PL%2FI&oldid=1372789341",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-f",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "23708",
+    "method": "title",
+    "categories": [
+     "Compiled programming languages",
+     "Procedural programming languages",
+     "PL/I programming language family",
+     "Structured programming languages",
+     "Concurrent programming languages",
+     "Systems programming languages",
+     "IBM software",
+     "Programming languages created in 1964",
+     "Programming languages with an ISO standard"
+    ]
+   }
   }
  ]
 }

@@ -3,6 +3,21 @@
  "preferred_name": "GraphQL",
  "kind": "programming-language",
  "definition": "A query language for APIs, with a server-side runtime, that lets clients ask for exactly the data they need.",
+ "description": {
+  "text": "A data query and manipulation language that lets clients specify exactly what data to retrieve or modify. A GraphQL server can combine data from separate sources into one graph, and the language is not tied to any specific database or storage engine.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "GraphQL",
+   "page_id": 50353761,
+   "rev_id": 1372636557,
+   "rev_timestamp": "2026-09-01T15:39:23Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=GraphQL&oldid=1372636557",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "graphql",
  "certification": false,
  "language_type": "programming",
@@ -194,6 +209,43 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "external-2026-10-29-muse-spark-1-3-xhigh"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-c",
+   "note": "adapted from the lead of Wikipedia: GraphQL, revision 1372636557"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=GraphQL&oldid=1372636557",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-c",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "50353761",
+    "method": "title",
+    "categories": [
+     "Query languages",
+     "Data modeling languages",
+     "Graph data structures",
+     "Software architecture"
+    ]
+   }
   }
  ]
 }

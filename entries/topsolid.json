@@ -3,6 +3,21 @@
  "preferred_name": "TopSolid",
  "kind": "tool",
  "definition": "A CAD/CAM software suite for designing and machining parts, made by Missler Software.",
+ "description": {
+  "text": "A CAD, CAM, CAE and product lifecycle management software developed by the French company Missler Software. It offers integrated solutions for mechanical engineering, tooling, sheet metal, woodworking and manufacturing.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "TopSolid",
+   "page_id": 79978605,
+   "rev_id": 1312687700,
+   "rev_timestamp": "2025-09-22T02:31:58Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=TopSolid&oldid=1312687700",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "topsolid",
  "certification": false,
  "variants": [],
@@ -75,6 +90,44 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "2026-10-29-review-5q-opus"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-g",
+   "note": "adapted from the lead of Wikipedia: TopSolid, revision 1312687700"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=TopSolid&oldid=1312687700",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-g",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "79978605",
+    "method": "title",
+    "categories": [
+     "Computer-aided design software",
+     "Computer-aided manufacturing software",
+     "Computer-aided engineering software",
+     "Proprietary software",
+     "3D graphics software"
+    ]
+   }
   }
  ]
 }

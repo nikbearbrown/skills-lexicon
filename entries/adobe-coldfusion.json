@@ -3,6 +3,21 @@
  "preferred_name": "Adobe ColdFusion",
  "kind": "platform",
  "definition": "A commercial web application server and development platform, now from Adobe, that runs applications written in CFML.",
+ "description": {
+  "text": "A commercial rapid web-application development platform created by J. J. Allaire in 1995. It was designed to make it easier to connect HTML pages to a database, and its language is also called CFML.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "Adobe ColdFusion",
+   "page_id": 374636,
+   "rev_id": 1376234613,
+   "rev_timestamp": "2026-09-22T23:25:00Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=Adobe_ColdFusion&oldid=1376234613",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "adobe-coldfusion",
  "certification": false,
  "notes": "The model says this is not a language; the legacy list/class says it is. ColdFusion is an application server and platform; the language it runs is CFML, not ColdFusion itself.",
@@ -129,6 +144,46 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "2026-10-29-review-5a-opus"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-a",
+   "note": "adapted from the lead of Wikipedia: Adobe ColdFusion, revision 1376234613"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=Adobe_ColdFusion&oldid=1376234613",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-a",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "374636",
+    "method": "title",
+    "categories": [
+     "Adobe software",
+     "Scripting languages",
+     "Macromedia software",
+     "Web development software",
+     "CFML compilers",
+     "CFML programming language",
+     "JVM programming languages"
+    ]
+   }
   }
  ]
 }

@@ -3,6 +3,21 @@
  "preferred_name": "Corporate communications",
  "kind": "skill",
  "definition": "Managing an organisation's messages to employees, investors, the media and the public.",
+ "description": {
+  "text": "The set of activities for managing all internal and external communications to build a favourable view among stakeholders. It covers messages a company issues to employees, media, channel partners and the public.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "Corporate communication",
+   "page_id": 5351581,
+   "rev_id": 1368239859,
+   "rev_timestamp": "2026-08-07T22:04:36Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=Corporate_communication&oldid=1368239859",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "corporate-communications",
  "certification": false,
  "variants": [
@@ -157,6 +172,41 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "external-2026-10-29-gpt-6-unknown"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-b",
+   "note": "adapted from the lead of Wikipedia: Corporate communication, revision 1368239859"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=Corporate_communication&oldid=1368239859",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-b",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "5351581",
+    "method": "title",
+    "categories": [
+     "Communications management",
+     "Interpersonal communication"
+    ]
+   }
   }
  ]
 }

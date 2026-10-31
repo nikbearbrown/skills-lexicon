@@ -3,6 +3,21 @@
  "preferred_name": "Random variable",
  "kind": "knowledge",
  "definition": "A quantity whose value depends on the outcome of a random process and is described by a probability distribution.",
+ "description": {
+  "text": "A mathematical formalization of a quantity that depends on random events. It is defined as a function from the set of possible outcomes in a sample space, such as the sides of a flipped coin.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "Random variable",
+   "page_id": 25685,
+   "rev_id": 1377239815,
+   "rev_timestamp": "2026-09-28T13:07:26Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=Random_variable&oldid=1377239815",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "random-variable",
  "certification": false,
  "variants": [],
@@ -99,6 +114,40 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "external-2026-10-29-gpt-6-unknown"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-f",
+   "note": "adapted from the lead of Wikipedia: Random variable, revision 1377239815"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=Random_variable&oldid=1377239815",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-f",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "25685",
+    "method": "title",
+    "categories": [
+     "Statistical randomness"
+    ]
+   }
   }
  ]
 }

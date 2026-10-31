@@ -3,6 +3,21 @@
  "preferred_name": "Capture One",
  "kind": "tool",
  "definition": "Photo-editing software from Phase One for processing RAW images and shooting with the camera connected to a computer.",
+ "description": {
+  "text": "A photography software suite with support for raw image files from over 650 cameras and tethering for over 200 cameras. It was originally produced by camera maker Phase One, and split into its own company in 2019.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "Capture One",
+   "page_id": 31968722,
+   "rev_id": 1367490139,
+   "rev_timestamp": "2026-08-03T11:10:37Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=Capture_One&oldid=1367490139",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "capture-one",
  "certification": false,
  "variants": [
@@ -130,6 +145,47 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "external-2026-10-29-gpt-6-unknown"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-a",
+   "note": "adapted from the lead of Wikipedia: Capture One, revision 1367490139"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=Capture_One&oldid=1367490139",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-a",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "31968722",
+    "method": "title",
+    "categories": [
+     "Photo software for Windows",
+     "Proprietary image organizers",
+     "Raw image processing software",
+     "Windows graphics-related software",
+     "Photo software for macOS",
+     "Windows software",
+     "MacOS software",
+     "Proprietary software"
+    ]
+   }
   }
  ]
 }

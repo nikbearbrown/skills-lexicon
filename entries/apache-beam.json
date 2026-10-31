@@ -3,6 +3,21 @@
  "preferred_name": "Apache Beam",
  "kind": "framework",
  "definition": "An open-source programming model for defining batch and streaming data-processing pipelines that run on engines such as Apache Spark, Apache Flink and Google Cloud Dataflow.",
+ "description": {
+  "text": "An open-source unified programming model for defining and running data processing pipelines, including ETL, batch and stream processing. Pipelines are written with its SDKs and run on back-ends such as Apache Flink, Spark and Google Cloud Dataflow.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "Apache Beam",
+   "page_id": 51237252,
+   "rev_id": 1372450105,
+   "rev_timestamp": "2026-08-31T20:12:44Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=Apache_Beam&oldid=1372450105",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "apache-beam",
  "certification": false,
  "variants": [],
@@ -99,6 +114,47 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "external-2026-10-29-gpt-6-unknown"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-a",
+   "note": "adapted from the lead of Wikipedia: Apache Beam, revision 1372450105"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=Apache_Beam&oldid=1372450105",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-a",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "51237252",
+    "method": "title",
+    "categories": [
+     "Apache Software Foundation projects",
+     "Big data products",
+     "Cluster computing",
+     "Distributed stream processing",
+     "Google software",
+     "Apache Hadoop",
+     "Free software programmed in Java",
+     "Software using the Apache license"
+    ]
+   }
   }
  ]
 }

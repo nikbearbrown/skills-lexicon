@@ -3,6 +3,21 @@
  "preferred_name": "Electron microscope",
  "kind": "tool",
  "definition": "A microscope that images specimens with a beam of electrons, reaching far higher magnification than a light microscope.",
+ "description": {
+  "text": "A microscope that uses a beam of electrons instead of light for illumination, with electron optics that work like the glass lenses of a light microscope. Because electron wavelengths are much smaller than visible light, it can reach much higher resolution.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "Electron microscope",
+   "page_id": 9730,
+   "rev_id": 1371644188,
+   "rev_timestamp": "2026-08-27T16:19:36Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=Electron_microscope&oldid=1371644188",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "electron-microscope",
  "certification": false,
  "variants": [],
@@ -100,6 +115,48 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "external-2026-10-29-gpt-6-unknown"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-c",
+   "note": "adapted from the lead of Wikipedia: Electron microscope, revision 1371644188"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=Electron_microscope&oldid=1371644188",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-c",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "9730",
+    "method": "title",
+    "categories": [
+     "Electron microscopy",
+     "Microscopes",
+     "Accelerator physics",
+     "Anatomical pathology",
+     "Pathology",
+     "German inventions",
+     "Protein imaging",
+     "20th-century inventions",
+     "Articles containing video clips"
+    ]
+   }
   }
  ]
 }

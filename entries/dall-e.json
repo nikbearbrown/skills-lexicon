@@ -3,6 +3,21 @@
  "preferred_name": "DALL·E",
  "kind": "tool",
  "definition": "OpenAI's family of text-to-image AI models that generate pictures from written prompts.",
+ "description": {
+  "text": "A family of text-to-image models from OpenAI (DALL-E, DALL-E 2 and DALL-E 3) that use deep learning to generate digital images from natural language descriptions called prompts.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "DALL-E",
+   "page_id": 66303034,
+   "rev_id": 1376634171,
+   "rev_timestamp": "2026-09-25T09:35:46Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=DALL-E&oldid=1376634171",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "dall-e",
  "certification": false,
  "variants": [
@@ -184,6 +199,46 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "external-2026-10-29-gpt-6-unknown"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-b",
+   "note": "adapted from the lead of Wikipedia: DALL-E, revision 1376634171"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=DALL-E&oldid=1376634171",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-b",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "66303034",
+    "method": "title",
+    "categories": [
+     "Text-to-image generation",
+     "Deep learning software applications",
+     "Unsupervised learning",
+     "Generative pre-trained transformers",
+     "2021 software",
+     "ChatGPT",
+     "2021 in artificial intelligence"
+    ]
+   }
   }
  ]
 }

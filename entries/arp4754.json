@@ -3,6 +3,21 @@
  "preferred_name": "ARP4754",
  "kind": "knowledge",
  "definition": "An SAE International recommended practice with guidelines for developing civil aircraft and their systems, including requirements and development assurance.",
+ "description": {
+  "text": "Aerospace Recommended Practice guidelines for developing civil aircraft and systems, published by SAE International. They address development processes supporting certification, from systems requirements through verification.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "ARP4754",
+   "page_id": 3296319,
+   "rev_id": 1265439117,
+   "rev_timestamp": "2024-12-26T23:12:16Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=ARP4754&oldid=1265439117",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "arp4754",
  "certification": false,
  "variants": [
@@ -160,6 +175,42 @@
    "date": "2026-10-29",
    "run": "external-2026-10-29-gpt-6-unknown",
    "note": "The A suffix identifies a particular revision; it is not interchangeable with every edition of ARP4754."
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-a",
+   "note": "adapted from the lead of Wikipedia: ARP4754, revision 1265439117"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=ARP4754&oldid=1265439117",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-a",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "3296319",
+    "method": "title",
+    "categories": [
+     "Handbooks and manuals",
+     "Engineering literature",
+     "Avionics"
+    ]
+   }
   }
  ]
 }

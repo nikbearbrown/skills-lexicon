@@ -3,6 +3,21 @@
  "preferred_name": "Color rendering index",
  "kind": "knowledge",
  "definition": "A scale up to 100 that rates how faithfully a light source shows the colours of objects compared with a reference light.",
+ "description": {
+  "text": "A quantitative measure of how faithfully a light source reveals the colors of objects compared with a natural or standard light source.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "Color rendering index",
+   "page_id": 1324664,
+   "rev_id": 1365530111,
+   "rev_timestamp": "2026-07-23T01:09:48Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=Color_rendering_index&oldid=1365530111",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "color-rendering-index",
  "certification": false,
  "variants": [],
@@ -100,6 +115,41 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "external-2026-10-29-gpt-6-unknown"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-b",
+   "note": "adapted from the lead of Wikipedia: Color rendering index, revision 1365530111"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=Color_rendering_index&oldid=1365530111",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-b",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "1324664",
+    "method": "title",
+    "categories": [
+     "Color",
+     "Lighting"
+    ]
+   }
   }
  ]
 }

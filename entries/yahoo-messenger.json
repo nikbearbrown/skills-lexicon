@@ -6,6 +6,21 @@
  "preferred_name": "Yahoo Messenger",
  "kind": "tool",
  "definition": "An instant messaging service from Yahoo, shut down in 2018.",
+ "description": {
+  "text": "A discontinued instant messaging client and protocol created by Yahoo!, free to use with a Yahoo ID. It also offered VoIP, file transfers, webcam hosting, text messaging and chat rooms.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "Yahoo Messenger",
+   "page_id": 199351,
+   "rev_id": 1371302249,
+   "rev_timestamp": "2026-08-25T19:43:02Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=Yahoo_Messenger&oldid=1371302249",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "yahoo-messenger",
  "certification": false,
  "variants": [],
@@ -120,6 +135,54 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "external-2026-10-29-gpt-6-unknown"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-g",
+   "note": "adapted from the lead of Wikipedia: Yahoo Messenger, revision 1371302249"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=Yahoo_Messenger&oldid=1371302249",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-g",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "199351",
+    "method": "title",
+    "categories": [
+     "Discontinued software",
+     "BlackBerry software",
+     "IOS software",
+     "Classic Mac OS instant messaging clients",
+     "MacOS instant messaging clients",
+     "Symbian instant messaging clients",
+     "Windows instant messaging clients",
+     "Freeware",
+     "Yahoo! software",
+     "Yahoo! instant messaging clients",
+     "VoIP software",
+     "Videotelephony",
+     "1998 software",
+     "Android (operating system) software",
+     "Yahoo! community websites"
+    ]
+   }
   }
  ]
 }

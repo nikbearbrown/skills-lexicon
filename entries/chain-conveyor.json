@@ -3,6 +3,21 @@
  "preferred_name": "Chain Conveyor",
  "kind": "tool",
  "definition": "A conveyor that moves loads along a track using one or more driven chains.",
+ "description": {
+  "text": "A type of conveyor system for moving material through production lines.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "Chain conveyor",
+   "page_id": 14629026,
+   "rev_id": 1288663273,
+   "rev_timestamp": "2025-05-04T02:27:38Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=Chain_conveyor&oldid=1288663273",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "chain-conveyor",
  "certification": false,
  "variants": [],
@@ -99,6 +114,42 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "external-2026-10-29-gpt-6-unknown"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-b",
+   "note": "adapted from the lead of Wikipedia: Chain conveyor, revision 1288663273"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=Chain_conveyor&oldid=1288663273",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-b",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "14629026",
+    "method": "title",
+    "categories": [
+     "Freight transport",
+     "Mechanical power transmission",
+     "Mechanical power control"
+    ]
+   }
   }
  ]
 }

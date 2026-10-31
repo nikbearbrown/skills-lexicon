@@ -3,6 +3,21 @@
  "preferred_name": "Data as a Service",
  "kind": "knowledge",
  "definition": "A model in which a provider delivers data to customers on demand over a network, usually through APIs or a subscription, without customers managing the underlying storage.",
+ "description": {
+  "text": "A cloud-based software tool for working with data, such as managing a data warehouse or doing business intelligence analysis. It is enabled by software as a service and provides data on demand regardless of location.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "Data as a service",
+   "page_id": 27654548,
+   "rev_id": 1378803019,
+   "rev_timestamp": "2026-10-06T05:22:55Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=Data_as_a_service&oldid=1378803019",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "data-as-a-service",
  "certification": false,
  "variants": [
@@ -187,6 +202,41 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "external-2026-10-29-gpt-6-unknown"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-b",
+   "note": "adapted from the lead of Wikipedia: Data as a service, revision 1378803019"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=Data_as_a_service&oldid=1378803019",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-b",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "27654548",
+    "method": "title",
+    "categories": [
+     "As a service",
+     "Computer data"
+    ]
+   }
   }
  ]
 }

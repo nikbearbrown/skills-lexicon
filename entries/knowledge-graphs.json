@@ -7,6 +7,21 @@
  "preferred_name": "Knowledge graphs",
  "kind": "knowledge",
  "definition": "Representing entities and relationships as structured knowledge.",
+ "description": {
+  "text": "A knowledge graph is a knowledge base that uses a graph-structured data model to represent data. It stores linked descriptions of entities such as objects, events and concepts, along with the relationships between them.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "Knowledge graph",
+   "page_id": 64418530,
+   "rev_id": 1378450681,
+   "rev_timestamp": "2026-10-04T15:31:13Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=Knowledge_graph&oldid=1378450681",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "variants": [],
  "relations": [],
  "verbs": [],
@@ -50,6 +65,43 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "external-2026-10-29-gpt-6-unknown"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-d",
+   "note": "adapted from the lead of Wikipedia: Knowledge graph, revision 1378450681"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=Knowledge_graph&oldid=1378450681",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-d",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "64418530",
+    "method": "title",
+    "categories": [
+     "Knowledge graphs",
+     "Ontology (information science)",
+     "Formal semantics (natural language)",
+     "Information science"
+    ]
+   }
   }
  ]
 }

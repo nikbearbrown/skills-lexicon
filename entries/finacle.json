@@ -3,6 +3,21 @@
  "preferred_name": "Finacle",
  "kind": "platform",
  "definition": "Infosys's suite of core banking and digital banking software for banks.",
+ "description": {
+  "text": "Banking software developed by Infosys, created in 1999 as a core banking software suite. It has been part of Infosys' subsidiary EdgeVerve Systems since 2015.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "Finacle",
+   "page_id": 21713048,
+   "rev_id": 1311909435,
+   "rev_timestamp": "2025-09-17T15:49:14Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=Finacle&oldid=1311909435",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "finacle",
  "certification": false,
  "variants": [
@@ -129,6 +144,44 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "external-2026-10-29-gpt-6-unknown"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-c",
+   "note": "adapted from the lead of Wikipedia: Finacle, revision 1311909435"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=Finacle&oldid=1311909435",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-c",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "21713048",
+    "method": "title",
+    "categories": [
+     "Infosys",
+     "Banking software companies",
+     "Financial software",
+     "1999 software",
+     "Financial software companies"
+    ]
+   }
   }
  ]
 }

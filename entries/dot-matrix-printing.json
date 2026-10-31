@@ -3,6 +3,21 @@
  "preferred_name": "Dot matrix printing",
  "kind": "knowledge",
  "definition": "Printing in which a head of small pins strikes an inked ribbon to form characters and images from patterns of dots.",
+ "description": {
+  "text": "A computer printing process, also called impact matrix printing, that applies ink using a low-resolution dot matrix. Dot matrix printers are impact printers that print with a fixed number of pins or wires on a moving print head.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "Dot matrix printing",
+   "page_id": 50679,
+   "rev_id": 1363857623,
+   "rev_timestamp": "2026-07-12T22:31:41Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=Dot_matrix_printing&oldid=1363857623",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "dot-matrix-printing",
  "certification": false,
  "variants": [],
@@ -99,6 +114,44 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "external-2026-10-29-gpt-6-unknown"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-b",
+   "note": "adapted from the lead of Wikipedia: Dot matrix printing, revision 1363857623"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=Dot_matrix_printing&oldid=1363857623",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-b",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "50679",
+    "method": "title",
+    "categories": [
+     "Dot matrix printers",
+     "American inventions",
+     "20th-century inventions",
+     "Computer-related introductions in 1970",
+     "Printing technology"
+    ]
+   }
   }
  ]
 }

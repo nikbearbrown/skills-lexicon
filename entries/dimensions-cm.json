@@ -3,6 +3,21 @@
  "preferred_name": "Dimensions CM",
  "kind": "tool",
  "definition": "Software for version control and for managing changes and releases of software assets, now sold by OpenText.",
+ "description": {
+  "text": "A software change and configuration management product from OpenText Corporation. It includes revision control and change, build and release management, and can also work as a binary repository manager.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "Dimensions CM",
+   "page_id": 46986987,
+   "rev_id": 1213193441,
+   "rev_timestamp": "2024-03-11T16:06:25Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=Dimensions_CM&oldid=1213193441",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "dimensions-cm",
  "certification": false,
  "variants": [],
@@ -100,6 +115,44 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "external-2026-10-29-gpt-6-unknown"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-b",
+   "note": "adapted from the lead of Wikipedia: Dimensions CM, revision 1213193441"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=Dimensions_CM&oldid=1213193441",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-b",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "46986987",
+    "method": "title",
+    "categories": [
+     "Proprietary version control systems",
+     "Configuration management",
+     "Programming tools",
+     "OpenText",
+     "Micro Focus International"
+    ]
+   }
   }
  ]
 }

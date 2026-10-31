@@ -3,6 +3,21 @@
  "preferred_name": "Infographics",
  "kind": "skill",
  "definition": "Designing infographics, which present information or data visually through illustration, charts and short text.",
+ "description": {
+  "text": "Infographics are graphic visual representations of information, data or knowledge, meant to present it quickly and clearly. They use graphics to help people see patterns and trends.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "Infographic",
+   "page_id": 992525,
+   "rev_id": 1368502807,
+   "rev_timestamp": "2026-08-09T12:13:59Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=Infographic&oldid=1368502807",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "infographics",
  "certification": false,
  "variants": [
@@ -128,6 +143,43 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "external-2026-10-29-gpt-6-unknown"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-d",
+   "note": "adapted from the lead of Wikipedia: Infographic, revision 1368502807"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=Infographic&oldid=1368502807",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-d",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "992525",
+    "method": "title",
+    "categories": [
+     "Illustration",
+     "Graphic design",
+     "Infographics",
+     "News design"
+    ]
+   }
   }
  ]
 }

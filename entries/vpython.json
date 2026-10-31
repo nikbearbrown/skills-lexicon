@@ -3,6 +3,21 @@
  "preferred_name": "VPython",
  "kind": "library",
  "definition": "A Python module for creating simple 3D visualisations and animations, widely used for teaching physics.",
+ "description": {
+  "text": "An open-source application combining the Python language with a 3D graphics module called Visual. It lets users create and display 3D objects such as spheres and cones, for simple visualizations that let programmers focus on computation.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "VPython",
+   "page_id": 7167573,
+   "rev_id": 1291381244,
+   "rev_timestamp": "2025-05-20T21:21:56Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=VPython&oldid=1291381244",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "vpython",
  "certification": false,
  "variants": [],
@@ -96,6 +111,41 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "2026-10-29-review-5q-opus"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-g",
+   "note": "adapted from the lead of Wikipedia: VPython, revision 1291381244"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=VPython&oldid=1291381244",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-g",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "7167573",
+    "method": "title",
+    "categories": [
+     "Articles with example Python (programming language) code",
+     "Python (programming language) libraries"
+    ]
+   }
   }
  ]
 }

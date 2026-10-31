@@ -3,6 +3,21 @@
  "preferred_name": "Anglo-American Cataloguing Rules",
  "kind": "standard",
  "definition": "A set of rules for describing and cataloguing library materials, published jointly by library associations in the US, UK and Canada.",
+ "description": {
+  "text": "An international library cataloging standard first published in 1967, with a second edition in 1978. Published jointly by American, Canadian and UK library bodies, it ceased updates in 2005.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "Anglo-American Cataloguing Rules",
+   "page_id": 1159051,
+   "rev_id": 1370532337,
+   "rev_timestamp": "2026-08-21T17:52:18Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=Anglo-American_Cataloguing_Rules&oldid=1370532337",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "anglo-american-cataloguing-rules",
  "certification": false,
  "variants": [
@@ -130,6 +145,45 @@
    "date": "2026-10-29",
    "run": "external-2026-10-29-gpt-6-unknown",
    "note": "AACR2 specifically names the second edition; Anglo-American Cataloguing Rules also includes the first edition."
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-a",
+   "note": "adapted from the lead of Wikipedia: Anglo-American Cataloguing Rules, revision 1370532337"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=Anglo-American_Cataloguing_Rules&oldid=1370532337",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-a",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "1159051",
+    "method": "title",
+    "categories": [
+     "1967 establishments",
+     "1967 introductions",
+     "2005 disestablishments",
+     "Archival science",
+     "Metadata",
+     "Metadata standards"
+    ]
+   }
   }
  ]
 }

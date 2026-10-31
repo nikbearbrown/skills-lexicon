@@ -3,6 +3,21 @@
  "preferred_name": "ALGOL",
  "kind": "programming-language",
  "definition": "A family of imperative programming languages first designed in 1958, whose ALGOL 60 and ALGOL 68 versions influenced many later languages.",
+ "description": {
+  "text": "Short for Algorithmic Language, a family of imperative programming languages first developed in 1958. It heavily influenced many later languages and was the standard way to describe algorithms in ACM publications for over thirty years.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "ALGOL",
+   "page_id": 1453,
+   "rev_id": 1378382482,
+   "rev_timestamp": "2026-10-04T06:05:27Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=ALGOL&oldid=1378382482",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "algol",
  "name_match": "exact_case",
  "certification": false,
@@ -126,6 +141,47 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "2026-10-29-review-4d-opus"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-a",
+   "note": "adapted from the lead of Wikipedia: ALGOL, revision 1378382482"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=ALGOL&oldid=1378382482",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-a",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "1453",
+    "method": "title",
+    "categories": [
+     "ALGOL 60 dialect",
+     "Algol programming language family",
+     "Articles with example ALGOL 60 code",
+     "Computer-related introductions in 1958",
+     "Procedural programming languages",
+     "Programming languages created in 1958",
+     "Structured programming languages",
+     "Systems programming languages"
+    ]
+   }
   }
  ]
 }

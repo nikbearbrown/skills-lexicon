@@ -3,6 +3,21 @@
  "preferred_name": "CDC Cyber",
  "kind": "platform",
  "definition": "A line of mainframe and supercomputer systems made by Control Data Corporation from the 1970s.",
+ "description": {
+  "text": "A range of mainframe-class supercomputers that were the main products of Control Data Corporation in the 1970s and 1980s. They were used for scientific and mathematically intensive work such as fluid flow modeling and stress analysis.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "CDC Cyber",
+   "page_id": 826507,
+   "rev_id": 1374994839,
+   "rev_timestamp": "2026-09-15T06:57:25Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=CDC_Cyber&oldid=1374994839",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "cdc-cyber",
  "certification": false,
  "variants": [
@@ -129,6 +144,42 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "external-2026-10-29-gpt-6-unknown"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-b",
+   "note": "adapted from the lead of Wikipedia: CDC Cyber, revision 1374994839"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=CDC_Cyber&oldid=1374994839",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-b",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "826507",
+    "method": "title",
+    "categories": [
+     "Control Data Corporation hardware",
+     "Control Data Corporation mainframe computers",
+     "Supercomputers"
+    ]
+   }
   }
  ]
 }

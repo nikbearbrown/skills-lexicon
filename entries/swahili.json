@@ -3,6 +3,21 @@
  "preferred_name": "Swahili",
  "kind": "human-language",
  "definition": "A Bantu language widely used as a lingua franca in East Africa.",
+ "description": {
+  "text": "A Bantu language of the Atlantic-Congo family, originally spoken by the Swahili people of Tanzania, Kenya and Mozambique along the East African coast. It is estimated at 40 to 200 million speakers.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "Swahili",
+   "page_id": 28450,
+   "rev_id": 1376508944,
+   "rev_timestamp": "2026-09-24T15:57:57Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=Swahili&oldid=1376508944",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "swahili",
  "certification": false,
  "language_type": "human",
@@ -154,6 +169,54 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "2026-10-29-review-4e-opus"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-g",
+   "note": "adapted from the lead of Wikipedia: Swahili, revision 1376508944"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=Swahili&oldid=1376508944",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-g",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "28450",
+    "method": "title",
+    "categories": [
+     "Swahili language",
+     "Swahili culture",
+     "Northeast Coast Bantu languages",
+     "Non-tonal languages in tonal families",
+     "Agglutinative languages",
+     "Languages of Kenya",
+     "Languages of Burundi",
+     "Languages of Uganda",
+     "Languages of Tanzania",
+     "Languages of the Democratic Republic of the Congo",
+     "Languages of Rwanda",
+     "Languages of Mozambique",
+     "Languages of Malawi",
+     "Languages of the African diaspora",
+     "Articles containing video clips"
+    ]
+   }
   }
  ]
 }

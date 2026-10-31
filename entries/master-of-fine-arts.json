@@ -3,6 +3,21 @@
  "preferred_name": "Master of Fine Arts",
  "kind": "credential",
  "definition": "A postgraduate degree in a creative or performing art such as painting, creative writing, theatre or film.",
+ "description": {
+  "text": "A Master of Fine Arts (MFA) is a graduate degree in fine arts, including visual arts, creative writing, graphic design, photography, filmmaking, dance and theatre. It typically takes two to three years of study after a bachelor's degree.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "Master of Fine Arts",
+   "page_id": 894486,
+   "rev_id": 1354688872,
+   "rev_timestamp": "2026-05-17T20:20:52Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=Master_of_Fine_Arts&oldid=1354688872",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "master-of-fine-arts",
  "certification": true,
  "certification_scope": "many-issuers",
@@ -125,6 +140,41 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "external-2026-10-29-gpt-6-unknown"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-d",
+   "note": "adapted from the lead of Wikipedia: Master of Fine Arts, revision 1354688872"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=Master_of_Fine_Arts&oldid=1354688872",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-d",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "894486",
+    "method": "title",
+    "categories": [
+     "Master's degrees",
+     "Performing arts education"
+    ]
+   }
   }
  ]
 }

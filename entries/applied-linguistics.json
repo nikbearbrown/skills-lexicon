@@ -3,6 +3,21 @@
  "preferred_name": "Applied linguistics",
  "kind": "knowledge",
  "definition": "The study of language-related problems in real-world settings, such as language teaching, translation and language policy.",
+ "description": {
+  "text": "An interdisciplinary field that identifies, investigates and offers solutions to language-related real-life problems. It relates to fields such as education, psychology, communication research, information science and natural language processing.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "Applied linguistics",
+   "page_id": 406551,
+   "rev_id": 1368156406,
+   "rev_timestamp": "2026-08-07T09:55:03Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=Applied_linguistics&oldid=1368156406",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "applied-linguistics",
  "certification": false,
  "variants": [],
@@ -99,6 +114,41 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "external-2026-10-29-gpt-6-unknown"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-a",
+   "note": "adapted from the lead of Wikipedia: Applied linguistics, revision 1368156406"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=Applied_linguistics&oldid=1368156406",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-a",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "406551",
+    "method": "title",
+    "categories": [
+     "Applied linguistics",
+     "Rhetoric"
+    ]
+   }
   }
  ]
 }

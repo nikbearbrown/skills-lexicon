@@ -3,6 +3,21 @@
  "preferred_name": "Biopesticide",
  "kind": "knowledge",
  "definition": "Pest-control agents made from natural materials such as microbes, plants and minerals.",
+ "description": {
+  "text": "A biological substance or microorganism used to control pests. Biopesticides are components of integrated pest management programmes and are used as substitutes for synthetic pesticides.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "Biopesticide",
+   "page_id": 2065799,
+   "rev_id": 1372347247,
+   "rev_timestamp": "2026-08-31T10:17:10Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=Biopesticide&oldid=1372347247",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "biopesticide",
  "certification": false,
  "variants": [],
@@ -99,6 +114,42 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "external-2026-10-29-gpt-6-unknown"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-a",
+   "note": "adapted from the lead of Wikipedia: Biopesticide, revision 1372347247"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=Biopesticide&oldid=1372347247",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-a",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "2065799",
+    "method": "title",
+    "categories": [
+     "Biopesticides",
+     "Biotechnology",
+     "Biological pest control"
+    ]
+   }
   }
  ]
 }

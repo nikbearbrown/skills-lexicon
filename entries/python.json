@@ -7,6 +7,21 @@
  "preferred_name": "Python",
  "kind": "programming-language",
  "definition": "Writing programs in Python.",
+ "description": {
+  "text": "A high-level, general-purpose programming language that emphasizes readability and simplicity, with significant indentation, a large standard library and garbage collection. It supports several programming paradigms, mainly object-oriented, and is dynamically typed.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "Python (programming language)",
+   "page_id": 23862,
+   "rev_id": 1378728329,
+   "rev_timestamp": "2026-10-05T22:37:24Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=Python_(programming_language)&oldid=1378728329",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "variants": [
   {
    "label": "Python (Programming Language)",
@@ -71,6 +86,54 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "external-2026-10-29-gpt-6-unknown"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-f",
+   "note": "adapted from the lead of Wikipedia: Python (programming language), revision 1378728329"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=Python_(programming_language)&oldid=1378728329",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-f",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "23862",
+    "method": "title",
+    "categories": [
+     "Python (programming language)",
+     "Articles with example Python (programming language) code",
+     "Class-based programming languages",
+     "Notebook interface",
+     "Computer science in the Netherlands",
+     "Concurrent programming languages",
+     "Cross-platform free software",
+     "Cross-platform software",
+     "Dutch inventions",
+     "Dynamically typed programming languages",
+     "Educational programming languages",
+     "High-level programming languages",
+     "Information technology in the Netherlands",
+     "Multi-paradigm programming languages",
+     "Object-oriented programming languages"
+    ]
+   }
   }
  ]
 }

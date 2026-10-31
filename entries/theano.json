@@ -3,6 +3,21 @@
  "preferred_name": "Theano",
  "kind": "library",
  "definition": "A Python library for defining and efficiently evaluating mathematical expressions on multi-dimensional arrays, used for deep learning research; its original development ended in 2017.",
+ "description": {
+  "text": "A Python library and optimizing compiler for manipulating and evaluating mathematical expressions, especially matrix-valued ones. Computations are written in a NumPy-like syntax and compiled to run efficiently on CPU or GPU.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "Theano (software)",
+   "page_id": 33520809,
+   "rev_id": 1349193891,
+   "rev_timestamp": "2026-04-16T05:22:07Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=Theano_(software)&oldid=1349193891",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "theano",
  "certification": false,
  "variants": [],
@@ -76,6 +91,47 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "2026-10-29-review-5p-opus"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-g",
+   "note": "adapted from the lead of Wikipedia: Theano (software), revision 1349193891"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=Theano_(software)&oldid=1349193891",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-g",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "33520809",
+    "method": "title",
+    "categories": [
+     "Array programming languages",
+     "Deep learning software",
+     "Free science software",
+     "Numerical programming languages",
+     "Python (programming language) scientific libraries",
+     "Software using the BSD license",
+     "Articles with example Python (programming language) code",
+     "2007 software"
+    ]
+   }
   }
  ]
 }

@@ -3,6 +3,21 @@
  "preferred_name": "Media Transfer Protocol",
  "kind": "standard",
  "definition": "A protocol, extending the Picture Transfer Protocol, for moving media files such as music and video between a computer and a portable device.",
+ "description": {
+  "text": "An extension of the Picture Transfer Protocol that lets media files move to and from portable devices such as digital audio players, portable media players and personal digital assistants. It became the standard way to transfer files to and from Android in 2011.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "Media Transfer Protocol",
+   "page_id": 1096619,
+   "rev_id": 1377275287,
+   "rev_timestamp": "2026-09-28T17:18:27Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=Media_Transfer_Protocol&oldid=1377275287",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "media-transfer-protocol",
  "certification": false,
  "variants": [],
@@ -99,6 +114,43 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "external-2026-10-29-gpt-6-unknown"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-e",
+   "note": "adapted from the lead of Wikipedia: Media Transfer Protocol, revision 1377275287"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=Media_Transfer_Protocol&oldid=1377275287",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-e",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "1096619",
+    "method": "title",
+    "categories": [
+     "Microsoft application programming interfaces",
+     "Microsoft Windows multimedia technology",
+     "USB",
+     "Network protocols"
+    ]
+   }
   }
  ]
 }

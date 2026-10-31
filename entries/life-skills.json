@@ -3,6 +3,21 @@
  "preferred_name": "Life skills",
  "kind": "skill",
  "definition": "Practical personal abilities, such as budgeting, cooking, time management and communication, needed to manage everyday life.",
+ "description": {
+  "text": "Life skills are defined as abilities for adaptive and positive behavior that let people deal effectively with the demands and challenges of life. The concept is also called psychosocial competency, and what counts varies with social norms.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "Life skills",
+   "page_id": 21394297,
+   "rev_id": 1355185429,
+   "rev_timestamp": "2026-05-20T10:57:36Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=Life_skills&oldid=1355185429",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "life-skills",
  "certification": false,
  "variants": [],
@@ -99,6 +114,40 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "external-2026-10-29-gpt-6-unknown"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-d",
+   "note": "adapted from the lead of Wikipedia: Life skills, revision 1355185429"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=Life_skills&oldid=1355185429",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-d",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "21394297",
+    "method": "title",
+    "categories": [
+     "Life skills"
+    ]
+   }
   }
  ]
 }

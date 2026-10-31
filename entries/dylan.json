@@ -3,6 +3,21 @@
  "preferred_name": "Dylan",
  "kind": "programming-language",
  "definition": "A multi-paradigm, object-oriented programming language derived from Scheme and influenced by Common Lisp, developed in the 1990s by Apple and partners.",
+ "description": {
+  "text": "A multi-paradigm programming language supporting functional and object-oriented programming, designed to be dynamic and reflective while allowing efficient machine code. It was created in the early 1990s by a group led by Apple Computer.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "Dylan (programming language)",
+   "page_id": 8741,
+   "rev_id": 1355220369,
+   "rev_timestamp": "2026-05-20T16:18:30Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=Dylan_(programming_language)&oldid=1355220369",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "dylan",
  "certification": false,
  "language_type": "programming",
@@ -125,6 +140,45 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "2026-10-29-review-4e-opus"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-c",
+   "note": "adapted from the lead of Wikipedia: Dylan (programming language), revision 1355220369"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=Dylan_(programming_language)&oldid=1355220369",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-c",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "8741",
+    "method": "title",
+    "categories": [
+     "Dylan (programming language)",
+     "Cross-platform software",
+     "Extensible syntax programming languages",
+     "Lisp programming language family",
+     "Programming languages created in 1992",
+     "Articles with example Lisp (programming language) code"
+    ]
+   }
   }
  ]
 }

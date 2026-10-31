@@ -3,6 +3,21 @@
  "preferred_name": "AWS Lambda",
  "kind": "tool",
  "definition": "An Amazon Web Services compute service that runs code in response to events without the user provisioning or managing servers.",
+ "description": {
+  "text": "An event-driven, serverless Function as a Service from Amazon Web Services. It lets developers run code without provisioning or managing servers, executing code in response to events and managing the needed resources automatically.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "AWS Lambda",
+   "page_id": 47744877,
+   "rev_id": 1355684793,
+   "rev_timestamp": "2026-05-23T08:24:09Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=AWS_Lambda&oldid=1355684793",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "aws-lambda",
  "certification": false,
  "variants": [],
@@ -99,6 +114,41 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "external-2026-10-29-gpt-6-unknown"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-a",
+   "note": "adapted from the lead of Wikipedia: AWS Lambda, revision 1355684793"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=AWS_Lambda&oldid=1355684793",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-a",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "47744877",
+    "method": "title",
+    "categories": [
+     "Amazon Web Services",
+     "Serverless computing"
+    ]
+   }
   }
  ]
 }

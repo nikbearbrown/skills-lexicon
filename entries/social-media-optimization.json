@@ -3,6 +3,21 @@
  "preferred_name": "Social media optimization",
  "kind": "skill",
  "definition": "Using social media activity and content to raise the visibility of a brand or website and bring traffic to it.",
+ "description": {
+  "text": "The use of online platforms such as blogs, video sharing sites and social networks to generate income or publicity and raise awareness of a brand, event, product or service. It is similar to search engine optimization.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "Social media optimization",
+   "page_id": 6559316,
+   "rev_id": 1328015884,
+   "rev_timestamp": "2025-12-17T12:25:21Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=Social_media_optimization&oldid=1328015884",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "social-media-optimization",
  "certification": false,
  "variants": [],
@@ -99,6 +114,43 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "external-2026-10-29-gpt-6-unknown"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-g",
+   "note": "adapted from the lead of Wikipedia: Social media optimization, revision 1328015884"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=Social_media_optimization&oldid=1328015884",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-g",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "6559316",
+    "method": "title",
+    "categories": [
+     "Digital marketing",
+     "Internet terminology",
+     "Social information processing",
+     "Social media"
+    ]
+   }
   }
  ]
 }

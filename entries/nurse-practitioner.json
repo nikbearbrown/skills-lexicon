@@ -3,6 +3,21 @@
  "preferred_name": "Nurse Practitioner",
  "kind": "credential",
  "definition": "An advanced practice nursing credential for registered nurses with graduate education who are licensed by a state and certified in a population focus.",
+ "description": {
+  "text": "An advanced practice registered nurse and a type of mid-level practitioner. Nurse practitioners are trained to assess patient needs, order and interpret tests, diagnose disease, prescribe medications and plan treatment.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "Nurse practitioner",
+   "page_id": 2848980,
+   "rev_id": 1373465573,
+   "rev_timestamp": "2026-09-06T03:22:19Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=Nurse_practitioner&oldid=1373465573",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "nurse-practitioner",
  "certification": true,
  "certification_scope": "many-issuers",
@@ -127,6 +142,41 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "external-2026-10-29-gpt-6-unknown"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-e",
+   "note": "adapted from the lead of Wikipedia: Nurse practitioner, revision 1373465573"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=Nurse_practitioner&oldid=1373465573",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-e",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "2848980",
+    "method": "title",
+    "categories": [
+     "Health care occupations",
+     "Nursing"
+    ]
+   }
   }
  ]
 }

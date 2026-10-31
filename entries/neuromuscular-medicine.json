@@ -3,6 +3,21 @@
  "preferred_name": "Neuromuscular medicine",
  "kind": "knowledge",
  "definition": "The medical subspecialty that diagnoses and treats diseases of the nerves, the muscles and the junctions between them.",
+ "description": {
+  "text": "A subspecialty of neurology and physiatry focused on diagnosing and managing neuromuscular diseases, including rehabilitation. It covers inherited or acquired disorders in adults and children, diagnosed through history, examination and electromyography.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "Neuromuscular medicine",
+   "page_id": 4839504,
+   "rev_id": 1359109056,
+   "rev_timestamp": "2026-06-13T04:05:06Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=Neuromuscular_medicine&oldid=1359109056",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "neuromuscular-medicine",
  "certification": false,
  "variants": [],
@@ -100,6 +115,41 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "external-2026-10-29-gpt-6-unknown"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-e",
+   "note": "adapted from the lead of Wikipedia: Neuromuscular medicine, revision 1359109056"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=Neuromuscular_medicine&oldid=1359109056",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-e",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "4839504",
+    "method": "title",
+    "categories": [
+     "Neurophysiology",
+     "Neurology"
+    ]
+   }
   }
  ]
 }

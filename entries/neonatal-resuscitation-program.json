@@ -6,6 +6,21 @@
  "preferred_name": "Neonatal Resuscitation Program",
  "kind": "credential",
  "definition": "A training programme from the American Academy of Pediatrics and the American Heart Association on resuscitating newborns.",
+ "description": {
+  "text": "An educational program in neonatal resuscitation developed and maintained by the American Academy of Pediatrics. It teaches basic resuscitation skills for newly born infants.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "Neonatal Resuscitation Program",
+   "page_id": 18547735,
+   "rev_id": 1316941486,
+   "rev_timestamp": "2025-10-15T10:40:24Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=Neonatal_Resuscitation_Program&oldid=1316941486",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "neonatal-resuscitation-program",
  "certification": true,
  "variants": [
@@ -249,6 +264,45 @@
    "date": "2026-10-29",
    "run": "external-2026-10-29-gpt-6-unknown",
    "note": "This plural changes the name of the specific Neonatal Resuscitation Program."
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-e",
+   "note": "adapted from the lead of Wikipedia: Neonatal Resuscitation Program, revision 1316941486"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=Neonatal_Resuscitation_Program&oldid=1316941486",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-e",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "18547735",
+    "method": "title",
+    "categories": [
+     "Medical credentials",
+     "Emergency medical procedures",
+     "Emergency medicine courses",
+     "Emergency life support",
+     "Pediatrics in the United States",
+     "Cardiopulmonary resuscitation"
+    ]
+   }
   }
  ],
  "certification_scope": "single-issuer",

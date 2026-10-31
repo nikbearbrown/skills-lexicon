@@ -6,6 +6,21 @@
  "preferred_name": "Marathi",
  "kind": "human-language",
  "definition": "An Indo-Aryan language spoken mainly in the Indian state of Maharashtra.",
+ "description": {
+  "text": "Marathi is a classical Indo-Aryan language mainly spoken by the Marathi people in Maharashtra, India, and also in Goa and nearby territories. It is the official language of Maharashtra and one of India's 22 scheduled languages.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "Marathi language",
+   "page_id": 20617,
+   "rev_id": 1375811268,
+   "rev_timestamp": "2026-09-20T05:12:11Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=Marathi_language&oldid=1375811268",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "marathi",
  "certification": false,
  "language_type": "human",
@@ -192,6 +207,52 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "external-2026-10-29-gpt-6-unknown"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-d",
+   "note": "adapted from the lead of Wikipedia: Marathi language, revision 1375811268"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=Marathi_language&oldid=1375811268",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-d",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "20617",
+    "method": "redirect",
+    "categories": [
+     "Marathi language",
+     "Classical Language in India",
+     "Indo-Aryan languages",
+     "Languages attested since the 7th century",
+     "Languages of Gujarat",
+     "Languages of Karnataka",
+     "Languages of Madhya Pradesh",
+     "Languages of Maharashtra",
+     "Languages written in Brahmic scripts",
+     "Languages written in Devanagari",
+     "Official languages of India",
+     "Southern Indo-Aryan languages",
+     "Subject–object–verb languages"
+    ]
+   }
   }
  ]
 }

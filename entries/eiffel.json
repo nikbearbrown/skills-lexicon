@@ -3,6 +3,21 @@
  "preferred_name": "Eiffel",
  "kind": "programming-language",
  "definition": "An object-oriented programming language designed by Bertrand Meyer and built around design by contract.",
+ "description": {
+  "text": "An object-oriented programming language designed by Bertrand Meyer and Eiffel Software, conceived in 1985 with the goal of making commercial software more reliable. It became an ISO technical standard in 2005.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "Eiffel (programming language)",
+   "page_id": 9838,
+   "rev_id": 1374643603,
+   "rev_timestamp": "2026-09-13T07:50:55Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=Eiffel_(programming_language)&oldid=1374643603",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "eiffel",
  "certification": false,
  "language_type": "programming",
@@ -125,6 +140,46 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "2026-10-29-review-4e-opus"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-c",
+   "note": "adapted from the lead of Wikipedia: Eiffel (programming language), revision 1374643603"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=Eiffel_(programming_language)&oldid=1374643603",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-c",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "9838",
+    "method": "title",
+    "categories": [
+     "Class-based programming languages",
+     "Formal specification languages",
+     "High-integrity programming languages",
+     "Object-oriented programming languages",
+     "Programming languages created in 1986",
+     "Programming languages with an ISO standard",
+     "Statically typed programming languages"
+    ]
+   }
   }
  ]
 }

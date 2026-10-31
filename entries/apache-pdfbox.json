@@ -3,6 +3,21 @@
  "preferred_name": "Apache PDFBox",
  "kind": "library",
  "definition": "An open-source Java library from the Apache Software Foundation for creating, reading, changing and extracting text from PDF files.",
+ "description": {
+  "text": "An open-source, pure-Java library for creating, rendering, printing, splitting, merging, altering and verifying PDF files, and extracting their text and metadata.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "Apache PDFBox",
+   "page_id": 43118322,
+   "rev_id": 1371630810,
+   "rev_timestamp": "2026-08-27T14:27:05Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=Apache_PDFBox&oldid=1371630810",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "apache-pdfbox",
  "certification": false,
  "variants": [
@@ -128,6 +143,45 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "external-2026-10-29-gpt-6-unknown"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-a",
+   "note": "adapted from the lead of Wikipedia: Apache PDFBox, revision 1371630810"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=Apache_PDFBox&oldid=1371630810",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-a",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "43118322",
+    "method": "title",
+    "categories": [
+     "Apache Software Foundation projects",
+     "Free PDF software",
+     "Free software programmed in Java",
+     "Java (programming language) libraries",
+     "Java (software platform)",
+     "Software using the Apache license"
+    ]
+   }
   }
  ]
 }

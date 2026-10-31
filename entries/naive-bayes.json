@@ -3,6 +3,21 @@
  "preferred_name": "Naive Bayes",
  "kind": "method",
  "definition": "A family of simple probabilistic classifiers that apply Bayes' theorem while assuming that features are independent of each other given the class.",
+ "description": {
+  "text": "A family of simple probabilistic classifiers in statistics that assume the features are conditionally independent given the class. This 'naive' assumption is unrealistic, and they usually do worse than more advanced models.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "Naive Bayes classifier",
+   "page_id": 87339,
+   "rev_id": 1361005901,
+   "rev_timestamp": "2026-06-25T01:28:48Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=Naive_Bayes_classifier&oldid=1361005901",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "naive-bayes",
  "certification": false,
  "variants": [
@@ -156,6 +171,43 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "external-2026-10-29-gpt-6-unknown"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-e",
+   "note": "adapted from the lead of Wikipedia: Naive Bayes classifier, revision 1361005901"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=Naive_Bayes_classifier&oldid=1361005901",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-e",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "87339",
+    "method": "redirect",
+    "categories": [
+     "Classification algorithms",
+     "Statistical classification",
+     "Bayesian statistics",
+     "Machine learning algorithms"
+    ]
+   }
   }
  ]
 }

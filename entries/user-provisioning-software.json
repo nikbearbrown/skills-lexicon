@@ -3,6 +3,21 @@
  "preferred_name": "User provisioning software",
  "kind": "tool",
  "definition": "Software that automates creating, changing and removing user accounts and access rights across an organisation's systems.",
+ "description": {
+  "text": "Software that helps organizations manage information about users across multiple systems and applications more quickly, cheaply, reliably and securely.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "User provisioning software",
+   "page_id": 26073693,
+   "rev_id": 1311601760,
+   "rev_timestamp": "2025-09-16T00:22:51Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=User_provisioning_software&oldid=1311601760",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "user-provisioning-software",
  "certification": false,
  "variants": [],
@@ -96,6 +111,42 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "2026-10-29-review-5q-opus"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-g",
+   "note": "adapted from the lead of Wikipedia: User provisioning software, revision 1311601760"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=User_provisioning_software&oldid=1311601760",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-g",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "26073693",
+    "method": "title",
+    "categories": [
+     "Access control software",
+     "Identity management",
+     "Identity management systems"
+    ]
+   }
   }
  ]
 }

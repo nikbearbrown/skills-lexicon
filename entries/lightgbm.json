@@ -3,6 +3,21 @@
  "preferred_name": "LightGBM",
  "kind": "library",
  "definition": "A gradient boosting library for training fast decision-tree models on large datasets.",
+ "description": {
+  "text": "LightGBM (Light Gradient-Boosting Machine) is a free, open-source distributed gradient-boosting framework for machine learning, originally from Microsoft. It is based on decision trees and used for ranking, classification and other tasks, with a focus on performance and scalability.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "LightGBM",
+   "page_id": 64785522,
+   "rev_id": 1378514591,
+   "rev_timestamp": "2026-10-04T21:08:56Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=LightGBM&oldid=1378514591",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "lightgbm",
  "certification": false,
  "variants": [
@@ -147,6 +162,48 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "external-2026-10-29-gpt-6-unknown"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-d",
+   "note": "adapted from the lead of Wikipedia: LightGBM, revision 1378514591"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=LightGBM&oldid=1378514591",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-d",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "64785522",
+    "method": "title",
+    "categories": [
+     "Applied machine learning",
+     "Data mining and machine learning software",
+     "Free software programmed in C++",
+     "Microsoft free software",
+     "Microsoft Research",
+     "Open-source artificial intelligence",
+     "Software using the MIT license",
+     "2016 software",
+     "Free software programmed in Python"
+    ]
+   }
   }
  ]
 }

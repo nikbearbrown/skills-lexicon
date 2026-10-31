@@ -3,6 +3,21 @@
  "preferred_name": "eNodeB",
  "kind": "knowledge",
  "definition": "The base station in a 4G LTE radio network that connects mobile devices to the core network.",
+ "description": {
+  "text": "The element in LTE mobile networks, short for Evolved Node B, that evolved from the Node B of UMTS. It is the hardware connected to the mobile phone network that communicates wirelessly with handsets, like a base transceiver station in GSM networks.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "ENodeB",
+   "page_id": 34816326,
+   "rev_id": 1326885118,
+   "rev_timestamp": "2025-12-11T13:14:29Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=ENodeB&oldid=1326885118",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "enodeb",
  "certification": false,
  "variants": [
@@ -156,6 +171,41 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "external-2026-10-29-gpt-6-unknown"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-c",
+   "note": "adapted from the lead of Wikipedia: ENodeB, revision 1326885118"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=ENodeB&oldid=1326885118",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-c",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "34816326",
+    "method": "title",
+    "categories": [
+     "LTE (telecommunication)",
+     "Telecommunications infrastructure"
+    ]
+   }
   }
  ]
 }

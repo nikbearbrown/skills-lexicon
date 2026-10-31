@@ -6,6 +6,21 @@
  "preferred_name": "Advanced Trauma Life Support",
  "kind": "credential",
  "definition": "A trauma-care training course and certification from the American College of Surgeons on the first assessment and management of injured patients.",
+ "description": {
+  "text": "A training program for doctors in managing acute trauma cases, developed by the American College of Surgeons. It teaches a simplified, standardized approach to trauma patients and is taught in over 80 countries.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "Advanced trauma life support",
+   "page_id": 2229013,
+   "rev_id": 1369794903,
+   "rev_timestamp": "2026-08-17T05:44:08Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=Advanced_trauma_life_support&oldid=1369794903",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "advanced-trauma-life-support",
  "certification": true,
  "variants": [
@@ -259,6 +274,44 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "external-2026-10-29-muse-spark-1-3-xhigh"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-a",
+   "note": "adapted from the lead of Wikipedia: Advanced trauma life support, revision 1369794903"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=Advanced_trauma_life_support&oldid=1369794903",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-a",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "2229013",
+    "method": "title",
+    "categories": [
+     "Traumatology",
+     "Emergency medicine courses",
+     "Emergency life support",
+     "Medical credentials",
+     "Medical mnemonics"
+    ]
+   }
   }
  ],
  "certification_scope": "single-issuer",

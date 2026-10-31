@@ -3,6 +3,21 @@
  "preferred_name": "Kenya Certificate of Primary Education",
  "kind": "credential",
  "definition": "A certificate awarded by the Kenya National Examinations Council to pupils who sit the national examination at the end of primary school.",
+ "description": {
+  "text": "The Kenya Certificate of Primary Education (KCPE) was a certificate awarded after completing the eight-year primary course in Kenya. The Kenya National Examination Council supervised the examination.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "Kenya Certificate of Primary Education",
+   "page_id": 5391544,
+   "rev_id": 1374834211,
+   "rev_timestamp": "2026-09-14T10:07:09Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=Kenya_Certificate_of_Primary_Education&oldid=1374834211",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "kenya-certificate-of-primary-education",
  "certification": true,
  "certification_scope": "single-issuer",
@@ -156,6 +171,42 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "external-2026-10-29-gpt-6-unknown"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-d",
+   "note": "adapted from the lead of Wikipedia: Kenya Certificate of Primary Education, revision 1374834211"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=Kenya_Certificate_of_Primary_Education&oldid=1374834211",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-d",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "5391544",
+    "method": "title",
+    "categories": [
+     "Education in Kenya",
+     "Primary school qualifications",
+     "Primary education"
+    ]
+   }
   }
  ]
 }

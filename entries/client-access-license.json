@@ -3,6 +3,21 @@
  "preferred_name": "Client access license",
  "kind": "knowledge",
  "definition": "A licensing model used by server software, notably from Microsoft, in which each user or device needs a licence to connect to the server.",
+ "description": {
+  "text": "A commercial software license that lets client computers use server software services. Some server products require payment per user or per device that accesses them.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "Client access license",
+   "page_id": 2912526,
+   "rev_id": 1322000669,
+   "rev_timestamp": "2025-11-13T21:23:12Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=Client_access_license&oldid=1322000669",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "client-access-license",
  "certification": false,
  "variants": [
@@ -130,6 +145,41 @@
    "date": "2026-10-29",
    "run": "external-2026-10-29-gpt-6-unknown",
    "note": "Names the licensing practice/model; a client access license is an individual entitlement."
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-b",
+   "note": "adapted from the lead of Wikipedia: Client access license, revision 1322000669"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=Client_access_license&oldid=1322000669",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-b",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "2912526",
+    "method": "title",
+    "categories": [
+     "Microsoft initiatives",
+     "Software licensing"
+    ]
+   }
   }
  ]
 }

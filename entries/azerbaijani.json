@@ -3,6 +3,21 @@
  "preferred_name": "Azerbaijani",
  "kind": "human-language",
  "definition": "A Turkic language spoken mainly in Azerbaijan and northwestern Iran.",
+ "description": {
+  "text": "A Turkic language of the Oghuz branch, spoken mainly by the Azerbaijani people in northwestern Iran and the Republic of Azerbaijan. South Azerbaijani is spoken in Iran and North Azerbaijani in the Republic.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "Azerbaijani language",
+   "page_id": 192825,
+   "rev_id": 1378814281,
+   "rev_timestamp": "2026-10-06T07:23:01Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=Azerbaijani_language&oldid=1378814281",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "azerbaijani",
  "certification": false,
  "language_type": "human",
@@ -154,6 +169,50 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "2026-10-29-review-4d-opus"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-a",
+   "note": "adapted from the lead of Wikipedia: Azerbaijani language, revision 1378814281"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=Azerbaijani_language&oldid=1378814281",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-a",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "192825",
+    "method": "redirect",
+    "categories": [
+     "Azerbaijani language",
+     "Agglutinative languages",
+     "Languages of Azerbaijan",
+     "Languages of Georgia (country)",
+     "Languages of Iran",
+     "Languages of Iraq",
+     "Languages of Russia",
+     "Languages of Turkey",
+     "Subject–object–verb languages",
+     "Oghuz languages",
+     "Indigenous languages of European Russia"
+    ]
+   }
   }
  ]
 }

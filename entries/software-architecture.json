@@ -7,6 +7,21 @@
  "preferred_name": "Software architecture",
  "kind": "skill",
  "definition": "Designing software structure and major component interactions.",
+ "description": {
+  "text": "The set of structures needed to reason about a software system, and the discipline of creating them. Each structure consists of software elements, the relations among them, and properties of both.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "Software architecture",
+   "page_id": 48364,
+   "rev_id": 1373741216,
+   "rev_timestamp": "2026-09-07T17:48:57Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=Software_architecture&oldid=1373741216",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "variants": [],
  "relations": [],
  "verbs": [],
@@ -49,6 +64,40 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "external-2026-10-29-gpt-6-unknown"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-g",
+   "note": "adapted from the lead of Wikipedia: Software architecture, revision 1373741216"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=Software_architecture&oldid=1373741216",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-g",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "48364",
+    "method": "title",
+    "categories": [
+     "Software architecture"
+    ]
+   }
   }
  ]
 }

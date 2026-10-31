@@ -3,6 +3,21 @@
  "preferred_name": "Rolling stock",
  "kind": "knowledge",
  "definition": "The vehicles that run on a railway, such as locomotives, passenger carriages and freight wagons, and the engineering that goes with them.",
+ "description": {
+  "text": "In the rail industry, railway vehicles, both powered and unpowered, such as locomotives, freight and passenger cars, and non-revenue cars. Passenger vehicles can be unpowered or self-propelled.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "Rolling stock",
+   "page_id": 214755,
+   "rev_id": 1370590541,
+   "rev_timestamp": "2026-08-22T00:37:00Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=Rolling_stock&oldid=1370590541",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "rolling-stock",
  "certification": false,
  "variants": [],
@@ -99,6 +114,41 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "external-2026-10-29-gpt-6-unknown"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-f",
+   "note": "adapted from the lead of Wikipedia: Rolling stock, revision 1370590541"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=Rolling_stock&oldid=1370590541",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-f",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "214755",
+    "method": "title",
+    "categories": [
+     "Rolling stock",
+     "Rail transport"
+    ]
+   }
   }
  ]
 }

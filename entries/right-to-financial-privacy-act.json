@@ -3,6 +3,21 @@
  "preferred_name": "Right to Financial Privacy Act",
  "kind": "standard",
  "definition": "A 1978 US federal law that limits when government agencies may obtain a person's records from financial institutions.",
+ "description": {
+  "text": "A 1978 United States federal law giving customers of financial institutions some privacy from government searches. Before it, the government did not have to tell customers it was accessing their records or let them prevent it.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "Right to Financial Privacy Act",
+   "page_id": 13501997,
+   "rev_id": 1306788828,
+   "rev_timestamp": "2025-08-19T18:08:49Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=Right_to_Financial_Privacy_Act&oldid=1306788828",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "right-to-financial-privacy-act",
  "certification": false,
  "variants": [
@@ -151,6 +166,41 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "external-2026-10-29-gpt-6-unknown"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-f",
+   "note": "adapted from the lead of Wikipedia: Right to Financial Privacy Act, revision 1306788828"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=Right_to_Financial_Privacy_Act&oldid=1306788828",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-f",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "13501997",
+    "method": "title",
+    "categories": [
+     "United States federal banking legislation",
+     "United States federal privacy legislation"
+    ]
+   }
   }
  ]
 }

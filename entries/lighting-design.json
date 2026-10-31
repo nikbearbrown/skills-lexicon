@@ -3,6 +3,21 @@
  "preferred_name": "Lighting design",
  "kind": "skill",
  "definition": "Planning the type, placement and control of light for buildings, stages, films or other spaces.",
+ "description": {
+  "text": "Architectural lighting design is a field of work or study on designing lighting systems in the built environment, indoors and outdoors. It can involve daylight, electric light or both, to serve human needs, and draws on science and the visual arts.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "Architectural lighting design",
+   "page_id": 1876356,
+   "rev_id": 1371341658,
+   "rev_timestamp": "2026-08-26T00:17:27Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=Architectural_lighting_design&oldid=1371341658",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "lighting-design",
  "certification": false,
  "variants": [],
@@ -99,6 +114,41 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "external-2026-10-29-gpt-6-unknown"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-d",
+   "note": "adapted from the lead of Wikipedia: Architectural lighting design, revision 1371341658"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=Architectural_lighting_design&oldid=1371341658",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-d",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "1876356",
+    "method": "redirect",
+    "categories": [
+     "Architectural lighting design",
+     "Garden features"
+    ]
+   }
   }
  ]
 }

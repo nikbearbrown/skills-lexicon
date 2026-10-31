@@ -3,6 +3,21 @@
  "preferred_name": "iBeacon",
  "kind": "platform",
  "definition": "Apple's Bluetooth Low Energy technology in which a small transmitter broadcasts an identifier that nearby phones can detect, used for indoor location and proximity.",
+ "description": {
+  "text": "iBeacon is a protocol developed by Apple. Beacons, small Bluetooth Low Energy transmitters, broadcast an identifier so that smartphones and tablets can perform actions when near them.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "IBeacon",
+   "page_id": 40612303,
+   "rev_id": 1374894497,
+   "rev_timestamp": "2026-09-14T18:10:33Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=IBeacon&oldid=1374894497",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "ibeacon",
  "certification": false,
  "variants": [],
@@ -101,6 +116,47 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "external-2026-10-29-gpt-6-unknown"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-d",
+   "note": "adapted from the lead of Wikipedia: IBeacon, revision 1374894497"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=IBeacon&oldid=1374894497",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-d",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "40612303",
+    "method": "title",
+    "categories": [
+     "Automatic identification and data capture",
+     "Radio-frequency identification",
+     "Radio navigation",
+     "Ubiquitous computing",
+     "Wireless locating",
+     "Indoor positioning system",
+     "Bluetooth",
+     "Geopositioning"
+    ]
+   }
   }
  ]
 }

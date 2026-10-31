@@ -3,6 +3,21 @@
  "preferred_name": "Oracle Reports",
  "kind": "tool",
  "definition": "An Oracle tool for designing and running formatted, paginated reports from the data in Oracle Database.",
+ "description": {
+  "text": "A tool for developing reports against data stored in an Oracle database. Report output can go straight to a printer or be saved in formats such as HTML, RTF, PDF, XML and Microsoft Excel.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "Oracle Reports",
+   "page_id": 1120647,
+   "rev_id": 1375818218,
+   "rev_timestamp": "2026-09-20T06:49:05Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=Oracle_Reports&oldid=1375818218",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "oracle-reports",
  "certification": false,
  "variants": [],
@@ -100,6 +115,41 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "external-2026-10-29-gpt-6-unknown"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-e",
+   "note": "adapted from the lead of Wikipedia: Oracle Reports, revision 1375818218"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=Oracle_Reports&oldid=1375818218",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-e",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "1120647",
+    "method": "title",
+    "categories": [
+     "Oracle software",
+     "Reporting software"
+    ]
+   }
   }
  ]
 }

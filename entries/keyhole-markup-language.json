@@ -3,6 +3,21 @@
  "preferred_name": "Keyhole Markup Language",
  "kind": "markup-language",
  "definition": "An XML-based markup language for describing geographic features, placemarks and map views, used by Google Earth and other mapping software.",
+ "description": {
+  "text": "Keyhole Markup Language (KML) is an XML notation for geographic annotation and visualization on two-dimensional maps and three-dimensional Earth browsers. It was developed for Google Earth and became an Open Geospatial Consortium standard.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "Keyhole Markup Language",
+   "page_id": 2139847,
+   "rev_id": 1372543897,
+   "rev_timestamp": "2026-09-01T04:44:22Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=Keyhole_Markup_Language&oldid=1372543897",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "keyhole-markup-language",
  "certification": false,
  "language_type": "programming",
@@ -243,6 +258,48 @@
    "date": "2026-10-29",
    "run": "external-2026-10-29-muse-spark-1-3-xhigh",
    "note": "pluralised; KML is a single language, not a family"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-d",
+   "note": "adapted from the lead of Wikipedia: Keyhole Markup Language, revision 1372543897"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=Keyhole_Markup_Language&oldid=1372543897",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-d",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "2139847",
+    "method": "title",
+    "categories": [
+     "Keyhole Markup Language",
+     "Articles with example code",
+     "GIS file formats",
+     "Google",
+     "Open formats",
+     "Open Geospatial Consortium",
+     "XML-based standards",
+     "XML markup languages",
+     "Data compression"
+    ]
+   }
   }
  ]
 }

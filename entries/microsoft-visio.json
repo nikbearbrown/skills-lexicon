@@ -3,6 +3,21 @@
  "preferred_name": "Microsoft Visio",
  "kind": "tool",
  "definition": "A Microsoft application for drawing diagrams such as flowcharts, floor plans and network maps.",
+ "description": {
+  "text": "A diagramming and vector graphics application from Microsoft, formerly Microsoft Office Visio, and part of Microsoft 365 Business. It was first introduced in 1992 by Visio Corporation. A web app version is also available.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "Microsoft Visio",
+   "page_id": 529032,
+   "rev_id": 1375211494,
+   "rev_timestamp": "2026-09-16T13:25:27Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=Microsoft_Visio&oldid=1375211494",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "microsoft-visio",
  "certification": false,
  "variants": [
@@ -128,6 +143,47 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "external-2026-10-29-gpt-6-unknown"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-e",
+   "note": "adapted from the lead of Wikipedia: Microsoft Visio, revision 1375211494"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=Microsoft_Visio&oldid=1375211494",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-e",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "529032",
+    "method": "title",
+    "categories": [
+     "1992 software",
+     "Diagramming software",
+     "Microsoft Office",
+     "Technical communication tools",
+     "UML tools",
+     "Windows software",
+     "Graph drawing software",
+     "2000 mergers and acquisitions"
+    ]
+   }
   }
  ]
 }

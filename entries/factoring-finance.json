@@ -3,6 +3,21 @@
  "preferred_name": "Factoring (finance)",
  "kind": "knowledge",
  "definition": "A way of financing a business in which it sells its unpaid invoices to a third party at a discount in return for immediate cash.",
+ "description": {
+  "text": "A financial transaction in which a business sells its accounts receivable (invoices) to a third party, called a factor, at a discount. Businesses use it to meet immediate cash needs; forfaiting is a similar arrangement used by exporters in international trade.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "Factoring (finance)",
+   "page_id": 317810,
+   "rev_id": 1375555678,
+   "rev_timestamp": "2026-09-18T14:35:26Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=Factoring_(finance)&oldid=1375555678",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "factoring-finance",
  "certification": false,
  "variants": [],
@@ -99,6 +114,44 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "external-2026-10-29-gpt-6-unknown"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-c",
+   "note": "adapted from the lead of Wikipedia: Factoring (finance), revision 1375555678"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=Factoring_(finance)&oldid=1375555678",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-c",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "317810",
+    "method": "title",
+    "categories": [
+     "Corporate finance",
+     "Fundamental analysis",
+     "Accounting terminology",
+     "Working capital management",
+     "Accounts receivable"
+    ]
+   }
   }
  ]
 }

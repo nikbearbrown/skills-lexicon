@@ -3,6 +3,21 @@
  "preferred_name": "Application delivery controller",
  "kind": "tool",
  "definition": "A network device or service placed in front of application servers that balances traffic and adds features such as SSL offloading, caching and application firewalling.",
+ "description": {
+  "text": "A network device in a datacenter that takes load off web servers by doing common tasks like those of web accelerators. Many also provide load balancing, and they are often placed between the outer firewall or router and a web farm.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "Application delivery controller",
+   "page_id": 11323169,
+   "rev_id": 1128166272,
+   "rev_timestamp": "2022-12-18T19:31:16Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=Application_delivery_controller&oldid=1128166272",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "application-delivery-controller",
  "certification": false,
  "variants": [],
@@ -99,6 +114,41 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "external-2026-10-29-gpt-6-unknown"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-a",
+   "note": "adapted from the lead of Wikipedia: Application delivery controller, revision 1128166272"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=Application_delivery_controller&oldid=1128166272",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-a",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "11323169",
+    "method": "title",
+    "categories": [
+     "Networking hardware",
+     "Load balancing (computing)"
+    ]
+   }
   }
  ]
 }

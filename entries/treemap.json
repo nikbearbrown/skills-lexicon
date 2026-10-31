@@ -3,6 +3,21 @@
  "preferred_name": "Treemap",
  "kind": "method",
  "definition": "A chart that shows hierarchical data as nested rectangles whose areas are proportional to their values.",
+ "description": {
+  "text": "A method for displaying hierarchical data as nested rectangles. Each branch gets a rectangle tiled with smaller rectangles for its sub-branches, and a leaf's area is proportional to a chosen dimension of the data.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "Treemapping",
+   "page_id": 1592887,
+   "rev_id": 1375077992,
+   "rev_timestamp": "2026-09-15T18:55:02Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=Treemapping&oldid=1375077992",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "treemap",
  "certification": false,
  "variants": [
@@ -97,6 +112,45 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "2026-10-29-review-5q-opus"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-g",
+   "note": "adapted from the lead of Wikipedia: Treemapping, revision 1375077992"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=Treemapping&oldid=1375077992",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-g",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "1592887",
+    "method": "redirect",
+    "categories": [
+     "User interface techniques",
+     "Infographics",
+     "Statistical charts and diagrams",
+     "Trees (data structures)",
+     "Visualization (graphics)",
+     "Rectangular subdivisions"
+    ]
+   }
   }
  ]
 }

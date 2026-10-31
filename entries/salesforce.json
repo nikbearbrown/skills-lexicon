@@ -3,6 +3,21 @@
  "preferred_name": "Salesforce",
  "kind": "platform",
  "definition": "A cloud customer relationship management platform from Salesforce, with applications for sales, service and marketing and tools for building custom apps.",
+ "description": {
+  "text": "An American enterprise software company best known for customer relationship management software delivered as a subscription service. It also provides software for sales, customer service, marketing automation, e-commerce, analytics and application development.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "Salesforce",
+   "page_id": 2420207,
+   "rev_id": 1375823027,
+   "rev_timestamp": "2026-09-20T07:58:18Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=Salesforce&oldid=1375823027",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "salesforce",
  "certification": false,
  "variants": [
@@ -156,6 +171,54 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "external-2026-10-29-gpt-6-unknown"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-f",
+   "note": "adapted from the lead of Wikipedia: Salesforce, revision 1375823027"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=Salesforce&oldid=1375823027",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-f",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "2420207",
+    "method": "title",
+    "categories": [
+     "Salesforce",
+     "1999 establishments in California",
+     "2004 initial public offerings",
+     "American companies established in 1999",
+     "Cloud applications",
+     "Cloud computing providers",
+     "Companies based in San Francisco",
+     "Companies in the Dow Jones Industrial Average",
+     "Companies listed on the New York Stock Exchange",
+     "Customer relationship management software",
+     "Customer relationship management software companies",
+     "Low Code Application Platform",
+     "Software companies based in the San Francisco Bay Area",
+     "Software companies established in 1999",
+     "Software companies of the United States"
+    ]
+   }
   }
  ]
 }

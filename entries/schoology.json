@@ -3,6 +3,21 @@
  "preferred_name": "Schoology",
  "kind": "platform",
  "definition": "A learning management system, now owned by PowerSchool, that schools use for assignments, grading and communication among teachers, students and parents.",
+ "description": {
+  "text": "A learning management system for schools and businesses, aimed mainly at schools. It is similar to Google Classroom.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "Schoology",
+   "page_id": 69607969,
+   "rev_id": 1376130915,
+   "rev_timestamp": "2026-09-22T06:25:39Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=Schoology&oldid=1376130915",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "schoology",
  "certification": false,
  "variants": [],
@@ -100,6 +115,44 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "external-2026-10-29-gpt-6-unknown"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-f",
+   "note": "adapted from the lead of Wikipedia: Schoology, revision 1376130915"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=Schoology&oldid=1376130915",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-f",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "69607969",
+    "method": "title",
+    "categories": [
+     "Social networking services",
+     "Learning management systems",
+     "Educational software",
+     "Student culture",
+     "Youth culture"
+    ]
+   }
   }
  ]
 }

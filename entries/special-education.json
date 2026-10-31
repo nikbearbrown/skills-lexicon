@@ -3,6 +3,21 @@
  "preferred_name": "Special education",
  "kind": "knowledge",
  "definition": "The teaching of students whose learning needs arise from disabilities or other exceptionalities, using adapted methods and supports.",
+ "description": {
+  "text": "The practice of educating students in a way that accommodates their individual differences, disabilities and special needs. It uses individually planned and monitored teaching procedures, adapted equipment and materials, and accessible settings.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "Special education",
+   "page_id": 436831,
+   "rev_id": 1378295900,
+   "rev_timestamp": "2026-10-03T21:28:01Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=Special_education&oldid=1378295900",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "special-education",
  "certification": false,
  "variants": [],
@@ -99,6 +114,43 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "external-2026-10-29-gpt-6-unknown"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-g",
+   "note": "adapted from the lead of Wikipedia: Special education, revision 1378295900"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=Special_education&oldid=1378295900",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-g",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "436831",
+    "method": "title",
+    "categories": [
+     "Special education",
+     "Alternative education",
+     "Educational programs",
+     "Segregation"
+    ]
+   }
   }
  ]
 }

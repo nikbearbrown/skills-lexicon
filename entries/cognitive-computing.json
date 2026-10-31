@@ -3,6 +3,21 @@
  "preferred_name": "Cognitive computing",
  "kind": "knowledge",
  "definition": "Computing systems that imitate aspects of human thinking, such as learning, reasoning and understanding language, using methods like machine learning and natural language processing.",
+ "description": {
+  "text": "Technology platforms based on artificial intelligence and signal processing. They bring together machine learning, reasoning, natural language processing, speech recognition, vision and human-computer interaction.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "Cognitive computing",
+   "page_id": 42581062,
+   "rev_id": 1337574004,
+   "rev_timestamp": "2026-02-10T07:28:51Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=Cognitive_computing&oldid=1337574004",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "cognitive-computing",
  "certification": false,
  "variants": [],
@@ -99,6 +114,41 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "external-2026-10-29-gpt-6-unknown"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-b",
+   "note": "adapted from the lead of Wikipedia: Cognitive computing, revision 1337574004"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=Cognitive_computing&oldid=1337574004",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-b",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "42581062",
+    "method": "title",
+    "categories": [
+     "Artificial intelligence",
+     "Branches of cognitive science"
+    ]
+   }
   }
  ]
 }

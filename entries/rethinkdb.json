@@ -3,6 +3,21 @@
  "preferred_name": "RethinkDB",
  "kind": "tool",
  "definition": "An open-source distributed document database that can push changes in query results to applications as the data changes.",
+ "description": {
+  "text": "A free and open-source, distributed document-oriented database that stores JSON documents with dynamic schemas. It is designed to push real-time updates of query results to applications. Its original company said in 2016 that its products would be fully open-sourced.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "RethinkDB",
+   "page_id": 46444036,
+   "rev_id": 1319341099,
+   "rev_timestamp": "2025-10-29T05:53:43Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=RethinkDB&oldid=1319341099",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "rethinkdb",
  "certification": false,
  "variants": [],
@@ -100,6 +115,45 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "external-2026-10-29-gpt-6-unknown"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-f",
+   "note": "adapted from the lead of Wikipedia: RethinkDB, revision 1319341099"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=RethinkDB&oldid=1319341099",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-f",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "46444036",
+    "method": "title",
+    "categories": [
+     "Free database management systems",
+     "Document-oriented databases",
+     "Distributed computing architecture",
+     "Structured storage",
+     "NoSQL",
+     "Linux Foundation projects"
+    ]
+   }
   }
  ]
 }

@@ -3,6 +3,21 @@
  "preferred_name": "Chainer",
  "kind": "framework",
  "definition": "An open-source Python deep learning framework from Preferred Networks that builds neural networks as the code runs.",
+ "description": {
+  "text": "An open source deep learning framework written in Python on top of NumPy and CuPy. It is led by Preferred Networks and is notable for early use of the define-by-run approach.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "Chainer",
+   "page_id": 53194499,
+   "rev_id": 1295331808,
+   "rev_timestamp": "2025-06-13T03:59:30Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=Chainer&oldid=1295331808",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "chainer",
  "certification": false,
  "variants": [],
@@ -100,6 +115,45 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "external-2026-10-29-gpt-6-unknown"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-b",
+   "note": "adapted from the lead of Wikipedia: Chainer, revision 1295331808"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=Chainer&oldid=1295331808",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-b",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "53194499",
+    "method": "title",
+    "categories": [
+     "Deep learning software",
+     "Free statistical software",
+     "Python (programming language) scientific libraries",
+     "Open-source artificial intelligence",
+     "Free software programmed in Python",
+     "Software using the MIT license"
+    ]
+   }
   }
  ]
 }

@@ -3,6 +3,21 @@
  "preferred_name": "Common Criteria",
  "kind": "standard",
  "definition": "The international standard, ISO/IEC 15408, for evaluating the security of IT products.",
+ "description": {
+  "text": "An information security standard (ISO/IEC 15408). It is a framework where users specify security functional and assurance requirements in a Security Target, drawing on Protection Profiles, against which vendors can make claims about their products.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "Common Criteria",
+   "page_id": 57625,
+   "rev_id": 1378386759,
+   "rev_timestamp": "2026-10-04T06:45:54Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=Common_Criteria&oldid=1378386759",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "common-criteria",
  "certification": false,
  "variants": [
@@ -128,6 +143,42 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "external-2026-10-29-gpt-6-unknown"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-b",
+   "note": "adapted from the lead of Wikipedia: Common Criteria, revision 1378386759"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=Common_Criteria&oldid=1378386759",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-b",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "57625",
+    "method": "title",
+    "categories": [
+     "Computer security standards",
+     "Evaluation of computers",
+     "ISO standards"
+    ]
+   }
   }
  ]
 }

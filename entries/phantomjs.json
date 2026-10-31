@@ -3,6 +3,21 @@
  "preferred_name": "PhantomJS",
  "kind": "tool",
  "definition": "A headless web browser scripted with JavaScript, used for automated testing and page rendering, which is no longer actively developed.",
+ "description": {
+  "text": "A discontinued headless browser used to automate web page interaction, with a JavaScript API for navigation, screenshots and assertions. It was commonly used to run browser-based unit tests in continuous integration, is based on WebKit and is open source under the BSD License.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "PhantomJS",
+   "page_id": 45375253,
+   "rev_id": 1334539779,
+   "rev_timestamp": "2026-01-24T04:27:09Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=PhantomJS&oldid=1334539779",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "phantomjs",
  "certification": false,
  "variants": [],
@@ -99,6 +114,46 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "external-2026-10-29-gpt-6-unknown"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-e",
+   "note": "adapted from the lead of Wikipedia: PhantomJS, revision 1334539779"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=PhantomJS&oldid=1334539779",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-e",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "45375253",
+    "method": "title",
+    "categories": [
+     "Software programmed in C++",
+     "Web browsers",
+     "Cross-platform web browsers",
+     "Discontinued software",
+     "Software based on WebKit",
+     "Software using the BSD license",
+     "2011 software"
+    ]
+   }
   }
  ]
 }

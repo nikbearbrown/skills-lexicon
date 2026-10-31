@@ -3,6 +3,21 @@
  "preferred_name": "Attorney-client privilege",
  "kind": "knowledge",
  "definition": "The legal protection that keeps confidential communications between a lawyer and client, made to obtain legal advice, from being disclosed without the client's consent.",
+ "description": {
+  "text": "The US common law doctrine of legal professional privilege. It is a client's right to refuse to disclose, and to prevent others from disclosing, confidential communications between the client and their attorney.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "Attorney–client privilege",
+   "page_id": 326572,
+   "rev_id": 1361561811,
+   "rev_timestamp": "2026-06-28T18:50:37Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=Attorney%E2%80%93client_privilege&oldid=1361561811",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "attorney-client-privilege",
  "certification": false,
  "variants": [
@@ -129,6 +144,42 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "external-2026-10-29-gpt-6-unknown"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-a",
+   "note": "adapted from the lead of Wikipedia: Attorney–client privilege, revision 1361561811"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=Attorney%E2%80%93client_privilege&oldid=1361561811",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-a",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "326572",
+    "method": "title",
+    "categories": [
+     "Legal professional privilege",
+     "Privacy",
+     "Confidentiality"
+    ]
+   }
   }
  ]
 }

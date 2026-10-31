@@ -3,6 +3,21 @@
  "preferred_name": "BeanShell",
  "kind": "programming-language",
  "definition": "A lightweight scripting language for the Java platform that interprets Java syntax with extra scripting features.",
+ "description": {
+  "text": "A small, free, embeddable Java source interpreter written in Java. It runs on the JVM, executes standard Java syntax, and adds scripting conveniences like loose types and method closures.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "BeanShell",
+   "page_id": 1565435,
+   "rev_id": 1372610190,
+   "rev_timestamp": "2026-09-01T13:08:34Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=BeanShell&oldid=1372610190",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "beanshell",
  "certification": false,
  "language_type": "programming",
@@ -125,6 +140,46 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "2026-10-29-review-4d-opus"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-a",
+   "note": "adapted from the lead of Wikipedia: BeanShell, revision 1372610190"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=BeanShell&oldid=1372610190",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-a",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "1565435",
+    "method": "title",
+    "categories": [
+     "Scripting languages",
+     "Java programming language family",
+     "JVM programming languages",
+     "Dynamically typed programming languages",
+     "Java specification requests",
+     "Software using the GNU Lesser General Public License",
+     "Software using the Apache license"
+    ]
+   }
   }
  ]
 }

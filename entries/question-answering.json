@@ -3,6 +3,21 @@
  "preferred_name": "Question answering",
  "kind": "knowledge",
  "definition": "The natural language processing task in which a system gives answers to questions asked in everyday language.",
+ "description": {
+  "text": "A computer science discipline within information retrieval and natural language processing concerned with building systems that automatically answer questions humans pose in natural language. Answers may come from a structured knowledge base or other sources.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "Question answering",
+   "page_id": 360030,
+   "rev_id": 1372314675,
+   "rev_timestamp": "2026-08-31T06:16:54Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=Question_answering&oldid=1372314675",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "question-answering",
  "certification": false,
  "variants": [],
@@ -99,6 +114,43 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "external-2026-10-29-gpt-6-unknown"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-f",
+   "note": "adapted from the lead of Wikipedia: Question answering, revision 1372314675"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=Question_answering&oldid=1372314675",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-f",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "360030",
+    "method": "title",
+    "categories": [
+     "Tasks of natural language processing",
+     "Computational linguistics",
+     "Information retrieval genres",
+     "Deep learning"
+    ]
+   }
   }
  ]
 }

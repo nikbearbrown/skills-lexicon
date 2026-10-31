@@ -3,6 +3,21 @@
  "preferred_name": "Intellectual property",
  "kind": "knowledge",
  "definition": "The legal rights over creations of the mind, such as patents, copyrights, trademarks and trade secrets.",
+ "description": {
+  "text": "Intellectual property is a category of property covering intangible creations of the human intellect. Its rights let the owner use the asset and stop others from doing so; the best-known types are patents, copyrights, trademarks and trade secrets.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "Intellectual property",
+   "page_id": 14724,
+   "rev_id": 1378374702,
+   "rev_timestamp": "2026-10-04T04:57:32Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=Intellectual_property&oldid=1378374702",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "intellectual-property",
  "certification": false,
  "variants": [
@@ -128,6 +143,44 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "external-2026-10-29-gpt-6-unknown"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-d",
+   "note": "adapted from the lead of Wikipedia: Intellectual property, revision 1378374702"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=Intellectual_property&oldid=1378374702",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-d",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "14724",
+    "method": "title",
+    "categories": [
+     "Intellectual property law",
+     "Social information processing",
+     "Economics of the arts and literature",
+     "Intangible assets",
+     "Intellectual capital"
+    ]
+   }
   }
  ]
 }

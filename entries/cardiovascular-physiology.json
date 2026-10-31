@@ -3,6 +3,21 @@
  "preferred_name": "Cardiovascular physiology",
  "kind": "knowledge",
  "definition": "The study of how the heart and blood vessels work.",
+ "description": {
+  "text": "The study of the cardiovascular system, covering how the heart and blood vessels work. It is sometimes split into cardiac physiology and circulatory physiology.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "Cardiovascular physiology",
+   "page_id": 4156844,
+   "rev_id": 1280648887,
+   "rev_timestamp": "2025-03-15T18:33:25Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=Cardiovascular_physiology&oldid=1280648887",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "cardiovascular-physiology",
  "certification": false,
  "variants": [
@@ -130,6 +145,44 @@
    "date": "2026-10-29",
    "run": "external-2026-10-29-gpt-6-unknown",
    "note": "Cardiovasculars is a malformed form of cardiovascular."
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-b",
+   "note": "adapted from the lead of Wikipedia: Cardiovascular physiology, revision 1280648887"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=Cardiovascular_physiology&oldid=1280648887",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-b",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "4156844",
+    "method": "title",
+    "categories": [
+     "Cardiovascular physiology",
+     "Cardiology",
+     "Circulatory system",
+     "Heart",
+     "Cardiac anatomy"
+    ]
+   }
   }
  ]
 }

@@ -3,6 +3,21 @@
  "preferred_name": "Quantum dot",
  "kind": "knowledge",
  "definition": "A semiconductor crystal a few nanometres across whose size sets the colour of light it emits and absorbs.",
+ "description": {
+  "text": "Semiconductor nanocrystals a few nanometres in size, whose optical and electronic properties differ from larger particles because of quantum mechanical effects. They are a central topic in nanotechnology and materials science.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "Quantum dot",
+   "page_id": 511547,
+   "rev_id": 1369643330,
+   "rev_timestamp": "2026-08-16T06:20:36Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=Quantum_dot&oldid=1369643330",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "quantum-dot",
  "certification": false,
  "variants": [],
@@ -99,6 +114,44 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "external-2026-10-29-gpt-6-unknown"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-f",
+   "note": "adapted from the lead of Wikipedia: Quantum dot, revision 1369643330"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=Quantum_dot&oldid=1369643330",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-f",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "511547",
+    "method": "title",
+    "categories": [
+     "Quantum dots",
+     "Mesoscopic physics",
+     "Quantum chemistry",
+     "Quantum electronics",
+     "Semiconductor structures"
+    ]
+   }
   }
  ]
 }

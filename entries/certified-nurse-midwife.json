@@ -3,6 +3,21 @@
  "preferred_name": "Certified Nurse-Midwife",
  "kind": "credential",
  "definition": "A credential for advanced practice nurses trained in midwifery, awarded by the American Midwifery Certification Board.",
+ "description": {
+  "text": "In the United States, a nurse midwife who is also an advanced practice registered nurse and is credentialed as a Certified Nurse-Midwife. They care for women across their lifespan, including during pregnancy and after birth.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "Certified nurse-midwife",
+   "page_id": 3340717,
+   "rev_id": 1365449160,
+   "rev_timestamp": "2026-07-22T13:44:21Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=Certified_nurse-midwife&oldid=1365449160",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "certified-nurse-midwife",
  "certification": true,
  "certification_scope": "single-issuer",
@@ -184,6 +199,42 @@
    "date": "2026-10-29",
    "run": "external-2026-10-29-gpt-6-unknown",
    "note": "This is a professional role and does not by itself specify AMCB certification."
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-b",
+   "note": "adapted from the lead of Wikipedia: Certified nurse-midwife, revision 1365449160"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=Certified_nurse-midwife&oldid=1365449160",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-b",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "3340717",
+    "method": "title",
+    "categories": [
+     "Nursing credentials and certifications",
+     "Midwifery in the United States",
+     "Advanced practice registered nursing"
+    ]
+   }
   }
  ]
 }

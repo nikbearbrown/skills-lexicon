@@ -3,6 +3,21 @@
  "preferred_name": "Philosophy of religion",
  "kind": "knowledge",
  "definition": "The branch of philosophy that examines religious beliefs and concepts, such as the existence of God, evil, faith and religious language.",
+ "description": {
+  "text": "The philosophical examination of the central themes and concepts of religious traditions. It draws on branches of philosophy such as metaphysics, epistemology, logic and ethics, and discusses the nature of religion as a whole rather than one belief system.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "Philosophy of religion",
+   "page_id": 23003,
+   "rev_id": 1369761977,
+   "rev_timestamp": "2026-08-17T00:37:36Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=Philosophy_of_religion&oldid=1369761977",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "philosophy-of-religion",
  "certification": false,
  "variants": [],
@@ -99,6 +114,44 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "external-2026-10-29-gpt-6-unknown"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-e",
+   "note": "adapted from the lead of Wikipedia: Philosophy of religion, revision 1369761977"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=Philosophy_of_religion&oldid=1369761977",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-e",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "23003",
+    "method": "title",
+    "categories": [
+     "Philosophy of religion",
+     "Philosophy by topic",
+     "Religion and government",
+     "Religion and politics",
+     "Religious studies"
+    ]
+   }
   }
  ]
 }

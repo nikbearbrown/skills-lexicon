@@ -3,6 +3,21 @@
  "preferred_name": "Extensive reading",
  "kind": "method",
  "definition": "A language-learning approach in which learners read large amounts of easy, enjoyable material to build fluency and vocabulary.",
+ "description": {
+  "text": "Reading longer, easier texts over an extended time without losing comprehension, feeling overwhelmed or needing breaks. It contrasts with intensive reading of dense, short texts, and is used as a teaching strategy to promote second-language development.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "Extensive reading",
+   "page_id": 21533922,
+   "rev_id": 1368860735,
+   "rev_timestamp": "2026-08-11T13:44:21Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=Extensive_reading&oldid=1368860735",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "extensive-reading",
  "certification": false,
  "notes": "The model says this is not a language; the legacy list/class says it is. It is a language-teaching approach, not a language, so the legacy language list is wrong here.",
@@ -138,6 +153,42 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "external-2026-10-29-gpt-6-unknown"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-c",
+   "note": "adapted from the lead of Wikipedia: Extensive reading, revision 1368860735"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=Extensive_reading&oldid=1368860735",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-c",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "21533922",
+    "method": "title",
+    "categories": [
+     "Language acquisition",
+     "Learning to read",
+     "Reading (process)"
+    ]
+   }
   }
  ]
 }

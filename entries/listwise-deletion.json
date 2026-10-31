@@ -3,6 +3,21 @@
  "preferred_name": "Listwise deletion",
  "kind": "method",
  "definition": "A way of handling missing data in which any record with a missing value in the analysed variables is removed entirely.",
+ "description": {
+  "text": "Listwise deletion is a statistical method for handling missing data in which an entire record is left out of the analysis if any single value in it is missing.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "Listwise deletion",
+   "page_id": 20556542,
+   "rev_id": 1225359923,
+   "rev_timestamp": "2024-05-23T23:14:21Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=Listwise_deletion&oldid=1225359923",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "listwise-deletion",
  "certification": false,
  "variants": [
@@ -129,6 +144,40 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "external-2026-10-29-gpt-6-unknown"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-d",
+   "note": "adapted from the lead of Wikipedia: Listwise deletion, revision 1225359923"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=Listwise_deletion&oldid=1225359923",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-d",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "20556542",
+    "method": "title",
+    "categories": [
+     "Missing data"
+    ]
+   }
   }
  ]
 }

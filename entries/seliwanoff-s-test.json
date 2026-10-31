@@ -3,6 +3,21 @@
  "preferred_name": "Seliwanoff's test",
  "kind": "method",
  "definition": "A chemical test using resorcinol and hydrochloric acid that tells ketose sugars, such as fructose, from aldose sugars.",
+ "description": {
+  "text": "An archaic chemical test used to tell aldose sugars from ketose sugars, based on ketoses dehydrating faster than aldoses when heated. It is also known as the resorcinol test and is named after the chemist Theodor Seliwanoff.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "Seliwanoff's test",
+   "page_id": 8112701,
+   "rev_id": 1324849030,
+   "rev_timestamp": "2025-11-29T21:48:45Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=Seliwanoff's_test&oldid=1324849030",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "seliwanoff-s-test",
  "certification": false,
  "variants": [
@@ -185,6 +200,42 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "external-2026-10-29-gpt-6-unknown"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-f",
+   "note": "adapted from the lead of Wikipedia: Seliwanoff's test, revision 1324849030"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=Seliwanoff's_test&oldid=1324849030",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-f",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "8112701",
+    "method": "title",
+    "categories": [
+     "Biochemistry detection methods",
+     "Carbohydrate methods",
+     "Reagents for organic chemistry"
+    ]
+   }
   }
  ]
 }

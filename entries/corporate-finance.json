@@ -3,6 +3,21 @@
  "preferred_name": "Corporate finance",
  "kind": "knowledge",
  "definition": "The field concerned with how companies raise money, invest it and manage their capital to create value for their owners.",
+ "description": {
+  "text": "An area of finance dealing with how businesses are funded and their capital structure, and the actions managers take to increase firm value for shareholders. Its primary goal is to maximize shareholder value.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "Corporate finance",
+   "page_id": 34742901,
+   "rev_id": 1376679321,
+   "rev_timestamp": "2026-09-25T16:44:42Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=Corporate_finance&oldid=1376679321",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "corporate-finance",
  "certification": false,
  "variants": [],
@@ -99,6 +114,40 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "external-2026-10-29-gpt-6-unknown"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-b",
+   "note": "adapted from the lead of Wikipedia: Corporate finance, revision 1376679321"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=Corporate_finance&oldid=1376679321",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-b",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "34742901",
+    "method": "title",
+    "categories": [
+     "Corporate finance"
+    ]
+   }
   }
  ]
 }

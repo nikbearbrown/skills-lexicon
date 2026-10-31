@@ -3,6 +3,21 @@
  "preferred_name": "Cryptocurrency",
  "kind": "knowledge",
  "definition": "Digital money secured by cryptography and usually run on decentralised blockchain networks, such as Bitcoin.",
+ "description": {
+  "text": "A type of digital asset that uses distributed ledger or blockchain technology for secure transactions. Coin ownership records are kept in a ledger that uses a consensus mechanism to secure records, control new coins and verify transfers.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "Cryptocurrency",
+   "page_id": 36662188,
+   "rev_id": 1378284543,
+   "rev_timestamp": "2026-10-03T20:37:34Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=Cryptocurrency&oldid=1378284543",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "cryptocurrency",
  "certification": false,
  "variants": [],
@@ -99,6 +114,43 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "external-2026-10-29-gpt-6-unknown"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-b",
+   "note": "adapted from the lead of Wikipedia: Cryptocurrency, revision 1378284543"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=Cryptocurrency&oldid=1378284543",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-b",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "36662188",
+    "method": "title",
+    "categories": [
+     "Cryptocurrencies",
+     "Applications of cryptography",
+     "Decentralization",
+     "Financial technology"
+    ]
+   }
   }
  ]
 }

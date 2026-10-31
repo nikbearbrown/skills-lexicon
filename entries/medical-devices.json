@@ -3,6 +3,21 @@
  "preferred_name": "Medical devices",
  "kind": "knowledge",
  "definition": "Instruments, apparatus and software intended to diagnose, treat or monitor patients, and the rules that govern them.",
+ "description": {
+  "text": "Any device intended to be used for medical purposes. In countries around the world, medical devices must be proven safe and effective before they are marketed, and higher-risk devices require more testing.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "Medical device",
+   "page_id": 1363291,
+   "rev_id": 1373692696,
+   "rev_timestamp": "2026-09-07T10:30:52Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=Medical_device&oldid=1373692696",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "medical-devices",
  "certification": false,
  "variants": [],
@@ -100,6 +115,41 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "external-2026-10-29-gpt-6-unknown"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-e",
+   "note": "adapted from the lead of Wikipedia: Medical device, revision 1373692696"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=Medical_device&oldid=1373692696",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-e",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "1363291",
+    "method": "title",
+    "categories": [
+     "Medical devices",
+     "Health care"
+    ]
+   }
   }
  ]
 }

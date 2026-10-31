@@ -3,6 +3,21 @@
  "preferred_name": "iAd",
  "kind": "platform",
  "definition": "Apple's mobile advertising platform, which served ads inside iOS apps until it was shut down in 2016.",
+ "description": {
+  "text": "iAd was a mobile advertising platform from Apple that let third-party developers embed ads in apps on iPhone, iPod Touch and iPad. It launched in 2010 and was discontinued in 2016.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "IAd",
+   "page_id": 26889714,
+   "rev_id": 1378064785,
+   "rev_timestamp": "2026-10-02T19:33:31Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=IAd&oldid=1378064785",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "iad",
  "name_match": "exact_case",
  "certification": false,
@@ -129,6 +144,43 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "external-2026-10-29-gpt-6-unknown"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-d",
+   "note": "adapted from the lead of Wikipedia: IAd, revision 1378064785"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=IAd&oldid=1378064785",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-d",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "26889714",
+    "method": "title",
+    "categories": [
+     "IOS",
+     "Apple Inc. services",
+     "Computer-related introductions in 2010",
+     "Products and services discontinued in 2016"
+    ]
+   }
   }
  ]
 }

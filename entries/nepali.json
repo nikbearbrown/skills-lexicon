@@ -3,6 +3,21 @@
  "preferred_name": "Nepali",
  "kind": "human-language",
  "definition": "An Indo-Aryan language that is the official language of Nepal and is also spoken in parts of India.",
+ "description": {
+  "text": "The official and most widely spoken language of Nepal, where it is also a lingua franca. It is an Indo-Aryan language of the Indo-European family, native to the Himalayan region, with official status in Sikkim and parts of West Bengal in India.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "Nepali language",
+   "page_id": 47864412,
+   "rev_id": 1377006958,
+   "rev_timestamp": "2026-09-27T11:41:54Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=Nepali_language&oldid=1377006958",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "nepali",
  "certification": false,
  "language_type": "human",
@@ -162,6 +177,54 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "external-2026-10-29-gpt-6-unknown"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-e",
+   "note": "adapted from the lead of Wikipedia: Nepali language, revision 1377006958"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=Nepali_language&oldid=1377006958",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-e",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "47864412",
+    "method": "redirect",
+    "categories": [
+     "Nepali language",
+     "Fusional languages",
+     "Indo-Aryan languages",
+     "Languages attested since the 10th century",
+     "Languages of Bagmati Province",
+     "Languages of Bhutan",
+     "Languages of Gandaki Province",
+     "Languages of Karnali Province",
+     "Languages of Koshi Province",
+     "Languages of Lumbini Province",
+     "Languages of Madhesh Province",
+     "Languages of Nepal",
+     "Languages of Sikkim",
+     "Languages of Sudurpashchim Province",
+     "Languages of West Bengal"
+    ]
+   }
   }
  ]
 }

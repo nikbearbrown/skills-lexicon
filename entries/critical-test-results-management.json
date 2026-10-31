@@ -3,6 +3,21 @@
  "preferred_name": "Critical test results management",
  "kind": "method",
  "definition": "The process of promptly telling the responsible clinician about dangerous laboratory or imaging results and recording that it was done.",
+ "description": {
+  "text": "Software that handles medical test results that come back critical to a patient's health. It prevents critical results from being lost through communication failures, improves patient safety and documents delivery of the results.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "Critical Test Results Management",
+   "page_id": 22732540,
+   "rev_id": 1364148965,
+   "rev_timestamp": "2026-07-14T20:23:37Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=Critical_Test_Results_Management&oldid=1364148965",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "critical-test-results-management",
  "certification": false,
  "variants": [
@@ -128,6 +143,40 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "external-2026-10-29-gpt-6-unknown"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-b",
+   "note": "adapted from the lead of Wikipedia: Critical Test Results Management, revision 1364148965"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=Critical_Test_Results_Management&oldid=1364148965",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-b",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "22732540",
+    "method": "title",
+    "categories": [
+     "Medical software"
+    ]
+   }
   }
  ]
 }

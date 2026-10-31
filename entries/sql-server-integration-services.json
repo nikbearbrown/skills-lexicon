@@ -3,6 +3,21 @@
  "preferred_name": "SQL Server Integration Services",
  "kind": "tool",
  "definition": "Microsoft's tool in SQL Server for building data integration and extract, transform and load workflows.",
+ "description": {
+  "text": "A component of Microsoft SQL Server used for data migration tasks. It is a platform for data integration and workflow applications, with a tool for extracting, transforming and loading (ETL) data, and can automate database maintenance.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "SQL Server Integration Services",
+   "page_id": 3553864,
+   "rev_id": 1365606660,
+   "rev_timestamp": "2026-07-23T12:03:03Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=SQL_Server_Integration_Services&oldid=1365606660",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "sql-server-integration-services",
  "certification": false,
  "variants": [
@@ -157,6 +172,43 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "external-2026-10-29-gpt-6-unknown"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-g",
+   "note": "adapted from the lead of Wikipedia: SQL Server Integration Services, revision 1365606660"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=SQL_Server_Integration_Services&oldid=1365606660",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-g",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "3553864",
+    "method": "title",
+    "categories": [
+     "Extract, transform, load tools",
+     "Microsoft database software",
+     "Microsoft server technology",
+     "2005 software"
+    ]
+   }
   }
  ]
 }

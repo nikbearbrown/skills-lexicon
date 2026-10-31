@@ -3,6 +3,21 @@
  "preferred_name": "Analysis of variance",
  "kind": "method",
  "definition": "A statistical method that tests whether the means of several groups differ by comparing variation between and within the groups.",
+ "description": {
+  "text": "ANOVA is a family of statistical methods for comparing the means of two or more groups by analyzing variance. It compares variation between group means to variation within groups using an F-test.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "Analysis of variance",
+   "page_id": 634,
+   "rev_id": 1374222492,
+   "rev_timestamp": "2026-09-10T16:44:43Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=Analysis_of_variance&oldid=1374222492",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "analysis-of-variance",
  "certification": false,
  "variants": [
@@ -128,6 +143,43 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "external-2026-10-29-gpt-6-unknown"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-a",
+   "note": "adapted from the lead of Wikipedia: Analysis of variance, revision 1374222492"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=Analysis_of_variance&oldid=1374222492",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-a",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "634",
+    "method": "title",
+    "categories": [
+     "Analysis of variance",
+     "Design of experiments",
+     "Statistical tests",
+     "Parametric statistics"
+    ]
+   }
   }
  ]
 }

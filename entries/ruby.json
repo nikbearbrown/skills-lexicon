@@ -3,6 +3,21 @@
  "preferred_name": "Ruby",
  "kind": "programming-language",
  "definition": "A dynamic, object-oriented scripting language created by Yukihiro Matsumoto and known for its readable syntax.",
+ "description": {
+  "text": "A general-purpose, interpreted, high-level, dynamically typed programming language designed for productivity and simplicity, in which everything is an object. Development began in the mid-1990s by Yukihiro Matsumoto in Japan, and it supports procedural, object-oriented and functional styles.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "Ruby (programming language)",
+   "page_id": 25768,
+   "rev_id": 1372670122,
+   "rev_timestamp": "2026-09-01T18:41:24Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=Ruby_(programming_language)&oldid=1372670122",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "ruby",
  "certification": false,
  "language_type": "programming",
@@ -125,6 +140,54 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "2026-10-29-review-4e-opus"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-f",
+   "note": "adapted from the lead of Wikipedia: Ruby (programming language), revision 1372670122"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=Ruby_(programming_language)&oldid=1372670122",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-f",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "25768",
+    "method": "title",
+    "categories": [
+     "Ruby (programming language)",
+     "Articles with example Ruby code",
+     "Class-based programming languages",
+     "Dynamic programming languages",
+     "Dynamically typed programming languages",
+     "Free and open source interpreters",
+     "Functional languages",
+     "Free software programmed in C",
+     "ISO standards",
+     "Japanese inventions",
+     "Multi-paradigm programming languages",
+     "Object-oriented programming languages",
+     "Programming languages created in 1995",
+     "Programming languages with an ISO standard",
+     "Scripting languages"
+    ]
+   }
   }
  ]
 }

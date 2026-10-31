@@ -3,6 +3,21 @@
  "preferred_name": "Cost to serve",
  "kind": "method",
  "definition": "A way of working out how much it costs a business to serve each customer, product or channel, counting activities such as delivery, handling and support.",
+ "description": {
+  "text": "An accounting and financial planning tool that calculates how profitable it is to serve a particular customer account, based on the actual activities and overhead costs of serving that customer. Businesses use it to improve overall margin.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "Cost to serve",
+   "page_id": 24351591,
+   "rev_id": 1245131901,
+   "rev_timestamp": "2024-09-11T05:51:59Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=Cost_to_serve&oldid=1245131901",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "cost-to-serve",
  "certification": false,
  "variants": [],
@@ -101,6 +116,40 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "external-2026-10-29-gpt-6-unknown"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-b",
+   "note": "adapted from the lead of Wikipedia: Cost to serve, revision 1245131901"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=Cost_to_serve&oldid=1245131901",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-b",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "24351591",
+    "method": "title",
+    "categories": [
+     "Supply chain management"
+    ]
+   }
   }
  ]
 }

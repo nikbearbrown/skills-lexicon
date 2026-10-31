@@ -3,6 +3,21 @@
  "preferred_name": "Metaverse",
  "kind": "knowledge",
  "definition": "The idea of persistent, shared virtual worlds in which people interact through avatars and digital objects.",
+ "description": {
+  "text": "A virtual world, usually shown in 3D, where users interact as avatars, with a focus on social and economic connection. The term comes from the novel Snow Crash and is often linked to virtual reality and, since the early 2020s, Web3.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "Metaverse",
+   "page_id": 1482898,
+   "rev_id": 1378354692,
+   "rev_timestamp": "2026-10-04T03:01:38Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=Metaverse&oldid=1378354692",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "metaverse",
  "certification": false,
  "variants": [],
@@ -99,6 +114,43 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "external-2026-10-29-gpt-6-unknown"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-e",
+   "note": "adapted from the lead of Wikipedia: Metaverse, revision 1378354692"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=Metaverse&oldid=1378354692",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-e",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "1482898",
+    "method": "title",
+    "categories": [
+     "Metaverse",
+     "Science fiction themes",
+     "Fiction about virtual reality",
+     "1992 neologisms"
+    ]
+   }
   }
  ]
 }

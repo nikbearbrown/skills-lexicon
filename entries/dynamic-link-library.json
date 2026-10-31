@@ -3,6 +3,21 @@
  "preferred_name": "Dynamic-link library",
  "kind": "knowledge",
  "definition": "The Microsoft Windows format and mechanism for shared code libraries that programs load at run time.",
+ "description": {
+  "text": "Microsoft's version of the shared library concept in the Windows and OS/2 operating systems. These libraries usually have the file extension DLL, OCX or DRV, and use the same file formats as Windows executables.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "Dynamic-link library",
+   "page_id": 2701077,
+   "rev_id": 1362017700,
+   "rev_timestamp": "2026-07-01T12:57:45Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=Dynamic-link_library&oldid=1362017700",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "dynamic-link-library",
  "certification": false,
  "variants": [
@@ -157,6 +172,43 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "external-2026-10-29-gpt-6-unknown"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-c",
+   "note": "adapted from the lead of Wikipedia: Dynamic-link library, revision 1362017700"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=Dynamic-link_library&oldid=1362017700",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-c",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "2701077",
+    "method": "title",
+    "categories": [
+     "Computer file formats",
+     "Computer libraries",
+     "Windows administration",
+     "Articles with example C code"
+    ]
+   }
   }
  ]
 }

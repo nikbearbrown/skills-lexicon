@@ -3,6 +3,21 @@
  "preferred_name": "Open Shortest Path First",
  "kind": "standard",
  "definition": "A link-state routing protocol for IP networks that finds shortest paths using Dijkstra's algorithm.",
+ "description": {
+  "text": "A routing protocol for IP networks that uses a link state algorithm and is an interior gateway protocol working within one autonomous system. Routers share link state information to build a network topology map; it supports IPv4 and IPv6 and is widely used in large enterprise networks.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "Open Shortest Path First",
+   "page_id": 43388,
+   "rev_id": 1377173486,
+   "rev_timestamp": "2026-09-28T04:43:07Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=Open_Shortest_Path_First&oldid=1377173486",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "open-shortest-path-first",
  "certification": false,
  "variants": [
@@ -128,6 +143,43 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "external-2026-10-29-gpt-6-unknown"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-e",
+   "note": "adapted from the lead of Wikipedia: Open Shortest Path First, revision 1377173486"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=Open_Shortest_Path_First&oldid=1377173486",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-e",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "43388",
+    "method": "title",
+    "categories": [
+     "Internet protocols",
+     "Internet Standards",
+     "Routing protocols",
+     "Application layer protocols"
+    ]
+   }
   }
  ]
 }

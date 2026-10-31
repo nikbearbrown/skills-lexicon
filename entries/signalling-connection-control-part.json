@@ -3,6 +3,21 @@
  "preferred_name": "Signalling Connection Control Part",
  "kind": "standard",
  "definition": "A layer of the SS7 telephone signalling protocol stack that adds addressing and connection-oriented and connectionless services on top of the message transfer part.",
+ "description": {
+  "text": "A network layer protocol in Signaling System 7 telephone networks that provides extended routing, flow control, segmentation, connection-orientation and error correction. It relies on MTP for basic routing and error detection.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "Signalling Connection Control Part",
+   "page_id": 2881199,
+   "rev_id": 1256393913,
+   "rev_timestamp": "2024-11-09T19:04:45Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=Signalling_Connection_Control_Part&oldid=1256393913",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "signalling-connection-control-part",
  "certification": false,
  "variants": [
@@ -128,6 +143,42 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "external-2026-10-29-gpt-6-unknown"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-f",
+   "note": "adapted from the lead of Wikipedia: Signalling Connection Control Part, revision 1256393913"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=Signalling_Connection_Control_Part&oldid=1256393913",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-f",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "2881199",
+    "method": "title",
+    "categories": [
+     "ITU-T recommendations",
+     "Signaling System 7",
+     "Transport layer protocols"
+    ]
+   }
   }
  ]
 }

@@ -3,6 +3,21 @@
  "preferred_name": "Registered Education Savings Plan",
  "kind": "knowledge",
  "definition": "A Canadian government-registered savings account, with grants, for a child's education after high school, and the planning of contributions to it.",
+ "description": {
+  "text": "A Canadian investment vehicle that caregivers can use to save for their children's post-secondary education. Its main advantages are access to the Canada Education Savings Grant and tax-deferred income growth.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "Registered education savings plan",
+   "page_id": 827160,
+   "rev_id": 1353637663,
+   "rev_timestamp": "2026-05-11T13:33:54Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=Registered_education_savings_plan&oldid=1353637663",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "registered-education-savings-plan",
  "certification": false,
  "variants": [
@@ -160,6 +175,41 @@
    "date": "2026-10-29",
    "run": "external-2026-10-29-gpt-6-unknown",
    "note": "Planning contributions is an activity, not the Registered Education Savings Plan itself."
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-f",
+   "note": "adapted from the lead of Wikipedia: Registered education savings plan, revision 1353637663"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=Registered_education_savings_plan&oldid=1353637663",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-f",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "827160",
+    "method": "title",
+    "categories": [
+     "Tax-advantaged savings plans in Canada",
+     "Education finance in Canada"
+    ]
+   }
   }
  ]
 }

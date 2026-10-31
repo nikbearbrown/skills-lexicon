@@ -3,6 +3,21 @@
  "preferred_name": "Scientific modelling",
  "kind": "method",
  "definition": "Building simplified mathematical or computational representations of natural systems to explain or predict their behaviour.",
+ "description": {
+  "text": "An activity that produces models of real objects, phenomena and processes to make part of the world easier to understand, define, quantify, visualize or simulate. It involves selecting relevant aspects of a real situation and building a model that replicates them.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "Scientific modelling",
+   "page_id": 3224795,
+   "rev_id": 1371659107,
+   "rev_timestamp": "2026-08-27T18:11:48Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=Scientific_modelling&oldid=1371659107",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "scientific-modelling",
  "certification": false,
  "variants": [],
@@ -100,6 +115,43 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "external-2026-10-29-gpt-6-unknown"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-f",
+   "note": "adapted from the lead of Wikipedia: Scientific modelling, revision 1371659107"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=Scientific_modelling&oldid=1371659107",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-f",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "3224795",
+    "method": "title",
+    "categories": [
+     "Scientific modelling",
+     "Conceptual modelling",
+     "Epistemology of science",
+     "Interpretation (philosophy)"
+    ]
+   }
   }
  ]
 }

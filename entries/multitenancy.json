@@ -3,6 +3,21 @@
  "preferred_name": "Multitenancy",
  "kind": "knowledge",
  "definition": "A software architecture in which one running instance of an application serves several customers, called tenants, whose data is kept separate.",
+ "description": {
+  "text": "A software architecture in which a single instance of software on a server serves multiple tenants, each a group of users sharing access. Each tenant gets its own share of data, configuration and user management; it contrasts with multi-instance setups.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "Multitenancy",
+   "page_id": 3157360,
+   "rev_id": 1362152564,
+   "rev_timestamp": "2026-07-02T06:06:04Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=Multitenancy&oldid=1362152564",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "multitenancy",
  "certification": false,
  "variants": [
@@ -185,6 +200,41 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "external-2026-10-29-gpt-6-unknown"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-e",
+   "note": "adapted from the lead of Wikipedia: Multitenancy, revision 1362152564"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=Multitenancy&oldid=1362152564",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-e",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "3157360",
+    "method": "title",
+    "categories": [
+     "Software architecture",
+     "Service-oriented (business computing)"
+    ]
+   }
   }
  ]
 }

@@ -3,6 +3,21 @@
  "preferred_name": "Play therapy",
  "kind": "skill",
  "definition": "Using play, such as toys, drawing and games, as the way children express feelings and work through problems in therapy.",
+ "description": {
+  "text": "A range of methods that use children's natural urge to explore to meet their developmental and mental health needs. It is also used for assessment when a person is too young or too traumatised to give a verbal account.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "Play therapy",
+   "page_id": 2845500,
+   "rev_id": 1376999635,
+   "rev_timestamp": "2026-09-27T10:28:33Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=Play_therapy&oldid=1376999635",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "play-therapy",
  "certification": false,
  "variants": [],
@@ -100,6 +115,41 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "external-2026-10-29-gpt-6-unknown"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-f",
+   "note": "adapted from the lead of Wikipedia: Play therapy, revision 1376999635"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=Play_therapy&oldid=1376999635",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-f",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "2845500",
+    "method": "title",
+    "categories": [
+     "Child development",
+     "Play (activity)"
+    ]
+   }
   }
  ]
 }

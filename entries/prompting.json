@@ -7,6 +7,21 @@
  "preferred_name": "Prompt engineering",
  "kind": "method",
  "definition": "Designing and evaluating instructions for generative models.",
+ "description": {
+  "text": "Structuring natural language inputs (prompts) to produce specified outputs from a generative AI model. It is also described as designing and refining input instructions to get more accurate, relevant or useful outputs.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "Prompt engineering",
+   "page_id": 69071767,
+   "rev_id": 1378888502,
+   "rev_timestamp": "2026-10-06T19:06:52Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=Prompt_engineering&oldid=1378888502",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "variants": [],
  "relations": [],
  "verbs": [],
@@ -49,6 +64,46 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "external-2026-10-29-gpt-6-unknown"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-f",
+   "note": "adapted from the lead of Wikipedia: Prompt engineering, revision 1378888502"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=Prompt_engineering&oldid=1378888502",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-f",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "69071767",
+    "method": "title",
+    "categories": [
+     "Deep learning",
+     "Machine learning",
+     "Natural language processing",
+     "Unsupervised learning",
+     "2022 neologisms",
+     "Linguistics",
+     "Generative AI"
+    ]
+   }
   }
  ]
 }

@@ -3,6 +3,21 @@
  "preferred_name": "International General Certificate of Secondary Education",
  "kind": "credential",
  "definition": "An internationally aimed secondary-school qualification, taken at about age 16 and awarded by several exam boards such as Cambridge and Pearson Edexcel, comparable to the GCSE.",
+ "description": {
+  "text": "The IGCSE is an English-language secondary qualification similar to the GCSE and recognised in the UK as equivalent to it. It was developed by Cambridge International Education; other exam boards offer their own versions.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "International General Certificate of Secondary Education",
+   "page_id": 1181687,
+   "rev_id": 1375600628,
+   "rev_timestamp": "2026-09-18T20:11:31Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=International_General_Certificate_of_Secondary_Education&oldid=1375600628",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "international-general-certificate-of-secondary-education",
  "certification": true,
  "certification_scope": "many-issuers",
@@ -184,6 +199,47 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "external-2026-10-29-gpt-6-unknown"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-d",
+   "note": "adapted from the lead of Wikipedia: International General Certificate of Secondary Education, revision 1375600628"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=International_General_Certificate_of_Secondary_Education&oldid=1375600628",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-d",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "1181687",
+    "method": "title",
+    "categories": [
+     "Secondary school qualifications",
+     "English-language education",
+     "School qualifications",
+     "Educational evaluation methods",
+     "High school course levels",
+     "International school associations",
+     "Associations of schools",
+     "Cambridge International Examinations"
+    ]
+   }
   }
  ]
 }

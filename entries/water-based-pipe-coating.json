@@ -3,6 +3,21 @@
  "preferred_name": "Water-based pipe coating",
  "kind": "skill",
  "definition": "Applying water-based (waterborne) coatings to pipes as a protective layer.",
+ "description": {
+  "text": "An environmentally friendly coating applied to the inner and outer surfaces of ductile iron pipe. It protects water supply lines from corrosion and protects drinking water from contamination.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "Water-based pipe coating",
+   "page_id": 35411197,
+   "rev_id": 1368561677,
+   "rev_timestamp": "2026-08-09T20:36:56Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=Water-based_pipe_coating&oldid=1368561677",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "water-based-pipe-coating",
  "certification": false,
  "variants": [
@@ -96,6 +111,40 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "2026-10-29-review-5r-opus"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-g",
+   "note": "adapted from the lead of Wikipedia: Water-based pipe coating, revision 1368561677"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=Water-based_pipe_coating&oldid=1368561677",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-g",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "35411197",
+    "method": "title",
+    "categories": [
+     "Coatings"
+    ]
+   }
   }
  ]
 }

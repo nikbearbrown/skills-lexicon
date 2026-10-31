@@ -3,6 +3,21 @@
  "preferred_name": "JPEG",
  "kind": "standard",
  "definition": "A widely used standard for compressing photographs, from the Joint Photographic Experts Group, that makes small image files by discarding some detail.",
+ "description": {
+  "text": "JPEG (Joint Photographic Experts Group) is a commonly used lossy compression method for digital images, especially photographs. The degree of compression can be adjusted, trading storage size against image quality.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "JPEG",
+   "page_id": 16009,
+   "rev_id": 1376628181,
+   "rev_timestamp": "2026-09-25T08:11:44Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=JPEG&oldid=1376628181",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "jpeg",
  "name_match": "exact_case",
  "certification": false,
@@ -130,6 +145,50 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "external-2026-10-29-gpt-6-unknown"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-d",
+   "note": "adapted from the lead of Wikipedia: JPEG, revision 1376628181"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=JPEG&oldid=1376628181",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-d",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "16009",
+    "method": "title",
+    "categories": [
+     "JPEG",
+     "Articles containing video clips",
+     "Computer-related introductions in 1992",
+     "Discovery and invention controversies",
+     "IEC standards",
+     "Image compression",
+     "ISO standards",
+     "ITU-T recommendations",
+     "Lossy compression algorithms",
+     "Open formats",
+     "Raster graphics file formats"
+    ]
+   }
   }
  ]
 }

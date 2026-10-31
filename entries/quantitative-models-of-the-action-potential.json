@@ -3,6 +3,21 @@
  "preferred_name": "Quantitative models of the action potential",
  "kind": "knowledge",
  "definition": "Mathematical models, such as the Hodgkin-Huxley model, that describe how a nerve cell's membrane voltage changes during an action potential.",
+ "description": {
+  "text": "Mathematical models in neurophysiology of the action potential, of two basic types. One type seeks to reproduce measured currents and voltages exactly, as in the Hodgkin-Huxley model of the squid axon, which is qualitatively correct but not accurate for every excitable membrane.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "Quantitative models of the action potential",
+   "page_id": 17033211,
+   "rev_id": 1318851899,
+   "rev_timestamp": "2025-10-26T11:32:28Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=Quantitative_models_of_the_action_potential&oldid=1318851899",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "quantitative-models-of-the-action-potential",
  "certification": false,
  "variants": [],
@@ -99,6 +114,42 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "external-2026-10-29-gpt-6-unknown"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-f",
+   "note": "adapted from the lead of Wikipedia: Quantitative models of the action potential, revision 1318851899"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=Quantitative_models_of_the_action_potential&oldid=1318851899",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-f",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "17033211",
+    "method": "title",
+    "categories": [
+     "Mathematical modeling",
+     "Capacitors",
+     "Action potentials"
+    ]
+   }
   }
  ]
 }

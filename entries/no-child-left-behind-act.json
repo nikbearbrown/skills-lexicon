@@ -3,6 +3,21 @@
  "preferred_name": "No Child Left Behind Act",
  "kind": "standard",
  "definition": "A United States federal education law from the early 2000s that set testing and accountability requirements for public schools and was replaced in 2015 by the Every Student Succeeds Act.",
+ "description": {
+  "text": "A 2002 United States act of Congress that reauthorized the Elementary and Secondary Education Act. It mandated standards-based education reform, requiring states to give assessments to all students at certain grade levels to receive federal school funding.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "No Child Left Behind Act",
+   "page_id": 512852,
+   "rev_id": 1377811915,
+   "rev_timestamp": "2026-10-01T06:49:16Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=No_Child_Left_Behind_Act&oldid=1377811915",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "no-child-left-behind-act",
  "certification": false,
  "variants": [],
@@ -83,6 +98,50 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "external-2026-10-29-gpt-6-unknown"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-e",
+   "note": "adapted from the lead of Wikipedia: No Child Left Behind Act, revision 1377811915"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=No_Child_Left_Behind_Act&oldid=1377811915",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-e",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "512852",
+    "method": "title",
+    "categories": [
+     "Education rights",
+     "United States federal education legislation",
+     "Education policy in the United States",
+     "Linguistic rights",
+     "Standards-based education",
+     "Acts of the 107th United States Congress",
+     "2001 in education",
+     "Education reform in the United States",
+     "Presidency of George W. Bush",
+     "2002 in education",
+     "Articles containing video clips"
+    ]
+   }
   }
  ]
 }

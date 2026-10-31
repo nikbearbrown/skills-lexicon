@@ -3,6 +3,21 @@
  "preferred_name": "Bachelor of Science in Nursing",
  "kind": "credential",
  "definition": "A bachelor's-level nursing degree, awarded by universities and colleges, that prepares graduates for registered-nurse licensure.",
+ "description": {
+  "text": "An academic degree in the science and principles of nursing, granted by an accredited tertiary education provider. The course of study typically takes three or four years.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "Bachelor of Science in Nursing",
+   "page_id": 940088,
+   "rev_id": 1368112065,
+   "rev_timestamp": "2026-08-07T02:32:49Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=Bachelor_of_Science_in_Nursing&oldid=1368112065",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "bachelor-of-science-in-nursing",
  "certification": true,
  "certification_scope": "many-issuers",
@@ -239,6 +254,42 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "external-2026-10-29-muse-spark-1-3-xhigh"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-a",
+   "note": "adapted from the lead of Wikipedia: Bachelor of Science in Nursing, revision 1368112065"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=Bachelor_of_Science_in_Nursing&oldid=1368112065",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-a",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "940088",
+    "method": "title",
+    "categories": [
+     "Academic degrees in healthcare",
+     "Bachelor's degrees",
+     "Nursing degrees"
+    ]
+   }
   }
  ]
 }

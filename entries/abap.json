@@ -3,6 +3,21 @@
  "preferred_name": "ABAP",
  "kind": "programming-language",
  "definition": "SAP's proprietary programming language for writing business applications that run on SAP systems.",
+ "description": {
+  "text": "A high-level programming language created by SAP for building business applications. It is used to program the SAP NetWeaver Application Server and was originally the report language for SAP R/2.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "ABAP",
+   "page_id": 271832,
+   "rev_id": 1373743336,
+   "rev_timestamp": "2026-09-07T18:07:22Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=ABAP&oldid=1373743336",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "abap",
  "name_match": "exact_case",
  "certification": false,
@@ -137,6 +152,48 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "2026-10-29-review-4d-opus"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-a",
+   "note": "adapted from the lead of Wikipedia: ABAP, revision 1373743336"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=ABAP&oldid=1373743336",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-a",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "271832",
+    "method": "title",
+    "categories": [
+     "Cross-platform software",
+     "High-level programming languages",
+     "Fourth-generation programming languages",
+     "Class-based programming languages",
+     "Object-oriented programming languages",
+     "Programming languages",
+     "SAP SE",
+     "Statically typed programming languages",
+     "Domain-specific programming languages"
+    ]
+   }
   }
  ]
 }

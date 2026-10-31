@@ -3,6 +3,21 @@
  "preferred_name": "Internet Control Message Protocol",
  "kind": "standard",
  "definition": "A network-layer protocol, defined in RFC 792, that IP devices use to send error messages and operational information, such as the echo requests used by ping.",
+ "description": {
+  "text": "The Internet Control Message Protocol (ICMP) is a supporting protocol in the Internet protocol suite. Network devices such as routers use it to send error messages and operational information, for example when a host cannot be reached.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "Internet Control Message Protocol",
+   "page_id": 15107,
+   "rev_id": 1376511679,
+   "rev_timestamp": "2026-09-24T16:18:36Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=Internet_Control_Message_Protocol&oldid=1376511679",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "internet-control-message-protocol",
  "certification": false,
  "variants": [
@@ -158,6 +173,43 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "external-2026-10-29-gpt-6-unknown"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-d",
+   "note": "adapted from the lead of Wikipedia: Internet Control Message Protocol, revision 1376511679"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=Internet_Control_Message_Protocol&oldid=1376511679",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-d",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "15107",
+    "method": "title",
+    "categories": [
+     "Internet protocols",
+     "Internet Standards",
+     "Internet layer protocols",
+     "Network layer protocols"
+    ]
+   }
   }
  ]
 }

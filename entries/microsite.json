@@ -3,6 +3,21 @@
  "preferred_name": "Microsite",
  "kind": "knowledge",
  "definition": "A small, separate website or set of pages built for a specific campaign, product or event, apart from a company's main site.",
+ "description": {
+  "text": "An individual web page or small cluster of pages meant to work as a separate entity within an existing website or to complement offline activity. Its landing page can have its own domain name or subdomain.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "Microsite",
+   "page_id": 2576655,
+   "rev_id": 1172827652,
+   "rev_timestamp": "2023-08-29T15:31:59Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=Microsite&oldid=1172827652",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "microsite",
  "certification": false,
  "variants": [
@@ -128,6 +143,40 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "external-2026-10-29-gpt-6-unknown"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-e",
+   "note": "adapted from the lead of Wikipedia: Microsite, revision 1172827652"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=Microsite&oldid=1172827652",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-e",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "2576655",
+    "method": "title",
+    "categories": [
+     "Websites"
+    ]
+   }
   }
  ]
 }

@@ -3,6 +3,21 @@
  "preferred_name": "Program optimization",
  "kind": "skill",
  "definition": "Changing a computer program so that it runs faster or uses less memory or other resources while doing the same job.",
+ "description": {
+  "text": "The process of modifying a software system so some aspect of it works more efficiently or uses fewer resources. A program may be optimized to run faster, use less memory or storage, or draw less power.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "Program optimization",
+   "page_id": 225779,
+   "rev_id": 1368906682,
+   "rev_timestamp": "2026-08-11T19:41:29Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=Program_optimization&oldid=1368906682",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "program-optimization",
  "certification": false,
  "variants": [],
@@ -99,6 +114,43 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "external-2026-10-29-gpt-6-unknown"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-f",
+   "note": "adapted from the lead of Wikipedia: Program optimization, revision 1368906682"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=Program_optimization&oldid=1368906682",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-f",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "225779",
+    "method": "title",
+    "categories": [
+     "Software optimization",
+     "Programming language topics",
+     "Articles with example C code",
+     "Computer optimization"
+    ]
+   }
   }
  ]
 }

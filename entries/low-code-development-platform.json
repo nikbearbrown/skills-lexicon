@@ -3,6 +3,21 @@
  "preferred_name": "Low-code development platform",
  "kind": "platform",
  "definition": "A software platform for building applications mainly through visual modelling and configuration instead of hand-written code.",
+ "description": {
+  "text": "A low-code development platform provides a software development environment, typically a graphical interface, that needs little or no hand-written code. It may produce fully working applications or need extra coding, and can speed up delivery.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "Low-code development platform",
+   "page_id": 52977719,
+   "rev_id": 1369417809,
+   "rev_timestamp": "2026-08-14T21:20:43Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=Low-code_development_platform&oldid=1369417809",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "low-code-development-platform",
  "certification": false,
  "variants": [
@@ -184,6 +199,41 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "external-2026-10-29-gpt-6-unknown"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-d",
+   "note": "adapted from the lead of Wikipedia: Low-code development platform, revision 1369417809"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=Low-code_development_platform&oldid=1369417809",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-d",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "52977719",
+    "method": "title",
+    "categories": [
+     "Enterprise architecture",
+     "Software development"
+    ]
+   }
   }
  ]
 }

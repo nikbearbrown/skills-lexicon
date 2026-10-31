@@ -3,6 +3,21 @@
  "preferred_name": "Macedonian",
  "kind": "human-language",
  "definition": "A South Slavic language, the official language of North Macedonia.",
+ "description": {
+  "text": "Macedonian is an Eastern South Slavic language of the Indo-European family, spoken as a first language by about 1.7 million people. It is the official language of North Macedonia.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "Macedonian language",
+   "page_id": 19037,
+   "rev_id": 1370547884,
+   "rev_timestamp": "2026-08-21T19:37:28Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=Macedonian_language&oldid=1370547884",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "macedonian",
  "certification": false,
  "language_type": "human",
@@ -135,6 +150,49 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "2026-10-29-review-4e-opus"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-d",
+   "note": "adapted from the lead of Wikipedia: Macedonian language, revision 1370547884"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=Macedonian_language&oldid=1370547884",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-d",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "19037",
+    "method": "redirect",
+    "categories": [
+     "Macedonian language",
+     "Analytic languages",
+     "Languages of Albania",
+     "Languages of Bulgaria",
+     "Languages of Greece",
+     "Languages of Serbia",
+     "Languages of Slovakia",
+     "Languages of North Macedonia",
+     "Eastern South Slavic",
+     "Languages written in Cyrillic script"
+    ]
+   }
   }
  ]
 }

@@ -3,6 +3,21 @@
  "preferred_name": "Rockmelt",
  "kind": "tool",
  "definition": "A social web browser, based on Chromium, that was discontinued after Yahoo bought its maker in 2013.",
+ "description": {
+  "text": "A discontinued proprietary social media web browser based on Google Chromium, with features such as Facebook chat, Twitter notifications and content widgets for YouTube and newspapers. Its desktop browser was discontinued in April 2013.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "Rockmelt",
+   "page_id": 24004995,
+   "rev_id": 1371843737,
+   "rev_timestamp": "2026-08-28T20:41:27Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=Rockmelt&oldid=1371843737",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "rockmelt",
  "certification": false,
  "variants": [],
@@ -99,6 +114,43 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "external-2026-10-29-gpt-6-unknown"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-f",
+   "note": "adapted from the lead of Wikipedia: Rockmelt, revision 1371843737"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=Rockmelt&oldid=1371843737",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-f",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "24004995",
+    "method": "title",
+    "categories": [
+     "Software based on WebKit",
+     "Discontinued web browsers",
+     "Beta software",
+     "IOS software"
+    ]
+   }
   }
  ]
 }

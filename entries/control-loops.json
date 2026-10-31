@@ -3,6 +3,21 @@
  "preferred_name": "Control loops",
  "kind": "knowledge",
  "definition": "Feedback arrangements in which a controller compares a measured value with a setpoint and adjusts an output to keep them close, as in process and automation engineering.",
+ "description": {
+  "text": "The basic building block of control systems, including industrial ones. It consists of a process sensor, a controller function and a final control element that automatically adjusts a measured process variable to equal a desired set-point.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "Control loop",
+   "page_id": 4521890,
+   "rev_id": 1373320705,
+   "rev_timestamp": "2026-09-05T08:05:18Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=Control_loop&oldid=1373320705",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "control-loops",
  "certification": false,
  "variants": [
@@ -130,6 +145,41 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "external-2026-10-29-gpt-6-unknown"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-b",
+   "note": "adapted from the lead of Wikipedia: Control loop, revision 1373320705"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=Control_loop&oldid=1373320705",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-b",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "4521890",
+    "method": "title",
+    "categories": [
+     "Control engineering",
+     "Control loop theory"
+    ]
+   }
   }
  ]
 }

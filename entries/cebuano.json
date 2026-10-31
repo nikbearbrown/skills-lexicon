@@ -3,6 +3,21 @@
  "preferred_name": "Cebuano",
  "kind": "human-language",
  "definition": "An Austronesian language spoken mainly in Cebu, the central Philippines and parts of Mindanao.",
+ "description": {
+  "text": "An Austronesian language spoken in the southern Philippines by the Bisaya people and other groups, often as a second language.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "Cebuano language",
+   "page_id": 352307,
+   "rev_id": 1378764365,
+   "rev_timestamp": "2026-10-06T02:00:29Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=Cebuano_language&oldid=1378764365",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "cebuano",
  "certification": false,
  "language_type": "human",
@@ -134,6 +149,41 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "2026-10-29-review-4d-opus"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-b",
+   "note": "adapted from the lead of Wikipedia: Cebuano language, revision 1378764365"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=Cebuano_language&oldid=1378764365",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-b",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "352307",
+    "method": "redirect",
+    "categories": [
+     "Cebuano language",
+     "Verb–subject–object languages"
+    ]
+   }
   }
  ]
 }

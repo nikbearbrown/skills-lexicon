@@ -3,6 +3,21 @@
  "preferred_name": "Jasmine",
  "kind": "framework",
  "definition": "A behaviour-driven development framework for testing JavaScript code.",
+ "description": {
+  "text": "Jasmine is an open-source testing framework for JavaScript. It aims to run on any JavaScript-enabled platform without intruding on the application, and to have easy-to-read syntax.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "Jasmine (software)",
+   "page_id": 31748786,
+   "rev_id": 1283268904,
+   "rev_timestamp": "2025-03-31T13:02:17Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=Jasmine_(software)&oldid=1283268904",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "jasmine",
  "certification": false,
  "variants": [],
@@ -99,6 +114,43 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "external-2026-10-29-gpt-6-unknown"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-d",
+   "note": "adapted from the lead of Wikipedia: Jasmine (software), revision 1283268904"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=Jasmine_(software)&oldid=1283268904",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-d",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "31748786",
+    "method": "title",
+    "categories": [
+     "JavaScript programming tools",
+     "Unit testing frameworks",
+     "Software using the MIT license",
+     "Free software programmed in JavaScript"
+    ]
+   }
   }
  ]
 }

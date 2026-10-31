@@ -3,6 +3,21 @@
  "preferred_name": "PowerShell",
  "kind": "programming-language",
  "definition": "A Microsoft command-line shell and scripting language built on .NET, used for task automation and configuration management.",
+ "description": {
+  "text": "A shell program developed by Microsoft for task automation and configuration management. It provides a command-line interpreter and a scripting language, and was originally Windows-only but became open-source and cross-platform.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "PowerShell",
+   "page_id": 14465871,
+   "rev_id": 1375418758,
+   "rev_timestamp": "2026-09-17T17:30:35Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=PowerShell&oldid=1375418758",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "powershell",
  "certification": false,
  "language_type": "programming",
@@ -125,6 +140,54 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "2026-10-29-review-4e-opus"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-f",
+   "note": "adapted from the lead of Wikipedia: PowerShell, revision 1375418758"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=PowerShell&oldid=1375418758",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-f",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "14465871",
+    "method": "title",
+    "categories": [
+     ".NET programming languages",
+     "Configuration management",
+     "Dynamically typed programming languages",
+     "Formerly proprietary software",
+     "Interpreters (computing)",
+     "Microsoft free software",
+     "Microsoft programming languages",
+     "Object-oriented programming languages",
+     "Procedural programming languages",
+     "Programming languages created in 2006",
+     "Scripting languages",
+     "Software using the MIT license",
+     "Text-oriented programming languages",
+     "Unix shells",
+     "Windows administration"
+    ]
+   }
   }
  ]
 }

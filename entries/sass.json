@@ -3,6 +3,21 @@
  "preferred_name": "Sass",
  "kind": "style-language",
  "definition": "A stylesheet language that extends CSS with variables, nesting and mixins and is compiled into ordinary CSS.",
+ "description": {
+  "text": "A preprocessor scripting language that is interpreted or compiled into CSS. It has two syntaxes: an original indented syntax similar to Haml, and a newer one called SCSS that uses CSS-style braces.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "Sass (style sheet language)",
+   "page_id": 20770982,
+   "rev_id": 1372828950,
+   "rev_timestamp": "2026-09-02T13:44:46Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=Sass_(style_sheet_language)&oldid=1372828950",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "sass",
  "certification": false,
  "language_type": "programming",
@@ -125,6 +140,44 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "external-2026-10-29-gpt-6-unknown"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-f",
+   "note": "adapted from the lead of Wikipedia: Sass (style sheet language), revision 1372828950"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=Sass_(style_sheet_language)&oldid=1372828950",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-f",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "20770982",
+    "method": "title",
+    "categories": [
+     "Free computer libraries",
+     "Programming languages created in 2006",
+     "Ruby (programming language)",
+     "Software using the MIT license",
+     "Stylesheet languages"
+    ]
+   }
   }
  ]
 }

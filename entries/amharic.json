@@ -3,6 +3,21 @@
  "preferred_name": "Amharic",
  "kind": "human-language",
  "definition": "A Semitic language spoken mainly in Ethiopia, where it is the working language of the federal government.",
+ "description": {
+  "text": "An Ethio-Semitic language of the Afroasiatic family. It is a first language of the Amhara people, a lingua franca in Ethiopia, and an official working language of the Ethiopian federal government.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "Amharic",
+   "page_id": 95135,
+   "rev_id": 1378523146,
+   "rev_timestamp": "2026-10-04T21:55:36Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=Amharic&oldid=1378523146",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "amharic",
  "certification": false,
  "language_type": "human",
@@ -135,6 +150,46 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "2026-10-29-review-4d-opus"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-a",
+   "note": "adapted from the lead of Wikipedia: Amharic, revision 1378523146"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=Amharic&oldid=1378523146",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-a",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "95135",
+    "method": "title",
+    "categories": [
+     "Amharic language",
+     "Fusional languages",
+     "Languages of Ethiopia",
+     "South Semitic languages",
+     "Transverse Ethiopian Semitic languages",
+     "Languages written in Geʽez script",
+     "Subject–object–verb languages"
+    ]
+   }
   }
  ]
 }

@@ -3,6 +3,21 @@
  "preferred_name": "Bismuth sulfite agar",
  "kind": "knowledge",
  "definition": "A selective culture medium used in microbiology to isolate Salmonella, especially Salmonella Typhi, from samples.",
+ "description": {
+  "text": "A type of agar growth medium used to isolate Salmonella species. Bismuth and brilliant green dye inhibit gram-positive growth, and it tests the ability to convert ferrous sulfate to hydrogen sulfide.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "Bismuth sulfite agar",
+   "page_id": 11323948,
+   "rev_id": 1313679685,
+   "rev_timestamp": "2025-09-27T15:41:46Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=Bismuth_sulfite_agar&oldid=1313679685",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "bismuth-sulfite-agar",
  "certification": false,
  "variants": [],
@@ -99,6 +114,41 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "external-2026-10-29-gpt-6-unknown"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-a",
+   "note": "adapted from the lead of Wikipedia: Bismuth sulfite agar, revision 1313679685"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=Bismuth_sulfite_agar&oldid=1313679685",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-a",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "11323948",
+    "method": "title",
+    "categories": [
+     "Microbiological media",
+     "Bismuth"
+    ]
+   }
   }
  ]
 }

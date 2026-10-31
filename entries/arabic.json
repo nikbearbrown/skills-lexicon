@@ -3,6 +3,21 @@
  "preferred_name": "Arabic",
  "kind": "human-language",
  "definition": "A Semitic language spoken across the Middle East and North Africa, with a standard written form used in formal settings.",
+ "description": {
+  "text": "A Central Semitic language of the Afroasiatic family, spoken mainly in the Arab world. Its standard form, Modern Standard Arabic, derives from Classical Arabic.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "Arabic",
+   "page_id": 803,
+   "rev_id": 1378467377,
+   "rev_timestamp": "2026-10-04T17:12:01Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=Arabic&oldid=1378467377",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "arabic",
  "certification": false,
  "language_type": "human",
@@ -134,6 +149,54 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "2026-10-29-review-4d-opus"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-a",
+   "note": "adapted from the lead of Wikipedia: Arabic, revision 1378467377"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=Arabic&oldid=1378467377",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-a",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "803",
+    "method": "title",
+    "categories": [
+     "Arabic language",
+     "Languages attested since the 9th century BC",
+     "Articles containing video clips",
+     "Central Semitic languages",
+     "Fusional languages",
+     "Languages of Algeria",
+     "Languages of Bahrain",
+     "Languages of Cameroon",
+     "Languages of Chad",
+     "Languages of the Comoros",
+     "Languages of Djibouti",
+     "Languages of Eritrea",
+     "Languages of Gibraltar",
+     "Languages of Israel",
+     "Languages of Iran"
+    ]
+   }
   }
  ]
 }

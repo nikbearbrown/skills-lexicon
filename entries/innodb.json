@@ -3,6 +3,21 @@
  "preferred_name": "InnoDB",
  "kind": "tool",
  "definition": "A storage engine for the MySQL database server that supports transactions, row-level locking and foreign keys.",
+ "description": {
+  "text": "InnoDB is a storage engine for the MySQL and MariaDB database systems. It provides ACID-compliant transactions and foreign key support, and became MySQL's default table type, replacing MyISAM.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "InnoDB",
+   "page_id": 1827394,
+   "rev_id": 1365495738,
+   "rev_timestamp": "2026-07-22T20:40:41Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=InnoDB&oldid=1365495738",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "innodb",
  "certification": false,
  "variants": [],
@@ -99,6 +114,44 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "external-2026-10-29-gpt-6-unknown"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-d",
+   "note": "adapted from the lead of Wikipedia: InnoDB, revision 1365495738"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=InnoDB&oldid=1365495738",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-d",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "1827394",
+    "method": "title",
+    "categories": [
+     "Database engines",
+     "MySQL",
+     "MariaDB",
+     "Oracle software",
+     "Software developed in Finland"
+    ]
+   }
   }
  ]
 }

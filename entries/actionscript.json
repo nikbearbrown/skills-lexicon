@@ -3,6 +3,21 @@
  "preferred_name": "ActionScript",
  "kind": "programming-language",
  "definition": "An object-oriented programming language based on ECMAScript, used mainly for Adobe Flash and AIR applications.",
+ "description": {
+  "text": "An object-oriented programming language originally developed by Macromedia (later acquired by Adobe). It implements ECMAScript, like JavaScript, and its code is usually compiled to bytecode.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "ActionScript",
+   "page_id": 519691,
+   "rev_id": 1373143562,
+   "rev_timestamp": "2026-09-04T07:13:00Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=ActionScript&oldid=1373143562",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "actionscript",
  "certification": false,
  "language_type": "programming",
@@ -115,6 +130,50 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "2026-10-29-review-4d-opus"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-a",
+   "note": "adapted from the lead of Wikipedia: ActionScript, revision 1373143562"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=ActionScript&oldid=1373143562",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-a",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "519691",
+    "method": "title",
+    "categories": [
+     "ActionScript",
+     "Adobe Flash",
+     "Class-based programming languages",
+     "JavaScript programming language family",
+     "Scripting languages",
+     "Programming languages created in 1998",
+     "1998 software",
+     "High-level programming languages",
+     "Programming languages compiled to bytecode",
+     "Statically typed programming languages",
+     "Articles with example JavaScript code"
+    ]
+   }
   }
  ]
 }

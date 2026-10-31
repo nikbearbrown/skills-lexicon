@@ -3,6 +3,21 @@
  "preferred_name": "Craniofacial surgery",
  "kind": "knowledge",
  "definition": "The surgical specialty that repairs and reshapes the skull, face and jaws, including congenital differences such as cleft lip and palate.",
+ "description": {
+  "text": "A surgical subspecialty dealing with congenital and acquired deformities of the head, skull, face, neck, jaws and related structures. Surgeons work with bone, skin, nerve, muscle, teeth and other anatomy.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "Craniofacial surgery",
+   "page_id": 2812665,
+   "rev_id": 1357008474,
+   "rev_timestamp": "2026-05-31T06:07:58Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=Craniofacial_surgery&oldid=1357008474",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "craniofacial-surgery",
  "certification": false,
  "variants": [],
@@ -99,6 +114,42 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "external-2026-10-29-gpt-6-unknown"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-b",
+   "note": "adapted from the lead of Wikipedia: Craniofacial surgery, revision 1357008474"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=Craniofacial_surgery&oldid=1357008474",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-b",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "2812665",
+    "method": "title",
+    "categories": [
+     "Surgical specialties",
+     "Oral and maxillofacial surgery",
+     "Otorhinolaryngology"
+    ]
+   }
   }
  ]
 }

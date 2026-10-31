@@ -3,6 +3,21 @@
  "preferred_name": "Berber",
  "kind": "human-language",
  "definition": "A family of related Afro-Asiatic languages spoken across North Africa, also known as the Amazigh languages.",
+ "description": {
+  "text": "A branch of the Afroasiatic language family: a group of closely related languages spoken by Berber communities indigenous to North Africa. Also called the Amazigh languages or Tamazight.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "Berber languages",
+   "page_id": 4693,
+   "rev_id": 1376234083,
+   "rev_timestamp": "2026-09-22T23:20:02Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=Berber_languages&oldid=1376234083",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "berber",
  "certification": false,
  "language_type": "human",
@@ -239,6 +254,49 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "external-2026-10-29-muse-spark-1-3-xhigh"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-a",
+   "note": "adapted from the lead of Wikipedia: Berber languages, revision 1376234083"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=Berber_languages&oldid=1376234083",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-a",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "4693",
+    "method": "redirect",
+    "categories": [
+     "Berber languages",
+     "Afroasiatic languages",
+     "Maghreb",
+     "Languages of Mali",
+     "Languages of Niger",
+     "Languages of Mauritania",
+     "Languages of Tunisia",
+     "Languages of Gibraltar",
+     "Languages of Sicily",
+     "Languages of Western Sahara"
+    ]
+   }
   }
  ]
 }

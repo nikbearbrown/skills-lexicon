@@ -3,6 +3,21 @@
  "preferred_name": "Matplotlib",
  "kind": "library",
  "definition": "A Python library for drawing static, animated and interactive plots and charts.",
+ "description": {
+  "text": "Matplotlib is a plotting library for Python and its numerical extension NumPy. It has an object-oriented API for embedding plots in GUI applications and a procedural interface designed to resemble MATLAB.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "Matplotlib",
+   "page_id": 2901907,
+   "rev_id": 1364450721,
+   "rev_timestamp": "2026-07-16T16:32:48Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=Matplotlib&oldid=1364450721",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "matplotlib",
  "certification": false,
  "variants": [],
@@ -99,6 +114,46 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "external-2026-10-29-gpt-6-unknown"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-d",
+   "note": "adapted from the lead of Wikipedia: Matplotlib, revision 1364450721"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=Matplotlib&oldid=1364450721",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-d",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "2901907",
+    "method": "title",
+    "categories": [
+     "Articles with example Python (programming language) code",
+     "Free plotting software",
+     "Free software programmed in Python",
+     "Python (programming language) scientific libraries",
+     "Science software that uses GTK",
+     "Science software that uses Qt",
+     "Free data and information visualization software"
+    ]
+   }
   }
  ]
 }

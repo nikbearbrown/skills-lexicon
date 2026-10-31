@@ -3,6 +3,21 @@
  "preferred_name": "Binary options",
  "kind": "knowledge",
  "definition": "Financial options that pay a fixed amount or nothing, depending on whether an underlying asset meets a set condition at expiry.",
+ "description": {
+  "text": "A financial exotic option whose payoff is either a fixed monetary amount or nothing. The main types are cash-or-nothing and asset-or-nothing; they are also called all-or-nothing or digital options.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "Binary option",
+   "page_id": 502104,
+   "rev_id": 1368280273,
+   "rev_timestamp": "2026-08-08T03:37:56Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=Binary_option&oldid=1368280273",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "binary-options",
  "certification": false,
  "variants": [],
@@ -100,6 +115,44 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "external-2026-10-29-gpt-6-unknown"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-a",
+   "note": "adapted from the lead of Wikipedia: Binary option, revision 1368280273"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=Binary_option&oldid=1368280273",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-a",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "502104",
+    "method": "title",
+    "categories": [
+     "Options (finance)",
+     "Investment",
+     "Derivatives (finance)",
+     "2 (number)",
+     "Finance fraud"
+    ]
+   }
   }
  ]
 }

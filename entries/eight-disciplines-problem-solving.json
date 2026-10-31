@@ -3,6 +3,21 @@
  "preferred_name": "Eight Disciplines problem solving",
  "kind": "method",
  "definition": "A structured team method, developed in the automotive industry, for finding the root cause of a recurring problem, fixing it and preventing it from returning.",
+ "description": {
+  "text": "A problem-solving method (8D) developed at Ford Motor Company and typically used by quality engineers. It aims to identify, correct and eliminate recurring problems, focusing on product and process improvement.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "Eight disciplines problem solving",
+   "page_id": 7084228,
+   "rev_id": 1356602541,
+   "rev_timestamp": "2026-05-28T19:35:28Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=Eight_disciplines_problem_solving&oldid=1356602541",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "eight-disciplines-problem-solving",
  "certification": false,
  "variants": [
@@ -157,6 +172,41 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "external-2026-10-29-gpt-6-unknown"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-c",
+   "note": "adapted from the lead of Wikipedia: Eight disciplines problem solving, revision 1356602541"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=Eight_disciplines_problem_solving&oldid=1356602541",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-c",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "7084228",
+    "method": "title",
+    "categories": [
+     "Quality",
+     "Problem solving methods"
+    ]
+   }
   }
  ]
 }

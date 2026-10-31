@@ -3,6 +3,21 @@
  "preferred_name": "Persian",
  "kind": "human-language",
  "definition": "An Iranian language, the official language of Iran, closely related to Dari and Tajik.",
+ "description": {
+  "text": "Also known as Farsi, a Western Iranian language of the Indo-European family. It is spoken and used officially in Iran, Afghanistan and Tajikistan in three mutually intelligible standard varieties: Iranian Persian, Afghan Persian (Dari) and Tajiki Persian (Tajik).",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "Persian language",
+   "page_id": 11600,
+   "rev_id": 1378326502,
+   "rev_timestamp": "2026-10-04T00:23:37Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=Persian_language&oldid=1378326502",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "persian",
  "certification": false,
  "language_type": "human",
@@ -176,6 +191,54 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "2026-10-29-review-4e-opus"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-e",
+   "note": "adapted from the lead of Wikipedia: Persian language, revision 1378326502"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=Persian_language&oldid=1378326502",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-e",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "11600",
+    "method": "redirect",
+    "categories": [
+     "Persian language",
+     "Culture of Iran",
+     "Languages attested since the 6th century BC",
+     "Languages of Afghanistan",
+     "Languages of Azerbaijan",
+     "Languages of Bahrain",
+     "Languages of Iran",
+     "Languages of Iraq",
+     "Languages of Kuwait",
+     "Languages of Russia",
+     "Languages of Tajikistan",
+     "Languages of the Caucasus",
+     "Languages of Uzbekistan",
+     "Southwestern Iranian languages",
+     "Stress-timed languages"
+    ]
+   }
   }
  ]
 }

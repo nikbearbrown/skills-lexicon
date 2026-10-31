@@ -3,6 +3,21 @@
  "preferred_name": "Pediatric Advanced Life Support",
  "kind": "credential",
  "definition": "An American Heart Association course and certification in recognising and treating seriously ill or injured infants and children.",
+ "description": {
+  "text": "A course offered by the American Heart Association for health care providers who care for children and infants in emergency, critical care and out-of-hospital settings. It teaches assessing sick or injured children and treating respiratory failure, shock, cardiac arrest and arrhythmias.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "Pediatric advanced life support",
+   "page_id": 12823966,
+   "rev_id": 1360448916,
+   "rev_timestamp": "2026-06-21T15:19:00Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=Pediatric_advanced_life_support&oldid=1360448916",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "pediatric-advanced-life-support",
  "certification": true,
  "certification_scope": "single-issuer",
@@ -186,6 +201,43 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "external-2026-10-29-gpt-6-unknown"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-e",
+   "note": "adapted from the lead of Wikipedia: Pediatric advanced life support, revision 1360448916"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=Pediatric_advanced_life_support&oldid=1360448916",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-e",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "12823966",
+    "method": "title",
+    "categories": [
+     "Medical credentials",
+     "Emergency medicine courses",
+     "Emergency life support",
+     "Pediatrics"
+    ]
+   }
   }
  ]
 }

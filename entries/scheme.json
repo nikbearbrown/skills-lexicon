@@ -3,6 +3,21 @@
  "preferred_name": "Scheme",
  "kind": "programming-language",
  "definition": "A minimalist dialect of Lisp with lexical scoping and first-class continuations.",
+ "description": {
+  "text": "A dialect of the Lisp family of programming languages, created in the 1970s at MIT. It was the first Lisp dialect to choose lexical scope and the first to require tail-call optimization, giving stronger support for functional programming.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "Scheme (programming language)",
+   "page_id": 28119,
+   "rev_id": 1378037374,
+   "rev_timestamp": "2026-10-02T15:59:40Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=Scheme_(programming_language)&oldid=1378037374",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "scheme",
  "certification": false,
  "language_type": "programming",
@@ -125,6 +140,47 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "2026-10-29-review-4e-opus"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-f",
+   "note": "adapted from the lead of Wikipedia: Scheme (programming language), revision 1378037374"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=Scheme_(programming_language)&oldid=1378037374",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-f",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "28119",
+    "method": "title",
+    "categories": [
+     "Scheme (programming language)",
+     "Academic programming languages",
+     "Dynamically typed programming languages",
+     "Extensible syntax programming languages",
+     "Lisp programming language family",
+     "Multi-paradigm programming languages",
+     "Programming languages created in 1975",
+     "Articles with example Scheme (programming language) code"
+    ]
+   }
   }
  ]
 }

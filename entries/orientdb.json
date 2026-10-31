@@ -3,6 +3,21 @@
  "preferred_name": "OrientDB",
  "kind": "tool",
  "definition": "An open-source NoSQL database, written in Java, that combines graph, document, key-value and object models.",
+ "description": {
+  "text": "An open source NoSQL database management system written in Java. It is multi-model, supporting graph, document and object models, and works with schema-less, schema-full and mixed modes. It supports querying with Gremlin and SQL extended for graph traversal.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "OrientDB",
+   "page_id": 31921181,
+   "rev_id": 1369739740,
+   "rev_timestamp": "2026-08-16T21:16:00Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=OrientDB&oldid=1369739740",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "orientdb",
  "certification": false,
  "variants": [],
@@ -99,6 +114,45 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "external-2026-10-29-gpt-6-unknown"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-e",
+   "note": "adapted from the lead of Wikipedia: OrientDB, revision 1369739740"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=OrientDB&oldid=1369739740",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-e",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "31921181",
+    "method": "title",
+    "categories": [
+     "Free database management systems",
+     "Document-oriented databases",
+     "Distributed computing architecture",
+     "Structured storage",
+     "NoSQL",
+     "Graph databases"
+    ]
+   }
   }
  ]
 }

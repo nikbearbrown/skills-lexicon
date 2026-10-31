@@ -3,6 +3,21 @@
  "preferred_name": "Concurrent engineering",
  "kind": "method",
  "definition": "An approach in which design, manufacturing and other product-development stages are carried out in parallel instead of one after another.",
+ "description": {
+  "text": "A work method that does tasks in parallel rather than in sequence, also called simultaneous engineering or integrated product development. In product development it brings design, manufacturing and other functions together using an integrated product team.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "Concurrent engineering",
+   "page_id": 1269246,
+   "rev_id": 1372814586,
+   "rev_timestamp": "2026-09-02T11:54:55Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=Concurrent_engineering&oldid=1372814586",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "concurrent-engineering",
  "certification": false,
  "variants": [
@@ -158,6 +173,40 @@
    "date": "2026-10-29",
    "run": "external-2026-10-29-gpt-6-unknown",
    "note": "Wikipedia is a source label accidentally appended to the term, not part of the concept name."
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-b",
+   "note": "adapted from the lead of Wikipedia: Concurrent engineering, revision 1372814586"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=Concurrent_engineering&oldid=1372814586",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-b",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "1269246",
+    "method": "title",
+    "categories": [
+     "Manufacturing"
+    ]
+   }
   }
  ]
 }

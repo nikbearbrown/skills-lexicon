@@ -3,6 +3,21 @@
  "preferred_name": "Access point name",
  "kind": "knowledge",
  "definition": "The name of a gateway between a mobile network and another network such as the internet, which a device uses to set up a data connection.",
+ "description": {
+  "text": "The name of a gateway between a mobile network (GSM, GPRS, 3G, 4G, 5G) and another computer network, often the internet. A mobile device is configured with an APN so the carrier knows what type of connection to set up.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "Access Point Name",
+   "page_id": 1834880,
+   "rev_id": 1368198985,
+   "rev_timestamp": "2026-08-07T16:44:29Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=Access_Point_Name&oldid=1368198985",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "access-point-name",
  "certification": false,
  "variants": [],
@@ -133,6 +148,42 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "external-2026-10-29-muse-spark-1-3-xhigh"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-a",
+   "note": "adapted from the lead of Wikipedia: Access Point Name, revision 1368198985"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=Access_Point_Name&oldid=1368198985",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-a",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "1834880",
+    "method": "title",
+    "categories": [
+     "Mobile telecommunications standards",
+     "3GPP standards",
+     "GSM standard"
+    ]
+   }
   }
  ]
 }

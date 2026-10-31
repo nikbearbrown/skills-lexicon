@@ -3,6 +3,21 @@
  "preferred_name": "Historic preservation",
  "kind": "knowledge",
  "definition": "The field of protecting and conserving historic buildings, sites and objects.",
+ "description": {
+  "text": "An endeavor to preserve, conserve and protect buildings, objects, landscapes or other artifacts of historical significance, called built heritage conservation in the UK. It holds that cities should protect their inherited legacy.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "Historic preservation",
+   "page_id": 1219810,
+   "rev_id": 1359881177,
+   "rev_timestamp": "2026-06-17T20:34:06Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=Historic_preservation&oldid=1359881177",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "historic-preservation",
  "certification": false,
  "variants": [],
@@ -99,6 +114,44 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "external-2026-10-29-gpt-6-unknown"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-c",
+   "note": "adapted from the lead of Wikipedia: Historic preservation, revision 1359881177"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=Historic_preservation&oldid=1359881177",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-c",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "1219810",
+    "method": "title",
+    "categories": [
+     "Historic preservation",
+     "Architectural history",
+     "Conservation and restoration of cultural heritage",
+     "Cultural heritage",
+     "Museology"
+    ]
+   }
   }
  ]
 }

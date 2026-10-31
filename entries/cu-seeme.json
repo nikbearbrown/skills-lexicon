@@ -3,6 +3,21 @@
  "preferred_name": "CU-SeeMe",
  "kind": "tool",
  "definition": "An early internet videoconferencing program developed at Cornell University.",
+ "description": {
+  "text": "A former Internet video chat tool, mainly used in the 1990s and early 2000s. It allowed point-to-point video calls and later multi-point calls through a server, and was popular in schools and colleges.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "CU-SeeMe",
+   "page_id": 1971534,
+   "rev_id": 1369013024,
+   "rev_timestamp": "2026-08-12T10:09:21Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=CU-SeeMe&oldid=1369013024",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "cu-seeme",
  "certification": false,
  "variants": [],
@@ -100,6 +115,43 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "external-2026-10-29-gpt-6-unknown"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-b",
+   "note": "adapted from the lead of Wikipedia: CU-SeeMe, revision 1369013024"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=CU-SeeMe&oldid=1369013024",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-b",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "1971534",
+    "method": "title",
+    "categories": [
+     "Groupware",
+     "Teleconferencing",
+     "Computer-related introductions in 1992",
+     "Videotelephony"
+    ]
+   }
   }
  ]
 }

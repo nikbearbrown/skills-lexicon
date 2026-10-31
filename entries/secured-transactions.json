@@ -3,6 +3,21 @@
  "preferred_name": "Secured transactions",
  "kind": "knowledge",
  "definition": "The area of commercial law that governs loans and credit backed by collateral in personal property, such as Article 9 of the US Uniform Commercial Code.",
+ "description": {
+  "text": "A loan or credit transaction where the lender takes a security interest in the borrower's collateral and can foreclose on or repossess it if the borrower defaults. A contract called a security agreement governs it, and in the US Article 9 of the UCC covers personal property.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "Secured transaction",
+   "page_id": 6136909,
+   "rev_id": 1321287008,
+   "rev_timestamp": "2025-11-09T19:14:39Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=Secured_transaction&oldid=1321287008",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "secured-transactions",
  "certification": false,
  "variants": [
@@ -128,6 +143,40 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "external-2026-10-29-gpt-6-unknown"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-f",
+   "note": "adapted from the lead of Wikipedia: Secured transaction, revision 1321287008"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=Secured_transaction&oldid=1321287008",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-f",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "6136909",
+    "method": "title",
+    "categories": [
+     "Contract law"
+    ]
+   }
   }
  ]
 }

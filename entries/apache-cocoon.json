@@ -3,6 +3,21 @@
  "preferred_name": "Apache Cocoon",
  "kind": "framework",
  "definition": "A Java web development framework built around pipelines that process XML.",
+ "description": {
+  "text": "A Java web application framework built around pipelines, separation of concerns and component-based development. It focuses on XML and XSLT publishing, to improve compatibility of formats such as HTML and PDF.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "Apache Cocoon",
+   "page_id": 795882,
+   "rev_id": 1355786910,
+   "rev_timestamp": "2026-05-23T22:52:05Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=Apache_Cocoon&oldid=1355786910",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "apache-cocoon",
  "certification": false,
  "variants": [],
@@ -99,6 +114,42 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "external-2026-10-29-gpt-6-unknown"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-a",
+   "note": "adapted from the lead of Wikipedia: Apache Cocoon, revision 1355786910"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=Apache_Cocoon&oldid=1355786910",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-a",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "795882",
+    "method": "title",
+    "categories": [
+     "Apache Software Foundation projects",
+     "Web frameworks",
+     "Java platform software"
+    ]
+   }
   }
  ]
 }

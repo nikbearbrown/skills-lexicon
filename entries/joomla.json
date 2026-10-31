@@ -3,6 +3,21 @@
  "preferred_name": "Joomla",
  "kind": "platform",
  "definition": "An open-source content management system, written in PHP, for building and managing websites.",
+ "description": {
+  "text": "Joomla is a free, open-source content management system for publishing web content on websites. It is used for applications such as discussion forums, photo galleries, e-commerce and user communities, and is developed by volunteers.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "Joomla",
+   "page_id": 2592728,
+   "rev_id": 1370051444,
+   "rev_timestamp": "2026-08-18T21:18:13Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=Joomla&oldid=1370051444",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "joomla",
  "certification": false,
  "variants": [],
@@ -99,6 +114,54 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "external-2026-10-29-gpt-6-unknown"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-d",
+   "note": "adapted from the lead of Wikipedia: Joomla, revision 1370051444"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=Joomla&oldid=1370051444",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-d",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "2592728",
+    "method": "title",
+    "categories": [
+     "Content management systems",
+     "Free content management systems",
+     "Website management",
+     "Blog software",
+     "Web development software",
+     "Software using the GNU General Public License",
+     "Free software programmed in PHP",
+     "PHP frameworks",
+     "Internet software for Linux",
+     "MacOS Internet software",
+     "Windows Internet software",
+     "Cross-platform software",
+     "Web frameworks",
+     "Software forks",
+     "2005 software"
+    ]
+   }
   }
  ]
 }

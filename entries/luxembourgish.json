@@ -3,6 +3,21 @@
  "preferred_name": "Luxembourgish",
  "kind": "human-language",
  "definition": "A West Germanic language, a national language of Luxembourg.",
+ "description": {
+  "text": "Luxembourgish is a West Germanic language spoken mainly in Luxembourg by about 400,000 people. It is standardized and is the national language of the Grand Duchy of Luxembourg, distinct from German.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "Luxembourgish",
+   "page_id": 18291,
+   "rev_id": 1375348460,
+   "rev_timestamp": "2026-09-17T07:28:25Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=Luxembourgish&oldid=1375348460",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "luxembourgish",
  "certification": false,
  "language_type": "human",
@@ -154,6 +169,53 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "2026-10-29-review-4e-opus"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-d",
+   "note": "adapted from the lead of Wikipedia: Luxembourgish, revision 1375348460"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=Luxembourgish&oldid=1375348460",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-d",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "18291",
+    "method": "title",
+    "categories": [
+     "Luxembourgish language",
+     "Germanic languages",
+     "Central German languages",
+     "German-language dialects",
+     "Languages of Belgium",
+     "Languages of France",
+     "Languages of Luxembourg",
+     "National symbols of Luxembourg",
+     "Verb-second languages",
+     "Culture of Wallonia",
+     "Liège Province",
+     "Luxembourg (Belgium)",
+     "Arlon",
+     "St. Vith"
+    ]
+   }
   }
  ]
 }

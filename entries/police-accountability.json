@@ -3,6 +3,21 @@
  "preferred_name": "Police accountability",
  "kind": "knowledge",
  "definition": "The laws, oversight bodies and practices, such as civilian review and use-of-force reporting, that hold police answerable for their conduct.",
+ "description": {
+  "text": "Holding individual police officers and law enforcement agencies responsible for delivering crime control and maintaining order while treating people fairly and within the law. It covers areas such as due process, search and seizure, and arrests.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "Police accountability",
+   "page_id": 14239918,
+   "rev_id": 1371187126,
+   "rev_timestamp": "2026-08-25T02:43:31Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=Police_accountability&oldid=1371187126",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "police-accountability",
  "certification": false,
  "variants": [],
@@ -99,6 +114,44 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "external-2026-10-29-gpt-6-unknown"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-f",
+   "note": "adapted from the lead of Wikipedia: Police accountability, revision 1371187126"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=Police_accountability&oldid=1371187126",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-f",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "14239918",
+    "method": "title",
+    "categories": [
+     "Law enforcement",
+     "Police misconduct",
+     "Police brutality",
+     "Black Lives Matter",
+     "Accountability"
+    ]
+   }
   }
  ]
 }

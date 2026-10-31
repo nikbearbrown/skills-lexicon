@@ -3,6 +3,21 @@
  "preferred_name": "BIND",
  "kind": "tool",
  "definition": "Berkeley Internet Name Domain, the widely used open-source DNS server software maintained by the Internet Systems Consortium.",
+ "description": {
+  "text": "A suite of software for the Domain Name System (DNS). Its main component, named, acts as both an authoritative name server and a recursive resolver, and the lead calls it the most widely used DNS server software as of 2015.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "BIND",
+   "page_id": 8735,
+   "rev_id": 1375211460,
+   "rev_timestamp": "2026-09-16T13:25:19Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=BIND&oldid=1375211460",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "bind",
  "name_match": "exact_case",
  "certification": false,
@@ -129,6 +144,42 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "external-2026-10-29-gpt-6-unknown"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-a",
+   "note": "adapted from the lead of Wikipedia: BIND, revision 1375211460"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=BIND&oldid=1375211460",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-a",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "8735",
+    "method": "title",
+    "categories": [
+     "DNS software",
+     "Free network-related software",
+     "Software using the ISC license"
+    ]
+   }
   }
  ]
 }

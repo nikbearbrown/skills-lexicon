@@ -3,6 +3,21 @@
  "preferred_name": "Software reliability testing",
  "kind": "skill",
  "definition": "Testing software to measure how long and how often it runs without failure under expected use.",
+ "description": {
+  "text": "A field of software testing that checks a software's ability to function under given environmental conditions for a particular period of time. It helps uncover problems in software design and functionality.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "Software reliability testing",
+   "page_id": 33429735,
+   "rev_id": 1272005128,
+   "rev_timestamp": "2025-01-26T18:53:13Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=Software_reliability_testing&oldid=1272005128",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "software-reliability-testing",
  "certification": false,
  "variants": [],
@@ -128,6 +143,40 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "external-2026-10-29-gpt-6-unknown"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-g",
+   "note": "adapted from the lead of Wikipedia: Software reliability testing, revision 1272005128"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=Software_reliability_testing&oldid=1272005128",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-g",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "33429735",
+    "method": "title",
+    "categories": [
+     "Software testing"
+    ]
+   }
   }
  ]
 }

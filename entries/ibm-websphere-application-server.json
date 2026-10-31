@@ -3,6 +3,21 @@
  "preferred_name": "IBM WebSphere Application Server",
  "kind": "platform",
  "definition": "IBM's Java application server, which runs and manages enterprise web applications.",
+ "description": {
+  "text": "WebSphere Application Server is an IBM software framework and middleware that hosts Java-based web applications. It is the flagship product of IBM's WebSphere software suite.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "IBM WebSphere Application Server",
+   "page_id": 1715117,
+   "rev_id": 1360746661,
+   "rev_timestamp": "2026-06-23T09:42:33Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=IBM_WebSphere_Application_Server&oldid=1360746661",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "ibm-websphere-application-server",
  "certification": false,
  "variants": [
@@ -156,6 +171,44 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "external-2026-10-29-gpt-6-unknown"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-d",
+   "note": "adapted from the lead of Wikipedia: IBM WebSphere Application Server, revision 1360746661"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=IBM_WebSphere_Application_Server&oldid=1360746661",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-d",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "1715117",
+    "method": "title",
+    "categories": [
+     "Web frameworks",
+     "Java enterprise platform",
+     "IBM WebSphere",
+     "Web server software",
+     "Web server software programmed in Java"
+    ]
+   }
   }
  ]
 }

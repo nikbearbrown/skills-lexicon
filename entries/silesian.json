@@ -3,6 +3,21 @@
  "preferred_name": "Silesian",
  "kind": "human-language",
  "definition": "A West Slavic language spoken in Upper Silesia, mainly in southern Poland.",
+ "description": {
+  "text": "An ethnolect of the Lechitic group spoken in Upper Silesia. It has gained some international recognition as a language, but there is debate over whether it is a dialect of Polish or a distinct language.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "Silesian language",
+   "page_id": 356069,
+   "rev_id": 1377977186,
+   "rev_timestamp": "2026-10-02T05:51:25Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=Silesian_language&oldid=1377977186",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "silesian",
  "certification": false,
  "language_type": "human",
@@ -163,6 +178,47 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "external-2026-10-29-gpt-6-unknown"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-f",
+   "note": "adapted from the lead of Wikipedia: Silesian language, revision 1377977186"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=Silesian_language&oldid=1377977186",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-f",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "356069",
+    "method": "redirect",
+    "categories": [
+     "Silesian language",
+     "Languages of Germany",
+     "Languages of Poland",
+     "Languages of the Czech Republic",
+     "Lechitic languages",
+     "Slavic languages written in Latin script",
+     "Culture of Silesian Voivodeship",
+     "Culture of Opole Voivodeship"
+    ]
+   }
   }
  ]
 }

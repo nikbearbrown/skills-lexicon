@@ -3,6 +3,21 @@
  "preferred_name": "Risk aggregation",
  "kind": "skill",
  "definition": "Combining risk measures from different business lines, risk types or positions into one view of an organisation's total risk.",
+ "description": {
+  "text": "In risk management of companies or projects, combining all risks to determine the overall scope of risk. Individual risks cannot simply be added together.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "Risk aggregation",
+   "page_id": 71520821,
+   "rev_id": 1316805312,
+   "rev_timestamp": "2025-10-14T16:02:30Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=Risk_aggregation&oldid=1316805312",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "risk-aggregation",
  "certification": false,
  "variants": [],
@@ -99,6 +114,41 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "external-2026-10-29-gpt-6-unknown"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-f",
+   "note": "adapted from the lead of Wikipedia: Risk aggregation, revision 1316805312"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=Risk_aggregation&oldid=1316805312",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-f",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "71520821",
+    "method": "title",
+    "categories": [
+     "Risk management",
+     "Business terms"
+    ]
+   }
   }
  ]
 }

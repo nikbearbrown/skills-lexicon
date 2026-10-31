@@ -3,6 +3,21 @@
  "preferred_name": "Surgical incision",
  "kind": "skill",
  "definition": "Cutting through skin and tissue with a scalpel or other instrument to reach the site of an operation.",
+ "description": {
+  "text": "A cut made through the skin and soft tissue to allow an operation or procedure. A surgeon chooses among possible incisions, partly to avoid predictable problems such as placing one close to a recent incision.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "Surgical incision",
+   "page_id": 29316888,
+   "rev_id": 1355656200,
+   "rev_timestamp": "2026-05-23T03:13:37Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=Surgical_incision&oldid=1355656200",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "surgical-incision",
  "certification": false,
  "variants": [],
@@ -75,6 +90,41 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "2026-10-29-review-5p-opus"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-g",
+   "note": "adapted from the lead of Wikipedia: Surgical incision, revision 1355656200"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=Surgical_incision&oldid=1355656200",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-g",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "29316888",
+    "method": "title",
+    "categories": [
+     "Surgery",
+     "Surgical procedures and techniques"
+    ]
+   }
   }
  ]
 }

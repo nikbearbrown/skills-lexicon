@@ -3,6 +3,21 @@
  "preferred_name": "Odia",
  "kind": "human-language",
  "definition": "An Indo-Aryan language spoken mainly in the Indian state of Odisha.",
+ "description": {
+  "text": "A classical Indo-Aryan language, also called Oriya, spoken in the Indian state of Odisha, where it is the official language and spoken natively by 82% of the population. It is also spoken in parts of neighbouring states and is one of India's official languages.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "Odia language",
+   "page_id": 342044,
+   "rev_id": 1377946657,
+   "rev_timestamp": "2026-10-02T02:28:12Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=Odia_language&oldid=1377946657",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "odia",
  "certification": false,
  "language_type": "human",
@@ -154,6 +169,50 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "2026-10-29-review-4e-opus"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-e",
+   "note": "adapted from the lead of Wikipedia: Odia language, revision 1377946657"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=Odia_language&oldid=1377946657",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-e",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "342044",
+    "method": "redirect",
+    "categories": [
+     "Odia language",
+     "Articles containing video clips",
+     "Classical Language in India",
+     "Eastern Indo-Aryan languages",
+     "Indo-Aryan languages",
+     "Languages attested since the 3rd century BC",
+     "Languages of Odisha",
+     "Languages of Jharkhand",
+     "Languages written in Brahmic scripts",
+     "Official languages of India",
+     "Subject–object–verb languages"
+    ]
+   }
   }
  ]
 }

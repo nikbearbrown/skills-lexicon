@@ -3,6 +3,21 @@
  "preferred_name": "Red Hat certification",
  "kind": "credential",
  "definition": "The exams and certifications that Red Hat awards for skills in Linux, automation, containers and its other software, such as RHCSA, RHCE and RHCA.",
+ "description": {
+  "text": "Certification programs offered by Red Hat, an IBM subsidiary, at different levels and mostly focused on system administration. They can be validated on Red Hat's webpage and expire after 3 years.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "Red Hat Certification Program",
+   "page_id": 3694282,
+   "rev_id": 1378464772,
+   "rev_timestamp": "2026-10-04T16:57:04Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=Red_Hat_Certification_Program&oldid=1378464772",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "red-hat-certification",
  "certification": true,
  "certification_scope": "single-issuer",
@@ -162,6 +177,41 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "external-2026-10-29-gpt-6-unknown"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-f",
+   "note": "adapted from the lead of Wikipedia: Red Hat Certification Program, revision 1378464772"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=Red_Hat_Certification_Program&oldid=1378464772",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-f",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "3694282",
+    "method": "redirect",
+    "categories": [
+     "Information technology qualifications",
+     "Red Hat"
+    ]
+   }
   }
  ]
 }

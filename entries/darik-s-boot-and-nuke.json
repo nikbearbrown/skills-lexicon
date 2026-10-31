@@ -3,6 +3,21 @@
  "preferred_name": "Darik's Boot and Nuke",
  "kind": "tool",
  "definition": "A free, open-source bootable program that securely erases all data from a computer's hard drives.",
+ "description": {
+  "text": "Also known as DBAN, a freemium program hosted on SourceForge that securely erases a hard disk so data cannot be recovered. It overwrites the data with pseudorandom numbers and offers several wipe methods.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "Darik's Boot and Nuke",
+   "page_id": 1018295,
+   "rev_id": 1357838615,
+   "rev_timestamp": "2026-06-05T00:02:12Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=Darik's_Boot_and_Nuke&oldid=1357838615",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "darik-s-boot-and-nuke",
  "certification": false,
  "variants": [
@@ -130,6 +145,44 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "external-2026-10-29-gpt-6-unknown"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-b",
+   "note": "adapted from the lead of Wikipedia: Darik's Boot and Nuke, revision 1357838615"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=Darik's_Boot_and_Nuke&oldid=1357838615",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-b",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "1018295",
+    "method": "title",
+    "categories": [
+     "Data erasure software",
+     "Operating system distributions bootable from read-only media",
+     "Software using the GNU General Public License",
+     "Year of introduction missing",
+     "Freemium software"
+    ]
+   }
   }
  ]
 }

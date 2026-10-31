@@ -6,6 +6,21 @@
  "preferred_name": "TL 9000",
  "kind": "knowledge",
  "definition": "A quality management system standard for the telecommunications industry, built on ISO 9001.",
+ "description": {
+  "text": "A quality management system standard designed by the QuEST Forum in 1998. It focuses on supply chain directives across the international telecommunications industry.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "TL 9000",
+   "page_id": 16870447,
+   "rev_id": 1301154288,
+   "rev_timestamp": "2025-07-18T10:07:27Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=TL_9000&oldid=1301154288",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "tl-9000",
  "certification": false,
  "variants": [
@@ -152,6 +167,41 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "external-2026-10-29-gpt-6-unknown"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-g",
+   "note": "adapted from the lead of Wikipedia: TL 9000, revision 1301154288"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=TL_9000&oldid=1301154288",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-g",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "16870447",
+    "method": "title",
+    "categories": [
+     "Telecommunications",
+     "Quality management"
+    ]
+   }
   }
  ]
 }

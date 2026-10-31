@@ -3,6 +3,21 @@
  "preferred_name": "phpBB",
  "kind": "tool",
  "definition": "Free, open-source forum (bulletin board) software written in PHP.",
+ "description": {
+  "text": "A free, open-source Internet forum package written in PHP, whose name means PHP Bulletin Board. It supports several database engines, subforums, user groups, attachments, full-text search, plugins and notifications.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "PhpBB",
+   "page_id": 247971,
+   "rev_id": 1378737145,
+   "rev_timestamp": "2026-10-05T23:49:21Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=PhpBB&oldid=1378737145",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "phpbb",
  "certification": false,
  "variants": [],
@@ -128,6 +143,45 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "external-2026-10-29-gpt-6-unknown"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-e",
+   "note": "adapted from the lead of Wikipedia: PhpBB, revision 1378737145"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=PhpBB&oldid=1378737145",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-e",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "247971",
+    "method": "title",
+    "categories": [
+     "Free Internet forum software",
+     "Free groupware",
+     "Free software programmed in PHP",
+     "Internet forum software",
+     "2000 software",
+     "Software using the GNU General Public License"
+    ]
+   }
   }
  ]
 }

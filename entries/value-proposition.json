@@ -3,6 +3,21 @@
  "preferred_name": "Value proposition",
  "kind": "skill",
  "definition": "Stating clearly the specific benefits a product or service offers a target customer and why it is better than the alternatives.",
+ "description": {
+  "text": "In marketing, the economic value that a company or product delivers to its target customers. It supports product differentiation and market positioning as part of overall marketing strategy.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "Value proposition",
+   "page_id": 14148304,
+   "rev_id": 1369423531,
+   "rev_timestamp": "2026-08-14T22:07:56Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=Value_proposition&oldid=1369423531",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "value-proposition",
  "certification": false,
  "variants": [],
@@ -75,6 +90,42 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "2026-10-29-review-5q-opus"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-g",
+   "note": "adapted from the lead of Wikipedia: Value proposition, revision 1369423531"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=Value_proposition&oldid=1369423531",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-g",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "14148304",
+    "method": "title",
+    "categories": [
+     "Value proposition",
+     "Business terms",
+     "Strategic management"
+    ]
+   }
   }
  ]
 }

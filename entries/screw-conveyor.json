@@ -3,6 +3,21 @@
  "preferred_name": "Screw conveyor",
  "kind": "tool",
  "definition": "A conveyor that moves bulk material along a trough or tube with a rotating helical screw.",
+ "description": {
+  "text": "A mechanism that uses a rotating helical screw blade, called flighting, usually inside a tube, to move liquid or granular materials. It is used in many bulk handling industries, often horizontally or at a slight incline, for materials such as grain, wood chips and food waste.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "Screw conveyor",
+   "page_id": 7529770,
+   "rev_id": 1360734827,
+   "rev_timestamp": "2026-06-23T07:36:17Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=Screw_conveyor&oldid=1360734827",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "screw-conveyor",
  "certification": false,
  "variants": [
@@ -157,6 +172,43 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "external-2026-10-29-gpt-6-unknown"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-f",
+   "note": "adapted from the lead of Wikipedia: Screw conveyor, revision 1360734827"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=Screw_conveyor&oldid=1360734827",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-f",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "7529770",
+    "method": "title",
+    "categories": [
+     "Bulk material handling",
+     "Industrial equipment",
+     "Agricultural machinery",
+     "Grain production"
+    ]
+   }
   }
  ]
 }

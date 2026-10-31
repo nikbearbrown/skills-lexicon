@@ -3,6 +3,21 @@
  "preferred_name": "ModelOps",
  "kind": "method",
  "definition": "The practice of deploying, monitoring and governing AI and machine-learning models in production.",
+ "description": {
+  "text": "A discipline, as defined by Gartner, focused on governing and managing the lifecycle of operationalized AI and decision models. It covers putting models into production, then evaluating and updating them under governance rules.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "ModelOps",
+   "page_id": 64624940,
+   "rev_id": 1354240629,
+   "rev_timestamp": "2026-05-15T04:41:50Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=ModelOps&oldid=1354240629",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "modelops",
  "certification": false,
  "variants": [],
@@ -128,6 +143,40 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "external-2026-10-29-gpt-6-unknown"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-e",
+   "note": "adapted from the lead of Wikipedia: ModelOps, revision 1354240629"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=ModelOps&oldid=1354240629",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-e",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "64624940",
+    "method": "title",
+    "categories": [
+     "Mathematical optimization in business"
+    ]
+   }
   }
  ]
 }

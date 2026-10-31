@@ -3,6 +3,21 @@
  "preferred_name": "Laser level",
  "kind": "tool",
  "definition": "A tool that projects a level or plumb line of laser light so that surfaces and fixtures can be aligned on a building site.",
+ "description": {
+  "text": "A laser level is a tool used in surveying and construction. It is a rotating laser beam projector, often on a tripod, that projects a fixed red or green beam in a horizontal and/or vertical plane.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "Laser level",
+   "page_id": 1333161,
+   "rev_id": 1299682872,
+   "rev_timestamp": "2025-07-09T20:16:36Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=Laser_level&oldid=1299682872",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "laser-level",
  "certification": false,
  "variants": [
@@ -147,6 +162,43 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "external-2026-10-29-gpt-6-unknown"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-d",
+   "note": "adapted from the lead of Wikipedia: Laser level, revision 1299682872"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=Laser_level&oldid=1299682872",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-d",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "1333161",
+    "method": "title",
+    "categories": [
+     "Construction equipment",
+     "Construction surveying",
+     "Laser applications",
+     "Surveying instruments"
+    ]
+   }
   }
  ]
 }

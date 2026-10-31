@@ -3,6 +3,21 @@
  "preferred_name": "Generic Routing Encapsulation",
  "kind": "standard",
  "definition": "A tunnelling protocol, defined in RFC 2784, that wraps packets of one network protocol inside IP packets so they can cross another network.",
+ "description": {
+  "text": "A tunneling protocol developed by Cisco Systems that can wrap a wide variety of network layer protocols inside virtual point-to-point or point-to-multipoint links over an Internet Protocol network.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "Generic routing encapsulation",
+   "page_id": 616939,
+   "rev_id": 1249941346,
+   "rev_timestamp": "2024-10-07T16:54:12Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=Generic_routing_encapsulation&oldid=1249941346",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "generic-routing-encapsulation",
  "certification": false,
  "variants": [
@@ -140,6 +155,41 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "external-2026-10-29-gpt-6-unknown"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-c",
+   "note": "adapted from the lead of Wikipedia: Generic routing encapsulation, revision 1249941346"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=Generic_routing_encapsulation&oldid=1249941346",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-c",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "616939",
+    "method": "title",
+    "categories": [
+     "Tunneling protocols",
+     "Cisco Systems"
+    ]
+   }
   }
  ]
 }

@@ -3,6 +3,21 @@
  "preferred_name": "PTAS reduction",
  "kind": "knowledge",
  "definition": "A reduction between optimisation problems that preserves the existence of a polynomial-time approximation scheme, used to compare how well problems can be approximated.",
+ "description": {
+  "text": "In computational complexity theory, an approximation-preserving reduction used between optimization problems. It preserves having a polynomial time approximation scheme and is used to define completeness for classes such as APX.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "PTAS reduction",
+   "page_id": 9010084,
+   "rev_id": 1331245348,
+   "rev_timestamp": "2026-01-05T09:52:38Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=PTAS_reduction&oldid=1331245348",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "ptas-reduction",
  "certification": false,
  "variants": [],
@@ -99,6 +114,41 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "external-2026-10-29-gpt-6-unknown"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-f",
+   "note": "adapted from the lead of Wikipedia: PTAS reduction, revision 1331245348"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=PTAS_reduction&oldid=1331245348",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-f",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "9010084",
+    "method": "title",
+    "categories": [
+     "Reduction (complexity)",
+     "Approximation algorithms"
+    ]
+   }
   }
  ]
 }

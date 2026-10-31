@@ -3,6 +3,21 @@
  "preferred_name": "Outpatient surgery",
  "kind": "knowledge",
  "definition": "Surgery after which the patient goes home the same day, without an overnight stay in hospital.",
+ "description": {
+  "text": "Surgery that does not require an overnight hospital stay, also called ambulatory, day or same-day surgery. It is more convenient and cheaper than inpatient surgery and can take place in a hospital, a freestanding surgery center or a physician's office.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "Outpatient surgery",
+   "page_id": 2772885,
+   "rev_id": 1347865641,
+   "rev_timestamp": "2026-04-09T08:30:04Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=Outpatient_surgery&oldid=1347865641",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "outpatient-surgery",
  "certification": false,
  "variants": [
@@ -129,6 +144,41 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "external-2026-10-29-gpt-6-unknown"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-e",
+   "note": "adapted from the lead of Wikipedia: Outpatient surgery, revision 1347865641"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=Outpatient_surgery&oldid=1347865641",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-e",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "2772885",
+    "method": "title",
+    "categories": [
+     "Ambulatory care",
+     "Surgery"
+    ]
+   }
   }
  ]
 }

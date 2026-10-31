@@ -3,6 +3,21 @@
  "preferred_name": "SD card",
  "kind": "tool",
  "definition": "A small removable flash-memory card in the Secure Digital format, used to store data in cameras, phones and other devices.",
+ "description": {
+  "text": "A proprietary, non-volatile flash memory card format developed by the SD Association. It comes in full-size SD, the obsolete miniSD and the smallest microSD, and is widely used in cameras, phones, game consoles and drones.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "SD card",
+   "page_id": 315794,
+   "rev_id": 1378475369,
+   "rev_timestamp": "2026-10-04T18:03:04Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=SD_card&oldid=1378475369",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "sd-card",
  "certification": false,
  "variants": [
@@ -128,6 +143,43 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "external-2026-10-29-gpt-6-unknown"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-f",
+   "note": "adapted from the lead of Wikipedia: SD card, revision 1378475369"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=SD_card&oldid=1378475369",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-f",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "315794",
+    "method": "title",
+    "categories": [
+     "Computer-related introductions in 1999",
+     "Japanese inventions",
+     "Solid-state computer storage media",
+     "Panasonic"
+    ]
+   }
   }
  ]
 }

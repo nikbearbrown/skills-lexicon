@@ -3,6 +3,21 @@
  "preferred_name": "Mechanic's lien",
  "kind": "knowledge",
  "definition": "A legal claim on a property that lets contractors and suppliers secure payment for work or materials they provided to it.",
+ "description": {
+  "text": "A mechanic's lien is a security interest in the title to property for the benefit of those who supplied labor or materials that improve it. It exists for both real and personal property; for real property it is also called a construction lien.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "Mechanic's lien",
+   "page_id": 1177106,
+   "rev_id": 1376029543,
+   "rev_timestamp": "2026-09-21T16:05:00Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=Mechanic's_lien&oldid=1376029543",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "mechanic-s-lien",
  "certification": false,
  "variants": [
@@ -128,6 +143,42 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "external-2026-10-29-gpt-6-unknown"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-d",
+   "note": "adapted from the lead of Wikipedia: Mechanic's lien, revision 1376029543"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=Mechanic's_lien&oldid=1376029543",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-d",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "1177106",
+    "method": "title",
+    "categories": [
+     "Property law",
+     "Construction law",
+     "Liens"
+    ]
+   }
   }
  ]
 }

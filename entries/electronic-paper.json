@@ -6,6 +6,21 @@
  "preferred_name": "Electronic paper",
  "kind": "knowledge",
  "definition": "Display technology that mimics ink on paper, reflecting light and holding an image without power, as used in e-readers.",
+ "description": {
+  "text": "A display device, also called e-paper, that reflects ambient light to mimic the look of ink on paper, unlike flat-panel displays that emit their own light. This can make it more comfortable to read and give a wider viewing angle.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "Electronic paper",
+   "page_id": 9225,
+   "rev_id": 1375501297,
+   "rev_timestamp": "2026-09-18T04:24:13Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=Electronic_paper&oldid=1375501297",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "electronic-paper",
  "certification": false,
  "variants": [
@@ -150,6 +165,43 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "external-2026-10-29-gpt-6-unknown"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-c",
+   "note": "adapted from the lead of Wikipedia: Electronic paper, revision 1375501297"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=Electronic_paper&oldid=1375501297",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-c",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "9225",
+    "method": "title",
+    "categories": [
+     "American inventions",
+     "Display technology",
+     "Electronic engineering",
+     "Electronic paper technology"
+    ]
+   }
   }
  ]
 }

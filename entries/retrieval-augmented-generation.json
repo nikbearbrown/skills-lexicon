@@ -7,6 +7,21 @@
  "preferred_name": "Retrieval-augmented generation",
  "kind": "method",
  "definition": "Grounding generated output with retrieved information.",
+ "description": {
+  "text": "A technique that lets large language models retrieve and use new information from external data sources. The model first consults a specified set of documents before answering, supplementing its training data with domain-specific or updated information.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "Retrieval-augmented generation",
+   "page_id": 75229858,
+   "rev_id": 1377227095,
+   "rev_timestamp": "2026-09-28T11:20:51Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=Retrieval-augmented_generation&oldid=1377227095",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "variants": [
   {
    "label": "RAG",
@@ -71,6 +86,43 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "external-2026-10-29-gpt-6-unknown"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-f",
+   "note": "adapted from the lead of Wikipedia: Retrieval-augmented generation, revision 1377227095"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=Retrieval-augmented_generation&oldid=1377227095",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-f",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "75229858",
+    "method": "title",
+    "categories": [
+     "Large language models",
+     "Natural language processing",
+     "Information retrieval systems",
+     "Generative AI"
+    ]
+   }
   }
  ]
 }

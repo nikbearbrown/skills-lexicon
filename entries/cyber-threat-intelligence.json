@@ -3,6 +3,21 @@
  "preferred_name": "Cyber threat intelligence",
  "kind": "skill",
  "definition": "Collecting and analysing information about attackers, their methods and their targets so that an organisation can anticipate and defend against cyber threats.",
+ "description": {
+  "text": "A part of cybersecurity that collects, analyzes and shares information about potential or existing cyber threats. It helps organizations predict, prevent and respond to attacks by understanding attackers' behavior, tactics and the vulnerabilities they exploit.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "Cyber threat intelligence",
+   "page_id": 47671202,
+   "rev_id": 1376645061,
+   "rev_timestamp": "2026-09-25T11:57:38Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=Cyber_threat_intelligence&oldid=1376645061",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "cyber-threat-intelligence",
  "certification": false,
  "variants": [],
@@ -99,6 +114,46 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "external-2026-10-29-gpt-6-unknown"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-b",
+   "note": "adapted from the lead of Wikipedia: Cyber threat intelligence, revision 1376645061"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=Cyber_threat_intelligence&oldid=1376645061",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-b",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "47671202",
+    "method": "title",
+    "categories": [
+     "Computer forensics",
+     "Computer network security",
+     "Cyberwarfare",
+     "Information technology management",
+     "Intelligence gathering disciplines",
+     "IT risk management",
+     "Open-source intelligence"
+    ]
+   }
   }
  ]
 }

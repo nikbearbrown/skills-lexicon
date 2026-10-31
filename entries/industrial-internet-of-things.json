@@ -3,6 +3,21 @@
  "preferred_name": "Industrial Internet of Things",
  "kind": "knowledge",
  "definition": "Internet-connected sensors, machines and control systems in industry that collect and share data to monitor and improve operations.",
+ "description": {
+  "text": "The industrial Internet of things (IIoT) is interconnected sensors, instruments and other devices networked with computers for industrial uses such as manufacturing and energy management. The connectivity enables data collection, exchange and analysis.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "Industrial internet of things",
+   "page_id": 54014377,
+   "rev_id": 1374442201,
+   "rev_timestamp": "2026-09-12T02:27:25Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=Industrial_internet_of_things&oldid=1374442201",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "industrial-internet-of-things",
  "certification": false,
  "variants": [
@@ -185,6 +200,42 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "external-2026-10-29-gpt-6-unknown"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-d",
+   "note": "adapted from the lead of Wikipedia: Industrial internet of things, revision 1374442201"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=Industrial_internet_of_things&oldid=1374442201",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-d",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "54014377",
+    "method": "title",
+    "categories": [
+     "Internet of things",
+     "Industrial automation",
+     "Industrial computing"
+    ]
+   }
   }
  ]
 }

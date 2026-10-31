@@ -3,6 +3,21 @@
  "preferred_name": "Call admission control",
  "kind": "method",
  "definition": "A telecommunications network mechanism that decides whether to accept a new call or connection by checking that enough resources remain to keep quality of service.",
+ "description": {
+  "text": "A form of admission control that prevents or reduces oversubscription of VoIP networks. It is applied during call set-up to real-time media traffic rather than data traffic.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "Call admission control",
+   "page_id": 1984140,
+   "rev_id": 1181067674,
+   "rev_timestamp": "2023-10-20T16:56:26Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=Call_admission_control&oldid=1181067674",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "call-admission-control",
  "certification": false,
  "variants": [
@@ -128,6 +143,40 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "external-2026-10-29-gpt-6-unknown"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-a",
+   "note": "adapted from the lead of Wikipedia: Call admission control, revision 1181067674"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=Call_admission_control&oldid=1181067674",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-a",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "1984140",
+    "method": "title",
+    "categories": [
+     "VoIP protocols"
+    ]
+   }
   }
  ]
 }

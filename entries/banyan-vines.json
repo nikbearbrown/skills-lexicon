@@ -3,6 +3,21 @@
  "preferred_name": "Banyan VINES",
  "kind": "platform",
  "definition": "A discontinued network operating system from Banyan Systems, used on enterprise networks in the 1980s and 1990s.",
+ "description": {
+  "text": "A discontinued network operating system developed by Banyan Systems for computers running AT&T's UNIX System V. Like Novell NetWare, its network services were based on the Xerox XNS stack.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "Banyan VINES",
+   "page_id": 378184,
+   "rev_id": 1363436002,
+   "rev_timestamp": "2026-07-10T04:25:57Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=Banyan_VINES&oldid=1363436002",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "banyan-vines",
  "certification": false,
  "variants": [],
@@ -99,6 +114,46 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "external-2026-10-29-gpt-6-unknown"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-a",
+   "note": "adapted from the lead of Wikipedia: Banyan VINES, revision 1363436002"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=Banyan_VINES&oldid=1363436002",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-a",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "378184",
+    "method": "title",
+    "categories": [
+     "1984 software",
+     "Directory services",
+     "Discontinued operating systems",
+     "Network operating systems",
+     "UNIX System V",
+     "X86 operating systems",
+     "XNS based protocols"
+    ]
+   }
   }
  ]
 }

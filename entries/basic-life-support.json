@@ -3,6 +3,21 @@
  "preferred_name": "Basic Life Support",
  "kind": "credential",
  "definition": "A certification in emergency care for cardiac arrest, choking and breathing emergencies, including CPR and use of an AED, for healthcare providers and other rescuers.",
+ "description": {
+  "text": "A level of medical care for patients in cardiac arrest, given until advanced life support providers can take over. It can be provided by medical personnel, qualified bystanders or anyone trained to do so.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "Basic life support",
+   "page_id": 581687,
+   "rev_id": 1369246344,
+   "rev_timestamp": "2026-08-13T19:57:45Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=Basic_life_support&oldid=1369246344",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "basic-life-support",
  "certification": true,
  "certification_scope": "many-issuers",
@@ -230,6 +245,42 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "external-2026-10-29-muse-spark-1-3-xhigh"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-a",
+   "note": "adapted from the lead of Wikipedia: Basic life support, revision 1369246344"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=Basic_life_support&oldid=1369246344",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-a",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "581687",
+    "method": "title",
+    "categories": [
+     "Emergency medical services",
+     "Emergency medicine courses",
+     "Emergency life support"
+    ]
+   }
   }
  ]
 }

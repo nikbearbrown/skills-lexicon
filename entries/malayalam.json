@@ -3,6 +3,21 @@
  "preferred_name": "Malayalam",
  "kind": "human-language",
  "definition": "A Dravidian language spoken mainly in the Indian state of Kerala.",
+ "description": {
+  "text": "Malayalam is a Dravidian language spoken mainly by the Malayali people of Kerala and the territories of Lakshadweep and Puducherry (Mahé). It is one of India's 22 scheduled and 11 classical languages.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "Malayalam",
+   "page_id": 37299,
+   "rev_id": 1378624674,
+   "rev_timestamp": "2026-10-05T08:25:26Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=Malayalam&oldid=1378624674",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "malayalam",
  "certification": false,
  "language_type": "human",
@@ -134,6 +149,48 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "2026-10-29-review-4e-opus"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-d",
+   "note": "adapted from the lead of Wikipedia: Malayalam, revision 1378624674"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=Malayalam&oldid=1378624674",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-d",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "37299",
+    "method": "title",
+    "categories": [
+     "Malayalam language",
+     "Ancient languages",
+     "Articles containing video clips",
+     "Christian liturgical languages",
+     "Classical Language in India",
+     "Languages attested since the 9th century",
+     "Languages written in Brahmic scripts",
+     "Official languages of India",
+     "Subject–object–verb languages"
+    ]
+   }
   }
  ]
 }

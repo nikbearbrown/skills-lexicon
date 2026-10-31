@@ -3,6 +3,21 @@
  "preferred_name": "PLINK",
  "kind": "tool",
  "definition": "A free, open-source command-line toolset for analysing genotype data, mainly in genome-wide association studies and population genetics.",
+ "description": {
+  "text": "A free, open-source whole-genome association analysis toolkit used for a wide range of genetic data analysis. It is widely used for analyzing SNP genotypes in population genetics and is written in C/C++.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "PLINK (genetic tool-set)",
+   "page_id": 43325101,
+   "rev_id": 1358226190,
+   "rev_timestamp": "2026-06-07T11:12:45Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=PLINK_(genetic_tool-set)&oldid=1358226190",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "plink",
  "name_match": "exact_case",
  "certification": false,
@@ -100,6 +115,42 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "external-2026-10-29-gpt-6-unknown"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-f",
+   "note": "adapted from the lead of Wikipedia: PLINK (genetic tool-set), revision 1358226190"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=PLINK_(genetic_tool-set)&oldid=1358226190",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-f",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "43325101",
+    "method": "title",
+    "categories": [
+     "Bioinformatics software",
+     "Computational biology",
+     "Genetics software"
+    ]
+   }
   }
  ]
 }

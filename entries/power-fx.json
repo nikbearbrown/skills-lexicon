@@ -3,6 +3,21 @@
  "preferred_name": "Power Fx",
  "kind": "programming-language",
  "definition": "A low-code formula language from Microsoft, modelled on Excel formulas, used in Power Apps and the Power Platform.",
+ "description": {
+  "text": "A free, open source low-code programming language from Microsoft for expressing logic across the Microsoft Power Platform. It is based on spreadsheet-like formulas to make it accessible to many people.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "Microsoft Power Fx",
+   "page_id": 67099860,
+   "rev_id": 1359705843,
+   "rev_timestamp": "2026-06-16T18:59:34Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=Microsoft_Power_Fx&oldid=1359705843",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "power-fx",
  "certification": false,
  "language_type": "programming",
@@ -154,6 +169,48 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "external-2026-10-29-gpt-6-unknown"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-f",
+   "note": "adapted from the lead of Wikipedia: Microsoft Power Fx, revision 1359705843"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=Microsoft_Power_Fx&oldid=1359705843",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-f",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "67099860",
+    "method": "redirect",
+    "categories": [
+     "Microsoft development tools",
+     "Microsoft free software",
+     "Microsoft programming languages",
+     "Declarative programming languages",
+     "Functional languages",
+     "Multi-paradigm programming languages",
+     "Programming languages created in 2021",
+     "Software using the MIT license",
+     "2021 software"
+    ]
+   }
   }
  ]
 }

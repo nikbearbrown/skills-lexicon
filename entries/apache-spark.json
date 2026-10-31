@@ -3,6 +3,21 @@
  "preferred_name": "Apache Spark",
  "kind": "framework",
  "definition": "An open-source engine for large-scale data processing and analytics, with programming interfaces for Scala, Java, Python and R.",
+ "description": {
+  "text": "An open-source unified analytics engine for large-scale data processing. It provides an interface for programming clusters with implicit data parallelism and fault tolerance, and began at UC Berkeley's AMPLab before moving to the Apache Software Foundation.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "Apache Spark",
+   "page_id": 42164234,
+   "rev_id": 1367681406,
+   "rev_timestamp": "2026-08-04T14:55:05Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=Apache_Spark&oldid=1367681406",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "apache-spark",
  "certification": false,
  "variants": [],
@@ -99,6 +114,50 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "external-2026-10-29-gpt-6-unknown"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-a",
+   "note": "adapted from the lead of Wikipedia: Apache Spark, revision 1367681406"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=Apache_Spark&oldid=1367681406",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-a",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "42164234",
+    "method": "title",
+    "categories": [
+     "Apache Software Foundation projects",
+     "Big data products",
+     "Cluster computing",
+     "Data mining and machine learning software",
+     "Free software programmed in Scala",
+     "Apache Hadoop",
+     "Java (software platform)",
+     "Software using the Apache license",
+     "University of California, Berkeley",
+     "Articles with example Scala code",
+     "Open source projects"
+    ]
+   }
   }
  ]
 }

@@ -3,6 +3,21 @@
  "preferred_name": "Go",
  "kind": "programming-language",
  "definition": "A statically typed, compiled programming language designed at Google, known for simple syntax and built-in concurrency.",
+ "description": {
+  "text": "A high-level, general-purpose, statically typed and compiled programming language, often called Golang, developed by Google and community contributors. It has a simple syntax similar to C++, garbage collection, CSP-style concurrency and a broad standard library.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "Go (programming language)",
+   "page_id": 25039021,
+   "rev_id": 1375187723,
+   "rev_timestamp": "2026-09-16T09:06:11Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=Go_(programming_language)&oldid=1375187723",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "go",
  "name_match": "exact_case",
  "certification": false,
@@ -146,6 +161,54 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "2026-10-29-review-4e-opus"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-c",
+   "note": "adapted from the lead of Wikipedia: Go (programming language), revision 1375187723"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=Go_(programming_language)&oldid=1375187723",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-c",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "25039021",
+    "method": "title",
+    "categories": [
+     "Go (programming language)",
+     "American inventions",
+     "C programming language family",
+     "Compiled programming languages",
+     "Concurrent programming languages",
+     "Cross-platform free software",
+     "Cross-platform software",
+     "Free and open source compilers",
+     "Google software",
+     "High-level programming languages",
+     "List of programming languages designed by Google",
+     "Procedural programming languages",
+     "Programming languages",
+     "Programming languages created in 2009",
+     "Software using the BSD license"
+    ]
+   }
   }
  ]
 }

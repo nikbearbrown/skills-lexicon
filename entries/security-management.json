@@ -3,6 +3,21 @@
  "preferred_name": "Security management",
  "kind": "skill",
  "definition": "Planning and overseeing the measures, people and procedures that protect an organisation's people, property and information.",
+ "description": {
+  "text": "Identifying an organization's assets, including people, buildings, machines, systems and information, then developing, documenting and implementing policies and procedures to protect them. It uses information classification, threat assessment and risk assessment to find threats and rate vulnerabilities.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "Security management",
+   "page_id": 41686,
+   "rev_id": 1370834665,
+   "rev_timestamp": "2026-08-23T09:09:42Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=Security_management&oldid=1370834665",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "security-management",
  "certification": false,
  "variants": [
@@ -128,6 +143,41 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "external-2026-10-29-gpt-6-unknown"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-f",
+   "note": "adapted from the lead of Wikipedia: Security management, revision 1370834665"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=Security_management&oldid=1370834665",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-f",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "41686",
+    "method": "title",
+    "categories": [
+     "Network management",
+     "Computer security procedures"
+    ]
+   }
   }
  ]
 }

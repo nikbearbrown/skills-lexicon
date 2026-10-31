@@ -3,6 +3,21 @@
  "preferred_name": "Kannada",
  "kind": "human-language",
  "definition": "A Dravidian language spoken mainly in the Indian state of Karnataka.",
+ "description": {
+  "text": "Kannada is a Dravidian language spoken mainly in Karnataka in southwestern India, with about 44 million native speakers. It is the official and administrative language of Karnataka and one of India's Classical languages.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "Kannada",
+   "page_id": 37445,
+   "rev_id": 1377775951,
+   "rev_timestamp": "2026-10-01T02:14:52Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=Kannada&oldid=1377775951",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "kannada",
  "certification": false,
  "language_type": "human",
@@ -134,6 +149,50 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "2026-10-29-review-4e-opus"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-d",
+   "note": "adapted from the lead of Wikipedia: Kannada, revision 1377775951"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=Kannada&oldid=1377775951",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-d",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "37445",
+    "method": "title",
+    "categories": [
+     "Languages attested since the 5th century",
+     "Classical Language in India",
+     "Dravidian languages",
+     "Kannada language",
+     "Languages of Andhra Pradesh",
+     "Languages of Karnataka",
+     "Languages of Kerala",
+     "Languages of Tamil Nadu",
+     "Languages of Telangana",
+     "Languages written in Brahmic scripts",
+     "Official languages of India"
+    ]
+   }
   }
  ]
 }

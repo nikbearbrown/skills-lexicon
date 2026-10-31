@@ -3,6 +3,21 @@
  "preferred_name": "Clean Water Act",
  "kind": "standard",
  "definition": "The United States federal law that regulates the discharge of pollutants into US waters and sets water quality standards for surface waters.",
+ "description": {
+  "text": "The main US federal law governing water pollution. It aims to restore and maintain the integrity of the nation's waters and helps fund wastewater treatment plants.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "Clean Water Act",
+   "page_id": 647655,
+   "rev_id": 1366743019,
+   "rev_timestamp": "2026-07-29T23:11:16Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=Clean_Water_Act&oldid=1366743019",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "clean-water-act",
  "certification": false,
  "variants": [],
@@ -92,6 +107,46 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "external-2026-10-29-gpt-6-unknown"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-b",
+   "note": "adapted from the lead of Wikipedia: Clean Water Act, revision 1366743019"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=Clean_Water_Act&oldid=1366743019",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-b",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "647655",
+    "method": "title",
+    "categories": [
+     "Water law in the United States",
+     "United States federal environmental legislation",
+     "1972 in American law",
+     "1977 in American law",
+     "1987 in American law",
+     "1972 in the environment",
+     "Water pollution in the United States"
+    ]
+   }
   }
  ]
 }

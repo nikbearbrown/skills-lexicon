@@ -3,6 +3,21 @@
  "preferred_name": "Apache NiFi",
  "kind": "platform",
  "definition": "A system for automating the movement of data between systems, in which data flows are designed in a web-based interface.",
+ "description": {
+  "text": "An Apache Software Foundation project that automates the flow of data between software systems, using the extract, transform, load idea. It is based on NiagaraFiles software from the US NSA, open-sourced in 2014.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "Apache NiFi",
+   "page_id": 50818838,
+   "rev_id": 1348052157,
+   "rev_timestamp": "2026-04-10T11:50:06Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=Apache_NiFi&oldid=1348052157",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "apache-nifi",
  "certification": false,
  "variants": [],
@@ -99,6 +114,43 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "external-2026-10-29-gpt-6-unknown"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-a",
+   "note": "adapted from the lead of Wikipedia: Apache NiFi, revision 1348052157"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=Apache_NiFi&oldid=1348052157",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-a",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "50818838",
+    "method": "title",
+    "categories": [
+     "National Security Agency",
+     "Apache Software Foundation projects",
+     "Free software programmed in Java",
+     "Software using the Apache license"
+    ]
+   }
   }
  ]
 }

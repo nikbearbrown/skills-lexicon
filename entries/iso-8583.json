@@ -3,6 +3,21 @@
  "preferred_name": "ISO 8583",
  "kind": "standard",
  "definition": "An ISO standard defining the format of messages exchanged between systems that process payment-card transactions.",
+ "description": {
+  "text": "ISO 8583 is the international standard for messaging about financial transactions started by cardholders using payment cards. It defines a message format and communication flow so different systems can exchange transaction requests and responses.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "ISO 8583",
+   "page_id": 2701243,
+   "rev_id": 1366936604,
+   "rev_timestamp": "2026-07-31T00:01:46Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=ISO_8583&oldid=1366936604",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "iso-8583",
  "certification": false,
  "variants": [],
@@ -99,6 +114,42 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "external-2026-10-29-gpt-6-unknown"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-d",
+   "note": "adapted from the lead of Wikipedia: ISO 8583, revision 1366936604"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=ISO_8583&oldid=1366936604",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-d",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "2701243",
+    "method": "title",
+    "categories": [
+     "ISO 8583",
+     "ISO standards",
+     "Payment interchange standards"
+    ]
+   }
   }
  ]
 }

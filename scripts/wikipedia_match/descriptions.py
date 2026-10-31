@@ -2,6 +2,7 @@
 """Descriptions adapted from Wikipedia leads, with the source, revision and licence recorded on the entry.
 
     python3 -I scripts/wikipedia_match/descriptions.py packets OUTDIR [--size 60] [--data data/wikipedia-match/20261001]
+    python3 -I scripts/wikipedia_match/descriptions.py check-packets OUTDIR [--size 60]
     python3 -I scripts/wikipedia_match/descriptions.py apply OUTDIR --stage rewrite --model-id claude-sonnet-5-5 --effort xhigh --run RUN
     python3 -I scripts/wikipedia_match/descriptions.py apply OUTDIR --stage check   --model-id claude-opus-5-5   --effort xhigh --run RUN
 
@@ -90,6 +91,28 @@ def packets(root, out, size, data):
     with open(os.path.join(out, "CHECK-BRIEF.txt"), "w") as f:
         f.write(CHECK_BRIEF + "\n")
     print("%d items in %d packets under %s" % (len(items), (len(items) + size - 1) // size, out))
+
+
+def check_packets(root, out, size, data):
+    """Packets for the second-model check: every entry with a description, the lead it came from and the description."""
+    cands, cats, res = load_data(data)
+    entries, _ = L.load(os.path.join(root, "entries"))
+    page_of = {r["entry_key"]: r["page"] for r in res}
+    items = []
+    for e in sorted(entries, key=lambda e: e["key"]):
+        if "description" not in e or e["key"] not in page_of:
+            continue
+        src = e["description"]["source"]
+        if any(v.get("field") == "description" and v.get("action") == "checked" for v in e.get("evidence", [])):
+            continue
+        items.append({"key": e["key"], "entry": e["preferred_name"], "kind": e["kind"], "page_title": src["title"],
+                      "lead": cands[src["page_id"]]["lead"][:LEAD_CHARS], "description": e["description"]["text"]})
+    os.makedirs(os.path.join(out, "check-packets"), exist_ok=True)
+    os.makedirs(os.path.join(out, "answers"), exist_ok=True)
+    for n, i in enumerate(range(0, len(items), size), 1):
+        with open(os.path.join(out, "check-packets", "c%03d.json" % n), "w", encoding="utf-8") as f:
+            json.dump({"items": items[i:i + size]}, f, ensure_ascii=False, indent=1)
+    print("%d items in %d check packets under %s" % (len(items), (len(items) + size - 1) // size, out))
 
 
 def put_after(e, key, value, after="definition"):
@@ -181,15 +204,18 @@ def main(argv=None):
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     sub = ap.add_subparsers(dest="cmd", required=True)
     p = sub.add_parser("packets"); p.add_argument("out"); p.add_argument("--size", type=int, default=60)
+    c = sub.add_parser("check-packets"); c.add_argument("out"); c.add_argument("--size", type=int, default=60)
     q = sub.add_parser("apply"); q.add_argument("out"); q.add_argument("--stage", choices=["rewrite", "check"], required=True)
     q.add_argument("--model-id", required=True); q.add_argument("--effort", required=True, choices=sorted(L.EFFORTS)); q.add_argument("--run", required=True)
     q.add_argument("--only"); q.add_argument("--agent", default="subagent")
-    for x in (p, q):
+    for x in (p, c, q):
         x.add_argument("--root", default=ROOT); x.add_argument("--data", default=os.path.join(ROOT, "data", "wikipedia-match", "20261001"))
         x.add_argument("--date", default=datetime.date.today().isoformat())
     a = ap.parse_args(argv)
     if a.cmd == "packets":
         packets(a.root, a.out, a.size, a.data)
+    elif a.cmd == "check-packets":
+        check_packets(a.root, a.out, a.size, a.data)
     else:
         apply(a.root, a.out, a.stage, a.model_id, a.effort, a.run, a.date, a.data, set(a.only.split(",")) if a.only else None, a.agent)
     return 0

@@ -3,6 +3,21 @@
  "preferred_name": "Clarizen",
  "kind": "platform",
  "definition": "A cloud-based work and project management platform for planning projects, tracking tasks and managing resources.",
+ "description": {
+  "text": "A software-as-a-service project management and collaborative work management product. Its features include attaching CAD drawings to a project and email reporting.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "Clarizen",
+   "page_id": 18858309,
+   "rev_id": 1359405276,
+   "rev_timestamp": "2026-06-15T02:54:58Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=Clarizen&oldid=1359405276",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "clarizen",
  "certification": false,
  "variants": [],
@@ -100,6 +115,45 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "external-2026-10-29-gpt-6-unknown"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-b",
+   "note": "adapted from the lead of Wikipedia: Clarizen, revision 1359405276"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=Clarizen&oldid=1359405276",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-b",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "18858309",
+    "method": "title",
+    "categories": [
+     "Software companies based in California",
+     "Web applications",
+     "Project management software",
+     "Groupware",
+     "Software companies of Israel",
+     "Software companies of the United States"
+    ]
+   }
   }
  ]
 }

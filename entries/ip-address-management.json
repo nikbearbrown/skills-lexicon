@@ -3,6 +3,21 @@
  "preferred_name": "IP address management",
  "kind": "skill",
  "definition": "Planning, tracking and administering a network's IP address space and the DHCP and DNS records tied to it.",
+ "description": {
+  "text": "IP address management (IPAM) is a methodology, implemented in software, for planning and managing the assignment and use of IP addresses and related resources on a network. It usually does not provide DNS or DHCP services itself but manages information for them.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "IP address management",
+   "page_id": 3016555,
+   "rev_id": 1373201437,
+   "rev_timestamp": "2026-09-04T15:05:20Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=IP_address_management&oldid=1373201437",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "ip-address-management",
  "certification": false,
  "variants": [
@@ -128,6 +143,40 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "external-2026-10-29-gpt-6-unknown"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-d",
+   "note": "adapted from the lead of Wikipedia: IP address management, revision 1373201437"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=IP_address_management&oldid=1373201437",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-d",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "3016555",
+    "method": "title",
+    "categories": [
+     "Domain Name System"
+    ]
+   }
   }
  ]
 }

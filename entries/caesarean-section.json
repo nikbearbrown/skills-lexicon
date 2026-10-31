@@ -3,6 +3,21 @@
  "preferred_name": "Caesarean section",
  "kind": "skill",
  "definition": "Performing or assisting with the surgical delivery of a baby through an incision in the mother's abdomen and uterus.",
+ "description": {
+  "text": "The surgical procedure in which one or more babies are delivered through an incision in the mother's abdomen. It is often done because vaginal delivery would put the mother or child at risk.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "Caesarean section",
+   "page_id": 46924,
+   "rev_id": 1378089605,
+   "rev_timestamp": "2026-10-02T22:35:30Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=Caesarean_section&oldid=1378089605",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "caesarean-section",
  "certification": false,
  "variants": [
@@ -156,6 +171,45 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "external-2026-10-29-gpt-6-unknown"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-a",
+   "note": "adapted from the lead of Wikipedia: Caesarean section, revision 1378089605"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=Caesarean_section&oldid=1378089605",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-a",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "46924",
+    "method": "title",
+    "categories": [
+     "Wikipedia articles with sections published in WikiJournal of Medicine",
+     "Obstetric surgery",
+     "Childbirth",
+     "Caesarean sections",
+     "Wikipedia medicine articles ready to translate",
+     "Women's health"
+    ]
+   }
   }
  ]
 }

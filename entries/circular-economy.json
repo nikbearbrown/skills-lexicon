@@ -3,6 +3,21 @@
  "preferred_name": "Circular economy",
  "kind": "knowledge",
  "definition": "An economic approach that keeps products and materials in use as long as possible through reuse, repair, remanufacturing and recycling, so that waste is designed out.",
+ "description": {
+  "text": "A model of resource production and consumption based on sharing, leasing, reusing, repairing, refurbishing and recycling to extend product life as long as possible. It aims to tackle climate change, biodiversity loss, waste and pollution.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "Circular economy",
+   "page_id": 31666505,
+   "rev_id": 1378348503,
+   "rev_timestamp": "2026-10-04T02:35:35Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=Circular_economy&oldid=1378348503",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "circular-economy",
  "certification": false,
  "variants": [],
@@ -99,6 +114,45 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "external-2026-10-29-gpt-6-unknown"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-b",
+   "note": "adapted from the lead of Wikipedia: Circular economy, revision 1378348503"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=Circular_economy&oldid=1378348503",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-b",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "31666505",
+    "method": "title",
+    "categories": [
+     "Financial systems",
+     "Bright green environmentalism",
+     "Economic ideologies",
+     "Environmental economics",
+     "Products and the environment",
+     "Economies by field"
+    ]
+   }
   }
  ]
 }

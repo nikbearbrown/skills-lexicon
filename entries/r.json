@@ -3,6 +3,21 @@
  "preferred_name": "R",
  "kind": "programming-language",
  "definition": "A programming language and software environment for statistical computing and graphics.",
+ "description": {
+  "text": "A programming language for statistical computing and data visualization, widely used in data mining, bioinformatics, data analysis and data science. It is extended by many software packages, such as the popular tidyverse collection.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "R (programming language)",
+   "page_id": 376707,
+   "rev_id": 1378604952,
+   "rev_timestamp": "2026-10-05T04:39:08Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=R_(programming_language)&oldid=1378604952",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "r",
  "name_match": "exact_case",
  "certification": false,
@@ -126,6 +141,54 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "2026-10-29-review-4e-opus"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-f",
+   "note": "adapted from the lead of Wikipedia: R (programming language), revision 1378604952"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=R_(programming_language)&oldid=1378604952",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-f",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "376707",
+    "method": "title",
+    "categories": [
+     "R (programming language)",
+     "Array programming languages",
+     "Cross-platform free software",
+     "Data mining and machine learning software",
+     "Data-centric programming languages",
+     "Dynamically typed programming languages",
+     "Free plotting software",
+     "Free statistical software",
+     "Functional languages",
+     "GNU Project software",
+     "Literate programming",
+     "Numerical analysis software for Linux",
+     "Numerical analysis software for macOS",
+     "Numerical analysis software for Windows",
+     "Programming languages"
+    ]
+   }
   }
  ]
 }

@@ -3,6 +3,21 @@
  "preferred_name": "Aural rehabilitation",
  "kind": "skill",
  "definition": "Therapy and training that help people with hearing loss communicate, using residual hearing, hearing devices, speech-reading and communication strategies.",
+ "description": {
+  "text": "The process of identifying and diagnosing hearing loss, providing therapies to people who are hard of hearing, and fitting amplification devices to help their hearing.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "Aural rehabilitation",
+   "page_id": 16732031,
+   "rev_id": 1366716729,
+   "rev_timestamp": "2026-07-29T19:21:23Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=Aural_rehabilitation&oldid=1366716729",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "aural-rehabilitation",
  "certification": false,
  "variants": [
@@ -156,6 +171,40 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "external-2026-10-29-gpt-6-unknown"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-a",
+   "note": "adapted from the lead of Wikipedia: Aural rehabilitation, revision 1366716729"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=Aural_rehabilitation&oldid=1366716729",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-a",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "16732031",
+    "method": "title",
+    "categories": [
+     "Audiology"
+    ]
+   }
   }
  ]
 }

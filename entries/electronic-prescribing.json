@@ -3,6 +3,21 @@
  "preferred_name": "Electronic prescribing",
  "kind": "skill",
  "definition": "Creating prescriptions on a computer and sending them electronically to a pharmacy.",
+ "description": {
+  "text": "The computer-based creation, transmission and filling of medical prescriptions, replacing paper and faxed ones. It lets a physician, physician assistant, pharmacist or nurse practitioner send a new prescription or renewal to a pharmacy electronically.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "Electronic prescribing",
+   "page_id": 19686742,
+   "rev_id": 1375528504,
+   "rev_timestamp": "2026-09-18T09:49:42Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=Electronic_prescribing&oldid=1375528504",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "electronic-prescribing",
  "certification": false,
  "variants": [
@@ -184,6 +199,42 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "external-2026-10-29-gpt-6-unknown"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-c",
+   "note": "adapted from the lead of Wikipedia: Electronic prescribing, revision 1375528504"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=Electronic_prescribing&oldid=1375528504",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-c",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "19686742",
+    "method": "title",
+    "categories": [
+     "Electronic prescribing",
+     "Pharmacy",
+     "Medical terminology"
+    ]
+   }
   }
  ]
 }

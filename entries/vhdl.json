@@ -3,6 +3,21 @@
  "preferred_name": "VHDL",
  "kind": "modeling-language",
  "definition": "A hardware description language, standardized by the IEEE, used to model and design digital circuits; the name abbreviates VHSIC Hardware Description Language.",
+ "description": {
+  "text": "A hardware description language that models the behavior and structure of digital systems at levels from the whole system down to logic gates. It is used for design entry, documentation and verification, and was developed for the US military VHSIC program.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "VHDL",
+   "page_id": 43410,
+   "rev_id": 1373542287,
+   "rev_timestamp": "2026-09-06T15:33:22Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=VHDL&oldid=1373542287",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "vhdl",
  "name_match": "exact_case",
  "certification": false,
@@ -147,6 +162,45 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "2026-10-29-review-4e-opus"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-g",
+   "note": "adapted from the lead of Wikipedia: VHDL, revision 1373542287"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=VHDL&oldid=1373542287",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-g",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "43410",
+    "method": "title",
+    "categories": [
+     "Hardware description languages",
+     "IEEE standards",
+     "IEC standards",
+     "Ada programming language family",
+     "Domain-specific programming languages",
+     "Programming languages created in 1983"
+    ]
+   }
   }
  ]
 }

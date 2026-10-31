@@ -3,6 +3,21 @@
  "preferred_name": "SQL-92",
  "kind": "standard",
  "definition": "The 1992 revision of the SQL standard, which defined entry, intermediate and full levels of the database query language.",
+ "description": {
+  "text": "The third revision of the SQL database query language, also called SQL 2. It was a major revision of the standard, with a specification about five times larger than SQL-89.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "SQL-92",
+   "page_id": 2264160,
+   "rev_id": 1323198231,
+   "rev_timestamp": "2025-11-20T08:07:18Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=SQL-92&oldid=1323198231",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "sql-92",
  "certification": false,
  "variants": [
@@ -185,6 +200,42 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "external-2026-10-29-gpt-6-unknown"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-g",
+   "note": "adapted from the lead of Wikipedia: SQL-92, revision 1323198231"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=SQL-92&oldid=1323198231",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-g",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "2264160",
+    "method": "title",
+    "categories": [
+     "SQL",
+     "Declarative programming languages",
+     "Programming languages created in 1992"
+    ]
+   }
   }
  ]
 }

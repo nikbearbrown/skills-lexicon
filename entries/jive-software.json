@@ -3,6 +3,21 @@
  "preferred_name": "Jive Software",
  "kind": "platform",
  "definition": "Enterprise collaboration software that gives an organisation an internal social network for sharing content and discussion.",
+ "description": {
+  "text": "Jive is a commercial Java EE-based enterprise collaboration and knowledge management tool made by Jive Software. It was formerly called Clearspace, Jive SBS and Jive Engage, and combines online communities and microblogging.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "Jive (software)",
+   "page_id": 12073736,
+   "rev_id": 1309742167,
+   "rev_timestamp": "2025-09-05T19:57:35Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=Jive_(software)&oldid=1309742167",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "jive-software",
  "certification": false,
  "variants": [
@@ -129,6 +144,45 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "external-2026-10-29-gpt-6-unknown"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-d",
+   "note": "adapted from the lead of Wikipedia: Jive (software), revision 1309742167"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=Jive_(software)&oldid=1309742167",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-d",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "12073736",
+    "method": "title",
+    "categories": [
+     "Blog software",
+     "Content management systems",
+     "Groupware",
+     "Internet forum software",
+     "Proprietary wiki software",
+     "Web applications"
+    ]
+   }
   }
  ]
 }

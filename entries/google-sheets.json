@@ -3,6 +3,21 @@
  "preferred_name": "Google Sheets",
  "kind": "tool",
  "definition": "Google's web-based spreadsheet application for creating, editing and sharing spreadsheets online.",
+ "description": {
+  "text": "A spreadsheet program in Google's free, web-based Google Docs Editors suite. It runs as a web application, on Android and iOS, and on ChromeOS, works with Microsoft Excel file formats, and lets users edit files online and collaborate in real time.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "Google Sheets",
+   "page_id": 42951365,
+   "rev_id": 1374000512,
+   "rev_timestamp": "2026-09-09T05:33:12Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=Google_Sheets&oldid=1374000512",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "google-sheets",
  "certification": false,
  "variants": [],
@@ -99,6 +114,47 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "external-2026-10-29-gpt-6-unknown"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-c",
+   "note": "adapted from the lead of Wikipedia: Google Sheets, revision 1374000512"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=Google_Sheets&oldid=1374000512",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-c",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "42951365",
+    "method": "title",
+    "categories": [
+     "Google software",
+     "Spreadsheet software",
+     "Spreadsheet software for macOS",
+     "Spreadsheet software for Windows",
+     "Android (operating system) software",
+     "IOS software",
+     "Web applications",
+     "Google Docs Editors"
+    ]
+   }
   }
  ]
 }

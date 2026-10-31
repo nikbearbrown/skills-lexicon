@@ -3,6 +3,21 @@
  "preferred_name": "NAnt",
  "kind": "tool",
  "definition": "A free build tool for .NET projects, modelled on Apache Ant, that runs build steps described in XML files.",
+ "description": {
+  "text": "A free, open source tool for automating software builds, similar to Apache Ant but aimed at the .NET environment instead of Java. It requires a .NET framework or Mono.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "NAnt",
+   "page_id": 2528563,
+   "rev_id": 1343088563,
+   "rev_timestamp": "2026-03-12T04:59:02Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=NAnt&oldid=1343088563",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "nant",
  "certification": false,
  "variants": [
@@ -96,6 +111,44 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "2026-10-29-review-5k-opus"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-e",
+   "note": "adapted from the lead of Wikipedia: NAnt, revision 1343088563"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=NAnt&oldid=1343088563",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-e",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "2528563",
+    "method": "title",
+    "categories": [
+     "Free computer programming tools",
+     "Compiling tools",
+     ".NET programming tools",
+     "Build automation",
+     "Software using the GNU General Public License"
+    ]
+   }
   }
  ]
 }

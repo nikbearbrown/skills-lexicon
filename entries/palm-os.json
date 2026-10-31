@@ -3,6 +3,21 @@
  "preferred_name": "Palm OS",
  "kind": "platform",
  "definition": "An operating system for handheld computers (PDAs) and early smartphones, developed by Palm.",
+ "description": {
+  "text": "A discontinued mobile operating system first developed by Palm, Inc. in 1996 for personal digital assistants, designed for ease of use with a touchscreen interface. It came with basic personal information management apps, was later extended to smartphones, and was renamed Garnet OS.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "Palm OS",
+   "page_id": 37545,
+   "rev_id": 1368688661,
+   "rev_timestamp": "2026-08-10T14:39:55Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=Palm_OS&oldid=1368688661",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "palm-os",
  "certification": false,
  "variants": [],
@@ -100,6 +115,46 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "external-2026-10-29-gpt-6-unknown"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-e",
+   "note": "adapted from the lead of Wikipedia: Palm OS, revision 1368688661"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=Palm_OS&oldid=1368688661",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-e",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "37545",
+    "method": "title",
+    "categories": [
+     "Palm OS",
+     "ARM operating systems",
+     "Computer-related introductions in 1996",
+     "Discontinued operating systems",
+     "Embedded operating systems",
+     "Mobile operating systems",
+     "Personal digital assistants"
+    ]
+   }
   }
  ]
 }

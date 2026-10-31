@@ -3,6 +3,21 @@
  "preferred_name": "Armed Forces Health Longitudinal Technology Application",
  "kind": "tool",
  "definition": "The electronic health record system that the US Department of Defense used across its Military Health System to document patient care.",
+ "description": {
+  "text": "A global electronic health record system used by the US Department of Defense. It was rolled out at Army, Navy and Air Force treatment facilities from 2003 to 2006 as a medical and dental information management system.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "Armed Forces Health Longitudinal Technology Application",
+   "page_id": 29721092,
+   "rev_id": 1370137241,
+   "rev_timestamp": "2026-08-19T09:21:34Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=Armed_Forces_Health_Longitudinal_Technology_Application&oldid=1370137241",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "armed-forces-health-longitudinal-technology-application",
  "certification": false,
  "variants": [
@@ -159,6 +174,41 @@
    "date": "2026-10-29",
    "run": "external-2026-10-29-gpt-6-unknown",
    "note": "The abbreviation is AHLTA, not AHTLA; the letters are transposed."
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-a",
+   "note": "adapted from the lead of Wikipedia: Armed Forces Health Longitudinal Technology Application, revision 1370137241"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=Armed_Forces_Health_Longitudinal_Technology_Application&oldid=1370137241",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-a",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "29721092",
+    "method": "title",
+    "categories": [
+     "Electronic health record software",
+     "United States Department of Defense"
+    ]
+   }
   }
  ]
 }

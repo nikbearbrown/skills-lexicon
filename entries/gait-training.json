@@ -3,6 +3,21 @@
  "preferred_name": "Gait training",
  "kind": "method",
  "definition": "A physical therapy technique that helps people relearn or improve walking.",
+ "description": {
+  "text": "The act of re-learning or learning how to walk after an injury or disability, through rehabilitation and sometimes with an assistive device. Normal walking is a complex process needing the brain and spinal cord to work properly.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "Gait training",
+   "page_id": 10360168,
+   "rev_id": 1377464081,
+   "rev_timestamp": "2026-09-29T14:38:02Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=Gait_training&oldid=1377464081",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "gait-training",
  "certification": false,
  "variants": [],
@@ -109,6 +124,40 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "external-2026-10-29-gpt-6-unknown"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-c",
+   "note": "adapted from the lead of Wikipedia: Gait training, revision 1377464081"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=Gait_training&oldid=1377464081",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-c",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "10360168",
+    "method": "title",
+    "categories": [
+     "Walking"
+    ]
+   }
   }
  ]
 }

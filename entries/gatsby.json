@@ -3,6 +3,21 @@
  "preferred_name": "Gatsby",
  "kind": "framework",
  "definition": "A free, open-source framework built on React for making fast websites and apps, often from content sources such as CMSs and Markdown files.",
+ "description": {
+  "text": "An open-source static site generator built on Node.js using React and GraphQL. It has over 2500 plugins for building sites from sources such as Markdown, MDX, images and content management systems like WordPress and Drupal.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "Gatsby (software)",
+   "page_id": 70117751,
+   "rev_id": 1305331922,
+   "rev_timestamp": "2025-08-11T12:45:17Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=Gatsby_(software)&oldid=1305331922",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "gatsby",
  "certification": false,
  "variants": [
@@ -157,6 +172,46 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "external-2026-10-29-gpt-6-unknown"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-c",
+   "note": "adapted from the lead of Wikipedia: Gatsby (software), revision 1305331922"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=Gatsby_(software)&oldid=1305331922",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-c",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "70117751",
+    "method": "title",
+    "categories": [
+     "Web frameworks",
+     "JavaScript web frameworks",
+     "Static website generators",
+     "Free static website generators",
+     "Free software programmed in JavaScript",
+     "Free software programmed in TypeScript",
+     "Software using the MIT license"
+    ]
+   }
   }
  ]
 }

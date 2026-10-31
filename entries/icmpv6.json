@@ -3,6 +3,21 @@
  "preferred_name": "ICMPv6",
  "kind": "standard",
  "definition": "The Internet Control Message Protocol for IPv6, used for error messages, diagnostics and neighbour discovery.",
+ "description": {
+  "text": "ICMPv6 is the version of the Internet Control Message Protocol for IPv6. It is an integral part of IPv6 and handles error reporting and diagnostics, with a framework for extensions.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "ICMPv6",
+   "page_id": 5223232,
+   "rev_id": 1379014441,
+   "rev_timestamp": "2026-10-07T11:13:17Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=ICMPv6&oldid=1379014441",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "icmpv6",
  "certification": false,
  "variants": [
@@ -128,6 +143,43 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "external-2026-10-29-gpt-6-unknown"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-d",
+   "note": "adapted from the lead of Wikipedia: ICMPv6, revision 1379014441"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=ICMPv6&oldid=1379014441",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-d",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "5223232",
+    "method": "title",
+    "categories": [
+     "Internet protocols",
+     "Internet layer protocols",
+     "Network layer protocols",
+     "IPv6"
+    ]
+   }
   }
  ]
 }

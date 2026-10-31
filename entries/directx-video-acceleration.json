@@ -3,6 +3,21 @@
  "preferred_name": "DirectX Video Acceleration",
  "kind": "library",
  "definition": "A Microsoft programming interface that lets video decoding and processing run on a computer's graphics hardware.",
+ "description": {
+  "text": "A Microsoft API specification for Windows and Xbox 360 that lets video decoding be hardware-accelerated. It offloads CPU-intensive operations such as motion compensation and deinterlacing to the GPU.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "DirectX Video Acceleration",
+   "page_id": 2364491,
+   "rev_id": 1377755935,
+   "rev_timestamp": "2026-10-01T00:20:05Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=DirectX_Video_Acceleration&oldid=1377755935",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "directx-video-acceleration",
  "certification": false,
  "variants": [
@@ -129,6 +144,44 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "external-2026-10-29-gpt-6-unknown"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-b",
+   "note": "adapted from the lead of Wikipedia: DirectX Video Acceleration, revision 1377755935"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=DirectX_Video_Acceleration&oldid=1377755935",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-b",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "2364491",
+    "method": "title",
+    "categories": [
+     "Microsoft application programming interfaces",
+     "DirectX",
+     "Video acceleration",
+     "Device drivers",
+     "Hardware acceleration"
+    ]
+   }
   }
  ]
 }

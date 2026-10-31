@@ -3,6 +3,21 @@
  "preferred_name": "In-memory database",
  "kind": "knowledge",
  "definition": "A database management system that keeps its data mainly in a computer's main memory instead of on disk, to give faster access.",
+ "description": {
+  "text": "An in-memory database is a database management system that mainly uses main memory for storage rather than disk. It is faster than disk-based databases because memory access is faster and its internal algorithms are simpler.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "In-memory database",
+   "page_id": 1942477,
+   "rev_id": 1374632019,
+   "rev_timestamp": "2026-09-13T05:56:49Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=In-memory_database&oldid=1374632019",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "in-memory-database",
  "certification": false,
  "variants": [
@@ -185,6 +200,42 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "external-2026-10-29-gpt-6-unknown"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-d",
+   "note": "adapted from the lead of Wikipedia: In-memory database, revision 1374632019"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=In-memory_database&oldid=1374632019",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-d",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "1942477",
+    "method": "title",
+    "categories": [
+     "Computer memory",
+     "Database management systems",
+     "In-memory database management systems"
+    ]
+   }
   }
  ]
 }

@@ -3,6 +3,21 @@
  "preferred_name": "Reference range",
  "kind": "knowledge",
  "definition": "The range of values for a laboratory test that is expected in healthy people, used to judge whether a result is normal.",
+ "description": {
+  "text": "In medicine, the range of values considered normal for a physiological measurement in healthy people, such as blood creatinine. It gives a physician or other health professional a basis for interpreting a patient's test results.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "Reference range",
+   "page_id": 231442,
+   "rev_id": 1337654767,
+   "rev_timestamp": "2026-02-10T18:49:09Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=Reference_range&oldid=1337654767",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "reference-range",
  "certification": false,
  "variants": [],
@@ -100,6 +115,41 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "external-2026-10-29-gpt-6-unknown"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-f",
+   "note": "adapted from the lead of Wikipedia: Reference range, revision 1337654767"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=Reference_range&oldid=1337654767",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-f",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "231442",
+    "method": "title",
+    "categories": [
+     "Research",
+     "Clinical pathology"
+    ]
+   }
   }
  ]
 }

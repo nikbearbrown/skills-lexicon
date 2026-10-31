@@ -3,6 +3,21 @@
  "preferred_name": "Alternative dispute resolution",
  "kind": "method",
  "definition": "Ways of settling disputes without a court trial, such as mediation and arbitration.",
+ "description": {
+  "text": "A range of processes and techniques parties use to settle disputes with the help of a third party, short of litigation. It is also increasingly used within court systems.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "Alternative dispute resolution",
+   "page_id": 18950713,
+   "rev_id": 1375472824,
+   "rev_timestamp": "2026-09-18T00:18:16Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=Alternative_dispute_resolution&oldid=1375472824",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "alternative-dispute-resolution",
  "certification": false,
  "variants": [],
@@ -123,6 +138,40 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "external-2026-10-29-muse-spark-1-3-xhigh"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-a",
+   "note": "adapted from the lead of Wikipedia: Alternative dispute resolution, revision 1375472824"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=Alternative_dispute_resolution&oldid=1375472824",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-a",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "18950713",
+    "method": "title",
+    "categories": [
+     "Dispute resolution"
+    ]
+   }
   }
  ]
 }

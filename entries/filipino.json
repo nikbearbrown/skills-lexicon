@@ -3,6 +3,21 @@
  "preferred_name": "Filipino",
  "kind": "human-language",
  "definition": "The standardized form of Tagalog and the national language of the Philippines.",
+ "description": {
+  "text": "The national language of the Philippines, its main lingua franca and one of its two official languages alongside English. It is a de facto standardized form of Tagalog as spoken in Metro Manila and other urban centers.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "Filipino language",
+   "page_id": 236489,
+   "rev_id": 1378918246,
+   "rev_timestamp": "2026-10-06T22:30:24Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=Filipino_language&oldid=1378918246",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "filipino",
  "certification": false,
  "language_type": "human",
@@ -174,6 +189,44 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "2026-10-29-review-4e-opus"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-c",
+   "note": "adapted from the lead of Wikipedia: Filipino language, revision 1378918246"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=Filipino_language&oldid=1378918246",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-c",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "236489",
+    "method": "redirect",
+    "categories": [
+     "Filipino language",
+     "Standard languages",
+     "Tagalog-language dialects",
+     "National symbols of the Philippines",
+     "Articles containing video clips"
+    ]
+   }
   }
  ]
 }

@@ -7,6 +7,21 @@
  "preferred_name": "Causal reasoning",
  "kind": "ability",
  "definition": "Distinguishing prediction from intervention and causal explanation.",
+ "description": {
+  "text": "The process of identifying causality, the relationship between a cause and its effect. Causal inference is one example of it.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "Causal reasoning",
+   "page_id": 20638729,
+   "rev_id": 1368308147,
+   "rev_timestamp": "2026-08-08T08:23:25Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=Causal_reasoning&oldid=1368308147",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "variants": [
   {
    "label": "causal inference",
@@ -90,6 +105,40 @@
    "date": "2026-10-29",
    "run": "external-2026-10-29-muse-spark-1-3-xhigh",
    "note": "causal inference is the statistical discipline; this entry is the cognitive ability"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-b",
+   "note": "adapted from the lead of Wikipedia: Causal reasoning, revision 1368308147"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=Causal_reasoning&oldid=1368308147",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-b",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "20638729",
+    "method": "title",
+    "categories": [
+     "Reasoning"
+    ]
+   }
   }
  ]
 }

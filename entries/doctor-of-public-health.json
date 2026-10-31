@@ -6,6 +6,21 @@
  "preferred_name": "Doctor of Public Health",
  "kind": "credential",
  "definition": "A doctoral degree in public health focused on professional practice and leadership.",
+ "description": {
+  "text": "A doctoral degree in the field of public health (DrPH). It is an advanced, terminal degree that prepares graduates for careers in public health practice, leadership, research, teaching or administration.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "Doctor of Public Health",
+   "page_id": 9398622,
+   "rev_id": 1360163024,
+   "rev_timestamp": "2026-06-19T16:50:11Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=Doctor_of_Public_Health&oldid=1360163024",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "doctor-of-public-health",
  "certification": true,
  "variants": [
@@ -211,6 +226,41 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "external-2026-10-29-gpt-6-unknown"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-b",
+   "note": "adapted from the lead of Wikipedia: Doctor of Public Health, revision 1360163024"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=Doctor_of_Public_Health&oldid=1360163024",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-b",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "9398622",
+    "method": "title",
+    "categories": [
+     "Doctoral degrees",
+     "Public health"
+    ]
+   }
   }
  ],
  "certification_scope": "many-issuers",

@@ -3,6 +3,21 @@
  "preferred_name": "Children's Health Insurance Program",
  "kind": "knowledge",
  "definition": "The US federal and state programme that provides low-cost health coverage for children in families that earn too much for Medicaid.",
+ "description": {
+  "text": "A joint federal and state program that provides low-cost health insurance to children. It targets families who earn too much for Medicaid but cannot afford private insurance.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "Children's Health Insurance Program",
+   "page_id": 635422,
+   "rev_id": 1376218815,
+   "rev_timestamp": "2026-09-22T20:46:09Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=Children's_Health_Insurance_Program&oldid=1376218815",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "children-s-health-insurance-program",
  "certification": false,
  "variants": [
@@ -122,6 +137,45 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "external-2026-10-29-gpt-6-unknown"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-b",
+   "note": "adapted from the lead of Wikipedia: Children's Health Insurance Program, revision 1376218815"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=Children's_Health_Insurance_Program&oldid=1376218815",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-b",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "635422",
+    "method": "title",
+    "categories": [
+     "Children's health in the United States",
+     "Medicare and Medicaid (United States)",
+     "United States federal health legislation",
+     "110th United States Congress",
+     "111th United States Congress",
+     "Ted Kennedy"
+    ]
+   }
   }
  ]
 }

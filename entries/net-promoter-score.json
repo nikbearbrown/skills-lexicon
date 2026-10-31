@@ -3,6 +3,21 @@
  "preferred_name": "Net Promoter Score",
  "kind": "method",
  "definition": "A customer loyalty metric based on how likely customers are to recommend a company, scored from -100 to 100.",
+ "description": {
+  "text": "A market research metric based on one survey question asking how likely respondents are to recommend a company, product or service to a friend or colleague. Developed by Bain & Company consultant Fred Reichheld, it is widely used by large companies.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "Net promoter score",
+   "page_id": 5005222,
+   "rev_id": 1370351213,
+   "rev_timestamp": "2026-08-20T16:52:52Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=Net_promoter_score&oldid=1370351213",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "net-promoter-score",
  "certification": false,
  "variants": [],
@@ -102,6 +117,41 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "external-2026-10-29-gpt-6-unknown"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-e",
+   "note": "adapted from the lead of Wikipedia: Net promoter score, revision 1370351213"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=Net_promoter_score&oldid=1370351213",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-e",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "5005222",
+    "method": "title",
+    "categories": [
+     "Customer relationship management",
+     "Customer loyalty programs"
+    ]
+   }
   }
  ]
 }

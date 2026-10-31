@@ -3,6 +3,21 @@
  "preferred_name": "Customer success",
  "kind": "skill",
  "definition": "Helping customers get the results they bought a product for, so that they keep using and renewing it.",
+ "description": {
+  "text": "A business strategy and organizational function focused on helping customers achieve their desired outcomes with a company's products. Its goal is to raise perceived value and reduce churn, and it is common in subscription-based business-to-business companies.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "Customer success",
+   "page_id": 47449116,
+   "rev_id": 1375672407,
+   "rev_timestamp": "2026-09-19T07:20:46Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=Customer_success&oldid=1375672407",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "customer-success",
  "certification": false,
  "variants": [],
@@ -99,6 +114,43 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "external-2026-10-29-gpt-6-unknown"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-b",
+   "note": "adapted from the lead of Wikipedia: Customer success, revision 1375672407"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=Customer_success&oldid=1375672407",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-b",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "47449116",
+    "method": "title",
+    "categories": [
+     "Business processes",
+     "Customer experience",
+     "Marketing",
+     "Customer relationship management"
+    ]
+   }
   }
  ]
 }

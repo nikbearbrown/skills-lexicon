@@ -3,6 +3,21 @@
  "preferred_name": "MP/M",
  "kind": "platform",
  "definition": "A multi-user, multitasking operating system from Digital Research that extended CP/M.",
+ "description": {
+  "text": "A discontinued multi-user version of the CP/M operating system from Digital Research. It let several users share one computer, each on a separate terminal, with multitasking, memory protection and the ability to run several programs per user.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "MP/M",
+   "page_id": 87780,
+   "rev_id": 1364653166,
+   "rev_timestamp": "2026-07-17T19:23:07Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=MP%2FM&oldid=1364653166",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "mp-m",
  "name_match": "exact_case",
  "certification": false,
@@ -159,6 +174,48 @@
    "date": "2026-10-29",
    "run": "external-2026-10-29-gpt-6-unknown",
    "note": "MP/M expands to Multi-Programming Monitor; Control Program is an incorrect addition."
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-e",
+   "note": "adapted from the lead of Wikipedia: MP/M, revision 1364653166"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=MP%2FM&oldid=1364653166",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-e",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "87780",
+    "method": "title",
+    "categories": [
+     "CP/M variants",
+     "Microcomputer software",
+     "Formerly proprietary software",
+     "Disk operating systems",
+     "Digital Research operating systems",
+     "Discontinued operating systems",
+     "Floppy disk–based operating systems",
+     "Free software operating systems",
+     "1979 software"
+    ]
+   }
   }
  ]
 }

@@ -3,6 +3,21 @@
  "preferred_name": "Gymnastics",
  "kind": "skill",
  "definition": "The sport of performing exercises that demand strength, flexibility and balance, such as floor routines, vault and beam.",
+ "description": {
+  "text": "A group of sports that includes physical exercises requiring balance, strength, flexibility, agility, coordination, artistry and endurance. The movements help develop the arm, leg, shoulder, back, chest and abdominal muscles, and the sport evolved from exercises of the ancient Greeks.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "Gymnastics",
+   "page_id": 12551,
+   "rev_id": 1370949734,
+   "rev_timestamp": "2026-08-23T22:03:01Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=Gymnastics&oldid=1370949734",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "gymnastics",
  "certification": false,
  "variants": [],
@@ -99,6 +114,44 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "external-2026-10-29-gpt-6-unknown"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-c",
+   "note": "adapted from the lead of Wikipedia: Gymnastics, revision 1370949734"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=Gymnastics&oldid=1370949734",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-c",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "12551",
+    "method": "title",
+    "categories": [
+     "Gymnastics",
+     "Summer Olympic sports",
+     "Individual sports",
+     "Sports rules and regulations",
+     "Acrobatic sports"
+    ]
+   }
   }
  ]
 }

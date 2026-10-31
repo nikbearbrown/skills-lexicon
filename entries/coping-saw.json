@@ -3,6 +3,21 @@
  "preferred_name": "Coping saw",
  "kind": "tool",
  "definition": "A hand saw with a thin, narrow blade held in a U-shaped frame, used to cut curves in wood and to trim moulding joints.",
+ "description": {
+  "text": "A type of bow saw used in woodworking and carpentry to cut intricate external shapes and interior cut-outs. It is widely used to cut moldings for coped joints rather than mitre joints.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "Coping saw",
+   "page_id": 1579339,
+   "rev_id": 1376247121,
+   "rev_timestamp": "2026-09-23T01:01:38Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=Coping_saw&oldid=1376247121",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "coping-saw",
  "certification": false,
  "variants": [],
@@ -99,6 +114,41 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "external-2026-10-29-gpt-6-unknown"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-b",
+   "note": "adapted from the lead of Wikipedia: Coping saw, revision 1376247121"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=Coping_saw&oldid=1376247121",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-b",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "1579339",
+    "method": "title",
+    "categories": [
+     "Saws",
+     "Woodworking hand tools"
+    ]
+   }
   }
  ]
 }

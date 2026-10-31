@@ -3,6 +3,21 @@
  "preferred_name": "Sales and operations planning",
  "kind": "method",
  "definition": "A regular business process in which sales, operations and finance teams agree one plan that balances demand forecasts with supply and capacity.",
+ "description": {
+  "text": "A business planning process that combines demand forecasting with supply planning to balance demand against available resources. It brings together sales, production capacity, inventory and budgets so that parts of a company work from the same assumptions, and plans are updated as conditions change.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "Sales and operations planning",
+   "page_id": 13739584,
+   "rev_id": 1375941771,
+   "rev_timestamp": "2026-09-21T01:16:05Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=Sales_and_operations_planning&oldid=1375941771",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "sales-and-operations-planning",
  "certification": false,
  "variants": [
@@ -128,6 +143,54 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "external-2026-10-29-gpt-6-unknown"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-f",
+   "note": "adapted from the lead of Wikipedia: Sales and operations planning, revision 1375941771"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=Sales_and_operations_planning&oldid=1375941771",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-f",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "13739584",
+    "method": "title",
+    "categories": [
+     "Supply chain management",
+     "Sales",
+     "Production planning",
+     "Business process management",
+     "Operations management",
+     "Inventory management games",
+     "Production and manufacturing by product",
+     "Logistics",
+     "Strategic management",
+     "Industrial engineering",
+     "Management systems",
+     "Business planning",
+     "Business management",
+     "Enterprise resource planning software for Linux",
+     "Demand management"
+    ]
+   }
   }
  ]
 }

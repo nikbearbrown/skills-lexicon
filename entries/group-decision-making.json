@@ -3,6 +3,21 @@
  "preferred_name": "Group decision-making",
  "kind": "method",
  "definition": "A process in which a group weighs the options together and reaches a decision.",
+ "description": {
+  "text": "A situation in which individuals collectively choose from alternatives, so the decision can no longer be attributed to any single member. Social influence and group processes contribute to the outcome. It is also called collaborative or collective decision-making.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "Group decision-making",
+   "page_id": 16833931,
+   "rev_id": 1375735350,
+   "rev_timestamp": "2026-09-19T18:36:58Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=Group_decision-making&oldid=1375735350",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "group-decision-making",
  "certification": false,
  "variants": [],
@@ -128,6 +143,40 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "external-2026-10-29-gpt-6-unknown"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-c",
+   "note": "adapted from the lead of Wikipedia: Group decision-making, revision 1375735350"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=Group_decision-making&oldid=1375735350",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-c",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "16833931",
+    "method": "title",
+    "categories": [
+     "Group decision-making"
+    ]
+   }
   }
  ]
 }

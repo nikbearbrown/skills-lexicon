@@ -3,6 +3,21 @@
  "preferred_name": "word2vec",
  "kind": "method",
  "definition": "A family of shallow neural-network models, introduced at Google in 2013, that learn word embeddings from large amounts of text.",
+ "description": {
+  "text": "A natural language processing technique for obtaining vector representations of words, called word embeddings. The vectors capture a word's meaning from its surrounding words, and the trained model can find words with similar meanings or usage.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "Word2Vec",
+   "page_id": 47527969,
+   "rev_id": 1376791706,
+   "rev_timestamp": "2026-09-26T06:38:59Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=Word2Vec&oldid=1376791706",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "word2vec",
  "certification": false,
  "variants": [],
@@ -76,6 +91,45 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "2026-10-29-review-5r-opus"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-g",
+   "note": "adapted from the lead of Wikipedia: Word2Vec, revision 1376791706"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=Word2Vec&oldid=1376791706",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-g",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "47527969",
+    "method": "title",
+    "categories": [
+     "Free science software",
+     "Natural language processing toolkits",
+     "Artificial neural networks",
+     "Semantic relations",
+     "2013 software",
+     "2013 in artificial intelligence"
+    ]
+   }
   }
  ]
 }

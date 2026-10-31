@@ -3,6 +3,21 @@
  "preferred_name": "Human musculoskeletal system",
  "kind": "knowledge",
  "definition": "The bones, muscles, joints and connective tissue that support the human body and let it move.",
+ "description": {
+  "text": "The human musculoskeletal system is the organ system that lets humans move. It gives the body form, support and stability, and is made of bones, muscles, cartilage, tendons, ligaments, joints and other connective tissue.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "Human musculoskeletal system",
+   "page_id": 653348,
+   "rev_id": 1375500911,
+   "rev_timestamp": "2026-09-18T04:19:10Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=Human_musculoskeletal_system&oldid=1375500911",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "human-musculoskeletal-system",
  "certification": false,
  "variants": [
@@ -128,6 +143,41 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "external-2026-10-29-gpt-6-unknown"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-d",
+   "note": "adapted from the lead of Wikipedia: Human musculoskeletal system, revision 1375500911"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=Human_musculoskeletal_system&oldid=1375500911",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-d",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "653348",
+    "method": "title",
+    "categories": [
+     "Musculoskeletal system",
+     "Dance science"
+    ]
+   }
   }
  ]
 }

@@ -3,6 +3,21 @@
  "preferred_name": "Bill of materials",
  "kind": "knowledge",
  "definition": "A structured list of the raw materials, parts, assemblies and quantities needed to make a product.",
+ "description": {
+  "text": "A list of the raw materials, sub-assemblies, parts and quantities needed to manufacture an end product. It may be used to communicate between manufacturing partners or within one plant.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "Bill of materials",
+   "page_id": 1132096,
+   "rev_id": 1370351239,
+   "rev_timestamp": "2026-08-20T16:53:00Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=Bill_of_materials&oldid=1370351239",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "bill-of-materials",
  "certification": false,
  "variants": [
@@ -128,6 +143,41 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "external-2026-10-29-gpt-6-unknown"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-a",
+   "note": "adapted from the lead of Wikipedia: Bill of materials, revision 1370351239"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=Bill_of_materials&oldid=1370351239",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-a",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "1132096",
+    "method": "title",
+    "categories": [
+     "Manufacturing",
+     "Supply chain management"
+    ]
+   }
   }
  ]
 }

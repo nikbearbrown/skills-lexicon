@@ -3,6 +3,21 @@
  "preferred_name": "Prisoners' rights",
  "kind": "knowledge",
  "definition": "The legal rights of people held in prisons and jails, such as protection from cruel treatment and access to the courts.",
+ "description": {
+  "text": "The rights of civilian and military prisoners, which are governed by both national and international law. International conventions include the International Covenant on Civil and Political Rights and the UN Minimum Rules for the Treatment of Prisoners.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "Prisoners' rights",
+   "page_id": 1600241,
+   "rev_id": 1326098027,
+   "rev_timestamp": "2025-12-07T01:50:21Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=Prisoners'_rights&oldid=1326098027",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "prisoners-rights",
  "certification": false,
  "variants": [
@@ -128,6 +143,43 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "external-2026-10-29-gpt-6-unknown"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-f",
+   "note": "adapted from the lead of Wikipedia: Prisoners' rights, revision 1326098027"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=Prisoners'_rights&oldid=1326098027",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-f",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "1600241",
+    "method": "title",
+    "categories": [
+     "Penal imprisonment",
+     "Penology",
+     "Human rights by issue",
+     "Prisoners' and ex-prisoners' rights"
+    ]
+   }
   }
  ]
 }

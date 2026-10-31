@@ -3,6 +3,21 @@
  "preferred_name": "CARTO",
  "kind": "platform",
  "definition": "A cloud platform for analysing and mapping location data, formerly called CartoDB.",
+ "description": {
+  "text": "A cloud-based software-as-a-service platform for spatial analysis, offering GIS, web mapping, data visualization and spatial data science. It was formerly called CartoDB and is aimed at users without advanced GIS or development experience.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "Carto (company)",
+   "page_id": 40191834,
+   "rev_id": 1365004657,
+   "rev_timestamp": "2026-07-19T19:11:14Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=Carto_(company)&oldid=1365004657",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "carto",
  "name_match": "exact_case",
  "certification": false,
@@ -129,6 +144,41 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "external-2026-10-29-gpt-6-unknown"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-b",
+   "note": "adapted from the lead of Wikipedia: Carto (company), revision 1365004657"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=Carto_(company)&oldid=1365004657",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-b",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "40191834",
+    "method": "title",
+    "categories": [
+     "GIS software",
+     "Data and information visualization software"
+    ]
+   }
   }
  ]
 }

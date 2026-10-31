@@ -3,6 +3,21 @@
  "preferred_name": "Microsoft 365",
  "kind": "platform",
  "definition": "Microsoft's subscription service that bundles Office applications with cloud services such as email, file storage and collaboration tools.",
+ "description": {
+  "text": "A Microsoft product family of productivity software, collaboration and cloud services, previously called Office 365. It covers Outlook.com, OneDrive, Teams, Word, Excel, PowerPoint, enterprise services like Exchange and SharePoint, and subscription plans.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "Microsoft 365",
+   "page_id": 63519937,
+   "rev_id": 1376337370,
+   "rev_timestamp": "2026-09-23T14:57:52Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=Microsoft_365&oldid=1376337370",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "microsoft-365",
  "certification": false,
  "variants": [
@@ -129,6 +144,44 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "external-2026-10-29-gpt-6-unknown"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-e",
+   "note": "adapted from the lead of Wikipedia: Microsoft 365, revision 1376337370"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=Microsoft_365&oldid=1376337370",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-e",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "63519937",
+    "method": "title",
+    "categories": [
+     "Products introduced in 2017",
+     "Microsoft cloud services",
+     "Office 365",
+     "Microsoft Office",
+     "Subscription services"
+    ]
+   }
   }
  ]
 }

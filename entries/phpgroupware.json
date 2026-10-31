@@ -3,6 +3,21 @@
  "preferred_name": "phpGroupWare",
  "kind": "tool",
  "definition": "Open-source groupware software, written in PHP, with a calendar, contacts, email and other shared tools.",
+ "description": {
+  "text": "A multi-user groupware suite written in PHP, formerly called webdistro and part of the DotGNU project. It provides about 50 web-based applications including calendar, address book, project manager, to-do list, email and file manager.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "PhpGroupWare",
+   "page_id": 2834532,
+   "rev_id": 1013197791,
+   "rev_timestamp": "2021-03-20T15:58:47Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=PhpGroupWare&oldid=1013197791",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "phpgroupware",
  "certification": false,
  "variants": [],
@@ -99,6 +114,41 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "external-2026-10-29-gpt-6-unknown"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-e",
+   "note": "adapted from the lead of Wikipedia: PhpGroupWare, revision 1013197791"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=PhpGroupWare&oldid=1013197791",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-e",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "2834532",
+    "method": "title",
+    "categories": [
+     "GNU Project software",
+     "Free groupware"
+    ]
+   }
   }
  ]
 }

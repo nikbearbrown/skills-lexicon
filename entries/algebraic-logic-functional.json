@@ -3,6 +3,21 @@
  "preferred_name": "Algebraic Logic Functional",
  "kind": "programming-language",
  "definition": "A programming language that combines functional and logic programming.",
+ "description": {
+  "text": "A programming language combining functional and logic programming. It is founded on Horn clause logic with equality, so functional expressions can be used in goals and predicates can occur in equation conditions.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "Algebraic Logic Functional programming language",
+   "page_id": 11868019,
+   "rev_id": 1254249640,
+   "rev_timestamp": "2024-10-30T02:53:59Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=Algebraic_Logic_Functional_programming_language&oldid=1254249640",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "algebraic-logic-functional",
  "certification": false,
  "language_type": "programming",
@@ -206,6 +221,41 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "external-2026-10-29-muse-spark-1-3-xhigh"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-a",
+   "note": "adapted from the lead of Wikipedia: Algebraic Logic Functional programming language, revision 1254249640"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=Algebraic_Logic_Functional_programming_language&oldid=1254249640",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-a",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "11868019",
+    "method": "redirect",
+    "categories": [
+     "Functional logic programming languages",
+     "Programming languages created in the 1990s"
+    ]
+   }
   }
  ]
 }

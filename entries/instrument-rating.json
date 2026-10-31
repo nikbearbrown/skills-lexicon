@@ -3,6 +3,21 @@
  "preferred_name": "Instrument rating",
  "kind": "credential",
  "definition": "A pilot qualification, added to a pilot licence or certificate, that allows flying by reference to cockpit instruments in cloud and poor visibility under instrument flight rules.",
+ "description": {
+  "text": "An instrument rating is the qualification a pilot needs to fly under instrument flight rules. It requires training beyond a private or commercial pilot certificate, including meteorology and flying solely by reference to instruments.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "Instrument rating",
+   "page_id": 408262,
+   "rev_id": 1351058194,
+   "rev_timestamp": "2026-04-25T18:08:31Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=Instrument_rating&oldid=1351058194",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "instrument-rating",
  "certification": true,
  "certification_scope": "many-issuers",
@@ -125,6 +140,41 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "external-2026-10-29-gpt-6-unknown"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-d",
+   "note": "adapted from the lead of Wikipedia: Instrument rating, revision 1351058194"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=Instrument_rating&oldid=1351058194",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-d",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "408262",
+    "method": "title",
+    "categories": [
+     "Aviation licenses and certifications",
+     "Aviation meteorology"
+    ]
+   }
   }
  ]
 }

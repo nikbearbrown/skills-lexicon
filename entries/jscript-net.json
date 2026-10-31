@@ -3,6 +3,21 @@
  "preferred_name": "JScript .NET",
  "kind": "programming-language",
  "definition": "A version of Microsoft's JScript language that compiles to .NET code and adds features such as typed variables and classes.",
+ "description": {
+  "text": "JScript .NET is a proprietary .NET framework programming language from Microsoft. Unlike JScript, which runs as uncompiled scripts, it relies on a command-line compiler.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "JScript .NET",
+   "page_id": 840451,
+   "rev_id": 1319074114,
+   "rev_timestamp": "2025-10-27T17:29:11Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=JScript_.NET&oldid=1319074114",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "jscript-net",
  "certification": false,
  "language_type": "programming",
@@ -194,6 +209,44 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "external-2026-10-29-muse-spark-1-3-xhigh"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-d",
+   "note": "adapted from the lead of Wikipedia: JScript .NET, revision 1319074114"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=JScript_.NET&oldid=1319074114",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-d",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "840451",
+    "method": "title",
+    "categories": [
+     ".NET programming languages",
+     "JavaScript dialect engines",
+     "JavaScript programming language family",
+     "Object-based programming languages",
+     "Articles with example JavaScript code"
+    ]
+   }
   }
  ]
 }

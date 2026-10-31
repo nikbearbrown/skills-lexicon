@@ -3,6 +3,21 @@
  "preferred_name": "Prolog",
  "kind": "programming-language",
  "definition": "A logic programming language in which programs are written as facts and rules and run by answering queries.",
+ "description": {
+  "text": "A logic programming language with origins in artificial intelligence, automated theorem proving and computational linguistics. It is mainly declarative: a program is a set of facts and rules defining relations, and computation starts by running a query.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "Prolog",
+   "page_id": 23485,
+   "rev_id": 1375083919,
+   "rev_timestamp": "2026-09-15T19:40:56Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=Prolog&oldid=1375083919",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "prolog",
  "certification": false,
  "language_type": "programming",
@@ -137,6 +152,47 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "external-2026-10-29-gpt-6-unknown"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-f",
+   "note": "adapted from the lead of Wikipedia: Prolog, revision 1375083919"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=Prolog&oldid=1375083919",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-f",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "23485",
+    "method": "title",
+    "categories": [
+     "Dynamically typed programming languages",
+     "French inventions",
+     "Homoiconic programming languages",
+     "Logic programming languages",
+     "Pattern matching programming languages",
+     "Programming languages created in 1972",
+     "Programming languages with an ISO standard",
+     "Prolog programming language family"
+    ]
+   }
   }
  ]
 }

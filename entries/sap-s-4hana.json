@@ -3,6 +3,21 @@
  "preferred_name": "SAP S/4HANA",
  "kind": "platform",
  "definition": "SAP's enterprise resource planning suite built to run on the SAP HANA in-memory database.",
+ "description": {
+  "text": "Enterprise resource planning software for large enterprises developed by SAP SE. It succeeds SAP R/3 and SAP ERP and is optimized for SAP's in-memory database SAP HANA.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "SAP S/4HANA",
+   "page_id": 48526324,
+   "rev_id": 1365808061,
+   "rev_timestamp": "2026-07-24T14:36:59Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=SAP_S%2F4HANA&oldid=1365808061",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "sap-s-4hana",
  "certification": false,
  "variants": [
@@ -184,6 +199,46 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "external-2026-10-29-gpt-6-unknown"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-f",
+   "note": "adapted from the lead of Wikipedia: SAP S/4HANA, revision 1365808061"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=SAP_S%2F4HANA&oldid=1365808061",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-f",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "48526324",
+    "method": "title",
+    "categories": [
+     "2015 software",
+     "SAP SE",
+     "ERP software",
+     "Enterprise software",
+     "Business software",
+     "Cloud applications",
+     "Cloud platforms"
+    ]
+   }
   }
  ]
 }

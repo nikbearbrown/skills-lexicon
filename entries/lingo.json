@@ -3,6 +3,21 @@
  "preferred_name": "Lingo",
  "kind": "programming-language",
  "definition": "The scripting language of Macromedia Director, later Adobe Director, used to build multimedia and games.",
+ "description": {
+  "text": "Lingo is a verbose object-oriented scripting language used in Adobe Director (formerly Macromedia Director). It is used to develop desktop software, interactive kiosks, CD-ROMs and Adobe Shockwave content.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "Lingo (programming language)",
+   "page_id": 493076,
+   "rev_id": 1358370490,
+   "rev_timestamp": "2026-06-08T07:22:29Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=Lingo_(programming_language)&oldid=1358370490",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "lingo",
  "certification": false,
  "language_type": "programming",
@@ -126,6 +141,40 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "2026-10-29-review-4e-opus"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-d",
+   "note": "adapted from the lead of Wikipedia: Lingo (programming language), revision 1358370490"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=Lingo_(programming_language)&oldid=1358370490",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-d",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "493076",
+    "method": "title",
+    "categories": [
+     "Scripting languages"
+    ]
+   }
   }
  ]
 }

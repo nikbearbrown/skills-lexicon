@@ -3,6 +3,21 @@
  "preferred_name": "Prototype JavaScript Framework",
  "kind": "framework",
  "definition": "A JavaScript framework that extends the browser's built-in objects with helpers for working with the page, Ajax requests and class-like inheritance.",
+ "description": {
+  "text": "A JavaScript framework created by Sam Stephenson as part of Ajax support in Ruby on Rails. It is a single JavaScript file, usually prototype.js, and is distributed standalone or with larger projects.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "Prototype JavaScript Framework",
+   "page_id": 6189087,
+   "rev_id": 1353541081,
+   "rev_timestamp": "2026-05-10T21:31:51Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=Prototype_JavaScript_Framework&oldid=1353541081",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "prototype-javascript-framework",
  "certification": false,
  "variants": [
@@ -156,6 +171,42 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "external-2026-10-29-gpt-6-unknown"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-f",
+   "note": "adapted from the lead of Wikipedia: Prototype JavaScript Framework, revision 1353541081"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=Prototype_JavaScript_Framework&oldid=1353541081",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-f",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "6189087",
+    "method": "title",
+    "categories": [
+     "JavaScript libraries",
+     "Ajax (programming)",
+     "Software using the MIT license"
+    ]
+   }
   }
  ]
 }

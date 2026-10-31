@@ -3,6 +3,21 @@
  "preferred_name": "Vehicle inspection",
  "kind": "skill",
  "definition": "Checking a vehicle's condition, such as its brakes, tires, lights and fluids, for safety and legal compliance.",
+ "description": {
+  "text": "A procedure mandated by governments in many countries in which a vehicle is inspected to ensure it conforms to safety or emissions regulations, or both. It may be required periodically or when ownership is transferred.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "Vehicle inspection",
+   "page_id": 6131698,
+   "rev_id": 1370907180,
+   "rev_timestamp": "2026-08-23T17:33:49Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=Vehicle_inspection&oldid=1370907180",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "vehicle-inspection",
  "certification": false,
  "variants": [],
@@ -85,6 +100,43 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "2026-10-29-review-5q-opus"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-g",
+   "note": "adapted from the lead of Wikipedia: Vehicle inspection, revision 1370907180"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=Vehicle_inspection&oldid=1370907180",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-g",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "6131698",
+    "method": "title",
+    "categories": [
+     "Automotive safety",
+     "Road transport",
+     "Car costs",
+     "Informal legal terminology"
+    ]
+   }
   }
  ]
 }

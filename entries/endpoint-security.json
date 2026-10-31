@@ -3,6 +3,21 @@
  "preferred_name": "Endpoint security",
  "kind": "skill",
  "definition": "Protecting end-user devices such as laptops, servers and phones from malware, intrusion and data loss.",
+ "description": {
+  "text": "An approach to protecting computer networks that are connected to client devices such as laptops, tablets, phones and Internet-of-things devices. It tries to ensure those devices meet a defined level of compliance with standards, since they create attack paths into corporate networks.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "Endpoint security",
+   "page_id": 47305463,
+   "rev_id": 1378296027,
+   "rev_timestamp": "2026-10-03T21:28:43Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=Endpoint_security&oldid=1378296027",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "endpoint-security",
  "certification": false,
  "variants": [],
@@ -128,6 +143,40 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "external-2026-10-29-gpt-6-unknown"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-c",
+   "note": "adapted from the lead of Wikipedia: Endpoint security, revision 1378296027"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=Endpoint_security&oldid=1378296027",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-c",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "47305463",
+    "method": "title",
+    "categories": [
+     "Security technology"
+    ]
+   }
   }
  ]
 }

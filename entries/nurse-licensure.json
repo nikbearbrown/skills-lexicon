@@ -3,6 +3,21 @@
  "preferred_name": "Nurse licensure",
  "kind": "credential",
  "definition": "A licence, issued by a state or national nursing board, that legally permits a person to practise as a nurse.",
+ "description": {
+  "text": "The process by which regulatory bodies, usually a Board of Nursing, regulate nursing practice in their jurisdiction. It grants permission to practice as a nurse after verifying the applicant meets minimum competencies to safely perform nursing activities.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "Nurse licensure",
+   "page_id": 41521927,
+   "rev_id": 1258310768,
+   "rev_timestamp": "2024-11-19T01:14:09Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=Nurse_licensure&oldid=1258310768",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "nurse-licensure",
  "certification": true,
  "certification_scope": "many-issuers",
@@ -125,6 +140,41 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "external-2026-10-29-gpt-6-unknown"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-e",
+   "note": "adapted from the lead of Wikipedia: Nurse licensure, revision 1258310768"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=Nurse_licensure&oldid=1258310768",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-e",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "41521927",
+    "method": "title",
+    "categories": [
+     "Nursing regulation",
+     "Occupational licensing"
+    ]
+   }
   }
  ]
 }

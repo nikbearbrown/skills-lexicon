@@ -3,6 +3,21 @@
  "preferred_name": "Art history",
  "kind": "knowledge",
  "definition": "The academic study of the history of visual art, including its styles, artists and the contexts in which it was made.",
+ "description": {
+  "text": "An academic discipline devoted to the study of artistic production and visual culture throughout human history. Art historians analyze artworks and study how art affects societies and how styles change over time.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "Art history",
+   "page_id": 21207536,
+   "rev_id": 1377902865,
+   "rev_timestamp": "2026-10-01T21:32:44Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=Art_history&oldid=1377902865",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "art-history",
  "certification": false,
  "variants": [],
@@ -99,6 +114,43 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "external-2026-10-29-gpt-6-unknown"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-a",
+   "note": "adapted from the lead of Wikipedia: Art history, revision 1377902865"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=Art_history&oldid=1377902865",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-a",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "21207536",
+    "method": "title",
+    "categories": [
+     "Art history",
+     "Art criticism",
+     "Fields of history",
+     "Humanities"
+    ]
+   }
   }
  ]
 }

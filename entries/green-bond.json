@@ -3,6 +3,21 @@
  "preferred_name": "Green bond",
  "kind": "knowledge",
  "definition": "A bond whose proceeds fund projects with environmental benefits, such as renewable energy.",
+ "description": {
+  "text": "A fixed-income bond used to fund projects with positive environmental benefits; those for climate change mitigation are also called climate bonds. They follow the Green Bond Principles of the International Capital Market Association, and proceeds go to pre-specified project types.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "Green bond",
+   "page_id": 27179299,
+   "rev_id": 1376158988,
+   "rev_timestamp": "2026-09-22T12:26:26Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=Green_bond&oldid=1376158988",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "green-bond",
  "certification": false,
  "variants": [],
@@ -99,6 +114,43 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "external-2026-10-29-gpt-6-unknown"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-c",
+   "note": "adapted from the lead of Wikipedia: Green bond, revision 1376158988"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=Green_bond&oldid=1376158988",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-c",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "27179299",
+    "method": "title",
+    "categories": [
+     "Government bonds",
+     "Climate change policy",
+     "Derivatives (finance)",
+     "Futures markets"
+    ]
+   }
   }
  ]
 }

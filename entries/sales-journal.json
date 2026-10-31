@@ -3,6 +3,21 @@
  "preferred_name": "Sales journal",
  "kind": "knowledge",
  "definition": "An accounting journal in which a business records the sales it makes on credit.",
+ "description": {
+  "text": "A specialized accounting journal and prime entry book that records a company's sales on credit, debiting accounts receivable and crediting revenue. It differs from the cash receipts journal, which books sales when cash is received.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "Sales journal",
+   "page_id": 20540092,
+   "rev_id": 1367315374,
+   "rev_timestamp": "2026-08-02T10:01:28Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=Sales_journal&oldid=1367315374",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "sales-journal",
  "certification": false,
  "variants": [],
@@ -99,6 +114,42 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "external-2026-10-29-gpt-6-unknown"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-f",
+   "note": "adapted from the lead of Wikipedia: Sales journal, revision 1367315374"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=Sales_journal&oldid=1367315374",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-f",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "20540092",
+    "method": "title",
+    "categories": [
+     "Accounting journals and ledgers",
+     "Accounts receivable",
+     "Sales"
+    ]
+   }
   }
  ]
 }

@@ -3,6 +3,21 @@
  "preferred_name": "PRINCE2",
  "kind": "method",
  "definition": "A process-based method for managing projects in defined stages, first developed for the UK government.",
+ "description": {
+  "text": "A structured project management method and practitioner certification programme that divides projects into manageable, controllable stages. It was developed as a UK government standard for information systems projects and is used in many countries.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "PRINCE2",
+   "page_id": 353674,
+   "rev_id": 1359078736,
+   "rev_timestamp": "2026-06-12T23:17:42Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=PRINCE2&oldid=1359078736",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "prince2",
  "certification": false,
  "variants": [
@@ -157,6 +172,41 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "external-2026-10-29-gpt-6-unknown"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-f",
+   "note": "adapted from the lead of Wikipedia: PRINCE2, revision 1359078736"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=PRINCE2&oldid=1359078736",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-f",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "353674",
+    "method": "title",
+    "categories": [
+     "PRINCE2",
+     "Project management certification"
+    ]
+   }
   }
  ]
 }

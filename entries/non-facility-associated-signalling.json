@@ -3,6 +3,21 @@
  "preferred_name": "Non-Facility Associated Signalling",
  "kind": "knowledge",
  "definition": "An ISDN primary rate interface arrangement in which a single D channel carries the signalling for several PRI trunk groups.",
+ "description": {
+  "text": "A Primary Rate Interface configuration in which multiple T1 carriers share one signaling channel (D channel). A single Primary Rate ISDN circuit normally has 23 bearer channels plus one D channel; NFAS lets several circuits share a D channel.",
+  "adapted": true,
+  "source": {
+   "name": "English Wikipedia",
+   "title": "Non-Facility Associated Signalling",
+   "page_id": 1029139,
+   "rev_id": 1338551437,
+   "rev_timestamp": "2026-02-15T21:18:22Z",
+   "url": "https://en.wikipedia.org/w/index.php?title=Non-Facility_Associated_Signalling&oldid=1338551437",
+   "dump": "20261001",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+ },
  "key": "non-facility-associated-signalling",
  "certification": false,
  "variants": [
@@ -157,6 +172,40 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "external-2026-10-29-gpt-6-unknown"
+  },
+  {
+   "field": "description",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-e",
+   "note": "adapted from the lead of Wikipedia: Non-Facility Associated Signalling, revision 1338551437"
+  },
+  {
+   "field": "description",
+   "by": "source:wikipedia-enwiki-20261001",
+   "action": "matched_source",
+   "kind": "wikipedia",
+   "verification": "dump-match",
+   "outcome": "supports",
+   "ref": "https://en.wikipedia.org/w/index.php?title=Non-Facility_Associated_Signalling&oldid=1338551437",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-rewrite-e",
+   "organization": {
+    "name": "Wikipedia, Wikimedia Foundation",
+    "url": "https://en.wikipedia.org/",
+    "type": "reference-work",
+    "country": "INT"
+   },
+   "note": "the page was matched to the entry by title rule and category fit, not by a person",
+   "match": {
+    "dataset": "enwiki-20261001",
+    "dataset_id": "1029139",
+    "method": "title",
+    "categories": [
+     "Integrated Services Digital Network"
+    ]
+   }
   }
  ]
 }
