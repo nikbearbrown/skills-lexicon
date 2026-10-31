@@ -24,4 +24,4 @@ Sources in use or planned. "On the cluster" means a raw copy at `/projects/aisku
 | Open English WordNet | 2025 | CC BY 4.0 (derived from the WordNet License) | the same, maintained and newer | on the cluster, not yet used |
 | ESCO | v1.2.1 | not stated on its download page | occupations, skills, hierarchy, essential or optional skill relations | **not downloaded.** The download needs an email and acceptance of a privacy statement. By the rule above it stays out until its licence is found in writing |
 | Kaggle datasets | declared per dataset | declared per dataset | occurrence counts of skill labels | on a branch, not merged; sources with unclear licences already left out |
-| Outside model reviews | none claimed on the answers | opinions, recorded as evidence that never backs a claim | recorded 2026-10-30 |
+| Outside model reviews | 2026-10-30 | none claimed on the answers | opinions, recorded as evidence that never backs a claim | recorded in the repository (GPT-6, Muse Spark 1.3) |
