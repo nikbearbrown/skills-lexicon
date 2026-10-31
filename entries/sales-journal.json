@@ -150,6 +150,15 @@
      "Sales"
     ]
    }
+  },
+  {
+   "field": "description",
+   "by": "model:claude-opus-5-5",
+   "action": "checked",
+   "outcome": "contradicts",
+   "date": "2026-10-31",
+   "run": "2026-10-31-desc-check-e",
+   "note": "adds-information: Says it debits accounts receivable; lead only says it tracks sales of an accounts receivable account and credits revenue."
   }
  ]
 }
