@@ -248,6 +248,7 @@ class Ingest(unittest.TestCase):
         root = temp_root()
         p = root / "entries" / "postgresql.json"
         e = json.loads(p.read_text())
+        e.pop("description", None)            # the real entry may carry a description whose evidence this test replaces
         e["status"] = "reviewed"
         e["provenance"]["reviewed_by"] = "human:Bear"
         e["evidence"] = [{"field": k, "by": "human:Bear", "action": "checked", "outcome": "supports", "date": "2026-10-27"}
