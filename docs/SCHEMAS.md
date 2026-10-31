@@ -59,6 +59,27 @@ Facts found while checking a certification: official name, acronym, type, specif
 
 Open in v0: the validator asks for evidence on `certification` and `certification_scope`, not on each part of the block. Revise after the first 25 to 50 credentials are checked; 21 have been.
 
+## Descriptions adapted from an outside article
+
+`definition` is one sentence a model wrote from memory. `description` is different: a short explanation of what the thing is, **adapted from an outside article**, so it carries its source.
+
+```json
+"description": {
+  "text": "Kubernetes, also called K8s, is an open-source system for automating the deployment, scaling and management of software that runs in containers.",
+  "adapted": true,
+  "source": { "name": "English Wikipedia", "title": "Kubernetes", "page_id": 43291963, "rev_id": 1377943065, "rev_timestamp": "2026-10-02T02:10:19Z",
+              "url": "https://en.wikipedia.org/w/index.php?title=Kubernetes&oldid=1377943065", "dump": "20261001",
+              "licence": "CC BY-SA 4.0", "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/" }
+}
+```
+
+- The text is the lead of the article, reworded and shortened by a model under one rule: use only facts stated in the lead. It is never a copy. It is still derived from Wikipedia, so **the description text is CC BY-SA 4.0**, with attribution to the article's contributors through the revision link. The rest of the repository stays MIT; the licence is recorded on the field.
+- `description` is a claim like the others, with evidence: a `drafted` record by the model that reworded it, and a `matched_source` record (kind `wikipedia`, verification `dump-match`) naming the same revision, with the Wikipedia categories of the page. The validator refuses a description without that record, a revision link that does not match `rev_id`, or a licence other than CC BY-SA 4.0.
+- Which article an entry gets is decided by `scripts/wikipedia_match/resolve_matches.py` (relation `same`), a rule over titles, redirects and page categories. A person has not checked that match. Treat the `dump-match` record as "this text is from that revision", and the identity of the match as about 97% right in a small sample.
+- A second model compares each description with its lead (faithful, adds information, changes meaning, wrong subject). That is a `checked` record and never backs the claim; a contradicting one is a flag for a person.
+- Entries without a `same` Wikipedia page have no description. `definition` is still there for them.
+- Run: `python3 -I scripts/wikipedia_match/descriptions.py --help`.
+
 ## Passes
 
 | Pass | Where | State |

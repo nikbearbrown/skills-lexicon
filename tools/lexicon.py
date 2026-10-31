@@ -158,7 +158,7 @@ def claim_keys(e):
     keys |= {f"variant:{norm(v['label'])}" for v in e.get("variants", []) if v.get("label")}
     keys |= {f"relation:{r['type']}:{r['target']}" for r in e.get("relations", []) if "type" in r and "target" in r}
     keys |= {f"verb:{norm(v)}" for v in e.get("verbs", [])}
-    keys |= {k for k in ("certification", "certification_scope", "language_type") if k in e}
+    keys |= {k for k in ("certification", "certification_scope", "language_type", "description") if k in e}
     return keys
 
 
@@ -203,6 +203,40 @@ def check_evidence(e, errs):
         for ev in evid:
             if ev.get("outcome") == "contradicts":
                 errs.append(f"{f}: reviewed entry has unresolved contradicting evidence on {ev.get('field')}")
+
+
+DESCRIPTION_LICENCE = "CC BY-SA 4.0"
+WIKI_URL = re.compile(r"^https://en\.wikipedia\.org/w/index\.php\?title=[^&\s]+&oldid=(\d+)$")
+
+
+def check_description(e, errs):
+    """A description is text adapted from an outside article, so it carries its source, revision and licence, and a matched_source
+    evidence record that names the same revision."""
+    d, f = e.get("description"), e.get("_file", "?")
+    if d is None:
+        return
+    if not (isinstance(d, dict) and isinstance(d.get("text"), str) and d["text"].strip() and len(d["text"]) <= 700):
+        errs.append(f"{f}: description needs text of 1 to 700 characters")
+        return
+    src = d.get("source")
+    if not isinstance(src, dict):
+        errs.append(f"{f}: description needs a source")
+        return
+    for k in ("name", "title", "rev_timestamp", "dump", "licence", "licence_url", "url"):
+        if not (isinstance(src.get(k), str) and src[k].strip()):
+            errs.append(f"{f}: description.source needs {k}")
+    for k in ("page_id", "rev_id"):
+        if not isinstance(src.get(k), int):
+            errs.append(f"{f}: description.source needs {k} as a number")
+    if src.get("licence") != DESCRIPTION_LICENCE:
+        errs.append(f"{f}: description.source.licence must be {DESCRIPTION_LICENCE}")
+    m = WIKI_URL.match(str(src.get("url", "")))
+    if not m or int(m.group(1)) != src.get("rev_id"):
+        errs.append(f"{f}: description.source.url must be a Wikipedia permalink to revision rev_id")
+    if d.get("adapted") is not True:
+        errs.append(f"{f}: description.adapted must be true: the text is adapted from the source, not copied")
+    if not any(ev.get("field") == "description" and ev.get("action") == "matched_source" and ev.get("ref") == src.get("url") for ev in e.get("evidence", [])):
+        errs.append(f"{f}: description has no matched_source evidence naming its source revision")
 
 
 def validate(entries):
@@ -251,6 +285,7 @@ def validate(entries):
             if not (isinstance(p, dict) and p.get("reviewed_by")):
                 errs.append(f"{f}: a reviewed entry needs provenance.reviewed_by")
         check_evidence(e, errs)
+        check_description(e, errs)
         if e.get("name_match", "word_ci") not in MATCHES:
             errs.append(f"{f}: name_match must be one of {sorted(MATCHES)}")
         seen = set()

@@ -24,6 +24,7 @@
                                  "code": { "type": "string", "minLength": 1 } } }
     },
     "definition": { "type": "string", "minLength": 1, "description": "One plain sentence, in our own words." },
+    "description": { "$ref": "#/$defs/description" },
     "name_match": { "enum": ["word_ci", "exact_case"], "default": "word_ci" },
     "needs_context": { "type": "array", "items": { "type": "string", "minLength": 1 } },
     "name_ambiguous": { "type": "boolean" },
@@ -46,6 +47,32 @@
     { "if": { "properties": { "status": { "const": "deprecated" } }, "required": ["status"] }, "then": { "required": ["replacements"], "properties": { "replacements": { "minItems": 1 } } } }
   ],
   "$defs": {
+    "description": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["text", "source", "adapted"],
+      "description": "A short explanation of what the thing is, adapted from an outside article. Unlike `definition`, which a model wrote from memory, this is derived from a source and carries it. The text is licensed with the source.",
+      "properties": {
+        "text": { "type": "string", "minLength": 1, "maxLength": 700 },
+        "adapted": { "const": true, "description": "The text is rewritten from the source, not copied." },
+        "source": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["name", "title", "page_id", "rev_id", "rev_timestamp", "url", "dump", "licence", "licence_url"],
+          "properties": {
+            "name": { "const": "English Wikipedia" },
+            "title": { "type": "string", "minLength": 1 },
+            "page_id": { "type": "integer" },
+            "rev_id": { "type": "integer" },
+            "rev_timestamp": { "type": "string", "minLength": 1 },
+            "url": { "type": "string", "pattern": "^https://en\\.wikipedia\\.org/w/index\\.php\\?title=[^&\\s]+&oldid=\\d+$", "description": "A permalink to the exact revision." },
+            "dump": { "type": "string", "minLength": 1, "description": "The dump the text was read from, for example 20261001." },
+            "licence": { "const": "CC BY-SA 4.0" },
+            "licence_url": { "type": "string", "pattern": "^https://" }
+          }
+        }
+      }
+    },
     "variant": {
       "type": "object",
       "additionalProperties": false,
