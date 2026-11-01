@@ -40,7 +40,7 @@ def main(out="docs/REVIEW-FLAGS.md"):
             lines.append(f"- **{name}** (`{key}`, {cls}) · {f}")
             lines += [f"  - {m}: {note or 'no note'}" for m, note in sorted(who.items())]
         lines.append("")
-    for cls in ("certification", "language", "ability", "skill"):
+    for cls in ("certification", "language", "ability", "knowledge", "skill"):
         if not by[cls]:
             continue
         lines += [f"## {cls.capitalize()} ({len(by[cls])})", ""]

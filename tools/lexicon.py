@@ -45,10 +45,11 @@ LANGUAGE_KINDS = {"programming-language", "markup-language", "style-language", "
 
 
 def top_class(e):
-    """The four-way split of what job listings ask for: ability, certification, language, and skill, which is whatever
+    """The five-way split of what job listings ask for: ability, knowledge, certification, language, and skill, which is whatever
     is left. Worked out from `kind`, never stored: `credential` is a certification, a language kind is a language."""
     k = e.get("kind")
-    return "ability" if k == "ability" else "certification" if k == "credential" else "language" if k in LANGUAGE_KINDS else "skill"
+    return ("ability" if k == "ability" else "knowledge" if k == "knowledge" else "certification" if k == "credential"
+            else "language" if k in LANGUAGE_KINDS else "skill")
 
 
 EFFORTS = {"low", "medium", "high", "xhigh", "max", "unknown"}

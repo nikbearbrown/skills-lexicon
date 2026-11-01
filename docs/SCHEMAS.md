@@ -2,18 +2,19 @@
 
 The lexicon does not decide that something is a skill, an ability, a certification or a language. It gathers **evidence** that it is, and evidence against, with who gave it and how much was checked. Later passes decide what to keep. A value on an entry (`kind`, `certification`, `language_type`) is the current hypothesis of the pass that drafted it, and the `evidence` list says why anyone should believe it. `status: reviewed` is a decision, and only a named person makes it.
 
-## What is in the lexicon, and the four classes
+## What is in the lexicon, and the five classes
 
-The test for being in the lexicon is that **job listings ask for it**. What they ask for falls into four classes:
+The test for being in the lexicon is that **job listings ask for it**. What they ask for falls into five classes. Their definitions and the reasoning are in [CLASSES.md](CLASSES.md):
 
 | Class | What it is | Basis |
 |---|---|---|
 | **ability** | An enduring attribute a person has: Oral Comprehension, Spatial Orientation. | O*NET's 52 Abilities (`abilities/`). O*NET may miss some abilities job listings ask for; those are drafted like anything else and lack the O*NET match. |
+| **knowledge** | An organised body of facts and principles a person has learned and can apply: contract law, organic chemistry, network protocols. "Knowing that", where a skill is "knowing how". | The `knowledge` kind. O*NET's 33 Knowledge areas are the reference. |
 | **certification** | A credential attested by an official organization: a certification, certificate, licence, permit, endorsement, degree or clearance. | The attestation: the organization's **name** and a **link** to it. |
-| **language** | A human language (spoken, signed or extinct) or a programming language. | `language_type`: `human` or `programming`. A markup, style, query or modelling language counts as `programming`; `kind` keeps them apart. |
-| **skill** | Whatever is left: something job listings ask for that is not an ability, a certification or a language. Tools, platforms, methods and knowledge areas fall here. | Evidence that listings ask for it (below). |
+| **language** | A learned system of communication, human (spoken, signed or extinct) or programming. The entry names the system; what a listing asks for is proficiency in it, a developed capacity. | `language_type`: `human` or `programming`. A markup, style, query or modelling language counts as `programming`; `kind` keeps them apart. |
+| **skill** | Whatever is left: something job listings ask for that is not an ability, knowledge, a certification or a language. Tools, platforms, methods and standards fall here. | Evidence that listings ask for it (below). |
 
-The class is worked out from `kind` and never stored (`lexicon.top_class`): `ability` is an ability, `credential` a certification, the five language kinds a language, and every other kind a skill. `kind` stays finer than the class and comes from a fixed list, which keeps the O*NET split: `ability`, `skill`, `knowledge`, `work-activity`, then named technology (`tool`, `platform`, `framework`, `library`), the language kinds, `method`, `standard`, `credential`.
+The class is worked out from `kind` and never stored (`lexicon.top_class`): `ability` is an ability, `knowledge` is knowledge, `credential` a certification, the five language kinds a language, and every other kind a skill. `kind` stays finer than the class and comes from a fixed list, which keeps the O*NET split: `ability`, `skill`, `knowledge`, `work-activity`, then named technology (`tool`, `platform`, `framework`, `library`), the language kinds, `method`, `standard`, `credential`.
 
 A caveat on "whatever is left": it is a residual class, so it grows as other classes are carved out, and it holds quite different things. That is why `kind` is kept underneath it. O*NET's own definitions are tighter (Skills are developed capacities such as Critical Thinking; Knowledge is an organised body of facts) and can be used to split the residue once the O*NET Skills, Knowledge and Technology Skills lists are loaded.
 

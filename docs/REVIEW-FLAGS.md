@@ -4,7 +4,7 @@
 
 ## Contradicted by two or more different models (114)
 
-- **ABEC scale** (`abec-scale`, skill) · kind
+- **ABEC scale** (`abec-scale`, knowledge) · kind
   - claude-opus-5-5: ABEC is an ABMA bearing-tolerance standard (now ABMA Std 20); kind should be standard, not knowledge.
   - gpt-6: ABEC is a standardized bearing-tolerance classification; standard is more precise than knowledge.
   - muse-spark-1.3: It is a bearing tolerance standard (ABEC grades 1-9, aligned with ISO), so kind should be standard.
@@ -12,7 +12,7 @@
   - claude-opus-5-5: Statistical methodology/field (Rubin, Pearl), not the same as the reasoning ability.
   - gpt-6: Causal inference is a methodological task or field, not necessarily the general personal reasoning capacity.
   - muse-spark-1.3: causal inference is the statistical discipline; this entry is the cognitive ability
-- **NFPA 70E** (`nfpa-70e`, skill) · kind
+- **NFPA 70E** (`nfpa-70e`, knowledge) · kind
   - claude-opus-5-5: NFPA 70E is a standard; allowed kind 'standard' fits, not 'knowledge'.
   - claude-sonnet-5-5: second draft (xhigh) said standard
   - gpt-6: NFPA 70E is a named standard, so standard is more precise than knowledge.
@@ -20,11 +20,11 @@
   - claude-opus-5-5: Means started by oneself (e.g. a self-started business), not the trait.
   - gpt-6: This past-tense form does not mean a person who habitually takes initiative.
   - muse-spark-1.3: a past-tense verb form; it does not name the trait
-- **TL 9000** (`tl-9000`, skill) · kind
+- **TL 9000** (`tl-9000`, knowledge) · kind
   - claude-opus-5-5: TL 9000 is a standard; allowed kind 'standard' fits, not 'knowledge'.
   - claude-sonnet-5-5: second draft (xhigh) said standard
   - gpt-6: TL 9000 is explicitly a quality management system standard, so standard fits rather than knowledge.
-- **Actuarial exams** (`actuarial-exams`, skill) · kind
+- **Actuarial exams** (`actuarial-exams`, knowledge) · kind
   - claude-opus-5-5: An exam series toward SOA/CAS credentials; credential fits better than knowledge.
   - muse-spark-1.3: An examination series on the way to a credential, not a body of knowledge; kind should be credential.
 - **Adaptability** (`adaptability`, ability) · variant adaptabilities
@@ -57,19 +57,19 @@
 - **American Society of Pension Professionals and Actuaries certification** (`american-society-of-pension-professionals-and-actuaries-certification`, certification) · variant american society of pension professionals and actuaries
   - gpt-6: This is the issuing organization, not its certification.
   - muse-spark-1.3: names the issuing body, not the certification
-- **Application-specific integrated circuit** (`application-specific-integrated-circuit`, skill) · variant application specific integrated curcuits
+- **Application-specific integrated circuit** (`application-specific-integrated-circuit`, knowledge) · variant application specific integrated curcuits
   - claude-opus-5-5: Misspelling of 'Circuits'.
   - gpt-6: Curcuits is a misspelling of Circuits; use the correctly spelled variant already present.
 - **Armed Forces Health Longitudinal Technology Application** (`armed-forces-health-longitudinal-technology-application`, skill) · variant armed forces health longitudinal technology application (ahtla)
   - claude-opus-5-5: Acronym misspelled; it is AHLTA.
   - gpt-6: The abbreviation is AHLTA, not AHTLA; the letters are transposed.
-- **ARP4754** (`arp4754`, skill) · kind
+- **ARP4754** (`arp4754`, knowledge) · kind
   - claude-opus-5-5: An SAE Aerospace Recommended Practice is a standards document; kind 'standard' fits.
   - gpt-6: ARP4754 is an SAE aerospace recommended practice/standard, not merely a knowledge area.
-- **ASC 340** (`asc-340`, skill) · kind
+- **ASC 340** (`asc-340`, knowledge) · kind
   - claude-opus-5-5: A codified US GAAP accounting-standard topic; kind 'standard' fits.
   - gpt-6: ASC 340 is a codified accounting-standard topic; standard is the appropriate kind.
-- **Autonomic nervous system** (`autonomic-nervous-system`, skill) · variant autonomic servous system
+- **Autonomic nervous system** (`autonomic-nervous-system`, knowledge) · variant autonomic servous system
   - claude-opus-5-5: Misspelling ('Servous').
   - gpt-6: Servous is a typo for Nervous; this is not a valid alternative term.
 - **Blast radius analysis** (`blast-radius`, skill) · variant blast radius
@@ -90,13 +90,13 @@
 - **Btrieve** (`btrieve`, skill) · definition
   - claude-opus-5-5: Btrieve was created by SoftCraft and sold by Novell before Pervasive took it over; not originally Pervasive's.
   - gpt-6: Btrieve originated at SoftCraft, before Novell and Pervasive; Pervasive was not its original developer.
-- **Cardiovascular physiology** (`cardiovascular-physiology`, skill) · variant cardiovasculars physiology
+- **Cardiovascular physiology** (`cardiovascular-physiology`, knowledge) · variant cardiovasculars physiology
   - claude-opus-5-5: Malformed spelling, not a real form of the name
   - gpt-6: Cardiovasculars is a malformed form of cardiovascular.
 - **Certified Nurse-Midwife** (`certified-nurse-midwife`, certification) · variant nurse midwife
   - claude-opus-5-5: Occupation title, not the AMCB credential; also used for non-certified roles abroad
   - gpt-6: This is a professional role and does not by itself specify AMCB certification.
-- **Child nutrition** (`child-nutrition`, skill) · variant child nutritions
+- **Child nutrition** (`child-nutrition`, knowledge) · variant child nutritions
   - claude-opus-5-5: Ungrammatical plural, not a real form of the term
   - gpt-6: Nutrition is not normally pluralized this way; the established term is child nutrition.
 - **Citrix Certified Integration Architect** (`citrix-certified-integration-architect`, certification) · variant citrix certified integratrion architecture
@@ -105,7 +105,7 @@
 - **Collaborative Planning, Forecasting and Replenishment** (`collaborative-planning-forecasting-and-replenishment`, skill) · variant collaborative planning forecasting sandsreplenishment
   - claude-opus-5-5: Garbled text ('SandsReplenishment')
   - gpt-6: SandsReplenishment is corrupted text; the conjunction should be and.
-- **Computer networking** (`computer-networking`, skill) · variant network protocols
+- **Computer networking** (`computer-networking`, knowledge) · variant network protocols
   - claude-opus-5-5: Narrower subtopic (protocols), not a synonym for networking.
   - gpt-6: Protocols are one component of computer networking, not an equivalent name for the whole field.
 - **Concurrent engineering** (`concurrent-engineering`, skill) · variant simultaneous engineering wikipedia
@@ -117,10 +117,10 @@
 - **CryEngine** (`cryengine`, skill) · variant cryengines
   - claude-opus-5-5: Plural of a product name; not a form the engine is called
   - gpt-6: CryEngine is the product name; this pluralized form is not an established alternate name.
-- **Cybersecurity** (`cybersecurity`, skill) · variant network security
+- **Cybersecurity** (`cybersecurity`, knowledge) · variant network security
   - claude-opus-5-5: Narrower subfield of cybersecurity, not a synonym.
   - gpt-6: Network security is a subset of cybersecurity, not an equivalent term for the whole field.
-- **Data as a Service** (`data-as-a-service`, skill) · variant data as a services
+- **Data as a Service** (`data-as-a-service`, knowledge) · variant data as a services
   - claude-opus-5-5: Ungrammatical plural 'Services'; a misspelling of the name
   - gpt-6: The singular article and plural noun are malformed; the established term is Data as a Service.
 - **Data engineering** (`data-engineering`, skill) · variant data pipelines
@@ -162,10 +162,10 @@
 - **French** (`french`, language) · variant french languages
   - gpt-6: This plural changes the name of the single French language.
   - muse-spark-1.3: the plural implies a family of languages; this entry is the single language French
-- **Generative AI** (`generative-ai`, skill) · variant generative modeling
+- **Generative AI** (`generative-ai`, knowledge) · variant generative modeling
   - claude-opus-5-5: Older, broader ML notion (generative vs discriminative models, e.g. naive Bayes).
   - gpt-6: Generative modeling also covers probabilistic statistical models beyond content-generating AI.
-- **Generative AI** (`generative-ai`, skill) · variant generative models
+- **Generative AI** (`generative-ai`, knowledge) · variant generative models
   - claude-opus-5-5: Broader ML notion (generative vs discriminative), not Generative AI.
   - gpt-6: Names models rather than the broader field/methods of generative AI.
 - **GoSystem Tax RS** (`gosystem-tax-rs`, skill) · variant gosystems (tax software)
@@ -174,7 +174,7 @@
 - **Guardrails AI** (`guardrails-product`, skill) · variant guardrails
   - claude-opus-5-5: Bare label collides with generic AI guardrails concept (key guardrails).
   - gpt-6: Ambiguous with the generic guardrail concept; use the product's disambiguated name Guardrails AI.
-- **Hadron physics** (`hadron-physics`, skill) · variant hadrons (partical physics)
+- **Hadron physics** (`hadron-physics`, knowledge) · variant hadrons (partical physics)
   - claude-opus-5-5: Misspelling ('Partical') and names the particles, not the field of study.
   - gpt-6: Partical is misspelled, and hadrons are the particles rather than the field of hadron physics.
 - **HCFA regulations** (`hcfa-regulations`, skill) · variant health care finance administration (hcfa) regulations
@@ -219,7 +219,7 @@
 - **Meter data management** (`meter-data-management`, skill) · variant meter data management (flow meters)
   - claude-opus-5-5: Qualifier narrows the concept to flow meters; not a name in use.
   - gpt-6: Restricts the term to flow meters, while meter data management also covers electricity and other utility meters.
-- **Microscopic anatomy** (`microscopic-anatomy`, skill) · variant miscroscopic anatomy
+- **Microscopic anatomy** (`microscopic-anatomy`, knowledge) · variant miscroscopic anatomy
   - claude-opus-5-5: Misspelling of 'microscopic'.
   - gpt-6: Miscroscopic is a misspelling of microscopic.
 - **MicroStrategy Desktop** (`microstrategy-desktop`, skill) · variant microstrategy desktops
@@ -243,16 +243,16 @@
 - **Online demonstration** (`online-demonstration`, skill) · variant online demostration
   - claude-opus-5-5: misspelling of demonstration
   - gpt-6: Demostration is a misspelling of demonstration.
-- **Operations, administration, maintenance and provisioning** (`operations-administration-maintenance-and-provisioning`, skill) · variant operations administration maintenance sandsprovisioning (oamp)
+- **Operations, administration, maintenance and provisioning** (`operations-administration-maintenance-and-provisioning`, knowledge) · variant operations administration maintenance sandsprovisioning (oamp)
   - claude-opus-5-5: Garbled label: 'SandsProvisioning' is a typo for 'and Provisioning'.
   - gpt-6: SandsProvisioning is corrupted text; the conjunction should be and.
 - **Oracle Fixed Assets** (`oracle-fixed-assets`, skill) · variant oracle fixed assets|
   - claude-opus-5-5: Stray pipe character; a data-entry typo, not a real name.
   - gpt-6: The trailing vertical bar is stray source punctuation, not part of the product name.
-- **Oxidation processes** (`oxidation-processes`, skill) · variant oxidattion processes
+- **Oxidation processes** (`oxidation-processes`, knowledge) · variant oxidattion processes
   - claude-opus-5-5: Misspelling of 'Oxidation'.
   - gpt-6: Oxidattion is a misspelling of oxidation.
-- **Parasympathetic nervous system** (`parasympathetic-nervous-system`, skill) · variant parasypathetic nervous system
+- **Parasympathetic nervous system** (`parasympathetic-nervous-system`, knowledge) · variant parasypathetic nervous system
   - claude-opus-5-5: Misspelling of 'Parasympathetic'.
   - gpt-6: Parasypathetic is a misspelling of parasympathetic.
 - **Pediatric Advanced Life Support** (`pediatric-advanced-life-support`, certification) · certification_scope
@@ -276,22 +276,22 @@
 - **React** (`react`, skill) · variant react.js (javascript library library)
   - claude-opus-5-5: Garbled label with doubled 'Library'.
   - gpt-6: The qualifier repeats Library and is malformed.
-- **Real estate** (`real-estate`, skill) · variant real estates
+- **Real estate** (`real-estate`, knowledge) · variant real estates
   - claude-opus-5-5: Non-standard plural of a mass noun
   - gpt-6: Real estate is normally an uncountable field name; this plural changes or garbles the sense.
 - **Recruitment consulting** (`recruitment-consulting`, skill) · variant recruiment consultancy
   - claude-opus-5-5: Misspelling of Recruitment
   - gpt-6: Recruitment is misspelled.
-- **Refrigeration compressors** (`refrigeration-compressors`, skill) · variant refrigeration compressors|
+- **Refrigeration compressors** (`refrigeration-compressors`, knowledge) · variant refrigeration compressors|
   - claude-opus-5-5: Stray pipe character; data artefact
   - gpt-6: The trailing pipe is a formatting artifact.
-- **Registered Education Savings Plan** (`registered-education-savings-plan`, skill) · variant registered education savings planning
+- **Registered Education Savings Plan** (`registered-education-savings-plan`, knowledge) · variant registered education savings planning
   - claude-opus-5-5: Not a name used for the plan; malformed
   - gpt-6: Planning contributions is an activity, not the Registered Education Savings Plan itself.
 - **Registered Phlebology Sonographer** (`registered-phlebology-sonographer`, certification) · definition
   - claude-opus-5-5: RPhS is awarded by Cardiovascular Credentialing International (CCI), not ARDMS.
   - gpt-6: RPhS is awarded by Cardiovascular Credentialing International, not ARDMS.
-- **Relational database management system** (`relational-database-management-system`, skill) · variant relational database management system (rdms)
+- **Relational database management system** (`relational-database-management-system`, knowledge) · variant relational database management system (rdms)
   - claude-opus-5-5: Acronym misspelled; the short form is RDBMS
   - gpt-6: The acronym should be RDBMS; RDMS omits database's B.
 - **Reporting** (`reporting`, skill) · variant reportng
@@ -336,7 +336,7 @@
 - **Software testing** (`testing`, skill) · variant verification and validation (software)
   - claude-opus-5-5: V&V is broader (reviews, inspections, analysis), not a synonym.
   - gpt-6: Verification and validation include reviews and other non-testing methods, so they are broader than software testing.
-- **Software-defined WAN** (`software-defined-wan`, skill) · variant software-defined networking wide area network (sd-wan)
+- **Software-defined WAN** (`software-defined-wan`, knowledge) · variant software-defined networking wide area network (sd-wan)
   - claude-opus-5-5: Garbled expansion; SD-WAN is software-defined wide area network.
   - gpt-6: SD-WAN expands to software-defined wide area network; inserting Networking corrupts the expansion.
 - **Unisys MAPPER** (`unisys-mapper`, skill) · variant maintain prepare sandsproduce executive reports (mapper)
@@ -568,25 +568,142 @@
 - **Team-oriented** (`team-oriented`) · relation · claude-opus-5-5 (xhigh): Distinct trait; the link rests on the shared '-oriented' suffix.
 - **Team-oriented** (`team-oriented`) · relation · claude-opus-5-5 (xhigh): Distinct trait; the link rests on the shared '-oriented' suffix.
 
-## Skill (468)
+## Knowledge (121)
+
+- **ABEC scale** (`abec-scale`) · kind · claude-opus-5-5 (xhigh): ABEC is an ABMA bearing-tolerance standard (now ABMA Std 20); kind should be standard, not knowledge.
+- **ABEC scale** (`abec-scale`) · kind · gpt-6 (unknown): ABEC is a standardized bearing-tolerance classification; standard is more precise than knowledge.
+- **ABEC scale** (`abec-scale`) · kind · muse-spark-1.3 (xhigh): It is a bearing tolerance standard (ABEC grades 1-9, aligned with ISO), so kind should be standard.
+- **Actuarial exams** (`actuarial-exams`) · certification · muse-spark-1.3 (xhigh): Passes are attested by the SOA/CAS and each pass is a step in their credential scheme, so certification is true.
+- **Actuarial exams** (`actuarial-exams`) · kind · claude-opus-5-5 (xhigh): An exam series toward SOA/CAS credentials; credential fits better than knowledge.
+- **Actuarial exams** (`actuarial-exams`) · kind · muse-spark-1.3 (xhigh): An examination series on the way to a credential, not a body of knowledge; kind should be credential.
+- **Advanced Automatic Collision Notification** (`advanced-automatic-collision-notification`) · description · claude-opus-5-5 (medium): changes-meaning: Lead: CDC/OnStar partnership developed protocols for using crash data, not AACN itself; description says AACN was developed with them.
+- **Ancient philosophy** (`ancient-philosophy`) · definition · gpt-6 (unknown): Ancient philosophy also includes traditions such as ancient Indian and Chinese philosophy; the definition is too narrow.
+- **Application-specific integrated circuit** (`application-specific-integrated-circuit`) · variant application specific integrated curcuits · claude-opus-5-5 (xhigh): Misspelling of 'Circuits'.
+- **Application-specific integrated circuit** (`application-specific-integrated-circuit`) · variant application specific integrated curcuits · gpt-6 (unknown): Curcuits is a misspelling of Circuits; use the correctly spelled variant already present.
+- **Application-specific integrated circuit** (`application-specific-integrated-circuit`) · variant asic · claude-opus-5-5 (xhigh): Ambiguous in listings: also Australian Securities and Investments Commission and Aviation Security Identification Card.
+- **ARP4754** (`arp4754`) · kind · claude-opus-5-5 (xhigh): An SAE Aerospace Recommended Practice is a standards document; kind 'standard' fits.
+- **ARP4754** (`arp4754`) · kind · gpt-6 (unknown): ARP4754 is an SAE aerospace recommended practice/standard, not merely a knowledge area.
+- **ARP4754** (`arp4754`) · variant arp4754a · gpt-6 (unknown): The A suffix identifies a particular revision; it is not interchangeable with every edition of ARP4754.
+- **Arterial blood gas testing** (`arterial-blood-gas-testing`) · kind · gpt-6 (unknown): The entry names a testing procedure; method or skill fits arterial blood gas testing better than knowledge.
+- **ASC 340** (`asc-340`) · kind · claude-opus-5-5 (xhigh): A codified US GAAP accounting-standard topic; kind 'standard' fits.
+- **ASC 340** (`asc-340`) · kind · gpt-6 (unknown): ASC 340 is a codified accounting-standard topic; standard is the appropriate kind.
+- **Autonomic nervous system** (`autonomic-nervous-system`) · variant autonomic servous system · claude-opus-5-5 (xhigh): Misspelling ('Servous').
+- **Autonomic nervous system** (`autonomic-nervous-system`) · variant autonomic servous system · gpt-6 (unknown): Servous is a typo for Nervous; this is not a valid alternative term.
+- **Captive insurance** (`captive-insurance`) · variant captive insurance company · gpt-6 (unknown): An insurer is the organization providing captive insurance, not the insurance concept itself.
+- **Captive insurance** (`captive-insurance`) · variant insurance captives · gpt-6 (unknown): Names captive insurers, not the insurance arrangement itself.
+- **Cardiovascular physiology** (`cardiovascular-physiology`) · variant cardiovasculars physiology · claude-opus-5-5 (xhigh): Malformed spelling, not a real form of the name
+- **Cardiovascular physiology** (`cardiovascular-physiology`) · variant cardiovasculars physiology · gpt-6 (unknown): Cardiovasculars is a malformed form of cardiovascular.
+- **Child nutrition** (`child-nutrition`) · variant child nutritions · claude-opus-5-5 (xhigh): Ungrammatical plural, not a real form of the term
+- **Child nutrition** (`child-nutrition`) · variant child nutritions · gpt-6 (unknown): Nutrition is not normally pluralized this way; the established term is child nutrition.
+- **Chlorofluorocarbons** (`chlorofluorocarbons`) · variant cfcs · claude-opus-5-5 (xhigh): Also means controlled foreign corporations in tax listings
+- **Client access license** (`client-access-license`) · definition · gpt-6 (unknown): A CAL is an access entitlement/license for a user or device, not the licensing model itself.
+- **Client access license** (`client-access-license`) · variant client access licensing · gpt-6 (unknown): Names the licensing practice/model; a client access license is an individual entitlement.
+- **Commons-based peer production** (`commons-based-peer-production`) · definition · gpt-6 (unknown): Peer production uses shared resources and decentralized collaboration; it need not exclude central ownership or paid participation.
+- **Computer networking** (`computer-networking`) · variant computer networking systems · gpt-6 (unknown): Names network systems rather than the broader knowledge area of computer networking.
+- **Computer networking** (`computer-networking`) · variant network protocols · claude-opus-5-5 (xhigh): Narrower subtopic (protocols), not a synonym for networking.
+- **Computer networking** (`computer-networking`) · variant network protocols · gpt-6 (unknown): Protocols are one component of computer networking, not an equivalent name for the whole field.
+- **Cybersecurity** (`cybersecurity`) · variant network security · claude-opus-5-5 (xhigh): Narrower subfield of cybersecurity, not a synonym.
+- **Cybersecurity** (`cybersecurity`) · variant network security · gpt-6 (unknown): Network security is a subset of cybersecurity, not an equivalent term for the whole field.
+- **Data as a Service** (`data-as-a-service`) · variant data as a services · claude-opus-5-5 (xhigh): Ungrammatical plural 'Services'; a misspelling of the name
+- **Data as a Service** (`data-as-a-service`) · variant data as a services · gpt-6 (unknown): The singular article and plural noun are malformed; the established term is Data as a Service.
+- **Data localization** (`data-localization`) · definition · gpt-6 (unknown): Localization rules can cover different data classes and may require local storage without requiring all processing to remain local.
+- **Deposition (geology)** (`deposition-geology`) · definition · gpt-6 (unknown): Deposition also occurs underwater, including on lake and ocean floors; it is not limited to land masses.
+- **Digital rights management** (`digital-rights-management`) · variant drm · claude-opus-5-5 (xhigh): Also Oracle Data Relationship Management, disaster risk management, Direct Rendering Manager.
+- **Distributed computing** (`distributed-computing`) · variant distributed systems · gpt-6 (unknown): Distributed systems are the systems studied/built; distributed computing is the coordination of computation on them.
+- **Dynamic-link library** (`dynamic-link-library`) · variant dll · claude-opus-5-5 (xhigh): Also delay-locked loop (electronics) and doubly linked list.
+- **Endocrine disorders** (`endocrine-disorders`) · definition · gpt-6 (unknown): Endocrine disorders can involve hormone resistance or receptor defects, not only abnormal hormone-producing glands.
+- **Energy system transition** (`energy-system-transition`) · definition · gpt-6 (unknown): An energy-system transition is any major shift in the energy system; the current low-carbon transition is one example.
+- **Engineered materials arrestor system** (`engineered-materials-arrestor-system`) · definition · gpt-6 (unknown): EMAS uses engineered crushable materials, not necessarily concrete blocks; other arresting-bed materials are used.
+- **Extended Parallel Process Model** (`extended-parallel-process-model`) · variant eppm · claude-opus-5-5 (xhigh): Also Oracle Primavera EPPM (Enterprise Project Portfolio Management), common in listings.
+- **Extended reality** (`extended-reality`) · variant xr · claude-opus-5-5 (xhigh): Also the X-ray modality abbreviation in radiology (and iPhone XR).
+- **Fibre Channel** (`fibre-channel`) · variant fiber channel · claude-opus-5-5 (xhigh): Misspelling; the standard's official name is 'Fibre Channel' even in US usage.
+- **File control block** (`file-control-block`) · definition · gpt-6 (unknown): An FCB holds file-management metadata and is not inherently restricted to files that are currently open.
+- **Generative AI** (`generative-ai`) · variant generative modeling · claude-opus-5-5 (xhigh): Older, broader ML notion (generative vs discriminative models, e.g. naive Bayes).
+- **Generative AI** (`generative-ai`) · variant generative modeling · gpt-6 (unknown): Generative modeling also covers probabilistic statistical models beyond content-generating AI.
+- **Generative AI** (`generative-ai`) · variant generative models · claude-opus-5-5 (xhigh): Broader ML notion (generative vs discriminative), not Generative AI.
+- **Generative AI** (`generative-ai`) · variant generative models · gpt-6 (unknown): Names models rather than the broader field/methods of generative AI.
+- **Great circle** (`great-circle`) · definition · gpt-6 (unknown): Only the shorter great-circle arc is shortest on a sphere; Earth's ellipsoidal surface instead has ellipsoidal geodesics.
+- **Hadron physics** (`hadron-physics`) · variant hadrons (partical physics) · claude-opus-5-5 (xhigh): Misspelling ('Partical') and names the particles, not the field of study.
+- **Hadron physics** (`hadron-physics`) · variant hadrons (partical physics) · gpt-6 (unknown): Partical is misspelled, and hadrons are the particles rather than the field of hadron physics.
+- **Historical linguistics** (`historical-linguistics`) · relation · claude-opus-5-5 (xhigh): Distinct linguistics subfields sharing only a parent; no meaningful relation.
+- **Human-machine interface** (`human-machine-interface`) · variant human -machine interface · claude-opus-5-5 (xhigh): Typo: stray space before the hyphen.
+- **Immunization** (`immunization`) · definition · gpt-6 (unknown): Immunization includes passive transfer of antibodies as well as active vaccination.
+- **Incurred but not reported** (`incurred-but-not-reported`) · definition · gpt-6 (unknown): Reported but unsettled claims are not IBNR merely because they remain unpaid; IBNR concerns unreported claims/development.
+- **Individual life insurance** (`individual-life-insurance`) · definition · gpt-6 (unknown): An individual policy can insure someone other than its purchaser, subject to insurable-interest and consent rules.
+- **Individualized Education Program** (`individualized-education-program`) · variant iep · claude-opus-5-5 (xhigh): Also Intensive English Program, common in ESL teaching listings.
+- **Industrial Internet of Things** (`industrial-internet-of-things`) · definition · gpt-6 (unknown): Industrial IoT devices can communicate on private networks without connecting to the public Internet.
+- **Large language models** (`large-language-models`) · variant llm · claude-opus-5-5 (xhigh): Ambiguous: LLM / LL.M. (Master of Laws) is common in legal job listings.
+- **Lawful interception** (`lawful-interception`) · definition · gpt-6 (unknown): Lawful interception is not restricted to interception performed by network operators; authorized agencies can also conduct it.
+- **Medical equipment** (`medical-equipment`) · variant medical equipments · claude-opus-5-5 (xhigh): Ungrammatical plural of an uncountable noun, not an accepted form.
+- **Metric system** (`metric-system`) · definition · gpt-6 (unknown): Metric systems include CGS and other variants; metre-kilogram-second describes MKS, not every metric system.
+- **Microscopic anatomy** (`microscopic-anatomy`) · variant miscroscopic anatomy · claude-opus-5-5 (xhigh): Misspelling of 'microscopic'.
+- **Microscopic anatomy** (`microscopic-anatomy`) · variant miscroscopic anatomy · gpt-6 (unknown): Miscroscopic is a misspelling of microscopic.
+- **Multi-core processors** (`multi-core-processors`) · definition · gpt-6 (unknown): Multi-core processors can use multiple dies/chiplets in one package; the cores need not all be on one monolithic chip.
+- **Mutual funds** (`mutual-funds`) · definition · gpt-6 (unknown): Mutual funds pool investors' money, but some are legally non-diversified or highly concentrated; diversification is not universal.
+- **Nanocomposites** (`nanocomposites`) · definition · gpt-6 (unknown): Nanocomposites need a nanoscale dimension in a constituent; they can include nanoscale layers and larger particles with nanoscale thickness.
+- **Natural language understanding** (`natural-language-understanding`) · kind · claude-sonnet-5-5 (xhigh): second draft (xhigh) said method
+- **NFPA 70E** (`nfpa-70e`) · kind · claude-sonnet-5-5 (xhigh): second draft (xhigh) said standard
+- **NFPA 70E** (`nfpa-70e`) · kind · claude-opus-5-5 (xhigh): NFPA 70E is a standard; allowed kind 'standard' fits, not 'knowledge'.
+- **NFPA 70E** (`nfpa-70e`) · kind · gpt-6 (unknown): NFPA 70E is a named standard, so standard is more precise than knowledge.
+- **Non-fungible tokens** (`non-fungible-tokens`) · definition · gpt-6 (unknown): An NFT records token ownership; it does not by itself establish ownership or rights in an associated asset.
+- **Non-fungible tokens** (`non-fungible-tokens`) · variant nft · claude-opus-5-5 (xhigh): also nutrient film technique (hydroponics) and other expansions
+- **Official statistics** (`official-statistics`) · definition · gpt-6 (unknown): Official statistics also come from ministries, central banks and international public bodies, not only statistical agencies.
+- **Operating systems** (`operating-systems`) · description · claude-opus-5-5 (medium): changes-meaning: Lead says time-sharing OSes schedule tasks; description drops the qualifier and says all operating systems schedule tasks.
+- **Operations, administration, maintenance and provisioning** (`operations-administration-maintenance-and-provisioning`) · variant operations administration maintenance sandsprovisioning (oamp) · claude-opus-5-5 (xhigh): Garbled label: 'SandsProvisioning' is a typo for 'and Provisioning'.
+- **Operations, administration, maintenance and provisioning** (`operations-administration-maintenance-and-provisioning`) · variant operations administration maintenance sandsprovisioning (oamp) · gpt-6 (unknown): SandsProvisioning is corrupted text; the conjunction should be and.
+- **Organic composition of capital** (`organic-composition-of-capital`) · definition · gpt-6 (unknown): Organic composition is value composition insofar as determined by technical composition, not simply any monetary capital-to-wage ratio.
+- **Outpatient surgery** (`outpatient-surgery`) · definition · gpt-6 (unknown): Outpatient status does not always mean same-day discharge; some patients remain overnight under observation without inpatient admission.
+- **Overhead camshaft engine** (`overhead-camshaft-engine`) · variant overhead camshaft · gpt-6 (unknown): Names the camshaft arrangement/component, not the complete engine concept.
+- **Overhead valve engine** (`overhead-valve-engine`) · variant overhead valve · gpt-6 (unknown): Names a valve arrangement rather than specifically the complete pushrod-engine concept.
+- **Oxidation processes** (`oxidation-processes`) · variant oxidattion processes · claude-opus-5-5 (xhigh): Misspelling of 'Oxidation'.
+- **Oxidation processes** (`oxidation-processes`) · variant oxidattion processes · gpt-6 (unknown): Oxidattion is a misspelling of oxidation.
+- **Parasympathetic nervous system** (`parasympathetic-nervous-system`) · variant parasypathetic nervous system · claude-opus-5-5 (xhigh): Misspelling of 'Parasympathetic'.
+- **Parasympathetic nervous system** (`parasympathetic-nervous-system`) · variant parasypathetic nervous system · gpt-6 (unknown): Parasypathetic is a misspelling of parasympathetic.
+- **Perioperative care** (`perioperative-care`) · variant perioperative · gpt-6 (unknown): An adjective meaning around surgery; it does not by itself mean the care provided.
+- **Personal Communications Service** (`personal-communications-service`) · definition · gpt-6 (unknown): PCS includes broadband and narrowband allocations; the broader service category is not confined to the 1.9 GHz band.
+- **Pharmacoinformatics** (`pharmacoinformatics`) · description · claude-opus-5-5 (medium): adds-information: Calls it 'the growing use' of IT; lead says the IT use is increasingly recognised as pharmacoinformatics, not that use is growing.
+- **Platform as a service** (`platform-as-a-service`) · variant platform as a services · claude-opus-5-5 (xhigh): Garbled plural; not a real form of the term
+- **Quantum Merlin Arthur** (`quantum-merlin-arthur`) · variant qma · claude-opus-5-5 (xhigh): QMA also names a quick-lock RF coaxial connector type
+- **Real estate** (`real-estate`) · variant real estates · claude-opus-5-5 (xhigh): Non-standard plural of a mass noun
+- **Real estate** (`real-estate`) · variant real estates · gpt-6 (unknown): Real estate is normally an uncountable field name; this plural changes or garbles the sense.
+- **Real estate contracts** (`real-estate-contracts`) · description · claude-opus-5-5 (medium): changes-meaning: Says freehold transfers are covered separately; lead says freehold conveyances ARE covered by real estate contracts.
+- **Real estate owned** (`real-estate-owned`) · variant reo · claude-opus-5-5 (xhigh): REO also means rare-earth oxide
+- **Refrigeration compressors** (`refrigeration-compressors`) · variant refrigeration compressors| · claude-opus-5-5 (xhigh): Stray pipe character; data artefact
+- **Refrigeration compressors** (`refrigeration-compressors`) · variant refrigeration compressors| · gpt-6 (unknown): The trailing pipe is a formatting artifact.
+- **Registered Education Savings Plan** (`registered-education-savings-plan`) · definition · gpt-6 (unknown): RESP beneficiaries need not be children, and grant eligibility is separate from registration of the savings plan.
+- **Registered Education Savings Plan** (`registered-education-savings-plan`) · variant registered education savings planning · claude-opus-5-5 (xhigh): Not a name used for the plan; malformed
+- **Registered Education Savings Plan** (`registered-education-savings-plan`) · variant registered education savings planning · gpt-6 (unknown): Planning contributions is an activity, not the Registered Education Savings Plan itself.
+- **Registered Education Savings Plan** (`registered-education-savings-plan`) · variant resp · claude-opus-5-5 (xhigh): RESP also names the Redis Serialization Protocol; 'Resp' also respiratory
+- **Regulation SHO** (`regulation-sho`) · kind · claude-sonnet-5-5 (xhigh): second draft (xhigh) said standard
+- **Reinforced masonry** (`reinforced-masonry`) · variant reinforced masonry building · gpt-6 (unknown): A building made with reinforced masonry is narrower than the construction material and system.
+- **Relational database management system** (`relational-database-management-system`) · variant relational database management system (rdms) · claude-opus-5-5 (xhigh): Acronym misspelled; the short form is RDBMS
+- **Relational database management system** (`relational-database-management-system`) · variant relational database management system (rdms) · gpt-6 (unknown): The acronym should be RDBMS; RDMS omits database's B.
+- **Rubber-tyred metro** (`rubber-tyred-metro`) · definition · gpt-6 (unknown): Many rubber-tyred metros also use steel wheels and rails for guidance, switches or backup; tyres do not simply replace them.
+- **Sales journal** (`sales-journal`) · description · claude-opus-5-5 (medium): adds-information: Says it debits accounts receivable; lead only says it tracks sales of an accounts receivable account and credits revenue.
+- **SCARA robot** (`scara-robot`) · definition · gpt-6 (unknown): SCARA arms also translate along a vertical axis; vertical rigidity describes compliance, not absence of vertical motion.
+- **Social impact bond** (`social-impact-bond`) · definition · gpt-6 (unknown): Government is a common outcome payer, but philanthropic or other non-government payers can also fund outcome payments.
+- **Software as a service** (`software-as-a-service`) · definition · gpt-6 (unknown): Provider hosting is central, but SaaS need not require a subscription; free and usage-based services also qualify.
+- **Software as a service** (`software-as-a-service`) · variant software as a services · gpt-6 (unknown): The expansion is Software as a Service; Services is malformed here.
+- **Software-defined WAN** (`software-defined-wan`) · variant software-defined networking wide area network (sd-wan) · claude-opus-5-5 (xhigh): Garbled expansion; SD-WAN is software-defined wide area network.
+- **Software-defined WAN** (`software-defined-wan`) · variant software-defined networking wide area network (sd-wan) · gpt-6 (unknown): SD-WAN expands to software-defined wide area network; inserting Networking corrupts the expansion.
+- **Statistics** (`statistics`) · variant statistical analysis · gpt-6 (unknown): Statistical analysis is an activity within statistics, not the whole discipline.
+- **Surgery** (`surgery`) · variant surgeries · claude-opus-5-5 (xhigh): plural means individual operations or (UK) GP practices, not the field
+- **TL 9000** (`tl-9000`) · kind · claude-sonnet-5-5 (xhigh): second draft (xhigh) said standard
+- **TL 9000** (`tl-9000`) · kind · claude-opus-5-5 (xhigh): TL 9000 is a standard; allowed kind 'standard' fits, not 'knowledge'.
+- **TL 9000** (`tl-9000`) · kind · gpt-6 (unknown): TL 9000 is explicitly a quality management system standard, so standard fits rather than knowledge.
+
+## Skill (347)
 
 - **3D modeling software** (`3d-modeling-software`) · variant 3d modeling softwares · muse-spark-1.3 (xhigh): ungrammatical plural; software is a mass noun
 - **3DMark** (`3dmark`) · variant 3dmark (computer benchmarking ) · muse-spark-1.3 (xhigh): the parenthetical is a category descriptor, not a name variant
 - **50% tissue culture infectious dose (TCID50)** (`50-tissue-culture-infectious-dose-tcid50`) · kind · gpt-6 (unknown): TCID50 is an infectivity dose/end-point measure, not itself a method; use knowledge or distinguish the assay.
-- **ABEC scale** (`abec-scale`) · kind · claude-opus-5-5 (xhigh): ABEC is an ABMA bearing-tolerance standard (now ABMA Std 20); kind should be standard, not knowledge.
-- **ABEC scale** (`abec-scale`) · kind · gpt-6 (unknown): ABEC is a standardized bearing-tolerance classification; standard is more precise than knowledge.
-- **ABEC scale** (`abec-scale`) · kind · muse-spark-1.3 (xhigh): It is a bearing tolerance standard (ABEC grades 1-9, aligned with ISO), so kind should be standard.
 - **Accelerated failure time models** (`accelerated-failure-time-models`) · description · claude-opus-5-5 (medium): changes-meaning: Lead: covariate accelerates 'life course of a disease'; description generalizes to 'course of the event being studied'.
 - **Accountancy and Passenger Ticket Issuing System** (`accountancy-and-passenger-ticket-issuing-system`) · variant aptis · claude-opus-5-5 (xhigh): Also the British Council's Aptis English test; ambiguous short form.
 - **Accounting software** (`accounting-software`) · variant accounting softwares · muse-spark-1.3 (xhigh): ungrammatical plural; software is a mass noun
 - **ACID Pro** (`acid-pro`) · variant sony acid · gpt-6 (unknown): ACID names a broader product family, including Music Studio; it does not uniquely identify ACID Pro.
-- **Actuarial exams** (`actuarial-exams`) · certification · muse-spark-1.3 (xhigh): Passes are attested by the SOA/CAS and each pass is a step in their credential scheme, so certification is true.
-- **Actuarial exams** (`actuarial-exams`) · kind · claude-opus-5-5 (xhigh): An exam series toward SOA/CAS credentials; credential fits better than knowledge.
-- **Actuarial exams** (`actuarial-exams`) · kind · muse-spark-1.3 (xhigh): An examination series on the way to a credential, not a body of knowledge; kind should be credential.
 - **Adaptive equipment** (`adaptive-equipment`) · kind · muse-spark-1.3 (xhigh): A class of physical devices, not a tool; what employers ask for is knowledge of adaptive equipment.
 - **Adaptive equipment** (`adaptive-equipment`) · variant adaptive equipments · muse-spark-1.3 (xhigh): ungrammatical plural; equipment is a mass noun
 - **Administering blood tests** (`administering-blood-tests`) · definition · gpt-6 (unknown): Drawing and preparing blood samples is phlebotomy/specimen collection; it does not itself perform the blood test.
-- **Advanced Automatic Collision Notification** (`advanced-automatic-collision-notification`) · description · claude-opus-5-5 (medium): changes-meaning: Lead: CDC/OnStar partnership developed protocols for using crash data, not AACN itself; description says AACN was developed with them.
 - **Agent tool use** (`tool-use`) · definition · gpt-6 (unknown): Tool use means selecting and invoking external capabilities and handling their results, not merely connecting an agent to them.
 - **Agent tool use** (`tool-use`) · variant function calling · gpt-6 (unknown): Function calling is a mechanism also used outside agents and does not itself imply agent tool execution.
 - **Agent tool use** (`tool-use`) · variant tool use and function calling · gpt-6 (unknown): This combines related mechanisms; function calling alone does not necessarily represent agent tool use.
@@ -601,7 +718,6 @@
 - **Algorithm analysis** (`algorithms`) · variant complexity analysis · gpt-6 (unknown): Complexity analysis is only part of algorithm analysis; it omits correctness analysis and can refer to other systems.
 - **All-terrain vehicle** (`all-terrain-vehicle`) · kind · muse-spark-1.3 (xhigh): A physical vehicle, not a tool; listings ask for operation and maintenance knowledge.
 - **Amiga** (`amiga`) · variant amiga (personal computers) · muse-spark-1.3 (xhigh): the parenthetical is a category descriptor, not a name variant
-- **Ancient philosophy** (`ancient-philosophy`) · definition · gpt-6 (unknown): Ancient philosophy also includes traditions such as ancient Indian and Chinese philosophy; the definition is too narrow.
 - **Android app development** (`android-app-development`) · variant android applications · gpt-6 (unknown): Applications are the products being built, not the activity of Android application development.
 - **Android UI development** (`android-ui-development`) · variant android ui · gpt-6 (unknown): An Android user interface is the object of development; the phrase alone does not denote the development skill.
 - **Anglo-American Cataloguing Rules** (`anglo-american-cataloguing-rules`) · variant aacr2 · gpt-6 (unknown): AACR2 specifically names the second edition; Anglo-American Cataloguing Rules also includes the first edition.
@@ -609,21 +725,10 @@
 - **Apache Ant** (`apache-ant`) · variant apache ants · gpt-6 (unknown): The product is Apache Ant; the pluralized form is a typo, not an established alternative product name.
 - **Apache Cocoon** (`apache-cocoon`) · description · claude-opus-5-5 (medium): changes-meaning: Lead says Cocoon was retired in January 2025 and is no longer developed; description presents it as a current framework.
 - **appletviewer** (`appletviewer`) · definition · gpt-6 (unknown): appletviewer was in older JDKs and was removed in JDK 11; the unqualified present-tense definition is misleading.
-- **Application-specific integrated circuit** (`application-specific-integrated-circuit`) · variant application specific integrated curcuits · claude-opus-5-5 (xhigh): Misspelling of 'Circuits'.
-- **Application-specific integrated circuit** (`application-specific-integrated-circuit`) · variant application specific integrated curcuits · gpt-6 (unknown): Curcuits is a misspelling of Circuits; use the correctly spelled variant already present.
-- **Application-specific integrated circuit** (`application-specific-integrated-circuit`) · variant asic · claude-opus-5-5 (xhigh): Ambiguous in listings: also Australian Securities and Investments Commission and Aviation Security Identification Card.
 - **Architectural rendering** (`architectural-rendering`) · definition · gpt-6 (unknown): Architectural renderings can be hand-drawn or stylized; neither photorealism nor a 3D model is required.
 - **Armed Forces Health Longitudinal Technology Application** (`armed-forces-health-longitudinal-technology-application`) · variant armed forces health longitudinal technology application (ahtla) · claude-opus-5-5 (xhigh): Acronym misspelled; it is AHLTA.
 - **Armed Forces Health Longitudinal Technology Application** (`armed-forces-health-longitudinal-technology-application`) · variant armed forces health longitudinal technology application (ahtla) · gpt-6 (unknown): The abbreviation is AHLTA, not AHTLA; the letters are transposed.
-- **ARP4754** (`arp4754`) · kind · claude-opus-5-5 (xhigh): An SAE Aerospace Recommended Practice is a standards document; kind 'standard' fits.
-- **ARP4754** (`arp4754`) · kind · gpt-6 (unknown): ARP4754 is an SAE aerospace recommended practice/standard, not merely a knowledge area.
-- **ARP4754** (`arp4754`) · variant arp4754a · gpt-6 (unknown): The A suffix identifies a particular revision; it is not interchangeable with every edition of ARP4754.
-- **Arterial blood gas testing** (`arterial-blood-gas-testing`) · kind · gpt-6 (unknown): The entry names a testing procedure; method or skill fits arterial blood gas testing better than knowledge.
-- **ASC 340** (`asc-340`) · kind · claude-opus-5-5 (xhigh): A codified US GAAP accounting-standard topic; kind 'standard' fits.
-- **ASC 340** (`asc-340`) · kind · gpt-6 (unknown): ASC 340 is a codified accounting-standard topic; standard is the appropriate kind.
 - **Atomic layer deposition** (`atomic-layer-deposition`) · definition · gpt-6 (unknown): ALD grows films by self-limiting cycles, often a fraction of a monolayer per cycle, not invariably one atomic layer.
-- **Autonomic nervous system** (`autonomic-nervous-system`) · variant autonomic servous system · claude-opus-5-5 (xhigh): Misspelling ('Servous').
-- **Autonomic nervous system** (`autonomic-nervous-system`) · variant autonomic servous system · gpt-6 (unknown): Servous is a typo for Nervous; this is not a valid alternative term.
 - **AWS OpsWorks** (`aws-opsworks`) · definition · gpt-6 (unknown): OpsWorks was discontinued; the definition should describe it historically rather than imply an available service.
 - **Bacterial culture** (`bacterial-culture`) · variant bacteria cultures · gpt-6 (unknown): Names cultures themselves; bacterial culture here denotes the laboratory cultivation method.
 - **Banner advertising** (`banner-advertising`) · variant banner ads · gpt-6 (unknown): Banner ads are the advertisements; banner advertising is the activity of using them.
@@ -649,28 +754,15 @@
 - **Burndown chart** (`burndown-chart`) · kind · gpt-6 (unknown): The entry names a visual tracking tool, not a method; tool is a better fit.
 - **Business integration software** (`business-integration-software`) · variant business integration softwares · claude-opus-5-5 (xhigh): Non-standard plural 'softwares'.
 - **Cannabis and hemp extraction** (`cannabis-and-hemp-extraction`) · definition · gpt-6 (unknown): Cannabis extraction also includes solventless mechanical methods; it is not limited to solvents or CO2.
-- **Captive insurance** (`captive-insurance`) · variant captive insurance company · gpt-6 (unknown): An insurer is the organization providing captive insurance, not the insurance concept itself.
-- **Captive insurance** (`captive-insurance`) · variant insurance captives · gpt-6 (unknown): Names captive insurers, not the insurance arrangement itself.
 - **Cardiopulmonary resuscitation** (`cardiopulmonary-resuscitation`) · definition · gpt-6 (unknown): CPR may use compression-only protocols; isolated respiratory arrest with a pulse is not an indication for chest compressions.
-- **Cardiovascular physiology** (`cardiovascular-physiology`) · variant cardiovasculars physiology · claude-opus-5-5 (xhigh): Malformed spelling, not a real form of the name
-- **Cardiovascular physiology** (`cardiovascular-physiology`) · variant cardiovasculars physiology · gpt-6 (unknown): Cardiovasculars is a malformed form of cardiovascular.
 - **CCH ProSystem fx Engagement** (`cch-prosystem-fx-engagement`) · variant prosystem fx engagement (tax software) · gpt-6 (unknown): Engagement is an engagement/workpaper management product, not the distinct ProSystem fx Tax product.
-- **Child nutrition** (`child-nutrition`) · variant child nutritions · claude-opus-5-5 (xhigh): Ungrammatical plural, not a real form of the term
-- **Child nutrition** (`child-nutrition`) · variant child nutritions · gpt-6 (unknown): Nutrition is not normally pluralized this way; the established term is child nutrition.
-- **Chlorofluorocarbons** (`chlorofluorocarbons`) · variant cfcs · claude-opus-5-5 (xhigh): Also means controlled foreign corporations in tax listings
 - **Chromatography software** (`chromatography-software`) · variant chromatography softwares · claude-opus-5-5 (xhigh): Nonstandard plural 'softwares'
-- **Client access license** (`client-access-license`) · definition · gpt-6 (unknown): A CAL is an access entitlement/license for a user or device, not the licensing model itself.
-- **Client access license** (`client-access-license`) · variant client access licensing · gpt-6 (unknown): Names the licensing practice/model; a client access license is an individual entitlement.
 - **Client confidentiality** (`client-confidentiality`) · definition · gpt-6 (unknown): Disclosure can also be legally permitted without consent, not only legally required; the stated 'only' is too restrictive.
 - **Collaboration software** (`collaboration-software`) · variant collaborative softwares · claude-opus-5-5 (xhigh): Nonstandard plural 'softwares'
 - **Collaborative Planning, Forecasting and Replenishment** (`collaborative-planning-forecasting-and-replenishment`) · variant collaborative planning forecasting sandsreplenishment · claude-opus-5-5 (xhigh): Garbled text ('SandsReplenishment')
 - **Collaborative Planning, Forecasting and Replenishment** (`collaborative-planning-forecasting-and-replenishment`) · variant collaborative planning forecasting sandsreplenishment · gpt-6 (unknown): SandsReplenishment is corrupted text; the conjunction should be and.
 - **Common Language Specification** (`common-language-specification`) · definition · gpt-6 (unknown): CLS constrains interoperable public interfaces; a .NET language need not restrict all its features to CLS rules.
-- **Commons-based peer production** (`commons-based-peer-production`) · definition · gpt-6 (unknown): Peer production uses shared resources and decentralized collaboration; it need not exclude central ownership or paid participation.
 - **Computer Fraud and Abuse Act** (`computer-fraud-and-abuse-act`) · description · claude-opus-5-5 (medium): changes-meaning: Claims 1986 act was enacted because mail/wire-fraud law was insufficient; lead gives that only as background (1984 bill: fear crimes go unpunished).
-- **Computer networking** (`computer-networking`) · variant computer networking systems · gpt-6 (unknown): Names network systems rather than the broader knowledge area of computer networking.
-- **Computer networking** (`computer-networking`) · variant network protocols · claude-opus-5-5 (xhigh): Narrower subtopic (protocols), not a synonym for networking.
-- **Computer networking** (`computer-networking`) · variant network protocols · gpt-6 (unknown): Protocols are one component of computer networking, not an equivalent name for the whole field.
 - **Concurrent engineering** (`concurrent-engineering`) · variant simultaneous engineering wikipedia · claude-opus-5-5 (xhigh): Scraping artifact: includes 'Wikipedia'
 - **Concurrent engineering** (`concurrent-engineering`) · variant simultaneous engineering wikipedia · gpt-6 (unknown): Wikipedia is a source label accidentally appended to the term, not part of the concept name.
 - **Constant Contact** (`constant-contact`) · variant constantcontact · claude-opus-5-5 (xhigh): Run-together misspelling of the brand name (domain form), not a name variant
@@ -687,14 +779,9 @@
 - **CryEngine** (`cryengine`) · variant cryengines · claude-opus-5-5 (xhigh): Plural of a product name; not a form the engine is called
 - **CryEngine** (`cryengine`) · variant cryengines · gpt-6 (unknown): CryEngine is the product name; this pluralized form is not an established alternate name.
 - **Customer experience strategy** (`customer-experience-strategy`) · variant customer experience strategy (cx) · gpt-6 (unknown): CX abbreviates customer experience, not customer experience strategy; CX strategy is the precise variant.
-- **Cybersecurity** (`cybersecurity`) · variant network security · claude-opus-5-5 (xhigh): Narrower subfield of cybersecurity, not a synonym.
-- **Cybersecurity** (`cybersecurity`) · variant network security · gpt-6 (unknown): Network security is a subset of cybersecurity, not an equivalent term for the whole field.
 - **Darik's Boot and Nuke** (`darik-s-boot-and-nuke`) · definition · gpt-6 (unknown): DBAN overwrites supported magnetic disks; it cannot guarantee erasing all data in inaccessible/remapped areas or on SSDs.
-- **Data as a Service** (`data-as-a-service`) · variant data as a services · claude-opus-5-5 (xhigh): Ungrammatical plural 'Services'; a misspelling of the name
-- **Data as a Service** (`data-as-a-service`) · variant data as a services · gpt-6 (unknown): The singular article and plural noun are malformed; the established term is Data as a Service.
 - **Data engineering** (`data-engineering`) · variant data pipelines · claude-opus-5-5 (xhigh): An artifact/subtask of data engineering, not a synonym.
 - **Data engineering** (`data-engineering`) · variant data pipelines · gpt-6 (unknown): Pipelines are systems built and operated in data engineering, not a synonym for the discipline.
-- **Data localization** (`data-localization`) · definition · gpt-6 (unknown): Localization rules can cover different data classes and may require local storage without requiring all processing to remain local.
 - **Data provenance** (`provenance`) · variant data lineage · gpt-6 (unknown): Lineage emphasizes data flows and transformations; provenance can also include contextual origin and responsibility.
 - **Data provenance** (`provenance`) · variant lineage · claude-opus-5-5 (xhigh): Bare word ambiguous (genealogy, cell lineage); data lineage is related, not identical.
 - **Data provenance** (`provenance`) · variant lineage · gpt-6 (unknown): Unqualified lineage is broader and ambiguous; it does not uniquely identify data provenance.
@@ -708,34 +795,27 @@
 - **dbSNP** (`dbsnp`) · variant single nucleotide polymorphism database[1] (dbsnp) · gpt-6 (unknown): The [1] citation marker is source debris, not part of the database name.
 - **Deep learning** (`deep-learning`) · variant dl · claude-opus-5-5 (xhigh): Ambiguous: DL often means driver's licence or distribution list in listings.
 - **Dental plaque removal** (`dental-plaque-removal`) · definition · gpt-6 (unknown): Plaque is also removed by brushing and interdental cleaning; limiting removal to scaling and polishing is misleading.
-- **Deposition (geology)** (`deposition-geology`) · definition · gpt-6 (unknown): Deposition also occurs underwater, including on lake and ocean floors; it is not limited to land masses.
 - **Destoner** (`destoner`) · definition · gpt-6 (unknown): Destoners also separate stones from harvested grain, seeds and other products; the unqualified term is not only a field machine.
 - **Destoner** (`destoner`) · description · claude-opus-5-5 (medium): changes-meaning: Attributes the wet-harvest benefit to web sorting; lead ties it to moving stones into the furrow so the harvester drives on them.
 - **Digital accessibility** (`digital-accessibility`) · variant accessibility · claude-opus-5-5 (xhigh): Bare word also means physical/building accessibility (ADA access), not only digital.
 - **Digital accessibility** (`digital-accessibility`) · variant accessibility · gpt-6 (unknown): Accessibility also includes physical environments and services; it is broader than digital accessibility.
 - **Digital advertising** (`digital-advertising`) · variant digital ads · gpt-6 (unknown): Ads are the artifacts; digital advertising is the planning and delivery activity.
-- **Digital rights management** (`digital-rights-management`) · variant drm · claude-opus-5-5 (xhigh): Also Oracle Data Relationship Management, disaster risk management, Direct Rendering Manager.
 - **Discipleship** (`discipleship`) · definition · gpt-6 (unknown): Discipleship also means being or living as a disciple; teaching and mentoring others is discipling.
-- **Distributed computing** (`distributed-computing`) · variant distributed systems · gpt-6 (unknown): Distributed systems are the systems studied/built; distributed computing is the coordination of computation on them.
 - **DO-178C** (`do-178c`) · definition · gpt-6 (unknown): DO-178C is an accepted means of compliance, not a universal legal requirement that all airborne software must meet.
 - **DO-178C** (`do-178c`) · variant do-178b/c (software considerations in airborne systems and equipment certification) · gpt-6 (unknown): Combines two distinct revisions; DO-178B is not a synonym for DO-178C.
 - **DoD Instruction 8510.01** (`dod-instruction-8510-01`) · variant department of defense (dod) 8510 · gpt-6 (unknown): Omits the Instruction designation and .01 suffix, so does not identify this exact document.
 - **DoubleClick for Publishers** (`doubleclick-for-publishers`) · variant dfp · claude-opus-5-5 (xhigh): Also Diploma of Financial Planning and other meanings; ambiguous outside ad-tech context.
 - **Driving** (`driving`) · definition · gpt-6 (unknown): Driving also includes operating vehicles off road or on private sites; it is not restricted to roads.
 - **Dry needling** (`dry-needling`) · definition · gpt-6 (unknown): Dry needling is not restricted to myofascial trigger points; it can target other tissues and use other approaches.
-- **Dynamic-link library** (`dynamic-link-library`) · variant dll · claude-opus-5-5 (xhigh): Also delay-locked loop (electronics) and doubly linked list.
 - **Earned value management system** (`earned-value-management-system`) · variant evms · claude-opus-5-5 (xhigh): Also Eastern Virginia Medical School, which appears in job listings as an employer.
 - **Electric vehicle** (`electric-vehicle`) · definition · gpt-6 (unknown): Electric vehicles can draw power from fuel cells or external supplies; they are not necessarily battery-powered.
 - **Electronic data capture** (`electronic-data-capture`) · kind · gpt-6 (unknown): The definition describes a data-collection process; method fits unless the entry is explicitly an EDC software system.
 - **Email service providers** (`email-service-providers`) · definition · gpt-6 (unknown): Email service providers also offer ordinary mailbox hosting; bulk/transactional sending is a narrower marketing usage.
 - **Emission calculations** (`emission-calculations`) · variant emission calcuations · claude-opus-5-5 (xhigh): Misspelling of 'Calculations'.
 - **Emission calculations** (`emission-calculations`) · variant emission calcuations · gpt-6 (unknown): Calcuations is a misspelling of calculations.
-- **Endocrine disorders** (`endocrine-disorders`) · definition · gpt-6 (unknown): Endocrine disorders can involve hormone resistance or receptor defects, not only abnormal hormone-producing glands.
 - **Endovascular aneurysm repair** (`endovascular-aneurysm-repair`) · variant endovasculars aneurysm repair · claude-opus-5-5 (xhigh): Malformed/misspelled form ('Endovasculars').
 - **Endovascular aneurysm repair** (`endovascular-aneurysm-repair`) · variant endovasculars aneurysm repair · gpt-6 (unknown): Endovasculars is malformed; the adjective is endovascular.
 - **Endpoint detection and response** (`endpoint-detection-and-response`) · variant edr · claude-opus-5-5 (xhigh): Also means event data recorder (vehicles), Bluetooth Enhanced Data Rate and EDR environmental database reports.
-- **Energy system transition** (`energy-system-transition`) · definition · gpt-6 (unknown): An energy-system transition is any major shift in the energy system; the current low-carbon transition is one example.
-- **Engineered materials arrestor system** (`engineered-materials-arrestor-system`) · definition · gpt-6 (unknown): EMAS uses engineered crushable materials, not necessarily concrete blocks; other arresting-bed materials are used.
 - **Enhanced Data rates for GSM Evolution** (`enhanced-data-rates-for-gsm-evolution`) · variant enhanced data gsm environment · gpt-6 (unknown): This is not the correct expansion of EDGE: Enhanced Data rates for GSM Evolution.
 - **Enterprise performance management** (`enterprise-performance-management`) · variant epm · claude-opus-5-5 (xhigh): Also Enterprise Project Management (e.g. Microsoft Project Server EPM).
 - **EnterpriseDB** (`enterprisedb`) · definition · gpt-6 (unknown): EnterpriseDB names a company and product portfolio; the Oracle-compatible database is specifically EDB Postgres Advanced Server.
@@ -745,8 +825,6 @@
 - **Enzyme-linked immunosorbent assay** (`enzyme-linked-immunosorbent-assay`) · definition · gpt-6 (unknown): ELISA does not always use enzyme-linked antibodies; some formats use an enzyme-labeled antigen or other detection reagent.
 - **Esker** (`esker`) · kind · claude-sonnet-5-5 (xhigh): second draft (xhigh) said platform
 - **Excel PivotTables and PivotCharts** (`excel-pivottables-and-pivotcharts`) · variant excel pivot tables and charts · gpt-6 (unknown): Unqualified charts includes ordinary charts; it does not specifically mean PivotCharts.
-- **Extended Parallel Process Model** (`extended-parallel-process-model`) · variant eppm · claude-opus-5-5 (xhigh): Also Oracle Primavera EPPM (Enterprise Project Portfolio Management), common in listings.
-- **Extended reality** (`extended-reality`) · variant xr · claude-opus-5-5 (xhigh): Also the X-ray modality abbreviation in radiology (and iPhone XR).
 - **Extract, transform, load** (`extract-transform-load`) · variant etl · claude-opus-5-5 (xhigh): Also Intertek's ETL safety listing mark (UL/ETL) in product-compliance listings.
 - **Facebook advertising** (`facebook-advertising`) · variant facebook ads · gpt-6 (unknown): Can name the advertising product or advertisements; it is not an exact synonym for the advertising activity.
 - **Facebook advertising** (`facebook-advertising`) · variant facebook advert · gpt-6 (unknown): An individual advertisement is not the skill or activity of Facebook advertising.
@@ -754,8 +832,6 @@
 - **Fair Employment and Housing Act** (`fair-employment-and-housing-act`) · variant fair employment and housing act (fema) · gpt-6 (unknown): The correct abbreviation is FEHA; FEMA denotes a different US agency.
 - **Farm implements** (`farm-implements`) · definition · gpt-6 (unknown): Farm implements also include hand-operated and animal-drawn tools; they are not restricted to tractor-powered equipment.
 - **fastai** (`fastai`) · variant fast.ai · gpt-6 (unknown): fast.ai names the organization, courses and site; fastai is its specific Python library.
-- **Fibre Channel** (`fibre-channel`) · variant fiber channel · claude-opus-5-5 (xhigh): Misspelling; the standard's official name is 'Fibre Channel' even in US usage.
-- **File control block** (`file-control-block`) · definition · gpt-6 (unknown): An FCB holds file-management metadata and is not inherently restricted to files that are currently open.
 - **Finance software** (`finance-software`) · variant finance softwares · claude-opus-5-5 (xhigh): Non-standard plural 'softwares'; an error form, not a true variant.
 - **Financial forecasting** (`financial-forecasting`) · variant financial forecast · gpt-6 (unknown): A forecast is the output, not the activity of financial forecasting.
 - **Financial Information eXchange** (`financial-information-exchange`) · description · claude-opus-5-5 (medium): changes-meaning: Says firms use FIX with DMA to speed trading; lead says DMA raises speed and low latency requires understanding FIX.
@@ -765,18 +841,11 @@
 - **Full-cycle sales** (`full-cycle-sales`) · definition · gpt-6 (unknown): Full-cycle sales covers every stage, but does not require working alone; colleagues can support the process.
 - **Garment alterations** (`garment-alterations`) · variant alterations · claude-opus-5-5 (xhigh): Bare word ambiguous: building alterations, contract alterations.
 - **General Packet Radio Service** (`general-packet-radio-service`) · definition · gpt-6 (unknown): GPRS is the GSM 2G packet-data extension; shared packet-core architecture does not make GSM a 3G radio network.
-- **Generative AI** (`generative-ai`) · variant generative modeling · claude-opus-5-5 (xhigh): Older, broader ML notion (generative vs discriminative models, e.g. naive Bayes).
-- **Generative AI** (`generative-ai`) · variant generative modeling · gpt-6 (unknown): Generative modeling also covers probabilistic statistical models beyond content-generating AI.
-- **Generative AI** (`generative-ai`) · variant generative models · claude-opus-5-5 (xhigh): Broader ML notion (generative vs discriminative), not Generative AI.
-- **Generative AI** (`generative-ai`) · variant generative models · gpt-6 (unknown): Names models rather than the broader field/methods of generative AI.
 - **Generic Routing Encapsulation** (`generic-routing-encapsulation`) · definition · gpt-6 (unknown): GRE can encapsulate one network-layer protocol over another; IP is a common delivery protocol, not its only possible one.
 - **GoSystem Tax RS** (`gosystem-tax-rs`) · variant gosystems (tax software) · claude-opus-5-5 (xhigh): Misspelling; the product line is GoSystem (no s).
 - **GoSystem Tax RS** (`gosystem-tax-rs`) · variant gosystems (tax software) · gpt-6 (unknown): The product is GoSystem Tax RS; this pluralized shortened name does not identify it precisely.
-- **Great circle** (`great-circle`) · definition · gpt-6 (unknown): Only the shorter great-circle arc is shortest on a sphere; Earth's ellipsoidal surface instead has ellipsoidal geodesics.
 - **Guardrails AI** (`guardrails-product`) · variant guardrails · claude-opus-5-5 (xhigh): Bare label collides with generic AI guardrails concept (key guardrails).
 - **Guardrails AI** (`guardrails-product`) · variant guardrails · gpt-6 (unknown): Ambiguous with the generic guardrail concept; use the product's disambiguated name Guardrails AI.
-- **Hadron physics** (`hadron-physics`) · variant hadrons (partical physics) · claude-opus-5-5 (xhigh): Misspelling ('Partical') and names the particles, not the field of study.
-- **Hadron physics** (`hadron-physics`) · variant hadrons (partical physics) · gpt-6 (unknown): Partical is misspelled, and hadrons are the particles rather than the field of hadron physics.
 - **Hair clipper** (`hair-clipper`) · definition · gpt-6 (unknown): Hair clippers can also be manually operated; electric operation is common but not defining.
 - **Handle System** (`handle-system`) · definition · claude-opus-5-5 (xhigh): Developed by CNRI, but the DONA Foundation has administered the Handle System since 2014.
 - **HCFA regulations** (`hcfa-regulations`) · variant health care finance administration (hcfa) regulations · claude-opus-5-5 (xhigh): Wrong agency name: it was the Health Care Financing Administration.
@@ -785,9 +854,7 @@
 - **Heatmap** (`heatmap`) · kind · gpt-6 (unknown): The entry names a visualization/representation; the method is creating or interpreting heatmaps.
 - **HincII** (`hincii`) · definition · claude-opus-5-5 (xhigh): HincII (H. influenzae Rc) was never named HindII; HindII is a separate isoschizomer from H. influenzae Rd.
 - **HincII** (`hincii`) · variant hindii · claude-opus-5-5 (xhigh): A different enzyme (isoschizomer from H. influenzae Rd), not a former name of HincII.
-- **Historical linguistics** (`historical-linguistics`) · relation · claude-opus-5-5 (xhigh): Distinct linguistics subfields sharing only a parent; no meaningful relation.
 - **HP Quality Center** (`hp-quality-center`) · variant hp quality centers · gpt-6 (unknown): The product name is HP Quality Center; the pluralized form is not an established product name.
-- **Human-machine interface** (`human-machine-interface`) · variant human -machine interface · claude-opus-5-5 (xhigh): Typo: stray space before the hyphen.
 - **Hybrid mobile app development** (`hybrid-mobile-app-development`) · variant hybrid mobile app · gpt-6 (unknown): An app is the resulting artifact; this entry names the development activity.
 - **Hydraulic snubbing** (`hydraulic-snubbing`) · variant snubbing · gpt-6 (unknown): Snubbing is broader than hydraulic snubbing and can use other equipment/mechanisms.
 - **iBeacon** (`ibeacon`) · kind · claude-opus-5-5 (xhigh): iBeacon is a BLE advertising protocol/specification; 'standard' fits, not 'platform'.
@@ -798,12 +865,7 @@
 - **IDA Pro** (`ida-pro`) · variant interactive disassembler · gpt-6 (unknown): Names the broader IDA product family, not specifically the Pro edition.
 - **IFS Applications** (`ifs-applications`) · variant ifs erp · gpt-6 (unknown): IFS ERP can also refer to other IFS product generations, including IFS Cloud; it is broader than IFS Applications.
 - **Image generation** (`image-generation`) · definition · gpt-6 (unknown): Image generation also includes procedural rendering and other non-AI methods; specify AI image generation for this scope.
-- **Immunization** (`immunization`) · definition · gpt-6 (unknown): Immunization includes passive transfer of antibodies as well as active vaccination.
 - **Incident reporting** (`incident-reporting`) · variant incident report · gpt-6 (unknown): A report is the resulting document, not the reporting activity.
-- **Incurred but not reported** (`incurred-but-not-reported`) · definition · gpt-6 (unknown): Reported but unsettled claims are not IBNR merely because they remain unpaid; IBNR concerns unreported claims/development.
-- **Individual life insurance** (`individual-life-insurance`) · definition · gpt-6 (unknown): An individual policy can insure someone other than its purchaser, subject to insurable-interest and consent rules.
-- **Individualized Education Program** (`individualized-education-program`) · variant iep · claude-opus-5-5 (xhigh): Also Intensive English Program, common in ESL teaching listings.
-- **Industrial Internet of Things** (`industrial-internet-of-things`) · definition · gpt-6 (unknown): Industrial IoT devices can communicate on private networks without connecting to the public Internet.
 - **Instagram advertising** (`instagram-advertising`) · variant instagram ads · gpt-6 (unknown): Names advertisements or the ad product, not the activity of Instagram advertising.
 - **Instagram content creation** (`instagram-content-creation`) · variant instagram content · gpt-6 (unknown): Content is the output, not the activity of planning and creating it.
 - **Intelligent automation** (`intelligent-automation`) · definition · gpt-6 (unknown): Intelligent automation need not include RPA or automate an entire process; it broadly uses AI to enhance automation.
@@ -834,8 +896,6 @@
 - **Kinetic typography** (`kinetic-typography`) · variant kinetics (typography) · claude-opus-5-5 (xhigh): 'Kinetics' is a physics/chemistry term, not a name for kinetic typography
 - **Kinetic typography** (`kinetic-typography`) · variant kinetics (typography) · gpt-6 (unknown): The established term is kinetic typography; kinetics alone names a different, broader concept.
 - **Language interpretation and translation** (`language-interpretation-and-translation`) · definition · gpt-6 (unknown): Interpreting also includes signed languages; the spoken-versus-written split excludes them.
-- **Large language models** (`large-language-models`) · variant llm · claude-opus-5-5 (xhigh): Ambiguous: LLM / LL.M. (Master of Laws) is common in legal job listings.
-- **Lawful interception** (`lawful-interception`) · definition · gpt-6 (unknown): Lawful interception is not restricted to interception performed by network operators; authorized agencies can also conduct it.
 - **LiDAR** (`lidar`) · definition · gpt-6 (unknown): Not all LiDAR times discrete pulses; continuous-wave/FMCW LiDAR can infer range from frequency differences.
 - **Linux systems administration** (`linux-systems-administration`) · variant linux · claude-opus-5-5 (xhigh): The OS itself (platform), not the administration skill.
 - **Linux systems administration** (`linux-systems-administration`) · variant linux · gpt-6 (unknown): Linux names the kernel/operating-system family, not the systems-administration activity.
@@ -849,14 +909,10 @@
 - **Masonry** (`masonry`) · definition · gpt-6 (unknown): Masonry can use dry-laid stone or other mortarless construction; mortar is not required in every form.
 - **MEAN.JS** (`mean-js`) · definition · gpt-6 (unknown): MEAN.JS was built on AngularJS, not the distinct modern Angular framework.
 - **Mechanical seal** (`mechanical-seal`) · kind · claude-opus-5-5 (xhigh): A machine component that workers fit and repair, not a tool they use; knowledge fits better.
-- **Medical equipment** (`medical-equipment`) · variant medical equipments · claude-opus-5-5 (xhigh): Ungrammatical plural of an uncountable noun, not an accepted form.
 - **Medical records release** (`medical-records-release`) · variant release of information · gpt-6 (unknown): Unqualified release of information is broader than disclosure of medical records.
 - **Medical records release** (`medical-records-release`) · variant release of information (roi) · gpt-6 (unknown): ROI can denote broader information release; it does not by itself specify medical records.
 - **Meter data management** (`meter-data-management`) · variant meter data management (flow meters) · claude-opus-5-5 (xhigh): Qualifier narrows the concept to flow meters; not a name in use.
 - **Meter data management** (`meter-data-management`) · variant meter data management (flow meters) · gpt-6 (unknown): Restricts the term to flow meters, while meter data management also covers electricity and other utility meters.
-- **Metric system** (`metric-system`) · definition · gpt-6 (unknown): Metric systems include CGS and other variants; metre-kilogram-second describes MKS, not every metric system.
-- **Microscopic anatomy** (`microscopic-anatomy`) · variant miscroscopic anatomy · claude-opus-5-5 (xhigh): Misspelling of 'microscopic'.
-- **Microscopic anatomy** (`microscopic-anatomy`) · variant miscroscopic anatomy · gpt-6 (unknown): Miscroscopic is a misspelling of microscopic.
 - **Microsoft Bot Framework** (`microsoft-bot-framework`) · variant bot framework · claude-opus-5-5 (xhigh): Generic phrase; can mean any bot framework (Rasa, Botpress, etc.).
 - **MicroStrategy Desktop** (`microstrategy-desktop`) · variant microstrategy desktops · claude-opus-5-5 (xhigh): Pluralised product name; not a form in use.
 - **MicroStrategy Desktop** (`microstrategy-desktop`) · variant microstrategy desktops · gpt-6 (unknown): The product is MicroStrategy Desktop; the plural is not its product name.
@@ -875,54 +931,29 @@
 - **Moz Pro** (`moz-pro`) · variant moz · gpt-6 (unknown): Moz names the company and a broader set of products, not specifically the Moz Pro suite.
 - **MP/M** (`mp-m`) · variant multi-programming monitor control program · gpt-6 (unknown): MP/M expands to Multi-Programming Monitor; Control Program is an incorrect addition.
 - **MP/M** (`mp-m`) · variant multi-programming monitor control program (mp/m) · gpt-6 (unknown): MP/M expands to Multi-Programming Monitor; Control Program is an incorrect addition.
-- **Multi-core processors** (`multi-core-processors`) · definition · gpt-6 (unknown): Multi-core processors can use multiple dies/chiplets in one package; the cores need not all be on one monolithic chip.
-- **Mutual funds** (`mutual-funds`) · definition · gpt-6 (unknown): Mutual funds pool investors' money, but some are legally non-diversified or highly concentrated; diversification is not universal.
-- **Nanocomposites** (`nanocomposites`) · definition · gpt-6 (unknown): Nanocomposites need a nanoscale dimension in a constituent; they can include nanoscale layers and larger particles with nanoscale thickness.
 - **National Geothermal Data System** (`national-geothermal-data-system`) · variant national geothermal data systems · gpt-6 (unknown): The network's proper name uses singular System, not Systems.
 - **Nationwide Multistate Licensing System** (`nationwide-multistate-licensing-system`) · definition · gpt-6 (unknown): NMLS also supports federal registration, not only licensing and registration by state regulators.
-- **Natural language understanding** (`natural-language-understanding`) · kind · claude-sonnet-5-5 (xhigh): second draft (xhigh) said method
 - **Net Promoter Score** (`net-promoter-score`) · kind · gpt-6 (unknown): NPS is a numeric metric, not a method; knowledge fits the named measure, while surveying/calculating it is a method.
-- **NFPA 70E** (`nfpa-70e`) · kind · claude-sonnet-5-5 (xhigh): second draft (xhigh) said standard
-- **NFPA 70E** (`nfpa-70e`) · kind · claude-opus-5-5 (xhigh): NFPA 70E is a standard; allowed kind 'standard' fits, not 'knowledge'.
-- **NFPA 70E** (`nfpa-70e`) · kind · gpt-6 (unknown): NFPA 70E is a named standard, so standard is more precise than knowledge.
 - **NIH Stroke Scale** (`nih-stroke-scale`) · kind · gpt-6 (unknown): NIHSS is an assessment scale/tool; administering the examination is the method.
 - **Nitrogen-phosphorus detector** (`nitrogen-phosphorus-detector`) · variant nitrogen phosphorous detector · claude-opus-5-5 (xhigh): misspelling: the element is phosphorus; phosphorous is an adjective
 - **Nitrogen-phosphorus detector** (`nitrogen-phosphorus-detector`) · variant nitrogen phosphorous detector · gpt-6 (unknown): The element is phosphorus; phosphorous is not the correct noun in this detector name.
-- **Non-fungible tokens** (`non-fungible-tokens`) · definition · gpt-6 (unknown): An NFT records token ownership; it does not by itself establish ownership or rights in an associated asset.
-- **Non-fungible tokens** (`non-fungible-tokens`) · variant nft · claude-opus-5-5 (xhigh): also nutrient film technique (hydroponics) and other expansions
 - **nosetests** (`nosetests`) · kind · gpt-6 (unknown): nosetests is a command-line tool/test runner; nose is the testing framework.
 - **npm** (`npm`) · variant node package manager · gpt-6 (unknown): npm is not officially an acronym for Node Package Manager; this is a common but inaccurate expansion.
 - **Nutrition care planning** (`nutrition-care-planning`) · variant nutrition care plans · gpt-6 (unknown): Plans are the resulting documents, not the activity of nutrition care planning.
 - **Object-oriented programming** (`object-oriented-programming`) · variant oop · claude-opus-5-5 (xhigh): also widely used for out-of-pocket (costs) in healthcare/finance listings
-- **Official statistics** (`official-statistics`) · definition · gpt-6 (unknown): Official statistics also come from ministries, central banks and international public bodies, not only statistical agencies.
 - **Online demonstration** (`online-demonstration`) · variant online demostration · claude-opus-5-5 (xhigh): misspelling of demonstration
 - **Online demonstration** (`online-demonstration`) · variant online demostration · gpt-6 (unknown): Demostration is a misspelling of demonstration.
-- **Operating systems** (`operating-systems`) · description · claude-opus-5-5 (medium): changes-meaning: Lead says time-sharing OSes schedule tasks; description drops the qualifier and says all operating systems schedule tasks.
-- **Operations, administration, maintenance and provisioning** (`operations-administration-maintenance-and-provisioning`) · variant operations administration maintenance sandsprovisioning (oamp) · claude-opus-5-5 (xhigh): Garbled label: 'SandsProvisioning' is a typo for 'and Provisioning'.
-- **Operations, administration, maintenance and provisioning** (`operations-administration-maintenance-and-provisioning`) · variant operations administration maintenance sandsprovisioning (oamp) · gpt-6 (unknown): SandsProvisioning is corrupted text; the conjunction should be and.
 - **Oracle Application Framework** (`oracle-application-framework`) · variant oracle application frameworks (oaf) · gpt-6 (unknown): The proper product name is Oracle Application Framework, singular.
 - **Oracle Application Integration Architecture** (`oracle-application-integration-architecture`) · variant application integreation architecture · gpt-6 (unknown): Integreation is a misspelling of integration.
 - **Oracle Fixed Assets** (`oracle-fixed-assets`) · variant oracle fixed assets| · claude-opus-5-5 (xhigh): Stray pipe character; a data-entry typo, not a real name.
 - **Oracle Fixed Assets** (`oracle-fixed-assets`) · variant oracle fixed assets| · gpt-6 (unknown): The trailing vertical bar is stray source punctuation, not part of the product name.
-- **Organic composition of capital** (`organic-composition-of-capital`) · definition · gpt-6 (unknown): Organic composition is value composition insofar as determined by technical composition, not simply any monetary capital-to-wage ratio.
-- **Outpatient surgery** (`outpatient-surgery`) · definition · gpt-6 (unknown): Outpatient status does not always mean same-day discharge; some patients remain overnight under observation without inpatient admission.
-- **Overhead camshaft engine** (`overhead-camshaft-engine`) · variant overhead camshaft · gpt-6 (unknown): Names the camshaft arrangement/component, not the complete engine concept.
-- **Overhead valve engine** (`overhead-valve-engine`) · variant overhead valve · gpt-6 (unknown): Names a valve arrangement rather than specifically the complete pushrod-engine concept.
-- **Oxidation processes** (`oxidation-processes`) · variant oxidattion processes · claude-opus-5-5 (xhigh): Misspelling of 'Oxidation'.
-- **Oxidation processes** (`oxidation-processes`) · variant oxidattion processes · gpt-6 (unknown): Oxidattion is a misspelling of oxidation.
 - **package.json** (`package-json`) · kind · gpt-6 (unknown): package.json is a manifest file/format, not a software tool; knowledge or standard is a closer fit.
 - **Parallel computing** (`parallel-computing`) · definition · gpt-6 (unknown): Concurrency can mean interleaved execution on one processor; parallel computing requires simultaneous execution resources.
-- **Parasympathetic nervous system** (`parasympathetic-nervous-system`) · variant parasypathetic nervous system · claude-opus-5-5 (xhigh): Misspelling of 'Parasympathetic'.
-- **Parasympathetic nervous system** (`parasympathetic-nervous-system`) · variant parasypathetic nervous system · gpt-6 (unknown): Parasypathetic is a misspelling of parasympathetic.
-- **Perioperative care** (`perioperative-care`) · variant perioperative · gpt-6 (unknown): An adjective meaning around surgery; it does not by itself mean the care provided.
-- **Personal Communications Service** (`personal-communications-service`) · definition · gpt-6 (unknown): PCS includes broadband and narrowband allocations; the broader service category is not confined to the 1.9 GHz band.
 - **Personal protective equipment** (`personal-protective-equipment`) · variant ppe · claude-opus-5-5 (xhigh): Also widely means 'property, plant and equipment' in accounting.
-- **Pharmacoinformatics** (`pharmacoinformatics`) · description · claude-opus-5-5 (medium): adds-information: Calls it 'the growing use' of IT; lead says the IT use is increasingly recognised as pharmacoinformatics, not that use is growing.
 - **Piano playing** (`piano-playing`) · variant piano · gpt-6 (unknown): Names the instrument, not the skill of playing it.
 - **Pivotal Tracker** (`pivotal-tracker`) · definition · gpt-6 (unknown): The hosted Pivotal Tracker service was discontinued; the definition should use historical wording.
 - **Pixel art** (`pixel-art`) · definition · gpt-6 (unknown): Pixel art need not place every pixel manually or use a small grid; controlled pixel-level visual design is the key.
 - **Plant Design Management System** (`plant-design-management-system`) · variant plant design management systems (pdms) · gpt-6 (unknown): The software's proper name is Plant Design Management System, singular.
-- **Platform as a service** (`platform-as-a-service`) · variant platform as a services · claude-opus-5-5 (xhigh): Garbled plural; not a real form of the term
 - **Positive airway pressure** (`positive-airway-pressure`) · definition · gpt-6 (unknown): Positive airway pressure can also be delivered through invasive airways; a mask is not required in every use.
 - **Positive airway pressure** (`positive-airway-pressure`) · variant positive airway pressure (cpab/bipap) · claude-opus-5-5 (xhigh): Misspells CPAP as 'CPAB'
 - **Post Office Protocol** (`post-office-protocol`) · variant pop3 · gpt-6 (unknown): POP3 identifies version 3, while Post Office Protocol names the broader protocol family.
@@ -942,28 +973,13 @@
 - **Product requirements documentation** (`product-requirements-documentation`) · variant product requirements document · gpt-6 (unknown): A document is the output, not the documentation activity.
 - **Programmatic media buying** (`programmatic-media-buying`) · definition · gpt-6 (unknown): Programmatic buying also includes guaranteed/direct deals; it does not require real-time auctions or exclude negotiated deals.
 - **Project status reporting** (`project-status-reporting`) · variant project status reports · gpt-6 (unknown): Reports are the outputs, not the reporting activity.
-- **Quantum Merlin Arthur** (`quantum-merlin-arthur`) · variant qma · claude-opus-5-5 (xhigh): QMA also names a quick-lock RF coaxial connector type
 - **Rally Software** (`rally-software`) · variant rally softwares · claude-opus-5-5 (xhigh): Malformed plural of a product name
 - **Rally Software** (`rally-software`) · variant rally softwares · gpt-6 (unknown): The product's proper name is Rally Software; this plural is malformed.
 - **Randomization** (`randomization`) · definition · gpt-6 (unknown): Randomization reduces systematic selection bias; it does not guarantee the absence of systematic bias.
 - **React** (`react`) · variant react.js (javascript library library) · claude-opus-5-5 (xhigh): Garbled label with doubled 'Library'.
 - **React** (`react`) · variant react.js (javascript library library) · gpt-6 (unknown): The qualifier repeats Library and is malformed.
-- **Real estate** (`real-estate`) · variant real estates · claude-opus-5-5 (xhigh): Non-standard plural of a mass noun
-- **Real estate** (`real-estate`) · variant real estates · gpt-6 (unknown): Real estate is normally an uncountable field name; this plural changes or garbles the sense.
-- **Real estate contracts** (`real-estate-contracts`) · description · claude-opus-5-5 (medium): changes-meaning: Says freehold transfers are covered separately; lead says freehold conveyances ARE covered by real estate contracts.
-- **Real estate owned** (`real-estate-owned`) · variant reo · claude-opus-5-5 (xhigh): REO also means rare-earth oxide
 - **Recruitment consulting** (`recruitment-consulting`) · variant recruiment consultancy · claude-opus-5-5 (xhigh): Misspelling of Recruitment
 - **Recruitment consulting** (`recruitment-consulting`) · variant recruiment consultancy · gpt-6 (unknown): Recruitment is misspelled.
-- **Refrigeration compressors** (`refrigeration-compressors`) · variant refrigeration compressors| · claude-opus-5-5 (xhigh): Stray pipe character; data artefact
-- **Refrigeration compressors** (`refrigeration-compressors`) · variant refrigeration compressors| · gpt-6 (unknown): The trailing pipe is a formatting artifact.
-- **Registered Education Savings Plan** (`registered-education-savings-plan`) · definition · gpt-6 (unknown): RESP beneficiaries need not be children, and grant eligibility is separate from registration of the savings plan.
-- **Registered Education Savings Plan** (`registered-education-savings-plan`) · variant registered education savings planning · claude-opus-5-5 (xhigh): Not a name used for the plan; malformed
-- **Registered Education Savings Plan** (`registered-education-savings-plan`) · variant registered education savings planning · gpt-6 (unknown): Planning contributions is an activity, not the Registered Education Savings Plan itself.
-- **Registered Education Savings Plan** (`registered-education-savings-plan`) · variant resp · claude-opus-5-5 (xhigh): RESP also names the Redis Serialization Protocol; 'Resp' also respiratory
-- **Regulation SHO** (`regulation-sho`) · kind · claude-sonnet-5-5 (xhigh): second draft (xhigh) said standard
-- **Reinforced masonry** (`reinforced-masonry`) · variant reinforced masonry building · gpt-6 (unknown): A building made with reinforced masonry is narrower than the construction material and system.
-- **Relational database management system** (`relational-database-management-system`) · variant relational database management system (rdms) · claude-opus-5-5 (xhigh): Acronym misspelled; the short form is RDBMS
-- **Relational database management system** (`relational-database-management-system`) · variant relational database management system (rdms) · gpt-6 (unknown): The acronym should be RDBMS; RDMS omits database's B.
 - **Renewable energy sales** (`renewable-energy-sales`) · variant renewable sales · gpt-6 (unknown): This omits energy and does not unambiguously identify renewable energy sales.
 - **Reporting** (`reporting`) · variant reportng · claude-opus-5-5 (xhigh): Misspelling
 - **Reporting** (`reporting`) · variant reportng · gpt-6 (unknown): Reporting is misspelled.
@@ -972,8 +988,6 @@
 - **Right to Financial Privacy Act** (`right-to-financial-privacy-act`) · variant rfpa · claude-opus-5-5 (xhigh): RFPA is widely used for RF power amplifier
 - **RightNow CRM** (`rightnow-crm`) · definition · gpt-6 (unknown): Oracle announced the acquisition in 2011 but completed it in 2012.
 - **Risk adjustment coding** (`risk-adjustment-coding`) · variant risk adjustment coding (rac) · claude-opus-5-5 (xhigh): RAC in US healthcare means Recovery Audit Contractor; not a standard short form here
-- **Rubber-tyred metro** (`rubber-tyred-metro`) · definition · gpt-6 (unknown): Many rubber-tyred metros also use steel wheels and rails for guidance, switches or backup; tyres do not simply replace them.
-- **Sales journal** (`sales-journal`) · description · claude-opus-5-5 (medium): adds-information: Says it debits accounts receivable; lead only says it tracks sales of an accounts receivable account and credits revenue.
 - **Salesforce Social Studio** (`salesforce-social-studio`) · definition · gpt-6 (unknown): Social Studio was retired in November 2024; this present-tense description should identify it as a former service.
 - **SAP Adaptive Server Enterprise** (`sap-adaptive-server-enterprise`) · variant sybase (software) · claude-opus-5-5 (xhigh): Sybase is the former company; also IQ, SQL Anywhere, PowerBuilder
 - **SAP GUI** (`sap-gui`) · variant sap guiing · claude-opus-5-5 (xhigh): Not a real form; malformed
@@ -982,7 +996,6 @@
 - **SAP Materials Management** (`sap-materials-management`) · variant sap meterial management · gpt-6 (unknown): Material is misspelled.
 - **SAP technology consulting** (`sap-technology-consulting`) · variant sap technology consultanting · claude-opus-5-5 (xhigh): Misspelling ('Consultanting').
 - **SAP technology consulting** (`sap-technology-consulting`) · variant sap technology consultanting · gpt-6 (unknown): Consultanting is malformed; the activity is consulting.
-- **SCARA robot** (`scara-robot`) · definition · gpt-6 (unknown): SCARA arms also translate along a vertical axis; vertical rigidity describes compliance, not absence of vertical motion.
 - **Scientific computing** (`scientific-computing`) · variant scientific computating · claude-opus-5-5 (xhigh): Misspelling ('Computating').
 - **Scientific computing** (`scientific-computing`) · variant scientific computating · gpt-6 (unknown): Computating is malformed; the activity is computing.
 - **Scientific modelling** (`scientific-modelling`) · definition · gpt-6 (unknown): Scientific models may also be physical or conceptual; limiting them to mathematical or computational representations is too narrow.
@@ -1001,28 +1014,18 @@
 - **Simple Public Key Infrastructure** (`simple-public-key-infrastructure`) · variant spki · claude-opus-5-5 (xhigh): Also widely means X.509 SubjectPublicKeyInfo (e.g. SPKI pinning).
 - **Sluice gate** (`sluice-gate`) · variant sluce gates · claude-opus-5-5 (xhigh): Misspelling of 'Sluice'.
 - **Sluice gate** (`sluice-gate`) · variant sluce gates · gpt-6 (unknown): Sluice is misspelled.
-- **Social impact bond** (`social-impact-bond`) · definition · gpt-6 (unknown): Government is a common outcome payer, but philanthropic or other non-government payers can also fund outcome payments.
 - **Social-emotional learning** (`social-emotional-learning`) · variant sel · claude-opus-5-5 (xhigh): Also Schweitzer Engineering Laboratories (SEL relays), common in power/utility listings.
-- **Software as a service** (`software-as-a-service`) · definition · gpt-6 (unknown): Provider hosting is central, but SaaS need not require a subscription; free and usage-based services also qualify.
-- **Software as a service** (`software-as-a-service`) · variant software as a services · gpt-6 (unknown): The expansion is Software as a Service; Services is malformed here.
 - **Software testing** (`testing`) · variant testing · claude-opus-5-5 (xhigh): Bare word generic (lab, medical, materials testing).
 - **Software testing** (`testing`) · variant verification and validation (software) · claude-opus-5-5 (xhigh): V&V is broader (reviews, inspections, analysis), not a synonym.
 - **Software testing** (`testing`) · variant verification and validation (software) · gpt-6 (unknown): Verification and validation include reviews and other non-testing methods, so they are broader than software testing.
-- **Software-defined WAN** (`software-defined-wan`) · variant software-defined networking wide area network (sd-wan) · claude-opus-5-5 (xhigh): Garbled expansion; SD-WAN is software-defined wide area network.
-- **Software-defined WAN** (`software-defined-wan`) · variant software-defined networking wide area network (sd-wan) · gpt-6 (unknown): SD-WAN expands to software-defined wide area network; inserting Networking corrupts the expansion.
 - **Solar panel** (`solar-panel`) · definition · gpt-6 (unknown): Solar panels can also collect solar heat; this defines photovoltaic panels only.
 - **Source Insight** (`source-insight`) · definition · claude-opus-5-5 (xhigh): Vendor is Source Dynamics, Inc., not 'SI Software'.
 - **SQL Server Analysis Services** (`sql-server-analysis-services`) · variant ssas · claude-opus-5-5 (xhigh): also UK pensions 'Small Self-Administered Scheme', common in pension admin listings
-- **Statistics** (`statistics`) · variant statistical analysis · gpt-6 (unknown): Statistical analysis is an activity within statistics, not the whole discipline.
 - **Stress testing (computing)** (`stress-testing-computing`) · variant stree testing (computing) · claude-opus-5-5 (xhigh): misspelling of 'Stress'
 - **Stuttgart Neural Network Simulator** (`stuttgart-neural-network-simulator`) · variant snns · claude-opus-5-5 (xhigh): collides with 'SNNs', the usual plural for spiking neural networks
-- **Surgery** (`surgery`) · variant surgeries · claude-opus-5-5 (xhigh): plural means individual operations or (UK) GP practices, not the field
 - **SWIFT network** (`swift-network`) · variant swift · claude-opus-5-5 (xhigh): Bare label collides with the Swift programming language.
 - **Tableau** (`tableau`) · variant tableau (busines intelligence software) · claude-opus-5-5 (xhigh): misspelling 'Busines' for 'Business'
 - **TIBCO Spotfire** (`tibco-spotfire`) · definition · claude-opus-5-5 (xhigh): Spotfire did not originate at TIBCO: built by Spotfire AB (Sweden), acquired by TIBCO in 2007.
-- **TL 9000** (`tl-9000`) · kind · claude-sonnet-5-5 (xhigh): second draft (xhigh) said standard
-- **TL 9000** (`tl-9000`) · kind · claude-opus-5-5 (xhigh): TL 9000 is a standard; allowed kind 'standard' fits, not 'knowledge'.
-- **TL 9000** (`tl-9000`) · kind · gpt-6 (unknown): TL 9000 is explicitly a quality management system standard, so standard fits rather than knowledge.
 - **Traffic Alert and Collision Avoidance System** (`traffic-alert-and-collision-avoidance-system`) · variant traffic collusion avoidance system · claude-opus-5-5 (xhigh): Misspelling of 'Collision'.
 - **Unisys MAPPER** (`unisys-mapper`) · variant maintain prepare sandsproduce executive reports (mapper) · claude-opus-5-5 (xhigh): Garbled spelling ('SandsProduce').
 - **Unisys MAPPER** (`unisys-mapper`) · variant maintain prepare sandsproduce executive reports (mapper) · gpt-6 (unknown): SandsProduce is corrupted text in the acronym expansion.

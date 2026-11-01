@@ -174,7 +174,7 @@ Answer shape, one object per tag, in a JSON list:
 def build_reviews(root, size=40, tag_size=100):
     """Everything an outside reviewer needs under reviews/: packets by class, tag packets, the brief and the answers folder."""
     r = Path(root) / "reviews"
-    for cls in ("certification", "language", "ability", "skill"):
+    for cls in ("certification", "language", "ability", "knowledge", "skill"):
         packets(root, r / cls, size, [cls], scaffold=False)
     tag_packets(root, r / "tags", tag_size)
     (r / "BRIEF.md").write_text("# What to judge\n\n## Entry packets (certification, language, ability, skill)\n\n" + REVIEW_BRIEF
@@ -311,7 +311,7 @@ def main(argv=None):
     p = sub.add_parser("packets")
     p.add_argument("out")
     p.add_argument("--size", type=int, default=40)
-    p.add_argument("--class", dest="classes", action="append", choices=["ability", "certification", "language", "skill"])
+    p.add_argument("--class", dest="classes", action="append", choices=["ability", "knowledge", "certification", "language", "skill"])
     p.add_argument("--unchecked-by", help="skip entries that have evidence from any run whose label contains this text, such as 'review'")
     p.add_argument("--root", default=str(L.ROOT))
     t_ = sub.add_parser("tag-packets")

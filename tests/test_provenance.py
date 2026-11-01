@@ -138,14 +138,14 @@ class Crosscheck(unittest.TestCase):
 
 
 class Classes(unittest.TestCase):
-    def test_the_four_way_split_comes_from_kind(self):
+    def test_the_five_way_split_comes_from_kind(self):
         for kind, cls in (("ability", "ability"), ("credential", "certification"), ("programming-language", "language"),
                           ("human-language", "language"), ("markup-language", "language"), ("tool", "skill"),
-                          ("knowledge", "skill"), ("method", "skill"), ("standard", "skill"), ("skill", "skill")):
+                          ("knowledge", "knowledge"), ("method", "skill"), ("standard", "skill"), ("skill", "skill")):
             self.assertEqual(L.top_class({"kind": kind}), cls, kind)
 
     def test_every_allowed_kind_has_a_class(self):
-        self.assertTrue({L.top_class({"kind": k}) for k in L.KINDS} <= {"ability", "certification", "language", "skill"})
+        self.assertTrue({L.top_class({"kind": k}) for k in L.KINDS} <= {"ability", "knowledge", "certification", "language", "skill"})
 
     def test_the_o_net_abilities_are_abilities_and_backed_by_o_net(self):
         entries, _ = L.load()

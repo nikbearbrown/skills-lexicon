@@ -1,6 +1,6 @@
-# Abilities, skills, languages and certifications: why they are kept apart
+# Abilities, knowledge, skills, languages and certifications: why they are kept apart
 
-Job listings ask for all four in the same breath ("strong written communication, Python, fluent Spanish, PMP certified, good eyesight"). The lexicon keeps them apart because **how a person gets or improves each one differs**, and that difference is what a worker, a trainer or an employer acts on.
+Job listings ask for all of these in the same breath ("strong written communication, Python, fluent Spanish, PMP certified, good eyesight"). The lexicon keeps them apart because **how a person gets or improves each one differs**, and that difference is what a worker, a trainer or an employer acts on.
 
 ## The rule
 
@@ -8,12 +8,21 @@ Job listings ask for all four in the same breath ("strong written communication,
 |---|---|---|---|
 | **Ability** | An enduring attribute of the individual: strength, vision, coordination, spatial orientation. | Slowly, within limits set by the person; it can be trained but it has a ceiling. | O\*NET's 52 Abilities |
 | **Skill** | A developed capacity: something learned and improved with practice and instruction. | With practice and teaching; no fixed ceiling. People with certain abilities pick some skills up faster, but the skill itself is learned. | O\*NET's Skills and Knowledge, then other sources |
-| **Language** | A learned system of communication, human or programming. Learned like a skill, but it has its own scale of levels (human languages: CEFR). | With study and use, up a level ladder. | `language_type`: `human` or `programming` |
+| **Knowledge** | An organised body of facts and principles a person has learned and can apply: "knowing that". Contract law, organic chemistry, network protocols. | By study; checked by explaining or answering, not by performing. | The `knowledge` kind; O\*NET's 33 Knowledge areas |
+| **Language** | A learned system of communication, human or programming. The entry names the system (Spanish, Python); what a listing asks for is *proficiency* in it, a developed capacity, so it belongs with the learned things, not with abilities. It has its own scale of levels (human languages: CEFR). | With study and use, up a level ladder. | `language_type`: `human` or `programming` |
 | **Certification** | A credential an official body attests: certification, licence, degree, clearance. | By meeting the body's requirements; it is awarded, not practised. | The body's name and a link to it |
 
 **The test, for an entry that could be either an ability or a skill:** what improves it, by how much, and is there a ceiling? An enduring attribute with a ceiling is an ability. A capacity that is built by practice is a skill.
 
 The definitions are O\*NET's: abilities are enduring attributes of the individual that influence performance; skills are developed capacities. The wording here is paraphrased from memory of the O\*NET Content Model; before it is quoted in a paper, copy the exact sentences from the O\*NET Content Model page and cite the release.
+
+## Knowledge, skill, ability and other characteristics (KSAO)
+
+Industrial-organisational psychology's frame for what a job needs is KSAO: knowledge, skills, abilities and other characteristics. The lexicon's classes follow it: knowledge, skill (including the tools and methods a person uses) and ability are classes of their own, and "other characteristics" (self-starter, detail-oriented, patient; dispositions that are neither abilities nor skills) is the one class not built yet (open item 1). Languages and certifications are the lexicon's own additions, because KSAO has no place for a communication system with a level ladder, or for a credential that is awarded.
+
+Language is a mix of all of them, which is why it is a class of its own. Proficiency draws on abilities (aptitude for language, O\*NET's Oral Comprehension and Oral Expression), on knowledge (grammar, vocabulary, notation) and on skill (using it fluently), and for a human language it also comes from **experience**: a person who grew up speaking one or more languages did not acquire them by instruction or deliberate practice, and a native speaker, a heritage speaker and a classroom learner reach the same level by different routes with different evidence. Whatever the route, it is learned, not inherited. A programming language is the same: a formal notation, where proficiency is knowledge of the notation plus the skill of writing programs in it.
+
+**Evidence for a language** differs from the other classes for the same reason. The strongest kinds are an attestation (a CEFR level from an exam such as DELF, DELE, TOEFL or IELTS; for programming languages, a portfolio of code) and, for human languages, a lived-in history (native or heritage speaker, years living in the language). A listing that says "native speaker" asks for the upbringing route, not for a score; one that says "C1" asks for an attested level. Neither is recorded yet; the class exists first, and its evidence types follow.
 
 ## What the databases do
 
@@ -35,4 +44,4 @@ The two layers line up imperfectly: O\*NET has the ability "Oral Expression" and
 
 ## Decision record
 
-2026-11-01, Bear: (1) adopt O\*NET's distinction between ability (enduring attribute) and skill (developed capacity) as the basis for the lexicon and the paper; use ESCO to add what is missing, not to change this distinction. (2) A degree is evidence of knowledge of a field, not of skill and not of a single fact in it (open item 5).
+2026-11-01, Bear: (0) knowledge is its own class, taken out of skill (518 entries); (1) adopt O\*NET's distinction between ability (enduring attribute) and skill (developed capacity) as the basis for the lexicon and the paper; use ESCO to add what is missing, not to change this distinction. (2) A degree is evidence of knowledge of a field, not of skill and not of a single fact in it (open item 5).
