@@ -12,6 +12,7 @@
 
 ## How it works
 
+- Why abilities, skills, languages and certifications are kept apart, and the test for each: [docs/CLASSES.md](docs/CLASSES.md).
 - What is in the lexicon is what job listings ask for, in four classes: abilities (basis: O*NET), certifications (attested by an organization, named and linked), languages, and skills (what is left). We gather evidence for and against, with who gave it, which model and at what effort; later passes decide. See [docs/SCHEMAS.md](docs/SCHEMAS.md).
 - One JSON file per concept in `entries/`. Format: [docs/ENTRY-FORMAT.md](docs/ENTRY-FORMAT.md). JSON Schemas for entries, evidence and certifications, and what counts as evidence: [docs/SCHEMAS.md](docs/SCHEMAS.md).
 - Synonyms and spelling variants are not entries. They are `variants` of the canonical entry.
