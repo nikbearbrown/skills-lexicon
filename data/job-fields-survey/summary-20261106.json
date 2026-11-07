@@ -1,0 +1,885 @@
+{
+ "members_read": 10610,
+ "members_with_errors": 29,
+ "fields": {
+  "location": {
+   "columns_matching_header": 10198,
+   "unambiguous_columns": 5001,
+   "datasets": 1489,
+   "members": 3108,
+   "top_headers": [
+    [
+     "country",
+     1394
+    ],
+    [
+     "location",
+     803
+    ],
+    [
+     "city",
+     341
+    ],
+    [
+     "country_code",
+     296
+    ],
+    [
+     "state",
+     274
+    ],
+    [
+     "country_iso2",
+     256
+    ],
+    [
+     "region",
+     207
+    ],
+    [
+     "is_country_group",
+     128
+    ],
+    [
+     "company_location",
+     83
+    ],
+    [
+     "search_city",
+     62
+    ],
+    [
+     "job_location",
+     41
+    ],
+    [
+     "location data",
+     30
+    ]
+   ],
+   "top_reasons_rejected": [
+    [
+     "fewer than half the sampled rows have a value",
+     5149
+    ],
+    [
+     "values too long to be a place",
+     48
+    ]
+   ]
+  },
+  "job_title": {
+   "columns_matching_header": 3066,
+   "unambiguous_columns": 2170,
+   "datasets": 978,
+   "members": 1792,
+   "top_headers": [
+    [
+     "title",
+     482
+    ],
+    [
+     "job_title",
+     339
+    ],
+    [
+     "jobtitle",
+     274
+    ],
+    [
+     "job title",
+     250
+    ],
+    [
+     "position",
+     77
+    ],
+    [
+     "search_role",
+     54
+    ],
+    [
+     "job_role",
+     44
+    ],
+    [
+     "role",
+     42
+    ],
+    [
+     "occupation",
+     30
+    ],
+    [
+     "job opening title",
+     30
+    ],
+    [
+     "o*net occupation name",
+     30
+    ],
+    [
+     "jobrole",
+     19
+    ]
+   ],
+   "top_reasons_rejected": [
+    [
+     "values too long or all different: not a title column",
+     840
+    ],
+    [
+     "fewer than half the sampled rows have a value",
+     56
+    ]
+   ]
+  },
+  "company": {
+   "columns_matching_header": 5474,
+   "unambiguous_columns": 2238,
+   "datasets": 901,
+   "members": 1438,
+   "top_headers": [
+    [
+     "company",
+     513
+    ],
+    [
+     "company name",
+     261
+    ],
+    [
+     "company_name",
+     207
+    ],
+    [
+     "company_size",
+     161
+    ],
+    [
+     "employer",
+     87
+    ],
+    [
+     "company_location",
+     83
+    ],
+    [
+     "company_id",
+     69
+    ],
+    [
+     "company_type",
+     45
+    ],
+    [
+     "employer_rating",
+     45
+    ],
+    [
+     "company_industry",
+     44
+    ],
+    [
+     "employer_name",
+     36
+    ],
+    [
+     "company size",
+     25
+    ]
+   ],
+   "top_reasons_rejected": [
+    [
+     "fewer than half the sampled rows have a value",
+     2996
+    ],
+    [
+     "values too long to be a name",
+     240
+    ]
+   ]
+  },
+  "salary": {
+   "columns_matching_header": 4639,
+   "unambiguous_columns": 2061,
+   "datasets": 850,
+   "members": 1174,
+   "top_headers": [
+    [
+     "salary",
+     313
+    ],
+    [
+     "salary range",
+     107
+    ],
+    [
+     "salary estimate",
+     52
+    ],
+    [
+     "salary_in_usd",
+     48
+    ],
+    [
+     "salary_usd",
+     37
+    ],
+    [
+     "min_salary",
+     29
+    ],
+    [
+     "max_salary",
+     29
+    ],
+    [
+     "salary_min",
+     27
+    ],
+    [
+     "salary_max",
+     27
+    ],
+    [
+     "avg_salary",
+     24
+    ],
+    [
+     "percentsalaryhike",
+     18
+    ],
+    [
+     "roles stating pay",
+     15
+    ]
+   ],
+   "top_reasons_rejected": [
+    [
+     "fewer than half the sampled rows have a value",
+     1812
+    ],
+    [
+     "not mostly numeric",
+     766
+    ]
+   ]
+  },
+  "date": {
+   "columns_matching_header": 2813,
+   "unambiguous_columns": 1962,
+   "datasets": 713,
+   "members": 1537,
+   "top_headers": [
+    [
+     "date",
+     519
+    ],
+    [
+     "postedat",
+     248
+    ],
+    [
+     "date_posted",
+     86
+    ],
+    [
+     "collection_date",
+     35
+    ],
+    [
+     "timestamp",
+     34
+    ],
+    [
+     "posted_date",
+     24
+    ],
+    [
+     "posted_at",
+     21
+    ],
+    [
+     "date_annonce",
+     21
+    ],
+    [
+     "p_date_limite_reponse",
+     21
+    ],
+    [
+     "a_timestamp",
+     21
+    ],
+    [
+     "post_date",
+     18
+    ],
+    [
+     "posting_date",
+     18
+    ]
+   ],
+   "top_reasons_rejected": [
+    [
+     "values do not parse as dates",
+     584
+    ],
+    [
+     "fewer than half the sampled rows have a value",
+     145
+    ],
+    [
+     "relative dates (3 days ago) need the scrape date: ambiguous",
+     122
+    ]
+   ]
+  },
+  "experience_level": {
+   "columns_matching_header": 1657,
+   "unambiguous_columns": 1330,
+   "datasets": 656,
+   "members": 899,
+   "top_headers": [
+    [
+     "experience_level",
+     115
+    ],
+    [
+     "level",
+     111
+    ],
+    [
+     "education_level",
+     109
+    ],
+    [
+     "experience",
+     95
+    ],
+    [
+     "job_level",
+     78
+    ],
+    [
+     "seniority",
+     64
+    ],
+    [
+     "years_experience",
+     41
+    ],
+    [
+     "joblevel",
+     22
+    ],
+    [
+     "experience_years",
+     21
+    ],
+    [
+     "years of experience",
+     20
+    ],
+    [
+     "seniority_level",
+     19
+    ],
+    [
+     "stockoptionlevel",
+     18
+    ]
+   ],
+   "top_reasons_rejected": [
+    [
+     "too many different values for a category",
+     183
+    ],
+    [
+     "fewer than half the sampled rows have a value",
+     144
+    ]
+   ]
+  },
+  "job_id": {
+   "columns_matching_header": 3387,
+   "unambiguous_columns": 1869,
+   "datasets": 597,
+   "members": 1650,
+   "top_headers": [
+    [
+     "id",
+     654
+    ],
+    [
+     "job_id",
+     191
+    ],
+    [
+     "id_vivienda",
+     126
+    ],
+    [
+     "id_hogar",
+     126
+    ],
+    [
+     "id_persona",
+     72
+    ],
+    [
+     "employee_id",
+     65
+    ],
+    [
+     "company_id",
+     31
+    ],
+    [
+     "unique entry id",
+     29
+    ],
+    [
+     "jobid",
+     27
+    ],
+    [
+     "candidate_id",
+     23
+    ],
+    [
+     "internal id",
+     22
+    ],
+    [
+     "id_annonce",
+     21
+    ]
+   ],
+   "top_reasons_rejected": [
+    [
+     "not an identifier",
+     1254
+    ],
+    [
+     "fewer than half the sampled rows have a value",
+     264
+    ]
+   ]
+  },
+  "employment_type": {
+   "columns_matching_header": 1474,
+   "unambiguous_columns": 879,
+   "datasets": 461,
+   "members": 694,
+   "top_headers": [
+    [
+     "employment_type",
+     161
+    ],
+    [
+     "job_type",
+     121
+    ],
+    [
+     "employment",
+     109
+    ],
+    [
+     "work_type",
+     27
+    ],
+    [
+     "job type",
+     26
+    ],
+    [
+     "employment type",
+     18
+    ],
+    [
+     "full_time_position",
+     15
+    ],
+    [
+     "jobtype",
+     13
+    ],
+    [
+     "full-time/part-time indicator",
+     13
+    ],
+    [
+     "job_employment_type",
+     11
+    ],
+    [
+     "formatted_work_type",
+     11
+    ],
+    [
+     "schedule",
+     11
+    ]
+   ],
+   "top_reasons_rejected": [
+    [
+     "too many different values for a category",
+     370
+    ],
+    [
+     "fewer than half the sampled rows have a value",
+     225
+    ]
+   ]
+  },
+  "industry": {
+   "columns_matching_header": 1272,
+   "unambiguous_columns": 853,
+   "datasets": 460,
+   "members": 637,
+   "top_headers": [
+    [
+     "industry",
+     208
+    ],
+    [
+     "sector",
+     121
+    ],
+    [
+     "company_industry",
+     60
+    ],
+    [
+     "website domain",
+     30
+    ],
+    [
+     "field",
+     28
+    ],
+    [
+     "educationfield",
+     19
+    ],
+    [
+     "domain",
+     19
+    ],
+    [
+     "domain source",
+     16
+    ],
+    [
+     "industry_code",
+     13
+    ],
+    [
+     "its share of all roles naming the field",
+     12
+    ],
+    [
+     "industry_sector",
+     10
+    ],
+    [
+     "field_of_study",
+     8
+    ]
+   ],
+   "top_reasons_rejected": [
+    [
+     "too many different values for a category",
+     274
+    ],
+    [
+     "fewer than half the sampled rows have a value",
+     145
+    ]
+   ]
+  },
+  "url": {
+   "columns_matching_header": 2338,
+   "unambiguous_columns": 1844,
+   "datasets": 393,
+   "members": 1396,
+   "top_headers": [
+    [
+     "url",
+     482
+    ],
+    [
+     "joburl",
+     256
+    ],
+    [
+     "title href",
+     117
+    ],
+    [
+     "job_url",
+     86
+    ],
+    [
+     "comp-name href",
+     81
+    ],
+    [
+     "rating href",
+     81
+    ],
+    [
+     "sourceurls",
+     72
+    ],
+    [
+     "company_url",
+     67
+    ],
+    [
+     "link",
+     49
+    ],
+    [
+     "source_url",
+     46
+    ],
+    [
+     "subtitle href",
+     36
+    ],
+    [
+     "job opening url",
+     30
+    ]
+   ],
+   "top_reasons_rejected": [
+    [
+     "not links",
+     250
+    ],
+    [
+     "fewer than half the sampled rows have a value",
+     244
+    ]
+   ]
+  },
+  "education": {
+   "columns_matching_header": 853,
+   "unambiguous_columns": 602,
+   "datasets": 363,
+   "members": 422,
+   "top_headers": [
+    [
+     "education_level",
+     109
+    ],
+    [
+     "education",
+     106
+    ],
+    [
+     "education_required",
+     25
+    ],
+    [
+     "degree",
+     23
+    ],
+    [
+     "educationfield",
+     19
+    ],
+    [
+     "education level",
+     16
+    ],
+    [
+     "required_education",
+     8
+    ],
+    [
+     "education-num",
+     7
+    ],
+    [
+     "qualifications",
+     7
+    ],
+    [
+     "qualificationlevel",
+     7
+    ],
+    [
+     "education_level_code",
+     6
+    ],
+    [
+     "education.num",
+     5
+    ]
+   ],
+   "top_reasons_rejected": [
+    [
+     "too many different values for a category",
+     213
+    ],
+    [
+     "fewer than half the sampled rows have a value",
+     38
+    ]
+   ]
+  },
+  "remote": {
+   "columns_matching_header": 646,
+   "unambiguous_columns": 514,
+   "datasets": 211,
+   "members": 304,
+   "top_headers": [
+    [
+     "is_remote",
+     66
+    ],
+    [
+     "remote_ratio",
+     51
+    ],
+    [
+     "remote",
+     26
+    ],
+    [
+     "remote_work",
+     15
+    ],
+    [
+     "remote_type",
+     14
+    ],
+    [
+     "telecommuting",
+     10
+    ],
+    [
+     "remote_count",
+     9
+    ],
+    [
+     "remote_flag",
+     9
+    ],
+    [
+     "remote_pct",
+     8
+    ],
+    [
+     "job_is_remote",
+     7
+    ],
+    [
+     "isremote",
+     7
+    ],
+    [
+     "job_work_from_home",
+     6
+    ]
+   ],
+   "top_reasons_rejected": [
+    [
+     "fewer than half the sampled rows have a value",
+     93
+    ],
+    [
+     "too many different values for a category",
+     39
+    ]
+   ]
+  },
+  "skills_list": {
+   "columns_matching_header": 2496,
+   "unambiguous_columns": 257,
+   "datasets": 203,
+   "members": 247,
+   "top_headers": [
+    [
+     "skills",
+     87
+    ],
+    [
+     "keywords",
+     31
+    ],
+    [
+     "required_skills",
+     26
+    ],
+    [
+     "tags",
+     20
+    ],
+    [
+     "skills_required",
+     12
+    ],
+    [
+     "key_skills",
+     9
+    ],
+    [
+     "job_skills",
+     6
+    ],
+    [
+     "skills and perks",
+     6
+    ],
+    [
+     "key skills",
+     5
+    ],
+    [
+     "required skills",
+     4
+    ],
+    [
+     "tech stack",
+     4
+    ],
+    [
+     "top_skills",
+     4
+    ]
+   ],
+   "top_reasons_rejected": [
+    [
+     "not delimited short labels",
+     2102
+    ],
+    [
+     "fewer than half the sampled rows have a value",
+     137
+    ]
+   ]
+  },
+  "description": {
+   "columns_matching_header": 2237,
+   "unambiguous_columns": 0,
+   "datasets": 0,
+   "members": 0,
+   "top_headers": [],
+   "top_reasons_rejected": [
+    [
+     "free text: never parsed",
+     1935
+    ],
+    [
+     "fewer than half the sampled rows have a value",
+     302
+    ]
+   ]
+  }
+ }
+}
