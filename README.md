@@ -12,6 +12,7 @@
 
 ## How it works
 
+- **Taking over this project: start at [docs/handoff/HANDOFF.md](docs/handoff/HANDOFF.md)** (state, rules, open work, and the prepared prompts for the cluster).
 - Why abilities, skills, languages and certifications are kept apart, and the test for each: [docs/CLASSES.md](docs/CLASSES.md).
 - What is in the lexicon is what job listings ask for, in five classes: abilities (basis: O*NET), knowledge, certifications (attested by an organization, named and linked), languages, and skills (what is left). We gather evidence for and against, with who gave it, which model and at what effort; later passes decide. See [docs/SCHEMAS.md](docs/SCHEMAS.md).
 - One JSON file per concept in `entries/`. Format: [docs/ENTRY-FORMAT.md](docs/ENTRY-FORMAT.md). JSON Schemas for entries, evidence and certifications, and what counts as evidence: [docs/SCHEMAS.md](docs/SCHEMAS.md).
