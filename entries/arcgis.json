@@ -1,0 +1,109 @@
+{
+ "id": "jmxe1klold",
+ "preferred_name": "ArcGIS",
+ "kind": "platform",
+ "definition": "Esri's geographic information system software suite for creating, analysing and sharing maps and spatial data.",
+ "key": "arcgis",
+ "certification": false,
+ "variants": [
+  {
+   "label": "ESRI ArcGIS software",
+   "match": "word_ci"
+  },
+  {
+   "label": "Esri ArcGIS",
+   "match": "word_ci"
+  }
+ ],
+ "relations": [],
+ "verbs": [
+  "map with",
+  "analyse spatial data in",
+  "publish maps from"
+ ],
+ "status": "machine-drafted",
+ "provenance": {
+  "source": "drafted by model:claude-sonnet-5-5, run 2026-11-07-onet-hot-tech, from a technology name listed in O*NET 31.0 Software Skills (USDOL/ETA, CC BY 4.0); the name was matched to nothing else and no posting or outside source was checked",
+  "date": "2026-11-07",
+  "reviewed_by": null,
+  "onet_listing": {
+   "release": "31.0",
+   "table": "Software Skills",
+   "example": "ESRI ArcGIS software",
+   "element_names": [
+    "Analytical or scientific software",
+    "Geographic information system",
+    "Map creation software"
+   ],
+   "n_occupations": 93,
+   "hot": true,
+   "in_demand": true
+  }
+ },
+ "evidence": [
+  {
+   "field": "definition",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-11-07",
+   "run": "2026-11-07-onet-hot-tech",
+   "note": "basis: general-knowledge"
+  },
+  {
+   "field": "kind",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-11-07",
+   "run": "2026-11-07-onet-hot-tech",
+   "note": "basis: general-knowledge (with the definition)"
+  },
+  {
+   "field": "variant:esri arcgis software",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-11-07",
+   "run": "2026-11-07-onet-hot-tech",
+   "note": "listed in O*NET Software Skills; the model chose the canonical name"
+  },
+  {
+   "field": "variant:esri arcgis",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-11-07",
+   "run": "2026-11-07-onet-hot-tech",
+   "note": "basis: general-knowledge"
+  },
+  {
+   "field": "verb:map with",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-11-07",
+   "run": "2026-11-07-onet-hot-tech",
+   "note": "basis: general-knowledge"
+  },
+  {
+   "field": "verb:analyse spatial data in",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-11-07",
+   "run": "2026-11-07-onet-hot-tech",
+   "note": "basis: general-knowledge"
+  },
+  {
+   "field": "verb:publish maps from",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-11-07",
+   "run": "2026-11-07-onet-hot-tech",
+   "note": "basis: general-knowledge"
+  },
+  {
+   "field": "certification",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-11-07",
+   "run": "2026-11-07-onet-hot-tech",
+   "note": "basis: general-knowledge"
+  }
+ ]
+}

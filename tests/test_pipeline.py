@@ -16,6 +16,16 @@ import lexicon as L  # noqa: E402
 import make_requests as M  # noqa: E402
 import run_endpoint as R  # noqa: E402
 
+# The test ad names Kubernetes, Terraform and Snowflake as terms the dictionary does not know. Entries for them have since been
+# drafted from O*NET, so the fixtures leave those entries out: the tests are about the pipeline, not about what the dictionary lacks.
+UNKNOWN_IN_FIXTURES = {"kubernetes", "terraform", "snowflake", "dbt"}
+
+
+def fixture_load():
+    entries, errs = L.load()
+    return [e for e in entries if not (e.get("key") in UNKNOWN_IN_FIXTURES and (e.get("provenance") or {}).get("onet_listing"))], errs
+
+
 _REAL = L.load()[0]
 
 
@@ -31,6 +41,10 @@ AD = {"id": "gh:1", "title": "Data Engineer", "text": (
 def temp_root():
     d = Path(tempfile.mkdtemp())
     shutil.copytree(ROOT / "entries", d / "entries")
+    for key in UNKNOWN_IN_FIXTURES:
+        f = d / "entries" / (key + ".json")
+        if f.exists() and (json.loads(f.read_text("utf-8")).get("provenance") or {}).get("onet_listing"):
+            f.unlink()
     return d
 
 
@@ -50,7 +64,7 @@ def run_pipeline(root, ads, answers, model="test-model-1"):
 
 class Extract(unittest.TestCase):
     def setUp(self):
-        self.entries, _ = L.load()
+        self.entries, _ = fixture_load()
         self.rec, self.cands = X.process([AD], self.entries)
         self.skills = {s["concept"]: s for s in self.rec[0]["skills"]}
 
@@ -101,7 +115,7 @@ class Extract(unittest.TestCase):
 
 class Noise(unittest.TestCase):
     def terms(self, ads):
-        return {c["term"] for c in X.process(ads, L.load()[0])[1]}
+        return {c["term"] for c in X.process(ads, fixture_load()[0])[1]}
 
     def test_boilerplate_lists_are_not_candidates(self):
         t = self.terms([{"id": "a", "text": "We do not discriminate, including on gender identity, sexual orientation or age.\n"
@@ -131,7 +145,7 @@ class Noise(unittest.TestCase):
 
 class Requests(unittest.TestCase):
     def test_request_is_self_contained(self):
-        entries, _ = L.load()
+        entries, _ = fixture_load()
         cands = X.process([AD], entries)[1]
         req = next(iter(M.make([c for c in cands if c["term"] == "Kubernetes"], entries, 1).values()))
         self.assertIn("## The task", req["instructions"])
@@ -140,19 +154,19 @@ class Requests(unittest.TestCase):
         self.assertTrue(req["quotes"] and req["allowed"]["kinds"])
 
     def test_nearest_finds_the_related_entry(self):
-        entries, _ = L.load()
+        entries, _ = fixture_load()
         near = M.nearest("PostgreSQL 15", [{"quote": "run PostgreSQL databases"}], entries)
         self.assertEqual(near[0]["id"], rid("skill:0082"))
 
     def test_nearest_uses_cooccurrence_not_stray_words(self):
-        entries, _ = L.load()
+        entries, _ = fixture_load()
         near = M.nearest("Kubernetes", [{"quote": "Experience with infrastructure systems, security, and AWS or React"}], entries)
         names = {n["name"] for n in near}
         self.assertTrue({"Amazon Web Services", "React"} <= names)        # AWS and React appear in the quote
         self.assertFalse({"Cybersecurity", "Operating systems"} & names)  # only a stray word in common
 
     def test_min_postings_filters(self):
-        entries, _ = L.load()
+        entries, _ = fixture_load()
         cands = X.process([AD], entries)[1]
         self.assertEqual(M.make(cands, entries, min_postings=2), {})
 
@@ -381,6 +395,57 @@ class Annotations(unittest.TestCase):
         self.assertTrue(any("certification must be" in m for m in L.validate([dict(base, certification="yes")])))
         self.assertTrue(any("language_type must be" in m for m in L.validate([dict(base, language_type="klingon")])))
         self.assertEqual(L.validate([dict(base, certification=True, language_type="human")]), [])
+
+
+class OnetOrigin(unittest.TestCase):
+    """A technology name that comes from an O*NET table, not from a posting or a legacy list."""
+
+    def run_onet(self, answer, hint=None):
+        root = temp_root()
+        work = root / "work"
+        entries, _ = L.load(root / "entries")
+        cand = {"term": "Atlassian Frobnicator", "n_postings": 0, "quotes": [], "hint_entries": [hint] if hint else [],
+                "origin": {"kind": "onet-technology", "release": "31.0", "table": "Software Skills", "example": "Atlassian Frobnicator",
+                           "element_names": ["Project management software"], "n_occupations": 53, "hot": True, "in_demand": True}}
+        (work / "requests").mkdir(parents=True)
+        (work / "responses").mkdir()
+        for name, req in M.make([cand], entries, 0).items():
+            (work / "requests" / name).write_text(json.dumps(req))
+            (work / "responses" / name).write_text(json.dumps(answer))
+            self.req = req
+        return I.ingest(work, root, "model:m1", "run-o", "2026-11-07"), root
+
+    def answer(self, **ann):
+        e = {"preferred_name": "Frobnicator", "kind": "tool", "definition": "A made-up project tool.", "definition_basis": "general-knowledge",
+             "variants": [], "relations": [], "verbs": [], "certification": {"value": False, "basis": "general-knowledge"},
+             "language_type": {"value": None, "basis": "general-knowledge"}}
+        e.update(ann)
+        return {"decision": "new", "variant_of": None, "reason": "r", "entry": e}
+
+    def test_provenance_names_o_net_and_claims_no_legacy_list_or_posting(self):
+        rep, root = self.run_onet(self.answer())
+        self.assertEqual(rep["new"], ["Frobnicator"])
+        e = json.loads((root / "entries" / "frobnicator.json").read_text())
+        self.assertIn("O*NET 31.0 Software Skills", e["provenance"]["source"])
+        self.assertNotIn("legacy", e["provenance"]["source"])
+        self.assertNotIn("legacy_tag", e["provenance"])
+        self.assertEqual(e["provenance"]["onet_listing"]["n_occupations"], 53)
+        self.assertIn("O*NET", self.req["context"])
+        self.assertTrue(any(v["field"].startswith("variant:") and "O*NET" in v["note"] for v in e["evidence"]))
+        self.assertFalse(any("flag" in v for v in e["evidence"]))        # no legacy list to disagree with
+        self.assertFalse(any(L.backs(v) for v in e["evidence"]))         # a model's draft backs nothing
+        self.assertEqual(L.validate(L.load(root / "entries")[0]), [])
+
+    def test_a_hinted_entry_is_shown_to_the_model_and_can_take_the_term_as_a_variant(self):
+        entries, _ = L.load(temp_root() / "entries")
+        target = next(e for e in entries if e["status"] != "deprecated")
+        root = temp_root()
+        work = root / "work"
+        cand = {"term": "Acme " + target["preferred_name"], "n_postings": 0, "quotes": [], "hint_entries": [target["id"]],
+                "origin": {"kind": "onet-technology", "release": "31.0", "table": "Software Skills", "example": "x", "n_occupations": 1}}
+        reqs = M.make([cand], entries, 0)
+        req = next(iter(reqs.values()))
+        self.assertEqual(req["nearest"][0]["id"], target["id"])
 
 
 class AnnotateExisting(unittest.TestCase):

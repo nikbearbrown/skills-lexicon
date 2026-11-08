@@ -1,0 +1,96 @@
+{
+ "id": "bpmh610vmb",
+ "preferred_name": "Splunk Enterprise",
+ "kind": "platform",
+ "definition": "Splunk's software for collecting, searching, monitoring and analysing machine-generated log data.",
+ "key": "splunk-enterprise",
+ "certification": false,
+ "variants": [
+  {
+   "label": "Splunk",
+   "match": "word_ci"
+  }
+ ],
+ "relations": [],
+ "verbs": [
+  "search",
+  "build dashboards in",
+  "administer"
+ ],
+ "status": "machine-drafted",
+ "provenance": {
+  "source": "drafted by model:claude-sonnet-5-5, run 2026-11-07-onet-hot-tech, from a technology name listed in O*NET 31.0 Software Skills (USDOL/ETA, CC BY 4.0); the name was matched to nothing else and no posting or outside source was checked",
+  "date": "2026-11-07",
+  "reviewed_by": null,
+  "onet_listing": {
+   "release": "31.0",
+   "table": "Software Skills",
+   "example": "Splunk Enterprise",
+   "element_names": [
+    "Cloud-based management software",
+    "Enterprise system management software"
+   ],
+   "n_occupations": 40,
+   "hot": true,
+   "in_demand": true
+  }
+ },
+ "evidence": [
+  {
+   "field": "definition",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-11-07",
+   "run": "2026-11-07-onet-hot-tech",
+   "note": "basis: general-knowledge"
+  },
+  {
+   "field": "kind",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-11-07",
+   "run": "2026-11-07-onet-hot-tech",
+   "note": "basis: general-knowledge (with the definition)"
+  },
+  {
+   "field": "variant:splunk",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-11-07",
+   "run": "2026-11-07-onet-hot-tech",
+   "note": "basis: general-knowledge"
+  },
+  {
+   "field": "verb:search",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-11-07",
+   "run": "2026-11-07-onet-hot-tech",
+   "note": "basis: general-knowledge"
+  },
+  {
+   "field": "verb:build dashboards in",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-11-07",
+   "run": "2026-11-07-onet-hot-tech",
+   "note": "basis: general-knowledge"
+  },
+  {
+   "field": "verb:administer",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-11-07",
+   "run": "2026-11-07-onet-hot-tech",
+   "note": "basis: general-knowledge"
+  },
+  {
+   "field": "certification",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-11-07",
+   "run": "2026-11-07-onet-hot-tech",
+   "note": "basis: general-knowledge"
+  }
+ ]
+}

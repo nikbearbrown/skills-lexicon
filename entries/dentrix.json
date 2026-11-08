@@ -1,0 +1,95 @@
+{
+ "id": "ivup7lsh26",
+ "preferred_name": "Dentrix",
+ "kind": "tool",
+ "definition": "Dental practice-management software, sold by Henry Schein, for scheduling, patient records and billing.",
+ "key": "dentrix",
+ "certification": false,
+ "variants": [
+  {
+   "label": "Henry Schein Dentrix",
+   "match": "word_ci"
+  }
+ ],
+ "relations": [],
+ "verbs": [
+  "use",
+  "schedule patients in",
+  "bill with"
+ ],
+ "status": "machine-drafted",
+ "provenance": {
+  "source": "drafted by model:claude-sonnet-5-5, run 2026-11-07-onet-hot-tech, from a technology name listed in O*NET 31.0 Software Skills (USDOL/ETA, CC BY 4.0); the name was matched to nothing else and no posting or outside source was checked",
+  "date": "2026-11-07",
+  "reviewed_by": null,
+  "onet_listing": {
+   "release": "31.0",
+   "table": "Software Skills",
+   "example": "Henry Schein Dentrix",
+   "element_names": [
+    "Medical software"
+   ],
+   "n_occupations": 12,
+   "hot": true,
+   "in_demand": true
+  }
+ },
+ "evidence": [
+  {
+   "field": "definition",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-11-07",
+   "run": "2026-11-07-onet-hot-tech",
+   "note": "basis: general-knowledge"
+  },
+  {
+   "field": "kind",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-11-07",
+   "run": "2026-11-07-onet-hot-tech",
+   "note": "basis: general-knowledge (with the definition)"
+  },
+  {
+   "field": "variant:henry schein dentrix",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-11-07",
+   "run": "2026-11-07-onet-hot-tech",
+   "note": "listed in O*NET Software Skills; the model chose the canonical name"
+  },
+  {
+   "field": "verb:use",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-11-07",
+   "run": "2026-11-07-onet-hot-tech",
+   "note": "basis: general-knowledge"
+  },
+  {
+   "field": "verb:schedule patients in",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-11-07",
+   "run": "2026-11-07-onet-hot-tech",
+   "note": "basis: general-knowledge"
+  },
+  {
+   "field": "verb:bill with",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-11-07",
+   "run": "2026-11-07-onet-hot-tech",
+   "note": "basis: general-knowledge"
+  },
+  {
+   "field": "certification",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-11-07",
+   "run": "2026-11-07-onet-hot-tech",
+   "note": "basis: general-knowledge"
+  }
+ ]
+}

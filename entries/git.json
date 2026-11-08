@@ -1,0 +1,83 @@
+{
+ "id": "j4gnew974v",
+ "preferred_name": "Git",
+ "kind": "tool",
+ "definition": "A distributed version control system for tracking changes in source code.",
+ "key": "git",
+ "name_match": "exact_case",
+ "certification": false,
+ "variants": [],
+ "relations": [],
+ "verbs": [
+  "commit to",
+  "branch and merge with",
+  "use"
+ ],
+ "status": "machine-drafted",
+ "provenance": {
+  "source": "drafted by model:claude-sonnet-5-5, run 2026-11-07-onet-hot-tech, from a technology name listed in O*NET 31.0 Software Skills (USDOL/ETA, CC BY 4.0); the name was matched to nothing else and no posting or outside source was checked",
+  "date": "2026-11-07",
+  "reviewed_by": null,
+  "onet_listing": {
+   "release": "31.0",
+   "table": "Software Skills",
+   "example": "Git",
+   "element_names": [
+    "File versioning software"
+   ],
+   "n_occupations": 47,
+   "hot": true,
+   "in_demand": true
+  }
+ },
+ "evidence": [
+  {
+   "field": "definition",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-11-07",
+   "run": "2026-11-07-onet-hot-tech",
+   "note": "basis: general-knowledge"
+  },
+  {
+   "field": "kind",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-11-07",
+   "run": "2026-11-07-onet-hot-tech",
+   "note": "basis: general-knowledge (with the definition)"
+  },
+  {
+   "field": "verb:commit to",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-11-07",
+   "run": "2026-11-07-onet-hot-tech",
+   "note": "basis: general-knowledge"
+  },
+  {
+   "field": "verb:branch and merge with",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-11-07",
+   "run": "2026-11-07-onet-hot-tech",
+   "note": "basis: general-knowledge"
+  },
+  {
+   "field": "verb:use",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-11-07",
+   "run": "2026-11-07-onet-hot-tech",
+   "note": "basis: general-knowledge"
+  },
+  {
+   "field": "certification",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-11-07",
+   "run": "2026-11-07-onet-hot-tech",
+   "note": "basis: general-knowledge"
+  }
+ ]
+}

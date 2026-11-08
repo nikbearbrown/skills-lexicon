@@ -23,7 +23,12 @@
   }
  },
  "name_match": "exact_case",
- "variants": [],
+ "variants": [
+  {
+   "label": "Cascading style sheets CSS",
+   "match": "word_ci"
+  }
+ ],
  "relations": [],
  "verbs": [],
  "status": "proposed",
@@ -130,6 +135,14 @@
    "outcome": "supports",
    "date": "2026-10-31",
    "run": "2026-10-31-desc-check-b"
+  },
+  {
+   "field": "variant:cascading style sheets css",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-11-07",
+   "run": "2026-11-07-onet-hot-tech-collisions",
+   "note": "same concept as CSS, listed in O*NET Software Skills"
   }
  ]
 }

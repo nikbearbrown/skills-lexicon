@@ -1,0 +1,98 @@
+{
+ "id": "ju0m6mijdp",
+ "preferred_name": "Adobe Creative Cloud",
+ "kind": "platform",
+ "definition": "Adobe's subscription suite of design, photo, video and document applications such as Photoshop, Illustrator and Premiere Pro.",
+ "key": "adobe-creative-cloud",
+ "certification": false,
+ "variants": [
+  {
+   "label": "Adobe Creative Cloud software",
+   "match": "word_ci"
+  },
+  {
+   "label": "Adobe CC",
+   "match": "word_ci"
+  }
+ ],
+ "relations": [],
+ "verbs": [
+  "use",
+  "design with"
+ ],
+ "status": "machine-drafted",
+ "provenance": {
+  "source": "drafted by model:claude-sonnet-5-5, run 2026-11-07-onet-hot-tech, from a technology name listed in O*NET 31.0 Software Skills (USDOL/ETA, CC BY 4.0); the name was matched to nothing else and no posting or outside source was checked",
+  "date": "2026-11-07",
+  "reviewed_by": null,
+  "onet_listing": {
+   "release": "31.0",
+   "table": "Software Skills",
+   "example": "Adobe Creative Cloud software",
+   "element_names": [
+    "Graphics or photo imaging software"
+   ],
+   "n_occupations": 78,
+   "hot": true,
+   "in_demand": true
+  }
+ },
+ "evidence": [
+  {
+   "field": "definition",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-11-07",
+   "run": "2026-11-07-onet-hot-tech",
+   "note": "basis: general-knowledge"
+  },
+  {
+   "field": "kind",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-11-07",
+   "run": "2026-11-07-onet-hot-tech",
+   "note": "basis: general-knowledge (with the definition)"
+  },
+  {
+   "field": "variant:adobe creative cloud software",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-11-07",
+   "run": "2026-11-07-onet-hot-tech",
+   "note": "listed in O*NET Software Skills; the model chose the canonical name"
+  },
+  {
+   "field": "variant:adobe cc",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-11-07",
+   "run": "2026-11-07-onet-hot-tech",
+   "note": "basis: general-knowledge"
+  },
+  {
+   "field": "verb:use",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-11-07",
+   "run": "2026-11-07-onet-hot-tech",
+   "note": "basis: general-knowledge"
+  },
+  {
+   "field": "verb:design with",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-11-07",
+   "run": "2026-11-07-onet-hot-tech",
+   "note": "basis: general-knowledge"
+  },
+  {
+   "field": "certification",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-11-07",
+   "run": "2026-11-07-onet-hot-tech",
+   "note": "basis: general-knowledge"
+  }
+ ]
+}

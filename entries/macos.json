@@ -32,6 +32,10 @@
   {
    "label": "Mac OS X",
    "match": "word_ci"
+  },
+  {
+   "label": "Apple macOS",
+   "match": "word_ci"
   }
  ],
  "relations": [],
@@ -252,6 +256,14 @@
    "outcome": "supports",
    "date": "2026-10-31",
    "run": "2026-10-31-desc-check-c"
+  },
+  {
+   "field": "variant:apple macos",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-11-07",
+   "run": "2026-11-07-onet-hot-tech",
+   "note": "same concept as macOS, listed in O*NET Software Skills"
   }
  ]
 }

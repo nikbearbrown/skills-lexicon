@@ -25,6 +25,10 @@
   {
    "label": "Powershell (Programming Language)",
    "match": "word_ci"
+  },
+  {
+   "label": "Microsoft PowerShell",
+   "match": "word_ci"
   }
  ],
  "relations": [],
@@ -196,6 +200,14 @@
    "outcome": "supports",
    "date": "2026-10-31",
    "run": "2026-10-31-desc-check-d"
+  },
+  {
+   "field": "variant:microsoft powershell",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-11-07",
+   "run": "2026-11-07-onet-hot-tech",
+   "note": "same concept as PowerShell, listed in O*NET Software Skills"
   }
  ]
 }

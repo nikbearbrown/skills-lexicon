@@ -509,6 +509,19 @@
   "agent": "subagent",
   "date": "2026-10-31"
  },
+ "2026-11-07-onet-hot-tech": {
+  "model": "claude-sonnet-5-5",
+  "effort": "unknown",
+  "agent": "subagent",
+  "date": "2026-11-07",
+  "note": "four subagents, requested with the model alias 'sonnet' from a main session that reported claude-sonnet-5-5; the resolved model id and the effort of the subagents were not observed, so the main session's model is recorded and effort is unknown"
+ },
+ "2026-11-07-onet-hot-tech-collisions": {
+  "model": "claude-sonnet-5-5",
+  "effort": "high",
+  "agent": "main-session",
+  "date": "2026-11-07"
+ },
  "external-2026-10-29-gpt-6-unknown": {
   "model": "gpt-6",
   "effort": "unknown",

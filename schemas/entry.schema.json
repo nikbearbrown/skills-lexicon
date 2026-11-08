@@ -104,6 +104,14 @@
         "date": { "type": "string", "format": "date" },
         "reviewed_by": { "type": ["string", "null"] },
         "review": { "type": "string" },
+        "onet_listing": {
+          "type": "object",
+          "description": "For an entry drafted from a technology name in an O*NET table: the release, table, the name as O*NET writes it, the O*NET category names, how many occupations list it and its Hot Technology and In Demand flags. A hint about where the candidate came from, not evidence for any claim.",
+          "required": ["release", "table", "example"],
+          "properties": { "release": { "type": "string" }, "table": { "type": "string" }, "example": { "type": "string" },
+                          "element_names": { "type": "array", "items": { "type": "string" } }, "n_occupations": { "type": "integer" },
+                          "hot": { "type": "boolean" }, "in_demand": { "type": "boolean" } }
+        },
         "legacy_tag": {
           "type": "object",
           "description": "Which legacy tag lists and rows an entry was drafted from. The lists are unchecked hints, not evidence.",

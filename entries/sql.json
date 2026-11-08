@@ -27,6 +27,10 @@
   {
    "label": "Sql (Programming Language)",
    "match": "word_ci"
+  },
+  {
+   "label": "Structured query language SQL",
+   "match": "word_ci"
   }
  ],
  "relations": [],
@@ -131,6 +135,14 @@
    "outcome": "supports",
    "date": "2026-10-31",
    "run": "2026-10-31-desc-check-e"
+  },
+  {
+   "field": "variant:structured query language sql",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-11-07",
+   "run": "2026-11-07-onet-hot-tech-collisions",
+   "note": "same concept as SQL, listed in O*NET Software Skills"
   }
  ]
 }

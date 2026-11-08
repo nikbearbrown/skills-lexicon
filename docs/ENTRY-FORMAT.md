@@ -54,6 +54,8 @@ Each evidence record is `{field, by, action, date, outcome?, ref?, note?, run?}`
 
 An evidence record may also carry `flag`: `disagrees_with_legacy` (the model and a legacy certification/language list or class differ) or `not_in_legacy` (the model says certification or language and no legacy list does). A flag asks a person to look. It never backs or contradicts a claim.
 
+An entry drafted from a technology name in an O*NET table has `provenance.onet_listing`: `{release, table, example, element_names, n_occupations, hot, in_demand}`. It says where the candidate came from. It is not evidence for any claim. The O*NET data is CC BY 4.0 (see `THIRD-PARTY-NOTICES.md`).
+
 An entry drafted from a legacy tag has `provenance.legacy_tag`: `{sources: [{file, rows, class}], class, in_lists, class_conflict?}`. The lists are `data/skills_tags.csv`, `data/skills-certification.csv` and `data/skills-language.csv`. They are unchecked hints, not evidence.
 
 What counts: only a person's `checked`+`supports`, or a `matched_source`+`supports` whose `verification` is `page-read` or `dump-match`, backs a claim. A match seen only in search results is recorded but does not back it. The shape of an evidence record, and what counts as evidence that something is a certification, is in [SCHEMAS.md](SCHEMAS.md). A model checking a model's claim is recorded and visible but never backs it, because two models can share one mistake.

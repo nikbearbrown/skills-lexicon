@@ -24,6 +24,10 @@
   {
    "label": "SSIS",
    "match": "exact_case"
+  },
+  {
+   "label": "Microsoft SQL Server Integration Services SSIS",
+   "match": "word_ci"
   }
  ],
  "relations": [
@@ -217,6 +221,14 @@
    "outcome": "supports",
    "date": "2026-10-31",
    "run": "2026-10-31-desc-check-e"
+  },
+  {
+   "field": "variant:microsoft sql server integration services ssis",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-11-07",
+   "run": "2026-11-07-onet-hot-tech",
+   "note": "same concept as SQL Server Integration Services, listed in O*NET Software Skills"
   }
  ]
 }

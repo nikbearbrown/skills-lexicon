@@ -9,6 +9,10 @@
   {
    "label": "Primavera",
    "match": "word_ci"
+  },
+  {
+   "label": "Oracle Primavera Enterprise Project Portfolio Management",
+   "match": "word_ci"
   }
  ],
  "relations": [],
@@ -128,6 +132,14 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "external-2026-10-29-gpt-6-unknown"
+  },
+  {
+   "field": "variant:oracle primavera enterprise project portfolio management",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-11-07",
+   "run": "2026-11-07-onet-hot-tech",
+   "note": "same concept as Oracle Primavera, listed in O*NET Software Skills"
   }
  ]
 }

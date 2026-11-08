@@ -47,6 +47,18 @@ def nearest(term, quotes, entries, k=8):
              "variants": [v["label"] for v in e.get("variants", [])]} for s, e in scored[:k]]
 
 
+def with_hints(near, hint_ids, entries):
+    """Put entries a rule suggested (for example an entry whose name the term contains) first, so the model sees them.
+    A hint is not a match: the model still decides whether the term is the same concept."""
+    have = {n["id"] for n in near}
+    extra = []
+    for e in entries:
+        if e["id"] in (hint_ids or []) and e["id"] not in have and e["status"] != "deprecated":
+            extra.append({"id": e["id"], "name": e["preferred_name"], "kind": e["kind"], "definition": e["definition"],
+                          "variants": [v["label"] for v in e.get("variants", [])]})
+    return extra + near
+
+
 def slug(term):
     base = re.sub(r"[^a-z0-9]+", "-", term.lower()).strip("-") or "term"
     return f"{base[:40]}-{hashlib.sha1(term.encode()).hexdigest()[:6]}"
@@ -64,11 +76,24 @@ def make(cands, entries, min_postings=3, limit=None, text=None):
         req = {
             "task": "skills-lexicon draft-entry", "version": 1, "instructions": text,
             "term": c["term"], "n_postings": c["n_postings"], "quotes": c["quotes"],
-            "nearest": nearest(c["term"], c["quotes"], entries),
+            "nearest": with_hints(nearest(c["term"], c["quotes"], entries), c.get("hint_entries"), entries),
             "allowed": {"kinds": kinds, "relation_types": sorted(L.REL_TYPES), "basis": ["posting", "general-knowledge", "guess"]}}
         if c.get("origin"):
             # A term from a list rather than a posting: say so, so nothing is claimed as seen in an ad.
             req["origin"] = c["origin"]
+            if c["origin"].get("kind") == "onet-technology":
+                o = c["origin"]
+                req["context"] = ("This term comes from O*NET's table of software and technology names (release %s, table %s), not from a posting. "
+                                  "O*NET lists it for %d occupations%s, under the category %s. There are no quotes, so no claim can have basis 'posting'. "
+                                  "Use 'general-knowledge' only for what you know, and answer 'unsure' if you do not know what the term is. "
+                                  "O*NET's wording often adds a vendor or a word like 'software' (for example 'Atlassian JIRA'); give the product's official name as preferred_name. "
+                                  "If `nearest` has an entry that is the same concept, answer variant_of; a broader or related concept is not the same. "
+                                  "A category rather than a product (for example 'Web browser software') is not_a_skill unless it is also a skill people are asked for. "
+                                  "Decide `certification` and `language_type` yourself."
+                                  % (o.get("release"), o.get("table"), o.get("n_occupations", 0),
+                                     " and flags it as a Hot Technology" if o.get("hot") else "", " / ".join(f'"{t}"' for t in o.get("element_names", [])) or "unknown"))
+                out[slug(c["term"]) + ".json"] = req
+                continue
             lists = c["origin"].get("in_lists") or []
             req["context"] = ("This term comes from a legacy tag list, not from a posting. There are no quotes, "
                               "so no claim can have basis 'posting'. Use 'general-knowledge' only for what you know, "

@@ -44,6 +44,8 @@ def annotate(e, req, out, ev, dropped, by, run, today):
     A legacy list or class is only a hint: when the model and the hint differ, the evidence record is flagged
     for a person. A model that says "not a language" leaves no field, so the disagreement goes in `notes`."""
     o = req.get("origin") or {}
+    if o.get("kind") == "onet-technology":      # the legacy lists say nothing about a term that came from O*NET
+        o = {}
     lists, cls = o.get("in_lists") or [], (o.get("class") or "").split("/")
     legacy = {"certification": "certification" in lists or "Certification" in cls,
               "language_type": "language" in lists or "Language" in cls}
@@ -98,6 +100,7 @@ def build_new(resp, req, entries, by, run, today):
         if not isinstance(e.get(k), str) or not e[k].strip():
             raise ValueError(f"entry.{k} is missing")
     quote = (req.get("quotes") or [{}])[0].get("quote", "")
+    onet = (req.get("origin") or {}).get("kind") == "onet-technology"
     dropped, ev = [], []
     dbasis = e.get("definition_basis")
     if dbasis not in BASIS or dbasis == "guess":
@@ -114,7 +117,7 @@ def build_new(resp, req, entries, by, run, today):
     if L.norm(term) not in seen:
         variants.append({"label": term, "match": L.default_match(term)})
         seen.add(L.norm(term))
-        seen_in = "listed in the legacy tag list" if req.get("origin") else "observed in postings"
+        seen_in = ("listed in O*NET Software Skills" if onet else "listed in the legacy tag list" if req.get("origin") else "observed in postings")
         ev.append({"field": f"variant:{L.norm(term)}", "by": by, "action": "drafted", "date": today, "run": run,
                    "note": (seen_in + "; the model chose the canonical name" + (f"; quote: {quote}" if quote else ""))[:NOTE_MAX]})
     for v in e.get("variants") or []:
@@ -150,11 +153,16 @@ def build_new(resp, req, entries, by, run, today):
         ev.append(evidence(f"verb:{L.norm(w)}", by, run, today, b, quote))
     annotate(e, req, out, ev, dropped, by, run, today)
     origin = req.get("origin")
-    prov = {"source": (f"drafted by {by}, run {run}, from the name in the legacy tag list alone; no posting or outside source checked"
-                       if origin else f"drafted by {by}, run {run}, from job postings"),
-            "date": today, "reviewed_by": None}
-    if origin:
-        prov["legacy_tag"] = origin
+    if onet:
+        prov = {"source": f"drafted by {by}, run {run}, from a technology name listed in O*NET {origin.get('release')} {origin.get('table')} "
+                          "(USDOL/ETA, CC BY 4.0); the name was matched to nothing else and no posting or outside source was checked",
+                "date": today, "reviewed_by": None, "onet_listing": {k: v for k, v in origin.items() if k != "kind"}}
+    else:
+        prov = {"source": (f"drafted by {by}, run {run}, from the name in the legacy tag list alone; no posting or outside source checked"
+                           if origin else f"drafted by {by}, run {run}, from job postings"),
+                "date": today, "reviewed_by": None}
+        if origin:
+            prov["legacy_tag"] = origin
     out.update({"variants": variants, "relations": rels, "verbs": verbs, "status": "machine-drafted",
                 "provenance": prov, "evidence": ev})
     return out, dropped
@@ -172,7 +180,8 @@ def add_variant(resp, req, entries, by, run, today):
     tgt.setdefault("variants", []).append({"label": term, "match": L.default_match(term)})
     tgt.setdefault("evidence", []).append(
         {"field": f"variant:{L.norm(term)}", "by": by, "action": "drafted", "date": today, "run": run,
-         "note": ("same concept as " + tgt["preferred_name"] + (", listed in the legacy tag list"
+         "note": ("same concept as " + tgt["preferred_name"] + (", listed in O*NET Software Skills"
+                  if (req.get("origin") or {}).get("kind") == "onet-technology" else ", listed in the legacy tag list"
                   if req.get("origin") else ", seen in postings; quote: " + quote))[:NOTE_MAX]})
     return tgt
 

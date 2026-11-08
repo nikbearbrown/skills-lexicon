@@ -9,6 +9,10 @@
   {
    "label": "eClinicalWorks (ECW)",
    "match": "word_ci"
+  },
+  {
+   "label": "eClinicalWorks EHR software",
+   "match": "word_ci"
   }
  ],
  "relations": [],
@@ -96,6 +100,14 @@
    "outcome": "supports",
    "date": "2026-10-29",
    "run": "2026-10-29-review-5d-opus"
+  },
+  {
+   "field": "variant:eclinicalworks ehr software",
+   "by": "model:claude-sonnet-5-5",
+   "action": "drafted",
+   "date": "2026-11-07",
+   "run": "2026-11-07-onet-hot-tech",
+   "note": "same concept as eClinicalWorks, listed in O*NET Software Skills"
   }
  ]
 }
