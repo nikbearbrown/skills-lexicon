@@ -1,0 +1,27 @@
+{
+ "release": "30.2",
+ "table": "Technology Skills.txt",
+ "rows": 32773,
+ "distinct_examples": 8785,
+ "match": {
+  "none": 8163,
+  "exact": 197,
+  "contains": 425
+ },
+ "hot_examples": 171,
+ "hot_match": {
+  "none": 102,
+  "exact": 48,
+  "contains": 21
+ },
+ "in_demand_examples": 277,
+ "entries_in_lexicon": 3688,
+ "columns_used": {
+  "soc": "O*NET-SOC Code",
+  "example": "Example",
+  "code": "Commodity Code",
+  "title": "Commodity Title",
+  "hot": "Hot Technology",
+  "demand": "In Demand"
+ }
+}

@@ -1,0 +1,27 @@
+{
+ "release": "31.0",
+ "table": "Software Skills.txt",
+ "rows": 31821,
+ "distinct_examples": 8753,
+ "match": {
+  "none": 8134,
+  "exact": 193,
+  "contains": 426
+ },
+ "hot_examples": 176,
+ "hot_match": {
+  "none": 106,
+  "exact": 49,
+  "contains": 21
+ },
+ "in_demand_examples": 285,
+ "entries_in_lexicon": 3688,
+ "columns_used": {
+  "soc": "O*NET-SOC Code",
+  "example": "Workplace Example",
+  "code": "Element ID",
+  "title": "Element Name",
+  "hot": "Hot Technology",
+  "demand": "In Demand"
+ }
+}
