@@ -1,0 +1,116 @@
+{
+  "entries": 3688,
+  "classes": {
+    "ability": 67,
+    "certification": 859,
+    "knowledge": 518,
+    "language": 290,
+    "skill": 1954
+  },
+  "kinds": {
+    "ability": 67,
+    "credential": 859,
+    "framework": 85,
+    "human-language": 158,
+    "knowledge": 518,
+    "library": 129,
+    "markup-language": 10,
+    "method": 219,
+    "modeling-language": 7,
+    "platform": 219,
+    "programming-language": 112,
+    "skill": 689,
+    "standard": 115,
+    "style-language": 3,
+    "tool": 498,
+    "work-activity": 0
+  },
+  "statuses": {
+    "deprecated": 0,
+    "machine-drafted": 3555,
+    "proposed": 133,
+    "reviewed": 0
+  },
+  "variants": 2940,
+  "entries_with_variants": 2023,
+  "distinct_normalized_names_and_variants": 6625,
+  "relations": {
+    "total": 443,
+    "by_type": {
+      "broader": 79,
+      "contrast": 5,
+      "part_of": 9,
+      "related": 350
+    },
+    "rollup_enabled": 0
+  },
+  "claims": {
+    "total": 17097,
+    "backed": 1321,
+    "human_backed": 0
+  },
+  "descriptions": 1217,
+  "contradictions": {
+    "records": 675,
+    "entries": 456,
+    "claims_with_two_or_more_models": 114,
+    "description_claims": 20
+  },
+  "votes": {
+    "records": 13697,
+    "answers": {
+      "no": 1196,
+      "unsure": 1223,
+      "yes": 11278
+    }
+  },
+  "legacy_tags": {
+    "distinct_across_three_lists": 4880,
+    "matched_to_names_or_variants": 3721,
+    "with_recorded_decisions": 1162,
+    "matched_and_decided": 3,
+    "decision_only": 1159,
+    "unresolved": 0,
+    "decision_records": {
+      "not_a_skill": 564,
+      "unsure": 598
+    },
+    "distinct_per_file": {
+      "data/skills_tags.csv": 4254,
+      "data/skills-certification.csv": 818,
+      "data/skills-language.csv": 303
+    }
+  },
+  "wikipedia_resolved": {
+    "ambiguous": 77,
+    "none": 1902,
+    "related": 425,
+    "same": 1284
+  },
+  "onet_abilities": {
+    "definitions": 52,
+    "categories": {
+      "cognitive": 21,
+      "physical": 9,
+      "psychomotor": 10,
+      "sensory": 12
+    },
+    "occupation_titles": 1016,
+    "rated_occupations": 894,
+    "rating_rows": 46488,
+    "unique_occupation_ability_pairs": 46488,
+    "suppressed_rows": 68,
+    "not_relevant_rows": 7410
+  },
+  "credential_scope": {
+    "many-issuers": 522,
+    "single-issuer": 321,
+    "unset": 16
+  },
+  "language_type_flags": {
+    "human": 157,
+    "programming": 116,
+    "unset": 17
+  },
+  "validation_errors": 0
+}
