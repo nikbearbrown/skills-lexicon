@@ -38,7 +38,7 @@ The earlier README's **2,472 skills** was a combined total before knowledge beca
 
 There are **2,940 variant records** on **2,023 entries**. Together with preferred names, these produce **6,625 distinct normalized surface forms**. Normalization applies the existing Unicode, whitespace, and case rules. The raw total of names plus variant records is larger because some labels normalize to the same text.
 
-The **443 relation records** comprise **350 related, 79 broader, 9 part-of, and 5 contrast** links. These are directed records in the files, not necessarily unique undirected pairs. **No relation has count roll-up enabled.** The software supports explicit roll-up, but current data does not automatically count a specific concept toward a broader concept.
+The **443 relation records** comprise **350 related, 79 broader, 9 part-of, and 5 contrast** links. These are directed records in the files, not necessarily unique undirected pairs. **One relation has count roll-up enabled** (PostgreSQL → SQL). The software supports explicit roll-up; apart from that relation, current data does not automatically count a specific concept toward a broader concept.
 
 A variant claims equivalence of labels for a concept. A `related` link claims association, not equivalence. Confusing those relationships would inflate or misattribute counts. Current examples include Postgres → PostgreSQL and Golang → Go; even these mechanisms need contextual and evidence checks for other labels.
 

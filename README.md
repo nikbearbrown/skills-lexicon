@@ -150,7 +150,7 @@ The **859 credential concepts** have 321 `single-issuer`, 522 `many-issuers`, an
 | `broader` relations | 79 |
 | `part_of` relations | 9 |
 | `contrast` relations | 5 |
-| Relations with count roll-up enabled | 0 |
+| Relations with count roll-up enabled | 1 |
 
 **Concept synonyms work today.** Variants attach to one canonical concept, so `Postgres` resolves to PostgreSQL and `Golang` to Go. Case-sensitive matching, context requirements, and ambiguity flags help distinguish short or overloaded terms. Variants are draft assertions subject to review; related concepts must not automatically be treated as synonyms. The 6,625 normalized forms are deduplicated labels, not 6,625 skills.
 
