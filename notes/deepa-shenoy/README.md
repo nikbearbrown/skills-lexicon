@@ -1,6 +1,23 @@
 # Deepa Shenoy: notes
 
-Contributor notes for the Irreducibly Human Work Lexicon. Issue: #4.
+Contributor notes for the Irreducibly Human Work Lexicon. My issues and pull requests are listed under Status.
+
+## Status
+
+| # | Work | Status | Where |
+|---|---|---|---|
+| 1 | Reproduction check of the manuscript numbers + roll-up count fix | Done, in review | #4, #5 |
+
+## Proposed next (not yet claimed)
+
+Proposals, not commitments. I'll open an issue for each one only after the previous one is delivered, and after checking with Nik.
+
+| # | Proposal | Source | Why |
+|---|---|---|---|
+| 2 | Check the data and IT credentials (CompTIA, Google, Cisco, ITIL and others) against each issuer's own page: is it a credential, who issues it, is it still active | The issuer's page (`page-read`) | `docs/SCHEMAS.md` lists "Read the attesting organization's page" as not done; no entry has a `page-read` record yet |
+| 3 | Human review of the claims two or more models contradicted, starting with data and software entries | Vendor documentation | `docs/REVIEW-FLAGS.md` lists 114 such claims; the project report says to start there |
+| 4 | Review the 110 drafted hot-technology entries (Excel, Git, MySQL, Power BI and others) so they can be merged | O\*NET 31.0 listing, vendor documentation | Branch `data/onet-hot-tech-entries-20261107`; README gap: "integration of separately drafted entries" |
+| 5 | Check programming and markup language entries against a language reference such as GitHub Linguist | GitHub Linguist (MIT licence) | Accepted evidence for language claims in `docs/SCHEMAS.md`; the source would first need adding to `docs/SOURCES.md` |
 
 ## Files
 
