@@ -72,7 +72,7 @@ def main():
         'entries_with_variants': sum(bool(e.get('variants')) for e in entries),
         'distinct_normalized_names_and_variants': len(forms),
         'relations': {'total': len(relations), 'by_type': tally(r['type'] for r in relations),
-                      'rollup_enabled': sum(bool(r.get('rollup')) for r in relations)},
+                      'rollup_enabled': sum(bool(r.get('rolls_up')) for r in relations)},
         'claims': {'total': sum(len(L.claim_keys(e)) for e in entries), 'backed': len(backed),
                    'human_backed': len(human_backed)},
         'descriptions': sum('description' in e for e in entries),
